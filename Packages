@@ -1382,6 +1382,45 @@ Name: SugarCane 12-16 (Roothide)
 Author: iOS Creatix, kasiimh1, p2kdev
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SugarCare.json
 
+Package: com.jtis.switchtheme
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: baiy（qq：961666883））
+Installed-Size: 272
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.switchtheme_1.0.0_iphoneos-arm64.deb
+Size: 37464
+MD5sum: 08c480d2fd1d94682e5f0ed839eb4076
+SHA1: 7e21d09d3c5c0f6792b00caa26c77553db913723
+SHA256: 74584ffc112c921b057f4fa1904557fc08bdc0cda6f3cc10da7e36aa9508236d
+SHA512: 367802b320b744fd099784f6aaaa20e642482d3d2f680f8bba6dc9805eba38a961fca9ef54c7b682793871f227de4e07baf09395d393e136f840c2a3d6684a42
+Description: Mang đến phong cách nút On/Off ngày & đêm trên thiết bị của bạn.
+Name: Switch ngày & đêm
+Author: 白衣
+Icon: https://axs66.github.io/repo/icon/switchtheme.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Switchthemes.json
+
+Package: com.jtis.switchtheme
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: baiy（qq：961666883））
+Installed-Size: 272
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.switchtheme_1.0.0_iphoneos-arm64e-1.deb
+Size: 51954
+MD5sum: df8c45604c45eff79db58a897c25713d
+SHA1: d98a68a6292a6cc39b8b98a649665c46ef9c78c0
+SHA256: 9c724487f24f913af82a0a25b233ff1e525ce9327da0ee8f9afc134a586dc8fb
+SHA512: 8c4a25a6d40dfeec56b576385e81a779fbbd323e46520e86ed6aa7f9bad1f28d605bf1a167c508573314e7e2d507159a3cd9c9234d1234ca567af810c5793e3f
+Description: Mang đến phong cách nút On/Off ngày & đêm trên thiết bị của bạn.
+Name: Switch ngày & đêm
+Author: 白衣
+Icon: https://axs66.github.io/repo/icon/switchtheme.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Switchthemes.json
+
 Package: com.jtis.tgextra
 Architecture: iphoneos-arm64e
 Version: 1.2-1
