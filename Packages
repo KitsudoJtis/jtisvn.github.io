@@ -1390,13 +1390,13 @@ Maintainer: baiy（qq：961666883））
 Installed-Size: 272
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.switchtheme_1.0.0_iphoneos-arm64.deb
-Size: 37464
-MD5sum: 08c480d2fd1d94682e5f0ed839eb4076
-SHA1: 7e21d09d3c5c0f6792b00caa26c77553db913723
-SHA256: 74584ffc112c921b057f4fa1904557fc08bdc0cda6f3cc10da7e36aa9508236d
-SHA512: 367802b320b744fd099784f6aaaa20e642482d3d2f680f8bba6dc9805eba38a961fca9ef54c7b682793871f227de4e07baf09395d393e136f840c2a3d6684a42
+Size: 37480
+MD5sum: 8bf3637704e26c23a8ab613a85d65b81
+SHA1: b72ac5725b4207af2292822f269ef8a9a0bafe73
+SHA256: 2314d544b90e43843fae2ef94249159a6439a1bf8e5592578da9085af4b54ad5
+SHA512: 0c618b92332e8a91c655a7ca4634a57c7ccce47781f74361dbeb318e4bdf039cbec73b832987628fbf3b065cb58d96d16e04fedae06e054467b3329f6c341d0c
 Description: Mang đến phong cách nút On/Off ngày & đêm trên thiết bị của bạn.
-Name: Switch ngày & đêm
+Name: Switch DayNight (Rootless)
 Author: 白衣
 Icon: https://axs66.github.io/repo/icon/switchtheme.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Switchthemes.json
@@ -1409,14 +1409,14 @@ Maintainer: baiy（qq：961666883））
 Installed-Size: 272
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
-Filename: ./debs/com.jtis.switchtheme_1.0.0_iphoneos-arm64e-1.deb
-Size: 51954
-MD5sum: df8c45604c45eff79db58a897c25713d
-SHA1: d98a68a6292a6cc39b8b98a649665c46ef9c78c0
-SHA256: 9c724487f24f913af82a0a25b233ff1e525ce9327da0ee8f9afc134a586dc8fb
-SHA512: 8c4a25a6d40dfeec56b576385e81a779fbbd323e46520e86ed6aa7f9bad1f28d605bf1a167c508573314e7e2d507159a3cd9c9234d1234ca567af810c5793e3f
+Filename: ./debs/com.jtis.switchtheme_1.0.0_iphoneos-arm64e.deb
+Size: 38548
+MD5sum: e2f41910a54bf4d6ebf490f4acd25313
+SHA1: 224644b6adb5a5a64304b3ebf0ac83f89b1f22ab
+SHA256: 0ac80137d25a3a8e9f01678a4552c2b069e4b7e7a0d41c8edb20ec8e8ac08070
+SHA512: 31a7da9ad83375463ea5590e6fddf2cbf31c12f8a3b9dac466e3296530e51c8dbbac7264fdde8d118c023b94640b33742c7aeee4164df6273f27b7d3fe2211fa
 Description: Mang đến phong cách nút On/Off ngày & đêm trên thiết bị của bạn.
-Name: Switch ngày & đêm
+Name: Switch DayNight (Roothide)
 Author: 白衣
 Icon: https://axs66.github.io/repo/icon/switchtheme.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Switchthemes.json
