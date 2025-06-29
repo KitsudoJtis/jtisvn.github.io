@@ -487,6 +487,47 @@ Name: Callassist16 (Roothide)
 Author: xybp888vh
 SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist16.json
 
+Package: com.jtis.cc26
+Architecture: iphoneos-arm64
+Version: 0.4.1b
+Section: Tweaks
+Maintainer: JTIS Repo
+Provides: com.cureux.cc26
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
+Conflicts: com.dvntm.cc18
+Filename: ./debs/com.jtis.cc26_0.4.1b_iphoneos-arm64.deb
+Size: 12312
+MD5sum: 87fc118d8f3f6b046eb9be1ab1161fc0
+SHA1: f1e043bee6c8a8f885d5df9a55a840b9cbe845b3
+SHA256: 12614e77ef3fe4995de33edf36f254a235268cdc9b174eddeb925fd99476e464
+SHA512: 5bfcb0994af8b686e6bd749000f9031fb6254e98f5bc68e36fed33963192b852cee8d58f2543ba3afa3ffeab79ca829d1c83837bf38d647276020464f70dd11e
+Description: Mang phong cách mới IO26 gọn gàng cho trung tâm điều khiển trên thiết bị của bạn.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
+Name: CC26 (Rootless)
+Author: therealhoodboy
+Icon: https://jtisvn.github.io/sectionIcons/CC26.png
+
+Package: com.jtis.cc26
+Architecture: iphoneos-arm64e
+Version: 0.4.1b
+Section: Tweaks
+Maintainer: JTIS Repo
+Provides: com.cureux.cc26
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
+Conflicts: com.dvntm.cc18
+Filename: ./debs/com.jtis.cc26_0.4.1b_iphoneos-arm64e.deb
+Size: 13376
+MD5sum: 301aaa0b6ce331d2ef9b21479c07b105
+SHA1: a8d89cfb86714e3af2dec851686bff85e04a7cb6
+SHA256: 8b2724e101c1593c5c2ac924d3dc243e709fe1f5d0ef6c09bd5b9fec78eefb3f
+SHA512: 2674b1cdcd5a86f50814b21a42dc7b1a4fdb7a53dc6044211b72c2725317f3519656976b3ec497d2044bbb7d8e481636c95e7114cf32dfac002484f555220e75
+Description: Mang phong cách mới IO26 gọn gàng cho trung tâm điều khiển trên thiết bị của bạn.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
+Name: CC26 (Roothide)
+Author: therealhoodboy
+Icon: https://jtisvn.github.io/sectionIcons/CC26.png
+
 Package: com.jtis.copylogfix16
 Architecture: iphoneos-arm64
 Version: 1.0.1
