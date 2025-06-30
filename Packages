@@ -704,11 +704,11 @@ Version: 1.0
 Section: Chủ đề
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.filzaui_1.0_iphoneos-arm64.deb
-Size: 2424840
-MD5sum: 2cf7043188a45a4ff197315960e3130c
-SHA1: 21840a1c46e9cfe4a8d86663053eb0923dd3f24c
-SHA256: 8dc030ac938a56083c818fc1bc6fbb8224c5a4fbe8e45f5576d22b0d4127ab1e
-SHA512: 7263f97171a72589c18b4054466501c11c99a224488d9a81953debac9d0b4b2fb2c2fbee910da8666e9973fdfb9f07eb7cba9a662502805e892b3c371a38d40f
+Size: 527800
+MD5sum: 57a588ff212d3e32cdc1bcb81ebc782d
+SHA1: 401b0a7d6d3503f4b67dc2d262d75c1d2683d8f1
+SHA256: 02c9df7c87999f3169be5763cb5cb614832552d19957d9d39881d0e80e7888af
+SHA512: 0f07e13673ecbefdb7014ffd94123424d70a5b01f80c43d2c6c9600266b32ab381f316cd0766d603635fec2bf5633d12211c0654dfd6639f06f0e123e103e734
 Description: Cài đặt chủ đề UI belle & helios cho ứng dụng Filza qua tinh chỉnh Snowboard cho IPhone của bạn
 Name: Filza UI theme
 Author: Cypwn & OuniDesigns
@@ -721,11 +721,11 @@ Version: 1.0
 Section: Chủ đề
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.filzaui_1.0_iphoneos-arm64e.deb
-Size: 5026216
-MD5sum: 4e02d7e95cd536bcafd6f56cfe851f98
-SHA1: a71ddc23c9feafce92c5201134f73f009769d29a
-SHA256: 676819f02433284df46532e91d50364f446e43fc220b879ebcd7ec1677e6ed13
-SHA512: d6722cd78bb68159dc41264d8f131680a071843c83a87dbfb3ceb0ccba35f394ca936dd3a4300eba74473a62937e3310485b43a6fc35e083db4a40f5bbbf0332
+Size: 538270
+MD5sum: b65c4228fc05359380f547f6127fa2f0
+SHA1: dfc139988545b57149085f90a385d3293d8b1660
+SHA256: 096bcc420bec209401e6be7f7ef669c1892579d87537e551ef2074b06b7fcdcd
+SHA512: 2298da1a454cf9d2ec2082278d70235feb1c580f50e90f355126836b755c0fdb24eefc8c7a14e0cefca660e5c3527c807e76803c422034daefd2a62176d29340
 Description: Cài đặt chủ đề UI belle & helios cho ứng dụng Filza qua tinh chỉnh Snowboard cho IPhone của bạn
 Name: Filza UI theme
 Author: Cypwn & OuniDesigns
