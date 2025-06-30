@@ -698,6 +698,41 @@ Description: Chọn video làm nền màn hình cho IOS
 Name: Eneko (Roothide)
 Author: Traurige <hello@traurige.dev>
 
+Package: com.jtis.filzaui
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.filzaui_1.0_iphoneos-arm64.deb
+Size: 2424840
+MD5sum: 2cf7043188a45a4ff197315960e3130c
+SHA1: 21840a1c46e9cfe4a8d86663053eb0923dd3f24c
+SHA256: 8dc030ac938a56083c818fc1bc6fbb8224c5a4fbe8e45f5576d22b0d4127ab1e
+SHA512: 7263f97171a72589c18b4054466501c11c99a224488d9a81953debac9d0b4b2fb2c2fbee910da8666e9973fdfb9f07eb7cba9a662502805e892b3c371a38d40f
+Description: Cài đặt chủ đề UI belle & helios cho ứng dụng Filza qua tinh chỉnh Snowboard cho IPhone của bạn
+Name: Filza UI theme
+Author: Cypwn & OuniDesigns
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FilzaUI.json
+Icon: https://files.catbox.moe/w852v4.png
+
+Package: com.jtis.filzaui
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.filzaui_1.0_iphoneos-arm64e.deb
+Size: 5026216
+MD5sum: 4e02d7e95cd536bcafd6f56cfe851f98
+SHA1: a71ddc23c9feafce92c5201134f73f009769d29a
+SHA256: 676819f02433284df46532e91d50364f446e43fc220b879ebcd7ec1677e6ed13
+SHA512: d6722cd78bb68159dc41264d8f131680a071843c83a87dbfb3ceb0ccba35f394ca936dd3a4300eba74473a62937e3310485b43a6fc35e083db4a40f5bbbf0332
+Description: Cài đặt chủ đề UI belle & helios cho ứng dụng Filza qua tinh chỉnh Snowboard cho IPhone của bạn
+Name: Filza UI theme
+Author: Cypwn & OuniDesigns
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FilzaUI.json
+Icon: https://files.catbox.moe/w852v4.png
+ Pre-Depends: rootless-compat(>= 0.9)
+
 Package: com.jtis.flow
 Architecture: iphoneos-arm64
 Version: 1.0
