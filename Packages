@@ -1383,6 +1383,45 @@ Description: Snapper 3 là công cụ chụp ảnh màn hình có nhiều chức
 Name: Snapper 3 Crack (Roothide)
 Author: Jonathan Winger-lang
 
+Package: com.jtis.sonus15
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 720
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/com.jtis.sonus15_1.0.5_iphoneos-arm64.deb
+Size: 119896
+MD5sum: 68c9b018e5501af0d7744587a8aae799
+SHA1: 21896d190bc56b315b3047bbc8f8a8bb13c7fe01
+SHA256: 8b17fde5aee9bd2e083e4277be1c07fb22e0a5774a2f53ae6392f1d87efca402
+SHA512: cd05482f3d8e2ea2eda41b85eb02d603c37a6e45d950a46875fbb846447eda4f85cbe8c20afd6b74af1d5cc86c9bea663acb3e3b65e76a2418f20fe2a41cae87
+Description: Điều chỉnh giao điện tối ưu âm lượng. Hỗ trợ IOS 15+
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Sonus15.json
+Icon: https://jtisvn.github.io/sectionIcons/Sonus15.png
+Name: Sonus15 (Rootless)
+Author: ubik
+
+Package: com.jtis.sonus15
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 720
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/com.jtis.sonus15_1.0.5_iphoneos-arm64e.deb
+Size: 121900
+MD5sum: d1b3371a21fcf53edbb8fdaedc2093be
+SHA1: 15fe139478bbc9d965e974c7a4bb19001c03b4be
+SHA256: 6e5127b336942729549bf55b1e3d3d72ac84c38de17a0da9cd5d27da8fd59ea5
+SHA512: 2c83397be59d8ef42e7c18356a5151dd4208e71c2b27e89791cab2efd59718878c538202dca95b4e033509d25f3ff8c803dfe53d72247d664752cbfad6a2caf9
+Description: Điều chỉnh giao điện tối ưu âm lượng. Hỗ trợ IOS 15+
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Sonus15.json
+Icon: https://jtisvn.github.io/sectionIcons/Sonus15.png
+Name: Sonus15 (Roothide)
+Author: ubik
+
 Package: com.jtis.stealthcc
 Architecture: iphoneos-arm64
 Version: 0.9.0
