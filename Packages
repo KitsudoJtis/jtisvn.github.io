@@ -549,6 +549,28 @@ Name: CC26 (Rootless)
 Author: therealhoodboy
 Icon: https://jtisvn.github.io/sectionIcons/CC26.png
 
+Package: com.jtis.cc26
+Architecture: iphoneos-arm64e
+Version: 0.4.9.9b
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 220
+Provides: com.cureux.cc26
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
+Conflicts: com.dvntm.cc18
+Filename: ./debs/com.jtis.cc26_0.4.9.9b_iphoneos-arm64e.deb
+Size: 24772
+MD5sum: 496c9c365f415e62dc06165e3a2f9e01
+SHA1: 7059acdab7992b422b7980508b80b30f51387e81
+SHA256: 808b751a40b9c98d33297dddba028eb3daae061bfeaca47e9ef77a9b5dfd9909
+SHA512: c9409bf68b11bc5161d3cd2a2c7451e9d6572062f22a4b78a62b8c700f4e2112d9a2c2e86b724aeb9354aca23be03ba36cea7945bccfa73e169e5e5fe4003734
+Description: Mang phong cách mới IO26 gọn gàng cho trung tâm điều khiển trên thiết bị của bạn.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
+Name: CC26 (Roothide)
+Author: therealhoodboy
+Icon: https://jtisvn.github.io/sectionIcons/CC26.png
+
 Package: com.jtis.copylogfix16
 Architecture: iphoneos-arm64
 Version: 1.0.1
