@@ -61,7 +61,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"29/6/2025"
+"text":"7/7/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -83,7 +83,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 0.4.9.6b\n\n- Sửa lỗi\n\n Phiên bản 0.4.1b\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 },
 {
 "class":"DepictionLabelView",
