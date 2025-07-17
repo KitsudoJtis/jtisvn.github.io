@@ -451,6 +451,45 @@ Author: CydiaGeek <lucaluca86@aol.com>
 dev: lucaluca86
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ByeHomeBottomBarX.json
 
+Package: com.jtis.calculatorhistory
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 240
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.calculatorhistory_1.2_iphoneos-arm64.deb
+Size: 24260
+MD5sum: 36df60b86b3b4e8c4b062befff398dcc
+SHA1: ce8568d1d0d40568804e2ed18d98d7945b9774f2
+SHA256: 803464d6f31ee21caf3a1ae55aebb56ab294749b98d77840f851084a558275db
+SHA512: dac19784e46f9bd0d49a41434df2b3b500cc9fd8bf092fa8434c48f3d8d084267157229cbede8f6d8de652793dfb48372e78289f0a3523dabe2caaf06d3c8664
+Description: Tiện ích lưu lịch sử ứng dụng máy tính cho thiết bị IOS thấp hơn.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CalculatorHistory.json
+Icon: https://jtisvn.github.io/sectionIcons/CalculatorHistory.png
+Name: CalculatorHistory (Rootless)
+Author: fiore
+
+Package: com.jtis.calculatorhistory
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.calculatorhistory_1.2_iphoneos-arm64e.deb
+Size: 25248
+MD5sum: 25c82131c107a859815df06b1bbee65e
+SHA1: 8f3b12e4c5b8506f766a688472211d6e05614c83
+SHA256: 4d0075255aaed5e5409b0e620f486a8b03f49e663d72abd3bc1e0a9c4925edb1
+SHA512: d6a72b9eaebc39f9f7ca761997a7ed2c675b540a58959e1b49ce3e1780266c768cf6674643aa2657dcad8edb314c6973692f6030eacf106c665ef58008d88eba
+Description: Tiện ích lưu lịch sử ứng dụng máy tính cho thiết bị IOS thấp hơn.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CalculatorHistory.json
+Icon: https://jtisvn.github.io/sectionIcons/CalculatorHistory.png
+Name: CalculatorHistory (Roothide)
+Author: fiore
+
 Package: com.jtis.callassist15
 Architecture: iphoneos-arm64e
 Version: 2.1.7
