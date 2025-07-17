@@ -111,11 +111,6 @@
 "action": "https://t.me/jailbreaktrolliossupport"
 },
 {
-"class":"DepictionTableButtonView",
-"title": "Fanpage Facebook",
-"action": "https://facebook.com/repocydiaBVN"
-},
-{
 "class":"DepictionLabelView",
 "text":"Copyright © 2025 by JTISVN",
 "textColor":"#999999",
