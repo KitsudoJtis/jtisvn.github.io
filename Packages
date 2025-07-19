@@ -219,13 +219,13 @@ Section: Tweaks
 Maintainer: JTIS Repo
 Installed-Size: 2412
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.thuthuatjb.iconrepo.rootless
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.jtis.iconrepo.roothide
 Filename: ./debs/com.jtis.appdataplus_1.4.0-p_iphoneos-arm64e.deb
-Size: 773916
-MD5sum: 755bcf6107ec0e48216f2c4b1ed2b71d
-SHA1: a689ac38c410cbfdc604f4eb476854b9a94212c3
-SHA256: 3d46d8d0082d95b5156303ae80e0b5458ba2a04dba70769cd5a8a77305c22786
-SHA512: 2820343d50e0f52d9cd04d79094b7e1f3b102d0bb2af945797bf74a8c56073c4b0f280836b0b494e2f477c8362dfad19543b8dfd5a5574ee59f65765cab4993f
+Size: 773908
+MD5sum: 9086dacee7d9e1db1407e7af190dc3bf
+SHA1: c2fb7fe5bfe5780470b4e4173de901839886c436
+SHA256: 129ad6e3e7360a7d04da9afa473e5fcc6ee3f6b382e93830713c6de0abe2c1ec
+SHA512: b5d43b9102a0f9852c99804c1b61bf11acd8d9cdf64370c6a39fa89464d0c8a5bee6c872ed08d9502e61a48dbcfa4d86a34aec46833013d4e9cbb052909cc757
 Description: Trình quản lý dữ liệu ứng dụng từ màn hình chính phiên bản được bổ sung thêm chức năng.
 Tag: purpose::extension
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Appdataplus.json
@@ -1172,6 +1172,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Icatch.json
 Icon: https://repo.cypwn.xyz/packages/iCatch-Rootless/icon.png
 Name: iCatch (Roothide)
 Author: DeNsor
+
+Package: com.jtis.iconrepo.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0
+Priority: required
+Essential: yes
+Section: System
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.iconrepo.roothide_1.0_iphoneos-arm64e.deb
+Size: 38544
+MD5sum: bb95b644465eee9674167de7780ec7e3
+SHA1: 091445eb7f65015934698eee6569e6c73f2a4263
+SHA256: 6de243fdcf96018cd8823097855aa1282eaae5ccd7a938715f119e7d8727af87
+SHA512: e07261f4f40fbf99ca13dae92fa73a290068c79a54fba69a6888a2332d91a8fa656e25c115077bde1f46eddf547d8a835733a8c5267f9b40c55cbdc182578f64
+Description: Gói iCon cho nguồn JTIS Repo
+Tag: purpose::extension
+Name: JTISVN Icon Repo
+Author: JTIS Repo
+Sponsor: JTIS Repo
 
 Package: com.jtis.kayoko-roothide
 Architecture: iphoneos-arm64e
