@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Trình quản lý dữ liệu ứng dụng từ màn hình chính.\n\n- Chức năng gồm có\n\nm- Hạ cấp và chỉnh sửa tên ứng dụng.\n\n- Xem phiên bản và sao chép ID định dạng ứng dụng.\n\n- Kiểm tra kích thước, dữ liệu và bộ đệm ứng dụng.\n\n- Đặt lại quyền và xoá dự liệu vộ nhớ đệm ưng dụng.\n\n- Truy cập nhanh các nhóm gọi ứng dụng và vùng chứa úng dụng...\n\n- Xem hình ảnh phía dưới để biết chi tiết \n\nㅤ\n\n",
+"markdown":" Trình quản lý dữ liệu ứng dụng từ màn hình chính.\n\n- Chức năng gồm có:\n\n- Hạ cấp và chỉnh sửa tên ứng dụng.\n\n- Xem phiên bản và sao chép ID định dạng ứng dụng.\n\n- Kiểm tra kích thước, dữ liệu và bộ đệm ứng dụng.\n\n- Đặt lại quyền và xoá dự liệu vộ nhớ đệm ưng dụng.\n\n- Truy cập nhanh các nhóm gọi ứng dụng và vùng chứa úng dụng...\n\n- Xem hình ảnh phía dưới để biết chi tiết \n\nㅤ\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,7 +21,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Appdaraplus /Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/Appdataplus/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
