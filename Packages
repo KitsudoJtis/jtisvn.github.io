@@ -221,11 +221,11 @@ Installed-Size: 2412
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.jtis.iconrepo.roothide
 Filename: ./debs/com.jtis.appdataplus_1.4.0-p_iphoneos-arm64e.deb
-Size: 773908
-MD5sum: 9086dacee7d9e1db1407e7af190dc3bf
-SHA1: c2fb7fe5bfe5780470b4e4173de901839886c436
-SHA256: 129ad6e3e7360a7d04da9afa473e5fcc6ee3f6b382e93830713c6de0abe2c1ec
-SHA512: b5d43b9102a0f9852c99804c1b61bf11acd8d9cdf64370c6a39fa89464d0c8a5bee6c872ed08d9502e61a48dbcfa4d86a34aec46833013d4e9cbb052909cc757
+Size: 10042084
+MD5sum: ed522801347f6f89310ca65e572b70b4
+SHA1: a5b3e98be4556a2b3cbbef6ebd960a5f23c6e7ad
+SHA256: ff64bae99cafaa4406b731e610be5a006429dda9a00e4f75017580e598f2d3dd
+SHA512: ed14087aeece3884c19552cb178d15d61c6c71e619292032e7a3bdce59cfc2b810bf515e97c7001a48612890d306a0ad9ea7e2887d5d98f3381e086f1ae30e9f
 Description: Trình quản lý dữ liệu ứng dụng từ màn hình chính phiên bản được bổ sung thêm chức năng.
 Tag: purpose::extension
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Appdataplus.json
