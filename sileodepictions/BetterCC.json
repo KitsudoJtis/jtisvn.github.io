@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Thay đổi trung tâm và bố trí các mô đun theo cách bạn muốn.\n\n- Cấu hìnhcho mô đun kết nối, độ sáng, âm lương và điều khiển trình phát nhạc.n\n- Thêm chế độ xem thời tiết vào trung tâm điều khiển.\n\n- \n\n- Xem hình ảnh phía dưới để biết thẻm chi tiết \n\nㅤ\n\n",
+"markdown":" Thay đổi trung tâm và bố trí các mô đun theo cách bạn muốn.\n\n- Cấu hìnhcho mô đun kết nối, độ sáng, âm lương và điều khiển trình phát nhạc.n\n- Thêm chế độ xem thời tiết vào trung tâm điều khiển.\n\n- Lưu ý: Mỗi lần khởi động lại hoặc LDRestart vui lòng mở ứng dụng thời tiết để cập nhật dữ liệu thời tiết.\n\n- Xem hình ảnh phía dưới để biết thẻm chi tiết \n\nㅤ\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
