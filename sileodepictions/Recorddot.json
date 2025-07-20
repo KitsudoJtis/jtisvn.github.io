@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Trình quản lý dữ liệu ứng dụng từ màn hình chính.\n\n- Chức năng gồm có:\n\n- Hạ cấp và chỉnh sửa tên ứng dụng.\n\n- Xem phiên bản và sao chép ID định dạng ứng dụng.\n\n- Kiểm tra kích thước, dữ liệu và bộ đệm ứng dụng.\n\n- Đặt lại quyền, xoá dữ liệu và bộ nhớ đệm ứng dụng.\n\n- Truy cập nhanh các nhóm gọi ứng dụng và vùng chứa úng dụng...\n\n- Xem hình ảnh phía dưới để biết chi tiết \n\nㅤ\n\n",
+"markdown":" Thu nhỏ gọn gàng hình tròn đỏ trên thanh trang thái khi quay màn hình.\n\n- Xem hình ảnh phía dưới để biết chi tiết \n\nㅤ\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,7 +21,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Appdataplus/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/Recorddot/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -50,9 +50,9 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"Fouad Raheb & Netskao"
+"text":"Nightwind"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.4.0-p" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"0.0.1" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -61,7 +61,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"7/7/2025"
+"text":"20/7/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -83,7 +83,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.4.0\n\n- Sửa lỗi\n\n- Hỗ trợ Roothude Jailbreak"
+"markdown":"### Hỗ trợ Roothude Jailbreak"
 }
 ],
 "class":"DepictionStackView"

@@ -16,6 +16,25 @@ Description: Settings Icons for SnowBoard
 Name: SnowBoard Settings Icons Extension
 Author: Spark
 
+Package: com.0xkuj.bettercccrashprotect
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.0xkuj.bettercccrashprotect_1.0.0_iphoneos-arm64e.deb
+Size: 9922
+MD5sum: 686618be6ad8e9741329fc2a41328296
+SHA1: 5829af17b275a2733f3d70aac29363d0543684cf
+SHA256: 40149a2dc5a3836472a47784c39e8c30741472ed7abb48da91e4684fbfad03b6
+SHA512: ec2273d52cc23631f380aa1271d6ee01e16c9d5f2ac291b49bb4136a924f5f3f81c53bb8ebd154af71f1022a4ee6cda1c90cdb4c0b8cff32981767f0f16f9ae6
+Description: Prevent Weather Module with BetterCC crash your idevice
+Name: BetterCCCrashProtect (Roothide)
+Author: 0xkuj
+Icon: https://bvnsupport.github.io/depictions/sectionIcons/tinhchinhh1.png
+
 Package: com.0xkuj.safarix
 Architecture: iphoneos-arm64e
 Version: 1.9.8

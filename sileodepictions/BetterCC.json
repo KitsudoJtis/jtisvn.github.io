@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Trình quản lý dữ liệu ứng dụng từ màn hình chính.\n\n- Chức năng gồm có:\n\n- Hạ cấp và chỉnh sửa tên ứng dụng.\n\n- Xem phiên bản và sao chép ID định dạng ứng dụng.\n\n- Kiểm tra kích thước, dữ liệu và bộ đệm ứng dụng.\n\n- Đặt lại quyền, xoá dữ liệu và bộ nhớ đệm ứng dụng.\n\n- Truy cập nhanh các nhóm gọi ứng dụng và vùng chứa úng dụng...\n\n- Xem hình ảnh phía dưới để biết chi tiết \n\nㅤ\n\n",
+"markdown":" Thay đổi trung tâm và bố trí các mô đun theo cách bạn muốn.\n\n- Cấu hìnhcho mô đun kết nối, độ sáng, âm lương và điều khiển trình phát nhạc.n\n- Thêm chế độ xem thời tiết vào trung tâm điều khiển.\n\n- \n\n- Xem hình ảnh phía dưới để biết thẻm chi tiết \n\nㅤ\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,7 +21,19 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Appdataplus/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/BetterCC/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+}
+{
+"url":"https://jtisvn.github.io/infodeb/BetterCC/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+}
+{
+"url":"https://jtisvn.github.io/infodeb/BetterCC/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+}
+{
+"url":"https://jtisvn.github.io/infodeb/BetterCC/Screenshots/4.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -50,9 +62,9 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"Fouad Raheb & Netskao"
+"text":"miguelaka95"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.4.0-p" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"0.0.5" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -61,12 +73,12 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"7/7/2025"
+"text":"20/7/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.6.1"
+"text":"iOS 14.2 đến 16.7.11"
 },
 {
 "class":"DepictionLabelView",
@@ -83,7 +95,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.4.0\n\n- Sửa lỗi\n\n- Hỗ trợ Roothude Jailbreak"
+"markdown":"### Phiên bản 0.0.5\n\n- Sửa lỗi\n\n- Hỗ trợ Roothude Jailbreak"
 }
 ],
 "class":"DepictionStackView"
