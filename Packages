@@ -404,6 +404,29 @@ Name: BatteryPercent iOS16 (Rootless)
 Author: nqt1195
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BatteryPercent.json
 
+Package: com.jtis.bettercc
+Architecture: iphoneos-arm64e
+Version: 0.0.51
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 1828
+Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport, com.0xkuj.bettercccrashprotect
+Filename: ./debs/com.jtis.bettercc_0.0.51_iphoneos-arm64e.deb
+Size: 142816
+MD5sum: e131a644574bd8dcd15ad907960943b9
+SHA1: e64f413a65fa18f5134c59965066407d013fb75e
+SHA256: 9d6278fc39411184694c9d7ebc5a8a3df3bd9f620e008fe7cd5e95a903d050c4
+SHA512: dc27d60f828e352faf9bdb299d1711307aaa9a43d5cae3e0a1a5f72b4daf75adf91bcd8903f3aa87331ed3249b25a06fc2848ce0192530a3f73b99b6ada9fdf2
+Description: Customize your Control Center!
+ Invisible Modules.
+ Rearrange Connectivity Toggles.
+ Change Modules Size.
+ Weather Widget.
+Name: BetterCC (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BetterCC.json
+Icon: https://jtisvn.github.io/sectionIcons/BetterCC.png
+Author: Miguelaka95 <miguelaka95@gmail.com>
+
 Package: com.jtis.blur
 Architecture: iphoneos-arm64
 Version: 1.0-8+debug
