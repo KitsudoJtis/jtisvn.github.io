@@ -25,15 +25,14 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.0xkuj.bettercccrashprotect_1.0.0_iphoneos-arm64e.deb
-Size: 9922
-MD5sum: 686618be6ad8e9741329fc2a41328296
-SHA1: 5829af17b275a2733f3d70aac29363d0543684cf
-SHA256: 40149a2dc5a3836472a47784c39e8c30741472ed7abb48da91e4684fbfad03b6
-SHA512: ec2273d52cc23631f380aa1271d6ee01e16c9d5f2ac291b49bb4136a924f5f3f81c53bb8ebd154af71f1022a4ee6cda1c90cdb4c0b8cff32981767f0f16f9ae6
+Size: 4504
+MD5sum: 548f18fad202ce450e90843eee5cbdd0
+SHA1: ceb784153c758f55b319e0b05f318d4c214bd0e7
+SHA256: f279c761483516090f0711a1e9f4abbfe2900ac8bcfc5780e700f0b0a6a3dc10
+SHA512: 80b6b5649dc30cb186fc60ade46b41c3b73b15784d901cef40358e84ed21bb940fb2971a9be6f4e78be1bc14238ac4e9cd836c72df780086649d52ddf85a9cc2
 Description: Prevent Weather Module with BetterCC crash your idevice
-Name: BetterCCCrashProtect (Roothide)
+Name: BetterCCCrashProtect
 Author: 0xkuj
-Icon: https://bvnsupport.github.io/depictions/sectionIcons/tinhchinhh1.png
 
 Package: com.0xkuj.safarix
 Architecture: iphoneos-arm64e
@@ -1367,6 +1366,26 @@ SHA512: 1dababf651b4d23b840a988e4cd101d3df443832495e181ad80cf9e102fd4ef41449d02f
 Description: Điều khiển trình chuyển đổi và khoá ứng dụng của bạn trong đa nhiệm
 Name: PrimeDeck (Roothide)
 Author: 0xkuj
+
+Package: com.jtis.recorddot
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 532
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.recorddot_0.0.1_iphoneos-arm64e.deb
+Size: 195920
+MD5sum: 0f163cccfac6daa1f3924ba9ea205cb3
+SHA1: d3d2507b523817aa12af8cffe6321dc2eae4daf8
+SHA256: 26d20d284067b7a26f0632ecdf94e1c38d4198c7d6dbcde97ba84c63146cc751
+SHA512: b54d90cac9ffa194d59d28ada39b102bbfa7c20ffe0579023d550864cf5fb1764ad549ab2ad76aaa335f13979e5f135d00f58f952ac0cfb7a1ee45ff28fc8d93
+Description: Thu nhỏ gọn gàng hình tròn đỏ trên thanh trang thái khi quay màn hình.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Recorddot.json
+Name: RecordDot (Roothide)
+Author: Night wind
+Icon: https://jtisvn.github.io/sectionIcons/Recorddit.png
 
 Package: com.jtis.sentinel
 Architecture: iphoneos-arm64e
