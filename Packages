@@ -1776,6 +1776,47 @@ Name: TGExtra(RootHide)
 Icon: https://i.imgur.com/OKvuaJN.jpeg
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
 
+Package: com.jtis.trim
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: iGerman <igerman@igerman.cc>
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: ./debs/com.jtis.trim_0.0.2_iphoneos-arm64.deb
+Size: 13780
+MD5sum: a3a79602c2c56d99f6607a6a5924131a
+SHA1: 29effc5aff5fa27e5bbc010c477a0249fa4af64f
+SHA256: 402dc7cf1fdb46b57136ac3c6439a26fd442c71ae875c730866975ba999118ec
+SHA512: 175fcb60e405d530686dbca7da10b2fa5c902f6aac94385f402e05556aa07d88338a317a3a511446292c8e76540177fadc8ef0a6088e93206f00588d512ccfb0
+Homepage: https://shuga.co/
+Description: Fix lỗi tỉ lê khung hình sau khi fake cử chỉ X trên thiết nút home đời thấp.
+Name: Trim (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Trim.json
+Icon: https://jtisvn.github.io/sectionIcons/Trim.png
+Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
+Author: iGerman <igerman@igerman.cc>
+
+Package: com.jtis.trim
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: iGerman <igerman@igerman.cc>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: ./debs/com.jtis.trim_0.0.2_iphoneos-arm64e.deb
+Size: 15792
+MD5sum: e0b75628f6e7bdd3903036718e4e9d77
+SHA1: 3328daa7b6eb1db288a494e86e3d982ec0f1cf7e
+SHA256: f4ff9ce523cbf79e8c1022a5ebc581f6656fc677dbed8d322e0633c132f79dc5
+SHA512: 715f1df225da5167b01e329db9ef76efcf0c33952c651a997fbb64d696afddb6aebad5984fec9f0b67486c89288afdcf3a1ff62ce9778e25ec76c4ef06215dcc
+Homepage: https://shuga.co/
+Description: Fix lỗi tỉ lê khung hình sau khi fake cử chỉ X trên thiết nút home đời thấp.
+Name: Trim (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Trim.json
+Icon: https://jtisvn.github.io/sectionIcons/Trim.png
+Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
+Author: iGerman <igerman@igerman.cc>
+
 Package: com.jtis.vizagevh
 Architecture: iphoneos-arm64
 Version: 1.0.2

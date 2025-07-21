@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Fix lỗi tỉ lê khung hình sau khi fake cử chỉ X trên thiết nút home đời thấp.\n\n- Cải thiện việc ẩn Homebar.\n\n- Thêm tuỳ chọn cài đặt\n\n- Thêm khả năng điểu chỉnh khoảng cách viền màn hình\n\n- Thêm khả năng thu nhỏ bàn phím và bỏ khoảng trống xung quanh",
+"markdown":" Fix lỗi tỉ lê khung hình sau khi fake cử chỉ X trên thiết nút home đời thấp.\n\n- Cải thiện việc ẩn Home Bar.\n\n- Thêm tuỳ chọn cài đặt\n\n- Điểu chỉnh khoảng cách viền màn hình\n\n- Thêm khả năng thu nhỏ bàn phím và bỏ khoảng trống xung quanh.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
