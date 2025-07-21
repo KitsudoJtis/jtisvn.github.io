@@ -807,6 +807,45 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/DockX.json
 
 Package: com.jtis.eneko
 Architecture: iphoneos-arm64
+Version: 1.4.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 400
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Filename: ./debs/com.jtis.eneko_1.4.2_iphoneos-arm64.deb
+Size: 28580
+MD5sum: 8290c4b14898446d416e84d492fdd9ea
+SHA1: 74f5860851dcdee853a254ea2e6b80dc5aa1ebed
+SHA256: 8016cccadb17d99d6d988b10bdeb005ca4b24e0009438582f23ad0ebce48a78f
+SHA512: ce83d4133cf80b8ea33169b183b131a074eeff44297a2d793533b5646706b4335df629b41413b7135596c827c2ea776cd9ba9e1e8d5471be4f85ce1301c007c3
+Description: Chọn video làm nền màn hình cho IOS
+Name: Eneko (Rootless)
+Author: Traurige <hello@traurige.dev>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
+
+Package: com.jtis.eneko
+Architecture: iphoneos-arm64e
+Version: 1.4.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 400
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Filename: ./debs/com.jtis.eneko_1.4.2_iphoneos-arm64e.deb
+Size: 29280
+MD5sum: e91e74827027c30bfd7a90ca23a39200
+SHA1: 72ccae7e188432d4ee0cc2ffdd65ef24c1c9bbd8
+SHA256: e5fad24255ad79f5e85b4e4c885df6b3aeccb2f907710fd69c1da131fcecb804
+SHA512: 70859a891ac07ee7c0e13557f593556b3cfc54c60dc0a13e00e729f6f176647e5a316f0ffda178ac801829534c63ea8abd8f734784e44768da4c54ad6bd362fe
+Description: Chọn video làm nền màn hình cho IOS
+Name: Eneko (Roothide)
+Author: Traurige <hello@traurige.dev>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
+
+Package: com.jtis.eneko
+Architecture: iphoneos-arm64
 Version: 1.4
 Section: Tweaks
 Maintainer: JTIS Repo
