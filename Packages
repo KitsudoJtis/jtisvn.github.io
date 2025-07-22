@@ -1893,6 +1893,25 @@ Name: Vizage Gói Việt Hoá (Roothie)
 Author: JTIS Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
+Package: com.jtis.zaire
+Architecture: iphoneos-arm64e
+Version: 0.9.0
+Section: Tweaks
+Maintainer: Luki
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.zaire_0.9.0_iphoneos-arm64e.deb
+Size: 7204
+MD5sum: dd510204211744f91bad5f62596ece13
+SHA1: a3c4edc5f3aaea724ac65043b8bcac9bfaa84cbb
+SHA256: 89a09c03d73eda96daf69593304b00c1057f257d16219735cb3cff284e4d60db
+SHA512: 195d5d4d4d8d5da273460e7e8864aef5b88152e64d12eb01b06933a9adc2080a86a9a6c749dd90d27a384ee0b25c7676b74ecb4aaa988c4efa5ce3a49db0328b
+Description: Hiển thị số lượng ứng dụng đã tải về trong mục dung lượng cài đặt.
+Name: Zaire (Roothide)
+Author: Luki
+SileoDepiction: https:/jtisvn.github.io/sileodepictions/Zaire.json
+
 Package: com.jtisRingMask
 Architecture: iphoneos-arm64
 Version: 1.0
