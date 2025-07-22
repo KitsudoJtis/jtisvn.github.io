@@ -711,6 +711,45 @@ Name: CopyLogFix16 (Roothide)
 Icon: https://files.catbox.moe/aa1rb5.avif
 Author: 0xkuj
 
+Package: com.jtis.cozybadges
+Architecture: iphoneos-arm64
+Version: 2.2-2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 496
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.jtis.cozybadges_2.2-2.deb
+Size: 51096
+MD5sum: 0eacbb8b98e04f3f083878a5486b284f
+SHA1: 9f067ab411dfdb9f469da3cb0ed336da3adfc0a7
+SHA256: aabb86dbda7ddc0984a6c8889746877a28a10b58ed5e883333b2ef0d59843a59
+SHA512: c6241f4006746717fbbedeac5a0688861a5fad467c0af5ba6889b2447d1d31dab689101787dede3ce615cf9f219071e85c6ce0d13f60b593a32718cb7f5a9166
+Description: Tweaks cho phép huy hiệu thông báo được thay đổi hiển thị bên dưới ứng dụng.
+Name: CozyBadges (Rootless)
+Author: NoisyFlake、SINI
+SileoDepiction: https:/jtisvn.github.io/sileodepictions/CozyBadges.json
+Icon: https://jtisvn.github.io/sectionIcons/CozyBadges.png
+
+Package: com.jtis.cozybadges
+Architecture: iphoneos-arm64e
+Version: 2.2-2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 496
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.jtis.cozybadges_2.2-2_iphoneos-arm64e.deb
+Size: 54004
+MD5sum: 7141d8ab4ff7e788bbcd52c62a1480ee
+SHA1: 1aa89d0a2f7b01318a1613ed9b23dfdabbddaf1d
+SHA256: 2de70b40907353cd9b4c71bf5892c2a1a72e44b9d0ea9d3de2c08ef5469ba9e4
+SHA512: 7c8d26966f59c00d70dea0fd9e1bd36f90d2af3130900cfb24cdb559bf7a0090eca0b35332215101f0ab071cda3195c5408cf86dc71dccaf898e14c3c4b58c4e
+Description: Tweaks cho phép huy hiệu thông báo được thay đổi hiển thị bên dưới ứng dụng.
+Name: CozyBadges (Roothide)
+Author: NoisyFlake、SINI
+SileoDepiction: https:/jtisvn.github.io/sileodepictions/CozyBadges.json
+Icon: https://jtisvn.github.io/sectionIcons/CozyBadges.png
+
 Package: com.jtis.cydiageek.roundprefs
 Architecture: iphoneos-arm64e
 Version: 1.0.9
