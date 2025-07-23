@@ -95,7 +95,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.2\n\n- Mở nhanh ứng dụng! Giờ đây bạn có thể nhấn giữ trên thanh công cụ của Stage để bật ứng dụng đang hoạt động (iOS 15 trở lên)\n\n- Sửa lỗi race condition có thể gây treo khi mở Stage\n\n- Sửa lỗi danh sách Ứng dụng gần đây kkông cập nhật sau 4 ứng dụng\n\n- Tối ưu hoá nhỏ việc thay đổi kích thước ứng dụng\n\n- Sửa một số lỗi hiển thị nhỏ\n\n- Gỡ bỏ hệ thống DRM & máy chủ cấp phép\n\n- Thêm thông báo kết thúc hỗ trợ (EOL Notice\n\n- Hỗ trợ Roothude Jailbreak"
+"markdown":"### Phiên bản 1.2.1\n\n- Mở nhanh ứng dụng! Giờ đây bạn có thể nhấn giữ trên thanh công cụ của Stage để bật ứng dụng đang hoạt động (iOS 15 trở lên)\n\n- Sửa lỗi race condition có thể gây treo khi mở Stage\n\n- Sửa lỗi danh sách Ứng dụng gần đây kkông cập nhật sau 4 ứng dụng\n\n- Tối ưu hoá nhỏ việc thay đổi kích thước ứng dụng\n\n- Sửa một số lỗi hiển thị nhỏ\n\n- Gỡ bỏ hệ thống DRM & máy chủ cấp phép\n\n- Thêm thông báo kết thúc hỗ trợ (EOL Notice\n\n- Hỗ trợ Roothude Jailbreak"
 }
 ],
 "class":"DepictionStackView"
