@@ -64,7 +64,7 @@
 "title":"Tác giả",
 "text":"tomt000"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.2" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.2.1" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
