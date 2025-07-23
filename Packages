@@ -1684,6 +1684,43 @@ Icon: https://jtisvn.github.io/sectionIcons/Sonus15.png
 Name: Sonus15 (Roothide)
 Author: ubik
 
+Package: com.jtis.stageduo
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 4900
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Filename: ./debs/com.jtis.stageduo_1.2_iphoneos-arm64.deb
+Size: 3072076
+MD5sum: 7f0ad568a990895747a592f131eb26f0
+SHA1: 7fae684e91a9bdb7d3345aec7ec2f911ff7b147a
+SHA256: 2b5a9ca76db9825fe60dabafdfd59943480912a67b1314b448c78663c755c3b4
+SHA512: a319b41d15785a9c0949c594d705303822cf2d083c1c3fe88afe7ed5e4d7410c9520b1578449a58f10d0f181271280ba3c7c9f941345fbd7253516ced7389cbc
+Description: Trình quản lý giao điện cửa sổ ứng dụng trên màn hình cho iPhone
+Name: Dynamic Stage (Rootless)
+Author: tomt000
+SileoDepiction: https:/jtisvn.github.io/sileodepictions/Stage.json
+
+Package: com.jtis.stageduo
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 4900
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Filename: ./debs/com.jtis.stageduo_1.2_iphoneos-arm64e.deb
+Size: 6693012
+MD5sum: 86bb0b907046abdcf1abfa4a1db85314
+SHA1: fe0c35bc84498b8ba8f916760885ee4943bef24a
+SHA256: 8c769a6c7093022f9d500e977d32d230031a4df4f6a642adcff4a6547b219657
+SHA512: 504572ce4edac52328055b4e9e6d12e23dfef44cee4c8a7430b165665915656ea56afb241a7058e102f59015c02857005df909d1ecac5d426dfe758d9675bfdc
+Description: Trình quản lý giao điện cửa sổ ứng dụng trên màn hình cho iPhone
+Name: Dynamic Stage (Roothide)
+Author: tomt000
+SileoDepiction: https:/jtisvn.github.io/sileodepictions/Stage.json
+
 Package: com.jtis.stealthcc
 Architecture: iphoneos-arm64
 Version: 0.9.0
