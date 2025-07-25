@@ -2544,11 +2544,11 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.0xkuj.copylogfix16, com.bvn.copylogfix16-roothidr
 Filename: ./debs/me.tomt000.copylog_1.7.3_iphoneos-arm64e.deb
-Size: 1041028
-MD5sum: 2d38031da010d1133a8aba97fa24175f
-SHA1: dd49366eac6d3fba69d72770a8b226cdece66162
-SHA256: 4cc7a6fc75595cc63e61c9027bfdfc91e5b9ffbcb223083f4dda6a51f095bb97
-SHA512: e1998cf761f75efdacd3b9bf912b895ba9840ba790b76a31af84a4ba7bda10fae9126cc77e83a1f8df1a0a33d2a038c997b251d7ef22175989e1fb522babbbc2
+Size: 1040808
+MD5sum: 68a514082ab85e861cf2679ddaefb0b8
+SHA1: d49ac871837e48a3a0c6b3d377f52122eb04509f
+SHA256: b3425b8516537b54e06204e641bb9599ebd4ad3f91d2ae137c557655dfcb6340
+SHA512: 41e9af753429baf18fb342fdc9c059bb5ba1bcece8c29a9baec967d004c9d217875ebfca9d728114f682423316a1ae64f1efed54250a8cf25eca6f090bb39904
 Description: Quản lý lịch sử bảng tạm cho iOS!
 Name: CopyLog (Roothide)
 Author: TomT000
