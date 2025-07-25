@@ -1352,6 +1352,43 @@ Name: Lynx 2 (Roothide)
 Author: MTAC
 
 Package: com.jtis.ocd
+Architecture: iphoneos-arm64
+Version: 5.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Depends: com.mrgcgamer.libgcuniversal, preferenceloader
+Filename: ./debs/com.jtis.ocd_5.2_iphoneos-arm64.deb
+Size: 322412
+MD5sum: c91ea85b8ecadcb763b666864acd8bbb
+SHA1: 51339435808c5769e0edf23251556c2d26e30418
+SHA256: bda083aa4e99ffd6bf21c959433efc5679d51e6a738577f9f10e4bea464ac84d
+SHA512: a11b9e767c54aa011d1eb9cc9309e9a99e2a15b7231e4a4f374ed85352d305bf1d38741e8234fcdf17b6ca4eb4ed90ab526f7c0a386c8fde1a0da8384be60721
+Description: OCD - Obssesive Color Disorder.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/OCD.json
+Icon: https://jtisvn.github.io/sectionIcons/OCD.png
+Name: OCD (Rootless)
+Author: b4db1r3
+
+Package: com.jtis.ocd
+Architecture: iphoneos-arm64e
+Version: 5.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.mrgcgamer.libgcuniversal, preferenceloader
+Filename: ./debs/com.jtis.ocd_5.2_iphoneos-arm64e.deb
+Size: 324664
+MD5sum: 79ebf42079d2fcc6a2e664031d6d4cb1
+SHA1: cf3fc3ae6c7b051976210c78c2782cc2cefb0986
+SHA256: f029076b7284c271285ee9d5d1478e11045302e5dfaff1c9ba0871d385554a93
+SHA512: d564d15c630ca80d8fb55ef1f8f8568983e6d50306c1675c200b53f35020f9b37866c032e5831dc4f800a947d202df0c85ca3d1a89102b5d887411e480d4fdfa
+Description: OCD - Obssesive Color Disorder.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/OCD.json
+Icon: https://jtisvn.github.io/sectionIcons/OCD.png
+Name: OCD (Roothie)
+Author: b4db1r3
+
+Package: com.jtis.ocd
 Architecture: iphoneos-arm64e
 Version: 5.4.1.1
 Section: Tweaks
@@ -2533,6 +2570,26 @@ Homepage: https://tigisoftware.com/cydia/
 Description: Kích hoạt quyền full chức năng của Filza nguồn chính chủ.
 Name: Filza Crack (Roothide)
 Author: Netskao
+
+Package: me.tomt000.copylog
+Architecture: iphoneos-arm64
+Version: 1.7.3
+Section: Tweaks
+Maintainer: TomT000
+Installed-Size: 2240
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.0xkuj.copylogfix16
+Filename: ./debs/me.tomt000.copylog_1.7.3_iphoneos-arm64.deb
+Size: 1032916
+MD5sum: 20fbc4506bb24395fb6af5f7cf088271
+SHA1: 07fb6423429ab533c4eccbfafc64c5b087e53367
+SHA256: a2ab7c414bc19a9e47bd8a5e4031090d7d7a761961a2aa60f403cfa0ec1c509e
+SHA512: 572b4207203b19cadaec84c1c90efc9d9ff1e36ec4886ee0f840e6efcc2688aedbe28b8904a01fc4a835a09683dcc9e256de1def2e6eaaab01d095009c368605
+Description: Quản lý lịch sử bảng tạm cho iOS!
+Name: CopyLog (Rootless)
+Author: TomT000
+SileoDepiction: https:/jtisvn.github.io/sileodepictions/Copylog.json
+Icon: https://jtisvn.github.io/sectionIcons/Copylog.png
 
 Package: me.tomt000.copylog
 Architecture: iphoneos-arm64e
