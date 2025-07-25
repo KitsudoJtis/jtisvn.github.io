@@ -212,6 +212,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/LS-16-VN.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
 Package: com.jtis.adguardPro-r2
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Mở khoá ứng dụng
+Maintainer: Dell <dvq273665536@gmail.com>
+Installed-Size: 2964
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.adguardPro-r2_0.0.1_iphoneos-arm64.deb
+Size: 930916
+MD5sum: 7ba885b00d8031e998aa5bbde2468133
+SHA1: 9d886788d8987359999b2d7c97afae2f80a0f7e6
+SHA256: 8ab1b169b6b58f5124a4008c7b219c0c0fd7abc9afa2fb33eb83d54628c52313
+SHA512: 7f48201319001676fedd6d56c659b37f2a12fa7594663dafc21143b9d244fa658e87cff218a8dadb25b90b4a670e3cd0d3be36f015070c2eb847ea335aee0074
+Description: Unlock AdGuard Premium
+Name: AdGuard Pro
+Author: Dell <dvq273665536@gmail.com>
+Depiction: http://bvnsupport.github.io/infodeb/Html/AdGuard.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AdGuard.json
+Icon: https://jtisvn.github.io/sectionIcons/AdGuard.png
+
+Package: com.jtis.adguardPro-r2
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Mở khoá ứng dụng
@@ -220,17 +240,17 @@ Installed-Size: 2964
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.adguardPro-r2_0.0.1_iphoneos-arm64e.deb
-Size: 933544
-MD5sum: f972816290f5792e7983f04a6c6d36ef
-SHA1: e33102811c4248b6d4d3278c7dd5c98d27fb8380
-SHA256: f557ef8aa52fe3eaf31b1d53edc441c4c0d70350206cf238226f33cc36fb5318
-SHA512: 25ed20a934b952b8c7c672373cca0e57b9d257ac527b6cca155176e0037f295cd7ab9ea4187f789249d373dd1508b957fcba13c7401ce96d43bf9a46894ba18f
+Size: 933532
+MD5sum: 94c88dd7ee91ffc22dff88c5249b8533
+SHA1: 7e03c778ed8de2e934c1bb0a1a666d748d9e73e2
+SHA256: 2aab10efddd0aac1b8d6c9803434e0bc6885dead6f34632da8f725d7651b5bdc
+SHA512: 97b9e0fefaecf878fa5ece8c3d71689d2c5a2cc71ca1c2244daf583a7985c704a560275c49de105d67d2827e782fc51a42438d67f200f2c50b478b1506b87d61
 Description: Unlock AdGuard Premium
-Name: AdGuard Pro (Roothide)
+Name: AdGuard Pro
 Author: Dell <dvq273665536@gmail.com>
 Depiction: http://bvnsupport.github.io/infodeb/Html/AdGuard.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AdGuard.json
-Icon: https://jtisvn.github.io/depictions/sectionIcons/AdGuard.png
+Icon: https://jtisvn.github.io/sectionIcons/AdGuard.png
 
 Package: com.jtis.ampere
 Architecture: iphoneos-arm64
