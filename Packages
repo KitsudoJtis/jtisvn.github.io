@@ -211,6 +211,27 @@ Author: p0s3id0n
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LS-16-VN.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
+Package: com.jtis.adguardPro-r2
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Mở khoá ứng dụng
+Maintainer: Dell <dvq273665536@gmail.com>
+Installed-Size: 2964
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.adguardPro-r2_0.0.1_iphoneos-arm64e.deb
+Size: 933544
+MD5sum: f972816290f5792e7983f04a6c6d36ef
+SHA1: e33102811c4248b6d4d3278c7dd5c98d27fb8380
+SHA256: f557ef8aa52fe3eaf31b1d53edc441c4c0d70350206cf238226f33cc36fb5318
+SHA512: 25ed20a934b952b8c7c672373cca0e57b9d257ac527b6cca155176e0037f295cd7ab9ea4187f789249d373dd1508b957fcba13c7401ce96d43bf9a46894ba18f
+Description: Unlock AdGuard Premium
+Name: AdGuard Pro (Roothide)
+Author: Dell <dvq273665536@gmail.com>
+Depiction: http://bvnsupport.github.io/infodeb/Html/AdGuard.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AdGuard.json
+Icon: https://jtisvn.github.io/depictions/sectionIcons/AdGuard.png
+
 Package: com.jtis.ampere
 Architecture: iphoneos-arm64
 Version: 1.4
