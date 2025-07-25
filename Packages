@@ -2534,6 +2534,28 @@ Description: Kích hoạt quyền full chức năng của Filza nguồn chính c
 Name: Filza Crack (Roothide)
 Author: Netskao
 
+Package: me.tomt000.copylog
+Architecture: iphoneos-arm64e
+Version: 1.7.3
+Section: Tweaks
+Maintainer: TomT000
+Installed-Size: 2240
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.0xkuj.copylogfix16, com.bvn.copylogfix16-roothidr
+Filename: ./debs/me.tomt000.copylog_1.7.3_iphoneos-arm64e.deb
+Size: 1040468
+MD5sum: 041e9bc4aaf3ffeea68ba6e3a3af8174
+SHA1: 0bb4b11907b54f851ac713d498a0735a72c4a7be
+SHA256: 83adcb80f71b755bcf491e0090bf19b946e531d85904e532fb1032d900351d55
+SHA512: 107f64035dd4f7e3854b2eba6c47e6e2592e57ae0690152bec452c3f4ce2771979b4417f42efb2931d5dd334f7062bec32035cc6e178adea917a8c5a695ef0d0
+Description: Quản lý lịch sử bảng tạm cho iOS!
+Name: CopyLog (Roothide)
+Author: TomT000
+Depiction: http://bvnsupport.github.io/infodeb/Html/CopyLog.html
+SileoDepiction: https:/jtisvn.github.io/sileodepictions/Copylog.json
+Icon: https://jtisvn.github.io/sectionIcons/Copylog.png
+
 Package: me.tomt000.stageduo
 Architecture: iphoneos-arm64e
 Version: 1.2.1
