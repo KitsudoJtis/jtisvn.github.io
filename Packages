@@ -1884,11 +1884,11 @@ Maintainer: JTIS Repo
 Depends: firmware (>= 14.0)
 Filename: ./debs/com.jtis.teleSF_1.0_iphoneos-arm64.deb
 Size: 3244
-MD5sum: f7251137b8a0411c6befb5877ce4a427
-SHA1: 84535407c61b4eba5b16e30b7b29e0c166d60399
-SHA256: 81cacfd45e09adec6ca79a9cc070c433bcc73d55766666498c4f153dd34538b6
-SHA512: 0db5f6f55869c7833a2d3f7049edfac0daedc23b3c9b7d6cf9d5d56ba91641a1503b350e26e0d948ae5b1154961b847c901eb209911cc2f32e875e06d09c5158
-Description: weak này cho phép bạn chụp ảnh màn hình trong các kênh hoặc nhóm Telegram bị giới hạn chụp hình.
+MD5sum: 28df4e690407bdedb2172c858cbc3270
+SHA1: 2396e0e4a0f615f773e85854250da2db8273da1e
+SHA256: dd1ab5889278c9353f5caaa7148619b06b9961b902cd3ab1b7993ad438b9c3bc
+SHA512: a59f4d6c305dff93e87aa29c0592c9cf867790d7a79806993c036bc20a587e1f6da46a49cf9a31659dc35f59496ef3ff65acf990826173066189e895733dfaa9
+Description: Tweak này cho phép bạn chụp ảnh màn hình trong các kênh hoặc nhóm Telegram bị giới hạn chụp hình.
 Name: TG Screenshot Freedom
 Author: Unknown 佚名
 icon: https://jtisvn.github.io/sectionIcons/TeleSF.png
@@ -1902,12 +1902,12 @@ Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0)
 Filename: ./debs/com.jtis.telesf_1.0_iphoneos-arm64e.deb
-Size: 4316
-MD5sum: be4e0116b10e9ab78ff0ab6c41308039
-SHA1: 65033313e90d5d326702926f7aaf475ac85951d6
-SHA256: 9c58f2d684cc2b011c6a4dce312c5b6895235358c0a94fef9b0c1f698a9bfaf5
-SHA512: 7639ec0fe304daa8fca3993cb97a5bd693fe3a9ea4b976d89619818a7f542d0af2152b2b1b19fe15e26ba39ebab8baf1af058cd280313a4753b54c382255973d
-Description: weak này cho phép bạn chụp ảnh màn hình trong các kênh hoặc nhóm Telegram bị giới hạn chụp hình.
+Size: 4304
+MD5sum: e15af05fc0935e4decdbcce8cc66903d
+SHA1: 7962a7028b1635d487ec93ac76c5a2f08ac91642
+SHA256: 47b7156d57f58db5f3f6d6edf9b42b787894d2b04551320ee452d36f8249f1b5
+SHA512: 2f5d63d9cf40e27dc8d710bfa85abf2b9a7efecc71cc79e4872a0389dc0fd96b4f47c14ed5f7925e0a9641a5ca0eb02dd54f22ea710f76d343f61ca25ec48e8a
+Description: Tweak này cho phép bạn chụp ảnh màn hình trong các kênh hoặc nhóm Telegram bị giới hạn chụp hình.
 Name: TG Screenshot Freedom
 Author: Unknown 佚名
 icon: https://jtisvn.github.io/sectionIcons/TeleSF.png
