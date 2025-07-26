@@ -1876,6 +1876,43 @@ Author: 白衣
 Icon: https://axs66.github.io/repo/icon/switchtheme.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Switchthemes.json
 
+Package: com.jtis.teleSF
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Mở khoá ứng dụng
+Maintainer: JTIS Repo
+Depends: firmware (>= 14.0)
+Filename: ./debs/com.jtis.teleSF_1.0_iphoneos-arm64.deb
+Size: 3244
+MD5sum: f7251137b8a0411c6befb5877ce4a427
+SHA1: 84535407c61b4eba5b16e30b7b29e0c166d60399
+SHA256: 81cacfd45e09adec6ca79a9cc070c433bcc73d55766666498c4f153dd34538b6
+SHA512: 0db5f6f55869c7833a2d3f7049edfac0daedc23b3c9b7d6cf9d5d56ba91641a1503b350e26e0d948ae5b1154961b847c901eb209911cc2f32e875e06d09c5158
+Description: weak này cho phép bạn chụp ảnh màn hình trong các kênh hoặc nhóm Telegram bị giới hạn chụp hình.
+Name: TG Screenshot Freedom
+Author: Unknown 佚名
+icon: https://jtisvn.github.io/sectionIcons/TeleSF.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TeleSF.json
+
+Package: com.jtis.teleSF
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Mở khoá ứng dụng
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0)
+Filename: ./debs/com.jtis.telesf_1.0_iphoneos-arm64e.deb
+Size: 4316
+MD5sum: be4e0116b10e9ab78ff0ab6c41308039
+SHA1: 65033313e90d5d326702926f7aaf475ac85951d6
+SHA256: 9c58f2d684cc2b011c6a4dce312c5b6895235358c0a94fef9b0c1f698a9bfaf5
+SHA512: 7639ec0fe304daa8fca3993cb97a5bd693fe3a9ea4b976d89619818a7f542d0af2152b2b1b19fe15e26ba39ebab8baf1af058cd280313a4753b54c382255973d
+Description: weak này cho phép bạn chụp ảnh màn hình trong các kênh hoặc nhóm Telegram bị giới hạn chụp hình.
+Name: TG Screenshot Freedom
+Author: Unknown 佚名
+icon: https://jtisvn.github.io/sectionIcons/TeleSF.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TeleSF.json
+
 Package: com.jtis.tgextra
 Architecture: iphoneos-arm64e
 Version: 1.2-1
