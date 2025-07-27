@@ -874,15 +874,16 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
 Conflicts: com.restiveconch.actionbar
 Filename: ./debs/com.jtis.dockx_2.6.2_iphoneos-arm64e.deb
-Size: 425740
-MD5sum: c454c56d59c2b835f487aea82f9f0f22
-SHA1: ff588f49ca57eeff4e22f6830ef1eb65bdb74523
-SHA256: b5825103612fdf9e2e3c3b3e62aea30d68bbfb03f046ebba3357f79925050663
-SHA512: 6b134c6ffc836edbc1e04f37c5c82f33b957f21f63a13534fb67d1c59ca5ab410da1ea5054e55c344c5740bc6d66f9f2c621188b1e2eac96f549a9edc1c0c306
-Description: Thêm 1 số chức năng như dán nhanh trên thanh bàn phím
+Size: 421052
+MD5sum: 4e39277b695ea62c8f498d1d10b3998f
+SHA1: d513fdd0a8fdad02002adf76b34e800f4ee1d4a9
+SHA256: 670e055b13691afffec665af42d70a2d12bda8f6819ea13c360cdfef52a13fd5
+SHA512: 5b39449d99f907c072c7418732dfc25862a5641e42adea5f813716436fa84485e0334a14500573f3a191a46285164afa1342012c104e317cab47e7c7838b51bf
+Description: Pasteboard shortcuts on your keyboard dock!
 Name: DockX (Roothide)
 Author: udevs
 Icon: https://Jtisvn.github.io/sectionIcons/Dockx.png
+Depiction: https://repo.cypwn.xyz/depiction/2759
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DockX.json
 
 Package: com.jtis.eneko
@@ -2133,6 +2134,25 @@ SHA256: 164d152666f8c15828112dff5c13f893454fe86498b50481f291a5ad7c5d37ad
 SHA512: 2d20a05a2199ef90a968414f954f07645d4d5b0a3ac5f2d69d81b5d643941363df57284fd43491f08c0599e9f0763eb7b82b9ff17e7628bdc0a6d0c97988f60a
 Description: Patch Tiếng Việt cho tweak Dock X
 Name: Dock X gói Việt Hoá (Rootless)
+Author: Jtis Repo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.dockx
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Gói
+Maintainer: JTIS Repo
+Installed-Size: 36568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.dockx_1.0_iphoneos-arm64e.deb
+Size: 9376
+MD5sum: 4c3a3a32b202d565f8f64b1e134d0bdf
+SHA1: d0b6d16bd5e44056ce683349051b7c26380f6602
+SHA256: 09a025f842cd3a0d795918eb643122cd5bda4be22d0cdea8f72e361f5aba54dd
+SHA512: a9556bd64b315a45d4932a57ad9ae9ccb2504d8ceafd84051ea307b91db69d3981864c92c5b12006f2ea1769805685f16d05eda05cd3c65767778718fd21612a
+Description: Thêm ngôn ngữ Tiếng Việt cho tweak Dock X
+Name: Dock X gói Việt Hoá (Roothide)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
