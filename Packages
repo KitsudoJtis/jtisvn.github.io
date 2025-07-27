@@ -2494,6 +2494,23 @@ Name: CCSupport
 Author: opa334
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 
+Package: com.phucdo.LSUISharingan
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: LS UI
+Maintainer: Phuc Do
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.phucdo.lsuisharingan_1.0_iphoneos-arm64e.deb
+Size: 65460
+MD5sum: 7cb6dbda99a5d0c0848bebfbf757c456
+SHA1: daaddb2a81efc9cc5b7bd2e3dd12f4e7d402b147
+SHA256: 2b115c0ba150573349e16ea124ddf5e8800b1ac652a87bf95c4737565a4c8a50
+SHA512: 7a69557a7d4c3cc6ee4b6701ad62c090840a131c9f30492e26c27373d91e912af27195f4ac8520f2e95efb0114688f15fbd78c530c4f9c55ed216502b8d1fa8e
+Description: Use Snowboard UI Extension to enable LS UI.
+Author: Phuc Do
+Name: LS UI Sharingan
+Icon: https://dobabaophuc1706.github.io/repo/package/LSUI/icon.png
+
 Package: com.ps.smoothcursorios13
 Architecture: iphoneos-arm64e
 Version: 0.0.1
