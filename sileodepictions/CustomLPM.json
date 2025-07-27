@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Tự động bật chế độ nguồn điện thấp tỉ lẹ % pin theo ý muốn.\n\n Chức năng gồm có:\n\n- Chọn phần trăm pin để bật/tắt chế độ nguồn điện thấp.\n\n- Buộc chế độ nguồn điện thấp phải bật kể cả khi đã sạc đến 80%.\n\n- Tự động bật/tắt chế độ nguồn điện thấp khi bạn sạc thiết bị.\n\n- Tự động bật/tắt chế độ nguồn điện thấp khi bạn bật chế độ máy bay.\n\n- Tự động bật/tắt chế độ nguồn điện thấp khi bạn khởi động lại thiết bị.\n\n- Tắt thông báo của chế độ nguồn điện thấp.\n\n-  Ẩn biểu tượng pin màu vàng khi bật chế độ nguồn điện thấp.\n\n- Chi tiết xem hình ảnh bên dưới.\n\n",
+"markdown":" Tự động bật chế độ nguồn điện thấp tỉ lệ % pin theo ý muốn của bạn.\n\n Chức năng gồm có:\n\n- Chọn phần trăm pin để bật/tắt chế độ nguồn điện thấp.\n\n- Buộc chế độ nguồn điện thấp phải bật kể cả khi đã sạc đến 80%.\n\n- Tự động bật/tắt chế độ nguồn điện thấp khi bạn sạc thiết bị.\n\n- Tự động bật/tắt chế độ nguồn điện thấp khi bạn bật chế độ máy bay.\n\n- Tự động bật/tắt chế độ nguồn điện thấp khi bạn khởi động lại thiết bị.\n\n- Tắt thông báo của chế độ nguồn điện thấp.\n\n-  Ẩn biểu tượng pin màu vàng khi bật chế độ nguồn điện thấp.\n\n- Chi tiết xem hình ảnh bên dưới.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
