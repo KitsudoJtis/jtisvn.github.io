@@ -791,6 +791,31 @@ Author: NoisyFlake、SINI
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/CozyBadges.json
 Icon: https://jtisvn.github.io/sectionIcons/CozyBadges.png
 
+Package: com.jtis.customlpm
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Priority: optional
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 612
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
+Filename: ./debs/com.jtis.customlpm_1.0.3_iphoneos-arm64e.deb
+Size: 70952
+MD5sum: f10f9f6bbcc2e6f22ff28ba8d0118f99
+SHA1: 007cf5ca8b27f9fa4160e64165f5e12e6c6a31b3
+SHA256: fc9a7ae6bf14f9ca3944528129267b3aa86b70b62fa50d5c165b17f7506234d1
+SHA512: ddae91a8f3b3d64db7c44754569e0e92a9b7370b9b225d5be4e15de7de98ee2c00a99b747dde19ca96bd550288be0422bc349811febd07d9301a4aaedab22e77
+Description: Tự động bật chế độ nguồn điện thấp tỉ lẹ % pin theo ý muốn.
+Tag: purpose::extension
+Name: CustomLPM (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CustomLPM.json
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=customlpmDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: CydiaGeek <lucaluca86@aol.com>
+dev: lucaluca86
+Icon: file:///var/jb/Library/PreferenceBundles/CustomLPM.bundle/CustomLPM@2x.png
+
 Package: com.jtis.cydiageek.roundprefs
 Architecture: iphoneos-arm64e
 Version: 1.0.9
