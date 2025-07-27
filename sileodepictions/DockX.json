@@ -1,6 +1,6 @@
 {
 "minVersion":"0.1",
-"headerImage":"https://i.imgur.com/j9qvwvE.jpeg",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
 "tintColor":"#5777B8",
 "tabs":[
 {
@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"Dock X\n\n- Thêm 1 số chức năng như dán nhanh trên thanh bàn phúmㅤ\n\n",
+"markdown":"Dock X\n\n- Thêm 1 số chức năng trên thanh bàn phúm\n\n_ Chi tiết xem hình ảnh bên dưới.ㅤ\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
