@@ -864,28 +864,6 @@ Description: DobbyHook Substrate Shim
 Name: DobbyShim
 Author: Nathan, jmpews
 
-Package: com.jtis.dockx
-Architecture: iphoneos-arm64e
-Version: 2.6.2
-Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 2036
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
-Conflicts: com.restiveconch.actionbar
-Filename: ./debs/com.jtis.dockx_2.6.2_iphoneos-arm64e.deb
-Size: 421052
-MD5sum: 4e39277b695ea62c8f498d1d10b3998f
-SHA1: d513fdd0a8fdad02002adf76b34e800f4ee1d4a9
-SHA256: 670e055b13691afffec665af42d70a2d12bda8f6819ea13c360cdfef52a13fd5
-SHA512: 5b39449d99f907c072c7418732dfc25862a5641e42adea5f813716436fa84485e0334a14500573f3a191a46285164afa1342012c104e317cab47e7c7838b51bf
-Description: Pasteboard shortcuts on your keyboard dock!
-Name: DockX (Roothide)
-Author: udevs
-Icon: https://Jtisvn.github.io/sectionIcons/Dockx.png
-Depiction: https://repo.cypwn.xyz/depiction/2759
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DockX.json
-
 Package: com.jtis.eneko
 Architecture: iphoneos-arm64
 Version: 1.4.2
@@ -2613,6 +2591,26 @@ SHA512: f0fe2343af5bd69cc1fb8972eff2ed6f26d7e04730c4b5c1ba1cfca01ec610c9ee38d324
 Description: Fonts for SnowBoard
 Name: SnowBoard Fonts Extension
 Author: Spark
+
+Package: com.udevs.dockx
+Architecture: iphoneos-arm64e
+Version: 2.6.2
+Section: Tweaks
+Maintainer: udevs
+Installed-Size: 2036
+Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/com.udevs.dockx_2.6.2_iphoneos-arm64e.deb
+Size: 414624
+MD5sum: e271c7713a344680686f0aa4ed08b5d5
+SHA1: e36e6cf9dd020b6587ef618f7abeacdfa9b0030f
+SHA256: 618969cd53355978fa267b129f9a1dbb004725b9ce4f5037d0e964553219e5cb
+SHA512: 41257907ca6abaacc9e554359bbe384322901ee53671cfc4f694fc32ad43fcc31eb03140e16d9939bdf5dfe448d9f69560e2279ce058c71a270f1d99c6b4a905
+Description: Pasteboard shortcuts on your keyboard dock!
+Name: DockX (Roothide)
+Author: udevs
+Icon: https://Jtisvn.github.io/sectionIcons/Dockx.png
+SileoDepiction: https://lclrc.https://jtisvn.github.io/sileodepictions/DockX.json
 
 Package: com.xina.blacklist
 Architecture: iphoneos-arm64
