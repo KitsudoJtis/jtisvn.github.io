@@ -2601,16 +2601,16 @@ Installed-Size: 2036
 Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
 Conflicts: com.restiveconch.actionbar
 Filename: ./debs/com.udevs.dockx_2.6.2_iphoneos-arm64e.deb
-Size: 414624
-MD5sum: e271c7713a344680686f0aa4ed08b5d5
-SHA1: e36e6cf9dd020b6587ef618f7abeacdfa9b0030f
-SHA256: 618969cd53355978fa267b129f9a1dbb004725b9ce4f5037d0e964553219e5cb
-SHA512: 41257907ca6abaacc9e554359bbe384322901ee53671cfc4f694fc32ad43fcc31eb03140e16d9939bdf5dfe448d9f69560e2279ce058c71a270f1d99c6b4a905
+Size: 414616
+MD5sum: 5d5d95139864d61e11628f6fb9bd06f2
+SHA1: 0a1ae8c8ecc8393bb515463387f21597eb4ebe99
+SHA256: 50a2bdf9ffc642f905d524b1867e3c487a8d2006e35a050b87382dd6b1ff1f89
+SHA512: 25c04d966456a162c8f8d2f6d688c1f01a6fe5e9fb2ebb0bdb2f9eeb0f343162fe7782f57692a77a84f400b8e9a55f20e8a17f2378b05993b424ef6d1e6a366d
 Description: Pasteboard shortcuts on your keyboard dock!
 Name: DockX (Roothide)
 Author: udevs
 Icon: https://Jtisvn.github.io/sectionIcons/Dockx.png
-SileoDepiction: https://lclrc.https://jtisvn.github.io/sileodepictions/DockX.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DockX.json
 
 Package: com.xina.blacklist
 Architecture: iphoneos-arm64
