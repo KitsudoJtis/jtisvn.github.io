@@ -52,6 +52,25 @@ Name: SafariX-New(Roothde)
 Author: 0xkuj
 Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
 
+Package: com.BIENVANNHAT.safeccmodules
+Architecture: iphoneos-arm64e
+Version: 1.5-2
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.1)
+Filename: ./debs/com.BIENVANNHAT.safeccmodules_1.5-2_iphoneos-arm64e.deb
+Size: 1162200
+MD5sum: da67fa4c3d9c9bbbe73a65dbf15ffe90
+SHA1: 9e79f6fe3f6fc8417c403e439e89d44bd96069f1
+SHA256: 53710fa73291fbd18ced6cdfe8fe0d6963d603f86116ea709f513474568027a9
+SHA512: 0db89c4ef5b2c0272448cfea6f23a3e238dcba9289540c79a7ca5d40a75442d6ea4aa967bf044e4e53d984374456a2cf842c527769d5c7efadc033669539ed07
+Description: Control center modules for iOS 11/12/13/15. New in v1.5-1: Fix for Tiny Volume and Silent Mode modules causing issues.
+Author: jailbreak365
+Name: CCModules (Roothide)
+dev: jailbreak365
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCModules.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
 Package: com.LLSwitch.roothide
 Architecture: iphoneos-arm64e
 Version: 1.0
