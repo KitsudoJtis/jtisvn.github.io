@@ -1,3 +1,23 @@
+Package: com.udevs.dockx
+Architecture: iphoneos-arm64e
+Version: 2.6.2
+Section: Tweaks
+Maintainer: udevs
+Installed-Size: 2036
+Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/DockX.2.6.2.arm64e.deb
+Size: 415640
+MD5sum: aaec70f5f30d3e11757b7878bf5a61ab
+SHA1: 7ed1e2731ee6ee50e7db2be36d33a6f1f271caef
+SHA256: f0e27981d4525b62757a62dbb1e7ece0a5239c69aa2adfdc4330e47be26996a9
+SHA512: 1be6ac06546dd8fe58d81612ba04af117fa56a15782ca658012eff280706f27ebd5febbc3dfd8fc3749469ee0b923755387cd254478f1be082066ac415e09e84
+Description: Pasteboard shortcuts on your keyboard dock!
+Name: DockX
+Author: udevs
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
 Package: com.spark.snowboard.settingsicons
 Architecture: iphoneos-arm64e
 Version: 1.0.26~Beta3-rootless
