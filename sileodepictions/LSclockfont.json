@@ -10,7 +10,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/LS-16-VN/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/LSclockfont/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -44,7 +44,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"p0s3id0n"
+"text":"TQM"
 },
 {
 "class":"DepictionTableTextView",

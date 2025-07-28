@@ -2041,13 +2041,13 @@ Installed-Size: 36568
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.vizagevh_1.0.2_iphoneos-arm64e.deb
-Size: 2104
-MD5sum: e8e979b5f5ea1d33bc02f6ede4fbd4a1
-SHA1: 23c1571cb03d2fc7599a593a88a88260fbd4cbd2
-SHA256: e73c6deda080165359c32c6418578233ebf7b2e96c8e9aa892a8d37e46b95dec
-SHA512: ef2abcdb102d81df10dcfcd627f19006dca1eebdaf69c15c0491c06a158f51fa82e95861f50092eb1723972cfa71d94caf1cb89e378c56b546028ec8aad619e8
+Size: 2108
+MD5sum: 831271262165f51f803695dec1842427
+SHA1: a700388598d97ab83378d72950b641d30c9995ed
+SHA256: 33914acb37fbafc13055b5321ad485eb0e0769cebfa9d6d956c394191ac0d5bc
+SHA512: 33c090af4917cb2da458c59e59e3abc3677d886a672740c786df429b148fda372eacec7589bf704e95a535fadf7be8a0182dee24da5afff11ddfd55c68f03e40
 Description: Thêm ngôn ngữ Tiếng Việt cho tweak Vizage -Chỉ ap dụng cho tweak đã thanh toán trên nguồn Havoc.
-Name: Vizage Gói Việt Hoá (Roothie)
+Name: Vizage Gói Việt Hoá (Roothide)
 Author: JTIS Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
