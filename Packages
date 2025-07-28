@@ -468,6 +468,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/BetterCC.json
 Icon: https://jtisvn.github.io/sectionIcons/BetterCC.png
 Author: Miguelaka95 <miguelaka95@gmail.com>
 
+Package: com.jtis.bhtiktokplus
+Architecture: iphoneos-arm64e
+Version: 2.3.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 1480
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.bhtiktokplus_2.3.1_iphoneos-arm64e.deb
+Size: 499016
+MD5sum: 9a068d3e7b54adab68eb44abea4303cc
+SHA1: d750cc8855e11b78c7682a14c3a95589c96846dc
+SHA256: d7a77df0cb58f09751b5243617027a4750a79074df80277df914a39cddf4a693
+SHA512: 9f649db03ed70cffe6458c3e2c6165fe6a8410047867ef740de4654d482e932da260eda6286f8a41b71443fdad4ddbf6e0524a9ee3c3eb5ea4b99420146c02f6
+Description: Thêm 1 số chúc năng tiện ích cho ứng dụng Tiktok!
+Name: BHTikTok Plus (Roothide)
+Author: dvntm
+Icon: https://jtisvn.github.io/sectionIcons/BHtiktokplus.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BHtiktokplus.json
+
 Package: com.jtis.blur
 Architecture: iphoneos-arm64
 Version: 1.0-8+debug
