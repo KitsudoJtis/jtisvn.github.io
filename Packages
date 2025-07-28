@@ -477,11 +477,11 @@ Installed-Size: 1480
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.bhtiktokplus_2.3.1_iphoneos-arm64e.deb
-Size: 499016
-MD5sum: 9a068d3e7b54adab68eb44abea4303cc
-SHA1: d750cc8855e11b78c7682a14c3a95589c96846dc
-SHA256: d7a77df0cb58f09751b5243617027a4750a79074df80277df914a39cddf4a693
-SHA512: 9f649db03ed70cffe6458c3e2c6165fe6a8410047867ef740de4654d482e932da260eda6286f8a41b71443fdad4ddbf6e0524a9ee3c3eb5ea4b99420146c02f6
+Size: 499340
+MD5sum: a08505bd917768695d83585f9c0998f8
+SHA1: 9ea71db534b556ce4800fa35b7a3690cb295d48b
+SHA256: a5718432080fce59e27a2897fd30ba1a4ca59e4852b4d0d89190940b4802f145
+SHA512: bd8cfb8eace98ebd8b85f9a11adb13136a9f7bfc0854da8c5d8c6f7941a7794c8f83bc237e4fcb5140f30d540803a48659006bb0f03195610e9657be33fc1637
 Description: Thêm 1 số chúc năng tiện ích cho ứng dụng Tiktok!
 Name: BHTikTok Plus (Roothide)
 Author: dvntm
