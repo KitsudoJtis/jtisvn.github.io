@@ -1,23 +1,3 @@
-Package: com.udevs.dockx
-Architecture: iphoneos-arm64e
-Version: 2.6.2
-Section: Tweaks
-Maintainer: udevs
-Installed-Size: 2036
-Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
-Conflicts: com.restiveconch.actionbar
-Filename: ./debs/DockX.2.6.2.arm64e.deb
-Size: 415640
-MD5sum: aaec70f5f30d3e11757b7878bf5a61ab
-SHA1: 7ed1e2731ee6ee50e7db2be36d33a6f1f271caef
-SHA256: f0e27981d4525b62757a62dbb1e7ece0a5239c69aa2adfdc4330e47be26996a9
-SHA512: 1be6ac06546dd8fe58d81612ba04af117fa56a15782ca658012eff280706f27ebd5febbc3dfd8fc3749469ee0b923755387cd254478f1be082066ac415e09e84
-Description: Pasteboard shortcuts on your keyboard dock!
-Name: DockX
-Author: udevs
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
-
 Package: com.spark.snowboard.settingsicons
 Architecture: iphoneos-arm64e
 Version: 1.0.26~Beta3-rootless
@@ -71,25 +51,6 @@ Description: Thêm nhiều chức năng và điều chỉnh Safari theo ý mình
 Name: SafariX-New(Roothde)
 Author: 0xkuj
 Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
-
-Package: com.BIENVANNHAT.safeccmodules
-Architecture: iphoneos-arm64e
-Version: 1.5-2
-Section: Tweaks
-Maintainer: JTIS Repo
-Pre-Depends: rootless-compat(>= 0.1)
-Filename: ./debs/com.BIENVANNHAT.safeccmodules_1.5-2_iphoneos-arm64e.deb
-Size: 1162200
-MD5sum: da67fa4c3d9c9bbbe73a65dbf15ffe90
-SHA1: 9e79f6fe3f6fc8417c403e439e89d44bd96069f1
-SHA256: 53710fa73291fbd18ced6cdfe8fe0d6963d603f86116ea709f513474568027a9
-SHA512: 0db89c4ef5b2c0272448cfea6f23a3e238dcba9289540c79a7ca5d40a75442d6ea4aa967bf044e4e53d984374456a2cf842c527769d5c7efadc033669539ed07
-Description: Control center modules for iOS 11/12/13/15. New in v1.5-1: Fix for Tiny Volume and Silent Mode modules causing issues.
-Author: jailbreak365
-Name: CCModules (Roothide)
-dev: jailbreak365
-SileoDepiction: https://jtisvn.github.io/sileodepictions/CCModules.json
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.LLSwitch.roothide
 Architecture: iphoneos-arm64e
@@ -1629,6 +1590,25 @@ Name: RecordDot (Roothide)
 Author: Night wind
 Icon: https://jtisvn.github.io/sectionIcons/Recorddit.png
 
+Package: com.jtis.safeccmodules
+Architecture: iphoneos-arm64e
+Version: 1.5-2
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.1)
+Filename: ./debs/com.jtis.safeccmodules_1.5-2_iphoneos-arm64e.deb
+Size: 1162240
+MD5sum: 835438251912f8113d2dd754d7d4670a
+SHA1: 7021ae2c18223a49a003c7fc029890bc47054025
+SHA256: abb1c8694df6318898b992e1e31f300d48b30563dec95a38c2c446aa8846fd07
+SHA512: e83f8ed05e0702077d5284c3705d11a3ec69077ed0033af94ec26ef37455e2dcd0df0c13211db16cca351930ff8e7ba76b4959f18c5b31a40c5f56839bdc0cdd
+Description: Control center modules for iOS 11/12/13/15. New in v1.5-1: Fix for Tiny Volume and Silent Mode modules causing issues.
+Author: jailbreak365
+Name: CCModules (Roothide)
+dev: jailbreak365
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCModules.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
 Package: com.jtis.sentinel
 Architecture: iphoneos-arm64e
 Version: 1.3.2
@@ -2692,6 +2672,26 @@ SHA512: f0fe2343af5bd69cc1fb8972eff2ed6f26d7e04730c4b5c1ba1cfca01ec610c9ee38d324
 Description: Fonts for SnowBoard
 Name: SnowBoard Fonts Extension
 Author: Spark
+
+Package: com.udevs.dockx
+Architecture: iphoneos-arm64e
+Version: 2.6.2
+Section: Tweaks
+Maintainer: udevs
+Installed-Size: 2036
+Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/com.udevs.dockx_2.6.2_iphoneos-arm64e.deb
+Size: 415676
+MD5sum: 4468e4a7322fd1f828fc4ec58d14b9ca
+SHA1: 3fa06333eca1fdbbb1af3db45327d114c7cf242b
+SHA256: 4499320d7011183c22b38f906ec1a2cc7dd9c5d4a1df802c248537e026e6af28
+SHA512: 86c5ea3a20a9a82326980be9f386956c9443136665a73adc88defdd0f3cba327d62f6e32777d66dfcec3f78b2e70861a3cff98e14ba7ab2f268ecae1607889a9
+Description: Pasteboard shortcuts on your keyboard dock!
+Name: DockX (Roothide)
+Author: udevs
+Icon: https://jtisvn.github.io/sectionIcons/Dockx.png
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
 
 Package: com.xina.blacklist
 Architecture: iphoneos-arm64
