@@ -371,6 +371,24 @@ Author: Netskao
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoFaceUnlock.json
 
 Package: com.jtis.autoscroll15
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.autoscroll15_1.0.0_iphoneos-arm64.deb
+Size: 5240
+MD5sum: c363ee06db951e54d067fca6f2a938c7
+SHA1: ccb8695b3faf04ddd31c5694c7455e306c938ab7
+SHA256: 3f44ffd0fa19032d1a07b0afe67a03bb003ddb0339dcf010f74d965b7db87195
+SHA512: dacb555ee6debf388c4b0a74715fbf7d2a547b4d9bbd9714f2e49abef365dba0e12445a81b32442917ed5446ba61c15bea2d60bd64bb037fe29904e2fa32174e
+Description: Chức năng tự động cuộn màn hinhg trên moi ứng dụng.
+Name: AutoScroll (Rootless)
+Author: pxcex
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoScroll.json
+Icon: https://jtisvn.github.io/sectionIcons/Autoscroll.png
+
+Package: com.jtis.autoscroll15
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -378,16 +396,16 @@ Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.autoscroll15_1.0.0_iphoneos-arm64e.deb
-Size: 6448
-MD5sum: b767d698161b9b482768506848aa168b
-SHA1: 987323d1c1d03f9e6b528c6404e6e90ae792a695
-SHA256: 9b3e1ba623284c159aa826c97563fe69dad40fd53a241dcc02ca8f01cc2cae24
-SHA512: 565e6d2f00efcb3a45d65deae94a6725a3e949b7b0e53b5b13046c125f3f9ecacacb79c4ea2cf4f429f5d4196bb6b33e35b82e76ad2432330b8bfdcd94135335
+Size: 5232
+MD5sum: f8d70aa97e11b6bd26111e5c969286ca
+SHA1: 3f9f6f3c1029ec4a4ca693e351c3f7ff93c4d424
+SHA256: 17a0c51bfc05dffa390df66c65759fa4ef2a0713e17a9c985f888a0d4ac30c7c
+SHA512: 17af274983a399d56708f0a7833c8e165c24b28f5248b037001277adff08ee3406a02fda5e106cbe2498dcf336dd0fe9ed576e515ce872766fc3576394ba57d4
 Description: Chức năng tự động cuộn màn hinhg trên moi ứng dụng.
 Name: AutoScroll (Roothide)
 Author: pxcex
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoScroll.json
-Icon: https://i.imgur.com/eZpS8Qf.jpeg
+Icon: https://jtisvn.github.io/sectionIcons/Autoscroll.png
 
 Package: com.jtis.batteryinfo.r2
 Architecture: iphoneos-arm64e
@@ -732,6 +750,41 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
 Name: CC26 (Roothide)
 Author: therealhoodboy
 Icon: https://jtisvn.github.io/sectionIcons/CC26.png
+
+Package: com.jtis.clockfont
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS font
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.clockfont_1.0_iphoneos-arm64.deb
+Size: 93412
+MD5sum: 16770559ca6b35f8264d05054981b72a
+SHA1: 947b536efe80bcd8fc1228489ab498920c84ca15
+SHA256: e548e2687939fead735f053487914b9331f80163e4725c179d676faedd1efa1f
+SHA512: 39b8fb158d6a5ff5ebe3d9f3593ca4ebd30a9d1355e5b3926eba51dc320c20c0a3909582e25fa7106119d38516e53a21705158930c4654c7ddb3a82050c8675b
+Description: Cài đặt Phông chữ đồng hồ màn hình khoá cho IPhone
+Name: Clock Font LS
+Author: TQM
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSclockfont.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+
+Package: com.jtis.clockfont
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: LS font
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.clockfont_1.0_iphoneos-arm64e.deb
+Size: 111744
+MD5sum: 4030169608ec6e64a13e0998c3c6be11
+SHA1: e5de1f532a2810715c804b1674fe3f1d4a6144e5
+SHA256: fe068039f8f9c5df515b208e6ab2d7e648fe0f2d061b6d54197c1d49316e4819
+SHA512: 4c9de29035ff4754b3c2116be7fa3e3e641ecfded32e4215787d0f20de43e5cfa08f53e1d193557d1c7532be8c5395384245200964fc9034300fbbbe56d1573f
+Description: Cài đặt Phông chữ đồng hồ màn hình khoá cho IPhone
+Name: Clock Font LS
+Author: TQM
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSclockfont.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+ Pre-Depends: rootless-compat(>= 0.9)
 
 Package: com.jtis.copylogfix16
 Architecture: iphoneos-arm64
