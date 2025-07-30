@@ -371,6 +371,24 @@ Author: Netskao
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoFaceUnlock.json
 
 Package: com.jtis.autoscroll15
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.autoscroll15_1.0.0_iphoneos-arm64.deb
+Size: 5240
+MD5sum: c363ee06db951e54d067fca6f2a938c7
+SHA1: ccb8695b3faf04ddd31c5694c7455e306c938ab7
+SHA256: 3f44ffd0fa19032d1a07b0afe67a03bb003ddb0339dcf010f74d965b7db87195
+SHA512: dacb555ee6debf388c4b0a74715fbf7d2a547b4d9bbd9714f2e49abef365dba0e12445a81b32442917ed5446ba61c15bea2d60bd64bb037fe29904e2fa32174e
+Description: Chức năng tự động cuộn màn hinhg trên moi ứng dụng.
+Name: AutoScroll (Rootless)
+Author: pxcex
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoScroll.json
+Icon: https://jtisvn.github.io/sectionIcons/Autoscroll.png
+
+Package: com.jtis.autoscroll15
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -378,16 +396,16 @@ Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.autoscroll15_1.0.0_iphoneos-arm64e.deb
-Size: 6448
-MD5sum: b767d698161b9b482768506848aa168b
-SHA1: 987323d1c1d03f9e6b528c6404e6e90ae792a695
-SHA256: 9b3e1ba623284c159aa826c97563fe69dad40fd53a241dcc02ca8f01cc2cae24
-SHA512: 565e6d2f00efcb3a45d65deae94a6725a3e949b7b0e53b5b13046c125f3f9ecacacb79c4ea2cf4f429f5d4196bb6b33e35b82e76ad2432330b8bfdcd94135335
+Size: 5232
+MD5sum: f8d70aa97e11b6bd26111e5c969286ca
+SHA1: 3f9f6f3c1029ec4a4ca693e351c3f7ff93c4d424
+SHA256: 17a0c51bfc05dffa390df66c65759fa4ef2a0713e17a9c985f888a0d4ac30c7c
+SHA512: 17af274983a399d56708f0a7833c8e165c24b28f5248b037001277adff08ee3406a02fda5e106cbe2498dcf336dd0fe9ed576e515ce872766fc3576394ba57d4
 Description: Chức năng tự động cuộn màn hinhg trên moi ứng dụng.
 Name: AutoScroll (Roothide)
 Author: pxcex
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoScroll.json
-Icon: https://i.imgur.com/eZpS8Qf.jpeg
+Icon: https://jtisvn.github.io/sectionIcons/Autoscroll.png
 
 Package: com.jtis.batteryinfo.r2
 Architecture: iphoneos-arm64e
@@ -467,6 +485,26 @@ Name: BetterCC (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BetterCC.json
 Icon: https://jtisvn.github.io/sectionIcons/BetterCC.png
 Author: Miguelaka95 <miguelaka95@gmail.com>
+
+Package: com.jtis.bhtiktokplus
+Architecture: iphoneos-arm64e
+Version: 2.3.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 1480
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.bhtiktokplus_2.3.1_iphoneos-arm64e.deb
+Size: 499340
+MD5sum: a08505bd917768695d83585f9c0998f8
+SHA1: 9ea71db534b556ce4800fa35b7a3690cb295d48b
+SHA256: a5718432080fce59e27a2897fd30ba1a4ca59e4852b4d0d89190940b4802f145
+SHA512: bd8cfb8eace98ebd8b85f9a11adb13136a9f7bfc0854da8c5d8c6f7941a7794c8f83bc237e4fcb5140f30d540803a48659006bb0f03195610e9657be33fc1637
+Description: Thêm 1 số chúc năng tiện ích cho ứng dụng Tiktok!
+Name: BHTikTok Plus (Roothide)
+Author: dvntm
+Icon: https://jtisvn.github.io/sectionIcons/BHtiktokplus.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BHtiktokplus.json
 
 Package: com.jtis.blur
 Architecture: iphoneos-arm64
@@ -712,6 +750,41 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
 Name: CC26 (Roothide)
 Author: therealhoodboy
 Icon: https://jtisvn.github.io/sectionIcons/CC26.png
+
+Package: com.jtis.clockfont
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS font
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.clockfont_1.0_iphoneos-arm64.deb
+Size: 93412
+MD5sum: 16770559ca6b35f8264d05054981b72a
+SHA1: 947b536efe80bcd8fc1228489ab498920c84ca15
+SHA256: e548e2687939fead735f053487914b9331f80163e4725c179d676faedd1efa1f
+SHA512: 39b8fb158d6a5ff5ebe3d9f3593ca4ebd30a9d1355e5b3926eba51dc320c20c0a3909582e25fa7106119d38516e53a21705158930c4654c7ddb3a82050c8675b
+Description: Cài đặt Phông chữ đồng hồ màn hình khoá cho IPhone
+Name: Clock Font LS
+Author: TQM
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSclockfont.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+
+Package: com.jtis.clockfont
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: LS font
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.clockfont_1.0_iphoneos-arm64e.deb
+Size: 111744
+MD5sum: 4030169608ec6e64a13e0998c3c6be11
+SHA1: e5de1f532a2810715c804b1674fe3f1d4a6144e5
+SHA256: fe068039f8f9c5df515b208e6ab2d7e648fe0f2d061b6d54197c1d49316e4819
+SHA512: 4c9de29035ff4754b3c2116be7fa3e3e641ecfded32e4215787d0f20de43e5cfa08f53e1d193557d1c7532be8c5395384245200964fc9034300fbbbe56d1573f
+Description: Cài đặt Phông chữ đồng hồ màn hình khoá cho IPhone
+Name: Clock Font LS
+Author: TQM
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSclockfont.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+ Pre-Depends: rootless-compat(>= 0.9)
 
 Package: com.jtis.copylogfix16
 Architecture: iphoneos-arm64
@@ -1376,6 +1449,27 @@ Name: Kayoko (Roothide)
 Author: Alexandra Aurora Göttlicher
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko.json
 
+Package: com.jtis.little12
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 1024
+Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), xyz.cypwn.xinam1ne
+Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Filename: ./debs/com.jtis.little12_1.2.3_iphoneos-arm64.deb
+Size: 399748
+MD5sum: 3ce89799a30ad9eee74aa348bcb38730
+SHA1: f0e36917a8cca91c3ea4052d220410b46053b38b
+SHA256: 4ef69c1299e13f39c82997ef9f4252516336f1dd0992f0e3afda739e8b725f84
+SHA512: 1464bd0257dfcdbbccdb6652cf66cf96b7041a6b9e9d1af32094c8ab864ed2fd5bebe19b7ca278ddcc7696c5906bbe58121a8d0018a4c341b2f66550872e4dd3
+Description: Fake cử chỉ iPhone X/12 cho thiết bị IOS 15 đời thấp.
+Name: Little12 (Rootless)
+Author: Ryan Nair
+Icon: https://jtisvn.github.io/sectionIcons/Little12.png
+
 Package: com.jtis.lynxroothide
 Architecture: iphoneos-arm64e
 Version: 2.5.4
@@ -1569,6 +1663,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Recorddot.json
 Name: RecordDot (Roothide)
 Author: Night wind
 Icon: https://jtisvn.github.io/sectionIcons/Recorddit.png
+
+Package: com.jtis.safeccmodules
+Architecture: iphoneos-arm64e
+Version: 1.5-2
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.1)
+Filename: ./debs/com.jtis.safeccmodules_1.5-2_iphoneos-arm64e.deb
+Size: 1162240
+MD5sum: 835438251912f8113d2dd754d7d4670a
+SHA1: 7021ae2c18223a49a003c7fc029890bc47054025
+SHA256: abb1c8694df6318898b992e1e31f300d48b30563dec95a38c2c446aa8846fd07
+SHA512: e83f8ed05e0702077d5284c3705d11a3ec69077ed0033af94ec26ef37455e2dcd0df0c13211db16cca351930ff8e7ba76b4959f18c5b31a40c5f56839bdc0cdd
+Description: Control center modules for iOS 11/12/13/15. New in v1.5-1: Fix for Tiny Volume and Silent Mode modules causing issues.
+Author: jailbreak365
+Name: CCModules (Roothide)
+dev: jailbreak365
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCModules.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.jtis.sentinel
 Architecture: iphoneos-arm64e
@@ -2002,13 +2115,13 @@ Installed-Size: 36568
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.vizagevh_1.0.2_iphoneos-arm64e.deb
-Size: 2104
-MD5sum: e8e979b5f5ea1d33bc02f6ede4fbd4a1
-SHA1: 23c1571cb03d2fc7599a593a88a88260fbd4cbd2
-SHA256: e73c6deda080165359c32c6418578233ebf7b2e96c8e9aa892a8d37e46b95dec
-SHA512: ef2abcdb102d81df10dcfcd627f19006dca1eebdaf69c15c0491c06a158f51fa82e95861f50092eb1723972cfa71d94caf1cb89e378c56b546028ec8aad619e8
+Size: 2108
+MD5sum: 831271262165f51f803695dec1842427
+SHA1: a700388598d97ab83378d72950b641d30c9995ed
+SHA256: 33914acb37fbafc13055b5321ad485eb0e0769cebfa9d6d956c394191ac0d5bc
+SHA512: 33c090af4917cb2da458c59e59e3abc3677d886a672740c786df429b148fda372eacec7589bf704e95a535fadf7be8a0182dee24da5afff11ddfd55c68f03e40
 Description: Thêm ngôn ngữ Tiếng Việt cho tweak Vizage -Chỉ ap dụng cho tweak đã thanh toán trên nguồn Havoc.
-Name: Vizage Gói Việt Hoá (Roothie)
+Name: Vizage Gói Việt Hoá (Roothide)
 Author: JTIS Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
@@ -2634,6 +2747,26 @@ Description: Fonts for SnowBoard
 Name: SnowBoard Fonts Extension
 Author: Spark
 
+Package: com.udevs.dockx
+Architecture: iphoneos-arm64e
+Version: 2.6.2
+Section: Tweaks
+Maintainer: udevs
+Installed-Size: 2036
+Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/com.udevs.dockx_2.6.2_iphoneos-arm64e.deb
+Size: 415676
+MD5sum: 4468e4a7322fd1f828fc4ec58d14b9ca
+SHA1: 3fa06333eca1fdbbb1af3db45327d114c7cf242b
+SHA256: 4499320d7011183c22b38f906ec1a2cc7dd9c5d4a1df802c248537e026e6af28
+SHA512: 86c5ea3a20a9a82326980be9f386956c9443136665a73adc88defdd0f3cba327d62f6e32777d66dfcec3f78b2e70861a3cff98e14ba7ab2f268ecae1607889a9
+Description: Pasteboard shortcuts on your keyboard dock!
+Name: DockX (Roothide)
+Author: udevs
+Icon: https://jtisvn.github.io/sectionIcons/Dockx.png
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
 Package: com.xina.blacklist
 Architecture: iphoneos-arm64
 Version: 0.0.3-1+debug
@@ -2750,6 +2883,22 @@ Name: Dynamic Stage (Roothide)
 Author: tomt000
 Icon: https://jtisvn.github.io/sectionIcons/Stage.png
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/Stage.json
+
+Package: oldabi
+Architecture: iphoneos-arm64e
+Version: 0.3.1~4.f55e807
+Section: Tweak Injection
+Maintainer: Evelyn
+Depends: mobilesubstrate, cy+cpu.arm64e, firmware (>= 15.0)
+Filename: ./debs/oldabi_0.3.1~4.f55e807_iphoneos-arm64e.deb
+Size: 16400
+MD5sum: aee7cbdda4c03ed3966187a8376ccf7f
+SHA1: fc3119d11e1975cfff71cc8223856128ffbf8459
+SHA256: 9631dc0e3ba6333d771b98be7eac46c2f62171327dda453b0d77832e9000fb21
+SHA512: 367abfbcd223079b476b17840393bfb02b82cca369eb5350dd49b8d07c7d083fdba6913fff147e9152b964c7d748f8b31807b76410cf4c2f3c4f607856acee69
+Description: Support for legacy arm64e ABI in iOS 15.0+
+Author: Evelyn
+Name: Legacy arm64e Support
 
 Package: ru.rejail.dleasy
 Architecture: iphoneos-arm64e

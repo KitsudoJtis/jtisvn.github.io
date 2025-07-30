@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Tự động bật chế độ nguồn điện thấp tỉ lệ % pin theo ý muốn của bạn.\n\n Chức năng gồm có:\n\n- Chọn phần trăm pin để bật/tắt chế độ nguồn điện thấp.\n\n- Buộc chế độ nguồn điện thấp phải bật kể cả khi đã sạc đến 80%.\n\n- Tự động bật/tắt chế độ nguồn điện thấp khi bạn sạc thiết bị.\n\n- Tự động bật/tắt chế độ nguồn điện thấp khi bạn bật chế độ máy bay.\n\n- Tự động bật/tắt chế độ nguồn điện thấp khi bạn khởi động lại thiết bị.\n\n- Tắt thông báo của chế độ nguồn điện thấp.\n\n-  Ẩn biểu tượng pin màu vàng khi bật chế độ nguồn điện thấp.\n\n- Chi tiết xem hình ảnh bên dưới.\n\n",
+"markdown":" Thêm nhiều Mô-đun vào trung tâm điều khiển cho IOS.\n\n- Xem hình ảnh phia dưới để biết thêm chi tiết.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,11 +21,11 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/CustomLPM/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/CCModules/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/CustomLPM/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/CCModules/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -54,9 +54,9 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"CydiaGeek"
+"text":"jailbreak365"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.3" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.5-2" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -65,12 +65,12 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"27/7/2025"
+"text":"28/7/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.7.11"
+"text":"iOS 14.0 đến 16.7.11"
 },
 {
 "class":"DepictionLabelView",
@@ -87,7 +87,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.3\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Roothide Jailbreak"
+"markdown":"### Hỗ trợ Roothude Jailbreak"
 }
 ],
 "class":"DepictionStackView"
