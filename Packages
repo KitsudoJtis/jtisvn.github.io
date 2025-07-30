@@ -1449,6 +1449,27 @@ Name: Kayoko (Roothide)
 Author: Alexandra Aurora Göttlicher
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko.json
 
+Package: com.jtis.little12
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 1024
+Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), xyz.cypwn.xinam1ne
+Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Filename: ./debs/com.jtis.little12_1.2.3_iphoneos-arm64.deb
+Size: 399748
+MD5sum: 3ce89799a30ad9eee74aa348bcb38730
+SHA1: f0e36917a8cca91c3ea4052d220410b46053b38b
+SHA256: 4ef69c1299e13f39c82997ef9f4252516336f1dd0992f0e3afda739e8b725f84
+SHA512: 1464bd0257dfcdbbccdb6652cf66cf96b7041a6b9e9d1af32094c8ab864ed2fd5bebe19b7ca278ddcc7696c5906bbe58121a8d0018a4c341b2f66550872e4dd3
+Description: Fake cử chỉ iPhone X/12 cho thiết bị IOS 15 đời thấp.
+Name: Little12 (Rootless)
+Author: Ryan Nair
+Icon: https://jtisvn.github.io/sectionIcons/Little12.png
+
 Package: com.jtis.lynxroothide
 Architecture: iphoneos-arm64e
 Version: 2.5.4
