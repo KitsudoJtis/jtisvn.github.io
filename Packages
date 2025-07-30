@@ -667,6 +667,49 @@ Name: Callassist16 (Roothide)
 Author: xybp888vh
 SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist16.json
 
+Package: com.jtis.cask3
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 840
+Depends: firmware (>= 14.0)
+Replaces: com.ryannair05.cask2
+Filename: ./debs/com.jtis.cask3_1.0.3_iphoneos-arm64.deb
+Size: 313276
+MD5sum: 2c59590b2432cb07569e6e3066af3af5
+SHA1: 35d2df684b3064739391452e79fbb2e78b266bcc
+SHA256: 79de723e09bc3fbe5c02aeac73e0809bc0ff7dff8b691d445f859cb77fad75d7
+SHA512: 58c61cae4cc45aa9f91a4fde9e0d39680f1acec662c0b89757550a6ed00556b8661d55b75e828c353846da1d08ac19d2b94c5ab2c85e26905411e496291ac3c9
+Description: Cask 3 mang hiệu ứng cuộn bảng động đến toàn bộ iOS 14 trở lên. Với các phiên bản iOS thấp hơn, hãy thử dùng Cask gốc của Ryan Petrich hoặc Cask 2.
+Tag: compatible_min::ios14.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Name: Cask 3 (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/Cask3.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Cask3.json
+
+Package: com.jtis.cask3
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 840
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0)
+Replaces: com.ryannair05.cask2
+Filename: ./debs/com.jtis.cask3_1.0.3_iphoneos-arm64e.deb
+Size: 315964
+MD5sum: 480de6963bab82f8ce7a18db9a7e9cc6
+SHA1: e999e928e3f35aab3f7da96c1b3966aa5add96dd
+SHA256: 834395007b4260d44d9a8f43dc0f7c153ebe7a0b933ef12d371bc781193462b8
+SHA512: 9289768871846e08e432e60d7d8c1132f52f85f56b6f11b84126adfc517f1c50db2222736c8c7831dd4190f95e4b98d5a332a961c035b6fa965907a2f1d7792d
+Description: Cask 3 mang hiệu ứng cuộn bảng động đến toàn bộ iOS 14 trở lên. Với các phiên bản iOS thấp hơn, hãy thử dùng Cask gốc của Ryan Petrich hoặc Cask 2.
+Tag: compatible_min::ios14.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Name: Cask 3 (Roothide)
+Icon: https://jtisvn.github.io/sectionIcons/Cask3.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Cask3.json
+
 Package: com.jtis.cc26
 Architecture: iphoneos-arm64
 Version: 0.4.1b
