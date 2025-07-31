@@ -1,6 +1,6 @@
 {
 "minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/Colobar15.png",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
 "tintColor":"#5777B8",
 "tabs":[
 {
@@ -69,12 +69,12 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"31/7/2025"
+"text":"1/8/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 15.9"
+"text":"iOS 11.0 đến 16.5"
 },
 {
 "class":"DepictionLabelView",

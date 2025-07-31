@@ -1908,6 +1908,26 @@ Author: CreatureSurvive <support@creaturecoding.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Shuffle.json
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 
+Package: com.jtis.sixls
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: LS UI
+Maintainer: Skitty
+Installed-Size: 2260
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
+Filename: ./debs/com.jtis.sixls_1.1_iphoneos-arm64e.deb
+Size: 1470492
+MD5sum: be10e9eba09167dc1c71555b8bd56655
+SHA1: aab74fbc64191d7169e6baad94c3f81f6032313d
+SHA256: 89979e9dea0ebabac0235254a4fe3e917718b4a4bbc6f0181263a76dfd237d7e
+SHA512: 8d35fa18b585d921fcd86939be73a902572b5da8f00e66f0e77eb61646afd7e6387a6563efb4b494571619d31ada67ac8a754f24bd9e145267460618a3cf517c
+Description: Đổi màn hình khoá theo kiểu IOS 6!
+Name: Six (LS)
+SileoDepiction: https:/jtisvn.github.io/sileodepictions/SixLS.json
+Icon: https://jtisvn.github.io/sectionIcons/SixLS.png
+Author: Skitty
+
 Package: com.jtis.snapper3
 Architecture: iphoneos-arm64e
 Version: 1.0
