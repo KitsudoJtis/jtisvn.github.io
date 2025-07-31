@@ -829,6 +829,45 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/LSclockfont.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
  Pre-Depends: rootless-compat(>= 0.9)
 
+Package: com.jtis.colorbar15
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 1952
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2.1), preferenceloader (>= 2.2.6)
+Filename: ./debs/com.jtis.colorbar15_1.1.1_iphoneos-arm64.deb
+Size: 471492
+MD5sum: 2b07c26e11ee19643e332697b874d447
+SHA1: 67c380c36641e6b9647f703faccae97eb80fdcc7
+SHA256: 5dac2b68c37aca0493568c6ea3d4f2021fe6c14d2282da2ef314530033ab664e
+SHA512: 714fbc05699d4b083b6b57d4bfcb2cfd7c4079786769f49f37f00d69eddf15c20a9cfdeaa9484e785c68517b5b6b2efbadc6ed1d7da31041214a2482a1a5f45f
+Description: ColorBar15 allows you to personally style your status bar with colors and more.
+Name: ColorBar15 (Rootless)
+Author: DTCalabro
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Colobar15.json
+Icon: https://jtisvn.github.io/sectionIcons/Colobar15.png
+
+Package: com.jtis.colorbar15
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 1952
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2.1), preferenceloader (>= 2.2.6)
+Filename: ./debs/com.jtis.colorbar15_1.1.1_iphoneos-arm64e.deb
+Size: 479644
+MD5sum: 8ec6aa37b0efeb2102e1939d0c11f2c2
+SHA1: 0197ae60e4e6814e94b1e0bcd2b053ed182c92f1
+SHA256: 2f02bf177c97ace9a44ce2d849c541bca1b85555e5fbbfb2272f4fb3ddb6f630
+SHA512: b5b4f52d8b0b8997426dbffe5c2c0082b14ae4bfb8858c86f8580325c92ba37d9c7eb27c7bc8d7ae5e20bcb85ba45c8e1a3a7ba256249f4cb68b8e4304fd2eb9
+Description: ColorBar15 allows you to personally style your status bar with colors and more.
+Name: ColorBar15 (Roothide)
+Author: DTCalabro
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Colobar15.json
+Icon: https://jtisvn.github.io/sectionIcons/Colobar15.png
+
 Package: com.jtis.copylogfix16
 Architecture: iphoneos-arm64
 Version: 1.0.1
