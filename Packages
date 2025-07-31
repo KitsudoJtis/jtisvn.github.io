@@ -25,14 +25,15 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.0xkuj.bettercccrashprotect_1.0.0_iphoneos-arm64e.deb
-Size: 4504
-MD5sum: 548f18fad202ce450e90843eee5cbdd0
-SHA1: ceb784153c758f55b319e0b05f318d4c214bd0e7
-SHA256: f279c761483516090f0711a1e9f4abbfe2900ac8bcfc5780e700f0b0a6a3dc10
-SHA512: 80b6b5649dc30cb186fc60ade46b41c3b73b15784d901cef40358e84ed21bb940fb2971a9be6f4e78be1bc14238ac4e9cd836c72df780086649d52ddf85a9cc2
+Size: 4544
+MD5sum: 93f5d908e13c1f2ec4b0b1f51610e0b1
+SHA1: b57f635e3f7881fe92de64c2f98ff95bb663467e
+SHA256: ee7c1cb85c3364b8f8cea1da5edd1675f5e3518ad1083fdfca45384d0ad8238c
+SHA512: 08832d1856305a1a476d188d3f132781e5e452b098a7e6196ed3800f3a1cb846fd799e3e1b9627ef409a62cc2025921ba993c47af3ed0f6fe5bc5c88416e5681
 Description: Prevent Weather Module with BetterCC crash your idevice
 Name: BetterCCCrashProtect
 Author: 0xkuj
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.0xkuj.safarix
 Architecture: iphoneos-arm64e
@@ -1102,6 +1103,26 @@ Name: Eneko (Rootless)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
 Author: Traurige <hello@traurige.dev>
 
+Package: com.jtis.filzacrack-roothide
+Architecture: iphoneos-arm64e
+Version: 1.1-8
+Section: Tweaks
+Maintainer: Jtis Repo
+Installed-Size: 72
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.jtis.filzacrack-roothide_1.1-8_iphoneos-arm64e.deb
+Size: 6352
+MD5sum: 73673fd17f5b0e0c40d95b9deabd9336
+SHA1: 02923c7ce35cad1720497ccd4a1de470056e90a2
+SHA256: 1fb2a244d96913faf75597e04d4c1a3de066fc16fd14ba97eebef94570cbfe28
+SHA512: 66aa6c41dca3433309f46d121763294eb8c3a083cbd388d70f90f565734f99b7907ec2d780c268c82329291732cb0206da9c77565657197297cce5324c32f205
+Homepage: https://tigisoftware.com/cydia/
+Description: Kích hoạt tất cả quyền chức năng cho Filza bản chính thức.
+Name: Filza Crack (Roothide)
+Author: Netskao
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.filzaui
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -1810,14 +1831,15 @@ Section: Tweaks
 Maintainer: JTIS Repo
 Depends: mobilesubstrate (>= 0.9.5000), firmware (<< 16.0)
 Filename: ./debs/com.jtis.settingswifipassword_0.0.1_iphoneos-arm64.deb
-Size: 8204
-MD5sum: 8008d57234e325f857a1f79428c77888
-SHA1: 413172489bf603f98db6f00422b9ff33d2522d95
-SHA256: 6238f7385dd72fb6988a857cbf59923421f6e539ff04caf7c7ab5635ce67015d
-SHA512: e722ce790e261e8a4eba0ef705bfc4c68ccc66bc707f1be6d463a0e0f31634e2dd633db153160a29aa4a867062c91a9129a986a1c708ccf07268548b19be7602
+Size: 8200
+MD5sum: 836574bc18c67b54f9efdd7306977bd9
+SHA1: c6093b63b473c4f9ab92160a43d0ac6ab0be1885
+SHA256: 0e3109bb708afff8e334a032b9de68c0e523390d2098e7328759a9c9b0007d8b
+SHA512: 098d90e7b2839e572f6160a55195004df9c0932648064c5adf73b1e92cb85517c7d97e026ca1da5f793d249a80d206466791986ab5bf60046ff72fc340fc18bb
 Description: Cho phứp sao chép mặt khẩu Wifi trong cài đặt ừng dụng trên IOS 15 trở xuống.
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsWiFiPassword.json
 Name: SettingsWiFiPassword (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: Nightwind
 
 Package: com.jtis.shadow
@@ -2866,25 +2888,6 @@ Name: AniTime (Rootless)
 Author: yan
 Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
-
-Package: jtis.filzacrack-roothide
-Architecture: iphoneos-arm64e
-Version: 1.1-8
-Section: Tweaks
-Maintainer: Jtis Repo
-Installed-Size: 72
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/jtis.filzacrack-roothide_1.1-8_iphoneos-arm64e.deb
-Size: 6356
-MD5sum: fead3bc8309c0d7d9990dae5bd0da3ea
-SHA1: ccf9c6d65fd63471af199ea5754a4403e3da2c63
-SHA256: 9ef691c0ae054b6abe9eb1bb30f9c2a4419ede65625cbde02046bbf2513d9e3d
-SHA512: 6925c70bbd5e7bb3c705fc40e757d0069046dc950a6570748d736fee308ad79a52f4ff9b26abedaacf8630494ab08b6adcb6e0143ccf136ab45e39671cfd4e2d
-Homepage: https://tigisoftware.com/cydia/
-Description: Kích hoạt quyền full chức năng của Filza nguồn chính chủ.
-Name: Filza Crack (Roothide)
-Author: Netskao
 
 Package: me.tomt000.copylog
 Architecture: iphoneos-arm64
