@@ -95,7 +95,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.1.1\n\n- Theê ngôn ngữ Tiếng Việt.\n\n- Hỗ trợ Rootless & Roothude Jailbreak"
+"markdown":"### Phiên bản 1.1.1\n\n- Thêm ngôn ngữ Tiếng Việt.\n\n- Hỗ trợ Rootless & Roothude Jailbreak"
 }
 ],
 "class":"DepictionStackView"
