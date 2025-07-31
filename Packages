@@ -1006,25 +1006,6 @@ Name: DobbyShim
 Author: Nathan, jmpews
 
 Package: com.jtis.eneko
-Architecture: iphoneos-arm64
-Version: 1.4.2
-Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 400
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Conflicts: love.litten.eneko
-Filename: ./debs/com.jtis.eneko_1.4.2_iphoneos-arm64.deb
-Size: 28580
-MD5sum: 8290c4b14898446d416e84d492fdd9ea
-SHA1: 74f5860851dcdee853a254ea2e6b80dc5aa1ebed
-SHA256: 8016cccadb17d99d6d988b10bdeb005ca4b24e0009438582f23ad0ebce48a78f
-SHA512: ce83d4133cf80b8ea33169b183b131a074eeff44297a2d793533b5646706b4335df629b41413b7135596c827c2ea776cd9ba9e1e8d5471be4f85ce1301c007c3
-Description: Chọn video làm nền màn hình cho IOS
-Name: Eneko (Rootless)
-Author: Traurige <hello@traurige.dev>
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
-
-Package: com.jtis.eneko
 Architecture: iphoneos-arm64e
 Version: 1.4.2
 Section: Tweaks
@@ -1048,38 +1029,20 @@ Package: com.jtis.eneko
 Architecture: iphoneos-arm64
 Version: 1.4
 Section: Tweaks
-Maintainer: JTIS Repo
+Maintainer: Traurige <hello@traurige.dev>
 Installed-Size: 400
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
 Conflicts: love.litten.eneko
 Filename: ./debs/com.jtis.eneko_1.4_iphoneos-arm64.deb
-Size: 29500
-MD5sum: 87f0e4cb675aad5ad6e8b86d3924dfee
-SHA1: 4c25732781c861a093ecacef5dc2a27f8f6a4552
-SHA256: f44f1ead8962cac64a2186faeefe834996e7424a8a9b95c1256df1b2bdb3eec1
-SHA512: 41184fbc6cf6b7bb6a23ec6d618f94bfeb79a77bf200b3e5d856fce549cd647bee1b36f7fccad7ce03e95b8162347f9203b22d50d58e2f1fe536c8fcadf7532e
-Description: Chọn video làm nền màn hình cho IOS
+Size: 29508
+MD5sum: 9b907064074747f3c90b6fc1ed403042
+SHA1: e1a853d89a1b6dcf88b7a6cbf40f13f34a396c50
+SHA256: 3ba221f000dba9c114fe856cb669c6345c2e5fe32294101772295181305fc05a
+SHA512: 722c8a17e03aeda65a964301108d5a9b94e64bccbb987175f3fcb518a387b6f921f1fa13c13f10e13933867860e07a4bb3dcc445e84c28c7a8ebf7c1e46a08b5
+Description: Live wallpapers for iOS
 Name: Eneko (Rootless)
 Author: Traurige <hello@traurige.dev>
-
-Package: com.jtis.eneko
-Architecture: iphoneos-arm64e
-Version: 1.4
-Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 400
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Conflicts: love.litten.eneko
-Filename: ./debs/com.jtis.eneko_1.4_iphoneos-arm64e.deb
-Size: 31068
-MD5sum: 3d48b015c9c85537ec2decf1a623b08e
-SHA1: 323d079dc86fb69898c4c48dc00af69280fb5f51
-SHA256: 73ac79b62d96ca45b20b318ac50ff330c8a54161be928d965ed2bcae3868474d
-SHA512: 18d34891bb452a86967494935e3e9b7971056c445fd1b936a20ad848d2675866748cddd6b9f759f5deb4dcbcc0a73f0852b1852666d7009a65dfdfb637421f3f
-Description: Chọn video làm nền màn hình cho IOS
-Name: Eneko (Roothide)
-Author: Traurige <hello@traurige.dev>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
 
 Package: com.jtis.filzaui
 Architecture: iphoneos-arm64
