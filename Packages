@@ -1044,6 +1044,25 @@ Name: Eneko (Rootless)
 Author: Traurige <hello@traurige.dev>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
 
+Package: com.jtis.enekoalt
+Architecture: iphoneos-arm64
+Version: 1.4.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 464
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko, dev.traurige.eneko, net.limneos.voicechangerx-rootless
+Filename: ./debs/com.jtis.enekoalt_1.4.2_iphoneos-arm64.deb
+Size: 28704
+MD5sum: 6fb9354506b832bf7ed2854fcc090b78
+SHA1: 0272d7d7d52c01c2fbe129a5479328d383dae95c
+SHA256: d67c1e4021835ccfa0fc8d9c79725efc7fe2e6589add5e4a9a9c793093b6a364
+SHA512: 67aa1dab309bfc03d1bd1a7670875aee2a40a7e6c7e9b2e231d33ffdc74a0b2bd6fbf832be0e735b9ccf3243c1611bfa57ae284577ca540c3d60f25c3f3fc8c6
+Description: Cái hình nền video cho iOS. Tinh chỉnh ban đầu được sửa đổi để hỗ trợ Rootless.
+Name: Eneko (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
+Author: Traurige <hello@traurige.dev>
+
 Package: com.jtis.filzaui
 Architecture: iphoneos-arm64
 Version: 1.0
