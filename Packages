@@ -2254,6 +2254,49 @@ Icon: https://jtisvn.github.io/sectionIcons/Trim.png
 Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
 Author: iGerman <igerman@igerman.cc>
 
+Package: com.jtis.velvet2
+Architecture: iphoneos-arm64
+Version: 2.1.2-3
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 629
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.initwithframe.velvet
+Filename: ./debs/com.jtis.velvet2_2.1.2-3_iphoneos-arm64.deb
+Size: 96592
+MD5sum: a7c2894359c7f72937d52c65882dc7cd
+SHA1: 28c95bea49b6ac0ac7a379ce8948ad1c9772fe0b
+SHA256: 48d61906bfad63f1c18095bb566882bc2f9427e83fea18aaa8c39cd0bb65fa4c
+SHA512: db1e016ae955394300802cddbc80d5f96c5a8ea5b36466ac8650537df09039efd7e7ad0573f28843bb19769a4e9bf17e761d6669d0fd980996c5f8bb69b9d424
+Description: A fully customizable notification experience
+Tag: compatible_min::ios15.0
+Author: NoisyFlake <support@noisyflake.com>
+Name: Velvet 2 (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/Velvet2.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Velvet2.json
+
+Package: com.jtis.velvet2
+Architecture: iphoneos-arm64e
+Version: 2.1.2-3
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 629
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.initwithframe.velvet
+Filename: ./debs/com.jtis.velvet2_2.1.2-3_iphoneos-arm64e.deb
+Size: 94968
+MD5sum: ffbf532f187d26e5ee09e8daf1dfc213
+SHA1: aae4fa565f7b7b5923cdabd47859166138bbbace
+SHA256: 8915ee76a468163483426c22719bd7e0efd514a1750d11a92996624a954080a8
+SHA512: 62af4dada9f1520aa0ecbd2f65a360b24fe20463b3263bd95c88f5d06a05fd8a23855a99d364c9d41fea9b1d65573ba04910f7597679956bd1725ac36dfcf862
+Description: A fully customizable notification experience
+Tag: compatible_min::ios15.0
+Author: NoisyFlake <support@noisyflake.com>
+Name: Velvet 2 (Roothide)
+Icon: https://jtisvn.github.io/sectionIcons/Velvet2.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Velvet2.json
+
 Package: com.jtis.vizagevh
 Architecture: iphoneos-arm64
 Version: 1.0.2

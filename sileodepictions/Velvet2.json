@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Velvet2\n\n- Tùy chỉnh thyông báo hoàn toàn mới cho IOS 15 & 16.\n\n- Các chức năng gồm\n\n- Đổi nền màu thông báo.\n\n- Đổi màu viền và đổ bóng thông báo.\n\n- Đổi màu tiêu đề, nội dung ngày tháng tjhông báo.\n\n-án kính bo góc thông báo.\n\n- Làm tròn biểu tượng ứng dụng.\n\n- Không làm mờ thông báo khi chồng chéo.\n\n- Xem hình ảnh phía dưới để biết thêm chi tiết.\n\n",
+"markdown":" Velvet2\n\n- Tùy chỉnh thyông báo hoàn toàn mới cho IOS 15 & 16.\n\n- Các chức năng gồm\n\n- Đổi nền màu thông báo.\n\n- Đổi màu viền và đổ bóng thông báo.\n\n- Đổi màu tiêu đề, nội dung ngày tháng.n\n- Ẩn biểu tượng ứng dụng.\n\n- Bán kính bo góc thông báo.\n\n- Làm tròn biểu tượng ứng dụng.\n\n- Không làm mờ thông báo khi chồng chéo.\n\n- Xem hình ảnh phía dưới để biết thêm chi tiết.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
