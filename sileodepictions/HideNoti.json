@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"OCD\n\n-Có thể tùy chỉnh màu biểu tượng và huy hiệu màn hình chính.\n\n-Biểu tượng: Tùy chỉnh màu sắc theo biểu tưởng ứng dụng và tự chọn màu \n\n-Huy hiệu: Thay đổi màu tự động theo ứng dụng,sử dụng dấu chấm thay huy hiệu gốc,điều chỉnh viền và bán kính bo góc.chọn màu viền tự dộng phù hợp với huy hiệu\n\nㅤ\n\n",
+"markdown":"# Hide Player Notification Background\n\n- Trong suót trình phát nhạt và thông báo trên màn hình khoá của bạn.\n\n- Xem hình ảnh phía dưới để biết thêm chi tiết.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,17 +21,9 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/OCD/Screenshots/ocd1.png",
+"url":"https://jtisvn.github.io/infodeb/HideNoti/Screenshots/1.png",
 "accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/OCD/Screenshots/ocd2.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/OCD/Screenshots/ocd3.png",
-"accessibilityText":"Screenshot"
-}    
+}
 ],
 "itemCornerRadius":0,
 "itemSize":"{185,400}"
@@ -41,10 +33,10 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Tham gia nhóm"
+"title":"Liên hệ tôi"
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport/1) - 24/7\n\nㅤ\n\n",
+"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7\n\nㅤ\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -58,9 +50,9 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"B4dblr3"
+"text":"来了老弟 h_h_x_t"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"5.4.11" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -69,21 +61,16 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"28/4/2025"
-},
-{
-"class":"DepictionTableTextView",
-"title":"Dung lượng",
-"text":"571.01 KB"
+"text":"3/8/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 15.0-16.5"
+"text":"iOS 14.0 đến 16.5"
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTIS",
+"text":"Copyright © 2025 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
@@ -96,11 +83,32 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"Phiên bản 5.4.11\n\n Thêm ngôn ngữ Tiếng việt.\n\n-Khắc phục sự cố chức năng không hiện trong cài đặt.\n\n-Tương thích hơn cho Roothide\n\n- Phiên bản 5.2\n\n- Sửa lỗi\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Hỗ trợ Rootless & Roothude Jailbreak"
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"L.Hệ & Hỗ trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://www.paypal.com/myaccount/transfer/homepage/preview/"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Mua cho tôi một ly cà phê",
+"action": "https://img.vietqr.io/image/ACB-20219691-print.png?&addInfo=&accountName=NGUYEN%20TRUNG%20HIEU"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2024 by JTIS",
+"text":"Copyright © 2025 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
