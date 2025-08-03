@@ -400,15 +400,36 @@ Maintainer: Nets
 Installed-Size: 452
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.jtis.autofaceunlock-rootless_1.1-7_iphoneos-arm64.deb
-Size: 63576
-MD5sum: 70475b8c8cc9248f3d7ae5b03bc5cc59
-SHA1: a303d32db45fd766654d19ecf43b5bee7ea1df69
-SHA256: 38ff410e0963200374ce8efa5487f67d606c947390ab011f43e88cf91a2e950d
-SHA512: c3f2f5c8e48bb4af305172e593309064b6b99f32fe411deb702f46e154dac95d2e3d1b840106a85b7877b054937210629aa703d238055461ebeccb0a63088e22
+Size: 63436
+MD5sum: 389b295caa03021972b9d49a356d9e37
+SHA1: 139250d3d4e97105af221b5eef56ca98b277fc73
+SHA256: 63a097bf9ca027bee7379a3303cdca983b7f95b2c68a6a824daa49c8a23c3d99
+SHA512: 3bdec313887e7be8fc0ed975a245a90830c244e1132693f715adfcb8e4dbd5d071ab76f50f2f9fbdb755c2df2dea1db953854b5445af942d3af7b0bbabd7d721
 Description: Tự động mở khoá không cần vuốt lên để vào màn hình chính cho thiết bị có Faceid.
 Name: AutoFaceUnlock (Rootless)
 Author: Netskao
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoFaceUnlock.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.autofaceunlock-rootless
+Architecture: iphoneos-arm64e
+Version: 1.1-7
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 452
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.autofaceunlock-rootless_1.1-7_iphoneos-arm64e.deb
+Size: 65136
+MD5sum: 637acb05c3a790ae0a79a811bda00f26
+SHA1: 992abdde825f21ea4040bf53d9b033c60e224a6b
+SHA256: d68e76e0744a83f0e9dd98b4ff763e6d6cec26f87937d6d00b28b1fd90e6787d
+SHA512: 3b58de52fbdb034ac12f693f31c20f5544152ae773eca75d4dc6d8acf4915acce6787da68c04e52d174f024ad168bc0407d7ae940b9e582e0d8943da9f0aa9e5
+Description: Tự động mở khoá không cần vuốt lên để vào màn hình chính cho thiết bị có Faceid.
+Name: AutoFaceUnlock (Roothide)
+Author: Netskao
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoFaceUnlock.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.autoscroll15
 Architecture: iphoneos-arm64
