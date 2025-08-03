@@ -311,6 +311,26 @@ Author: MTAC
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Ampere.json
 Icon: https://jtisvn.github.io/sectionIcons/Ampere.png
 
+Package: com.jtis.ampere
+Architecture: iphoneos-arm64e
+Version: 1.4
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 604
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.jtis.ampere_1.4_iphoneos-arm64e.deb
+Size: 99976
+MD5sum: 5d7042ec5a957970b11f736e8385159e
+SHA1: 629c073edd4b264d9c83b41c03fca8a71327596c
+SHA256: 47ad76a632fd7d217cb78b8ef739c7af024658cd37938edf90cbfcc70d73edae
+SHA512: 235681ffe1b96389df52f72d9a2c1c50ea729b7b173f20ef43a2a116d977188d2261723c36fc0699868d0fe69e65df1380b8b042dd2979adf281fda0e47f5468
+Description: Tùy chỉnh giao điện và phong cách hiển thị pin trên IOS 15 giống kiểu của IOS
+Name: Ampere (Roothide)
+Author: MTAC
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Ampere.json
+Icon: https://jtisvn.github.io/sectionIcons/Ampere.png
+
 Package: com.jtis.appdataplus
 Architecture: iphoneos-arm64e
 Version: 1.4.0-p
@@ -2840,6 +2860,25 @@ Description: Support tweak for CC modules!
 Name: CCSupport
 Author: opa334
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+
+Package: com.phucdo.badgebreathing
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Phuc Do
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.phucdo.badgebreathing_0.0.1_iphoneos-arm64e.deb
+Size: 4056
+MD5sum: ea6449c4310d6b6638f10b2c20807484
+SHA1: 45b50944afd2140862ea83cb1cc642b2da88f4ca
+SHA256: c290155f839d716711cc7894049d7fd5e4c950a770b69b910e4a45074fc0409d
+SHA512: b42d8bf265d323cdad75f4451bf6e26f2e1d8f860ad13a8e145ca72078769dae25e271dbc306b05c4954f51d93c78d6b61f18ec286f06de83153eab9df74067f
+Description: An awesome MobileSubstrate tweak!
+Name: Badge Breathing Roothide)
+Author: Phuc Do
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.phucdo.LSUISharingan
 Architecture: iphoneos-arm64e
