@@ -2870,13 +2870,13 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.phucdo.badgebreathing_0.0.1_iphoneos-arm64e.deb
-Size: 4056
-MD5sum: ea6449c4310d6b6638f10b2c20807484
-SHA1: 45b50944afd2140862ea83cb1cc642b2da88f4ca
-SHA256: c290155f839d716711cc7894049d7fd5e4c950a770b69b910e4a45074fc0409d
-SHA512: b42d8bf265d323cdad75f4451bf6e26f2e1d8f860ad13a8e145ca72078769dae25e271dbc306b05c4954f51d93c78d6b61f18ec286f06de83153eab9df74067f
-Description: An awesome MobileSubstrate tweak!
-Name: Badge Breathing Roothide)
+Size: 4120
+MD5sum: 278a7519088dcdcce1a5f44ccd481d8a
+SHA1: b7198815feb2ed52a2e7461a2f618181cfe4e336
+SHA256: 5b8ef84c1eaba58ced419a66e1767b98e83156974cf9804644d005f6335c91e0
+SHA512: 0a76253f7225e42e0195bf3a8de8d28aacd385487bcd557d694271147df48f48750efddc428d9cac003fd0158ccca6a006bdf11ad7dc113b7ba289dc5fd42006
+Description: Tinh chỉnh này làm cho huy hiệu ứng dụng của bạn trở nên sống động hơn :D
+Name: Badge Breathing (Roothide)
 Author: Phuc Do
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
