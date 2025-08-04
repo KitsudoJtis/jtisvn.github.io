@@ -5,7 +5,7 @@
     "banners": [
         {
             "title": "REPO JTISVN",
-            "package": "com.repobvn.youpip",
+            "package": "com.repojtis.jtisvnrepo",
             "url": "https://jtisvn.github.io/coverimage/jtisvnrepo.png"
         }
     ]
