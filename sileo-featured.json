@@ -5,7 +5,7 @@
     "banners": [
         {
             "title": "REPO JTISVN",
-            "package": "com.repojtis.jtisvnrepo",
+            "package": "com.jtis.flow",
             "url": "https://jtisvn.github.io/coverimage/jtisvnrepo.png"
         }
     ]
