@@ -49,6 +49,14 @@ p{
 
 }
 
+.button-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
 .btn-square{
 
 	font-family: Quicksand;
