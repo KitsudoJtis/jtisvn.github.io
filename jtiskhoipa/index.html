@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <h1>JTISVN
+ <h1>JTISVN REPO
 </h1>
 		<div class="main-bg"/>
 		<audio id="bg-music" src="music1.mp3" autoplay controls></audio>
@@ -42,7 +42,7 @@
    
         <button type="button" class="btn-square sileo" onclick="location.href='https://github.com/opa334/Dopamine/releases/latest/download/Dopamine.ipa'">Dopamine JB</button>
        
-        <button type="button" class="btn-square cydia" onclick="location.href='https://www.mediafire.com/folder/eyg5fz5u4ccmm/Dopamine+Roothide'">Dopamine Roothide</button>
+        <button type="button" class="btn-square cydia" onclick="location.href='https://app.mediafire.com/folder/oly68glwb259n'">Dopamine Roothide</button>
 
         <button type="button" class="btn-square sileo" onclick="location.href='https://app.mediafire.com/folder/seht8t1seuc93'">TrollFools</button>
    	</div>
@@ -90,7 +90,7 @@
 <br>
 	<hr class="filter hr1">
 <br>
-<center><img class="imageleft" src="./assets/bvn.png" style="border-radius: 4%;" width="98%"></center>
+<center><img class="imageleft" src="./assets/jtisvnrepo.png" style="border-radius: 4%;" width="98%"></center>
 
 <br>
 <br>
@@ -107,3 +107,49 @@
 
 </body>
 </html>
+
+<!-- Snowfall Effect -->
+
+<script>
+    const snowflakesContainer = document.createElement("div");
+    snowflakesContainer.style.position = "absolute";
+    snowflakesContainer.style.top = "0";
+    snowflakesContainer.style.left = "0";
+    snowflakesContainer.style.width = "100%";
+    snowflakesContainer.style.height = "100%";
+    snowflakesContainer.style.pointerEvents = "none";
+    document.body.appendChild(snowflakesContainer);
+
+    function createSnowflake() {
+        const snowflake = document.createElement("div");
+        snowflake.innerHTML = "&#10052;";
+        snowflake.style.position = "absolute";
+        snowflake.style.top = "-10px";
+        snowflake.style.fontSize = Math.random() * 5 + 5 + "px";  // Smaller size (5-10px)
+        snowflake.style.color = "white";
+        snowflake.style.left = Math.random() * window.innerWidth + "px";
+        snowflake.style.opacity = Math.random();
+
+        snowflakesContainer.appendChild(snowflake);
+
+        let speed = Math.random() * 2 + 1;  // Slower speed (1-3px per frame)
+        let rotation = Math.random() * 360;
+
+        function fall() {
+            snowflake.style.top = parseFloat(snowflake.style.top) + speed + "px";
+            snowflake.style.transform = `rotate(${rotation}deg)`;
+            if (parseFloat(snowflake.style.top) > window.innerHeight) {
+                snowflake.remove();
+            } else {
+                requestAnimationFrame(fall);
+            }
+        }
+        fall();
+    }
+
+    setInterval(createSnowflake, 150);  // Slightly reduced frequency for a gentle snowfall effect
+</script>
+
+</body>
+</html>
+
