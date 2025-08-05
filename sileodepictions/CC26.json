@@ -83,7 +83,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.4.9.6b\n\n- Sửa lỗi\n\n ### Phiên bản 0.4.1b\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 0.4.9.9b\n\n ## Phiên bản 0.4.9.7b\n\n- Sửa lỗi\n\n ## Phiên bản 0.4.9.6b\n\n ##Phên bản 0.4.9.5b\n\n ### Phiên bản 0.4.3b\n\n ## Phiên bản 4.9.9.1b\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 },
 {
 "class":"DepictionLabelView",
