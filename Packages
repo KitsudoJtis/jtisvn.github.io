@@ -19,16 +19,16 @@ Author: Spark
 Package: cn.llld.2playerbj
 Architecture: iphoneos-arm64
 Version: 1.0
-Section: rootless隐藏专区
+Section: Tweaks
 Maintainer: 来了老弟 h_h_x_t
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/cn.llld.2playerbj_1.0_iphoneos-arm64.deb
-Size: 3744
-MD5sum: f4b515e5252f3a7495e7bb71e268dad7
-SHA1: 950f0697add9247938f2d125c6e17516aa1d53cc
-SHA256: 5b0d2e4dd3792194b9c77fdd8f7339495255ac8ef7516ee8a4442815053bfc75
-SHA512: 6ef101e61eae2910a9c223285eb57975cbf62aee5f12e5c282a6d2fd30fd384a8b202d9125b5a56c254af8735f94638f50be164b790ce4e5363a8f8c06145577
+Size: 3736
+MD5sum: a2c5d77653eebde280e094695eb47f70
+SHA1: 6e878d8b7d2445b19adab755ae620bd564defaa4
+SHA256: 2a0e49129b74f6a57ba4568ec8054318702d86c5d9b80d2c776d3ee57b32c13a
+SHA512: 08bc46a36381821bc6cb7907e710f9d88fee4ed725b34b9e32c1b73f6c0f7a93cc8eadbbd07bd734579407744851cc5f33a6131ae9c3ecca781cb681e88c43b1
 Description: Trong suót trình phát nhạc và thông báo trên màn hình khoá của bạn.
 Name: Hide Player Notification Background (Rootless)
 Author: 来了老弟 h_h_x_t
@@ -38,17 +38,17 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/HideNoti.json
 Package: cn.llld.2playerbj
 Architecture: iphoneos-arm64e
 Version: 1.0
-Section: rootless隐藏专区
+Section: Tweaks
 Maintainer: 来了老弟 h_h_x_t
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/cn.llld.2playerbj_1.0_iphoneos-arm64e.deb
-Size: 3644
-MD5sum: eedb7f934e15c93f9a97a4a27bc0d8fd
-SHA1: 757c140d0ce0270a0ad77069f7a3a2a5f36e1b59
-SHA256: d5120a1c90faaa9f693366809d69f04cdeba921c86dfa57cc4d58c74fb7e1ee8
-SHA512: cf03b85f8f70c6b0263b8dc9268126e2eb3598177fe904a8825becdcba0ea4530a589d58f4416f8859c9c57c1cf04d923b5b9d6e18bafa44f8895752686c4af1
+Size: 3628
+MD5sum: fa149f5d1aafd4398679bbd6cc73258a
+SHA1: 7dd25a7fec88ee23d3fd45fec0d98266db446b92
+SHA256: abbb4fe50c1ee11f36cdf457c6a7f6825bf40c66e5c5b88310d33a245151823b
+SHA512: df970ec3d5ac901caeec1ef51245d3bbf0a3605803bab65cd2985d5d77e043973d6e085c17a0306b25809925fd1b7f43d07ff2cec18cde27c00af6ea07196f2c
 Description: Trong suót trình phát nhạc và thông báo trên màn hình khoá của bạn.
 Name: Hide Player Notification Background (Roothide)
 Author: 来了老弟 h_h_x_t
