@@ -4,7 +4,7 @@
     "itemCornerRadius": 10,
     "banners": [
         {
-            "title": "JTISVN REPO",
+            "title": "Chào mứng bạn đến với JTISVN Repo",
             "package": "com.jtis.flow",
             "url": "https://jtisvn.github.io/coverimage/jtisvnrepo.png"
         }
