@@ -185,17 +185,17 @@ Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 Package: com.jtis.DepthsPD
 Architecture: iphoneos-arm64e
 Version: 0.1
-Section: Laetus Themes Roothide
+Section: Laetus Themes
 Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: ./debs/com.jtis.DepthsPD_0.1_iphoneos-arm64e.deb
-Size: 65725980
-MD5sum: 7a341a5ab0fa59b3d1eac2c3a2aedf19
-SHA1: bea4cd7ddfb611031682cb820dde7cd1eea4808e
-SHA256: becae7ace96341cd48eecf73625014f1bf8c973f437e4dda2375ff1319fff25b
-SHA512: 2ee93a0017c60b49245b05b134416d070441f0788785eb384e68606f801963662fd65fdca72fc62838ff45af2f613ab8ca462ad50e7dc36b806c68471fdc1921
+Size: 33423636
+MD5sum: 929abfd4fce2c0d5c518ac6285270eb3
+SHA1: ce3781279cccde5549d02b9bfd3617b3f399fc03
+SHA256: 15e32c2f9c9ba51ba9709ceaa064d1ecd0b16708d05896a88c1cdae67ff05f40
+SHA512: 2c6760b2be7e0b73012a2f6a4796ca2ab1114c8cdb0372954a3865d8bd4562eb140c0d64327bcccef3972f49805ccbbf06fcd0c5d5dd8d6d1f78728dc431f9bf
 Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Chủ đề Depths PD (Roothide)
+Name: Chủ đề Depths PD
 Author: Polyphian
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
@@ -219,17 +219,17 @@ Icon: https://Jtisvn.github.io/sectionIcons/font3.png
 Package: com.jtis.Goku
 Architecture: iphoneos-arm64
 Version: 0.1
-Section: Laetus Themes Rootless
+Section: Laetus Themes
 Maintainer: JTIS Repo
 Installed-Size: 7344
 Filename: ./debs/com.jtis.Goku_0.1_iphoneos-arm64.deb
-Size: 3048172
-MD5sum: 4e433c3a4b68847d56a2e14d13960cdd
-SHA1: 15d776794fc631ab352c1d582d8814431bcb9723
-SHA256: 2197c79817459e268b38f41ed52e424b984042294558f11fa38c2e0eaddc747b
-SHA512: ecb473172950eebf6dc7ccff8b393b0bea976222c8ad769e62451e154fb710f5902f93728e01f545c2712b6ef960d304bb1eca77a33220618895c1a13ad7b848
+Size: 3048152
+MD5sum: fc79131487cf4eb3b5ab7aca90658e3a
+SHA1: 9aef2369289aab3dd88d25b71502e77d00eb8cc5
+SHA256: 490a4447911c2a0c45028a0a51fb30f864ab41fd88e40d4485371558d67f43f9
+SHA512: e4c4e58e6ccaf98769114538ed508dbcce6a7b87770168b81264e5b2ef515121cf809fa16ba1f39cfbe03c4594e10262597453f0c4229571d2c2f2a0cf8284d8
 Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Chủ đề Goku (Rotless)
+Name: Chủ đề Goku
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
@@ -1678,6 +1678,25 @@ Description: Mang thao tác vuốt của iPhone X lên các dòng iPhone đời 
 Name: GesturesXV (Roothide)
 Author: Ethan Whited
 
+Package: com.jtis.Goku
+Architecture: iphoneos-arm64e
+Version: 0.1
+Section: Laetus Themes
+Maintainer: JTIS Repo
+Installed-Size: 7344
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.goku_0.1_iphoneos-arm64e.deb
+Size: 6232612
+MD5sum: e5a8fc9afe8eb87efd4cf26294af074f
+SHA1: 9edcc814872214f25926d9c395fe2c63612384bd
+SHA256: f399ba566cef95a2e9e2a4d6ea67e2e571f186dab14db147711ff41f214a9d92
+SHA512: 77b386ef79873c7d1d59d38235dbb21d048bebdd2d67a465010dcfc847bc6604ca240d00e73bc7afc3dfa95697ad3360fc35bbeaa4a5fcac52292a0515df5470
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Chủ đề Goku
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
+Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+
 Package: com.jtis.hammerit
 Architecture: iphoneos-arm64e
 Version: 1.5.0
@@ -1869,6 +1888,45 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/lynx.json
 Icon: https://Jtisvn.github.io/sectionIcons/lynx.png
 Name: Lynx 2 (Roothide)
 Author: MTAC
+
+Package: com.jtis.marie
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 940
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.jtis.marie_1.0.6_iphoneos-arm64.deb
+Size: 552328
+MD5sum: 87076ea89ffa402960909ac54076f092
+SHA1: ed662353ca9ba994a62f95effc557253f47e1ea1
+SHA256: 4c96586cfec66f16b7f3cb259eb43a63dcf0df2bfb059a708d05dfc6aa552fd8
+SHA512: 08a858805490c3628146ecafe39d46ea3fadf2ecc670e2344b35a735b0998e53377479d7ecadaec84296752a6daaf523e2be56530fc9f8c00a46982c1850dc2b
+Description: Put an image for the dialer, passcode or sharesheet background on the fly
+Name: Marie (Rootless)
+Author: Luki
+Icon: https://jtisvn.github.io/sectionIcons/Marie.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Marie.json
+
+Package: com.jtis.marie
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 940
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.jtis.marie_1.0.6_iphoneos-arm64e.deb
+Size: 551500
+MD5sum: 7d3dfb83a38fba4507e5feeaa6ef43a5
+SHA1: 827f7e7cab915fab7a8eab9947ed6b6f4de436c8
+SHA256: f209d4abdebea8fc4a1142415b0d310d8d616243da7fd2010c4ae6724704a68e
+SHA512: 336dff4833e93aaf8955d5d70e5627623354ffd297a1b684c2a2456c8cdbda9ae01d38cf48f0e8392023c0cae74183f8d433deace9f4739421c82cb1b7e7134e
+Description: Put an image for the dialer, passcode or sharesheet background on the fly
+Name: Marie (Roothide)
+Author: Luki
+Icon: https://jtisvn.github.io/sectionIcons/Marie.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Marie.json
 
 Package: com.jtis.ocd
 Architecture: iphoneos-arm64
@@ -2134,6 +2192,25 @@ SHA512: 098d90e7b2839e572f6160a55195004df9c0932648064c5adf73b1e92cb85517c7d97e02
 Description: Cho phứp sao chép mặt khẩu Wifi trong cài đặt ừng dụng trên IOS 15 trở xuống.
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsWiFiPassword.json
 Name: SettingsWiFiPassword (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: Nightwind
+
+Package: com.jtis.settingswifipassword
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (<< 16.0)
+Filename: ./debs/com.jtis.settingswifipassword_0.0.1_iphoneos-arm64e.deb
+Size: 8404
+MD5sum: 325f86d93c5ef411a9fb29132fcd2d08
+SHA1: 19113716607aa23199554e7dde71cc03a3842c77
+SHA256: 11bdbb3d05768f0e123d516a5c541a7ce99c9364ee4bb03cfd6899bdfae25460
+SHA512: e8942277821ed88dfb247b818dbf8d23f61193308740c14fff8d85cba15d24ddb909c0197077749966e85cc79b9ef36d574035f5c762185bf97fd34ee08a45b6
+Description: Cho phứp sao chép mặt khẩu Wifi trong cài đặt ừng dụng trên IOS 15 trở xuống.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsWiFiPassword.json
+Name: SettingsWiFiPassword (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: Nightwind
 
@@ -3394,6 +3471,43 @@ Name: AniTime (Rootless)
 Author: yan
 Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
+
+Package: com.yan.anitime
+Architecture: iphoneos-arm64
+Version: 1.0.2k
+Section: Tweaks
+Maintainer: JTIS Repo
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet
+Filename: ./debs/com.yan.anitime_1.0.2k_iphoneos-arm64.deb
+Size: 405196
+MD5sum: 11d37d74b59f7ab48e08e91b8df9a3bf
+SHA1: c79291736117bf089114a95b5fedb0674508a99a
+SHA256: de5af2ba19048ad75d105cea338e16783b3c89697b7f232b3eb0ad3d3209df51
+SHA512: b588c1dbd7374bf420dffac3fe724863695afec95c0d6953a1303e9e168a0d4a0c264caa1381e8c48db9ee06d4876953c708f27a057c6ea6bec9f716dc9fa0f3
+Description: Animated anime characters as your clock digits.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
+Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
+Name: AniTime (Rootless)
+Author: yan
+
+Package: com.yan.anitime
+Architecture: iphoneos-arm64e
+Version: 1.0.2k
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet
+Filename: ./debs/com.yan.anitime_1.0.2k_iphoneos-arm64e.deb
+Size: 400908
+MD5sum: eb9fb86c61e8509e40af21376deb9aa6
+SHA1: 7fad78d2e86975a1df68e2101b887fecadccbb12
+SHA256: d796b2d29428dbd69283aa5b658a002e44650eab48073c1694188bd1e226dd05
+SHA512: 4f0d8f3aa34c8a46827592da872fbaeb0f97786b676cf02139132a0c8be73741374a4bfe0759e2db06c3d5af5b56ba8b126affd2d8f7e35acf86e9ef5e1de5e5
+Description: Animated anime characters as your clock digits.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
+Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
+Name: AniTime (Roothide)
+Author: yan
 
 Package: me.tomt000.copylog
 Architecture: iphoneos-arm64

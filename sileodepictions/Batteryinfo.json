@@ -86,7 +86,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1..1.8\n\n- Hỗ trợ thiết bin IOS 12-16"
+"markdown":"### Phiên bản 1..1.8\n\n- Hỗ trợ thiết bị IOS 12-16"
 },
 {
 "class":"DepictionLabelView",

@@ -96,7 +96,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"Phiên bản 5.4.11\n\n Thêm ngôn ngữ Tiếng việt.\n\n-Khắc phục sự cố chức năng không hiện trong cài đặt.\n\n-Tương thích hơn cho Roothide\n\n- Phiên bản 5.2\n\n- Sửa lỗi\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 5.4.11\n\n Thêm ngôn ngữ Tiếng việt.\n\n-Khắc phục sự cố chức năng không hiện trong cài đặt.\n\n-Tương thích hơn cho Roothide\n\n ### Phiên bản 5.2\n\n- Sửa lỗi\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 },
 {
 "class":"DepictionLabelView",

@@ -90,7 +90,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### 1.10\n\nHiệu ứng cuộn mượt mà hơn."
+"markdown":"#### Phiên bản 1.10\n\nHiệu ứng cuộn mượt mà hơn."
 },
 {
 "class":"DepictionLabelView",

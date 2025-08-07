@@ -90,7 +90,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### Phiên bản 1.3.2\n\n- trợ Rootless & Roothide Jailbreak"
+"markdown":"#### Phiên bản 1.3.2\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 },
 {
 "class":"DepictionLabelView",

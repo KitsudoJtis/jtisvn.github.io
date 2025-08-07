@@ -71,7 +71,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless Jailbreak"
+"markdown":"### Hỗ trợ Rootless & Rootless Jailbreak"
 },
 {
 "class":"DepictionLabelView",
