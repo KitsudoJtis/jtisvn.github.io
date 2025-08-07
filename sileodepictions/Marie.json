@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Hide Player Notification Background\n\n- Trong suót trình phát nhạc và thông báo trên màn hình khoá của bạn.\n\n- Xem hình ảnh phía dưới để biết thêm chi tiết.\n\n",
+"markdown":" Marie\n\n- \n\n- Chức năng gồm:\n\n- Thay ảnh ảnh nền ứng dụng Gọi điện (Trình quay số.\n\n- Thay đổi ảnh nển Mặt khẩu màn hình khoá.\n\n- Thay đổi ảnh nền bảng Chia sẻ.\n\n- Xem hình ảnh phía dưới để biết chi tiết.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,7 +21,15 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/HideNoti/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/Marie/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Marie/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Marie/Screenshots/3.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -50,9 +58,9 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"来了老弟 h_h_x_t"
+"text":"Luki120"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.6" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -61,12 +69,12 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"3/8/2025"
+"text":"7/8/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 14.0 đến 16.5"
+"text":"iOS 12.0 đến 16.5"
 },
 {
 "class":"DepictionLabelView",
@@ -83,7 +91,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roorhide Jailbreak"
+"markdown":"### Phiên bản 1.p.6\n\n- Thêm ngôn ngữ Tiếng Việt.\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
