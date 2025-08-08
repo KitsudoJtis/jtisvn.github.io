@@ -1,0 +1,269 @@
+/* Màu sắc mới */
+:root {
+    --bg-main: #0a0e1a; /* Nền tối */
+    --bg-card: #182033; /* Màu nền cho các thẻ */
+    --bg-header-footer: transparent; /* Nền trong suốt cho header */
+    --text-primary: #e0e7ff; /* Màu chữ chính */
+    --text-secondary: #94a3b8; /* Màu chữ phụ */
+    --accent-color: #7c3aed; /* Màu nhấn chính (tím) */
+    --accent-color-light: #a855f7; /* Màu nhấn sáng hơn */
+    --border-color: #374151; /* Màu đường viền */
+    --shadow-color: rgba(0, 0, 0, 0.3); /* Màu bóng đổ */
+    --accent-pink-purple: #c084fc; /* Màu tím hồng cho nút */
+}
+
+/* Hiệu ứng nền chuyển động */
+.background-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        135deg,
+        var(--accent-color),
+        var(--bg-main) 50%,
+        var(--bg-main)
+    );
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+    z-index: -2; /* Đặt dưới lớp canvas */
+    opacity: 0.7; /* Giảm độ mờ để không gây xao nhãng */
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* General styling for the body */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Container chung để căn giữa toàn bộ nội dung */
+.main-container {
+    max-width: 1280px; /* Chiều rộng tối đa */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    color: var(--text-primary);
+}
+
+p.max-w-2xl {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+}
+
+/* Styling cho container các nút - Đã thu nhỏ */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1e2f; /* Màu nền cho container */
+    border-radius: 9999px; /* Bo tròn hoàn toàn */
+    padding: 0.3rem; /* Giảm khoảng cách bên trong */
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(137, 207, 240, 0.4); /* Giảm hiệu ứng sáng */
+    overflow: hidden;
+    margin-top: 2rem; /* Thêm khoảng cách phía trên */
+}
+
+/* Styling cho từng nút bên trong container - Đã thu nhỏ */
+.nav-container a {
+    position: relative;
+    color: var(--text-secondary);
+    font-weight: 600;
+    font-size: 1rem; /* Giảm kích thước chữ */
+    text-decoration: none;
+    padding: 0.6rem 1.2rem; /* Giảm padding */
+    border-radius: 9999px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hiệu ứng khi di chuột qua hoặc focus */
+.nav-container a:hover,
+.nav-container a:focus {
+    background-image: linear-gradient(to right, #89cff0, #a855f7); /* Màu xanh tím hồng */
+    color: #ffffff;
+    box-shadow: 0 0 8px rgba(137, 207, 240, 0.6); /* Giảm hiệu ứng sáng cho nút */
+    outline: none;
+}
+
+/* Hiệu ứng khi nhấn vào nút */
+.nav-container a:active {
+    transform: scale(0.95);
+}
+
+/* Chỉ áp dụng hiệu ứng cho avatar chính */
+.avatar {
+    width: 140px; /* Phóng to avatar */
+    height: 140px; /* Phóng to avatar */
+    border-radius: 9999px; /* Bo tròn hoàn toàn */
+    object-fit: cover;
+    border: 5px solid #89cff0; /* Màu viền xanh tím mới */
+    box-shadow: 0 0 20px rgba(137, 207, 240, 0.7); /* Thêm hiệu ứng sáng luôn luôn */
+    transition: transform 0.8s ease-in-out, border-color 0.8s ease-in-out; /* Thêm hiệu ứng chuyển đổi */
+}
+
+/* Hiệu ứng xoay tròn và đổi màu viền khi di chuột qua */
+.avatar:hover {
+    transform: rotate(360deg);
+    border-color: #a855f7; /* Màu viền khi hover */
+}
+
+/* Các nút mạng xã hội kiểu lưới 2x2 */
+.social-buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+    max-width: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem 1.2rem;
+    background-color: #1a1e2f;
+    border-radius: 9999px;
+    color: var(--text-secondary);
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
+    text-align: center;
+}
+
+.social-button i {
+    margin-right: 0.5rem;
+}
+
+.social-button:hover {
+    background-image: linear-gradient(to right, #89cff0, #a855f7);
+    color: #ffffff;
+    box-shadow: 0 0 8px rgba(137, 207, 240, 0.6);
+    transform: scale(1.05);
+}
+
+/* CSS cho 2 nút thanh toán kiểu chữ nhật bo tròn */
+.payment-buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.payment-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
+    text-align: left;
+}
+
+.payment-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 25px var(--shadow-color), 0 0 15px rgba(137, 207, 240, 0.7);
+}
+
+.payment-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.payment-text {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.bank-name {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-top: 0.2rem;
+}
+
+/* Các màu nền riêng cho từng nút */
+.acb-button {
+    background-image: linear-gradient(to right, #e51f28, #c02a2a);
+}
+.paypal-button {
+    background-image: linear-gradient(to right, #0070ba, #00457c);
+}
+.tpbank-button {
+    background-image: linear-gradient(to right, #501d71, #2b0e41);
+}
+.vietbank-button {
+    background-image: linear-gradient(to right, #00938b, #006b6b);
+}
+.momo-button {
+    background-image: linear-gradient(to right, #d8007a, #9e0057);
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .social-buttons-grid,
+    .payment-buttons-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* CSS cho hiệu ứng hạt mưa rơi */
+#raindrop-effect {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Căn chỉnh và làm sáng dòng bản quyền */
+.copyright-container {
+    text-align: center;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.copyright-container p {
+    color: var(--text-secondary);
+    opacity: 0.8;
+    font-size: 0.9rem;
+}

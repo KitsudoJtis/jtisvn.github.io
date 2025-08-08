@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✪ Ủng Hộ Tôi JTISVN ✪</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://raw.githubusercontent.com/jtisvn/jtisvn.github.io/master/icons/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bg-gray-900 font-sans text-white min-h-screen" data-theme="dark">
+    <div class="background-animation"></div>
+    <canvas id="raindrop-effect"></canvas>
+
+    <div class="main-container mx-auto">
+        <main class="container mx-auto px-4 py-8">
+            <div class="flex flex-col items-center justify-center text-center mb-8">
+                <div class="nav-container">
+                    <a href="https://jtisvn.github.io/homepage/" target="_blank">Trang chủ</a>
+                    <a href="https://jtisvn.github.io/" target="_blank">Repo của tôi</a>
+                    <a href="https://jtisvn.github.io/jtiskhoipa" target="_blank">Kho IPA</a>
+                </div>
+
+                <img src="https://jtisvn.github.io/icons/avatar.webp" alt="Avatar" class="avatar">
+                <div class="flex flex-col items-center space-y-2 mt-4">
+                    <h1 class="text-4xl font-bold bg-gradient-to-r from-blue-300 to-white bg-clip-text text-transparent">REPO JTISVN</h1>
+                </div>
+                <p class="text-xl max-w-2xl mx-auto mt-2">Nhận mua hộ tweak có phí của Havoc và niceOS<br>Ủng hộ cho tôi 1 ly bia nhé- Xin cảm ơn❤️</p>
+            </div>
+
+            <div class="social-buttons-grid mt-8">
+                <a href="https://t.me/jailbreaktrolliossupport" class="social-button telegram-button"><i class="fab fa-telegram-plane"></i> <span>Nhóm Telegram</span></a>
+                <a href="https://discord.gg/89sfks3w" class="social-button discord-button"><i class="fab fa-discord"></i> <span>Nhóm Discord</span></a>
+                <a href="#" class="social-button zalo-button"><i class="fas fa-comment-dots"></i> <span>Zalo</span></a>
+                <a href="https://www.facebook.com/hieu.kitsudo?locale=vi_VN" class="social-button facebook-button"><i class="fab fa-facebook-f"></i> <span>Facebook</span></a>
+            </div>
+
+            <div class="payment-buttons-grid mt-8">
+                <a href="https://img.vietqr.io/image/ACB-20219691-print.png?&addInfo=&accountName=NGUYEN%20TRUNG%20HIEU" class="payment-item acb-button">
+                    <div class="flex items-center">
+                        <img src="https://jtisvn.github.io/icons/acb.webp" alt="ACB Icon" class="payment-icon">
+                        <div class="flex-grow text-left ml-4">
+                            <p class="payment-text">Thanh toán ACB</p>
+                            <p class="bank-name">Ngân hàng TMCP Á Châu</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://paypal.me/HiuKitsudo" class="payment-item paypal-button">
+                    <div class="flex items-center">
+                        <img src="https://jtisvn.github.io/icons/paypal.webp" alt="Paypal Icon" class="payment-icon">
+                        <div class="flex-grow text-left ml-4">
+                            <p class="payment-text">Thanh toán Paypal</p>
+                            <p class="bank-name">Ngân hàng Paypal</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://img.vietqr.io/image/TPB-15238906998-print.png?&addInfo=&accountName=NGUYEN%20TRUNG%20HIEU" class="payment-item tpbank-button">
+                    <div class="flex items-center">
+                        <img src="https://jtisvn.github.io/icons/tpbank.webp" alt="TPBank Icon" class="payment-icon">
+                        <div class="flex-grow text-left ml-4">
+                            <p class="payment-text">Thanh toán TPBank</p>
+                            <p class="bank-name">Ngân hàng Tiên Phong</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://img.vietqr.io/image/VCCB-99MM24041M46376294-print.png?addInfo=&accountName=MOMO+NGUYEN%20TRUNG%20HIEU" class="payment-item momo-button">
+                    <div class="flex items-center">
+                        <img src="https://jtisvn.github.io/icons/momo.webp" alt="MoMo Icon" class="payment-icon">
+                        <div class="flex-grow text-left ml-4">
+                            <p class="payment-text">Thanh toán MoMo</p>
+                            <p class="bank-name">Ví điện tử MoMo</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="copyright-container">
+                <p>Copyright © 2025 JTISVN. All rights reserved.</p>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('raindrop-effect');
+        const ctx = canvas.getContext('2d');
+        let width, height;
+        let drops = [];
+        let lastDropTime = 0;
+        const dropInterval = 200;
+
+        const initCanvas = () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            drops = [];
+        };
+
+        window.addEventListener('resize', initCanvas);
+
+        class Drop {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.r = 0.5;
+                this.dr = 0.8;
+                this.opacity = 1;
+                this.dOpacity = -0.01;
+            }
+            update() {
+                this.r += this.dr;
+                this.opacity += this.dOpacity;
+            }
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+                ctx.strokeStyle = `rgba(137, 207, 240, ${this.opacity})`;
+                ctx.lineWidth = 1;
+                ctx.stroke();
+            }
+        }
+
+        const animateDrops = (timestamp) => {
+            ctx.clearRect(0, 0, width, height);
+
+            if (timestamp - lastDropTime > dropInterval) {
+                drops.push(new Drop(Math.random() * width, Math.random() * height));
+                lastDropTime = timestamp;
+            }
+
+            for (let i = 0; i < drops.length; i++) {
+                drops[i].update();
+                drops[i].draw();
+                if (drops[i].opacity <= 0) {
+                    drops.splice(i, 1);
+                    i--;
+                }
+            }
+            requestAnimationFrame(animateDrops);
+        };
+
+        initCanvas();
+        animateDrops();
+    </script>
+</body>
+</html>
