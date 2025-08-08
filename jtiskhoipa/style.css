@@ -159,6 +159,49 @@ p.max-w-2xl {
     border-color: #a855f7; /* Màu viền khi hover */
 }
 
+/* Tweak card styling - Đã được chỉnh sửa */
+.tweak-item {
+    position: relative; /* Cần thiết để định vị lớp giả ::before */
+    background-color: rgba(30, 41, 59, 0.2); /* Giảm opacity để trong suốt hơn nữa */
+    border-radius: 20px; /* Bo góc mềm mại hơn */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); /* Đổ bóng mạnh hơn và tinh tế hơn */
+    backdrop-filter: blur(15px); /* Tăng hiệu ứng mờ cho nền để rõ nét hơn */
+    -webkit-backdrop-filter: blur(15px); /* Tương thích với Safari */
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Thêm viền mờ */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    padding: 1.5rem;
+    overflow: hidden; /* Ẩn phần gradient tràn ra ngoài */
+}
+
+.tweak-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%; /* Đặt ở ngoài bên trái ban đầu */
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent); /* Gradient trắng nhạt */
+    animation: light-sweep 3s infinite linear; /* Animation quét sáng */
+    z-index: 1; /* Đảm bảo hiển thị trên nền nhưng dưới nội dung */
+}
+
+@keyframes light-sweep {
+    0% {
+        left: -100%;
+    }
+    50% {
+        left: 100%; /* Di chuyển sang phải */
+    }
+    100% {
+        left: 200%; /* Tiếp tục di chuyển ra ngoài bên phải */
+    }
+}
+
+.tweak-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
 /* Tweak card content */
 .grid h2 {
     font-size: 1.5rem;
@@ -181,13 +224,13 @@ p.max-w-2xl {
     color: var(--text-secondary);
 }
 
-/* Button styling */
+/* Button styling - Đã được chỉnh sửa */
 .ipa-button, .exe-button {
     background-color: #371b6e;
     color: #ffffff;
     font-weight: 600;
-    padding: 0.75rem 1.5rem;
-    border-radius: 0.5rem;
+    padding: 0.5rem 1rem; /* Giảm padding để thu nhỏ nút */
+    border-radius: 9999px; /* Bo tròn hoàn toàn */
     text-align: center;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     box-shadow: 0 0 0 0 transparent;

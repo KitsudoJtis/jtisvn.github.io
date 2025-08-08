@@ -83,7 +83,6 @@ p.max-w-2xl {
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 15px rgba(137, 207, 240, 0.4); /* Giảm hiệu ứng sáng */
     overflow: hidden;
-    margin-top: 2rem; /* Thêm khoảng cách phía trên */
 }
 
 /* Styling cho từng nút bên trong container - Đã thu nhỏ */
@@ -184,6 +183,7 @@ p.max-w-2xl {
 }
 
 .payment-item {
+    position: relative; /* Thêm để định vị hiệu ứng */
     display: flex;
     align-items: center;
     padding: 1rem 1.5rem;
@@ -194,6 +194,25 @@ p.max-w-2xl {
     cursor: pointer;
     box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
     text-align: left;
+    overflow: hidden; /* Ẩn phần gradient tràn ra ngoài */
+}
+
+/* Hiệu ứng đèn sáng chiếu ngang qua */
+.payment-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    animation: light-sweep 3s infinite linear;
+    z-index: 1;
+}
+
+@keyframes light-sweep {
+    0% { left: -100%; }
+    100% { left: 100%; }
 }
 
 .payment-item:hover {
@@ -266,4 +285,86 @@ p.max-w-2xl {
     color: var(--text-secondary);
     opacity: 0.8;
     font-size: 0.9rem;
+}
+
+/* Style cho các card ứng dụng theo phong cách cypwn.xyz */
+.tweak-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-card {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: var(--bg-card); /* Màu nền mặc định */
+}
+
+.app-card:hover {
+    transform: translateY(-4px);
+    background-color: #2b3547;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3), 0 0 15px rgba(137, 207, 240, 0.7);
+}
+
+.app-card-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.app-card .text-content {
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.app-card .tweak-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.app-card .tweak-description {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+/* Màu nền riêng cho từng card */
+.ota-card {
+    background-color: #1a1e2f;
+}
+
+.sileo-card {
+    background-color: #1a1e2f;
+}
+
+.zebra-card {
+    background-color: #1a1e2f;
+}
+
+/* Style cho các nút tải xuống */
+.app-card .ipa-button, .app-card .exe-button {
+    background-color: #371b6e;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 0 0 0 transparent;
+    display: inline-block;
+}
+.app-card .ipa-button:hover, .app-card .exe-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 0 3px var(--accent-color-light);
 }
