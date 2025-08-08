@@ -1,116 +1,276 @@
-@charset "utf-8";
-
-body{
-	background: linear-gradient(#2d2d2d, #1a1a1a) fixed;
-	/*background: linear-gradient(#242444, #040424) fixed;*/
-	font-family: 'Quicksand', sans-serif;
-	color: #FFFFFF;
-	/*text-align: center;*/
+/* Màu sắc mới */
+:root {
+    --bg-main: #0a0e1a; /* Nền tối */
+    --bg-card: #182033; /* Màu nền cho các thẻ */
+    --bg-header-footer: transparent; /* Nền trong suốt cho header */
+    --text-primary: #e0e7ff; /* Màu chữ chính */
+    --text-secondary: #94a3b8; /* Màu chữ phụ */
+    --accent-color: #7c3aed; /* Màu nhấn chính (tím) */
+    --accent-color-light: #a855f7; /* Màu nhấn sáng hơn */
+    --border-color: #374151; /* Màu đường viền */
+    --shadow-color: rgba(0, 0, 0, 0.3); /* Màu bóng đổ */
+    --accent-pink-purple: #c084fc; /* Màu tím hồng cho nút */
 }
 
-h1{
-	
-	font-weight: normal;
-	font-size: 140px;
-	text-shadow: 0px 0px 30px #00000080;
-	text-align: center;
-
+/* Hiệu ứng nền chuyển động */
+.background-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        135deg,
+        var(--accent-color),
+        var(--bg-main) 50%,
+        var(--bg-main)
+    );
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+    z-index: -2; /* Đặt dưới lớp canvas */
+    opacity: 0.7; /* Giảm độ mờ để không gây xao nhãng */
 }
 
-h2{
-
-	font-size: 60px;
-	text-shadow: 0px 0px 10px #00000080;
-	margin-bottom: 0px;
-
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
-p{
-	
-	font-family: -apple-system, Sans-Serif;
-	font-weight: 150;
-	font-size: 40px;
-	margin-top: 10px;
-
+/* General styling for the body */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
 }
 
-.MainMenu{
-	
-	background-color: #373737;
-	margin-left: 40px;
-	margin-right: 40px;
-	border-radius: 75px;
-	
+/* Container chung để căn giữa toàn bộ nội dung */
+.main-container {
+    max-width: 1280px; /* Chiều rộng tối đa */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.buttons{
-
-	text-align: center;
-
+/* Các style liên quan đến header cũ đã bị xóa */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    color: var(--text-primary);
 }
 
-.btn-square{
-
-	font-family: Quicksand;
-	color: #181818;
-	width: 60vw;
-	height: 100px;
-	font-size: 50px;
-	border-radius: 25px;
-	box-shadow: 0px 0px 30px #00000080;
-	border-width: 0px;
-	margin-top: 60px;
-	margin-bottom: 60px;
-	text-shadow: 0px 0px 30px #00000080;
-	
+p.max-w-2xl {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
 }
 
-.cydia{
-  background: linear-gradient(135deg, #b98e55, #b98e55 20%,  #d7d7d7 21%, #d7d7d7);
+/* Hiệu ứng cho ô tìm kiếm */
+#searchInput {
+    background-color: var(--bg-card);
+    border: none;
+    color: var(--text-primary);
+    padding: 0.75rem 1.25rem;
+    border-radius: 9999px; /* Bo tròn hoàn toàn */
+    transition: background-color 0.2s, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 1rem;
 }
 
-.sileo{
-  background: linear-gradient(135deg, #55b9ad, #55b9ad 20%,  #d7d7d7 21%, #d7d7d7);
+#searchInput::placeholder {
+    color: var(--text-secondary);
 }
 
-.zebra{
-  background: linear-gradient(135deg, #1f1f1f, #1f1f1f 20%,  #d7d7d7 21%, #d7d7d7);
+#searchInput:hover,
+#searchInput:focus {
+    box-shadow: 0 0 10px rgba(137, 207, 240, 0.7);
+    outline: none;
 }
 
-.Installer{
-  background: linear-gradient(135deg, #1f1f1f, #45b8ad 20%,  #d7d7d7 21%, #d7d7d7);
+/* Styling cho container các nút - Đã thu nhỏ */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1e2f; /* Màu nền cho container */
+    border-radius: 9999px; /* Bo tròn hoàn toàn */
+    padding: 0.3rem; /* Giảm khoảng cách bên trong */
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(137, 207, 240, 0.4); /* Giảm hiệu ứng sáng */
+    overflow: hidden;
 }
 
-
-.packages{
-
-	margin-left: 20px;
-	margin-right: 30px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	text-align: left;
-
+/* Styling cho từng nút bên trong container - Đã thu nhỏ */
+.nav-container a {
+    position: relative;
+    color: var(--text-secondary);
+    font-weight: 600;
+    font-size: 1rem; /* Giảm kích thước chữ */
+    text-decoration: none;
+    padding: 0.6rem 1.2rem; /* Giảm padding */
+    border-radius: 9999px;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
-.packages h2{
-	font-weight: normal;
+/* Hiệu ứng khi di chuột qua hoặc focus */
+.nav-container a:hover,
+.nav-container a:focus {
+    background-image: linear-gradient(to right, #89cff0, #a855f7); /* Màu xanh tím hồng */
+    color: #ffffff;
+    box-shadow: 0 0 8px rgba(137, 207, 240, 0.6); /* Giảm hiệu ứng sáng cho nút */
+    outline: none;
 }
 
-.packages-block{
+/* Hiệu ứng khi nhấn vào nút */
+.nav-container a:active {
+    transform: scale(0.95);
+}
 
-	font-family: Verdana;
-	display: inline-block;
-	vertical-align: top;
-	background: #cba36d;
-	color: #ffffff;
-	width: 400px;
-	height: 200px;
-	font-size: 40px;
-	border-radius: 30px;
-	border-width: 0px;
-	margin-top: 20px;
-	margin-left: 10px;
-	text-align: left;
-	text-shadow: 0px 0px 30px #00000080;
-	
+/* Icon ứng dụng giữ nguyên hình vuông bo góc nhẹ */
+.tweak-item img {
+    border: none;
+    border-radius: 1rem;
+}
+
+/* Chỉ áp dụng hiệu ứng cho avatar chính */
+.avatar {
+    width: 140px; /* Phóng to avatar */
+    height: 140px; /* Phóng to avatar */
+    border-radius: 9999px; /* Bo tròn hoàn toàn */
+    object-fit: cover;
+    border: 5px solid #89cff0; /* Màu viền xanh tím mới */
+    box-shadow: 0 0 20px rgba(137, 207, 240, 0.7); /* Thêm hiệu ứng sáng luôn luôn */
+    transition: transform 0.8s ease-in-out, border-color 0.8s ease-in-out; /* Thêm hiệu ứng chuyển đổi */
+}
+
+/* Hiệu ứng xoay tròn và đổi màu viền khi di chuột qua */
+.avatar:hover {
+    transform: rotate(360deg);
+    border-color: #a855f7; /* Màu viền khi hover */
+}
+
+/* Tweak card content */
+.grid h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.grid .text-gray-400 {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.grid .text-gray-300 {
+    font-size: 1rem;
+    color: var(--text-primary);
+}
+
+.grid .text-gray-500 {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+/* Button styling */
+.ipa-button, .exe-button {
+    background-color: #371b6e;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 0 0 0 transparent;
+}
+
+.ipa-button:hover, .exe-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 0 3px var(--accent-color-light);
+}
+
+/* Hover effect for GitHub links */
+p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
+    color: #89cff0;
+}
+
+/* Các nút mạng xã hội kiểu lưới 2x2 */
+.social-buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cột ngang */
+    gap: 1rem;
+    margin-top: 2rem;
+    max-width: 400px; /* Giảm chiều rộng tối đa để phù hợp với 2 cột */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem 1.2rem;
+    background-color: #1a1e2f;
+    border-radius: 9999px; /* Viền con nhộng */
+    color: var(--text-secondary);
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
+    text-align: center;
+}
+
+.social-button i {
+    margin-right: 0.5rem;
+}
+
+.social-button:hover {
+    background-image: linear-gradient(to right, #89cff0, #a855f7);
+    color: #ffffff;
+    box-shadow: 0 0 8px rgba(137, 207, 240, 0.6);
+    transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .social-buttons-grid {
+        grid-template-columns: 1fr; /* 1 cột trên màn hình rất nhỏ */
+    }
+}
+
+/* CSS cho hiệu ứng hạt mưa rơi */
+#raindrop-effect {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Căn chỉnh và làm sáng dòng bản quyền */
+.copyright-container {
+    text-align: center;
+    margin-top: 4rem; /* Khoảng cách lớn hơn so với các ô ứng dụng */
+    padding-bottom: 2rem;
+}
+
+.copyright-container p {
+    color: var(--text-secondary); /* Màu chữ chính */
+    opacity: 0.8; /* Làm sáng hơn một chút */
+    font-size: 0.9rem;
 }
