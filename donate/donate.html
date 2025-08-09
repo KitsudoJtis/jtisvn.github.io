@@ -14,6 +14,16 @@
     <div class="background-animation"></div>
     <canvas id="raindrop-effect"></canvas>
 
+    <div id="copy-toast" class="copy-toast">
+        <p>Đã sao chép!</p>
+    </div>
+
+    <div class="theme-toggle">
+        <button id="theme-toggle-btn">
+            <i class="fas fa-sun" id="theme-icon"></i>
+        </button>
+    </div>
+
     <div class="main-container mx-auto">
         <main class="container mx-auto px-4 py-8">
             <div class="flex flex-col items-center justify-center text-center mb-8">
@@ -27,62 +37,82 @@
                 <div class="flex flex-col items-center space-y-2 mt-4">
                     <h1 class="text-4xl font-bold bg-gradient-to-r from-blue-300 to-white bg-clip-text text-transparent">REPO JTISVN</h1>
                 </div>
-                <p class="text-xl max-w-2xl mx-auto mt-2">Nhận mua hộ Tweak có phí của Havoc và niceOS<br>Ủng hộ cho tôi 1 ly bia nhé- Xin cảm ơn❤</p>
+                <p class="text-xl max-w-2xl mx-auto mt-2">Nhận mua hộ Tweak có phí của Havoc và niceOS<br>Ủng hộ cho tôi qua số tài khoản bên dưới nhé- Xin cảm ơn❤</p>
             </div>
 
             <div class="social-buttons-grid mt-8">
                 <a href="https://t.me/Kitsudo" class="social-button telegram-button"><i class="fab fa-telegram-plane"></i> <span>Liên hệ Telegram</span></a>
-                <a href="https://discord.gg/89sfks3w" class="social-button discord-button"><i class="fab fa-discord"></i> <span>Liên hệ Discord</span></a>
-                <a href="https://x.com/hiukitsudo9889" class="social-button zalo-button"><i class="fas fa-x"></i> <span>Liên hệ Twiter</span></a>
                 <a href="https://www.facebook.com/hieu.kitsudo?locale=vi_VN" class="social-button facebook-button"><i class="fab fa-facebook-f"></i> <span>Liên hệ Facebook</span></a>
             </div>
 
-            <div class="payment-buttons-grid mt-8">
-                <a href="https://img.vietqr.io/image/ACB-20219691-print.png?&addInfo=&accountName=NGUYEN%20TRUNG%20HIEU" class="payment-item acb-button">
-                    <div class="flex items-center">
-                        <img src="https://jtisvn.github.io/icons/acb.webp" alt="ACB Icon" class="payment-icon">
-                        <div class="flex-grow text-left ml-4">
-                            <p class="payment-text">Thanh toán ACBank</p>
+            <div class="payment-buttons-grid-vertical mt-8">
+                <div class="payment-item purple-gradient-bg">
+                    <div class="payment-main-content">
+                        <div class="payment-info-block">
                             <p class="bank-name">Ngân hàng TMCP Á Châu</p>
+                            <p class="account-owner">Chủ TK: NGUYEN TRUNG HIEU</p>
+                            <div class="account-info-row">
+                                <p class="account-number" id="acb-account-number">Số TK: 20219691</p>
+                                <button class="copy-btn" onclick="copyToClipboard('acb-account-number', event)">
+                                    <i class="fas fa-copy"></i>
+                                </button>
+                            </div>
                         </div>
+                        <img src="https://jtisvn.github.io/icons/qr.webp" alt="QR Code" class="payment-qr-code">
                     </div>
-                </a>
-                <a href="https://paypal.me/HiuKitsudo" class="payment-item paypal-button">
-                    <div class="flex items-center">
-                        <img src="https://jtisvn.github.io/icons/paypal.webp" alt="Paypal Icon" class="payment-icon">
-                        <div class="flex-grow text-left ml-4">
-                            <p class="payment-text">Thanh toán Paypal</p>
-                            <p class="bank-name">Ngân hàng Paypal</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://img.vietqr.io/image/TPB-15238906998-print.png?&addInfo=&accountName=NGUYEN%20TRUNG%20HIEU" class="payment-item tpbank-button">
-                    <div class="flex items-center">
-                        <img src="https://jtisvn.github.io/icons/tpbank.webp" alt="TPBank Icon" class="payment-icon">
-                        <div class="flex-grow text-left ml-4">
-                            <p class="payment-text">Thanh toán TPBank</p>
-                            <p class="bank-name">Ngân hàng Tiên Phong</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://img.vietqr.io/image/VCCB-99MM24041M46376294-print.png?addInfo=&accountName=MOMO+NGUYEN%20TRUNG%20HIEU" class="payment-item momo-button">
-                    <div class="flex items-center">
-                        <img src="https://jtisvn.github.io/icons/momo.webp" alt="MoMo Icon" class="payment-icon">
-                        <div class="flex-grow text-left ml-4">
-                            <p class="payment-text">Thanh toán MoMo</p>
-                            <p class="bank-name">Ví điện tử MoMo</p>
-                        </div>
-                    </div>
-                </a>
+                </div>
             </div>
             
             <div class="copyright-container">
-                <p>Copyright © 2025 Kitsudo (JTISVN). All rights reserved.</p>
+                <p>Copyright © 2025 JTISVN. All rights reserved.</p>
             </div>
         </main>
     </div>
 
     <script>
+        const themeToggleBtn = document.getElementById('theme-toggle-btn');
+        const themeIcon = document.getElementById('theme-icon');
+        const body = document.body;
+        const currentTheme = localStorage.getItem('theme') || 'dark';
+
+        if (currentTheme === 'light') {
+            body.classList.add('light');
+            themeIcon.classList.remove('fa-sun');
+            themeIcon.classList.add('fa-moon');
+        }
+
+        themeToggleBtn.addEventListener('click', () => {
+            body.classList.toggle('light');
+            if (body.classList.contains('light')) {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+                localStorage.setItem('theme', 'light');
+            } else {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+
+        // Hàm sao chép đã được cập nhật
+        const copyToClipboard = (elementId, event) => {
+            event.stopPropagation();
+            const element = document.getElementById(elementId);
+            const textToCopy = element.textContent;
+
+            navigator.clipboard.writeText(textToCopy)
+                .then(() => {
+                    const toast = document.getElementById('copy-toast');
+                    toast.classList.add('show');
+                    setTimeout(() => {
+                        toast.classList.remove('show');
+                    }, 2000); // 2000ms = 2 giây
+                })
+                .catch(err => {
+                    console.error('Không thể sao chép: ', err);
+                });
+        };
+
         const canvas = document.getElementById('raindrop-effect');
         const ctx = canvas.getContext('2d');
         let width, height;
@@ -104,17 +134,14 @@
                 this.y = y;
                 this.r = 0.5;
                 this.dr = 0.8;
-                this.opacity = 1;
-                this.dOpacity = -0.01;
             }
             update() {
                 this.r += this.dr;
-                this.opacity += this.dOpacity;
             }
             draw() {
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
-                ctx.strokeStyle = `rgba(137, 207, 240, ${this.opacity})`;
+                ctx.strokeStyle = `rgba(137, 207, 240, 1)`;
                 ctx.lineWidth = 1;
                 ctx.stroke();
             }
@@ -131,7 +158,7 @@
             for (let i = 0; i < drops.length; i++) {
                 drops[i].update();
                 drops[i].draw();
-                if (drops[i].opacity <= 0) {
+                if (drops[i].r >= 100) {
                     drops.splice(i, 1);
                     i--;
                 }

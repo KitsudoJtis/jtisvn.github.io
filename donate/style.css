@@ -12,6 +12,144 @@
     --accent-pink-purple: #c084fc; /* Màu tím hồng cho nút */
 }
 
+/* Nút bật/tắt chế độ sáng */
+.theme-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 10;
+}
+
+#theme-toggle-btn {
+    background: none;
+    border: none;
+    color: var(--text-primary);
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+    outline: none;
+}
+
+#theme-toggle-btn:hover {
+    color: var(--accent-color-light);
+}
+
+/* Định nghĩa màu sắc cho chế độ sáng */
+body.light {
+    --bg-main: #f0f2f5;
+    --bg-card: #ffffff;
+    --bg-header-footer: transparent;
+    --text-primary: #212529;
+    --text-secondary: #495057;
+    --accent-color: #a855f7;
+    --accent-color-light: #d946ef;
+    --border-color: #dee2e6;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Chỉnh màu chữ cho chế độ sáng để dễ đọc hơn */
+body.light .payment-item {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+body.light .bank-name,
+body.light .account-owner,
+body.light .account-number {
+    color: #212529; /* Đổi màu chữ sang tối hơn để dễ đọc */
+}
+
+
+body.light .background-animation {
+    background: linear-gradient(
+        135deg,
+        var(--accent-color),
+        var(--bg-main) 50%,
+        var(--bg-main)
+    );
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+    z-index: -2;
+    opacity: 0.7;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body.light .nav-container {
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    box-shadow: 0 0 10px rgba(173, 216, 230, 0.5);
+}
+
+body.light .nav-container a {
+    color: var(--text-secondary);
+}
+
+body.light .nav-container a:hover,
+body.light .nav-container a:focus {
+    background-image: linear-gradient(to right, #add8e6, #f08080);
+    color: #ffffff;
+    box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
+}
+
+body.light .social-button {
+    background-color: #e9ecef;
+    color: var(--text-secondary);
+    border: 1px solid #ced4da;
+    box-shadow: 0 0 10px rgba(173, 216, 230, 0.5);
+}
+
+body.light .social-button:hover {
+    background-image: linear-gradient(to right, #add8e6, #f08080);
+    color: #ffffff;
+    box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
+}
+
+/* Cập nhật các ô thanh toán cho chế độ sáng */
+body.light .payment-item {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* Cập nhật các ô ứng dụng cho chế độ sáng */
+body.light .tweak-item {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+body.light .bg-bg-card {
+    background-color: #ffffff;
+    color: var(--text-primary);
+    border: 1px solid #ced4da;
+}
+
+body.light input::placeholder {
+    color: #adb5bd;
+}
+
+body.light .copyright-container p {
+    color: #495057;
+}
+
 /* Hiệu ứng nền chuyển động */
 .background-animation {
     position: fixed;
@@ -27,8 +165,8 @@
     );
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
-    z-index: -2; /* Đặt dưới lớp canvas */
-    opacity: 0.7; /* Giảm độ mờ để không gây xao nhãng */
+    z-index: -2;
+    opacity: 0.7;
 }
 
 @keyframes gradientShift {
@@ -54,7 +192,7 @@ body {
 
 /* Container chung để căn giữa toàn bộ nội dung */
 .main-container {
-    max-width: 1280px; /* Chiều rộng tối đa */
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -71,17 +209,40 @@ p.max-w-2xl {
     color: var(--text-secondary);
 }
 
+/* Hiệu ứng cho ô tìm kiếm */
+#searchInput {
+    background-color: var(--bg-card);
+    border: none;
+    color: var(--text-primary);
+    padding: 0.75rem 1.25rem;
+    border-radius: 9999px;
+    transition: background-color 0.2s, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 1rem;
+}
+
+#searchInput::placeholder {
+    color: var(--text-secondary);
+}
+
+#searchInput:hover,
+#searchInput:focus {
+    box-shadow: 0 0 10px rgba(137, 207, 240, 0.7);
+    outline: none;
+}
+
 /* Styling cho container các nút - Đã thu nhỏ */
 .nav-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1a1e2f; /* Màu nền cho container */
-    border-radius: 9999px; /* Bo tròn hoàn toàn */
-    padding: 0.3rem; /* Giảm khoảng cách bên trong */
+    background-color: #1a1e2f;
+    border-radius: 9999px;
+    padding: 0.3rem;
     margin-bottom: 2rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 15px rgba(137, 207, 240, 0.4); /* Giảm hiệu ứng sáng */
+    box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
     overflow: hidden;
 }
 
@@ -90,9 +251,9 @@ p.max-w-2xl {
     position: relative;
     color: var(--text-secondary);
     font-weight: 600;
-    font-size: 1rem; /* Giảm kích thước chữ */
+    font-size: 1rem;
     text-decoration: none;
-    padding: 0.6rem 1.2rem; /* Giảm padding */
+    padding: 0.6rem 1.2rem;
     border-radius: 9999px;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -101,9 +262,9 @@ p.max-w-2xl {
 /* Hiệu ứng khi di chuột qua hoặc focus */
 .nav-container a:hover,
 .nav-container a:focus {
-    background-image: linear-gradient(to right, #89cff0, #a855f7); /* Màu xanh tím hồng */
+    background-image: linear-gradient(to right, #89cff0, #a855f7);
     color: #ffffff;
-    box-shadow: 0 0 8px rgba(137, 207, 240, 0.6); /* Giảm hiệu ứng sáng cho nút */
+    box-shadow: 0 0 8px rgba(137, 207, 240, 0.6);
     outline: none;
 }
 
@@ -112,21 +273,114 @@ p.max-w-2xl {
     transform: scale(0.95);
 }
 
+/* Icon ứng dụng giữ nguyên hình vuông bo góc nhẹ */
+.tweak-item img {
+    border: none;
+    border-radius: 1rem;
+}
+
 /* Chỉ áp dụng hiệu ứng cho avatar chính */
 .avatar {
-    width: 140px; /* Phóng to avatar */
-    height: 140px; /* Phóng to avatar */
-    border-radius: 9999px; /* Bo tròn hoàn toàn */
+    width: 140px;
+    height: 140px;
+    border-radius: 9999px;
     object-fit: cover;
-    border: 5px solid #89cff0; /* Màu viền xanh tím mới */
-    box-shadow: 0 0 20px rgba(137, 207, 240, 0.7); /* Thêm hiệu ứng sáng luôn luôn */
-    transition: transform 0.8s ease-in-out, border-color 0.8s ease-in-out; /* Thêm hiệu ứng chuyển đổi */
+    border: 5px solid #89cff0;
+    box-shadow: 0 0 20px rgba(137, 207, 240, 0.7);
+    transition: transform 0.8s ease-in-out, border-color 0.8s ease-in-out;
 }
 
 /* Hiệu ứng xoay tròn và đổi màu viền khi di chuột qua */
 .avatar:hover {
     transform: rotate(360deg);
-    border-color: #a855f7; /* Màu viền khi hover */
+    border-color: #a855f7;
+}
+
+/* Tweak card styling - Đã được chỉnh sửa */
+.tweak-item {
+    position: relative;
+    background-color: rgba(30, 41, 59, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+.tweak-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    animation: light-sweep 3s infinite linear;
+    z-index: 1;
+}
+
+@keyframes light-sweep {
+    0% {
+        left: -100%;
+    }
+    50% {
+        left: 100%;
+    }
+    100% {
+        left: 200%;
+    }
+}
+
+.tweak-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Tweak card content */
+.grid h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.grid .text-gray-400 {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.grid .text-gray-300 {
+    font-size: 1rem;
+    color: var(--text-primary);
+}
+
+.grid .text-gray-500 {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+/* Button styling - Đã được chỉnh sửa */
+.ipa-button, .exe-button {
+    background-color: #371b6e;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 0 0 0 transparent;
+}
+
+.ipa-button:hover, .exe-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 0 3px var(--accent-color-light);
+}
+
+/* Hover effect for GitHub links */
+p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
+    color: #89cff0;
 }
 
 /* Các nút mạng xã hội kiểu lưới 2x2 */
@@ -171,74 +425,109 @@ p.max-w-2xl {
 }
 
 /* CSS cho 2 nút thanh toán kiểu chữ nhật bo tròn */
-.payment-buttons-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+.payment-buttons-grid-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
     margin-top: 2rem;
-    max-width: 600px;
+    max-width: 400px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .payment-item {
-    position: relative; /* Thêm để định vị hiệu ứng */
+    position: relative;
     display: flex;
-    align-items: center;
-    padding: 1rem 1.5rem;
-    border-radius: 12px;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 20px;
     color: var(--text-primary);
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
     box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
     text-align: left;
-    overflow: hidden; /* Ẩn phần gradient tràn ra ngoài */
-}
-
-/* Hiệu ứng đèn sáng chiếu ngang qua */
-.payment-item::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 200%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-    animation: light-sweep 3s infinite linear;
-    z-index: 1;
-}
-
-@keyframes light-sweep {
-    0% { left: -100%; }
-    100% { left: 100%; }
+    overflow: hidden;
+    background-color: rgba(30, 41, 59, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
 }
 
 .payment-item:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 15px 25px var(--shadow-color), 0 0 15px rgba(137, 207, 240, 0.7);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(137, 207, 240, 0.7);
 }
 
-.payment-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
+.payment-main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.payment-info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.payment-qr-code {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
     object-fit: cover;
 }
 
-.payment-text {
-    font-size: 1.1rem;
-    font-weight: 700;
-}
-
-.bank-name {
+.bank-name, .account-owner {
     font-size: 0.9rem;
     color: var(--text-secondary);
     margin-top: 0.2rem;
+    line-height: 1.2;
+    font-weight: 700;
 }
 
-/* Các màu nền riêng cho từng nút */
+.account-info-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.account-number {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.copy-btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: auto;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.copy-btn:hover {
+    background-color: var(--accent-color-light);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
 .acb-button {
     background-image: linear-gradient(to right, #e51f28, #c02a2a);
 }
@@ -255,15 +544,56 @@ p.max-w-2xl {
     background-image: linear-gradient(to right, #d8007a, #9e0057);
 }
 
-/* Responsive adjustments */
+/* Toast notification styling */
+.copy-toast {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(30, 41, 59, 0.9);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.copy-toast.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (max-width: 768px) {
+    .payment-buttons-grid-vertical {
+        max-width: 90%;
+    }
+    .payment-main-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+    .payment-info-block {
+        text-align: center;
+    }
+    .copy-btn {
+        width: auto;
+        margin: 0.5rem auto;
+    }
+    .account-info-row {
+        justify-content: center;
+    }
+}
+
 @media (max-width: 480px) {
-    .social-buttons-grid,
-    .payment-buttons-grid {
+    .social-buttons-grid {
         grid-template-columns: 1fr;
     }
 }
 
-/* CSS cho hiệu ứng hạt mưa rơi */
 #raindrop-effect {
     position: fixed;
     top: 0;
@@ -274,7 +604,6 @@ p.max-w-2xl {
     pointer-events: none;
 }
 
-/* Căn chỉnh và làm sáng dòng bản quyền */
 .copyright-container {
     text-align: center;
     margin-top: 4rem;
@@ -285,86 +614,4 @@ p.max-w-2xl {
     color: var(--text-secondary);
     opacity: 0.8;
     font-size: 0.9rem;
-}
-
-/* Style cho các card ứng dụng theo phong cách cypwn.xyz */
-.tweak-card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin-top: 2rem;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.app-card {
-    display: flex;
-    align-items: center;
-    padding: 1rem 1.5rem;
-    border-radius: 12px;
-    color: var(--text-primary);
-    text-decoration: none;
-    transition: all 0.3s ease;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background-color: var(--bg-card); /* Màu nền mặc định */
-}
-
-.app-card:hover {
-    transform: translateY(-4px);
-    background-color: #2b3547;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3), 0 0 15px rgba(137, 207, 240, 0.7);
-}
-
-.app-card-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    object-fit: cover;
-}
-
-.app-card .text-content {
-    margin-left: 1rem;
-    text-align: left;
-}
-
-.app-card .tweak-title {
-    font-size: 1.2rem;
-    font-weight: 700;
-}
-
-.app-card .tweak-description {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-}
-
-/* Màu nền riêng cho từng card */
-.ota-card {
-    background-color: #1a1e2f;
-}
-
-.sileo-card {
-    background-color: #1a1e2f;
-}
-
-.zebra-card {
-    background-color: #1a1e2f;
-}
-
-/* Style cho các nút tải xuống */
-.app-card .ipa-button, .app-card .exe-button {
-    background-color: #371b6e;
-    color: #ffffff;
-    font-weight: 600;
-    padding: 0.75rem 1.5rem;
-    border-radius: 9999px;
-    text-align: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    box-shadow: 0 0 0 0 transparent;
-    display: inline-block;
-}
-.app-card .ipa-button:hover, .app-card .exe-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 0 0 3px var(--accent-color-light);
 }
