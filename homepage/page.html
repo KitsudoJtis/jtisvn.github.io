@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>✪ Ủng Hộ Tôi JTISVN ✪</title>
+    <title>✪ Trang Chủ JTISVN ✪</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="icon" href="https://raw.githubusercontent.com/jtisvn/jtisvn.github.io/master/icons/favicon.ico" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -14,17 +14,13 @@
     <div class="background-animation"></div>
     <canvas id="raindrop-effect"></canvas>
 
-    <div id="copy-toast" class="copy-toast">
-        <p>Đã sao chép!</p>
-    </div>
-
     <div class="main-container mx-auto">
         <main class="container mx-auto px-4 py-8">
             <div class="flex flex-col items-center justify-center text-center mb-8">
                 <div class="nav-container">
-                    <a href="https://app.mediafire.com/folder/qlnbgj6n07d14/">Kho Dylibs</a>
-                    <a href="https://jtisvn.github.io/">Repo JTIS</a>
                     <a href="https://jtisvn.github.io/jtiskhoipa">Kho IPA</a>
+                    <a href="https://jtisvn.github.io/">Repo JTiS</a>
+                    <a href="https://jtisvn.github.io/donate/donate.html">Ủng Hộ</a>
                     <button id="theme-toggle-btn" class="nav-button theme-toggle-button">
                         <i class="fas fa-sun" id="theme-icon"></i>
                     </button>
@@ -34,37 +30,62 @@
                 <div class="flex flex-col items-center space-y-2 mt-4">
                     <h1 class="text-4xl font-bold bg-gradient-to-r from-blue-300 to-white bg-clip-text text-transparent">REPO JTISVN</h1>
                 </div>
-                <p class="text-xl max-w-2xl mx-auto mt-2">Nhận mua hộ Tweak có phí của Havoc và niceOS<br>Ủng hộ cho tôi qua số tài khoản hoặc quét mã QR bên dưới<br> Lưu ý: Nhớ ghi rõ nội dung, mục đích khi khi thanh toán nhé</p>
+                <p class="text-xl max-w-2xl mx-auto mt-2">Chào mứng bạn đên với JTISVN <br>( Jaibreak Trollstore IOS Support  VIỆT NAM )<br>Nhớ theo dõi kênh và tham gia nhóm Telegram nhé</p>
             </div>
 
             <div class="social-buttons-grid mt-8">
-                <a href="https://t.me/Kitsudo" class="social-button telegram-button"><i class="fab fa-telegram-plane"></i> <span>Liên hệ Telegram</span></a>
-                <a href="https://www.facebook.com/hieu.kitsudo?locale=vi_VN" class="social-button facebook-button"><i class="fab fa-facebook-f"></i> <span>Liên hệ Facebook</span></a>
+                <a href="https://t.me/jtisvn" class="social-button telegram-button"><i class="fab fa-telegram-plane"></i> <span>Kênh Telegram</span></a>
+                <a href="https://t.me/jailbreaktrolliossupport" class="social-button telegram-button"><i class="fab fa-telegram-plane"></i> <span>Nhóm Telegram</span></a>
             </div>
 
-            <div class="payment-buttons-grid-vertical mt-8">
-                <div class="payment-item purple-gradient-bg">
-                    <div class="payment-main-content">
-                        <div class="payment-info-block">
-                            <p class="bank-name">Ngân hàng TMCP Á Châu</p>
-                            <p class="account-owner">Chủ TK: NGUYEN TRUNG HIEU</p>
-                            <div class="account-info-row">
-                                <p class="account-number" id="acb-account-number">Số TK: 20219691</p>
-                                <button class="copy-btn" onclick="copyToClipboard('acb-account-number', event)">
-                                    <i class="fas fa-copy"></i>
-                                    <span class="ml-2">Sao chép</span>
-                                </button>
-                                </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                <div class="new-item">
+                    <div class="highlight-overlay"></div>
+                    <div class="flex items-center mb-4">
+                        <div>
+                            <h2 class="text-xl font-semibold text-center">Chặn cập nhật IOS</h2>
+                            <p class="text-gray-300 text-left"><b>Mô tả</b>:<br>- Cấu hình chặn cập nhật iOS là tệp cài trên thiết bị iOS để ngăn tải hoặc cài bản cập nhật mới<br><b>Hướng dẫn</b>:<br>- Tải xuống và cho phép cài về cấu hình<br> - Mở cài đặt - Vào cài đặt chung<br> - Quản lý VPN DNS & thiết bị<br>-Tiến hành cài đặt cầu hình - Xong</p>
                         </div>
-                        <img src="https://jtisvn.github.io/icons/qr.webp" alt="QR Code" class="payment-qr-code">
                     </div>
+                    <a href="https://cydia.ichitaso.com/no-ota18.mobileconfig" class="install-button">
+                        <i class="fas fa-download mr-2"></i>
+                        <span>Tải OTA</span>
+                    </a>
+                </div>
+
+                <div class="new-item">
+                    <div class="highlight-overlay"></div>
+                    <div class="flex items-center mb-4">
+                        <div>
+                            <h2 class="text-xl font-semibold text-center">Trollstore bản Việt Hóa</h2>
+                            <p class="text-gray-300 text-left"><b>Mô tả</b>:<br>- Là phiên bản Trollstore mới do pháp sư Trung hoa phát triển và được việt hóa gần như 100% bơi Rom Lay VN<br><b>Hướng dẫn</b>:<br>- Tải xuống file tar cho phép cài đặt qua Trollstore- Mở ứng dụng Trollstore - Settings<br>- Chọn ngôn ngữ Ttung - Xong</p>
+                        </div>
+                    </div>
+                    <a href="https://www.mediafire.com/file/b8zsuk9324eexmu/TrollStore_2.1_0807_VH.tar/file" class="install-button">
+                        <i class="fas fa-download mr-2"></i>
+                        <span>Tải Tar</span>
+                    </a>
+                </div>
+
+                <div class="new-item">
+                    <div class="highlight-overlay"></div>
+                    <div class="flex items-center mb-4">
+                        <div>
+                            <h2 class="text-xl font-semibold text-center">Esign+ bản Trollstore</h2>
+                            <p class="text-gray-300 text-left"><b>Mô tả</b>:<br>-Như cái tên, là phiên bản khác cuả Esign cho Trollstore có thể ký IPA vĩnh viễn mà không cần đến cert chứng chỉ<br><b>Hướng dẫn</b>:<br>- Tải xuống IPA cho phép cài đặt qua Trollstore - Mở cjetsign - installEsign+ - thêm vào ứng dụng Sách - Chọm dòng 3 thêm file Esign tar- Xong</p>
+                        </div>
+                    </div>
+                    <a href="https://app.mediafire.com/folder/t0nebgmtmtisp" class="install-button">
+                        <i class="fas fa-download mr-2"></i>
+                        <span>Tải IPA</span>
+                    </a>
                 </div>
             </div>
 
             <div class="text-center mt-12 px-4">
-                <p class="thank-you-message">Sự ủng hộ của bạn là động lực to lớn để JTISVN tiếp tục phát triển. Xin chân thành cảm ơn!</p>
+                <p class="thank-you-message">Cảm ơn bạn vì đã theo dõi và ủng hộ JTISVN. Hãy tiếp tục đồng hành cùng chúng tôi nhé!</p>
             </div>
-            
+
             <div class="copyright-container">
                 <p>Copyright © 2025 JTISVN. All rights reserved.</p>
             </div>
@@ -95,49 +116,6 @@
                 localStorage.setItem('theme', 'dark');
             }
         });
-
-        const copyToClipboard = (elementId, event) => {
-            event.stopPropagation();
-            const element = document.getElementById(elementId);
-            const textToCopy = element.textContent.replace('Số TK:', '').trim();
-
-            if (navigator.clipboard && window.isSecureContext) {
-                navigator.clipboard.writeText(textToCopy)
-                    .then(() => {
-                        showToast();
-                    })
-                    .catch(err => {
-                        console.error('Không thể sao chép: ', err);
-                        fallbackCopyToClipboard(textToCopy);
-                    });
-            } else {
-                fallbackCopyToClipboard(textToCopy);
-            }
-        };
-
-        const fallbackCopyToClipboard = (text) => {
-            const textarea = document.createElement('textarea');
-            textarea.value = text;
-            textarea.style.position = 'fixed';
-            document.body.appendChild(textarea);
-            textarea.focus();
-            textarea.select();
-            try {
-                document.execCommand('copy');
-                showToast();
-            } catch (err) {
-                console.error('Không thể sao chép dự phòng: ', err);
-            }
-            document.body.removeChild(textarea);
-        };
-
-        const showToast = () => {
-            const toast = document.getElementById('copy-toast');
-            toast.classList.add('show');
-            setTimeout(() => {
-                toast.classList.remove('show');
-            }, 2000);
-        };
 
         const canvas = document.getElementById('raindrop-effect');
         const ctx = canvas.getContext('2d');

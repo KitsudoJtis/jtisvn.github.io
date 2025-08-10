@@ -53,7 +53,7 @@ body.light .payment-item:hover {
 body.light .bank-name,
 body.light .account-owner,
 body.light .account-number {
-    color: #212529;
+    color: var(--text-primary);
 }
 
 
@@ -77,32 +77,9 @@ body.light .nav-container {
 }
 
 body.light .nav-container a,
-body.light .nav-container button {
+body.light #theme-toggle-btn {
     color: var(--text-secondary);
 }
-
-/* Hiệu ứng cho các link trong nav ở chế độ sáng */
-body.light .nav-container a:hover,
-body.light .nav-container a:focus {
-    background-image: linear-gradient(to right, #add8e6, #f08080);
-    color: #ffffff;
-    box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
-}
-
-/* ==========================================================
-  == SỬA LỖI Dứt Điểm CHO NÚT CHUYỂN ĐỔI BẮT ĐẦU TẠI ĐÂY ==
-  ========================================================== */
-/* Dùng quy tắc ID cụ thể để đảm bảo ghi đè thành công */
-body.light #theme-toggle-btn:hover,
-body.light #theme-toggle-btn:focus {
-    background-image: linear-gradient(to right, #add8e6, #f08080);
-    color: #ffffff;
-    box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
-}
-/* ========================================================
-  == SỬA LỖI Dứt Điểm CHO NÚT CHUYỂN ĐỔI KẾT THÚC TẠI ĐÂY ==
-  ======================================================== */
-
 
 body.light .social-button {
     background-color: #e9ecef;
@@ -155,6 +132,7 @@ body.light .copyright-container p {
     animation: gradientShift 15s ease infinite;
     z-index: -2;
     opacity: 0.7;
+    transition: background 0.5s ease, opacity 0.5s ease;
 }
 
 @keyframes gradientShift {
@@ -196,29 +174,7 @@ p.max-w-2xl {
     color: var(--text-secondary);
 }
 
-#searchInput {
-    background-color: var(--bg-card);
-    border: none;
-    color: var(--text-primary);
-    padding: 0.75rem 1.25rem;
-    border-radius: 9999px;
-    transition: background-color 0.2s, box-shadow 0.3s ease;
-    width: 100%;
-    max-width: 300px;
-    margin-top: 1rem;
-}
-
-#searchInput::placeholder {
-    color: var(--text-secondary);
-}
-
-#searchInput:hover,
-#searchInput:focus {
-    box-shadow: 0 0 10px rgba(137, 207, 240, 0.7);
-    outline: none;
-}
-
-/* Nav container và nút bật/tắt chế độ sáng */
+/* Nav container */
 .nav-container {
     display: flex;
     justify-content: center;
@@ -230,9 +186,11 @@ p.max-w-2xl {
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), 0 0 15px rgba(137, 207, 240, 0.4);
     overflow: hidden;
+    transition: background-color 0.5s ease, border-color 0.5s ease, box-shadow 0.5s ease;
 }
 
-.nav-container a, .nav-container button {
+.nav-container a,
+#theme-toggle-btn {
     position: relative;
     font-weight: 600;
     font-size: 1rem;
@@ -250,22 +208,32 @@ p.max-w-2xl {
 
 .nav-container a:hover,
 .nav-container a:focus,
-.nav-container button:hover,
-.nav-container button:focus {
+.nav-container a:active,
+#theme-toggle-btn:hover,
+#theme-toggle-btn:focus,
+#theme-toggle-btn:active {
     background-image: linear-gradient(to right, #89cff0, #a855f7);
     color: #ffffff;
     box-shadow: 0 0 8px rgba(137, 207, 240, 0.6);
     outline: none;
+    transform: scale(1.05);
+}
+
+body.light .nav-container a:hover,
+body.light .nav-container a:focus,
+body.light .nav-container a:active,
+body.light #theme-toggle-btn:hover,
+body.light #theme-toggle-btn:focus,
+body.light #theme-toggle-btn:active {
+    background-image: linear-gradient(to right, #add8e6, #f08080);
+    color: #ffffff;
+    box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
+    transform: scale(1.05);
 }
 
 .nav-container a:active,
-.nav-container button:active {
+#theme-toggle-btn:active {
     transform: scale(0.95);
-}
-
-.tweak-item img {
-    border: none;
-    border-radius: 1rem;
 }
 
 .avatar {
@@ -281,89 +249,6 @@ p.max-w-2xl {
 .avatar:hover {
     transform: rotate(360deg);
     border-color: #a855f7;
-}
-
-.tweak-item {
-    position: relative;
-    background-color: rgba(30, 41, 59, 0.2);
-    border-radius: 20px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    padding: 1.5rem;
-    overflow: hidden;
-}
-
-.tweak-item::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 200%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-    animation: light-sweep 3s infinite linear;
-    z-index: 1;
-}
-
-@keyframes light-sweep {
-    0% {
-        left: -100%;
-    }
-    50% {
-        left: 100%;
-    }
-    100% {
-        left: 200%;
-    }
-}
-
-.tweak-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
-.grid h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--text-primary);
-}
-
-.grid .text-gray-400 {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-}
-
-.grid .text-gray-300 {
-    font-size: 1rem;
-    color: var(--text-primary);
-}
-
-.grid .text-gray-500 {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-}
-
-.ipa-button, .exe-button {
-    background-color: #371b6e;
-    color: #ffffff;
-    font-weight: 600;
-    padding: 0.5rem 1rem;
-    border-radius: 9999px;
-    text-align: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    box-shadow: 0 0 0 0 transparent;
-}
-
-.ipa-button:hover, .exe-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 0 0 3px var(--accent-color-light);
-}
-
-p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
-    color: #89cff0;
 }
 
 .social-buttons-grid {
@@ -426,7 +311,7 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     border-radius: 20px;
     color: var(--text-primary);
     text-decoration: none;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.5s ease, border-color 0.5s ease;
     cursor: pointer;
     box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
     text-align: left;
@@ -512,22 +397,6 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.acb-button {
-    background-image: linear-gradient(to right, #e51f28, #c02a2a);
-}
-.paypal-button {
-    background-image: linear-gradient(to right, #0070ba, #00457c);
-}
-.tpbank-button {
-    background-image: linear-gradient(to right, #501d71, #2b0e41);
-}
-.vietbank-button {
-    background-image: linear-gradient(to right, #00938b, #006b6b);
-}
-.momo-button {
-    background-image: linear-gradient(to right, #d8007a, #9e0057);
-}
-
 /* Toast notification styling */
 .copy-toast {
     position: fixed;
@@ -550,9 +419,8 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     visibility: visible;
 }
 
-/* Các thay đổi chính cho màn hình điện thoại dọc */
+/* Responsive */
 @media (max-width: 768px) {
-    /* Đảm bảo nav-container có display: flex để các item sắp xếp ngang hàng */
     .nav-container {
         display: flex;
         justify-content: center;
@@ -561,15 +429,13 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
         margin: 1rem auto;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
-        box-sizing: border-box; /* Đảm bảo padding không làm tràn ra ngoài */
+        box-sizing: border-box;
     }
-
-    /* Các nút điều hướng và nút sáng/tối sẽ chia đều không gian */
     .nav-container a, .nav-container button {
         flex-grow: 1;
         text-align: center;
         padding: 0.6rem 0.5rem;
-        font-size: 0.9rem; /* Giảm font size để vừa vặn hơn */
+        font-size: 0.9rem;
     }
     
     .payment-buttons-grid-vertical {
@@ -604,7 +470,6 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     }
 }
 
-/* Media query cho màn hình ngang trở lên (tablet, desktop) */
 @media (min-width: 769px) {
     .payment-main-content {
         flex-direction: row;
@@ -652,4 +517,13 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     color: var(--text-secondary);
     opacity: 0.8;
     font-size: 0.9rem;
+}
+
+/* ▼▼▼ PHẦN ĐƯỢC THÊM VÀO ▼▼▼ */
+.thank-you-message {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    opacity: 0.9;
+    transition: color 0.5s ease;
 }

@@ -15,17 +15,16 @@
 
 /* Định nghĩa màu sắc cho chế độ sáng */
 [data-theme="light"] {
-    --bg-main: #f0f2f5; /* Xám nhạt, khớp với donate.html */
-    --bg-card: rgba(255, 255, 255, 0.8); /* Nền thẻ trắng hơn, trong suốt nhẹ */
-    --text-primary: #212529; /* Chữ đen */
-    --text-secondary: #495057;
-    --accent-color: #a855f7; /* Tím sáng, khớp với donate.html */
+    --bg-main: #f0f2f5;
+    --bg-card: rgba(255, 255, 255, 0.5);
+    --text-primary: #212529; /* Chữ đen đậm */
+    --text-secondary: #495057; /* Chữ xám đậm */
+    --accent-color: #a855f7;
     --accent-color-light: #d946ef;
     --border-color: #ced4da;
     --shadow-color: rgba(0, 0, 0, 0.1);
     --accent-pink-purple: #c084fc;
-    --link-color: #3b82f6;
-    --raindrop-color: 37, 99, 235; /* Xanh dương đậm (#2563eb) để hạt nước rõ hơn */
+    --link-color: #3b82f6; /* Màu link xanh dương */
 }
 
 /* General styling for the body */
@@ -152,7 +151,7 @@ p.max-w-2xl {
     transform: scale(1.05);
 }
 
-/* Cập nhật các quy tắc cho chế độ sáng để khớp với file donate.html */
+/* Cập nhật các quy tắc cho chế độ sáng */
 [data-theme="light"] .nav-container {
     background-color: #e9ecef;
     border: 1px solid #ced4da;
@@ -161,7 +160,7 @@ p.max-w-2xl {
 
 [data-theme="light"] .nav-container a,
 [data-theme="light"] #theme-toggle-btn {
-    color: var(--text-secondary); /* #495057 - xám đậm */
+    color: var(--text-secondary);
 }
 
 [data-theme="light"] .nav-container a:hover,
@@ -188,49 +187,48 @@ p.max-w-2xl {
     height: 140px;
     border-radius: 9999px;
     object-fit: cover;
-    border: 5px solid #89cff0; /* Màu viền xanh tím */
-    box-shadow: 0 0 20px rgba(137, 207, 240, 0.7); /* Bóng đổ tương tự */
+    border: 5px solid #89cff0;
+    box-shadow: 0 0 20px rgba(137, 207, 240, 0.7);
     transition: transform 0.8s ease-in-out, border-color 0.8s ease-in-out, box-shadow 0.8s ease-in-out;
 }
 
-/* Hiệu ứng xoay tròn và đổi màu viền khi di chuột qua (tím hồng) */
 .avatar:hover {
     transform: rotate(360deg);
-    border-color: var(--accent-pink-purple); /* Đổi màu viền sang tím hồng */
-    box-shadow: 0 0 20px var(--accent-pink-purple); /* Bóng đổ cũng đổi màu */
+    border-color: var(--accent-pink-purple);
+    box-shadow: 0 0 20px var(--accent-pink-purple);
 }
 
-/* Tweak card styling */
+/* === TWEAK CARD STYLING (ĐỒNG BỘ) === */
 .tweak-item {
     position: relative;
-    background-color: var(--bg-card); /* Sử dụng biến màu nền thẻ */
-    border-radius: 20px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.5s ease, border-color 0.5s ease;
     padding: 1.5rem;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.5s ease, border-color 0.5s ease;
+    box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
+    background-color: var(--bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     overflow: hidden;
-}
-
-[data-theme="light"] .tweak-item {
-    background-color: var(--bg-card); /* Nền thẻ trắng hơn, trong suốt nhẹ */
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(206, 212, 218, 0.7);
 }
 
 .tweak-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(137, 207, 240, 0.7);
-    border-color: rgba(137, 207, 240, 0.7);
+}
+
+[data-theme="light"] .tweak-item {
+    background-color: var(--bg-card);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 [data-theme="light"] .tweak-item:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 0 12px rgba(173, 216, 230, 0.5);
-    border-color: #add8e6;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15), 0 0 12px rgba(173, 216, 230, 0.6);
 }
 
+/* Hiệu ứng ánh sáng quét qua (chỉ ở chế độ tối) */
 .tweak-item::before {
     content: "";
     position: absolute;
@@ -241,124 +239,86 @@ p.max-w-2xl {
     background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
     animation: light-sweep 3s infinite linear;
     z-index: 1;
+    pointer-events: none;
 }
 
 @keyframes light-sweep {
-    0% {
-        left: -100%;
-    }
-    50% {
-        left: 100%;
-    }
-    100% {
-        left: 200%;
-    }
+    0% { left: -100%; }
+    50% { left: 100%; }
+    100% { left: 200%; }
 }
 
-/* Tweak card content */
+[data-theme="light"] .tweak-item::before {
+    display: none;
+}
+/* === KẾT THÚC TWEAK CARD === */
+
+
+/* === TWEAK CARD CONTENT (ĐỒNG BỘ MÀU CHỮ) === */
 .tweak-item h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
     color: var(--text-primary);
-    transition: color 0.5s ease;
 }
-
-[data-theme="light"] .tweak-item h2 {
-    color: #000000; /* Chữ đen cho tiêu đề */
-}
-
-.tweak-item .text-gray-400 {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-    transition: color 0.5s ease;
-}
-
-[data-theme="light"] .tweak-item .text-gray-400 {
-    color: #333333; /* Chữ đen hơn cho mô tả phụ */
-}
-
 .tweak-item .text-gray-300 {
-    font-size: 1rem;
     color: var(--text-primary);
-    transition: color 0.5s ease;
 }
-
-[data-theme="light"] .tweak-item .text-gray-300 {
-    color: #000000; /* Chữ đen cho mô tả chính */
-}
-
+.tweak-item .text-gray-400,
 .tweak-item .text-gray-500 {
-    font-size: 0.9rem;
     color: var(--text-secondary);
+}
+.tweak-item p,
+.tweak-item a {
     transition: color 0.5s ease;
 }
+/* === KẾT THÚC ĐỒNG BỘ MÀU CHỮ === */
 
-[data-theme="light"] .tweak-item .text-gray-500 {
-    color: #555555; /* Chữ đen hơn cho thông tin thêm */
-}
 
-/* Button styling - Thu nhỏ nút và thêm viền trắng trong chế độ tối */
+/* Button styling */
 .ipa-button, .exe-button {
     background-color: transparent;
-    color: #ffffff; /* Màu trắng trong chế độ tối */
-    font-weight: 700; /* Tăng độ đậm chữ */
-    padding: 0.4rem 0.6rem; /* Giảm padding ngang để nút ngắn hơn */
-    font-size: 0.9rem; /* Kích thước chữ */
+    color: #ffffff;
+    font-weight: 700;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
     border-radius: 9999px;
     text-align: center;
     transition: all 0.3s ease;
     cursor: pointer;
-    border: 1px solid #ffffff; /* Viền trắng trong chế độ tối */
+    border: 1px solid #ffffff;
 }
 
 [data-theme="light"] .ipa-button, [data-theme="light"] .exe-button {
     background-color: #e9ecef;
-    color: #000000; /* Chữ đen trong chế độ sáng */
-    font-weight: 700; /* Tăng độ đậm chữ */
-    border: 1px solid #000000; /* Viền đen trong chế độ sáng */
-    box-shadow: 0 0 10px rgba(173, 216, 230, 0.5);
-    padding: 0.4rem 0.6rem; /* Giữ padding ngắn trong chế độ sáng */
-    font-size: 0.9rem; /* Giữ kích thước chữ */
+    color: var(--text-primary);
+    border: 1px solid var(--text-primary);
 }
 
-/* Hiệu ứng khi tương tác (di chuột, nhấn) */
 .ipa-button:hover,
-.ipa-button:focus,
-.ipa-button:active,
-.exe-button:hover,
-.exe-button:focus,
-.exe-button:active {
+.exe-button:hover {
     background-image: linear-gradient(to right, #89cff0, #a855f7);
     color: #ffffff;
     box-shadow: 0 0 8px rgba(137, 207, 240, 0.6);
     transform: scale(1.05);
-    border: 1px solid #ffffff; /* Giữ viền trắng khi hover trong chế độ tối */
+    border-color: transparent;
 }
 
 [data-theme="light"] .ipa-button:hover,
-[data-theme="light"] .ipa-button:focus,
-[data-theme="light"] .ipa-button:active,
-[data-theme="light"] .exe-button:hover,
-[data-theme="light"] .exe-button:focus,
-[data-theme="light"] .exe-button:active {
+[data-theme="light"] .exe-button:hover {
     background-image: linear-gradient(to right, #add8e6, #f08080);
     color: #ffffff;
-    box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
-    transform: scale(1.05);
-    border: 1px solid #000000; /* Viền đen khi hover trong chế độ sáng */
+    border-color: transparent;
 }
 
-/* Hover effect for GitHub links */
-p a[href*="github.com"] {
-    color: #ffffff; /* Màu trắng trong chế độ tối */
-    transition: color 0.5s ease;
+/* Link styling */
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
-
-p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
+a:hover {
     color: var(--accent-color-light);
 }
 
-/* Các nút mạng xã hội kiểu lưới 2x2 */
+/* Social Buttons */
 .social-buttons-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -379,7 +339,7 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
     border-radius: 9999px;
-    color: var(--text-secondary); /* #94a3b8 trong chế độ tối */
+    color: var(--text-secondary);
     font-weight: 600;
     font-size: 1rem;
     text-decoration: none;
@@ -389,57 +349,46 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
 }
 
 [data-theme="light"] .social-button {
-    background-color: #e9ecef; /* Nền sáng cho nút mạng xã hội */
-    color: #000000; /* Màu đen trong chế độ sáng */
-    border: 1px solid #ced4da; /* Viền xám trong chế độ sáng */
+    background-color: #e9ecef;
+    color: var(--text-secondary);
+    border: 1px solid #ced4da;
     box-shadow: 0 0 10px rgba(173, 216, 230, 0.5);
 }
 
-/* Hiệu ứng khi di chuột qua, focus và active cho nút mạng xã hội */
-.social-button:hover,
-.social-button:focus,
-.social-button:active {
+.social-button:hover {
     background-image: linear-gradient(to right, #89cff0, #a855f7);
     color: #ffffff;
     box-shadow: 0 0 8px rgba(137, 207, 240, 0.6);
     transform: scale(1.05);
 }
 
-[data-theme="light"] .social-button:hover,
-[data-theme="light"] .social-button:focus,
-[data-theme="light"] .social-button:active {
+[data-theme="light"] .social-button:hover {
     background-image: linear-gradient(to right, #add8e6, #f08080);
     color: #ffffff;
-    box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
-    transform: scale(1.05);
-    border: 1px solid #ced4da; /* Giữ viền xám khi hover trong chế độ sáng */
 }
 
 /* Responsive adjustments */
 @media (max-width: 480px) {
     .social-buttons-grid {
-        grid-template-columns: 1fr; /* Chuyển thành 1 cột cho nút mạng xã hội */
+        grid-template-columns: 1fr;
     }
     .nav-container {
-        max-width: 300px; /* Giới hạn chiều rộng để vừa màn hình nhỏ */
-        flex-wrap: wrap; /* Cho phép nút xuống dòng nếu quá chật */
-        gap: 0.5rem; /* Thêm khoảng cách giữa các nút */
-        padding: 0.2rem; /* Giảm padding container */
+        max-width: 300px;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        padding: 0.2rem;
         justify-content: center;
     }
     .nav-container a {
-        padding: 0.4rem 0.8rem; /* Giảm padding để nút nhỏ hơn */
-        font-size: 0.9rem; /* Giảm kích thước chữ */
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
     }
     #theme-toggle-btn {
-        padding: 0.3rem 0.5rem; /* Giảm padding cho nút chuyển đổi */
-    }
-    .theme-toggle i {
-        font-size: 1rem; /* Giảm kích thước icon */
+        padding: 0.3rem 0.5rem;
     }
 }
 
-/* CSS cho hiệu ứng hạt mưa rơi */
+/* Raindrop Effect */
 #raindrop-effect {
     position: fixed;
     top: 0;
@@ -450,7 +399,7 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     pointer-events: none;
 }
 
-/* Căn chỉnh và làm sáng dòng bản quyền */
+/* Copyright */
 .copyright-container {
     text-align: center;
     margin-top: 4rem;
@@ -463,7 +412,7 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     font-size: 0.9rem;
 }
 
-/* Hiệu ứng nền chuyển động */
+/* Background Animation */
 .background-animation {
     position: fixed;
     top: 0;
@@ -484,17 +433,20 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
 }
 
 [data-theme="light"] .background-animation {
-    opacity: 0.4; /* Giảm độ chói trong chế độ sáng */
+    opacity: 0.4;
 }
 
 @keyframes gradientShift {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Thank you message */
+.thank-you-message {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    opacity: 0.9;
+    transition: color 0.5s ease;
 }
