@@ -13,26 +13,21 @@
 }
 
 /* Nút bật/tắt chế độ sáng */
-.theme-toggle {
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-    z-index: 10;
+.theme-toggle-button {
+    /* Đã được tích hợp vào .nav-container a, .nav-container button */
+    /* Không cần các thuộc tính riêng biệt ở đây nữa */
 }
 
 #theme-toggle-btn {
     background: none;
     border: none;
-    color: var(--text-primary);
+    color: var(--text-secondary);
     cursor: pointer;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    transition: color 0.3s ease;
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+    transition: all 0.3s ease;
     outline: none;
-}
-
-#theme-toggle-btn:hover {
-    color: var(--accent-color-light);
+    flex-grow: 1; /* Thêm flex-grow để nút giãn ra bằng nhau */
 }
 
 /* Định nghĩa màu sắc cho chế độ sáng */
@@ -48,7 +43,6 @@ body.light {
     --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
-/* Chỉnh màu chữ cho chế độ sáng để dễ đọc hơn */
 body.light .payment-item {
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -59,7 +53,7 @@ body.light .payment-item {
 body.light .bank-name,
 body.light .account-owner,
 body.light .account-number {
-    color: #212529; /* Đổi màu chữ sang tối hơn để dễ đọc */
+    color: #212529;
 }
 
 
@@ -118,7 +112,6 @@ body.light .social-button:hover {
     box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
 }
 
-/* Cập nhật các ô thanh toán cho chế độ sáng */
 body.light .payment-item {
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -127,7 +120,6 @@ body.light .payment-item {
     -webkit-backdrop-filter: blur(10px);
 }
 
-/* Cập nhật các ô ứng dụng cho chế độ sáng */
 body.light .tweak-item {
     background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -150,7 +142,6 @@ body.light .copyright-container p {
     color: #495057;
 }
 
-/* Hiệu ứng nền chuyển động */
 .background-animation {
     position: fixed;
     top: 0;
@@ -181,7 +172,6 @@ body.light .copyright-container p {
     }
 }
 
-/* General styling for the body */
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background-color: var(--bg-main);
@@ -190,7 +180,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Container chung để căn giữa toàn bộ nội dung */
 .main-container {
     max-width: 1280px;
     margin-left: auto;
@@ -209,7 +198,6 @@ p.max-w-2xl {
     color: var(--text-secondary);
 }
 
-/* Hiệu ứng cho ô tìm kiếm */
 #searchInput {
     background-color: var(--bg-card);
     border: none;
@@ -232,7 +220,7 @@ p.max-w-2xl {
     outline: none;
 }
 
-/* Styling cho container các nút - Đã thu nhỏ */
+/* Nav container và nút bật/tắt chế độ sáng */
 .nav-container {
     display: flex;
     justify-content: center;
@@ -246,10 +234,9 @@ p.max-w-2xl {
     overflow: hidden;
 }
 
-/* Styling cho từng nút bên trong container - Đã thu nhỏ */
-.nav-container a {
+/* Các nút trong nav-container giờ sẽ có kích thước bằng nhau */
+.nav-container a, .nav-container button {
     position: relative;
-    color: var(--text-secondary);
     font-weight: 600;
     font-size: 1rem;
     text-decoration: none;
@@ -257,29 +244,33 @@ p.max-w-2xl {
     border-radius: 9999px;
     transition: all 0.3s ease;
     cursor: pointer;
+    background-color: transparent;
+    color: var(--text-secondary);
+    border: none;
+    flex-grow: 1; /* Thêm flex-grow để các item giãn ra bằng nhau */
+    text-align: center;
 }
 
-/* Hiệu ứng khi di chuột qua hoặc focus */
 .nav-container a:hover,
-.nav-container a:focus {
+.nav-container a:focus,
+.nav-container button:hover,
+.nav-container button:focus {
     background-image: linear-gradient(to right, #89cff0, #a855f7);
     color: #ffffff;
     box-shadow: 0 0 8px rgba(137, 207, 240, 0.6);
     outline: none;
 }
 
-/* Hiệu ứng khi nhấn vào nút */
-.nav-container a:active {
+.nav-container a:active,
+.nav-container button:active {
     transform: scale(0.95);
 }
 
-/* Icon ứng dụng giữ nguyên hình vuông bo góc nhẹ */
 .tweak-item img {
     border: none;
     border-radius: 1rem;
 }
 
-/* Chỉ áp dụng hiệu ứng cho avatar chính */
 .avatar {
     width: 140px;
     height: 140px;
@@ -290,13 +281,11 @@ p.max-w-2xl {
     transition: transform 0.8s ease-in-out, border-color 0.8s ease-in-out;
 }
 
-/* Hiệu ứng xoay tròn và đổi màu viền khi di chuột qua */
 .avatar:hover {
     transform: rotate(360deg);
     border-color: #a855f7;
 }
 
-/* Tweak card styling - Đã được chỉnh sửa */
 .tweak-item {
     position: relative;
     background-color: rgba(30, 41, 59, 0.2);
@@ -339,7 +328,6 @@ p.max-w-2xl {
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
-/* Tweak card content */
 .grid h2 {
     font-size: 1.5rem;
     font-weight: 700;
@@ -361,7 +349,6 @@ p.max-w-2xl {
     color: var(--text-secondary);
 }
 
-/* Button styling - Đã được chỉnh sửa */
 .ipa-button, .exe-button {
     background-color: #371b6e;
     color: #ffffff;
@@ -378,12 +365,10 @@ p.max-w-2xl {
     box-shadow: 0 0 0 3px var(--accent-color-light);
 }
 
-/* Hover effect for GitHub links */
 p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     color: #89cff0;
 }
 
-/* Các nút mạng xã hội kiểu lưới 2x2 */
 .social-buttons-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -424,7 +409,6 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     transform: scale(1.05);
 }
 
-/* CSS cho 2 nút thanh toán kiểu chữ nhật bo tròn */
 .payment-buttons-grid-vertical {
     display: flex;
     flex-direction: column;
@@ -507,6 +491,7 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     font-weight: 600;
     color: var(--text-primary);
     margin: 0;
+    white-space: normal;
 }
 
 .copy-btn {
@@ -566,7 +551,28 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     visibility: visible;
 }
 
+/* Các thay đổi chính cho màn hình điện thoại dọc */
 @media (max-width: 768px) {
+    /* Đảm bảo nav-container có display: flex để các item sắp xếp ngang hàng */
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 1rem auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        box-sizing: border-box; /* Đảm bảo padding không làm tràn ra ngoài */
+    }
+
+    /* Các nút điều hướng và nút sáng/tối sẽ chia đều không gian */
+    .nav-container a, .nav-container button {
+        flex-grow: 1;
+        text-align: center;
+        padding: 0.6rem 0.5rem;
+        font-size: 0.9rem; /* Giảm font size để vừa vặn hơn */
+    }
+    
     .payment-buttons-grid-vertical {
         max-width: 90%;
     }
@@ -579,12 +585,45 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     .payment-info-block {
         text-align: center;
     }
-    .copy-btn {
-        width: auto;
-        margin: 0.5rem auto;
-    }
     .account-info-row {
         justify-content: center;
+        align-items: baseline;
+        flex-wrap: nowrap;
+    }
+    .account-number {
+        font-size: 1rem;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+    .copy-btn {
+        margin-left: 0.5rem;
+    }
+    .payment-qr-code {
+        width: 100px;
+        height: 100px;
+        margin-top: 1rem;
+    }
+}
+
+/* Media query cho màn hình ngang trở lên (tablet, desktop) */
+@media (min-width: 769px) {
+    .payment-main-content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+    .payment-info-block {
+        text-align: left;
+    }
+    .payment-qr-code {
+        width: 60px;
+        height: 60px;
+        margin-top: 0;
+    }
+    .account-info-row {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
     }
 }
 

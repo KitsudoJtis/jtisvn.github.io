@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-<body class="bg-gray-900 font-sans text-white min-h-screen" data-theme="dark">
+<body class="font-sans min-h-screen" data-theme="dark">
     <div class="background-animation"></div>
     <canvas id="raindrop-effect"></canvas>
 
@@ -21,6 +21,9 @@
                     <a href="https://jtisvn.github.io/homepage/" target="_blank">Trang chủ</a>
                     <a href="https://jtisvn.github.io/" target="_blank">Repo của tôi</a>
                     <a href="https://app.mediafire.com/folder/qlnbgj6n07d14" target="_blank">Kho Dylib</a>
+                    <button id="theme-toggle-btn">
+                        <i class="fas fa-sun" id="theme-icon"></i>
+                    </button>
                 </div>
 
                 <img src="https://jtisvn.github.io/icons/avatar.webp" alt="Avatar" class="avatar">
@@ -34,15 +37,15 @@
                     <a href="https://discord.com/channels/1375487570556878988/1376059466570666024" class="social-button tiktok-button"><i class="fab fa-discord"></i> <span>Nhóm Discord</span></a>
                     <a href="https://www.tiktok.com/@jtisvn_96" class="social-button youtube-button"><i class="fab fa-tiktok"></i> <span>Tiktok JTISVN</span></a>
                     <a href="https://jtisvn.github.io/donate/donate.html" class="social-button bank-button"><i class="fas fa-bank"></i> <span>Ủng hộ tôi</span></a>
-             </div>
+                </div>
                 
                 <div class="mt-8">
-                    <input type="text" id="searchInput" placeholder="Tìm kiếm..." class="px-4 py-2 bg-bg-card text-text-primary focus:outline-none" onkeyup="searchTweak()">
+                    <input type="text" id="searchInput" placeholder="Tìm kiếm..." class="px-4 py-2" onkeyup="searchTweak()">
                 </div>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="tweakGrid">
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition tweak-item">
+                <div class="tweak-item">
                     <div class="flex items-center mb-4">
                         <img src="https://jtisvn.github.io/icons/trollinstallerx.webp" alt="Trollinstaller X Icon" class="w-16 h-16 mr-4">
                         <div>
@@ -50,7 +53,7 @@
                             <p class="text-gray-400">Phiên bản v1.0.3</p>
                         </div>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ đước thiết kê để cài đặt Trollstore cho phép tải các tệp IPA vĩnh viễn<br>Tương thích iOS 15.2 - 16.6.1</p>
+                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ đước thiết kế để cài đặt Trollstore cho phép tải các tệp IPA vĩnh viễn<br>Tương thích iOS 15.2 - 16.6.1</p>
                     <p><b>Nguồn</b>: <a href="https://github.com/alfiecg24/TrollInstallerX" target="_blank">GitHub Repository</a></p>
                     <div class="flex space-x-2 mt-2">
                         <a href="https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa" class="ipa-button flex-1 flex items-center justify-center">Tải xuống IPA</a>
@@ -58,7 +61,7 @@
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ: Cài đặt thông qua Chứng chỉ và Sideloadly</p>
                 </div>
 
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition tweak-item">
+                <div class="tweak-item">
                     <div class="flex items-center mb-4">
                         <img src="https://jtisvn.github.io/icons/trollstore.webp" alt="TrollRestore Icon" class="w-16 h-16 mr-4">
                         <div>
@@ -74,7 +77,7 @@
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ: Cài đặt thông qua PC Windows/Mac</p>
                 </div>
 
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition tweak-item">
+                <div class="tweak-item">
                     <div class="flex items-center mb-4">
                         <img src="https://jtisvn.github.io/icons/trollfools.webp" alt="Filza File Manager Icon" class="w-16 h-16 mr-4">
                         <div>
@@ -90,7 +93,7 @@
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ: Cài đặt thông qua Trollstore</p>
                 </div>
 
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition tweak-item">
+                <div class="tweak-item">
                     <div class="flex items-center mb-4">
                         <img src="https://jtisvn.github.io/icons/trollspeed.webp" alt="Feather Icon" class="w-16 h-16 mr-4">
                         <div>
@@ -106,7 +109,7 @@
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ: Cài đặt thông qua Trollstore</p>
                 </div>
 
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition tweak-item">
+                <div class="tweak-item">
                     <div class="flex items-center mb-4">
                         <img src="https://jtisvn.github.io/icons/appsmanager.webp" alt="Feather Icon" class="w-16 h-16 mr-4">
                         <div>
@@ -122,7 +125,7 @@
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ: Cài đặt thông qua Trollstore</p>
                 </div>
 
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition tweak-item">
+                <div class="tweak-item">
                     <div class="flex items-center mb-4">
                         <img src="https://jtisvn.github.io/icons/varclean.webp" alt="Feather Icon" class="w-16 h-16 mr-4">
                         <div>
@@ -138,7 +141,7 @@
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ: Cài đặt thông qua Trollstore</p>
                 </div>
 
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition tweak-item">
+                <div class="tweak-item">
                     <div class="flex items-center mb-4">
                         <img src="https://jtisvn.github.io/icons/filza.webp" alt="Filza File Manager Icon" class="w-16 h-16 mr-4">
                         <div>
@@ -154,7 +157,7 @@
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ: Cài đặt thông qua Trollstore và Jailbreak</p>
                 </div>
 
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition tweak-item">
+                <div class="tweak-item">
                     <div class="flex items-center mb-4">
                         <img src="https://jtisvn.github.io/icons/dopamine.webp" alt="Dopamine Jailbreak Icon" class="w-16 h-16 mr-4">
                         <div>
@@ -170,7 +173,7 @@
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ: Cài đặt thông qua Trollstore và Chứng chỉ</p>
                 </div>
 
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition tweak-item">
+                <div class="tweak-item">
                     <div class="flex items-center mb-4">
                         <img src="https://jtisvn.github.io/icons/roothide.webp" alt="Dopamine Roothide Icon" class="w-16 h-16 mr-4">
                         <div>
@@ -186,7 +189,7 @@
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ: Cài đặt thông qua Trollstore và Chứng chỉ</p>
                 </div>
 
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition tweak-item">
+                <div class="tweak-item">
                     <div class="flex items-center mb-4">
                         <img src="https://jtisvn.github.io/icons/appstore+.webp" alt="Feather Icon" class="w-16 h-16 mr-4">
                         <div>
@@ -202,7 +205,7 @@
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ: Cài đặt thông qua Trollstore</p>
                 </div>
 
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition tweak-item">
+                <div class="tweak-item">
                     <div class="flex items-center mb-4">
                         <img src="https://jtisvn.github.io/icons/taurine.webp" alt="Feather Icon" class="w-16 h-16 mr-4">
                         <div>
@@ -218,7 +221,7 @@
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ: Cài đặt thông qua Trollstore, AltStore và Sideloadly</p>
                 </div>
 
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition tweak-item">
+                <div class="tweak-item">
                     <div class="flex items-center mb-4">
                         <img src="https://jtisvn.github.io/icons/bootstrap.webp" alt="Feather Icon" class="w-16 h-16 mr-4">
                         <div>
@@ -234,7 +237,7 @@
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ: Cài đặt thông qua Trollstore</p>
                 </div>
 
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition tweak-item">
+                <div class="tweak-item">
                     <div class="flex items-center mb-4">
                         <img src="https://jtisvn.github.io/icons/nathanir.webp" alt="Feather Icon" class="w-16 h-16 mr-4">
                         <div>
@@ -250,7 +253,7 @@
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ: Cài đặt thông qua Trollstore</p>
                 </div>
 
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition tweak-item">
+                <div class="tweak-item">
                     <div class="flex items-center mb-4">
                         <img src="https://jtisvn.github.io/icons/cowabunga.webp" alt="Feather Icon" class="w-16 h-16 mr-4">
                         <div>
@@ -266,7 +269,7 @@
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ: Cài đặt thông qua Trollstore và Chứng chỉ</p>
                 </div>
 
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition tweak-item">
+                <div class="tweak-item">
                     <div class="flex items-center mb-4">
                         <img src="https://jtisvn.github.io/icons/misaka.webp" alt="Feather Icon" class="w-16 h-16 mr-4">
                         <div>
@@ -299,13 +302,40 @@
             }
         }
 
-        // Hiệu ứng hạt mưa rơi
+        const themeToggleBtn = document.getElementById('theme-toggle-btn');
+        const themeIcon = document.getElementById('theme-icon');
+        const body = document.body;
+
+        const currentTheme = localStorage.getItem('theme') || 'dark';
+        body.setAttribute('data-theme', currentTheme);
+        if (currentTheme === 'light') {
+            themeIcon.classList.remove('fa-sun');
+            themeIcon.classList.add('fa-moon');
+        } else {
+            themeIcon.classList.remove('fa-moon');
+            themeIcon.classList.add('fa-sun');
+        }
+
+        themeToggleBtn.addEventListener('click', () => {
+            const newTheme = body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            
+            if (newTheme === 'light') {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            } else {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            }
+        });
+
         const canvas = document.getElementById('raindrop-effect');
         const ctx = canvas.getContext('2d');
         let width, height;
         let drops = [];
-        let lastDropTime = 0;
-        const dropInterval = 200; // Tần suất rơi hạt (mili giây)
+        let lastDropTime = 200;
+        const dropInterval = 200;
 
         const initCanvas = () => {
             width = canvas.width = window.innerWidth;
@@ -320,9 +350,9 @@
                 this.x = x;
                 this.y = y;
                 this.r = 0.5;
-                this.dr = 0.8; // Tốc độ lan tỏa
+                this.dr = 0.8;
                 this.opacity = 1;
-                this.dOpacity = -0.01; // Tốc độ mờ dần
+                this.dOpacity = -0.01;
             }
             update() {
                 this.r += this.dr;
@@ -331,8 +361,8 @@
             draw() {
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
-                ctx.strokeStyle = `rgba(137, 207, 240, ${this.opacity})`;
-                ctx.lineWidth = 1; // Độ dày của viền vòng tròn
+                ctx.strokeStyle = `rgba(${getComputedStyle(document.body).getPropertyValue('--raindrop-color')}, ${this.opacity})`;
+                ctx.lineWidth = 1;
                 ctx.stroke();
             }
         }
