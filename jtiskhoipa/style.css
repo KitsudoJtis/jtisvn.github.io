@@ -1,7 +1,7 @@
 /* Màu sắc mới */
 :root {
     --bg-main: #0a0e1a; /* Nền tối */
-    ---bg-card: #182033; /* Màu nền cho các thẻ */
+    --bg-card: #182033; /* Màu nền cho các thẻ */
     --text-primary: #e0e7ff; /* Màu chữ chính */
     --text-secondary: #94a3b8; /* Màu chữ phụ */
     --accent-color: #7c3aed; /* Màu nhấn chính (tím) */
@@ -10,22 +10,22 @@
     --shadow-color: rgba(0, 0, 0, 0.3); /* Màu bóng đổ */
     --accent-pink-purple: #c084fc; /* Màu tím hồng cho nút */
     --link-color: #89cff0; /* Màu liên kết */
-    --raindrop-color: 137, 207, 240; /* Màu hạt mưa */
+    --raindrop-color: 137, 207, 240; /* Màu hạt mưa (xanh lam nhạt) */
 }
 
 /* Định nghĩa màu sắc cho chế độ sáng */
 [data-theme="light"] {
-    --bg-main: #f4f4f5; /* Nền sáng hơn */
+    --bg-main: #f0f2f5; /* Xám nhạt, khớp với donate.html */
     --bg-card: rgba(255, 255, 255, 0.8); /* Nền thẻ trắng hơn, trong suốt nhẹ */
     --text-primary: #212529; /* Chữ đen */
     --text-secondary: #495057;
-    --accent-color: #a855f7;
+    --accent-color: #a855f7; /* Tím sáng, khớp với donate.html */
     --accent-color-light: #d946ef;
     --border-color: #ced4da;
     --shadow-color: rgba(0, 0, 0, 0.1);
     --accent-pink-purple: #c084fc;
     --link-color: #3b82f6;
-    --raindrop-color: 137, 207, 240;
+    --raindrop-color: 37, 99, 235; /* Xanh dương đậm (#2563eb) để hạt nước rõ hơn */
 }
 
 /* General styling for the body */
@@ -161,7 +161,7 @@ p.max-w-2xl {
 
 [data-theme="light"] .nav-container a,
 [data-theme="light"] #theme-toggle-btn {
-    color: var(--text-secondary);
+    color: var(--text-secondary); /* #495057 - xám đậm */
 }
 
 [data-theme="light"] .nav-container a:hover,
@@ -297,24 +297,28 @@ p.max-w-2xl {
     color: #555555; /* Chữ đen hơn cho thông tin thêm */
 }
 
-/* Button styling - Cập nhật để loại bỏ hiệu ứng màu khi tương tác */
+/* Button styling - Thu nhỏ nút và thêm viền trắng trong chế độ tối */
 .ipa-button, .exe-button {
     background-color: transparent;
-    color: var(--text-secondary);
-    font-weight: 600;
-    padding: 0.6rem 1.2rem;
+    color: #ffffff; /* Màu trắng trong chế độ tối */
+    font-weight: 700; /* Tăng độ đậm chữ */
+    padding: 0.4rem 0.6rem; /* Giảm padding ngang để nút ngắn hơn */
+    font-size: 0.9rem; /* Kích thước chữ */
     border-radius: 9999px;
     text-align: center;
     transition: all 0.3s ease;
     cursor: pointer;
-    border: 1px solid var(--border-color);
+    border: 1px solid #ffffff; /* Viền trắng trong chế độ tối */
 }
 
 [data-theme="light"] .ipa-button, [data-theme="light"] .exe-button {
     background-color: #e9ecef;
-    color: var(--text-secondary);
-    border: 1px solid #ced4da;
+    color: #000000; /* Chữ đen trong chế độ sáng */
+    font-weight: 700; /* Tăng độ đậm chữ */
+    border: 1px solid #000000; /* Viền đen trong chế độ sáng */
     box-shadow: 0 0 10px rgba(173, 216, 230, 0.5);
+    padding: 0.4rem 0.6rem; /* Giữ padding ngắn trong chế độ sáng */
+    font-size: 0.9rem; /* Giữ kích thước chữ */
 }
 
 /* Hiệu ứng khi tương tác (di chuột, nhấn) */
@@ -328,6 +332,7 @@ p.max-w-2xl {
     color: #ffffff;
     box-shadow: 0 0 8px rgba(137, 207, 240, 0.6);
     transform: scale(1.05);
+    border: 1px solid #ffffff; /* Giữ viền trắng khi hover trong chế độ tối */
 }
 
 [data-theme="light"] .ipa-button:hover,
@@ -340,12 +345,12 @@ p.max-w-2xl {
     color: #ffffff;
     box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
     transform: scale(1.05);
+    border: 1px solid #000000; /* Viền đen khi hover trong chế độ sáng */
 }
 
-
 /* Hover effect for GitHub links */
-p a[href*="github.com"], a[href*="github.com"] {
-    color: var(--link-color);
+p a[href*="github.com"] {
+    color: #ffffff; /* Màu trắng trong chế độ tối */
     transition: color 0.5s ease;
 }
 
@@ -373,15 +378,21 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     background-color: #1a1e2f;
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
-    
     border-radius: 9999px;
-    color: var(--text-secondary);
+    color: var(--text-secondary); /* #94a3b8 trong chế độ tối */
     font-weight: 600;
     font-size: 1rem;
     text-decoration: none;
     transition: all 0.3s ease;
     cursor: pointer;
     text-align: center;
+}
+
+[data-theme="light"] .social-button {
+    background-color: #e9ecef; /* Nền sáng cho nút mạng xã hội */
+    color: #000000; /* Màu đen trong chế độ sáng */
+    border: 1px solid #ced4da; /* Viền xám trong chế độ sáng */
+    box-shadow: 0 0 10px rgba(173, 216, 230, 0.5);
 }
 
 /* Hiệu ứng khi di chuột qua, focus và active cho nút mạng xã hội */
@@ -394,10 +405,37 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     transform: scale(1.05);
 }
 
+[data-theme="light"] .social-button:hover,
+[data-theme="light"] .social-button:focus,
+[data-theme="light"] .social-button:active {
+    background-image: linear-gradient(to right, #add8e6, #f08080);
+    color: #ffffff;
+    box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
+    transform: scale(1.05);
+    border: 1px solid #ced4da; /* Giữ viền xám khi hover trong chế độ sáng */
+}
+
 /* Responsive adjustments */
 @media (max-width: 480px) {
     .social-buttons-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Chuyển thành 1 cột cho nút mạng xã hội */
+    }
+    .nav-container {
+        max-width: 300px; /* Giới hạn chiều rộng để vừa màn hình nhỏ */
+        flex-wrap: wrap; /* Cho phép nút xuống dòng nếu quá chật */
+        gap: 0.5rem; /* Thêm khoảng cách giữa các nút */
+        padding: 0.2rem; /* Giảm padding container */
+        justify-content: center;
+    }
+    .nav-container a {
+        padding: 0.4rem 0.8rem; /* Giảm padding để nút nhỏ hơn */
+        font-size: 0.9rem; /* Giảm kích thước chữ */
+    }
+    #theme-toggle-btn {
+        padding: 0.3rem 0.5rem; /* Giảm padding cho nút chuyển đổi */
+    }
+    .theme-toggle i {
+        font-size: 1rem; /* Giảm kích thước icon */
     }
 }
 
@@ -442,7 +480,11 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     animation: gradientShift 15s ease infinite;
     z-index: -2;
     opacity: 0.7;
-    transition: background 0.5s ease;
+    transition: background 0.5s ease, opacity 0.5s ease;
+}
+
+[data-theme="light"] .background-animation {
+    opacity: 0.4; /* Giảm độ chói trong chế độ sáng */
 }
 
 @keyframes gradientShift {

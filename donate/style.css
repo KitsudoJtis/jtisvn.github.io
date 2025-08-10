@@ -12,12 +12,6 @@
     --accent-pink-purple: #c084fc; /* Màu tím hồng cho nút */
 }
 
-/* Nút bật/tắt chế độ sáng */
-.theme-toggle-button {
-    /* Đã được tích hợp vào .nav-container a, .nav-container button */
-    /* Không cần các thuộc tính riêng biệt ở đây nữa */
-}
-
 #theme-toggle-btn {
     background: none;
     border: none;
@@ -27,7 +21,7 @@
     padding: 0.6rem 1.2rem;
     transition: all 0.3s ease;
     outline: none;
-    flex-grow: 1; /* Thêm flex-grow để nút giãn ra bằng nhau */
+    flex-grow: 1;
 }
 
 /* Định nghĩa màu sắc cho chế độ sáng */
@@ -46,10 +40,16 @@ body.light {
 body.light .payment-item {
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
+
+body.light .payment-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15), 0 0 12px rgba(173, 216, 230, 0.6);
+}
+
 body.light .bank-name,
 body.light .account-owner,
 body.light .account-number {
@@ -70,28 +70,18 @@ body.light .background-animation {
     opacity: 0.7;
 }
 
-@keyframes gradientShift {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
 body.light .nav-container {
     background-color: #e9ecef;
     border: 1px solid #ced4da;
-    box-shadow: 0 0 10px rgba(173, 216, 230, 0.5);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 0 10px rgba(173, 216, 230, 0.5);
 }
 
-body.light .nav-container a {
+body.light .nav-container a,
+body.light .nav-container button {
     color: var(--text-secondary);
 }
 
+/* Hiệu ứng cho các link trong nav ở chế độ sáng */
 body.light .nav-container a:hover,
 body.light .nav-container a:focus {
     background-image: linear-gradient(to right, #add8e6, #f08080);
@@ -99,25 +89,32 @@ body.light .nav-container a:focus {
     box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
 }
 
+/* ==========================================================
+  == SỬA LỖI Dứt Điểm CHO NÚT CHUYỂN ĐỔI BẮT ĐẦU TẠI ĐÂY ==
+  ========================================================== */
+/* Dùng quy tắc ID cụ thể để đảm bảo ghi đè thành công */
+body.light #theme-toggle-btn:hover,
+body.light #theme-toggle-btn:focus {
+    background-image: linear-gradient(to right, #add8e6, #f08080);
+    color: #ffffff;
+    box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
+}
+/* ========================================================
+  == SỬA LỖI Dứt Điểm CHO NÚT CHUYỂN ĐỔI KẾT THÚC TẠI ĐÂY ==
+  ======================================================== */
+
+
 body.light .social-button {
     background-color: #e9ecef;
     color: var(--text-secondary);
     border: 1px solid #ced4da;
-    box-shadow: 0 0 10px rgba(173, 216, 230, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 0 10px rgba(173, 216, 230, 0.5);
 }
 
 body.light .social-button:hover {
     background-image: linear-gradient(to right, #add8e6, #f08080);
     color: #ffffff;
     box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
-}
-
-body.light .payment-item {
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
 }
 
 body.light .tweak-item {
@@ -178,6 +175,7 @@ body {
     color: var(--text-primary);
     line-height: 1.6;
     overflow-x: hidden;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .main-container {
@@ -230,11 +228,10 @@ p.max-w-2xl {
     padding: 0.3rem;
     margin-bottom: 2rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), 0 0 15px rgba(137, 207, 240, 0.4);
     overflow: hidden;
 }
 
-/* Các nút trong nav-container giờ sẽ có kích thước bằng nhau */
 .nav-container a, .nav-container button {
     position: relative;
     font-weight: 600;
@@ -247,7 +244,7 @@ p.max-w-2xl {
     background-color: transparent;
     color: var(--text-secondary);
     border: none;
-    flex-grow: 1; /* Thêm flex-grow để các item giãn ra bằng nhau */
+    flex-grow: 1;
     text-align: center;
 }
 
@@ -394,7 +391,7 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     transition: all 0.3s ease;
     cursor: pointer;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 15px rgba(137, 207, 240, 0.4);
     text-align: center;
 }
 
@@ -495,7 +492,7 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
 }
 
 .copy-btn {
-    padding: 0.25rem 0.5rem;
+    padding: 0.35rem 0.75rem;
     font-size: 0.8rem;
     border-radius: 9999px;
     border: none;
@@ -505,6 +502,8 @@ p a[href*="github.com"]:hover, a[href*="github.com"]:hover {
     background-color: var(--accent-color);
     color: #ffffff;
     font-weight: 600;
+    display: inline-flex;
+    align-items: center;
 }
 
 .copy-btn:hover {
