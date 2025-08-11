@@ -1877,11 +1877,11 @@ Maintainer: JTIS Repo
 Installed-Size: 456
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
 Filename: ./debs/com.jtis.looky_1.0.2_iphoneos-arm64.deb
-Size: 54492
-MD5sum: 8858d8c1f6a7ac4ccc3a24c0fd83e208
-SHA1: ca2ef97fe68a782f503a5c439dd1e7b1592c6117
-SHA256: 4d30c444ae7d43c419f83670e01c3a43addc44fc17083f4552415d3c80d323de
-SHA512: 14c2cb447b418eecabaefedbee9a5f0e43ebbf3b4e46dc429bc54ac835a610467adaf7da9a8bb7fd2d5018e156f64cf6afb51fbcbb45820cb284221a8fb450c8
+Size: 54484
+MD5sum: bf5e80f3f33f0ab0b9f08bab98898b30
+SHA1: 2f22ad178a48425b00b925ade412f84a653b81db
+SHA256: c16f9b5a3e6805bf939d6779efe492528c6a57bd7203053d3722fe6b703dd0b3
+SHA512: f94b52a662ae7e3bace61f721e1aaa2f2db36809164d2e069d33284a7b9ee5ffad7ce942b611c9743b3562910e1cc9b22e380e058e463e748d9a626f8b3ee275
 Description: Luôn cập nhật thông báo mà không cần mở khoá thiết bị.
 Name: Looky (Rootless)
 Author: EllaSP
@@ -1898,10 +1898,10 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
 Filename: ./debs/com.jtis.looky_1.0.2_iphoneos-arm64e.deb
 Size: 53444
-MD5sum: 7446f8abe790814793e81017859a760c
-SHA1: 1e5ef1ecdcdecf1ad55640b5e9a4259396316a28
-SHA256: 147ede05e4c0e37bd03dece3596aefb6844dc886a0756d08f27aedd130709273
-SHA512: 7beea29b90544c7f773b952d0ac6e63f96ee733c2a38fdcb9f931c5564cc0f9952843f4ed3ee19c8df07452548f5105d9dda1fcc4656bf10f1f7039699dfa8eb
+MD5sum: 9657d607af4636036c528c3346d35b6e
+SHA1: b420a1acd4935e3ab496f5292f914c0c46fdc47b
+SHA256: 9ffca6e31ccdbb48396ffb58e866a46845892452e88c79830d7b55568865cd8a
+SHA512: 968ffd0fc1d061ddb7219ddea51e53d06c2d288455b51a6fb8bffb3b3a5bf7085133e60ac4a7cb2776afdba5b90c503080547145062f48af1c71657d0e924c5c
 Description: Luôn cập nhật thông báo mà không cần mở khoá thiết bị.
 Name: Looky (Roothide)
 Author: EllaSP
