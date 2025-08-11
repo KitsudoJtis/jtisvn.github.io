@@ -421,3 +421,15 @@ body.light .highlight-overlay {
     animation: none;
     background: transparent;
 }
+
+/* Bo tròn icon ứng dụng trong các ô */
+.new-item .flex img {
+    border-radius: 16px; /* Tạo góc bo tròn, bạn có thể điều chỉnh giá trị này */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Thêm bóng đổ nhẹ để tạo chiều sâu */
+    transition: transform 0.3s ease-in-out; /* Thêm hiệu ứng chuyển động mượt mà */
+}
+
+/* Thêm hiệu ứng phóng to nhẹ khi di chuột qua để tăng tương tác */
+.new-item:hover .flex img {
+    transform: scale(1.08);
+}
