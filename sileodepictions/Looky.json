@@ -91,7 +91,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 10.2\n\n- Sửa lỗi trên IOS 15\n\n-Thêm ngôn ngữ Tiếng Việt."
+"markdown":"### Phiên bản 10.2\n\n- Sửa lỗi trên IOS 15\n\n- Thêm ngôn ngữ Tiếng Việt."
 }
 ],
 "class":"DepictionStackView"
@@ -107,7 +107,7 @@
 {
 "class":"DepictionTableButtonView",
 "title": "Mua cho tôi một ly cà phê",
-"action": "https://img.vietqr.io/image/ACB-20219691-print.png?&addInfo=&accountName=NGUYEN%20TRUNG%20HIEU"
+"action": "https://jtisvn.github.io/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
