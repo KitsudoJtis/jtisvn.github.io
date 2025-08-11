@@ -98,12 +98,12 @@
 {
 "class":"DepictionTableButtonView",
 "title": "Paypal",
-"action": "https://www.paypal.com/myaccount/transfer/homepage/preview/"
+"action": "https://paypal.me/HiuKitsudo"
 },
 {
 "class":"DepictionTableButtonView",
 "title": "Mua cho tôi một ly cà phê",
-"action": "https://img.vietqr.io/image/ACB-20219691-print.png?&addInfo=&accountName=NGUYEN%20TRUNG%20HIEU"
+"action": "https://jtisvn.github.io/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
