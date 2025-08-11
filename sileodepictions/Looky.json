@@ -1,0 +1,129 @@
+{
+"minVersion":"0.1",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#5777B8",
+"tabs":[
+{
+"tabname":"Chi tiết",
+"views":[
+{ "class":"DepictionHeaderView", "title":"" },
+{
+"class":"DepictionHeaderView",
+"title":"Mô tả & Giới thiệu"
+},
+{
+"markdown":" Looky\n\n- Luôn cập nhật thông báo mà không cần mở khoá thiết bị\n\n- Tweak này sẽ hiển thị thông báo ngay trên màn hình khóa, giúp bạn nắm bắt thông tin nhanh chóng chỉ bằng một cái liếc mắt, không cần phải bật màn hình hay cầm điện thoại lên. Dù bạn đang bận rộn, thư giãn hay chỉ đơn giản là muốn trải nghiệm rảnh tay,Looky được thiết kế để giúp bạn luôn cập nhật một cách dễ dàng.)\n\n- Các tính năng nổi bật:\n\n- Khi có thông báo mới, tên và biểu tượng ứng dụng sẽ hiển thị ngay lập tức.\n\n- Bạn có thể tùy chọn hiển thị nội dung thông báo để đọc trước tin nhắn.\n\n- Hiện tại, tweak này hỗ trợ hiển thị ảnh đại diện của WhatsApp (sẽ có thêm nhiều ứng dụng trong bản cập nhật lần sau.\n\n- Chạm vào bất kỳ đâu trên màn hình để tắt hiệu ứng thông báo ngay lập tức nếu bạn không cần xem toàn bộ nội dung.\n\n- Một đường viền màu sắc bao quanh màn hình tạo nên một vẻ ngoài hiện đại và độc đáo. Tính năng này chỉ hoạt động trên iPhone X trở lên.\n\n- Bạn có thể chọn màu viền cố định hoặc để tinh chỉnh tự động đổi màu theo biểu tượng của ứng dụng gửi thông báo.\n\n- Hiền thị nền mờ phía sau nội dung thông báo, tạo cảm giác dễ chịu.\n\n- Bạn có thể tùy chỉnh màu nền hoặc tự động phối màu theo biểu tượng ứng dụng.\n\n- Bạn có thể chọn màu chữ cho tin nhắn, hoặc để nó tự động đồng bộ với màu biểu tượng của ứng dụng.\n\n- Bao gồm hiệu ứng tuyết rơi nhẹ nhàng, mang lại trải nghiệm tinh tế và thư thái.\n\n- Tương thích với các thiết bị từ iPhone X đến iPhone 14 Pro Max, hỗ trợ đầy đủ cho cả Rootless Jailbreak và RootHide Jailbreak.\n\n- Xem hình ảnh phía dưới để biết chi tiết.\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/Looky/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Looky/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Looky/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Liên hệ tôi"
+},
+{
+"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7\n\nㅤ\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Thông tin "
+},
+{
+"class":"DepictionTableTextView",
+"title":"Tác giả",
+"text":"ella89sp"
+},
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"10.2" },
+{
+"class":"DepictionTableTextView",
+"title":"Thể loại",
+"text":"Tweaks"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Ngày tải lên",
+"text":"11/8/2025"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Khả năng tương thích",
+"text":"iOS 15.0 đến 16.6.1"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 10.2\n\n- Sửa lỗi trên IOS 15\n\n-Thêm ngôn ngữ Tiếng Việt."
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"L.Hệ & Hỗ trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://www.paypal.com/myaccount/transfer/homepage/preview/"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Mua cho tôi một ly cà phê",
+"action": "https://img.vietqr.io/image/ACB-20219691-print.png?&addInfo=&accountName=NGUYEN%20TRUNG%20HIEU"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
