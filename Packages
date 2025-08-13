@@ -1908,6 +1908,45 @@ Author: EllaSP
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
 Icon: https://jtisvn.github.io/sectionIcons/Looky.png
 
+Package: com.jtis.looky
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Tweaks
+Maintainer: Bvn repo
+Installed-Size: 456
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.jtis.looky_1.0.4_iphoneos-arm64.deb
+Size: 54584
+MD5sum: 7751c4cc0e47cde33856a0d169d5c53f
+SHA1: e05c9c2f4b7a1fbb017256b39d3e7cecd3dc7898
+SHA256: 1b6a3dcb7ffa4300af5669e15f2c1938060d1e34c1a4e52e5fdab6c6fa9aa608
+SHA512: 6664cd21ab2f09ad83dcc9a4b1f4af0fea29c8c59f215d58fb5dd5fa8a218545144114483cf5d833c4bb1774de639d9bd5e922581f2ccd6a41b4dba3839cb35e
+Description: Luôn cập nhật thông báo mà không cần mở khoá thiết bị.
+Name: Looky (Rootless)
+Author: EllaSP
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
+Icon: https://jtisvn.github.io/sectionIcons/Looky.png
+
+Package: com.jtis.looky
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Tweaks
+Maintainer: Bvn repo
+Installed-Size: 456
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.jtis.looky_1.0.4_iphoneos-arm64e.deb
+Size: 53436
+MD5sum: 784f6ca600af6321bda1494434cc152d
+SHA1: 0272133625b7562bdde10161f0cbf0f2e1547907
+SHA256: 95d1d0ea474092030d4e3a8d4750bd3f47964b2d55aebd76f58712889b7cf7d8
+SHA512: 8209f4bf6c4a4db12553eefee40fd86833203d59e66793e960ea4e44ba9a338819fc683e04f218f8afd5b8e3760a8a8e29b6c09634add409bd13d4c8647024eb
+Description: Luôn cập nhật thông báo mà không cần mở khoá thiết bị.
+Name: Looky (Roothide)
+Author: EllaSP
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
+Icon: https://jtisvn.github.io/sectionIcons/Looky.png
+
 Package: com.jtis.lynxroothide
 Architecture: iphoneos-arm64e
 Version: 2.5.4
