@@ -157,11 +157,11 @@ Installed-Size: 886
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
 Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
 Filename: ./debs/com.jti.atria_1.4.1_iphoneos-arm64.deb
-Size: 237688
-MD5sum: 73d7f1a7902e9d5421ce3f33ccbc6dc6
-SHA1: 80a04d65445ea001550b527c6d8aada61d2adc51
-SHA256: 5f7025b128f8524c12a7af44e40b3967059063bdeb0a9ee5f88d510b2894db97
-SHA512: adf443af371ea002de1a33a93e9f84a6782cbb62f9e91c3d68d726fefe5ae17440bc9efc490f208e49eb16e827de7b200ac44145a25e42aa5b20033cec51753d
+Size: 237624
+MD5sum: cc28949c73055aa350806d6c7ed86a60
+SHA1: 79589d12bf78de9429dd279b0aa2b846816f83a5
+SHA256: e916785fc720a7504da89f274441233aa233ec7224e964f763820333ce0b28d0
+SHA512: 0c03961cba0a798b1752536f6ff29eeb760519cce98c7cd363943b5e4faa3fa87e7e80ac036b02e994e4af847894d3268f8c5e0fe2fb5893acdc9cc8265c8df0
 Description: A proper homescreen layout editor for iOS 13-16
 Tag: compatible_min::ios13.0
 Author: ren7995 <lau7995ren@gmail.com>
@@ -180,11 +180,11 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
 Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
 Filename: ./debs/com.jti.atria_1.4.1_iphoneos-arm64e.deb
-Size: 234608
-MD5sum: 44677a50b9c3d9784fc595e3874c9ce3
-SHA1: 5801da3d9fae7f7287042c78f1bfcc3f68ec1033
-SHA256: 8a67f22c0dc6e8d97e92a34e4b37e64b14e1e23c17f78a92485d27b48dc441a6
-SHA512: b1ba34557ceb50d74e6d71ba89b4693c249861896676dfe1031fd38977b429eb38988569d5267f7c7347ac37238c377c6d7ff176cd541b81a08fc75b7e546033
+Size: 235308
+MD5sum: 896e73df5cb227c8f0f8a7f166876039
+SHA1: f67a1d936fe0298bd8c382ca182a2857959badca
+SHA256: 6863e4c92c7f26ec884e83f3425010c06df4691cc709c74b15dc622498baf4ca
+SHA512: 1e2995e83c0025d1b4bc6d5b9b140e56ff31800aa76851539f8f81d21acaffc38f8be325a7a044ea3ac12ee2a61c6e2618dd6c5f3cf28eeb3c5d51176ca6e208
 Description: A proper homescreen layout editor for iOS 13-16
 Tag: compatible_min::ios13.0
 Author: ren7995 <lau7995ren@gmail.com>
