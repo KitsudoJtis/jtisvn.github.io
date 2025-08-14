@@ -148,6 +148,51 @@ Name: SearchDots VH(Rootless)
 Icon: file:///var/jb/Library/IconRepo/tinhchinhh1.png
 Author: NightwinDev
 
+Package: com.jti.atria
+Architecture: iphoneos-arm64
+Version: 1.4.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 886
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: ./debs/com.jti.atria_1.4.1_iphoneos-arm64.deb
+Size: 237688
+MD5sum: 73d7f1a7902e9d5421ce3f33ccbc6dc6
+SHA1: 80a04d65445ea001550b527c6d8aada61d2adc51
+SHA256: 5f7025b128f8524c12a7af44e40b3967059063bdeb0a9ee5f88d510b2894db97
+SHA512: adf443af371ea002de1a33a93e9f84a6782cbb62f9e91c3d68d726fefe5ae17440bc9efc490f208e49eb16e827de7b200ac44145a25e42aa5b20033cec51753d
+Description: A proper homescreen layout editor for iOS 13-16
+Tag: compatible_min::ios13.0
+Author: ren7995 <lau7995ren@gmail.com>
+Name: Atria (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/Atria.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Attia.json
+Depiction: https://chariz.com/get/atria
+
+Package: com.jti.atria
+Architecture: iphoneos-arm64e
+Version: 1.4.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 886
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: ./debs/com.jti.atria_1.4.1_iphoneos-arm64e.deb
+Size: 234608
+MD5sum: 44677a50b9c3d9784fc595e3874c9ce3
+SHA1: 5801da3d9fae7f7287042c78f1bfcc3f68ec1033
+SHA256: 8a67f22c0dc6e8d97e92a34e4b37e64b14e1e23c17f78a92485d27b48dc441a6
+SHA512: b1ba34557ceb50d74e6d71ba89b4693c249861896676dfe1031fd38977b429eb38988569d5267f7c7347ac37238c377c6d7ff176cd541b81a08fc75b7e546033
+Description: A proper homescreen layout editor for iOS 13-16
+Tag: compatible_min::ios13.0
+Author: ren7995 <lau7995ren@gmail.com>
+Name: Atria (Roothide)
+Icon: https://jtisvn.github.io/sectionIcons/Atria.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Attia.json
+Depiction: https://chariz.com/get/atria
+
 Package: com.jtis.Cartoo
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -1462,15 +1507,15 @@ Installed-Size: 812
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: preferenceloader
 Filename: ./debs/com.jtis.floatingdockxvi_2.3_iphoneos-arm64e.deb
-Size: 396832
-MD5sum: 0ef4d6c152a3bee9752073480d3ca3b4
-SHA1: 2e0f17bc88a68e60a56d5bd92add6e71877100dd
-SHA256: c3df948f0665a0c9232df0470b67537b395abfe93ca11b9d49230e334dff37ee
-SHA512: 71983138c3e338a2236eb44c400e165c715f045d4da03abe19caf62a629a203ae33456ea29c6d63773afae7c64b01539bb89466d0d70f121fc43a076e520dcdb
+Size: 396828
+MD5sum: 4f6f6b49e1d7bd8d9ee394127b149936
+SHA1: 17668b540b7a22606ab422baefc1e895fc0d8db7
+SHA256: 27c210ddecb170343d706ef2c782dafa549083db09907be1534f411def5c8c41
+SHA512: b51d6f4e4621de34238ac4ddba47b8792038214c15e2746b8ff7b79012ab73180c90a9ef00af6591ae3501f4bf4639e9a9b85adad84f586494ae4223b2ef2293
 Description: Thanh Dock nổi trên iOS 16
 Name: FloatingDockXVI (Roothide)
 Author: Ethan Whited
-Icon: https://jtisvn.github.io/sectionIcons/Foangtingdock.png
+Icon: https://jtisvn.github.io/sectionIcons/Floatingdock.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Floatingdock.json
 
 Package: com.jtis.flow
