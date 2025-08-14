@@ -1,0 +1,133 @@
+{
+"minVersion":"0.1",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#5777B8",
+"tabs":[
+{
+"tabname":"Chi tiết",
+"views":[
+{ "class":"DepictionHeaderView", "title":"" },
+{
+"class":"DepictionHeaderView",
+"title":"Mô tả & Giới thiệu"
+},
+{
+"markdown":" FloatingDockXVIs\n\n- Thanh Dock nổi trên iOS 16\n\n- Chưc nưng chính:\n\n- Ẩn nền thanh Dock.\n\n- Ẩn dải phân cách Dock.\n\n- Tùy chọn tối đa số lượng ứng dụng Gần đây.\n\n- Tùy chọn tối đa số lượng ứng dụng trên Dock.\n\n- Tùy chọn hiển thị: Gần đây, Thư viện, hoặc cả hai.\n\n- Hoạt động trên iOS 15 đến iOS 16\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết.\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/Floatingdock/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Floatingdock/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Floatingdock/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Floatingdock/Screenshots/4.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Liên hệ tôi"
+},
+{
+"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7\n\nㅤ\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Thông tin "
+},
+{
+"class":"DepictionTableTextView",
+"title":"Tác giả",
+"text":"ETHN"
+},
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.3" },
+{
+"class":"DepictionTableTextView",
+"title":"Thể loại",
+"text":"Tweaks"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Ngày tải lên",
+"text":"14/8/2025"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Khả năng tương thích",
+"text":"iOS 15.0 đến 16.7.10"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 2.3\n\n- Sửa lỗi\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"L.Hệ & Hỗ trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Mua cho tôi một ly cà phê",
+"action": "https://jtisvn.github.io/donate/donate.html"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
