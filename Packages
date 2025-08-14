@@ -1453,6 +1453,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/FilzaUI.json
 Icon: https://files.catbox.moe/w852v4.png
  Pre-Depends: rootless-compat(>= 0.9)
 
+Package: com.jtis.floatingdockxvi
+Architecture: iphoneos-arm64e
+Version: 2.3
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 812
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: preferenceloader
+Filename: ./debs/com.jtis.floatingdockxvi_2.3_iphoneos-arm64e.deb
+Size: 396832
+MD5sum: 0ef4d6c152a3bee9752073480d3ca3b4
+SHA1: 2e0f17bc88a68e60a56d5bd92add6e71877100dd
+SHA256: c3df948f0665a0c9232df0470b67537b395abfe93ca11b9d49230e334dff37ee
+SHA512: 71983138c3e338a2236eb44c400e165c715f045d4da03abe19caf62a629a203ae33456ea29c6d63773afae7c64b01539bb89466d0d70f121fc43a076e520dcdb
+Description: Thanh Dock nổi trên iOS 16
+Name: FloatingDockXVI (Roothide)
+Author: Ethan Whited
+Icon: https://jtisvn.github.io/sectionIcons/Foangtingdock.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Floatingdock.json
+
 Package: com.jtis.flow
 Architecture: iphoneos-arm64
 Version: 1.0
