@@ -2020,11 +2020,11 @@ Maintainer: JTIS Repo
 Installed-Size: 460
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
 Filename: ./debs/com.jtis.looky_1.0.5_iphoneos-arm64.deb
-Size: 55164
-MD5sum: 1804cd9a52024e2b450ae8dac0090e27
-SHA1: e735f9f7aa7dd978f512da86497c4fb73ec43606
-SHA256: 16a2ae4ae1997db89b8af1a6e6e77f95411595a015b3e2f9e0bc13f561daa7d3
-SHA512: adbbdfd4580e15e0d18fe520444034dbb10d1f3eb168eca2db5499e5561e7e704851f1becba307c643a5a8b29f52b8bb682361a2d70d0da6c4a38628f95acc9c
+Size: 55176
+MD5sum: a6f90279ac5abfc9c1793e0dbfc7d18f
+SHA1: 92a6786bf1394527fe0fd2ecec35eca55bc9d5ae
+SHA256: e8763b13c0cdf2b54b266a0b57594d4fda46a8910c6119ace33c85b85aa8bb60
+SHA512: 06b89f1afe138bb467f7548c2b499d38a2e66cd85ed3c859356e769701fd7379ade3b78addb740c74933a9b469cb443ac1ab43acaceb7bd332ff5627264c2862
 Description: Effortless Elegant lock screen notification experience!
 Name: Looky (Rootless)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
@@ -2040,11 +2040,11 @@ Installed-Size: 460
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
 Filename: ./debs/com.jtis.looky_1.0.5_iphoneos-arm64e.deb
-Size: 53960
-MD5sum: 45228bec525697a0739c0f2ef98a6857
-SHA1: 680319d314e47465bbfceb23480dec28ae2597a2
-SHA256: 7070a40cf6029c4ab50e970418feb9d9e9e58a1d70f8fa21e4ab700287facd79
-SHA512: 4729af2f0634f3ae31ab9518d126202b6d15953fd9fca91b84c8267bc175a53ab29e0793bae5a1cef88fd4af197fe3c0e574e23d0486b615c5bd24998d14655d
+Size: 53968
+MD5sum: 8bcc6427b0e1851c42de5002de8c131e
+SHA1: df212be8b38b6840a2755dc4bf27d4128d3f5bd8
+SHA256: 810da917d87bf8fc34c270a1ff411fb3a08b34b8ae6ae36cd017b0eb0467ea8a
+SHA512: 3a078a39317670226178cd74b5f275941d2e8be8b2037125b35ade19d3ef14d2185de237fda85825c902935f6eaa39ee622896825ac13b7ab81366e1dcaa70c8
 Description: Effortless Elegant lock screen notification experience!
 Name: Looky (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
