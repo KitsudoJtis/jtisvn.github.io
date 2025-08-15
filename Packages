@@ -1678,14 +1678,14 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware(>=15.0), com.ichitaso.iconorder
 Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, ca.ndoizo.bolders, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, com.nightwind.dockapplibrary, com.tomaszpoliszuk.dockcontroller
 Filename: ./debs/com.jtis.folderx_2.0_iphoneos-arm64e.deb
-Size: 81288
-MD5sum: c6f63dd88de38c0fcd708795730186d1
-SHA1: fa75b0bd365013c81b177f372af86db68e6cd176
-SHA256: 351596caf55f7cc1e7b709883daacc1b8d88b6c741eb1fe96ee518cf7937b702
-SHA512: 3729146067ed890a93966b37f49337c3f09dbb5906fdebed5c32071a7d86cd64ebbb2f1f53990c5da1fc3ac5ca56145bc1e26c80adbcceeb94bef3c7edacce81
+Size: 81296
+MD5sum: 45b284fc49c16bb79395247b928c186a
+SHA1: 3e5523e706387b62f98cb7de885c59b783692441
+SHA256: f55bdc998afe5a1ed7fbea9ee2d2cc5966f13d7bc418ceddee84ed59acd7d66e
+SHA512: 3a6fb7dac32fa26b17980b2eaf2f1379d1f06fc758326d0ebd6568ba3ee557ece36a1587d4aee1bbd96a7b313e567e5331b983e2547d8c87d49d5849e957bb70
 Description: Tuỳ chỉnh thư mục theo ý thích của bạn.
 Name: FolderX (Roothide)
-SileoDepiction: https://jtisvn.github.io/sileoDepiction/FolderX.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FolderX.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: Lizynz <lizynz@ya.ru>
 
