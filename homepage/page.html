@@ -610,12 +610,17 @@
     </div>
 
     <script>
+        /**
+         * Chức năng này sẽ tạo và kích hoạt link cài đặt qua TrollStore.
+         * Nó sẽ sử dụng phương pháp apple-magnifier:// để tăng tính tương thích.
+         * @param {string} ipaUrl - Link tải trực tiếp đến file .ipa hoặc .tipa.
+         */
         function installWithTrollStore(ipaUrl) {
             // 1. Mã hóa URL của file IPA để nó hợp lệ
             const encodedUrl = encodeURIComponent(ipaUrl);
 
-            // 2. Tạo link cài đặt hoàn chỉnh cho TrollStore
-            const trollstoreLink = "trollstore://install?url=" + encodedUrl;
+            // 2. Tạo link cài đặt hoàn chỉnh, sử dụng apple-magnifier để tương thích tốt hơn
+            const trollstoreLink = "apple-magnifier://install?url=" + encodedUrl;
 
             // 3. Thực hiện chuyển hướng đến link TrollStore
             window.location.href = trollstoreLink;
