@@ -2583,6 +2583,45 @@ SileoDepiction: https:/jtisvn.github.io/sileodepictions/SixLS.json
 Icon: https://jtisvn.github.io/sectionIcons/SixLS.png
 Author: Skitty
 
+Package: com.jtis.smallboard
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.smallboard_1.1_iphoneos-arm64.deb
+Size: 3708
+MD5sum: 064bba2c8a1879d66bf963f7671443bf
+SHA1: 2cf6647f600ae25e0198879229a5fb789c0506d5
+SHA256: 586cb97d1d7f6e63aa9a719ce3dbd8ab6d39c6289ceb07b24c8729dec27e740f
+SHA512: abc633bd6595e0c7eb1e938a87c798900078aa23a991f59878ae5317b85b649ea050872a78883085d9cbd8f8d125ffe5cab3b9623fc532508f0479404d14fec6
+Description: Thu nhỏ khoảng cách bàn phím khi sử dụng fake cử chỉ IPhone X!
+Name: SmallBoard (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Smallboard.json
+Author: iCraze
+
+Package: com.jtis.smallboard
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.smallboard_1.1_iphoneos-arm64e.deb
+Size: 3920
+MD5sum: e64a562ee76d57ba2c19da8dc9e7f2b7
+SHA1: 4176372f4bc8fe5c54ef8d4a6cba357749f2e0fb
+SHA256: 3644834715a8cf38fb14cf8792df422037b17848e4f8fc68ec3a14855878a8a1
+SHA512: b69abf02ff5259b6635bd176348a8b539c614f6059dd71f2592487698ca06e9e5fc88d5055160056d79c4224e2616b26d46672fad56c96841b2dc54509f474d4
+Description: Thu nhỏ khoảng cách bàn phím khi sử dụng fake cử chỉ IPhone X!
+Name: SmallBoard (Roothide)
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Smallboard.json
+Author: iCraze
+
 Package: com.jtis.snapper3
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -2848,6 +2887,23 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Trim.json
 Icon: https://jtisvn.github.io/sectionIcons/Trim.png
 Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
 Author: iGerman <igerman@igerman.cc>
+
+Package: com.jtis.upsidedowned
+Architecture: iphoneos-arm64e
+Version: 1.1-6+debug
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 156
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.jtis.upsidedowned_1.1-6+debug_iphoneos-arm64e.deb
+Size: 4608
+MD5sum: 0ccd4c1134f091a8f9f5e0900270ee23
+SHA1: 549fa4845c8cca694ba09aeac7aa3d50ebd23dba
+SHA256: 7d498db13de37630fa63c217851a68a78977135b3f19d747e651f913d148ff5c
+SHA512: ccce8a2469e2aa104408235d6acc0651867d4be916794d4dd0b0c6218d73e37f2aa9e13fc4045d12b41b4645996c4f84a959afbcf2348b8cc49b3c66f0d5d7cd
+Description: Xoay mọi hướng bất kỳ (hướng ngược) trên IPhone của bạn.
+Name: upsidedowned (Roothide)
+Author: 34306, KhanhDuyTran
 
 Package: com.jtis.velvet2
 Architecture: iphoneos-arm64
