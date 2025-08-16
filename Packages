@@ -1783,6 +1783,45 @@ Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 
+Package: com.jtis.gravitation
+Architecture: iphoneos-arm64
+Version: 4.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 448
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.gravitation_4.0_iphoneos-arm64.deb
+Size: 48744
+MD5sum: 4b393c333dad108b713265ace10aa890
+SHA1: cf3ed3d6c3070ebdc3abe6f558623b4d42264195
+SHA256: 7279d77e6faeb8de4a391d8883524d95a5b623244c117da00880f56f0b188cbf
+SHA512: 673e5bacf0df232f3b6380861a34842dd162bfecbd829e7b4fef405ac74e81a31ab36cd82216037711f768bf5d98f9a6ad4959a88fc12f821dc1cb57c6643327
+Description: Lắc điện thoại của bạn để làm rơi các biểu tượng trên màn hình chính!
+Name: Gravitation (Rootless)
+Author: Kritanta && Hitori
+Icon: https://jtisvn.github.io/sectionIcons/Gravitation.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Gravitation.json
+
+Package: com.jtis.gravitation
+Architecture: iphoneos-arm64e
+Version: 4.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 448
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.gravitation_4.0_iphoneos-arm64e.deb
+Size: 48776
+MD5sum: 4d0b3d97b87a1666dd0b9cbc86de2f31
+SHA1: e9478acae7526bda6a077d5fa5920accf7b87c77
+SHA256: 4fa794020799ad9283eb4f24bf8bdddd321645e33a66d2a301ce2a97f2b5af98
+SHA512: b9770cb84ac5863a7e70cbf9ef32e1386f508cebaf54f277299797ccac3d17be995241f79e9e675f8f12e6036ca754e8bb839bf1126ea0754c7e71cbaf01a52c
+Description: Lắc điện thoại của bạn để làm rơi các biểu tượng trên màn hình chính!
+Name: Gravitation (Roothide)
+Author: Kritanta && Hitori
+Icon: https://jtisvn.github.io/sectionIcons/Gravitation.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Gravitation.json
+
 Package: com.jtis.hammerit
 Architecture: iphoneos-arm64e
 Version: 1.5.0
