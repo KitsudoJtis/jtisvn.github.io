@@ -2265,6 +2265,47 @@ Author: dvntm
 Icon: https://jtisvn.github.io/sectionIcons/OledKeyboard.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/OledKeyboard.json
 
+Package: com.jtis.onesettings
+Architecture: iphoneos-arm64
+Version: 2.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 1117
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader, com.jtis.onessetings
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: ./debs/com.jtis.onesettings_2.2_iphoneos-arm64.deb
+Size: 216456
+MD5sum: aecbb0c45a4c370d8b0bb7744ca3efc6
+SHA1: b678572f0b788827cd91e5d5d0b6553d5ef03a48
+SHA256: c88e0e72b24273fea1bc143a0909aac899362420cfa6cbcc48814bb4dce0f22e
+SHA512: 799f72c98fb5349e6a7fdefb705c5efebc1dd93c7b534c919ef5014f9482e317e386a337d30c8540fddc04dd0aca9481dc3488d3096dd2aff8a4e0a0348ee10c
+Description: Cải tiến giao điện Ứng dụng Cài đặt mang phong cách OneUI Samsung lên IPhone chả bạn.
+Name: OneSettings (Rootless)
+Author: Nightwind
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Onesetings.json
+Icon: https://jtisvn.github.io/sectionIcons/Onesettings.png
+
+Package: com.jtis.onesettings
+Architecture: iphoneos-arm64e
+Version: 2.2
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 1117
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: ./debs/com.jtis.onesettings_2.2_iphoneos-arm64e.deb
+Size: 213784
+MD5sum: fe6ae7a685acb2e0b96889f9b8e7d38f
+SHA1: 25ed348925d55a1fd000857c26ecfdfc457af2d7
+SHA256: c85bad34dc88d3654602894a3edbb3d15eca05d5b3eb041c56a91c32efe01cc9
+SHA512: 49c32401751dd75d9391a65d50b07709800684477b91cbf3da86132e13afd660af046c4ed78fa5901080527318426637019e079239ba59c70f20d0709c3f0cd5
+Description: Cải tiến giao điện Ứng dụng Cài đặt mang phong cách OneUI Samsung lên IPhone chả bạn.
+Name: OneSettings (Roothide)
+Author: Nightwind
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Onesetings.json
+Icon: https://jtisvn.github.io/sectionIcons/Onesettings.png
+
 Package: com.jtis.picsart
 Architecture: iphoneos-arm64
 Version: 1.0.2
