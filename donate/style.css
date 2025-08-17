@@ -519,11 +519,32 @@ body.light #theme-toggle-btn:active {
     font-size: 0.9rem;
 }
 
-/* ▼▼▼ PHẦN ĐƯỢC THÊM VÀO ▼▼▼ */
 .thank-you-message {
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--text-secondary);
     opacity: 0.9;
     transition: color 0.5s ease;
+}
+
+/* ▼▼▼ PHẦN ĐƯỢC CẬP NHẬT ▼▼▼ */
+/* Hiệu ứng màu chữ mới cho REPO JTISVN (Sáng xanh - trắng) */
+.shimmering-text {
+    background-image: linear-gradient(
+        -75deg,
+        #89cff0 0%,
+        #e0e7ff 50%,
+        #89cff0 100%
+    );
+    background-size: 200% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: shimmer 5s linear infinite;
+}
+
+@keyframes shimmer {
+    to {
+        background-position: 200% center;
+    }
 }
