@@ -2111,26 +2111,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
 Icon: https://jtisvn.github.io/sectionIcons/Looky.png
 Author: EllaSP
 
-Package: com.jtis.lunartime
+Package: com.jtis.lunartimeX
 Architecture: iphoneos-arm64
 Version: 1.0.1
 Section: Tweaks
 Maintainer: JTIS Repo
 Installed-Size: 160
 Depends: mobilesubstrate, oldabi
-Filename: ./debs/com.jtis.lunartime_1.0.1_iphoneos-arm64.deb
+Filename: ./debs/com.jtis.lunartimeX_1.0.1_iphoneos-arm64.deb
 Size: 7500
-MD5sum: 027b81df114bbf7eba3d6fab80b46ae0
-SHA1: 2ad24a6cfc362f0ce0087b26a5ddd3a795fae360
-SHA256: 843e97bfeaa8f3cd3ab8403c8662b0a19cc2b092980ff4d5005e71069e4afd05
-SHA512: 3f251f50740204ee667254439a95118511ffe97f157d5365a5dcc0c70b8a299407adbad70b77ba20c4bb0729d9b5b62dacd8db810d69cb299e0e326e5b941f30
+MD5sum: 98d55513f898d7883e5842df1bab5aa8
+SHA1: 9a1a67d3853e29cc57e2cad5927b281ffe8ad1f4
+SHA256: f93e791a4b136bc1774d35857489ddd5dfd16db18bb834629dc9271dd775dc36
+SHA512: db491c763b8b0977415b6e56e62394a4ca268d599b3ae5238e3d14a6ffc526566f5f489714f1336da107685efa5c9d961705a05a417244628a0875a3868afee9
 Description: Thêm Âm lịch lên góc trái Status Bar cho thiết bị tai thỏ.
 Tag: purpose::extension
 Name: LunarTime X (Rootless)
 Author: NQT1195
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimeX.json
 
-Package: com.jtis.lunartime
+Package: com.jtis.lunartimeX
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Section: Tweaks
@@ -2138,12 +2138,12 @@ Maintainer: JTIS Repo
 Installed-Size: 160
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, oldabi
-Filename: ./debs/com.jtis.lunartime_1.0.1_iphoneos-arm64e.deb
+Filename: ./debs/com.jtis.lunartimeX_1.0.1_iphoneos-arm64e.deb
 Size: 7272
-MD5sum: f4671e474db13b20c0c858f81daed05a
-SHA1: 979a35ed5ac2d985e305b667fd3a99e9026f1e05
-SHA256: 822c433c9a637d8160402c42b24484bea4a95faa64e1a494a0a4bf53aacd76c1
-SHA512: 5e6324b00ac2742f2a8efdc67e2aca36c9e764938865e486d1776875fe57615e2398fb0191f8f82559837d7a1e4bb934ba99a95ef9398d4d1367b1a593a9b76b
+MD5sum: 6c16b71392aafcb234a65ceb18c50ee2
+SHA1: b70b60571a2d6094b691c46ec7cdf4e6a89d6c34
+SHA256: ccdb0365ea9baf1e0b584713d5bbfb75a61b91ea5412da79f08bcf2f7df699be
+SHA512: d8497e60294f928f93edc8ddfd4f7c7658751dc82e9a949c9e27909e1b7ea1096bcfbac699e731a2ad3c7bf08581798763dd88d5ccf645d47bf4d2678f0bac01
 Description: Thêm Âm lịch lên góc trái Status Bar cho thiết bị tai thỏ.
 Tag: purpose::extension
 Name: LunarTime X (Roothide)
