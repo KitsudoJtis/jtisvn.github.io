@@ -1,34 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JTISVN ~ REPO</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>✪ Trang Chủ Repo JTISVN ✪</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://raw.githubusercontent.com/jtisvn/jtisvn.github.io/master/icons/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-<body>
-    <div class="container">
-        <div class="logo-container">
-            <img src="assets/icon.png" alt="s8xg Logo" class="logo">
-            <h1 class="title">REPO JTISVN
-    (Rootless✪Roothide)</h1>
-        </div>
-        <div class="button-container">
-              <u style=";font-size:100%;"><marquee direction="left"><span class="Apple-style-span" style="font-size:large;"><b><span style="color:#FFFFFF;">Chào mừng bạn đến với JTISVN </span> <span style="color:#FFFFFF;">Nơi thoả mãn niềm đam mê jailbreak đánh cho IPhone/IOS</span></b></span></marquee></u>
+<body class="bg-gray-900 font-sans text-white min-h-screen" data-theme="dark">
+    <div class="background-animation"></div>
+    <canvas id="raindrop-effect"></canvas>
 
-            <a href="sileo://source/https://jtisvn.github.io" class="button">☞ Thêm Vào Sileo ☜</a>
-            <a href="zbra://sources/https://jtisvn.github.io" class="button">☞ Thêm Vào Zebra ☜</a>
-            <a href="https://jtisvn.github.io/homepage/page.html" class="button">☞ Kho Lưu Trữ IPA ☜</a> 
+    <div class="main-container mx-auto">
+        <main class="container mx-auto px-4 py-8">
+            <div class="flex flex-col items-center justify-center text-center mb-8">
+                <div class="nav-container">
+                    <a href="https://app.mediafire.com/folder/qlnbgj6n07d14/">Kho Dylib</a>
+                    <a href="https://jtisvn.github.io/donate/donate.html">Ủng hộ </a>
+                    <a href="https://jtisvn.github.io/homepage/page.html">Kho IPA</a>
+                    <button id="theme-toggle-btn" class="nav-button theme-toggle-button">
+                        <i class="fas fa-sun" id="theme-icon"></i>
+                    </button>
+                </div>
+
+                <img src="https://jtisvn.github.io/icons/avatar.webp" alt="Avatar" class="avatar">
+                <div class="flex flex-col items-center space-y-2 mt-4">
+                    <h1 class="text-4xl font-bold text-animate-gradient">REPO JTISVN</h1>
+                </div>
+                <p class="text-xl max-w-2xl mx-auto mt-2">
+                    Chào mừng bạn đến vời Repo JTISVN<br>Một nơi thoả sức niềm đam mê, khám phá kho tàng tweaks đa dạng. ổn định mang đến sự khác biệt cho IPhoneIOS theo phong cách riêng của bạn<br>(Hỗ trợ Rootless & Roothide)
+                </p>
+            </div>
+
+            <div class="social-buttons-grid mt-8">
+                <a href="sileo://source/https://jtisvn.github.io" class="social-button sileo-button"><i class="fab fa-sileo-plane"></i> <span>Thêm Vào Sileo</span></a>
+                <a href="zbra://sources/https://jtisvn.github.iolocale=vi_VN" class="social-button zebra-button"><i class="fab fa-zebra-f"></i> <span>Thêm Vào Zebra</span></a>
+                <a href="https://vdns.io.vn/dot-Signed.mobileconfig" class="social-button zebra-button"><i class="fab fa-zebra-f"></i> <span>DNS Chặn ADS </span></a>
+                  <a href="itms-services://?action=download-manifest&url=https://jailbreaks.app/cdn/plists/TrollHelper.plist" class="social-button trollstore-button"><i class="fab fa-trollstore-f"></i> <span>Cài Đặt Trollstore</span></a>
             
-        </div>
-        <div class="links">
-            <a href="https://t.me/jailbreaktrolliossupport"><img src="assets/tg.png" alt="Telegram Icon" class="icon"></a>
-            
-            
+            <div class="copyright-container">
+                <p>Copyright © 2025 KITSUDO - JTISVN. All rights reserved.</p>
+            </div>
+        </main>
     </div>
+
+    <script>
+
+        function installWithTrollStore(ipaUrl) {
+            const encodedUrl = encodeURIComponent(ipaUrl);
+            const trollstoreLink = "apple-magnifier://install?url=" + encodedUrl;
+            window.location.href = trollstoreLink;
+        }
+
+        // Theme toggle script
+        const themeToggleBtn = document.getElementById('theme-toggle-btn');
+        const themeIcon = document.getElementById('theme-icon');
+        const body = document.body;
+        const currentTheme = localStorage.getItem('theme') || 'dark';
+
+        if (currentTheme === 'light') {
+            body.classList.add('light');
+            themeIcon.classList.remove('fa-sun');
+            themeIcon.classList.add('fa-moon');
+        }
+
+        themeToggleBtn.addEventListener('click', () => {
+            body.classList.toggle('light');
+            if (body.classList.contains('light')) {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+                localStorage.setItem('theme', 'light');
+            } else {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+
+        // Raindrop effect script
+        const canvas = document.getElementById('raindrop-effect');
+        const ctx = canvas.getContext('2d');
+        let width, height;
+        let drops = [];
+        let lastDropTime = 0;
+        const dropInterval = 200;
+
+        const initCanvas = () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            drops = [];
+        };
+
+        window.addEventListener('resize', initCanvas);
+
+        class Drop {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.r = 0.5;
+                this.dr = 0.8;
+            }
+            update() {
+                this.r += this.dr;
+            }
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+                ctx.strokeStyle = `rgba(137, 207, 240, 1)`;
+                ctx.lineWidth = 1;
+                ctx.stroke();
+            }
+        }
+
+        const animateDrops = (timestamp) => {
+            ctx.clearRect(0, 0, width, height);
+
+            if (timestamp - lastDropTime > dropInterval) {
+                drops.push(new Drop(Math.random() * width, Math.random() * height));
+                lastDropTime = timestamp;
+            }
+
+            for (let i = 0; i < drops.length; i++) {
+                drops[i].update();
+                drops[i].draw();
+                if (drops[i].r >= 100) {
+                    drops.splice(i, 1);
+                    i--;
+                }
+            }
+            requestAnimationFrame(animateDrops);
+        };
+
+        initCanvas();
+        animateDrops();
+    </script>
 </body>
 </html>
-</p>
-</p>
-                <p style="color: #FFFFFF;">Copyright © 2025   JTISVN</p>
-         
