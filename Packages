@@ -2111,6 +2111,82 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
 Icon: https://jtisvn.github.io/sectionIcons/Looky.png
 Author: EllaSP
 
+Package: com.jtis.lunartime
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 160
+Depends: mobilesubstrate, oldabi
+Filename: ./debs/com.jtis.lunartime_1.0.1_iphoneos-arm64.deb
+Size: 7500
+MD5sum: 027b81df114bbf7eba3d6fab80b46ae0
+SHA1: 2ad24a6cfc362f0ce0087b26a5ddd3a795fae360
+SHA256: 843e97bfeaa8f3cd3ab8403c8662b0a19cc2b092980ff4d5005e71069e4afd05
+SHA512: 3f251f50740204ee667254439a95118511ffe97f157d5365a5dcc0c70b8a299407adbad70b77ba20c4bb0729d9b5b62dacd8db810d69cb299e0e326e5b941f30
+Description: Thêm Âm lịch lên góc trái Status Bar cho thiết bị tai thỏ.
+Tag: purpose::extension
+Name: LunarTime X (Rootless)
+Author: NQT1195
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimeX.json
+
+Package: com.jtis.lunartime
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 160
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, oldabi
+Filename: ./debs/com.jtis.lunartime_1.0.1_iphoneos-arm64e.deb
+Size: 7272
+MD5sum: f4671e474db13b20c0c858f81daed05a
+SHA1: 979a35ed5ac2d985e305b667fd3a99e9026f1e05
+SHA256: 822c433c9a637d8160402c42b24484bea4a95faa64e1a494a0a4bf53aacd76c1
+SHA512: 5e6324b00ac2742f2a8efdc67e2aca36c9e764938865e486d1776875fe57615e2398fb0191f8f82559837d7a1e4bb934ba99a95ef9398d4d1367b1a593a9b76b
+Description: Thêm Âm lịch lên góc trái Status Bar cho thiết bị tai thỏ.
+Tag: purpose::extension
+Name: LunarTime X (Roothide)
+Author: NQT1195
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimeX.json
+
+Package: com.jtis.lunartime
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.lunartime_1.1_iphoneos-arm64.deb
+Size: 6888
+MD5sum: fb794e127645c7b5de7b2ee54a7aac69
+SHA1: 29716425d839252d5dfc8c0a25463ed621a97be1
+SHA256: 68bca6cbdc03a5fc5c38ed8ff355ac60114de704959bb1d5ea1994d49c9ca4c6
+SHA512: 43062027cddbf76b45c1e8722daa4b8ce7f85eda1ce2a86852c52e5fa4c76546684311aebf47c7edf897c9567b87f8d29ad164c2c6acfd0ed07f63181cb5d587
+Description: Thêm Âm lịch lên góc trái Status Bar cho thiết bị nút Home.
+Name: LunarTime Plus (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimePlus.json
+Author: nqt1195
+
+Package: com.jtis.lunartime
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.lunartime_1.1_iphoneos-arm64e.deb
+Size: 7084
+MD5sum: a63a28db83d935db73e1abc2741c7fb8
+SHA1: 22886eda480f828245c194bdc23d305080c70354
+SHA256: d0e92e4b1912c906c8f22eacb226804329b54f0418674e1f64333d2bc1834759
+SHA512: 51763f809c13f7d9b49bf0858bc7a7191a12cd044879a9f6cdb5ee071fee5c83663371d98c4f34ef5f2189033805bd816c18c776335745c30644886a907b4c59
+Description: Thêm Âm lịch lên góc trái Status Bar cho thiết bị nút Home.
+Name: LunarTime Plus (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimePlus.json
+Author: nqt1195
+
 Package: com.jtis.lynxroothide
 Architecture: iphoneos-arm64e
 Version: 2.5.4
