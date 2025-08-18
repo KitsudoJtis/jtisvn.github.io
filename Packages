@@ -3833,6 +3833,24 @@ Description: SnowBoard Presets Extension
 Name: SnowBoard Preset Extension
 Author: Spark
 
+Package: com.spark.snowboard.respringextension
+Architecture: iphoneos-arm64e
+Version: 1.0.7~Beta3
+Section: SnowBoard Extensions
+Maintainer: JTIS Repo
+Provides: com.spark.snowboard.respringextension (= 1.0.7~Beta3)
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard, xyz.cypwn.xinam1ne
+Filename: ./debs/com.spark.snowboard.respringextension_1.0.7~Beta3_iphoneos-arm64e.deb
+Size: 40684
+MD5sum: 54e6402b21860bf9d7b8aef521bb6ebe
+SHA1: 9698bd8516558fee33f107a1f9189eaa2c6ad58a
+SHA256: e68e8742ec7f9bb79ed223caab7409cf9c5be3a9c7511fedc8673fc1cdf556e4
+SHA512: 10620cef8e01527063e56d25b66b37bc7d9e2a7879740d29b57889fd1a6c637fd89bc42714e909ec1d719d6b81697c32e293137b2eeb114c5ac0c12b894c01ce
+Description: Respring icon extension for SnowBoard
+Name: SnowBoard Respring Extension
+Author: Spark
+
 Package: com.spark.snowboard
 Architecture: iphoneos-arm64e
 Version: 1.5.37-Beta4-rootless
