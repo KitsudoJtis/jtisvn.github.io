@@ -3024,6 +3024,47 @@ Name: Velvet 2 (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Velvet2.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Velvet2.json
 
+Package: com.jtis.visibleisland
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: ethxnn88 <ethxnn88@gmail.com>
+Depends: firmware (>=16.0), mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
+Filename: ./debs/com.jtis.visibleisland_2.0_iphoneos-arm64.deb
+Size: 29436
+MD5sum: d577fcee6e036de67f229c0dec03bdd9
+SHA1: b66e35c7c914a4b5e1abdf4d8a20300346e3df95
+SHA256: 17b04ea9e7adab04de2c9f59b36b14ca857fef94da430bd857d5da46b2b4147d
+SHA512: 40973aee28d70b3aa068e64f28447d7845a9b7bd09f15edaf1f8d24db03c728d331706f68916951165bf29d5fb6e49e32efacb7d879c05ec6521e066bb27f70a
+Homepage: https://shuga.co/
+Description: Enable, fix, and customize the Dynamic Island on older devices.
+Name: VisibleIsland (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VisibleIsland.json
+Icon: https://jtisvn.github.io/sectionIcons/VisibleIsland.png
+Tags: compatible_min::ios16.0, compatible_max::ios16.6.1
+Author: ethxnn88 <ethxnn88@gmail.com>
+
+Package: com.jtis.visibleisland
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: ethxnn88 <ethxnn88@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=16.0), mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
+Filename: ./debs/com.jtis.visibleisland_2.0_iphoneos-arm64e.deb
+Size: 28404
+MD5sum: fa0ab0c530d49346cbcb67c06bdfecf6
+SHA1: 4ec1ae1c753a3ca0e2e6170abd3d9be53d6a439d
+SHA256: ccd6fc55249cb256c6475d0a7280d0e0831f05e6af0489f55aa9889022c96827
+SHA512: 0750925443241685cc7d7f49702d778dd0f4392c4fe428ed3aa5306e41e322e8116eff8451276a5a9ae0559c30c5f0c7b5eafd4ef91957360a7cd95c0294a079
+Homepage: https://shuga.co/
+Description: Enable, fix, and customize the Dynamic Island on older devices.
+Name: VisibleIsland (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VisibleIsland.json
+Icon: https://jtisvn.github.io/sectionIcons/VisibleIsland.png
+Tags: compatible_min::ios16.0, compatible_max::ios16.6.1
+Author: ethxnn88 <ethxnn88@gmail.com>
+
 Package: com.jtis.vizagevh
 Architecture: iphoneos-arm64
 Version: 1.0.2
