@@ -1,16 +1,31 @@
 {
-"minVersion":"0.4",
+"minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
 "tintColor":"#5777B8",
 "tabs":[
 {
 "tabname":"Chi tiết",
 "views":[
+{ "class":"DepictionHeaderView", "title":"" },
+{
+"class":"DepictionHeaderView",
+"title":"Mô tả & Giới thiệu"
+},
+{
+"markdown":" Chủ đê Meizu 3D cho ứng dụng Cài Đặt.\n\n- Gồm 50 biểu tượng cơ bản\n\n- Kích hoạt chủ đề qua Snowboard.\n\n- Xem hình ảnh bên dưới đẻ biết thêm chi tiet.\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https:/jtisvn.github.io//infodeb/setting3fmeizu/Screenshots/setting3dmeizu.png",
+"url":"https://jtisvn.github.io/infodeb/setting3fmeizu/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/setting3fmeizu/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -18,7 +33,14 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"# Chủ đê Meizu 3D cho Setting trên thiết bị của bạn.\n\n- Kích hoạt chủ đề qua Snowboard. \n\n- AI cần full icon setting ib tác giả qua link telegram bên dưới nhé",
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Tham gia nhóm"
+},
+{
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -27,25 +49,14 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Liên hệ Telegram"
-},
-{
-"markdown":"[**Telegram**](https://t.me/MissLove2407) - MissLove2407\n\n\n",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Thông tin"
+"title":"Thông tin "
 },
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
 "text":"Miss"
 },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -54,12 +65,12 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"01/5/2025"
+"text":"4/6/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 15 đến 16.6.1"
+"text":"iOS 14.0 đến 16.7.10"
 },
 {
 "class":"DepictionLabelView",
@@ -76,7 +87,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### Icon themes bản demo \n\n Hỗ trợ Rootless Jailbreak."
+"markdown":"### Hỗ trợ Rootless Jailbreak"
 },
 {
 "class":"DepictionLabelView",
