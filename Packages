@@ -302,12 +302,12 @@ Version: 1.0
 Section: Chủ đề
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.LiquidglAss_1.0_iphoneos-arm64.deb
-Size: 8231424
-MD5sum: 618fab3c6020d3bc302f414259982581
-SHA1: cdee5524b25a403a9f86ddd30cd50c8a34f68206
-SHA256: 782da2ef0629860320551184587d9d7444c7430f686335213521d3795cc8ba15
-SHA512: 44e798eecc21e8981c188d7bad8131fc772b1c8dec993abd2122ddbb5a46ce926ce0878951c351997a1812fbf5b5737ba344b9c7e02999569d4a5b7423823f7b
-Description: Chủ đề setting Meizu 3D
+Size: 8231412
+MD5sum: 89ef428bd925f5825514afe1776db0a2
+SHA1: 88bb567486347a1e2b9965e0816473d1993027e0
+SHA256: f530391d0c1ada628f66ada76feabd84543422bd3362425382b38e59d73ac690
+SHA512: 18ff3b5956c0ba01055a3d112488e72c7fbb1396ce162c7ac4b03296c0db31ba3e2d1611752a1cae62197869ceac941ca9b12cf495acc623de5ec57508c3ae9d
+Description: Chủ đề Liquid GlAss
 Name: Liquid GlAss Themes
 Author: Nguyên Tokuda
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
@@ -319,12 +319,12 @@ Version: 1.0
 Section: Chủ đề
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.LiquidglAss_1.0_iphoneos-arm64e.deb
-Size: 8230872
-MD5sum: bdad788c253fe16fd8fb17fb75f246b2
-SHA1: d2e301b721ac2e4e759dae73be0e7cf8059ef3f8
-SHA256: b97e3747bca30fb37693a9c0aea9eee97df1086227ac849bc20653678bd8dc3b
-SHA512: 15bc74d9a5b1aa166e75081b88b84305b3cd01c9b3a53e1722954da66b89da97a9fd19668b0da6ee612d6e8f64c5f57c3375ca6ca51f83716c9d70800f068b86
-Description: Chủ đề setting Meizu 3D
+Size: 8230864
+MD5sum: 2f4b3e8a7cecc2791d11279bea0c789f
+SHA1: ebdf55af0e7ce812efb095619b78ffb5279c6899
+SHA256: 324c89a0701571018c9e79fc46d708ddb438f3f641a81de7279c18cccc00c607
+SHA512: b1651942f195a7291fc055abd3ad4d7eed04fc2a5ab7402bb5f30faf1e5c551a6a2157ca569c4962c05cbc4073938bfe199a9d99cf65df12ec98d55dc26f8262
+Description: Chủ đề Liquid GlAss
 Name: Liquid GlAss Themes
 Author: Nguyên Tokuda
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
