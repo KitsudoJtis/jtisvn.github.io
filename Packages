@@ -2536,6 +2536,24 @@ Author: Miss
 SileoDepiction: https://jtisvn.github.io/sileodepictions/setting3dmeizu.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.settingMeizu3D
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.settingMeizu3D_1.0_iphoneos-arm64e.deb
+Size: 366056
+MD5sum: 5f2bae6dfbddef21d2b9575cde2a0f81
+SHA1: c78f23996a33fb37b2558b489e27832aece68cea
+SHA256: 039273acbb725d149de7ceda818a37faa5ac11044fc909175a1cd914ed962895
+SHA512: 4f861d22c2c34f4fad24aed6601469756a0daad570cab4349a874b1858b6f6bdfd2ba5d04f667510faf100a66a687ab4afffd38ac3cebb1e60149cb4364d9536
+Description: Chủ đề setting Meizu 3D
+Name: Setting Meizu 3D
+Author: Miss
+SileoDepiction: https://jtisvn.github.io/sileodepictions/setting3dmeizu.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+ Pre-Depends: rootless-compat(>= 0.9)
+
 Package: com.jtis.settingswifipassword
 Architecture: iphoneos-arm64
 Version: 0.0.1
