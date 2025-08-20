@@ -56,7 +56,7 @@
 "title":"Tác giả",
 "text":"Nguyên Tokuda"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.1" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.2" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -87,7 +87,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.1\n\n- Cập nhật thêm biểu tượng\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.0.2\n\n- Thêm 1 số biểu tượng mới\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
