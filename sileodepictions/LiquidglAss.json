@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Chủ đê Liquid GlAss\n\n- Gồm 234 biểu tượng\n\n- 1 mesk AE và badge\n\n- Kích hoạt chủ đề qua Snowboard.\n\n- Xem hình ảnh bên dưới đẻ biết thêm chi tiet.\n\n",
+"markdown":" Chủ đê Liquid GlAss\n\n- Gồm 300 biểu tượng\n\n- 1 mesk AE và badge\n\n- Kích hoạt chủ đề qua Snowboard.\n\n- Xem hình ảnh bên dưới đẻ biết thêm chi tiet.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -56,7 +56,7 @@
 "title":"Tác giả",
 "text":"Nguyên Tokuda"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.1" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -65,7 +65,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"19/8/2025"
+"text":"20/8/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -87,7 +87,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.0.1\n\n- Cập nhật thêm biểu tượng\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"

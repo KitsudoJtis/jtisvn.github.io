@@ -298,15 +298,15 @@ Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.pn
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm64
-Version: 1.0
+Version: 1.0.1
 Section: Chủ đề
 Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.LiquidglAss_1.0_iphoneos-arm64.deb
-Size: 8231412
-MD5sum: 89ef428bd925f5825514afe1776db0a2
-SHA1: 88bb567486347a1e2b9965e0816473d1993027e0
-SHA256: f530391d0c1ada628f66ada76feabd84543422bd3362425382b38e59d73ac690
-SHA512: 18ff3b5956c0ba01055a3d112488e72c7fbb1396ce162c7ac4b03296c0db31ba3e2d1611752a1cae62197869ceac941ca9b12cf495acc623de5ec57508c3ae9d
+Filename: ./debs/com.jtis.LiquidglAss_1.0.1_iphoneos-arm64.deb
+Size: 12112804
+MD5sum: 0877b00196370b8c410a1e45f8ec7edb
+SHA1: c80618d7bcc59c0802a937e2aec4285a172e0bda
+SHA256: 99db7050ea26cea701a3aa77708a4f99f408f0cec84b5330d4c196491c811291
+SHA512: fbd8bb23b47dbb4cd6baba9eb647bbbb3a5545975c43a408a8324564c44e27d940f4e0139e40dbc4ef856a0834940e631677699641a6bcb726e945a04fae93f7
 Description: Chủ đề Liquid GlAss
 Name: Liquid GlAss Themes
 Author: Nguyên Tokuda
@@ -315,15 +315,15 @@ Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm64e
-Version: 1.0
+Version: 1.0.1
 Section: Chủ đề
 Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.LiquidglAss_1.0_iphoneos-arm64e.deb
-Size: 8230864
-MD5sum: 2f4b3e8a7cecc2791d11279bea0c789f
-SHA1: ebdf55af0e7ce812efb095619b78ffb5279c6899
-SHA256: 324c89a0701571018c9e79fc46d708ddb438f3f641a81de7279c18cccc00c607
-SHA512: b1651942f195a7291fc055abd3ad4d7eed04fc2a5ab7402bb5f30faf1e5c551a6a2157ca569c4962c05cbc4073938bfe199a9d99cf65df12ec98d55dc26f8262
+Filename: ./debs/com.jtis.LiquidglAss_1.0.1_iphoneos-arm64e.deb
+Size: 12112552
+MD5sum: e72171226c95bf636760cd7a0e49db49
+SHA1: b5b716eb41595ad940652805eb37342128c3aab1
+SHA256: 3c65ba80f84384218645c5a907494926d999474fa6952aeb43a77fb4cfc64918
+SHA512: 0736127d693d8fd08e397a7f8986710113ba0ecf49ffb76d2756d8c27e015606aa3e1f9e6a313f37fb502a23c8bde59fea5959191d18164785d54b081f652ec5
 Description: Chủ đề Liquid GlAss
 Name: Liquid GlAss Themes
 Author: Nguyên Tokuda
