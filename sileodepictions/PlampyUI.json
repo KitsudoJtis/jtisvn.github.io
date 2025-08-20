@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Chủ đê Liquid GlAss\n\n- Gồm 305 biểu tượng\n\n- 2 mask AE\n\n- 1 badge & LS UI\n\n- Kích hoạt chủ đề qua Snowboard.\n\n- Xem hình ảnh bên dưới đẻ biết thêm chi tiet.\n\n",
+"markdown":" Plampy UI Pro\n\n- Tuỳ biến Trung tâm điều khiển trên các thiết bị IOS 15/16\n\n- Chức năng:n\n- Thay đổi hiệu ứng các biểu tượng Mô-đun gốc\n\n- Thêm hình nền và hiệu ứng mờ cho Trung tâm điều khiển\n\n- Xem hình ảnh bên dưới đẻ biết thêm chi tiet.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,11 +21,11 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/LiquidglAss/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/PlampyUI/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/LiquidglAss/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/PlampyUI/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -54,23 +54,23 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"Nguyên Tokuda"
+"text":"PhucDo"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.2" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
-"text":"Themes"
+"text":"Tweaks"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"20/8/2025"
+"text":"21/8/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 14.0 đến 16.7.10"
+"text":"iOS 14.0 đến 16.7.11"
 },
 {
 "class":"DepictionLabelView",
@@ -87,7 +87,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.2\n\n- Thêm 1 số biểu tượng mới\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Hỗ trợ Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
