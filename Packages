@@ -3795,6 +3795,24 @@ Description: Dock for SnowBoard
 Name: SnowBoard Dock Extension
 Author: Spark
 
+Package: com.spark.snowboard.effects
+Architecture: iphoneos-arm64e
+Version: 1.2.2-Beta2-rootless
+Section: SnowBoard Extensions
+Maintainer: Spark
+Installed-Size: 412
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/com.spark.snowboard.effects_1.2.2-Beta2-rootless_iphoneos-arm64e-1.deb
+Size: 45646
+MD5sum: 2c15d6f47d73dac43dfc160c66ed1fa3
+SHA1: 714f130415a747b0f3f766d0082e4a7711661a1f
+SHA256: b65da98dfde55d6184b474308dba855728a8fa5b7a7975ce89005442d44c2eaa
+SHA512: b2055e34532f518e70209d8e7a3462ef3c0c5c8f91c1089d81a08ab9a56c6ce48333eff0a8a85b52050014aab5399d3ec73a77fb59bf93c0e80f17f7e2769fe8
+Description: Icon Effects for SnowBoard
+Name: SnowBoard Icon Effects Extension
+Author: Spark
+
 Package: com.spark.snowboard.fonts
 Architecture: iphoneos-arm64e
 Version: 1.1.0~Beta4-rootless
@@ -3946,6 +3964,24 @@ Name: SnowBoard (Roothide)
 Author: Spark & Dennis D. Bednarz
 Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
 sileodepiction: https://www.sparkdev.me/sileo/com.spark.snowboard
+
+Package: com.spark.snowboardapplication
+Architecture: iphoneos-arm64e
+Version: 1.1.0~Beta4-rootless
+Section: Utilities
+Maintainer: Spark
+Installed-Size: 992
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard
+Filename: ./debs/com.spark.snowboardapplication_1.1.0~Beta4-rootless_iphoneos-arm64e-3.deb
+Size: 629534
+MD5sum: 3f60eea2c168fa2e864607e0317cb83a
+SHA1: f51b3ae15bdc71c12d5682a7028d220e2735374c
+SHA256: 693b7453b02c0269214431ec15887865f7e5b737737ae2e55f91545fd926169a
+SHA512: b69de779637c8fa8481dc1f568e1f1fd234a361269646593fbc074c7c8132d388d7aff84445f9aed1a7bc20c9aa198b0f406d5ca585260fa749abbaeac21401a
+Description: An awesome application!
+Name: SnowBoard
+Author: Spark
 
 Package: com.udevs.dockx
 Architecture: iphoneos-arm64e
