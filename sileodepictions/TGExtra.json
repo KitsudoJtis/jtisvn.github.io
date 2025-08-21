@@ -12,7 +12,7 @@
     "title":"Mô tả & Giới thiệu"
     },
     {
-"markdown":"# TGExtra.\n\n- Thêm các chức năng tiện ích cho ứng dụng Swiftgram.\n\n- Tắt Quảng Cáo\n\n- Chế độ Ẩn danh (Ghost Mode)\n\n- Tắt thông báo đã đọc tin nhắn và xem story.\n\n- Và còn 1 số chức năng khác nữa...\n\n- Sử dụng bằng cách nhấn 5 lần vào tab Chats\n\n- Chi tiết xem thêm hình ảnh bên dưới",
+"markdown":"# TGExtra.\n\n- Thêm các chức năng tiện ích cho ứng dụng Telegram, Swiftgram và Turrit..\n\n- Tắt Quảng Cáo\n\n- Chế độ Ẩn danh (Ghost Mode)\n\n- Tắt thông báo đã đọc tin nhắn và xem story.\n\n- Và còn 1 số chức năng khác nữa...\n\n- Sử dụng bằng cách nhấn 5 lần vào tab Chats\n\n- Chi tiết xem thêm hình ảnh bên dưới",
 "class":"DepictionMarkdownView"
 },
 {
@@ -59,16 +59,16 @@
 "title":"Tác giả",
 "text":"choco"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.2.1" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.3-2" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
-"text":"Tweak"
+"text":"Tweaks"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"26/5/2025"
+"text":"21/8/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -90,7 +90,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### Phiên bản 1.2.1\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"#### Phiên bản 1.3-2\n\n- Sửa lỗi\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 },
 {
 "class":"DepictionLabelView",

@@ -2981,20 +2981,21 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/TeleSF.json
 
 Package: com.jtis.tgextra
 Architecture: iphoneos-arm64e
-Version: 1.2-1
+Version: 1.3-2
 Section: Tweaks
-Maintainer: waruhachi
+Maintainer: JTIS Repo
 Conflicts: com.choco.tg
-Filename: ./debs/com.jtis.tgextra_1.2-1_iphoneos-arm64e.deb
-Size: 4652776
-MD5sum: f9ae0676e34d7b86ec23510da29d28c9
-SHA1: 6356c3c52a991996aaf2d53519b4c9e7869441f7
-SHA256: c3d1912123b35cd4cbc6349e173c7ae5c12aea6ee0fdf266f5428cecb5b05d91
-SHA512: 2b7dcd11a9ec3ad6718cdfcf0fb13d27cd110917a25945cd84079573f96e3ea7e3a50de45f57821646a10d980d3a0fabd0193b7c1d67122c20122b06269be886
-Description: Thêm các chức năng tiện ích cho ứng dụng Swiftgram
-Name: TGExtra(RootHide)
-Icon: https://i.imgur.com/OKvuaJN.jpeg
+Filename: ./debs/com.jtis.tgextra_1.3-2_iphoneos-arm64e.deb
+Size: 4666300
+MD5sum: d3ca50e7d0cc58137c909b1475352fbe
+SHA1: 24f23d569a245925f69fd3b9069524c603040a87
+SHA256: 6bce3b96787730da1e8d0a4bd1b455377ec5f3bd8f49f21034072e0dcfa61a0f
+SHA512: 9364da0c4d4fe5d44f3caf651e92fef4e44964d3684554756a4b9a62a8ae8241f72cfc26ea04833ec763e85ed8a239eda83e7b9d8da1a4416609ba111037c1e9
+Description: Thêm các chức năng tiện ích cho ứng dụng Telegram, Swiftgram , Turrit...
+Name: TGExtra (RootHide)
+Author: choco/waruhachi/TheWinner02
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
+icon: https://jtisvn.github.io/sectionIcons/TeleSF.png
 
 Package: com.jtis.trim
 Architecture: iphoneos-arm64
