@@ -3936,32 +3936,16 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Filename: ./debs/com.spark.snowboard_1.5.37-Beta4-rootless_iphoneos-arm64e.deb
-Size: 1130344
-MD5sum: 403fc2e0124a73ca8881ec6f752da203
-SHA1: 12fec25b7d5deb9bf7e235dbc4274b813cf40b0e
-SHA256: af8fc0cfbe1957445dac6bb54d41cd49e043cb12805aa045846e033b435cf6af
-SHA512: 9ff8568a5869b441ac9dca4b3b51dfa1703abc02c8c826ebc024506a8694c45d7da1cb52d06a4140441da44af87452b5a69833d8f9ec0af73f3821c84d20a354
+Size: 1130692
+MD5sum: 4e74f146d957dc8b8d2fc524a5ef55d4
+SHA1: d9fc0fd5b58fb25e0609413a0bf50ad5f4642fc1
+SHA256: a4b479d93e900464624e6c4edb74db46f707d149d6e7d2f42dbd4f22c9af9b86
+SHA512: b1a25e9470cb28e924d53c20c930db3cecb4575e75d3ebe6fd21b65d51ea7a7acc40fb4a6fb4ad2daf6a817cab06fa8d3f54b1fcb0f1a8bf3f8b91b536044587
 Description: Snowboard theming engine
 Name: SnowBoard (Roothide)
 Author: Spark & Dennis D. Bednarz
-
-Package: com.spark.snowboardapplication
-Architecture: iphoneos-arm64e
-Version: 1.1.0~Beta4-rootless
-Section: Utilities
-Maintainer: Spark
-Installed-Size: 992
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: com.spark.snowboard
-Filename: ./debs/com.spark.snowboardapplication_1.1.0~Beta4-rootless_iphoneos-arm64e-2.deb
-Size: 629556
-MD5sum: 56af5ac61d46cf3a5f9016ab8dc55156
-SHA1: 74d54cbf3a6f40bb497eef54d1d958de9eac3a9c
-SHA256: 53611d5192d539d7287a5ab0d174485ef0dcabe2f12d1436dc4b4450cc33a7b4
-SHA512: 20f8e0ca889e7d59dc2c3ace00279ea476cf44e77a6f75907b0473796fda88200ada523b4fa5ae9eb0af16e27650cea094f4497b4f567f9d315bad0c973dbc4a
-Description: An awesome application!
-Name: SnowBoard
-Author: Spark
+Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
+sileodepiction: https://www.sparkdev.me/sileo/com.spark.snowboard
 
 Package: com.udevs.dockx
 Architecture: iphoneos-arm64e
