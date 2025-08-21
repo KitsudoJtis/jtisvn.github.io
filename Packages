@@ -199,33 +199,16 @@ Version: 1.0
 Section: Chủ đề
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.Cartoo_1.0_iphoneos-arm64.deb
-Size: 371808
-MD5sum: d1eee86bbd8d226931d43bff1176b183
-SHA1: 7e9172079437a0a835cbe3e6ac18762fd4bf59dd
-SHA256: f4b029fa37ecd260964c32f5a6096e7b54a4fe1907e889608dfeb4cf8e909835
-SHA512: 208f2513c122eec283c270b24235910c361be1a0d53731e1f2da7a705a58d0b9ed601b2f4add3046d3936482052f1b9766d838d74d5fd40f1965f1576e8e04f0
-Description: Cài đặt chủ đề cho phím số & passcode qua tinh chỉnh Snowboard cho IPhone của bạn
-Name: Cartoo
+Size: 371856
+MD5sum: 98b3c4e62b5db597b1a29518ed0bd01b
+SHA1: 5b351ec96d06d18f6b8223c1adfc79e035f205e2
+SHA256: 04a48b2272a9a229ef444c93832369203bd610ffbb5f16d244080e657779d459
+SHA512: 55390cb2577987f069bf319fe1e9b129c241f542fb7ea14f5934f24f7fd032402cbcb3ecd4ae45581cf4751cd0cbd00fdddef23133c3befa9c167b18eca13813
+Description: Cài đặt chủ đề cho trình quay số & mặt khẩu màn hình khoá.
+Name: Cartoo Passcode
 Author: Yangji
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cartoo.json
-Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
-
-Package: com.jtis.CircleMaskiOS19
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Chủ đề
-Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.CircleMaskiOS19_1.0_iphoneos-arm64.deb
-Size: 20852
-MD5sum: e197d7c8b3c7b6f2119cbff9a35dbbc1
-SHA1: 18ed1d823bb442532e13c57a172aae5845e5dc3c
-SHA256: 040a7650d1d4325ad10aa4bf5d62d812f5110843bede8451af3a9f51c7238f6f
-SHA512: a706d1bb40b8cca3ee63ebd3d597cd4c57675de5f57c80f12900032e56f7efcea04a0916c30385cda8434bf5b876511f1d89fa9c2211c311f87830a63e4c29ab
-Description: Cài đặt MaskAE IOS 19 bo tròn qua tinh chỉnh Snowboard cho IPhone của bạn
-Name: CircleMaskiOS19
-Author: Zhuti
-SileoDepiction: https://jtisvn.github.io/sileodepictions/MaskIOS19.json
-Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.DepthsPD
 Architecture: iphoneos-arm64e
@@ -302,13 +285,13 @@ Version: 1.0.3
 Section: Chủ đề
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.LiquidglAss_1.0.3_iphoneos-arm64.deb
-Size: 13124144
-MD5sum: c2c5e4a509738d5f241196900a912c88
-SHA1: 9cd2e4b90922faa6dfd1ed0762668e642bd8dd24
-SHA256: 232f6de93a5101dcdc3b71d0d92380bec2326fa97a1d83de54f5140720c26949
-SHA512: 8352a2fdd05a839710754fab0e3547327e9d1ed32ac6b53541f574eb3b7297d44dd0405decef2a8f45a61b36377174a84674b91164d472a84a933b0a3383aef8
+Size: 13123948
+MD5sum: 29b996c0f9b8d7f9956e0e0e49cb0941
+SHA1: e6f8371160c4e7813bec61654837c4471edb95ec
+SHA256: cec2b1071b190d1c867c9b6b4bf2defa24a85ebb1d8f777db05c4bbe0d4dc6d1
+SHA512: 09e303e9ddaeac10938f04a094188bffacb4a4c4595cb8f0df857c1dd737a51b1c3d8c90d69761f70472a6c83523672de227585d51a8d86a39186cbc742eb0be
 Description: Chủ đề Liquid GlAss
-Name: Liquid GlAss Themes
+Name: Liquid GlAss Theme
 Author: Nguyên Tokuda
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
@@ -319,13 +302,13 @@ Version: 1.0.3
 Section: Chủ đề
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.LiquidglAss_1.0.3_iphoneos-arm64e.deb
-Size: 13124052
-MD5sum: 2a74e26ce1a606a3e7bfdfbb767da3ba
-SHA1: 28f0415ca626fc77d2cbbd4df13002b3b62d6b11
-SHA256: 71b40ce02376ef7ba20d4f0f0651f0981492635286b49b0ef96cae18e8f0f4ea
-SHA512: d2d9697d1fadd019089c3fcbcb91d3a2960986c2ac21950ec4bb557961a6a94e50c0b2d904af991337d7063f02f0932e8401a42447cc766aad0de005392df196
+Size: 13123784
+MD5sum: 7d8b675c38a4bd5ba39962d9098310f6
+SHA1: f9420333100d534c323781f5d2f55dec1c8e6915
+SHA256: 380c23ae1ce0776c2f04ea96341c7c0b82eee8698c7feb7cb42904ab92d8f3bc
+SHA512: 0336d48cc630c63b21de22642bc0c7d6bad1e49862fca4a2c863ec5d1221d782fc6ab3844792168efffda65f2e28e459bcc652f0fd2ed567f01456f93837b2c0
 Description: Chủ đề Liquid GlAss
-Name: Liquid GlAss Themes
+Name: Liquid GlAss Theme
 Author: Nguyên Tokuda
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
@@ -827,6 +810,24 @@ Description: Trợ lý cuộc gọi mạnh mẽ, Hỗ trợ thiết IOS 16.0 - 1
 Name: Callassist16 (Roothide)
 Author: xybp888vh
 SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist16.json
+
+Package: com.jtis.Cartoo
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.cartoo_1.0_iphoneos-arm64e.deb
+Size: 369622
+MD5sum: c32daf8a1a42186ed18ea13bdf422c47
+SHA1: c75359b8c23b848f22a866dfed8fbfc14d2d6e03
+SHA256: 1338befb504e5e33800ccd8da1b9fde3d9b7ff11adbe367bb24e2255f3a7cb41
+SHA512: 3b8292497c26df16871f4bac8716273f6fbd6f95a7cc8b550edec45780bf3a47f4a8dda3ca1f49273596cc75507f8eadeb1c9030f4dc69bb0c0695954700f203
+Description: Cài đặt chủ đề cho trình quay số & mặt khẩu màn hình khoá.
+Name: Cartoo Passcode
+Author: Yangji
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Cartoo.json
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+ Pre-Depends: rootless-compat(>= 0.9)
 
 Package: com.jtis.cask3
 Architecture: iphoneos-arm64
@@ -3194,23 +3195,6 @@ Description: Hiển thị số lượng ứng dụng đã tải về trong mục
 Name: Zaire (Roothide)
 Author: Luki
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/Zaire.json
-
-Package: com.jtisRingMask
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Chủ đề
-Maintainer: JTIS Repo
-Filename: ./debs/com.jtisRingMask_1.0_iphoneos-arm64.deb
-Size: 1759564
-MD5sum: 9e1b07eed1ff55bf57fc4adf151a84c2
-SHA1: 185b30433853ab2bedb1c833c51582e56ec1a031
-SHA256: bdb72ea6c39fe9c20f0c78a84aa490f47bb3a3e6193f9d4115e19140154d854a
-SHA512: f2ee1b74925e86d74744d3ab1bd95651f164aa62e71e804d9e4c70ecdbc2cb707f59a879489a228f0c8949fdd86ae1c1173c7f5c212a09327ae01541cd8f4f01
-Description: Cài đặt MaskAE qua tinh chỉnh Snowboard cho IPhone của bạn
-Name: RingMask
-Author: p0s3id0n
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Themeringmask.json
-Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 
 Package: com.kitsudo.axom
 Architecture: iphoneos-arm64e
