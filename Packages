@@ -298,15 +298,15 @@ Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.pn
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm64
-Version: 1.0.2
+Version: 1.0.3
 Section: Chủ đề
 Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.LiquidglAss_1.0.2_iphoneos-arm64.deb
-Size: 10772176
-MD5sum: 1214494e59b2054bea66f563127de38b
-SHA1: 4ec24a2887b21cf071d41ee1bdcf99b604428197
-SHA256: e9260df09936810db6fbd3782976a8ecd00dc26920690ad6b649b945d13eca9a
-SHA512: 69bc140b786fa77fcf224fc65f0c39b45271cd2a4b83626aa6232fed0458ef4ba3239c092ec095785018f37fa0ad38786e3495d722f170974d9b5315c0cfd48a
+Filename: ./debs/com.jtis.LiquidglAss_1.0.3_iphoneos-arm64.deb
+Size: 13124144
+MD5sum: c2c5e4a509738d5f241196900a912c88
+SHA1: 9cd2e4b90922faa6dfd1ed0762668e642bd8dd24
+SHA256: 232f6de93a5101dcdc3b71d0d92380bec2326fa97a1d83de54f5140720c26949
+SHA512: 8352a2fdd05a839710754fab0e3547327e9d1ed32ac6b53541f574eb3b7297d44dd0405decef2a8f45a61b36377174a84674b91164d472a84a933b0a3383aef8
 Description: Chủ đề Liquid GlAss
 Name: Liquid GlAss Themes
 Author: Nguyên Tokuda
@@ -315,15 +315,15 @@ Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm64e
-Version: 1.0.2
+Version: 1.0.3
 Section: Chủ đề
 Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.LiquidglAss_1.0.2_iphoneos-arm64e.deb
-Size: 10772092
-MD5sum: 960ae9c2e3015f5e067bbdc95363c209
-SHA1: 5913fd6f2a4c6a15c507a689ea965ff28c471074
-SHA256: 45bff742d5f14c0217584e91d0dc4a402613475e668eb59ea225d51f9a5ea48b
-SHA512: c9b49355da843842699affe1db261b15201e758b23e32ea6cfea9c6b7ca055b0c6c14fc563aaca76b6bb14d19dd3c76a67878359f61691db7d39604120c1c925
+Filename: ./debs/com.jtis.LiquidglAss_1.0.3_iphoneos-arm64e.deb
+Size: 13124052
+MD5sum: 2a74e26ce1a606a3e7bfdfbb767da3ba
+SHA1: 28f0415ca626fc77d2cbbd4df13002b3b62d6b11
+SHA256: 71b40ce02376ef7ba20d4f0f0651f0981492635286b49b0ef96cae18e8f0f4ea
+SHA512: d2d9697d1fadd019089c3fcbcb91d3a2960986c2ac21950ec4bb557961a6a94e50c0b2d904af991337d7063f02f0932e8401a42447cc766aad0de005392df196
 Description: Chủ đề Liquid GlAss
 Name: Liquid GlAss Themes
 Author: Nguyên Tokuda
@@ -2457,6 +2457,26 @@ Author: Lang Khach
 Icon: https://jtisvn.github.io/sectionIcons/Picsart.png
 Name: PicsArt Gold
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PicsartGold.json
+
+Package: com.jtis.plampyuipro
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Control Center UI
+Maintainer: JTIS Repo
+Installed-Size: 2064
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/com.jtis.plampyuipro_1.0_iphoneos-arm64e.deb
+Size: 734272
+MD5sum: ca613ede9f05df446030c542d97c2a3f
+SHA1: b556e2eb883f23fcbabc339960cc9dcfc56c0622
+SHA256: 587cdb652ac0fef545638f8b2edd2dc5bad8d2dc6562792222cdad0cf24f2549
+SHA512: 1103cec81350c78ef84e84d0112626e58692e6083ab9860bce170d48a621fea4ed69b30320a7f6d0989e4e45cd30b056eeea34510e652b6cb5841aee2ee799cc
+Description: Plampy UI Pro - custumizing CC on Jailbroken devices for iOS 15 & 16.
+Name: Plampy UI Pro (Roothide)
+Author: Phuc Do
+Icon: https://jtisvn.github.io/sectionIcons/PlampyUI.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PlampyUI.json
 
 Package: com.jtis.primedeck
 Architecture: iphoneos-arm64e
