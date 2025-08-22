@@ -1505,16 +1505,16 @@ Version: 1.0
 Section: Chủ đề
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.filzaui_1.0_iphoneos-arm64.deb
-Size: 527800
-MD5sum: 57a588ff212d3e32cdc1bcb81ebc782d
-SHA1: 401b0a7d6d3503f4b67dc2d262d75c1d2683d8f1
-SHA256: 02c9df7c87999f3169be5763cb5cb614832552d19957d9d39881d0e80e7888af
-SHA512: 0f07e13673ecbefdb7014ffd94123424d70a5b01f80c43d2c6c9600266b32ab381f316cd0766d603635fec2bf5633d12211c0654dfd6639f06f0e123e103e734
-Description: Cài đặt chủ đề UI belle & helios cho ứng dụng Filza qua tinh chỉnh Snowboard cho IPhone của bạn
-Name: Filza UI theme
+Size: 527768
+MD5sum: 44ccb7b8b8a633ee52cf6527e46fcf19
+SHA1: 0249c192be9f97ce1ff8f881be226a2cf40bf254
+SHA256: 4a13955a3769b745fb4db2cc007562006572dd32819bc7687163ceabc60cd16f
+SHA512: 8ebedaf134fbd2227a1f56c56db8ccb7869c18af8011bb7d98c55f59e7656a956265b58fd533d1d671155ba56515c59022a8f6234bc204bc73638940b8cbc070
+Description: Cài đặt chủ đề belle & helios UI cho Filza File Manager qua tinh chỉnh Snowboard.
+Name: Filza UI Theme
 Author: Cypwn & OuniDesigns
 SileoDepiction: https://jtisvn.github.io/sileodepictions/FilzaUI.json
-Icon: https://files.catbox.moe/w852v4.png
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.filzaui
 Architecture: iphoneos-arm64e
@@ -1522,16 +1522,16 @@ Version: 1.0
 Section: Chủ đề
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.filzaui_1.0_iphoneos-arm64e.deb
-Size: 538270
-MD5sum: b65c4228fc05359380f547f6127fa2f0
-SHA1: dfc139988545b57149085f90a385d3293d8b1660
-SHA256: 096bcc420bec209401e6be7f7ef669c1892579d87537e551ef2074b06b7fcdcd
-SHA512: 2298da1a454cf9d2ec2082278d70235feb1c580f50e90f355126836b755c0fdb24eefc8c7a14e0cefca660e5c3527c807e76803c422034daefd2a62176d29340
-Description: Cài đặt chủ đề UI belle & helios cho ứng dụng Filza qua tinh chỉnh Snowboard cho IPhone của bạn
-Name: Filza UI theme
+Size: 538200
+MD5sum: db500aba1110fc0964a236ae9e03fedf
+SHA1: 7d9c5ecc04a3ef708662662410298e76aee613b2
+SHA256: 2e5c8d9c7bedbc28a9924fdd1e79265894a99f2762397f3a0d4706de0cc7d569
+SHA512: 2aa1a14b31a2056d474936d4ab929d57783babcc7e4ad9aeb3ebf57ec482391eeee5f642a8c2421519835a34b80acbdc33c0a0aae44a6a9f013e2964a4b55064
+Description: Cài đặt chủ đề belle & helios UI cho Filza File Manager qua tinh chỉnh Snowboard.
+Name: Filza UI Theme
 Author: Cypwn & OuniDesigns
 SileoDepiction: https://jtisvn.github.io/sileodepictions/FilzaUI.json
-Icon: https://files.catbox.moe/w852v4.png
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
  Pre-Depends: rootless-compat(>= 0.9)
 
 Package: com.jtis.floatingdockxvi
