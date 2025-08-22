@@ -314,6 +314,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
  Pre-Depends: rootless-compat(>= 0.9)
 
+Package: com.jtis.RingTonesManager
+Architecture: iphoneos-arm64
+Version: 1.1-4
+Section: Tweaks
+Maintainer: JTIS Repo
+Depends: firmware (>=15.0)
+Filename: ./debs/com.jtis.RingTonesManager_1.1-4_iphoneos-arm64.deb
+Size: 5302700
+MD5sum: f73e8ca85168d39e755250c7e4636e02
+SHA1: 77718698e4925d48a93c19eae4cbbfa4a74f209a
+SHA256: c144243d3256e3ba3fd219b826d52c2fba797d4e527b4c58baf2e31469d09caa
+SHA512: 0e4efee31ae2b25d0e4dfbd5e9352a94fdd9847adacd4b576d1c540ef1a63f3fb66a4a13b12c9307ce9a8ae0caa6c5159e37543a4d041c8cbffc7460c0459c5a
+Description: Trình quản lý tạo nhạc chuông trên IPhone của bạn.
+Name: RingTonesManager
+Icon: https://jtisvn.github.io/sectionIcons/Ringtones.png
+Author: Netskao
+Tags: compatible_min::ios15
+
 Package: com.jtis.adguardPro-r2
 Architecture: iphoneos-arm64
 Version: 0.0.1
