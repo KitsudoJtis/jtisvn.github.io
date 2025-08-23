@@ -281,35 +281,35 @@ Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.pn
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm64
-Version: 1.0.3
+Version: 1.0.4
 Section: Chủ đề
 Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.LiquidglAss_1.0.3_iphoneos-arm64.deb
-Size: 13123948
-MD5sum: 29b996c0f9b8d7f9956e0e0e49cb0941
-SHA1: e6f8371160c4e7813bec61654837c4471edb95ec
-SHA256: cec2b1071b190d1c867c9b6b4bf2defa24a85ebb1d8f777db05c4bbe0d4dc6d1
-SHA512: 09e303e9ddaeac10938f04a094188bffacb4a4c4595cb8f0df857c1dd737a51b1c3d8c90d69761f70472a6c83523672de227585d51a8d86a39186cbc742eb0be
+Filename: ./debs/com.jtis.LiquidglAss_1.0.4_iphoneos-arm64.deb
+Size: 14106104
+MD5sum: f66a23773b6a3e5daf068017736b63d2
+SHA1: d7248066d74ea90c262ea4012f586874e01d3858
+SHA256: 561da5d9056a129193e7ce9c0d1880cbcb477756ac4907fa7324b0e1cc33ab40
+SHA512: dec3df3b6973f2d52acaa69661b53229bae4328a77f9802f12bfc637437bacdcf6adea9c991e984f7088c877ac3807463a752172b5e4322feab24282a67d9424
 Description: Chủ đề Liquid GlAss
 Name: Liquid GlAss Theme
-Author: Nguyên Tokuda
+Author: Nguyên Tokuda & Hoàng MD
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm64e
-Version: 1.0.3
+Version: 1.0.4
 Section: Chủ đề
 Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.LiquidglAss_1.0.3_iphoneos-arm64e.deb
-Size: 13123784
-MD5sum: 7d8b675c38a4bd5ba39962d9098310f6
-SHA1: f9420333100d534c323781f5d2f55dec1c8e6915
-SHA256: 380c23ae1ce0776c2f04ea96341c7c0b82eee8698c7feb7cb42904ab92d8f3bc
-SHA512: 0336d48cc630c63b21de22642bc0c7d6bad1e49862fca4a2c863ec5d1221d782fc6ab3844792168efffda65f2e28e459bcc652f0fd2ed567f01456f93837b2c0
+Filename: ./debs/com.jtis.LiquidglAss_1.0.4_iphoneos-arm64e.deb
+Size: 14106236
+MD5sum: c498a46e3c6dc65850c5fd5c82bc36a5
+SHA1: 57565049b401c906fa0894d9bd3c7f7d5cac6102
+SHA256: b40ac50033301e42145238645277c11c7758384966cd406f04a7c8ff196dbee0
+SHA512: 5f4a22a0997992e045aa4f740b11922a8484e062f46e2d046e4b64b913e09cdbc8479ce8b0b0792969d7f1dcf1a0f8b689cdf286344898b31aae12806ac0431a
 Description: Chủ đề Liquid GlAss
 Name: Liquid GlAss Theme
-Author: Nguyên Tokuda
+Author: Nguyên Tokuda & Hoàng MD
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
  Pre-Depends: rootless-compat(>= 0.9)
