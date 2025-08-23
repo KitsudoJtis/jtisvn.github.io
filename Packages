@@ -4009,24 +4009,6 @@ Author: Spark & Dennis D. Bednarz
 Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
 sileodepiction: https://www.sparkdev.me/sileo/com.spark.snowboard
 
-Package: com.spark.snowboardapplication
-Architecture: iphoneos-arm64e
-Version: 1.1.0~Beta4-rootless
-Section: Utilities
-Maintainer: Spark
-Installed-Size: 992
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: com.spark.snowboard
-Filename: ./debs/com.spark.snowboardapplication_1.1.0~Beta4-rootless_iphoneos-arm64e-3.deb
-Size: 629534
-MD5sum: 3f60eea2c168fa2e864607e0317cb83a
-SHA1: f51b3ae15bdc71c12d5682a7028d220e2735374c
-SHA256: 693b7453b02c0269214431ec15887865f7e5b737737ae2e55f91545fd926169a
-SHA512: b69de779637c8fa8481dc1f568e1f1fd234a361269646593fbc074c7c8132d388d7aff84445f9aed1a7bc20c9aa198b0f406d5ca585260fa749abbaeac21401a
-Description: An awesome application!
-Name: SnowBoard
-Author: Spark
-
 Package: com.udevs.dockx
 Architecture: iphoneos-arm64e
 Version: 2.6.2
