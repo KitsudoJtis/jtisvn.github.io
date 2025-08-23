@@ -2027,6 +2027,25 @@ Name: Kayoko (Roothide)
 Author: Alexandra Aurora Göttlicher
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko.json
 
+Package: com.jtis.liddell
+Architecture: iphoneos-arm64
+Version: 1.4.3
+Section: Tweaks
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 672
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, dev.traurige.libkitten (>= 1.3.3), com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.liddell
+Filename: ./debs/com.jtis.liddell_1.4.3_iphoneos-arm64.deb
+Size: 92448
+MD5sum: f707a2319010f47e402714dc6d6b182f
+SHA1: 3b782a6be1a38a2d78bdc3fe1033dcbd19825926
+SHA256: de676312cbd5a85a3a6f2526a23c17d435447904d70c7fe58f93ff041f02dd4d
+SHA512: e858968ec2b2d993f1e783fb18a5c3eb8976dbc34252770577ab4ce8f9a03480ecafb9fbb572c9cea2515b24c950c82b60772f7dda62d50036794d8c2a0eb4e1
+Description: Little and colorful notification banners
+Name: Liddell (Rootless)
+Author: Traurige <hello@traurige.dev>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Lidell.json
+
 Package: com.jtis.little12
 Architecture: iphoneos-arm64
 Version: 1.2.3
