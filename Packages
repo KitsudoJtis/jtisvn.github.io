@@ -4079,6 +4079,49 @@ Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Name: AniTime (Roothide)
 Author: yan
 
+Package: dev.traurige.libkitten
+Architecture: iphoneos-arm64
+Version: 1.4.1
+Section: System
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 152
+Provides: love.litten.libkitten (=1.3.3)
+Depends: firmware (>= 12.0)
+Conflicts: love.litten.libkitten
+Filename: ./debs/dev.traurige.libkitten_1.4.1_iphoneos-arm64.deb
+Size: 12644
+MD5sum: 3de91486bd9f2030393d656c850a65a1
+SHA1: de56ed6b372fe7710a6453eff18fe022dba03b65
+SHA256: da61fcaac05f82949ff18856b0ede60bb89f3728d052071655df15e94c19953a
+SHA512: ac2442edc26582a32b229c827d6a886dfbebf03456f481f64fe1767ca7b502446abbd8237501e8752c6ca1b16f9ea46187a8ce6d0425599edfbc91b2d7dbdee9
+Description: Collection of image and color calculations
+Tag: role::developer
+Name: libKitten
+Author: Traurige <hello@traurige.dev>
+Icon: file:///var/jb/Library/IconRepo/hethongg1.png
+
+Package: dev.traurige.libkitten
+Architecture: iphoneos-arm64e
+Version: 1.4.1
+Section: System
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 152
+Provides: love.litten.libkitten (=1.3.3)
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 12.0)
+Conflicts: love.litten.libkitten
+Filename: ./debs/dev.traurige.libkitten_1.4.1_iphoneos-arm64e.deb
+Size: 10188
+MD5sum: b3a9abce1514c15e6eba9a4dbfab1faa
+SHA1: 4baf30f1c5a59eedd558c73d9888839fc98163ef
+SHA256: 202b007322f1b95f5f613e1413e6a963bb0529193c5b0396a07beef9f9591f3b
+SHA512: d812f38a33d89279cf465b943eedceaea62dd804a0681253aba0f5ae9c5fb0315515098b0a1f3990e88f8a15b502bbc5021c572dbfa7a5a0d28a8922e6ed479a
+Description: Collection of image and color calculations
+Tag: role::developer
+Name: libKitten
+Author: Traurige <hello@traurige.dev>
+Icon: file:///var/jb/Library/IconRepo/hethongg1.png
+
 Package: me.tomt000.copylog
 Architecture: iphoneos-arm64
 Version: 1.7.3
