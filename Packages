@@ -3998,16 +3998,16 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Filename: ./debs/com.spark.snowboard_1.5.37-Beta4-rootless_iphoneos-arm64e.deb
-Size: 1130692
-MD5sum: 4e74f146d957dc8b8d2fc524a5ef55d4
-SHA1: d9fc0fd5b58fb25e0609413a0bf50ad5f4642fc1
-SHA256: a4b479d93e900464624e6c4edb74db46f707d149d6e7d2f42dbd4f22c9af9b86
-SHA512: b1a25e9470cb28e924d53c20c930db3cecb4575e75d3ebe6fd21b65d51ea7a7acc40fb4a6fb4ad2daf6a817cab06fa8d3f54b1fcb0f1a8bf3f8b91b536044587
+Size: 1130560
+MD5sum: 2434a79f94bead3ea9232595608a4949
+SHA1: e9c973b40fe4414ece0014675727e0560b4ee343
+SHA256: e8de79f2ccb4d0974701350a4faf86c5f3a3430112d70a11dfa5cb8b4e471317
+SHA512: 87177c8d8253ee47108773b3cec227d79e65ef3a15a4ad457c5124484a1e42fba4df06068c995563fc20167a829dd1b56cee58ea77d1fefd23a3c7c4b73234ca
 Description: Snowboard theming engine
 Name: SnowBoard (Roothide)
 Author: Spark & Dennis D. Bednarz
 Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
-sileodepiction: https://www.sparkdev.me/sileo/com.spark.snowboard
+sileodepiction: https://jtisvn.github.io/sileodepictions/SnowBoard.json
 
 Package: com.udevs.dockx
 Architecture: iphoneos-arm64e

@@ -7,6 +7,10 @@
             "title": "JTISVN Repo",
             "package": "com.jtis.flow",
             "url": "https://jtisvn.github.io/coverimage/jtisvnrepo.png"},
+{
+           "title": "SnowBoard Roothide Support",
+            "package": "com.spark.snowboard",
+            "url": "https://jtisvn.github.io/coverimage/SnowBoard.png"},
         {
            "title": "Goku Theme",
             "package": "com.jtis.goku",
