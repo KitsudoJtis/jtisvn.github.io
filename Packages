@@ -2036,15 +2036,37 @@ Installed-Size: 672
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, dev.traurige.libkitten (>= 1.3.3), com.mrgcgamer.libgcuniversal
 Conflicts: love.litten.liddell
 Filename: ./debs/com.jtis.liddell_1.4.3_iphoneos-arm64.deb
-Size: 92448
-MD5sum: f707a2319010f47e402714dc6d6b182f
-SHA1: 3b782a6be1a38a2d78bdc3fe1033dcbd19825926
-SHA256: de676312cbd5a85a3a6f2526a23c17d435447904d70c7fe58f93ff041f02dd4d
-SHA512: e858968ec2b2d993f1e783fb18a5c3eb8976dbc34252770577ab4ce8f9a03480ecafb9fbb572c9cea2515b24c950c82b60772f7dda62d50036794d8c2a0eb4e1
+Size: 93444
+MD5sum: 44be95885262c754543856ffec22ab42
+SHA1: 49b67b72da31f210c8dbadf9666295a8644e4fad
+SHA256: 86a053adf634312f45af24cd8001cec4b07e63bdeffedbdc90af7973a9118bcd
+SHA512: b37f411ddb51ddc7acc66a825391614f4c4dd0ab9cf7a98e5a4e3a471e4e035167d61a0e9712c642fbe8de6fb9f0994f17c2d0c872ee6c60c3f4bbe34cca7e4c
 Description: Little and colorful notification banners
 Name: Liddell (Rootless)
 Author: Traurige <hello@traurige.dev>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Lidell.json
+Icon: https://jtisvn.github.io/sectionIcons/Lidell.png
+
+Package: com.jtis.liddell
+Architecture: iphoneos-arm64e
+Version: 1.4.3
+Section: Tweaks
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 672
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, dev.traurige.libkitten (>= 1.3.3), com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.liddell
+Filename: ./debs/com.jtis.liddell_1.4.3_iphoneos-arm64e.deb
+Size: 90844
+MD5sum: 3f0d13cd89df6b15c73acc9c8e6869df
+SHA1: 790c1d8c0c999bda6dd090f6e824fed7c79426e2
+SHA256: 107d2d77bca7aca3d1a6e7085f2f3c99057bf7d92a582cb019836c77b77c896e
+SHA512: fcc50db2f72a66d26ca8712ea3e68c9d7d412080de0eee634e4112a7f81bc30e9fca4282ce5022034b18309ad9b5c6509694cd211857b5a3ddf5e2adb690ffed
+Description: Little and colorful notification banners
+Name: Liddell (Roothide)
+Author: Traurige <hello@traurige.dev>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Lidell.json
+Icon: https://jtisvn.github.io/sectionIcons/Lidell.png
 
 Package: com.jtis.little12
 Architecture: iphoneos-arm64
