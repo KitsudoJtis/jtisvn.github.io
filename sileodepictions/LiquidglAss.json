@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Chủ đê Liquid GlAss\n\n- Gồm 347 biểu tượng\n\n- 2 mask AE\n\n- 1 badge & LS UI\n\n- Kích hoạt chủ đề qua Snowboard.\n\n- Xem hình ảnh bên dưới đẻ biết thêm chi tiet.\n\n",
+"markdown":" Chủ đê Liquid GlAss\n\n- Gồm 400 biểu tượng\n\n- 1 badge & 2 mask AE\n\n-  2 LS UI (Light & Dark)\n\n- Kích hoạt chủ đề qua Snowboard.\n\n- Xem hình ảnh bên dưới đẻ biết thêm chi tiet.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -26,10 +26,6 @@
 },
 {
 "url":"https://jtisvn.github.io/infodeb/LiquidglAss/Screenshots/2.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/LiquidglAss/Screenshots/3.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -58,9 +54,9 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"Nguyên Tokuda"
+"text":"Nguyên Tokuda & Hoàng MD"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.3" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.4" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -69,7 +65,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"21/8/2025"
+"text":"23/8/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -91,7 +87,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.3\n\n- Thêm 1 số biểu tượng mới\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.0.4\n\n- Thêm 1 số biểu tượng mới\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
