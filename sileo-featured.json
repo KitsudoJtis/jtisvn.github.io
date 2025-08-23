@@ -6,7 +6,11 @@
         {
             "title": "JTISVN Repo",
             "package": "com.jtis.flow",
-            "url": "https://jtisvn.github.io/coverimage/jtisvnrepo.png"
+            "url": "https://jtisvn.github.io/coverimage/jtisvnrepo.png"},
+        {
+           "title": "Goku Theme",
+            "package": "com.jtis.goku",
+            "url": "https://jtisvn.github.io/coverimage/Goku.png"
         }
     ]
 }

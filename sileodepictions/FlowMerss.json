@@ -61,7 +61,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
-"text":"Tweak"
+"text":"Tweaks"
 },
 {
 "class":"DepictionTableTextView",
@@ -75,7 +75,7 @@
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTIS",
+"text":"Copyright © 2025 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
@@ -92,7 +92,7 @@
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTIS",
+"text":"Copyright © 2025 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
