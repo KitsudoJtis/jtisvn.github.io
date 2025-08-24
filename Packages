@@ -4024,7 +4024,7 @@ Author: Spark
 
 Package: com.spark.snowboard
 Architecture: iphoneos-arm64e
-Version: 1.5.37-1-Beta4-roothide
+Version: 1.5.37-Beta4-roothide
 Section: Tweaks
 Maintainer: JTISVN Repo
 Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
@@ -4032,45 +4032,20 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader
 Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Filename: ./debs/com.spark.snowboard_1.5.37-1-Beta4-roothide_iphoneos-arm64e.deb
-Size: 14955524
-MD5sum: 619bde4c1449a4ca621763f5b848d740
-SHA1: de8c61952939b0d3aedfbee6b62b7de176c1d99c
-SHA256: bcbe08d2f8fcccbf3d6b2f510ef86b32f53c8374db900a8bb562b99aa4f78eb0
-SHA512: 0f439272bf462b3713785423200931b54a65d5e7047af3c1d11244490a19545d32899a8e49af8434b85c6b284632feb3747fe9b929ffc5e7b625e2167ea11bc8
+Filename: ./debs/com.spark.snowboard_1.5.37-Beta4-roothide_iphoneos-arm64e.deb
+Size: 14952512
+MD5sum: a79ef395a841c9a12aa12514587e2dcd
+SHA1: 5e9424d7856f94139baa1d6591e6dbc752ca3efa
+SHA256: 7b973b3c97564317aa246e082a50be211e95b479de9dcf8a77eadc281b3202a9
+SHA512: c0bf5a799c7f764f5ecd62eeb135618dc01aeb1975146da62f323944b8186891399b47bc3c7d2f35ab1e60f7e6f871682ad6407a751104f77d61ed9e16c28109
 Homepage: https://jtisvn.github.io
 Description: Tinh chỉnh thay đổi chủ đề ứng dụng.
 Name: SnowBoard  (Roothide)
 Author: Spark & Dennis D. Bednarz
-Depiction: https://jtisvn.github.io/depictions/SnowBoard.html
+https: //jtisvn.github.io/depictions/SnowBoard.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SnowBoard.json
 Tags: compatible_min::ios15.0, compatible_max::ios17.3
 Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
-
-Package: com.spark.snowboard
-Architecture: iphoneos-arm64e
-Version: 1.5.37-Beta4-roothide
-Section: Tweaks
-Maintainer: Spark
-Installed-Size: 3268
-Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Filename: ./debs/com.spark.snowboard_1.5.37-Beta4-roothide_iphoneos-arm64e.deb
-Size: 1130576
-MD5sum: c6ed6422837cd3b76308972dfa980a86
-SHA1: 55f71994022ec8fa48c750eda1dfef313738ea82
-SHA256: b53d08902d7644615a3f1db8f78a6574921f29e0976d0558d39813799b99c058
-SHA512: ef21a109bafb4fd8cfbcaa71fdec0f1ded155ffbee03e874b582acedbb78ab5336c8a13fe32d0d304684ff0680f54cc4313b58b0fe7284ea47acffa5e607ccca
-Homepage: https://jtisvn.github.io
-Description: Snowboard theming engine
-Name: SnowBoard (Roothide)
-Author: Spark & Dennis D. Bednarz
-Depiction: https://jtisvn.github.io/depictions/SnowBoard.html
-Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
-sileodepiction: https://jtisvn.github.io/sileodepictions/SnowBoard.json
 
 Package: com.udevs.dockx
 Architecture: iphoneos-arm64e
