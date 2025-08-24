@@ -285,32 +285,34 @@ Version: 1.0.4
 Section: Chủ đề
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.LiquidglAss_1.0.4_iphoneos-arm64.deb
-Size: 14106104
-MD5sum: f66a23773b6a3e5daf068017736b63d2
-SHA1: d7248066d74ea90c262ea4012f586874e01d3858
-SHA256: 561da5d9056a129193e7ce9c0d1880cbcb477756ac4907fa7324b0e1cc33ab40
-SHA512: dec3df3b6973f2d52acaa69661b53229bae4328a77f9802f12bfc637437bacdcf6adea9c991e984f7088c877ac3807463a752172b5e4322feab24282a67d9424
+Size: 14897112
+MD5sum: 2ea2f0fd4b8ce6c1d3e2059251d21dd6
+SHA1: eb7e2014b3cd8353d71642403def43829b7b5ede
+SHA256: 6864532570d8a86cf5f3cbb87db5b8fea54afce59e1ba0541b95995a9eadc8db
+SHA512: 44f3c33c6da77623a667ead7a47deb3fc112042d568ba6b0f87ee91b4dd85c09904cc40d93e68ee54c21043cab5e3e673d0a0d87614a47cf810cd7362c2e711e
 Description: Chủ đề Liquid GlAss
-Name: Liquid GlAss Theme
+Name: Liquid Glass Theme
 Author: Nguyên Tokuda & Hoàng MD
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
+Depiction: https://jtisvn.github.io/depictions/LiquidGlass.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm64e
-Version: 1.0.4
+Version: 1.0.5
 Section: Chủ đề
 Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.LiquidglAss_1.0.4_iphoneos-arm64e.deb
-Size: 14106236
-MD5sum: c498a46e3c6dc65850c5fd5c82bc36a5
-SHA1: 57565049b401c906fa0894d9bd3c7f7d5cac6102
-SHA256: b40ac50033301e42145238645277c11c7758384966cd406f04a7c8ff196dbee0
-SHA512: 5f4a22a0997992e045aa4f740b11922a8484e062f46e2d046e4b64b913e09cdbc8479ce8b0b0792969d7f1dcf1a0f8b689cdf286344898b31aae12806ac0431a
+Filename: ./debs/com.jtis.LiquidglAss_1.0.5_iphoneos-arm64e.deb
+Size: 14897220
+MD5sum: c1c4a495e7f7545bfdace177f8b88f55
+SHA1: fd9a0af5c3a09a5f56b33d6bde543d9fafd58991
+SHA256: 467874165f120adca15c520c300d053707886612434082a23381ba8d7f6d487e
+SHA512: 8318c298fb9c8e4556e97ec121787586f01484321e8b651e3aa6769eca4db966976fc450193e93a3d3823ed8c2d0330a119d3bff11f3fa3dbed3107dff9cf6aa
 Description: Chủ đề Liquid GlAss
-Name: Liquid GlAss Theme
+Name: Liquid Glass Theme
 Author: Nguyên Tokuda & Hoàng MD
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
+Depiction: https://jtisvn.github.io/depictions/LiquidGlass.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
  Pre-Depends: rootless-compat(>= 0.9)
 
@@ -4033,11 +4035,11 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Filename: ./debs/com.spark.snowboard_1.5.37-Beta4-roothide_iphoneos-arm64e.deb
-Size: 14952512
-MD5sum: a79ef395a841c9a12aa12514587e2dcd
-SHA1: 5e9424d7856f94139baa1d6591e6dbc752ca3efa
-SHA256: 7b973b3c97564317aa246e082a50be211e95b479de9dcf8a77eadc281b3202a9
-SHA512: c0bf5a799c7f764f5ecd62eeb135618dc01aeb1975146da62f323944b8186891399b47bc3c7d2f35ab1e60f7e6f871682ad6407a751104f77d61ed9e16c28109
+Size: 3808480
+MD5sum: 13204b11368c0a2303f6fa0eeea3975f
+SHA1: 9b65971b5d0f46f970c8295ccda47167c122db5a
+SHA256: b7e572991d8c903249d9a8353f4c449fc463038b68a8f0cf8fc14108ea0feb35
+SHA512: a9a481e763c3bb4a62111b05619f993d04a4696df23b030321a086c634057f7d95a7e51cfdda448232d716f380b948476fcb830a4176145c90592921b2376fb4
 Homepage: https://jtisvn.github.io
 Description: Tinh chỉnh thay đổi chủ đề ứng dụng.
 Name: SnowBoard  (Roothide)
