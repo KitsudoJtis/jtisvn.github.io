@@ -64,7 +64,7 @@
 "title":"Tác giả",
 "text":"Spark & Dennis D. Bendnarz"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"15.3.7" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"15.3.7-1" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -73,7 +73,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"20/5/2025"
+"text":"24/8/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -95,7 +95,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Roothide Jailbreak"
+"markdown":"### Phiên bản 15.3.7-1\n\n- Thêm sẵn 1 số biểu tượng UI, maskAE, Sưeitch\n\n- Thêm ngôn ngữ Tiếng Việt\n\- Hỗ trợ Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
