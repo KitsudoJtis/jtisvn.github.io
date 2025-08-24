@@ -45,10 +45,10 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Tham gia nhóm"
+"title":"Liên hệ tôi"
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
+"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7\n\nㅤ\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -64,7 +64,7 @@
 "title":"Tác giả",
 "text":"Spark & Dennis D. Bendnarz"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"15.3.7-1" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"15.37" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -78,7 +78,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 12.0 đến 16.x"
+"text":"iOS 12.0 đến 16.7.11"
 },
 {
 "class":"DepictionLabelView",
@@ -95,7 +95,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 15.3.7-1\n\n- Thêm sẵn 1 số biểu tượng UI, maskAE, Sưeitch\n\n- Thêm ngôn ngữ Tiếng Việt\n\- Hỗ trợ Roothide Jailbreak"
+"markdown":"### Phiên bản 15.3.7\n\n- Thêm sẵn 1 số biểu tượng UI,Switch và maskAE\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
@@ -106,12 +106,12 @@
 {
 "class":"DepictionTableButtonView",
 "title": "Paypal",
-"action": "https://paypal.me/HiuKitsudo"
+"action": "https://www.paypal.com/myaccount/transfer/homepage/preview/"
 },
 {
 "class":"DepictionTableButtonView",
 "title": "Mua cho tôi một ly cà phê",
-"action": "https://jtisvn.github.io/donate/donate.html"
+"action": "https://img.vietqr.io/image/ACB-20219691-print.png?&addInfo=&accountName=NGUYEN%20TRUNG%20HIEU"
 },
 {
 "class":"DepictionTableButtonView",
