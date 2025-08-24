@@ -3986,6 +3986,24 @@ Description: Respring icon extension for SnowBoard
 Name: SnowBoard Respring Extension
 Author: Spark
 
+Package: com.spark.snowboard.statusbar
+Architecture: iphoneos-arm64e
+Version: 1.1.0-Beta4-rootless
+Section: SnowBoard Extensions
+Maintainer: Spark
+Installed-Size: 364
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/com.spark.snowboard.statusbar_1.1.0-Beta4-rootless_iphoneos-arm64e-1.deb
+Size: 36290
+MD5sum: 5555bac822ad5658352f9730b2dc3cee
+SHA1: cc8c7f8dcf758d65c154d340306d3b43899a6c85
+SHA256: 6f8a3bd4e336b17d2d3cdec88898888b426d38b737a729e5efe3a7e7f4690673
+SHA512: 4d7103681c32bee399cb167bff54834f508771b5f9b72f7cbceff07f5dd97399fa3191613e6875cf52ef21232f9999bfc1a3f97c0af6402ab62c44aa5c0d194f
+Description: StatusBar for SnowBoard
+Name: SnowBoard StatusBar Extension
+Author: Spark
+
 Package: com.spark.snowboard
 Architecture: iphoneos-arm64e
 Version: 1.5.37-Beta4-rootless
