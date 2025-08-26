@@ -3627,6 +3627,24 @@ Name: Touch-Viz Gói Việt Hoá (Roothide)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
+Package: com.kitsudo.trapp.jb
+Architecture: iphoneos-arm64e
+Version: 2.10-499
+Section: Applications
+Maintainer: JTIS Repo
+Installed-Size: 18856
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy
+Filename: ./debs/com.kitsudo.trapp.jb_2.10-499_iphoneos-arm64e.deb
+Size: 23336
+MD5sum: a51dee6093cd8d5ee56e0d280a611acd
+SHA1: e408a65a3b83a9b940b9beab89f970456327aadd
+SHA256: d9ce9ca2e667693c23b1d3c0d57bd459e5e1eca90be4d72f33ec93c6b8c1be54
+SHA512: 6118e9b5df050da84e780bce63152de4d56ebf276398974b3961172c98529a92ed6fbdc792a3692b8710cbf1b62fd59dd9b41aa04b976cb2cdb99d8a493936ed
+Description: Thêm ngôn ngừ Tiếng Việt cho tweak TrollRecorder JB
+Name: TrollRecorder JB Gói Việt Hoá (Roothide)
+Author: JTIS Repo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
 Package: com.langkhach.adblockpro
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -4246,6 +4264,45 @@ Name: Dynamic Stage (Roothide)
 Author: tomt000
 Icon: https://jtisvn.github.io/sectionIcons/Stage.png
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/Stage.json
+
+Package: net.jtis.gestures15
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.icraze.gestures15, net.kenhtao.gestures15.full
+Replaces: com.icraze.gestures15, net.kenhtao.gestures15.full
+Filename: ./debs/net.jtis.gestures15_1.0_iphoneos-arm64.deb
+Size: 5016
+MD5sum: f29c9555bfb11fcec3f9dfdbbe088271
+SHA1: 1fd20fb0297997bc603c7c3118b16a92c2a79dd3
+SHA256: 674d829f13c642d167989ea7bab42c5b977684cf94694f91651f0755d5461887
+SHA512: 7aa02274f4f6132b758eb0bebb521808543d64511b1378cc5ede330f4f1e2e12630a4d727676546ec3dc66fbc4b41d9a062cb444110c56dd7a4ee887572e3cec
+Description: Cử chỉ iPhone X và thanh trạng thái iPad cho tất cả thiết bị của bạn.
+Name: Gestures15 (Rootless)
+Author: iCraze
+
+Package: net.jtis.gestures15
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.icraze.gestures15, net.kenhtao.gestures15.full
+Replaces: com.icraze.gestures15, net.kenhtao.gestures15.full
+Filename: ./debs/net.jtis.gestures15_1.0_iphoneos-arm64e.deb
+Size: 6092
+MD5sum: 0e0d9078fa34a951c1791efd9ebe69f2
+SHA1: c8396fbe8081a94340fec1bca92471a50f47c1db
+SHA256: ecfabd2017a5f10ebf34d3e8b3564840c3062f3761bd8a4ce30f8a348e5f02b4
+SHA512: 4533bb40ad703272772d67379b209de18d9924a598fb02dc618cf053a2be201e22a54e5c9b31bb398044fc38baaf247db13635853e8b7f2c5780ba35278e40c7
+Description: Cử chỉ iPhone X và thanh trạng thái iPad cho tất cả thiết bị của bạn.
+Name: Gestures15 (Roothide)
+Author: iCraze
 
 Package: oldabi
 Architecture: iphoneos-arm64e
