@@ -3630,16 +3630,16 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 Package: com.kitsudo.trapp.jb
 Architecture: iphoneos-arm64e
 Version: 2.10-499
-Section: Applications
+Section: Gói
 Maintainer: JTIS Repo
 Installed-Size: 18856
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy
 Filename: ./debs/com.kitsudo.trapp.jb_2.10-499_iphoneos-arm64e.deb
-Size: 23336
-MD5sum: a51dee6093cd8d5ee56e0d280a611acd
-SHA1: e408a65a3b83a9b940b9beab89f970456327aadd
-SHA256: d9ce9ca2e667693c23b1d3c0d57bd459e5e1eca90be4d72f33ec93c6b8c1be54
-SHA512: 6118e9b5df050da84e780bce63152de4d56ebf276398974b3961172c98529a92ed6fbdc792a3692b8710cbf1b62fd59dd9b41aa04b976cb2cdb99d8a493936ed
+Size: 23348
+MD5sum: db937586b29b615dc8017c4d0a7617bd
+SHA1: d53bf414f5df648ec8d1f6cae9469f4554a75d54
+SHA256: 084d15e400a787ed04781a5fb4b099832ab3c595fc78be460b5298c57c736231
+SHA512: bc79e98e1374cd76f821043f86d791e16dc608039e6e0b68c8c0c2c0e31bc584bc26cdd4b82ea28001373d8a7408ab968bbfcddb5d3f7a2a0aabdeeb669e2935
 Description: Thêm ngôn ngừ Tiếng Việt cho tweak TrollRecorder JB
 Name: TrollRecorder JB Gói Việt Hoá (Roothide)
 Author: JTIS Repo
