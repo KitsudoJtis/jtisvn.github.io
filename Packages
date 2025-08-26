@@ -4035,11 +4035,11 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Filename: ./debs/com.spark.snowboard_1.5.37-Beta4-roothide_iphoneos-arm64e.deb
-Size: 3808480
-MD5sum: 13204b11368c0a2303f6fa0eeea3975f
-SHA1: 9b65971b5d0f46f970c8295ccda47167c122db5a
-SHA256: b7e572991d8c903249d9a8353f4c449fc463038b68a8f0cf8fc14108ea0feb35
-SHA512: a9a481e763c3bb4a62111b05619f993d04a4696df23b030321a086c634057f7d95a7e51cfdda448232d716f380b948476fcb830a4176145c90592921b2376fb4
+Size: 4319592
+MD5sum: 264f2a5dd8b38c243713aca3711c4545
+SHA1: 819ea7798ca3b30e519f3f4998db344b9b8be539
+SHA256: fe7b1d7d968264639bdeeaa89493864be81ee3bf5ede43c45a688227ea2e5089
+SHA512: 0ca8d74348e9affea395fff873bcbf0d0cedf006e6e0ece9041b3a7e499f1fe081e2bb568751b9355458c89d9eb40dc15c0f14ff4d6a13982c10c3a6cc5ba2ff
 Homepage: https://jtisvn.github.io
 Description: Tinh chỉnh thay đổi chủ đề ứng dụng.
 Name: SnowBoard  (Roothide)
