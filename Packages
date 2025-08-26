@@ -670,6 +670,24 @@ Author: dvntm
 Icon: https://jtisvn.github.io/sectionIcons/BHtiktokplus.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BHtiktokplus.json
 
+Package: com.jtis.bigshotsnapper3plugin
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Installed-Size: 532
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), com.opa334.ccsupport
+Filename: ./debs/com.jtis.bigshotsnapper3plugin_1.1_iphoneos-arm64e.deb
+Size: 19164
+MD5sum: 9080fd927b46802f34f00c3361b4f378
+SHA1: 47067d7aef937b3b2a84703d586ac7595c443ead
+SHA256: b63609325837b6ddea40a18ae12ddcca2862f325f457b4f73337c75540866396
+SHA512: ace24eb43e0d3de6e10763685ca498a7883246f5a969360fd26037e4d98d6b436c430e8d60f39cd6f8e671432df954463c13c06e217656e5ac8e4bda33c33636
+Description: Ảnh chụp màm hình dài dưới dạng plugin Snapper 3 qua Mo-dun Trung tâm điều khiển.Lưu ý: Yêu câu cài CCSupport & Snapper 3
+Name: BigShot (Roôthhide)
+Author: Jonathan Winger-lang
+Icon: https://jtisvn.github.io/sectionIcons/BigShot.png
+
 Package: com.jtis.blur
 Architecture: iphoneos-arm64
 Version: 1.0-8+debug
