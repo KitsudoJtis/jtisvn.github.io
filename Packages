@@ -674,21 +674,22 @@ Package: com.jtis.bigshotsnapper3plugin
 Architecture: iphoneos-arm64e
 Version: 1.1
 Section: Tweaks
+Maintainer: JTIS Repo
 Installed-Size: 532
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware(>=14.0), com.opa334.ccsupport
 Filename: ./debs/com.jtis.bigshotsnapper3plugin_1.1_iphoneos-arm64e.deb
-Size: 19196
-MD5sum: 6f6d81d121499e9ab8fb1022db73d2eb
-SHA1: a42933ce16fef33f9dab319086eb29baa97ecaf7
-SHA256: bf174c9ac1ed553bfe75a94365b6a047907a55193cad4cdc39d94857795f387a
-SHA512: 99268e43ed3a3210a528a28e9c97e1a82aadb70a01bdea14e218fb9d4990d5d0cccd75ca987f8a7a62faa061d02c7ed47496e2077e8d66a12148bd7ea15a255f
-Description: Ảnh chụp màm hình dài dưới dạng plugin Snapper 3 qua Mo-dun Trung tâm điều khiển, Yêu câu tải CCSupport & Snapper 3
-Name: BigShot (Roothide)
-Depictions: https://jtisvn.github.io/depictions/BigShot.html
+Size: 21256
+MD5sum: 51e14e2a16987a65e7ba0769a52af98a
+SHA1: 6fc478fa31ac619a9bad0232d99f9df673c99d42
+SHA256: 923ea3e84ce090ac6c3d935a88fbe5ba09380dc31e98d64f054d1539e25f9d58
+SHA512: cd18adb839c14b18d8228fcc8ed9b0aa2c4ea94b43959ad84b99c4dfa96334fd40d2940c2c953752b26ed29a17c8a76b41fee3c3cc6b9dd1811bce7f32d1058b
+Description: BigShot CC module for iOS 14/15/16 and Snapper 3 plugin. Snapper 3 is NOT required to use this. It can be used as a standalone CC module.
+Depiction: https://jtisvn.github.io/depictions/BigShot.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BigShot.json
+Name: BigShot for Snapper 3 and CCSupport (Roothide)
 Author: Jonathan Winger-lang
 Icon: https://jtisvn.github.io/sectionIcons/BigShot.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/BigShot.json
 
 Package: com.jtis.blur
 Architecture: iphoneos-arm64
