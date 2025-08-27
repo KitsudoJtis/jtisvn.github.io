@@ -1971,6 +1971,25 @@ Description: This module provides the Cydia Substrate API for HookKit Framework.
 Name: HookKit Module (Cydia Substrate)
 Author: jjolano
 
+Package: com.jtis.horizontalsliders
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: ./debs/com.jtis.horizontalsliders_0.0.1_iphoneos-arm64e.deb
+Size: 10812
+MD5sum: 3caee37643b8095317c6451314f6c0d1
+SHA1: a25aadfc0ae2a1a3bdb64148a8b2e91a5392cecc
+SHA256: 5ff1023db64e1b06f7a8a70858b9f5305d77eb30689bc24f0ed0c31b3ad2f8d1
+SHA512: 4373b9c859448ff61268e1347139dc2e6413016898e485b26e9a3d782567c30ed0a377ed7ff19b5a4dec781def11f35f7b338cdec54976396b0fc61d370d41d3
+Description: Điều chỉnh cho Mô-đun độ sáng và âm lượng trên Trung tâm điều khiển xoay ngang.
+Name: HorizontalSliders (Roothide)
+Author: Nightwind
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/HorizontalSliders.json
+
 Package: com.jtis.iamlazy
 Architecture: iphoneos-arm64
 Version: 2.6.2

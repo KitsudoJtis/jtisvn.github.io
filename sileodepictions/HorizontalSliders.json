@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Lidell\n\n- Điều chỉnh hưởng để ngang của Mô-đun độ sáng và âm lượng trên Trung tâm điều khiển.\n\n- Chi tiết xem hình ảnh bên dưới.\n\n",
+"markdown":" HorizontalSliders\n\n- Điều chỉnh hưởng để ngang của Mô-đun độ sáng và âm lượng trên Trung tâm điều khiển.\n\n- Chi tiết xem hình ảnh bên dưới.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -66,7 +66,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.7.10"
+"text":"iOS 15.0 đến 16.6.1"
 },
 {
 "class":"DepictionLabelView",
@@ -83,7 +83,28 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Hỗ trợ Roothide Jailbreak"
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"L.Hệ & Hỗ trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Mua cho tôi một ly cà phê",
+"action": "https://jtisvn.github.io/donate/donate.html"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
 },
 {
 "class":"DepictionLabelView",
