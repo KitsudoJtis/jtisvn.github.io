@@ -1,35 +1,36 @@
 {
-    "minVersion":"0.4",
-    "headerImage":"https://jtisvn.github.io/coverimage/SafariX.png",
-    "tintColor":"#5777B8",
-    "tabs":[
-    {
-    "tabname":"Chi tiết",
-    "views":[
-    { "class":"DepictionHeaderView", "title":"" },
-    {
-    "class":"DepictionHeaderView",
-    "title":"Mô tả & Giới thiệu"
-    },
-    {
-"markdown":" SafariX\n\n- \n\n- Nếu bạn cảm thấy việc duyệt web trên trình duyệt Safari mặc định của Apple thật tẻ nhạt, nếu bạn thấy bối rối khi tìm kiếm các nút chức năng (chẳng hạn như tìm kiếm một từ trên trang web nhưng lại phải vào phần chia sẻ, nếu bạn nhớ các tab ở chế độ dọc hoặc chỉ đơn giản là muốn chia sẻ tệp tải xuống vào bất kỳ ứng dụng nào bạn chọn (nghe có vẻ cơ bản, nhưng nó rất hữu ích), thì đây chính là tinh chỉnh bạn phải có!\n\n- Với SafariX, bạn có thể tùy chỉnh Safari để phù hợp với mình hơn, và chắc chắn sẽ thay đổi cách bạn sử dụng trình duyệt này.\m\n- Các tính năng gồm:\n\n- Tab ở chế độ dọc\n\n- Tùy chỉnh nút phím tắt\n\n- Quản lý tải xuống\n\n- Nhóm tab dễ dàng % cuộn toàn màn hình\n\n- Và 1 số tính năng khác nữa.\n\n- Chi tiết xem hình ảnh bên dưới.",
-"class":"DepictionMarkdownView"
+"minVersion":"0.1",
+"headerImage":"https://jtisvn.github.io/coverimage/SafariX.png",
+"tintColor":"#5777B8",
+"tabs":[
+{
+"tabname":"Chi tiết",
+"views":[
+{ "class":"DepictionHeaderView", "title":"" },
+{
+"class":"DepictionHeaderView",
+"title":"Mô tả & Giới thiệu"
 },
 {
-"class":"DepictionSpacerView", "title":"Hình ảnh" },
+"markdown":" SafariX\n\n- \n\n- Nếu bạn cảm thấy việc duyệt web trên trình duyệt Safari mặc định của Apple thật tẻ nhạt, nếu bạn thấy bối rối khi tìm kiếm các nút chức năng (chẳng hạn như tìm kiếm một từ trên trang web nhưng lại phải vào phần chia sẻ, nếu bạn nhớ các tab ở chế độ dọc hoặc chỉ đơn giản là muốn chia sẻ tệp tải xuống vào bất kỳ ứng dụng nào bạn chọn (nghe có vẻ cơ bản, nhưng nó rất hữu ích), thì đây chính là tinh chỉnh bạn phải có!\n\n- Với SafariX, bạn có thể tùy chỉnh Safari để phù hợp với mình hơn, và chắc chắn sẽ thay đổi cách bạn sử dụng trình duyệt này.\m\n- Các tính năng gồm:\n\n- Tab ở chế độ dọc\n\n- Tùy chỉnh nút phím tắt\n\n- Quản lý tải xuống\n\n- Nhóm tab dễ dàng % cuộn toàn màn hình\n\n- Và 1 số tính năng khác nữa.\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết.\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
 {
-    "class":"DepictionScreenshotsView",
-    "screenshots":[
-    {
-    "url":"https://jtisvn.github.io/infodeb/SafariX/Screenshots/1.png",
-    "accessibilityText":"Screenshot"
-    },
-    {
-    "url":"https://jtisvn.github.io/infodeb/SafariX/Screenshots/2.png",
-    "accessibilityText":"Screenshot"
-    },
-    {"url":"https://jtisvn.github.io/infodeb/SafariX/Screenshots/3.png",
-    "accessibilityText":"Screenshot"
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/SafariX/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/SafariX/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/SafariX/Screenshots/3.png",
+"accessibilityText":"Screenshot"
 }
 ],
 "itemCornerRadius":0,
@@ -40,10 +41,10 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Tham gia nhóm "
+"title":"Tham gia nhóm"
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - Join Telegram\n\n\n",
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -52,18 +53,18 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin"
+"title":"Thông tin "
 },
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
 "text":"Oxkuj"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.9.9.1" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.9.9.q" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
-"text":"Tweaks"
+"text":"Themes"
 },
 {
 "class":"DepictionTableTextView",
@@ -90,7 +91,28 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### Phiên bản 1.9.9.1\n\n- Sửa lỗi\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.9.9.1\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"L.Hệ & Hỗ trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Mua cho tôi một ly cà phê",
+"action": "https://jtisvn.github.io/donate/donate.html"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
 },
 {
 "class":"DepictionLabelView",
