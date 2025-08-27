@@ -93,6 +93,25 @@ Author: 0xkuj
 Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
 
 Package: com.0xkuj.safarix
+Architecture: iphoneos-arm64
+Version: 1.9.9.1
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 928
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.0xkuj.safarix_1.9.9.1_iphoneos-arm64.deb
+Size: 317272
+MD5sum: 2b34a89d9516ce98ed83baa9e0607d83
+SHA1: b52cf19fdc3b3a0c431ebd5ebd851fda16abacee
+SHA256: de46ee67c1458d49bff0c8f10be5ba80eef4433da402aff728f24431ec3e1c1c
+SHA512: bd63c4634751071d753d446bb201d203ec6279da97393bacc93317d5ff8ee31b938943deff4a39ecf860a19fdddec812a8f1c821523025a459f3148125c247cb
+Description: Nâng tầm trải nghiệm Safari của bạn với các tính năng hữu ích.
+Name: SafariX (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariX.json
+Icon: https://https://Jtisvn.github.io/sectionIcons/Safarix.png
+Author: 0xkuj
+
+Package: com.0xkuj.safarix
 Architecture: iphoneos-arm64e
 Version: 1.9.9.1
 Section: Tweaks
@@ -3574,24 +3593,6 @@ SHA256: 688db4d85bf158fa477d91ffd4e828f39c434894b3fcd94f9a2b98e4d21853be
 SHA512: 31a97999b08823c261a08da1274cc8a057399ecde572548f9fff5fb29adb536918b881417e0b53780d3030870edfc125e79570f9dda31a94a242782a25e6a014
 Description: Thêm ngôn ngữ Tiếng Việt cho tweak PullOverPro
 Name: PullOver Pro Gói Việt Hoá (Roothide)
-Author: Jtis Repo
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.safarix
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Gói
-Maintainer: JTIS Repo
-Installed-Size: 36568
-Depends: mobilesubstrate
-Filename: ./debs/com.kitsudo.safarix_1.0_iphoneos-arm64.deb
-Size: 2764
-MD5sum: d81428f922acbf2f1857c20d18ab0903
-SHA1: 4026e177f933eb93b0dff77b694334b7dc85c9f2
-SHA256: 4e43e58c595fbcc67c43260a4f557f6aa5e9709aa53934db05795c14aca99301
-SHA512: db908f7bcf8d27c34ae39ed7c406cf423c6fbaaac6960f4165c7263d32bee3299fc0bd384f1f67ef784b151fb2688eaf32b3c46a0d37ae9c7df5663ef6dedc17
-Description: Patch Tiếng Việt cho tweak Safari X
-Name: Safari X gói Việt Hoá (Rootless)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
