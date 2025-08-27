@@ -678,15 +678,16 @@ Installed-Size: 532
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware(>=14.0), com.opa334.ccsupport
 Filename: ./debs/com.jtis.bigshotsnapper3plugin_1.1_iphoneos-arm64e.deb
-Size: 19164
-MD5sum: 9080fd927b46802f34f00c3361b4f378
-SHA1: 47067d7aef937b3b2a84703d586ac7595c443ead
-SHA256: b63609325837b6ddea40a18ae12ddcca2862f325f457b4f73337c75540866396
-SHA512: ace24eb43e0d3de6e10763685ca498a7883246f5a969360fd26037e4d98d6b436c430e8d60f39cd6f8e671432df954463c13c06e217656e5ac8e4bda33c33636
-Description: Ảnh chụp màm hình dài dưới dạng plugin Snapper 3 qua Mo-dun Trung tâm điều khiển.Lưu ý: Yêu câu cài CCSupport & Snapper 3
-Name: BigShot (Roôthhide)
+Size: 19184
+MD5sum: 1c293eddedb2cebf5de609530ffa8e63
+SHA1: cadcdb2c3ba25f283e62376278c7ec1edc9d2175
+SHA256: 187fc40e1f089aea5c5c381a500b127e04bf1f0b8fb19486e49c414aec197471
+SHA512: e5ae92242179255e533955b652a9df92fa560c3804184364034e4d85a4c7af0a14e8e75584bf67b7b0ea9e11e0c548a0e18c2f18a3376d33954a9a0a0bedbc9d
+Description: Ảnh chụp màm hình dài dưới dạng plugin Snapper 3 qua Mo-dun Trung tâm điều khiển, Yêu câu tải CCSupport & Snapper 3
+Name: BigShot (Roothide)
 Author: Jonathan Winger-lang
 Icon: https://jtisvn.github.io/sectionIcons/BigShot.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BigShot.json
 
 Package: com.jtis.blur
 Architecture: iphoneos-arm64

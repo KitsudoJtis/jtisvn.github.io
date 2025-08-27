@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" BigShot\n\n- Trình chụp ảnh mànhhinhf kéo dài dưới dạng plugin của Snapper 3 qua Mô-đun Trung tâm điều khiển trên thiết bị chả bạn.\n\n- Yêu cầu tải thêm CCSupport và Snapper3\n\n- Chi tiết xem mô tả gói bên dưới",
+"markdown":" BigShot\n\n- Trình chụp ảnh mànhhinhf kéo dài dưới dạng plugin của Snapper 3 qua Mô-đun Trung tâm điều khiển trên thiết bị của bạn.\n\n- Yêu cầu tải thêm CCSupport và Snapper3\n\n- Chi tiết xem mô tả gói bên dưới",
 "class":"DepictionMarkdownView"
 },
 {
@@ -20,7 +20,7 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Chi tiết gói"
+"title":"Mô tả gói"
 },
 {
 "markdown":"[**Xem tại đây**](https://jtisvn.github.io/depictions/BigShot.html) \n\n\n",
