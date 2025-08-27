@@ -92,6 +92,26 @@ Name: SafariX-New(Roothde)
 Author: 0xkuj
 Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
 
+Package: com.0xkuj.safarix
+Architecture: iphoneos-arm64e
+Version: 1.9.9.1
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 928
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.0xkuj.safarix_1.9.9.1_iphoneos-arm64e.deb
+Size: 320372
+MD5sum: 34e7eafde56ef839d7c1133c93b46e53
+SHA1: 3d5f7885c710dc7dbcdedf08388284358b19c8e4
+SHA256: 3cdbd1cf5aa4e71241d5aa4d32ee7082e09c8d6070681c75810e20b58ebe2698
+SHA512: cca4280aba756208b4a189b2fe941117bff3a3edde9009a949f6d0d2203a322c34b122e863b0232e5da997cc995fabd0340899c85dcae6d7b5f7b02e50f79f9a
+Description: Nâng tầm trải nghiệm Safari của bạn với các tính năng hữu ích.
+Name: SafariX VH(Rootless)
+Author: 0xkuj
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariX.json
+Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
+
 Package: com.LLSwitch.roothide
 Architecture: iphoneos-arm64e
 Version: 1.0
