@@ -11,8 +11,12 @@
            "title": "SnowBoard Roothide Support",
             "package": "com.spark.snowboard",
             "url": "https://jtisvn.github.io/coverimage/SnowBoard.png"},
-        {
-           "title": "Goku Theme",
+{
+           "title": "Safari X",
+            "package": "com.spark.snowboard",
+            "url": "https://jtisvn.github.io/coverimage/SafariX.png"},
+{
+           "title": "Goku Laetus",
             "package": "com.jtis.goku",
             "url": "https://jtisvn.github.io/coverimage/Goku.png"
         }

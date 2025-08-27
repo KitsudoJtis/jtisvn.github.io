@@ -3575,25 +3575,6 @@ Name: Safari X gói Việt Hoá (Rootless)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
-Package: com.kitsudo.safarix
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Gói
-Maintainer: JTIS Repo
-Installed-Size: 36568
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/com.kitsudo.safarix_1.0_iphoneos-arm64e.deb
-Size: 3216
-MD5sum: cc9c09466aadace65d25afbbda98c02e
-SHA1: 63544a771e08f2c54f038d1fe0fd486cfd3f0a2a
-SHA256: 4bac4fb2073344bb3aae50c13a5cc01ee6354e6cf7f3bdbdbb02c28e8fac712a
-SHA512: 2289e423a5f34df7b3ae576b37e312bf4ebbce92b5a5a86e823b01cf0b3da9b4162d5a320e4e2d1f6d471bcbd2936fe8c224f60a86648f93da1d27098fb51741
-Description: Thêm ngôn ngữ Tiếng Việt cho tweak Safari X
-Name: Safari X Gói Việt Hoá (Roothide)
-Author: Jtis Repo
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
 Package: com.kitsudo.settingsrevamp
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -3646,25 +3627,6 @@ SHA256: 44b4a1106b84615aee5f819a37fc60ceed645bb874e9d179a7437c17c7cc4508
 SHA512: 09ea1aa4e825f3b79857c382031bd061d9b423e8864c3f9135defeca880b617eb44f394ad1aa63453af7241574458469e19dfcb06c680f0b3333f779e466fcae
 Description: Patch Tiếng Việt cho tweak Snowboard
 Name: Snowboard gói Việt Hoá (Rootless)
-Author: Jtis Repo
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.snowboard
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Gói
-Maintainer: JTIS Repo
-Installed-Size: 36568
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/com.kitsudo.snowboard_1.0_iphoneos-arm64e.deb
-Size: 5020
-MD5sum: 270901e8a913f2847469a11da6361cef
-SHA1: b5ba645a2f54e616a0fe6a8d4b9ebcba1c69568b
-SHA256: 48d0b80676876380f1b7f1bfd44f42b493a38a0f72ea0e93df2fc177466f4c1a
-SHA512: 7b241c3d737520b87810519cfb276aa42bd3143e173adebf616cf779eefdc477bf4e742e0216f475b1bd65b19a77717d402ada2da258e08ed51fe5a11f33bc7d
-Description: Thêm ngôn ngữ Tiếng Việt cho tweak Snowboard
-Name: Snowboard Gói Việt Hoá (Roothide)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
