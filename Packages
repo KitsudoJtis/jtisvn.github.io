@@ -3080,6 +3080,25 @@ Author: choco/waruhachi/TheWinner02
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
 icon: https://jtisvn.github.io/sectionIcons/TeleSF.png
 
+Package: com.jtis.tgextra
+Architecture: iphoneos-arm64e
+Version: 1.4.0
+Section: Tweaks
+Maintainer: choco
+Installed-Size: 15894
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.tgextra_1.4.0_iphoneos-arm64e.deb
+Size: 2423280
+MD5sum: 3be94fbf078f8257df93eb53e72a5081
+SHA1: 348a4edd48be3981b4ad9f5ba8f4eddde0978f0b
+SHA256: 1922baabea15d4d76277604e68e10a82f8f24119587d651b4a7f54acb88f0928
+SHA512: 1439f755b3b4c4a0b10204e7234e141130ded768b508713d30b7e81c09dbfb7e3550f14a2735c22f05b599c1910a4f56d6e06b72f26cdb5339af8d46bd658084
+Description: Thêm các chức năng tiện ích cho ứng dụng Telegram, Swiftgram , Turrit...
+Name: TGExtra (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
+Icon: https://jtisvn.github.io/sectionIcons/TeleSF.png
+Author: choco, r22i0
+
 Package: com.jtis.trim
 Architecture: iphoneos-arm64
 Version: 0.0.2
