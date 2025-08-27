@@ -1,0 +1,85 @@
+{
+"minVersion":"0.1",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#5777B8",
+"tabs":[
+{
+"tabname":"Chi tiết",
+"views":[
+{ "class":"DepictionHeaderView", "title":"" },
+{
+"class":"DepictionHeaderView",
+"title":"Mô tả & Giới thiệu"
+},
+{
+"markdown":" BigShot\n\n- Trình chụp ảnh mànhhinhf kéo dài dưới dạng plugin của Snapper 3 qua Mô-đun Trung tâm điều khiển trên thiết bị chả bạn.\n\n- Yêu cầu tải thêm CCSupport và Snapper3\n\n- Chi tiết xem mô tả gói bên dưới"},
+{"class":"DepictionTableButtonView","title":"Xem mô tả gói tại đây","action":"https://jtisvn.github.io/depictions/BigShot.html","openExternal":false},
+"useSpacing":"true",;};
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Tham gia nhóm "
+},
+{
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - Join Telegram\n\n\n",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Thông tin"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Tác giả",
+"text":"Jonathan Winger-lang"
+},
+{ 
+"class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1" },
+{
+"class":"DepictionTableTextView",
+"title":"Thể loại",
+"text":"Tweak"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Ngày tải lên",
+"text":"27/8/2025"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"#### Hỗ trợ Roothide Jailbreak."
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}

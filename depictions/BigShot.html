@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigShot - JTISVN Repo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #1c1c1e;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .header-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        .tab-container {
+            background-color: #2c2c2e;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 1px solid #444;
+            background-color: #38383a;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+
+        .tab-button {
+            flex-grow: 1;
+            text-align: center;
+            padding: 15px 0;
+            cursor: pointer;
+            background-color: transparent;
+            border: none;
+            font-size: 16px;
+            font-weight: 500;
+            color: #aaa;
+            position: relative;
+            transition: color 0.3s;
+        }
+
+        .tab-button.active {
+            color: #5777B8;
+        }
+
+        .tab-button.active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: #5777B8;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 20px;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .section-header {
+            font-size: 18px;
+            font-weight: 600;
+            color: #5777B8;
+            margin: 15px 0 10px;
+        }
+
+        .markdown-content ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .markdown-content ul li {
+            margin-bottom: 5px;
+        }
+
+        .markdown-content a {
+            color: #79a1f2;
+            text-decoration: none;
+        }
+
+        .markdown-content a:hover {
+            text-decoration: underline;
+        }
+
+        .screenshots-container {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+            padding: 10px 0;
+            -webkit-overflow-scrolling: touch;
+            justify-content: center;
+        }
+
+        .screenshot-item {
+            flex: 0 0 auto;
+            width: 280px; /* Chiều rộng được tăng lên */
+            height: auto;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .screenshot-item img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        .spacer {
+            height: 10px;
+        }
+
+        .table-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+            background-color: #444;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .table-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 15px;
+            background-color: #2c2c2e;
+        }
+
+        .table-row:first-child {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .table-row:last-child {
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+
+        .table-title {
+            font-weight: 500;
+            color: #f0f0f0;
+        }
+
+        .table-text {
+            color: #ccc;
+            text-align: right;
+        }
+
+        .table-button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background-color: #2c2c2e;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #f0f0f0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .table-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .table-button i {
+            color: #5777B8;
+        }
+
+        .copyright-label {
+            text-align: center;
+            color: #777;
+            font-size: 10px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .tabs {
+                flex-direction: column;
+            }
+
+            .tab-button {
+                border-bottom: 1px solid #444;
+            }
+
+            .tab-button:last-child {
+                border-bottom: none;
+            }
+
+            .tab-button.active::after {
+                content: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <img src="https://jtisvn.github.io/coverimage/jtisvnrepo.png" alt="Header Image" class="header-image">
+    </header>
+
+    <main class="container">
+        <div class="tab-container">
+            <div class="tabs">
+                <button class="tab-button active" onclick="openTab(event, 'chi-tiet')">Chi tiết</button>
+                <button class="tab-button" onclick="openTab(event, 'nhat-ky')">Nhật ký thay đổi</button>
+                <button class="tab-button" onclick="openTab(event, 'lien-he')">L.Hệ & Hỗ trợ</button>
+            </div>
+
+            <div id="chi-tiet" class="tab-content active">
+                <div class="section-header">Mô tả & Giới thiệu</div>
+                <div class="section-content markdown-content">
+                    <p>BigShot</p>
+                    <ul>
+                        <li>Trình chụp ảnh mànhhinhf kéo dài dưới dạng plugin của Snapper 3 qua Mô-đun Trung tâm điều khiển trên thiết bị chả bạn..</li>
+                    </ul>
+                </div>
+                <div class="section-header">Hình ảnh</div>
+                <div class="screenshots-container">
+                    <div class="screenshot-item">
+                        <img src="https://jtisvn.github.io/infodeb/BigShot/Screenshots/1.png" alt="Screenshot 1">
+                    </div>
+                </div>
+                <div class="spacer"></div>
+                <div class="section-header">Tham gia nhóm</div>
+                <div class="section-content markdown-content">
+                    <p><a href="https://t.me/jailbreaktrolliossupport" target="_blank"><strong>Telegram</strong></a> - 24/7</p>
+                </div>
+                <div class="spacer"></div>
+                <div class="section-header">Thông tin</div>
+                <div class="table-container">
+                    <div class="table-row">
+                        <div class="table-title">Tác giả</div>
+                        <div class="table-text">Jonathan Winger-lang</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-title">Phiên bản</div>
+                        <div class="table-text">1.1</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-title">Thể loại</div>
+                        <div class="table-text">Tweak</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-title">Ngày tải lên</div>
+                        <div class="table-text">27/8/2025</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-title">Khả năng tương thích</div>
+                        <div class="table-text">iOS 14.0 đến 16.7.10</div>
+                    </div>
+                </div>
+                <div class="copyright-label">
+                    Copyright © 2025 by JTISVN
+                </div>
+            </div>
+
+            <div id="nhat-ky" class="tab-content">
+                <div class="section-content markdown-content">
+                    <h3>Hỗ trợ Roothide Jailbreak</h3>
+                </div>
+            </div>
+
+            <div id="lien-he" class="tab-content">
+                <a href="https://paypal.me/HiuKitsudo" target="_blank" class="table-button">
+                    <div class="table-title">Paypal</div>
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="https://jtisvn.github.io/donate/donate.html" target="_blank" class="table-button">
+                    <div class="table-title">Mua cho tôi một ly cà phê</div>
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="https://t.me/jailbreaktrolliossupport" target="_blank" class="table-button">
+                    <div class="table-title">Nhóm Telegram</div>
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+                <div class="copyright-label">
+                    Copyright © 2025 by JTISVN
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabContent, tabButton;
+            tabContent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabContent.length; i++) {
+                tabContent[i].style.display = "none";
+            }
+            tabButton = document.getElementsByClassName("tab-button");
+            for (i = 0; i < tabButton.length; i++) {
+                tabButton[i].className = tabButton[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector(".tab-button").click();
+        });
+    </script>
+
+</body>
+</html>
