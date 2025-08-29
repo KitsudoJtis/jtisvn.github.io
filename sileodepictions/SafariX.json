@@ -69,7 +69,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"27/8/2025"
+"text":"29/8/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -91,7 +91,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.9.9.1\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.9.9.1\n\n- Sửa lỗi\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
