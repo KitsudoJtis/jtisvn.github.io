@@ -100,11 +100,11 @@ Maintainer: 0xkuj
 Installed-Size: 928
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
 Filename: ./debs/com.0xkuj.safarix_1.9.9.1_iphoneos-arm64.deb
-Size: 317272
-MD5sum: 2b34a89d9516ce98ed83baa9e0607d83
-SHA1: b52cf19fdc3b3a0c431ebd5ebd851fda16abacee
-SHA256: de46ee67c1458d49bff0c8f10be5ba80eef4433da402aff728f24431ec3e1c1c
-SHA512: bd63c4634751071d753d446bb201d203ec6279da97393bacc93317d5ff8ee31b938943deff4a39ecf860a19fdddec812a8f1c821523025a459f3148125c247cb
+Size: 235260
+MD5sum: 524830da1878b90df457bd581947ec0c
+SHA1: a3bb8f9fbcda7ef111c415bcfd47c3c4d13a1126
+SHA256: 8652e2ec94022bceac10bcfde0d3e32f8862a84bce533d47c6a6d3a15a37624a
+SHA512: e0093c333b9df9d2397144a0e96170684935b80cbbf3983e61859ce8971b229bbc03d98394366e7af27968c2e1f5bc81f96908a39539edb461f16e3d5aa05d70
 Description: Nâng tầm trải nghiệm Safari của bạn với các tính năng hữu ích.
 Name: SafariX (Rootless)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariX.json
@@ -120,11 +120,11 @@ Installed-Size: 928
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
 Filename: ./debs/com.0xkuj.safarix_1.9.9.1_iphoneos-arm64e.deb
-Size: 314528
-MD5sum: 8405bc98d0b86cefebcd908f3a54c3bd
-SHA1: f2fc9136ce986b35515b0cbf2d982faf8a0cc5fa
-SHA256: 1f7ba4281a926f10c4052200bd9b25054a4d7ac6bd9eea1e60c8aae389ef83f2
-SHA512: f3b8d10bc8f36bbd899246839608729d471fde30537df7af627dc93ab1937b504840c17c643f11e2f1bb44c0fb0a625b0d85d1dfab511e185f0fd95fb95e3baf
+Size: 235100
+MD5sum: da107287de8a769a69497fd21bda50dc
+SHA1: 21648a333107fcfdd1bf438cb4c164d2a5a9f4a2
+SHA256: 661e0cf196f04b85a1c73d6596591e8b5acfb92890cd5d93017e21d4bc495252
+SHA512: c32cf2bc08090a9aedd2406d6240a03004a6da54b1889b590f649b7f8a33a2a6774e61563328b927b9ee98a03fc694f2b14cceb96b231b5091c0599bde17a27b
 Description: Nâng tầm trải nghiệm Safari của bạn với các tính năng hữu ích.
 Name: Safari X (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariX.json
