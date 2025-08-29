@@ -382,16 +382,16 @@ Installed-Size: 5520
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.SwitchLine_1.0.0_iphoneos-arm64e.deb
-Size: 47296
-MD5sum: 859638d20657e400554af2a24cbe1d67
-SHA1: cb1640445ca96cde4bad1249acb28a6b0d6fe5d9
-SHA256: 9e6f11aea699fe44a297f032d5ad9f78e5429c1d10a41b2aecb9193f3c9ad774
-SHA512: 86ac77beab0b8f6f0d898e9cd9acd9ed466b3461fc5c1dff6b1a602ae6a68d0d0815df6ee292aae8b5de40ef6d96cd891b63c86fb8e41e2b2cd34617f9d4761a
+Size: 47300
+MD5sum: 24f1aefe59f7727ee99d9e5c38f7c899
+SHA1: dcf00fbe199630703f1076b4324e08cc84316295
+SHA256: f0da79a3cd9878e4c3d8a9ec6184940b26bd7c12c615cd9b58d317b1538d3b18
+SHA512: 8b44035f5b57fa0716f4947914f8306ae32a108b869414679233d06243b0db504ddd6083ec7bbca723d364e728dedccd4646c365524f0498251adc7cf370c209
 Description: Thay đổi phong cách hoạt ảnh cho nút công tắc.
 Name: SwitchTheme-Line (Roothide)
 Author: 白衣
 Icon: https://jtisvn.github.io/sectionIcons/SwitchLine.png
-Sileodepiction: https://jtisvn.github.io/sileodepictions/SwitchLine.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SwitchLine.json
 
 Package: com.jtis.adguardPro-r2
 Architecture: iphoneos-arm64
