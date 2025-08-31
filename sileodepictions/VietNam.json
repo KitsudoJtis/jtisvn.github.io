@@ -76,7 +76,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### nHỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"#### Phiên bản 1.0\n\n- Phát hành đầu tiên\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
