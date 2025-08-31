@@ -3376,6 +3376,45 @@ Icon: https://jtisvn.github.io/sectionIcons/VisibleIsland.png
 Tags: compatible_min::ios16.0, compatible_max::ios16.6.1
 Author: ethxnn88 <ethxnn88@gmail.com>
 
+Package: com.jtis.vitreux
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 6112
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0)
+Filename: ./debs/com.jtis.vitreux_1.0_iphoneos-arm64.deb
+Size: 5587872
+MD5sum: 2512dbf52026d8f70a64d4bc18a8a8c7
+SHA1: 173b41dc850d656fee8db9d4a73652b14c461b41
+SHA256: a6cf0e95adf3a25d67b2ae9a3e62dd264547466fe9f730102245bb82072746e7
+SHA512: 34157d03b64dd7955de60c197515042de314f730e0b39742993478e78a82e83861226cad748de056f3102b42cfdbc28e3b369215b972ae5679ed262868882e86
+Description: A recreation of Liquid Glass
+Name: Vitreux (Rootless)
+Author: MTAC
+Icon: https://jtisvn.github.io/sectionIcons/Vitreux.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Vitreux.json
+
+Package: com.jtis.vitreux
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 6112
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0)
+Filename: ./debs/com.jtis.vitreux_1.0_iphoneos-arm64e.deb
+Size: 5587488
+MD5sum: d048c4cef336d2369fca507e73acfa85
+SHA1: 2b8128e670bc03548fec598a4825d3e27fd0811f
+SHA256: 129a3dfbc9da241c66ea27d05f9187c1b5ffbf9e9a0830561bd3e29085ed2ed6
+SHA512: 45c936963f65d70fcb37199f29f2ee7e2719dcc48936e29a39cbad0ee78cd9d52dec0c6bc0e6022c69040b0c81987a550ab83303032aa950020b590658efd460
+Description: A recreation of Liquid Glass
+Name: Vitreux (Roothide)
+Author: MTAC
+Icon: https://jtisvn.github.io/sectionIcons/Vitreux.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Vitreux.json
+
 Package: com.jtis.vizagevh
 Architecture: iphoneos-arm64
 Version: 1.0.2

@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Vitreux\n\n- Một tinh chỉnh giúp thay đổi giao điện IPhone của bạn theo phong cách giống IOS26 Liquid Glass với chức năng tuỳ chỉnh ở 1 số vị trí như:\n\n Màn hình khoá\n\n- Màn hình chính\n\n- Thư viện\n\n- Thông báo\n\n- Spotlight\n\n- Tuỳ chỉnh độ mờ và 1 số chức năng khác nữa...\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết hơn.\n\n",
+"markdown":" Vitreux\n\n- Một tinh chỉnh giúp thay đổi giao điện IPhone của bạn theo phong cách giống IOS26 Liquid Glass với chức năng tuỳ chỉnh ở 1 số vị trí như:\n\n- Màn hình khoá\n\n- Màn hình chính\n\n- Hiệu ứng Thông báo\n\n- Hiệu ứng Thư viện ứng dụng\n\n- Hiệu ứng Spotlight\n\n- Tuỳ chỉnh độ mờ và 1 số chức năng khác nữa...\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết hơn.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -103,7 +103,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0\n\n- Bản phát hành đầu tiên\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.0\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Bản phát hành đầu tiên\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
