@@ -242,14 +242,14 @@ Depends: mobilesubstrate, firmware (>= 16.0), ws.hbang.alderis
 Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane, com.bvn.sugarcane
 Filename: ./debs/com.jtis.CCbonder16_1.1.8_iphoneos-arm64.deb
 Size: 40148
-MD5sum: c4fda2b57c49c3baf015cd3f3fa391fd
-SHA1: 8c5deda49581dda0d56b567eaaa7fb2af3a22e98
-SHA256: f8d3000c93af7116d7eb24c42c3467b18f35d1a3bfc5f284f722a8d035466d2a
-SHA512: 4a778c1fcaab0bf0199a8f490479a75ac385c46ea2b02ee8f9a41e485dc321a005b485d857611885974fef59a5d93a893370a762c986a37f4384eb832e2bacfc
+MD5sum: 4e3a3f92beba0f74f8641d09874d45cc
+SHA1: 19012f6257ccd5af38b36b452ef0f1329a509c9c
+SHA256: a2a12b8977137cb5fa299d66bf12570f283c6e646652b2a84c75f84a7ef7c71d
+SHA512: 7616c4ec7fb9fa93dc705dccaafeff55bf1fdbcdfe129df652a66b9105527be1b8c249fd13231b7889785ae299da651d480c7279cc5cc37df7e8df50570a4f47
 Description: Tuỳ chỉnh Trung tâm điều khiển theo kiểu của IOS 18 xuống cho các thiết bị IOS thấp hơm.
 Name: CCBorder16 (Rootless)
 Author: fiore & p2kdev & 妖刀
-SileoDepiction: SileoDepiction: https://jtisvn.github.io/sileodepictions/CCbonder16.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCbonder16.json
 Icon: https://jtisvn.github.io/sectionIcons/CCbonder.png
 
 Package: com.jtis.CCbonder16
@@ -263,14 +263,14 @@ Depends: mobilesubstrate, firmware (>= 16.0), ws.hbang.alderis
 Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane, com.bvn.sugarcane
 Filename: ./debs/com.jtis.CCbonder16_1.1.8_iphoneos-arm64e.deb
 Size: 39400
-MD5sum: cea40ed79bb79ee1a5e981c211cdf853
-SHA1: cdcee80f7d2e5e42af21e37333ef10a14330b7d7
-SHA256: b6e153e151d6ab4af52b7806fcdc09e838416b135b3a9ca93310c9f99d1c1fc2
-SHA512: 63d16a05f8163fb942ea66b3ab4709dfd84be2a11831cea8437194e64a3f4cd55d0b80608db681f8980188908a363a548fd83e425d322e134e7248e462e50788
+MD5sum: ab8d754ddc8426b237391da536d104dc
+SHA1: 5f501a4e32f872da4673bf14b94d7fe9e559cb6f
+SHA256: 73d39e03aa4f6311f7f50a8ca8dcea525330e0848d1b1ceb0f894df664aae068
+SHA512: 6ea6946cfd32a09a3c564a4ee4fc3e77a53991344386fe8c2a1a2edf8544f8ff8f3b7560d8d7a42f0f23e8abb8c9041fbf14e9ff5799baad3cf09f6303859a13
 Description: Tuỳ chỉnh Trung tâm điều khiển theo kiểu của IOS 18 xuống cho các thiết bị IOS thấp hơm.
 Name: CCBorder16 (Roothide)
 Author: fiore & p2kdev & 妖刀
-SileoDepiction: SileoDepiction: https://jtisvn.github.io/sileodepictions/CCbonder16.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCbonder16.json
 Icon: https://jtisvn.github.io/sectionIcons/CCbonder.png
 
 Package: com.jtis.Cartoo
