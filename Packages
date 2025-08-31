@@ -1994,6 +1994,25 @@ Name: Hammer It
 Author: SquidForce
 Icon: file:///Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 
+Package: com.jtis.hidepullover
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.hidepullover_0.0.1_iphoneos-arm64e.deb
+Size: 4440
+MD5sum: 9beb8d182558f274c6f81c5090bbeb07
+SHA1: 4de86dfb982d3361f1d66cf192b10527d654b54f
+SHA256: 060468c4b3e0766e8d2e0a0aeb5ec4f411b1c2d55616e8ef472a413d88556025
+SHA512: 7d6a4c67257797c78eb4b47faf6b46c41c5064da713116077266e6a1613e7b934596f513515bdd887ebcda05f193b760e04f4946bfd31741c887c8b62f4c77d8
+Description: Ẩn PullOver Pro khi chụp màn hình hoặc khi không sử dụng đến nó.
+Name: HidePullOverPro (Roothide)
+Author: SquidForce
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.hkmodule.substrate
 Architecture: iphoneos-arm64
 Version: 1.0.8
@@ -3394,6 +3413,27 @@ Name: Zaire (Roothide)
 Author: Luki
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/Zaire.json
 
+Package: com.jtisvn.settingsrevamp
+Architecture: iphoneos-arm64e
+Version: 3.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 888
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader, com.sop.settingsrevamp
+Filename: ./debs/com.jtisvn.settingsrevamp_3.0.1_iphoneos-arm64e.deb
+Size: 204124
+MD5sum: 97ae1d0fe1f816463186262fa4463598
+SHA1: 45772f48c95e1b84c72baa875bafeca78b69681d
+SHA256: 1643fa29787b9eb19978db7dcabb245637fded23e38ec2062c153fa4976f0826
+SHA512: d64fd43f81eb2a845ea9f435dfcd726e4c4489a125d70985dce4057e2472668097228162a4bfd9336ba711a54d4ce6029ed0d1864ac59539916af285cda2452a
+Description: Phan chia các mục cài đặt trên thiết bị IOS của ban.
+Name: SettingsRevamp (Roothide)
+Author: SOPPPra
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsRevamp.json
+Icon: https://jtisvn.github.io/sectionIcons/SettingsRevamp.png
+
 Package: com.kitsudo.axom
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -3631,25 +3671,6 @@ SHA256: 87407a13833c54770ef2ba6c23a4964b172397fbef815e9914b211244a9d6db8
 SHA512: ec346544632b56d673ed58ca7e4c1b33fcfd51ea755b4f062d14ea24265ec45be68593469deda6009a5dced0ad3f40e9f5aa7151f8a77529027b852ec16c4372
 Description: Patch Tiếng Việt cho tweak SettingsRevamp
 Name: SettingsRevamp gói Việt Hoá (Rootless)
-Author: Jtis Repo
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.settingsrevamp
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Gói
-Maintainer: JTIS Repo
-Installed-Size: 36568
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/com.kitsudo.settingsrevamp_1.0_iphoneos-arm64e.deb
-Size: 3376
-MD5sum: 08a64c536165fc847b56b0dcf5895b8d
-SHA1: af4b65a3fea99d4840e0689bea444fe7ab26e2f5
-SHA256: 75fe5f6b87d01f7f128a2df0d1ae22d8097e9f6e537f1316ceb6a7a03e28fbf3
-SHA512: ad80984bdd6cd83224fb1f189d6b6a15ce7d5fd6313e88a61c4d3278b15b5d53cb665621e85ad11b55d8518340c7e2e355b23577d428e6ca291fdfa4202d01df
-Description: Thêm ngôn ngữ Tiếng Việt cho tweak Settingsrevamp
-Name: SettingsRevamp Gói Việt Hoá (Roothide)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
