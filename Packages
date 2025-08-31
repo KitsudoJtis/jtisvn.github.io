@@ -232,6 +232,47 @@ Icon: https://jtisvn.github.io/sectionIcons/Atria.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Attia.json
 Depiction: https://chariz.com/get/atria
 
+Package: com.jtis.CCbonder16
+Architecture: iphoneos-arm64
+Version: 1.1.8
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 448
+Depends: mobilesubstrate, firmware (>= 16.0), ws.hbang.alderis
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane, com.bvn.sugarcane
+Filename: ./debs/com.jtis.CCbonder16_1.1.8_iphoneos-arm64.deb
+Size: 40148
+MD5sum: c4fda2b57c49c3baf015cd3f3fa391fd
+SHA1: 8c5deda49581dda0d56b567eaaa7fb2af3a22e98
+SHA256: f8d3000c93af7116d7eb24c42c3467b18f35d1a3bfc5f284f722a8d035466d2a
+SHA512: 4a778c1fcaab0bf0199a8f490479a75ac385c46ea2b02ee8f9a41e485dc321a005b485d857611885974fef59a5d93a893370a762c986a37f4384eb832e2bacfc
+Description: Tuỳ chỉnh Trung tâm điều khiển theo kiểu của IOS 18 xuống cho các thiết bị IOS thấp hơm.
+Name: CCBorder16 (Rootless)
+Author: fiore & p2kdev & 妖刀
+SileoDepiction: SileoDepiction: https://jtisvn.github.io/sileodepictions/CCbonder16.json
+Icon: https://jtisvn.github.io/sectionIcons/CCbonder.png
+
+Package: com.jtis.CCbonder16
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 448
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0), ws.hbang.alderis
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane, com.bvn.sugarcane
+Filename: ./debs/com.jtis.CCbonder16_1.1.8_iphoneos-arm64e.deb
+Size: 39400
+MD5sum: cea40ed79bb79ee1a5e981c211cdf853
+SHA1: cdcee80f7d2e5e42af21e37333ef10a14330b7d7
+SHA256: b6e153e151d6ab4af52b7806fcdc09e838416b135b3a9ca93310c9f99d1c1fc2
+SHA512: 63d16a05f8163fb942ea66b3ab4709dfd84be2a11831cea8437194e64a3f4cd55d0b80608db681f8980188908a363a548fd83e425d322e134e7248e462e50788
+Description: Tuỳ chỉnh Trung tâm điều khiển theo kiểu của IOS 18 xuống cho các thiết bị IOS thấp hơm.
+Name: CCBorder16 (Roothide)
+Author: fiore & p2kdev & 妖刀
+SileoDepiction: SileoDepiction: https://jtisvn.github.io/sileodepictions/CCbonder16.json
+Icon: https://jtisvn.github.io/sectionIcons/CCbonder.png
+
 Package: com.jtis.Cartoo
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -1270,6 +1311,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
 Name: CC26 (Roothide)
 Author: therealhoodboy
 Icon: https://jtisvn.github.io/sectionIcons/CC26.png
+
+Package: com.jtis.ccborder
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.jtis.ccborder_1.0_iphoneos-arm64e.deb
+Size: 5936
+MD5sum: 73784dcc6e90ec9557dcd7ee31b5ffa8
+SHA1: 57d92144e0311028b48649b506693bac6183814c
+SHA256: fe66f9f8c45aa93d3d78924b5b825f0a12b1610e076b55db43abe27568a433ca
+SHA512: 12ea466de685ece37aa634dbed8f8189d5cbcc5e45874fbbde8714c519b9691252f373bbaaf1279bfef69629ed742bd28c23bb28c08b13978e7ffd329c96877b
+Description: Simple tweak that removes module background and adds a border, just like CoolCC!
+Name: CCBorder (Roothide)
+Author: fiore
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCbonder.json
+Icon: https://jtisvn.github.io/sectionIcons/CCbonder.png
 
 Package: com.jtis.clockfont
 Architecture: iphoneos-arm64
