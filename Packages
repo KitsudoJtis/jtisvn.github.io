@@ -3395,6 +3395,43 @@ Name: Velvet 2 (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Velvet2.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Velvet2.json
 
+Package: com.jtis.vietnam2-9
+Architecture: iphoneos-arm64
+Version: 0.1
+Section: Laetus Themes
+Maintainer: JTIS Repo
+Installed-Size: 7344
+Filename: ./debs/com.jtis.vietnam2-9_0.1_iphoneos-arm64.deb
+Size: 9741024
+MD5sum: bea285a24c7db2929a5d565103394dbd
+SHA1: a1eb89518c9084eb35782bab13eea30ba7b0075a
+SHA256: 7054e75d302f351ea81c8932a6e9a68cc693c96e123c17f0adbd139a88391ce6
+SHA512: 9ef0282a676e14cb6967cb612f2074e80d4bac7ba4d00a31439791f9077cc6ab0a1f52c65d28ac21b07dbf44f0c628207f35bc3a9bbcb26b9bcc8521cc84ae95
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Chủ đề VietNam 2-9
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VietNam.json
+Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+
+Package: com.jtis.vietnam2-9
+Architecture: iphoneos-arm64e
+Version: 0.1
+Section: Laetus Themes
+Maintainer: JTIS Repo
+Installed-Size: 7344
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.vietnam2-9_0.1_iphoneos-arm64e.deb
+Size: 9741072
+MD5sum: 32f57291a26827b6e2d3800be3c4788d
+SHA1: 9ba5a76500aa68baaf37ec73bb23adef8d4154a9
+SHA256: 48584690869f2b23a15446cc79b7d15889a3d8fd538a285fd1b661e89eb67ad0
+SHA512: 24798c9d127e55ecb21d2a6cf1385ce96f735e1737199b9009ebeb686af7485341e02773213b25197ba378c7d4117b92800af4a19dd5769fc7e6129112de5c00
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Chủ đề VietNam 2-9
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VietNam.json
+Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+
 Package: com.jtis.visibleisland
 Architecture: iphoneos-arm64
 Version: 2.0
