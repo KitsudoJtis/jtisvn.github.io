@@ -3414,6 +3414,26 @@ Author: Luki
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/Zaire.json
 
 Package: com.jtisvn.settingsrevamp
+Architecture: iphoneos-arm64
+Version: 3.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 888
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader, com.sop.settingsrevamp
+Filename: ./debs/com.jtisvn.settingsrevamp_3.0.1_iphoneos-arm64.deb
+Size: 208172
+MD5sum: 17316cfcb25c9efbe72a29d137ec419d
+SHA1: c63833e1c0bab872cc9219ed4f62549b1c667fb1
+SHA256: c40c796a8def50f56a8caef42a5406dd5cabb65a84baccc1a6edc1e967717290
+SHA512: d16dc5bc0a99fa83bbc7aa9c0a469d10a7c316b30f96d58d99ca3a8eb6b9e45f29a14c2e2f753eb9320fc929de01dfa06c76c59cd2aafc3908d9d806ea659b0f
+Description: Phan chia các mục cài đặt trên thiết bị IOS của ban.
+Name: SettingsRevamp (Rootless)
+Author: SOPPPra
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsRevamp.json
+Icon: https://jtisvn.github.io/sectionIcons/SettingsRevamp.png
+
+Package: com.jtisvn.settingsrevamp
 Architecture: iphoneos-arm64e
 Version: 3.0.1
 Section: Tweaks
@@ -3653,24 +3673,6 @@ SHA256: 688db4d85bf158fa477d91ffd4e828f39c434894b3fcd94f9a2b98e4d21853be
 SHA512: 31a97999b08823c261a08da1274cc8a057399ecde572548f9fff5fb29adb536918b881417e0b53780d3030870edfc125e79570f9dda31a94a242782a25e6a014
 Description: Thêm ngôn ngữ Tiếng Việt cho tweak PullOverPro
 Name: PullOver Pro Gói Việt Hoá (Roothide)
-Author: Jtis Repo
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.settingsrevamp
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Gói
-Maintainer: JTIS Repo
-Installed-Size: 36568
-Depends: mobilesubstrate
-Filename: ./debs/com.kitsudo.settingsrevamp_1.0_iphoneos-arm64.deb
-Size: 2740
-MD5sum: 74c49a43578b8221d66cbecb85069bc7
-SHA1: be508539b98ad72a945986e9ff65536fa6485839
-SHA256: 87407a13833c54770ef2ba6c23a4964b172397fbef815e9914b211244a9d6db8
-SHA512: ec346544632b56d673ed58ca7e4c1b33fcfd51ea755b4f062d14ea24265ec45be68593469deda6009a5dced0ad3f40e9f5aa7151f8a77529027b852ec16c4372
-Description: Patch Tiếng Việt cho tweak SettingsRevamp
-Name: SettingsRevamp gói Việt Hoá (Rootless)
 Author: Jtis Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
