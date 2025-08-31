@@ -1,6 +1,6 @@
 {
 "minVersion":"0.4",
-"headerImage":"https://jtisvn.github.io/coverimage/VietNam2-9.png",
+"headerImage":"https://jtisvn.github.io/coverimage/OpertationMeteor.png",
 "tintColor":"#5777B8",
 "tabs":[
 {
@@ -10,7 +10,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/VietNam/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/OpertationMeteor/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -44,7 +44,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"Kitsudo"
+"text":"Polyphian"
 },
 {
 "class":"DepictionTableTextView",
@@ -54,7 +54,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"2/9/2025"
+"text":"1/9/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -76,7 +76,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### Phiên bản 1.0\n\n- Phát hành đầu tiên\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"#### Hỗ trợ Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
