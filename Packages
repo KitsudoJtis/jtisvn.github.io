@@ -2850,6 +2850,25 @@ Name: Shadow (Rootless)
 Author: jjolano
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Shadow.json
 
+Package: com.jtis.shadowbuster
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.shadowbuster_1.0_iphoneos-arm64e.deb
+Size: 2660
+MD5sum: 308812f4def20c0d74034fd305e930ce
+SHA1: 333a29c38f208f41d2303c4f45344b7292b2c967
+SHA256: 7f359116a37ab6623ed1ff867866775193bc59b05ec71c0193de6502ada795ba
+SHA512: 9d1b7644f09b815701734e6ff518f205bc6d3bc47a4d88b781334edb36d06e26b39a89c75dbb1c1cb4e8c7465ddfd6b35225bed41ba3bcd72a9ca6c7b86d044c
+Description: Xoá bỏ đồ bóng tên ứng dụng trên màn hình chính.
+Name: ShadowBuster (Roothide)
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: Lizynz <lizynz@ya.ru>
+
 Package: com.jtis.shuffle-rootless
 Architecture: iphoneos-arm64
 Version: 1.6.2
