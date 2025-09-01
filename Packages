@@ -817,16 +817,16 @@ Maintainer: JTIS Repo
 Installed-Size: 176
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.blur_1.0-8+debug_iphoneos-arm64.deb
-Size: 10468
-MD5sum: 129fb8a8f5ccb4e35538e96ed67fc9e5
-SHA1: 5a8c47100bec56412ecd4fdb59d20afed6671b8a
-SHA256: a04e2d713db04fa46745a1f1635d89b95a9679fff91aa62186adaf16080f90b2
-SHA512: 5220cb89f1347739788c37011e7693370109532fdcd454341a145cca41a90ed4709d9a830c4b0bf25ea5939a8a2783fbd4cf80e84fc9d6e48534ebdd5eb80994
+Size: 10464
+MD5sum: b9cf699d20d26726cb395c02ae12ad58
+SHA1: 032e6353086ca812dc438fcbdf3e4fb7c8d862aa
+SHA256: 068b1ad84ea4912235da3a4b695f06d5092002be2c84759e324011731e5eac6d
+SHA512: 3363f4069520d540e6707f6c2a26cc8b46a8c67952aed9f26185b86ce4ecadfade01ee9f41a645ae1dac24b62af4181be0b431480f9000e9bac02ce4925cc0dd
 Description: Khoá ảnh và video riêng thư bằng FaceID,TouchID và Passcode
 Name: Blurify6 (Rootless)
 Author: MrDeNsor
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Blurify6.json
-Icon: https://jtisvn/jtisvn.github.io/features/Blurify.png
+Icon: https://jtisvn.github.io/sectionIcons/Blurify.png
 
 Package: com.jtis.blur
 Architecture: iphoneos-arm64e
@@ -837,15 +837,16 @@ Installed-Size: 176
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.blur_1.0-8+debug_iphoneos-arm64e.deb
-Size: 11412
-MD5sum: 2f4722dc44d7d41cf4320be458ea411e
-SHA1: 3ce724a0125c522e98ccc9e9efd2e90a9e8b5ea3
-SHA256: 33682bb7d2037169655cfe7c97e7e4ffdd3c13c58a13502ace2fddd9a88c80fe
-SHA512: c6eafcfd2856dd55319ce6ab28e9f3065a4e3131909d83f98de660f93099734953a815baf1a0cfc1968c87ff516d8565f0bc62417f12e5b30d7eef67bec816c0
+Size: 10172
+MD5sum: f16f595b1d3b67196afd72f5af1a042a
+SHA1: 86cd783cbe0f8cd2565adc797e965ce20c185e7a
+SHA256: 312a562a651917a4a85eabd49c6a25feed3fdb1be92d47ea630e256dafc21a0e
+SHA512: c47c80ec8c86284ed11f95ef12c9f2b007ab1143e1bae4a58c5d65a93d26f0b8e94709050d8308cccfa7691ff8d66cee68b285ebda29e9f61aeaa0149e60944c
 Description: Khoá ảnh và video riêng thư bằng FaceID,TouchID và Passcode
 Name: Blurify6 (Roothide)
 Author: MrDeNsor
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Blurify6.json
+Icon: https://jtisvn.github.io/sectionIcons/Blurify.png
 
 Package: com.jtis.byehomebottombarx
 Architecture: iphoneos-arm64
