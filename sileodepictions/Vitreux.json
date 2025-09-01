@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Vitreux\n\n- Một tinh chỉnh giúp thay đổi giao điện IPhone của bạn theo phong cách Liquid Glass IOS26 với chức năng tuỳ chỉnh độ mờ và trong suốt như:\n\n- Màn hình khoá\n\n- Màn hình chính\n\n- Hiệu ứng Thông báo\n\n- Hiệu ứng Widgets\n\n- Hiệu ứng Thu mục\n\n- Hiệu ứng thanh Dock\n\n- Hiệu ứng Thư viện\n\n- Hiệu ứng Spotlight\n\n- Và một số chức năng khác.\n\n- Lưu ý: Chỉ hỗ trợ cho IOS 16 trở lên.\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết",
+"markdown":" Vitreux\n\n- Một tinh chỉnh giúp thay đổi giao điện IPhone của bạn theo phong cách Liquid Glass IOS26 với chức năng tuỳ chỉnh độ mờ và trong suốt như:\n\n- Màn hình khoá\n\n- Màn hình chính\n\n- Hiệu ứng Thông báo\n\n- Hiệu ứng Widgets\n\n- Hiệu ứng Thu mục\n\n- Hiệu ứng thanh Dock\n\n- Hiệu ứng Thư viện\n\n- Hiệu ứng Spotlight\n\n- Và một số chức năng khác.\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -72,7 +72,7 @@
 "title":"Tác giả",
 "text":"MTAC"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -81,12 +81,12 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"31/8/2025"
+"text":"1/8/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 16.x đến 17.x"
+"text":"iOS 15.x đến 17.x"
 },
 {
 "class":"DepictionLabelView",
@@ -103,7 +103,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Bản phát hành đầu tiên\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.1\n\n- Sửa lỗi bóng nháy ra khỏi giới hạn Âm lượng HUD và các nút trong Mô-đin Trung tâm điều khiển\n\n- Thêm hỗ trợ cho Mô-đun trung tâm điều khiển & thiết bị IOS 15.x\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"

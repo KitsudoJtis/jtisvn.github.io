@@ -3512,17 +3512,17 @@ Author: ethxnn88 <ethxnn88@gmail.com>
 
 Package: com.jtis.vitreux
 Architecture: iphoneos-arm64
-Version: 1.0
+Version: 1.1
 Section: Tweaks
 Maintainer: JTIS Repo
-Installed-Size: 6112
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0)
-Filename: ./debs/com.jtis.vitreux_1.0_iphoneos-arm64.deb
-Size: 5587872
-MD5sum: 2512dbf52026d8f70a64d4bc18a8a8c7
-SHA1: 173b41dc850d656fee8db9d4a73652b14c461b41
-SHA256: a6cf0e95adf3a25d67b2ae9a3e62dd264547466fe9f730102245bb82072746e7
-SHA512: 34157d03b64dd7955de60c197515042de314f730e0b39742993478e78a82e83861226cad748de056f3102b42cfdbc28e3b369215b972ae5679ed262868882e86
+Installed-Size: 6160
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.jtis.vitreux_1.1_iphoneos-arm64.deb
+Size: 5590828
+MD5sum: 6aba79c698b7073e06b5f769f87d777a
+SHA1: 57657d085c7355fba0558b2e2c0cc84390092b90
+SHA256: 2dd1d79c9caa6ee2da1789abbe9bf0351b013560b4bc511e7a28190161d8dc21
+SHA512: abb1a1d59b3d9b8c278623eaf31e80cd72b172e7042e9b09faba2dca949f1936aff6d5d48ecf346ed88ea32a50bdac3b9a5918c8716a1bdd6069d5df0ff7dd6d
 Description: A recreation of Liquid Glass
 Name: Vitreux (Rootless)
 Author: MTAC
@@ -3531,18 +3531,18 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Vitreux.json
 
 Package: com.jtis.vitreux
 Architecture: iphoneos-arm64e
-Version: 1.0
+Version: 1.1
 Section: Tweaks
 Maintainer: JTIS Repo
-Installed-Size: 6112
+Installed-Size: 6160
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0)
-Filename: ./debs/com.jtis.vitreux_1.0_iphoneos-arm64e.deb
-Size: 5587488
-MD5sum: d048c4cef336d2369fca507e73acfa85
-SHA1: 2b8128e670bc03548fec598a4825d3e27fd0811f
-SHA256: 129a3dfbc9da241c66ea27d05f9187c1b5ffbf9e9a0830561bd3e29085ed2ed6
-SHA512: 45c936963f65d70fcb37199f29f2ee7e2719dcc48936e29a39cbad0ee78cd9d52dec0c6bc0e6022c69040b0c81987a550ab83303032aa950020b590658efd460
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.jtis.vitreux_1.1_iphoneos-arm64e.deb
+Size: 5589832
+MD5sum: 7600764b1195353fad45582b5d59b7c8
+SHA1: 5b015b86fad47b59774c13662bfd39f4d504fb66
+SHA256: 1a093d3ffdf74e40045d30af46d4042d54cb08da7cf4d5f560d6f964fa8e4b38
+SHA512: 08ee68fc8d649a0d5bc9679746fa435e179f1eba869e0379c3455010880b3cddc398a8aa773a32ae1cb138d01600ceeaec9ad71ac85ea3885090ade70d1e2677
 Description: A recreation of Liquid Glass
 Name: Vitreux (Roothide)
 Author: MTAC
@@ -3604,6 +3604,26 @@ Description: Hiển thị số lượng ứng dụng đã tải về trong mục
 Name: Zaire (Roothide)
 Author: Luki
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/Zaire.json
+
+Package: com.jtisvn.laetus
+Architecture: iphoneos-arm64e
+Version: 3.5.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 1828
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
+Filename: ./debs/com.jtisvn.laetus_3.5.1_iphoneos-arm64e.deb
+Size: 835028
+MD5sum: d9057bc4e2c58f099d80475fc23594bf
+SHA1: 257bc8f13d0be4fd89bd85a254d237ec2915f5ef
+SHA256: 0e198ee34e0724c450aeef79611f598989b150ec1be152a2a5f0ab50a90ccd7f
+SHA512: 30bf7389fd002a44e64e84e176975596c3d5abd1fd4152403e3d9a85e4d596d6ef570168de848f1a7b1a171f8d7f010183d03be764161b046b1b3c5c731f25e9
+Description: Tuỳ chỉnh bàn phím vượt trội và đổi chủ đề da dạng (bản VIệt Hoá)
+Name: Laetus (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Laetus.json
+Icon: https://jtisvn.github.io/sectionIcons/Laetus.png
+Author: Spark
 
 Package: com.jtisvn.settingsrevamp
 Architecture: iphoneos-arm64
