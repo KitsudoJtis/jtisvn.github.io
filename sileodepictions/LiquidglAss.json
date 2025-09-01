@@ -40,7 +40,7 @@
 "title":"Tham gia nhóm"
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -103,7 +103,7 @@
 {
 "class":"DepictionTableButtonView",
 "title": "Mua cho tôi một ly cà phê",
-"action": "https://jtisvn.github.io/donate/donate.json"
+"action": "https://jtisvn.github.io/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
