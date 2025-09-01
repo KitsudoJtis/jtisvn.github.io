@@ -103,7 +103,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.1\n\n- Sửa lỗi bóng nháy ra khỏi giới hạn Âm lượng HUD và các nút trong Mô-đin Trung tâm điều khiển\n\n- Thêm hỗ trợ cho Mô-đun trung tâm điều khiển & thiết bị IOS 15.x\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.1\n\n- Sửa lỗi bóng nháy ra khỏi giới hạn Âm lượng HUD và các nút bên trong Mô-đin Trung tâm điều khiển\n\n- Thêm hỗ trợ cho Mô-đun trung tâm điều khiển & thiết bị IOS 15.x\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
