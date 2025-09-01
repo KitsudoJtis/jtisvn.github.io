@@ -396,6 +396,24 @@ Depiction: https://jtisvn.github.io/depictions/LiquidGlass.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
  Pre-Depends: rootless-compat(>= 0.9)
 
+Package: com.jtis.Opertation
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Laetus Themes
+Maintainer: JTIS Repo
+Installed-Size: 7344
+Filename: ./debs/com.jtis.Opertation_1.0.0_iphoneos-arm64.deb
+Size: 86312
+MD5sum: f59a7ff0f07aab6c070da2e3dcdd7957
+SHA1: 011ee7d4029d30ccc4c0a6f59d29253e4b98ba6b
+SHA256: 997f2e7cdc464743d8deaf1a50a3788c60eb88ad17f758ca0fab61695d82ed5a
+SHA512: 0e511700a0b454ebe26c550f9de1bdcf71e319da6e6466e9cbfe3c18ffae2c9a88ca8361e32355de237a0f21fffca82bb5622a0547de3a557797aa9e8325cf31
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Chủ đề COpertation Meteor
+Author: Polyphian
+SileoDepiction: https://jtisvn.github.io/sileodepictions/OpertationMeteor.json
+Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+
 Package: com.jtis.RingTonesManager
 Architecture: iphoneos-arm64
 Version: 1.1-4
@@ -2656,6 +2674,25 @@ Name: OneSettings (Roothide)
 Author: Nightwind
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Onesetings.json
 Icon: https://jtisvn.github.io/sectionIcons/Onesettings.png
+
+Package: com.jtis.Opertation
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Laetus Themes
+Maintainer: JTIS Repo
+Installed-Size: 7344
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.opertation_1.0.0_iphoneos-arm64e.deb
+Size: 92948
+MD5sum: 2660dbac87c3a1a6eb707f708885895d
+SHA1: c262ab2c63f45160c9cbef8df1daa182cd69c942
+SHA256: 21ea1f51fe438f83f611e6e00f48cac52b25127d7f6c8db986fb51b4139eab2f
+SHA512: 27113a52e1b178af2f3d3e5c9ce3450242b4e3c9a7b40619f700ac842061322ec8cd64dc03c1f6cb0322ce67ac282550f25a52ab4a077886eb0bd1d37bc96472
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Chủ đề COpertation Meteor
+Author: Polyphian
+SileoDepiction: https://jtisvn.github.io/sileodepictions/OpertationMeteor.json
+Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 
 Package: com.jtis.picsart
 Architecture: iphoneos-arm64
