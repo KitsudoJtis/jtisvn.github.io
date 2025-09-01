@@ -62,8 +62,18 @@
 "text":"iOS 14 đến 16.6.1"
 },
 {
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionTableButtonView",
+"title":"Liên hệ hỗ trợ",
+"action":"https://jtisvn.github.io/sileodepictions/Support.json",
+"openExternal":"true",
+"tintColor":"#5777B8"
+},
+{
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTISVN",
+"text":"Copyright © 2025 by Kitsudo - JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
@@ -76,11 +86,11 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### Bỏ chữ Kitsudo và làm nét hơn \n\nHỗ trợ Rootless Jailbreak."
+"markdown":"### Bỏ chữ Kitsudo và làm nét hơn \n\nHỗ trợ Rootless Jailbreak."
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTISVN",
+"text":"Copyright © 2025 by Kitsudo - JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
