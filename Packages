@@ -293,17 +293,17 @@ Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 Package: com.jtis.DepthsPD
 Architecture: iphoneos-arm64e
 Version: 0.1
-Section: Laetus Themes
+Section: Keyboard Themes
 Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: ./debs/com.jtis.DepthsPD_0.1_iphoneos-arm64e.deb
 Size: 33423636
-MD5sum: 929abfd4fce2c0d5c518ac6285270eb3
-SHA1: ce3781279cccde5549d02b9bfd3617b3f399fc03
-SHA256: 15e32c2f9c9ba51ba9709ceaa064d1ecd0b16708d05896a88c1cdae67ff05f40
-SHA512: 2c6760b2be7e0b73012a2f6a4796ca2ab1114c8cdb0372954a3865d8bd4562eb140c0d64327bcccef3972f49805ccbbf06fcd0c5d5dd8d6d1f78728dc431f9bf
+MD5sum: 16026fe48e8fc7efb9b3451b356a3dd2
+SHA1: 7b1f39b408805302f7df0ca90b4cb61843f8e06d
+SHA256: db3239bc2983cdfb912b69b70c927699fef1ea60e813d11f4af7993d6332e29e
+SHA512: 9150cfc1cc1481192bf7499fe7a205517aeece011e339d3b159d0aff6560b2654e91ab8036d9d03d2893cd681e6caf51706891c0539d77be68a991fd62944caa
 Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Chủ đề Depths PD
+Name: Depths PD
 Author: Polyphian
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
@@ -327,17 +327,36 @@ Icon: https://Jtisvn.github.io/sectionIcons/font3.png
 Package: com.jtis.Goku
 Architecture: iphoneos-arm64
 Version: 0.1
-Section: Laetus Themes
+Section: Keyboard Themes
 Maintainer: JTIS Repo
 Installed-Size: 7344
 Filename: ./debs/com.jtis.Goku_0.1_iphoneos-arm64.deb
-Size: 3048152
-MD5sum: fc79131487cf4eb3b5ab7aca90658e3a
-SHA1: 9aef2369289aab3dd88d25b71502e77d00eb8cc5
-SHA256: 490a4447911c2a0c45028a0a51fb30f864ab41fd88e40d4485371558d67f43f9
-SHA512: e4c4e58e6ccaf98769114538ed508dbcce6a7b87770168b81264e5b2ef515121cf809fa16ba1f39cfbe03c4594e10262597453f0c4229571d2c2f2a0cf8284d8
+Size: 3048160
+MD5sum: ad0b0afc2edc3513cfa2d0485e9b19fc
+SHA1: d1cfc9e0aeb4506143518af050b943cdc327a4a7
+SHA256: 348f35456bf559b28bfbf333ab22c94983cfe499656f41cfec1fd416807d4448
+SHA512: abd06d5b70bef167b74e8e1fa04d2f759ecc06bc330f31bc29e2c72555ea36cc651649a4a6bc334382d41b96d80f7d826bcab62c2ededa189cde56c1a868b902
 Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Chủ đề Goku
+Name: Goku Theme
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
+Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+
+Package: com.jtis.Goku
+Architecture: iphoneos-arm64e
+Version: 0.1
+Section: Keyboard Themes
+Maintainer: JTIS Repo
+Installed-Size: 7344
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.Goku_0.1_iphoneos-arm64e.deb
+Size: 3048232
+MD5sum: 7785b351ccfd12bfd2aca62ad33b402a
+SHA1: aff1a02fbb400755ca6b9a2b8320c7406f4e1cd2
+SHA256: c3721b3c559737bdc792e696db9ecee4976d5824b65f4e6e2eb3a3b479440c85
+SHA512: cd134f6e87a0b573cc61a60122456a6332cd509f6070d7681617c6e76c810d126b222e5c9ce2379c1c535eda5012381a2905b46429fe1ede152d9106b06c7f76
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Goku Theme
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
@@ -399,17 +418,36 @@ Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 Package: com.jtis.Opertation
 Architecture: iphoneos-arm64
 Version: 1.0.0
-Section: Laetus Themes
+Section: Keyboard Themes
 Maintainer: JTIS Repo
 Installed-Size: 7344
 Filename: ./debs/com.jtis.Opertation_1.0.0_iphoneos-arm64.deb
-Size: 86312
-MD5sum: f59a7ff0f07aab6c070da2e3dcdd7957
-SHA1: 011ee7d4029d30ccc4c0a6f59d29253e4b98ba6b
-SHA256: 997f2e7cdc464743d8deaf1a50a3788c60eb88ad17f758ca0fab61695d82ed5a
-SHA512: 0e511700a0b454ebe26c550f9de1bdcf71e319da6e6466e9cbfe3c18ffae2c9a88ca8361e32355de237a0f21fffca82bb5622a0547de3a557797aa9e8325cf31
+Size: 86300
+MD5sum: a2b558fc63fa35db34c95766db968135
+SHA1: 788d7357357ade9e4c9ecb81e9459e3f68d4568f
+SHA256: 356c8578b72e3ca16a5884ae229d29bfac247175192476fd8d111b75cd73346a
+SHA512: d8f3b978c0caffab64c96cba9b351bf1d54b16fe21fd47146449a88f506818f9c0591b095596e63090ff75bf89e6706a63ea1a9b4874ca52ff5c8bc621c25bc2
 Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Chủ đề COpertation Meteor
+Name: COpertation Meteor
+Author: Polyphian
+SileoDepiction: https://jtisvn.github.io/sileodepictions/OpertationMeteor.json
+Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+
+Package: com.jtis.Opertation
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Keyboard Themes
+Maintainer: JTIS Repo
+Installed-Size: 7344
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.Opertation_1.0.0_iphoneos-arm64e.deb
+Size: 86160
+MD5sum: 0580e7cfdba240c171a4c6988c3dd1d9
+SHA1: ba761bf0cf9f33d12edade5a0b5e53f19f3556d1
+SHA256: 9bfcaf9e1c67ad5fec42597f668b25114c52b0569eaa00687aca647d2b622cd7
+SHA512: 71ae274f48ae16b66171c753f1b4d2709cc0713da2225cdb451f7d894953f1b49f10f9170396ebe27391e674e67a5115a5e81f71e7cb523fc518c7209ae538ef
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: COpertation Meteor
 Author: Polyphian
 SileoDepiction: https://jtisvn.github.io/sileodepictions/OpertationMeteor.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
@@ -1980,25 +2018,6 @@ Description: Mang thao tác vuốt của iPhone X lên các dòng iPhone đời 
 Name: GesturesXV (Roothide)
 Author: Ethan Whited
 
-Package: com.jtis.Goku
-Architecture: iphoneos-arm64e
-Version: 0.1
-Section: Laetus Themes
-Maintainer: JTIS Repo
-Installed-Size: 7344
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: ./debs/com.jtis.goku_0.1_iphoneos-arm64e.deb
-Size: 6232612
-MD5sum: e5a8fc9afe8eb87efd4cf26294af074f
-SHA1: 9edcc814872214f25926d9c395fe2c63612384bd
-SHA256: f399ba566cef95a2e9e2a4d6ea67e2e571f186dab14db147711ff41f214a9d92
-SHA512: 77b386ef79873c7d1d59d38235dbb21d048bebdd2d67a465010dcfc847bc6604ca240d00e73bc7afc3dfa95697ad3360fc35bbeaa4a5fcac52292a0515df5470
-Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Chủ đề Goku
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
-Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
-
 Package: com.jtis.gravitation
 Architecture: iphoneos-arm64
 Version: 4.0
@@ -2676,25 +2695,6 @@ Name: OneSettings (Roothide)
 Author: Nightwind
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Onesetings.json
 Icon: https://jtisvn.github.io/sectionIcons/Onesettings.png
-
-Package: com.jtis.Opertation
-Architecture: iphoneos-arm64e
-Version: 1.0.0
-Section: Laetus Themes
-Maintainer: JTIS Repo
-Installed-Size: 7344
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: ./debs/com.jtis.opertation_1.0.0_iphoneos-arm64e.deb
-Size: 92948
-MD5sum: 2660dbac87c3a1a6eb707f708885895d
-SHA1: c262ab2c63f45160c9cbef8df1daa182cd69c942
-SHA256: 21ea1f51fe438f83f611e6e00f48cac52b25127d7f6c8db986fb51b4139eab2f
-SHA512: 27113a52e1b178af2f3d3e5c9ce3450242b4e3c9a7b40619f700ac842061322ec8cd64dc03c1f6cb0322ce67ac282550f25a52ab4a077886eb0bd1d37bc96472
-Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Chủ đề COpertation Meteor
-Author: Polyphian
-SileoDepiction: https://jtisvn.github.io/sileodepictions/OpertationMeteor.json
-Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 
 Package: com.jtis.picsart
 Architecture: iphoneos-arm64
@@ -3437,17 +3437,17 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Velvet2.json
 Package: com.jtis.vietnam2-9
 Architecture: iphoneos-arm64
 Version: 0.1
-Section: Laetus Themes
+Section: Keyboard Themes
 Maintainer: JTIS Repo
 Installed-Size: 7344
 Filename: ./debs/com.jtis.vietnam2-9_0.1_iphoneos-arm64.deb
-Size: 9741024
-MD5sum: bea285a24c7db2929a5d565103394dbd
-SHA1: a1eb89518c9084eb35782bab13eea30ba7b0075a
-SHA256: 7054e75d302f351ea81c8932a6e9a68cc693c96e123c17f0adbd139a88391ce6
-SHA512: 9ef0282a676e14cb6967cb612f2074e80d4bac7ba4d00a31439791f9077cc6ab0a1f52c65d28ac21b07dbf44f0c628207f35bc3a9bbcb26b9bcc8521cc84ae95
+Size: 9741036
+MD5sum: 275d4f92df6334231afa1dd606427a62
+SHA1: 121a9d06f56f5c4c28fa97d159e19b0e1d305958
+SHA256: 42941793a13ae969bd5469078e9ff06a8d9d00d9bc0d595b97664b6eb40a4a06
+SHA512: e9f4110c8a0329113052554a6dece162eed76d12ff020cf9a6b1dbfa0452aee65f0b7d6f3f81385a5dd92e87cd6ce9fde76657ed67ac8070f1d783d3b8aba71b
 Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Chủ đề VietNam 2-9
+Name: VietNam 2-9
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/VietNam.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
@@ -3455,18 +3455,18 @@ Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 Package: com.jtis.vietnam2-9
 Architecture: iphoneos-arm64e
 Version: 0.1
-Section: Laetus Themes
+Section: Keyboard Themes
 Maintainer: JTIS Repo
 Installed-Size: 7344
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: ./debs/com.jtis.vietnam2-9_0.1_iphoneos-arm64e.deb
-Size: 9741072
-MD5sum: 32f57291a26827b6e2d3800be3c4788d
-SHA1: 9ba5a76500aa68baaf37ec73bb23adef8d4154a9
-SHA256: 48584690869f2b23a15446cc79b7d15889a3d8fd538a285fd1b661e89eb67ad0
-SHA512: 24798c9d127e55ecb21d2a6cf1385ce96f735e1737199b9009ebeb686af7485341e02773213b25197ba378c7d4117b92800af4a19dd5769fc7e6129112de5c00
+Size: 9741076
+MD5sum: a9fb9c5a1f8f443b9aa52bdb51df0a24
+SHA1: e26e65f24eb30405c1e4ac74e65ba982979aeab9
+SHA256: 0368f3fee65b86ff0e061fe7991946b491526789ec64fc22f98d510d43aac0c3
+SHA512: bfc801d784fa6dade0eda155d22560b9976658511e2893c1780a54204619f24f9db63d19bd575335d7495ca779639d6fd351e0e18ef51b0b8a8995d6afb0b239
 Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Chủ đề VietNam 2-9
+Name: VietNam 2-9
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/VietNam.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
