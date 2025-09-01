@@ -40,7 +40,7 @@
 "title":"Tham gia nhóm"
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport/1) - 24/7\n\nㅤ\n\n",
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport/1) - 24/7",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -78,6 +78,16 @@
 "text":"iOS 12.0-16.6.1"
 },
 {
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionTableButtonView",
+"title":"Liên hệ & Hỗ trợ",
+"action":"https://jtisvn.github.io/donate/donate.html",
+"openExternal":"true",
+"tintColor":"#5777B8"
+},
+{
 "class":"DepictionLabelView",
 "text":"Copyright © 2025 by JTISVN",
 "textColor":"#999999",
@@ -92,11 +102,11 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.14.8\n\n- Sửa lỗi văng ứng dụng khi tải xuống\n\n- Cập nhật danh sách các phiên bản ứng dụng mới tương thích hơn"
+"markdown":"### Phiên bản 2.14.8\n\n- Sửa lỗi văng ứng dụng khi tải xuống\n\n- Cập nhật danh sách các phiên bản ứng dụng mới tương thích hơn\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2024 by JTISVN",
+"text":"Copyright © 2025 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1

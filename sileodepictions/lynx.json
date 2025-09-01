@@ -40,7 +40,7 @@
 "title":"Tham gia nhóm"
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -78,6 +78,16 @@
 "text":"iOS  15.0-16.6.1"
 },
 {
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionTableButtonView",
+"title":"Liên hệ & Hỗ trợ",
+"action":"https://jtisvn.github.io/donate/donate.html",
+"openExternal":"true",
+"tintColor":"#5777B8"
+},
+{
 "class":"DepictionLabelView",
 "text":"Copyright © 2025 by JTISVN",
 "textColor":"#999999",
@@ -92,7 +102,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.5.3\n\n- Hỗ trợ Roothide Jailbreak.\n\n- Thêm lynx ở ngoài màn hình chính"
+"markdown":"### Phiên bản 2.5.3\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Thêm Lynx trên màn hình chính\n\n- Hỗ trợ Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",

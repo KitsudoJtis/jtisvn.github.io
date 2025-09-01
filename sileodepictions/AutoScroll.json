@@ -24,7 +24,7 @@
 "title":"Tham gia nhóm "
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - Join Telegram\n\n\n",
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -53,6 +53,16 @@
 "text":"3/5/2025"
 },
 {
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionTableButtonView",
+"title":"Liên hệ & Hỗ trợ",
+"action":"https://jtisvn.github.io/donate/donate.html",
+"openExternal":"true",
+"tintColor":"#5777B8"
+},
+{
 "class":"DepictionLabelView",
 "text":"Copyright © 2025 by JTISVN",
 "textColor":"#999999",
@@ -67,7 +77,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### Phiên bản 1.0.0\n\nHỗ trợ Roothide Jailbreak."
+"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",

@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"AdBlockPro.\n\n- Kích hoạt gói cao cấp ứng dụng AdBlockPro trình chặn quảng cáo Safari.\n\n",
+"markdown":"AdBlockPro.\n\n- Kích hoạt gói cao cấp ứng dụng AdBlockPro trình chặn quảng cáo Safari.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -36,7 +36,7 @@
 "title":"Tham gia nhóm"
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -69,6 +69,16 @@
 "text":"iOS 16.0 đến 17.0"
 },
 {
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionTableButtonView",
+"title":"Liên hệ & Hỗ trợ",
+"action":"https://jtisvn.github.io/donate/donate.html",
+"openExternal":"true",
+"tintColor":"#5777B8"
+},
+{
 "class":"DepictionLabelView",
 "text":"Copyright © 2025 by JTISVN",
 "textColor":"#999999",
@@ -83,7 +93,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",

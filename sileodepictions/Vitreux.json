@@ -119,7 +119,7 @@
 {
 "class":"DepictionTableButtonView",
 "title": "Mua cho tôi một ly cà phê",
-"action": "https://jtisvn.github.io/donate/donate.json"
+"action": "https://jtisvn.github.io/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",

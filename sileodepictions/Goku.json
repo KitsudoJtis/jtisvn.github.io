@@ -30,7 +30,7 @@
 "title":"Tham gia nhóm "
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - Join Telegram\n\n\n",
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -66,14 +66,14 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Liên hệ hỗ trợ",
-"action":"https://jtisvn.github.io/sileodepictions/Support.json",
+"title":"Liên hệ & Hỗ trợ",
+"action":"https://jtisvn.github.io/donate/donate.html",
 "openExternal":"true",
 "tintColor":"#5777B8"
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 by Kitsudo - JTISVN",
+"text":"Copyright © 2025 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
@@ -86,11 +86,11 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Bỏ chữ Kitsudo và làm nét hơn \n\nHỗ trợ Rootless Jailbreak."
+"markdown":"### Bỏ chữ Kitsudo và làm nét hơn \n\nHỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 by Kitsudo - JTISVN",
+"text":"Copyright © 2025 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
