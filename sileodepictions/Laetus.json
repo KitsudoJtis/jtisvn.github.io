@@ -110,8 +110,10 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
-"action": "https://jtisvn.github.io/donate/donate.html"
+"title":"Mua cho tôi một ly cà phê",
+"action":"https://jtisvn.github.io/donate/donate.json",
+"openExternal":"true",
+"tintColor":"#5777B8"
 },
 {
 "class":"DepictionTableButtonView",
