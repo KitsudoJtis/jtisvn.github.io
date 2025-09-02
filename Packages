@@ -1,3 +1,23 @@
+Package: com.foxfort.foxforttools
+Architecture: iphoneos-arm64e
+Version: 1.4.13
+Section: Development
+Maintainer: FoxfortMobile
+Installed-Size: 2132
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.foxfort.libfoxfortutils (>= 1.4.7)
+Conflicts: com.hackyouriphone.foxforthack, com.pulandres.foxforthack, org.cydia.kiimo.foxforthack, ru.rejail.foxforthack, me.pulandres.foxforttools, co.xrepo.appletweakjailbreak.foxforttools, net.kenhtao.foxforttools, sileoturkiye.foxforttools, com.yourepo.mohadu31.foxforttools, org.cydia.kiimo.foxforttools, com.hackyouriphone.foxforttools, com.hackyouriphone.mgspoof, org.mr.mgspoof, com.34306.foxforttools, r-o-o-t-l-e-s-s-, com.r-o-o-t-l-e-s-s-.manager
+Filename: ./debs/FoxFort.Tools.1.4.13.arm64e.deb
+Size: 488704
+MD5sum: 2aa2f51c64460a5da17f945e2bd7ac82
+SHA1: 3d8daf17a38050a44eab318078c1be28e20c4e04
+SHA256: b6bb1cdf349179950107cc7d91da6bb5efafa29007a236f58857db12081117e2
+SHA512: 8a4e2b5c1d3292f98b5a6cb8825706669538c1f797de41e92ebbab7c5320d779078a9c93e3623924279975d8c05e9edc8b91975e656064182d55a00ad9fa8825
+Description: Helper tools for Foxfort tweaks
+Tag: role::developer
+Name: FoxFort Tools
+Author: FoxfortMobile
+
 Package: com.spark.snowboard.settingsicons
 Architecture: iphoneos-arm64e
 Version: 1.0.26~Beta3-rootless
@@ -364,19 +384,54 @@ Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 Package: com.jtis.LS-16-VN
 Architecture: iphoneos-arm64
 Version: 1.0
-Section: LS font
-Maintainer: JTIS Repo
+Section: LS Fonts
+Maintainer: JTISVN Repo
 Filename: ./debs/com.jtis.LS-16-VN_1.0_iphoneos-arm64.deb
 Size: 267792
-MD5sum: c99356ff499f639908721541f785c415
-SHA1: 3ba901a5b12bae09bf08081a5eafb6117e3aa21d
-SHA256: f589fbea03723b2fe1fee5f6f182d6ad407003c783dd151dd3fbc26191d5ebfa
-SHA512: 2259a97ff70c3941cc19743f0531cf9fa4961a840028668b2537c17a9e3a101698412310eb2a7278632680c54b98de9e36504740ed64cc555b4d4a854d12a8a9
-Description: Cài đặt Phông chữ màn hình khoá cho IPhone
+MD5sum: 0178e1d8df4fadc51c68411ce1fd77af
+SHA1: 93398b184adcbfadcebe31bf981001d0ee3c5821
+SHA256: 8bae21f97f4b6e09155a846a00965842d4f62ac07244b09437370b23132f3e8a
+SHA512: 57a8014a661f9e78fa05935c34d1f84d2afb71069ba2f8c398f1bde52a453d0481ac56cbdd5e20dbf8462bc62a1c42b103a9a8f95494af3af758ef43559c4571
+Description: Thay đổi phông chữ màn hình khoá.
 Name: LS-16-VN
 Author: p0s3id0n
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LS-16-VN.json
-Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
+Package: com.jtis.LS-16-VN
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.LS-16-VN_1.0_iphoneos-arm64e.deb
+Size: 267720
+MD5sum: 960a4188a603efcf3a042679aa451505
+SHA1: b68639fb03d82a33c5827a427c4ebe2c700111c2
+SHA256: 44436eb6e69c6a420cd8e332dd0b4d5925c20c80d562cf0bfcf07b5b2ee4964d
+SHA512: 04bcb77949f7c4c031ad2d5e3c06f9e783f2e179e02ed72d67413a6b2bb40e78d9e01835ff9bc2ca2c898195a0ce29358dd9a5ca9ad23eb618569bb558352c84
+Description: Thay đổi phông chữ màn hình khoá.
+Name: LS-16-VN
+Author: p0s3id0n
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LS-16-VN.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+ Pre-Depends: rootless-compat(>= 0.9)
+
+Package: com.jtis.LSBlueDragon
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.LSBlueDragon_1.0_iphoneos-arm64.deb
+Size: 17176
+MD5sum: f272be8e2048820423919b87462a8ee4
+SHA1: 7a8a62204071c3ab35211d7586dca95af070d052
+SHA256: 58549867efd8307a4a82e76f2c251187da7df26b682df032e09122acefb26200
+SHA512: 4117e2ee5000ed8e75cf581a1530b841b4b63a63c408ab00cf14dea6d7c6435a53fa0bb74ffbaeef1262cb478c11d9dfdd0cdf5a7fef5accec99553ac791572b
+Description: Thay đổi phông chữ đồng hồ màn hình khoá.
+Name: LS Blue Dragon
+Author: Phuc Do
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSBlueDragon.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm64
@@ -1392,36 +1447,36 @@ Icon: https://jtisvn.github.io/sectionIcons/CCbonder.png
 Package: com.jtis.clockfont
 Architecture: iphoneos-arm64
 Version: 1.0
-Section: LS font
-Maintainer: JTIS Repo
+Section: LS Fonts
+Maintainer: JTISVN Repo
 Filename: ./debs/com.jtis.clockfont_1.0_iphoneos-arm64.deb
-Size: 93412
-MD5sum: 16770559ca6b35f8264d05054981b72a
-SHA1: 947b536efe80bcd8fc1228489ab498920c84ca15
-SHA256: e548e2687939fead735f053487914b9331f80163e4725c179d676faedd1efa1f
-SHA512: 39b8fb158d6a5ff5ebe3d9f3593ca4ebd30a9d1355e5b3926eba51dc320c20c0a3909582e25fa7106119d38516e53a21705158930c4654c7ddb3a82050c8675b
-Description: Cài đặt Phông chữ đồng hồ màn hình khoá cho IPhone
-Name: Clock Font LS
+Size: 93400
+MD5sum: 72de8632259d082cdf805d24fcc4e254
+SHA1: c93fcb1235afabd7af43c40fe5e5c9491c6e6712
+SHA256: 46bf3d0ee0cd76e585eb8c5fe261dcd43bcda0e29fc27d41430424453a40eb7d
+SHA512: e216ef13afb7c81d34c8da06c49cb07de66c64e449d86cda5e967f273675412a603358d07cc1feb10773dd6a68ada10999809beade9d863b50f9434b990a5f23
+Description: Thay đổi phông chữ đồng hồ màn hình khoá.
+Name: LS Clock-Font
 Author: TQM
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LSclockfont.json
-Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
 Package: com.jtis.clockfont
 Architecture: iphoneos-arm64e
 Version: 1.0
-Section: LS font
-Maintainer: JTIS Repo
+Section: LS Fonts
+Maintainer: JTISVN Repo
 Filename: ./debs/com.jtis.clockfont_1.0_iphoneos-arm64e.deb
-Size: 111744
-MD5sum: 4030169608ec6e64a13e0998c3c6be11
-SHA1: e5de1f532a2810715c804b1674fe3f1d4a6144e5
-SHA256: fe068039f8f9c5df515b208e6ab2d7e648fe0f2d061b6d54197c1d49316e4819
-SHA512: 4c9de29035ff4754b3c2116be7fa3e3e641ecfded32e4215787d0f20de43e5cfa08f53e1d193557d1c7532be8c5395384245200964fc9034300fbbbe56d1573f
-Description: Cài đặt Phông chữ đồng hồ màn hình khoá cho IPhone
-Name: Clock Font LS
+Size: 93388
+MD5sum: 6db115a72b8e87a8f581cdf669de6805
+SHA1: f6a62f157f72e8d3a2eee8f4636d71a7d89d54c7
+SHA256: efe1445c53d0dff2907caeb8c12fb474b600b8c8ddc6d17b87f19ca9e531bc93
+SHA512: da4a4ba1894e59bd72481b10bbcf8cf9ccbe24f53d733983be2b2ee508aece3f167704771eebee3d0f336a6d47994f3351d71c0b995a54c558ac9d508c79e56a
+Description: Thay đổi phông chữ đồng hồ màn hình khoá.
+Name: LS Clock-Font
 Author: TQM
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LSclockfont.json
-Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
  Pre-Depends: rootless-compat(>= 0.9)
 
 Package: com.jtis.colorbar15
@@ -4502,6 +4557,26 @@ Tag: role::developer
 Name: libKitten
 Author: Traurige <hello@traurige.dev>
 Icon: file:///var/jb/Library/IconRepo/hethongg1.png
+
+Package: com.foxfort.libfoxfortutils
+Architecture: iphoneos-arm64e
+Version: 1.4.7
+Section: Development
+Maintainer: FoxfortMobile
+Installed-Size: 1288
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), com.opa334.libsandy
+Conflicts: co.xrepo.appletweakjailbreak.libfoxfortutils, co.xrepo.appletweakjailbreak.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64e, com.hackyouriphone.libfoxfortutils64, com.hackyouriphone.libfoxfortutils64e, com.yourepo.mohadu31.libfoxfortutils64, me.pulandres.libfoxfortutils64, me.pulandres.libfoxfortutils64e, net.kenhtao.libfoxfortutils64, sileoturkiye.libfoxfortutils64, sileoturkiye.libfoxfortutils64e, com.badr.libfoxfortutils, com.hackyouriphone.mgspoof, org.mr.mgspoof, com.34306.libfoxfortutils, r-o-o-t-l-e-s-s-
+Filename: ./debs/libfoxfortutils.1.4.7.arm64e.deb
+Size: 278044
+MD5sum: e4f4d65f02662da91a1413544c2b42a7
+SHA1: 478a64218e9f2ceefd6a8c2148fb89bfc33cf1ad
+SHA256: b48e9200242dd12293a98fedd40d890a0477f0b976e132ec1fa3c2d64d210d3b
+SHA512: a41060433371791833152fc26953fecea034b5ab8a0d2a019488ce5b53d9e576a370735902df4ad8cbe8551f4d527f98bd7c2dac1097a2e4e0151a69b999b1bb
+Description: library for Foxfort tweaks
+Tag: role::developer
+Name: libfoxfortutils
+Author: FoxfortMobile
 
 Package: me.tomt000.copylog
 Architecture: iphoneos-arm64
