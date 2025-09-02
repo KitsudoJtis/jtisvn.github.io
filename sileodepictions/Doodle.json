@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" CozyBadges\n\n- Là một Tweaks cho phép huy hiệu thông báo được thay đổi hiển thị bên dưới ứng dụng.\n\n- Hiệu ứng được hiển thị trong phần giới thiệu ảnh chụp màn hình.",
+"markdown":" Doodle\n\n- Mở khóa thiết bị bằng cách vẽ trên màn hình.\n\n-Bạn đã chán ngán với cách mở khóa điện thoại thông thường? Doodle sẽ thay đổi hoàn toàn trải nghiệm của bạn!\n\n- Tinh chỉnh này cho phép bạn vẽ lên màn hình để mở khóa thiết bị. Thay vì nhập mật khẩu hay dùng Touch ID, bạn có thể tự tạo một hình vẽ độc đáo mang đến trải nghiệm tùy chỉnh mở khóa theo phong cách riêng!\n\n- Đặc biệt, bạn còn có thể tùy chỉnh mọi thứ: từ nét vẽ, màu sắc, cho đến hiệu ứng làm mờ màn hình.\n\n- Chi tiết xem hình ảnh bên dưới.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,19 +21,23 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/CozyBadges/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/Doodle/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/CozyBadges/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/Doodle/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/CozyBadges/Screenshots/3.png",
+"url":"https://jtisvn.github.io/infodeb/Doodle/Screenshots/3.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/CozyBadges/Screenshots/4.png",
+"url":"https://jtisvn.github.io/infodeb/Doodle/Screenshots/4.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Doodle/Screenshots/5.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -48,7 +52,7 @@
 "title":"Liên hệ tôi"
 },
 {
-"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7\n\nㅤ\n\n",
+"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -62,9 +66,9 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"NoisyFlake"
+"text":"Ethan Whited"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.2-2" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.2" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -73,7 +77,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"23/7/2025"
+"text":"3/8/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -95,7 +99,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.2-2\n\n- Sửa lỗi\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.2\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
@@ -106,12 +110,12 @@
 {
 "class":"DepictionTableButtonView",
 "title": "Paypal",
-"action": "https://www.paypal.com/myaccount/transfer/homepage/preview/"
+"action": "https://paypal.me/HiuKitsudo"
 },
 {
 "class":"DepictionTableButtonView",
 "title": "Mua cho tôi một ly cà phê",
-"action": "https://img.vietqr.io/image/ACB-20219691-print.png?&addInfo=&accountName=NGUYEN%20TRUNG%20HIEU"
+"action": "https://jtisvn.github.io/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
