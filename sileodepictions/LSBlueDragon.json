@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Thay đổi phông chữ đồng hồ trên màn hình khoá.\n\n- Kích hoạt qua tinh chỉnh AIM Pro.",
+"markdown":"Thay đổi phông chữ đồng hồ trên màn hình khoá.\n\n- Kích hoạt phông chữ qua tinh chỉnh AIM Pro.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
