@@ -435,15 +435,15 @@ Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm64
-Version: 1.0.6
+Version: 1.0.7
 Section: Chủ đề
 Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.LiquidglAss_1.0.6_iphoneos-arm64.deb
-Size: 17932744
-MD5sum: 6c1f3fa993d9a3442153c113e9deb27f
-SHA1: 3077a4aa750a0a8e5c25b563fde3cf55d258f844
-SHA256: 0fe4322c6a6a0d4ce9be2627690ce85f02b1bb5347d53e43d267c6f3768a8b3c
-SHA512: 767ccb04bd03b739330ca3f1aa771e890bb9ac7cdd2f408e38d2d4c302154043fc5c08c46b446cde1afebffca468166f52b5548b60fe2b7a046f71b7265d3042
+Filename: ./debs/com.jtis.LiquidglAss_1.0.7_iphoneos-arm64.deb
+Size: 19229316
+MD5sum: 2e39382e12a92d116f5dbe44c20632c7
+SHA1: 5341e7217392d775f1fe0a2b377246328f3c4b1f
+SHA256: d605b20f1dceb1c936874e7ccc430fef042559143cb3e4981a0118d1626ef0e1
+SHA512: 2cca487b198f5ff1b87d7a9c5465e9ec7918237680faea2a595e747abfd1368e2475e6879d48f95dd8d287fd017688f7b8d5b1ae09a97adc0f7382db3b217aab
 Description: Chủ đề Liquid GlAss
 Name: Liquid Glass Theme
 Author: Nguyên Tokuda & Hoàng MD
@@ -453,15 +453,15 @@ Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm64e
-Version: 1.0.6
+Version: 1.0.7
 Section: Chủ đề
 Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.LiquidglAss_1.0.6_iphoneos-arm64e.deb
-Size: 17932420
-MD5sum: 04290b9e56e6175adfde425fc07247b0
-SHA1: c6ee823bc7be12b39b65745fbd7bed4425ffdda7
-SHA256: 2756fa2fb0374f6ef6466864ca828d0f98c62e7f019c5a07fea4e697d504a6a9
-SHA512: d69e35e543d5e297ddd7c0ffa8b3b156601ba30c1bc2427bfa8c2a0dfde09dde464d4d3678547d47fbc099d99f667917cdd32bdde67a14c73642dba8095c6814
+Filename: ./debs/com.jtis.LiquidglAss_1.0.7_iphoneos-arm64e.deb
+Size: 19229240
+MD5sum: 9680ec6fdf0ea250218cd400e1a05480
+SHA1: da8f9f5f0d2dc01dea38f292d621e7472558db91
+SHA256: 5f5200fec7834b6d7ab1463c27dde2b991b4f965b08c18560ff1df3b0af0039f
+SHA512: 2e11dd8f373bd97eddd0ed8254c4d70fe5c8058bab0d5823e8b0571302e6a3ba83a153e17a3ba494093f49ea8060cfb717b340c27b3852928e88e8a0fcc5b940
 Description: Chủ đề Liquid GlAss
 Name: Liquid Glass Theme
 Author: Nguyên Tokuda & Hoàng MD
