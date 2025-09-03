@@ -1846,16 +1846,16 @@ Maintainer: JTISVN Repo
 Installed-Size: 7592
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
 Filename: ./debs/com.jtis.dodo_4.2.2_iphoneos-arm64.deb
-Size: 956796
-MD5sum: d205e0a85edca58a9406228d0c9df00c
-SHA1: 82562d6ce5f9436fe8577944e207fd0258678eca
-SHA256: 368831173f32c8b3f6e34df698d80962fbab09b64f383ec9593cda218219f79e
-SHA512: e9846753bfb5cd74176a6479a3d2a74549ed32c09d80b0f9e5ff4effb605f7a74b4af846c68e6193400eaacd58d81ebe9ec642ea53f3ec82b100a06c2604ea1c
+Size: 956792
+MD5sum: 6a7fe9eb17e646063a92c559f746d950
+SHA1: 78557b6ba72a2c76a61d1305f8dc81992a273bcd
+SHA256: 15e927b9da2c97d75493d1b0decad9b376aee56522408fc06664f9a784a4e0da
+SHA512: 26248cb1946511008a8cb2d8af0fcf7c876fceb0ad0bae9c12a45a0065fff27bc62862103b93ec5ba7f1846f66b6ba6668693d676846073df6405eb32ccac950
 Description: The perfect Lock Screen redesign.
 Name: Dodo (Rootless)
 Author: Ginsu
 Icon: https://jtisvn.github.io/sectionIcons/Dodo.png
-SileoDepiction: SileoDepiction: https://jtisvn.github.io/sileodepictions/Dodo.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Dodo.json
 
 Package: com.jtis.dodo
 Architecture: iphoneos-arm64e
@@ -1867,15 +1867,15 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
 Filename: ./debs/com.jtis.dodo_4.2.2_iphoneos-arm64e.deb
 Size: 922992
-MD5sum: da18cec109a746c6bc38a00687bf70ad
-SHA1: 7a4d1450b3c06ee42bc228a6f1170d8398fa95b9
-SHA256: 53ef9265b1f1ce500984458c1dc47608d2182d01f73e3a01d9edf723a057c86d
-SHA512: c1ffb213294800f73d2f5ac1b32192d167e3970d628e14db2c38abcc7f98ffb59f56861b4b1260db4d7b06465de2032dc31a9ba9d080a10c29c159c147979048
+MD5sum: a3fe300ea0fefb81d18505ec543890fc
+SHA1: 3a84316ec000069deae7596eb8d210ad22e6ff98
+SHA256: 543c4a692650cb600ef35be89b2dafd3b628796a1f218c49e534321e321d97ce
+SHA512: 55de65caee8b103ab86d2ffa09207eac17d0924bcb653254296f6dc480d79cca66723eabf03e380ea66e8b1fcc116f36c8644456d923c1980ab42aa9ecbf49f8
 Description: The perfect Lock Screen redesign.
 Name: Dodo (Roothide)
 Author: Ginsu
 Icon: https://jtisvn.github.io/sectionIcons/Dodo.png
-SileoDepiction: SileoDepiction: https://jtisvn.github.io/sileodepictions/Dodo.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Dodo.json
 
 Package: com.jtis.doodle
 Architecture: iphoneos-arm64
@@ -1921,11 +1921,11 @@ Section: Tweaks
 Maintainer: JTISVN Repo
 Depends: preferenceloader
 Filename: ./debs/com.jtis.doodle_1.2_iphoneos-arm64.deb
-Size: 3576844
-MD5sum: 392bf99e61f1b50685c74831ec3caa61
-SHA1: 48d0c4d9d68e59bf4ce17eecab0e5c7eaf995ea1
-SHA256: 2e12d5434456d2e63c306bc8c7d535d041b7b30621b6b9ed94ae13e22d43c20c
-SHA512: 264d75a8a3ff97e691b258d1fabfd69aab1314e484399b9451e95be0a3c38c143b7bad0ae30b744c2bd632f94baa07edcaf6b06b99c2d373df4b8a41ae295e2a
+Size: 3576868
+MD5sum: d77db7fd8880ad4f123b012f70d74d1c
+SHA1: 175e91a1615c33869b9cc553f7a18070694ffc7c
+SHA256: 92c94f40f64cde92dfdff06f849495d2afd4880b5eb8b0ee0ccfdfad635bdbbd
+SHA512: dd4328535c48804bee69d2704bc1275cd11c4240e493f21b226d97e90a480f4cde93782c770881d0df9dd4defb8c7438105936ead93c3c4129308ff4994b6c5f
 Description: Mở khóa thiết bị bằng cách sử dụng hình vẽ.
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
 Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
@@ -1940,11 +1940,11 @@ Maintainer: JTISVN Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: preferenceloader
 Filename: ./debs/com.jtis.doodle_1.2_iphoneos-arm64e.deb
-Size: 3575732
-MD5sum: 3203646c7d13345d659f4f524f350f15
-SHA1: 73811f63fbcb434f912394a49fc1623f60ca261c
-SHA256: be263213f9a3837debcc7839aaffee5183f07cb85961df22599608e9ee669f57
-SHA512: 53d9463b034b4f9423c213f692fbe9624644cc317a079c51baaa9b3563d2f591505fccf014c572f046336ec41079b102c6e8f13618986f27dfb34f7a1fd6ed8e
+Size: 3575660
+MD5sum: 80c8e2863f4ee67e8beb33d77d0ee904
+SHA1: cd9f50fafc0326363f392efcfdaf070aec6096ed
+SHA256: f597bebdf49807e21acd24dfc89409bf43e9d1fa2cd7a188cccf4aa0fbbb8e1b
+SHA512: e73b7a12fba01618f19fdf722f3a92853971548495b90a3fcd85f619c7248a24329f7428d62391bedd378940c7d6315d3ad8edf336ec87130e2bbbd5aaa66f50
 Description: Mở khóa thiết bị bằng cách sử dụng hình vẽ.
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
 Icon: https://jtisvn.github.io/sectionIcons/Doodle.png

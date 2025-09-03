@@ -99,7 +99,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.2\n\n- Sửa lỗi sự cố nhập passcode đúng mà k mở được khoá\n\ n## Phiên bản 1.0\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Phát hàn đầu tiên\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.2\n\n- Sửa lỗi sự cố nhập passcode đúng mà k mở được khoá\n\n n## Phiên bản 1.0\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Phát hàn đầu tiên\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
