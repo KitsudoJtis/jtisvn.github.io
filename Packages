@@ -18,6 +18,27 @@ Tag: role::developer
 Name: FoxFort Tools
 Author: FoxfortMobile
 
+Package: dev.theos.orion14
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: System
+Maintainer: Theos Team <support@theos.dev>
+Installed-Size: 514
+Provides: dev.theos.orion (= 1.0.2)
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Orion Runtime (iOS 14 – 17)-1.0.2.deb
+Size: 93284
+MD5sum: fdb72c66bd6018058b57962d76546957
+SHA1: 724dd1f99f51c4082af6f604643b7ce613a21d11
+SHA256: 4fa4ff6f751166c76a12cc3e0fcf2e62bb0ee80e0dcea78b0d4e79de5131666c
+SHA512: 3c15722b873f3f68f0ad6d673e517204fddd9fca8289a2c6460b02aea89fe04f422d9eff9fc3eb20fb9c51705e2ddbfc5198d91c9898a3cd1048be9010ecc70c
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer, compatible_min::ios14.0
+Author: Theos Team <support@theos.dev>
+Name: Orion Runtime (iOS 14 – 17)
+Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
+Depiction: https://chariz.com/get/orion-runtime14
+
 Package: com.spark.snowboard.settingsicons
 Architecture: iphoneos-arm64e
 Version: 1.0.26~Beta3-rootless
@@ -188,6 +209,129 @@ Description: A Preference Library that doesn't suck!
 Tag: compatible_min::iOS9
 Name: libCSPreferences
 Author: CreatureSurvive <support@creaturecoding.com>
+
+Package: com.ginsu.comet
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 2148
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/com.ginsu.comet_1.1.0_iphoneos-arm64.deb
+Size: 226756
+MD5sum: 953c317df46a741aa148aeb684c6d66d
+SHA1: 0c801229be3fb9116c10607154ceeaea51015d37
+SHA256: 24ded8343ebf551687c6f6d0d242b38eee070457442053d84ca11d3e4da2ca7c
+SHA512: 5b07e5929f6e20b610e234c31ac809b29625d81ca6213bfe62452752d3a3ba472fcbb5d63c174e02f63e0c0d10039fdf92c9b0a6322d874c683ce87b8250a8ab
+Description: A SwiftUI Prefs Framework
+Name: Comet (Rootless)
+Author: Ginsu
+Depiction: https://ginsu.dev/#/depiction/com.ginsu.comet
+Icon: https://img.chariz.cloud/icon/comet/icon@3x.png
+SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.comet/sileo.json
+
+Package: com.ginsu.comet
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 2148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/com.ginsu.comet_1.1.0_iphoneos-arm64e.deb
+Size: 572624
+MD5sum: 59ff62114518042b3aeec747522981ec
+SHA1: 68988c402965108c670feb8657baef511730529e
+SHA256: 0007c24aadba21904f7de70ef20f90e90cc2fa7c0373fe3823aa87935a37b6fd
+SHA512: fadd8fac064847c70ca02d161b238ad49db3624d9a5f351377ab3fe43bb3585dec5faf8fb39a07415162178593ea46e2777c3c6a2ec672e948489291b2cb5f34
+Description: A SwiftUI Prefs Framework
+Name: Comet (Rootless)
+Author: Ginsu
+Depiction: https://ginsu.dev/#/depiction/com.ginsu.comet
+Icon: https://img.chariz.cloud/icon/comet/icon@3x.png
+SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.comet/sileo.json
+
+Package: com.ginsu.gscore
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 0
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/com.ginsu.gscore_1.0.1_iphoneos-arm64.deb
+Size: 391272
+MD5sum: 005a87481f5fca20d3fce4bc68ab57f6
+SHA1: 0593becfea481be73e3254f662debf00c780fa3d
+SHA256: 9ca42d270aa74fd4a4c31e7cdadf99609007e325c59f074d29aecaf173d49f37
+SHA512: 43de544b38b91089191440d35e48fcd855ae146fd2943d7615eb82aaf85ea9d2b825618d37513c30d6fbb67478dee3eee915f132daeab41fd900b7191cc0e379
+Description: Environment and communication between my tweaks
+Name: GSCore (Rootless)
+Author: Ginsu
+Depiction: https://ginsu.dev/#/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gscore
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 4340
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/com.ginsu.gscore_1.1.1_iphoneos-arm64e.deb
+Size: 447392
+MD5sum: 3a4379bfee79bf54a940d31bebf21b6a
+SHA1: 0fec8dd475384ab472f9750021c7d68e693104c4
+SHA256: 62b641df62c69535159a04b3bc8cc005f0dccfe2d257fccf4042826248533eeb
+SHA512: 02c2310160c9e936f202df9453904384e28c2ae45d40631274391e9056901fbca7837dbed4709e042cbd983fcf69fdf8ee884981db66255a892f82bc3ff6b5f9
+Description: Environment and communication between my tweaks
+Name: GSCore (Roothide)
+Author: Ginsu
+Depiction: https://ginsu.dev/#/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gsweather
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 1216
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/com.ginsu.gsweather-_1.1.1_iphoneos-arm64.deb
+Size: 120364
+MD5sum: 2ceffc83cfbf7eb2a26c4292df0fdd15
+SHA1: 1157741bc79635f5429db0c116f333d9e01800be
+SHA256: d8b0131af91b9346f9096eb1fe7cf1e7dd216206cd993210abc076c7c456c4e9
+SHA512: 9dd4fe210227826e930b0c740a31ec169327c79012a63077f2a189344218769a26237c37b87ca6f56539b78ef82646aa23de1d900887f17c9b34f742eb9615f3
+Description: A Weather fetching framework
+Name: GSWeather (Rootless)
+Author: Ginsu
+Depiction: https://ginsu.dev/#/depiction/com.ginsu.gsweather
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/icon.png
+SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/sileo.json
+
+Package: com.ginsu.gsweather
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 1216
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/com.ginsu.gsweather_1.1.1_iphoneos-arm64e.deb
+Size: 122324
+MD5sum: 206f892680625be7a7a1ce0c775d48c2
+SHA1: 8b6997d4be07925460aae4139bc4b560d4db1a1f
+SHA256: 31c2d7c460544131eb15147c6b6d2a4c79ea61fd990596cb8b14f5bf3d7a7d31
+SHA512: f5e086c0e5fbbb3b127335f00ce493751ffd4088cba8dfd33b097d9e7e5f63ed54f3431123fb892a70eddb628e0094bd9e70bc81e8e8f4fc1ba795f8de001dbd
+Description: A Weather fetching framework
+Name: GSWeather (Roothide)
+Author: Ginsu
+Depiction: https://ginsu.dev/#/depiction/com.ginsu.gsweather
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/icon.png
+SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/sileo.json
 
 Package: com.hieu.SearchDots
 Architecture: iphoneos-arm64
@@ -1693,6 +1837,119 @@ SHA512: ad3656f7c69b0d521109c53107ad284cafaf3814b2379e94adba3b861ee076a4ef56b671
 Description: DobbyHook Substrate Shim
 Name: DobbyShim
 Author: Nathan, jmpews
+
+Package: com.jtis.dodo
+Architecture: iphoneos-arm64
+Version: 4.2.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 7592
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
+Filename: ./debs/com.jtis.dodo_4.2.2_iphoneos-arm64.deb
+Size: 956796
+MD5sum: d205e0a85edca58a9406228d0c9df00c
+SHA1: 82562d6ce5f9436fe8577944e207fd0258678eca
+SHA256: 368831173f32c8b3f6e34df698d80962fbab09b64f383ec9593cda218219f79e
+SHA512: e9846753bfb5cd74176a6479a3d2a74549ed32c09d80b0f9e5ff4effb605f7a74b4af846c68e6193400eaacd58d81ebe9ec642ea53f3ec82b100a06c2604ea1c
+Description: The perfect Lock Screen redesign.
+Name: Dodo (Rootless)
+Author: Ginsu
+Icon: https://jtisvn.github.io/sectionIcons/Dodo.png
+SileoDepiction: SileoDepiction: https://jtisvn.github.io/sileodepictions/Dodo.json
+
+Package: com.jtis.dodo
+Architecture: iphoneos-arm64e
+Version: 4.2.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 7592
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
+Filename: ./debs/com.jtis.dodo_4.2.2_iphoneos-arm64e.deb
+Size: 922992
+MD5sum: da18cec109a746c6bc38a00687bf70ad
+SHA1: 7a4d1450b3c06ee42bc228a6f1170d8398fa95b9
+SHA256: 53ef9265b1f1ce500984458c1dc47608d2182d01f73e3a01d9edf723a057c86d
+SHA512: c1ffb213294800f73d2f5ac1b32192d167e3970d628e14db2c38abcc7f98ffb59f56861b4b1260db4d7b06465de2032dc31a9ba9d080a10c29c159c147979048
+Description: The perfect Lock Screen redesign.
+Name: Dodo (Roothide)
+Author: Ginsu
+Icon: https://jtisvn.github.io/sectionIcons/Dodo.png
+SileoDepiction: SileoDepiction: https://jtisvn.github.io/sileodepictions/Dodo.json
+
+Package: com.jtis.doodle
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: preferenceloader
+Filename: ./debs/com.jtis.doodle_1.0_iphoneos-arm64.deb
+Size: 3578112
+MD5sum: 029bf57c7178ebdb2cdfae460d010820
+SHA1: 7d99af1eeb94f52606606e433e8486182f69833d
+SHA256: abe308f7cd34e44332112137d3ac97b7e3e0996cc57ee4713275735f88064bf3
+SHA512: 0ac6ad9467cf5eb55bc755eddd94e78f8d58d6492954b50e3da063f9a90ed8bbea191479d40c23d0ce5f9d329ff407a1d954f30541e48a572b72a85b3e7a4dd9
+Description: Unlock device using a doodle
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
+Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
+Name: Doodle (Rootless)
+Author: Ethan Whited
+
+Package: com.jtis.doodle
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: preferenceloader
+Filename: ./debs/com.jtis.doodle_1.0_iphoneos-arm64e.deb
+Size: 3576440
+MD5sum: 1ba4486b04fe358e02203a0119ab0eff
+SHA1: eba20d727377e0886f49ecc539f5ecaf4c649d6c
+SHA256: 8a1827903292618d1795f1c5ca75dfac4937f1e87fbc2d62be0f717bcc743ef6
+SHA512: 479ab95add7f9680808da0bd4c7b88dece5d21d6e500a2cf2af7cc1cf8bc8ad1a0185663931868be35b420522ca3913bd694038f9e2b21a8d0a6aa80ec3de61a
+Description: Unlock device using a doodle
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
+Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
+Name: Doodle (Roothide)
+Author: Ethan Whited
+
+Package: com.jtis.doodle
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: preferenceloader
+Filename: ./debs/com.jtis.doodle_1.2_iphoneos-arm64.deb
+Size: 3576844
+MD5sum: 392bf99e61f1b50685c74831ec3caa61
+SHA1: 48d0c4d9d68e59bf4ce17eecab0e5c7eaf995ea1
+SHA256: 2e12d5434456d2e63c306bc8c7d535d041b7b30621b6b9ed94ae13e22d43c20c
+SHA512: 264d75a8a3ff97e691b258d1fabfd69aab1314e484399b9451e95be0a3c38c143b7bad0ae30b744c2bd632f94baa07edcaf6b06b99c2d373df4b8a41ae295e2a
+Description: Mở khóa thiết bị bằng cách sử dụng hình vẽ.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
+Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
+Name: Doodle (Rootless)
+Author: Ethan Whited
+
+Package: com.jtis.doodle
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: preferenceloader
+Filename: ./debs/com.jtis.doodle_1.2_iphoneos-arm64e.deb
+Size: 3575732
+MD5sum: 3203646c7d13345d659f4f524f350f15
+SHA1: 73811f63fbcb434f912394a49fc1623f60ca261c
+SHA256: be263213f9a3837debcc7839aaffee5183f07cb85961df22599608e9ee669f57
+SHA512: 53d9463b034b4f9423c213f692fbe9624644cc317a079c51baaa9b3563d2f591505fccf014c572f046336ec41079b102c6e8f13618986f27dfb34f7a1fd6ed8e
+Description: Mở khóa thiết bị bằng cách sử dụng hình vẽ.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
+Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
+Name: Doodle (Roothide)
+Author: Ethan Whited
 
 Package: com.jtis.eneko
 Architecture: iphoneos-arm64e
@@ -4514,6 +4771,28 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
 Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Name: AniTime (Roothide)
 Author: yan
+
+Package: dev.theos.orion14
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: System
+Maintainer: Theos Team <support@theos.dev>
+Installed-Size: 514
+Provides: dev.theos.orion (= 1.0.2)
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/dev.theos.orion14_1.0.2_iphoneos-arm64e.deb
+Size: 124430
+MD5sum: a15b48fcff3719e777b88969ac1e63de
+SHA1: 2a4ea077426ab5de804c13257491d6f65281729a
+SHA256: 17c42bffb0ecba6f3a0ef31a358b5f023f8ec4047d2972f3f0aa1796ae186d94
+SHA512: 03efdc4a2ab67a2eea22afd441db11395c10a8ea0257bd43a9ccf96f8a22651769caaf2231866480491f1fb8036be41d88e4e499518d8a1a258401d9ee4964ee
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer, compatible_min::ios14.0
+Author: Theos Team <support@theos.dev>
+Name: Orion Runtime (iOS 14 – 17)
+Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
+Depiction: https://chariz.com/get/orion-runtime14
 
 Package: dev.traurige.libkitten
 Architecture: iphoneos-arm64

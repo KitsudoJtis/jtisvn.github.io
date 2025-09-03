@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Doodle\n\n- Mở khóa thiết bị bằng cách vẽ trên màn hình.\n\n-Bạn đã chán ngán với cách mở khóa điện thoại thông thường? Doodle sẽ thay đổi hoàn toàn trải nghiệm của bạn!\n\n- Tinh chỉnh này cho phép bạn vẽ lên màn hình để mở khóa thiết bị. Thay vì nhập mật khẩu hay dùng Touch ID, bạn có thể tự tạo một hình vẽ độc đáo mang đến trải nghiệm tùy chỉnh mở khóa theo phong cách riêng!\n\n- Đặc biệt, bạn còn có thể tùy chỉnh mọi thứ: từ nét vẽ, màu sắc, cho đến hiệu ứng làm mờ màn hình.\n\n- Chi tiết xem hình ảnh bên dưới.",
+"markdown":" Doodle\n\n- Mở khóa thiết bị bằng cách sử dụng hình vẽ trên màn hình.\n\n- Bạn đã chán ngán với cách mở khóa điện thoại thông thường? Doodle sẽ thay đổi hoàn toàn trải nghiệm của bạn!\n\n- Tinh chỉnh này cho phép bạn vẽ lên màn hình để mở khóa thiết bị. Thay vì nhập mật khẩu hay dùng Touch ID, bạn có thể tự tạo một hình vẽ độc đáo mang đến trải nghiệm tùy chỉnh mở khóa theo phong cách riêng!\n\n- Đặc biệt, bạn còn có thể tùy chỉnh mọi thứ: từ nét vẽ, màu sắc, cho đến hiệu ứng làm mờ màn hình.\n\n- Chi tiết xem hình ảnh bên dưới.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -82,7 +82,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.7.11"
+"text":"iOS 14.0 đến 16.7.11"
 },
 {
 "class":"DepictionLabelView",
@@ -99,7 +99,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.2\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.2\n\n- Sửa lỗi sự cố nhập passcode đúng mà k mở được khoá\n\ n## Phiên bản 1.0\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Phát hàn đầu tiên\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
