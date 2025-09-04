@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Scribble\n\n- Mở khóa thiết bị bằng cách sử dụng hình vẽ lên ên màn hình.\n\n- Tương tự như tweak Doodle, Cho phép  mô phỏng hình vẽ lên màn hình để mở khóa thiết bị. Thay vì nhập mật khẩu hay dùng Touch ID, bạn có thể tự tùy chỉnh màu sắc và tạo hình vẽ độc đáo khác nhau mang đến trải nghiệm mở khóa theo phong cách riêng!\n\n- .",
+"markdown":"Scribble\n\n- Mở khóa thiết bị bằng cách sử dụng hình vẽ lên ên màn hình.\n\n- Tương tự như tweak Doodle, Cho phép mô phỏng hình vẽ lên màn hình để mở khóa thiết bị\n\n- Thay vì nhập mật khẩu hoặc Touch ID, bạn có thể tự tùy chỉnh màu sắc và tạo hình vẽ độc đáo khác nhau theo phong cách riêng mang đến trải nghiệm mở khoá màn hình hiện đại.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
