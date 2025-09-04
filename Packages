@@ -828,6 +828,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Ampere.json
 Icon: https://jtisvn.github.io/sectionIcons/Ampere.png
 
 Package: com.jtis.appdataplus
+Architecture: iphoneos-arm64
+Version: 1.4.0-p
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 2412
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.jtis.iconrepo.roothide
+Filename: ./debs/com.jtis.appdataplus_1.4.0-p_iphoneos-arm64.deb
+Size: 5056728
+MD5sum: 449168c0b961dcdefed9b1832db775b0
+SHA1: d08baed424915c3471b0110d5ec6135cfcb2d876
+SHA256: 07e144479baf2c915b6b35a8f09501e9a1ec7d87cef69faf03e87a81a8b56378
+SHA512: 3ad9c2a4d6f2ecfbb16e933a31b5f43b11c38a07973ac52bc3e343867e4ed6cb04b49df998dc6b378e84ad8c25df318c72b5e0cbc01341488e9c178a13d30a60
+Homepage: https://jtisvn.github.io
+Description: Trình quản lý dữ liệu ứng dụng từ màn hình chính phiên bản được bổ sung thêm chức năng.
+Tag: purpose::extension
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Appdataplus.json
+Name: AppData Plus (Rootless)
+Author: Fouad Raheb & Netskao
+Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
+
+Package: com.jtis.appdataplus
 Architecture: iphoneos-arm64e
 Version: 1.4.0-p
 Section: Tweaks
@@ -836,17 +857,17 @@ Installed-Size: 2412
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.jtis.iconrepo.roothide
 Filename: ./debs/com.jtis.appdataplus_1.4.0-p_iphoneos-arm64e.deb
-Size: 10042084
-MD5sum: ed522801347f6f89310ca65e572b70b4
-SHA1: a5b3e98be4556a2b3cbbef6ebd960a5f23c6e7ad
-SHA256: ff64bae99cafaa4406b731e610be5a006429dda9a00e4f75017580e598f2d3dd
-SHA512: ed14087aeece3884c19552cb178d15d61c6c71e619292032e7a3bdce59cfc2b810bf515e97c7001a48612890d306a0ad9ea7e2887d5d98f3381e086f1ae30e9f
+Size: 5056476
+MD5sum: 5493a994c69649ad636e20492c0610f0
+SHA1: bd94818a8b4cde99c104cafff496fe4d3a61e52d
+SHA256: 48790afd4c141c1ed7b7d02379e8c7b865953a9160ecd0d73282314f794ecf4a
+SHA512: 75a52f1a370d4d74c560f2dba332eb9cb351846b077a35122a981b64992895a3fddd31d1fb19a712b71e44f1ef3315542fe01073da5fe058b8530b875bcb68c1
 Description: Trình quản lý dữ liệu ứng dụng từ màn hình chính phiên bản được bổ sung thêm chức năng.
 Tag: purpose::extension
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Appdataplus.json
 Name: AppData Plus (Roothide)
 Author: Fouad Raheb & Netskao
-Icon: file:///var/jb/Library/IconRepo/tinhchinh.png
+Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
 
 Package: com.jtis.applecard
 Architecture: iphoneos-arm64e
@@ -3190,13 +3211,13 @@ Version: 2.1
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 444
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.2), com.boo.libscribble, com.spark.libsparkcolourpicker, com.jtis.xinam1ne
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.2), com.boo.libscribble, com.spark.libsparkcolourpicker, xyz.cypwn.xinam1ne
 Filename: ./debs/com.jtis.scribble_2.1_iphoneos-arm64.deb
-Size: 42820
-MD5sum: 9bed52ea1edd75a8ba9fc4425f456fb5
-SHA1: 9d29899678090795b44be4b6e350b94a973894ea
-SHA256: 2d65291c8818ba75c093a58e9918d7ebf5a7a6f1763aa93ae65aec7c0bfa7056
-SHA512: 3fc41d08df200b8da58bbc6a17e4bae0c03703f3727e82753299e5368bcdfe582d3b944fe94a492ef31941fefab186b602db3bd9341162a6009958cedb85f202
+Size: 42880
+MD5sum: b9b3f69687af92657b3ed434a5d026d9
+SHA1: 3a55bdd31fca2bbf08526766f13175c40387cffb
+SHA256: 392c18c3a8ae534a9c883f35ad6a91b65932d06f4f05e8c96fbfb94c016734be
+SHA512: 69c9bc3e7bdff4e5bb74f9b7dea358486dd4efa8d60c80010e421f9165ca54af49419dbde6bf63b942ee1533defa5e8b429d23b93044b04135f70933c0ca280c
 Description: Mở khoá bằng cách sử dụng hình vẽ lên màn hình.
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Scribble.json
 Icon: https://jtisvn.github.io/sectionIcons/Scribble.png
@@ -3976,25 +3997,6 @@ Description: Thêm ngôn ngữ Tiếng Việt cho tweak Vizage -Chỉ ap dụng 
 Name: Vizage Gói Việt Hoá (Roothide)
 Author: JTIS Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.jtis.xinam1ne
-Architecture: iphoneos-arm64
-Version: 2.6-3
-Section: System
-Maintainer: CyPwn
-Provides: emt.paisseon.xinamine (= 99)
-Depends: mobilesubstrate, firmware (>= 15.0), gawk, gzip, libclang-cpp14, llvm-14, llvm-14-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
-Replaces: emt.paisseon.xinamine
-Filename: ./debs/com.jtis.xinam1ne_2.6-3_iphoneos-arm64.deb
-Size: 77280
-MD5sum: 76bfa4c25aa1972bee47079e37127c31
-SHA1: 7539a88e75743141b55ede84f2262c3684586a43
-SHA256: 043ec6d9fcb65e50b4fed00540220291072b0b95e0e3c75522e593a49c862d0e
-SHA512: 6345221731cf8608cf7b819938aa3382edec88ea484b2d3913cd963fb6943587145c331c716dc40488ae17c45aa9880476631d9bbdfec495780b2b41fd7eabf0
-Description: Xinamine Official All-in-One bundle. Convert rootful tweaks to rootless (and rootless to rootful) with ease using the Xinam1nePatcher in Filza.
-Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
-Name: Xinam1ne AIO (Rootless)
-Author: Paisseon, Sudo, NoW4U2Kid
 
 Package: com.jtis.zaire
 Architecture: iphoneos-arm64e
@@ -5220,4 +5222,25 @@ Author: HASHBANG Productions <support@hbang.ws>
 Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Depiction: https://chariz.com/get/cephei
 Support: https://hashbang.productions/support/
+
+Package: xyz.cypwn.xinam1ne
+Architecture: iphoneos-arm64
+Version: 2.6-3
+Section: System
+Maintainer: CyPwn
+Provides: emt.paisseon.xinamine (= 99)
+Depends: mobilesubstrate, firmware (>= 15.0), gawk, gzip, libclang-cpp14, llvm-14, llvm-14-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Replaces: emt.paisseon.xinamine
+Filename: ./debs/xyz.cypwn.xinam1ne_2.6-3_iphoneos-arm64.deb
+Size: 77384
+MD5sum: ef231deedd5f9495f0dee92592a5f993
+SHA1: 36779af7b94ec725de7ae85b8e4b960ecd5b00fa
+SHA256: e59a7c581786cdea248f1b12c4f5fc3835b99905d690882c8f60e04a9792966c
+SHA512: 33957dd9cd6b74b5ca306084b4a968eb8216459b6b9bb40542d6b26f38e451854c2083fdbc1cb43872530841675acdfd680d2e05004bec113771ad4173a5f2c3
+Description: Xinamine Official All-in-One bundle. Convert rootful tweaks to rootless (and rootless to rootful) with ease using the Xinam1nePatcher in Filza.
+Depiction: https://repo.cypwn.xyz/depiction/2484
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2484
+Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
+Name: Xinam1ne AIO (Rootless)
+Author: Paisseon, Sudo, NoW4U2Kid
 
