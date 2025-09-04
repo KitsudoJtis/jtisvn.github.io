@@ -181,15 +181,15 @@ Installed-Size: 4360
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.82flex.touchvis_4.0.1_iphoneos-arm64e.deb
-Size: 916524
-MD5sum: 756c7c3a6f1615b48631ac433614eae1
-SHA1: 2decb731d604f10d442de4751b91de6f93c78ae8
-SHA256: fbee4586ca3b29cedfb6b4e2aed85914eb5c9235ca592b98238ffbeab19c79b0
-SHA512: 912fae5003f46ca51978d9f9a8b10e75557fbd424ea3ce40e24ccc82a4c484128f724108873f21288d35cfc5001a5ec6f573244ad1e568f70a5b2ef64c1f9623
+Size: 916532
+MD5sum: 03f7f5f2ebd55a793392f6f8621cbefd
+SHA1: e14f28921d788525f664ab93ad63adc8430d8220
+SHA256: bae2f6d90f8ea160bffaf22982aa26abea7ab7bcce49696c506a3e25f8288e6e
+SHA512: cae77dabf89b3c81f8a92b39167fd2b0a4a343ee1a87378717112c86e6b710d3b2be0fb2722c3aa5f5b83984d9267295aa5b72978de8b759fb8f3ae8a787b69f
 Description: Hiển thị cảm ứng tương tác của bạn trên màn hình.
 Name: Touch-Viz (Roothide)
 Author: Lessica <82flex@gmail.com>
-https: //jtisvn.github.io/sileodepictions/Touchviz.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Touchviz.json
 Icon: https://jtisvn.github.io/sectionIcons/Touchviz.png
 
 Package: com.LLSwitch.roothide
@@ -616,15 +616,15 @@ Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm64
-Version: 1.0.7
+Version: 1.0.8
 Section: Chủ đề
 Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.LiquidglAss_1.0.7_iphoneos-arm64.deb
-Size: 19229316
-MD5sum: 2e39382e12a92d116f5dbe44c20632c7
-SHA1: 5341e7217392d775f1fe0a2b377246328f3c4b1f
-SHA256: d605b20f1dceb1c936874e7ccc430fef042559143cb3e4981a0118d1626ef0e1
-SHA512: 2cca487b198f5ff1b87d7a9c5465e9ec7918237680faea2a595e747abfd1368e2475e6879d48f95dd8d287fd017688f7b8d5b1ae09a97adc0f7382db3b217aab
+Filename: ./debs/com.jtis.LiquidglAss_1.0.8_iphoneos-arm64.deb
+Size: 20334820
+MD5sum: 3d312ef854ef7b114c0fcf5e1fb75111
+SHA1: 4a97eb21a800eed053bd58dae1f6df144edd9846
+SHA256: 0968713508ecb9358193fc37e7ba66573d440591101df002c23b5bb591cd2966
+SHA512: 295b6d88bc0a69a630eaae766cf4f353449a1d9d6652eaacef5bf88d20299c212ea97fac972b8737172292e93d72b8f3931860a86c00298dd29f55d9889db040
 Description: Chủ đề Liquid GlAss
 Name: Liquid Glass Theme
 Author: Nguyên Tokuda & Hoàng MD
@@ -634,15 +634,15 @@ Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm64e
-Version: 1.0.7
+Version: 1.0.8
 Section: Chủ đề
 Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.LiquidglAss_1.0.7_iphoneos-arm64e.deb
-Size: 19229240
-MD5sum: 9680ec6fdf0ea250218cd400e1a05480
-SHA1: da8f9f5f0d2dc01dea38f292d621e7472558db91
-SHA256: 5f5200fec7834b6d7ab1463c27dde2b991b4f965b08c18560ff1df3b0af0039f
-SHA512: 2e11dd8f373bd97eddd0ed8254c4d70fe5c8058bab0d5823e8b0571302e6a3ba83a153e17a3ba494093f49ea8060cfb717b340c27b3852928e88e8a0fcc5b940
+Filename: ./debs/com.jtis.LiquidglAss_1.0.8_iphoneos-arm64e.deb
+Size: 20335072
+MD5sum: f96388b1450c2600b9f29493f4da3db6
+SHA1: 5681353821fa025b551580086166a74d6300ccda
+SHA256: 2ee1737fc46fc4fa562f469e920f7e84620283902041ca743fbe1545befc2166
+SHA512: f215b2d7968af82b19651158558e1f3113a2398a950fa651aac29e3ff218f9cd370fef84ba33b18e157d5c380f0142ea2ab45a6de3d5daa829ae3a3f4168d514
 Description: Chủ đề Liquid GlAss
 Name: Liquid Glass Theme
 Author: Nguyên Tokuda & Hoàng MD

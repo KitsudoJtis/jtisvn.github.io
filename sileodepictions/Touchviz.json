@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"Tinh chỉnh tốt nhất hiển thị các hiệu ứng chỉ báo trực quan khi tương tác cảm ưng lên màn hình.\n\nㅤ\n\n+ Hiệu ứng hoạt ảnh\n\n+ Không bị chặn hoặc trễ cảm ứng\n\n+ Hỗ trợ đa điểm và IPad\n\n+ Tự động ẩn khi ở chế độ 'Reachability' (chế độ thu nhỏ màn hình)\n\n+ Hỗ trợ chuyển đổi qua Trung tâm điều khiển (tùy chọn, phụ thuộc vào việc có CC Support hay không).\n\n- Xem hình ảnh bên dưới để biết chi tiết.",
+"markdown":"Tinh chỉnh tốt nhất hiển thị các hiệu ứng chỉ báo trực quan khi tương tác cảm ưng lên màn hình.\n\n+ Hiệu ứng hoạt ảnh\n\n+ Không bị chặn hoặc trễ cảm ứng\n\n+ Hỗ trợ đa điểm và IPad\n\n+ Tự động ẩn khi ở chế độ 'Reachability' (chế độ thu nhỏ màn hình)\n\n+ Hỗ trợ chuyển đổi qua Trung tâm điều khiển (tùy chọn, phụ thuộc vào việc có CC Support hay không).\n\n- Xem hình ảnh bên dưới để biết chi tiết.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -73,7 +73,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"25/7/2025"
+"text":"19/5/2025"
 },
 {
 "class":"DepictionTableTextView",
