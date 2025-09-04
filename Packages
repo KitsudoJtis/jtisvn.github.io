@@ -172,6 +172,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariX.json
 Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
 Author: 0xkuj
 
+Package: com.82flex.touchvis
+Architecture: iphoneos-arm64e
+Version: 4.0.1
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 4360
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.82flex.touchvis_4.0.1_iphoneos-arm64e.deb
+Size: 916524
+MD5sum: 756c7c3a6f1615b48631ac433614eae1
+SHA1: 2decb731d604f10d442de4751b91de6f93c78ae8
+SHA256: fbee4586ca3b29cedfb6b4e2aed85914eb5c9235ca592b98238ffbeab19c79b0
+SHA512: 912fae5003f46ca51978d9f9a8b10e75557fbd424ea3ce40e24ccc82a4c484128f724108873f21288d35cfc5001a5ec6f573244ad1e568f70a5b2ef64c1f9623
+Description: Hiển thị cảm ứng tương tác của bạn trên màn hình.
+Name: Touch-Viz (Roothide)
+Author: Lessica <82flex@gmail.com>
+https: //jtisvn.github.io/sileodepictions/Touchviz.json
+Icon: https://jtisvn.github.io/sectionIcons/Touchviz.png
+
 Package: com.LLSwitch.roothide
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -1014,15 +1034,15 @@ Installed-Size: 692
 Depends: mobilesubstrate, firmware (>= 11.0)
 Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon
 Filename: ./debs/com.jtis.axon_1.5.5_iphoneos-arm64e.deb
-Size: 145484
-MD5sum: 9f85044299e04c294564b7eb74cb7ba2
-SHA1: f16a8d651a2c8790885223eb495986833fbec2e6
-SHA256: fcc04ce41441342ee4c116e1c158d9a892643a1c93e5b3f7a4ca8eb29f1feff3
-SHA512: f4ac01148070e1cf362acddd7c3614c9f728af0f632ac0bb0c0e6d76c782262462d365a0c98c31ab637c99220a0f2849cb82af8dc083c1e12983c87c781e67ef
+Size: 145480
+MD5sum: ed49762663b760f879e7613a82730cdf
+SHA1: 38b102db843df23bec7bbbf128e20b3b4d377d24
+SHA256: e2a7ca01b1fe3cb6a6cb89f3806ef223192236b65cc736ee0d6c7e3ceb775106
+SHA512: 051bb8372e7c7e9dab8b0ef987010e371d355714827c76f5986702a66da05bc6672901d00fce9cb7922d867abacb11f9b9696aecd9ff72498fbb787db40a0073
 Description: Gom nhóm thông báo trên màn hình khoá - Hỗ trợ IOS 15/16.
 Name: Axon (RootHide)
 Author: Nepeta & Baw Appie
-SileoDepiction:  SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
 Icon: https://jtisvn.github.io/sectionIcons/Axon.png
 
 Package: com.jtis.batteryinfo.r2
