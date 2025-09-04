@@ -1,0 +1,124 @@
+{
+"minVersion":"0.4",
+"headerImage":"https://jtisvn.github.io/coverimageAimPro.png",
+"tintColor":"#5777B8",
+"tabs":[
+{
+"tabname":"Chi tiết",
+"views":[
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/AimPro/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/AimPro/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/AimPro/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/AimPro/Screenshots/4.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/AimPro/Screenshots/5.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/AimPro/Screenshots/6.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"AIM Pro - Mang phong cách Màn hình Khóa kiểu iOS 16\n\n- AIM Pro là phiên bản hoàn hảo của AIM, giờ đây có thể tùy chỉnh trên Màn hình Khóa hoặc Trung tâm Thông báo.\n\n- AIM Pro chỉ thêm các tùy chỉnh cho màn hình khóa. Do đó, tôi chỉ bán tính năng tùy chỉnh màn hình khóa, không bán AIM và như bạn thấy, nó hiện đang miễn phí.\n\nㅤ\n\nCac tnhs năng\n\n- Thời gian\n\n+ Tùy chỉnh phông chữ\n\n+ Tùy chỉnh cỡ chữ \n\n+ Tùy chỉnh màu sắc\n\n+ Tùy chỉnh vị trí\n\n+ Căn chỉnh\n\nㅤ\n\n- Ngày tháng\n\n+ Tùy chỉnh phông chữ\n\n+ Tùy chỉnh cỡ chữ \n\n+ Tùy chỉnh màu sắc\n\n+ Tùy chỉnh vị trí\n\n+ Căn chỉnh\n\n+ Tùy chỉnh Ngày tháng (Kiểu: chữ Hoa, chữ thường, viết Hoa chữ cái đầu, không dùng)\n\nㅤ\n\n- Tiện ích (Widget)\n\n+ Tùy chính tiện ích\n\n+ Tùy chỉnh màu sắc\n\n+ Tùy chỉnh vị trí\n\n- Lưu ý: Phông chữ tùy chỉnh đặt ở: đường dẫn /Library/Application Support/AIMFont (định dạng .ttf/.otf/.woff)\n\n- Để thay đổi tùy chỉnh màu cầu vồng trên màn hình khóa bằng công cụ chọn màu, hãy giữ vào phần màu cầu vồng để hiển thị danh sách màu..",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Tham gia nhóm "
+},
+{
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Thông tin"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Tác giả",
+"text":"alimaulana"
+},
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1.3" },
+{
+"class":"DepictionTableTextView",
+"title":"Thể loại",
+"text":"Tweaks"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Ngày tải lên",
+"text":"27/7/2025"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Khả năng tương thích",
+"text":"iOS 14.0 đến 16.5"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionTableButtonView",
+"title":"Liên hệ & Hỗ trợ",
+"action":"https://jtisvn.github.io/donate/donate.html",
+"openExternal":"true",
+"tintColor":"#5777B8"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.1.3\n\n- Thêm tùy chỉnh hiệu ứng kính nhãn thời gian\n\n- Thêm ngôn nggữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
