@@ -3986,14 +3986,14 @@ Provides: emt.paisseon.xinamine (= 99)
 Depends: mobilesubstrate, firmware (>= 15.0), gawk, gzip, libclang-cpp14, llvm-14, llvm-14-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
 Replaces: emt.paisseon.xinamine
 Filename: ./debs/com.jtis.xinam1ne_2.6-3_iphoneos-arm64.deb
-Size: 77280
-MD5sum: da4ef04eda46742a7ffa6de8f6713729
-SHA1: 1726108583bd363fdcae50702fd9938c13fbd7c8
-SHA256: 94fa85fef6eb3a3e6bc30073f13e60f0d5d6ceda1937646afccb79ba81a9676b
-SHA512: 98a71f470cfc3e789c98de181760a2f9918b3e6860be0bf60685ad25e277a330d52d256cafaba8651566aa474e75842a515226bcc59d4aef37c3208df1cbafa9
+Size: 77284
+MD5sum: 286e87d145bcd0e3dcdbe241fd165d19
+SHA1: 0fa32c4093810dc64279e31ff869ed1e68c83cca
+SHA256: c91eb2eecff2fc69b11b57183a5e5a2c4962338d0921cd5e93cf94162e2a4e87
+SHA512: 0358d6cc463d0c383a014135f09ccab359d137dee4c0cb66e4042a44a3c72cf28dbc149daad64773dc27c3a17d4c39711d8fc151dbc5443f53b282e2f91103f5
 Description: Xinamine Official All-in-One bundle. Convert rootful tweaks to rootless (and rootless to rootful) with ease using the Xinam1nePatcher in Filza.
 Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
-Name: Xinam1ne AIO
+Name: Xinam1ne AIO (Rootless)
 Author: Paisseon, Sudo, NoW4U2Kid
 
 Package: com.jtis.zaire
