@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"AppDate Plus\n\n- Trình quản lý xem và truy cập dữ liệu ứng dụng của bạn bằng cách vuốt lên biểu tượng từ màn hình chính\n\nㅤ\n\nChức năng gồm có:\n\n- Hạ cấp và chỉnh sửa tên ứng dụng.\n\n- Xem phiên bản và sao chép Bundle ID ứng dụng.\n\n- Kiểm tra kích thước, dữ liệu và bộ đệm ứng dụng.\n\n- Đặt lại quyền, xoá dữ liệu và bộ nhớ đệm ứng dụng.\n\n- Truy cập nhanh các nhóm gọi ứng dụng và vùng chứa úng dụng.",
+"markdown":"AppDate Plus\n\n- Trình quản lý xem và truy cập dữ liệu ứng dụng của bạn bằng cách vuốt lên biểu tượng từ màn hình chính\n\n- Chức năng gồm có:\n\n- Hạ cấp và chỉnh sửa tên ứng dụng.\n\n- Xem phiên bản và sao chép Bundle ID ứng dụng.\n\n- Kiểm tra kích thước, dữ liệu và bộ đệm ứng dụng.\n\n- Đặt lại quyền, xoá dữ liệu và bộ nhớ đệm ứng dụng.\n\n- Truy cập nhanh các nhóm gọi ứng dụng và vùng chứa úng dụng.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
