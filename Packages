@@ -4004,38 +4004,37 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Vitreux.json
 Package: com.jtis.vizagevh
 Architecture: iphoneos-arm64
 Version: 1.0.2
-Section: Gói
-Maintainer: JTIS Repo
+Section: Gói Tiếng Việt
+Maintainer: JTISVN Repo
 Installed-Size: 36568
 Depends: mobilesubstrate
-Filename: ./debs/com.jtis.vizagevh_1.0.2_iphoneos-arm64.deb
-Size: 1636
-MD5sum: 09662050ab6337fe70a6f30be47372b0
-SHA1: 10a883afa723a2694450ab02e9e7ed288f72ed91
-SHA256: 84c88e028288ec9d7eabcadbfc4c45701ccb05fccdf6c5429d05fedf26418b53
-SHA512: a193051282164d335c5d9d80339c6e9b95ebdddf8b07b1587a03eaf41b0d32a1f4263459b22e2cc34d37737b47e8490aedf15259dbb7d0ba81ea284304946c6d
+Filename: ./debs/com.jtis.vizagevh_1.0.2_iphoneos-arm64 (1).deb
+Size: 1644
+MD5sum: 55efb485101218ad85977146a54fac43
+SHA1: 1b1e64473d6b97689574d55c693b2c4cc293e4d5
+SHA256: f37d518d10238377c3aafdc1db9715e21c3d11ee709fc5ff9a499a312dc51398
+SHA512: 1c42c708994106511f02bd5e81ff7c0eae40e50b576fe6de94935e19a16d68bdf9e25d6efaf65e7d14d328fdb06af1c773349c2a8b947594768143f396c53cdd
 Description: Patch Tiếng Việt cho tweak Vizage -Chỉ ap dụng cho tweak đã thanh toán trên nguồn Havoc.
 Name: Vizage Gói Việt Hoá (Rootless)
-Author: JTIS Repo
+Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.jtis.vizagevh
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Version: 1.0.2
-Section: Gói
-Maintainer: JTIS Repo
+Section: Gói Tiếng Việt
+Maintainer: JTISVN Repo
 Installed-Size: 36568
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
-Filename: ./debs/com.jtis.vizagevh_1.0.2_iphoneos-arm64e.deb
-Size: 2108
-MD5sum: 831271262165f51f803695dec1842427
-SHA1: a700388598d97ab83378d72950b641d30c9995ed
-SHA256: 33914acb37fbafc13055b5321ad485eb0e0769cebfa9d6d956c394191ac0d5bc
-SHA512: 33c090af4917cb2da458c59e59e3abc3677d886a672740c786df429b148fda372eacec7589bf704e95a535fadf7be8a0182dee24da5afff11ddfd55c68f03e40
-Description: Thêm ngôn ngữ Tiếng Việt cho tweak Vizage -Chỉ ap dụng cho tweak đã thanh toán trên nguồn Havoc.
-Name: Vizage Gói Việt Hoá (Roothide)
-Author: JTIS Repo
+Filename: ./debs/com.jtis.vizagevh_1.0.2_iphoneos-arm64.deb
+Size: 1644
+MD5sum: 44a34b12117989ed9f4a3d0f0b132be6
+SHA1: 305d5866ab0fbdc3bd88e78cb54729f3ec054b51
+SHA256: cbb15f148ac86657cbbef51b4a86ad7009f2d886f67a6c8aec675234913bd819
+SHA512: 5a755d5cc33a13db4cb7ff95556ad532fe9e8ab18fd0ead171e4ab066d79976f30b8a4ec90d6b6951f7c1b3680f30adeb81861f1037b0e73904290d661aa5168
+Description: Patch Tiếng Việt cho tweak Vizage -Chỉ ap dụng cho tweak đã thanh toán trên nguồn Havoc.
+Name: Vizage Gói Việt Hoá (Rootless)
+Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.jtis.zaire
