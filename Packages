@@ -1996,61 +1996,6 @@ Author: Ginsu
 Icon: https://jtisvn.github.io/sectionIcons/Dodo.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Dodo.json
 
-Package: com.jtis.doodle
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Tweaks
-Maintainer: JTISVN Repo
-Depends: preferenceloader
-Filename: ./debs/com.jtis.doodle_1.0_iphoneos-arm64.deb
-Size: 3578112
-MD5sum: 029bf57c7178ebdb2cdfae460d010820
-SHA1: 7d99af1eeb94f52606606e433e8486182f69833d
-SHA256: abe308f7cd34e44332112137d3ac97b7e3e0996cc57ee4713275735f88064bf3
-SHA512: 0ac6ad9467cf5eb55bc755eddd94e78f8d58d6492954b50e3da063f9a90ed8bbea191479d40c23d0ce5f9d329ff407a1d954f30541e48a572b72a85b3e7a4dd9
-Description: Unlock device using a doodle
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
-Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
-Name: Doodle (Rootless)
-Author: Ethan Whited
-
-Package: com.jtis.doodle
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Tweaks
-Maintainer: JTISVN Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: preferenceloader
-Filename: ./debs/com.jtis.doodle_1.0_iphoneos-arm64e.deb
-Size: 3576440
-MD5sum: 1ba4486b04fe358e02203a0119ab0eff
-SHA1: eba20d727377e0886f49ecc539f5ecaf4c649d6c
-SHA256: 8a1827903292618d1795f1c5ca75dfac4937f1e87fbc2d62be0f717bcc743ef6
-SHA512: 479ab95add7f9680808da0bd4c7b88dece5d21d6e500a2cf2af7cc1cf8bc8ad1a0185663931868be35b420522ca3913bd694038f9e2b21a8d0a6aa80ec3de61a
-Description: Unlock device using a doodle
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
-Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
-Name: Doodle (Roothide)
-Author: Ethan Whited
-
-Package: com.jtis.doodle
-Architecture: iphoneos-arm64
-Version: 1.2
-Section: Tweaks
-Maintainer: JTISVN Repo
-Depends: preferenceloader
-Filename: ./debs/com.jtis.doodle_1.2_iphoneos-arm64.deb
-Size: 3576868
-MD5sum: d77db7fd8880ad4f123b012f70d74d1c
-SHA1: 175e91a1615c33869b9cc553f7a18070694ffc7c
-SHA256: 92c94f40f64cde92dfdff06f849495d2afd4880b5eb8b0ee0ccfdfad635bdbbd
-SHA512: dd4328535c48804bee69d2704bc1275cd11c4240e493f21b226d97e90a480f4cde93782c770881d0df9dd4defb8c7438105936ead93c3c4129308ff4994b6c5f
-Description: Mở khóa thiết bị bằng cách sử dụng hình vẽ.
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
-Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
-Name: Doodle (Rootless)
-Author: Ethan Whited
-
 Package: com.jtis.eneko
 Architecture: iphoneos-arm64e
 Version: 1.4.2
