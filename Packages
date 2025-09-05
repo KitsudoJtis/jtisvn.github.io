@@ -2051,25 +2051,6 @@ Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
 Name: Doodle (Rootless)
 Author: Ethan Whited
 
-Package: com.jtis.doodle
-Architecture: iphoneos-arm64e
-Version: 1.2
-Section: Tweaks
-Maintainer: JTISVN Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: preferenceloader
-Filename: ./debs/com.jtis.doodle_1.2_iphoneos-arm64e.deb
-Size: 3575660
-MD5sum: 80c8e2863f4ee67e8beb33d77d0ee904
-SHA1: cd9f50fafc0326363f392efcfdaf070aec6096ed
-SHA256: f597bebdf49807e21acd24dfc89409bf43e9d1fa2cd7a188cccf4aa0fbbb8e1b
-SHA512: e73b7a12fba01618f19fdf722f3a92853971548495b90a3fcd85f619c7248a24329f7428d62391bedd378940c7d6315d3ad8edf336ec87130e2bbbd5aaa66f50
-Description: Mở khóa thiết bị bằng cách sử dụng hình vẽ.
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
-Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
-Name: Doodle (Roothide)
-Author: Ethan Whited
-
 Package: com.jtis.eneko
 Architecture: iphoneos-arm64e
 Version: 1.4.2
@@ -5186,6 +5167,26 @@ Author: HASHBANG Productions <support@hbang.ws>
 Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Depiction: https://chariz.com/get/cephei
 Support: https://hashbang.productions/support/
+
+Package: xyz.cypwn.doodle
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: preferenceloader
+Filename: ./debs/xyz.cypwn.doodle_1.2_iphoneos-arm64e.deb
+Size: 3580380
+MD5sum: d74a4334fe45709af3dbb48ecc554d75
+SHA1: a16b9847388f3ddbee480b4041a4d972c2223dcf
+SHA256: 24f76c864f84a4bead71e697a73abaad4469980961a22395fb2ed002a3523f6a
+SHA512: 5ab110c4659d2690a7c28950a3c9429d782f74442f4c56ef58a6b1c23ec8e996e38c5d1c596cb42d73a66174826ac2e3122a71faaa7da50d75a89a27febf35f9
+Description: Unlock device using a doodle
+Depiction: https://repo.cypwn.xyz/depiction/2756
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
+Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
+Name: Doodle (Roothide)
+Author: Ethan Whited
 
 Package: xyz.cypwn.xinam1ne
 Architecture: iphoneos-arm64

@@ -95,7 +95,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 4.0.1\n\n- Sửa lỗi không thể thay hình trong 1 số trường hợp\n\n- Thêm ngôn ngữ Tiếng việt\n\n- Hỗ trợ Roothide Jailbreak"
+"markdown":"### Phiên bản 4.0.1\n\n- Sửa lỗi không thể thay hình ảnh trong 1 số trường hợp\n\n- Thêm ngôn ngữ Tiếng việt\n\n- Hỗ trợ Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
