@@ -4646,6 +4646,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/SnowBoard.json
 Tags: compatible_min::ios15.0, compatible_max::ios17.3
 Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
 
+Package: com.squidforce.copyvault
+Architecture: iphoneos-arm64e
+Version: 1.9.0
+Section: Tweaks
+Maintainer: SquidForce
+Installed-Size: 6304
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/com.squidforce.copyvault_1.9.0_iphoneos-arm64e.deb
+Size: 1669504
+MD5sum: 9d09b8737a02e4e73d4cf8bd50c52d1f
+SHA1: 38c1f3441071148b27b59f92add4fd98606b5292
+SHA256: 6493ebdf9be7a2c3d6d878f69cc66a55150dd8a4242f6f88f092580e5d0ba875
+SHA512: e700d5726cb2e97417554dd8c83d510b5e5104ea19cc6673bfafd97a565d383bd903f3c3da83836309ec75ba366322437175de26fea9a094d01e070e35b9f093
+Description: Your Copy Vault, Your Pasteboard
+Name: CopyVault (Roothide)
+Author: SquidForce
+icon: https://media.havoc.app/66424f2de151fb3d56c76edb
+
 Package: com.udevs.dockx
 Architecture: iphoneos-arm64e
 Version: 2.6.2
