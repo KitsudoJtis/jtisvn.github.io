@@ -2354,6 +2354,23 @@ Description: Mang thao tác vuốt của iPhone X lên các dòng iPhone đời 
 Name: GesturesXV (Roothide)
 Author: Ethan Whited
 
+Package: com.jtis.glcolor
+Architecture: iphoneos-arm64
+Version: 1..0
+Section: Chủ đề
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.glcolor_1..0_iphoneos-arm64.deb
+Size: 87450180
+MD5sum: 15b677adc72bb72bbb5e676b408beecd
+SHA1: dbf6d01f0be4fba4392caa77d1fe7c319cab538b
+SHA256: 51240448844d3580bf39c511831583ef4d330c8cfddfc2b683f491806f91c34f
+SHA512: 4fbb5bdbe9ffe083ab335a5f900589d9a4ac3f52969edb5fe60369a1deb0269622f5459dd01df577df9a16209c43606f24dad7895cfeb93655fbaf94a813e996
+Description: Chủ đề Liquid Glass Color
+Name: GL Color Theme
+Author: Miss
+SileoDepiction: https://jtisvn.github.io/sileodepictions/GL-color.json
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
 Package: com.jtis.gravitation
 Architecture: iphoneos-arm64
 Version: 4.0
@@ -4645,25 +4662,6 @@ https: //jtisvn.github.io/depictions/SnowBoard.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SnowBoard.json
 Tags: compatible_min::ios15.0, compatible_max::ios17.3
 Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
-
-Package: com.squidforce.copyvault
-Architecture: iphoneos-arm64e
-Version: 1.9.0
-Section: Tweaks
-Maintainer: SquidForce
-Installed-Size: 6304
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debs/com.squidforce.copyvault_1.9.0_iphoneos-arm64e.deb
-Size: 1669504
-MD5sum: 9d09b8737a02e4e73d4cf8bd50c52d1f
-SHA1: 38c1f3441071148b27b59f92add4fd98606b5292
-SHA256: 6493ebdf9be7a2c3d6d878f69cc66a55150dd8a4242f6f88f092580e5d0ba875
-SHA512: e700d5726cb2e97417554dd8c83d510b5e5104ea19cc6673bfafd97a565d383bd903f3c3da83836309ec75ba366322437175de26fea9a094d01e070e35b9f093
-Description: Your Copy Vault, Your Pasteboard
-Name: CopyVault (Roothide)
-Author: SquidForce
-icon: https://media.havoc.app/66424f2de151fb3d56c76edb
 
 Package: com.udevs.dockx
 Architecture: iphoneos-arm64e
