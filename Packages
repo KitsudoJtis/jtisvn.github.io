@@ -308,27 +308,6 @@ Depiction: https://ginsu.dev/#/depiction/com.ginsu.gscore
 Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
 SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
 
-Package: com.ginsu.gscore
-Architecture: iphoneos-arm64e
-Version: 1.1.1
-Section: Tweaks
-Maintainer: Ginsu
-Installed-Size: 4340
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: ./debs/com.ginsu.gscore_1.1.1_iphoneos-arm64e.deb
-Size: 447392
-MD5sum: 3a4379bfee79bf54a940d31bebf21b6a
-SHA1: 0fec8dd475384ab472f9750021c7d68e693104c4
-SHA256: 62b641df62c69535159a04b3bc8cc005f0dccfe2d257fccf4042826248533eeb
-SHA512: 02c2310160c9e936f202df9453904384e28c2ae45d40631274391e9056901fbca7837dbed4709e042cbd983fcf69fdf8ee884981db66255a892f82bc3ff6b5f9
-Description: Environment and communication between my tweaks
-Name: GSCore (Roothide)
-Author: Ginsu
-Depiction: https://ginsu.dev/#/depiction/com.ginsu.gscore
-Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
-SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
-
 Package: com.ginsu.gsweather
 Architecture: iphoneos-arm64
 Version: 1.1.1
