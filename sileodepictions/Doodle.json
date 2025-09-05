@@ -68,7 +68,7 @@
 "title":"Tác giả",
 "text":"Ethan Whited"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.2" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.2k" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -99,7 +99,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.2\n\n- Sửa lỗi sự cố không hiện hình vẽ\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.2k\n\n- Sửa lỗi sự cố không hiển thị hình vẽ trên màn hình khoá\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"

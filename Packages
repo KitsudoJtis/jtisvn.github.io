@@ -5110,18 +5110,37 @@ Depiction: https://chariz.com/get/cephei
 Support: https://hashbang.productions/support/
 
 Package: xyz.cypwn.doodle
+Architecture: iphoneos-arm64
+Version: 1.2k
+Section: Tweaks
+Maintainer: CyPwn
+Depends: preferenceloader
+Filename: ./debs/xyz.cypwn.doodle_1.2k_iphoneos-arm64.deb
+Size: 3576708
+MD5sum: 4a9132f8212b7cf7ee2fb7368f5024d9
+SHA1: 92e7e2a3b4368dd841929c93460e3d5f6da1c03a
+SHA256: 9abf6a6b1e2558922d82033f1e5a35370ef4bdc2bd1e6993df20b0810d1fa50b
+SHA512: e63c00da0af97c87b79c238f4a2136e26744123587adc549ac47deca7dc6bd8ed4b83be7f026bd5bdbff5af1554ff0683bf59e31f0f89a1ae7a83bb87ee2c417
+Description: Unlock device using a doodle
+Depiction: https://repo.cypwn.xyz/depiction/2756
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
+Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
+Name: Doodle
+Author: Ethan Whited
+
+Package: xyz.cypwn.doodle
 Architecture: iphoneos-arm64e
-Version: 1.2
+Version: 1.2k
 Section: Tweaks
 Maintainer: CyPwn
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: preferenceloader
-Filename: ./debs/xyz.cypwn.doodle_1.2_iphoneos-arm64e.deb
-Size: 3580380
-MD5sum: d74a4334fe45709af3dbb48ecc554d75
-SHA1: a16b9847388f3ddbee480b4041a4d972c2223dcf
-SHA256: 24f76c864f84a4bead71e697a73abaad4469980961a22395fb2ed002a3523f6a
-SHA512: 5ab110c4659d2690a7c28950a3c9429d782f74442f4c56ef58a6b1c23ec8e996e38c5d1c596cb42d73a66174826ac2e3122a71faaa7da50d75a89a27febf35f9
+Filename: ./debs/xyz.cypwn.doodle_1.2k_iphoneos-arm64e.deb
+Size: 3580400
+MD5sum: 637e4a0c74a8f5fcb32e2aadf736b8af
+SHA1: 572d552699e348f21469c789cb1e208f2eaed77b
+SHA256: e4a053d36211b1b47799fb85be261d35282c986e81263e1476517235a5836b66
+SHA512: c59643ca20d72e65db02753881e1dbd3682f19b5f0da093da9180ab4d190b66814546df2ee6c0c10a96422055a1049f10ce74e414e5966c139477dd59cb917fa
 Description: Unlock device using a doodle
 Depiction: https://repo.cypwn.xyz/depiction/2756
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
