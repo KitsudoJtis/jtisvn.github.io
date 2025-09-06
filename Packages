@@ -594,6 +594,23 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/LSBlueDragon.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
 Package: com.jtis.LiquidglAss
+Architecture: iphoneos-arm
+Version: 1.0.8
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.LiquidglAss_1.0.8_iphoneos-arm.deb
+Size: 20733780
+MD5sum: 685fb849352e131f7260c58db02d9792
+SHA1: db175df3a79b3fe59c3ddd0d55ec9a47ea401d1a
+SHA256: 0faf9a6f131deb38b0a29b317ffab49b02408cc2d3ac0371cb2057b15a1df2e0
+SHA512: f41ecb5efcb82485f883c034770b696518d956645e316078b76a5836031a2391621acea2e8d03554da5e47bb76e049eec45d653f0c7f615255875c7682318ed2
+Description: Chủ đề Liquid GlAss
+Name: Liquid Glass Theme
+Author: Nguyên Tokuda & Hoàng MD
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm64
 Version: 1.0.8
 Section: Chủ đề
