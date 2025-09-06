@@ -599,11 +599,11 @@ Version: 1.0.8
 Section: Chủ đề
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.LiquidglAss_1.0.8_iphoneos-arm64.deb
-Size: 20334820
-MD5sum: 3d312ef854ef7b114c0fcf5e1fb75111
-SHA1: 4a97eb21a800eed053bd58dae1f6df144edd9846
-SHA256: 0968713508ecb9358193fc37e7ba66573d440591101df002c23b5bb591cd2966
-SHA512: 295b6d88bc0a69a630eaae766cf4f353449a1d9d6652eaacef5bf88d20299c212ea97fac972b8737172292e93d72b8f3931860a86c00298dd29f55d9889db040
+Size: 20733768
+MD5sum: 21c93900c231b8f76ddd806d495c854e
+SHA1: e2afce1b4fb3a7df28d5022b6242494f55dc18c9
+SHA256: 992ec886f5b83fd246acb51ef9b9abe8d852e161174f1cb5dcf3c8ff811bbc4b
+SHA512: 164d5b384ad6f4885a5dc846ef9f4609725648a68f038e7dda9fc9d186b04121e73cfc7c25e7ad3f1769b83431b934575be1add7a79e83fc32b5eeb0c50f7e22
 Description: Chủ đề Liquid GlAss
 Name: Liquid Glass Theme
 Author: Nguyên Tokuda & Hoàng MD
@@ -617,11 +617,11 @@ Version: 1.0.8
 Section: Chủ đề
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.LiquidglAss_1.0.8_iphoneos-arm64e.deb
-Size: 20335072
-MD5sum: f96388b1450c2600b9f29493f4da3db6
-SHA1: 5681353821fa025b551580086166a74d6300ccda
-SHA256: 2ee1737fc46fc4fa562f469e920f7e84620283902041ca743fbe1545befc2166
-SHA512: f215b2d7968af82b19651158558e1f3113a2398a950fa651aac29e3ff218f9cd370fef84ba33b18e157d5c380f0142ea2ab45a6de3d5daa829ae3a3f4168d514
+Size: 20733600
+MD5sum: 5c03728cae6e0e9f6056dc50fdbfc7cb
+SHA1: 991983cf5b08821134c8f969266f7e99fe22c993
+SHA256: 9849812c83b12c7724abd1ae67e894f9652302bdf91b26ea0c579805855c4c95
+SHA512: cea10f2b3371718e9f1bc9c25d048ad8b564953bc47f46bf29c12b3ecb0b279d214b9cea52a4635d6c8927195b7e64399eef3a6846631418c0df68f208789ef5
 Description: Chủ đề Liquid GlAss
 Name: Liquid Glass Theme
 Author: Nguyên Tokuda & Hoàng MD
@@ -2136,11 +2136,11 @@ Installed-Size: 508
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
 Filename: ./debs/com.jtis.floaty_1.0_iphoneos-arm64e.deb
-Size: 58292
-MD5sum: 0aac2f8a70c5a25ddca034e2de76056c
-SHA1: aaf8fc7a3ae3f33ce6104bd3d5ec7da0f74db7d1
-SHA256: 39d86210862f7a2438b31454d8aae1e40055061ccc8458773191224b2756c90e
-SHA512: 4c1cfb4e808d4c81bef36da40848fb02b11958870a7c3523ef9d2caae9b9afe150fb24f37ff40d2b9517a189364e2c3aeb5a744c8d9987012c2e64bc45e278d0
+Size: 58296
+MD5sum: 70c0ce2300f6ad3c4da87fcdb9526d78
+SHA1: 4794e5cb91bad7f393dd249a81e5add8d92b75fd
+SHA256: 06f49dd8dcf68c3a2a5990944d2f1980e5724ca3c2017d7b0a27024eadc2b431
+SHA512: 810e8530c13b1032be3a22d4367b7d51975cf4257634897afeb82647984d461e79902cdf8130c85c6738b7d941c6bc601dae63b08f4a76138597c641f22068c5
 Description: Your Banners, Reimagined!
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Floaty.json
 Icon: https://jtisvn.github.io/sectionIcons/Floaty.png
@@ -2762,16 +2762,16 @@ Package: com.jtis.looky
 Architecture: iphoneos-arm64e
 Version: 1.0.4
 Section: Tweaks
-Maintainer: Bvn repo
+Maintainer: JTIS repo
 Installed-Size: 456
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
 Filename: ./debs/com.jtis.looky_1.0.4_iphoneos-arm64e.deb
-Size: 53436
-MD5sum: 784f6ca600af6321bda1494434cc152d
-SHA1: 0272133625b7562bdde10161f0cbf0f2e1547907
-SHA256: 95d1d0ea474092030d4e3a8d4750bd3f47964b2d55aebd76f58712889b7cf7d8
-SHA512: 8209f4bf6c4a4db12553eefee40fd86833203d59e66793e960ea4e44ba9a338819fc683e04f218f8afd5b8e3760a8a8e29b6c09634add409bd13d4c8647024eb
+Size: 53504
+MD5sum: bcaf2e4985d3481979c017f231390cdd
+SHA1: 0e740c9c9008f034b0162a620075af7e807208a2
+SHA256: b034521f947639250871f1ebc1ec2db1b6bee38f4bc35d7e96ea6e384b821766
+SHA512: 88e22c81861acf0ec24eaf1c1e078e1fc5d0655a1b8543104e1a18c26b59069395ef809c884179629fbd35e7a327bc64bc5fedbbe247385fedcc7c2ce8575bf4
 Description: Luôn cập nhật thông báo mà không cần mở khoá thiết bị.
 Name: Looky (Roothide)
 Author: EllaSP
@@ -2816,6 +2816,45 @@ Name: Looky (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
 Icon: https://jtisvn.github.io/sectionIcons/Looky.png
 Author: EllaSP
+
+Package: com.jtis.looky
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 460
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.jtis.looky_1.0.6_iphoneos-arm64.deb
+Size: 56832
+MD5sum: 5ff3d8d14365d431a3663717124048ac
+SHA1: b087d19d38b1fde07d605a0f9d2252df700a8685
+SHA256: 1823716a0a379edb6bbc973fde131fb3a113679c50d33de7eb4908a794a45af3
+SHA512: e8d85d76e434bcf258799b2f6767f582ebdd4a6e9bac73ed657e8dc65a719dae51d20778d5383913acf01cfcd2b169318bb082cdb08c584b0d15675a1759dfeb
+Description: Luôn cập nhật thông báo mà không cần mở khoá thiết bị.
+Name: Looky (Rootless)
+Author: EllaSP
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
+Icon: https://jtisvn.github.io/sectionIcons/Looky.png
+
+Package: com.jtis.looky
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 460
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.jtis.looky_1.0.6_iphoneos-arm64e.deb
+Size: 55584
+MD5sum: 7450640010e4b9a98514856f8ec16ebe
+SHA1: 58addc497f356e64193edffdc471ef7d9a0bf69b
+SHA256: 29a96cbb52522c4fe2ba0bbd509b29a93452c6b2da25ea5bb5d82cb0364c52df
+SHA512: 394ecf7ae43c0d48669d0c4b9766d7855a5ce88345b348473102a6ce5ea7e98297d8f89516ab30b7ccf1b2b6d50eb8f952cc81a8ae5ab66bdaebe39747571cf1
+Description: Luôn cập nhật thông báo mà không cần mở khoá thiết bị.
+Name: Looky (Roothide)
+Author: EllaSP
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
+Icon: https://jtisvn.github.io/sectionIcons/Looky.png
 
 Package: com.jtis.lunartimeX
 Architecture: iphoneos-arm64
