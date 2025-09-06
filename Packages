@@ -2117,16 +2117,16 @@ Installed-Size: 508
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
 Filename: ./debs/com.jtis.floaty_1.0_iphoneos-arm64e.deb
-Size: 57788
-MD5sum: 1249a0c92d07a773206e627799181507
-SHA1: 83c77241c7ddf534115fbdb3f1aad8afaaa71c87
-SHA256: c54975725241818206fb418b146d9669670ace27d1cb5b2e9777ed6d1cc78a25
-SHA512: 6e54facf87b314ca8fa5c59ae802c24775aabc3d65a52ab807276aee4eba5e6c8d0d556614d77b15ac73bf7153a6cb5cac4f973076e7e9b2117fd10d457ce8a1
+Size: 57792
+MD5sum: af4dc0a0e5a79461a5608d706b37c0ba
+SHA1: 0aa77cfe39099f95a12c1c0af89fbe83d50c44eb
+SHA256: 4609839f40607a474225628a09b79528a9fee9371f9c09ae8bc1485fdf43be31
+SHA512: d7e4eec030d46428c213da190d998e9ee2970bfaf8eab8e6a3d4e523b84f5784643e28021aa086b5b8dcccd03c2b8c547f33ac240f5e7f45ef5b7db3605807b0
 Description: Your Banners, Reimagined!
-Name: Floaty (Roothide(
+Name: Floaty (Roothide)
 Author: EllaSP
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Floaty.json
-Icon: : https://jtisvn.github.io/sectionIcons/Floaty.png
+Icon: https://jtisvn.github.io/sectionIcons/Floaty.png
 
 Package: com.jtis.flow
 Architecture: iphoneos-arm64
