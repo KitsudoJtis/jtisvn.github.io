@@ -247,6 +247,26 @@ Tag: compatible_min::iOS9
 Name: libCSPreferences
 Author: CreatureSurvive <support@creaturecoding.com>
 
+Package: com.ellasp.floaty
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: EllaSP
+Installed-Size: 508
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.ellasp.floaty_1.0_iphoneos-arm64e.deb
+Size: 57784
+MD5sum: 1f7979e242a591d37e1aa5ebbcb7d575
+SHA1: fd378bd13dfa92ec194154f72e561cd9c65b343f
+SHA256: 9613df49b8957047a985450599fe68a799e9499427036dc0a97db61f7032656f
+SHA512: 8641c54a3449a029509fbd8bdf1d5ea4cdaeda8efeb3c6217d9ef96bac482f8c56020d7556d1cc2833d73fcd77af9c98ab1a980c024cc0acd2de9aa7ab521e82
+Description: Your Banners, Reimagined!
+Name: Floaty (Roothide(
+Author: EllaSP
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Floaty.json
+Icon: : https://jtisvn.github.io/sectionIcons/Floaty.png
+
 Package: com.ginsu.comet
 Architecture: iphoneos-arm64
 Version: 1.1.0
