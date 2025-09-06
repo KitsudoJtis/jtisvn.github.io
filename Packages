@@ -2108,6 +2108,45 @@ Author: Ethan Whited
 Icon: https://jtisvn.github.io/sectionIcons/Floatingdock.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Floatingdock.json
 
+Package: com.jtis.floaty
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 508
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.jtis.floaty_1.0_iphoneos-arm64.deb
+Size: 58328
+MD5sum: 23edac46e99680827d25a2eeeb143698
+SHA1: 0176670898548e31fe29455999081a0ebb6f7694
+SHA256: 12672d3e5c302953186fb2050983073a12a9a4d25d8878195cbf9b7ffc421530
+SHA512: 576406dfd3c6ccb89827e6aa463a59fb889017423afcd3a44e2bde16b10730f063a268c0729a44ecc85655530c339a2c34d96fd2789ab78bbc6c5842d96f81c6
+Description: Your Banners, Reimagined!
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Floaty.json
+Icon: https://jtisvn.github.io/sectionIcons/Floaty.png
+Name: Floaty (Rootless)
+Author: EllaSP
+
+Package: com.jtis.floaty
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 508
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.jtis.floaty_1.0_iphoneos-arm64e.deb
+Size: 58292
+MD5sum: 0aac2f8a70c5a25ddca034e2de76056c
+SHA1: aaf8fc7a3ae3f33ce6104bd3d5ec7da0f74db7d1
+SHA256: 39d86210862f7a2438b31454d8aae1e40055061ccc8458773191224b2756c90e
+SHA512: 4c1cfb4e808d4c81bef36da40848fb02b11958870a7c3523ef9d2caae9b9afe150fb24f37ff40d2b9517a189364e2c3aeb5a744c8d9987012c2e64bc45e278d0
+Description: Your Banners, Reimagined!
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Floaty.json
+Icon: https://jtisvn.github.io/sectionIcons/Floaty.png
+Name: Floaty (Roothide)
+Author: EllaSP
+
 Package: com.jtis.flow
 Architecture: iphoneos-arm64
 Version: 1.0
