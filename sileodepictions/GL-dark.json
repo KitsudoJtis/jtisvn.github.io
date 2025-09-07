@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Chủ đê Liquid Glass Dark, được thiết kế bởi Nguyên Tokuda\n\n- Gồm 90 biểu tượng\n\n- 1 Dock UI\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.\n\n- Các bạn muốn đầy đủ icon còn thiếu thì liên hệ tác giả bên dưới để mua ủng hộ bác ấy nhé, xin cảm ơn!",
+"markdown":" Chủ đê Liquid Glass Dark, được thiết kế bởi Nguyên Tokuda\n\n- Gồm 90 biểu tượng & Dock UI\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.\n\n- Các bạn muốn đầy đủ icon còn thiếu thì liên hệ tác giả bên dưới để mua ủng hộ bác ấy nhé, xin cảm ơn!",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,7 +21,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/GL-darm/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/GL-dark/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
