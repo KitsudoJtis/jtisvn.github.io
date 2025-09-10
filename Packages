@@ -256,13 +256,13 @@ Installed-Size: 5080
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.4.7), com.opa334.altlist
 Filename: ./debs/com.foxfort.translomatic_2.18.31_iphoneos-arm64e.deb
-Size: 1174388
-MD5sum: dfc3cbcce4db13a1dd12f07af982bc18
-SHA1: f723e00c991516a70017122dafc186696c0a3b08
-SHA256: e136786b8d61f7f50597b51cbff99b44c710103ee23f2b6cef4c30987366d189
-SHA512: 975d6702238b0107ab04f836aabac2c6be8f4aa17121eb902d1d4c954efb1008f18f8a8295773760091a1ed6030e9d43e7f7f02795288f58ac24644d6f99d585
+Size: 1171668
+MD5sum: e0eb4f9588cccee9d0cd976b79e26290
+SHA1: 17117298a67950a4e2db306c6903bb868c452fcc
+SHA256: 4a602112b4de1cc2a3ccf006fc908e5a554b58eed39fb1ac0107d1244411099c
+SHA512: a5f455769b8cfacaea0dc9296501ea082d5e76b288cd5851098d3ce699cab572f2809286e8e001605ce33e88123546440489abfc9207f60b15e2d4ed823970d0
 Description: Dịch nhanh bất kỳ văn bản nào bạn muốn và đây là phiên bàn hỗ trợ tương thích cho Roothide. Xin vui lòng mua nó để sử dụng.
-Name: Translomatic
+Name: Translomatic (Roothide)
 Author: FoxfortMobile
 Icon: https://github.com/jtisvn/jtisvn.github.io/blob/master/sectionIcons/Traánlomatic.png
 
