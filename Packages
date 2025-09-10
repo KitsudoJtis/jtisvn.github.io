@@ -247,6 +247,25 @@ Tag: compatible_min::iOS9
 Name: libCSPreferences
 Author: CreatureSurvive <support@creaturecoding.com>
 
+Package: com.foxfort.translomatic
+Architecture: iphoneos-arm64e
+Version: 2.18.31
+Section: Tweaks
+Maintainer: FoxfortMobile
+Installed-Size: 5080
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.4.7), com.opa334.altlist
+Filename: ./debs/com.foxfort.translomatic_2.18.31_iphoneos-arm64e.deb
+Size: 1174388
+MD5sum: dfc3cbcce4db13a1dd12f07af982bc18
+SHA1: f723e00c991516a70017122dafc186696c0a3b08
+SHA256: e136786b8d61f7f50597b51cbff99b44c710103ee23f2b6cef4c30987366d189
+SHA512: 975d6702238b0107ab04f836aabac2c6be8f4aa17121eb902d1d4c954efb1008f18f8a8295773760091a1ed6030e9d43e7f7f02795288f58ac24644d6f99d585
+Description: Dịch nhanh bất kỳ văn bản nào bạn muốn và đây là phiên bàn hỗ trợ tương thích cho Roothide. Xin vui lòng mua nó để sử dụng.
+Name: Translomatic
+Author: FoxfortMobile
+Icon: https://github.com/jtisvn/jtisvn.github.io/blob/master/sectionIcons/Traánlomatic.png
+
 Package: com.ginsu.comet
 Architecture: iphoneos-arm64
 Version: 1.1.0
@@ -2163,6 +2182,45 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Floaty.json
 Icon: https://jtisvn.github.io/sectionIcons/Floaty.png
 Name: Floaty (Roothide)
 Author: EllaSP
+
+Package: com.jtis.floaty
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 512
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversalb
+Filename: ./debs/com.jtis.floaty_1.2_iphoneos-arm64.deb
+Size: 59608
+MD5sum: 6f8e901382eec928b74cc70b1dc81325
+SHA1: 46b50b429b4425005c9b08e829dc8d764b5bb4af
+SHA256: b99958098889e22bf8ffd3769323c7978b97789b8c8625c02ecf355c7e08e6ce
+SHA512: 03d00cf836050a120b2936df9f535f1814db036572f5b09a83f1933d47bfac77d9411fcc6cd7d67d9153dfbf6bd803acd0e51708d96c06b4888c9158ebb26c9c
+Description: Your Banners, Reimagined!
+Name: Floaty (Rootless)
+Author: EllaSP
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Floaty.json
+Icon: https://jtisvn.github.io/sectionIcons/Floaty.png
+
+Package: com.jtis.floaty
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 512
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversalb
+Filename: ./debs/com.jtis.floaty_1.2_iphoneos-arm64e.deb
+Size: 58292
+MD5sum: b1698818ef022d28b88c3442595e0cd6
+SHA1: 6862a7ccb80ba6e49bef2ec144083187b013791a
+SHA256: 950407a6f1b90fadbf16385da294186224ea0ab810e7de5c7951b53ce60fd637
+SHA512: 8401ca837b83fded73ff6d2e28e97b1f35b23d49381f222973a65f32b445b026e9cd18419b4d641d751b7cb15a31d5aaa154fb3d5f18af1807e6c2b65b6dd3e7
+Description: Your Banners, Reimagined!
+Name: Floaty (Rootless)
+Author: EllaSP
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Floaty.json
+Icon: https://jtisvn.github.io/sectionIcons/Floaty.png
 
 Package: com.jtis.flow
 Architecture: iphoneos-arm64
