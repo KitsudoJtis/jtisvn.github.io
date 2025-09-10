@@ -67,7 +67,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"6/9/2025"
+"text":"10/9/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -99,7 +99,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0\n\n- Thêm ngôn nggữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.2\n\n- Thêm tùy chọn hình dạng biểu tượng\n\n- Sửa lỗi UI thông báo bị giậ lag\n\n- Sửa lỗi tùy chọn kích thước biểu tượng không hoạt động\n\n ### Phiên bản 1.0\n\n- Thêm ngôn nggữ Tiếng Việt\n\n- Phát hành đầu tiên\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
