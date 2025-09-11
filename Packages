@@ -3668,6 +3668,27 @@ Icon: https://jtisvn.github.io/sectionIcons/Sonus15.png
 Name: Sonus15 (Roothide)
 Author: ubik
 
+Package: com.jtis.speedy
+Architecture: iphoneos-arm64e
+Version: 0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 420
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
+Conflicts: alias20.speedy, com.hk.speedy.cn.rl
+Filename: ./debs/com.jtis.speedy_0.3_iphoneos-arm64e.deb
+Size: 32156
+MD5sum: 9c44d1c9adff4ee0afe23aaaada4e719
+SHA1: 4ca6d02f0f17fd33c5c0adbe4dce30e3ada6f9fe
+SHA256: f02d8c0394d872dbdf1482a941d6ec2c6b3606fdd47ae4fa9757635d526a9e01
+SHA512: a48e8ee2488ef69142ef362b7a8506e3201d025b3984d105f4c3f051dfa495b51451786955503057875548276e64816b905aa6e0eaa6d388ea35dac683b79081
+Description: Tăng tốc hoạt anh chi IOS, được biên soạn dựa trên nguồn mở.
+Name: Speedy(Roothide)
+Author: alias20 & daodao
+Icon: https://jtisvn.github.io/sectionIcons/Speedy.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Speedy.json
+
 Package: com.jtis.stealthcc
 Architecture: iphoneos-arm64
 Version: 0.9.0
