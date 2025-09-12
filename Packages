@@ -256,15 +256,15 @@ Installed-Size: 5080
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.4.7), com.opa334.altlist
 Filename: ./debs/com.foxfort.translomatic_2.18.31_iphoneos-arm64e.deb
-Size: 1171656
-MD5sum: ae945f99e2ec87e064eed31150c9f4a0
-SHA1: 9801b7e40e7b66a1b66a4648591b544d3498f95d
-SHA256: c815d817199744a0a9ed3d576b6c39e136dbd74df01150abd9761489be5826d2
-SHA512: fd62b562f59d03764ba037ef4446d3b81e9a1ac3a8b5581e57c2816beee6d7d4215b88cd4d004c7c1322f0225a3a07e16ed9378d2e3fc445c9bbc4d84c73fdd1
+Size: 1170636
+MD5sum: 741793b3f706a470cb09968d3cc603b2
+SHA1: 0fcaf228b6def81376e3c2e5bced26ce4c37a34e
+SHA256: 44a3e51b250f528695bcb2392d85753dd2729276271337fb23961d7bbda036f2
+SHA512: 2a1773c34ce8651b01bc6c592b2654450cca47b4e4ee0ad62a8d558475a0c7e0de83db2ee483069d522618f9970d525356d4ae58fefb4ab9e5ebecbab446e6f2
 Description: Dịch nhanh bất kỳ văn bản nào bạn muốn và đây là phiên bàn hỗ trợ tương thích cho Roothide. Xin vui lòng mua nó để sử dụng.
 Name: Translomatic (Roothide)
 Author: FoxfortMobile
-Icon: https://jtisvn.github.io/bsectionIcons/Traánlomatic.png
+Icon: https://jtisvn.github.io/sectionIcons/Tra%C3%A1nlomatic.png
 
 Package: com.ginsu.comet
 Architecture: iphoneos-arm64
@@ -2098,11 +2098,11 @@ Installed-Size: 612
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.filzathememanager_1.0.1_iphoneos-arm64e.deb
-Size: 65644
-MD5sum: ce31daa97719076b67db6f6a451ff776
-SHA1: 6b48c160d79699978305d67de4f1aa1bb34ec73d
-SHA256: 0819325edcbb675beea8996eac3f3a0210c727472717264972624a1b50fb1500
-SHA512: dffe582e41e48aef460577715856392c0eb8bce3f7ca2b0c35d929a27baecaa88b466fb12a18a390a7ce0ad709f4ced1da407f57b718285a214f98ca69a1d5aa
+Size: 65816
+MD5sum: 33769d44233d1ca99cc6270cc22f8b4f
+SHA1: 7213c7a7e8516a3c8735f31206831e9e41a176cf
+SHA256: b9dd8b79910c5dc917fb173bb7eba5f5e1c5ffb1250d89bcbc2adabe16713f3b
+SHA512: f1dd9efed814517b1fa211e0ed882b5e62a8842affd210c56f93241da7bbc502268bbe71adc03a4dcf36b8be118b6da1d0681c45c8d5dea657ce4ee0c85c529e
 Description: Thay đổi chủ đề màu sắc cho Filza theo ý muốn của bạn
 SileoDepiction: https://jtisvn.github.io/sileodepictions/FilzaThemes.json
 Icon: https://jtisvn.github.io/sectionIcons/FilzaThemes.png
