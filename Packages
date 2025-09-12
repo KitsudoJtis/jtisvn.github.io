@@ -431,6 +431,43 @@ Icon: https://jtisvn.github.io/sectionIcons/Atria.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Attia.json
 Depiction: https://chariz.com/get/atria
 
+Package: com.jtid.snapper2
+Architecture: iphoneos-arm64
+Version: 2.7.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware (>= 12.1)
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2
+Filename: ./debs/com.jtid.snapper2_2.7.0_iphoneos-arm64.deb
+Size: 591364
+MD5sum: e87ced999dfe5877801d5b35ea9e0160
+SHA1: 88014060c925286d1bbb3da8b594eb16b0095a95
+SHA256: 427e2b77835c241197ee03453544ceca061728717f8a5183bd682ab8947078a0
+SHA512: d127fcff7879d14625fd719811efb3bdd17a4e54eb63321914ee637c9e7507e220c8aa60e0d33a2d127e98418bb3979d5f0996470572e9836febaa2158d5427e
+Description: Ghim nhanh ảnh chụp màn hình da chức năng.
+Name: Snapper 2 (Rootless)
+Author: Jonathan Winger-lang
+Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
+
+Package: com.jtid.snapper2
+Architecture: iphoneos-arm64e
+Version: 2.7.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.1)
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2
+Filename: ./debs/com.jtid.snapper2_2.7.0_iphoneos-arm64e.deb
+Size: 584872
+MD5sum: 34c0d9d91f69f02957207bc0fbb39de8
+SHA1: 414c5b5fe5fa9329fed3b1be2a93d2621e2333d8
+SHA256: 5dad11c04200d7eccfddadea09d13c9537fa32d753418ee3bbd3aabe95ef1772
+SHA512: 45cce6a99063b8495ddda236b841fc6eda29bde56ae6747b73cac4adc0ed4df3aaa4b75d9abbd34714e434dd3f1c394b46e1d1b52657fc5c47573c7abc5360f4
+Description: Ghim nhanh ảnh chụp màn hình da chức năng.
+Name: Snapper 2 (Roothide)
+Author: Jonathan Winger-lang
+Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
+
 Package: com.jtis.CCbonder16
 Architecture: iphoneos-arm64
 Version: 1.1.8
@@ -3640,30 +3677,12 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
 Conflicts: com.kitsudo.snapper, com.kitsudo.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
 Filename: ./debs/com.jtis.snapper3_1.0_iphoneos-arm64e.deb
-Size: 920744
-MD5sum: ab82a86283e13c4ec197e56c50bc0ca9
-SHA1: c39746d0deebd475d8fe3e97bafb6a99c30f45fe
-SHA256: 52e4b53de5902fa55dcba9d4ecb828a8d32dbf16f61f8a537c93b77c5fe6f485
-SHA512: 30b711d343d307a29cc03343a6ff5fe6bb3b27fe261328d9d33fcdbfab6d4759177b1b326532426013797705bbd5c2caaf2e9dc3496b5ad679e784dbde8b11e7
+Size: 920584
+MD5sum: 88710aedd952fb1c4320d2acd47cc354
+SHA1: 7c85925058cccbf7776ea2f2598e2b07e5d33cf9
+SHA256: 732a451ec4859f41fe0847b5d26105d717955e15732aacbf49fe1f7576abe9d0
+SHA512: d8e2270506d43913d540d6bd185e343e61420527f3b1810eb4a616b64f56a77168955fd5025d37c75f588e2dee73b1084a54fcea357bc54b48f0850189a08e16
 Description: Snapper 3 là công cụ chụp ảnh màn hình có nhiều chức năng cho thiết bị của bạn.
-Name: Snapper 3 Crack (Roothide)
-Author: Jonathan Winger-lang
-
-Package: com.jtis.snapper3
-Architecture: iphoneos-arm64e
-Version: 1.2.1
-Section: Tweaks
-Maintainer: JTIS Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
-Conflicts: com.kitsudo.snapper, com.kitsudo.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
-Filename: ./debs/com.jtis.snapper3_1.2.1_iphoneos-arm64e.deb
-Size: 1207660
-MD5sum: f60ca5521a76bc94fa11911a0ba7c29c
-SHA1: 4a88db302ca0455483963632e7d9aa75e9408562
-SHA256: 24138dec7b4263c0fcfa8ace9cf0b8220c4e08017ec75d31e01d9ccb85d2064d
-SHA512: 2ea6ac7b8a42a45ae187119ff1ccf29cba28cd437d440642321d5f340b95ada3f84fb4ed54253e1d1052307ab2d8b68c333deb2229914facafb3ef84373dfdd9
-Description: Chụp nhanh màn hình đa chức năng cho IOS
 Name: Snapper 3 (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
 Author: Jonathan Winger-lang
