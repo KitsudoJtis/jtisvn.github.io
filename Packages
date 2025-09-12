@@ -3649,6 +3649,25 @@ Description: Snapper 3 là công cụ chụp ảnh màn hình có nhiều chức
 Name: Snapper 3 Crack (Roothide)
 Author: Jonathan Winger-lang
 
+Package: com.jtis.snapper3
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
+Conflicts: com.kitsudo.snapper, com.kitsudo.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
+Filename: ./debs/com.jtis.snapper3_1.2.1_iphoneos-arm64e.deb
+Size: 1207660
+MD5sum: f60ca5521a76bc94fa11911a0ba7c29c
+SHA1: 4a88db302ca0455483963632e7d9aa75e9408562
+SHA256: 24138dec7b4263c0fcfa8ace9cf0b8220c4e08017ec75d31e01d9ccb85d2064d
+SHA512: 2ea6ac7b8a42a45ae187119ff1ccf29cba28cd437d440642321d5f340b95ada3f84fb4ed54253e1d1052307ab2d8b68c333deb2229914facafb3ef84373dfdd9
+Description: Chụp nhanh màn hình đa chức năng cho IOS
+Name: Snapper 3 (Roothide)
+Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
+Author: Jonathan Winger-lang
+
 Package: com.jtis.sonus15
 Architecture: iphoneos-arm64
 Version: 1.0.5
