@@ -1,6 +1,6 @@
 {
 "minVersion":"0.4",
-"headerImage":"https://jtisvn.github.io/coverimage/Speedy.png",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
 "tintColor":"#5777B8",
 "tabs":[
 {
@@ -10,15 +10,23 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Speedy/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/FilzaThemes/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Speedy/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/FilzaThemes/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Speedy/Screenshots/3.png",
+"url":"https://jtisvn.github.io/infodeb/FilzaThemes/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/FilzaThemes/Screenshots/4.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/FilzaThemes/Screenshots/5.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -26,7 +34,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Speedy\n\n- Một tweak tuỳ chỉnh hiệu ứng tốc độ hoạt ảnh cho IPhone của bạn\n\n- Tính năng:\n\n- Thay đổi hiệu ứng tốc độ SpringBoard \n\n- Thay đối hiệu ứng tốc độ của ứng dụng.",
+"markdown":"Thay đổi màu sắc chủ đề cho Filza File Manager\n\n- Tuỳ chỉnh màu nền\n\n- Tuỳ chỉnh màu nền thanh dưới\n\n- Tuỳ chỉnh màu khi chạm\n\n- Tuỳ chỉnh màu văn bản\n\n- Tuỳ chỉnh màu theo ý muốn của bạn.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -52,9 +60,9 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"alias20 & daodao"
+"text":"WitherTech"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"0.0.3" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.1" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -63,12 +71,12 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"12/8/2025"
+"text":"12/9/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 17.0"
+"text":"iOS 15.0 đến 16.5"
 },
 {
 "class":"DepictionSpacerView"
@@ -95,7 +103,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.0.3.3\n\n- Thêm ngôn nggữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.0.1\n\n- Thêm ngôn nggữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",

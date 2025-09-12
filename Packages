@@ -2089,6 +2089,26 @@ Name: Filza Crack (Roothide)
 Author: Netskao
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.filzathememanager
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 612
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.filzathememanager_1.0.1_iphoneos-arm64e.deb
+Size: 65652
+MD5sum: 281560478fe975a3021c7bd33acc5af5
+SHA1: e6e1128630265fb9705fb336aa4faa7949c08570
+SHA256: d3f1bfc06875296e6e1ec3f8bfaa270b56c45c1b90f164294d0db2cf64069882
+SHA512: 78a8bb1555f657b367ae43ee924b94d51c84d0f2aeaa0caf535419b57eea4e99c524e48aa495b4f50caf7402b429b97050accafe0346577d2c8aa5fe9f980de1
+Description: Thay đổi chủ đề màu sắc cho Filza theo ý muốn của bạn
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2715
+Icon: https://repo.cypwn.xyz/packages/FilzaThemeManager-Rootless/icon.png
+Name: Filza Theme Manager (Roothide)
+Author: WitherTech
+
 Package: com.jtis.filzaui
 Architecture: iphoneos-arm64
 Version: 1.0
