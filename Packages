@@ -439,15 +439,16 @@ Maintainer: JTISVN Repo
 Depends: mobilesubstrate, firmware (>= 12.1)
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2
 Filename: ./debs/com.jtid.snapper2_2.7.0_iphoneos-arm64.deb
-Size: 591364
-MD5sum: e87ced999dfe5877801d5b35ea9e0160
-SHA1: 88014060c925286d1bbb3da8b594eb16b0095a95
-SHA256: 427e2b77835c241197ee03453544ceca061728717f8a5183bd682ab8947078a0
-SHA512: d127fcff7879d14625fd719811efb3bdd17a4e54eb63321914ee637c9e7507e220c8aa60e0d33a2d127e98418bb3979d5f0996470572e9836febaa2158d5427e
+Size: 591388
+MD5sum: 499b840afe8520e2093b3a117805287c
+SHA1: c291655d4544bf9231c828781bea961f0e8bffca
+SHA256: 5449532c77db8a9011464026dea02da872ecb6eb53e4fa9924c415393810be86
+SHA512: 31f9b96766c20a8c4481c56125928481bd3e1a5d69b7402584aebf3ba1577ae98fc51fff689bee1d624c0b9d4eebfcd76b62ba9922dbe659520d977f48b5152a
 Description: Ghim nhanh ảnh chụp màn hình da chức năng.
 Name: Snapper 2 (Rootless)
 Author: Jonathan Winger-lang
 Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Snapper2.json
 
 Package: com.jtid.snapper2
 Architecture: iphoneos-arm64e
@@ -458,15 +459,16 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 12.1)
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2
 Filename: ./debs/com.jtid.snapper2_2.7.0_iphoneos-arm64e.deb
-Size: 584872
-MD5sum: 34c0d9d91f69f02957207bc0fbb39de8
-SHA1: 414c5b5fe5fa9329fed3b1be2a93d2621e2333d8
-SHA256: 5dad11c04200d7eccfddadea09d13c9537fa32d753418ee3bbd3aabe95ef1772
-SHA512: 45cce6a99063b8495ddda236b841fc6eda29bde56ae6747b73cac4adc0ed4df3aaa4b75d9abbd34714e434dd3f1c394b46e1d1b52657fc5c47573c7abc5360f4
+Size: 580444
+MD5sum: 1f1ba3a33486164347079452267cc2ec
+SHA1: 9e1bd2615f25116813687a6eb0c34602a6d73ef2
+SHA256: 862b7c35923eb2f3cd7e021b993a3356c47f801bf7158d7841bc7267fbd83413
+SHA512: 6b8518052e4e3ff8532651e63a6bd3ff959e5e93d4f260bec36ea48c3eb0325280a209a60efbedefc87e91e0b5309649dec3b61e54c9e02aaaf5462da579b9db
 Description: Ghim nhanh ảnh chụp màn hình da chức năng.
 Name: Snapper 2 (Roothide)
 Author: Jonathan Winger-lang
 Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Snapper2.json
 
 Package: com.jtis.CCbonder16
 Architecture: iphoneos-arm64

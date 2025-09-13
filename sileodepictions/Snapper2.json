@@ -34,7 +34,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Snapper 2 – Tinh chỉnh cho phép bạn cắt, ghim một phần màn hình vaf dịch hình ảnh ngay trên iOS, hỗ trợ nhiều công cụ tiện ích khi thao tác:\n\nㅤ\n\n- Cắt nhanh vùng màn hình và giữ nổi để tham khảo.\n\n- Sao chép, chia sẻ, hoặc lưu ảnh nhanh mà bạn đã chụp.\n\n- Che/mờ một phần ảnh trước khi chia sẻ\n\n- Nhận diện văn bản (OCR) và quét mã QR trực tiếp: dễ dàng.\n\n- Dịch văn bản và hình ảnh với plugin (Translomatic, Tranzlo).\n\n- Phóng to hình ảnh không thể zoom.\n\n- Lưu nhanh vào cuộn Camera để xem sau.\n\m- Không cần chuyển đổi giữa các ứng dụng nhiều lần để nhập mặt khẩu.",
+"markdown":"Snapper 2 – Tinh chỉnh cho phép bạn cắt, ghim một phần màn hình vaf dịch hình ảnh ngay trên iOS, hỗ trợ nhiều công cụ tiện ích khi thao tác:\n\nㅤ\n\n- Cắt nhanh vùng màn hình và giữ nổi để tham khảo.\n\n- Sao chép, chia sẻ, hoặc lưu ảnh nhanh mà bạn đã chụp.\n\n- Che/mờ một phần ảnh trước khi chia sẻ\n\n- Nhận diện văn bản (OCR) và quét mã QR trực tiếp: dễ dàng.\n\n- Dịch văn bản và hình ảnh với plugin (Translomatic, Tranzlo).\n\n- Phóng to hình ảnh không thể zoom.\n\n- Lưu nhanh vào cuộn Camera để xem sau.\n\n- Không cần chuyển đổi giữa các ứng dụng nhiều lần để nhập mặt khẩu.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
