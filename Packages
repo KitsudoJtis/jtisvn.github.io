@@ -3677,12 +3677,12 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
 Conflicts: com.kitsudo.snapper, com.kitsudo.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
 Filename: ./debs/com.jtis.snapper3_1.0_iphoneos-arm64e.deb
-Size: 920584
-MD5sum: 88710aedd952fb1c4320d2acd47cc354
-SHA1: 7c85925058cccbf7776ea2f2598e2b07e5d33cf9
-SHA256: 732a451ec4859f41fe0847b5d26105d717955e15732aacbf49fe1f7576abe9d0
-SHA512: d8e2270506d43913d540d6bd185e343e61420527f3b1810eb4a616b64f56a77168955fd5025d37c75f588e2dee73b1084a54fcea357bc54b48f0850189a08e16
-Description: Snapper 3 là công cụ chụp ảnh màn hình có nhiều chức năng cho thiết bị của bạn.
+Size: 920564
+MD5sum: 7174360fc70bf58f5e8550ff1b325d87
+SHA1: 43f3a345ad5d80d601520357f657a62e8f0b3a00
+SHA256: 993734f811a48cfc315dd221cf6c7c4adaa5ba10d609524d2650a3f9c596da04
+SHA512: be03422dc95fb426dde65d402bb7f0f56a5025f55745e6a9964dbe4f06f3e8f7887fb67e463544cabf07878133acaa758a7429e42af482b6a874db3fd2f11b6a
+Description: Snapper 3 là công cụ chụp ảnh màn hình với nhiều chức năng cho IOS.  - Chức năng: - Ghim ảnh chụp đã cắt để hiển thị thông tin xuyên suốt các ứng dụng. - Sao chép, chia sẻ và lưu nhanh vùng màn hình đã chọn. - Nhận diện văn bản (OCR) trực tiếp từ ảnh hoặc ảnh chụp màn hình. - Quét mã QR ngay trên màn hình. - Xem lại lịch sử Snapper 3 để quản lý ảnh đã lưu. - Tải ảnh trực tiếp lên Imgur. - Hỗ trợ plugin như Translomatic, Tranzlo, HammerIt để dịch thuật và quản lý văn bản
 Name: Snapper 3 (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
 Author: Jonathan Winger-lang
