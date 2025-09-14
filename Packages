@@ -653,15 +653,15 @@ Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm
-Version: 1.0.8
+Version: 1.0.9
 Section: Chủ đề
 Maintainer: JTISVN Repo
-Filename: ./debs/com.jtis.LiquidglAss_1.0.8_iphoneos-arm.deb
-Size: 20733780
-MD5sum: 685fb849352e131f7260c58db02d9792
-SHA1: db175df3a79b3fe59c3ddd0d55ec9a47ea401d1a
-SHA256: 0faf9a6f131deb38b0a29b317ffab49b02408cc2d3ac0371cb2057b15a1df2e0
-SHA512: f41ecb5efcb82485f883c034770b696518d956645e316078b76a5836031a2391621acea2e8d03554da5e47bb76e049eec45d653f0c7f615255875c7682318ed2
+Filename: ./debs/com.jtis.LiquidglAss_1.0.9_iphoneos-arm.deb
+Size: 22169776
+MD5sum: 1f3b8008fa22db9a91343a3c938968fb
+SHA1: 9b11f64255fdff2ae09579c9be071734afe7c117
+SHA256: 87a412ce2c3e121384bed559074b1d8be6b796ffaebca147712702698e6f8676
+SHA512: 62e827cc4f84efc7c279678b8636a2b8f360b1e845444e321dcb685ac6ee0aa8c14f65ce2f3d19d57444172f5aa8c9b8d5a0d2aad8d4b3a42f3f9e97cf3ba387
 Description: Chủ đề Liquid GlAss
 Name: Liquid Glass Theme
 Author: Nguyên Tokuda & Hoàng MD
@@ -670,15 +670,15 @@ Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm64
-Version: 1.0.8
+Version: 1.0.9
 Section: Chủ đề
 Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.LiquidglAss_1.0.8_iphoneos-arm64.deb
-Size: 20733768
-MD5sum: 21c93900c231b8f76ddd806d495c854e
-SHA1: e2afce1b4fb3a7df28d5022b6242494f55dc18c9
-SHA256: 992ec886f5b83fd246acb51ef9b9abe8d852e161174f1cb5dcf3c8ff811bbc4b
-SHA512: 164d5b384ad6f4885a5dc846ef9f4609725648a68f038e7dda9fc9d186b04121e73cfc7c25e7ad3f1769b83431b934575be1add7a79e83fc32b5eeb0c50f7e22
+Filename: ./debs/com.jtis.LiquidglAss_1.0.9_iphoneos-arm64.deb
+Size: 22169440
+MD5sum: a237e9589a713e9a635a12c778935adf
+SHA1: 0f9cf5ef7d7540ee64d7531c01cac25a28d656b8
+SHA256: 2bdc80c07e2383fca4a54b4da549f0824e8be6d6a86be63fcf13488dce69ac39
+SHA512: e363e6c966bc15c75c7605bd9f967be35e7bfe96cb5667c88b8aac4f6bad9965760d2129a5549fef495841fc20c7d2d221b97f5e151587f29859edd3d78e4a11
 Description: Chủ đề Liquid GlAss
 Name: Liquid Glass Theme
 Author: Nguyên Tokuda & Hoàng MD
@@ -688,15 +688,15 @@ Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm64e
-Version: 1.0.8
+Version: 1.0.9
 Section: Chủ đề
 Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.LiquidglAss_1.0.8_iphoneos-arm64e.deb
-Size: 20733600
-MD5sum: 5c03728cae6e0e9f6056dc50fdbfc7cb
-SHA1: 991983cf5b08821134c8f969266f7e99fe22c993
-SHA256: 9849812c83b12c7724abd1ae67e894f9652302bdf91b26ea0c579805855c4c95
-SHA512: cea10f2b3371718e9f1bc9c25d048ad8b564953bc47f46bf29c12b3ecb0b279d214b9cea52a4635d6c8927195b7e64399eef3a6846631418c0df68f208789ef5
+Filename: ./debs/com.jtis.LiquidglAss_1.0.9_iphoneos-arm64e.deb
+Size: 22169908
+MD5sum: b963d3ef08209da3fcd95de35f75e057
+SHA1: 45a00d65fe4157705062dc6e5ca50cbe6c986cf6
+SHA256: aab9f9690d79bcd878a3437723a4729cf557a70cebd6541e84d892f9425e247e
+SHA512: 655429f73db1401bf3275412e44e8f5421d3cbbb927cc73e9ff302d16d070036aeff4542d00ab537dfd7d005b6fabbd35a59bd550b8c10d194d1d0315a680876
 Description: Chủ đề Liquid GlAss
 Name: Liquid Glass Theme
 Author: Nguyên Tokuda & Hoàng MD
@@ -3454,6 +3454,23 @@ Author: MegaDev
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Sentinel.json
 Icon: https://media.havoc.app/620e286f62d8a0bb3788377a
 
+Package: com.jtis.settingGLdark
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISBN Repo
+Filename: ./debs/com.jtis.settingGLdark_1.0_iphoneos-arm64.deb
+Size: 875540
+MD5sum: 1db90ef2b5910ec7cb364f371bd4c3d3
+SHA1: e772dc2161630bc556eb001ebcddf0fcd9788354
+SHA256: ea2f0dd861c5c1e715dac65cbbf5ca4d854659ca81b8c43e363b358f66e90db9
+SHA512: e89bc79ff1a2d5cc2f0df5893725f8f34fa9ea78209eac01bb86320a94fbb7f0b0798eca6e15f7b382a582bc791e2657a3712f87942b5fef98efbc1b44963091
+Description: Chủ đề Liquid Glass Dark cho Cài đặt
+Name: Setting Liquid Glass Dark
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/settingGLdark.json
+Icon: https://jtisvn.github.io/sectionIcons/settingGLdark.png
+
 Package: com.jtis.settingMeizu3D
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -4628,6 +4645,26 @@ Description: Use Snowboard UI Extension to enable LS UI.
 Author: Phuc Do
 Name: LS UI Sharingan
 Icon: https://dobabaophuc1706.github.io/repo/package/LSUI/icon.png
+
+Package: com.pixelomer.shijima-ios
+Architecture: iphoneos-arm64e
+Version: 1.3.2-drmfree
+Section: Tweaks
+Maintainer: pixelomer
+Installed-Size: 4692
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Recommends: libarchive13 (>= 3.7.2), com.opa334.altlist (>= 1.0.10)
+Filename: ./debs/com.pixelomer.shijima-ios_1.3.2-drmfree_iphoneos-arm64e.deb
+Size: 959088
+MD5sum: 45a681696753d6a140348a656c1541b4
+SHA1: 8480043f2cb6917c5bfe3e13c4f93d43141f8899
+SHA256: f711e2008b7aa64925b5d3c6dceda9dd93d2f004164d7f0c67dfe824b40ca663
+SHA512: 5a33da684d3f2fd2550da05162b6a6c108f81c0c539be3484fff438813e5e98065f45082d0a834eda9f3fccca6578f63b6536919787c847248ae14e90c26b239
+Description: A shimeji simulator for iOS
+Name: Shijima for iOS (Roothide)
+Author: pixelomer
+icon: https://media.havoc.app/66c119baecb6d6b2e1b395aa
 
 Package: com.ps.smoothcursorios13
 Architecture: iphoneos-arm64e
