@@ -2108,6 +2108,45 @@ Name: Eneko (Rootless)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
 Author: Traurige <hello@traurige.dev>
 
+Package: com.jtis.fastlock
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 852
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.fastlock_1.0_iphoneos-arm64.deb
+Size: 382148
+MD5sum: 3f9d61a2e4f6e2fc5ddd283dcb3da468
+SHA1: 68a58731723f816c0ffaa86e30141135bfd82f67
+SHA256: a68343bf256945704bae5279c2ee9af3a9c0961eabc9f20b7d944683c57c92dc
+SHA512: 010a331bf4ed3ab67a5fb9b2d238f9b9046ae45022fe560dee256c23e0f0618dc1a4406150c66be4fddd7c11a002f32274198792e2b7bf81af5480a7362a0626
+Description: Lock your screen using gestures on SpringBoard
+Name: FastLock (Rootless)
+Author: dvntm
+Icon: https://jtisvn.github.io/sectionIcons/FastLock.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FastLock.json
+
+Package: com.jtis.fastlock
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 852
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.fastlock_1.0_iphoneos-arm64e.deb
+Size: 381064
+MD5sum: 8c5a652bf016f25a48061afb910b528f
+SHA1: 47a76d946fedef73f96eb8bd8019ebb0c256cfcc
+SHA256: b7ba5c8dbe2cae3283353d4cd48e93a3d963f5bdedf63787b1075291eb7bd3d0
+SHA512: 9a8bd2a19106d6048e4fdf65156ed0dbd818eb0c79058e02bbcab78b7ef2a61e1a1749f398525d80c2b15fa722a28314bbdc0a4248a3b90f4bca93c1c994faef
+Description: Lock your screen using gestures on SpringBoard
+Name: FastLock (Roothkde)
+Author: dvntm
+Icon: https://jtisvn.github.io/sectionIcons/FastLock.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FastLock.json
+
 Package: com.jtis.filzacrack-roothide
 Architecture: iphoneos-arm64e
 Version: 1.1-8

@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"FastLock\n\n- Diều chỉnh cử chỉ Khoá màn hình trên thiết bị của bạn\n\n- Tính năng nỏi bật:\n\n- Khoá nhanh khi chạm vào màn hình\n\n- Tự động mở khoá bằng FaceID\n\n- Phản hồi rung khi khoá hoặc mở khoá\n\n- Tự động bật chế độ tiết kiệm pin khi khoá màn hình\n\n- Tuỳ chỉnh âm thanh khoá hoặc mở khoá màn hình.",
+"markdown":"FastLock\n\n- Điều chỉnh cử chỉ Khoá màn hình trên thiết bị của bạn\n\n- Tính năng nỏi bật:\n\n- Khoá nhanh khi chạm vào màn hình\n\n- Tự động mở khoá bằng FaceID\n\n- Phản hồi rung khi khoá hoặc mở khoá\n\n- Tự động bật chế độ tiết kiệm pin khi khoá màn hình\n\n- Tuỳ chỉnh âm thanh khoá hoặc mở khoá màn hình.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
