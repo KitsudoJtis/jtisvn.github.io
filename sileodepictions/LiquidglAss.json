@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Chủ đê Liquid Glass, được thiết kế bởi Nguyên Tokuda và Hoàng MD\n\nㅤ\n\nChi tiết gói gồm:\n\n+ 500 biểu tượng\n\n+ 1 Huy hiệu thông báo\n\n+ 1 biểu tượng LS UI\n\n+ 2 Hiệu ứng Mask AE\n\n+ 2 Dock UI (Light & Dark)\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
+"markdown":" Chủ đê Liquid Glass, được thiết kế bởi Nguyên Tokuda và Hoàng MD\n\nㅤ\n\nChi tiết gói gồm:\n\n+ 530 biểu tượng\n\n+ 1 Huy hiệu thông báo\n\n+ 1 biểu tượng LS UI\n\n+ 2 Hiệu ứng Mask AE\n\n+ 2 Dock UI (Light & Dark)\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -56,7 +56,7 @@
 "title":"Tác giả",
 "text":"Nguyên Tokuda & Hoàng MD"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.8" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.9" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -65,7 +65,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"5/9/2025"
+"text":"14/9/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -87,7 +87,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.8\n\n- Thêm hỗ trợ cho Rootfull\n\n- Thêm 1 số biểu tượng mới\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.0.9\n\n- Thêm hỗ trợ cho Rootfull\n\n- Thêm 1 số biểu tượng mới\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
