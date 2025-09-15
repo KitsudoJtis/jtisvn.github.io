@@ -1,6 +1,6 @@
 {
 "minVersion":"0.4",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"headerImage":"https://jtisvn.github.io/coverimage/ClassicFolders3.png",
 "tintColor":"#5777B8",
 "tabs":[
 {
@@ -10,11 +10,15 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/FastLock/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/ClassicFolders3/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/FastLock/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/ClassicFolders3/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/ClassicFolders3/Screenshots/3.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -22,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"FastLock\n\n- Điều chỉnh cử chỉ Khoá màn hình trên thiết bị của bạn\n\n- Tính năng nỏi bật:\n\n- Khoá nhanh khi chạm vào màn hình\n\n- Tự động mở khoá bằng FaceID\n\n- Phản hồi rung khi khoá hoặc mở khoá\n\n- Tự động bật chế độ tiết kiệm pin khi khoá màn hình\n\n- Tuỳ chỉnh âm thanh khoá hoặc mở khoá màn hình.",
+"markdown":"ClassicFolders 3\n\n- Tuỳ chỉnh thay đổi giao điện và tốc độ cho thư mục ứng dụng, mang phong cách kiểu IOS 6 cổ điển và hiện đại.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -48,9 +52,9 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"dvntm"
+"text":"CoolStar & Lizynz"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"3.0.7" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -59,12 +63,12 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"14/9/2025"
+"text":"15/9/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 14.0 đến 16.5"
+"text":"iOS 14.0 đến 16.6.-"
 },
 {
 "class":"DepictionLabelView",
@@ -81,7 +85,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0\n\n- Thêm tùy chọn thay đổi âm thanh màn hình khóa\n\n- Thêm tính năng tự động khóa\n\n- Thêm cài đặt các điều kiện huỷ tự động khóa\n\n- Thêm tùy chọn đặt âm thanh mở khóa\n\n- Thêm ngôn ngữ Tiếng Viết\n\n- Cải thiện tuỳ chỉnh xử lý cử chỉ\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 3.0.7\n\n- Thêm ngôn ngữ Tiếng Viết\n\n- Được viết lại dựa trên mã nguồn mở\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
