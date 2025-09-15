@@ -2910,6 +2910,23 @@ Author: Traurige <hello@traurige.dev>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Lidell.json
 Icon: https://jtisvn.github.io/sectionIcons/Lidell.png
 
+Package: com.jtis.liquidglass
+Architecture: all
+Version: 1.0.9k
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.liquidglass_1.0.9k_all.deb
+Size: 23300348
+MD5sum: e8c6cb29a1de9bca29b5cc8c04c85c03
+SHA1: 796b7b434b65fc083c6c6bac9cd54fd0e04a9cc7
+SHA256: 8a3bfa641c09634741b9c75ce76c2308ddd359be8b3aa18e2adde065a0a9b0f5
+SHA512: 00d2a323f861e4aae72181735ad137bca540afbf219e2c7d01a1849bbf165f6058b36db5bc112cfcdc389765d11e91cb3cd21f81d4b57fb3770d553940330b8d
+Description: Chủ đề liqui Glass trong suốt
+Name: Liquid Glass Theme
+Author: Nguyên Tokuda & Hoàng MD
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
+
 Package: com.jtis.little12
 Architecture: iphoneos-arm64
 Version: 1.2.3
