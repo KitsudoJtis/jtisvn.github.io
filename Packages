@@ -1761,6 +1761,47 @@ Author: fiore
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCbonder.json
 Icon: https://jtisvn.github.io/sectionIcons/CCbonder.png
 
+Package: com.jtis.classicfolders3
+Architecture: iphoneos-arm64
+Version: 3.0.7
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 4328
+Depends: mobilesubstrate, preferenceloader
+Conflicts: org.coolstar.classicfolders2, org.coolstar.classicfolders3, com.hk.classicfolders3.cn.rl, com.hk.classicfolders3.cn, com.ikilledappl3.autofolderclose-rootless
+Filename: ./debs/com.jtis.classicfolders3_3.0.7_iphoneos-arm64.deb
+Size: 3275736
+MD5sum: d7d4acf593973d6d851276e8d8d7a4a5
+SHA1: e41028812bc9807a7bde031bdd245184776efbee
+SHA256: ea441d779c2dffe9dc433aa2766eaffb108a72dcbd3c1fd7de1eca5ee1722a8d
+SHA512: 7975c88324dd165e666283b21169a6a32b3fd3bc2cd4a26a8baa5bf174fcd92af11c89b3a9d95ce7f628055c49053289b091852a4e1418e896f4df3b77e82019
+Description: Tuỳ chỉnh thư mục cổ điển cho iOS。
+Name: ClassicFolders 3 (Rootless)
+Author: CoolStar & Lizynz
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ClassicFolders3.json
+Icon: https://jtisvn.github.io/sectionIcons/ClassicFolders3.png
+
+Package: com.jtis.classicfolders3
+Architecture: iphoneos-arm64e
+Version: 3.0.7
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 4328
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: org.coolstar.classicfolders2, org.coolstar.classicfolders3, com.hk.classicfolders3.cn.rl, com.hk.classicfolders3.cn, com.ikilledappl3.autofolderclose-rootless
+Filename: ./debs/com.jtis.classicfolders3_3.0.7_iphoneos-arm64e.deb
+Size: 3274324
+MD5sum: 3e09536d64f7b2ca662ac99553ca4f02
+SHA1: efffae0bbc3f04fe884fa611cb8c2672a4590fc5
+SHA256: a82100bfce6a7db5b38c97684a98ea7b330f84ef44e44121cce20d49bdf3c252
+SHA512: 3a041a1428036bfcee7981b176cacfed8853a4c34ce3bd0fa3fee5b030f7b3bdb66b913059e7aa77c59862d06945960d5ec86b1fe6db952a4ca25e48524528e3
+Description: Tuỳ chỉnh thư mục cổ điển cho iOS。
+Name: ClassicFolders 3 (Roothide)
+Author: CoolStar & Lizynz
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ClassicFolders3.json
+Icon: https://jtisvn.github.io/sectionIcons/ClassicFolders3.png
+
 Package: com.jtis.clockfont
 Architecture: iphoneos-arm64
 Version: 1.0
