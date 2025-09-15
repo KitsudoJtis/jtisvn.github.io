@@ -87,7 +87,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.9k\n\n- Thêm chủ đề cho Trình quay số và mật khẩu\n\n- Thêm hỗ trợ cho Rootfull\n\n- Thêm 1 số biểu tượng mới\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.0.9k\n\n- Thêm chủ đề cho Trình quay số và mật khẩu màn hình khóa\n\n- Thêm hỗ trợ cho Rootfull\n\n- Thêm 1 số biểu tượng mới\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
