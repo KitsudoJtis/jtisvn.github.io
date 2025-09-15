@@ -4234,17 +4234,17 @@ Author: ethxnn88 <ethxnn88@gmail.com>
 
 Package: com.jtis.vitreux
 Architecture: iphoneos-arm64
-Version: 1.1
+Version: 1.2
 Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 6160
+Maintainer: JTISVN Repo
+Installed-Size: 6204
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/com.jtis.vitreux_1.1_iphoneos-arm64.deb
-Size: 5590828
-MD5sum: 6aba79c698b7073e06b5f769f87d777a
-SHA1: 57657d085c7355fba0558b2e2c0cc84390092b90
-SHA256: 2dd1d79c9caa6ee2da1789abbe9bf0351b013560b4bc511e7a28190161d8dc21
-SHA512: abb1a1d59b3d9b8c278623eaf31e80cd72b172e7042e9b09faba2dca949f1936aff6d5d48ecf346ed88ea32a50bdac3b9a5918c8716a1bdd6069d5df0ff7dd6d
+Filename: ./debs/com.jtis.vitreux_1.2_iphoneos-arm64.deb
+Size: 5608220
+MD5sum: c451cd62057722693e2b5acbc1fa3730
+SHA1: d1196f8f67a52ea2f46ad80602249835e008ea34
+SHA256: 7a7e4cb2e3bf569e5af122b6e9f19b210b55b319b1d3b826b00cebeb7e2f7f0e
+SHA512: 6f96c72f3d16175c7594387b38057f51767083ba29264f584cb94015b44169ebc1f6797228bbfc6294c1383771fb322dc6417ab3f080d6de29bec3662459aeea
 Description: A recreation of Liquid Glass
 Name: Vitreux (Rootless)
 Author: MTAC
@@ -4253,18 +4253,18 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Vitreux.json
 
 Package: com.jtis.vitreux
 Architecture: iphoneos-arm64e
-Version: 1.1
+Version: 1.2
 Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 6160
+Maintainer: JTISVN Repo
+Installed-Size: 6204
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/com.jtis.vitreux_1.1_iphoneos-arm64e.deb
-Size: 5589832
-MD5sum: 7600764b1195353fad45582b5d59b7c8
-SHA1: 5b015b86fad47b59774c13662bfd39f4d504fb66
-SHA256: 1a093d3ffdf74e40045d30af46d4042d54cb08da7cf4d5f560d6f964fa8e4b38
-SHA512: 08ee68fc8d649a0d5bc9679746fa435e179f1eba869e0379c3455010880b3cddc398a8aa773a32ae1cb138d01600ceeaec9ad71ac85ea3885090ade70d1e2677
+Filename: ./debs/com.jtis.vitreux_1.2_iphoneos-arm64e.deb
+Size: 5606312
+MD5sum: 3f21950ebac0d08243cc75681d7cce3d
+SHA1: c2e92d124fff1205d517fa92e2a3997abe6e62b5
+SHA256: 04ad88692a8da03c66046f7e01dc1569a41092afd83db828fb7d657035574ea9
+SHA512: 5b3fd91bd666de0e621ed162327385088f760eb8a6a848b4dbf21454a89bf4e2b7971872e0dcf4b9068ecf9cc4d83e182fb7e9412dc8c07c26c3abc970b267e4
 Description: A recreation of Liquid Glass
 Name: Vitreux (Roothide)
 Author: MTAC
