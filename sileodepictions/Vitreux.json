@@ -72,7 +72,7 @@
 "title":"Tác giả",
 "text":"MTAC"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.2" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.3" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -81,7 +81,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"15/9/2025"
+"text":"16/9/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -103,7 +103,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.2\n\n- Thêm tương thích với tweak BetterCCBrightness\n\n- Thêm tuỳ chọn để điều chỉnh độ mờ của mô-đun và nền trong Trung tâm điều khiển.\n\n- Thêm tuỳ chọn tắt hiệu ứng thu phóng cho nền Trung tâm điều khiển.\n\n- Thêm tuỳ chọn tô màu cho các biểu tượng trên thanh trượt của Trung tâm điều khiển.\n\n- Thêm tuỳ chọn sử dụng một lớp nền mờ với các biểu tượng trong suốt.\n\n- Thêm tuỳ chọn hiệu ứng mờ cho các biểu tượng thư mục khi đóng ở màn hình chính.\n\n- Thêm tuỳ chọn để tuỳ chỉnh kiểu hiển thị của nhãn chữ trên thông báo.\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.3\n\n- Sửa lỗi crash cho IOS 15.x khi bật ControlCenter Effect\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
