@@ -2589,19 +2589,19 @@ Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.gldark
 Architecture: iphoneos-arm64
-Version: 1..0
+Version: 1..1
 Section: Chủ đề
 Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.gldark_1..0_iphoneos-arm64.deb
-Size: 6860556
-MD5sum: bfb7375c791fd75a6a547edd923d5f26
-SHA1: 05db0a56d63342a75123d8cf715190766d3f2b50
-SHA256: 148c70324ee44cc7f2c19e585ffb74c9116ba81789fb74f9521f1a66585da443
-SHA512: 7b4b21d609805b9861da2c3b5ace9625d2d18a95abe8203095f1b2c638e6d9ebef50fea18fc9a6c94868cf51d54587f33b34439f680ca9d376c803d67192fca0
-Description: Chủ đề Liquid Glass Dark
-Name: Liquid Glass Dark Theme
+Filename: ./debs/com.jtis.gldark_1..1_iphoneos-arm64.deb
+Size: 7014316
+MD5sum: 652e0d0f5ccd2b989858eca7810ab237
+SHA1: 8e66a91ac1740089e44036fb625dab9ecbe12457
+SHA256: fa807dc52d86d989610422024928e81cb393c6ecb9262d0e5400f67d87fa9472
+SHA512: 90d3bdb400bc72c1bd9a49599bb0c32248cd5f943de5c14a80e0aa7ec33578e1fe60ef7bde1f88fd7dc8d63e8fa32079020e19afb1aae003d440da6ef98ad37f
+Description: Chủ đề Snoked Glass Dark
+Name: Snoked Glass Theme
 Author: Nguyên Tokuda
-SileoDepiction: https://jtisvn.github.io/sileodepictions/GL-dark.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SG-dark.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.gravitation
