@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"LLSwitch\n\n- Mang phong cách hoạt ảnh mới cho nút công tắc trên thiết bị của bạn.\n\n- Chi tiết xem hình ảnh bên dưới.",
+"markdown":"DayNightSwitch\n\n- Mang phong cách hoạt ảnh mới cho nút công tắc trên thiết bị của bạn.\n\n- Chi tiết xem hình ảnh bên dưới.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,7 +21,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Swich/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/DayNightSwitch/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -36,7 +36,7 @@
 "title":"Tham gia nhóm"
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -50,9 +50,9 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"Simon "
+"text":"Finn Gaida"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.2" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -61,7 +61,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"31/5/2025"
+"text":"18/9/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -93,7 +93,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.2\n\n- Khắc phục lỗi bật/tắt lịch trong Đồng hồ, lỗi hiển thị trong QQ Âm nhạc và lỗi giật lag hoạt ảnh.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
