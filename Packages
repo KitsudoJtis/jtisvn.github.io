@@ -4062,13 +4062,13 @@ Version: 1.0
 Section: Chủ đề
 Maintainer: JTISVN Repo
 Filename: ./debs/com.jtis.transilucent_1.0_iphoneos-arm64.deb
-Size: 299704
-MD5sum: 178f15f59721cbe9c19367d528304d46
-SHA1: 1ad355e9c0b3706d44acb769e822e5f833335497
-SHA256: 5080d540f16692e69967d66c7d3b8b972becc5798e2bd039b3dc64488cb340ec
-SHA512: 7bb2bafff404625a8e12683ac466c55c6313676ac82f0fcc70b97866ab1d0c6f8e7922161479e3c7a79d4af7d271c147902071e8c6def36d69d07a78a80c571f
+Size: 299708
+MD5sum: af3d8bb250d24c254a420bf14df52e39
+SHA1: 2a7c7cff2141a98d81d7f02cce2dfccfe9f0372e
+SHA256: 6a053371b19f3f2fdb849d16ce44210cea8311897cb5531b86aef119b836fba5
+SHA512: e044efd8e09de89a08acc696226aaa0478ca5a77df187058dc8333e3b2974cc29b618bc4d4c84d1a0604caa93603c5f21ecdcf94d7854ec12e8ba0f5ff8b7fb8
 Description: Chủ đề Translucent cho Cài đặt.
-Name: Setting Translucent
+Name: Settings Translucent
 Author: Hoang MD
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Translucent.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
