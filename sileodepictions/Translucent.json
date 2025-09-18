@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Chủ đê Translucent cho ứng dụng Cài Đặt, được thiết kế bởi Hoàng MD.\n\n- Gồm 29 biểu tượng cơ bản\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
+"markdown":" Chủ đê Translucent cho ứng dụng Cài Đặt, được thiết kế bởi Hoàng MD.\n\n- Gồm 29 biểu tượng cơ bản\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard\n\n- Ae cần full icon thì liên hệ tác giả ở mục liên hệ bên dưới để mua ủng hộ bác ấy nhé, Xin cảm ơn.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -25,7 +25,7 @@
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/setting3fmeizu/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/Translucent/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -37,10 +37,10 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Tham gia nhóm"
+"title":"Liên hệ tác giả"
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
+"markdown":"[**Telegram**](https://t.me/kevinhoangduong2903) 🤏 Ủng hộ tác giả",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },

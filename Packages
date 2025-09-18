@@ -431,6 +431,47 @@ Icon: https://jtisvn.github.io/sectionIcons/Atria.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Attia.json
 Depiction: https://chariz.com/get/atria
 
+Package: com.jtid.daynightswitchs
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 584
+Depends: firmware (>= 14.0), mobilesubstrate
+Conflicts: de.finngaida.daynightswitch
+Filename: ./debs/com.jtid.daynightswitchs_1.2_iphoneos-arm64.deb
+Size: 69648
+MD5sum: 8b5357243546afc8dbc244b5d8a9f4ba
+SHA1: 6c8b6a1d3ed9634b8a8414e2243b9a71ee98621e
+SHA256: d2814f8aa6f934764ae790e8b846ac4b110486eee8b20e2d715ea2867b4b3749
+SHA512: 3091cba866a86c8fef91a37444e538692e4e623795985a31711e1002eb19f24f4fe9694dcbe32c566de4a21fee0980792ce663980499ff2890a708afe0050e76
+Description: Thêm biểu tượng hoạt ảnh cho nút công tắc.
+Name: DayNightSwitch (Rootless)
+Author: Finn Gaida
+SileoDepiction: https:/jtisvn.github.io/sileodepictions/DayNightSwitch.json
+Icon: https://jtisvn.github.io/sectionIcons/DayNightSwitch.png
+
+Package: com.jtid.daynightswitchs
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 584
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Conflicts: de.finngaida.daynightswitch
+Filename: ./debs/com.jtid.daynightswitchs_1.2_iphoneos-arm64e.deb
+Size: 64812
+MD5sum: 3b106dfd1a9d5238dcb800c1a89d6564
+SHA1: d1fa94c5c74d61f6b3de51f59fbfe9487da712b1
+SHA256: a0fee6c620016d1d19fe73c0776555b9fc5db7dc0bbc11db1b04d5260b44c4d9
+SHA512: 6bd6eccbd662b15a9993470760aec7f6cdc51e166bf395012ffb25d11f851c09742a22849486b1fd66042f72fe3f99662fc32d3c0913d3f078d61a203b079ca7
+Description: Thêm biểu tượng hoạt ảnh cho nút công tắc
+Name: DayNightSwitch (Roothide)
+Author: Finn Gaida
+SileoDepiction: https:/jtisvn.github.io/sileodepictions/DayNightSwitch.json
+Icon: https://jtisvn.github.io/sectionIcons/DayNightSwitch.png
+
 Package: com.jtid.snapper2
 Architecture: iphoneos-arm64
 Version: 2.7.0
@@ -4015,6 +4056,23 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
 Icon: https://jtisvn.github.io/sectionIcons/TeleSF.png
 Author: choco, r22i0
 
+Package: com.jtis.transilucent
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.transilucent_1.0_iphoneos-arm64.deb
+Size: 299704
+MD5sum: 178f15f59721cbe9c19367d528304d46
+SHA1: 1ad355e9c0b3706d44acb769e822e5f833335497
+SHA256: 5080d540f16692e69967d66c7d3b8b972becc5798e2bd039b3dc64488cb340ec
+SHA512: 7bb2bafff404625a8e12683ac466c55c6313676ac82f0fcc70b97866ab1d0c6f8e7922161479e3c7a79d4af7d271c147902071e8c6def36d69d07a78a80c571f
+Description: Chủ đề Translucent cho Cài đặt.
+Name: Setting Translucent
+Author: Hoang MD
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Translucent.json
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
 Package: com.jtis.trim
 Architecture: iphoneos-arm64
 Version: 0.0.2
@@ -4348,6 +4406,43 @@ Name: SettingsRevamp (Roothide)
 Author: SOPPPra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsRevamp.json
 Icon: https://jtisvn.github.io/sectionIcons/SettingsRevamp.png
+
+Package: com.juts.stella
+Architecture: iphoneos-arm64
+Version: 1.1.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.comet
+Filename: ./debs/com.juts.stella_1.1.5_iphoneos-arm64.deb
+Size: 361288
+MD5sum: 295c942983b8bbb9fea5a5cb4a552d29
+SHA1: ce0f7bc3cee56db65d1fc37a3e4d127a23a6deea
+SHA256: 3284caaca7028c43ee2a1236ea59d25820f48af4f22f593f8a279532ca125c14
+SHA512: d5355e2976bc3d9850889b17ec957facdaef1aab0cad30049c9c19d54be04549a5e840a3135d34665827bd390080cd65c516c3dff1d20d2b7bedfffd942e93b6
+Description: Let it snow on your device!
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Stella.json
+Icon: https://jtisvn.github.io/sectionIcons/Stella.png
+Name: Stella (Rootless)
+Author: yan
+
+Package: com.juts.stella
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.comet
+Filename: ./debs/com.juts.stella_1.1.5_iphoneos-arm64e.deb
+Size: 356604
+MD5sum: 8208d37132746b05922c58528f706045
+SHA1: 602582036a1d9fa18b3f47fcf6b56c6ec7557c96
+SHA256: ac18ad0689d474e7d05c16e46b2bc7fbb077e069895b1397a9e39f1aad4e6745
+SHA512: 7ad019fbd29bfbc241e3caa330dded87993fdd7a5be28140397e3ea276ac3d469b4ac6b5eddad99ba43bf9a141c74fdedafe3d8e8ad38ad7a7de7894f1a511a6
+Description: Let it snow on your device!
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Stella.json
+Icon: https://jtisvn.github.io/sectionIcons/Stella.png
+Name: Stella (Roothide)
+Author: yan
 
 Package: com.kitsudo.axon
 Architecture: iphoneos-arm64
