@@ -5328,6 +5328,24 @@ Author: tomt000
 Icon: https://jtisvn.github.io/sectionIcons/Stage.png
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/Stage.json
 
+Package: net.jtid.randomiconsflip
+Architecture: iphoneos-arm64e
+Version: 0.3-20
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 216
+Depends: mobilesubstrate, firmware (>= 4.0)
+Filename: ./debs/net.jtid.randomiconsflip_0.3-20_iphoneos-arm64e.deb
+Size: 11512
+MD5sum: f1e77f690e7bc573878182f82717b906
+SHA1: 60b6c58bcd2dd5f4cc4ee3ab66a12c2a20cbe997
+SHA256: d139d6bdd19b8b326942b07d621a1d03b990532367c49b446bb4cdff0cb98147
+SHA512: 7f45dcdcc89de8dda7d24891b9b8959a11d06c7ab0e7b330b6ec15217b5f0e10128c19768bb4994757663439452988a7c4f22c950bb11073cf2cbfbefd0e2cc5
+Description: Lật ngẫu nhiên các biểu tượng trên màn hình chính.
+Name: Random Icon Flip (Roothide)
+Icon: https://jtisvn.github.io/sectionIcons/Randomflip.png
+Author: Elias Limneos
+
 Package: net.jtis.gestures15
 Architecture: iphoneos-arm64
 Version: 1.0
