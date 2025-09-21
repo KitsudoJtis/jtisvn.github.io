@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Chủ đê Liquid Glass, được thiết kế bởi Nguyên Tokuda và Hoàng MD\n\nㅤ\n\nChi tiết gói gồm:\n\n+ 610 biểu tượng\n\n+ 1 Huy hiệu thông báo\n\n+ 1 biểu tượng LS UI\n\n+ 2 Hiệu ứng Mask AE\n\n+ 2 Dock UI (Light & Dark)\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
+"markdown":" Chủ đê Liquid Glass, được thiết kế bởi Nguyên Tokuda và Hoàng MD\n\nㅤ\n\nChi tiết gói gồm:\n\n+ 610 biểu tượng\n\n+ 1 Huy hiệu thông báo\n\n+ 1 biểu tượng LS UI\n\n+ 2 Hiệu ứng Mask AE\n\n+ 2 Dock UI (Light & Dark)\n\n- 1 chủ đề Trình quay số và mặt khẩu màn hình khoá\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -56,7 +56,7 @@
 "title":"Tác giả",
 "text":"Nguyên Tokuda & Hoàng MD"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.0" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.0k" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -87,7 +87,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.0\n\n- Thêm 1 số biểu tượng mới\n\n- Thêm chủ đề cho Trình quay số và mật khẩu màn hình khóa\n\n- Thêm hỗ trợ cho Rootfull\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 2.0k\n\n- Sửa lỗi sư cố tải về Theme cho Roothide\n\n ### Phiên bản 2.0\n\n- Thêm 1 số biểu tượng mới\n\n- Thêm hỗ trợ cho Rootfull\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
