@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Latchkey\n\n- Thêm chủ dề biểu tượng khoá FaceID trên màn hình khoá\n\n- Tuỳ chỉnh màu biểu tượng và thay đổi vị trí FaceJD theo ý muôn của bạn\n\n- Chi tiết xem hình ảnh bên dưới.",
+"markdown":" Tweak Settings\n\n- Công cụ tiền ích để thiết lập các tinh chỉnh nhanh và dễ dàng hơn trên màn hình chính.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,11 +21,19 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Latchkey/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/TweakSettings/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Latchkey/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/TweakSettings/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/TweakSettings/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/TweakSettings/Screenshots/4.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -54,9 +62,9 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"Maxwell Dausch"
+"text":"CreatureSurvive"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.3" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.8" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -70,7 +78,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.7.10"
+"text":"iOS 12.0 đến 16.7.11"
 },
 {
 "class":"DepictionSpacerView"
