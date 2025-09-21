@@ -694,15 +694,15 @@ Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm
-Version: 1.0.9
+Version: 2.0
 Section: Chủ đề
 Maintainer: JTISVN Repo
-Filename: ./debs/com.jtis.LiquidglAss_1.0.9_iphoneos-arm.deb
-Size: 22169776
-MD5sum: 1f3b8008fa22db9a91343a3c938968fb
-SHA1: 9b11f64255fdff2ae09579c9be071734afe7c117
-SHA256: 87a412ce2c3e121384bed559074b1d8be6b796ffaebca147712702698e6f8676
-SHA512: 62e827cc4f84efc7c279678b8636a2b8f360b1e845444e321dcb685ac6ee0aa8c14f65ce2f3d19d57444172f5aa8c9b8d5a0d2aad8d4b3a42f3f9e97cf3ba387
+Filename: ./debs/com.jtis.LiquidglAss_2.0_iphoneos-arm.deb
+Size: 23946024
+MD5sum: 4ff84e062bbfbcb729dd396bdb61680d
+SHA1: 24b1773508af9685d4dc903c31afe1acdb000f39
+SHA256: 90d056e846dc36fa4af1ebb8a138a15c02eaf345004f10d3d611c47f7b937be0
+SHA512: 9650a6b2c0db4af90eae29b8680eb67bd7e6d144b792a5d2bf25322326f4ed08f133d57636b54f8b1b159ac56a9d6b0859dfe667920c86e45bb2ae46386a4373
 Description: Chủ đề Liquid GlAss
 Name: Liquid Glass Theme
 Author: Nguyên Tokuda & Hoàng MD
@@ -2873,6 +2873,45 @@ Name: Kayoko (Roothide)
 Author: Alexandra Aurora Göttlicher
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko.json
 
+Package: com.jtis.latchkey
+Architecture: iphoneos-arm64
+Version: 2.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 13476
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/com.jtis.latchkey_2.3_iphoneos-arm64.deb
+Size: 23739120
+MD5sum: 7ffb7b188de42fac80ac26b616644d8a
+SHA1: 41c947243c6bc91cf3d44d8301f6f6e0807bc7be
+SHA256: ac9dea452b5413cafff24b5037b6b3601c2d9cd4fc089b9a51b392eef33e7c05
+SHA512: 97e960d269f8c074ba02a439a1a0b2d8a8b20dd15000afe2393227482ad100b4c43ace5f72ac16081b152e0c2563ce76e8dd5e77561a8fef9e8c5c9858db1502
+Description: Tùy chỉnh biểu tượng, vị trí và thêm chủ đề cho biểu tượng khóa Face-ID
+Name: Latchkey (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Latchkey.json
+Icon: https://jtisvn.github.io/sectionIcons/Latchkey.png
+Author: Maxwell Dausch <max.dausch@gmail.com>
+
+Package: com.jtis.latchkey
+Architecture: iphoneos-arm64e
+Version: 2.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 13476
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/com.jtis.latchkey_2.3_iphoneos-arm64e.deb
+Size: 23732528
+MD5sum: edd9ae1bb111b727020b609f04ad83cf
+SHA1: f2f0b910b8471e65e46e6cd232a66ca97d0c374a
+SHA256: f0d75fbb2a40474efdb6922e0a2dbd19c6dc15b9635a9dadebfd2918e15976b0
+SHA512: 955d4a76b0c982782f3f7b129ad09a5d80f071e07f6d44c54cacbfe5a8a671568e414b416e7af9353cc8e657ab81346049b817e5528e2ff4c439aef2faa89672
+Description: Tùy chỉnh biểu tượng, vị trí và thêm chủ đề cho biểu tượng khóa Face-ID
+Name: Latchkey (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Latchkey.json
+Icon: https://jtisvn.github.io/sectionIcons/Latchkey.png
+Author: Maxwell Dausch <max.dausch@gmail.com>
+
 Package: com.jtis.liddell
 Architecture: iphoneos-arm64
 Version: 1.4.3
@@ -2916,15 +2955,15 @@ Icon: https://jtisvn.github.io/sectionIcons/Lidell.png
 
 Package: com.jtis.liquidglass
 Architecture: all
-Version: 1.0.9k
+Version: 2.0
 Section: Chủ đề
 Maintainer: JTISVN Repo
-Filename: ./debs/com.jtis.liquidglass_1.0.9k_all.deb
-Size: 23300348
-MD5sum: e8c6cb29a1de9bca29b5cc8c04c85c03
-SHA1: 796b7b434b65fc083c6c6bac9cd54fd0e04a9cc7
-SHA256: 8a3bfa641c09634741b9c75ce76c2308ddd359be8b3aa18e2adde065a0a9b0f5
-SHA512: 00d2a323f861e4aae72181735ad137bca540afbf219e2c7d01a1849bbf165f6058b36db5bc112cfcdc389765d11e91cb3cd21f81d4b57fb3770d553940330b8d
+Filename: ./debs/com.jtis.liquidglass_2.0_all.deb
+Size: 23945316
+MD5sum: 6c84890298089f2b9cca719454789c8c
+SHA1: 8f60393db93bce177c850be25aea4245bb3d5154
+SHA256: b0a8509c4ab8eb8bd063ef70abd2e08b06054613ecd8a01cda198db023750604
+SHA512: 9db9a0dced0f1642c14fdaa42af8f245c7ee1cad876d3c46065dea7e6459da669ab86c218cdbc4852ff1ed24d9376454cd9057d691d222219fa64fb467bea956
 Description: Chủ đề liqui Glass trong suốt
 Name: Liquid Glass Theme
 Author: Nguyên Tokuda & Hoàng MD
@@ -3242,6 +3281,25 @@ Name: Marie (Roothide)
 Author: Luki
 Icon: https://jtisvn.github.io/sectionIcons/Marie.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Marie.json
+
+Package: com.jtis.nopastealerts16
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0)
+Filename: ./debs/com.jtis.nopastealerts16_1.0.0_iphoneos-arm64e.deb
+Size: 4068
+MD5sum: 05f316ff01ec80dab4dfa8632117f726
+SHA1: 9852b1b95f51ed4bdd974c46ab3daea1679eab1c
+SHA256: 8131855db9aea07b8ab9a74f1c4dea1e771fea2ef7d9f83236857d71be7e0359
+SHA512: 7c56b6111820ea0be74e215b50fb5ff0c898c7cc5de994ead008a9398d63ffe828c9838554899a3dba9321e34adf2f2d1a69e417b01a6ca6cddba4045751e370
+Description: Xoá bỏ thông báo xác nhận dán trên IOS 16.
+Name: NoPasteAlerts16
+Author: 0xkuj
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.ocd
 Architecture: iphoneos-arm64
@@ -4113,6 +4171,53 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Trim.json
 Icon: https://jtisvn.github.io/sectionIcons/Trim.png
 Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
 Author: iGerman <igerman@igerman.cc>
+
+Package: com.jtis.tweaksettings
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Priority: optional
+Section: Applications
+Maintainer: JTISVN Repo
+Installed-Size: 1064
+Depends: firmware (>= 10.0), preferenceloader | com.creaturecoding.preferred
+Filename: ./debs/com.jtis.tweaksettings_1.0.8_iphoneos-arm64.deb
+Size: 384660
+MD5sum: 8bf79b780e6300795d67f02160603d77
+SHA1: e5193c0b6ad68e6479f9ee76a077b6112ea037f2
+SHA256: 52e3457b7e05e9ad89b393ad9993d715658fff5c2f388b507daefe3351dbe4d4
+SHA512: 8841f1d6d06e657d33ab25fcde3b426ff01f4800ee7c07cae8e65290f4abc4f552a6021cb2fc50dc8ea88575e17655d9cd360eb73265986e3e25aad733580744
+Homepage: https://jtisvn.github.io
+Description: Dedicated settings app for tweaks
+Tag: purpose::application, compatible_min::ios10
+Name: TweakSettings (Rootless)
+Author: CreatureSurvive <support@creaturecoding.com>
+dev: CreatureSurvive
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TweakSettings.json
+Icon: https://jtisvn.github.io/sectionIcons/TweakSettings.png
+
+Package: com.jtis.tweaksettings
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Priority: optional
+Section: Applications
+Maintainer: JTISVN Repo
+Installed-Size: 1064
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 10.0), preferenceloader | com.creaturecoding.preferred
+Filename: ./debs/com.jtis.tweaksettings_1.0.8_iphoneos-arm64e.deb
+Size: 389512
+MD5sum: 702553f75e21e80843028eed541ec705
+SHA1: 7f6f25db03f4d5ecba5319630abea3e170e5463b
+SHA256: 4c8a4acc4d012633708d7a2c28b480fbd8f75995069cc12b3335bf39cddac41f
+SHA512: 3d7064cf307f52f6f8c941382f12b736975132d993a6406734de04f2bc534c63306cc56c140555be67993174cf4f94d4f8d0c396b3033ee60a4730e8d82a4ef1
+Homepage: https://jtisvn.github.io
+Description: Dedicated settings app for tweaks
+Tag: purpose::application, compatible_min::ios10
+Name: TweakSettings (Roothide)
+Author: CreatureSurvive <support@creaturecoding.com>
+dev: CreatureSurvive
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TweakSettings.json
+Icon: https://jtisvn.github.io/sectionIcons/TweakSettings.png
 
 Package: com.jtis.upsidedowned
 Architecture: iphoneos-arm64e
