@@ -115,6 +115,43 @@ Name: BetterCCCrashProtect
 Author: 0xkuj
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.0xkuj.filzadirprobe
+Architecture: iphoneos-arm64
+Version: 1.7.1
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 240
+Filename: ./debs/com.0xkuj.filzadirprobe_1.7.1_iphoneos-arm64.deb
+Size: 33120
+MD5sum: a98018ee78eba52a95b9a318c0b02006
+SHA1: 29f26cd03a6d8d596f753a6d57173cf413e5fe15
+SHA256: 4ca335f808153e03b4da4dc2e678c3681bda382fa8c67b9dc308aae38e5165d9
+SHA512: cbb609d270724e9da8cf6957a01ec8a85d517d1b3fa676220a9e47ecb9c6324320039057b06ef9cdb537bf02dd5e7e51f7e7216c8e882a27c1f10ecd39c26c88
+Description: Tính toán kích thước thư mục trong filza.
+Name: FilzaDirProbe (Rootless)
+Author: 0xkuj
+Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.filzadirprobe.png
+Sileodepiction: https://jtisvn.github.io/sileodepictions/FilzaDirProbe.json
+
+Package: com.0xkuj.filzadirprobe
+Architecture: iphoneos-arm64e
+Version: 1.7.1
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.0xkuj.filzadirprobe_1.7.1_iphoneos-arm64e.deb
+Size: 32024
+MD5sum: 315d8f3bdc003f58bc2a1923737fc5b2
+SHA1: 81c3125fb49cc6a2c72eb667bb2c3c151baaeaf3
+SHA256: 3e7c8f46581efb616d46e31fd183e99a9d8b3bcea12a222b3fc18bed4019fada
+SHA512: c9dc0774ae6d73f845f4520fcc77055dda393f2dab625960158ec5d93ed8dc717bfa59aec75336f018fda0b6bc9868b87b04d17f62545bc2d84a802ce04b866a
+Description: Tính toán kích thước thư mục trong filza.
+Name: FilzaDirProbe (Roothide)
+Author: 0xkuj
+Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.filzadirprobe.png
+Sileodepiction: https://jtisvn.github.io/sileodepictions/FilzaDirProbe.json
+
 Package: com.0xkuj.safarix
 Architecture: iphoneos-arm64e
 Version: 1.9.8

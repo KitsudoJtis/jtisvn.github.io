@@ -12,7 +12,7 @@
 "title":"Mô tả"
 },
 {
-"markdown":"FilzaDirProbe\n\n- Tính toán kích thước thư mục trong filza\n\n- Chi tiết xem mô tả ở bên dưới",
+"markdown":"FilzaDirProbe\n\n- Một tinh chỉnh mạnh mẽ, được thiết kế để nâng cao trải nghiệm của bạn với trình quản lý tệp Filza. Tinh chỉnh này cung cấp một cách trực quan và hiệu quả để xem kích thước của các thư mục ngay trong ứng dụng, giúp việc quản lý dung lượng lưu trữ trở nên dễ dàng hơn bao giờ hết\n\n- Tính dung lượng toàn bộ hệ thống\n\n- Tính dung lượng thư mục bất kỳ\n\n- Sắp xếp thư mục theo kích thước\n\n- Tự động cập nhật kích thước khi thay đổi tệp\n\n- Chi tiết xem mô tả ở bên dưới",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -24,7 +24,7 @@
 "title":"Chi tiết gói"
 },
 {
-"markdown":"[**Xem mô tả gói**](https://0xkuj.yourepo.com/sileo/depiction/filzadirprobe)",
+"markdown":"[**Xem mô tả gói**](https://0xkuj.yourepo.com/pack/filzadirprobe)",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -54,7 +54,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.7.10"
+"text":"iOS 14.0 đến 16.7.10"
 },
 {
 "class":"DepictionSpacerView"
