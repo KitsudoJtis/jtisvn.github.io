@@ -709,6 +709,43 @@ Author: Nguyên Tokuda & Hoàng MD
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
+Package: com.jtis.LiquidglAss
+Architecture: iphoneos-arm64
+Version: 2.0k
+Section: Chủ đề
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.LiquidglAss_2.0k_iphoneos-arm64.deb
+Size: 24073356
+MD5sum: 23b5c368105072a64a5beb67c186ac1b
+SHA1: 0b4df5919af5b704471e86151f0c1cb87f7d0962
+SHA256: 7c7da4cbe73b294bfd7fe2954feb566377d7069210bc6a00155d7b2284f3f961
+SHA512: b1cc2040772bb7024dff36bd66a72748e79495ea7a8d30d6b1231388c056ae22937b9181c31574329f7e9e94ae1a44eb13243021c608ad80fcf2e7c852f6aac3
+Description: Chủ đề Liquid GlAss
+Name: Liquid Glass Theme
+Author: Nguyên Tokuda & Hoàng MD
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
+Depiction: https://jtisvn.github.io/depictions/LiquidGlass.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.LiquidglAss
+Architecture: iphoneos-arm64e
+Version: 2.0k
+Section: Chủ đề
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.LiquidglAss_2.0k_iphoneos-arm64e.deb
+Size: 24072240
+MD5sum: baf5fa286319e4282eefd3eb76a7ad4e
+SHA1: 7a6afc37c9e35dd36d103635b2e54362c50bc3a3
+SHA256: 1ccaf68f2a01c683ffab2d418ee66b14b45fcfcb66fdae0cfcebd1e2a6b8f01b
+SHA512: 767c51c751b488b707c7f71320aeabab0b3afe0d89eb04bd36f3a906b2a6fd0b880f6e1758d6e35b1475386997e45a09d918dc024d2986fd70494abd884d96bf
+Description: Chủ đề Liquid GlAss
+Name: Liquid Glass Theme
+Author: Nguyên Tokuda & Hoàng MD
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
+Depiction: https://jtisvn.github.io/depictions/LiquidGlass.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+ Pre-Depends: rootless-compat(>= 0.9)
+
 Package: com.jtis.Opertation
 Architecture: iphoneos-arm64
 Version: 1.0.0
