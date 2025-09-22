@@ -648,17 +648,17 @@ Maintainer: JTISVN Repo
 Installed-Size: 356
 Depends: mobilesubstrate, oldabi
 Filename: ./debs/com.jtis.Gifisland_1.0_iphoneos-arm64.deb
-Size: 168328
-MD5sum: f0d162e9b986cf69699d272ceb1fd15d
-SHA1: cf17dc093f394dbc7c3608f904467854a143f7ac
-SHA256: 4aef2f84d008181185f5ae9b74f68d8a47ee92b8f7de6a807011c8efc7a70aad
-SHA512: 7c18e6bcafa7217a074c675f256f6dae736a8cadf55d0934b55785956623d6bffe09a69c2330d38d146d9ffb431a35feada27ec120d1e0ad1bea506c14439cee
+Size: 168324
+MD5sum: 0138e3c155333f25057108e3a2fcc22b
+SHA1: 4e772bb864be0d1025885023c1ee11c7fc0dffd6
+SHA256: 5f94e2e8908f7c9ab3f30fc4839c5a69054e8367c0104db3ccc6fb4356b4e791
+SHA512: 279a052b23fe4c2d03f8bac2937dff8dd226fc049e49c4fea5dc4dd21a56b1193f5a577f314aaf3a12b90296bbf6df0b621c3ce82a7f50efae0ac68bc3bdd92f
 Homepage: https://jtisvn.github.io
 Description: Thêm nên động dạng Gif vào Dynamic island
 Name: Gif Island (Rootless)
 Author: liuf
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Gifisland.json
-Icon: https://jtisvn.github.io/depictions/sectionIcons/Gifisland.png
+Icon: https://jtisvn.github.io/sectionIcons/Gifisland.png
 
 Package: com.jtis.Gifisland
 Architecture: iphoneos-arm64e
@@ -670,16 +670,16 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, oldabi
 Filename: ./debs/com.jtis.Gifisland_1.0_iphoneos-arm64e.deb
 Size: 163620
-MD5sum: f0f06996ac58a929a62729a380d7184b
-SHA1: f7fb4c5c271399ae142fa47017de016d443203e5
-SHA256: 653e6831c357e321278ab2a998c6bdeda71fd26c6d0dbfb70d29162e25d10567
-SHA512: 1f337cb804fc4bd050c3d31132f9bde761d82bd5ec76a169970911aca47d77db715af73c8887c0b855cf99a336680a88e940c98eaf994f25ad740f9093662875
+MD5sum: af0f2e6bbbaaf37239a2f4ec9a28c6fe
+SHA1: f15ff1c81f159d4ca7ab2b35dad7cc80e5380215
+SHA256: ebc597cb798550539c0f6fab745a516d73a7aa7e5f7a0c3cbc1ba81b85a5dcf5
+SHA512: e381fcada91c1fbf24ea2502cc71a327622488f17740ce45e7dfcc98a3b1f55bcc55f1e582485ae804888c36851a7bb6e8c61a6604c5f0d396d8b07c28b79fe3
 Homepage: https://jtisvn.github.io
 Description: Thêm nên động dạng Gif vào Dynamic island
 Name: Gif Island (Roothidd)
 Author: liuf
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Gifisland.json
-Icon: https://jtisvn.github.io/depictions/sectionIcons/Gifisland.png
+Icon: https://jtisvn.github.io/sectionIcons/Gifisland.png
 
 Package: com.jtis.Goku
 Architecture: iphoneos-arm64
