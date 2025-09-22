@@ -34,7 +34,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Gif Island\n\n- Gif động làm nền cho Dynamic,một tinh chỉnh độc đáo cho phép bạn thổi hồn vào chiếc iPhone bằng cách thêm hiệu ứng nền động lên Dynammic Island thay vì nền đen mặc dịnh của mó\n\n Tính năng mổi bật:\n\n- Dễ dàng thay đổi và lựa chọn bất kỳ GIF nào bạn yêu thích để thể hiện cá tính, từ các nhân vật hoạt hình vui nhộn đến các hiệu ứng nghệ thuật độc đáo.\n\n- Hoạt động mượt mà ngay cả khi có thông báo hay Live Activities. GIF nền sẽ ẩn đi một cách tinh tế để nhường chỗ cho các thông tin quan trọng, và xuất hiện trở lại khi Dynamic Island ở trạng thái nghỉ.\n\n- Tạo điểm nhấn thị giác ấn tượng, giúp Dynamic Island trở nên bắt mắt và thú vị hơn nhiều so vơi giao diện mặc định.\n\n Hướng dẫn sử dụng:\n\n- Yêu cầu cài đặt Filza File Manager từ Sileo hoặc Zebra để tinh chỉnh hoạt động chính xác và ổn định.\n\n- Mở filza truy cập theo đường dẫn thêm Gif var/mobile/lddgifbg/ Bên trong thư mục lddgifbg, hãy tạo một thư mục mới bất kỳ, ví dụ: JTISVN\n\n- Lưu ý: Mỗi file Gif phải nằm trong một thư mục riêng,\n\n- Sau khi bạn thêm Giff rồi vào cài đặt chọn Gif vàa thêm xong Respring dể áp dụng thay đổi.\m\n- Nếu gặp lỗi GIF không hiển thị sau khi Respring, hãy Tắt rồi Bật lại tinh chỉnh, sau đó Respring một lần nữa.\n\n- Đối với thiết bị tai thỏ hoặc dòng thấp vui lòng cài tinh chỉnh fake dynamic để sử dụng.",
+"markdown":"Gif Island\n\n- Gif động làm nền cho Dynamic,một tinh chỉnh độc đáo cho phép bạn thổi hồn vào chiếc iPhone bằng cách thêm hiệu ứng nền động lên Dynammic Island thay vì nền đen mặc dịnh\n\n Tính năng mổi bật:\n\n- Dễ dàng thay đổi và lựa chọn bất kỳ GIF nào bạn yêu thích để thể hiện cá tính, từ các nhân vật hoạt hình vui nhộn đến các hiệu ứng nghệ thuật độc đáo.\n\n- Hoạt động mượt mà ngay cả khi có thông báo hay Live Activities. GIF nền sẽ ẩn đi một cách tinh tế để nhường chỗ cho các thông tin quan trọng, và xuất hiện trở lại khi Dynamic Island ở trạng thái nghỉ.\n\n- Tạo điểm nhấn thị giác ấn tượng, giúp Dynamic Island trở nên bắt mắt và thú vị hơn nhiều so vơi giao diện mặc định.\n\n Hướng dẫn sử dụng:\n\n- Yêu cầu cài đặt Filza File Manager từ Sileo hoặc Zebra để tinh chỉnh hoạt động chính xác và ổn định.\n\n- Mở filza truy cập theo đường dẫn var/mobile/lddgifbg/ để thêm file Gif, bên trong thư mục lddgifbg, hãy tạo một thư mục mới bất kỳ, ví dụ: JTISVN\n\n- Lưu ý: Mỗi file Gif phải nằm trong một thư mục riêng,\n\n- Sau khi bạn thêm Giff rồi vào cài đặt chọn Gif vàa thêm xong Respring dể áp dụng thay đổi.\n\n- Nếu gặp lỗi GIF không hiển thị sau khi Respring, hãy Tắt rồi Bật lại tinh chỉnh, sau đó Respring một lần nữa.\n\n- Có vài hiệu ứng Gif ở link bên dưới cho các bạn tải về dung nhé.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -43,10 +43,10 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Tham gia nhóm "
+"title":"Gif"
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
+"markdown":"[**Link tải GIF**](https://app.mediafire.com/folder/djcmpqbye0e6u)",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
