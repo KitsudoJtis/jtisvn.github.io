@@ -1131,15 +1131,15 @@ Installed-Size: 424
 Depends: firmware (>= 14.0), mobilesubstrate
 Conflicts: com.82flex.artworkspinner
 Filename: ./debs/com.jtis.artworkspinners_1.6_iphoneos-arm64.deb
-Size: 39664
-MD5sum: 0ce03def0e7a74fe6f52abcdd66109a4
-SHA1: d73ce1259c6646881927f9754a253c1a781dbeed
-SHA256: 7b77874ec99f15d93720a95a14d1258da2b8fc9402c8e33c502d4098c3df2824
-SHA512: 2279b810f5c47acbcb7b3b6ba5cb8ae9776885a93f7a6330b59f2541dcc49008961676da21ddbeb110b0f75f3ce7a8a1ed32bed2648834e188f0f7ec5e4df8b5
+Size: 39656
+MD5sum: c9d8a91fe9355d21c152eb14da4fa276
+SHA1: 0646447f11497c7f77db9b0c887d9ea136340013
+SHA256: 35a54d7131eea971e8e6a41a2edc84a2b951bfa33d909145602104c3879d27f9
+SHA512: bbf355b1d1a7ccef21fc6c7824717992740f5fe823ab36a2ff29dd9fbec93e533268f8f0490ecf53135f22c50147de25a86bedac176ecd1ebd82bd45d15025bd
 Description: Xoay tròn ảnh bìa Trình phát nhạc trên trung tâm điều khiển và màn hình khoá.
 Name: ArtworkSpinner (Rootless)
 Author: Lessica
-Icon: https://jtisvn.github.io/depictions/sectionIcons/ArworkSpinner.png
+Icon: https://jtisvn.github.io/sectionIcons/ArworkSpinner.png
 
 Package: com.jtis.artworkspinners
 Architecture: iphoneos-arm64e
@@ -1151,15 +1151,15 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), mobilesubstrate
 Conflicts: com.82flex.artworkspinner
 Filename: ./debs/com.jtis.artworkspinners_1.6_iphoneos-arm64e.deb
-Size: 39676
-MD5sum: b616d01c6c2c4cdc29e1e79fb9e62266
-SHA1: b3d7b1841558ab9c0427ff2a7b2f33e0773956ba
-SHA256: 85d964a1e1c60d1a0d5eb1791a9943e241cdf1421b60608ecff87d49fea51757
-SHA512: bcc23775e85987cf3f26bc613d4c385dbe001c7f54aad1ffa743df1e08e2084c75b9b575c670817509f8d692ebe85a2ebfe2e5f1e0bcb9e8f6dc42814e524219
+Size: 39672
+MD5sum: 0c98e93570e5645bbd14d88c32581e36
+SHA1: 40d81eef70358bbc538c894cc3b8073e8360d259
+SHA256: c9830bd33bb28a4523dc9e24a98631877157914dd62814a49d234789a301673e
+SHA512: ac50bc3e04a758fd13bad806293533c5d3a830e7f7e3c9c307824525d15df9dafb27f96b4e92c6b35d66d324bcbb8669eead2d4350a780b2f8815b01a312ce23
 Description: Xoay tròn ảnh bìa Trình phát nhạc trên trung tâm điều khiển và màn hình khoá.
 Name: ArtworkSpinner (Rootless)
 Author: Lessica
-Icon: https://jtisvn.github.io/depictions/sectionIcons/ArworkSpinner.png
+Icon: https://jtisvn.github.io/sectionIcons/ArworkSpinner.png
 
 Package: com.jtis.autofaceunlock-rootless
 Architecture: iphoneos-arm64
