@@ -3342,17 +3342,17 @@ Icon: https://jtisvn.github.io/sectionIcons/Looky.png
 
 Package: com.jtis.looky
 Architecture: iphoneos-arm64
-Version: 1.2k
+Version: 1.2
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 460
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Filename: ./debs/com.jtis.looky_1.2k_iphoneos-arm64.deb
-Size: 56412
-MD5sum: bda718e5286aa156870424f006df2749
-SHA1: c2f6dafa9c3f75fecaf98d6d0a466a5bd6303979
-SHA256: f42ce3985fac4bcb571615be47d9dd95266057ca72a986e2018bf77a154b34be
-SHA512: 395a20be78aff9d42ea2fe9e02a92978d6ddd9666c1f4237f9320619c1302380d83d174ffca78d85429e1ba4806857d8214d6d643c7f46df530ea37b6cd6cfc8
+Filename: ./debs/com.jtis.looky_1.2_iphoneos-arm64.deb
+Size: 56408
+MD5sum: dc1cc97f468b5d55a75a5d11e2a97966
+SHA1: 602948dc911da9af9e37046b77c9eef71e3a3ca1
+SHA256: a981654537615fa3b7966f157f9a57bb288b5f6fd8dc50cbbe7b983cc0b72c4d
+SHA512: dc483c7de180471ceff6267204b5d2c3cdfafad8afae32997814e61791de25652dfb255abd2e065a629ea682f3b98ce77fb5cb0a96d41cbc6c177bb0ae385db9
 Description: Effortless Elegant lock screen notification experience!
 Name: Looky (Rootless)
 Author: EllaSP
@@ -3361,18 +3361,18 @@ Icon: https://jtisvn.github.io/sectionIcons/Looky.png
 
 Package: com.jtis.looky
 Architecture: iphoneos-arm64e
-Version: 1.2k
+Version: 1.2
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 460
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Filename: ./debs/com.jtis.looky_1.2k_iphoneos-arm64e.deb
+Filename: ./debs/com.jtis.looky_1.2_iphoneos-arm64e.deb
 Size: 55344
-MD5sum: d645f4529f26ff44143d345e82482d44
-SHA1: ffa6d383bf8d2a9da196db091c74007e4d116b93
-SHA256: 807f21948e4476667177ec3aa900e88172ab409f50af5b97679b2bd5a8355d3e
-SHA512: 5d7811ecd7f782abc957ec5314783f770e7111bf6a4c060eb1b90e81409b01137ffc4d0a534c2d2a8b9dbaf0a5fc819b6261cb18a00f1bdc4bd69b9510406b59
+MD5sum: da7c2ec6e66000a42e3ca4521ffc7231
+SHA1: a3df124841a7f9ce7c70581edc0fef93858edf4e
+SHA256: 5936aba8ab70a23d9908d7c162cc4c021cbaec51950c6f762b05dbab936773a1
+SHA512: 626592fe474c7e807509fc5519454962b324df61adb56f9353b72606f11b163fc46eebb1cd46a8fc253d44e2969919014d68a00579eafd5029184dc7198d4ffb
 Description: Effortless Elegant lock screen notification experience!
 Name: Looky (Roothide)
 Author: EllaSP
