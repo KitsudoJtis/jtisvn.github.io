@@ -1122,6 +1122,45 @@ Author: Luki
 Icon: https://jtisvn.github.io/sectionIcons/April.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/April.json
 
+Package: com.jtis.artworkspinners
+Architecture: iphoneos-arm64
+Version: 1.6
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 424
+Depends: firmware (>= 14.0), mobilesubstrate
+Conflicts: com.82flex.artworkspinner
+Filename: ./debs/com.jtis.artworkspinners_1.6_iphoneos-arm64.deb
+Size: 39664
+MD5sum: 0ce03def0e7a74fe6f52abcdd66109a4
+SHA1: d73ce1259c6646881927f9754a253c1a781dbeed
+SHA256: 7b77874ec99f15d93720a95a14d1258da2b8fc9402c8e33c502d4098c3df2824
+SHA512: 2279b810f5c47acbcb7b3b6ba5cb8ae9776885a93f7a6330b59f2541dcc49008961676da21ddbeb110b0f75f3ce7a8a1ed32bed2648834e188f0f7ec5e4df8b5
+Description: Xoay tròn ảnh bìa Trình phát nhạc trên trung tâm điều khiển và màn hình khoá.
+Name: ArtworkSpinner (Rootless)
+Author: Lessica
+Icon: https://jtisvn.github.io/depictions/sectionIcons/ArworkSpinner.png
+
+Package: com.jtis.artworkspinners
+Architecture: iphoneos-arm64e
+Version: 1.6
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 424
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Conflicts: com.82flex.artworkspinner
+Filename: ./debs/com.jtis.artworkspinners_1.6_iphoneos-arm64e.deb
+Size: 39676
+MD5sum: b616d01c6c2c4cdc29e1e79fb9e62266
+SHA1: b3d7b1841558ab9c0427ff2a7b2f33e0773956ba
+SHA256: 85d964a1e1c60d1a0d5eb1791a9943e241cdf1421b60608ecff87d49fea51757
+SHA512: bcc23775e85987cf3f26bc613d4c385dbe001c7f54aad1ffa743df1e08e2084c75b9b575c670817509f8d692ebe85a2ebfe2e5f1e0bcb9e8f6dc42814e524219
+Description: Xoay tròn ảnh bìa Trình phát nhạc trên trung tâm điều khiển và màn hình khoá.
+Name: ArtworkSpinner (Rootless)
+Author: Lessica
+Icon: https://jtisvn.github.io/depictions/sectionIcons/ArworkSpinner.png
+
 Package: com.jtis.autofaceunlock-rootless
 Architecture: iphoneos-arm64
 Version: 1.1-7
@@ -1879,6 +1918,45 @@ Name: CCBorder (Roothide)
 Author: fiore
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCbonder.json
 Icon: https://jtisvn.github.io/sectionIcons/CCbonder.png
+
+Package: com.jtis.ccuiplayer
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 436
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.ccuiplayer_1.0.7_iphoneos-arm64.deb
+Size: 46828
+MD5sum: f89415e31aebda86f702ba594d3a382d
+SHA1: 3db0e95d791244d442a4b88092b26549ed6d7819
+SHA256: 59b05e4d9c9b274f42289510b88e85e4df8279260986e28619d010aef94905f7
+SHA512: e971145cc86d10e7474b7e0a8bf0e7f0b8d3f5757df2fd37a80dbee57d30b7faf822786ec5871fd0193f36cc77d86beeb05e886bc5486fe19dcdb2dcfb4b01c1
+Description: Tuỳ chỉnh ảnh nền mô-đun Trình phát nhạc trên Trung tâm diều khiển.
+Name: CCUIPlayer (Rootless)
+Author: Axs
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Sileodepiction: https://jtisvn.github.io/sileodepictions/ArtworkSpinner.json
+
+Package: com.jtis.ccuiplayer
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 436
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.ccuiplayer_1.0.7_iphoneos-arm64e.deb
+Size: 46456
+MD5sum: b419ce77f6e4bdaefdd727cfd5056adf
+SHA1: f70d52c8d5f6b2a31e29694676964632561136b8
+SHA256: d5b0f3a451e4dc24cd3c36c89325dc7c563227c91058d9d07ac278a19f77a73a
+SHA512: e26877e44cab4d26bae2050fd0e2708c4b2badf68023f15c1750892b6432ba7e1cb84e372b51a83020b3f9ca06580c082c62a68dbd1b43dfb7f2ca0580691f48
+Description: Tuỳ chỉnh ảnh nền mô-đun Trình phát nhạc trên Trung tâm diều khiển.
+Name: CCUIPlayer (Roothide)
+Author: Axs
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Sileodepiction: https://jtisvn.github.io/sileodepictions/ArtworkSpinner.json
 
 Package: com.jtis.classicfolders3
 Architecture: iphoneos-arm64
