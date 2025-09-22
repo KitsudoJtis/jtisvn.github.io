@@ -60,7 +60,7 @@
 "title":"Tác giả",
 "text":"ella89sp"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.6" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.2" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -69,7 +69,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"15/8/2025"
+"text":"9/9/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -91,7 +91,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.6\n\n- Thêm huy hiệu vào bên cảnh ảnh đại diện WhatsApp để hiển thì biểu tượng\n\n ### Phiên bản 1.0.5\n\n- Thêm thay đổi kích thước tiêu đề\n\n- Thêm thay đổi kích thước tin nhắn\n\n- Thêm thay đổi kích thước biểu tượng\n\n- Thêm hiệu ứng viền nhấp nháy\n\n- Thêm hỗ trợ ứng dụng X (twiter)\n\n- Xoá bỏ nút tăng, giảm âm lương khi gửi thông báo thử nghiệm\n\n ### Phiên bản 1.0.4 \n\n- Thêm thời gian hiển thị\n\n ### Phiên bản 1.0.2\n\n- Sửa lỗi trên IOS 15\n\n- Thêm ngôn ngữ Tiếng Việt."
+"markdown":"### Phiên bản 1.2\n\n- Xoá bỏ tăng và giảm âm lượng gửi thông báo thử nghiệm\n\n ### Phiên bản 1.0.6\n\n- Thêm huy hiệu vào bên cảnh ảnh đại diện WhatsApp để hiển thì biểu tượng\n\n ### Phiên bản 1.0.5\n\n- Thêm thay đổi kích thước tiêu đề\n\n- Thêm thay đổi kích thước tin nhắn\n\n- Thêm thay đổi kích thước biểu tượng\n\n- Thêm hiệu ứng viền nhấp nháy\n\n- Thêm hỗ trợ ứng dụng X (twiter)\n\n- Xoá bỏ nút tăng, giảm âm lương khi gửi thông báo thử nghiệm\n\n ### Phiên bản 1.0.4 \n\n- Thêm thời gian hiển thị\n\n ### Phiên bản 1.0.2\n\n- Sửa lỗi trên IOS 15\n\n- Thêm ngôn ngữ Tiếng Việt."
 }
 ],
 "class":"DepictionStackView"
