@@ -4664,6 +4664,47 @@ Name: Vizage Gói Việt Hoá (Rootless)
 Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
+Package: com.jtis.waktos2
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1228
+Depends: mobilesubstrate, firmware (>= 14.0), ws.hbang.common (>= 2.0), preferenceloader
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.ali.aimpro, com.icraze.nexus
+Filename: ./debs/com.jtis.waktos2_1.0.1_iphoneos-arm64.deb
+Size: 413560
+MD5sum: da78b93c64c847726c322e6ce448fc9b
+SHA1: c90206a8a164e657a43166729c29eec9130a40af
+SHA256: 05816c28a9bb71642c1b559c88c6658967da4f1dfe5b878b4aa4b1c8570bf5dd
+SHA512: bf0babc1791ee3e8144aeaf1d5a559a14bf76401bf7726f53cbbcca3b06690068949cd50adec31d163a3853dc06781afabeff8fe7f54994c2664e41389c54e3d
+Description: Màn hình khóa kiểu Android
+Name: Waktos 2 (Rootless)
+Author: alimaulana
+Icon: https://jtisvn.github.io/sectionIcons/Waktos2.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Waktos2.json
+
+Package: com.jtis.waktos2
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1228
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), ws.hbang.common (>= 2.0), preferenceloader
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.ali.aimpro, com.icraze.nexus
+Filename: ./debs/com.jtis.waktos2_1.0.1_iphoneos-arm64e.deb
+Size: 410760
+MD5sum: 6a8948d9b78faa9ccdb5d20c7bd384bd
+SHA1: 944757c34562080f676c471b3d59eee4969a210d
+SHA256: f34f64a19fde47a60a6f150d26bb6ae5ea8896ffa83a4a0cdb950c779186d8c8
+SHA512: d91e4312f352322adba28015e94828c4c8b47286fd4f1d0a101d0c8dbad5480f3a1945a961ea62620614349ded181bb52b2f910706cd8d8d6f41384489e9dd0a
+Description: Màn hình khóa kiểu Android
+Name: Waktos 2 (Roothide)
+Author: alimaulana
+Icon: https://jtisvn.github.io/sectionIcons/Waktos2.png
+SileoDepiction: https//jtisvn.github.io/sileodepictions/Waktos2.json
+
 Package: com.jtis.zaire
 Architecture: iphoneos-arm64e
 Version: 0.9.0
