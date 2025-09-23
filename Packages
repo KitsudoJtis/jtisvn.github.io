@@ -4674,10 +4674,10 @@ Depends: mobilesubstrate, firmware (>= 14.0), ws.hbang.common (>= 2.0), preferen
 Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.ali.aimpro, com.icraze.nexus
 Filename: ./debs/com.jtis.waktos2_1.0.1_iphoneos-arm64.deb
 Size: 413560
-MD5sum: da78b93c64c847726c322e6ce448fc9b
-SHA1: c90206a8a164e657a43166729c29eec9130a40af
-SHA256: 05816c28a9bb71642c1b559c88c6658967da4f1dfe5b878b4aa4b1c8570bf5dd
-SHA512: bf0babc1791ee3e8144aeaf1d5a559a14bf76401bf7726f53cbbcca3b06690068949cd50adec31d163a3853dc06781afabeff8fe7f54994c2664e41389c54e3d
+MD5sum: bffd3466a3fd7734c181b266317b5f17
+SHA1: f9bd39503c71761c657497cd77ca1b17fda4486c
+SHA256: e0a454157eaac7d82742f39b55b253b63bf9f437d4cc977e3391cee8eef03cd1
+SHA512: e29f12cacd10c93990d1cb9b7a293bf121489465264f5c9f4ca40e8121df467d3b30a8bbcedf3f87634a6a2f6561b3e6c1d13cfef24c83332b27a2772ffae3c8
 Description: Màn hình khóa kiểu Android
 Name: Waktos 2 (Rootless)
 Author: alimaulana
@@ -4695,15 +4695,15 @@ Depends: mobilesubstrate, firmware (>= 14.0), ws.hbang.common (>= 2.0), preferen
 Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.ali.aimpro, com.icraze.nexus
 Filename: ./debs/com.jtis.waktos2_1.0.1_iphoneos-arm64e.deb
 Size: 410760
-MD5sum: 6a8948d9b78faa9ccdb5d20c7bd384bd
-SHA1: 944757c34562080f676c471b3d59eee4969a210d
-SHA256: f34f64a19fde47a60a6f150d26bb6ae5ea8896ffa83a4a0cdb950c779186d8c8
-SHA512: d91e4312f352322adba28015e94828c4c8b47286fd4f1d0a101d0c8dbad5480f3a1945a961ea62620614349ded181bb52b2f910706cd8d8d6f41384489e9dd0a
+MD5sum: c8e0310ce820937e493a710e7cb0457d
+SHA1: 3f99af0510849bb5fa066e11226a94f5711a317f
+SHA256: 27b2501064b10a8ae2931ce4b9976f742c29bc127b4047e312627a9305ba7233
+SHA512: 626a31ab2dd16855538271fbbf089768b941d16cba1027a825620010e4d5ca518aee0b9847c44055e2ff9969880b9474cc0c51582e933e0ebc491d2f1de55335
 Description: Màn hình khóa kiểu Android
 Name: Waktos 2 (Roothide)
 Author: alimaulana
 Icon: https://jtisvn.github.io/sectionIcons/Waktos2.png
-SileoDepiction: https//jtisvn.github.io/sileodepictions/Waktos2.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Waktos2.json
 
 Package: com.jtis.zaire
 Architecture: iphoneos-arm64e
