@@ -99,7 +99,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.3\n\n- Sửa lỗi crash cho IOS 15.x khi bật ControlCenter Effect\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.3\n\n- Sửa lỗi sự cố cho IOS 15.x khi bật hiệu ứng Trung tâm điều khiển\n\n ### Phiên bản 1.2\\nThay đổi\n\n- Thêm khả năng tương thích với BetterCCBrightness\n\n- Thêm tùy chọn để điều chỉnh mô-đun Trung tâm điều khiển và cài đặt làm mờ nền\n\n- Thêm tùy chọn tắt tính năng thu phóng trên nền Trung tâm điều khiển\n\n- Thêm tùy chọn tô màu cho các biểu tượng thanh trượt của Trung tâm điều khiển\n\n- Thêm tùy chọn để sử dụng lớp lót mờ với các biểu tượng trong suốt\n\n- Thêm tùy chọn để thêm hiệu ứng mờ vào các biểu tượng thư mục Homescreen đã đóng\n\n- Thêm tùy chọn để điều chỉnh kiểu dáng của nhãn văn bản trên các thông báo\n\nSửa Lỗi\n\n- Sửa lỗi trực quan khi vuốt hoàn toàn để xóa thông báo\n\n- Sửa lỗi các hiệu ứng nền Dock không hoạt động khi sử dụng Dock nổi\n\n- Hiệu ứng kính cố định không được áp dụng cho một số menu con mô-đun trung tâm điều khiển\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
