@@ -5239,26 +5239,6 @@ Author: PoomSmart
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Amber.json
 
-Package: com.ps.amber
-Architecture: iphoneos-arm64e
-Version: 1.2.4
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 304
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 13.0)
-Filename: ./debs/com.ps.amber_1.2.4_iphoneos-arm64e.deb
-Size: 8512
-MD5sum: 43cdf732f648c0d0b319202b9dcdef33
-SHA1: f654f3ae96ff021203d476fc325022fa03b8e31c
-SHA256: ce0a7f56c8fc6203dad629096c82308c3df794f3fc228810a520520cb6d1b075
-SHA512: 95db53b1d9d9423de79820955ad1206d028511980b2c698004c53be6bc5eb522abc76bc2db0ec72645f60d84634cc26fde395e70a03fe00ebc996b3d8adecfe0
-Description: Amber-ify your flashlight LEDs.
-Name: Amber (Roothide)
-Author: PoomSmart
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Amber.json
-
 Package: com.ps.smoothcursorios13
 Architecture: iphoneos-arm64e
 Version: 0.0.1
