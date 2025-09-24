@@ -3845,21 +3845,21 @@ Author: MegaDev
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Sentinel.json
 Icon: https://media.havoc.app/620e286f62d8a0bb3788377a
 
-Package: com.jtis.settingGLdark
+Package: com.jtis.settingGLcolor
 Architecture: iphoneos-arm64
 Version: 1.0
 Section: Chủ đề
 Maintainer: JTISBN Repo
-Filename: ./debs/com.jtis.settingGLdark_1.0_iphoneos-arm64.deb
-Size: 875540
-MD5sum: 1db90ef2b5910ec7cb364f371bd4c3d3
-SHA1: e772dc2161630bc556eb001ebcddf0fcd9788354
-SHA256: ea2f0dd861c5c1e715dac65cbbf5ca4d854659ca81b8c43e363b358f66e90db9
-SHA512: e89bc79ff1a2d5cc2f0df5893725f8f34fa9ea78209eac01bb86320a94fbb7f0b0798eca6e15f7b382a582bc791e2657a3712f87942b5fef98efbc1b44963091
-Description: Chủ đề Liquid Glass Dark cho Cài đặt
-Name: Setting Liquid Glass Dark
+Filename: ./debs/com.jtis.settingGLcolor_1.0_iphoneos-arm64.deb
+Size: 948624
+MD5sum: 1ffb2e4877d6843edf6eac444b1fbf3e
+SHA1: c6bf675788bb6b5706968a38bc47d73f27d90dbc
+SHA256: bc5a6cb808b5eb7ea3ffbe2ed3a32fe18febe3441f5c5f5d648b52ea3d7ebc20
+SHA512: 553b1b4dbf16772d58d2db940ef6f7203f16b1713d38157bdfca67b3a826b567d9493c60ea89e3d6b6b6a367cb93c8713441b849a62854e83cd1be403e05aaf4
+Description: Chủ đề Liquid Glass Color cho Cài đặt
+Name: Setting Liquid Glass Color
 Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/settingGLdark.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/settingGLcolor.json
 Icon: https://jtisvn.github.io/sectionIcons/settingGLdark.png
 
 Package: com.jtis.settingMeizu3D
