@@ -5220,6 +5220,45 @@ Name: Shijima for iOS (Roothide)
 Author: pixelomer
 icon: https://media.havoc.app/66c119baecb6d6b2e1b395aa
 
+Package: com.ps.amber
+Architecture: iphoneos-arm64
+Version: 1.2.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 304
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 13.0)
+Filename: ./debs/com.ps.amber_1.2.4_iphoneos-arm64.deb
+Size: 8880
+MD5sum: e00908bcaf0c5fb649a0586232245906
+SHA1: 548c2589226532e792640fee5914289401e289e9
+SHA256: 172e0a6bfa4ea45c4e4017ecc2ca3c2d2a55d12afed97a4acfdde468ef4be1c0
+SHA512: b9d0b1eea03fe684bbbe75bc1912ba01efa79d10c1ed971bb302f9a8aee24154a41f8dc6512e6b405430e3a9b0f598091fa8f79e4b948959a3925143f5ab62fe
+Description: Amber-ify your flashlight LEDs.
+Name: Amber (Rootless)
+Author: PoomSmart
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Amber.json
+
+Package: com.ps.amber
+Architecture: iphoneos-arm64e
+Version: 1.2.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 304
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 13.0)
+Filename: ./debs/com.ps.amber_1.2.4_iphoneos-arm64e.deb
+Size: 8512
+MD5sum: 43cdf732f648c0d0b319202b9dcdef33
+SHA1: f654f3ae96ff021203d476fc325022fa03b8e31c
+SHA256: ce0a7f56c8fc6203dad629096c82308c3df794f3fc228810a520520cb6d1b075
+SHA512: 95db53b1d9d9423de79820955ad1206d028511980b2c698004c53be6bc5eb522abc76bc2db0ec72645f60d84634cc26fde395e70a03fe00ebc996b3d8adecfe0
+Description: Amber-ify your flashlight LEDs.
+Name: Amber (Roothide)
+Author: PoomSmart
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Amber.json
+
 Package: com.ps.smoothcursorios13
 Architecture: iphoneos-arm64e
 Version: 0.0.1
