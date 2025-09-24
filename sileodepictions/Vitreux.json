@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":" Vitreux\n\n- Một tinh chỉnh giúp thay đổi giao điện IPhone của bạn theo phong cách Liquid Glass IOS26 với chức năng tuỳ chỉnh độ mờ và trong suốt như:\n\n- Màn hình khoá\n\n- Màn hình chính\n\n- Hiệu ứng Thông báo\n\n- Hiệu ứng Widgets\n\n- Hiệu ứng Thu mục\n\n- Hiệu ứng thanh Dock\n\n- Hiệu ứng Thư viện\n\n- Hiệu ứng Spotlight\n\n- Và một số chức năng khác.\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết",
+"markdown":" Vitreux\n\n- Một tinh chỉnh giúp thay đổi giao điện IPhone của bạn theo phong cách Liquid Glass IOS26 với chức năng tuỳ chỉnh độ mờ và trong suốt như:\n\n- Màn hình khoá\n\n- Màn hình chính\n\n- Trung tâm điều khiển\n\n- Hiệu ứng Thông báo\n\n- Hiệu ứng Widgets\n\n- Hiệu ứng Thu mục\n\n- Hiệu ứng thanh Dock\n\n- Hiệu ứng Thư viện\n\n- Hiệu ứng Spotlight\n\n- Và một số chức năng khác.\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -99,7 +99,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.3\n\n- Sửa lỗi sự cố cho IOS 15.x khi bật hiệu ứng Trung tâm điều khiển\n\n ### Phiên bản 1.2\\nThay đổi\n\n- Thêm khả năng tương thích với BetterCCBrightness\n\n- Thêm tùy chọn để điều chỉnh mô-đun Trung tâm điều khiển và cài đặt làm mờ nền\n\n- Thêm tùy chọn tắt tính năng thu phóng trên nền Trung tâm điều khiển\n\n- Thêm tùy chọn tô màu cho các biểu tượng thanh trượt của Trung tâm điều khiển\n\n- Thêm tùy chọn để sử dụng lớp lót mờ với các biểu tượng trong suốt\n\n- Thêm tùy chọn để thêm hiệu ứng mờ vào các biểu tượng thư mục Homescreen đã đóng\n\n- Thêm tùy chọn để điều chỉnh kiểu dáng của nhãn văn bản trên các thông báo\n\nSửa Lỗi\n\n- Sửa lỗi trực quan khi vuốt hoàn toàn để xóa thông báo\n\n- Sửa lỗi các hiệu ứng nền Dock không hoạt động khi sử dụng Dock nổi\n\n- Hiệu ứng kính cố định không được áp dụng cho một số menu con mô-đun trung tâm điều khiển\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.3\n\n- Sửa lỗi sự cố cho IOS 15.x khi bật hiệu ứng Trung tâm điều khiển\n\n ### Phiên bản 1.2\n\nThay đổi\n\n- Thêm khả năng tương thích với BetterCCBrightness\n\n- Thêm tùy chọn để điều chỉnh mô-đun Trung tâm điều khiển và cài đặt làm mờ nền\n\n- Thêm tùy chọn tắt tính năng thu phóng trên nền Trung tâm điều khiển\n\n- Thêm tùy chọn tô màu cho các biểu tượng thanh trượt của Trung tâm điều khiển\n\n- Thêm tùy chọn để sử dụng lớp lót mờ với các biểu tượng trong suốt\n\n- Thêm tùy chọn để thêm hiệu ứng mờ vào các biểu tượng thư mục Homescreen đã đóng\n\n- Thêm tùy chọn để điều chỉnh kiểu dáng của nhãn văn bản trên các thông báo\n\nSửa Lỗi\n\n- Sửa lỗi trực quan khi vuốt hoàn toàn để xóa thông báo\n\n- Sửa lỗi các hiệu ứng nền Dock không hoạt động khi sử dụng Dock nổi\n\n- Hiệu ứng kính cố định không được áp dụng cho một số menu con mô-đun trung tâm điều khiển\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
