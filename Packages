@@ -3851,16 +3851,16 @@ Version: 1.0
 Section: Chủ đề
 Maintainer: JTISBN Repo
 Filename: ./debs/com.jtis.settingGLcolor_1.0_iphoneos-arm64.deb
-Size: 948624
-MD5sum: 1ffb2e4877d6843edf6eac444b1fbf3e
-SHA1: c6bf675788bb6b5706968a38bc47d73f27d90dbc
-SHA256: bc5a6cb808b5eb7ea3ffbe2ed3a32fe18febe3441f5c5f5d648b52ea3d7ebc20
-SHA512: 553b1b4dbf16772d58d2db940ef6f7203f16b1713d38157bdfca67b3a826b567d9493c60ea89e3d6b6b6a367cb93c8713441b849a62854e83cd1be403e05aaf4
+Size: 859884
+MD5sum: b29d0e703f334164abc4bf3014423723
+SHA1: b70903e2c9c3a6e688842b77350ac338cbadd25c
+SHA256: 36c2b9ad06d720fac9a40c5052cb8d07fd3827874cc82d60453a5abade2220bc
+SHA512: 0df8f8d0f8c8cd7c222f603e54ef7cef255ceeef93679d4ef3b1cf5382c09b61c281c1110a59f48ab72120030e1c4899c992dfedde72760c106a1bfd5d74cfea
 Description: Chủ đề Liquid Glass Color cho Cài đặt
 Name: Setting Liquid Glass Color
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/settingGLcolor.json
-Icon: https://jtisvn.github.io/sectionIcons/settingGLdark.png
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.settingMeizu3D
 Architecture: iphoneos-arm64
