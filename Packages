@@ -1151,13 +1151,13 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), mobilesubstrate
 Conflicts: com.82flex.artworkspinner
 Filename: ./debs/com.jtis.artworkspinners_1.6_iphoneos-arm64e.deb
-Size: 39672
-MD5sum: 0c98e93570e5645bbd14d88c32581e36
-SHA1: 40d81eef70358bbc538c894cc3b8073e8360d259
-SHA256: c9830bd33bb28a4523dc9e24a98631877157914dd62814a49d234789a301673e
-SHA512: ac50bc3e04a758fd13bad806293533c5d3a830e7f7e3c9c307824525d15df9dafb27f96b4e92c6b35d66d324bcbb8669eead2d4350a780b2f8815b01a312ce23
+Size: 39764
+MD5sum: 93a7880c8501f23420babe89c3e267a4
+SHA1: b93e6ccce0aec5bbad5b5447016f7cac4c4d5878
+SHA256: c77a5f3f29f5bc3de344d3f109093e86f6159e1319818d36404eacb73b05be2a
+SHA512: 69074ffbbf18028a9a03c97e632433a72d95f4adab5a6ed13c4f67f4d6696517c282fcb294fb95534c9178614573d271c41fd0670a93f6e6ec3e9ab3f032430d
 Description: Xoay tròn ảnh bìa Trình phát nhạc trên trung tâm điều khiển và màn hình khoá.
-Name: ArtworkSpinner (Rootless)
+Name: ArtworkSpinner (Roothide)
 Author: Lessica
 Icon: https://jtisvn.github.io/sectionIcons/ArworkSpinner.png
 
