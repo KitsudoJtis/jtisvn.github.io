@@ -60,7 +60,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 16.0 đến 16.7.10"
+"text":"iOS 15.0 đến 16.7.10"
 },
 {
 "class":"DepictionSpacerView"
