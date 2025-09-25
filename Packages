@@ -5617,6 +5617,24 @@ Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Name: AniTime (Roothide)
 Author: yan
 
+Package: con.jtis.amonglock
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/con.jtis.amonglock_1.1.7_iphoneos-arm64.deb
+Size: 20138876
+MD5sum: de6b5d5ebc262cda48103642911bcd2c
+SHA1: 5e785b19b32aa664f735f8751498704d85a26251
+SHA256: b532cfd45958dbce0d285fdb1e17b0633ef2eef6249c50a94031c98bc9a85bde
+SHA512: fcff3056f3dc48adb1ed63fcdec2b944a6c49356a60c131bae75ee9f3f6bdff9764474ae7a520d49ba270a44388e6f65f3cce364a6bd2d89658ced57273994a2
+Description: Thay đổi giao điện mặt khẩu bảo mật theo kiểu trò chơi Among Us
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Amonglock.json
+Icon: https://jtisvn.github.io/sectionIcons/Amonglock.png
+Name: AmongLock (Rootless)
+Author: Litten
+
 Package: dev.theos.orion14
 Architecture: iphoneos-arm64e
 Version: 1.0.2

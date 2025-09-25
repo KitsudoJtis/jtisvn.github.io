@@ -47,7 +47,6 @@
 "text":"Litten"
 },
 { "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1.7" },
-},
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
