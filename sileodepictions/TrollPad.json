@@ -26,7 +26,8 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"TrollPad\n\n- Tinh chỉnh này mang nhiều cửa sổ nổi của iPadOS lên iPhone, Tính năng bao gồm:\n\n- Thanh dock nổi\n\n- Bàn phím nổi\n\n- Trình chuyển đổi ứng dụng dạng lưới\n\n- Nút đa nhiệm\n\n- Chế độ Slide Over\n\n- Chế độ chia đôi màn hình (Split View)\n\n- Stage Manager (hỗ trợ cả AirPlay làm màn hình chính)\n\n- Xoay màn hình lộn ngược";
+"markdown":"TrollPad\n\n- Tinh chỉnh này mang nhiều cửa sổ nổi của iPadOS lên iPhone, Tính năng bao gồm:\n\n- Thanh dock nổi\n\n- Bàn phím nổi\n\n- Trình chuyển đổi ứng dụng dạng lưới\n\n- Nút đa nhiệm\n\n- Chế độ Slide Over\n\n- Chế độ chia đôi màn hình (Split View)\n\n- Stage Manager (hỗ trợ cả AirPlay làm màn hình chính)\n\n- Xoay màn hình lộn ngược",
+"useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
 {
