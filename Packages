@@ -1416,6 +1416,24 @@ Author: MrDeNsor
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Blurify6.json
 Icon: https://jtisvn.github.io/sectionIcons/Blurify.png
 
+Package: com.jtis.blurrybadges
+Architecture: iphoneos-arm64
+Version: 1.5.3
+Section: Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.blurrybadges, com.spicat.blurrybadges
+Filename: ./debs/com.jtis.blurrybadges_1.5.3_iphoneos-arm64.deb
+Size: 42456
+MD5sum: 9510ceb7978f1bfefbc91f58693940fc
+SHA1: 6ea311ef6d655d3ae036f0efb97cfcf4928b8329
+SHA256: 55f6795466d50ca3ffa4915443d391d38760af9dff016e67c2d5472fe124aa7c
+SHA512: 1aa5bc0cf93460e9f8c90eb25482ee8aa6beed658960f2d4864fa9694b6adcbb7816e84107114c105de3082bf4ae79b1e81049410f235457c6198a061cc99881
+Description: Thay thế huy hiệu thông báo mặc định bằng hiệu ừng mờ và trong suốt đông bộ với thanh Dock hoặc thư mục trên màn hình chính.
+Name: BlurryBadges (Rootless)
+Author: PoomSmart <qiaozhani000@163.com>
+Icon: https://axs66.github.io/repo/icon/blurrybadges.png
+
 Package: com.jtis.byehomebottombarx
 Architecture: iphoneos-arm64
 Version: 1.3.7
@@ -4404,6 +4422,45 @@ Icon: https://jtisvn.github.io/sectionIcons/Trim.png
 Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
 Author: iGerman <igerman@igerman.cc>
 
+Package: com.jtis.trollpad
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Filename: ./debs/com.jtis.trollpad_1.3_iphoneos-arm64.deb
+Size: 29236
+MD5sum: 94ae5886ed4ca52e1c09f5e854311669
+SHA1: 102877cf890fe68501aa8e50d7ff58b864be9d81
+SHA256: 752c1377d15f6a639174e27e481406103ba0175cbd7a7cffc879961ad0786f5f
+SHA512: dcad37c00c8d0705c15386ffa3c5d04f76d6681e9ee7a4c51021d51b22e609d6eb48b44f6cce505f63ec94fb443a0ef81d4b892ffd47521b29a1467107807d8b
+Description: Troll SpringBoard into thinking it's running on iPadOS.
+Name: TrollPad (Rootless)
+Author: khanhduytran0
+Icon: https://jtisvn.github.io/sectionIcons/TrollPad.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollPad.json
+
+Package: com.jtis.trollpad
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 536
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Filename: ./debs/com.jtis.trollpad_1.3_iphoneos-arm64e.deb
+Size: 29076
+MD5sum: 056a6bb8256dc11f7cb2b6b1c2c492ce
+SHA1: 5b8baa68e7e5747590cb45b9dfc1c1e81a8e8ac7
+SHA256: 44d6f7e46df59027b4f9717f34f0c27cfcee6a423e6642422c78010a968cc936
+SHA512: 747e324b36bb7a5710ec6277d6859a3cb231ffaf0d2bd06d10ad87c676c4253226cb3063d8498e28e8a7a0732b3bd0e971e511f45a5a1fd8530dbcaab13251bb
+Description: Troll SpringBoard into thinking it's running on iPadOS.
+Name: TrollPad (Roothide)
+Author: khanhduytran0
+Icon: https://jtisvn.github.io/sectionIcons/TrollPad.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollPad.json
+
 Package: com.jtis.tweaksettings
 Architecture: iphoneos-arm64
 Version: 1.0.8
@@ -5616,6 +5673,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
 Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Name: AniTime (Roothide)
 Author: yan
+
+Package: con.jtis.amonglock
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/con.jtis.amonglock_1.1.7_iphoneos-arm64.deb
+Size: 20138876
+MD5sum: de6b5d5ebc262cda48103642911bcd2c
+SHA1: 5e785b19b32aa664f735f8751498704d85a26251
+SHA256: b532cfd45958dbce0d285fdb1e17b0633ef2eef6249c50a94031c98bc9a85bde
+SHA512: fcff3056f3dc48adb1ed63fcdec2b944a6c49356a60c131bae75ee9f3f6bdff9764474ae7a520d49ba270a44388e6f65f3cce364a6bd2d89658ced57273994a2
+Description: Thay đổi giao điện mặt khẩu bảo mật theo kiểu trò chơi Among Us
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Amonglock.json
+Icon: https://jtisvn.github.io/sectionIcons/Amonglock.png
+Name: AmongLock (Rootless)
+Author: Litten
 
 Package: dev.theos.orion14
 Architecture: iphoneos-arm64e
