@@ -1,0 +1,144 @@
+{
+"minVersion":"0.4",
+"headerImage":"https://jtisvn.github.io/coverimage/Designer.png",
+"tintColor":"#5777B8",
+"tabs":[
+{
+"tabname":"Chi tiết",
+"views":[
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/Designer/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Designer/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Designer/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Designer/Screenshots/4.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Designer/Screenshots/5.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Designer/Screenshots/6.png",
+"accessibilityText":"Screenshot"
+
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Designer/Screenshots/7.png",
+"accessibilityText":"Screenshot"
+
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Designer/Screenshots/8.png",
+"accessibilityText":"Screenshot"
+
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Designer/Screenshots/9.png",
+"accessibilityText":"Screenshot"
+
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Designer/Screenshots/10.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"Designer\n\n- là một tinh chỉnh cho phép bạn tuỳ chỉnh bó cuc, tạo, chỉnh sửa và áp dụng các chủ đề cho Màn hình khóa và Màn hình chính\n\n- Tính năng nổi bật:\n\n- Hỗ trợ Widget HTML: Tương thích mạnh mẽ với các chủ đề widget\n\n- Tùy biến Bố cục: Thay đổi số cột, kích thước, vị trí biểu tượng.\n\n- Ẩn mọi thành phần: Dọn dẹp sạch sẽ Dock, tên ứng dụng, thanh trạng thái, dấu trang...\n\n- Hiệu ứng sống động: Thêm hiệu ứng thời tiết và hiệu ứng sạc pin độc đáo.\n\n- Tạo và Chỉnh sửa: Tự tạo ra những chủ đề mới lạ của riêng bạn.",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Tham gia nhóm "
+},
+{
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Thông tin"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Tác giả",
+"text":"JunesiPhone"
+},
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.4.7" },
+{
+"class":"DepictionTableTextView",
+"title":"Thể loại",
+"text":"Tweaks"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Ngày tải lên",
+"text":"2/10/2025"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Khả năng tương thích",
+"text":"iOS 13.0 đến 16.7.11"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionTableButtonView",
+"title":"Liên hệ & Hỗ trợ",
+"action":"https://jtisvn.github.io/donate/donate.html",
+"openExternal":"true",
+"tintColor":"#5777B8"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.5.2\n\n- Thêm một số chức năng mới\n\n ### Phiên bản 1.4.7\n\n- Sửa lỗi và tối ưu hoá chức năng\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}

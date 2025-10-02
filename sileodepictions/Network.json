@@ -12,7 +12,7 @@
 "title":"Mô tả & Giới thiệu"
 },
 {
-"markdown":"Tinh chỉnh cho phép buộc thiết bị của bạn kiểm soát kết nối mạng 2G/3G/LTE/4G/5G chỉ bằng một chạm từ Trung tâm điều khiển.\n\n- Hữu ích khi bạn muốn dùng mạng 4G yếu (nhưng nhanh) thay vì 2G mạnh (nhưng chậm), hoặc khóa cố định một loại mạng để tiết kiệm pin.\n\n- Lưu ý:\n\n- Không tương thích với eSIM.\n\n- Nếu nhà mạng không có VoLTE, bạn sẽ mất sóng khi khóa mạng LTE.\n\n- Hãy tắt chế độ ép mạng (chuyển về Tự động) trước khi gỡ tweak\n\n- Chi tiết xem hình ảnh bên dưới.",
+"markdown":"NetworkManagerReborn\n\n- Tinh chỉnh cho phép buộc thiết bị của bạn kiểm soát kết nối mạng 2G/3G/LTE/4G/5G chỉ bằng một chạm từ Trung tâm điều khiển.\n\n- Hữu ích khi bạn muốn dùng mạng 4G yếu (nhưng nhanh) thay vì 2G mạnh (nhưng chậm), hoặc khóa cố định một loại mạng để tiết kiệm pin.\n\n- Lưu ý: Không tương thích với eSIM.\n\n- Nếu nhà mạng không có VoLTE, bạn sẽ mất sóng khi khóa mạng LTE.\n\n- Hãy tắt chế độ ép mạng (chuyển về Tự động) trước khi gỡ tweak\n\n- Chi tiết xem hình ảnh bên dưới.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
