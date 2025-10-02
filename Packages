@@ -57,6 +57,26 @@ Description: Settings Icons for SnowBoard
 Name: SnowBoard Settings Icons Extension
 Author: Spark
 
+Package: com.jtis.mobilemeadowreborn
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 3848
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/byg.iosios.net.mobilemeadowreborn_1.0.deb
+Size: 2402296
+MD5sum: 26710f802656e9deed6bd54a93c01c91
+SHA1: 67059107c7c55b5e1e45a1b66e189d4d8ba8dc4a
+SHA256: 5ebbfe45713c0564c311be1732e6aa6b19f525c8ab8adb75cac6c44e80fed7f8
+SHA512: c9bf5779bb6da4fdeeba5723739275b5b8d978bcd9434a806e7b2b769e37d864aa0603a8d274b7a1e1cfcfb4cf576335df275ff840610a7b90a446da1b9fe340
+Description: Biến thanh Dock thành một đồng cỏ yên bình với hoa nở trên các ứng dụng và chim bay lượn trên màn hình. Tinh chỉnh này mang thiên nhiên vào điện thoại của bạn, tạo cảm giác thư thái mỗi khi sử dụng.
+Name: Dock Pixel (Rootless)
+Author: pkgFiles
+Sponsor: 搬运工
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Sileodepiction: https://jtisvn.github.io/sileodepictions/DockPixel.json
+
 Package: cn.llld.2playerbj
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -2267,6 +2287,45 @@ Name: Cylinder Remade (Roothide)
 Author: Ryan Nalr
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
 
+Package: com.jtis.designer
+Architecture: iphoneos-arm64
+Version: 1.5.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.designer_1.5.4_iphoneos-arm64.deb
+Size: 11962020
+MD5sum: b90949b18cae17cbd13743643c74d836
+SHA1: b2c8398d58d5001ce1c3717a25ec95481ee5a421
+SHA256: 1534ab90d6003c5057dc4d90f72bd95c7619c3f3160050e7d71424e3202ebc43
+SHA512: d108dfdcc9431fc8607c6eab1b3b02ef08112022a8e64c195d3e6a73c849aa8039de809507ffe8234b46c955db5a2b59ddc277d2258db24a2a428295234e6b5a
+Description: Tuỳ chỉnh bố cục màn hình khoá và màn nình chính！
+Depiction: https://jtisvn.github.io
+Name: Designer (Rootlees)
+Author: JunesiPhone
+Icon: https://jtisvn.github.io/sectionIcons/Designer.png
+Sileodepiction: https://jtisvn.github.io/sileodepictions/Designer.json
+
+Package: com.jtis.designer
+Architecture: iphoneos-arm64e
+Version: 1.5.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.designer_1.5.4_iphoneos-arm64e.deb
+Size: 23897148
+MD5sum: 7bd4e63d7a2fc17502130f205b973429
+SHA1: fb02758e324766b8f89a2e6bf7be174ccd501bd8
+SHA256: dd51c3e95569c1babe6144f5337a0fee79fbaf554b76339cf555cb2bb451439a
+SHA512: 8bade48e2674797c7a3eb4c7fc294c43fdeacbf9b118ee98c55c3cabb5628f83b21814dd1e1622d53c54eccb96cecd137a8a6361e0a9334056abea1750813f13
+Description: Tuỳ chỉnh bố cục màn hình khoá và màn nình chính！
+Depiction: https://jtisvn.github.io
+Name: Designer (Roothide)
+Author: JunesiPhone
+Icon: https://jtisvn.github.io/sectionIcons/Designer.png
+Sileodepiction: https://jtisvn.github.io/sileodepictions/Designer.json
+
 Package: com.jtis.dobbyshim
 Architecture: iphoneos-arm64
 Version: 1.0.3
@@ -3550,6 +3609,45 @@ Name: Marie (Roothide)
 Author: Luki
 Icon: https://jtisvn.github.io/sectionIcons/Marie.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Marie.json
+
+Package: com.jtis.networkmanager
+Architecture: iphoneos-arm64
+Version: 1.4.3
+Section: Control Center (Modules)
+Maintainer: JTISVN Repo
+Installed-Size: 396
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.jtis.networkmanager_1.4.3_iphoneos-arm64.deb
+Size: 38084
+MD5sum: f21f266e8ceb803f32facdca542971e7
+SHA1: 0ce5edf0f0e57b101cdfdad3b5eb14b7314ad953
+SHA256: 1651350edfe10bfa5876091df461ca1f334be47ecd9f66fe2b3b1fee645b0377
+SHA512: d4cd7e5a132753314831d9ee6f08117bc354d9a098105615010841849773aa06f82946536a5f499b472af9c4ec59a86b8ae32d804d1eece77bf0468d4535c42a
+Description: Kiểm soát mạng 2G/3G/4G/5G từ Trung tâm điều khiển.
+Name: NetworkManagerReborn (Rootless)
+Author: NoisyFlake, Nixuge
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Network.json
+Icon: https://jtisvn.github.io/sectionIcons/Network.png
+
+Package: com.jtis.networkmanager
+Architecture: iphoneos-arm64e
+Version: 1.4.3
+Section: Control Center (Modules)
+Maintainer: JTISVN Repo
+Installed-Size: 396
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.jtis.networkmanager_1.4.3_iphoneos-arm64e.deb
+Size: 37068
+MD5sum: dedbbd15b8221f7ebe8ab389dbfed53a
+SHA1: 3d24091a0fd63a3c5d14cc21eb4c4e36973835a5
+SHA256: b2083da5ee4848c8e6563189bdecc8e226c44542644c47e9a34b9b448d9da427
+SHA512: 5a3e982505fac8d975b74b12f579737d3b17fe4306fc605435afac69995243bcc911d98f46b37128e74ddfe3c71b5095b3bf2cb89de4802f037b03fb14635677
+Description: Kiểm soát mạng 2G/3G/4G/5G từ Trung tâm điều khiển.
+Name: NetworkManagerReborn (Roothide)
+Author: NoisyFlake, Nixuge
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Network.json
+Icon: https://jtisvn.github.io/sectionIcons/Network.png
 
 Package: com.jtis.nopastealerts16
 Architecture: iphoneos-arm64e
@@ -5373,6 +5471,25 @@ Author: roothide
 Icon: https://bvnsupport.github.io/depictions/sectionIcons/hethongg1.png:
 Depiction: https://github.com/roothide/RootHideManagerApp
 Support: https://github.com/roothide/RootHideManagerApp
+
+Package: com.spark.libsparkcolourpicker
+Architecture: iphoneos-arm64
+Version: 1.0.3-rootless
+Section: System
+Maintainer: Spark
+Installed-Size: 424
+Depends:
+Filename: ./debs/com.spark.libsparkcolourpicker_1.0.3-rootless_iphoneos-arm64.deb
+Size: 116548
+MD5sum: 353b49a152a269a92a15aa3bf65fbb28
+SHA1: 287f409efac92d49c827ea5b4848e389b127dfc8
+SHA256: 533e3d5cc734c63749e9951b9c73c4c897de6fa40ff22995f4c12095b59545ea
+SHA512: beea12362bbb05e68d9b7d9fee857f6fc0291b590bc5fa57a4d098f703992007106c0424f364b9a93e99dc4a97e607c8fed956992de6bff2ff14124addddf2f6
+Description: Simple to implement, simple to use colour picker library. Built by SparkDev.
+Tag: role::developer
+Name: libsparkcolourpicker
+Author: Spark
+Icon: file:///var/jb/Library/IconRepo/hethongg1.png
 
 Package: com.spark.snowboard.dock
 Architecture: iphoneos-arm64e
