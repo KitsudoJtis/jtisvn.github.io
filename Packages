@@ -919,6 +919,26 @@ Author: 白衣
 Icon: https://jtisvn.github.io/sectionIcons/SwitchLine.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SwitchLine.json
 
+Package: com.jtis.VibrateOnCall
+Architecture: iphoneos-arm64
+Version: 1.0.1+debug
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 172
+Depends: mobilesubstrate, oldabi|oldabi-stub
+Conflicts: com.BIENVANNHAT.callconnected
+Filename: ./debs/com.jtis.VibrateOnCall_1.0.1+debug_iphoneos-arm64.deb
+Size: 5760
+MD5sum: 4f656d57d2dabd824880413b9153f379
+SHA1: 432f77dad00be00cfe6b2798f0289006755103ca
+SHA256: 710581e061f7a2ce723f3cd311a25834c82d981d91a5aa75fdb3eb949727a548
+SHA512: 3539a2e4a4cd352218e6dcd7fe52ba9e38580e1f17e3048061b5f0f4788dd32030ea6852de4e59ba4eeceba2f200db6b6cd1884c6bfca22672750ef18af71082
+Description: Rung 2 lần khi ngắt cuộc gọi và rung 1 lần khi nhận cuộc gọi đến.
+Name: VibrateOnCall (Rootless)
+Author: BVN
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VibrateOnCall.json
+Icon: https://jtisvn.github.io/sectionIcons/VibrateOnCall.png
+
 Package: com.jtis.adguardPro-r2
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -3668,6 +3688,51 @@ Name: NoPasteAlerts16
 Author: 0xkuj
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.nopreferencetips
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
+Filename: ./debs/com.jtis.nopreferencetips_1.0.4_iphoneos-arm64.deb
+Size: 5520
+MD5sum: 6574a43ce4226922c685a3edddc1eb77
+SHA1: 2cc644acd0fa52a9f086b0b79312b50a59f4b6ea
+SHA256: 3fc75dece9c17e3bcdf9bb85e7067a50942aad5ddff74f8191ce5636c9d77307
+SHA512: e09612b2611c21c49a849250338cd66c28ea6f8306c0771932a5a11fe07c0c56894a9999314b812c7f7189b9682d19a40e28451efee4216f45e29fcecce80ed1
+Description: Loại bỏ thông báo pin không chính hãng và hiện lại % pin.
+   * Hỗ trợ iOS 15 - iOS 16
+   * Xóa bỏ thông báo trong mục "Cài đặt -> Pin -> Tình trạng pin & Sạc" và hiển thị lại % dung lượng tối đa
+   * Xóa bỏ số thông báo biểu tượng Cài đặt trên màn hình chính（thông báo về Pin sẽ hiển thị trong 15 ngày）
+   * Xóa bỏ cảnh báo "Linh kiện không xác định" trong mục "Cài đặt -> Cài đặt chung -> Giới thiệu -> Lịch sử linh kiện và dịch vụ" (Ví dụ: Pin - Linh kiện không xác định)
+Name: NoPreferencesTips (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/NoPreferencesTips.png
+Author: 苏苏
+
+Package: com.jtis.nopreferencetips
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
+Filename: ./debs/com.jtis.nopreferencetips_1.0.4_iphoneos-arm64e.deb
+Size: 5404
+MD5sum: 7384b0d2f3515fade1af96bd6d470ae1
+SHA1: 5bd4703d0aa67b9b5b8acdda4d871c337610322f
+SHA256: d4e86d84ac3085ac3b5ac9148da0eceeb527901ab95153560fc1bb4c7d201e43
+SHA512: 603dea6ac3eb49139cd7b8a5403a5c16510fb73a54c2fc17152a8be65c58723be426524e3aca2017c882a5acdcc37bc4ea6f3386524dbe8df3986dcd7e138554
+Description: Loại bỏ thông báo pin không chính hãng và hiện lại % pin.
+   * Hỗ trợ iOS 15 - iOS 16
+   * Xóa bỏ thông báo trong mục "Cài đặt -> Pin -> Tình trạng pin & Sạc" và hiển thị lại % dung lượng tối đa
+   * Xóa bỏ số thông báo biểu tượng Cài đặt trên màn hình chính（thông báo về Pin sẽ hiển thị trong 15 ngày）
+   * Xóa bỏ cảnh báo "Linh kiện không xác định" trong mục "Cài đặt -> Cài đặt chung -> Giới thiệu -> Lịch sử linh kiện và dịch vụ" (Ví dụ: Pin - Linh kiện không xác định)
+Name: NoPreferencesTips (Roothkde)
+Icon: https://jtisvn.github.io/sectionIcons/NoPreferencesTips.png
+Author: 苏苏
+
 Package: com.jtis.ocd
 Architecture: iphoneos-arm64
 Version: 5.2
@@ -5485,6 +5550,26 @@ MD5sum: 353b49a152a269a92a15aa3bf65fbb28
 SHA1: 287f409efac92d49c827ea5b4848e389b127dfc8
 SHA256: 533e3d5cc734c63749e9951b9c73c4c897de6fa40ff22995f4c12095b59545ea
 SHA512: beea12362bbb05e68d9b7d9fee857f6fc0291b590bc5fa57a4d098f703992007106c0424f364b9a93e99dc4a97e607c8fed956992de6bff2ff14124addddf2f6
+Description: Simple to implement, simple to use colour picker library. Built by SparkDev.
+Tag: role::developer
+Name: libsparkcolourpicker
+Author: Spark
+Icon: file:///var/jb/Library/IconRepo/hethongg1.png
+
+Package: com.spark.libsparkcolourpicker
+Architecture: iphoneos-arm64e
+Version: 1.0.3-rootless
+Section: System
+Maintainer: Spark
+Installed-Size: 424
+Pre-Depends: rootless-compat(>= 0.9)
+Depends:
+Filename: ./debs/com.spark.libsparkcolourpicker_1.0.3-rootless_iphoneos-arm64e-1.deb
+Size: 97496
+MD5sum: 94efe7342b5e706674dbad4dd1f26117
+SHA1: 51bb1277e0bb2e85ae1a61f1d7331c23e6b110c7
+SHA256: 5330217272271db966e7d1d014f076be2295606f7dfb01cb4ab04da0c8df5c52
+SHA512: 4765a73a399a6e8207fa91e2e87197d4446f0cf4d30ce7a697d164f9f5f72d0888d06f637417726d8c70186747469e73080e5b76548030de1311e8c9f685e637
 Description: Simple to implement, simple to use colour picker library. Built by SparkDev.
 Tag: role::developer
 Name: libsparkcolourpicker
