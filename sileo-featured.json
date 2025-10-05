@@ -12,17 +12,13 @@
             "package": "com.jtis.Gifisland",
             "url": "https://jtisvn.github.io/coverimage/Gifisland.png"},
 {
-           "title": "SnowBoard Roothide Support",
+           "title": "SnowBoard Roothide",
             "package": "com.spark.snowboard",
             "url": "https://jtisvn.github.io/coverimage/SnowBoard.png"},
 {
            "title": "Safari X",
             "package": "com.0xkuj.safarix",
-            "url": "https://jtisvn.github.io/coverimage/SafariX.png"},
-{
-           "title": "Goku Laetus",
-            "package": "com.jtis.goku",
-            "url": "https://jtisvn.github.io/coverimage/Goku.png"
+            "url": "https://jtisvn.github.io/coverimage/SafariX.png"
         }
     ]
 }
