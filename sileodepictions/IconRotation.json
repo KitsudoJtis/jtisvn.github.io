@@ -1,0 +1,105 @@
+{
+"minVersion":"0.4",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#5777B8",
+"tabs":[
+{
+"tabname":"Chi tiết",
+"views":[
+{},
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/IconRotation/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"Xoay ngang biểu tượng màn hình chính.",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Tham gia nhóm "
+},
+{
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Thông tin"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Tác giả",
+"text":"Poiseon"
+},
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1" },
+{
+"class":"DepictionTableTextView",
+"title":"Thể loại",
+"text":"Tweaks"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Ngày tải lên",
+"text":"4/10/2025"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Khả năng tương thích",
+"text":"iOS 15 đến 16.7.11"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionTableButtonView",
+"title":"Liên hệ & Hỗ trợ",
+"action":"https://jtisvn.github.io/donate/donate.html",
+"openExternal":"true",
+"tintColor":"#5777B8"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak."
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
