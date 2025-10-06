@@ -1021,6 +1021,24 @@ Author: alimaulana
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AimPro.json
 Icon: https://jtisvn.github.io/sectionIcons/AimPro.png
 
+Package: com.jtis.amonglock-rootless
+Architecture: iphoneos-arm64
+Version: 1.1.7-2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/com.jtis.amonglock-rootless_1.1.7-2_iphoneos-arm64.deb
+Size: 20138812
+MD5sum: 6dc55e8f0d76e2d771b62418072662f4
+SHA1: 4feccf86a863abed09579129997804bf9d4fd852
+SHA256: 2c692c329bea0ed994e5b5760a07cef2aa27a9876e7b079a5ef540e7ef7ad9ec
+SHA512: bb9c568613a0bd982cafddf2ab88b45e22208a6c178ba548c223be4c8cd3a445ecc8ea21c8e05ccc857becb8e7a3c09e17abad4b17a2340a7664c93f807eadb7
+Description: Thay đổi giao điện mặt khẩu bảo mật theo kiểu trò chơi Among US.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Amonglock.json
+Icon: https://jtisvn.github.io/sectionIcons/Amonglock.png
+Name: AmongLock (Rootless)
+Author: Litten
+
 Package: com.jtis.ampere
 Architecture: iphoneos-arm64
 Version: 1.4
@@ -5931,24 +5949,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
 Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Name: AniTime (Roothide)
 Author: yan
-
-Package: con.jtis.amonglock
-Architecture: iphoneos-arm64
-Version: 1.1.7
-Section: Tweaks
-Maintainer: JTISVN Repo
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
-Filename: ./debs/con.jtis.amonglock_1.1.7_iphoneos-arm64.deb
-Size: 20138876
-MD5sum: de6b5d5ebc262cda48103642911bcd2c
-SHA1: 5e785b19b32aa664f735f8751498704d85a26251
-SHA256: b532cfd45958dbce0d285fdb1e17b0633ef2eef6249c50a94031c98bc9a85bde
-SHA512: fcff3056f3dc48adb1ed63fcdec2b944a6c49356a60c131bae75ee9f3f6bdff9764474ae7a520d49ba270a44388e6f65f3cce364a6bd2d89658ced57273994a2
-Description: Thay đổi giao điện mặt khẩu bảo mật theo kiểu trò chơi Among Us
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Amonglock.json
-Icon: https://jtisvn.github.io/sectionIcons/Amonglock.png
-Name: AmongLock (Rootless)
-Author: Litten
 
 Package: dev.theos.orion14
 Architecture: iphoneos-arm64e

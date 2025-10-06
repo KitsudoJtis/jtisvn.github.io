@@ -46,7 +46,7 @@
 "title":"Tác giả",
 "text":"Litten"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1.7" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1.7+2" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -87,7 +87,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.1.7\n\n- Chỉnh sửa video khi nhập sai mặt khẩu\n\n- Hỗ trợ Rootless Jailbreak."
+"markdown":"### Phiên bản 1.1.7+2\n\n- Chỉnh sửa video khi nhập sai mặt khẩu\n\n- Hỗ trợ Rootless Jailbreak."
 },
 {
 "class":"DepictionLabelView",
