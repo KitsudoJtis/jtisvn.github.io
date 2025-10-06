@@ -2422,6 +2422,27 @@ Author: Ginsu
 Icon: https://jtisvn.github.io/sectionIcons/Dodo.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Dodo.json
 
+Package: com.jtis.edge2
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 560
+Depends: firmware (>=15.0), com.itznebbs.phoenix (>=1.0.4)
+Conflicts: com.junesiphone.lockpluspro
+Replaces: io.securarepo.edge
+Filename: ./debs/com.jtis.edge2_1.0.3_iphoneos-arm64.deb
+Size: 198192
+MD5sum: 4e1b215a99cfa46e756c934463853ccc
+SHA1: b8591860524f129e74ae32f4adc1a12a78eda369
+SHA256: 4cf83134a397a2b4df84268584408fe239eb2b28fa3b329b99ffb11c41ac9fac
+SHA512: 8d18be042a4b596de88cb4aab30993efa1dd77a882571d062958fbc34b6ac49837828e53ba46fc9c5244b5e1787067a095e1bf6579acfad2680760b025854048
+Description: Hiển thị vièn xung quanh màn hình
+Name: Edge 2 (Rootless)
+Author: Nebbs + Max Bridgland
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Edge2.json
+Icon: https://jtisvn.github.io/icons/avatar.webp
+
 Package: com.jtis.eneko
 Architecture: iphoneos-arm64e
 Version: 1.4.2
