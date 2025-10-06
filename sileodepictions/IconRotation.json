@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Xoay ngang biểu tượng màn hình chính.",
+"markdown":"Xoay ngang biểu tượng trên màn hình chính.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -30,7 +30,7 @@
 "title":"Tham gia nhóm "
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - Join Telegram\n\n\n",
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -55,7 +55,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"6/10/2025"
+"text":"6/4/2025"
 },
 {
 "class":"DepictionTableTextView",
