@@ -1,18 +1,27 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/BatteryPercent.png",
+"minVersion":"0.4",
+"headerImage":"https://jtisvn.github.io/coverimage/Edge2.png",
 "tintColor":"#5777B8",
 "tabs":[
 {
 "tabname":"Chi tiết",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/Edge2/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+"url":"https://jtisvn.github.io/infodeb/Edge2/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
 },
 {
-"markdown":"BatteryPercentiOS16\n\n- Hiển thị % pin giống IOS 16 cho thiết bị iOS 15 trở xuống\n\n- Đồi với thiết bị IPhone XS trở lên vui lòng cài tweak Odabi để tránh tình trạng treo máy sau khi cài đặt\n\n",
+"markdown":"Edge2\n\n Hiển thị hiệu ứng đường viền trên màn hình thiết bị của bạn.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,7 +30,7 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Tham gia nhóm"
+"title":"Tham gia nhóm "
 },
 {
 "markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
@@ -33,14 +42,14 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin "
+"title":"Thông tin"
 },
 {
 "class":"DepictionTableTextView",
-"title":"Nhà phát triển",
-"text":"NQT"
+"title":"Tác giả",
+"text":"Nebbs"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1.2" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.3" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -49,17 +58,12 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"7/5/2025"
-},
-{
-"class":"DepictionTableTextView",
-"title":"Dung lượng",
-"text":"8 KB"
+"text":"25/9/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 14.0 đến 16.5"
+"text":"iOS 15.0 đến 16.7.10"
 },
 {
 "class":"DepictionSpacerView"
