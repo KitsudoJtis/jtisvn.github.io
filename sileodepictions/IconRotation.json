@@ -6,7 +6,6 @@
 {
 "tabname":"Chi tiết",
 "views":[
-{},
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -31,7 +30,7 @@
 "title":"Tham gia nhóm "
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - Join Telegram\n\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -56,12 +55,12 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"4/10/2025"
+"text":"6/10/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 15 đến 16.7.11"
+"text":"iOS 15.0 đến 16.5"
 },
 {
 "class":"DepictionSpacerView"

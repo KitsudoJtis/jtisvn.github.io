@@ -3163,6 +3163,43 @@ Name: JTISVN Icon Repo
 Author: JTIS Repo
 Sponsor: JTIS Repo
 
+Package: com.jtis.iconrotation-rootless
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.jtis.iconrotation-rootless_1.1_iphoneos-arm64.deb
+Size: 5884
+MD5sum: 727f826a1fc9f43cbce898a5bb92ee01
+SHA1: fe7625cb1cf46b4234f575f85948547c1d0e866f
+SHA256: eb9f2f8093bf4c03b545f5b4d6ae36c2b684b7715242dbce6884ae8242258243
+SHA512: 49f3631b81725e0b12a5386242a254a1b93fef660f60c1cca73b1d22aa9d086852de88821d62a4adc54d4605ead17721b846b4c9e7e8d1fe1cd67ea26b8a56c9
+Description: Xoay ngang biểu tượng màn hình chính
+Name: IconRotation (Rootless)
+Author: Paisseon
+SileoDepiction: https://jtisvn.github.io/sileodepictions/IconRotation.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.iconrotation-rootless
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.jtis.iconrotation-rootless_1.1_iphoneos-arm64e.deb
+Size: 5776
+MD5sum: 96ac485f4794710a175994c0caaacb19
+SHA1: 64ac0e45b73814f8ed5a1a2d12b06a471d3d824c
+SHA256: 41a86e4adc3e8f835739bc50fed55e940159fd63057b4b6b1921478be399afc0
+SHA512: 917e6718f0dad51f2eb49b64b414dcc99467b768b17c9d6625ba748b89bdc87be96b949094429ca60f5e3b41fa452c1775d57c19685b5c625e6fe7d62e296f56
+Description: Xoay ngang biểu tượng màn hình chính
+Name: IconRotation (Roothide)
+Author: Paisseon
+SileoDepiction: https://jtisvn.github.io/sileodepictions/IconRotation.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.kayoko-roothide
 Architecture: iphoneos-arm64e
 Version: 2.7
