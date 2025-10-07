@@ -2327,42 +2327,44 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
 
 Package: com.jtis.designer
 Architecture: iphoneos-arm64
-Version: 1.5.4
+Version: 1.5.5
 Section: Tweaks
 Maintainer: JTISVN Repo
+Installed-Size: 20612
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.jtis.designer_1.5.4_iphoneos-arm64.deb
-Size: 11962020
-MD5sum: b90949b18cae17cbd13743643c74d836
-SHA1: b2c8398d58d5001ce1c3717a25ec95481ee5a421
-SHA256: 1534ab90d6003c5057dc4d90f72bd95c7619c3f3160050e7d71424e3202ebc43
-SHA512: d108dfdcc9431fc8607c6eab1b3b02ef08112022a8e64c195d3e6a73c849aa8039de809507ffe8234b46c955db5a2b59ddc277d2258db24a2a428295234e6b5a
-Description: Tuỳ chỉnh bố cục màn hình khoá và màn nình chính！
-Depiction: https://jtisvn.github.io
-Name: Designer (Rootlees)
-Author: JunesiPhone
+Conflicts:
+Filename: ./debs/com.jtis.designer_1.5.5_iphoneos-arm64.deb
+Size: 12800216
+MD5sum: ba75cb5d83251ca2b354df77feb7c0af
+SHA1: 623a5b5e30bbb7749863c831416138d2f899e350
+SHA256: 1317bd09aa431b51f1b86894d69be266ad18fcb2d81df456522b1b809eaab005
+SHA512: fe445a48879499114af4ca0b512cef5996f8141ebc78675c78639b19831c87aea1034165eb95fb4bf278e6f30121d59766d2b22fe7fa6c9de2090db50ee3fb5d
+Description: Tuỳ chỉnh bố cục màn hình khoá và màn nình chính.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Designer.json
 Icon: https://jtisvn.github.io/sectionIcons/Designer.png
-Sileodepiction: https://jtisvn.github.io/sileodepictions/Designer.json
+Name: Designer (Rootless)
+Author: JunesiPhone <junesgraphics@gmail.com>
 
 Package: com.jtis.designer
 Architecture: iphoneos-arm64e
-Version: 1.5.4
+Version: 1.5.5
 Section: Tweaks
 Maintainer: JTISVN Repo
+Installed-Size: 20612
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.jtis.designer_1.5.4_iphoneos-arm64e.deb
-Size: 23897148
-MD5sum: 7bd4e63d7a2fc17502130f205b973429
-SHA1: fb02758e324766b8f89a2e6bf7be174ccd501bd8
-SHA256: dd51c3e95569c1babe6144f5337a0fee79fbaf554b76339cf555cb2bb451439a
-SHA512: 8bade48e2674797c7a3eb4c7fc294c43fdeacbf9b118ee98c55c3cabb5628f83b21814dd1e1622d53c54eccb96cecd137a8a6361e0a9334056abea1750813f13
-Description: Tuỳ chỉnh bố cục màn hình khoá và màn nình chính！
-Depiction: https://jtisvn.github.io
-Name: Designer (Roothide)
-Author: JunesiPhone
+Conflicts:
+Filename: ./debs/com.jtis.designer_1.5.5_iphoneos-arm64e.deb
+Size: 25563756
+MD5sum: 6e6b2a51c275b93e637a733eff2e16f3
+SHA1: 0ed57f41608b1e745d8bc69a82945a35b386e393
+SHA256: 11c08a7e2c05f85f475bbeea4bcd0d4f213fda0cabda7af36e6c1c43f9c87018
+SHA512: 2251d1ba88f8cdae09fe18a2549d194acad8cd2b77b98e805d4419a2c9a418d9d65eed1a8fe2959c70a8ab18b533df4c063fdf25d19f57258c2417f61656dad1
+Description: Tuỳ chỉnh bố cục màn hình khoá và màn nình chính.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Designer.json
 Icon: https://jtisvn.github.io/sectionIcons/Designer.png
-Sileodepiction: https://jtisvn.github.io/sileodepictions/Designer.json
+Name: Designer (Roothide)
+Author: JunesiPhone <junesgraphics@gmail.com>
 
 Package: com.jtis.dobbyshim
 Architecture: iphoneos-arm64
