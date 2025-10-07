@@ -304,6 +304,44 @@ Tag: compatible_min::iOS9
 Name: libCSPreferences
 Author: CreatureSurvive <support@creaturecoding.com>
 
+Package: com.dvntm.ytlite
+Architecture: iphoneos-arm64
+Version: 5.2b3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 16696
+Depends: mobilesubstrate
+Filename: ./debs/com.dvntm.ytlite_5.2b3_iphoneos-arm64.deb
+Size: 6396596
+MD5sum: 3db306349ec0cf4373c0d9a929c4e9df
+SHA1: 44d4c7affad97c3ce7ab665d5450d32e1282a55c
+SHA256: 42792e4cc46482a5ccaf9d1d82fccab459d4c001065909db0a3822fe6114bfae
+SHA512: 8f799a987d5675d0161e3a7a1ef856bdd529b2d05e594125de7a2743c0a7e9f2fa33d650493f87b69f5a4cb1410aa77240b4a846616bc5574d391027c3ac091e
+Description: Lightweight YouTube Enhancer
+Name: YTLite (Rootless)
+Author: dvntm
+Icon: https://jtisvn.github.io/sectionIcons/YTLite.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YTLite.json
+
+Package: com.dvntm.ytlite
+Architecture: iphoneos-arm64e
+Version: 5.2b3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 16696
+Depends: mobilesubstrate
+Filename: ./debs/com.dvntm.ytlite_5.2b3_iphoneos-arm64e.deb
+Size: 6399180
+MD5sum: 323a9a23dd7c76730707954be278f1f3
+SHA1: a592bfa77b84b599040ddc1db02229962c73c6bd
+SHA256: 1e16fc01fed96f6a7d5a87e364b7869304f9b7d87f4ad1a856c26f4be4e6022a
+SHA512: 139b7d494a6a683962cab9ed6e2e45a27ca073ac64ab0c51a5d6fd9cc1902acf65cf386f1c9cbce4ea3c1c2a0a223efded1e8fba29b1ca6a0bb39627eb0c939b
+Description: Lightweight YouTube Enhancer
+Name: YTLite (Roothide)
+Author: dvntm
+Icon: https://jtisvn.github.io/sectionIcons/YTLite.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YTLite.json
+
 Package: com.foxfort.translomatic
 Architecture: iphoneos-arm64e
 Version: 2.18.31
@@ -3034,6 +3072,43 @@ Author: Kritanta && Hitori
 Icon: https://jtisvn.github.io/sectionIcons/Gravitation.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Gravitation.json
 
+Package: com.jtis.griddy
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.griddy_1.0.5_iphoneos-arm64.deb
+Size: 19964
+MD5sum: b5110a1a922b84bc71616a2389b84021
+SHA1: 309b5ac0ce4dc9a4c754e34c3c7ce5cf76c145e3
+SHA256: 0dc63c46cdc69e304d00ed2762ed4bb72aa2d4da3623ae3e3e6c3196ec402aec
+SHA512: 7a592f87ec0160cb9723d9b03dec110ba082db5264e5c744ffd16028387521c5acea920c22a1ac8eb9c2d83be55283ee9b33fdb774c6c87e4777ef14d4d20e86
+Description: Make your icons hit the griddy. Move them anywhere!
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Griddy.json
+Icon: https://jtisvn.github.io/sectionIcons/Griddy.png
+Name: Griddy (Rootless)
+Author: mikifp
+
+Package: com.jtis.griddy
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.griddy_1.0.5_iphoneos-arm64e.deb
+Size: 19476
+MD5sum: 6303406b59b92816e0fe09f6566f65bd
+SHA1: a7993d6600101e2c5bf5f0d706adf33424481b44
+SHA256: 4ec39af4c0c18c61b3a28ffa16ea789b992f1d7949a6b6b0ac4d0f2813490f99
+SHA512: 3cac3d5385e842a82ef5680369018326f4fa249b6568cd6ac0bef6536724a25031d81e7b094690b892f5d0c4924a0eff231a2ca425349988c14d8cc10c64bcab
+Description: Make your icons hit the griddy. Move them anywhere!
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Griddy.json
+Icon: https://jtisvn.github.io/sectionIcons/Griddy.png
+Name: Griddy (Roothide)
+Author: mikifp
+
 Package: com.jtis.hammerit
 Architecture: iphoneos-arm64e
 Version: 1.5.0
@@ -5615,6 +5690,69 @@ SHA512: 2088b90e64cb6d9b0e70375ebe7b63b9ebc6722a68ff5cff938458ebe7100366ddebb13b
 Description: Làm mượt con trỏ chuột di chuyển khi gõ phím chứ trên IOS
 Name: SmoothCursor (iOS 13+)
 Author: Jtis Repo
+
+Package: com.ps.youpip
+Architecture: iphoneos-arm64e
+Version: 1.12.7
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 212
+Provides: com.spicat.youpip
+Depends: mobilesubstrate, com.ps.ytvideooverlay (>= 2.0.0), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture (>= 1.0.1)
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Filename: ./debs/com.ps.youpip_1.12.7_iphoneos-arm64e.deb
+Size: 26020
+MD5sum: ca7c8ebd2b1a228eabf5f4042f8e5b28
+SHA1: 97ccb912645095d15c7da4a161dc0462faac28bf
+SHA256: e12fa4807e952c339c8e12cf2cb9fd46f6f139e85c326c1bd5e9e89174ff1249
+SHA512: d03f1bc0094382c02fc520c60a6eea67000e1bf91a48d2901d6549295734064e90312220863b4d083b7893738841a1a413065ab28f8549d1fb06560fca7fa89f
+Description: Enable native PiP in iOS YouTube app.
+Name: YouPiP (Roothide)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.youpip
+Architecture: iphoneos-arm64
+Version: 1.12.8
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 212
+Provides: com.spicat.youpip
+Depends: mobilesubstrate, com.ps.ytvideooverlay (>= 2.0.0), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture (>= 1.0.1)
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Filename: ./debs/com.ps.youpip_1.12.8_iphoneos-arm64.deb
+Size: 25280
+MD5sum: cd6e65807fed80c089a681248fb5f49b
+SHA1: 4362adf1ffdae0bad49e94021e6b8ee44661635d
+SHA256: bd04490d6f90d8a17f5669f1a9d327dea6c305207a80d6b801b1d7552a128231
+SHA512: bd7b5cb4d074b0f08c559924aa75008348d73de88eceecccca5785289c65030780485851f72fb2d73e9d4376b19062c79932acd81bd83281cde33edd7908a4bb
+Description: Enables native PiP in iOS YouTube app.
+Name: YouPiP (Rootless)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.ytvideooverlay
+Architecture: iphoneos-arm64
+Version: 2.2.3
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.ytvideooverlay_2.2.3_iphoneos-arm64.deb
+Size: 14422
+MD5sum: a4300b44268deb5e467e5216660c8da6
+SHA1: e47383e0a4e6f18d27bb472189dcb966eb0cfd50
+SHA256: cecbe30411e6d59ad4bd7e644c01a18328dceb7bb529f292e23fdec3251829fe
+SHA512: 0943b88586fe95d72a74673991b26c52dc221f0085189a159291c4cc8e63673575f535e050086f72a4ed2c826d9873fc817dd6d9cdd493483dd6cf2be8931d46
+Description: A helper tweak to add buttons on YouTube video overlay.
+Name: YTVideoOverlay
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
 
 Package: com.roothide.manager
 Architecture: iphoneos-aảm64
