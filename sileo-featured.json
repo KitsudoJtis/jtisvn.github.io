@@ -1,6 +1,6 @@
 {
     "class": "FeaturedBannersView",
-    "itemSize": "{263, 148}",
+    "itemSize": "{260, 145}",
     "itemCornerRadius": 10,
     "banners": [
         {
@@ -18,7 +18,11 @@
 {
            "title": "Safari X",
             "package": "com.0xkuj.safarix",
-            "url": "https://jtisvn.github.io/coverimage/SafariX.png"
+            "url": "https://jtisvn.github.io/coverimage/SafariX.png"},
+{
+           "title": "Youtube Plus",
+            "package": "com.dvntm.ytlite",
+            "url": "https://jtisvn.github.io/coverimage/YTLite.png"
         }
     ]
 }

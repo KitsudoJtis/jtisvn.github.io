@@ -5437,6 +5437,26 @@ Name: AdblockPro
 Icon: https:/jtisvn.github.io/sectionIcons/AdBlockPro.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AdBlockPro.json
 
+Package: com.langkhach.adblockpro
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Mở khoá ứng dụng
+Maintainer: JTIS Repo
+Installed-Size: 172	.dragon/_
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.langkhach.adblockpro_0.0.1_iphoneos-arm64e.deb
+Size: 11416
+MD5sum: 0d081c4899adc4bfca948241a9912019
+SHA1: b6a4b133415da703a81d387178ac24839c5e860b
+SHA256: df8d48d9725a09284f05a7f221189c14814d22104c2fac1275618146464b3b8d
+SHA512: 0a50f8a0e2d4d281fa25fcce7268419bf55f3f060e3a451e061f35ce324df255dcfe2ad8f64ff8560f36131818cc4a93b089dced93d8fa3b580bb6dfc5d996b7
+Description: Kích hoạt gói cao cấp ứng dụng AdBlockPro
+Author: Lang khach
+Name: AdblockPro
+Icon: https:/jtisvn.github.io/sectionIcons/AdBlockPro.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AdBlockPro.json
+
 Package: com.mrgcgamer.libgcuniversal
 Architecture: iphoneos-arm64e
 Version: 1.7.0
