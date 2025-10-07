@@ -3144,6 +3144,26 @@ Author: Nightwind
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HorizontalSliders.json
 
+Package: com.jtis.iScreen
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.iScreen_1.0_iphoneos-arm64.deb
+Size: 452236
+MD5sum: 880eeebdb04bdb248c6de6b9f0b11789
+SHA1: ae02fa6d27319e2a244b0a81f8560dc745e38123
+SHA256: 187fa249b05f33fe7fb4597a4d0a4dab338548d95a8567b17d821d62fe460713
+SHA512: 047c90021a918b0a49f92b1721a2378416d3a9bd5d9823bbb5e7ceb8c8d11d05f661b9e88f10395bc6457add5fa4f0aac6fd87620221270b38f6987ae685972e
+Description: iScreen crack by Blatan
+Name: iScreen VIP
+Author: blatant
+Depiction: http://bvnsupport.github.io/infodeb/Html/iScreen.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/IScreenVip.json
+Icon: https://jtisvn.github.io/sectionIcons/IScreenVip.png
+
 Package: com.jtis.iamlazy
 Architecture: iphoneos-arm64
 Version: 2.6.2
@@ -3240,6 +3260,27 @@ Name: IconRotation (Roothide)
 Author: Paisseon
 SileoDepiction: https://jtisvn.github.io/sileodepictions/IconRotation.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.iScreen
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.iscreen_1.0_iphoneos-arm64e.deb
+Size: 1030370
+MD5sum: a405d9246d1a84e76cf5fe9e14c66b07
+SHA1: 6361d23ae409d1bf8bcdeeaede8b9809fce4e950
+SHA256: cfc65eb5bf391dbac8949f6b044a1a016d573c9a41a1af86b6c6684a1f6a7cad
+SHA512: bbdc07ec29a6942e80cb300c8900a43d6c2f52f287eac7d0f2d00bf7171dbc60bf6443dac6aab231b126f31e1620fec05ac7e4ce61ba69f3243736212ac5ca08
+Description: iScreen crack by Blatan
+Name: iScreen VIP
+Author: blatant
+Depiction: http://bvnsupport.github.io/infodeb/Html/iScreen.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/IScreenVip.json
+Icon: https://jtisvn.github.io/sectionIcons/IScreenVip.png
 
 Package: com.jtis.kayoko-roothide
 Architecture: iphoneos-arm64e
