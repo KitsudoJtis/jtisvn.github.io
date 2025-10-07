@@ -86,7 +86,7 @@
 "title":"Tác giả",
 "text":"JunesiPhone"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.5.4" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.5.5" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -95,7 +95,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"2/10/2025"
+"text":"7/10/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -127,7 +127,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.5.4\n\n- Sửa lỗi và tối ưu hoá tính năng\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.5.5\n\n- Sửa lỗi và tối ưu hoá tính năng\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
