@@ -1,0 +1,128 @@
+{
+"minVersion":"0.4",
+"headerImage":"https://jtisvn.github.io/coverimage/YTLite.png",
+"tintColor":"#5777B8",
+"tabs":[
+{
+"tabname":"Chi tiết",
+"views":[
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/YTLite/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/YTLite/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/YTLite/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/YTLite/Screenshots/4.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/YTLite/Screenshots/5.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/YTLite/Screenshots/6.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/YTLite/Screenshots/7.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"YTLite - Youtube Plus\n\n- Bổ sung thêm nhiều tính năng tiện ích cho ứng dụng YouTube.\n\n- Tính năng:\n\n- Tải về: Video, âm thanh (bao gồm cả việc chọn luồng âm thanh riêng), ảnh bìa video (thumbnail), bài đăng và ảnh đại diện.\n\n- Sao chép thông tin: Sao chép nội dung của video, bình luận và bài đăng.\n\n- Tùy chỉnh giao diện: Loại bỏ các thành phần trên trang chủ, sắp xếp lại thứ tự các tab, bật chế độ OLED (tiết kiệm pin cho màn hình AMOLED) và sử dụng chế độ chỉ xem Shorts.\n\n- Cài đặt trình phát: Điều khiển bằng cử chỉ, chọn chất lượng mặc định và luồng âm thanh ưu tiên.\n\n- Quản lý cài đặt: Lưu, tải và khôi phục cài đặt của YTLite. Xóa bộ nhớ đệm một lần hoặc tự động mỗi khi khởi động ứng dụng.\n\n- Tích hợp SponsorBlock: Tự động bỏ qua các đoạn quảng cáo được tài trợ, giới thiệu, hoặc những đoạn không cần thiết trong video.\n\n- Và nhiều tính năng khác",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Tham gia nhóm "
+},
+{
+"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionHeaderView",
+"title":"Thông tin"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Tác giả",
+"text":"dvntm"
+},
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"5.2b.3" },
+{
+"class":"DepictionTableTextView",
+"title":"Thể loại",
+"text":"Tweaks"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Ngày tải lên",
+"text":"10/8/2025"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Khả năng tương thích",
+"text":"iOS 14.0 đến 16.7.11"
+},
+{
+"class":"DepictionSpacerView"
+},
+{
+"class":"DepictionTableButtonView",
+"title":"Liên hệ & Hỗ trợ",
+"action":"https://jtisvn.github.io/donate/donate.html",
+"openExternal":"true",
+"tintColor":"#5777B8"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 5.2b.3\n\n- Sửa lỗi\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
+}
