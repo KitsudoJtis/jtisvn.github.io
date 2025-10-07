@@ -5814,6 +5814,45 @@ Icon: https://bvnsupport.github.io/depictions/sectionIcons/hethongg1.png:
 Depiction: https://github.com/roothide/RootHideManagerApp
 Support: https://github.com/roothide/RootHideManagerApp
 
+Package: com.rpgfarm.a-font
+Architecture: iphoneos-arm64
+Version: 1.11
+Section: Tweaks
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 2476
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/com.rpgfarm.a-font_1.11_iphoneos-arm64.deb
+Size: 494740
+MD5sum: 8a8eb89a10de819147cc80f0a4cd25c1
+SHA1: 1ce6cab4fa13e7cf699233e8f6027b728d29b9fc
+SHA256: 667a267842a9f6ad2df46679d08dd7f0f03d0ea45bfc993964d32aef341e1a82
+SHA512: 5c96d9ab1d531234b08ebc4732409a6b0a84c6cb670d94542b183b9e13107cb52610e8579a9b46ff277406a004ce74f1c5c66d2190fed368d16763bdf1a1c5da
+Description: Change your font!
+Name: A-Font (Rootless)
+Author: Baw Appie <pp121324@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/A-Font.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/A-Font.json
+
+Package: com.rpgfarm.a-font
+Architecture: iphoneos-arm64e
+Version: 1.11
+Section: Tweaks
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 2476
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/com.rpgfarm.a-font_1.11_iphoneos-arm64e.deb
+Size: 496696
+MD5sum: 1742e3941b2921fc1aa65fe09ceaceb4
+SHA1: c872070f76f61579c51f9b50779df2b0b7f9803c
+SHA256: c5a9a23775ad4558eda28ad02fdf257bfb41387b86bc2df3a65f2f0076c05215
+SHA512: d1557a21aed3bf155b35cee855a4ec80c38b17cf97ffcde8eb288e6f1bb37810508f31ec50aa80d406056f3d6440bdbef3fbe839b614bb390a654eb041e000ad
+Description: Change your font!
+Name: A-Font (Roothide)
+Author: Baw Appie <pp121324@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/A-Font.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/A-Font.json
+
 Package: com.spark.libsparkcolourpicker
 Architecture: iphoneos-arm64
 Version: 1.0.3-rootless
