@@ -5660,6 +5660,24 @@ Name: CCSupport
 Author: opa334
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 
+Package: com.opa334.trollstorehelper
+Architecture: iphoneos-arm64
+Version: 2.1
+Section: Applications
+Maintainer: opa334
+Installed-Size: 4400
+Filename: ./debs/com.opa334.trollstorehelper_2.1_iphoneos-arm64.deb
+Size: 1914004
+MD5sum: 9324628802ecf927ff7bbb7fbd4051b0
+SHA1: 1a4370133032223ad6f5a03412bbee2aa3d8d103
+SHA256: 5b00f59b0f0e54213f0b4c3d56a28816cc3e344bd6580bed714aeba475c20916
+SHA512: 1b8bf22408873d33c8438dca990d32301d05c56d8faa12cb7acfc6af6b49e84fc3b06918cfa358098be0bb8b2665ad41e0515f991b454bd76680cbddf559c741
+Description: Helper utility to install and manage TrollStore!
+Name: TrollStore Helper
+Author: opa334
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollstoreHelper.json
+Icon: https://jtisvn.github.io/sectionIcons/TrollstoreHelper.png
+
 Package: com.phucdo.badgebreathing
 Architecture: iphoneos-arm64e
 Version: 0.0.1
