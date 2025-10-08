@@ -5118,6 +5118,49 @@ Name: Zaire (Roothide)
 Author: Luki
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/Zaire.json
 
+Package: com.jtisvn.capcutcrack
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 15984
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtisvn.capcutcrack_1.0.0_iphoneos-arm64.deb
+Size: 13340804
+MD5sum: bbd8118af1ebb6c538a5d0a150e39acc
+SHA1: 94be359b9d6a283996376d7b24c0d95b5e24fd51
+SHA256: c646b8107b271f75ddcd8eba2620656f11be10dc508e27def00776a65d9775d4
+SHA512: f6e0025a304fee6282471ce0f3d947cfc83e9aef645ea829209e4a227311761bf4a3230d0cb687fa8c3610f815b9885633503eff25e172a5661e49c811c170ce
+Homepage: https://jtisvn.github.io
+Description: Crafted with ♥ by @Kitsudo × @dothanh1110
+Name: Capcut Crack
+Author: Kitsudo & dothanh1110
+Depiction: https://jtisvn.github.io/depictions/CapcutPro.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CapcutPro.json
+Icon: https://jtisvn.github.io/sectionIcons/CapcutPro.png
+
+Package: com.jtisvn.capcutcrack
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 15984
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtisvn.capcutcrack_1.0.0_iphoneos-arm64e.deb
+Size: 13263000
+MD5sum: a3aca54bedc9d38723dc236b806dee40
+SHA1: 9b20ba9bbd25db078028d5fabee9ae58a110b85a
+SHA256: 8d641bc23f7643571e103ed4e97b14593e4bd00db57342314cc521c5bc6a216e
+SHA512: 6427f425f4d641b50bce70a7722b7922ae8933c80d9b001d1e821e3e92b5d682726cc71d0343c71b295100e713bb112a71198e14b9e28585b41824cb22ffe1fa
+Homepage: https://jtisvn.github.io
+Description: Crafted with ♥ by @Kitsudo × @dothanh1110
+Name: Capcut Crack
+Author: Kitsudo & dothanh1110
+Depiction: https://jtisvn.github.io/depictions/CapcutPro.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CapcutPro.json
+Icon: https://jtisvn.github.io/sectionIcons/CapcutPro.png
+
 Package: com.jtisvn.laetus
 Architecture: iphoneos-arm64e
 Version: 3.5.1
