@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"A-Font - Thay Đổi Phông Chữ Hệ Thống\n\n- Tinh chỉnh cho phép thay thế phông chữ mặc định của iOS bằng bất kỳ phông chữ nào bạn muốn, tùy biến giao diện theo phong cách riêng.\n\n- Chức năng chính:\n\n- Thay đổi font toàn hệ thống: Áp dụng phông chữ cho mọi nơi, từ ứng dụng đến giao diện hệ thống.\n\n- Loại trừ ứng dụng: Dễ dàng vô hiệu hóa tinh chỉnh trên các ứng dụng bạn chọn để tránh lỗi hiển thị.\n\n- Tùy chỉnh linh hoạt: Hỗ trợ điều chỉnh kích thước và áp dụng font cho cả nội dung web (WebKit).\n\n- Dễ dàng thêm font mới: Chỉ cần sao chép file font (.ttf, .otf) vào đường dẫn /Library/A-Font/ để sử dụng ngay.",
+"markdown":"A-Font - Thay Đổi Phông Chữ Hệ Thống\n\n- Tinh chỉnh cho phép thay thế phông chữ mặc định của iOS bằng bất kỳ phông chữ nào bạn muốn, tùy chỉnh giao diện theo phong cách riêng.\n\n- Chức năng chính:\n\n- Thay đổi font toàn hệ thống: Áp dụng phông chữ cho mọi nơi, từ ứng dụng đến giao diện hệ thống.\n\n- Loại trừ ứng dụng: Dễ dàng vô hiệu hóa tinh chỉnh trên các ứng dụng bạn chọn để tránh lỗi hiển thị.\n\n- Tùy chỉnh linh hoạt: Hỗ trợ điều chỉnh kích thước và áp dụng font cho cả nội dung web (WebKit).\n\n- Dễ dàng thêm font mới: Chỉ cần sao chép file font (.ttf, .otf) vào đường dẫn /Library/A-Font/ để sử dụng ngay.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
