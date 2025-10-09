@@ -268,6 +268,43 @@ Author: Simon <qiaozhani000@163.com>
 Icon: https://axs66.github.io/repo/icon/llswitch.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Swich.json
 
+Package: com.anthopak.appoze3
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: AnthoPak
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
+Filename: ./debs/com.anthopak.appoze3_1.0.1_iphoneos-arm64.deb
+Size: 874100
+MD5sum: ce3c1d4bfd10f4b7121d118162aa9034
+SHA1: a588de5ba59279476b3b74af2c60c5ff169936f9
+SHA256: 298e94053ed0cc686d1c0c178a7873c284c4150627999bad3233963b3d2f5d94
+SHA512: 740740e9b3b657f2ac2a2b4b45a54ff380dc3e2882c6cc3bcd3794621d7ea8a2b102514a6cd294947a9e71e5ec82e47be866ddbe07cef25bd88bde5dc4374a15
+Description: Tùy chỉnh cấu hình 30 cài đặt cho mỗi ứng dụng trong giao diện người gọn gàng và dễ dàng truy cập！
+Icon: https://jtisvn.github.io/sectionIcons/Appaze3.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Appaze3.json
+Author: AnthoPak
+Name: Appaze 3 (Rootless)
+
+Package: com.anthopak.appoze3
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: AnthoPak
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
+Filename: ./debs/com.anthopak.appoze3_1.0.1_iphoneos-arm64e.deb
+Size: 868376
+MD5sum: 259c39f470638ac3806af9e94e61d8b5
+SHA1: 269f80e79d3d5baa264b9a3d67961092c68a9334
+SHA256: befef20420c9304a18bccdd791ac78f98e37427a65f1512adaa9afedc7d2bda8
+SHA512: 7a7a2f6b3c48f190828240fb44f1cb8f493446ffd23a42d3132af901cf147fbd5e777fe00fe8624a6f815b86598e17fb10be230244ee261816e343e357f78755
+Description: Tùy chỉnh cấu hình lên đến 30 cài đặt cho mỗi ứng dụng trong giao diện người gọn gàng và dễ dàng truy cập！
+Icon: https://jtisvn.github.io/sectionIcons/Appaze3.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Appaze3.json
+Author: AnthoPak
+Name: Appaze 3 (Roothide)
+
 Package: com.boo.libscribble
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -1777,221 +1814,6 @@ Icon: https://jtisvn.github.io/sectionIcons/CC26.png
 
 Package: com.jtis.cc26
 Architecture: iphoneos-arm64
-Version: 0.4.9.1b
-Section: Tweaks
-Maintainer: therealhoodboy
-Installed-Size: 204
-Provides: com.cureux.cc26
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (< 18.0)
-Conflicts: com.dvntm.cc18
-Filename: ./debs/com.jtis.cc26_0.4.9.1b_iphoneos-arm64.deb
-Size: 15472
-MD5sum: b624514feff834dc5bce4b1e1e2070ab
-SHA1: 20227bf3b5f68082aea5fbf0c1b3d3517b50dff0
-SHA256: 4f8264185112cabf61ccae04601a02bbe1d855b0603185c057bd85ab9ca2d749
-SHA512: 2a51941a419014469a0b48f29feb3a4ee2610fa51843f009dc016e9a45f587b37e22f79fb8881cd4cf5049f8a269f27382115c240c0d9a6a1d5de78f38f938d5
-Description: A sleek reimagination of Control Center
-Name: CC26 (Rootless)
-Author: therealhoodboy
-Icon: https://jtisvn.github.io/sectionIcons/CC26.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
-
-Package: com.jtis.cc26
-Architecture: iphoneos-arm64e
-Version: 0.4.9.1b
-Section: Tweaks
-Maintainer: therealhoodboy
-Installed-Size: 204
-Provides: com.cureux.cc26
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (< 18.0)
-Conflicts: com.dvntm.cc18
-Filename: ./debs/com.jtis.cc26_0.4.9.1b_iphoneos-arm64e.deb
-Size: 15136
-MD5sum: a656cf4b4c463d00bab8a8a76f74cc20
-SHA1: 08e9cd60952ddf5a9c73262f41497067c4bfce64
-SHA256: bb2178aac8190d3054dee1e99dc418ab5f50a2ce78c4743d6047cd2ed01d5016
-SHA512: 7961379f4e52cb8f506566ee5ab9b18296fbf758fabb69840c887aba8cb07315f5b082f3fca406ff7f028c029a60762f582fb49c240a19e36b4c83841b09918e
-Description: A sleek reimagination of Control Center
-Name: CC26 (Roothide)
-Author: therealhoodboy
-Icon: https://jtisvn.github.io/sectionIcons/CC26.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
-
-Package: com.jtis.cc26
-Architecture: iphoneos-arm64
-Version: 0.4.9.3b
-Section: Tweaks
-Maintainer: therealhoodboy
-Installed-Size: 204
-Provides: com.cureux.cc26
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
-Conflicts: com.dvntm.cc18
-Filename: ./debs/com.jtis.cc26_0.4.9.3b_iphoneos-arm64.deb
-Size: 18044
-MD5sum: df2c88aeedd90b232142cc3656f1e1bf
-SHA1: b3b25ef4410af817b0929c893058c3483fa06d91
-SHA256: 9edc603cb4d4bd38f678ca120175804daaf028aebc2f8a18861100016e9759ca
-SHA512: 2970d9b02207d588480e7e696a5d5c73edb472d6af49174839f7eeea059e315bb46badb93a54b479b2d71f348d3c7e2fc4002bcb8508f9cb83289435ddda7512
-Description: A sleek reimagination of Control Center
-Name: CC26 (Rootless)
-Author: therealhoodboy
-Icon: https://jtisvn.github.io/sectionIcons/CC26.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
-
-Package: com.jtis.cc26
-Architecture: iphoneos-arm64e
-Version: 0.4.9.3b
-Section: Tweaks
-Maintainer: therealhoodboy
-Installed-Size: 204
-Provides: com.cureux.cc26
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
-Conflicts: com.dvntm.cc18
-Filename: ./debs/com.jtis.cc26_0.4.9.3b_iphoneos-arm64e.deb
-Size: 17692
-MD5sum: 28e0a063d3b5d0d98268d8ef8b35718e
-SHA1: 818f64e92fd14e3bec46f05c5be7b96b4e1e72b9
-SHA256: 7eb80f950040a425843c9b57e25f533cb793f552327fed8e5c4571f877f29275
-SHA512: be2594637d1b81b9273d4d4ff1968bbd6857622f4e85d8d7e4029559bcb08f518111014b1e759fa4df6c129d4fc5075b3041486650ff5db18ddd1c3984252d2e
-Description: A sleek reimagination of Control Center
-Name: CC26 (Roothide)
-Author: therealhoodboy
-Icon: https://jtisvn.github.io/sectionIcons/CC26.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
-
-Package: com.jtis.cc26
-Architecture: iphoneos-arm64
-Version: 0.4.9.5b
-Section: Tweaks
-Maintainer: therealhoodboy
-Installed-Size: 220
-Provides: com.cureux.cc26
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
-Conflicts: com.dvntm.cc18
-Filename: ./debs/com.jtis.cc26_0.4.9.5b_iphoneos-arm64.deb
-Size: 19996
-MD5sum: 9895ed8196d77c0be853b16f1dbd84e5
-SHA1: ae01a6a9b25bceaa93f7a2b9ebe59ac5dc0c687b
-SHA256: 4de3bf1699b85813482572648fa80165e84ada1954c9fcacbe3a419d9b54d12c
-SHA512: 80238cab6787c6d6af74784ecd11c3c70689662ef74b7bc1e8fabc388d2936d7e627e0871bb19d75bbf21cb18085e508f417f1d45f16e6ffd3d01644b59379a2
-Description: A sleek reimagination of Control Center
-Name: CC26 (Rootless)
-Author: therealhoodboy
-Icon: https://jtisvn.github.io/sectionIcons/CC26.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
-
-Package: com.jtis.cc26
-Architecture: iphoneos-arm64e
-Version: 0.4.9.5b
-Section: Tweaks
-Maintainer: therealhoodboy
-Installed-Size: 220
-Provides: com.cureux.cc26
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
-Conflicts: com.dvntm.cc18
-Filename: ./debs/com.jtis.cc26_0.4.9.5b_iphoneos-arm64e.deb
-Size: 20156
-MD5sum: 74f1a1ce3fefb8521bda6951a57f2dee
-SHA1: 8ca363955fac8b5cec9db156b74d86f03c075f37
-SHA256: efb6e6d424960b4b041c96cb967d3eea90f28f1801a3bfb2b1ff98894025836a
-SHA512: 2433ac069f156281beed9b3d9390b7f4131b649c7a4d89e4870c760bfdd41331a80c95670ff88823d71e97b764a98bf880a1dbb3d5c17213450ae109cef6e4db
-Description: A sleek reimagination of Control Center
-Name: CC26 (Roothide)
-Author: therealhoodboy
-Icon: https://jtisvn.github.io/sectionIcons/CC26.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
-
-Package: com.jtis.cc26
-Architecture: iphoneos-arm64
-Version: 0.4.9.6b
-Section: Tweaks
-Maintainer: therealhoodboy
-Installed-Size: 220
-Provides: com.cureux.cc26
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
-Conflicts: com.dvntm.cc18
-Filename: ./debs/com.jtis.cc26_0.4.9.6b_iphoneos-arm64.deb
-Size: 19968
-MD5sum: c70305d2bc668c8eda6440795175a0e2
-SHA1: 6e304e42504b067d8d7f5c5d1eae87045d80935c
-SHA256: 749a3e96d81af6278761db49b840ec43c85f8c2404ef0a9bca2779292652c8c7
-SHA512: 15f1395b6409ddf1a1909484731eafa045f69e981670fe4a519acbda2542f7c36745b170b0d00e5e124ab90fafd23a1b09922421c4ca22fc9c192080195ead63
-Description: A sleek reimagination of Control Center
-Name: CC26 (Rootless)
-Author: therealhoodboy
-Icon: https://jtisvn.github.io/sectionIcons/CC26.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
-
-Package: com.jtis.cc26
-Architecture: iphoneos-arm64e
-Version: 0.4.9.6b
-Section: Tweaks
-Maintainer: therealhoodboy
-Installed-Size: 220
-Provides: com.cureux.cc26
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
-Conflicts: com.dvntm.cc18
-Filename: ./debs/com.jtis.cc26_0.4.9.6b_iphoneos-arm64e.deb
-Size: 20124
-MD5sum: 383a7f5a2a91e24d407616eaf03d121d
-SHA1: 355e73cf9f25ce8e2455a2374b244218e5c72840
-SHA256: 3f613d6aa21ee75a9ea91c2e2780dc41666c5c4fb925f35e2b46976993004044
-SHA512: b7089c9d1a0a326990d90268adcad5a22afa7cbc806d0194160633a95397356f0efc0c1176cc60d8e67931ea9d034e09cb38cf22507a670abee937fcfa3fc9b3
-Description: A sleek reimagination of Control Center
-Name: CC26 (Roothide)
-Author: therealhoodboy
-Icon: https://jtisvn.github.io/sectionIcons/CC26.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
-
-Package: com.jtis.cc26
-Architecture: iphoneos-arm64
-Version: 0.4.9.7b
-Section: Tweaks
-Maintainer: therealhoodboy
-Installed-Size: 220
-Provides: com.cureux.cc26
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
-Conflicts: com.dvntm.cc18
-Filename: ./debs/com.jtis.cc26_0.4.9.7b_iphoneos-arm64.deb
-Size: 22700
-MD5sum: 630dca267963c643b41cae5c9f3ca0d6
-SHA1: 7e615d12db313355f9be820cf1dffc76deea59af
-SHA256: 166cfe2036adf744ebac0cb367a6136088dfdb857345071105e8f3a553d23aa9
-SHA512: 5f87528338a14aabf3ce64bd175eef4372db16a8b6fa7afc8e86d746f8318cdf088090df81000b3315bc601105c540c14434982f437fcd31325e6ea38bcce3af
-Description: A sleek reimagination of Control Center
-Name: CC26 (Rootless)
-Author: therealhoodboy
-Icon: https://jtisvn.github.io/sectionIcons/CC26.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
-
-Package: com.jtis.cc26
-Architecture: iphoneos-arm64e
-Version: 0.4.9.7b
-Section: Tweaks
-Maintainer: therealhoodboy
-Installed-Size: 220
-Provides: com.cureux.cc26
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
-Conflicts: com.dvntm.cc18
-Filename: ./debs/com.jtis.cc26_0.4.9.7b_iphoneos-arm64e.deb
-Size: 22892
-MD5sum: e496fc62b5c29dbc06a68f30c4372a0b
-SHA1: 443976bc9af2168fe8c0c0712da9a82e344b5336
-SHA256: a5fedf10867b2b07321dea647148b18488ab55ace9c6a525c1c9b6cd0d137f87
-SHA512: 72f2a33a90ca429bf2e342d1c72a9aed62f4946dc28a6302df94827483fb8cb329a379f7d4cbfb37dd8f64cf6157e13d2b7ffbdd10dc7ab623468cd7000d338f
-Description: A sleek reimagination of Control Center
-Name: CC26 (Roothide)
-Author: therealhoodboy
-Icon: https://jtisvn.github.io/sectionIcons/CC26.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
-
-Package: com.jtis.cc26
-Architecture: iphoneos-arm64
 Version: 0.4.9.9b
 Section: Tweaks
 Maintainer: JTIS Repo
@@ -2031,6 +1853,49 @@ Description: Mang phong cách mới IO26 gọn gàng cho trung tâm điều khi�
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
 Name: CC26 (Roothide)
 Author: therealhoodboy
+Icon: https://jtisvn.github.io/sectionIcons/CC26.png
+
+Package: com.jtis.cc26
+Architecture: iphoneos-arm64
+Version: 0.4.9.9bk
+Section: Tweaks
+Maintainer: therealhoodboy
+Installed-Size: 204
+Provides: com.cureux.cc26
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
+Conflicts: com.dvntm.cc18
+Filename: ./debs/com.jtis.cc26_0.4.9.9bk_iphoneos-arm64.deb
+Size: 18080
+MD5sum: 88f5ec947b531fb2b5e5b7c2d65269a8
+SHA1: 448658f43a9aac728cfc55a446c0989d184eec75
+SHA256: 799f6599d9e5e74abcf5492cb197796251a245e0f96ea355ff2ea3982a4dc05c
+SHA512: 87b487a1792fe4fc9a86feaf1614153fd1641a2f9e39c3507a1f9791f57b71606fe17e3b3e604acbea89a4d3e39bcd792ec57407d2749b9ac5a651f3b934f6fc
+Description: Mang phong cách mới IO26 gọn gàng cho trung tâm điều khiển trên thiết bị của bạn
+Name: CC26 (Rootless)
+Author: therealhoodboy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
+Icon: https://jtisvn.github.io/sectionIcons/CC26.png
+
+Package: com.jtis.cc26
+Architecture: iphoneos-arm64e
+Version: 0.4.9.9bk
+Section: Tweaks
+Maintainer: therealhoodboy
+Installed-Size: 204
+Provides: com.cureux.cc26
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
+Conflicts: com.dvntm.cc18
+Filename: ./debs/com.jtis.cc26_0.4.9.9bk_iphoneos-arm64e.deb
+Size: 17768
+MD5sum: ecd953d8c6bf73f363b5c728e012c11f
+SHA1: 91b7d680973777081ee53a599bbda4dc6b18ca12
+SHA256: 44affd58a162f9e9da787325bec3a47f16e7296c240bd8288787f366c905970b
+SHA512: babdebc2ce6f210214fac4503c15543cf1dfd3690c701abcf49aa277b71c7852f211f02616e9597d872e53e142b097ef2d20547a300a5ac2d6f1a39b0d037b02
+Description: Mang phong cách mới IO26 gọn gàng cho trung tâm điều khiển trên thiết bị của bạn
+Name: CC26 (Roothide)
+Author: therealhoodboy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
 Icon: https://jtisvn.github.io/sectionIcons/CC26.png
 
 Package: com.jtis.ccborder
@@ -5672,6 +5537,25 @@ MD5sum: 9324628802ecf927ff7bbb7fbd4051b0
 SHA1: 1a4370133032223ad6f5a03412bbee2aa3d8d103
 SHA256: 5b00f59b0f0e54213f0b4c3d56a28816cc3e344bd6580bed714aeba475c20916
 SHA512: 1b8bf22408873d33c8438dca990d32301d05c56d8faa12cb7acfc6af6b49e84fc3b06918cfa358098be0bb8b2665ad41e0515f991b454bd76680cbddf559c741
+Description: Helper utility to install and manage TrollStore!
+Name: TrollStore Helper
+Author: opa334
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollstoreHelper.json
+Icon: https://jtisvn.github.io/sectionIcons/TrollstoreHelper.png
+
+Package: com.opa334.trollstorehelper
+Architecture: iphoneos-arm64e
+Version: 2.1
+Section: Applications
+Maintainer: opa334
+Installed-Size: 4400
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.opa334.trollstorehelper_2.1_iphoneos-arm64e.deb
+Size: 4593514
+MD5sum: 194fad1ac532ad00729e6644a1959afd
+SHA1: d508a36cf0f2bfedf1597bd0ddd594dad2b7aa8f
+SHA256: e4ae793682377707dc647ef6dd5cee68ee48d236f64f1d530e6f1f380452d5ec
+SHA512: f865067bbefae6134aef1154f7812caf31d98af2eb30576f6d22cef8cd85e4a3c98aad48963d2bc93ab50f7e14bf1bc75cda502c1e4098ea55b8881f5b03f5e8
 Description: Helper utility to install and manage TrollStore!
 Name: TrollStore Helper
 Author: opa334
