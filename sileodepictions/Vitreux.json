@@ -6,6 +6,7 @@
 {
 "tabname":"Chi tiết",
 "views":[
+{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
