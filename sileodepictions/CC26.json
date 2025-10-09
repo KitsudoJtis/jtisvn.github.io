@@ -6,17 +6,10 @@
 "tabname": "Giới thiệu",
 "views": [
 {
-"class": "DepictionButtonView",
-"text": "☹ Không tương thích với iOS của bạn",
-"tintColor": "#f15a22",
-"maxOSVersion": "14.8.1"
-},
-{
-"class": "DepictionButtonView",
-"text": "✓ Tương thích với iOS của bạn",
+"text": "Thông tin gói tinh chỉnh CC26",
+"action": "",
 "tintColor": "#15C377",
-"minOSVersion": "15.0",
-"maxOSVersion": "16.7.10"
+"class": "DepictionButtonView"
 },
 {
 "text": "Liên hệ & Hỗ trợ",
@@ -32,7 +25,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Mô tả & Chức năng",
+"text": "Mô tả & Tính năng",
 "fontWeight": "bold",
 "fontSize": 19,
 "usePadding": true,
@@ -40,7 +33,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown": "Mang phong cách Trung tâm điều khiển theo kiểu iOS26 trên thiết bị iOS thấp hơn.\n\n- Lưu ý: Đối với thiết bị iPhone XS trở lên vui lòng tải thêm gói Legacy arm64e Support nếu gặp lỗi Safemode.",
+"markdown": "Mang phong cách Trung tâm điều khiển theo kiểu iOS26 trên thiết bị iOS thấp hơn.\n\n Lưu ý: Đối với thiết bị iPhone XS trở lên vui lòng tải thêm gói Legacy arm64e Support nếu gặp lỗi Safemode.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -105,13 +98,13 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày tải lên & cập nhật",
+"text": "Ngày cập nhật",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "8/8/2025",
+"text": "9/10/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -172,7 +165,7 @@
 "useSpacing": true,
 "class": "DepictionMarkdownView",
 "useRawFormat": true,
-"markdown": "<small style=\"color: #aaa; font-size: 10pt;\">Repo JTISVN tập trung vào việc tổng hợp và chia sẻ các tweak chất lượng, ổn định. chúng tôi và mang đên cho người dùng một kho tàng tweak tiện lợi và an toàn.với mục tiêu phục vụ cộng đồng Jailbreak!<BR />Copyright © 2025 By: JTISVN</small><style>body { text-align: center; }</style>"
+"markdown": "<small style=\"color: #aaa; font-size: 10pt;\"Nguồn JTISVN chúng tôi không trực tiếp tạo ra tweak và chỉ tập trung vào việc tổng hợp và chia sẻ các tweak chất lượng, ổn định giúp cho người dùng với mục tiêu phục vụ cộng đồng Jailbreak khám phá kho tàng tweak môt cách an toàn và tiện lợi.<BR />Copyright © 2025 By: JTISVN</small><style>body { text-align: center; }</style>"
 }
 ],
 "class": "DepictionStackView"
