@@ -6,10 +6,17 @@
 "tabname": "Giới thiệu",
 "views": [
 {
-"text": "Thiết bị IOS của ban tương thích với gói này",
-"action": "",
+"class": "DepictionButtonView",
+"text": "☹ Không tương thích với iOS của bạn",
+"tintColor": "#f15a22",
+"maxOSVersion": "14.8.1"
+},
+{
+"class": "DepictionButtonView",
+"text": "✓ Tương thích với iOS của bạn",
 "tintColor": "#15C377",
-"class": "DepictionButtonView"
+"minOSVersion": "15.0",
+"maxOSVersion": "16.7.10"
 },
 {
 "text": "Liên hệ & Hỗ trợ",
@@ -20,12 +27,12 @@
 {
 "text": "Kho Lưu Trữ JTISVN",
 "action": "https://jtisvn.github.io/",
-"tintColor": "#8A2BE2",
+"tintColor": "#85a8fc",
 "class": "DepictionButtonView"
 },
 {
 "class": "DepictionLabelView",
-"text": "Mô tả Tweak",
+"text": "Mô tả & Chức năng",
 "fontWeight": "bold",
 "fontSize": 19,
 "usePadding": true,
@@ -33,7 +40,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown": "CC26\n\n- Mang phong cách mới IO26 cho trung tâm điều khiển trên thiết bị IOS thấp hơn.\n\n- Chi tiết xem hình ảnh bên dưới",
+"markdown": "Mang phong cách Trung tâm điều khiển theo kiểu iOS26 trên thiết bị iOS thấp hơn.\n\n- Lưu ý: Đối với thiết bị iPhone XS trở lên vui lòng tải thêm gói Legacy arm64e Support nếu gặp lỗi Safemode.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -85,6 +92,37 @@
 "views": [
 {
 "class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "therealhoodboy",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày tải lên & cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "8/8/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
 "text": "Phiên bản",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
@@ -98,38 +136,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Tác giả",
-"textColor": "#777",
-"margins": "{16,0,8,0}"
-},
-{
-"class": "DepictionLabelView",
-"text": "therealhoodboy",
-"fontWeight": "semibold",
-"fontSize": 16,
-"usePadding": false
-}
-]
-},
-{
-"class": "DepictionStackView",
-"views": [
-{
-"class": "DepictionLabelView",
-"text": "Ngày cập nhật",
-"textColor": "#777",
-"margins": "{16,0,8,0}"
-},
-{
-"class": "DepictionLabelView",
-"text": "8/8/2025",
-"fontWeight": "semibold",
-"fontSize": 16,
-"usePadding": false
-},
-{
-"class": "DepictionLabelView",
-"text": "Khả năng Tương thích",
+"text": "Tương thích iOS/iPadOS",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
@@ -165,7 +172,7 @@
 "useSpacing": true,
 "class": "DepictionMarkdownView",
 "useRawFormat": true,
-"markdown": "<small style=\"color: #aaa; font-size: 10pt;\">Nguồn JTISVN<BR />Nguồn JTISVN tập trung vào thu thập và chia sẻ các tweak chất lượng. Chúng tôi không tạo ra tweak, chỉ là người vận chuyển tweak, không thêm bất kỳ quảng cáo nào, chỉ để mang lại tiện lợi cho người dùng Jailbreak.!<BR />Copyright © 2025 By: JTISVN</small><style>body { text-align: center; }</style>"
+"markdown": "<small style=\"color: #aaa; font-size: 10pt;\">Repo JTISVN tập trung vào việc tổng hợp và chia sẻ các tweak chất lượng, ổn định. chúng tôi và mang đên cho người dùng một kho tàng tweak tiện lợi và an toàn.với mục tiêu phục vụ cộng đồng Jailbreak!<BR />Copyright © 2025 By: JTISVN</small><style>body { text-align: center; }</style>"
 }
 ],
 "class": "DepictionStackView"
@@ -175,7 +182,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.4.9.9bk\n\n- Khắc phục lỗi safemode\n\n ### Phiên bản 0.4.9.9b\n\n- Sửa lỗi\n\n  ### Phiên bản 0.4.1b\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 0.4.9.9bk\n\n- Sửa lỗi\n\n  ### Phiên bản 0.4.1b\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 },
 {
 "class":"DepictionLabelView",
