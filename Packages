@@ -268,43 +268,6 @@ Author: Simon <qiaozhani000@163.com>
 Icon: https://axs66.github.io/repo/icon/llswitch.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Swich.json
 
-Package: com.anthopak.appoze3
-Architecture: iphoneos-arm64
-Version: 1.0.1
-Section: Tweaks
-Maintainer: AnthoPak
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
-Filename: ./debs/com.anthopak.appoze3_1.0.1_iphoneos-arm64.deb
-Size: 874100
-MD5sum: ce3c1d4bfd10f4b7121d118162aa9034
-SHA1: a588de5ba59279476b3b74af2c60c5ff169936f9
-SHA256: 298e94053ed0cc686d1c0c178a7873c284c4150627999bad3233963b3d2f5d94
-SHA512: 740740e9b3b657f2ac2a2b4b45a54ff380dc3e2882c6cc3bcd3794621d7ea8a2b102514a6cd294947a9e71e5ec82e47be866ddbe07cef25bd88bde5dc4374a15
-Description: Tùy chỉnh cấu hình 30 cài đặt cho mỗi ứng dụng trong giao diện người gọn gàng và dễ dàng truy cập！
-Icon: https://jtisvn.github.io/sectionIcons/Appaze3.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Appaze3.json
-Author: AnthoPak
-Name: Appaze 3 (Rootless)
-
-Package: com.anthopak.appoze3
-Architecture: iphoneos-arm64e
-Version: 1.0.1
-Section: Tweaks
-Maintainer: AnthoPak
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
-Filename: ./debs/com.anthopak.appoze3_1.0.1_iphoneos-arm64e.deb
-Size: 868376
-MD5sum: 259c39f470638ac3806af9e94e61d8b5
-SHA1: 269f80e79d3d5baa264b9a3d67961092c68a9334
-SHA256: befef20420c9304a18bccdd791ac78f98e37427a65f1512adaa9afedc7d2bda8
-SHA512: 7a7a2f6b3c48f190828240fb44f1cb8f493446ffd23a42d3132af901cf147fbd5e777fe00fe8624a6f815b86598e17fb10be230244ee261816e343e357f78755
-Description: Tùy chỉnh cấu hình lên đến 30 cài đặt cho mỗi ứng dụng trong giao diện người gọn gàng và dễ dàng truy cập！
-Icon: https://jtisvn.github.io/sectionIcons/Appaze3.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Appaze3.json
-Author: AnthoPak
-Name: Appaze 3 (Roothide)
-
 Package: com.boo.libscribble
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -1213,6 +1176,43 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AppLecard.json
 Icon: https://repo.cypwn.xyz/packages/AppLecard-Rootless/icon.png
 Name: App Lecard (Roothide)
 Author: Crassna
+
+Package: com.jtis.appoze3
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
+Filename: ./debs/com.jtis.appoze3_1.0.1_iphoneos-arm64.deb
+Size: 874108
+MD5sum: f70e88c70ac274db58e0b0df43e6d868
+SHA1: 39a6cf8590977f6992d9554fd86072e2f25c2380
+SHA256: 2dfa24d4022c486ad228f399ce8f83f5d92eea301bda834aaefce02a14f7c51d
+SHA512: 25dc44d69df0db8a4c61cc13f4c900eb507846f794f624cab16c3512b49ef1a1895166e41f1c6e1368f7899f88b488c532959d0b0ff78e12e163459ebbcbb6a9
+Description: Tùy chỉnh cấu hình 30 cài đặt cho mỗi ứng dụng trong giao diện người gọn gàng và dễ dàng truy cập！
+Icon: https://jtisvn.github.io/sectionIcons/Appaze3.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Appaze3.json
+Author: AnthoPak
+Name: Appaze 3 (Rootless)
+
+Package: com.jtis.appoze3
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
+Filename: ./debs/com.jtis.appoze3_1.0.1_iphoneos-arm64e.deb
+Size: 868388
+MD5sum: cc8e0c8bbd6839c5e305bd08c1c3d8ef
+SHA1: 961bfd2dee94d7ae6270cfec29d6d2251cf01596
+SHA256: 9c53b058d529dd7543853edc68783a18ef7c9530b69bcb44c1a94b61e604b34f
+SHA512: 281f4022e63a82a2a07fa8707dfef765d1b295093001f814cf9411fa310d5950bfc302d974dc64142d919c2b1ef1013b2c86668e7dcb249c5c46d29b3aacf8fb
+Description: Tùy chỉnh cấu hình lên đến 30 cài đặt cho mỗi ứng dụng trong giao diện người gọn gàng và dễ dàng truy cập！
+Icon: https://jtisvn.github.io/sectionIcons/Appaze3.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Appaze3.json
+Author: AnthoPak
+Name: Appaze 3 (Roothide)
 
 Package: com.jtis.april
 Architecture: iphoneos-arm64
