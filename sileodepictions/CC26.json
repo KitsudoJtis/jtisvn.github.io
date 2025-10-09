@@ -1,94 +1,176 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
-"tabs":[
-{
-"tabname":"Chi tiết",
-"views":[
-{ "class":"DepictionHeaderView", "title":"" },
-{
-"class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
-},
-{
-"markdown":"CC26\n\n- Mang phong cách mới IO26 cho trung tâm điều khiển trên thiết bị IOS thấp hơn.\n\n- Chi tiết xem hình ảnh bên dưới.\n\n",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
-{
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/CC26/Screenshots/1.png",
-"accessibilityText":"Screenshot"
-}
-],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
-},
-{
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Tham gia nhóm"
-},
-{
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Thông tin "
-},
-{
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"therealhoodboy"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"0.4.9.9bk" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
-},
-{
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"7/8/2025"
-},
-{
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.7.10"
-},
-{
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionTableButtonView",
-"title":"Liên hệ & Hỗ trợ",
-"action":"https://jtisvn.github.io/donate/donate.html",
-"openExternal":"true",
-"tintColor":"#5777B8"
-},
-{
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
-}
-],
-"class":"DepictionStackView"
-},
-{
+    "minVersion": "0.1",
+    "headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+    "tabs": [
+      {
+        "tabname": "Giới thiệu",
+        "views": [
+          {
+            "text": "☹ Thiết bị IOS không tương thích với gói này",
+            "action": "",
+            "tintColor": "#15C377",
+            "class": "DepictionButtonView"
+          },
+          {
+            "text": "Liên hệ & Hỗ trợ",
+            "action": "https://jtisvn.github.io/donate/donate.html",
+            "tintColor": "#f15a22",
+            "class": "DepictionButtonView"
+          },
+          {
+            "text": "Kho Lưu Trữ JTISVN",
+            "action": "https://jtisvn.github.io/",
+            "tintColor": "#ff0000",
+            "class": "DepictionButtonView"
+          },
+          {
+            "class": "DepictionLabelView",
+            "text": "Mô tả Tweak",
+            "fontWeight": "bold",
+            "fontSize": 19,
+            "usePadding": true,
+            "useMargins": true,
+            "margins": "{10,0,8,0}"
+          },
+          {
+            "markdown": "CC26\n\n- Mang phong cách mới IO26 cho trung tâm điều khiển trên thiết bị IOS thấp hơn.\n\n- Chi tiết xem hình ảnh bên dưới",
+            "useSpacing": false,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "spacing": 20,
+            "class": "DepictionSpacerView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "class": "DepictionLabelView",
+            "text": "Ảnh chụp màn hình",
+            "fontWeight": "semibold",
+            "fontSize": 17,
+            "usePadding": true,
+            "useMargins": true,
+            "margins": "{10,0,8,0}"
+          },
+          {
+            "itemCornerRadius": true,
+            "itemSize": "{127, 275}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://jtisvn.github.io/infodeb/CC26/Screenshots/1.png"
+              }
+            ],
+            "class": "DepictionScreenshotsView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "class": "DepictionLabelView",
+            "text": "Thông tin chi tiết",
+            "fontWeight": "semibold",
+            "fontSize": 16,
+            "usePadding": true,
+            "useMargins": true,
+            "margins": "{10,0,8,0}"
+          },
+          {
+            "class": "DepictionStackView",
+            "orientation": "landscape",
+            "views": [
+              {
+                "class": "DepictionStackView",
+                "views": [
+                  {
+                    "class": "DepictionLabelView",
+                    "text": "Phiên bản",
+                    "textColor": "#777",
+                    "margins": "{16,0,8,0}"
+                  },
+                  {
+                    "class": "DepictionLabelView",
+                    "text": "0.4.9.9bk",
+                    "fontWeight": "semibold",
+                    "fontSize": 16,
+                    "usePadding": false
+                  },
+                  {
+                    "class": "DepictionLabelView",
+                    "text": "Tác giả",
+                    "textColor": "#777",
+                    "margins": "{16,0,8,0}"
+                  },
+                  {
+                    "class": "DepictionLabelView",
+                    "text": "therealhoodboy",
+                    "fontWeight": "semibold",
+                    "fontSize": 16,
+                    "usePadding": false
+                  }
+                ]
+              },
+              {
+                "class": "DepictionStackView",
+                "views": [
+                  {
+                    "class": "DepictionLabelView",
+                    "text": "Ngày cập nhật",
+                    "textColor": "#777",
+                    "margins": "{16,0,8,0}"
+                  },
+                  {
+                    "class": "DepictionLabelView",
+                    "text": "8/8/2025",
+                    "fontWeight": "semibold",
+                    "fontSize": 16,
+                    "usePadding": false
+                  },
+                  {
+                    "class": "DepictionLabelView",
+                    "text": "Khả năng Tương thích",
+                    "textColor": "#777",
+                    "margins": "{16,0,8,0}"
+                  },
+                  {
+                    "class": "DepictionLabelView",
+                    "text": "15.0 - 16.7.10",
+                    "fontWeight": "semibold",
+                    "fontSize": 17,
+                    "usePadding": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "spacing": 25,
+            "class": "DepictionSpacerView"
+          },
+          {
+            "title": "Nhóm Telegram",
+            "action": "https://t.me/jailbreaktrolliossupport",
+            "class": "DepictionTableButtonView"
+          },
+          {
+            "title": "Nhóm Facebook",
+            "action": "https://www.facebook.com/share/g/1GWkJQbXzb/",
+            "class": "DepictionTableButtonView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "useSpacing": true,
+            "class": "DepictionMarkdownView",
+            "useRawFormat": true,
+            "markdown": "<small style=\"color: #aaa; font-size: 10pt;\">Nguồn JTISVN<BR />Nguồn JTISVN tập trung vào thu thập và chia sẻ các tweak chất lượng. Chúng tôi không tạo ra tweak, chỉ là người vận chuyển tweak, không thêm bất kỳ quảng cáo nào, chỉ để mang lại tiện lợi cho người dùng Jailbreak.!<BR />Copyright © 2025 By: JTISVN</small><style>body { text-align: center; }</style>"
+          }
+        ],
+        "class": "DepictionStackView"
+      },
+      {
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
