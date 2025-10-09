@@ -4,12 +4,12 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Chức năng"
+"title":"Mô tả & Tính năng"
 },
 {
 "markdown":" Công cụ quản lý & cài đặt file.deb\n\n- Thêm repo có thể xem thông tin tweaks và package thông qua sally.\n\n- Chi tiết xem hình ảnh bên dưới.\n\n",

@@ -33,7 +33,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown": "Kích hoạt gói Pro cho ứng dụng Capcut\n\n Hỗ trợ đến phiên bản mới nhất.\n\n Lưu ý: Vui lòng không login tài khoản vì sẽ bị mất pro và hạn chế một số tính năng.",
+"markdown": "\n\n- Kích hoạt gói Pro cho ứng dụng Capcut\n\n- Hỗ trợ đến phiên bản mới nhất.\n\n- Lưu ý: Vui lòng không login tài khoản vì sẽ bị mất pro và hạn chế một số tính năng.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

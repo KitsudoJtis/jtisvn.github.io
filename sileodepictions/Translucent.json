@@ -4,12 +4,29 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
+{
+"text": "Thông tin gói tinh chỉnh",
+"action": "",
+"tintColor": "#15C377",
+"class": "DepictionButtonView"
+},
+{
+"text": "Ủng hộ tôi một ly cafe",
+"action": "https://jtisvn.github.io/donate/donate.html",
+"tintColor": "#f15a22",
+"class": "DepictionButtonView"
+},
+{
+"text": "Tham gia nhóm chat Telegram",
+"action": "https://t.me/jailbreaktrolliossupport",
+"tintColor": "#85a8fc",
+"class": "DepictionButtonView"
+},
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Chức năng"
+"title":"Mô tả"
 },
 {
 "markdown":" Chủ đê Translucent cho ứng dụng Cài Đặt, được thiết kế bởi Hoàng MD.\n\n- Gồm 29 biểu tượng cơ bản\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard\n\n- Ae cần full icon thì liên hệ tác giả ở mục liên hệ bên dưới để mua ủng hộ bác ấy nhé, Xin cảm ơn.",
@@ -37,19 +54,13 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Liên hệ tác giả"
-},
-{
-"markdown":"[**Telegram**](https://t.me/kevinhoangduong2903) 🤏 Ủng hộ tác giả",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
 },
 {
 "class":"DepictionSpacerView"
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin "
+"title":"Thông tin chi tiết"
 },
 {
 "class":"DepictionTableTextView",
@@ -77,8 +88,8 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Liên hệ & Hỗ trợ",
-"action":"https://jtisvn.github.io/donate/donate.html",
+"title":"Liên hệ tác giả",
+"action":"https://t.me/kevinhoangduong2903",
 "openExternal":"true",
 "tintColor":"#5777B8"
 },
