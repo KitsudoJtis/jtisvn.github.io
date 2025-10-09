@@ -6,18 +6,6 @@
 {
 "tabname":"Chi tiết",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
-{
-"class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
-},
-{
-"markdown":" Vitreux\n\n- Một tinh chỉnh giúp thay đổi giao điện IPhone của bạn theo phong cách Liquid Glass IOS26 với chức năng tuỳ chỉnh độ mờ và trong suốt như:\n\n- Màn hình khoá\n\n- Màn hình chính\n\n- Trung tâm điều khiển\n\n- Hiệu ứng Thông báo\n\n- Hiệu ứng Widgets\n\n- Hiệu ứng Thu mục\n\n- Hiệu ứng thanh Dock\n\n- Hiệu ứng Thư viện\n\n- Hiệu ứng Spotlight\n\n- Và một số chức năng khác.\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
-{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
@@ -39,10 +27,19 @@
 {
 "url":"https://jtisvn.github.io/infodeb/Vitreux/Screenshots/5.png",
 "accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Vitreux/Screenshots/6.png",
+"accessibilityText":"Screenshot"
 }
 ],
 "itemCornerRadius":0,
 "itemSize":"{185,400}"
+},
+{
+"markdown":" Vitreux\n\n- Một tinh chỉnh giúp thay đổi giao điện IPhone của bạn theo phong cách Liquid Glass IOS26 với chức năng tuỳ chỉnh độ mờ và trong suốt như:\n\n- Màn hình khoá\n\n- Màn hình chính\n\n- Trung tâm điều khiển\n\n- Hiệu ứng Thông báo\n\n- Hiệu ứng Widgets\n\n- Hiệu ứng Thu mục\n\n- Hiệu ứng thanh Dock\n\n- Hiệu ứng Thư viện\n\n- Hiệu ứng Spotlight\n\n- Và một số chức năng khác.\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
 },
 {
 "class":"DepictionSpacerView"
@@ -114,7 +111,7 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/donate/donate.html"
 },
 {
