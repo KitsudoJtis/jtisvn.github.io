@@ -33,7 +33,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown": "Kích hoạt gói Pro cho ứng dụng Capcut\n\n- Hỗ trợ đến phiên bản mới nhất.\n\n- Lưu ý: Vui lòng không login tài khoản vì sẽ bị mất pro và hạn chế một số tính năng.",
+"markdown": "Kích hoạt gói Pro cho ứng dụng Capcut\n\n Hỗ trợ đến phiên bản mới nhất.\n\n Lưu ý: Vui lòng không login tài khoản vì sẽ bị mất pro và hạn chế một số tính năng.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -126,7 +126,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.4.9.9bk",
+"text": "1.0.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -139,7 +139,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15.0 - 16.7.10",
+"text": "15.0 - 17.0",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
