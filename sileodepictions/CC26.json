@@ -165,7 +165,7 @@
 "useSpacing": true,
 "class": "DepictionMarkdownView",
 "useRawFormat": true,
-"markdown": "<small style=\"color: #aaa; font-size: 10pt;\"Nguồn JTISVN chúng tôi không trực tiếp tạo ra tweak và chỉ tập trung vào việc tổng hợp và chia sẻ các tweak chất lượng, ổn định giúp cho người dùng với mục tiêu phục vụ cộng đồng Jailbreak khám phá kho tàng tweak môt cách an toàn và tiện lợi.<BR />Copyright © 2025 By: JTISVN</small><style>body { text-align: center; }</style>"
+"markdown": "<small style=\"color: #aaa; font-size: 10pt;\">Nguồn JTISVN chúng tôi không trực tiếp tạo ra tweak và chỉ tập trung vào việc tổng hợp và chia sẻ các tweak chất lượng, ổn định giúp cho người dùng với mục tiêu phục vụ cộng đồng Jailbreak khám phá kho tàng tweak môt cách an toàn và tiện lợi!<BR />Copyright © 2025 By: JTISVN</small><style>body { text-align: center; }</style>"
 }
 ],
 "class": "DepictionStackView"
