@@ -4,8 +4,20 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
+{
+"text":"Mô tả gói tinh chỉnh Aim Pro",
+"action": "",
+"tintColor": "#15C377",
+"class": "DepictionButtonView"
+},
+{
+"text":"Tham gia nhóm chat Telegram",
+"action":"https://t.me/jailbreaktrolliossupport",
+"openExternal": 1,
+"class": "DepictionButtonView"
+},
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -39,18 +51,6 @@
 },
 {
 "markdown":"AIM Pro - Mang phong cách Màn hình Khóa kiểu iOS 16\n\nAIM Pro là phiên bản hoàn hảo của AIM, giờ đây có thể tùy chỉnh trên Màn hình Khóa hoặc Trung tâm Thông báo. Quan trọng hơn là AIM Pro chỉ thêm các tùy chỉnh cho màn hình khóa. Do đó, tôi chỉ bán tính năng tùy chỉnh màn hình khóa, không bán AIM và như bạn thấy, nó hiện đang miễn phí.\n\nㅤ\n\nCac tính năng:\n\n- Thời gian\n\n+ Tùy chỉnh phông chữ\n\n+ Tùy chỉnh cỡ chữ \n\n+ Tùy chỉnh màu sắc\n\n+ Tùy chỉnh vị trí\n\n+ Căn chỉnh\n\nㅤ\n\n- Ngày tháng\n\n+ Tùy chỉnh phông chữ\n\n+ Tùy chỉnh cỡ chữ \n\n+ Tùy chỉnh màu sắc\n\n+ Tùy chỉnh vị trí\n\n+ Căn chỉnh\n\n+ Tùy chỉnh Ngày tháng (Kiểu: chữ Hoa, chữ thường, viết Hoa chữ cái đầu, không dùng)\n\nㅤ\n\n- Tiện ích (Widget)\n\n+ Tùy chính tiện ích\n\n+ Tùy chỉnh màu sắc\n\n+ Tùy chỉnh vị trí\n\n- Lưu ý: Phông chữ tùy chỉnh đặt ở: đường dẫn /Library/Application Support/AIMFont (định dạng .ttf/.otf/.woff)\n\n- Để thay đổi tùy chỉnh màu cầu vồng trên màn hình khóa bằng công cụ chọn màu, hãy giữ vào phần màu cầu vồng để hiển thị danh sách màu..",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Tham gia nhóm "
-},
-{
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },

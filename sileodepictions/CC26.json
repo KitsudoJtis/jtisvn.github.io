@@ -98,6 +98,19 @@
 },
 {
 "class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
 "text": "Ngày cập nhật",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
@@ -123,6 +136,19 @@
 {
 "class": "DepictionLabelView",
 "text": "0.4.9.9bk",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Dung lượng",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "199 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
