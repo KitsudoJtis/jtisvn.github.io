@@ -35,41 +35,122 @@
 {
 "url":"https://jtisvn.github.io/infodeb/Copylog/Screenshots/4.png",
 "accessibilityText":"Screenshot"
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "TomT000",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "25/7/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 }
-],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
+]
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "17.3",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"TomT000"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.7.3" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
+"class": "DepictionLabelView",
+"text": "68 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"25/7/2025"
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 11.0 đến 17.0"
+"class": "DepictionLabelView",
+"text": "12.0 - 16.7.11",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -79,9 +160,10 @@
 "alignment":1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
+
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
