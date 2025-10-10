@@ -9,7 +9,12 @@
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"CC26"
+"text":"CC26"
+"fontWeight": "bold",
+"fontSizr": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
 "markdown": "\n\n- Mang phong cách Trung tâm điều khiển theo kiểu iOS26 trên thiết bị iOS thấp hơn.\n\n- Lưu ý: Đối với thiết bị iPhone XS trở lên vui lòng tải thêm gói Legacy arm64e Support nếu gặp lỗi Safemode.",
@@ -50,7 +55,7 @@
 "class": "DepictionLabelView",
 "text": "Thông tin chi tiết",
 "fontWeight": "semibold",
-"fontSize": 16,
+"fontSize": 17,
 "usePadding": true,
 "useMargins": true,
 "margins": "{10,0,8,0}"
@@ -170,7 +175,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.4.9.9bk\n\n- Sửa lỗi\n\n  ### Phiên bản 0.4.1b\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 0.4.9.9bk\n\n- Sửa lỗi\n\n ### Phiên bản 0.4.1b\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"

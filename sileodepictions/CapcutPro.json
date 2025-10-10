@@ -9,7 +9,12 @@
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Capcut Crack"
+"text":"Capcut Crack"
+"fontWeight": "bold",
+"fontSizr": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
 "markdown": "\n\n- Kích hoạt gói Pro cho ứng dụng Capcut\n\n- Hỗ trợ đến phiên bản mới nhất.\n\n- Lưu ý: Vui lòng không login tài khoản vì sẽ bị mất pro và hạn chế một số tính năng.",
@@ -54,7 +59,7 @@
 "class": "DepictionLabelView",
 "text": "Thông tin chi tiết",
 "fontWeight": "semibold",
-"fontSize": 16,
+"fontSize": 17,
 "usePadding": true,
 "useMargins": true,
 "margins": "{10,0,8,0}"
