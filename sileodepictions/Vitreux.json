@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
+"tintColor":"#66CCFF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -13,8 +13,8 @@
 "class": "DepictionButtonView"
 },
 {
-"text":"Tham gia nhóm chat Telegram",
-"action":"https://t.me/jailbreaktrolliossupport",
+"text":"Liên hệ tôi qua Telegram",
+"action":"https://t.me/Kitsudo",
 "openExternal": 1,
 "class": "DepictionButtonView"
 },
@@ -51,60 +51,134 @@
 },
 {
 "markdown":" Vitreux\n\n- Một tinh chỉnh giúp thay đổi giao điện IPhone của bạn theo phong cách Liquid Glass IOS26 với chức năng tuỳ chỉnh độ mờ và trong suốt như:\n\n- Màn hình khoá\n\n- Màn hình chính\n\n- Trung tâm điều khiển\n\n- Hiệu ứng Thông báo\n\n- Hiệu ứng Widgets\n\n- Hiệu ứng Thu mục\n\n- Hiệu ứng thanh Dock\n\n- Hiệu ứng Thư viện\n\n- Hiệu ứng Spotlight\n\n- Và một số chức năng khác.\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionSpacerView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Liên hệ tôi"
+"class": "DepictionSeparatorView"
 },
 {
-"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7\n\nㅤ\n\n",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin "
+"class": "DepictionLabelView",
+"text": "MTAC",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"MTAC"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.3" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"16/9/2025"
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 15.x đến 17.x"
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"class": "DepictionLabelView",
+"text": "16/9/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.3",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "68 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.x - 16.x",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"useSpacing": true,
+"class": "DepictionMarkdownView",
+"useRawFormat": true,
+"markdown": "<small style=\"color: #aaa; font-size: 10pt;\">JTISVN chúng tôi không trực tiếp tạo ra tweak và chỉ tập trung vào việc tổng hợp và chia sẻ các tweak chất lượng, ổn định giúp cho người dùng với mục tiêu phục vụ cộng đồng Jailbreak khám phá kho tàng tweak môt cách an toàn và tiện lợi!<BR />Copyright © 2025 By: JTISVN</small><style>body { text-align: center; }</style>"
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
+
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
