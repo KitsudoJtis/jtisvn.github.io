@@ -9,7 +9,7 @@
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"text":"CC26"
+"text":"CC26",
 "fontWeight": "bold",
 "fontSizr": 17,
 "usePadding": true,
