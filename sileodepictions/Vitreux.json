@@ -4,21 +4,8 @@
 "tintColor":"#66CCFF",
 "tabs":[
 {
-"tabname":"Mô tả & G.thiệu",
+"tabname":"Giới thiệu",
 "views":[
-{
-"class": "DepictionLabelView",
-"text": "Ảnh chụp màn hình",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
-},
-{
-"itemCornerRadius": true,
-"itemSize": "{185, 400}",
-"screenshots": [
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -170,10 +157,11 @@
 "class": "DepictionSpacerView"
 },
 {
-"useSpacing": true,
-"class": "DepictionMarkdownView",
-"useRawFormat": true,
-"markdown": "<small style=\"color: #aaa; font-size: 10pt;\">Copyright © 2025 By: JTISVN</small><style>body { text-align: center; }</style>"
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
 }
 ],
 "class": "DepictionStackView"
