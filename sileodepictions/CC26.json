@@ -1,14 +1,15 @@
 {
 "minVersion": "0.1",
 "headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tabs": [
+"tintColor":"#9900FF",
+"tabs":[
 {
-"tabname": "Giới thiệu",
-"views": [
+"tabname":"Giới thiệu",
+"views":[
 {
 "text":"Mô tả gói tweak",
 "action": "",
-"tintColor": "#9370DB",
+"tintColor": "#15C377",
 "class": "DepictionButtonView"
 },
 {
