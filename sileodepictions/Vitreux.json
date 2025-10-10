@@ -4,8 +4,20 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
+{
+"text":"Mô tả gói tweak",
+"action": "",
+"tintColor": "#15C377",
+"class": "DepictionButtonView"
+},
+{
+"text":"Tham gia nhóm chat Telegram",
+"action":"https://t.me/jailbreaktrolliossupport",
+"openExternal": 1,
+"class": "DepictionButtonView"
+},
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[

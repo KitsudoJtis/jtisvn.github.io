@@ -6,26 +6,20 @@
 "tabname": "Giới thiệu",
 "views": [
 {
-"text": "Thông tin gói tinh chỉnh Capcut Crack",
+"text":"Mô tả gói tweak",
 "action": "",
 "tintColor": "#15C377",
 "class": "DepictionButtonView"
 },
 {
-"text": "Tải Dylib tiêm Trollfools",
-"action": "https://www.mediafire.com/file/kgbd7ay383ga5sv/CapcutCrack.dylib/file?fbclid=IwQ0xDSwNU30xleHRuA2FlbQIxMQABHoKtcuNySigXWOHF6bF_VhFbhjviCrkfiAW3vqUxwNVDllc6Nbn_9KqVHc7q_aem_F8l6I5EgGKjM7npJ_mAQ9w",
-"tintColor": "#f15a22",
-"class": "DepictionButtonView"
-},
-{
-"text": "Ủng hộ tôi một ly cà phê",
-"action": "https://jtisvn.github.io/donate/donate.html",
-"tintColor": "#85a8fc",
+"text":"Liên hệ & Hỗ trợ",
+"action":"https://jtisvn.github.io/donate/donate.html",
+"openExternal": 1,
 "class": "DepictionButtonView"
 },
 {
 "class": "DepictionLabelView",
-"text": "Mô tả & Tính năng",
+"text": "Capcut Crack",
 "fontWeight": "bold",
 "fontSize": 19,
 "usePadding": true,
@@ -146,7 +140,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Dung lượng",
+"text": "Kích thước",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },

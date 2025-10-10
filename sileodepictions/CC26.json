@@ -6,26 +6,20 @@
 "tabname": "Giới thiệu",
 "views": [
 {
-"text": "Thông tin gói tinh chỉnh CC26",
+"text":"Mô tả gói tweak",
 "action": "",
-"tintColor": "#15C377",
+"tintColor": "#9370DB",
 "class": "DepictionButtonView"
 },
 {
-"text": "Liên hệ & Hỗ trợ",
-"action": "https://jtisvn.github.io/donate/donate.html",
-"tintColor": "#f15a22",
-"class": "DepictionButtonView"
-},
-{
-"text": "Kho Lưu Trữ JTISVN",
-"action": "https://jtisvn.github.io/",
-"tintColor": "#85a8fc",
+"text":"Liên hệ & Hỗ trợ",
+"action":"https://jtisvn.github.io/donate/donate.html",
+"openExternal": 1,
 "class": "DepictionButtonView"
 },
 {
 "class": "DepictionLabelView",
-"text": "Mô tả & Tính năng",
+"text": "CC26",
 "fontWeight": "bold",
 "fontSize": 19,
 "usePadding": true,
@@ -142,7 +136,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Dung lượng",
+"text": "Kích thước",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
@@ -191,7 +185,7 @@
 "useSpacing": true,
 "class": "DepictionMarkdownView",
 "useRawFormat": true,
-"markdown": "<small style=\"color: #aaa; font-size: 10pt;\">Nguồn JTISVN chúng tôi không trực tiếp tạo ra tweak và chỉ tập trung vào việc tổng hợp và chia sẻ các tweak chất lượng, ổn định giúp cho người dùng với mục tiêu phục vụ cộng đồng Jailbreak khám phá kho tàng tweak môt cách an toàn và tiện lợi!<BR />Copyright © 2025 By: JTISVN</small><style>body { text-align: center; }</style>"
+"markdown": "<small style=\"color: #aaa; font-size: 10pt;\">JTISVN chúng tôi không trực tiếp tạo ra tweak và chỉ tập trung vào việc tổng hợp và chia sẻ các tweak chất lượng, ổn định giúp cho người dùng với mục tiêu phục vụ cộng đồng Jailbreak khám phá kho tàng tweak môt cách an toàn và tiện lợi!<BR />Copyright © 2025 By: JTISVN</small><style>body { text-align: center; }</style>"
 }
 ],
 "class": "DepictionStackView"
