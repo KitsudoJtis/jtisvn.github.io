@@ -1,22 +1,22 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
+"tintColor":"#996666",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Chức năng"
+"title":"Atria"
 },
 {
-"markdown":" Atria\n\n- Mang đến một hệ thống cấu hình bố cục màn hình chính linh động cho người dùng iOS\n\n- Tính năng:\n\n- Bố cục và điểu chỉnh biều tượng cho mỗi trang.\n\n- Tự động định vị và tương thích widget.\n\n- Tự động lưu trạng thái biểu tượng.\n\n- Tùy chỉnh cột/hàng và tỷ lệ biểu tượng\n\n- Tùy chỉnh tỷ lệ biểu tượng widget\n\n- Tùy chỉnh lề trang (trái, phải, trên, dưới).\n\n- Tùy chỉnh khoảng cách trang và widget.\n\n- Bật/Tắt Thư viện Ứng dụng\n\n- Ẩn huy hiệu thông báo, nhãn, dấu trang và làm mờ biểu tượng thư mục\n\n- Hiển thị một lớp làm mờ nền phía sau biểu tượng\n\n- Tuỳ chỉnh hiển thị nhãn trang và tin nhắn Chào Mừng.n\n- Tùy chỉnh vị trí dấu chấm trang\n\n- Xuất và nhập các chuỗi cài đặt đặt trước\n\n- Và còn nhiều tùy chọn khác nữa \n\n- Xem hình ảnh bên dưới để biết thêm chi tiết.\n\n",
+"markdown":"\n\n- Mang đến một hệ thống cấu hình bố cục màn hình chính linh động cho người dùng iOS\n\n- Tính năng:\n\n- Bố cục và điểu chỉnh biều tượng cho mỗi trang.\n\n- Tự động định vị và tương thích widget.\n\n- Tự động lưu trạng thái biểu tượng.\n\n- Tùy chỉnh cột/hàng và tỷ lệ biểu tượng\n\n- Tùy chỉnh tỷ lệ biểu tượng widget\n\n- Tùy chỉnh lề trang (trái, phải, trên, dưới).\n\n- Tùy chỉnh khoảng cách trang và widget.\n\n- Bật/Tắt Thư viện Ứng dụng\n\n- Ẩn huy hiệu thông báo, nhãn, dấu trang và làm mờ biểu tượng thư mục\n\n- Hiển thị một lớp làm mờ nền phía sau biểu tượng\n\n- Tuỳ chỉnh hiển thị nhãn trang và tin nhắn Chào Mừng.n\n- Tùy chỉnh vị trí dấu chấm trang\n\n- Xuất và nhập các chuỗi cài đặt đặt trước\n\n- Và còn nhiều tùy chọn khác nữa.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
-{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
+{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -44,20 +44,11 @@
 "class":"DepictionSpacerView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Liên hệ tôi"
-},
-{
-"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7\n\nㅤ\n\n",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{
 "class":"DepictionSpacerView"
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin "
+"title":"Thông tin chi tiết"
 },
 {
 "class":"DepictionTableTextView",
@@ -101,7 +92,7 @@
 "class":"DepictionStackView"
 },
 {
-"tabname":"L.Hệ & Hỗ trợ",
+"tabname":"Liên hệ Hỗ trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
@@ -110,7 +101,7 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/donate/donate.html"
 },
 {
