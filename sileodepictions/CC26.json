@@ -6,14 +6,10 @@
 {
 "tabname":"Giới thiệu",
 "views":[
+{ "class":"DepictionHeaderView", "title":"" },
 {
-"class": "DepictionLabelView",
-"text": "CC26",
-"fontWeight": "bold",
-"fontSize": 19,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
+"class":"DepictionHeaderView",
+"title":"CC26"
 },
 {
 "markdown": "\n\n- Mang phong cách Trung tâm điều khiển theo kiểu iOS26 trên thiết bị iOS thấp hơn.\n\n- Lưu ý: Đối với thiết bị iPhone XS trở lên vui lòng tải thêm gói Legacy arm64e Support nếu gặp lỗi Safemode.",

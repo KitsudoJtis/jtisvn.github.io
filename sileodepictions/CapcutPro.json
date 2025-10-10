@@ -5,15 +5,11 @@
 "tabs":[
 {
 "tabname":"Giới thiệu",
-"views": [
+"views":[
+{ "class":"DepictionHeaderView", "title":"" },
 {
-"class": "DepictionLabelView",
-"text": "Capcut Crack",
-"fontWeight": "bold",
-"fontSize": 19,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
+"class":"DepictionHeaderView",
+"title":"Capcut Crack"
 },
 {
 "markdown": "\n\n- Kích hoạt gói Pro cho ứng dụng Capcut\n\n- Hỗ trợ đến phiên bản mới nhất.\n\n- Lưu ý: Vui lòng không login tài khoản vì sẽ bị mất pro và hạn chế một số tính năng.",
@@ -174,7 +170,6 @@
 {
 
 "tabname":"Nhật ký thay đổi",
-"tintColor":"#B5B5B5",
 "views":[
 {
 "class":"DepictionMarkdownView",
@@ -185,7 +180,6 @@
 },
 {
 "tabname":"Liên hệ Hỗ trợ",
-"tintColor":"#B5B5B5",
 "views":[
 {
 "class":"DepictionTableButtonView",
