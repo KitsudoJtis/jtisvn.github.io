@@ -8,7 +8,7 @@
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionHeaderView",
+"class":"DepictionLabelView",
 "text":"Capcut Crack",
 "fontWeight": "bold",
 "fontSize": "17",
