@@ -1,35 +1,22 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
+"tintColor":"#577788",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
 {
-"text": "Thông tin gói tinh chỉnh",
-"action": "",
-"tintColor": "#15C377",
-"class": "DepictionButtonView"
+"class": "DepictionLabelView",
+"text": "Translucent",
+"fontWeight": "bold",
+"fontSize": 19,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"text": "Ủng hộ tôi một ly cafe",
-"action": "https://jtisvn.github.io/donate/donate.html",
-"tintColor": "#f15a22",
-"class": "DepictionButtonView"
-},
-{
-"text": "Tham gia nhóm chat Telegram",
-"action": "https://t.me/jailbreaktrolliossupport",
-"tintColor": "#85a8fc",
-"class": "DepictionButtonView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Mô tả"
-},
-{
-"markdown":" Chủ đê Translucent cho ứng dụng Cài Đặt, được thiết kế bởi Hoàng MD.\n\n- Gồm 29 biểu tượng cơ bản\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard\n\n- Ae cần full icon thì liên hệ tác giả ở mục liên hệ bên dưới để mua ủng hộ bác ấy nhé, Xin cảm ơn.",
+"markdown":" \n\n- Thau đổi chủ đề cho ứng dụng Cài Đặt, được thiết kế bởi Hoàng MD.\n\n- Gồm 29 biểu tượng cơ bản\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard\n\n- Ae cần full icon thì liên hệ tác giả ở mục liên hệ bên dưới để mua ủng hộ bác ấy nhé, Xin cảm ơn.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
