@@ -5713,6 +5713,64 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
 
+Package: com.raulsaeed.bhtiktok++s
+Architecture: iphoneos-arm64
+Version: 1.8-119
+Section: Tweaks
+Maintainer: raul saeed
+Depends: mobilesubstrate
+Conflicts: com.raulsaeed.bhtiktok++, com.dao.bhtiktok++
+Filename: ./debs/com.raulsaeed.bhtiktok++s_1.8-119_iphoneos-arm64.deb
+Size: 137028
+MD5sum: 5dca78833aa2be679695aef58f9d4a30
+SHA1: f865f593de10463f3b6a6adf4d22b0cb4339212c
+SHA256: 27bca1df7f15080d5bdfa5cd5d3c8eac56248bac12a963dd64f1d9e2d38cde76
+SHA512: 11bd2b86a7a465f45be98daff29c8d5357b78f81028cf48a8f7177d662d4da7c4f38fe117c4937f178f0fa684e50288d1bcd833b28db9c2c8ae556c1d470988f
+Description: Thêm nhiêu tính năng tiẹn ích cho Ứng dụng TikTok.
+Name: BHTikTok++ (Rootless)
+Author: raul saeed
+icon: https://jtisvn.github.io/sectionIcons/BHtiktokplus.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BHtiktok++.json
+
+Package: com.raulsaeed.bhtiktok++s
+Architecture: iphoneos-arm64e
+Version: 1.8-119
+Section: Tweaks
+Maintainer: raul saeed
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.raulsaeed.bhtiktok++, com.dao.bhtiktok++
+Filename: ./debs/com.raulsaeed.bhtiktok++s_1.8-119_iphoneos-arm64e.deb
+Size: 137640
+MD5sum: 39ab539a182cc3c85248ffc32982b462
+SHA1: aa778a396fcbb1832968789ad457c9141ac73f75
+SHA256: 24d8cbbf9911661eb3d77683a3ea0610a775444c647430b6afcef4f798fc0447
+SHA512: 237c29f58557111f24a8d2a3f800445620d102bd4ad9aa481ca05aa690836f8a1916b72d2d61701136056bae340ac7d1bef4be8a6485c4f700b351e2009c3fef
+Description: Thêm nhiêu tính năng tiẹn ích cho Ứng dụng TikTok.
+Name: BHTikTok++ (Roothide)
+Author: raul saeed
+icon: https://jtisvn.github.io/sectionIcons/BHtiktokplus.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BHtiktok++.json
+
+Package: com.raulsaeed.bhtiktok++s
+Architecture: iphoneos-arm64
+Version: 1.9.3
+Section: Tweaks
+Maintainer: raul saeed
+Depends: mobilesubstrate
+Conflicts: com.raulsaeed.bhtiktok++, com.dao.bhtiktok++
+Filename: ./debs/com.raulsaeed.bhtiktok++s_1.9.3_iphoneos-arm64.deb
+Size: 198232
+MD5sum: 3b598b46e22b2e6e8b6ae37a08be47cf
+SHA1: 7e3445261022bd3c9e66cd1f8eeca9f0c482e97c
+SHA256: bf7dac139ce7a14b3b03e21de090b24c2c8364a70878d2872d7dc226357346c2
+SHA512: c530eeede81c385f862987af919043501f6fb4c37fbdae0af525a8d90358bec9a49f8a1d56cc03fe3a1a4ae674e4f28a32c7371a2f51060541de81f35500895d
+Description: Thêm nhiêu tính năng tiẹn ích cho Ứng dụng TikTok
+Name: BHTikTok++ (Rôptless)
+Author: raul saeed
+icon: https://jtisvn.github.io/sectionIcons/BHtiktokplus.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BHtiktok++.json
+
 Package: com.roothide.manager
 Architecture: iphoneos-aảm64
 Version: 1.3.3

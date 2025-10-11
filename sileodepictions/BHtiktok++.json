@@ -15,7 +15,7 @@
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/BHtiktokplus/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/BHtiktok++/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 },
 {
@@ -168,7 +168,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.9.3\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.9.3\n\n- Thêm ngôn ngữ Tiếng Việt\n\n ### Phiên bản  1.8-119\n\n- Sửa lỗi và tương thích Roothide\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
