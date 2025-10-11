@@ -3926,6 +3926,43 @@ Icon: https://jtisvn.github.io/sectionIcons/Picsart.png
 Name: PicsArt Gold
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PicsartGold.json
 
+Package: com.jtis.picsewpro
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.picsewpro_1.0.0_iphoneos-arm64.deb
+Size: 25076
+MD5sum: f2c2edba15edd816ead343ed6a2e279d
+SHA1: b446e146f4a55221625e4ca101368cb77ae9d862
+SHA256: 44565647e876d395dbc95be057db1cf9c108f71619fd21f682edc796fc48f970
+SHA512: b28647b2d62cdf6f9af3bc38a7381602c89d1d3a6610fb538c647a6a1bf9f72276684d6e60abb4b52b9394cbfc5798e1b0bb116784704e494995e2091d2bb1a4
+Description: Mở khoá Pro ứng dụng Picsew
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PicsewPro.json
+Icon: https://jtisvn.github.io/sectionIcons/PicsewPro.png
+Name: PicsewPro
+Author: x✨
+
+Package: com.jtis.picsewpro
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.picsewpro_1.0.0_iphoneos-arm64e.deb
+Size: 31502
+MD5sum: 44797d7bf381a0ceee7bafc047e722e3
+SHA1: e458df19d60dc3f88fe3caa6fa31f157598daa01
+SHA256: 0bd272e7d016563d88451db94ae616c75555244cd41e4bcc627f2d80fabe9925
+SHA512: 238d44e8ae6fa6f203defcbcdd66d092854d37dc6e32a22a164cbb7bb3ab1c12cfb74db617bb250f53e49af6bb3c45005f9bef33fb22c86dd38e13e0bf51c616
+Description: Mở khoá Pro ứng dụng Picsew
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PicsewPro.json
+Icon: https://jtisvn.github.io/sectionIcons/PicsewPro.png
+Name: PicsewPro
+Author: x✨
+
 Package: com.jtis.plampyuipro
 Architecture: iphoneos-arm64e
 Version: 1.0

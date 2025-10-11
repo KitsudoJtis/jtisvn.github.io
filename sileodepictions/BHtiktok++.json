@@ -11,7 +11,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/BHtiktokplus/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/BHtiktok++/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
@@ -19,11 +19,15 @@
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/BHtiktokplus/Screenshots/3.png",
+"url":"https://jtisvn.github.io/infodeb/BHtiktok++/Screenshots/3.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/BHtiktokplus/Screenshots/4.png",
+"url":"https://jtisvn.github.io/infodeb/BHtiktok++/Screenshots/4.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/BHtiktok++/Screenshots/5.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -31,7 +35,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":" BHTIKTOK Plus\n\n- Thêm 1 số chức năng tiện ích cho ứng dụng TikTok.\n\n- Tính năng chính\n\n- 1: Tải xuống Video, Hình ảnh không có Logo và tải Âm thanh.\n\n- 2: Chặn quảng cáo video trong TikTok.\n\n- 3: Ẩn các video đang livestream.\n\n- 4: Thay đổi vùng, lưu hồ sơ, hiện tên người dùng trong video\n\n- 5: Xoá bỏ các nút chức năng khi xem video.\n\n- 6: Tự động phát video tiếp theo sau khi xem..\n\n- 7: Giả mạo tích xanh, số lượt theo dõi.\n\n- 8: Thêm chức năng khóa ứng dụng.\n\n- 9: Yêu cầu xác nhận thả Tim , bình luận, v.v.\n\n- 10: Cấu hình các tuỳ chọn TikTok ở mục Cài đặt và quyền riêng tư.",
+"markdown":" BHTIKTOK++n\n- Thêm 1 số chức năng tiện ích cho ứng dụng TikTok.\n\n- Tính năng chính\n\n- 1: Tải xuống Video, Hình ảnh không có Logo và tải Âm thanh.\n\n- 2: Chặn quảng cáo video trong TikTok.\n\n- 3: Ẩn các video đang livestream.\n\n- 4: Thay đổi vùng, lưu hồ sơ, hiện tên người dùng trong video\n\n- 5: Xoá bỏ các nút chức năng khi xem video.\n\n- 6: Tự động phát video tiếp theo sau khi xem..\n\n- 7: Giả mạo tích xanh, số lượt theo dõi.\n\n- 8: Thêm chức năng khóa ứng dụng.\n\n- 9: Yêu cầu xác nhận thả Tim , bình luận, v.v.\n\n- 10: Cấu hình các tuỳ chọn TikTok ở mục Cài đặt và quyền riêng tư.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -66,7 +70,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "dvntm",
+"text": "raul saeed",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -92,7 +96,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "22/6/2025",
+"text": "8/1/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -110,7 +114,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.3.1",
+"text": "1.9.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -164,7 +168,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.3.1\n\n- Sửa lỗi\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.9.3\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
