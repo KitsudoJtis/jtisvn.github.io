@@ -4,19 +4,19 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"title":"Mô tả"
 },
 {
 "markdown":" Chủ đê Liquid Glass, được thiết kế bởi Nguyên Tokuda và Hoàng MD\n\nㅤ\n\nChi tiết gói gồm:\n\n+ 610 biểu tượng\n\n+ 1 Huy hiệu thông báo\n\n+ 1 biểu tượng LS UI\n\n+ 2 Hiệu ứng Mask AE\n\n+ 2 Dock UI (Light & Dark)\n\n- 1 chủ đề Trình quay số và mặt khẩu màn hình khoá\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
-{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
+{ "class":"DepictionHeaderView", "title":"Anh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -33,15 +33,6 @@
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Tham gia nhóm"
-},
-{
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7",
-"useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
 {
@@ -49,7 +40,7 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin "
+"title":"Thông tin chi tiết "
 },
 {
 "class":"DepictionTableTextView",
@@ -102,7 +93,7 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/donate/donate.html"
 },
 {
