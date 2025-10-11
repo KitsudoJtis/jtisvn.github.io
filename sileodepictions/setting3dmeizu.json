@@ -12,7 +12,7 @@
 "title":"Meizu 3D Settings"
 },
 {
-"markdown":"Thay đổi chủ đề cho ứng dụng Cài Đặt, được thiết kế bởi Miss.\n\n- Gồm 50 biểu tượng cơ bản\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
+"markdown":"\n\n- Thay đổi chủ đề cho ứng dụng Cài Đặt, được thiết kế bởi Miss.\n\n- Gồm 50 biểu tượng cơ bản\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -68,10 +68,10 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Liên hệ & Hỗ trợ",
+"title":"Liên hệ Hỗ trợ",
 "action":"https://jtisvn.github.io/donate/donate.html",
 "openExternal":"true",
-"tintColor":"#5777B8"
+"tintColor":"#339999"
 },
 {
 "class":"DepictionTableButtonView",
