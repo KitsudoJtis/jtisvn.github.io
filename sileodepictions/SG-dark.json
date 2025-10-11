@@ -1,22 +1,22 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
+"tintColor":"#339999",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"title":"Mô tả"
 },
 {
 "markdown":" Chủ đê Snoked Glass Dark, được thiết kế bởi Nguyên Tokuda\n\n- Gồm 90 biểu tượng & Dock UI\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.\n\n- Các bạn muốn đầy đủ icon còn thiếu thì liên hệ tác giả bên dưới để mua ủng hộ bác ấy nhé, xin cảm ơn!",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
-{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
+{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -45,7 +45,7 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin "
+"title":"Thông tin chi tiết"
 },
 {
 "class":"DepictionTableTextView",
@@ -89,7 +89,7 @@
 "class":"DepictionStackView"
 },
 {
-"tabname":"L.Hệ & Hỗ trợ",
+"tabname":"Liên hệ Hỗ trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
@@ -98,7 +98,7 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/donate/donate.html"
 },
 {
