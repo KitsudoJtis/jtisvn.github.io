@@ -6,6 +6,17 @@
 {
 "tabname":"Giới thiệu",
 "views":[
+{ "class":"DepictionHeaderView", "title":"" },
+{
+"class":"DepictionHeaderView",
+"title":"Mô tả"
+},
+{
+"markdown":"\n\n- Chủ đê Solstice, được thiết kế bởi Rifai\n\n- Chi tiết gói gồm:\n\n- 3220 biểu tượng\n\n- 40 biểu tượng Alt Biểu tượng iOS 18 được sửa lại\n\n- Biểu tượng cài đặt\n\n- Hiệu ứng thư mục\n\n- Huy hiệu thông báo\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -27,15 +38,11 @@
 },
 {
 "url":"https://jtisvn.github.io/infodeb/Vitreux/Screenshots/5.png",
-"accessibilityText":"Screenshot"},
-{
+"accessibilityText":"Screenshot"
+}
+],
 "itemCornerRadius":0,
 "itemSize":"{185,400}"
-},
-{
-"markdown":"\n\n- Chủ đê Solstice, được thiết kế bởi Rifai\n\n- Chi tiết gói gồm:\n\n+ 3214 biểu tượng\n\n+ 40 biểu tượng Alt Biểu tượng iOS 18 được sửa lại\n\n+ Biểu tượng cài đặt\n\n+ Hiệu ứng thư mục\n\n+ Huy hiệu thông báo\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
 },
 {
 "class":"DepictionMarkdownView"
@@ -45,7 +52,7 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"title":"Thông tin chi tiết "
 },
 {
 "class":"DepictionTableTextView",
@@ -66,7 +73,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 14.0 đến 16.7.11"
+"text":"iOS 14.0 đến 16.7.10"
 },
 {
 "class":"DepictionLabelView",
