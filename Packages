@@ -3041,6 +3041,23 @@ Author: Nightwind
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HorizontalSliders.json
 
+Package: com.jtis.iOS26
+Architecture: iphoneos-arm64
+Version: 1..1
+Section: Chủ đề
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.iOS26_1..1_iphoneos-arm64.deb
+Size: 4386368
+MD5sum: d73dd3027978c2101ffa8a618d021229
+SHA1: 6fcd268d5befd805ab59275387d45ea1a554f50c
+SHA256: 98fa498fd4d39eb6e7ddd9f752f2bf97fca39aa27528ce6b69cb830135f7f340
+SHA512: 7e2f942ada2e5907792e02d7fb44d29173f876a7176bc6a099699a3aefbe77e1c0edb24cd169d75deed188bd847f3a84635cab29a11ae3a1aa14bf2b5fc07cc8
+Description: Chủ đề iOS26
+Name: iOS26 Theme
+Author: Hoàng MD
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS26.json
+Icon: https://jtisvn.github.io/sectionIcons/iOS26.png
+
 Package: com.jtis.iScreen
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -4391,6 +4408,45 @@ Name: Speedy(Roothide)
 Author: alias20 & daodao
 Icon: https://jtisvn.github.io/sectionIcons/Speedy.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Speedy.json
+
+Package: com.jtis.spotify
+Architecture: iphoneos-arm64
+Version: 6.1.6
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 1688
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
+Filename: ./debs/com.jtis.spotify_6.1.6_iphoneos-arm64.deb
+Size: 440708
+MD5sum: ec708a87348e0b134a84bf3141a304c0
+SHA1: 4dd7654ba688d3a655ec38886144e40ef73cebfd
+SHA256: ff9a099c4e128c308f2f9771629001e8e2a809a67f8dd0a47ba88f0038d9cde6
+SHA512: cddb73f122d3c3b082eb963d072b9a663073757974a1e29ac94f72559cfc622820ac5402b219f2ed08049402020a7b3857c23684ead6ab34efc8aa95d75c382a
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify (Rootless)
+Author: Eevee
+SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
+Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
+
+Package: com.jtis.spotify
+Architecture: iphoneos-arm64e
+Version: 6.1.6
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 1688
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
+Filename: ./debs/com.jtis.spotify_6.1.6_iphoneos-arm64e.deb
+Size: 433772
+MD5sum: 1e90add48546cd908bb80abe2a4fa56a
+SHA1: acd693ab97ecd0f12b60352b5f803a68828220c0
+SHA256: af340af952aad1dbe674234a1b4285074d00f7e94bb67cd174319ab70fd2d0a6
+SHA512: ffd779fc2e15075f7f1003bf10f9316f2d13b79702906869299278b0ed255632bbefc62217d8dd4c7e2ef15478067441d447ea6a394f2d8fe49d91a4e416c99e
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify (Roothide)
+Author: Eevee
+SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
+Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
 
 Package: com.jtis.stealthcc
 Architecture: iphoneos-arm64
@@ -6427,6 +6483,23 @@ SHA512: 367abfbcd223079b476b17840393bfb02b82cca369eb5350dd49b8d07c7d083fdba6913f
 Description: Support for legacy arm64e ABI in iOS 15.0+
 Author: Evelyn
 Name: Legacy arm64e Support
+
+Package: org.swift.protobuf.swiftprotobuf
+Architecture: iphoneos-arm64
+Version: 1.29.0
+Section: System
+Maintainer: eevee
+Installed-Size: 10116
+Filename: ./debs/org.swift.protobuf.swiftprotobuf_1.29.0_iphoneos-arm64.deb
+Size: 1446130
+MD5sum: 78e5915754b1068b212890ffe907dfd0
+SHA1: 6d0a4904f961407b2fbc7153bd9fae3dda27b8db
+SHA256: 82370ccb97937f4d7b4408f0c918d9136bad5a2c40f11d1aeb3337dda9f06b6f
+SHA512: 2b02f8be9e3959671a7559b684b9463da025933d2bce33caebdf80bb88b6bb78fa285d268ce68a517de4e674d297bd0bf7a9208cf2f41533f19db6a64df0f2e2
+Description: Plugin and runtime library for using protobuf with Swift
+Tag: role::developer
+Name: SwiftProtobuf
+Author: eevee
 
 Package: ru.rejail.dleasy
 Architecture: iphoneos-arm64e

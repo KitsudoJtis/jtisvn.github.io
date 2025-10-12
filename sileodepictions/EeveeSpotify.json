@@ -161,7 +161,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.4.9.9bk\n\n- Sửa lỗi\n\n ### Phiên bản 0.4.1b\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
