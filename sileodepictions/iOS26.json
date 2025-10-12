@@ -43,7 +43,7 @@
 "title":"Tác giả",
 "text":"Hoàng MD"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -80,7 +80,7 @@
 "class":"DepictionStackView"
 },
 {
-"tabname":"L.Hệ & Hỗ trợ",
+"tabname":"Liên hệ Hỗ trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",

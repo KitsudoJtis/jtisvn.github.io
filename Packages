@@ -3175,6 +3175,24 @@ Author: Paisseon
 SileoDepiction: https://jtisvn.github.io/sileodepictions/IconRotation.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.iOS26
+Architecture: iphoneos-arm64e
+Version: 1..1
+Section: Chủ đề
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.ios26_1..1_iphoneos-arm64e.deb
+Size: 8784120
+MD5sum: f855ecbc73a36006f4a1596d7cd9099a
+SHA1: 669eecd09c5c2ef9a86ce59a4ed4a11a8cb8ad67
+SHA256: c81ac8002d59da57c56985fd850ef1b3ed9d46b7979bc70243dbd195e00a3c57
+SHA512: 2498788d4384104acc3e3b0725166a37d7dbd9047431382f84a69fff449808997ab0d5333d3e8ba339b921fb37e8b1e2dcd074f0f3d04f38ad7ec4ac915b69fe
+Description: Chủ đề iOS26
+Name: iOS26 Theme
+Author: Hoàng MD
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS26.json
+Icon: https://jtisvn.github.io/sectionIcons/iOS26.png
+ Pre-Depends: rootless-compat(>= 0.9)
+
 Package: com.jtis.iScreen
 Architecture: iphoneos-arm64e
 Version: 1.0
