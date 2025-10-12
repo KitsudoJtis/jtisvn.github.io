@@ -1,14 +1,11 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/AutoFaceUnlock.png",
-"tintColor":"#5777B8",
+"minVersion":"0.4",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#577788",
 "tabs":[
 {
-"tabname":"Gioi",
+"tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"Giới thiệu" },
-"views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
