@@ -21,7 +21,8 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url": "https://jtisvn.github.io/infodeb/CapcutPro/Screenshots/1.png"
+"url":"https://jtisvn.github.io/infodeb/CapcutPro/Screenshots/1.png",
+"accessibilityText":"Screenshot"
 },
 {
 "url":"https://jtisvn.github.io/infodeb/CapcutPro/Screenshots/2.png",
@@ -69,8 +70,6 @@
 "class":"DepictionTableButtonView",
 "title":"Liên hệ Hỗ trợ",
 "action":"https://jtisvn.github.io/donate/donate.html",
-"openExternal":"true",
-"tintColor":"#CC00FF"
 },
 {
 "class":"DepictionTableButtonView",

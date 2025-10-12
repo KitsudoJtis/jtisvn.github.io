@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/EeveeSpotify.png",
-"tintColor":"#CC00FF",
+"tintColor":"#00CC33",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -21,12 +21,12 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url": "https://jtisvn.github.io/infodeb/EeveeSpotify/Screenshots/1.png"
+"url":"https://jtisvn.github.io/infodeb/EeveeSpotify/Screenshots/1.png",
+"accessibilityText":"Screenshot"
 },
 {
 "url":"https://jtisvn.github.io/infodeb/EeveeSpotify/Screenshots/2.png",
-"accessibilityText":"Screenshot"
-}
+"accessibilityText":"Screenshot"}
 ],
 "itemCornerRadius":0,
 "itemSize":"{185,400}"
@@ -67,7 +67,7 @@
 "title":"Liên hệ Hỗ trợ",
 "action":"https://jtisvn.github.io/donate/donate.html",
 "openExternal":"true",
-"tintColor":"#CC00FF"
+"tintColor":"#00CC33"
 },
 {
 "class":"DepictionTableButtonView",
