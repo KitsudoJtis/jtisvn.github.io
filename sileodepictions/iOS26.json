@@ -16,7 +16,7 @@
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
-{ "class":"DepictionHeaderView", "title":"Anh chụp màn hình" },
+{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -43,7 +43,7 @@
 "title":"Tác giả",
 "text":"Hoàng MD"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.0k" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
