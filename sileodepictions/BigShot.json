@@ -4,15 +4,15 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"title":"BigShot"
 },
 {
-"markdown":" BigShot\n\n- Trình chụp ảnh màn hình dài dưới dạng plugin của Snapper 3 qua Mô-đun Trung tâm điều khiển trên thiết bị của bạn.\n\n- Yêu cầu tải thêm CCSupport và Snapper3\n\n- Chi tiết xem mô tả gói bên dưới",
+"markdown":"\n\n- Trình chụp ảnh màn hình dài dưới dạng plugin của Snapper 3 qua Mô-đun Trung tâm điều khiển trên thiết bị của bạn.\n\n- Yêu cầu tải thêm CCSupport và Snapper3\n\n- Chi tiết xem mô tả gói bên dưới",
 "class":"DepictionMarkdownView"
 },
 {
@@ -32,7 +32,7 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin "
+"title":"Thông tin chi tiết"
 },
 {
 "class":"DepictionTableTextView",
@@ -85,7 +85,7 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/donate/donate.html"
 },
 {

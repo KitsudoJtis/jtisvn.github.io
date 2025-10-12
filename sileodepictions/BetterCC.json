@@ -4,12 +4,31 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/BetterCC/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/BetterCC/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/BetterCC/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/BetterCC/Screenshots/4.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
 },
 {
 "markdown":" Thay đổi trung tâm và bố trí các mô đun theo cách bạn muốn.\n\n- Cấu hìnhcho mô đun kết nối, độ sáng, âm lương và điều khiển trình phát nhạc.n\n- Thêm chế độ xem thời tiết vào trung tâm điều khiển.\n\n- Lưu ý: Mỗi lần khởi động lại hoặc LDRestart vui lòng mở ứng dụng thời tiết để cập nhật dữ liệu thời tiết.\n\n- Xem hình ảnh phía dưới để biết thẻm chi tiết \n\nㅤ\n\n",
@@ -35,50 +54,122 @@
 {
 "url":"https://jtisvn.github.io/infodeb/BetterCC/Screenshots/4.png",
 "accessibilityText":"Screenshot"
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "miguelaka95",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "12/7/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 }
-],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
+]
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Liên hệ tôi"
+"class": "DepictionLabelView",
+"text": "0.0.5",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7\n\nㅤ\n\n",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "150.49 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin "
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"miguelaka95"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"0.0.5" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
-},
-{
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"20/7/2025"
+"class": "DepictionLabelView",
+"text": "14.2 - 16.7.11",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 14.2 đến 16.7.11"
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -88,7 +179,7 @@
 "alignment":1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
 "tabname":"Nhật ký thay đổi",
@@ -101,7 +192,7 @@
 "class":"DepictionStackView"
 },
 {
-"tabname":"L.Hệ & Hỗ trợ",
+"tabname":"Liên hệ Hỗ trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",

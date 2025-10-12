@@ -4,19 +4,19 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"title":"ColorBar15"
 },
 {
-"markdown":" Colobar15\n\n- Tưeak này cho phép tuỳ chỉh màu trên thanh trạng thái theo ý muốn của bạn.\n\n- Hỗ trợ cho thiết bị IOS 15 trở lên.\n\n- Xem hình ảnh phía dưới để biết chi tiết.\n\n",
+"markdown":"\n\n- Tưeak này cho phép tuỳ chỉh màu trên thanh trạng thái theo ý muốn của bạn.\n\n- Hỗ trợ cho thiết bị IOS 15 trở lên.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
-{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
+{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -41,15 +41,6 @@
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Liên hệ tôi"
-},
-{
-"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7\n\nㅤ\n\n",
-"useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
 {
@@ -57,7 +48,7 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin "
+"title":"Thông tin chi tiết"
 },
 {
 "class":"DepictionTableTextView",
@@ -101,7 +92,7 @@
 "class":"DepictionStackView"
 },
 {
-"tabname":"L.Hệ & Hỗ trợ",
+"tabname":"Liên hệ Hỗ trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
@@ -110,7 +101,7 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/donate/donate.html"
 },
 {
