@@ -3839,6 +3839,25 @@ Author: NoisyFlake, Nixuge
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Network.json
 Icon: https://jtisvn.github.io/sectionIcons/Network.png
 
+Package: com.jtis.nobetaalert
+Architecture: iphoneos-arm64
+Version: 4.0
+Section: Tweaks
+Maintainer: Hitori
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.nobetaalert_4.0_iphoneos-arm64.deb
+Size: 2716
+MD5sum: 0d911ea275ddc8120ecfe01ed447fc32
+SHA1: 098beac2e590511cc4c8830e459f7503d85919fb
+SHA256: fdec96998aadb786f1427abe11b3f1fe8c77548da99eeccc07cc004f381e054c
+SHA512: 33e69a75cb742b5887982d1ec9bfdb8db570f0909f52b416ef0628e0fafb105603cfd4d6360da2e12ae090fad42b6efe9d721e411634ca22c4766a964e7b7679
+Description: Xoa bộ cảnh báo cập nhật IOS beta
+Name: NoBetaAlert (Rootless)
+Author: Hitori
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NoBetaAlert.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.nopastealerts16
 Architecture: iphoneos-arm64e
 Version: 1.0.0
