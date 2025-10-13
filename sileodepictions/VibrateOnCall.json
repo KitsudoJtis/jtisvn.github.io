@@ -4,7 +4,7 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 {
 "class":"DepictionScreenshotsView",
@@ -39,7 +39,7 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin"
+"title":"Thông tin chi tiết"
 },
 {
 "class":"DepictionTableTextView",

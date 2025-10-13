@@ -6,7 +6,6 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -31,7 +30,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Tinh chỉnh tốt nhất hiển thị các hiệu ứng chỉ báo trực quan khi tương tác cảm ưng lên màn hình.\n\n+ Hiệu ứng hoạt ảnh\n\n+ Không bị chặn hoặc trễ cảm ứng\n\n+ Hỗ trợ đa điểm và IPad\n\n+ Tự động ẩn khi ở chế độ 'Reachability' (chế độ thu nhỏ màn hình)\n\n+ Hỗ trợ chuyển đổi qua Trung tâm điều khiển (tùy chọn, phụ thuộc vào việc có CC Support hay không).",
+"markdown":"Touch-Viz\n\n- Tinh chỉnh tốt nhất hiển thị các hiệu ứng chỉ báo trực quan khi tương tác cảm ưng lên màn hình.\n\n+ Hiệu ứng hoạt ảnh\n\n+ Không bị chặn hoặc trễ cảm ứng\n\n+ Hỗ trợ đa điểm và IPad\n\n+ Tự động ẩn khi ở chế độ 'Reachability' (chế độ thu nhỏ màn hình)\n\n+ Hỗ trợ chuyển đổi qua Trung tâm điều khiển (tùy chọn, phụ thuộc vào việc có CC Support hay không).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -159,6 +158,7 @@
 ],
 "class": "DepictionStackView"
 },
+{
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
