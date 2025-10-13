@@ -342,6 +342,29 @@ Author: dvntm
 Icon: https://jtisvn.github.io/sectionIcons/YTLite.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/YTLite.json
 
+Package: com.exile90.icleanerpro
+Architecture: iphoneos-arm64e
+Version: 7.10.0
+Section: Utilities
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm64e.deb
+Size: 968980
+MD5sum: 68b8c20e1bf448ba606f7cdffce96f91
+SHA1: d8cf3c2a0c038c1b7bbb7d676f36243f58ad02c4
+SHA256: c635ce0324e8502f489759a0c7c7ef8b1b3f5cfff61f1ced8460a2989f8e8f83
+SHA512: e8000f9db1c900f936769688cbe1173b51ed3b6143b8ad66e9f4f828a4625098845ceaceea277d81eff52c365c43c7141f10cbedf04ea316f2ee9e4a1b22d3aa
+Homepage: https://jtisvn.github.io
+Description: Tiện ích quản lý và dọn dẹp hệ thống iOS.
+Name: iCleaner Pro (Roothide)
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iCleanerPro.json
+Icon: https://jtisvn.github.io/sectionIcons/iCleanerPro.png
+
 Package: com.foxfort.translomatic
 Architecture: iphoneos-arm64e
 Version: 2.18.31
@@ -566,6 +589,45 @@ Name: DayNightSwitch (Roothide)
 Author: Finn Gaida
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/DayNightSwitch.json
 Icon: https://jtisvn.github.io/sectionIcons/DayNightSwitch.png
+
+Package: com.jtid.lynx
+Architecture: iphoneos-arm64
+Version: 2.5.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Conflicts: com.mtac.lynxapp, xyz.cypwn.lynxapp
+Filename: ./debs/com.jtid.lynx_2.5.4_iphoneos-arm64.deb
+Size: 1234472
+MD5sum: 1330cdebd7261de4db08053ea78b3fb3
+SHA1: 9cc0b93614468a539a60c95029bc3fd4d1c83ead
+SHA256: 95ec1c40886db969da9526defbf32ab5cf8c3b16c4995ddaf6eecc3320997db6
+SHA512: a6e8df111576222178dc0b016bce41dc7b74a8a6d630e00f8d34798dea6c19332ecee2999344136fabf6144988b84e034958ad8bfdb3b6fba7940291734f53e8
+Description: Tùy chỉnh tối ưu cho thiết bị iOS 14, 15 & 16
+SileoDepiction: https://jtisvn.github.io/sileodepictions/lynx.json
+Icon: https://Jtisvn.github.io/sectionIcons/lynx.png
+Name: Lynx 2(Rootless)
+Author: MTAC
+
+Package: com.jtid.lynx
+Architecture: iphoneos-arm64e
+Version: 2.5.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Conflicts: com.mtac.lynxapp, xyz.cypwn.lynxapp
+Filename: ./debs/com.jtid.lynx_2.5.4_iphoneos-arm64e.deb
+Size: 1261220
+MD5sum: 09597abaa2d4842ac9513028ce6e804b
+SHA1: 8b24051c7f6f7ed51b7666de05c1769fc0e4879f
+SHA256: a97a0a8cee1368f57a5466e0065ff7947732a941bfd4dff3b378f521d5da3dfc
+SHA512: 5f5960fac2cebf1962921d32f079b4947835a3b15101926e6884570b9204aace62f3e1220a5687d290da18801e7c65093922266fb1d4d3c4f6e0915426d0ce9e
+Description: Tùy chỉnh tối ưu cho thiết bị iOS 14, 15 & 16.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/lynx.json
+Icon: https://Jtisvn.github.io/sectionIcons/lynx.png
+Name: Lynx 2 (Roothide)
+Author: MTAC
 
 Package: com.jtid.snapper2
 Architecture: iphoneos-arm64
@@ -936,6 +998,41 @@ Name: RingTonesManager
 Icon: https://jtisvn.github.io/sectionIcons/Ringtones.png
 Author: Netskao
 Tags: compatible_min::ios15
+
+Package: com.jtis.Solstice
+Architecture: iphoneos-arm64
+Version: 3.0.7
+Section: Chủ đề
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.Solstice_3.0.7_iphoneos-arm64.deb
+Size: 52413000
+MD5sum: 95545d5a460c3d4a495c7540ae423ef1
+SHA1: e0e0ba977d525a2443f8115280a234445e8e1c24
+SHA256: e85726d7ebf59a8eecb76f5413083410691e6a2986b3d0ac9d970012be1087a2
+SHA512: 985f67fbbe02dbc8c71c4116971e0042c6fe63c890c237f453d23c9ccc509e7fe728c0582c762a0ec37259498cb9f8ff426df14037eeb9242d60183db8f581a7
+Description: Chủ đề Solstice iOS18 Dark
+Name: Solstice Theme
+Author: Rifai
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Solstice.json
+Icon: https://jtisvn.github.io/sectionIcons/Solstice.png
+
+Package: com.jtis.Solstice
+Architecture: iphoneos-arm64e
+Version: 3.0.7
+Section: Chủ đề
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.Solstice_3.0.7_iphoneos-arm64e.deb
+Size: 52411008
+MD5sum: 31fe0c1191dbc891eb436afdea03761a
+SHA1: 7f56e9ce181dd3caf95e28c79143ae5bb8adfce0
+SHA256: 380fd0989b029174ca9e43fb8d1276bf2bd811f043a00e71ac642036c9548fa3
+SHA512: 9bc883e845946c350eedb5851a483746607b053669c2c36530c6c70baadb2c62a25df5e4b65232eedeb987c403b2426859695a492be503b73290371b5c5ac970
+Description: Chủ đề Solstice iOS18 Dark
+Name: Solstice Theme
+Author: Rifai
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Solstice.json
+Icon: https://jtisvn.github.io/sectionIcons/Solstice.png
+ Pre-Depends: rootless-compat(>= 0.9)
 
 Package: com.jtis.SwitchLine
 Architecture: iphoneos-arm64e
@@ -2175,15 +2272,37 @@ Installed-Size: 604
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.6011), preferenceloader
 Conflicts: com.ryannair05.cylinder
 Filename: ./debs/com.jtis.cylinderremade.roothide_0.0.3-beta_iphoneos-arm64e.deb
-Size: 106964
-MD5sum: 633b24fc5acb5ddb2d212f4d92301cb7
-SHA1: 6b3cbdcc6f3b0895e7aece9c6eab2be74b353689
-SHA256: 7bac43803f4815bbe7e7badc5155d83e1e4b0dc6352903c875bb0349d1b315a5
-SHA512: 4960b8be1126f169f657f0ae1e3a037aeba549bcb0f86e99030cbf35cf1ea450f5d399e6396f220d6ab3d82ed0e0a7a3dac10960cf48fd86d25debdc114a6039
+Size: 105556
+MD5sum: 0320359c37f23c23b9a403c1ff386540
+SHA1: b9785a9cfff3acfd716d4f759fafe19ca7a753d8
+SHA256: fe11f25f6bd26af826cfc966337d2bd4503a19b202b769e44eb6b0db6fec7dda
+SHA512: 2a56f2b07127369535af400c90b355d7784495e0681544bd1b8144dfef9020ff9fd7ccc27e7dcf9f08214628f013e21f2c43573f9d552f994d55e4731eb10b94
 Description: Tuỳ biến hiệu ứng cuộn trên màn hình chính
 Name: Cylinder Remade (Roothide)
 Author: Ryan Nalr
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
+Icon: https://jtisvn.github.io/sectionIcons/Cylinder-rebom.png
+
+Package: com.jtis.cylinderremmade
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1253
+Depends: firmware (>= 15.0), ellekit (>= 0.3), preferenceloader
+Replaces: com.bvn.cylinder-vh
+Filename: ./debs/com.jtis.cylinderremmade_1.1.3_iphoneos-arm64.deb
+Size: 223812
+MD5sum: 6bc8809cb749bb0d7a4d8f294c82089b
+SHA1: e1ea985f09a40532f0e487ea4c3160551b8cbf33
+SHA256: ee933809282e230f6feee7eabb00d1c9edaec80fd0c3d484f7567ef9c03ec17e
+SHA512: c65eb44ffe278b9e62201a363e60211be32ae752bf05184d58b82e23e658ccd369c32858be98e8edbd2ed4c54c97b5e35962af949331bf748cc29660cbaddd40
+Description: Make your icons dance
+Tag: compatible_min::ios11.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Name: Cylinder Reborn (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
+Icon: https://jtisvn.github.io/sectionIcons/Cylinder-rebom.png
 
 Package: com.jtis.designer
 Architecture: iphoneos-arm64
@@ -3214,24 +3333,44 @@ Depiction: http://bvnsupport.github.io/infodeb/Html/iScreen.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/IScreenVip.json
 Icon: https://jtisvn.github.io/sectionIcons/IScreenVip.png
 
-Package: com.jtis.kayoko-roothide
-Architecture: iphoneos-arm64e
-Version: 2.7
+Package: com.jtis.kayoko
+Architecture: iphoneos-arm64
+Version: 2.9
 Section: Tweaks
-Maintainer: JTIS Repo
+Maintainer: JTISVN Repo
+Installed-Size: 952
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: ./debs/com.jtis.kayoko_2.9_iphoneos-arm64.deb
+Size: 129864
+MD5sum: d338206dc0409ab8ca6bf52889d34ce0
+SHA1: 83d44904796b442b52038d47d11dcfc427f5e8a5
+SHA256: c97f4389408ccac0cd1f4f8b1fcd4895b5f58a2afd509ed5d1d011ac22e9670f
+SHA512: c17727a612b258e1fd44dbc488620c916f0902c15d5c016a7b08147d21a1eef4aeddfb51ebb0681dc15f4f17931c1e3f8883478d80c0e2d461fd8ea4c479b1ab
+Description: Công cụ quản lý clipboard, tương tự như Copylog và NicelogX.
+Name: Kayoko (Rootless)
+Author: Alexandra Aurora Göttlicher
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko.json
+Icon: https://jtisvn.github.io/sectionIcons/Kayoko.png
+
+Package: com.jtis.kayoko
+Architecture: iphoneos-arm64e
+Version: 2.9
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 952
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Conflicts: dev.traurige.kayoko, codes.aurora.kayoko, com.daodao.kayoko
-Filename: ./debs/com.jtis.kayoko-roothide_2.7_iphoneos-arm64e.deb
-Size: 128804
-MD5sum: edfaa3640e1feda9efd23497b7233efe
-SHA1: e45b1c27ec623203c23e77fcd0bb7e2238e6a126
-SHA256: 7068f2008baa96a29572cd7670bf9aa2f16cd5c4a97d38dcaddad8ea10e043a5
-SHA512: cc1eaccae3f5f09aac7d038d94d1bd024d18944760988e729f9a44d4f88ff9119a57b3563af32e9c8cdfb828e38ebb5e4e19e799a333d99fafe30aab1770e22d
-Description: Trình quản lý clipboard, tương tự như Copylog và NicelogX.
+Filename: ./debs/com.jtis.kayoko_2.9_iphoneos-arm64e.deb
+Size: 129716
+MD5sum: a3c5ec369e8b251a8f7c3c5f80b48167
+SHA1: 4de313bc9a779f16d63637d50a936326d5c946e0
+SHA256: 180759d7f9469763750c203ce00a6447b495481c6f72659697083cf4bb8f6db5
+SHA512: 3a5e8a9afab41c72392e3fb6de73df6663f90f6bdbdbcab73e7fcf1e2720c3b85054b90f5cc0b5be5ff56fb7571e554d828d62f4d1379bcc530c856c1a2488ce
+Description: Công cụ quản lý clipboard, tương tự như Copylog và NicelogX.
 Name: Kayoko (Roothide)
 Author: Alexandra Aurora Göttlicher
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko.json
+Icon: https://jtisvn.github.io/sectionIcons/Kayoko.png
 
 Package: com.jtis.latchkey
 Architecture: iphoneos-arm64
@@ -3621,26 +3760,6 @@ Description: Thêm Âm lịch lên góc trái Status Bar cho thiết bị nút H
 Name: LunarTime Plus (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimePlus.json
 Author: nqt1195
-
-Package: com.jtis.lynxroothide
-Architecture: iphoneos-arm64e
-Version: 2.5.4
-Section: Tweaks
-Maintainer: Bvn Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
-Conflicts: com.mtac.lynxapp, xyz.cypwn.lynxapp
-Filename: ./debs/com.jtis.lynxroothide_2.5.4_iphoneos-arm64e.deb
-Size: 1261816
-MD5sum: dafb75e5999bbadbc30b0e3bc54ee1c4
-SHA1: 2617f2aa32c5622a451ef8e3fb02a13f38bd0dc2
-SHA256: ba2a0030a48ad8004a2e44338b94feecc7339235904ebe643faa681442ee63f9
-SHA512: bcd5ffcfb426ca5d661e089ec2709fa8fca8b9585be30bb9a18a09c2502017529e5ec07e032a6d028f0f629908572708b824eb027f76397d4e21e43a15991118
-Description: Tùy chỉnh tối ưu cho thiết bị iOS 15-16
-SileoDepiction: https://jtisvn.github.io/sileodepictions/lynx.json
-Icon: https://Jtisvn.github.io/sectionIcons/lynx.png
-Name: Lynx 2 (Roothide)
-Author: MTAC
 
 Package: com.jtis.marie
 Architecture: iphoneos-arm64
