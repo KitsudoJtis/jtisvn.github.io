@@ -12,7 +12,7 @@
 "title":"NoBetaAlert"
 },
 {
-"markdown":"\n\n- Xoá b thông báo cập nhật phiên bản IOS beta.",
+"markdown":"\n\n- Xoá bỏhiển thị cảnh báo cập nhật phiên bản IOS beta.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },

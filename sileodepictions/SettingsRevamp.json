@@ -4,15 +4,15 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"title":"SettingsRevamp"
 },
 {
-"markdown":" SettingsRevamp\n\n- Phân chia các mục trong Cài đặt, tương tự như twweak Shuffle nhưng nhiều chức năng hơn.\n\n- Xem hình ảnh bên dưới để biết chi tiết.",
+"markdown":"\n\n- Phân chia các mục trong Cài đặt, tương tự như twweak Shuffle nhưng nhiều chức năng hơn.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -33,15 +33,6 @@
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Liên hệ tôi"
-},
-{
-"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7\n\nㅤ\n\n",
-"useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
 {
@@ -93,7 +84,7 @@
 "class":"DepictionStackView"
 },
 {
-"tabname":"L.Hệ & Hỗ trợ",
+"tabname":"Liên hệ Hỗ trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
@@ -102,7 +93,7 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/donate/donate.html"
 },
 {

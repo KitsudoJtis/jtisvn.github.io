@@ -12,11 +12,11 @@
 "title":"OCD"
 },
 {
-"markdown":"n\n\n- Có thể tùy chỉnh màu biểu tượng và huy hiệu màn hình chính.\n\n- Biểu tượng: Tùy chỉnh màu sắc theo biểu tưởng ứng dụng và tự chọn màu \n\n- Huy hiệu: Thay đổi màu tự động theo ứng dụng,sử dụng dấu chấm thay huy hiệu gốc,điều chỉnh viền và bán kính bo góc.chọn màu viền tự dộng phù hợp với huy hiệu.",
+"markdown":"\n\n- Có thể tùy chỉnh màu biểu tượng và huy hiệu màn hình chính.\n\n- Biểu tượng: Tùy chỉnh màu sắc theo biểu tưởng ứng dụng và tự chọn màu \n\n- Huy hiệu: Thay đổi màu tự động theo ứng dụng,sử dụng dấu chấm thay huy hiệu gốc,điều chỉnh viền và bán kính bo góc.chọn màu viền tự dộng phù hợp với huy hiệu.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
-{ "class":"DepictionHeaderView", "title":"Ảnh chụp mnàn hình" },
+{"class":"DepictionHeaderView", "title":"Ảnh chụp mnàn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -44,7 +44,7 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin "
+"title":"Thông tin chi tiết"
 },
 {
 "class":"DepictionTableTextView",
@@ -101,7 +101,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 5.4.11\n\n Thêm ngôn ngữ Tiếng việt.\n\n-Khắc phục sự cố chức năng không hiện trong cài đặt.\n\n-Tương thích hơn cho Roothide\n\n ### Phiên bản 5.2\n\n- Sửa lỗi\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 5.4.11\n\n- Thêm ngôn ngữ Tiếng việt.\n\n- Khắc phục sự cố chức năng không hiện trong cài đặt.\n\n- Tương thích hơn cho Roothide\n\n ### Phiên bản 5.2\n\n- Sửa lỗi\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 },
 {
 "class":"DepictionLabelView",

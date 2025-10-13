@@ -8,16 +8,6 @@
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
-},
-{
-"markdown":" OneSettings\n\n- là một tweak dành cho ứng dụng Cài đặt, mang phong cách giao diện Cài đặt từ OneUI của Samsung lên hệ điều hành iOS.\n\n- cung cấp rất nhiều tính năng và khả năng tùy biến, bao gồm thêm phụ đề cho các ô trong bảng, tùy chỉnh hình nền, căn lề và bo góc, giả mạo dung lượng lưu trữ, và nhiều hơn nữa..Hỗ trợ tương thích IOS14 trở lên không hỗ trợ đổi với IPAdOS\n\n- Các chức năng chính bao gồm:\n\n- Tùy biến Giao diện: Cho phép thay đổi toàn bộ màu sắc của các thành phần như nền, chữ, thanh điều hướng, công tắc, v.v., cũng như đặt ảnh nền tùy chỉnh.\n\n- Sắp xếp Bố cục: Cho phép bạn sắp xếp, nhóm, ẩn, hoặc thêm hoặc xóa các mục trong menu Cài đặt. Bạn cũng có thể tùy chỉnh vị trí các nút và kiểu dáng của tiêu đề.\n\n- Tuỳ chỉnh Chi tiết: Điều chỉnh các yếu tố nhỏ như bo góc, chiều cao các ô, kiểu biểu tượng và khoảng cách giữa các mục.\n\n- Tính năng Đặc biệt: Cung cấp khả năng giả mạo thông tin dung lượng lưu trữ của thiết bị.\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết.\n\n",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
-{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
@@ -53,44 +43,123 @@
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
+"markdown":" OneSettings\n\n- là một tweak dành cho ứng dụng Cài đặt, mang phong cách giao diện Cài đặt từ OneUI của Samsung lên hệ điều hành iOS.\n\n- cung cấp rất nhiều tính năng và khả năng tùy biến, bao gồm thêm phụ đề cho các ô trong bảng, tùy chỉnh hình nền, căn lề và bo góc, giả mạo dung lượng lưu trữ, và nhiều hơn nữa..Hỗ trợ tương thích IOS14 trở lên không hỗ trợ đổi với IPAdOS\n\n- Các chức năng chính bao gồm:\n\n- Tùy biến Giao diện: Cho phép thay đổi toàn bộ màu sắc của các thành phần như nền, chữ, thanh điều hướng, công tắc, v.v., cũng như đặt ảnh nền tùy chỉnh.\n\n- Sắp xếp Bố cục: Cho phép bạn sắp xếp, nhóm, ẩn, hoặc thêm hoặc xóa các mục trong menu Cài đặt. Bạn cũng có thể tùy chỉnh vị trí các nút và kiểu dáng của tiêu đề.\n\n- Tuỳ chỉnh Chi tiết: Điều chỉnh các yếu tố nhỏ như bo góc, chiều cao các ô, kiểu biểu tượng và khoảng cách giữa các mục.\n\n- Tính năng Đặc biệt: Cung cấp khả năng giả mạo thông tin dung lượng lưu trữ của thiết bị.\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết.\n\n",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Liên hệ tôi"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7\n\nㅤ\n\n",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin "
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"Nightwind"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.2" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
+"class": "DepictionLabelView",
+"text": "Nightwind",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"16/8/2025"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 14.0 đến 16.7.10"
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "10/7/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.2",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "24 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14.0 - 16.7.10",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -100,7 +169,7 @@
 "alignment":1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
 "tabname":"Nhật ký thay đổi",
@@ -122,7 +191,7 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/donate/donate.html"
 },
 {
