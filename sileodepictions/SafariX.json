@@ -1,22 +1,12 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/SafariX.png",
-"tintColor":"#5777B8",
+"tintColor":"#CCCC99",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
-{
-"class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
-},
-{
-"markdown":" SafariX\n\n- Nếu bạn cảm thấy việc duyệt web trên trình duyệt Safari mặc định của Apple thật tẻ nhạt, nếu bạn thấy bối rối khi tìm kiếm các nút chức năng (chẳng hạn như tìm kiếm một từ trên trang web nhưng lại phải vào phần chia sẻ), nếu bạn nhớ các tab ở chế độ dọc hoặc chỉ đơn giản là muốn trải nghiệm duyệt web linh hoạt hơn, thì đây chính là tinh chỉnh bạn phải có!\n\n- Với SafariX, bạn có thể tùy chỉnh Safari để phù hợp với mình hơn, và chắc chắn sẽ thay đổi cách bạn sử dụng trình duyệt này.\n\n Các tính năng chính:\n\n- Giao điện thanh Tab ở chế độ dọc cho IOS 15+.\n\n- Tùy chỉnh nút công cụ thanh điều hướng bên dưới.\n\n- Quản lý tệp tải xuống vào bất kỳ ứng dụng nào bạn muốn.\n\n- Hiển thị URL đầy đủ các trang web dang duyệt.\n\n- Di chuyển nhóm tab nhanh chóng dễ dàng hơn.\n\n- Và còn 1 số tính năng khác nữa..\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết.\n\n",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -37,44 +27,123 @@
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
+"markdown":" SafariX\n\n- Nếu bạn cảm thấy việc duyệt web trên trình duyệt Safari mặc định của Apple thật tẻ nhạt, nếu bạn thấy bối rối khi tìm kiếm các nút chức năng (chẳng hạn như tìm kiếm một từ trên trang web nhưng lại phải vào phần chia sẻ), nếu bạn nhớ các tab ở chế độ dọc hoặc chỉ đơn giản là muốn trải nghiệm duyệt web linh hoạt hơn, thì đây chính là tinh chỉnh bạn phải có!\n\n- Với SafariX, bạn có thể tùy chỉnh Safari để phù hợp với mình hơn, và chắc chắn sẽ thay đổi cách bạn sử dụng trình duyệt này.\n\n Các tính năng chính:\n\n- Giao điện thanh Tab ở chế độ dọc cho IOS 15+.\n\n- Tùy chỉnh nút công cụ thanh điều hướng bên dưới.\n\n- Quản lý tệp tải xuống vào bất kỳ ứng dụng nào bạn muốn.\n\n- Hiển thị URL đầy đủ các trang web dang duyệt.\n\n- Di chuyển nhóm tab nhanh chóng dễ dàng hơn.\n\n- Và còn 1 số tính năng khác nữa..\n\n- Xem hình ảnh bên dưới để biết thêm chi tiết.\n\n",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Tham gia nhóm"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin "
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"Oxkuj"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.9.9.1" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
+"class": "DepictionLabelView",
+"text": "Oxkuj",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"29/8/2025"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.7.11"
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "29/8/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.9.9.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "957 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 16.7.11",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -84,7 +153,7 @@
 "alignment":1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
 "tabname":"Nhật ký thay đổi",
@@ -97,7 +166,7 @@
 "class":"DepictionStackView"
 },
 {
-"tabname":"L.Hệ & Hỗ trợ",
+"tabname":"Liên hệ Hỗ trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
@@ -106,13 +175,18 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
-"action": "https://jtisvn.github.io/donate/donate.html"
+"title":"Ủng hộ tôi một ly cà phê",
+"action":"https://jtisvn.github.io/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
 "title": "Nhóm Telegram",
 "action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
 "class":"DepictionLabelView",

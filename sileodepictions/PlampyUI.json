@@ -4,19 +4,19 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"title":"Plampy UI Pro"
 },
 {
-"markdown":" Plampy UI Pro\n\n- Tuỳ biến Trung tâm điều khiển trên các thiết bị IOS 15/16\n\n- Thay đổi hiệu ứng các biểu tượng Mô-đun gốc\n\n- Thêm hình nền cho Trung tâm điều khiển \n\n- Xem hình ảnh bên dưới đẻ biết thêm chi tiet.\n\n",
+"markdown":"\n\n- Tuỳ biến Trung tâm điều khiển trên các thiết bị IOS 15/16\n\n- Thay đổi hiệu ứng các biểu tượng Mô-đun gốc\n\n- Thêm hình nền cho Trung tâm điều khiển",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
-{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
+{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -33,15 +33,6 @@
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Tham gia nhóm"
-},
-{
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - 24/7\n\nㅤ\n\n",
-"useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
 {
@@ -93,7 +84,7 @@
 "class":"DepictionStackView"
 },
 {
-"tabname":"L.Hệ & Hỗ trợ",
+"tabname":"Liên hệ Hỗ trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
@@ -102,7 +93,7 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
+"title": "Ủng hộ tôi một ly cà phê",
 "action": "https://jtisvn.github.io/donate/donate.html"
 },
 {
