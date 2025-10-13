@@ -1,10 +1,10 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#99FFFF",
+"tintColor":"#33FFFF",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
@@ -12,7 +12,7 @@
 "title":"Velvet 2"
 },
 {
-"markdown":"\n\n- Tùy chỉnh thônh báo hoàn toàn mới cho IOS 15 & 16.\n\n- Các chức năng gồm\n\n- Đổi nền màu thông báo.\n\n- Đổi màu viền và đổ bóng thông báo.\n\n- Đổi màu tiêu đề, nội dung ngày tháng.n\n- Ẩn biểu tượng ứng dụng.\n\n- Bán kính bo góc thông báo.\n\n- Làm tròn biểu tượng ứng dụng.\n\n- Không làm mờ thông báo khi chồng chéo.\n\n- Xem hình ảnh phía dưới để biết thêm chi tiết.\n\n",
+"markdown":"\n\n- Tùy chỉnh thônh báo hoàn toàn mới cho IOS 15 & 16.\n\n- Các chức năng gồm\n\n- Đổi nền màu thông báo.\n\n- Đổi màu viền và đổ bóng thông báo.\n\n- Đổi màu tiêu đề, nội dung ngày tháng.n\n- Ẩn biểu tượng ứng dụng.\n\n- Bán kính bo góc thông báo.\n\n- Làm tròn biểu tượng ứng dụng.\n\n- Không làm mờ thông báo khi chồng chéo.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
