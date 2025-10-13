@@ -16,8 +16,7 @@
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
-{
-"class":"DepictionSpacerView", "title":"Anh chụp màn hình" },
+{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
