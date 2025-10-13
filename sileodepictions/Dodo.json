@@ -63,9 +63,7 @@
 {
 "class":"DepictionTableButtonView",
 "title":"Liên hệ Hỗ trợ",
-"action":"https://jtisvn.github.io/donate/donate.html",
-"openExternal":"true",
-"tintColor":"#9933CC"
+"action":"https://jtisvn.github.io/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
