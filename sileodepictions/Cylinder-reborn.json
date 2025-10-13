@@ -1,51 +1,43 @@
 {
 "minVersion":"0.4",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
+"tintColor":"#00FF66",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"title":"Cylinder-reborn"
 },
 {
-"markdown":"# Tùy biến hiệu ứng cuộn biểu tượng trên màn hình chính!\n\n- Cylinder Reborn mang đến những hiệu ứng cuộn biểu tượng cực kỳ mượt mà cho iOS!\n\n- Với khả năng tùy chỉnh và kết hợp nhiều hiệu ứng, Cylinder Remade cho phép bạn tạo ra các kiểu chuyển động đa dạng và độc đáo cho biểu tượng trên thiết bị của mình.. \n\nㅤ\n\n",
+"markdown":"\n\n- Tùy biến hiệu ứng cuộn biểu tượng trên màn hình chính!\n\n- Cylinder Reborn mang đến những hiệu ứng cuộn biểu tượng cực kỳ mượt mà cho iOS!\n\n- Với khả năng tùy chỉnh và kết hợp nhiều hiệu ứng, Cylinder Remade cho phép bạn tạo ra các kiểu chuyển động đa dạng và độc đáo cho biểu tượng trên thiết bị của mình.. \n\nㅤ\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
 {
-"class":"DepictionSpacerView", "title":"Hình ảnh" },
+"class":"DepictionSpacerView", "title":"Anh chụp màn hình" },
 {
-    "class":"DepictionScreenshotsView",
-    "screenshots":[
-    {
-    "url":"https://jtisvn.github.io/infodeb/Cylinder-reborn/Screenshots/cylinder-reborn1.jpg",
-    "accessibilityText":"Screenshot"
-    },
-    {
-    "url":"https://jtisvn.github.io/infodeb/Cylinder-reborn/Screenshots/cylinder-reborn2.jpg",
-    "accessibilityText":"Screenshot"
-    },
-    {"url":"https://jtisvn.github.io/infodeb/Cylinder-reborn/Screenshots/cylinder-reborn3.jpg",
-    "accessibilityText":"Screenshot"
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+ "url":"https://jtisvn.github.io/infodeb/Cylinder-reborn/Screenshots/cylinder-reborn1.jpg",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Cylinder-reborn/Screenshots/cylinder-reborn2.jpg",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Cylinder-reborn/Screenshots/cylinder-reborn3.jpg",
+"accessibilityText":"Screenshot"
 }
 ],
 "itemCornerRadius":0,
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Tham gia nhóm "
-},
-{
-"markdown":"[**Telegram**](https://t.me/jailbreaktrolliossupport) - Join Telegram\n\n\n",
-"useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
 {
@@ -53,7 +45,7 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin"
+"title":"Thông tin chi tiết"
 },
 {
 "class":"DepictionTableTextView",
@@ -76,6 +68,21 @@
 "text":"iOS 15 - 16.5"
 },
 {
+"class":"DepictionTableButtonView",
+"title":"Liên hệ Hỗ trợ",
+"action":"https://jtisvn.github.io/donate/donate.html"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
 "class":"DepictionLabelView",
 "text":"Copyright © 2025 by JTISVN",
 "textColor":"#999999",
@@ -90,7 +97,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### Phiên bản 1.10\n\nHiệu ứng cuộn mượt mà hơn."
+"markdown":"#### Phiên bản 1.10\n\n- Hiệu ứng cuộn mượt mà hơn.\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 },
 {
 "class":"DepictionLabelView",

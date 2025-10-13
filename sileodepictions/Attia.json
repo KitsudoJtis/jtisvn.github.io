@@ -8,16 +8,6 @@
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionHeaderView",
-"title":"Atria"
-},
-{
-"markdown":"\n\n- Mang đến một hệ thống cấu hình bố cục màn hình chính linh động cho người dùng iOS\n\n- Tính năng:\n\n- Bố cục và điểu chỉnh biều tượng cho mỗi trang.\n\n- Tự động định vị và tương thích widget.\n\n- Tự động lưu trạng thái biểu tượng.\n\n- Tùy chỉnh cột/hàng và tỷ lệ biểu tượng\n\n- Tùy chỉnh tỷ lệ biểu tượng widget\n\n- Tùy chỉnh lề trang (trái, phải, trên, dưới).\n\n- Tùy chỉnh khoảng cách trang và widget.\n\n- Bật/Tắt Thư viện Ứng dụng\n\n- Ẩn huy hiệu thông báo, nhãn, dấu trang và làm mờ biểu tượng thư mục\n\n- Hiển thị một lớp làm mờ nền phía sau biểu tượng\n\n- Tuỳ chỉnh hiển thị nhãn trang và tin nhắn Chào Mừng.n\n- Tùy chỉnh vị trí dấu chấm trang\n\n- Xuất và nhập các chuỗi cài đặt đặt trước\n\n- Và còn nhiều tùy chọn khác nữa.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
-{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
@@ -41,35 +31,123 @@
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
+"markdown":"Atria\n\n- Mang đến một hệ thống cấu hình bố cục màn hình chính linh động cho người dùng iOS\n\n- Tính năng:\n\n- Bố cục và điểu chỉnh biều tượng cho mỗi trang.\n\n- Tự động định vị và tương thích widget.\n\n- Tự động lưu trạng thái biểu tượng.\n\n- Tùy chỉnh cột/hàng và tỷ lệ biểu tượng\n\n- Tùy chỉnh tỷ lệ biểu tượng widget\n\n- Tùy chỉnh lề trang (trái, phải, trên, dưới).\n\n- Tùy chỉnh khoảng cách trang và widget.\n\n- Bật/Tắt Thư viện Ứng dụng\n\n- Ẩn huy hiệu thông báo, nhãn, dấu trang và làm mờ biểu tượng thư mục\n\n- Hiển thị một lớp làm mờ nền phía sau biểu tượng\n\n- Tuỳ chỉnh hiển thị nhãn trang và tin nhắn Chào Mừng.n\n- Tùy chỉnh vị trí dấu chấm trang\n\n- Xuất và nhập các chuỗi cài đặt đặt trước\n\n- Và còn nhiều tùy chọn khác nữa.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionSpacerView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"ren7995"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.4.1" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"14/8/2025"
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.5"
+"class": "DepictionLabelView",
+"text": "Ren7995",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15/3/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.4.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "826.6 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 16.5",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -79,7 +157,7 @@
 "alignment":1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
 "tabname":"Nhật ký thay đổi",

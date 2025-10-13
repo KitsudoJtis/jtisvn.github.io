@@ -4,19 +4,9 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
-{
-"class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
-},
-{
-"markdown":" Doodle\n\n- Mở khóa thiết bị bằng cách sử dụng hình vẽ lên màn hình.\n\n- Bạn đã chán ngán với cách mở khóa điện thoại thông thường? Doodle sẽ thay đổi hoàn toàn trải nghiệm của bạn!\n\n- Tinh chỉnh này cho phép bạn vẽ lên màn hình để mở khóa thiết bị. Thay vì nhập mật khẩu hay dùng Touch ID, bạn có thể tự tạo một hình vẽ độc đáo mang đến trải nghiệm tùy chỉnh mở khóa theo phong cách riêng!\n\n- Đặc biệt, bạn còn có thể tùy chỉnh mọi thứ: từ nét vẽ, màu sắc, cho đến hiệu ứng làm mờ màn hình.\n\n- Chi tiết xem hình ảnh bên dưới.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -45,44 +35,123 @@
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
+"markdown":" Doodle\n\n- Mở khóa thiết bị bằng cách sử dụng hình vẽ lên màn hình.\n\n- Bạn đã chán ngán với cách mở khóa điện thoại thông thường? Doodle sẽ thay đổi hoàn toàn trải nghiệm của bạn!\n\n- Tinh chỉnh này cho phép bạn vẽ lên màn hình để mở khóa thiết bị. Thay vì nhập mật khẩu hay dùng Touch ID, bạn có thể tự tạo một hình vẽ độc đáo mang đến trải nghiệm tùy chỉnh mở khóa theo phong cách riêng!\n\n- Đặc biệt, bạn còn có thể tùy chỉnh mọi thứ: từ nét vẽ, màu sắc, cho đến hiệu ứng làm mờ màn hình.\n\n- Chi tiết xem hình ảnh bên dưới.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Liên hệ tôi"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin "
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"Ethan Whited"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.2k" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
+"class": "DepictionLabelView",
+"text": "Ethan Whiter",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"5/9/2025"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 14.0 đến 16.7.11"
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "10/2/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.2k",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "3.9 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14.0 - 16.7.11",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -92,7 +161,7 @@
 "alignment":1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
 "tabname":"Nhật ký thay đổi",
@@ -114,8 +183,8 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
-"action": "https://jtisvn.github.io/donate/donate.html"
+"title":"Ủng hộ tôi một ly cà phê",
+"action":"https://jtisvn.github.io/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",

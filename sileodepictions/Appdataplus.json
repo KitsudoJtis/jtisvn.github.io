@@ -8,16 +8,6 @@
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionHeaderView",
-"title":"Appdata Plus"
-},
-{
-"markdown":"\n\n- Trình quản lý xem và truy cập dữ liệu ứng dụng của bạn bằng cách vuốt lên biểu tượng từ màn hình chính\n\n- Chức năng gồm có:\n\n- Hạ cấp và chỉnh sửa tên ứng dụng.\n\n- Xem phiên bản và sao chép Bundle ID ứng dụng.\n\n- Kiểm tra kích thước, dữ liệu và bộ đệm ứng dụng.\n\n- Đặt lại quyền, xoá dữ liệu và bộ nhớ đệm ứng dụng.\n\n- Truy cập nhanh các nhóm gọi ứng dụng và vùng chứa úng dụng.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
-{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
@@ -33,35 +23,123 @@
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
+"markdown":"Appdata Plus\n\n- Trình quản lý xem và truy cập dữ liệu ứng dụng của bạn bằng cách vuốt lên biểu tượng từ màn hình chính\n\n- Chức năng gồm có:\n\n- Hạ cấp và chỉnh sửa tên ứng dụng.\n\n- Xem phiên bản và sao chép Bundle ID ứng dụng.\n\n- Kiểm tra kích thước, dữ liệu và bộ đệm ứng dụng.\n\n- Đặt lại quyền, xoá dữ liệu và bộ nhớ đệm ứng dụng.\n\n- Truy cập nhanh các nhóm gọi ứng dụng và vùng chứa úng dụng.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionSpacerView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"Fouad Raheb & Netskao"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.4.0-p" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"7/7/2025"
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.6.1"
+"class": "DepictionLabelView",
+"text": "Fouad Raheb & Netskao",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "7/7/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.1.0-p",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "13 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 16.6.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -71,7 +149,7 @@
 "alignment":1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
 "tabname":"Nhật ký thay đổi",
