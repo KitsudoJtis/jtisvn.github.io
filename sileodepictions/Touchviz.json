@@ -1,22 +1,12 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
+"tintColor":"#9900FF",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
-{
-"class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
-},
-{
-"markdown":"Tinh chỉnh tốt nhất hiển thị các hiệu ứng chỉ báo trực quan khi tương tác cảm ưng lên màn hình.\n\n+ Hiệu ứng hoạt ảnh\n\n+ Không bị chặn hoặc trễ cảm ứng\n\n+ Hỗ trợ đa điểm và IPad\n\n+ Tự động ẩn khi ở chế độ 'Reachability' (chế độ thu nhỏ màn hình)\n\n+ Hỗ trợ chuyển đổi qua Trung tâm điều khiển (tùy chọn, phụ thuộc vào việc có CC Support hay không).\n\n- Xem hình ảnh bên dưới để biết chi tiết.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -41,44 +31,123 @@
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
+"markdown":"\n\n- Tinh chỉnh tốt nhất hiển thị các hiệu ứng chỉ báo trực quan khi tương tác cảm ưng lên màn hình.\n\n+ Hiệu ứng hoạt ảnh\n\n+ Không bị chặn hoặc trễ cảm ứng\n\n+ Hỗ trợ đa điểm và IPad\n\n+ Tự động ẩn khi ở chế độ 'Reachability' (chế độ thu nhỏ màn hình)\n\n+ Hỗ trợ chuyển đổi qua Trung tâm điều khiển (tùy chọn, phụ thuộc vào việc có CC Support hay không).",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Liên hệ tôi"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin "
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Nhà phát triển",
-"text":"82flex"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"4.0.1" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
+"class": "DepictionLabelView",
+"text": "82flex",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"19/5/2025"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.6.1"
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "19/5/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "4.0.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "4 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 16.6.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -88,9 +157,8 @@
 "alignment":1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
-{
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
