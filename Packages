@@ -4197,18 +4197,18 @@ Icon: https://jtisvn.github.io/sectionIcons/Recorddit.png
 Package: com.jtis.rophim
 Architecture: iphoneos-arm64e
 Version: 0.0.1-5+debug
-Section: Tweaks
+Section: Mở khoá ứng dụng
 Maintainer: LK
 Installed-Size: 80
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.rophim_0.0.1-5+debug_iphoneos-arm64e.deb
-Size: 8076
-MD5sum: de38dfb8cbd4f28c87a84b32980de702
-SHA1: f7bc4f49a6a36e437f450b2c7230268be2fdf9c1
-SHA256: 288373841c038547e59da4443a683d6099578dac0ab51614a3aa3602bed34c7e
-SHA512: 21ab484bd39dcffb50dece4f16fe8e66a6e1753fd9a8ac59d35a741f6363d28a3e3cbbd20ca0ff9597775396d5e6d768a87906b07168cd77945a3fb3907e4e0f
+Size: 8096
+MD5sum: 4ad5fa472645f35e37f2faffb00c0b44
+SHA1: 7cbda7a8e6db11eb73f890eace87eaea21a42e60
+SHA256: 8997c40994630f16b47e9ebcc968a95920ab45f667116086aca9774d171ab6d8
+SHA512: 96a611845943ef00ddc01f87018ca943f7cc3146d7b3d9f6b7352c7574fcea48f8ff1170eb3080d0c23bc886471607d2d66e63bc0380e2e8ef0bcd54c91f9311
 Description: An awesome MobileSubstrate tweak!
-Name: Rophim
+Name: Rophim RoX
 Author: LK
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Rophim.json
 Icon: https:/jtisvn.github.io/sectionIcons/Rophim.png
