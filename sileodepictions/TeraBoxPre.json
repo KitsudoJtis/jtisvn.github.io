@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#00FF66",
+"tintColor":"#009933",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -9,10 +9,10 @@
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"SmallBoard"
+"title":"TeraBox Premium"
 },
 {
-"markdown":"Thu nhỏ khoảng cách độ cao bàn phím khi sử dụng fake cử chỉ IPhone X.",
+"markdown":"\n\n- Kích hoạt gói Premium cho ứng dụng TeraBox\n\n- Hỗ trợ phiên bản mới nhất.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,11 +21,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Smallboard/Screenshots/1.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/Smallboard/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/TeraBoxPre/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -40,14 +36,14 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin "
+"title":"Thông tin chi tiết"
 },
 {
 "class":"DepictionTableTextView",
-"title":"Tasc giả",
-"text":"iCraze"
+"title":"Tác giả",
+"text":"strejda603"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.0" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -56,12 +52,12 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"16/8/2025"
+"text":"15/10/2025"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.7.10"
+"text":"iOS 14.0 đến 17.0"
 },
 {
 "class":"DepictionSpacerView"

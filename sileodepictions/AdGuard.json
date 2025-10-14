@@ -12,7 +12,7 @@
 "title":"Adguard Pro"
 },
 {
-"markdown":"\n\n- Kích hoạt gói Prenium cho ứng dụng AdGurad\n\n- Hỗ trợ phiên bản mới nhất..\n\n",
+"markdown":"\n\n- Kích hoạt gói Premium cho ứng dụng AdGurad\n\n- Hỗ trợ phiên bản mới nhất.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -65,9 +65,7 @@
 {
 "class":"DepictionTableButtonView",
 "title":"Liên hệ Hỗ trợ",
-"action":"https://jtisvn.github.io/donate/donate.html",
-"openExternal":"true",
-"tintColor":"#009933"
+"action":"https://jtisvn.github.io/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",

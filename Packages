@@ -4494,10 +4494,10 @@ Installed-Size: 152
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.smallboard_1.1_iphoneos-arm64.deb
 Size: 3712
-MD5sum: 825e1665135cef8c12d5f2bd87b81af4
-SHA1: 97bde11c32bd95b2f769767cb78e72ad89486013
-SHA256: a3750c2f0cb67a824ad2ed449ffd3f7cc84c3faf7a42b5ba2c669e1ac15b4e11
-SHA512: ea76d1a91f0fb4935c0686c784ef518dc4710506f02a864aa396b5b861ddafc7c637a90e5b99a2a8e2660b418ea617b9ea0b11f233102abb47f35cccf9ac0fe7
+MD5sum: e050085785bc24edcf38debbd49857c1
+SHA1: 38cfff3a673f42f9b7fe6a288cea6a8023614859
+SHA256: a5a6b9988c9bd75fd2dfa2f56841db0f403741decfd310dfa2e5b523d2435faa
+SHA512: 2c5a109b3efd5b6b07298496bed93a5df083a0eaa5123f8f716a0b6c7de4b7f1c05b69a6364bdf4bfa3ccb8877451e7cf2bf89775da8cda8b925bc0fa8bcfa5d
 Description: Thu nhỏ khoảng cách bàn phím khi sử dụng fake cử chỉ IPhone X!
 Name: SmallBoard (Rootless)
 Icon: https://jtisvn.github.io/sectionIcons/SmallBoard.png
@@ -4513,11 +4513,11 @@ Installed-Size: 152
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.smallboard_1.1_iphoneos-arm64e.deb
-Size: 3924
-MD5sum: 8c030e51b44d66b0824ff2b6ca037270
-SHA1: 155387f01ecdbf36af5d720578ccc6d5d900f514
-SHA256: 99b613bcddc0e7e52e281acab37e1bb8cbd69932a2c0bd5d2a3e433abac88c14
-SHA512: 7445a40a9f8c6cefadee113903eb728e76bf9990a7b63ad4613ef4f7a3de8d3635c543504c6cfccc5373a8756601cb663260a3719f8374f9522fa90db26e200c
+Size: 3920
+MD5sum: f888421d3f18ce2c0f1f5e8c5f7bcbb2
+SHA1: 483741e44b5f487462cb9b5e4eae93f6a9740fdb
+SHA256: 3f40e09ac4c07216d5333f940454940f8170376e68f331d8b6e4bbda8e900f4e
+SHA512: 6636fa4fa49be13cc53559675d3b9f074e226f5801232c9d068fb4f9867dc5ed984c5830ce4fb21804f3fc09941277c289285cc7b5455852c7176a30bdc5c48f
 Description: Thu nhỏ khoảng cách bàn phím khi sử dụng fake cử chỉ IPhone X!
 Name: SmallBoard (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/SmallBoard.png
