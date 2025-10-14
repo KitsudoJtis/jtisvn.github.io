@@ -4194,6 +4194,25 @@ Name: RecordDot (Roothide)
 Author: Night wind
 Icon: https://jtisvn.github.io/sectionIcons/Recorddit.png
 
+Package: com.jtis.rophim
+Architecture: iphoneos-arm64e
+Version: 0.0.1-5+debug
+Section: Tweaks
+Maintainer: LK
+Installed-Size: 80
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.rophim_0.0.1-5+debug_iphoneos-arm64e.deb
+Size: 8076
+MD5sum: de38dfb8cbd4f28c87a84b32980de702
+SHA1: f7bc4f49a6a36e437f450b2c7230268be2fdf9c1
+SHA256: 288373841c038547e59da4443a683d6099578dac0ab51614a3aa3602bed34c7e
+SHA512: 21ab484bd39dcffb50dece4f16fe8e66a6e1753fd9a8ac59d35a741f6363d28a3e3cbbd20ca0ff9597775396d5e6d768a87906b07168cd77945a3fb3907e4e0f
+Description: An awesome MobileSubstrate tweak!
+Name: Rophim
+Author: LK
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Rophim.json
+Icon: https:/jtisvn.github.io/sectionIcons/Rophim.png
+
 Package: com.jtis.safeccmodules
 Architecture: iphoneos-arm64e
 Version: 1.5-2
