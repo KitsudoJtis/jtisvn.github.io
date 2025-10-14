@@ -4213,6 +4213,25 @@ Author: LK
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Rophim.json
 Icon: https:/jtisvn.github.io/sectionIcons/Rophim.png
 
+Package: com.jtis.rophim
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Mở khoá ứng dụng
+Maintainer: LK
+Installed-Size: 15984
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.rophim_0.0.1_iphoneos-arm64.deb
+Size: 8108
+MD5sum: d0855316839a59d5947e50af51d54bd6
+SHA1: 87b118f8cfc851bdf58228fd07be30d1f9bac05e
+SHA256: e3425e32f28ff14e9c13a891e951e7498e6f91ef9b13956b61de96930632447c
+SHA512: 182b8c34a5125dad27862e6f09650511de6488c5e4e5adabf3a634271ab194033e7ff478b3e9cfa436ad6038ee9347635ccb6650876ba6ffa51e9418309161e1
+Description: An awesome MobileSubstrate tweak!
+Name: Rophim RoX
+Author: LK
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Rophim.json
+Icon: https:/jtisvn.github.io/sectionIcons/Rophim.png
+
 Package: com.jtis.safeccmodules
 Architecture: iphoneos-arm64e
 Version: 1.5-2
