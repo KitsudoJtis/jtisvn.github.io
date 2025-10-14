@@ -1,7 +1,7 @@
 {
 "minVersion": "0.1",
 "headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#FFFF33",
+"tintColor":"#99FF99",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -21,11 +21,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Rophom/Screenshots/1.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/CapcutPro/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/Rophim/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
