@@ -9,10 +9,10 @@
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"TeraBox Premium"
+"title":"GitHub Pro"
 },
 {
-"markdown":"\n\n- Kích hoạt gói Premium cho ứng dụng TeraBox\n\n- Hỗ trợ phiên bản mới nhất.",
+"markdown":"\n\n- Kích hoạt gói Pro cho ứng dụng GitHub\n\n- Hỗ trợ phiên bản mới nhất.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,7 +21,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/TeraBoxPre/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/GitHubPro/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -41,7 +41,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"strejda603"
+"text":"Dell"
 },
 { "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.0" },
 {
