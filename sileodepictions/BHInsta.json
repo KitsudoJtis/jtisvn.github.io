@@ -10,15 +10,15 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Axon/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/BHInsta/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Axon/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/BHInsta/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Axon/Screenshots/3.png",
+"url":"https://jtisvn.github.io/infodeb/BHInsta/Screenshots/3.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -26,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Axon\n\n- Xem và gom nhóm thông báo trên màn hình khoá.\n\n- Chức năng:\n\n- Gom thông báo: Tự động nhóm tất cả thông báo trên màn hình khoá theo từng biểu tượng ứng dụng\n\n- Tương tác nhanh: Chạm vào biểu tượng để xem thông báo của ứng dụng đó, chạm lần nữa để thu gọn. Hoặc nhấn giữ để lọc (xoá) nhanh thông báo.\n\n- Tuỳ chỉnh: Cho phép điều chỉnh vị trí và giao diện của các biểu tượng phù hợp theo sở thích của bạn.",
+"markdown":"BHInsta\n\n- Thêm nhiều chức năng tiện ích cho ứng dụng Instagram.\n\n- Chức năng:\n\n- Ẩn quảng cáo\n\n- Ẩn đề xuất bài viết\n\n- Hiển thị số lượt thích\n\n- Xác nhận lượt thích\n\n- Sao chép mô tả\n\n- Tải video\n\n- Lưu ảnh đại diện\n\n- Giữ tin nhắn đã xóa\n\n- Ẩn trạng thái hoạt động\n\n- Loại bỏ cảnh báo chụp màn hình\b\n- Phát lại story không giới hạn\n\n- Ẩn trạng thái đã xem story\n\n- Khóa ứng dụng.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -61,7 +61,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Nepeta & Baw Appie",
+"text": "Bandar Alruwaili",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -87,7 +87,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "4/9/2025",
+"text": "16/10/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.5.5",
+"text": "1.2-3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -118,7 +118,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "65 KB",
+"text": "78.8 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.5.5\n\n- Sửa lỗi và tối ưu hoá thông báo\n\n- Thêm ngôn nggữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.2-3\n\n- Sửa lỗi\n\n- Thêm ngôn nggữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
