@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#9933FF",
+"tintColor":"#87CEFF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -43,7 +43,7 @@
 "title":"Tác giả",
 "text":"Dell"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.0" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"0.0.1" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",

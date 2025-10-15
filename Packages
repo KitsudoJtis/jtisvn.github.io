@@ -2940,6 +2940,45 @@ Description: Mang thao tác vuốt của iPhone X lên các dòng iPhone đời 
 Name: GesturesXV (Roothide)
 Author: Ethan Whited
 
+Package: com.jtis.githubpro
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Mở khoá ứng dụng
+Maintainer: Dell <dvq273665536@gmail.com>
+Installed-Size: 2932
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.githubpro_0.0.1_iphoneos-arm64.deb
+Size: 933360
+MD5sum: 95e8586ffffc4cfb67101a1cc546b16d
+SHA1: c1a78b1c152c9d4ec6949a9241baaf075c43e626
+SHA256: f27b6fd6b99dfa70178059dc64ae1bb8cc9b5b93ecf725895e74becb1250d0d2
+SHA512: 6a23160d9da8a35901afc3fb7639578a1711259c1b140b4dc0139e2a585de3719b2fee7ccd6ae96f563c8bc1e506b00d7807c2a0012eb2df80e3df656d2dcc2a
+Description: Unlock GiHub Pro
+Name: GitHub Pro
+Author: Dell <dvq273665536@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/GitHubPro.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/GitHubPro.json
+
+Package: com.jtis.githubpro
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Mở khoá ứng dụng
+Maintainer: Dell <dvq273665536@gmail.com>
+Installed-Size: 2932
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.githubpro_0.0.1_iphoneos-arm64e.deb
+Size: 1923022
+MD5sum: 86c9b27136ea838a946502f80722c0b0
+SHA1: 0dbd658b1e13bfec379b77320ae3844e663a9523
+SHA256: ab8f621c11fddd5af24087456eadfa704c26ea621ce96d0031f946e7f57446fb
+SHA512: 46c7c1bc98bf765ea5bfc05090f131a82b24aa901ceda4ddb8d6d1fc4ca2c859761a975d5a849bea5855bf6c93e26f7692ac94d135f2c649b7d7fe881077b0e0
+Description: Unlock GiHub Pro
+Name: GitHub Pro
+Author: Dell <dvq273665536@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/GitHubPro.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/GitHubPro.json
+
 Package: com.jtis.glcolor
 Architecture: iphoneos-arm64
 Version: 1..0
@@ -4792,6 +4831,47 @@ Name: TG Screenshot Freedom
 Author: Unknown 佚名
 icon: https://jtisvn.github.io/sectionIcons/TeleSF.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TeleSF.json
+
+Package: com.jtis.teraboxpremium
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.teraboxpremium_1.0.0_iphoneos-arm64.deb
+Size: 6096
+MD5sum: 1893427210abd8bdddf6d1d7580a4c31
+SHA1: a181c9d7da5622edac9d21e919514df0895a809c
+SHA256: d07658b07655fd4051a045aa4ba73f59c79ac14bfe3786a7bb053172be3034e9
+SHA512: ce9b6742bb0b0bfd00ba4f2baa1239f4f63be403ffd116ec05c9c3b739bb6ebefa32b503af13d0218f1e8fd8d5175d7861e9aa0d032f10451e3b313f74ae0d49
+Homepage: https://repo.danielpitra.cz
+Description: Enables Premium features.
+Name: TeraBox Premium
+Author: strejda603 <strejda603@centrum.cz>
+Icon: https://jtisvn.github.io/sectionIcons/TeraBoxPre.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TeraBoxPre.json
+
+Package: com.jtis.teraboxpremium
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 280
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.teraboxpremium_1.0.0_iphoneos-arm64e.deb
+Size: 7898
+MD5sum: 3b947b3d4122f142c39b90c2ae3820b1
+SHA1: 6924d01bfb256c6afe0456facdae22928e19e998
+SHA256: d289b7b2f9f6cfafdb69a6a846cb02438a2d4706350ac167ddb4882299a58258
+SHA512: b4b854215e8a57cd7aa19d272b5e7a591f93c199aa8a5278528aad5fcd007399979a481b574cc242d142ddf8d0561d182a70c3a8ce35892564db6ac2989e5ec3
+Homepage: https://repo.danielpitra.cz
+Description: Enables Premium features.
+Name: TeraBox Premium
+Author: strejda603 <strejda603@centrum.cz>
+Icon: https://jtisvn.github.io/sectionIcons/TeraBoxPre.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TeraBoxPre.json
 
 Package: com.jtis.tgextra
 Architecture: iphoneos-arm64e
