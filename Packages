@@ -1566,6 +1566,45 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/BetterCC.json
 Icon: https://jtisvn.github.io/sectionIcons/BetterCC.png
 Author: Miguelaka95 <miguelaka95@gmail.com>
 
+Package: com.jtis.bhinsta
+Architecture: iphoneos-arm64
+Version: 1.2-3+debug
+Section: Tweaks
+Maintainer: Bandar Alruwaili
+Installed-Size: 724
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/com.jtis.bhinsta_1.2-3+debug_iphoneos-arm64.deb
+Size: 101984
+MD5sum: 667f2b2c4f3fb7ed7c25abde2ea7f77f
+SHA1: e7c14c211f37645d9c58e774f5e6e4f9fa5a1f75
+SHA256: 019da33f3b9f6e7f3d71b33550c38071e75fcf8da6bacb31bf5fed828d707e6e
+SHA512: c56438bf994555b86c66706be2f8f5b3d14dc71d7df468f5e440cbce00b03216db7a8788c5c844b0b5ac4a0b4853be51e2cbab4d7fc0e6aa5cc91c465cf86a5a
+Description: An awesome tweak for Instagram!
+Name: BHInsta (Rootless)
+Author: Bandar Alruwaili
+Icon: https://jtisvn.github.io/sectionIcons/BHInsta.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BHInsta.json
+
+Package: com.jtis.bhinsta
+Architecture: iphoneos-arm64e
+Version: 1.2-3+debug
+Section: Tweaks
+Maintainer: Bandar Alruwaili
+Installed-Size: 724
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/com.jtis.bhinsta_1.2-3+debug_iphoneos-arm64e.deb
+Size: 98596
+MD5sum: 7383508cc2d67781b9788647b6245813
+SHA1: 1695fd105b201581aae2ada140bb7b8a1df005d9
+SHA256: 45ee22420b5068a9664feb33580ba7568b148065589d4c67bf91398512b482ef
+SHA512: e05a4e5d5d95b07e135c43c3a39c7b4c4918a8094ac693d6981e6bbe97549c0ab85a9df68716fee81b787a860352b2f85e2c1385572e4be7a69335dc3068ad95
+Description: An awesome tweak for Instagram!
+Name: BHInsta (Roothide)
+Author: Bandar Alruwaili
+Icon: https://jtisvn.github.io/sectionIcons/BHInsta.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BHInsta.json
+
 Package: com.jtis.bhtiktokplus
 Architecture: iphoneos-arm64e
 Version: 2.3.1
@@ -4562,6 +4601,49 @@ Name: SmallBoard (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/SmallBoard.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Smallboard.json
 Author: iCraze
+
+Package: com.jtis.smpro
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.smpro_1.0.0_iphoneos-arm64.deb
+Size: 14536
+MD5sum: b31a9558be9d139deb11a38111788562
+SHA1: 70ad82153fdbbd3ad5ddb9a0ca4d16c96dd9f013
+SHA256: 3da34b17329bd8d6637d3eded554311c839d670bcd80dfd79f6df755463726ef
+SHA512: 1f6b3cc565d681a26ea436f7ae42e10867aa6b8a219f99fbe901796d1d8368e186dc9c81d9466493bcc4a5d1d3cfd3c4e9f2e65b0f6a46e24a87cd07f98f9589
+Homepage: https://jtisvn.github.io
+Description: smpro Pro Features Unlock
+Name: Smpro Unlock
+Author: Kitsudo & dothanh1110
+Depiction: https://jtisvn.github.io/depictions/SmProVVkp.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SmProVip.json
+Icon: https://jtisvn.github.io/sectionIcons/SmProVip.png
+
+Package: com.jtis.smpro
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 92
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.smpro_1.0.0_iphoneos-arm64e.deb
+Size: 19600
+MD5sum: 71598ee93c39e0bc8f69d69004ea42e8
+SHA1: 31e12c94562d46be03e2d6a19803f449604b2c12
+SHA256: 8e83a9ef18252de99d2f6ca410575b00fdbecf35d8e046829afd050392a5e989
+SHA512: 7e35e7a735d91684add448bd7361137116f56019137fc238bfd5a996ce50cd319a349de7f0737f26dc40732662ed2807a7556809b926b5abd9041dd3e47e7218
+Homepage: https://jtisvn.github.io
+Description: smpro Pro Features Unlock
+Name: Smpro Unlock
+Author: Kitsudo & dothanh1110
+Depiction: https://jtisvn.github.io/depictions/SmProVVkp.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SmProVip.json
+Icon: https://jtisvn.github.io/sectionIcons/SmProVip.png
 
 Package: com.jtis.snapper3
 Architecture: iphoneos-arm64e
