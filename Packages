@@ -6546,6 +6546,26 @@ Icon: https://siieo.github.io/sileodepictions/MagSafe/icon.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/MagSafe.json
 Author: Tomasz Poliszuk
 
+Package: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Architecture: iphoneos-arm64e
+Version: 4.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.tomaszpoliszuk.lockscreenbatterymagsafe_4.0_iphoneos-arm64e.deb
+Size: 4964
+MD5sum: e5ef391458bc00d30d0b4cde604aff72
+SHA1: d4df5e118f39bf8ec02c604e2300b8bfad17fee8
+SHA256: 302de36acf39e6614dd1e6b0615e8386bd7928c7b67cb595010dfd96f0104ae6
+SHA512: c44dd51748beb996e4fe7a8378907c0a5b0871aa7bfca34cea5c2d07333fb6f01e36fa04cab7cd80599bbcc992496fce09e46f406ef02e738e90b06331063c9c
+Description: Bật chế độ xem sạc MagSafe gốc trên màn hình khóa khi kết nối thiết bị với nguồn điện.
+Name: MagSafe Enabler (Roothide)
+Icon: https://siieo.github.io/sileodepictions/MagSafe/icon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/MagSafe.json
+Author: Tomasz Poliszuk
+
 Package: com.udevs.dockx
 Architecture: iphoneos-arm64e
 Version: 2.6.2
