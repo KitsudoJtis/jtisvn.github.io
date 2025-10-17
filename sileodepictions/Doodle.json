@@ -35,7 +35,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":" Doodle\n\n- Mở khóa thiết bị bằng cách sử dụng hình vẽ lên màn hình.\n\n- Bạn đã chán ngán với cách mở khóa điện thoại thông thường? Doodle sẽ thay đổi hoàn toàn trải nghiệm của bạn!\n\n- Tinh chỉnh này cho phép bạn vẽ lên màn hình để mở khóa thiết bị. Thay vì nhập mật khẩu hay dùng Touch ID, bạn có thể tự tạo một hình vẽ độc đáo mang đến trải nghiệm tùy chỉnh mở khóa theo phong cách riêng!\n\n- Đặc biệt, bạn còn có thể tùy chỉnh mọi thứ: từ nét vẽ, màu sắc, cho đến hiệu ứng làm mờ màn hình.\n\n- Chi tiết xem hình ảnh bên dưới.",
+"markdown":" Doodle\n\n- Mở khóa thiết bị bằng cách sử dụng hình vẽ lên màn hình.\n\n- Bạn đã chán ngán với cách mở khóa điện thoại thông thường? Doodle sẽ thay đổi hoàn toàn trải nghiệm của bạn!\n\n- Tinh chỉnh này cho phép bạn vẽ lên màn hình để mở khóa thiết bị. Thay vì nhập mật khẩu hay dùng Touch ID, bạn có thể tự tạo một hình vẽ độc đáo mang đến trải nghiệm tùy chỉnh mở khóa theo phong cách riêng!\n\n- Đặc biệt, bạn còn có thể tùy chỉnh mọi thứ: từ nét vẽ, màu sắc, cho đến hiệu ứng làm mờ màn hình.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

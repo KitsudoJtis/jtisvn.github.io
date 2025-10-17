@@ -6527,6 +6527,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/SnowBoard.json
 Tags: compatible_min::ios15.0, compatible_max::ios17.3
 Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
 
+Package: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Architecture: iphoneos-arm64
+Version: 4.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.tomaszpoliszuk.lockscreenbatterymagsafe_4.0_iphoneos-arm64.deb
+Size: 4764
+MD5sum: 2a957d03947dd848430cf48565a8393c
+SHA1: f5522e6b3b90651349e71898f552e5a26754200a
+SHA256: 21596bcc4cbfdebd037c0fea96cb6e12472869a063eca994fd5faa5d6f064c80
+SHA512: 814a7fe703a34155fd9107b2afc5673d409389e517c785562b50c1cae530e74227f73b284228f2f95823dcef6613ebcb72d90cce3bf719f1fb5a339c2d89941d
+Description: Bật chế độ xem sạc MagSafe gốc trên màn hình khóa khi kết nối thiết bị với nguồn điện.
+Name: MagSafe Enabler (Rootless)
+Icon: https://siieo.github.io/sileodepictions/MagSafe/icon.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/MagSafe.json
+Author: Tomasz Poliszuk
+
 Package: com.udevs.dockx
 Architecture: iphoneos-arm64e
 Version: 2.6.2

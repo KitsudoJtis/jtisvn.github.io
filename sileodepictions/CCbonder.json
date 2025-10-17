@@ -57,7 +57,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 16.0 đến 16.7.11"
+"text":"iOS 15.x dến 16.x"
 },
 {
 "class":"DepictionLabelView",
