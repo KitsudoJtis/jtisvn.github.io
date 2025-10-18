@@ -3568,6 +3568,55 @@ Name: Little12 (Rootless)
 Author: Ryan Nair
 Icon: https://jtisvn.github.io/sectionIcons/Little12.png
 
+Package: com.jtis.lockplayer
+Architecture: iphoneos-arm64
+Version: 3.22
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1464
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.jtis.lockplayer_3.22_iphoneos-arm64.deb
+Size: 465268
+MD5sum: 5bec36b7d603102c8b8a3b3e646bccc5
+SHA1: f789485583edb1e85508347aa687b06ad852558c
+SHA256: f5ecbb0d5386b53d92f6b57f0ea82f2aed5f8a7370879e274531103f81bed185
+SHA512: ee2abccf169dce9e0a996a81da706229ee9da4798606902a08b024598d71f888d0ccd40a63dfdcb6105ef671e95e533bc5547777c1caf598ad4bfab594486645
+Description: LockPlayer biến trình phát nhạc trên màn hình khoá của bạn thành một giao diện mới, đẹp và tiện lợi hơn với các thao tác sau：
+	  *  1.Mở nhanh ứng dụng nhạc: Chỉ cần chạm vào ảnh bìa bài hát là bạn sẽ được đưa ngay vào ứng dụng đang phát。
+	  *  2.Phát/Tạm dừng tức thì: Chạm vào vùng nền của trình phát để dừng hoặc tiếp tục bài hát。
+	  *  3.Chuyển bài bằng cách vuốt: - Vuốt sang trái để nghe lại bài hát trước đó.- Vuốt sang phải để chuyển sang bài hát tiếp theo.。
+	  *  4.Tua nhạc chính xác: Bạn có thể kéo thanh trượt thời gian để tua đến bất kỳ đoạn nào trong bài hát。
+	  *  5.Giao diện gọn gàng: Sau khi cài đặt, LockPlayer sẽ tự động thay thế trình phát nhạc gốc, giúp màn hình khoá của bạn trông gọn gàng và hiện đại hơn。
+Name: LockPlayer (Rootless)
+Author: Ethan Whited & lhh & Axs
+Icon: https://axs66.github.io/repo/icon/lockplayer.png
+Sileodepiction: https://jtisvn.github.io/sileodepictions/LockPlayer.json
+
+Package: com.jtis.lockplayer
+Architecture: iphoneos-arm64e
+Version: 3.22
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1464
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.jtis.lockplayer_3.22_iphoneos-arm64e.deb
+Size: 462724
+MD5sum: a9850441d9c66a57c393b81c66d2d84f
+SHA1: 54cd1c1face357195d10cba10efe487ec5b410f1
+SHA256: 70b1e641724cbbc57b001da00a8d32b86d19eece08140b6940a75b91c53a7918
+SHA512: 65e3e5762dcfae9d156cc0b901534c5c50d2ca91ffc64f87308917ac91540fb39fbabaa392715c6e5b8adec7f3af10c4d08c49ab13e51db4b2fcadde7ab0b234
+Description: LockPlayer biến trình phát nhạc trên màn hình khoá của bạn thành một giao diện mới, đẹp và tiện lợi hơn với các thao tác sau：
+	  *  1.Mở nhanh ứng dụng nhạc: Chỉ cần chạm vào ảnh bìa bài hát là bạn sẽ được đưa ngay vào ứng dụng đang phát。
+	  *  2.Phát/Tạm dừng tức thì: Chạm vào vùng nền của trình phát để dừng hoặc tiếp tục bài hát。
+	  *  3.Chuyển bài bằng cách vuốt: - Vuốt sang trái để nghe lại bài hát trước đó.- Vuốt sang phải để chuyển sang bài hát tiếp theo.。
+	  *  4.Tua nhạc chính xác: Bạn có thể kéo thanh trượt thời gian để tua đến bất kỳ đoạn nào trong bài hát。
+	  *  5.Giao diện gọn gàng: Sau khi cài đặt, LockPlayer sẽ tự động thay thế trình phát nhạc gốc, giúp màn hình khoá của bạn trông gọn gàng và hiện đại hơn。
+Name: LockPlayer (Roothide)
+Author: Ethan Whited & lhh & Axs
+Icon: https://axs66.github.io/repo/icon/lockplayer.png
+Sileodepiction: https://jtisvn.github.io/sileodepictions/LockPlayer.json
+
 Package: com.jtis.looky
 Architecture: iphoneos-arm64
 Version: 1.0.2
