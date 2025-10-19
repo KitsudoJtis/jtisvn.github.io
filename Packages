@@ -229,6 +229,41 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariX.json
 Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
 Author: 0xkuj
 
+Package: com.34306.trolldecryptjb
+Architecture: iphoneos-arm64
+Version: 1.3.0
+Section: Applications
+Maintainer: Little 34306
+Installed-Size: 1048
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), lldb
+Filename: ./debs/com.34306.trolldecryptjb_1.3.0_iphoneos-arm64.deb
+Size: 256588
+MD5sum: e3559662ec2be09f1b4f14dbb67a0fcc
+SHA1: 0d6a0cfcef1144dcbbd6dd5b77b2a74b26bf89b4
+SHA256: 7db412cd26f10c2435b9a3617322edc355a91ca925dec25ee59a67a6166b6f14
+SHA512: 94f44d1aa1ecf9d897ebe88a84ffffda704dffa1407f834dcb972a0d0d28b1cf64d8e5f944a571b7d4276a821d72e67c73efd888371f1974fc9d1a4233b68316
+Description: Giải mã ứng dụng Appstore yêu cầu iOS cao hơn
+Name: TrollDecryptJB (Rootless)
+Author: 34306, khanhduytran0
+
+Package: com.34306.trolldecryptjb
+Architecture: iphoneos-arm64e
+Version: 1.3.0
+Section: Applications
+Maintainer: Little 34306
+Installed-Size: 1048
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), lldb
+Filename: ./debs/com.34306.trolldecryptjb_1.3.0_iphoneos-arm64e.deb
+Size: 258876
+MD5sum: 7191ef0001e5f3272b5598235301d4a1
+SHA1: b1f11aef7089154cba3177115ab4bf39d180de96
+SHA256: bce665582760b9a3cda55b69f4b910fcbc178f9252bd8b32c92f7905ba49c179
+SHA512: b421b8fb99c47457847bb540d792b57da4cc8bed10ff837e0d3afa90fdfc9d6c255e18d9c1b60ea8b7c12dce0135ec05a346214dbcf2f5d669b7b41856032014
+Description: Giải mã ứng dụng Appstore yêu cầu iOS cao hơn
+Name: TrollDecryptJB (Roothide)
+Author: 34306, khanhduytran0
+
 Package: com.82flex.touchvis
 Architecture: iphoneos-arm64e
 Version: 4.0.1
