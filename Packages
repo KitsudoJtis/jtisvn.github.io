@@ -7131,6 +7131,53 @@ Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Depiction: https://chariz.com/get/cephei
 Support: https://hashbang.productions/support/
 
+Package: ws.hbang.newterm3
+Architecture: iphoneos-arm64e
+Version: 3.0~beta1-1042+debug
+Section: Terminal Support
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 31496
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: ./debs/ws.hbang.newterm3_3.0~beta1-1042+debug_iphoneos-arm64e.deb
+Size: 6628694
+MD5sum: 6990e49ae10bf81442f3c91b6f74628d
+SHA1: 7be7b2b04ec2d81d00229a4b918cca1a236e8db4
+SHA256: 1b6f10525f00d85edd76b597c33187ac2498cd9b260e00d1d63afcd38d8677aa
+SHA512: 755d8fee4d58eaa033fb02b72081b6222d2cb426c197c07d44fc946d5e0d399060844770430a13117c98666731c4b1b3a934d484fafbb583136785b85a3d5398
+Description: Powerful terminal app for iOS
+Tag: compatible_min::ios14.0
+Name: NewTerm 3 Beta
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Depiction: https://chariz.com/get/newterm-beta
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.newterm3
+Architecture: iphoneos-arm64
+Version: 3.0~beta1
+Section: Terminal Support
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 14899
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: ./debs/ws.hbang.newterm3_3.0~beta1_iphoneos-arm64.deb
+Size: 3836904
+MD5sum: fed66db963cb17131b239dc6deb7058c
+SHA1: 4c9327fb9cd3ccdade8247bab90bcf12338b6be2
+SHA256: cbd965fbdc25634e4e447ba4609598a67a0f354a63fce2dbf9e0dce99042b055
+SHA512: cfe1e739e64c663b7f8d056f8057dfef23c43bd49a32381c1bdbff60d7b22b4de14235718b82d98c51abd36d6560cff0f49c8fe46f5728d4ac6a8896b18a2abe
+Description: Powerful terminal app for iOS
+Tag: compatible_min::ios14.0
+Author: HASHBANG Productions <support@hbang.ws>
+Name: NewTerm 3 Beta
+Support: https://hashbang.productions/support/
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Depiction: https://chariz.com/get/newterm-beta
+
 Package: xyz.cypwn.doodle
 Architecture: iphoneos-arm64
 Version: 1.2k
