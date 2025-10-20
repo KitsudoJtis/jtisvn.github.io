@@ -6656,15 +6656,16 @@ Maintainer: JTISVN Repo
 Installed-Size: 481
 Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
 Filename: ./debs/com.teslaman3092.popoutbuttons_1.0.1_iphoneos-arm64.deb
-Size: 58260
-MD5sum: 8a9693630e5d2e414fcb5632ea7a27f8
-SHA1: b0719b1636cceac656c8439065b78982575a74df
-SHA256: 88ae1fef13af383bf5dd2bd6adb83f764da13a7a409ad27758b59513f8829632
-SHA512: e4477ec5eca6fa2eee1e13a6d6ce29670397c6b359a69d28adc7f87cc0f55b42b3cac37fbad9cda4d489d6bebf35c86b26b68df5c3e4215cce3a69037b396fa4
-Description: PopOutButtons mang các nút bấm nổi lên của iOS 18 lên iOS thấp hơn.
+Size: 58188
+MD5sum: d07cdb88e2ae38579636cd82c1148be7
+SHA1: fed70af867ddceee4e747daab9aae75bbba8ca07
+SHA256: 4a9cf8f915a725e03d313749db4e84cca1995cca2747883a786605cdf77450f0
+SHA512: c1cfc8e319d40bb71231fb55cba212e8efbb9bedc292b6b6b28f061ac6597f441b8a26c96ed8f98cebd64ac237c0eb83e142b3c7a54d29fba093722fff4dc73d
+Description: PopOutButtons mang các nút bấm nổi lên của iOS 18 xuống iOS thấp hơn.
 Tag: compatible_min::ios13.0
 Author: tesla_man <computerman939+POBsupport@gmail.com>
 Name: PopOutButtons (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PopOutButtons.json
 Icon: https://Jtisvn.github.io/sectionIcons/PopOutButtons.png
 Depiction: https://chariz.com/get/popoutbuttons
 
@@ -6677,15 +6678,16 @@ Installed-Size: 481
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
 Filename: ./debs/com.teslaman3092.popoutbuttons_1.0.1_iphoneos-arm64e.deb
-Size: 56328
-MD5sum: 2455be63dd9adb89095633443a374dde
-SHA1: 139738ced7858cd3221e384a278d3078449921c2
-SHA256: 32b7b88cf7db3eafc80f3427dcabb55da810e9a4fd0d0fdf595bfd7de1bdddf5
-SHA512: 4b2211aafd516149d31264c3da5ee7e68c45a2f642658e1abac9c022940125d1c12c8f8f620a941dd4798eae8b31e1c2189756ec457085b182827e01388d51c9
-Description: PopOutButtons mang các nút bấm nổi lên của iOS 18 lên iOS thấp hơn.17
+Size: 56388
+MD5sum: fe410309c3319bce4e2fd11c67db7fe3
+SHA1: 0026196b3775e61d616da978ffcc30663afb9da7
+SHA256: 2b32a72a9428112df1b4fa4044664fe4ac798727c40f7544f46fb8d09aa4a144
+SHA512: ba8adb57c5dec16d6a5b6801c763a803bcb4bf933a351d52d7a5395caafc6a22b574adff8bef6a50947c566a02cb2a3c04f4ee0964f331d977b9d76e33d126e4
+Description: PopOutButtons mang các nút bấm nổi lên của iOS 18 xuống iOS thấp hơn.
 Tag: compatible_min::ios13.0
 Author: tesla_man <computerman939+POBsupport@gmail.com>
 Name: PopOutButtons (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PopOutButtons.json
 Icon: https://Jtisvn.github.io/sectionIcons/PopOutButtons.png
 Depiction: https://chariz.com/get/popoutbuttons
 
