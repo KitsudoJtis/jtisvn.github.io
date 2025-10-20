@@ -3485,6 +3485,43 @@ Author: Alexandra Aurora Göttlicher
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko.json
 Icon: https://jtisvn.github.io/sectionIcons/Kayoko.png
 
+Package: com.jtis.lastlook
+Architecture: iphoneos-arm64
+Version: 4.2.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/com.jtis.lastlook_4.2.2_iphoneos-arm64.deb
+Size: 453188
+MD5sum: 03bde02bad6de0b8065f6cd191bb85ec
+SHA1: 1e68f6423899795d3d861befc764bf11f1e53a8a
+SHA256: 446dd8e8beb04878d7843287f5d36ef805c82c8f6134c1f01bb2a8cdb98a7e11
+SHA512: 4fc01c4c4e71ba165cedef2ce96d04f4051446d581d3c27a7496a8dc59368cee8ac64c6a199ada522e1b6b906c899b7950da79019cbf83aa3ee5849eb905b6ad
+Description: Tinh chỉnh AOD mang đến cảm giác nguyên bản với khả năng vô tận!
+Icon: https://Jtisvn.github.io/sectionIcons/LastLook.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LastLook.json
+Author: AnthoPak
+Name: LastLook (Rootless)
+
+Package: com.jtis.lastlook
+Architecture: iphoneos-arm64e
+Version: 4.2.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/com.jtis.lastlook_4.2.2_iphoneos-arm64e.deb
+Size: 443916
+MD5sum: bc1e5b6f7f2ea4b17c1a142b3b50de4c
+SHA1: b0af8430c05d324b0090cadbd63d81242366f66c
+SHA256: 6b3c8aba0abe4744891607a4f8e004f09d16d82f11b440114598cb197a9fa529
+SHA512: f1b48b9d66f534091d5d3026c83edb48ea105562687113801c925a52180bb255fa9a6d9dd63aceb9371477f57d40e696b7c024e5b239d72cdad330886fbf1518
+Description: Tinh chỉnh AOD mang đến cảm giác nguyên bản với khả năng vô tận!
+Icon: https://Jtisvn.github.io/sectionIcons/LastLook.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LastLook.json
+Author: AnthoPak
+Name: LastLook (Roothide)
+
 Package: com.jtis.latchkey
 Architecture: iphoneos-arm64
 Version: 2.3
