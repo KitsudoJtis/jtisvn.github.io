@@ -1,3 +1,20 @@
+Package: com.spark.libsparkapplist
+Architecture: iphoneos-arm64
+Version: 1.1.0~rootless
+Section: System
+Maintainer: Spark
+Installed-Size: 408
+Filename: ./debs/1.1.0~rootless.deb
+Size: 24834
+MD5sum: 0b8283166fd138011c971c9e466002c4
+SHA1: 986f8a4c07c63d9685b7fc61644dda220566438c
+SHA256: 3c99db2ec79f728826536bd55d2902c03c46ac995909c02b80c2fd5e9e8e812e
+SHA512: 01b13ae096a24a09daed98fea7bb695ff1e25a997358ed657b8c4e19614f848e7255059894c763b363474b58f00a94e346e143d5a6d301662da88bdcac3057b9
+Description: AppList alternative
+Tag: role::developer
+Name: libSparkAppList
+Author: Spark
+
 Package: com.foxfort.foxforttools
 Architecture: iphoneos-arm64e
 Version: 1.4.13
@@ -1108,6 +1125,47 @@ Name: VibrateOnCall (Rootless)
 Author: BVN
 SileoDepiction: https://jtisvn.github.io/sileodepictions/VibrateOnCall.json
 Icon: https://jtisvn.github.io/sectionIcons/VibrateOnCall.png
+
+Package: com.jtis.accentcustom
+Architecture: iphoneos-arm64
+Version: 2.2.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 392
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
+Conflicts: com.ivanc.accent
+Filename: ./debs/com.jtis.accentcustom_2.2.1_iphoneos-arm64.deb
+Size: 26880
+MD5sum: 49fd97cd0dc0ed703477590558ebcde1
+SHA1: 41f20207a4812bba68cfe4e2ac3d48f3f6c44cdd
+SHA256: 0786857bdf5aaac4a1c3d0719b19399020a065379ca2d5b00a0d2aeb43ca1c03
+SHA512: d196e00a7e4bf4efa8f72c0c99a81592c53f210e53d1b38bdf4ec16249b40cb77886730d0321238fcc5c9d5f46e9c312ad326d10cd9450859329ebed72438163
+Description: Thag đổi màu sắc nhấn của iOS theo phong cách macOS.
+Name: Accent Custom (Roôtless)
+Author: Lillie & Hitori
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Accent.json
+Icon: https://Jtisvn.github.io/sectionIcons/Accent.png
+
+Package: com.jtis.accentcustom
+Architecture: iphoneos-arm64e
+Version: 2.2.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 392
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
+Conflicts: com.ivanc.accent
+Filename: ./debs/com.jtis.accentcustom_2.2.1_iphoneos-arm64e.deb
+Size: 26832
+MD5sum: b465c58a1fdcb69c4b6589641d91f22b
+SHA1: 3965ca6d1a0194affc200e7e0d6b03ab27348efe
+SHA256: 416ad8b2de31d27a5adf47253630b6c19e02399cfeb415e1fb8c8c25e6648917
+SHA512: a1cd46c00168c308dfe2f74afdbfcb31976dc77996b1c5f57d1cec7b7e585e163bd7d1a76a8ff32231bd9bdc9cb3f751814a4cdc78cfc5bdc03342d00bb5a55d
+Description: Thag đổi màu sắc nhấn của iOS theo phong cách macOS.
+Name: Accent Custom (Roothide)
+Author: Lillie & Hitori
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Accent.json
+Icon: https://Jtisvn.github.io/sectionIcons/Accent.png
 
 Package: com.jtis.adguardPro-r2
 Architecture: iphoneos-arm64
