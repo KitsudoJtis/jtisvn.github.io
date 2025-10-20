@@ -6648,6 +6648,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/SnowBoard.json
 Tags: compatible_min::ios15.0, compatible_max::ios17.3
 Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
 
+Package: com.teslaman3092.popoutbuttons
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 481
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Filename: ./debs/com.teslaman3092.popoutbuttons_1.0.1_iphoneos-arm64.deb
+Size: 58260
+MD5sum: 8a9693630e5d2e414fcb5632ea7a27f8
+SHA1: b0719b1636cceac656c8439065b78982575a74df
+SHA256: 88ae1fef13af383bf5dd2bd6adb83f764da13a7a409ad27758b59513f8829632
+SHA512: e4477ec5eca6fa2eee1e13a6d6ce29670397c6b359a69d28adc7f87cc0f55b42b3cac37fbad9cda4d489d6bebf35c86b26b68df5c3e4215cce3a69037b396fa4
+Description: PopOutButtons mang các nút bấm nổi lên của iOS 18 lên iOS thấp hơn.
+Tag: compatible_min::ios13.0
+Author: tesla_man <computerman939+POBsupport@gmail.com>
+Name: PopOutButtons (Rootless)
+Icon: https://Jtisvn.github.io/sectionIcons/PopOutButtons.png
+Depiction: https://chariz.com/get/popoutbuttons
+
+Package: com.teslaman3092.popoutbuttons
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 481
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Filename: ./debs/com.teslaman3092.popoutbuttons_1.0.1_iphoneos-arm64e.deb
+Size: 56328
+MD5sum: 2455be63dd9adb89095633443a374dde
+SHA1: 139738ced7858cd3221e384a278d3078449921c2
+SHA256: 32b7b88cf7db3eafc80f3427dcabb55da810e9a4fd0d0fdf595bfd7de1bdddf5
+SHA512: 4b2211aafd516149d31264c3da5ee7e68c45a2f642658e1abac9c022940125d1c12c8f8f620a941dd4798eae8b31e1c2189756ec457085b182827e01388d51c9
+Description: PopOutButtons mang các nút bấm nổi lên của iOS 18 lên iOS thấp hơn.17
+Tag: compatible_min::ios13.0
+Author: tesla_man <computerman939+POBsupport@gmail.com>
+Name: PopOutButtons (Roothide)
+Icon: https://Jtisvn.github.io/sectionIcons/PopOutButtons.png
+Depiction: https://chariz.com/get/popoutbuttons
+
 Package: com.tomaszpoliszuk.lockscreenbatterymagsafe
 Architecture: iphoneos-arm64
 Version: 4.0
