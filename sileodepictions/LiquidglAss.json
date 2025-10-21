@@ -8,16 +8,6 @@
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionHeaderView",
-"title":"Mô tả"
-},
-{
-"markdown":"\n\n- Chủ đê Liquid Glass, được thiết kế bởi Nguyên Tokuda và Hoàng MD\n\nㅤ\n\n- Chi tiết gói gồm:\n\n+ 610 biểu tượng\n\n+ 1 Huy hiệu thông báo\n\n+ 1 biểu tượng LS UI\n\n+ 2 Hiệu ứng Mask AE\n\n+ 2 Dock UI (Light & Dark)\n\n- 1 chủ đề Trình quay số và mặt khẩu màn hình khoá\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Anh chụp màn hình" },
-{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
@@ -31,6 +21,11 @@
 ],
 "itemCornerRadius":0,
 "itemSize":"{185,400}"
+},
+{
+"markdown":"\n\n- Chủ đê Liquid Glass, được thiết kế bởi Nguyên Tokuda và Hoàng MD\n\n- Chi tiết gói gồm:\n\n+ 610 biểu tượng\n\n+ 1 Huy hiệu thông báo\n\n+ 1 biểu tượng LS UI\n\n+ 2 Hiệu ứng Mask AE\n\n+ 2 Dock UI (Light & Dark)\n\n- 1 chủ đề Trình quay số và mặt khẩu màn hình khoá\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
 },
 {
 "class":"DepictionMarkdownView"
@@ -84,7 +79,7 @@
 "class":"DepictionStackView"
 },
 {
-"tabname":"L.Hệ & Hỗ trợ",
+"tabname":"Liên hệ Hỗ trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
