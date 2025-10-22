@@ -74,7 +74,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.5.0\n\na loại bỏ gói phụ thuộc LibGcUniversal\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.5.0\n\n- loại bỏ gói phụ thuộc LibGcUniversal\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
