@@ -2557,62 +2557,43 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Edge2.json
 Icon: https://jtisvn.github.io/icons/avatar.webp
 
 Package: com.jtis.eneko
-Architecture: iphoneos-arm64e
-Version: 1.4.2
+Architecture: iphoneos-arm64
+Version: 1.5.0
 Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 400
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Conflicts: love.litten.eneko
-Filename: ./debs/com.jtis.eneko_1.4.2_iphoneos-arm64e.deb
-Size: 29280
-MD5sum: e91e74827027c30bfd7a90ca23a39200
-SHA1: 72ccae7e188432d4ee0cc2ffdd65ef24c1c9bbd8
-SHA256: e5fad24255ad79f5e85b4e4c885df6b3aeccb2f907710fd69c1da131fcecb804
-SHA512: 70859a891ac07ee7c0e13557f593556b3cfc54c60dc0a13e00e729f6f176647e5a316f0ffda178ac801829534c63ea8abd8f734784e44768da4c54ad6bd362fe
+Maintainer: JTISVN Repo
+Installed-Size: 440
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.eneko_1.5.0_iphoneos-arm64.deb
+Size: 61104
+MD5sum: 6c3c85a675f283a629bea8eb32359260
+SHA1: 26270691003a8942649ff808a3f63f23fc69eb3e
+SHA256: 39bf3a65e5b89ace047c7f40d757e71861ae0860d256da2d15a9343c3f58641f
+SHA512: 7eac4ce01c25288c716fb436206a0682387b9eb95a168c7c8ac12f5b3f2ea7db3783702271befcdbc562d22ae7d02c83dc78e1b9477f4d9aebebdf6f3ff30484
 Description: Chọn video làm nền màn hình cho IOS
-Name: Eneko (Roothide)
-Author: Traurige <hello@traurige.dev>
+Name: Eneko (Rootless)
+Author: Traurige & Axs
+Icon: https://axs66.github.io/repo/icon/eneko.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
 
 Package: com.jtis.eneko
-Architecture: iphoneos-arm64
-Version: 1.4
+Architecture: iphoneos-arm64e
+Version: 1.5.0
 Section: Tweaks
-Maintainer: Traurige <hello@traurige.dev>
-Installed-Size: 400
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Conflicts: love.litten.eneko
-Filename: ./debs/com.jtis.eneko_1.4_iphoneos-arm64.deb
-Size: 29508
-MD5sum: 9b907064074747f3c90b6fc1ed403042
-SHA1: e1a853d89a1b6dcf88b7a6cbf40f13f34a396c50
-SHA256: 3ba221f000dba9c114fe856cb669c6345c2e5fe32294101772295181305fc05a
-SHA512: 722c8a17e03aeda65a964301108d5a9b94e64bccbb987175f3fcb518a387b6f921f1fa13c13f10e13933867860e07a4bb3dcc445e84c28c7a8ebf7c1e46a08b5
-Description: Live wallpapers for iOS
-Name: Eneko (Rootless)
-Author: Traurige <hello@traurige.dev>
+Maintainer: JTISVN Repo
+Installed-Size: 440
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.eneko_1.5.0_iphoneos-arm64e.deb
+Size: 59956
+MD5sum: 1123bb5d61ef0fbd1c72eb6d94044cad
+SHA1: 73900c0dee5614db007c9d6fb656f8f844648c55
+SHA256: bd1818156a36362f59a8d45c08e8ef7248a003a458b3b630ad1f1c0a45b78db5
+SHA512: 7ef48c6f1442e90444b88dedf578940793619fb981ce057c1efff46f191b01f0de513d3f82dd73e02eae3e947182d5d15fabac5693ec40847200d035fa02ec33
+Description: Chọn video làm nền màn hình cho IOS
+Name: Eneko (Roothide)
+Author: Traurige & Axs
+Icon: https://axs66.github.io/repo/icon/eneko.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
-
-Package: com.jtis.enekoalt
-Architecture: iphoneos-arm64
-Version: 1.4.2
-Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 464
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Conflicts: love.litten.eneko, dev.traurige.eneko, net.limneos.voicechangerx-rootless
-Filename: ./debs/com.jtis.enekoalt_1.4.2_iphoneos-arm64.deb
-Size: 28704
-MD5sum: 6fb9354506b832bf7ed2854fcc090b78
-SHA1: 0272d7d7d52c01c2fbe129a5479328d383dae95c
-SHA256: d67c1e4021835ccfa0fc8d9c79725efc7fe2e6589add5e4a9a9c793093b6a364
-SHA512: 67aa1dab309bfc03d1bd1a7670875aee2a40a7e6c7e9b2e231d33ffdc74a0b2bd6fbf832be0e735b9ccf3243c1611bfa57ae284577ca540c3d60f25c3f3fc8c6
-Description: Cái hình nền video cho iOS. Tinh chỉnh ban đầu được sửa đổi để hỗ trợ Rootless.
-Name: Eneko (Rootless)
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
-Author: Traurige <hello@traurige.dev>
 
 Package: com.jtis.fastlock
 Architecture: iphoneos-arm64
