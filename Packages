@@ -247,38 +247,21 @@ Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
 Author: 0xkuj
 
 Package: com.34306.trolldecryptjb
-Architecture: iphoneos-arm64
-Version: 1.3.0
-Section: Applications
-Maintainer: Little 34306
-Installed-Size: 1048
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), lldb
-Filename: ./debs/com.34306.trolldecryptjb_1.3.0_iphoneos-arm64.deb
-Size: 256588
-MD5sum: e3559662ec2be09f1b4f14dbb67a0fcc
-SHA1: 0d6a0cfcef1144dcbbd6dd5b77b2a74b26bf89b4
-SHA256: 7db412cd26f10c2435b9a3617322edc355a91ca925dec25ee59a67a6166b6f14
-SHA512: 94f44d1aa1ecf9d897ebe88a84ffffda704dffa1407f834dcb972a0d0d28b1cf64d8e5f944a571b7d4276a821d72e67c73efd888371f1974fc9d1a4233b68316
-Description: Giải mã ứng dụng Appstore yêu cầu iOS cao hơn
-Name: TrollDecryptJB (Rootless)
-Author: 34306, khanhduytran0
-
-Package: com.34306.trolldecryptjb
 Architecture: iphoneos-arm64e
-Version: 1.3.0
+Version: 1.3.1-1+debug
 Section: Applications
 Maintainer: Little 34306
-Installed-Size: 1048
+Installed-Size: 1392
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), lldb
-Filename: ./debs/com.34306.trolldecryptjb_1.3.0_iphoneos-arm64e.deb
-Size: 258876
-MD5sum: 7191ef0001e5f3272b5598235301d4a1
-SHA1: b1f11aef7089154cba3177115ab4bf39d180de96
-SHA256: bce665582760b9a3cda55b69f4b910fcbc178f9252bd8b32c92f7905ba49c179
-SHA512: b421b8fb99c47457847bb540d792b57da4cc8bed10ff837e0d3afa90fdfc9d6c255e18d9c1b60ea8b7c12dce0135ec05a346214dbcf2f5d669b7b41856032014
-Description: Giải mã ứng dụng Appstore yêu cầu iOS cao hơn
-Name: TrollDecryptJB (Roothide)
+Filename: ./debs/com.34306.trolldecryptjb_1.3.1-1+debug_iphoneos-arm64e.deb
+Size: 282284
+MD5sum: 676aee57782c71e5cf4c7b310aaaa242
+SHA1: 416bfc045c366395c2887ad9768209afd399f8be
+SHA256: eb90c669699b60f371c9b3c2c4522a8cb5d6d928f8ee3106154a3e1df0dd29f1
+SHA512: a8ab4268f040315dae362aa627e7d3a442ad49bcf53c9bbc2f0ee37345d673cb327bb337310facff5d091434bd22a1482cd78f273bac0c74c2533b793079e7c5
+Description: Decrypt Appstore App that require higher iOS
+Name: TrollDecryptJB
 Author: 34306, khanhduytran0
 
 Package: com.82flex.touchvis
@@ -2589,6 +2572,45 @@ MD5sum: 1123bb5d61ef0fbd1c72eb6d94044cad
 SHA1: 73900c0dee5614db007c9d6fb656f8f844648c55
 SHA256: bd1818156a36362f59a8d45c08e8ef7248a003a458b3b630ad1f1c0a45b78db5
 SHA512: 7ef48c6f1442e90444b88dedf578940793619fb981ce057c1efff46f191b01f0de513d3f82dd73e02eae3e947182d5d15fabac5693ec40847200d035fa02ec33
+Description: Chọn video làm nền màn hình cho IOS
+Name: Eneko (Roothide)
+Author: Traurige & Axs
+Icon: https://axs66.github.io/repo/icon/eneko.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
+
+Package: com.jtis.eneko
+Architecture: iphoneos-arm64
+Version: 1.5.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 440
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.eneko_1.5.1_iphoneos-arm64.deb
+Size: 61196
+MD5sum: 9e60d42c830821cca7a3b445b8a675b6
+SHA1: 779ff9a031ceefb775e067ccd60f6f97e94877bb
+SHA256: 75480423076f623fa9407052b28091246979d0a45694f72673d44443178928c1
+SHA512: 70a3f00aae857abd7a36d0bfd6dd0126068fe4ffa2cb982b3cc2c5ca3c2017ab3bc14c8da5a6399c81b52298dfc1b672090e7c75f126c2441f21d8c07bbf3cb6
+Description: Chọn video làm nền màn hình cho IOS
+Name: Eneko (Rootless)
+Author: Traurige & Axs
+Icon: https://axs66.github.io/repo/icon/eneko.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
+
+Package: com.jtis.eneko
+Architecture: iphoneos-arm64e
+Version: 1.5.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 440
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.eneko_1.5.1_iphoneos-arm64e.deb
+Size: 60076
+MD5sum: 0f9390a05a482abaf61dfada14e02520
+SHA1: a2b6ac72e25b3156552e75cd56655d1b55766faf
+SHA256: 424ea8e996a24c0ea590b0a15f27e31854d7fc0f18179ce3a336c9c26816bbf0
+SHA512: 53988a47ce34831de7cce96fb43dc4206864d7c1b25494e300f4a108355268212653935dec265346bdd6cd0136d36f037a2566d7ad7db9a390e1f51fa2f8d3b7
 Description: Chọn video làm nền màn hình cho IOS
 Name: Eneko (Roothide)
 Author: Traurige & Axs
@@ -6926,6 +6948,23 @@ Tag: role::developer
 Name: libKitten
 Author: Traurige <hello@traurige.dev>
 Icon: file:///var/jb/Library/IconRepo/hethongg1.png
+
+Package: com.34306.trolldecryptjb
+Architecture: iphoneos-arm64
+Version: 1.3.1-1+debug
+Section: Applications
+Maintainer: Little 34306
+Installed-Size: 1392
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), lldb
+Filename: ./debs/iOS15&16_TrollDecryptJB_1.3.1-1.deb
+Size: 290752
+MD5sum: a2cad741439f6c117c0cac43eb34decc
+SHA1: 6e728b3eeb6112019e7a25b3874a58e55269103a
+SHA256: 11756958fc92c2fb6415e5e13a147212e29261d5f8a7a7b84c11b967d31db369
+SHA512: b3a9805ed8e2897c42e60ec3380d22dfadbe2452d78febe61730cac3ac4656aebb6739d69e31eff46105c2f631b77060736200a5a28d9bc063774b0c839bd3e2
+Description: Decrypt Appstore App that require higher iOS
+Name: TrollDecryptJB
+Author: 34306, khanhduytran0
 
 Package: com.foxfort.libfoxfortutils
 Architecture: iphoneos-arm64e
