@@ -30,7 +30,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"HideSerialNumber\n\n- Một tinh chỉnh cho phép bạn thay đổi và ẩn thông tin chả thiết bị ở phần giới thiệu trong cài đặt hệ thống.",
+"markdown":"HideSerialNumber\n\n- Một tinh chỉnh cho phép bạn thay đổi và ẩn thông tin của thiết bị ở phần giới thiệu trong cài đặt hệ thống.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -91,7 +91,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "25/10/2025",
+"text": "25/5/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -109,7 +109,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.0.4k",
+"text": "0.0.4",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -163,7 +163,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.4.4k\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 0.4.4\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"

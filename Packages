@@ -3457,6 +3457,25 @@ Name: iCatch (Roothide)
 Author: DeNsor
 
 Package: com.jtis.iconrepo.roothide
+Architecture: iphoneos-arm64
+Version: 1.0
+Priority: required
+Essential: yes
+Section: System
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.iconrepo.roothide_1.0_iphoneos-arm64.deb
+Size: 38084
+MD5sum: f07e1c15cf5b33f27625e4b543daa487
+SHA1: 5fe7f7562d949fafe387f5634c85833d75e70f29
+SHA256: 3de6dc45f9d49ea4a3cb0b0f276199e9381967d9c80de59ebd519cfe18be0a8b
+SHA512: a828bc63c7e8f2edaee4ae8fbedea34cebe0ddaa2b869c217cf7ac5d9ef662281e96d2e3d215d7fe76d3b732a8ebe65a36fc593e05253fb70c4e546767516037
+Description: Gói iCon cho nguồn JTIS Repo
+Tag: purpose::extension
+Name: JTISVN Icon Repo
+Author: JTIS Repo
+Sponsor: JTIS Repo
+
+Package: com.jtis.iconrepo.roothide
 Architecture: iphoneos-arm64e
 Version: 1.0
 Priority: required
