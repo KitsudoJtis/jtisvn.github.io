@@ -3436,6 +3436,25 @@ Name: iCatch (Roothide)
 Author: DeNsor
 
 Package: com.jtis.iconrepo.roothide
+Architecture: iphoneos-arm64
+Version: 1.0
+Priority: required
+Essential: yes
+Section: System
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.iconrepo.roothide_1.0_iphoneos-arm64.deb
+Size: 38084
+MD5sum: 27d742aaeafc65e77ed0d1b107cc911f
+SHA1: 6a3835690faa1a23c418c564c7eecabda8cd540c
+SHA256: 3b241740f3a5cbe56361ad5aa3929e1c8733545a97d9c828e95b2cb5416fb5f0
+SHA512: 110099666b7632cc0cb1be8afb198f0ab5c7c4289afe4ac45a57392bc7528127535b6e5e317e579776c8e01a22323ed384f2fb1b8b15a884823dd1a71f94037d
+Description: Gói iCon cho nguồn JTISVN Repo
+Tag: purpose::extension
+Name: JTISVN Icon Repo
+Author: JTIS Repo
+Sponsor: JTIS Repo
+
+Package: com.jtis.iconrepo.roothide
 Architecture: iphoneos-arm64e
 Version: 1.0
 Priority: required
@@ -6797,25 +6816,6 @@ Name: AppData Plus (Rootless)
 Author: Fouad Raheb & Netskao
 Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
 Depiction: https://repo.thuthuatjb.com/index.php?pid=641
-
-Package: com.jtis.iconrepo.roothide
-Architecture: iphoneos-arm64
-Version: 1.0
-Priority: required
-Essential: yes
-Section: System
-Maintainer: JTIS Repo
-Filename: ./debs/com.thuthuatjb.iconrepo.rootless_1.deb
-Size: 38088
-MD5sum: 619d68a1e0d6ff0bd915ef0d182a8223
-SHA1: a5bb1306793fb8c514ea6e46688af1461e9b0390
-SHA256: ff2bd20bd817b7b938f961d929d536687c17b455868bca5f67dd634bae52dd5e
-SHA512: f72f040f9524962a52b876b1b21ec64274c6269dedd67fc3285f3aec2851be3e12a8c0a138d448d6bc1020d1da8e05bffbb3fad9e0fd474450b01a026cc89cb8
-Description: Gói iCon cho nguồn JTISVN Repo
-Tag: purpose::extension
-Name: TTJB Icon Repo
-Author: JTIS Repo
-Sponsor: JTIS Repo
 
 Package: com.tomaszpoliszuk.lockscreenbatterymagsafe
 Architecture: iphoneos-arm64
