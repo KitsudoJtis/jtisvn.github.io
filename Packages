@@ -539,6 +539,51 @@ Name: SearchDots VH(Rootless)
 Icon: file:///var/jb/Library/IconRepo/tinhchinhh1.png
 Author: NightwinDev
 
+Package: com.ichitaso.hideserialnumber
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 472
+Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader
+Filename: ./debs/com.ichitaso.hideserialnumber_0.0.4_iphoneos-arm64.deb
+Size: 61776
+MD5sum: 1b15053389566066e464b9ebe8d55127
+SHA1: a1380dd32552b8a37d193bea389eb3e9fc10450f
+SHA256: fe0ed2378d4ec775ee52bde15aeed9e0164c596102b50fca5c4336aa8133f397
+SHA512: 68a59a5feef4097869fd2ab5d78a1390e39d63b2625cb5147dbe0f48aa56a087a5b194138689b39244b0506a4d2c27c476b3f4ce790e3e50f5f85c4fca300ea4
+Homepage: https://jtisvn.github.io
+Description: Hide Serial Number in Settings About page.
+Tag: purpose::extension, compatible_min::ios12.2, compatible_max::ios17.1.2
+Author: ichitaso
+Name: HideSerialNumber (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/HideSerialNumber.json
+Icon: https://Jtisvn.github.io/sectionIcons/HideSerialNumber.png
+dev: ichitaso
+
+Package: com.ichitaso.hideserialnumber
+Architecture: iphoneos-arm64e
+Version: 0.0.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 472
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader
+Filename: ./debs/com.ichitaso.hideserialnumber_0.0.4_iphoneos-arm64e.deb
+Size: 60720
+MD5sum: 1cb0d38485e02fe319c16e70f01c3631
+SHA1: fe273b474cd8bf1918126804b054d09e4735513e
+SHA256: 882cc70de8a082a39fafc1e9cba6ed99aabdb2e90096d0e625db9269c3ded738
+SHA512: 94c4a484703a20b1ce183e13ecd5d02cfe99b3f4d55c892233883ec17e2cda55ceea352d2b854fc28eccbbd576815657e0c19bf02150f02f7617e1d07f902f3f
+Homepage: https://jtisvn.github.io
+Description: Hide Serial Number in Settings About page.
+Tag: purpose::extension, compatible_min::ios12.2, compatible_max::ios17.1.2
+Author: ichitaso
+Name: HideSerialNumber (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/HideSerialNumber.json
+Icon: https://Jtisvn.github.io/sectionIcons/HideSerialNumber.png
+dev: ichitaso
+
 Package: com.jti.atria
 Architecture: iphoneos-arm64
 Version: 1.4.1
