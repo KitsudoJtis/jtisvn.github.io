@@ -748,6 +748,49 @@ Author: Jonathan Winger-lang
 Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Snapper2.json
 
+Package: com.jtis.Barmoji
+Architecture: iphoneos-arm64
+Version: 2023.3.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.cpdigitaldarkroom.barmoji
+Filename: ./debs/com.jtis.Barmoji_2023.3.3_iphoneos-arm64.deb
+Size: 44212
+MD5sum: 54c6408d0c12f388c96fc115078299bb
+SHA1: 6871fd5600c7502c16e0f1f57d3703593a89c932
+SHA256: f88f91d0a3a77d6ed4c8fbadb10cddf9fe0d6faff735dd6b023f1be743f55c9a
+SHA512: 829ec016bdbc0e927f3ddee2d26931697caddd028f81517ad7d4dc81e950be671ac8bed3392f8e2aa243f1fdd8547bd808aa6504e37d45b2ffadc3f86e9d2cf9
+Homepage: https://jtisvn.github.io
+Description: Thêm biểu tượng cảm xúc cho thanh dưới bàn phím
+Name: Barmoji (Rootless)
+Author: CP Digital Darkroom
+Tags: compatible_min::ios15.0, compatible_max::ios16.4.1
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Barmoji.json
+Icon: https://Jtisvn.github.io/sectionIcons/Barmoji.png
+
+Package: com.jtis.Barmoji
+Architecture: iphoneos-arm64e
+Version: 2023.3.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.cpdigitaldarkroom.barmoji
+Filename: ./debs/com.jtis.Barmoji_2023.3.3_iphoneos-arm64e.deb
+Size: 44436
+MD5sum: 6989925bbea1420fcb11b4a0601e94cc
+SHA1: 4ce3067f763d66aa6a6ab54b06c865a355bf7740
+SHA256: a0c45d6a7a5f300bd5cf9a1ef74342bc3a11ba47e660444892974a4873a3eb0d
+SHA512: f185f8ec9d89cfaf9e2f8d841c0f379b05df268b9ec220051e45c57d6920691649bf10690ff2234d38502ddf7585583027cd43528e94667227e38ddd2add0988
+Homepage: https://jtisvn.github.io
+Description: Thêm biểu tượng cảm xúc cho thanh dưới bàn phím
+Name: Barmoji (Roothide)
+Author: CP Digital Darkroom
+Tags: compatible_min::ios15.0, compatible_max::ios16.4.1
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Barmoji.json
+Icon: https://Jtisvn.github.io/sectionIcons/Barmoji.png
+
 Package: com.jtis.CCbonder16
 Architecture: iphoneos-arm64
 Version: 1.1.8
