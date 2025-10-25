@@ -1335,27 +1335,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Ampere.json
 Icon: https://jtisvn.github.io/sectionIcons/Ampere.png
 
 Package: com.jtis.appdataplus
-Architecture: iphoneos-arm64
-Version: 1.4.0-p
-Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 2412
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.jtis.iconrepo.roothide
-Filename: ./debs/com.jtis.appdataplus_1.4.0-p_iphoneos-arm64.deb
-Size: 5056728
-MD5sum: 449168c0b961dcdefed9b1832db775b0
-SHA1: d08baed424915c3471b0110d5ec6135cfcb2d876
-SHA256: 07e144479baf2c915b6b35a8f09501e9a1ec7d87cef69faf03e87a81a8b56378
-SHA512: 3ad9c2a4d6f2ecfbb16e933a31b5f43b11c38a07973ac52bc3e343867e4ed6cb04b49df998dc6b378e84ad8c25df318c72b5e0cbc01341488e9c178a13d30a60
-Homepage: https://jtisvn.github.io
-Description: Trình quản lý dữ liệu ứng dụng từ màn hình chính phiên bản được bổ sung thêm chức năng.
-Tag: purpose::extension
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Appdataplus.json
-Name: AppData Plus (Rootless)
-Author: Fouad Raheb & Netskao
-Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
-
-Package: com.jtis.appdataplus
 Architecture: iphoneos-arm64e
 Version: 1.4.0-p
 Section: Tweaks
@@ -3455,25 +3434,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Icatch.json
 Icon: https://repo.cypwn.xyz/packages/iCatch-Rootless/icon.png
 Name: iCatch (Roothide)
 Author: DeNsor
-
-Package: com.jtis.iconrepo.roothide
-Architecture: iphoneos-arm64
-Version: 1.0
-Priority: required
-Essential: yes
-Section: System
-Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.iconrepo.roothide_1.0_iphoneos-arm64.deb
-Size: 38084
-MD5sum: f07e1c15cf5b33f27625e4b543daa487
-SHA1: 5fe7f7562d949fafe387f5634c85833d75e70f29
-SHA256: 3de6dc45f9d49ea4a3cb0b0f276199e9381967d9c80de59ebd519cfe18be0a8b
-SHA512: a828bc63c7e8f2edaee4ae8fbedea34cebe0ddaa2b869c217cf7ac5d9ef662281e96d2e3d215d7fe76d3b732a8ebe65a36fc593e05253fb70c4e546767516037
-Description: Gói iCon cho nguồn JTIS Repo
-Tag: purpose::extension
-Name: JTISVN Icon Repo
-Author: JTIS Repo
-Sponsor: JTIS Repo
 
 Package: com.jtis.iconrepo.roothide
 Architecture: iphoneos-arm64e
@@ -6815,6 +6775,47 @@ Name: PopOutButtons (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PopOutButtons.json
 Icon: https://Jtisvn.github.io/sectionIcons/PopOutButtons.png
 Depiction: https://chariz.com/get/popoutbuttons
+
+Package: com.jtis.appdataplus
+Architecture: iphoneos-arm64
+Version: 1.4.0-p
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2412
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.jtis.iconrepo.roothide
+Conflicts: com.fouadraheb.appdata, com.thuthuatjb.fouadraheb.appdata
+Filename: ./debs/com.thuthuatjb.appdataplus_1.4.deb
+Size: 770944
+MD5sum: 8a71f260109cf6d7af29182a7ff2a683
+SHA1: 4fdad496fe0a6f0437dde7f32bd3aa62b9cba76e
+SHA256: 49081efd1b1a3b01088cc788c16514f9e5a91a123c5147b29e29bb3d93ce5f26
+SHA512: 14479723a4adc6654a73ae4401eed8d74cef525f607b16105ad73effd81c7a348c9f92aabe971702ed2aa73483e6204b52f6278cca90e79bc89c2a67c13fff71
+Description: Trình quản lý dữ liệu ứng dụng từ màn hình chính phiên bản được bổ sung thêm chức năng.
+Tag: purpose::extension
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Appdataplus.json
+Name: AppData Plus (Rootless)
+Author: Fouad Raheb & Netskao
+Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
+Depiction: https://repo.thuthuatjb.com/index.php?pid=641
+
+Package: com.jtis.iconrepo.roothide
+Architecture: iphoneos-arm64
+Version: 1.0
+Priority: required
+Essential: yes
+Section: System
+Maintainer: JTIS Repo
+Filename: ./debs/com.thuthuatjb.iconrepo.rootless_1.deb
+Size: 38088
+MD5sum: 619d68a1e0d6ff0bd915ef0d182a8223
+SHA1: a5bb1306793fb8c514ea6e46688af1461e9b0390
+SHA256: ff2bd20bd817b7b938f961d929d536687c17b455868bca5f67dd634bae52dd5e
+SHA512: f72f040f9524962a52b876b1b21ec64274c6269dedd67fc3285f3aec2851be3e12a8c0a138d448d6bc1020d1da8e05bffbb3fad9e0fd474450b01a026cc89cb8
+Description: Gói iCon cho nguồn JTISVN Repo
+Tag: purpose::extension
+Name: TTJB Icon Repo
+Author: JTIS Repo
+Sponsor: JTIS Repo
 
 Package: com.tomaszpoliszuk.lockscreenbatterymagsafe
 Architecture: iphoneos-arm64
