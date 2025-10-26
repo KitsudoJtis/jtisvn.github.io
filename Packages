@@ -5328,6 +5328,45 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
 Icon: https://jtisvn.github.io/sectionIcons/TeleSF.png
 Author: choco, r22i0
 
+Package: com.jtis.timelefted
+Architecture: iphoneos-arm64
+Version: 1.0-11+debug
+Section: Tweaks
+Maintainer: Little 34306
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.timelefted_1.0-11+debug_iphoneos-arm64.deb
+Size: 10960
+MD5sum: edce6d6a62d9f99071785d1170ab49a9
+SHA1: 6b9b486c93225fe885ee269146fc70e29c94136d
+SHA256: fcff44516cb5f03f48fdb10444341d9d804a36641171271370211c7fff1cf1c4
+SHA512: f422c1f16f166921d9286961eb1c343e1fd456791a41ace68859bef60a2ff5d4be9df98d19b55c15f83c1b2735d4c69c553a6197240326cc685391684caa6c3f
+Description: Show estimate time left on charging battery
+Name: Time Left (Rootless)
+Author: 34306
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TimeLeft.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.timelefted
+Architecture: iphoneos-arm64e
+Version: 1.0-11+debug
+Section: Tweaks
+Maintainer: Little 34306
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.timelefted_1.0-11+debug_iphoneos-arm64e.deb
+Size: 12268
+MD5sum: e854e2fd5a5ca3f714ccea602d486801
+SHA1: d17f3a56167494d672338fa156035dacf70952e6
+SHA256: 3219d06fa6d49d609bb8760793e719a66e52b3611c157f16b6c2a1b0a0c2ac51
+SHA512: 9291c95c04243b2b635b663f294a1fcea8b22a6a31093863959a872bec7514112414989277345611b63f3fae09dd1c5e4c372a7e37483d66985c6edfd5d84ea6
+Description: Show estimate time left on charging battery
+Name: Time Left (Roothide)
+Author: 34306
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TimeLeft.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.transilucent
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -5686,6 +5725,43 @@ Name: Waktos 2 (Roothide)
 Author: alimaulana
 Icon: https://jtisvn.github.io/sectionIcons/Waktos2.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Waktos2.json
+
+Package: com.jtis.xuanhua120hz
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Section: Tweaks
+Maintainer: Huayuarc
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.xuanhua120hz_0.0.4_iphoneos-arm64.deb
+Size: 4012
+MD5sum: c5b43d725135996f71f8f68c911b4907
+SHA1: 3ae4be570952b7bccbaf992cba28b09a2670e579
+SHA256: c8b2e261397181af418ca4ac3ba2ddc6a15e2980086c2e8f561d619b5fc4dc05
+SHA512: f2c53f65f76ab5506d7978e19e81f0d152bb588348700669351ffb9ef967feed1c07f5556a08af39d8252b6eed74577165ed9820c5b8cbaf3899000b3f4e5dda
+Description: Tinh chỉnh tốc độ làm mới 120Hz miễn phí có thể giúp giảm mức tiêu thụ pin do điều chỉnh động tốc độ làm mới. Đảm bảo rằng phần cứng thiết bị của bạn hỗ trợ 120Hz.
+ - Lưu ý: Tinh chỉnh này có thể không tương thích với tất cả các phiên bản iOS, tùy thuộc vào việc triển khai nội bộ của hệ thống.
+Name: Xuanhua 120Hz (Rootless)
+Author: Huayuarc
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.xuanhua120hz
+Architecture: iphoneos-arm64e
+Version: 0.0.4
+Section: Tweaks
+Maintainer: Huayuarc
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.xuanhua120hz_0.0.4_iphoneos-arm64e.deb
+Size: 3756
+MD5sum: 1ffbbdf480876b5916f8952cfa0aec57
+SHA1: 1beea19bd883f1ba13953bdd4bb9302e3650b0ad
+SHA256: d92de9be18db92e27df6314957451165db506a4c8ef5ea069231b62bc7c0d8cc
+SHA512: 0807cccfc5c474790d09578c62a598dd7530bff8c5d2fa1ccb7fddbfcb665bfbd23b13aaba8b978a19153b8dc5b52ef07810544fb782169f30c236f5b3029c59
+Description: Tinh chỉnh tốc độ làm mới 120Hz miễn phí có thể giúp giảm mức tiêu thụ pin do điều chỉnh động tốc độ làm mới. Đảm bảo rằng phần cứng thiết bị của bạn hỗ trợ 120Hz.
+ - Lưu ý: Tinh chỉnh này có thể không tương thích với tất cả các phiên bản iOS, tùy thuộc vào việc triển khai nội bộ của hệ thống.
+Name: Xuanhua 120Hz (Roothide)
+Author: Huayuarc
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.zaire
 Architecture: iphoneos-arm64e
