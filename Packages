@@ -2684,6 +2684,55 @@ Author: Traurige & Axs
 Icon: https://axs66.github.io/repo/icon/eneko.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
 
+Package: com.jtis.ermete
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 386
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: ./debs/com.jtis.ermete_1.0.5_iphoneos-arm64.deb
+Size: 45216
+MD5sum: 0a848655e84fe51ba5263bf9baf29a09
+SHA1: 8ca73346a1bdc9ed800526bac42c5a38b54f3ed4
+SHA256: 9b832e23671661f517a018fb9117621b8c5fbcfbe4bd4cc7cad49310ce866569
+SHA512: e291f8d40a6877c66f9e7c2aeeb81cecaf5c44c1b331a00825a37aa3a3c4d9aa5707abf8070f012ef3925cb720aba66c2562a4e19f3d99de029ace62c0d7bb04
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ermeteDp
+Description: Tuỳ chỉnh hiệu ứng tốc độ mở/đóng nhanh Ứng dụng trên thiết bị của bạn!
+Tag: purpose::extension
+Name: Emete (Rootless)
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ermeteDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: CydiaGeek <lucaluca86@aol.com>
+dev: lucaluca86
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.ermete
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 386
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: ./debs/com.jtis.ermete_1.0.5_iphoneos-arm64e.deb
+Size: 44488
+MD5sum: 8ae09bd8b3b7267bffbc319a34037e32
+SHA1: 923855460fc506b851fff3affc5517626c9c6c8f
+SHA256: a3b7c5ad52d6a1639af018d18ffe384f74248f0fc0114e01bd94731440e44660
+SHA512: 210c91db062bf8cdc416a355a2442159e0857b1434ad3d346536621c2c1a50d15b69ed8d8fa9f64c1054ec5b6bc05636df9ae6f0d80e198c7d4b5248f53ddc57
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ermeteDp
+Description: Tuỳ chỉnh hiệu ứng tốc độ mở/đóng nhanh Ứng dụng trên thiết bị của bạn!
+Tag: purpose::extension
+Name: Emete (Roothide)
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ermeteDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: CydiaGeek <lucaluca86@aol.com>
+dev: lucaluca86
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.fastlock
 Architecture: iphoneos-arm64
 Version: 1.0
