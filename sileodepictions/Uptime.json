@@ -26,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Uptime\n\n- Hiển thị thời gian hoạt động trên thiết bị của bạn kể từ khi khởi động đến khi reboot lần cuối cùng được tính bằng ngày giờ phút..\n\n- Có thể tùy chỉnh 1x1 và 1x2 trong mô dun tjeo cách bạn muốn.\n\n- Lưu ý: Yêu cầu cài đặt thêm CCSupport & Legacy arm64e Support để tăng độ tương thích.",
+"markdown":"Uptime\n\n- Hiển thị thời gian hoạt động trên thiết bị của bạn kể từ khi khởi động đến khi reboot lần cuối cùng được tính bằng ngày giờ phút..\n\n- Có thể tùy chỉnh 1x1 hoặc 1x2 bạn muốn bằng cách nhấn giữ vào Mô-đun Uptime (Cài đặt - Trung tâm điều khiển - System uptime).\n\n- Lưu ý: Yêu cầu cài đặt thêm CCSupport & Legacy arm64e Support để tăng độ tương thích.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

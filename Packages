@@ -5528,6 +5528,45 @@ Description: Xoay mọi hướng bất kỳ (hướng ngược) trên IPhone c�
 Name: upsidedowned (Roothide)
 Author: 34306, KhanhDuyTran
 
+Package: com.jtis.uptime
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: MTAC
+Installed-Size: 188
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.jtis.uptime_1.0.2_iphoneos-arm64.deb
+Size: 28640
+MD5sum: 8724d36d9983f8f987632c1792f88298
+SHA1: d0e0c17adaa2741840a619baee51b5ecd6b3f937
+SHA256: 2f64e60c588f337faad7e0d70ecc76dc9d8777c24440c7aa35388c3cdaa90237
+SHA512: 038c3393daf4f0d932588484e96c538289279026f09d95709d814bc2617c83f2c49f8d9ecf4a4b0a7c4352750e881882253339faabed3a0674a86201df3bb023
+Description: Control Center module to view time since boot
+Name: Uptime (Rootless)
+Author: MTAC
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Uptime.json
+Icon: https://jtisvn.github.io/sectionIcons/Uptime.png
+
+Package: com.jtis.uptime
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: MTAC
+Installed-Size: 188
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.jtis.uptime_1.0.2_iphoneos-arm64e.deb
+Size: 28688
+MD5sum: d55159be5b0afc93496fe4a575234c5d
+SHA1: 065bd78ba225ab58a306a5abbbac564244fb1452
+SHA256: a48e17312873f1dc553e253db1af3d45d9cc5d29a9c2848b22f194eb843274bc
+SHA512: fc03b8d952d89727db8c3710b40a79c464a216417b80c6e9e3bb9aa50c59433cd973e6d4ea84a18ea22f4bdf53dd83712f2057f49bb78a9b28e7c3c4535f0e6e
+Description: Control Center module to view time since boot
+Name: Uptime (Roothide)
+Author: MTAC
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Uptime.json
+Icon: https://jtisvn.github.io/sectionIcons/Uptime.png
+
 Package: com.jtis.velvet2
 Architecture: iphoneos-arm64
 Version: 2.1.2-3
