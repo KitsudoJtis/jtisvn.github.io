@@ -525,18 +525,37 @@ Package: com.hieu.SearchDots
 Architecture: iphoneos-arm64
 Version: 1.0.0
 Section: Tweaks
-Maintainer: jtis
+Maintainer: JTISVN
 Installed-Size: 488
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: ./debs/com.hieu.SearchDots_1.0.0_iphoneos-arm64.deb
-Size: 119910
-MD5sum: 5242e395a07f0a1b587f7a1a80b0ea2f
-SHA1: 81ded82e76edefeec72c6af0992a1b9758228bbb
-SHA256: 8e9ad5f1101b3cd753784c9f2fe66eaf7a6a084e1927b8de3416246c8d013eef
-SHA512: 41d7e2c5d4045b111019df9d3e56d20b28e02d37e8941eba2d0298e02955eafd028429806c8b92e5e702cc603ad3c8833c7f8e714bb71a41f8bb8a6d4e6f9c9b
+Size: 102688
+MD5sum: cd4eacd079b0954706072f5954c41906
+SHA1: 21a566f12b4a27459f8733596fbce287611a4369
+SHA256: dcb5979ed9c5fa0d9ff12e60940fd579a3516105d62635a816111877207eb49f
+SHA512: 7ec078b9ea79e1366b3bc5180d75b481e6ffbd0e3fd69949bb59a38521c493828fd388dd3eaad0a2ccfd11ae8918edebf88acdf25e8d9df637cc2c2d2d903d6a
 Description: Mang phong cách tìm kiếm trên iOS 16 xuống iOS 15
-Name: SearchDots VH(Rootless)
-Icon: file:///var/jb/Library/IconRepo/tinhchinhh1.png
+Name: SearchDots (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/SearchDots.png
+Author: NightwinDev
+
+Package: com.hieu.SearchDots
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN
+Installed-Size: 488
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.hieu.SearchDots_1.0.0_iphoneos-arm64e.deb
+Size: 102664
+MD5sum: 5a04578fb6231a17ca03bc1096d45351
+SHA1: edc85243e4b4982027f761694eb1346906f7823d
+SHA256: 4e75c85e5569208d8b4c0e3194f020ab8352c7c823669ecaba22c57c8b7abbae
+SHA512: 68d0e3c267a7edc44c30bcc1a4fb895724f05aaaa924997904e219237695ca8d423f29124361517627b416a118492b695b3232aa3cc501a91bb7c35f61476bb1
+Description: Mang phong cách tìm kiếm trên iOS 16 xuống iOS 15
+Name: SearchDots (Roothide)
+Icon: https://jtisvn.github.io/sectionIcons/SearchDots.png
 Author: NightwinDev
 
 Package: com.ichitaso.hideserialnumber
