@@ -30,7 +30,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Complications\n\n- Thêm các tiện ích kiểu Apple Watch trên Màn hình khóa với khả năng tùy biến cao như:\n\n- Tuỳ chỉnh bố cục, số cột hàng và khoảng cách giữa các tiện ích.\n\n- Tuỳ chỉnh vị trí ngang, dọc và khoảng đêm của các tiện ích.\n\n- Tuỳ chỉnh giao điện, kích thước, kiểu nền và bo góc các tiện ích.\n\n- Thêm tiền ích ứng dụng và thông báo kiểu tròn,vuông theo ý muốn của bạn.",
+"markdown":"Complications\n\n- Thêm các tiện ích kiểu Apple Watch trên Màn hình khóa với khả năng tùy biến cao như:\n\n- Tuỳ chỉnh bố cục, số cột hàng và khoảng cách giữa các tiện ích.\n\n- Tuỳ chỉnh vị trí ngang, dọc và khoảng đệm của các tiện ích.\n\n- Tuỳ chỉnh giao điện, kích thước, kiểu nền và bo góc các tiện ích.\n\n- Thêm tiền ích ứng dụng và thông báo kiểu tròn,vuông theo ý muốn của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

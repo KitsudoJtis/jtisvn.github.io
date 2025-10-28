@@ -1,36 +1,23 @@
 {
-"minVersion":"0.4",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"minVersion": "0.1",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
 "tintColor":"#577788",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
+{ "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/BetterCC/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"class":"DepictionLabelView",
+"text":"BetterCCXI",
+"fontWeight": "bold",
+"fontSize": 19,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/BetterCC/Screenshots/2.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/BetterCC/Screenshots/3.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/BetterCC/Screenshots/4.png",
-"accessibilityText":"Screenshot"
-}
-],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
-},
-{
-"markdown":" Thay đổi trung tâm và bố trí các mô đun theo cách bạn muốn.\n\n- Cấu hình cho mô đun kết nối, độ sáng, âm lương và điều khiển trình phát nhạc.n\n- Thêm chế độ xem thời tiết vào trung tâm điều khiển.\n\n- Lưu ý: Mỗi lần khởi động lại hoặc LDRestart vui lòng mở ứng dụng thời tiết để cập nhật dữ liệu thời tiết.",
+"markdown":"\n\n- Một tinh chỉnh mạnh mẽ, cho phép bạn tùy chỉnh nâng cao và sắp xếp lại bố cục của các mô-đun trong Trung tâm Điều khiển (Control Center).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -43,9 +30,36 @@
 },
 {
 "class": "DepictionLabelView",
+"text": "Ảnh chụp màn hình",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"itemCornerRadius": true,
+"itemSize": "{185, 400}",
+"screenshots": [
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/BetterCCXI/Screenshots/1.png"
+},
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/BetterCCXI/Screenshots/2.png"
+}
+],
+"class": "DepictionScreenshotsView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
 "text": "Thông tin chi tiết",
 "fontWeight": "semibold",
-"fontSize": 16,
+"fontSize": 17,
 "usePadding": true,
 "useMargins": true,
 "margins": "{10,0,8,0}"
@@ -65,7 +79,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "miguelaka95",
+"text": "ATWiiks",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -91,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "12/7/2025",
+"text": "26/1/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -109,7 +123,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.0.5",
+"text": "1.6.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -135,7 +149,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.2 - 16.7.11",
+"text": "14.0 - 16.5",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -159,11 +173,12 @@
 "class": "DepictionStackView"
 },
 {
+
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.0.5\n\n- Sửa lỗi\n\n- Hỗ trợ Roothude Jailbreak"
+"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
@@ -174,12 +189,12 @@
 {
 "class":"DepictionTableButtonView",
 "title": "Paypal",
-"action": "https://www.paypal.com/myaccount/transfer/homepage/preview/"
+"action": "https://paypal.me/HiuKitsudo"
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
-"action": "https://img.vietqr.io/image/ACB-20219691-print.png?&addInfo=&accountName=NGUYEN%20TRUNG%20HIEU"
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
