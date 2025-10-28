@@ -17,7 +17,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown": "\n\n- Hiển thị biểu tượng tắt tiếng trên thanh trạng thái cho thiết bị IOS của bạn.",
+"markdown": "\n\n- Thêm hiệu ứng kiểu ViíionOS cho viền nhộng tìm kiếm trên màn hình chính.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

@@ -2326,6 +2326,45 @@ Author: DTCalabro
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Colobar15.json
 Icon: https://jtisvn.github.io/sectionIcons/Colobar15.png
 
+Package: com.jtis.complications
+Architecture: iphoneos-arm64
+Version: 4.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 3022
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.complications_4.0_iphoneos-arm64.deb
+Size: 643572
+MD5sum: 2cef182f91b3e4314e5e22977f4e2aa9
+SHA1: f3050a3b4ed8244eb5990f578452841d78840480
+SHA256: d5bbeae29958010f967719931a57c3246456e7ec8b6c9b9b657bd67aa4a66481
+SHA512: 65c9af79c95c902c32a4075a3ab2549b9873e413fd84d7f29b51b928557939b11a5a949bfc8389c233730a8c824c6a57b976f0f4eae22856d72c8fc234ce428b
+Description: watchOS widgets on your lock screen
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Complications.json
+Icon: https://jtisvn.github.io/sectionIcons/Complications.png
+Name: Complications (Rootless)
+Author: Ben Giannis
+
+Package: com.jtis.complications
+Architecture: iphoneos-arm64e
+Version: 4.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 3022
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.complications_4.0_iphoneos-arm64e.deb
+Size: 648532
+MD5sum: 2ab3f144500db725b229494202168cb0
+SHA1: 2deab58fb3bb70afa30b8495ca19e710fb6a090e
+SHA256: 4a1556d9f9b06ae0b59dabe593522839f3ff65dbf03de748c8f3a9cf337e61bf
+SHA512: e99b0316ebac3cc8339023de1bfdca5830a9e15d822c1b6aacd86280837a10866c47028f07eb24abd3c64a36bd9e28656a57eeb208e391b403dd08f5859646eb
+Description: watchOS widgets on your lock screen
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Complications.json
+Icon: https://jtisvn.github.io/sectionIcons/Complications.png
+Name: Complications (Roothide)
+Author: Ben Giannis
+
 Package: com.jtis.copylogfix16
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -4879,6 +4918,45 @@ Author: CreatureSurvive <support@creaturecoding.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Shuffle.json
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 
+Package: com.jtis.singlemute
+Architecture: iphoneos-arm64
+Version: 1.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 384
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.jtis.singlemute_1.5_iphoneos-arm64.deb
+Size: 25220
+MD5sum: b49c955f3db39ddec6de40ff1f16b3c4
+SHA1: 7af58e78d1cdce3346cd558094b0e9351238ecf8
+SHA256: 587ba2b31f55271ed354ebc47857bedc022beaad912b45b7ee6d4e03a571bebf
+SHA512: 1c19b092694222284e3df18e6ecce40f9d213f15e0eab78a60f0d6812dbbeed86295b88807a1f83a22453d94313f160066d0007554c239b10c9411060f5f76c0
+Description: Hiện biểu tượng tắt tiếng trên thanh trạng thái của iOS.
+Name: Single Mute (Rootless)
+Author: 82Flex <82flex@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SingleMute.json
+Icon: https://jtisvn.github.io/sectionIcons/SingleMute.png
+
+Package: com.jtis.singlemute
+Architecture: iphoneos-arm64e
+Version: 1.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 384
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.jtis.singlemute_1.5_iphoneos-arm64e.deb
+Size: 24716
+MD5sum: e49acac1aa088d067f1a0b2675bb2ba9
+SHA1: 36986d651cb5feb1a0f1228ccfa8ff2732d923e7
+SHA256: 76d6cc2f74f9866af18892f105ef657290d1f6d7a47e3e1a390e8ed2f5b20b69
+SHA512: f933f552185a57304fa98e6c01616ebc1f383acb0c20d592c2ed95a1b8f1a33ad4e34afa13e0958ac45f4167f44cdcaa3b1614f0aa4f5f7291ee2a16674a8903
+Description: Hiện biểu tượng tắt tiếng trên thanh trạng thái của iOS.
+Name: Single Mute (Roothide)
+Author: 82Flex <82flex@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SingleMute.json
+Icon: https://jtisvn.github.io/sectionIcons/SingleMute.png
+
 Package: com.jtis.sixls
 Architecture: iphoneos-arm64e
 Version: 1.1
@@ -5706,6 +5784,45 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/VisibleIsland.json
 Icon: https://jtisvn.github.io/sectionIcons/VisibleIsland.png
 Tags: compatible_min::ios16.0, compatible_max::ios16.6.1
 Author: ethxnn88 <ethxnn88@gmail.com>
+
+Package: com.jtis.visionsearchpill
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 540
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.0)
+Filename: ./debs/com.jtis.visionsearchpill_0.0.1_iphoneos-arm64.deb
+Size: 122236
+MD5sum: b082d7816575b7bff6be00988a38ac5c
+SHA1: e19bd156df596d21957d1eb25333673595676c6f
+SHA256: fe4ffffcefb0da01a72abdb0be59123ce18adaa03d4781fd84f5d10bc3779cec
+SHA512: 40b92abbec0551a960e7d8ed4a32eb686a53dff9e032bb80e94911f47459548b1495e65371d0894cd5c9c6093d98dd62af1c98abac9645fcf43087d8c01b00c1
+Description: Thêm hiệu ứng VisionOS vào viên thuốc tìm kiếm trên màn hình chính!
+Name: VisionSearchPill (Rootless)
+Author: Nightwind
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VisionSearchPill.json
+Icon: https://jtisvn.github.io/sectionIcons/VisionSearchPill.png
+
+Package: com.jtis.visionsearchpill
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 540
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.0)
+Filename: ./debs/com.jtis.visionsearchpill_0.0.1_iphoneos-arm64e.deb
+Size: 122092
+MD5sum: f8a10c251f079e5103d4b8b2673b4d94
+SHA1: 01e9c60651979c9c6a52c1992a987b23fd009f9b
+SHA256: 9d195223d7d6a1965929568460519e99a2e1dee8fca4e7b99a0dc4984a756156
+SHA512: d0775193cce7567e643c5f9302b75e7cb871a72753bc12abbe68ac44f539048d245bdb4425ebf5666989d080f3eb0491d5f584416b3b81755b50deea6862b5f5
+Description: Thêm hiệu ứng VisionOS vào viên thuốc tìm kiếm trên màn hình chính!
+Name: VisionSearchPill (Roothide)
+Author: Nightwind
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VisionSearchPill.json
+Icon: https://jtisvn.github.io/sectionIcons/VisionSearchPill.png
 
 Package: com.jtis.vizagevh
 Architecture: iphoneos-arm64
