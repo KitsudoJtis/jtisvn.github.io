@@ -6437,6 +6437,45 @@ Author: MTAC
 Icon: https://jtisvn.github.io/sectionIcons/Vitreux.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Vitreux.json
 
+Package: com.nef0pam.betterccxi
+Architecture: iphoneos-arm64
+Version: 1.6.0
+Section: Tweaks
+Maintainer: ATWiiks
+Installed-Size: 640
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/com.nef0pam.betterccxi_1.6.0_iphoneos-arm64.deb
+Size: 83260
+MD5sum: 0f3fa813e0e1c277e42d0fc2a1f333f6
+SHA1: 8e86d97a890c048e986ae439353abc3686b4272d
+SHA256: 4bbe63f6c03e7263c52d8baad236d365b40c5b65215f0fc00847311e0069b75a
+SHA512: 8747da2f34c5d56046323b8be730fbe968c69eabfa0832331a3823a2d5cc3986d36c899abe3dfa25f7208728c99f6bd4758a9aac13eef58492a1eafe4071f0ff
+Description: Enhance your control center on iOS 11 through iOS 16
+Name: BetterCCXI (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BetterCCXI.json
+Icon: https://jtisvn.github.io/sectionIcons/BetterCCXI.png
+Author: ATWiiks
+
+Package: com.nef0pam.betterccxi
+Architecture: iphoneos-arm64e
+Version: 1.6.0
+Section: Tweaks
+Maintainer: ATWiiks
+Installed-Size: 640
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/com.nef0pam.betterccxi_1.6.0_iphoneos-arm64e.deb
+Size: 81104
+MD5sum: e174b11d42d2ffbaa19396ad95ab68b7
+SHA1: 0b6bc4e38b6e3d0a737061465f1030628ec051e3
+SHA256: 877944e53bcb9b5ddd7562f2d7f153103c868b8352a6b9926905dbc213c2bd03
+SHA512: 6aa1ed845e177872bf906c111e84295b64b968c0c669fdbbb259cb98a501d08407e5321ed74ceec8d26d7f078e07c770a3c65eb9028c5d277e35e38002dcfd98
+Description: Enhance your control center on iOS 11 through iOS 16
+Name: BetterCCXI (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BetterCCXI.json
+Icon: https://jtisvn.github.io/sectionIcons/BetterCCXI.png
+Author: ATWiiks
+
 Package: com.netskao.pulloverpro
 Architecture: iphoneos-arm64
 Version: 2.1.6
