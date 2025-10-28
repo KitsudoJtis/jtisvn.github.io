@@ -81,13 +81,6 @@
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionTableButtonView",
-"title":"Liên hệ & Hỗ trợ",
-"action":"https://jtisvn.github.io/donate/donate.html",
-"openExternal":"true",
-"tintColor":"#5777B8"
-},
-{
 "class":"DepictionLabelView",
 "text":"Copyright © 2025 by JTISVN",
 "textColor":"#999999",

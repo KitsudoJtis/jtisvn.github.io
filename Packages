@@ -3398,42 +3398,6 @@ Icon: https://jtisvn.github.io/sectionIcons/Griddy.png
 Name: Griddy (Roothide)
 Author: mikifp
 
-Package: com.jtis.hammerit
-Architecture: iphoneos-arm64e
-Version: 1.5.0
-Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 2288
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
-Filename: ./debs/com.jtis.hammerit_1.5.0_iphoneos-arm64e (1).deb
-Size: 436764
-MD5sum: cc6ba167233c5f549fd866ff6243a226
-SHA1: 7aa9a31959b40b2ab74ea9970303ac58346d1cea
-SHA256: 67236cb88a7d59f312891cb58ae609b40adf9ed521ce0767eb91dcc69f1a4877
-SHA512: 13d48488a3478d4e9fddb42e26c81e7529392c7a01b06fce6060a8dfa0c8d95ac215fa0479db4c7ebd551e5855e1894a1ab002c973f219c44deadaa2f9f79266
-Description: Dịch văn bản, hình ảnh theo ý chả bạn.
-Name: Hammer It
-Author: SquidForce
-Icon: file:///Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
-
-Package: com.jtis.hammerit
-Architecture: iphoneos-arm64e
-Version: 1.5.0
-Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 2288
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
-Filename: ./debs/com.jtis.hammerit_1.5.0_iphoneos-arm64e.deb
-Size: 436748
-MD5sum: 244cbde37be6acc5f60461788999c747
-SHA1: 594ab45739538bd07def9533b626b367afa5061a
-SHA256: ac0a5b29c45bed17418e5412253a75c755b59b4a3e7e14d31ac9a446250cc1f7
-SHA512: 34eb55ae1d792441a28b1714f1f18b00529b29b3bbdec62e9ddcdfa99ce7b04012c49cb25fcc1e4df7d7239101ece173b211d0b39029a8f378dca2e7ab027a0a
-Description: Control your text or translate as you wish.
-Name: Hammer It
-Author: SquidForce
-Icon: file:///Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
-
 Package: com.jtis.hidepullover
 Architecture: iphoneos-arm64e
 Version: 0.0.1
@@ -6338,6 +6302,45 @@ Author: Lang khach
 Name: AdblockPro
 Icon: https:/jtisvn.github.io/sectionIcons/AdBlockPro.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AdBlockPro.json
+
+Package: com.lclrc.hammerit
+Architecture: iphoneos-arm64e
+Version: 1.5.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2288
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.5.0_iphoneos-arm64e.deb
+Size: 435948
+MD5sum: d713790e64d88c09528f84151deb72a0
+SHA1: 4bfb6ec94275c70915895af0198b0f2d9cb81216
+SHA256: 07c2d13e30e35e2cdd4fae12b0132ac34cb66b472770d025f833f34c85480c1c
+SHA512: 51f13a6909fad1f16851bc0fc7ad9dc36a587671e4df5b1748b67fe7d1c63fc9582068c7a52457c0e63eec4f42aeefd890e0f3e57488e596dcb88d6b2aa406aa
+Description: Control your text or translate as you wish.
+Name: Hammer It (Roothide)
+Author: SquidForce
+SileoDepiction: https://jtisvn.github.io/sileodepictions/HammerIt.json
+Icon: https://jtisvn.github.io/sectionIcons/HammerIt.png
+
+Package: com.lclrc.hammerit
+Architecture: iphoneos-arm64e
+Version: 1.7.0
+Section: Tweaks
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.7.0_iphoneos-arm64e.deb
+Size: 989908
+MD5sum: f1b22775cf3d24c4eb2f3e67a5e809f1
+SHA1: 7482990129411dee81d4088a19924c411e8cec3a
+SHA256: 6548f5bec9319dbc90578cdd700a4fbed571f6379e3b504c4b936cd08ab17b3d
+SHA512: 682c6aaa27c5d262074ccd78ea645cc679c5337367236548e1ebe1197b2cb80f48d57e1b7245a27deaac22c915d78de0f0b7146ee5980e9dfeecaf2da0a4362c
+Description: Control your text or translate as you wish.
+Name: Hammer It (Roothide)
+Author: lclrc(SquidForce)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/HammerIt.json
+Icon: https://jtisvn.github.io/sectionIcons/HammerIt.png
 
 Package: com.mrgcgamer.libgcuniversal
 Architecture: iphoneos-arm64e
