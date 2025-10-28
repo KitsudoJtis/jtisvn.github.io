@@ -6154,25 +6154,6 @@ Name: Dock X gói Việt Hoá (Roothide)
 Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
-Package: com.kitsudo.hammerit
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Gói Tiếng Việt
-Maintainer: JTISVN Repo
-Installed-Size: 3808
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0), com.jtis.hammerit
-Filename: ./debs/com.kitsudo.hammerit_1.0_iphoneos-arm64.deb
-Size: 6412
-MD5sum: 5981003579750f4373227c8f15fe6bd6
-SHA1: e239a1452fbaa86c65fee0248ff8e451cd64d3cb
-SHA256: fd890da6bf31f8a1b73fe8ad1f314382cd30ef160d5cc609d85f76680bb2df49
-SHA512: 2f47b89f6fbd8a312c0138f2bff8ad25277cfec3c1a4c4045aa6a96bd905004d18784f90ae360335ce0d8b064b315ebd4b9d15e26b7b924a2c45392ea31b1b8a
-Description: Patch Tiếng Việt cho tweak HammerIT
-Name: Hammer It Gói Việt Hoá (Rootless)
-Author: JTISVN Repo
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
 Package: com.kitsudo.pulloverpro
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -6304,21 +6285,21 @@ Icon: https:/jtisvn.github.io/sectionIcons/AdBlockPro.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AdBlockPro.json
 
 Package: com.lclrc.hammerit
-Architecture: iphoneos-arm64e
-Version: 1.5.0
+Architecture: iphoneos-arm64
+Version: 1.7.0
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 2288
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
-Filename: ./debs/com.lclrc.hammerit_1.5.0_iphoneos-arm64e.deb
-Size: 435948
-MD5sum: d713790e64d88c09528f84151deb72a0
-SHA1: 4bfb6ec94275c70915895af0198b0f2d9cb81216
-SHA256: 07c2d13e30e35e2cdd4fae12b0132ac34cb66b472770d025f833f34c85480c1c
-SHA512: 51f13a6909fad1f16851bc0fc7ad9dc36a587671e4df5b1748b67fe7d1c63fc9582068c7a52457c0e63eec4f42aeefd890e0f3e57488e596dcb88d6b2aa406aa
+Installed-Size: 3808
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.7.0_iphoneos-arm64.deb
+Size: 970420
+MD5sum: 4ba18a3085e36ccbe86193efc372d46f
+SHA1: db22bd4874fcbc6726b487d836a219dfb239982a
+SHA256: 9e7b65a53af55cc99a32e970c2ed986b8874205aeb0683c118ffaf4d0d809382
+SHA512: 427053099eb130cb459438bf4b34965490617a0118f689ef9e0aa73ff13c3a83e31a9dc2a693cee21afa0b78d728529dff02a20b656edba6bef76f7283076ad2
 Description: Control your text or translate as you wish.
-Name: Hammer It (Roothide)
-Author: SquidForce
+Name: Hammer It (Rootless)
+Author: lclrc(SquidForce)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HammerIt.json
 Icon: https://jtisvn.github.io/sectionIcons/HammerIt.png
 
