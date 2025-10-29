@@ -1707,6 +1707,28 @@ Author: nqt1195
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BatteryPercent.json
 
 Package: com.jtis.bettercc
+Architecture: iphoneos-arm64
+Version: 0.0.51
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport, com.0xkuj.bettercccrashprotect, emt.paisseon.xinamine
+Filename: ./debs/com.jtis.bettercc_0.0.51_iphoneos-arm64.deb
+Size: 149668
+MD5sum: a514b3beebe3f7bceac9bcd2835c5f40
+SHA1: b7bddcfdae0a1324c0016390e5f63887d8f4c694
+SHA256: fd1b5e56035e3cf2538f26aefaa8c3a996d97934740e575aa8eadf88b353a87f
+SHA512: f11b96633045036437b4e43325fd799c350f4b0be22ce0e235284b637c78bccdd0c70729b3d0136877cb3d1db50517dd102fdced17806e2bef686e4835df3667
+Description: Customize your Control Center!
+ Invisible Modules.
+ Rearrange Connectivity Toggles.
+ Change Modules Size.
+ Weather Widget.
+Name: BetterCC (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BetterCC.json
+Icon: https://jtisvn.github.io/sectionIcons/BetterCC.png
+Author: Miguelaka95
+
+Package: com.jtis.bettercc
 Architecture: iphoneos-arm64e
 Version: 0.0.51
 Section: Tweaks
@@ -7380,6 +7402,25 @@ Tag: role::developer
 Name: libKitten
 Author: Traurige <hello@traurige.dev>
 Icon: file:///var/jb/Library/IconRepo/hethongg1.png
+
+Package: emt.paisseon.xinamine
+Architecture: iphoneos-arm64
+Version: 0.0.5-1
+Section: System
+Maintainer: Sudo + Paisseon
+Depends: ellekit, oldabi
+Filename: ./debs/emt.paisseon.xinamine_0.0.5-1_iphoneos-arm64.deb
+Size: 69988
+MD5sum: defb7f4083c07a5405ee05675821ccf2
+SHA1: dac383e940ec54926b752664676c517316bb1fdc
+SHA256: 4821704de0aafcafac327d88e56c6ecc7e2ed2f9f24158c4bb09d881e0d6bc3f
+SHA512: 82e80da98e555a885105dbfc79567c0ccf842498d90a4ff39b90ee6b4c37497b43ef6bf53613df324f63722c86f850be007de8ee261a53985eaa43c489a69489
+Description: Add Xina tweak compatibility to Dopamine
+Name: Xinamine
+Author: Sudo + Paisseon
+SileoDepiction: https://paisseon.github.io/depictions/Xinamine.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Xinamine.json&name=Xinamine&dev=Paisseon
+Icon: https://paisseon.github.io/icons/Xinamine.png
 
 Package: com.34306.trolldecryptjb
 Architecture: iphoneos-arm64
