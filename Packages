@@ -4883,6 +4883,29 @@ Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: Lizynz <lizynz@ya.ru>
 
 Package: com.jtis.shuffle
+Architecture: iphoneos-arm
+Version: 1.6.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: firmware (>=10.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debs/com.jtis.shuffle_1.6.2_iphoneos-arm.deb
+Size: 352924
+MD5sum: acd567adaf2f45963951eb6f714743ee
+SHA1: 0cc469de36986ff5327536dc2c30b744c1ced28b
+SHA256: c1d05efb7b2e80eda706a038562c9d19b21dc0a09ad83f6b1f9865a31557dd64
+SHA512: 33919e1c400248d2d9a2413eaab094939dab40ecf6928ebc74347bf30873012cb34c3fb03b12bcc250bbd087d534190397e9148464568a18598f2100c5d328a3
+Homepage: https://jtisvn.github.io
+Description: Sắp xếp cài đặt của bạn
+Name: Shuffle
+Author: CreatureSurvive
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Shuffle.json
+Icon: https://jtisvn.github.io/sectionIcons/Shuffle.png
+Tags: purpose::extension, compatible_min::ios10.0, compatible_max::ios15.5
+
+Package: com.jtis.shuffle
 Architecture: iphoneos-arm64
 Version: 1.6.2
 Section: Tweaks
