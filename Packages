@@ -94,6 +94,25 @@ Sponsor: 搬运工
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Sileodepiction: https://jtisvn.github.io/sileodepictions/DockPixel.json
 
+Package: ccom.jtis.ccborder
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: fiore
+Installed-Size: 88
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/ccom.jtis.ccborder_1.0_iphoneos-arm64.deb
+Size: 4300
+MD5sum: 1fc5c93ddabaff927edc9fae78d45944
+SHA1: 74c96444635018ab1979ca90410f6c1b609ebd19
+SHA256: 81a7cef46407d01612299ef2767d2f5672c5f1a5bb8208c93b31862eb5b36275
+SHA512: 4ad0952a06d47524806ef0f253d12e45e3212e2f2da71d66bac2de9d6c6be2ec807004710f49be6aea9616ce75333fb2b5590dfd6f4bd63f5485af7f3a3933af
+Description: Simple tweak that removes module background and adds a border, just like CoolCC!
+Name: CCBorder (Rootless)
+Author: fiore
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCbonder.json
+Icon: https://jtisvn.github.io/sectionIcons/CCbonder.png
+
 Package: cn.llld.2playerbj
 Architecture: iphoneos-arm64
 Version: 1.0
