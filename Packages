@@ -603,6 +603,30 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/HideSerialNumber.json
 Icon: https://Jtisvn.github.io/sectionIcons/HideSerialNumber.png
 dev: ichitaso
 
+Package: com.ichitaso.powerselector11
+Architecture: iphoneos-arm64
+Version: 1.4.0
+Section: Utilities
+Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
+Installed-Size: 2212
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Filename: ./debs/com.ichitaso.powerselector11_1.4.0_iphoneos-arm64.deb
+Size: 201864
+MD5sum: 6c2025b9f4d5cc2bacca784e12a8ab82
+SHA1: ac55d18fa282e2738d85359efe22d8f1695bfee8
+SHA256: 027cd1a35ea5ce2db882e53507f5379ad2b385a74029971f7b96cb74f211b892
+SHA512: 22db9c9f41e7e5090d3319515fed189c462284e44d397411d54294164a13bb9d5561a492cb4586b7d48e58ca274fcfb4c36210ed9e1b285aa24a5fc0cab0d824
+Description: The power supply relation of a device is operated.
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios17.1.2
+Author: ichitaso <willfeeltips+ps11@gmail.com>
+Name: PowerSelector (Rootless)
+dev: ichitaso
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
+Icon: https://jtisvn.github.io/sectionIcons/PowerSelector.png
+
 Package: com.jti.atria
 Architecture: iphoneos-arm64
 Version: 1.4.1
