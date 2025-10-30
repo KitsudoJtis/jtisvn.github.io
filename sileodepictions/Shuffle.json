@@ -8,16 +8,6 @@
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionHeaderView",
-"title":"Shuffle"
-},
-{
-"markdown":"\n\n- Phân chia các mục trong cài đặt'\n\n- Tweak (mục Tinh chỉnh)\n\n- Appstore (mục Ứng dụng Appstore)\n\n- SystemApp (mục Ứng dụng hệ thống)\n\n- Bật 3D Tiuch trong cài đặt và còn 1 số chức năng khác....\n\n",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
-{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
@@ -27,46 +17,166 @@
 {
 "url":"https://jtisvn.github.io/infodeb/Shuffle/Screenshots/2.png",
 "accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Shuffle/Screenshots/3.png",
+"accessibilityText":"Screenshot"
 }
 ],
 "itemCornerRadius":0,
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionMarkdownView"
+"markdown":"Shuffle\n\n- Phân chia các mục trong cài đặt'\n\n- Tweak (mục Tinh chỉnh)\n\n- Appstore (mục Ứng dụng Appstore)\n\n- SystemApp (mục Ứng dụng hệ thống)\n\n- Bật 3D Tiuch trong cài đặt và còn 1 số chức năng khác nữa...",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionSpacerView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"CreatureSurvive"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.6.2" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"19/5/2025"
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 14.0 đến 16.5"
+"class": "DepictionLabelView",
+"text": "CreatureSurvive",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "10/4/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.6.2",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "12.0 - 16.5",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiền bạn 1.6.3\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên hệ Hỗ trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Liên hệ Hỗ trợ",
-"action":"https://jtisvn.github.io/donate/donate.html"
+"title":"Ủng hộ tôi một ly cà phê",
+"action":"https://jtisvn.github.io/donate/donate.html",
 },
 {
 "class":"DepictionTableButtonView",
@@ -77,23 +187,6 @@
 "class":"DepictionTableButtonView",
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
-},
-{
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
-}
-],
-"class":"DepictionStackView"
-},
-{
-"tabname":"Nhật ký thay đổi",
-"views":[
-{
-"class":"DepictionMarkdownView",
-"markdown":"### Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 },
 {
 "class":"DepictionLabelView",

@@ -4882,47 +4882,53 @@ Name: ShadowBuster (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: Lizynz <lizynz@ya.ru>
 
-Package: com.jtis.shuffle-rootless
+Package: com.jtis.shuffle
 Architecture: iphoneos-arm64
 Version: 1.6.2
 Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 596
-Depends: mobilesubstrate, com.creaturecoding.libcspreferences
-Filename: ./debs/com.jtis.shuffle-rootless_1.6.2_iphoneos-arm64.deb
-Size: 250160
-MD5sum: 8a424787c2fd6af3393d78e269f025b5
-SHA1: 4f0f356794582752bafbba3fc8f9d89e0b01b44c
-SHA256: aa6934306f395a8413a024f0ba1a98cfdeea713702157718fe52709fd54edc5e
-SHA512: 493b75b39dd09214a1dc98c336b98c4a69491ec12a5974352b9ac0a2030df81fc949f5589dbd533c4d6723b2b25a458df494e7437e3b93499d2ef32f5fe0cde0
-Description: Shuffle
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debs/com.jtis.shuffle_1.6.2_iphoneos-arm64.deb
+Size: 253940
+MD5sum: b58b7c4baf1b9656fc9c5eef90b2b69e
+SHA1: 4254341b5441315bc6876c6c0a774f95dd1082b7
+SHA256: 45ae20230dc2d839ea648cb8dcef1f45e17b2626aa8d32445a81d2fe51a70a5f
+SHA512: 04f7dd729d029ee553a023398a8cac4e3f533d9689ac6eb29e535c948054ff65ec6f855c47ebc371ac31810787a52a0d690d499ddde0635d58e14e114c99499c
+Homepage: https://jtisvn.github.io
+Description: Organize your settings
+Tag: purpose::extension, compatible_min::ios10
 Name: Shuffle (Rootless)
-Author: CreatureSurvive
+Author: CreatureSurvive <support@creaturecoding.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Shuffle.json
+Icon: https://jtisvn.github.io/sectionIcons/Shuffle.png
 
 Package: com.jtis.shuffle
 Architecture: iphoneos-arm64e
 Version: 1.6.2
 Section: Tweaks
-Maintainer: JTIS Repo
+Maintainer: CreatureSurvive <support@creaturecoding.com>
 Installed-Size: 1484
 Pre-Depends: rootless-compat(>= 0.9), firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
 Depends: com.creaturecoding.libcspreferences
 Conflicts: com.cpdigitaldarkroom.placeholder
 Replaces: com.cpdigitaldarkroom.placeholder
 Filename: ./debs/com.jtis.shuffle_1.6.2_iphoneos-arm64e.deb
-Size: 257316
-MD5sum: 3ecae125a4af5412eb2420fc2ff9413a
-SHA1: f8672d58cc3c3590e190cd997dabcd9a220b24cc
-SHA256: cee00765dc251e2dd6b4514d47e6a43d9b6c8295d89e1663ee5708001409bfeb
-SHA512: 3c741c66fbf8e90197d7c550c1727823f03c93503e1b68c1b1dad44f9ff5785cce97dbfce1265225e20bd49262a8ff343f84b91a67ee425e8081b1ed816d2e27
-Homepage: https://creaturecoding.com/
-Description: Phân chia các mục trong cài đặt.
+Size: 261116
+MD5sum: 8c62c0f9815639523eb026ec1e657f49
+SHA1: 76f44f318765a8334c7db84639cc6a7744e29df2
+SHA256: 6743528557916d8a3bef702ddbea9ef41104bcb483985eb00e29a7ca94e41e69
+SHA512: 4464b56caa069f1a430e74451218d584808b95e199966eba48d854e5d7f45dc2be57783d64f5063f3c1db490e0a7d7b8d92a616147ef6e2cf378e77dc449f8b1
+Homepage: https://jtisvn.github.io
+Description: Organize your settings
 Tag: purpose::extension, compatible_min::ios10
 Name: Shuffle (Roothide)
 Author: CreatureSurvive <support@creaturecoding.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Shuffle.json
-Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Icon: https://jtisvn.github.io/sectionIcons/Shuffle.png
 
 Package: com.jtis.singlemute
 Architecture: iphoneos-arm64
