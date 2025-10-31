@@ -3963,6 +3963,27 @@ Name: Little12 (Rootless)
 Author: Ryan Nair
 Icon: https://jtisvn.github.io/sectionIcons/Little12.png
 
+Package: com.jtis.littlexs
+Architecture: iphoneos-arm
+Version: 2.4.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 332
+Provides: com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.binksalex.fluidify, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Replaces: com.binksalex.fluidify, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: ./debs/com.jtis.littlexs_2.4.4_iphoneos-arm.deb
+Size: 22028
+MD5sum: f858ba28352ba13e4674c8fa6b1436ac
+SHA1: 9a05f3e301e667fee8e4e7af6db19f9a6048794a
+SHA256: 342dfef0cde65b132e03570058d8e3de12c6a8ce20bfc87e8791cc69c4840dec
+SHA512: 2323768cb8a92eeb91ceeaf5a350bc0b4047a669fd1d482ef16414f87e2a72454d1e2e842838b508a3989e990f416da36df86adc91ea3ddf1876abdb0ab4e8f7
+Description: Fake cử chỉ giống iPhoneX cho dòng máy đời thấp và 1 số tính năng khác.
+Name: LittleXS
+Author: binksalex & Ryan Nair
+Icon: https://jtisvn.github.io/sectionIcons/LittleXS.png
+
 Package: com.jtis.lockplayer
 Architecture: iphoneos-arm64
 Version: 3.22
@@ -6325,24 +6346,6 @@ Name: PullOver Pro Gói Việt Hoá (Roothide)
 Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
-Package: com.kitsudo.snowboard
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Gói Tiếng Việt
-Maintainer: JTISVN Repo
-Installed-Size: 36568
-Depends: mobilesubstrate
-Filename: ./debs/com.kitsudo.snowboard_1.0_iphoneos-arm64.deb
-Size: 4452
-MD5sum: 6f05bfbf885582e7edd68d9e58061308
-SHA1: 2d9166b9121b317d12ea2e743f81eb6d79d2926b
-SHA256: 4606ad2e3ffa260faf4b96b4c9dcc606dbba51edb491afdc34bdcebe10d10a54
-SHA512: 9a53fdf69e5d377858cf388def879a39e6b6c3236f3073f93b87f74878ce7818e021476a8e0f7318693dd090573763dc1be1f3c02e42d6fe63e9c749ab564014
-Description: Patch Tiếng Việt cho tweak Snowboard
-Name: Snowboard gói Việt Hoá (Rootless)
-Author: JTISVN Repo
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
 Package: com.kitsudo.touchviz
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -7228,6 +7231,32 @@ Name: SnowBoard UI Extension
 Author: Spark
 
 Package: com.spark.snowboard
+Architecture: iphoneos-arm
+Version: 1.4.20~Beta5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/com.spark.snowboard_1.4.20~Beta5_iphoneos-arm.deb
+Size: 5042492
+MD5sum: 931f0673d087e2f1e9975ad2c696b2b5
+SHA1: e00b839c1092c79a08f7f377ee3eed6bed38102c
+SHA256: 2d45ecc232dc6882deb1e6c9bea4c8be368e59edc349e671c6233c0d34fa027d
+SHA512: ca7a51f58b39df05c338dbfbc6212c785149804d2e9ffe97b4a7a114fdc412adbe48ba607a0d2bbbf82e35a548eb234624f1826b8116464dcdad8e66552145b6
+Homepage: https://jtisvn.github.io
+Description: Tinh chỉnh này dùng thay đổi chủ đề
+Tag: role::enduser
+Name: SnowBoard
+Depiction: https://jtisvn.github.io/depictions/SnowBoard.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SnowBoard.json
+Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
+Tags: compatible_min::ios7.0, compatible_max::ios14.8.1
+Author: Spark
+SomeOtherEntryToControl: True
+
+Package: com.spark.snowboard
 Architecture: iphoneos-arm64e
 Version: 1.5.37-Beta4-roothide
 Section: Tweaks
@@ -7248,6 +7277,30 @@ Description: Tinh chỉnh thay đổi chủ đề ứng dụng.
 Name: SnowBoard  (Roothide)
 Author: Spark & Dennis D. Bednarz
 https: //jtisvn.github.io/depictions/SnowBoard.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SnowBoard.json
+Tags: compatible_min::ios15.0, compatible_max::ios17.3
+Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
+
+Package: com.spark.snowboard
+Architecture: iphoneos-arm64
+Version: 1.5.37-Beta4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/com.spark.snowboard_1.5.37-Beta4_iphoneos-arm64.deb
+Size: 4337388
+MD5sum: a3959fa2715d0040c550f048e0dcff9e
+SHA1: 018599ba1556b67c9998d95eea77a51b70866074
+SHA256: 4c5a12bfeecf27b172bcb166303ed669fd166cf4551ccf4a073e16031a65b6c1
+SHA512: 1cabfd103149343b82750114b3a870d6ddd2b99ae857263f35918723dcd69b114a11567357e4df68eebf8c0413c3f8fc0cff92f71a8253fff5410dc5ad3d33b0
+Homepage: https://jtisvn.github.io
+Description: Tinh chỉnh này dùng thay đổi chủ đề
+Name: SnowBoard (Rootless)
+Author: Spark & Dennis D. Bednarz
+Depiction: https://jtisvn.github.io/depictions/SnowBoard.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SnowBoard.json
 Tags: compatible_min::ios15.0, compatible_max::ios17.3
 Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
@@ -7375,6 +7428,25 @@ Name: DockX (Roothide)
 Author: udevs
 Icon: https://jtisvn.github.io/sectionIcons/Dockx.png
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
+Package: com.vitataf.homegesture
+Architecture: iphoneos-arm
+Version: 2.1.4
+Section: Tweaks
+Maintainer: MidnightChips/PINPAL
+Installed-Size: 3244
+Pre-Depends: com.spark.libsparkapplist
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker, org.thebigboss.libcolorpicker
+Filename: ./debs/com.vitataf.homegesture_2.1.4_iphoneos-arm.deb
+Size: 2272036
+MD5sum: 30695e64b0e96216ef308bc2e5c64efa
+SHA1: 9333a5e4b52eb2f8e4ea72194812517914244258
+SHA256: c0fbb57471f3f19774d1449feb0f8f537dc95592430eaf428afe05980042b808
+SHA512: 1d0c33fa89ae939d4bab573ae6913c703aa7644e2c557d8ab66ca5ff90d412ac58195e74717d37baa8cb4f3e38f48fe22c501bcdfd89ee0f6deef334f377e587
+Description: Kích hoạt cử chỉ màn hình chính của iPhone X trên các thiết bị đời thấp iOS11+
+Name: HomeGesture
+Author: VitaTaf/MidnightChips/PINPAL
+Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
 
 Package: com.xina.blacklist
 Architecture: iphoneos-arm64

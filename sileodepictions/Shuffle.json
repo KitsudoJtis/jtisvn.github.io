@@ -160,7 +160,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiền bạn 1.6.3\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiền bạn 1.6.3\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Roôtfull, Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"

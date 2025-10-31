@@ -31,7 +31,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"PowerSelector\n\n- Thêm 1 số chức năng tuỷ chọn SpringBoard lên Trung tâm điều khiển gồm:\n\n- Power Off Tắt thiêt bị\n\n- Reboot Khởi động lại thiết bị\n\n- UICache Làm mới lại giao điện\n\n- Respring Khởi đọng lại SpringBoard\n\n- Safe Mode Đưa thiết bị vào chế độ an toàn\n\n- LDRestart Khởi động lại tiến trình launchd\n\n- UserSpace Reboot Khởi động lại không gian người dùng.",
+"markdown":"PowerSelector\n\n- Thêm 1 số chức năng tuỳ chọn SpringBoard lên Trung tâm điều khiển gồm:\n\n- Power Off Tắt thiêt bị\n\n- Reboot Khởi động lại thiết bị\n\n- UICache Làm mới lại giao điện\n\n- Respring Khởi đọng lại SpringBoard\n\n- Safe Mode Đưa thiết bị vào chế độ an toàn\n\n- LDRestart Khởi động lại tiến trình launchd\n\n- UserSpace Reboot Khởi động lại không gian người dùng.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

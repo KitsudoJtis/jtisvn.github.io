@@ -66,7 +66,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Spark & Dennis D. Bendnarz",
+"text": "Spark dev",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -165,7 +165,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 15.3.7\n\n- Thêm sẵn 1 số biểu tượng UI,Switch và maskAE\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Roothide Jailbreak"
+"markdown":"### Phiên bản 15.3.7\n\n- Thêm sẵn 1 số biểu tượng UI,Switch và maskAE\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootfull, Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
