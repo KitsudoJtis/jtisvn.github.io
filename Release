@@ -7,5 +7,5 @@ Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Apple-Support
 MD5Sum:
- 71da81967c11832ffe46a29f4de0c7c9 347562 Packages
- 3a75e00df3219f0dbe471678c8c5fbc2 85945 Packages.bz2
+ c3c90e7755fc2719d5a95fcfa0ef0ec5 349159 Packages
+ 7bd3e0b3427e3b16489cf12ed42112cc 86368 Packages.bz2

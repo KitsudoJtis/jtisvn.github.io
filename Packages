@@ -1673,6 +1673,45 @@ Author: Nepeta & Baw Appie
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
 Icon: https://jtisvn.github.io/sectionIcons/Axon.png
 
+Package: com.jtis.batterycricle
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.batterycricle_1.0.1_iphoneos-arm64.deb
+Size: 9360
+MD5sum: 32aba13753676f6afd2d08d9fe8c0db3
+SHA1: 404b82a22a47b1dbc6672b5674c5e80b90838423
+SHA256: e427a65ec135f54c9643c74cd9a7c0e0cd84e605cf45e3e06358571997a132e4
+SHA512: 5211343d702c66ea0f9fe2664bda8c664449d830c443c054d92bfdb998ede4b5203a43dc4c0a5e33d4e0a8337661a4f20896e2730244823058449b422e682327
+Description: Show Current Percentage Inside Cricle Battery Icon!
+Name: BatteryCricle (Rootless)
+Author: nqt1195
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BatteryCricle.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.batterycricle
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 104
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.batterycricle_1.0.1_iphoneos-arm64e.deb
+Size: 9100
+MD5sum: dbb1b0e28cf42867a76bb5cd4e662715
+SHA1: 2fd079c7626332686d9aa7aae1900c8de4fd68df
+SHA256: 210f469f2d46649a616d115ce3eafcad220377a3ef0f198292402e2dbc017114
+SHA512: 6ca562bca841eac993e3c82fc58962b36b95f87859096f32e2c344c927b3f766c685a68900aafd91863a687f9f581dc6a1fbd5e27b1b27b3a52d5daea4bb2db9
+Description: Show Current Percentage Inside Cricle Battery Icon!
+Name: BatteryCricle (Roothide)
+Author: nqt1195
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BatteryCricle.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.batteryinfo
 Architecture: iphoneos-arm64
 Version: 1.1.8
