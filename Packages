@@ -968,20 +968,42 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Gifisland.json
 Icon: https://jtisvn.github.io/sectionIcons/Gifisland.png
 
 Package: com.jtis.Goku
+Architecture: iphoneos-arm
+Version: 0.1
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Depends: firmware (>=13.0)
+Filename: ./debs/com.jtis.Goku_0.1_iphoneos-arm.deb
+Size: 3048576
+MD5sum: 8a205459cbc9fb1e04c2d56f35ee92c5
+SHA1: d130895537aa7b90ae47ece72c3e01e040c4b6bc
+SHA256: 2520e3ada6ed5289b1bcb40ca441dd6360558146dd8b2226ec92f9d7ad667734
+SHA512: 257d90f63bf2f02a646c47adaab59f43dd0dd9f8c0d13d8ddf364b3317c10e590a7f2353524d4d736d298140f708404f094fbc56a7da95d66443d729cdfa1865
+Homepage: https://jtisvn.github.io
+Description: Chủ đề bàn phím cho Laetus
+Name: Goku Theme
+Author: Kitsudo
+Depiction: https://jtisvn.github.io/depictions/Goku.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
+Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+Tags: compatible_min::ios13.0, compatible_max::ios14.8.1
+
+Package: com.jtis.Goku
 Architecture: iphoneos-arm64
 Version: 0.1
 Section: Keyboard Themes
 Maintainer: JTIS Repo
 Installed-Size: 7344
 Filename: ./debs/com.jtis.Goku_0.1_iphoneos-arm64.deb
-Size: 3048160
-MD5sum: ad0b0afc2edc3513cfa2d0485e9b19fc
-SHA1: d1cfc9e0aeb4506143518af050b943cdc327a4a7
-SHA256: 348f35456bf559b28bfbf333ab22c94983cfe499656f41cfec1fd416807d4448
-SHA512: abd06d5b70bef167b74e8e1fa04d2f759ecc06bc330f31bc29e2c72555ea36cc651649a4a6bc334382d41b96d80f7d826bcab62c2ededa189cde56c1a868b902
+Size: 3048168
+MD5sum: 65788d16aaeda820fcbd6c479b3ed873
+SHA1: d6af9c31e6347015d95fff2253c143994df84222
+SHA256: de9b8054b7c2f6b26cc002ecf5ac27dc9e09ceb5db23758d8ea6226d1025361a
+SHA512: 6179b36bdb146b692b09123ee98566a7bb0d028870de06f607cfe79417064c52317674a9f1952435240b5488ec001c3ce1bc92ca25eeb77bcea953219f9ccc0f
 Description: Chủ đề bàn phím kích hoạt qua Laetus
 Name: Goku Theme
 Author: Kitsudo
+Depiction: https://jtisvn.github.io/depictions/Goku.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 
@@ -5827,6 +5849,26 @@ Icon: https://jtisvn.github.io/sectionIcons/Velvet2.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Velvet2.json
 
 Package: com.jtis.vietnam2-9
+Architecture: iphoneos-arm
+Version: 0.1
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Depends: firmware (>=13.0)
+Filename: ./debs/com.jtis.vietnam2-9_0.1_iphoneos-arm.deb
+Size: 9741452
+MD5sum: ead611080799a81d7b45bca40c15085d
+SHA1: 7ef1516075bfad11905c3bc7a119b3a2c1ec2530
+SHA256: d1b23cfc9548cb2433df0073601e8f0974628a8ae64b3c32eaf934668603c6a4
+SHA512: 52bd72f55393475397813aeff6b996c2cfad177a49a1c3f3312e0c249be7fa672986b5699361e7fdaa50dea8880e6a8cf6813fa4ac6daa4d12e7860b3ff60fe2
+Homepage: https://jtisvn.github.io
+Description: Chủ đề bàn phím cho Laetus
+Name: VietNam 2-9
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VietNam.json
+Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+Tags: compatible_min::ios13.0, compatible_max::ios14.8.1
+
+Package: com.jtis.vietnam2-9
 Architecture: iphoneos-arm64
 Version: 0.1
 Section: Keyboard Themes
@@ -6950,6 +6992,25 @@ Author: roothide
 Icon: https://bvnsupport.github.io/depictions/sectionIcons/hethongg1.png:
 Depiction: https://github.com/roothide/RootHideManagerApp
 Support: https://github.com/roothide/RootHideManagerApp
+
+Package: com.rpgfarm.a-font
+Architecture: iphoneos-arm
+Version: 1.10
+Section: Tweaks
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 2380
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.rpgfarm.a-font_1.10_iphoneos-arm.deb
+Size: 496468
+MD5sum: ba5b39f0f1c1fc372aa35173d8a303ca
+SHA1: 03c9888b8b025187dd6e9ad5accc2a1002b0fdd8
+SHA256: ef26cd0dda8a8dac4c5a53e903b369ebead6fa86ede489f169c25851cb608e5a
+SHA512: 24ed25c756bdbe45f20de6db9c32abe6b3e05999e9e88e44aac3029510b12ee6059fc57e970c73b93ce1a3cf1817bba6850b227bff8e73221bbd5258ba5c6dff
+Description: Thay đổi phông chữ của bạn!
+Name: A-Font
+Icon: https://jtisvn.github.io/sectionIcons/A-Font.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/A-Font.json
+Author: Baw Appie <pp121324@gmail.com>
 
 Package: com.rpgfarm.a-font
 Architecture: iphoneos-arm64
