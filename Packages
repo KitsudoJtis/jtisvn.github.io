@@ -1345,6 +1345,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AdGuard.json
 Icon: https://jtisvn.github.io/sectionIcons/AdGuard.png
 
 Package: com.jtis.aimpro
+Architecture: iphoneos-arm
+Version: 1.1.3K
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 5708
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.17.1), com.spark.libsparkcolourpicker
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
+Filename: ./debs/com.jtis.aimpro_1.1.3K_iphoneos-arm.deb
+Size: 2356204
+MD5sum: 1c93ee5069c77a6f13c11630891be633
+SHA1: 0aedc45f57cc103286eb5fe075a7d12580c991fc
+SHA256: 622e11c10588954e9cc306b18cd8fedeaec7c87d57457617d6a72ec049fa6e09
+SHA512: 529e012dc9c53a2f41b270b3db3b73ee1c2bf19bbfa3e1a5b26d99f00582ef98d582c7b57e379ce96b075e20ed5ed587b7713bd84178e07e78ed79668dfb6195
+Description: Tuỳ chỉnh màn hình khóa theo kiểu iOS 16
+Name: AIM Pro
+Author: alimaulana
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AimPro.json
+Icon: https://jtisvn.github.io/sectionIcons/AimPro.png
+
+Package: com.jtis.aimpro
 Architecture: iphoneos-arm64
 Version: 1.1.3
 Section: Tweaks
@@ -6501,6 +6521,28 @@ Name: Hammer It (Roothide)
 Author: lclrc(SquidForce)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HammerIt.json
 Icon: https://jtisvn.github.io/sectionIcons/HammerIt.png
+
+Package: com.matchstic.xenhtml
+Architecture: iphoneos-arm
+Version: 3.63~release
+Priority: optional
+Section: Tweaks
+Maintainer: JTISVN Repo
+Provides: com.groovycarrot.groovylock, com.bushe.lockhtml4, com.bushe.lockhtml3, com.bushe.lockhtml2, cydget, com.groovycarrot.sbhtml, com.junesiphone.xeninfo, com.modmyi.widgetweather3, com.matchstic.infostats2, com.matchstic.infostats
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, firmware (>= 11.0) | com.unlimapps.uaunbox, com.rpetrich.rocketbootstrap
+Filename: ./debs/com.matchstic.xenhtml_3.63~release_iphoneos-arm.deb
+Size: 4143648
+MD5sum: f8ec7b14aac2ccad83a40fdf61a264c6
+SHA1: 2f78f31b61c901a77b725506adc357d9fb1e8149
+SHA256: 1631d89df8aba1ecf15456e7293aaf777e57ed1790a6b6898a96cda4efc930e5
+SHA512: ef39e49e30a12a2e8780ff1784d39a4ddfcf8a947acc883fb7559aa948974f315813782115155f36580015430052d2a5e8183853860127cd2d8a9751fa7bea2a
+Homepage: https://jtisvn.github.io
+Description: Thêm tiện ích lên Màn hình chính & Màn hình khoá
+Name: Xen HTML
+SileoDepiction: https://jtisvn.github.io/sileodepictions/XenHTML.json
+Icon: https://jtisvn.github.io/sectionIcons/XenHTML.png
+Tags: compatible_min::ios9.0, compatible_max::ios14.8.1
+Author: Matt Clarke
 
 Package: com.mrgcgamer.libgcuniversal
 Architecture: iphoneos-arm64e

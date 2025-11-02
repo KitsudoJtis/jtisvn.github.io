@@ -143,7 +143,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.0 - 16.5",
+"text": "12.0 - 16.5",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -173,7 +173,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.1.3\n\n- Thêm tùy chỉnh hiệu ứng kính nhãn thời gian\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.1.3\n\n- Thêm tùy chỉnh hiệu ứng kính nhãn thời gian\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootfull, Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
