@@ -64,7 +64,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 15 - 16.5"
+"text":"iOS 11.0 - 16.5"
 },
 {
 "class":"DepictionTableButtonView",
@@ -96,7 +96,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"#### Phiên bản 1.10\n\n- Hiệu ứng cuộn mượt mà hơn.\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"#### Phiên bản 1.1.3\n\n- Hiệu ứng cuộn mượt mà hơn.\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 },
 {
 "class":"DepictionLabelView",

@@ -2155,6 +2155,27 @@ Icon: https://jtisvn.github.io/sectionIcons/Themes.png
  Pre-Depends: rootless-compat(>= 0.9)
 
 Package: com.jtis.cask3
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 812
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Replaces: com.ryannair05.cask2
+Filename: ./debs/com.jtis.cask3_1.0.0_iphoneos-arm.deb
+Size: 318420
+MD5sum: 8421dc235183db3741fb58da938036af
+SHA1: c4caff399bcbd8ae59b793e0d28c5fe6f674bf66
+SHA256: e4cff1f16a3b6c050a8e55d40f2b04e792cb01953542b7511ff991b9382771ef
+SHA512: 2661f3616d0c34f5e815942cbe3b91deae28f394139a5cd360db1035b2f2ae4c1a5792974b2295b022ad115de43df639e3eec5b1b2e2148cc7aed5373cb7dfe8
+Description: Di chuyển bảng hoạt hình
+Name: Cask 3
+Author: Ryan Nair
+Depiction: http://bvnsupport-jailbreak.github.io/infodeb/Cask/?p=info
+Icon: https://jtisvn.github.io/sectionIcons/Cask3.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Cask3.json
+
+Package: com.jtis.cask3
 Architecture: iphoneos-arm64
 Version: 1.0.3
 Section: Tweaks
@@ -2651,6 +2672,47 @@ Name: roundPrefs (Rootless)
 Author: CydiaGeek <lucaluca86@aol.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/roudPrefs.json
 
+Package: com.jtis.cylinderreborn
+Architecture: iphoneos-arm
+Version: 1.1.2
+Section: Tweaks
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 1305
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Filename: ./debs/com.jtis.cylinderreborn_1.1.2_iphoneos-arm.deb
+Size: 230240
+MD5sum: aa27b3a5bbd18e65c58ef9d3d8fa4baf
+SHA1: 62ba3c0063ee56ea84958e05bc75c994afbf8da5
+SHA256: 569c913817808a8266fc3e4c57943306a444f1d101388c2537a1a4211927c9a7
+SHA512: aa47532ea0dbc5944100846f4e305e10870b2ad2f8124fe94b2127cd7bec8c916c6cb088ecbd9a8c2c76178d431731d93c4331ffb33d710ac735fa3fadb64d7c
+Description: Make your icons dance
+Tag: compatible_min::ios11.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Name: Cylinder Reborn
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
+Icon: https://jtisvn.github.io/sectionIcons/Cylinder-rebom.png
+
+Package: com.jtis.cylinderreborn
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1253
+Depends: firmware (>= 15.0), ellekit (>= 0.3), preferenceloader
+Replaces: com.bvn.cylinder-vh
+Filename: ./debs/com.jtis.cylinderreborn_1.1.3_iphoneos-arm64.deb
+Size: 223788
+MD5sum: 8d2e9b36f2879c4fbaf3034f03db278d
+SHA1: 8f81af8a398fb81587eebe8a2662bf98c826adf9
+SHA256: f992fc23cb02ce83acb75b3fb925b6e6ea3e793f4621e441b414c48f2a4a8118
+SHA512: 1c3b419ce95dfec831cc944239fb5c001147362f33daa2c2f6c54d48ae075942ed2ffe50cb6270e4884328f03f51873f8ed4fcaa5b7aabafe96f0f585e861bd4
+Description: Make your icons dance
+Tag: compatible_min::ios11.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Name: Cylinder Reborn (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
+Icon: https://jtisvn.github.io/sectionIcons/Cylinder-rebom.png
+
 Package: com.jtis.cylinderremade.roothide
 Architecture: iphoneos-arm64e
 Version: 0.0.3-beta
@@ -2667,27 +2729,6 @@ SHA512: 2a56f2b07127369535af400c90b355d7784495e0681544bd1b8144dfef9020ff9fd7ccc2
 Description: Tuỳ biến hiệu ứng cuộn trên màn hình chính
 Name: Cylinder Remade (Roothide)
 Author: Ryan Nalr
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
-Icon: https://jtisvn.github.io/sectionIcons/Cylinder-rebom.png
-
-Package: com.jtis.cylinderremmade
-Architecture: iphoneos-arm64
-Version: 1.1.3
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 1253
-Depends: firmware (>= 15.0), ellekit (>= 0.3), preferenceloader
-Replaces: com.bvn.cylinder-vh
-Filename: ./debs/com.jtis.cylinderremmade_1.1.3_iphoneos-arm64.deb
-Size: 223812
-MD5sum: 6bc8809cb749bb0d7a4d8f294c82089b
-SHA1: e1ea985f09a40532f0e487ea4c3160551b8cbf33
-SHA256: ee933809282e230f6feee7eabb00d1c9edaec80fd0c3d484f7567ef9c03ec17e
-SHA512: c65eb44ffe278b9e62201a363e60211be32ae752bf05184d58b82e23e658ccd369c32858be98e8edbd2ed4c54c97b5e35962af949331bf748cc29660cbaddd40
-Description: Make your icons dance
-Tag: compatible_min::ios11.0
-Author: Ryan Nair <ryannairtweaks@gmail.com>
-Name: Cylinder Reborn (Rootless)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
 Icon: https://jtisvn.github.io/sectionIcons/Cylinder-rebom.png
 
@@ -7744,6 +7785,26 @@ Description: library for Foxfort tweaks
 Tag: role::developer
 Name: libfoxfortutils
 Author: FoxfortMobile
+
+Package: me.tomt000.copylog
+Architecture: iphoneos-arm
+Version: 1.7.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2204
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.0xkuj.copylogfix16, dev.midn1ght.copylog
+Filename: ./debs/me.tomt000.copylog_1.7.1_iphoneos-arm.deb
+Size: 1045844
+MD5sum: 543669bae48a6c3731760b450ad21b22
+SHA1: 304b2c4dd0b955fcf58118df9a87a952068df2d7
+SHA256: ead31a654189a464c02307b29789d5d39179dcdf5cedbbb99204a15a5f71c991
+SHA512: e05fd8d95f5d330d73d693325113245232dbb5eac1c711862128bf7bf8b35a5258f86407fc558544351b0235c873330b9305aa36b83d3a67a28b913993765a6f
+Description: Quản lý lịch sử bảng tạm cho iOS!!
+Name: CopyLog
+Author: TomT000
+SileoDepiction: https:/jtisvn.github.io/sileodepictions/Copylog.json
+Icon: https://jtisvn.github.io/sectionIcons/Copylog.png
 
 Package: me.tomt000.copylog
 Architecture: iphoneos-arm64
