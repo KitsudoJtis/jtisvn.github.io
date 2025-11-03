@@ -7828,6 +7828,25 @@ Description: Decrypt Appstore App that require higher iOS
 Name: TrollDecryptJB
 Author: 34306, khanhduytran0
 
+Package: jp.uzra.muteplay
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: uz.ra
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/jp.uzra.muteplay_1.0_iphoneos-arm64e.deb
+Size: 4752
+MD5sum: e8c5c8dc51c3e6c4d86bc27742839920
+SHA1: 5ebef4fb3f2b003831aaa0f890d4297e141f28c4
+SHA256: 7cdb3d380e557dab77b3ebdf233117656eb5be2ef08f168d4d7a78cbb3285a7c
+SHA512: 2f70bb04e657f797f41cb8dbe2458e42512518a0cdb037dd549912d9fad87a08f5dd663dac1455585a36126bf432515a9e753d03aba8490aeb96ec0ec7e44dce
+Description: Tắt âm thanh thông báo khi phát nhạc.
+Name: MutePlay (Roothide)
+Author: uz.ra
+SileoDepiction: https://jtisvn.github.io/sileodepictions/MutePlay.json
+Icon: https://jtisvn.github.io/sectionIcons/MutePlay.png
+
 Package: com.foxfort.libfoxfortutils
 Architecture: iphoneos-arm64e
 Version: 1.4.7
