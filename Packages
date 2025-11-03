@@ -627,6 +627,26 @@ dev: ichitaso
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
 Icon: https://jtisvn.github.io/sectionIcons/PowerSelector.png
 
+Package: com.imkpatil.letmeknow
+Architecture: iphoneos-arm64
+Version: 1.4.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 368
+Depends: mobilesubstrate
+Filename: ./debs/com.imkpatil.letmeknow_1.4.2_iphoneos-arm64.deb
+Size: 27292
+MD5sum: 044d51ba790bddd37b2d8d70396a5f2a
+SHA1: 3c10568c3c56d06f0611eb1c964b5cc1d18023aa
+SHA256: 54d63aa62201bd6c9fb7c976f6495733ad45d282417e6803f87974b6ab0a60df
+SHA512: f184ff885a28fd6ab2112ea0aa991d5a6ab5f0fb0e68408104d9f241902edddb014b09117d64f8e8dfd2177dc6170ee1847723846aa2fc7131e4f00b34f3e2b7
+Description: This tweak will let you know exactly when the call connects/disconnects so that you don't have to keep holding!
+Name: LetMeKnow (Rootless)
+Author: P2KDev <p2kdev@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LetMeKnow.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.imkpatil.letmeknow
+
 Package: com.jti.atria
 Architecture: iphoneos-arm64
 Version: 1.4.1
