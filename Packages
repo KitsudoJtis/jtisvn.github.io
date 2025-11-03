@@ -7925,6 +7925,47 @@ Description: Cử chỉ iPhone X và thanh trạng thái iPad cho tất cả thi
 Name: Gestures15 (Roothide)
 Author: iCraze
 
+Package: net.jtis.pridebars
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Section: Tweaks
+Maintainer: p0358
+Installed-Size: 368
+Depends: mobilesubstrate
+Conflicts: com.blakeboxberger.pridebars
+Filename: ./debs/net.jtis.pridebars_1.1.0_iphoneos-arm64.deb
+Size: 34732
+MD5sum: 472b85ab2d26d5bc5153c7a369acd332
+SHA1: 66c718a130096f03ce145945f3509777760cf09b
+SHA256: 125e5a1056e077d02682e374c851b74a6fa12b68072827795d883f45a41e57ec
+SHA512: 1bc26267e9dc50afb946d8b3fe113388057d5771b4acb086f127fb6af6a3b17786e33e4218b393cbf563c810343b03aa786740fdcc6e5406cdc7c5b4f7b3e98e
+Description: Tinh chỉnh thay đối nhiều màu săc cho sóng mạng & wifi trên thanh trạng thái.
+Name: PrideBars (Rootless)
+Author: p0358
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PrideBars.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: net.jtis.pridebars
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: Tweaks
+Maintainer: p0358
+Installed-Size: 368
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.blakeboxberger.pridebars
+Filename: ./debs/net.jtis.pridebars_1.1.0_iphoneos-arm64e.deb
+Size: 34428
+MD5sum: d3b56e764ec527475f4879627f4f46d3
+SHA1: c090f676df4488faee1f30a9f653ae15754621ea
+SHA256: 6d718b2cdd33107b893f77a0e4ae2553768124c9879058b5c8dce417d7d02b94
+SHA512: 381a243ecabd0301604ac954cec39586faa4d01e2a979ef3dee0eaeb31513a4ea60ae9686a968a6b9a7a5fec6de9ce884698e84582062f2e2a4f8d6a1201bb55
+Description: Tinh chỉnh thay đối nhiều màu săc cho sóng mạng & wifi trên thanh trạng thái.
+Name: PrideBars (Roothide)
+Author: p0358
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PrideBars.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: oldabi
 Architecture: iphoneos-arm64e
 Version: 0.3.1~4.f55e807
