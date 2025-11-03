@@ -3852,6 +3852,47 @@ Depiction: http://bvnsupport.github.io/infodeb/Html/iScreen.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/IScreenVip.json
 Icon: https://jtisvn.github.io/sectionIcons/IScreenVip.png
 
+Package: com.jtis.jade
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1502
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtis.jade_1.0.5_iphoneos-arm64.deb
+Size: 307916
+MD5sum: 1c8c3a7e61ea21969be6213047bec395
+SHA1: 40c5c055e3bd485301f90dfb82628d285ce78f12
+SHA256: 261ce637c4d62754253d02fb0b6414ccaa915b93520c1d2ecb24da8ec536dfa5
+SHA512: bf4639759408741a058903e1d4159c071c531da94c388f8b948715c2138ffadcd1f830880dfaf765d402b0bea2f1377a035d6b5e363696cfa6202d14d3fb628c
+Homepage: https://jtisvn.github.io
+Description: Your control center, brought anew.
+Name: Jade (Rootless)
+Author: Nightwind and thetimeloop <nightwinddev@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Jade.json
+Icon: https://jtisvn.github.io/sectionIcons/Jade.png
+
+Package: com.jtis.jade
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1502
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtis.jade_1.0.5_iphoneos-arm64e.deb
+Size: 306264
+MD5sum: b0ee28ff03bf6b66507321ec691fc857
+SHA1: 33131bf286894feb1b2bcfa0379fd14c47fc6dd3
+SHA256: 1f033eb29ab70543027b5c818ee83cf66a315f4fc0f615ed4afb3502d9c19f9a
+SHA512: 78f784678bdc5b8c6f0ff0c72b5c476877c52b0cf49d1baaa19b607e9473fb0b4fe462827927b3448fdc203fcf9dddc56a6590d4cf3b0eb214ef60362b0c5110
+Homepage: https://jtisvn.github.io
+Description: Your control center, brought anew.
+Name: Jade (Roothide)
+Author: Nightwind and thetimeloop <nightwinddev@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Jade.json
+Icon: https://jtisvn.github.io/sectionIcons/Jade.png
+
 Package: com.jtis.kayoko
 Architecture: iphoneos-arm64
 Version: 2.9
