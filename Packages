@@ -3891,6 +3891,27 @@ Author: Alexandra Aurora Göttlicher
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko.json
 Icon: https://jtisvn.github.io/sectionIcons/Kayoko.png
 
+Package: com.jtis.killbackground13
+Architecture: iphoneos-arm
+Version: 1.0.9k
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: firmware (>= 13.0)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: tw.garynil.swipehome, com.ichitaso.killbackground9, com.ichitaso.killbackground10, com.ichitaso.killbackground11, com.ichitaso.killbackgroundxs, com.nothing.sbcard, com.cemck.killx-pro, com.cemck.killx, com.nahtedetihw.closeall, com.daveapps.quitall, com.p2kdev.quitall
+Replaces: com.ichitaso.killbackground13
+Filename: ./debs/com.jtis.killbackground13_1.0.9k_iphoneos-arm.deb
+Size: 306200
+MD5sum: 41869c80566be5fab87e1f974c7d2e9b
+SHA1: 82d361e44b7676cef6ac9313ac9137ec4a6b03f2
+SHA256: 5065a1a8bcbf773c6919c6e9eac81e621c5c52c2274c83a77166c444b7a864c4
+SHA512: fcb904c98dc30b3eb896c9cb1d6af6181b5ceb08e984c08f32b525b775c20fadb542fb20dc6f1c363c3fab1eefab7d07750f262fdc67a4ae90a90a167ec50dab
+Description: Tắt nhanh ứng dụng chạy nền cho iOS 13 đến 16!
+SileoDepiction: https://jtisvn.github.io/sileodepictions/KillBackground13.json
+Icon: https://jtisvn.github.io/sectionIcons/KillBackground13.png
+Name: KillBackground13 (13 - 16)
+Author: ichitaso
+
 Package: com.jtis.lastlook
 Architecture: iphoneos-arm64
 Version: 4.2.2
