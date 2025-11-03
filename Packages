@@ -7196,6 +7196,25 @@ Author: Baw Appie <pp121324@gmail.com>
 Icon: https://jtisvn.github.io/sectionIcons/A-Font.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/A-Font.json
 
+Package: com.spark.autounlockx
+Architecture: iphoneos-arm64
+Version: 1.1.0-rootless
+Section: Tweaks
+Maintainer: Spark
+Installed-Size: 416
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.spark.autounlockx_1.1.0-rootless_iphoneos-arm64.deb
+Size: 63732
+MD5sum: 448e366285f34fe6af16e384c162212f
+SHA1: a7a9f460ad74ec451d527014e53ce0e3c56dcd63
+SHA256: 22d26e406842c533cec64e7c6a030329cd162d61d4e40030f43e02030bb8567f
+SHA512: aa86019e94b11cfd45fcc3ee3e34bc3713379fc811c7c1176002920fbe846a4115826ca5328e069232b53b3df4ac0aca887d941ee696e9243e8a0268c93b6132
+Description: Tự động mở khóa thiết bị của bạn vào màn hình chính bằng FaceID mà không cần vuốt. có thể tùy chỉnh, bao gồm cài đặt thử lại tự động.
+Name: AutoUnlockX (Rootless)
+Author: Spark
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoUnlockX.json
+Icon: https://jtisvn.github.io/sectionIcons/AutoUnlockX.png
+
 Package: com.spark.libsparkcolourpicker
 Architecture: iphoneos-arm64
 Version: 1.0.3-rootless
