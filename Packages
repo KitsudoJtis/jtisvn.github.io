@@ -4610,6 +4610,41 @@ Name: NoPreferencesTips (Roothkde)
 Icon: https://jtisvn.github.io/sectionIcons/NoPreferencesTips.png
 Author: 苏苏
 
+Package: com.jtis.notisound
+Architecture: iphoneos-arm64
+Version: 2.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: com.spark.libsparkapplist
+Filename: ./debs/com.jtis.notisound_2.4_iphoneos-arm64.deb
+Size: 2306264
+MD5sum: 2d0062cd286b1d050917106c974ecc8b
+SHA1: 9d92efb773a84b43e931d12d1295e5a74ef844be
+SHA256: d36af216c09500f0891feda3942ddc8750941c0dfd2e002e83f92853d97ee214
+SHA512: 2a624e2b67d9d6ac58ce7ecb28844d8f33d998f9a98fafc04f10ce400eb688ff338cb9cbaede7b7d80a06084c5178a3696bdda2131c867727db265dbeb3bc012
+Description: Đặt nhạc chuông thông báo tùy chỉnh cho ứng dụng của bạn
+Name: NotiSound (Rootless)
+Author: EliasSfeir
+Icon: https://jtisvn.github.io/sectionIcons/NotiSound.png
+
+Package: com.jtis.notisound
+Architecture: iphoneos-arm64e
+Version: 2.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.libsparkapplist
+Filename: ./debs/com.jtis.notisound_2.4_iphoneos-arm64e.deb
+Size: 2306372
+MD5sum: 2ae1989f22b15701f93cb7fe80924380
+SHA1: 8f13fc8dd4fdef48ae91a14442c43ba6f0edc365
+SHA256: dac8bccb7e2defeb35195730eee33837e401e032371e239bd8e90927464e4d43
+SHA512: f51faf1adab67f8a32c1c62699c56d21acda7c2a096f30f9ad7210c77798d0a1457125b1710c3a0017e3f57cce896ebc10caed7450b34cb21c3f1557c02c3b1b
+Description: Đặt nhạc chuông thông báo tùy chỉnh cho ứng dụng của bạn
+Name: NotiSound (Roothide)
+Author: EliasSfeir
+Icon: https://jtisvn.github.io/sectionIcons/NotiSound.png
+
 Package: com.jtis.ocd
 Architecture: iphoneos-arm64
 Version: 5.2
@@ -5554,6 +5589,24 @@ Name: Switch DayNight (Roothide)
 Author: 白衣
 Icon: https://axs66.github.io/repo/icon/switchtheme.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Switchthemes.json
+
+Package: com.jtis.taptaplock
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 172
+Depends: mobilesubstrate, com.jtis.iconrepo.roothide
+Filename: ./debs/com.jtis.taptaplock_0.0.3_iphoneos-arm64e.deb
+Size: 5556
+MD5sum: 77ee5e1908df4007fc998c4d5023a866
+SHA1: 2f4429b9a6f33b0b26339daf7807e7d212c50b7f
+SHA256: b9467ed05cb83d74868621ff08feee90fbe9facc07f7ce77ac18f4a18fddc30d
+SHA512: aa2089729ab74905f3e4d542f15d7135da70de5d116352344b3f7c0f59f84951eb9f17f4440f34ff43ffdbb8d9995d3398d627dea520fdbc479d33cd11e10cc5
+Description: Nhấn đúp vào màn màn hình phản hòi rung để khóa nhanh thiết bị của bạn.
+Name: TapTapLock (Roothide)
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: 狐童
 
 Package: com.jtis.teleSF
 Architecture: iphoneos-arm64
@@ -6585,6 +6638,24 @@ Author: Lang khach
 Name: AdblockPro
 Icon: https:/jtisvn.github.io/sectionIcons/AdBlockPro.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AdBlockPro.json
+
+Package: com.langkhach.revenuecat
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: LK
+Installed-Size: 160	.dragon/_
+Depends: mobilesubstrate
+Filename: ./debs/com.langkhach.revenuecat_0.0.1_iphoneos-arm64e.deb
+Size: 7156
+MD5sum: 9110cc7ddde4d5d726f1f23957765a94
+SHA1: 8bbb974df83a9decc0cf017955050bb13c0fbae2
+SHA256: a0a9f22bdb5b46929b5525db8f02750a986dce9c771317276eb5a51d0daabcfe
+SHA512: 9130f40bcb1acb1299660d43357075b5d87edbbdd2647a29e8cb4cabd8398a0609807668adfd0f9e2e941bc57afd3ae36eb1b79da0e21778ceea5f043e2fd1b7
+Description: Một tinh chỉnh crack mọi app dùng revenuecat.
+Author: LK
+Name: Revenuecat (Roothide)
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.lclrc.hammerit
 Architecture: iphoneos-arm64
