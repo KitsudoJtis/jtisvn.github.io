@@ -17,7 +17,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown": "\n\n- Mang phong cách Trung tâm điều khiển theo kiểu iOS26 trên thiết bị iOS thấp hơn.\n\n- Lưu ý: Đối với thiết bị iPhone XS trở lên vui lòng tải thêm gói Legacy arm64e Support nếu gặp lỗi Safemode.",
+"markdown":"\n\n- Mang phong cách Trung tâm điều khiển theo kiểu iOS26 trên thiết bị iOS thấp hơn.\n\n- Lưu ý: Đối với thiết bị iPhone XS trở lên vui lòng tải thêm gói Legacy arm64e Support nếu gặp lỗi Safemode.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
