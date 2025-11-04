@@ -5559,38 +5559,40 @@ Package: com.jtis.sugarcane
 Architecture: iphoneos-arm64
 Version: 1.2.4.4
 Section: Tweaks
-Maintainer: JTIS Repo
+Maintainer: JTISVN Repo
 Installed-Size: 172
 Depends: mobilesubstrate,firmware (>= 13.0)
 Filename: ./debs/com.jtis.sugarcane_1.2.4.4_iphoneos-arm64.deb
-Size: 8332
-MD5sum: 2141b3455be2c1eef1e1a95d8b0af8b4
-SHA1: 45579def1aac0d97cb4a8d340ad1c714283cb91d
-SHA256: da33013eeb24077fed995442eb99d82b51e9829f260cd1f7df02aa7faf2dd7ea
-SHA512: f5b9862d1828c3fda95283bc345ad8583d486a217667aebcdd0e7d04d26c28fb7afa510d37b2dded14556fdff36f56344aa8b961ca06d3ad3f40f851ee7b948f
-Description: Thêm % cho modun Độ sáng & Âm lượng trên trung tâm diều khiển.
-Name: SugarCane 12-16 (Rootless)
+Size: 8336
+MD5sum: 842c1a2b742d4bb37ee85d83a54be7f2
+SHA1: 3062ce8b2ed6bddc838aad405ff9cd6c1190de13
+SHA256: c19365a4a2a7b00cd69ace608b0479f010e0bd6d98820860fbd4e49d92658d86
+SHA512: 80e344604b6088fee64eb16cf091151f926db83b3a83f1d517b02ed1a7788bf6503c3ce2f718cadb4e2330ef7c31049b4d21194d7865b9388b3be37a13b1a09e
+Description: Hiển thị % cho modun Độ sáng & Âm lượng trên trung tâm diều khiển.
+Name: SugarCane 13/14/15/16 (Rootless)
 Author: iOS Creatix, kasiimh1, p2kdev
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SugarCare.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.sugarcane
 Architecture: iphoneos-arm64e
 Version: 1.2.4.4
 Section: Tweaks
-Maintainer: JTIS Repo
+Maintainer: JTISVN Repo
 Installed-Size: 172
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate,firmware (>= 13.0)
 Filename: ./debs/com.jtis.sugarcane_1.2.4.4_iphoneos-arm64e.deb
-Size: 9344
-MD5sum: 21e9aa9592eaca615d9df0d21cadc7b8
-SHA1: 8150fb42ef3b0d5290de730c15e813262215ade0
-SHA256: cc16701f88b6a8700c657b65552950d7d6318d79e7fbcf4f5871910af7991938
-SHA512: 5d37d69ee1159bc0f77372fcff9da978b584cffcbb5e55eb736fa91b67b83fc4cab513760d868368f73ac445b90f859f99e19b85e42bba829505e405f7da42cc
-Description: Thêm % cho modun Độ sáng & Âm lượng trên trung tâm diều khiển.
-Name: SugarCane 12-16 (Roothide)
+Size: 8172
+MD5sum: 0433f51f5736a5a189196f4aa3d997e0
+SHA1: d10fb6e01284e27ef9f9597b23adc25e3e915d6d
+SHA256: cccae843dd413580b9d4f031ebe545550ddc1f9827093d682c48e710d2f012b6
+SHA512: df24336f955cb0ea5b7133eaf60e80b42dd1925ae25aa816049461cc3bc4f61d5d31664bd610a0e2c2f14fda38f50d6b6f40d84072b34e537380cab2e1c711be
+Description: Hiển thị % cho modun Độ sáng & Âm lượng trên trung tâm diều khiển.
+Name: SugarCane 13/14/15/16 (Roothide)
 Author: iOS Creatix, kasiimh1, p2kdev
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SugarCare.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.switchtheme
 Architecture: iphoneos-arm64
