@@ -402,18 +402,19 @@ Version: 5.2b4
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 16716
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.dvntm.ytlite_5.2b4_iphoneos-arm64e.deb
-Size: 6411580
-MD5sum: 73f134c513524d770beb7cc6b16608da
-SHA1: 231cc4db70cfd95fddc87f7db7cdf251b9457dec
-SHA256: 715e9fcabdb04ce26ce1a03479f937534033784bd8c8ca9f80a711c0ad7192da
-SHA512: f39746bf35ccf288f865bafc66252132ae21ffefb10e70007a9c8a75479cc051ce2ecc36c65fd5b046280162dd3b15131577c38016a714077516a65ccba044bf
+Size: 6335504
+MD5sum: e46fdce8a65a6769cc73c8cfd1af4ece
+SHA1: 688025f7f246bbf3fa2bb13ad4ce0874669e7676
+SHA256: 1575cf667856a5b4470ddd3a0bd7040d420b542ab8d9fe0cb031bb98750ec329
+SHA512: 34058c3aa89d18146b35f1fb5024b66050a0491ac6fe6266ab8603bb362d58229471fdd8928fd0a529522b96b74b1a0ccc0dbbd9a3874abecf4b9b63248095c6
 Description: Lightweight YouTube Enhancer
 Name: YTLite (Roothide)
 Author: dvntm
 Icon: https://jtisvn.github.io/sectionIcons/YTLite.png
- SileoDepiction: https://jtisvn.github.io/sileodepictions/YTLite.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YTLite.json
 
 Package: com.exile90.icleanerpro
 Architecture: iphoneos-arm64e
