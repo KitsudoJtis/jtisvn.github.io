@@ -3978,11 +3978,11 @@ Maintainer: JTISVN Repo
 Installed-Size: 1502
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
 Filename: ./debs/com.jtis.jade_1.0.5_iphoneos-arm64.deb
-Size: 307916
-MD5sum: 1c8c3a7e61ea21969be6213047bec395
-SHA1: 40c5c055e3bd485301f90dfb82628d285ce78f12
-SHA256: 261ce637c4d62754253d02fb0b6414ccaa915b93520c1d2ecb24da8ec536dfa5
-SHA512: bf4639759408741a058903e1d4159c071c531da94c388f8b948715c2138ffadcd1f830880dfaf765d402b0bea2f1377a035d6b5e363696cfa6202d14d3fb628c
+Size: 307840
+MD5sum: 29c9675ded8242e799b9ce0cba78afc0
+SHA1: b0df6e903cfe8cedd31907431740ed8d14e70a22
+SHA256: 6b730793d205966229d6187df210df056c2f6331c525e827e26a65e6acf26f59
+SHA512: 7960021c314d3301b3c858f7fbff27a972d2c0d9d05c41238200345085b03e4fc6ee9009934650c3b431cc7c3a37caa3378965b86cd510ae877bb1dbb4b4ce2c
 Homepage: https://jtisvn.github.io
 Description: Your control center, brought anew.
 Name: Jade (Rootless)
@@ -3999,11 +3999,11 @@ Installed-Size: 1502
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
 Filename: ./debs/com.jtis.jade_1.0.5_iphoneos-arm64e.deb
-Size: 306264
-MD5sum: b0ee28ff03bf6b66507321ec691fc857
-SHA1: 33131bf286894feb1b2bcfa0379fd14c47fc6dd3
-SHA256: 1f033eb29ab70543027b5c818ee83cf66a315f4fc0f615ed4afb3502d9c19f9a
-SHA512: 78f784678bdc5b8c6f0ff0c72b5c476877c52b0cf49d1baaa19b607e9473fb0b4fe462827927b3448fdc203fcf9dddc56a6590d4cf3b0eb214ef60362b0c5110
+Size: 305864
+MD5sum: eb05048cb8a58280203f88b74dde5eb5
+SHA1: 9abf6abdbdc77d3318fcf238c9b428836c4290d8
+SHA256: fc2d698b3337703cc56b3dcdc5400276c814f445174f6b2640869581286245c5
+SHA512: 8431b357edaf722c583d2fcd2e192adec93180cbd2c65605a2c0931692df0c076b2eabfd8ee11b9d90901b518f318656daac9657ce27da18800a6f5c96bb4d7f
 Homepage: https://jtisvn.github.io
 Description: Your control center, brought anew.
 Name: Jade (Roothide)
