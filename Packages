@@ -2732,47 +2732,6 @@ Author: Ryan Nalr
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
 Icon: https://jtisvn.github.io/sectionIcons/Cylinder-rebom.png
 
-Package: com.jtis.deleteforeverxs
-Architecture: iphoneos-arm64
-Version: 1.1k-debug
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 156
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: ./debs/com.jtis.deleteforeverxs_1.1k-debug_iphoneos-arm64.deb
-Size: 8160
-MD5sum: 9dce25e8969d994be5baba65c28bf3f0
-SHA1: fa30d59f1591de76cb8702d0c618a3b651bd9546
-SHA256: b795d6e06362e7a61cb8a82c2566a6e78538a5bb06e0b9313f97326bc1f3509b
-SHA512: 8109e9c5343005852c34d10053233cfb27548feade952f97bc332ade272f087ceab3bf1a35e62cd696c668a351313f6b2db241ba9603e286e1ebc1b75155b19b
-Homepage: https://jtisvn.github.io
-Description: Delete Media with moving to Recently Deleted!
-Name: DeleteForeverXS (Rootless)
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DeleteForeverXS.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-Author: P2KDev <p2kdev@gmail.com>
-
-Package: com.jtis.deleteforeverxs
-Architecture: iphoneos-arm64e
-Version: 1.1k-debug
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 156
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: ./debs/com.jtis.deleteforeverxs_1.1k-debug_iphoneos-arm64e.deb
-Size: 8332
-MD5sum: e468b11382bcd1c562be3562f379de2d
-SHA1: a897c260ba3b692ac499fe6bfdd6d9e294fe2f2d
-SHA256: 7d71789a2775499ff05c621b4aee8d2c22d1b90761a64c133f47fbb013703b14
-SHA512: 68b2038bff02d629a411ffdfd277ca13c55c5ce5fa5e5879daa7e782a4916cbccf5df9ac0bc72bf0e37ff416b5c3cdafb5db317fdb50d9a4237c72db27755c78
-Homepage: https://jtisvn.github.io
-Description: Delete Media with moving to Recently Deleted!
-Name: DeleteForeverXS (Roothide)
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DeleteForeverXS.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-Author: P2KDev <p2kdev@gmail.com>
-
 Package: com.jtis.designer
 Architecture: iphoneos-arm64
 Version: 1.5.5
@@ -5615,26 +5574,6 @@ Author: iOS Creatix, kasiimh1, p2kdev
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SugarCare.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
-Package: com.jtis.sugarcane
-Architecture: iphoneos-arm64e
-Version: 1.2.4.4
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 172
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate,firmware (>= 13.0)
-Filename: ./debs/com.jtis.sugarcane_1.2.4.4_iphoneos-arm64e.deb
-Size: 8172
-MD5sum: 0433f51f5736a5a189196f4aa3d997e0
-SHA1: d10fb6e01284e27ef9f9597b23adc25e3e915d6d
-SHA256: cccae843dd413580b9d4f031ebe545550ddc1f9827093d682c48e710d2f012b6
-SHA512: df24336f955cb0ea5b7133eaf60e80b42dd1925ae25aa816049461cc3bc4f61d5d31664bd610a0e2c2f14fda38f50d6b6f40d84072b34e537380cab2e1c711be
-Description: Hiển thị % cho modun Độ sáng & Âm lượng trên trung tâm diều khiển.
-Name: SugarCane 13/14/15/16 (Roothide)
-Author: iOS Creatix, kasiimh1, p2kdev
-SileoDepiction: https://jtisvn.github.io/sileodepictions/SugarCare.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
 Package: com.jtis.switchtheme
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -7920,25 +7859,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
 Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Name: AniTime (Roothide)
 Author: yan
-
-Package: con.jtis.disupdateapp
-Architecture: iphoneos-arm64
-Version: 0.0.3-1
-Section: Tweaks
-Maintainer: BVN Repo
-Installed-Size: 424
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/con.jtis.disupdateapp_0.0.3-1_iphoneos-arm64.deb
-Size: 62644
-MD5sum: 75ba8dbc86a8c4c018f7b8843ad6f499
-SHA1: 20eb639f6128b6f21b5a516bbce3c221fe084a85
-SHA256: 102f5771fd1943d973416dfe59f4fc03542e5785f1ae833e46d33ab204e71296
-SHA512: 07afc4401e9aa0e2fa58ef943699936c7f30c9cdaa3731b63b45ca41079dc46b1845aa575f8f338b9adfc12322854bae2bb24926e26b785010bedd331f0900e5
-Description: An awesome MobileSubstrate tweak!
-Name: BlockAppUpdate (Rootless)
-Author: zqbb
-SileoDepiction: https://jtisvn.github.io/sileodepictions/BlockAppUpdate.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: dev.theos.orion14
 Architecture: iphoneos-arm64e
