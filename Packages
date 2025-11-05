@@ -377,6 +377,44 @@ Author: dvntm
 Icon: https://jtisvn.github.io/sectionIcons/YTLite.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/YTLite.json
 
+Package: com.dvntm.ytlite
+Architecture: iphoneos-arm64
+Version: 5.2b4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 16716
+Depends: mobilesubstrate
+Filename: ./debs/com.dvntm.ytlite_5.2b4_iphoneos-arm64.deb
+Size: 6418624
+MD5sum: 2945a816f6e0c4c60056698e905a0445
+SHA1: 3f39fd920e844ea13965b85e68a149e189c03904
+SHA256: d35624b70e0a3fc8c8da7eba7f2dfbe85ba18a235be125e6f44d7d316ee92cdf
+SHA512: 8f52e31020108126c0c4cf3b116ce5ad247390dbc0ab6bbb15ada9b207be4c007207aab5cdcc3c20d46c6a9fad73d1e70e074caa671908f70ada42c16ca90d56
+Description: Lightweight YouTube Enhancer
+Name: YTLite (Rootless)
+Author: dvntm
+Icon: https://jtisvn.github.io/sectionIcons/YTLite.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YTLite.json
+
+Package: com.dvntm.ytlite
+Architecture: iphoneos-arm64e
+Version: 5.2b4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 16716
+Depends: mobilesubstrate
+Filename: ./debs/com.dvntm.ytlite_5.2b4_iphoneos-arm64e.deb
+Size: 6411580
+MD5sum: 73f134c513524d770beb7cc6b16608da
+SHA1: 231cc4db70cfd95fddc87f7db7cdf251b9457dec
+SHA256: 715e9fcabdb04ce26ce1a03479f937534033784bd8c8ca9f80a711c0ad7192da
+SHA512: f39746bf35ccf288f865bafc66252132ae21ffefb10e70007a9c8a75479cc051ce2ecc36c65fd5b046280162dd3b15131577c38016a714077516a65ccba044bf
+Description: Lightweight YouTube Enhancer
+Name: YTLite (Roothide)
+Author: dvntm
+Icon: https://jtisvn.github.io/sectionIcons/YTLite.png
+ SileoDepiction: https://jtisvn.github.io/sileodepictions/YTLite.json
+
 Package: com.exile90.icleanerpro
 Architecture: iphoneos-arm64e
 Version: 7.10.0
@@ -2733,25 +2771,23 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
 Icon: https://jtisvn.github.io/sectionIcons/Cylinder-rebom.png
 
 Package: com.jtis.deleteforeverxs
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Version: 1.1k-debug
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 156
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: ./debs/com.jtis.deleteforeverxs_1.1k-debug_iphoneos-arm64e.05-thg 11-2025-18-56-48.deb
-Size: 8332
-MD5sum: e468b11382bcd1c562be3562f379de2d
-SHA1: a897c260ba3b692ac499fe6bfdd6d9e294fe2f2d
-SHA256: 7d71789a2775499ff05c621b4aee8d2c22d1b90761a64c133f47fbb013703b14
-SHA512: 68b2038bff02d629a411ffdfd277ca13c55c5ce5fa5e5879daa7e782a4916cbccf5df9ac0bc72bf0e37ff416b5c3cdafb5db317fdb50d9a4237c72db27755c78
-Homepage: https://jtisvn.github.io
-Description: Delete Media with moving to Recently Deleted!
-Name: DeleteForeverXS (Roothide)
+Filename: ./debs/com.jtis.deleteforeverxs_1.1k-debug_iphoneos-arm64.deb
+Size: 8180
+MD5sum: 753d5aeb53592a20dead3d43adbab8db
+SHA1: 32585436d0d7acc1c2787b7916ee50a473223ae8
+SHA256: 11f2516f48cbdb883157ef9d3f0a6d8328d3115d77e340230d53b1f8e7d6a6a8
+SHA512: a5985f8a2e1e81b41d39cccf0b863015f91934c24045f4966827320fd8277b4fddb3495518f833ffd12ef25d2a7a012010b6e73f3cc49dd7074ec19c90842e3f
+Description: Delete Media Completely without moving to Recently Deleted!
+Name: DeleteForeverXS (Rootless)
+Author: P2KDev <p2kdev@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DeleteForeverXS.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-Author: P2KDev <p2kdev@gmail.com>
 
 Package: com.jtis.deleteforeverxs
 Architecture: iphoneos-arm64e
@@ -2814,6 +2850,45 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Designer.json
 Icon: https://jtisvn.github.io/sectionIcons/Designer.png
 Name: Designer (Roothide)
 Author: JunesiPhone <junesgraphics@gmail.com>
+
+Package: com.jtis.disupdateapp
+Architecture: iphoneos-arm64
+Version: 0.0.3-1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 424
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.disupdateapp_0.0.3-1_iphoneos-arm64.deb
+Size: 62628
+MD5sum: 01ca4979f6f425d958717658c5e09184
+SHA1: 22ffd7df82e29f84d4f41b74d7e1bea199bc81dc
+SHA256: 8f85974bd7abbabb3b4e03c216b3b34d689b82437385aa4fba04d9ce87aac465
+SHA512: 040da7e79e4d4384d99f5d35f0a2eb05fc87a37c9d129e0729ba9ece3d98281e79574383b87260c3216dd7df44eb16be9757ce13064e440efdfebb5e9b5ea200
+Description: An awesome MobileSubstrate tweak!
+Name: BlockAppUpdate (Rootless)
+Author: zqbb
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BlockAppUpdate.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.disupdateapp
+Architecture: iphoneos-arm64e
+Version: 0.0.3-1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 424
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.disupdateapp_0.0.3-1_iphoneos-arm64e.deb
+Size: 62756
+MD5sum: 54c413c0620e48d5fd43b616df26b9d8
+SHA1: 01e21926ede95fbbd76642bba06c99505f894c23
+SHA256: 8ffa5221a1175ac7156d1fdc4e41297ccee74d4b699f30f17220bb3dae2bfcd5
+SHA512: 22ab37d2ed8900e3942c10c59da6a761630c05a17ee6ff8caa35769f3d0c3c53c941a4ab6f31ada821e6c46d7556f9ee89aba64b5dbac502df61d47aba681be7
+Description: An awesome MobileSubstrate tweak!
+Name: BlockAppUpdate (Roothide)
+Author: zqbb
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BlockAppUpdate.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.dobbyshim
 Architecture: iphoneos-arm64
@@ -4570,6 +4645,26 @@ Name: Marie (Roothide)
 Author: Luki
 Icon: https://jtisvn.github.io/sectionIcons/Marie.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Marie.json
+
+Package: com.jtis.mediccmusic
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Section: JTISVN Repo
+Maintainer: simon
+Installed-Size: 428
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/com.jtis.mediccmusic_1.0.5_iphoneos-arm64e.deb
+Size: 28540
+MD5sum: 8ddf0a64483cf1f73ffb5c093d542bbe
+SHA1: fe64cb9a62aa96ca37fa44f03ec4feb95ba0e1d6
+SHA256: ed3c65ed93a1b5844b5da3362f976ec1d08f89429c9d903586658c8ade958cd7
+SHA512: d500a708a7548ebf2240f4fad59eefaca05ba708e47fa7d1476be5109a9dec5f488d3926eef20d4f0677cac209ede5bb49221ef5f02a72e52f621e22c01f84af
+Description: Thêm hình ảnh động vào mô-đun âm nhạc trong Trung tâm điều khiển
+Name: CC Music (Roothide)
+Author: simon
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCMusic.json
+Icon: https://jtisvn.github.io/sectionIcons/CCMusic.png
 
 Package: com.jtis.networkmanager
 Architecture: iphoneos-arm64
