@@ -7216,26 +7216,6 @@ Author: P2KDev <p2kdev@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariBlocker.json
 Icon: https://jtisvn.github.io/sectionIcons/SafariBlocker.png
 
-Package: com.p2kdev.safariblocker
-Architecture: iphoneos-arm64
-Version: 1.3.1
-Section: Tweaks
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 424
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: ./debs/com.p2kdev.safariblocker_1.3.1_iphoneos-arm64.deb
-Size: 39052
-MD5sum: c08bc8c3a42d9d91c30a4f7cb12913e0
-SHA1: d8c43474caaa582ba6db636ca70b626a8a3b6b32
-SHA256: cf39a07d3dc981656a205cd334fc043896efd3fd1de6f76b2f7fc60e3d3a3e84
-SHA512: 1d52c1a710d987eca6a2ec8a62f25792605aa5644d40d19cc008923cefa412f0fb0b26a98b9d628fa25982b4738571385416d5dacb75a2b0908a9f1a6b6fd6e0
-Description: Block New Tabs with Options!
-Name: SafariBlocker (Rootless)
-Author: P2KDev <p2kdev@gmail.com>
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.safariblocker
-Icon: https://jtisvn.github.io/sectionIcons/SafariBlocker.png
-SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.safariblocker.json
-
 Package: com.phucdo.badgebreathing
 Architecture: iphoneos-arm64e
 Version: 0.0.1
