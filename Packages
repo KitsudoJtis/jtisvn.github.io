@@ -7175,6 +7175,49 @@ Icon: https://jtisvn.github.io/sectionIcons/TrollstoreHelper.png
 
 Package: com.p2kdev.safariblocker
 Architecture: iphoneos-arm64
+Version: 1.3.1-1+debug
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 236
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: ./debs/com.p2kdev.safariblocker_1.3.1-1+debug_iphoneos-arm64.deb
+Size: 39324
+MD5sum: ae91c21545793b858b2ffc5f76054fda
+SHA1: e07633d79eb22f61447e173e3e284b30bc109667
+SHA256: d12042a703c8c3924c1a739da22c38e8207c0fc96867cfea19ae93a5bc1a6f64
+SHA512: 4b0fe121f16dd63d9aca49e95ff6df281fc72a3942c8db6768cd13494ceb28ea6aa2648aebf95f54ba59df23909a4fa42fdb5f41d6aecc032ec04cb711b42d29
+Homepage: https://jtisvn.github.io
+Description: Block pop-ups and new tabs in Safari with options!
+Tag: role::enduser, purpose::enhancement
+Name: SafariBlocker (Rootless)
+Author: P2KDev <p2kdev@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariBlocker.json
+Icon: https://jtisvn.github.io/sectionIcons/SafariBlocker.png
+
+Package: com.p2kdev.safariblocker
+Architecture: iphoneos-arm64e
+Version: 1.3.1-1+debug
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 236
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: ./debs/com.p2kdev.safariblocker_1.3.1-1+debug_iphoneos-arm64e.deb
+Size: 38920
+MD5sum: c5e2b2032ea5ba8b14553096e7922839
+SHA1: 7ac6dc4d80fba79c88055c88cfb5fb8e678c54f5
+SHA256: 4c0236192b24ff91cd105ed9fd2db1016fa260c4815727642f23ef50026ee6d0
+SHA512: 3fa3dcde3a953b88d60f0a514ad2d68f4f694958cce05f4d7873fe9baa06e6b27857be6ac065f5e97dde9b1b6b05c59bf9613bff4d4b38ea28777251aef360c1
+Homepage: https://jtisvn.github.io
+Description: Block pop-ups and new tabs in Safari with options!
+Tag: role::enduser, purpose::enhancement
+Name: SafariBlocker (Roothide)
+Author: P2KDev <p2kdev@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariBlocker.json
+Icon: https://jtisvn.github.io/sectionIcons/SafariBlocker.png
+
+Package: com.p2kdev.safariblocker
+Architecture: iphoneos-arm64
 Version: 1.3.1
 Section: Tweaks
 Maintainer: P2KDev <p2kdev@gmail.com>
