@@ -133,6 +133,47 @@ Author: 来了老弟 h_h_x_t
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HideNoti.json
 
+Package: com.0xkuj.backgrounderaction15autostate
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 384
+Depends: com.opa334.ccsupport, com.opa334.altlist
+Conflicts: jp.akusio.backgrounderaction15, xyz.cypwn.backgrounderaction15
+Filename: ./debs/com.0xkuj.backgrounderaction15autostate_1.0.3_iphoneos-arm64.deb
+Size: 33288
+MD5sum: 30213a4c3a8893980de2b5af53c8d08c
+SHA1: 36f544c0b42c6ee7e3664e12f8b1f22c68597a71
+SHA256: c304f4e0c8d2d6c6722ec3b8fdabef1f8d667468421eb7489506e0c42b4144cb
+SHA512: 37b5b7c58b1f0967d954b793ec34a914fe04b037f200dab95083a8c4bb53ed05e6f46a74baad4cdbb33cd992172f36bbda3152c81ec7a14457913cf6963d43c9
+Description: Save Action state for BackgrounderAction15 CC Toggle
+Name: BackgrounderAction15AutoState
+Author: 0xkuj
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BackgrounderAction15AutoState.json
+Icon: https://jtisvn.github.io/sectionIcons/BackgrounderAction15AutoState.png
+
+Package: com.0xkuj.backgrounderaction15autostate
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 384
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.ccsupport, com.opa334.altlist
+Conflicts: jp.akusio.backgrounderaction15, xyz.cypwn.backgrounderaction15
+Filename: ./debs/com.0xkuj.backgrounderaction15autostate_1.0.3_iphoneos-arm64e.deb
+Size: 40882
+MD5sum: 199cec992b54ec0c8a2209553a280430
+SHA1: 6421c5dbad4990f46571bbc5b685287b7f859b11
+SHA256: fea81cfb1ec5455d3ec44185c11a029b0f864c3f4942d28230145dabe86950be
+SHA512: aa928eba3a152358794e053027b7bbecd8c3e25fc4bd55673687fcc3a0837c8393edc2d28463536273fa9a49b334a427cd1562d6aef9d8f02be19f74fa5ee77f
+Description: Save Action state for BackgrounderAction15 CC Toggle
+Name: BackgrounderAction15AutoState
+Author: 0xkuj
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BackgrounderAction15AutoState.json
+Icon: https://jtisvn.github.io/sectionIcons/BackgrounderAction15AutoState.png
+
 Package: com.0xkuj.bettercccrashprotect
 Architecture: iphoneos-arm64e
 Version: 1.0.0
