@@ -339,6 +339,64 @@ Tag: compatible_min::iOS9
 Name: libCSPreferences
 Author: CreatureSurvive <support@creaturecoding.com>
 
+Package: com.dvntm.glow
+Architecture: iphoneos-arm
+Version: 1.3.1
+Section: Tweaks
+Maintainer: dvntm, nowesr1
+Installed-Size: 17004
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.dvntm.glow_1.3.1_iphoneos-arm.deb
+Size: 6902718
+MD5sum: 8f3108265d6a593ecd2bbf6bb89867af
+SHA1: 90e5d1d2a3c54c285b3b66c59fd9aa8535471f85
+SHA256: 5ef3af7d5291b13cf012ecb0bffa9b7723d437a6590466b5da2ea67feb0f39b4
+SHA512: 5f18bb5638ed6ad471c17096437061ae9b905808df43bfe546d09119599024ff431f769c5e81a7149408f07e05369db828d75ec5fcaffe4c3910b7186df3dd0f
+Description: Cleaner. Smarter. Yours.
+Name: Glow for Facebook
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
+
+Package: com.dvntm.glow
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Section: Tweaks
+Maintainer: dvntm, nowesr1
+Installed-Size: 17004
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.dvntm.glow_1.3.1_iphoneos-arm64.deb
+Size: 6899448
+MD5sum: 58ac723243034e2ec7697e0b72691e2b
+SHA1: 9ea93812cfa5f350f8a8accc61887b817e4f793e
+SHA256: c4e64385bdf471e74d3d65edf6e982bf3ac5613246f4368f90a3b262f1222847
+SHA512: 3a4569f943f5fb95ecda89cc5b685e91ebdf0b9a0e6f194ae1d7e45606d90581000f30a5bb50c25db8de42d51bda0fe15203de1a54dd3c495b3836f25359c721
+Description: Cleaner. Smarter. Yours.
+Name: Glow for Facebook
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
+
+Package: com.dvntm.glow
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Section: Tweaks
+Maintainer: dvntm, nowesr1
+Installed-Size: 17004
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.dvntm.glow_1.3.1_iphoneos-arm64e.deb
+Size: 18465886
+MD5sum: 527db1467a01294d5ebffb872426a26e
+SHA1: 8ea1446241c255daa3b7f6402f6ef0cdcf332b04
+SHA256: 6ca2b5e8aa33b914be70c6ef7f62c78d2fb39db141254f9bf0cee8c8d40501bc
+SHA512: af4c048954c3097bfd93f528832f2d4f2b06c463fa1b777c562d56f463102f1c880fe00b475cdea933ef446067d8b0cc62730c822be7e908584bd8af73992132
+Description: Cleaner. Smarter. Yours.
+Name: Glow for Facebook
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
+
 Package: com.dvntm.ytlite
 Architecture: iphoneos-arm64
 Version: 5.2b3
@@ -7114,6 +7172,26 @@ Name: TrollStore Helper
 Author: opa334
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollstoreHelper.json
 Icon: https://jtisvn.github.io/sectionIcons/TrollstoreHelper.png
+
+Package: com.p2kdev.safariblocker
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 424
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.p2kdev.safariblocker_1.3.1_iphoneos-arm64.deb
+Size: 39052
+MD5sum: c08bc8c3a42d9d91c30a4f7cb12913e0
+SHA1: d8c43474caaa582ba6db636ca70b626a8a3b6b32
+SHA256: cf39a07d3dc981656a205cd334fc043896efd3fd1de6f76b2f7fc60e3d3a3e84
+SHA512: 1d52c1a710d987eca6a2ec8a62f25792605aa5644d40d19cc008923cefa412f0fb0b26a98b9d628fa25982b4738571385416d5dacb75a2b0908a9f1a6b6fd6e0
+Description: Block New Tabs with Options!
+Name: SafariBlocker (Rootless)
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.safariblocker
+Icon: https://jtisvn.github.io/sectionIcons/SafariBlocker.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.safariblocker.json
 
 Package: com.phucdo.badgebreathing
 Architecture: iphoneos-arm64e
