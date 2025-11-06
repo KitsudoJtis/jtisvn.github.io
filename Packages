@@ -4706,19 +4706,38 @@ Icon: https://jtisvn.github.io/sectionIcons/Marie.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Marie.json
 
 Package: com.jtis.mediccmusic
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Section: Tweaks
+Maintainer: JTISVN
+Installed-Size: 428
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/com.jtis.mediccmusic_1.0.5_iphoneos-arm64.deb
+Size: 28812
+MD5sum: b15b9ce926b92ba18c9bc342563a1265
+SHA1: 1c6b22b28f1b795c30190ed21f69939c5d5099f7
+SHA256: 93f45cdb0167daab5e9f438b9eb21d173bb5b791fd09bd2b689366cd5ac06ab5
+SHA512: 0084021a11ea4b46823ab6a089ce8d6081460451802edb93717249ce0aba95a8f5f3b09e905d1bfccf1a1ffd4405ddff2b0de532a3684d3c2baa70e029ce8d1e
+Description: Thêm hình ảnh động vào mô-đun âm nhạc trong Trung tâm điều khiển
+Name: CC Music (Rootless)
+Author: simon
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCMusic.json
+Icon: https://jtisvn.github.io/sectionIcons/CCMusic.png
+
+Package: com.jtis.mediccmusic
 Architecture: iphoneos-arm64e
 Version: 1.0.5
-Section: JTISVN Repo
-Maintainer: simon
+Section: Tweaks
+Maintainer: JTISVN Repo
 Installed-Size: 428
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 13.0)
 Filename: ./debs/com.jtis.mediccmusic_1.0.5_iphoneos-arm64e.deb
-Size: 28540
-MD5sum: 8ddf0a64483cf1f73ffb5c093d542bbe
-SHA1: fe64cb9a62aa96ca37fa44f03ec4feb95ba0e1d6
-SHA256: ed3c65ed93a1b5844b5da3362f976ec1d08f89429c9d903586658c8ade958cd7
-SHA512: d500a708a7548ebf2240f4fad59eefaca05ba708e47fa7d1476be5109a9dec5f488d3926eef20d4f0677cac209ede5bb49221ef5f02a72e52f621e22c01f84af
+Size: 28476
+MD5sum: b585cdc8eb893f8f9c9db4c3a5556332
+SHA1: e9fb60889ea9a504ebc69741e78c826285b2a981
+SHA256: 9bf84b10f291334b93e79386b1030cb15409f6f413417b0f58b1055a59442180
+SHA512: 6a9ac445ff52b1872ba4cb95e882d76d29e5eee38105a9423825efba316d9f20dd4a24cef7ed17c1c28edf7d93b91a0fd7c7cd983613bfc5ffdbb178186e6e87
 Description: Thêm hình ảnh động vào mô-đun âm nhạc trong Trung tâm điều khiển
 Name: CC Music (Roothide)
 Author: simon
