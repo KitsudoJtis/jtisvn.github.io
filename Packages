@@ -7112,6 +7112,44 @@ Author: MTAC
 Icon: https://jtisvn.github.io/sectionIcons/Vitreux.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Vitreux.json
 
+Package: com.nathan.tiktokphotocomments
+Architecture: iphoneos-arm
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Nathan Senter
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.nathan.tiktokphotocomments_0.0.1_iphoneos-arm.deb
+Size: 2368
+MD5sum: f15050ec5a7e409ba081e276d48f2978
+SHA1: 4aab5b2aa76ec59ecb9a3a90a51eee2d0a96316d
+SHA256: 71735c307e7807ebb6b2908bee1d82f133a985a3dbc28d52904245c5cb018694
+SHA512: 1180ada0b67741e50a277c411719b9e4c246546dd725baac4537ed612fd69f8e7a521806675aa7d1798d7f90a23626e72a573862a781260444201d9c65aea27d
+Description: Tweak to enable the Photos in comments function on TikTok if you don't yet have it! (Also enables the stickers in comments but doesn't work if you're not in the region you're supposed to be in to have it)
+Name: TikTokPhotoComments
+Author: Nathan Senter
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TikTokPhotoComments.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.nathan.tiktokphotocomments
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.nathan.tiktokphotocomments_0.0.1_iphoneos-arm64.deb
+Size: 2676
+MD5sum: b873619b98423a271c40fea420f536b4
+SHA1: dfd1221e7e9b464b050cdd8efd6b06967422ebb3
+SHA256: 365f5b66a0ee3842b0630e2bcff401edf5dbde8347d0d6d27cdf4cd784a7fb02
+SHA512: c7dc4dbc237a7875014137fb0f6b805d4a6cad220b6b22503b41773243aa2fa22ffe9beb58ecb2b915e377c2683399038f2f92bd36993cf2dcd85a060cbbb316
+Description: Công cụ bật chức năng  thêm Ảnh trong bình luận trên TikTok nếu bạn chưa có! Và bật nhãn dán trong bình luận không hoạt động nếu bạn không ở trong khu vực bạn được bảo không có chức năng của nó.
+Name: TikTokPhotoComments
+Author: Nathan Senter
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TikTokPhotoComments.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.nef0pam.betterccxi
 Architecture: iphoneos-arm64
 Version: 1.6.0
@@ -8508,6 +8546,21 @@ MD5sum: aee7cbdda4c03ed3966187a8376ccf7f
 SHA1: fc3119d11e1975cfff71cc8223856128ffbf8459
 SHA256: 9631dc0e3ba6333d771b98be7eac46c2f62171327dda453b0d77832e9000fb21
 SHA512: 367abfbcd223079b476b17840393bfb02b82cca369eb5350dd49b8d07c7d083fdba6913fff147e9152b964c7d748f8b31807b76410cf4c2f3c4f607856acee69
+Description: Support for legacy arm64e ABI in iOS 15.0+
+Author: Evelyn
+Name: Legacy arm64e Support
+
+Package: oldabi
+Architecture: iphoneos-arm64
+Version: 0.3.2
+Maintainer: Evelyn
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Filename: ./debs/oldabi_0.3.2_iphoneos-arm64.deb
+Size: 14900
+MD5sum: 2cc9de6dbc75226517fb558ab251b60f
+SHA1: d0f1f502f27764505e8557348f8b9ed58714df84
+SHA256: cb5bb774cd99f5f39c14d2925a5189782a3536583588b8385066dc00c6220d56
+SHA512: e351bb292a5bc8c6a4848aa0cdffcbd097d00f971725b19742aaa807499d17fa1ff2a8bf884fa228a9c6540ae8f93208fe9deac262582db8643b6f05e62efe17
 Description: Support for legacy arm64e ABI in iOS 15.0+
 Author: Evelyn
 Name: Legacy arm64e Support

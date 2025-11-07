@@ -1,42 +1,52 @@
 {
 "minVersion": "0.1",
 "headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#3399FF",
+"tintColor":"#B5B5B5",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
+{ "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/CCMusic/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"class":"DepictionLabelView",
+"text":"TikTokPhotoComments",
+"fontWeight": "bold",
+"fontSize": 19,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/CCMusic/Screenshots/2.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/CCMusic/Screenshots/3.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/CCMusic/Screenshots/4.png",
-"accessibilityText":"Screenshot"
-}
-],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
-},
-{
-"markdown":"CC Music\n\n- Thêm hiệu ứng hoạt ảnh động trong mô-đun music trên Trung tâm điều khiến.\n\n \n\n- Hướng dân sử dụng:\n\n- B1: Đầu tiên bạn phải cải đặt Filza\n\n- B2: Tải tệp Ánh dạng PNG frame theo khung hình nhiều chuyển động khác nhau\n\n- B3: Trong mục cài đặt của tweak kéo xuống dưới nhấn dòng 动画路径 (đường dẫn hoạt ảnh) trong filza chọn thư mục ccmusic\n\n- B4: Sao chép tất cả ảnh ví dụ replay1.png-> replay9xx.png dán vào mục đó rồi resprong lại thiết bị là xong nhé😁\n\n- Một số mẫu ảnh động cho các bạn có thể tải về ở tab liên hệ hỗ trợ",
+"markdown":"\n\n- Tinh chỉnh cho phép bạn bình luận trên ứng dụng TikTok bằng hình ảnh cũng như bật gửi nhãn dãn không hoạt khi bạn ở khi vực có hỗ trợ tính năng của nó.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
 {
 "spacing": 20,
 "class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Ảnh chụp màn hình",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"itemCornerRadius": true,
+"itemSize": "{185, 400}",
+"screenshots": [
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/TikTokPhotoComments/Screenshots/1.png"
+}
+],
+"class": "DepictionScreenshotsView"
 },
 {
 "class": "DepictionSeparatorView"
@@ -65,7 +75,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "simon",
+"text": "Nathan Senter",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -91,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "5/11/2025",
+"text": "5/7/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -109,7 +119,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.5",
+"text": "0.0.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -122,7 +132,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "285 KB",
+"text": "72 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -164,7 +174,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Roothide Jailbreak"
+"markdown":"### Hỗ trợ Rootfull, Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
@@ -172,11 +182,6 @@
 {
 "tabname":"Liên hệ Hỗ trợ",
 "views":[
-{
-"class":"DepictionTableButtonView",
-"title": "Link Tải Ảnh Động",
-"action": "https://app.mediafire.com/folder/sv57y9w8uzx9i"
-},
 {
 "class":"DepictionTableButtonView",
 "title": "Paypal",
