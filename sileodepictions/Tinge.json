@@ -1,7 +1,7 @@
 {
 "minVersion": "0.1",
-"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#3399FF",
+"headerImage": "https://jtisvn.github.io/coverimage/Tinge.png",
+"tintColor":"#00FF66",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -10,19 +10,15 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/CCMusic/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/Tinge/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/CCMusic/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/Tinge/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/CCMusic/Screenshots/3.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/CCMusic/Screenshots/4.png",
+"url":"https://jtisvn.github.io/infodeb/Tinge/Screenshots/3.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -30,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"CC Music\n\n- Thêm hiệu ứng hoạt ảnh động trong mô-đun music trên Trung tâm điều khiến.\n\n \n\n- Hướng dân sử dụng:\n\n- B1: Đầu tiên bạn phải cải đặt Filza\n\n- B2: Tải tệp Ánh dạng PNG frame theo khung hình nhiều chuyển động khác nhau\n\n- B3: Trong mục cài đặt của tweak kéo xuống dưới nhấn dòng 动画路径 (đường dẫn hoạt ảnh) trong filza chọn thư mục ccmusic\n\n- B4: Sao chép tất cả ảnh ví dụ replay1.png-> replay9xx.png dán vào mục đó rồi resprong lại thiết bị là xong nhé😁\n\n- Một số mẫu ảnh động cho các bạn có thể tải về ở tab liên hệ hỗ trợ",
+"markdown":"Tinge\n\n- Tuỳ chính màu biểu ngữ thông báo theo màu của úng dụng",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -65,7 +61,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "simon",
+"text": "P2kDev",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -91,7 +87,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "5/11/2025",
+"text": "8/11/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -109,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.5",
+"text": "1.2.2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -122,7 +118,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "285 KB",
+"text": "396 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -135,7 +131,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "12.0 - 16.7.10",
+"text": "15.0 - 16.7.10",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false

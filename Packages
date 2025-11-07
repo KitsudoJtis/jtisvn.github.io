@@ -7150,6 +7150,26 @@ Author: Nathan Senter
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TikTokPhotoComments.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.nathan.tiktokphotocomments
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 72
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.nathan.tiktokphotocomments_0.0.1_iphoneos-arm64e.deb
+Size: 3672
+MD5sum: f998c2f23c6183baf159b9447999af74
+SHA1: 36532f249219e29e015e8695f0161b46db75104e
+SHA256: 42f1f089da1eb8d61f553b48eb701c7bb8482ddc8af52c9092b58b5426727200
+SHA512: 720c03d33d03c124ee8d781fdf9862201a330dee69fb1cc45eaf32ca7fb762a688c6859dfa63caa6a1d89818c06a9c6a1e79f902a87f13871e62014845d77980
+Description: Công cụ bật chức năng  thêm Ảnh trong bình luận trên TikTok nếu bạn chưa có! Và bật nhãn dán trong bình luận không hoạt động nếu bạn không ở trong khu vực bạn được bảo không có chức năng của nó.
+Name: TikTokPhotoComments
+Author: Nathan Senter
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TikTokPhotoComments.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.nef0pam.betterccxi
 Architecture: iphoneos-arm64
 Version: 1.6.0
