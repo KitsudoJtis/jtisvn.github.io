@@ -30,7 +30,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"CC Music\n\n- Thêm hiệu ứng hoạt ảnh động trong mô-đun music trên Trung tâm điều khiến.\n\n \n\n- Hướng dân sử dụng:\n\n- B1: Đầu tiẻn bạn phải tải Ánh dạng PNG frame theo khung hình nhiều chuyển động khác nhau\n\n- B2: Trong mục cài đặt của tweak kéo xuống dưới nhấn dòng 动画路径 (đường dẫn hoạt ảnh) trong filza chọn thư mục ccmusic\n\n- B3: Sao chép tất cả ảnh ví dụ replay1.png-> replay9xx.png dán vào mục đó rồi resprong lại thiết bị là xong nhé😁\n\n- Một số mẫu ảnh động cho các bạn có thể tải về ở tab liên hệ hỗ trợ",
+"markdown":"CC Music\n\n- Thêm hiệu ứng hoạt ảnh động trong mô-đun music trên Trung tâm điều khiến.\n\n \n\n- Hướng dân sử dụng:\n\n-B1: Đầu tiên bạn phải cải đặt Filza\n\n- B2: Tải tệp Ánh dạng PNG frame theo khung hình nhiều chuyển động khác nhau\n\n- B3: Trong mục cài đặt của tweak kéo xuống dưới nhấn dòng 动画路径 (đường dẫn hoạt ảnh) trong filza chọn thư mục ccmusic\n\n- B4: Sao chép tất cả ảnh ví dụ replay1.png-> replay9xx.png dán vào mục đó rồi resprong lại thiết bị là xong nhé😁\n\n- Một số mẫu ảnh động cho các bạn có thể tải về ở tab liên hệ hỗ trợ",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
