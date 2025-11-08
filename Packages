@@ -6077,6 +6077,43 @@ Author: 34306
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TimeLeft.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.tinge
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: firmware (>= 15.0), mobilesubstrate, ws.hbang.alderis
+Filename: ./debs/com.jtis.tinge_1.2.2_iphoneos-arm64.deb
+Size: 41196
+MD5sum: a7ad3a1aefe3754867ad169501061f5e
+SHA1: 8f602eb91f19bb1742d3965d1e3dd09eadad7914
+SHA256: fa1ba2158358fe4e997fc6023b7068676b90fc4bd58dcf78942cf0bfb8c200f1
+SHA512: 49dba33ca9ca8fc79a9ec90d33393fa89b08da54a1d31b1c304403419a948f6b553b9e1d76e1f69145ea544475f5599bf5fe958819717c62da593576d72fe68d
+Description: Color your badges with Perfection!
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Tinge.json
+Icon: https://jtisvn.github.io/sectionIcons/Tinge.png
+Name: Tinge (Rootless)
+Author: P2KDev
+
+Package: com.jtis.tinge
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, ws.hbang.alderis
+Filename: ./debs/com.jtis.tinge_1.2.2_iphoneos-arm64e.deb
+Size: 40232
+MD5sum: ca0187906eb51c2ff518de950bb7d4ae
+SHA1: 4888fdd289b5a1d329e8ac9a129bf3887ba62449
+SHA256: b6d571f4157fd1f4079ed01e39c553cc062fdab8031a401c9452bf2c254a150c
+SHA512: fce5358263b0fe95c213fd39b5c3f9fa90b28009f7428611c5057d193ff62a87a67b935cabb057fd89015ae8e47dad7d601b9382c54879cf45d7a9ac4e9981b8
+Description: Color your badges with Perfection!
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Tinge.json
+Icon: https://jtisvn.github.io/sectionIcons/Tinge.png
+Name: Tinge (Roothide)
+Author: P2KDev
+
 Package: com.jtis.transilucent
 Architecture: iphoneos-arm64
 Version: 1.0
