@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#3366CC",
+"tintColor":"#33FF00",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -67,7 +67,7 @@
 "title":"Liên hệ Hỗ trợ",
 "action":"https://jtisvn.github.io/donate/donate.html",
 "openExternal":"true",
-"tintColor":"#3366CC"
+"tintColor":"#33FF00"
 },
 {
 "class":"DepictionTableButtonView",
