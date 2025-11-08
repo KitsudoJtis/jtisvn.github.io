@@ -114,7 +114,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.9.3",
+"text": "2.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -168,7 +168,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.9.3\n\n- Thêm ngôn ngữ Tiếng Việt\n\n ### Phiên bản  1.8-119\n\n- Sửa lỗi và tương thích Roothide\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 2.0\n\n- Sửa lỗi\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
