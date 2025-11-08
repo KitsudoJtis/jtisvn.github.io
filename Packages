@@ -3960,11 +3960,32 @@ Maintainer: JTISVN Repo
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.iScreen_1.0_iphoneos-arm64.deb
-Size: 452236
-MD5sum: 880eeebdb04bdb248c6de6b9f0b11789
-SHA1: ae02fa6d27319e2a244b0a81f8560dc745e38123
-SHA256: 187fa249b05f33fe7fb4597a4d0a4dab338548d95a8567b17d821d62fe460713
-SHA512: 047c90021a918b0a49f92b1721a2378416d3a9bd5d9823bbb5e7ceb8c8d11d05f661b9e88f10395bc6457add5fa4f0aac6fd87620221270b38f6987ae685972e
+Size: 432672
+MD5sum: af1bf4db7971cdf2daf56b613a5be6f6
+SHA1: 0afdb8f1b65e0f9d9987b350745d56ab874ab32d
+SHA256: 96d1ca89c4e6cda5d5e54ddc78b7857b547d44c075f0f5323985c3a676ee9c0f
+SHA512: c5d74c21d00b0c9a1994612716af69ada6b274ed227bce6e99d212ad341d3324c4f1f8e1d95ba7966f87445baa99cf2dae7c1227f31128b6e3a899a0a3d86a50
+Description: iScreen crack by Blatan
+Name: iScreen VIP
+Author: blatant
+Depiction: http://bvnsupport.github.io/infodeb/Html/iScreen.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/IScreenVip.json
+Icon: https://jtisvn.github.io/sectionIcons/IScreenVip.png
+
+Package: com.jtis.iScreen
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.iScreen_1.0_iphoneos-arm64e.deb
+Size: 436176
+MD5sum: 58024e5794ec2519821a535c1aeb77c9
+SHA1: a38e56b68781af65fa48775bcab0ea4bd6496c7d
+SHA256: a9dcea82cbae8961574cdb9e7dae746b8806c8574e7acdc9c08aae170bffe7c5
+SHA512: 4e847b71eaa3ebd0fd1e60c63d5a904cd6b190a5d46897dabef51c65705771513ff88a62879b3291a89cc80b093bdc4d69ed6bf2d0338e86d0b51e4b3eb1a9e8
 Description: iScreen crack by Blatan
 Name: iScreen VIP
 Author: blatant
@@ -4105,27 +4126,6 @@ Author: Hoàng MD
 SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS26.json
 Icon: https://jtisvn.github.io/sectionIcons/iOS26.png
  Pre-Depends: rootless-compat(>= 0.9)
-
-Package: com.jtis.iScreen
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Mở khoá ứng dụng
-Maintainer: JTISVN Repo
-Installed-Size: 204
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.iscreen_1.0_iphoneos-arm64e.deb
-Size: 1030370
-MD5sum: a405d9246d1a84e76cf5fe9e14c66b07
-SHA1: 6361d23ae409d1bf8bcdeeaede8b9809fce4e950
-SHA256: cfc65eb5bf391dbac8949f6b044a1a016d573c9a41a1af86b6c6684a1f6a7cad
-SHA512: bbdc07ec29a6942e80cb300c8900a43d6c2f52f287eac7d0f2d00bf7171dbc60bf6443dac6aab231b126f31e1620fec05ac7e4ce61ba69f3243736212ac5ca08
-Description: iScreen crack by Blatan
-Name: iScreen VIP
-Author: blatant
-Depiction: http://bvnsupport.github.io/infodeb/Html/iScreen.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/IScreenVip.json
-Icon: https://jtisvn.github.io/sectionIcons/IScreenVip.png
 
 Package: com.jtis.jade
 Architecture: iphoneos-arm64
