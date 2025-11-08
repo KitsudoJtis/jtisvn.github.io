@@ -4924,6 +4924,45 @@ Name: NoPreferencesTips (Roothkde)
 Icon: https://jtisvn.github.io/sectionIcons/NoPreferencesTips.png
 Author: 苏苏
 
+Package: com.jtis.noredirect
+Architecture: iphoneos-arm64
+Version: 1.10
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 580
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/com.jtis.noredirect_1.10_iphoneos-arm64.deb
+Size: 57288
+MD5sum: 1062de6acf4c5ffb1d7cabeeea8638e7
+SHA1: b8e4c0213e70292404ee68e844800d0a97f62c92
+SHA256: e09383f5cf11da0ed04a7e36af2126d675c3e56ff9dcff3135c84fcfcf238841
+SHA512: 9ad2e89d067137d4ec7e29fd7d992bf6019cd686f9a24a51577cf3fb0ff37fde3f74f84bb8a018a4f876c7ce371f6266fcc466423bbb3b6c06b6d06177b94fe1
+Description: Ngăn các ứng dụng cụ thể chuyển hướng đến App Store, Safari hoặc các ứng dụng khác.
+Name: No Redirect (Rootleds)
+Author: Lessica <82flex@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NoRedirect.json
+Icon: https://jtisvn.github.io/sectionIcons/NoRedirect.png
+
+Package: com.jtis.noredirect
+Architecture: iphoneos-arm64e
+Version: 1.10
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 580
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/com.jtis.noredirect_1.10_iphoneos-arm64e.deb
+Size: 57220
+MD5sum: 173c1ed5d7d14fbc1472d04b2c4250f2
+SHA1: 19fe9f5798e845c6fd2025f9b0e7e9c922aca9fa
+SHA256: f23cdf53b93f2f5aa76dc6101d652fa94014dc82860a41861e74f1cc72dcb6fc
+SHA512: d74f62e30b95244aa4f30645d3b0bf5daa2a52fdaf30235e3e52cb5b928ed1077f2e2667328b356bff3bdeb6e5709e7faef3ce3dea5443f58c2445e3af574d21
+Description: Ngăn các ứng dụng cụ thể chuyển hướng đến App Store, Safari hoặc các ứng dụng khác.
+Name: No Redirect (Roothide)
+Author: Lessica <82flex@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NoRedirect.json
+Icon: https://jtisvn.github.io/sectionIcons/NoRedirect.png
+
 Package: com.jtis.notisound
 Architecture: iphoneos-arm64
 Version: 2.4
