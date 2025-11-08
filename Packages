@@ -782,6 +782,47 @@ dev: ichitaso
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
 Icon: https://jtisvn.github.io/sectionIcons/PowerSelector.png
 
+Package: com.imkpatil.homebarsizer
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 404
+Depends: mobilesubstrate
+Filename: ./debs/com.imkpatil.homebarsizer_1.1.1_iphoneos-arm64.deb
+Size: 24388
+MD5sum: 3130f1dda7d56d9ed2324ef7872ef561
+SHA1: f8b0822540fb81ce739b2acb78eff75c9def4bee
+SHA256: cfc74962cbd0fd57d1fffbece6a2a096694c11b88b942aa6679eccdd8c8d69c6
+SHA512: 4c8e7300b8e60cc702b6611f38e459732b3f047a2779bb3429d368d2d85300bb43c075688a169d85aad098b220923007ed1c1fba97de70a3d7ba769a452d3b60
+Description: Thay đổi kích thước thanh HomeBar trên thiết bị của bạn!
+Name: HomeBarSizer (Rootless)
+Author: P2KDev <p2kdev@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.imkpatil.homebarsizer
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.imkpatil.homebarsizer.json
+
+Package: com.imkpatil.homebarsizer
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 404
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.imkpatil.homebarsizer_1.1.1_iphoneos-arm64e.deb
+Size: 23736
+MD5sum: 70f530a5e01cc562b74150a2e3a40864
+SHA1: a510d109de37852a0a2a1ed99bd030c800fc2d99
+SHA256: 9541f805922e6ea4b3b3377ab787ee9e8135a00c0fd7984602f65781060e5cef
+SHA512: dbf91452cdf306bb43d9c8d05358ab57338d4633cbab5856f9f795c06d7a65836140f63e1a2a866756c641d32b46ecae3cf6c686a15efac3034dbc5a664d030e
+Description: Thay đổi kích thước thanh HomeBar trên thiết bị của bạn!
+Name: HomeBarSizer (Roothide)
+Author: P2KDev <p2kdev@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.imkpatil.homebarsizer
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.imkpatil.homebarsizer.json
+
 Package: com.jti.atria
 Architecture: iphoneos-arm64
 Version: 1.4.1
@@ -6076,6 +6117,45 @@ Name: TGExtra (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
 Icon: https://jtisvn.github.io/sectionIcons/TeleSF.png
 Author: choco, r22i0
+
+Package: com.jtis.tiktoknoadsmall
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.tiktoknoadsmall_0.0.1_iphoneos-arm64.deb
+Size: 185380
+MD5sum: b27300a5fdfbd3611dc268ba8f3ca00d
+SHA1: a7a6013f5e0693c7425d7cf3481a0e3dcde23399
+SHA256: 85f920346922575ac2f7a7f4c6016ddbaa9eecb35edde3bfee77d90b314e15d0
+SHA512: a07b1705884b3e404394d2bf5f6a1fb8a13218cb1a4cb416e52198bf1c26129b6c57bdb99a83c75b8a19adf73a4c84f649b4c4ee37c3be99ffac503cb04c77f5
+Description: Ẩn logo quảng cáo sự kiện trên màn hình lướt TikTok
+Name: TikTok No Ads (Mall)
+Author: dayanch96
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TiikTokNoAdsMaill.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.tiktoknoadsmall
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 72
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.tiktoknoadsmall_0.0.1_iphoneos-arm64e.deb
+Size: 185144
+MD5sum: f48f20c0c03aeab216e88ace54c8e46d
+SHA1: e7fd351cfa1a048a00480d5c327b7512ce2d9974
+SHA256: 5fe783c60fd7a0a1b72ce6c868770ff78c4b3041d7dc645b45ccc2aa4308c38f
+SHA512: 26737d0525ff25647809e3400cbae023a6a2ba760aa3c591f4743e3c68b0845384321bb1b6356f3f658de9259036e1173c2a529416dfbe1333992b0ed614638d
+Description: Ẩn logo quảng cáo sự kiện trên màn hình lướt TikTok
+Name: TikTok No Ads (Mall)
+Author: dayanch96
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TiikTokNoAdsMaill.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.timelefted
 Architecture: iphoneos-arm64
