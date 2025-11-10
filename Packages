@@ -7545,6 +7545,43 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/BetterCCXI.json
 Icon: https://jtisvn.github.io/sectionIcons/BetterCCXI.png
 Author: ATWiiks
 
+Package: com.netskao.dumpdecrypter
+Architecture: iphoneos-arm64
+Version: 1.5-1
+Section: Tweaks
+Maintainer: Netskoa
+Installed-Size: 952
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.dumpdecrypter_1.5-1_iphoneos-arm64.deb
+Size: 393700
+MD5sum: e14742d9f6da73072bfbaa27fff848ca
+SHA1: 46bca645bd5c00bcb61f054f4fdb4b13d6b868d4
+SHA256: 85e13ea1917445bb9612f064dfb016939e19f71664357f3606065d056ef8736e
+SHA512: 855035ccad1ac7943c64a31581874c7b9c851edf1d1235485ff3ba76cc5256be869f7457554c3b829683f6d865e3bc8c41cfb6b169b48845548f8b50bbaeef3d
+Description: Giải mã và xuất tép IPA các Ứng dụng iOS, hỗ trợ iOS15+, chỉ được thử nghiệm iOS16.1
+Name: DumpDecrypter (Rootless)
+Author: Netskao
+Icon: https://axs66.github.io/repo/icon/dumpdecrypter.png
+
+Package: com.netskao.dumpdecrypter
+Architecture: iphoneos-arm64e
+Version: 1.5-1
+Section: Tweaks
+Maintainer: Netskoa
+Installed-Size: 952
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.dumpdecrypter_1.5-1_iphoneos-arm64e.deb
+Size: 393556
+MD5sum: 0e20969d1fc94244969337419232186f
+SHA1: 873397db642d3fe1cdf3abbc5477b9b2e93ed55e
+SHA256: 214fe19aab765ee6e962c05a6db47f931e12237593da56c7b2f35eb2b9343c8f
+SHA512: d98d99544f55897b1ec7b261c4dc087309881d4900398a24c0937a6b4fba00f79c810ebaf31a43894a6decde916cec65dd3e5813b2a3cf485573b688245bdc4b
+Description: Giải mã và xuất tép IPA các Ứng dụng iOS, hỗ trợ iOS15+, chỉ được thử nghiệm iOS16.1
+Name: DumpDecrypter (Roothide)
+Author: Netskao
+Icon: https://axs66.github.io/repo/icon/dumpdecrypter.png
+
 Package: com.netskao.pulloverpro
 Architecture: iphoneos-arm64
 Version: 2.1.6
