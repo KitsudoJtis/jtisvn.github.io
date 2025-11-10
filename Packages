@@ -713,6 +713,71 @@ Name: SearchDots (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/SearchDots.png
 Author: NightwinDev
 
+Package: com.iarrays.libiarrays.rootless
+Architecture: iphoneos-arm64
+Version: 1.0.16-beta-15
+Section: Development
+Maintainer: IArrays <support@iarrays.com>
+Installed-Size: 656
+Pre-Depends: firmware (>=9.0)
+Conflicts: com.iarrays.libiarrays1, com.iarrays.libiarrays, com.iarrays.libiarrays.roothide
+Filename: ./debs/com.iarrays.libiarrays.rootless_1.0.16-beta-15_iphoneos-arm64.deb
+Size: 120972
+MD5sum: b0f153ecee8632e292a4fe7b68c08b67
+SHA1: 6580035039a190e54154b67b4dded5276777edb5
+SHA256: f6ae0e7fe6e136a55e24c4929eac83083b1b30edd30e195d282636bac3c03597
+SHA512: 21a7b5d8ee0013d8de401d677aebbd6cf9004bfa5fdaa439e105a65e12e6e93dd367e0f38ee9ccf92ad0e184a769d89ccef84ee5b2cbf42daff13a0f65fe0f59
+Homepage: http://iarrays.com/
+Description: Should be used only by IArrays products. This is closed library and no support is provided for this package.
+Name: libiarrays (Rootless)
+Author: IArrays <support@iarrays.com>
+Sponsor: IArrays
+Icon: https://bvnsupport.github.io/depictions/sectionIcons/phattrienn1.png
+
+Package: com.iarrays.simplus.rootless
+Architecture: iphoneos-arm64
+Version: 1.15-beta-6
+Section: Utilities
+Maintainer: JTISVN Repo
+Installed-Size: 1196
+Pre-Depends: firmware (>=12.0)
+Depends: mobilesubstrate, preferenceloader, com.iarrays.libiarrays.rootless (>= 1.0.16), com.opa334.ccsupport, com.jtis.iarrays-crack
+Conflicts: com.iarrays.simplus.roothide
+Filename: ./debs/com.iarrays.simplus.rootless_1.15-beta-6_iphoneos-arm64.deb
+Size: 630384
+MD5sum: f4c5a1ec549e9a18f6767b6ef86fc537
+SHA1: cb9657876db47fe40fa6b6539cfefc933d7d8c63
+SHA256: 871904ee30507f35f05da500e3574ce94264e063c1e407d77e797270504949a5
+SHA512: b22906dc21d7c0c175ba31a4ead812d24a0a18b52deb5baf3102ec526e0b649aa228fa15bd48fce7e55aa3332e474e04079eaaccd4269e00155175b38429186e
+Description: The way Apple should have done it, but do not worry. We have done it for you. Choose a way how to call or text while using eSim/dual sim iPhones
+Name: eSim+ (Rootless iOS 17 to 15)
+Author: IArrays <support@iarrays.com>
+Sponsor: IArrays
+SileoDepiction: https://jtisvn.github.io/sileodepictions/eSim+.json
+Icon: https://jtisvn.github.io/sectionIcons/eSim+.png
+
+Package: com.iarrays.simplus.rootless
+Architecture: iphoneos-arm64e
+Version: 1.15-beta-6
+Section: Utilities
+Maintainer: JTISVN Repo
+Installed-Size: 1196
+Pre-Depends: rootless-compat(>= 0.9), firmware (>=12.0)
+Depends: mobilesubstrate, preferenceloader, com.iarrays.libiarrays.rootless (>= 1.0.16), com.opa334.ccsupport, com.jtis.iarrays-crack
+Conflicts: com.iarrays.simplus.r-o-o-t-l-e-s-s-
+Filename: ./debs/com.iarrays.simplus.rootless_1.15-beta-6_iphoneos-arm64e.deb
+Size: 634772
+MD5sum: e0e45826c95fd9533a335b65559cc199
+SHA1: f3b70cab650e2cfc09bf60d35f4a5f15208b7cbd
+SHA256: 3a8454ba728166a0f2a0b0db1bae2fec19220654d203cbac784990b58fdcd60e
+SHA512: 76b30b2ce4e2228b6cefdbd769bc834800f587c108e0351233f8f29d5989e93e8f353efaf0549b19acff40c80619a82fac234d20945cbc05775585bb21641ba2
+Description: The way Apple should have done it, but do not worry. We have done it for you. Choose a way how to call or text while using eSim/dual sim iPhones
+Name: eSim+ (RootHide iOS 17 to 15)
+Author: IArrays <support@iarrays.com>
+Sponsor: IArrays
+SileoDepiction: https://jtisvn.github.io/sileodepictions/eSim+.json
+Icon: https://jtisvn.github.io/sectionIcons/eSim+.png
+
 Package: com.ichitaso.hideserialnumber
 Architecture: iphoneos-arm64
 Version: 0.0.4
@@ -1458,6 +1523,45 @@ Author: BVN
 SileoDepiction: https://jtisvn.github.io/sileodepictions/VibrateOnCall.json
 Icon: https://jtisvn.github.io/sectionIcons/VibrateOnCall.png
 
+Package: com.jtis.Widgy
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 10756
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.Widgy_1.0_iphoneos-arm64.deb
+Size: 1657600
+MD5sum: 04738d07cfbab4fc4d50ab22b21f0419
+SHA1: 6c63af0561aea0598d7ada31c3f2f4cca0f56b63
+SHA256: 1790991f1e13828119f20a1390c77166e056573900e77a54f5a8b34ffa0d76c5
+SHA512: 3ee53a81c49a84e12fbb7e478a4c491e31613fb553c4cbcf14f893829046563858cb8cfd9520e17c2a59033dab1c970a71ee53ebbcaf24309a8c28dd85a83c9e
+Description: Cracked By Blatant
+Name: Widgy Unlock
+Author: blatant
+SileoDepiction: https://jtisvn.github.io/sileodepictions/WiddyUnlock.json
+Icon: https://jtisvn.github.io/sectionIcons/WiddyUnlock.png
+
+Package: com.jtis.Widgy
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 10756
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.Widgy_1.0_iphoneos-arm64e.deb
+Size: 1642168
+MD5sum: 7e86f6103269b49b5ff7d24d9414c7b4
+SHA1: ba9b72fa5cf7e875f0d32db8742f962694064059
+SHA256: 891e3a2ddd0358b87b6cd320ff917fdb9f1c4fe3393316ea76a5e7f775539ca3
+SHA512: dc81cbb9ec9c908111c3202a93dca7284a55ed3d91e82d753e12daec458bac71b03527cebed245c49bb9f63603cf3be0ab64dd2581d73a6f94027d495d16bdd2
+Description: Cracked By Blatant
+Name: Widgy Unlock
+Author: blatant
+SileoDepiction: https://jtisvn.github.io/sileodepictions/WiddyUnlock.json
+Icon: https://jtisvn.github.io/sectionIcons/WiddyUnlock.png
+
 Package: com.jtis.accentcustom
 Architecture: iphoneos-arm64
 Version: 2.2.1
@@ -1734,6 +1838,43 @@ Icon: https://jtisvn.github.io/sectionIcons/Appaze3.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Appaze3.json
 Author: AnthoPak
 Name: Appaze 3 (Roothide)
+
+Package: com.jtis.appstoretroller
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.appstoretroller_0.1.2_iphoneos-arm64.deb
+Size: 28440
+MD5sum: 359320bcdfccb258eeb23738d4764b17
+SHA1: da53e80cd583de3525eb51894e2d025fd5469178
+SHA256: 264bab83dd36a98e15426fa20276054e9c59c3548c83f00091078ed389dbaf65
+SHA512: d7b99345edd60e966b380922e770ca9d8d9150eafe519bd34d7884ed1b5e45ff6904022eacd2ed30a248769219847ce80010d48dae8dc0800fc6b490a8dbe41c
+Description: Modified version of Mineek's tweak that lets you specify the minimum version and bypass installd version check.
+Name: AppStoreTroller (Rootless)
+Author: Mineek, waruhachi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppStoreTroller.json
+Icon: https://jtisvn.github.io/sectionIcons/AppStoreTroller.png
+
+Package: com.jtis.appstoretroller
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.appstoretroller_0.1.2_iphoneos-arm64e.deb
+Size: 30848
+MD5sum: de4feacd888c9f559db920f227e89425
+SHA1: e42e6b119c4f24f21abd617158dd29e039ae2501
+SHA256: ff7985567c0e59ba7981f2afa900692dbdb99373c4c3b2913c63010ca77401bc
+SHA512: fb5717ecf890b0656afa88982bec9d61f9d1096f36f39c7935dd8fb8080a3db343e6942c140eecee2d48157f6fe10a8fbfd71eef65e1c76c0683e4cb5c03d510
+Description: Modified version of Mineek's tweak that lets you specify the minimum version and bypass installd version check.
+Name: AppStoreTroller (Roothide)
+Author: Mineek, waruhachi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppStoreTroller.json
+Icon: https://jtisvn.github.io/sectionIcons/AppStoreTroller.png
 
 Package: com.jtis.april
 Architecture: iphoneos-arm64
@@ -4013,6 +4154,45 @@ Author: Lightmann <lightmanns11@gmail.com>
 Name: IAmLazy (Rootless)
 Icon: https://Jtisvn.github.io/sectionIcons/Iamlazy.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Iamlazy.json
+
+Package: com.jtis.iarrays-crack
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Artem Kasper
+Installed-Size: 3384
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jtis.iarrays-crack, org.mr.libiarraysrl
+Filename: ./debs/com.jtis.iarrays-crack_1.0.0_iphoneos-arm64.deb
+Size: 4624
+MD5sum: 1c253759ae57bdc17696dc151a02666e
+SHA1: 56e6a7b2a7faeb975d11a0fbcc0b6d0e9beb07fc
+SHA256: ee75a0dbac2fcb21df9497e90f107a2dcba192c7369707c1cc00399d04052878
+SHA512: 9ee6066bbb1938d17de3074c280c4c0d330efd492c7be8ac7e924e7cde3bd16344adeaa1475ef10c22893bd48134de62df46829ee90de831f5a887d755c2fa07
+Description: Kích hoạt gói các chỉnh sửa iArrays
+ - Activate all tweaks from iArrays Repo
+Name: iArrays Crack
+Author: Artem Kasper
+
+Package: com.jtis.iarrays-crack
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Artem Kasper
+Installed-Size: 3384
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jtis.iarrays-crack, org.mr.libiarraysrl
+Filename: ./debs/com.jtis.iarrays-crack_1.0.0_iphoneos-arm64e.deb
+Size: 5556
+MD5sum: d6ac7285cf8a20c80f816d4ff99ee891
+SHA1: e7b005565abff4375773721a45b3de2f85ae8aca
+SHA256: 7d1512c966b63ae059b44401477808ed2991caabfd94f730f688a5f2bffdcf5a
+SHA512: 313786a2552faff5846f5fe692458d08bdc035cdfc6d3f3e694700ed342e4e300223fea2d09decbb9e389a81c8bb8581e627c07706f18f369a3b5c15e718e464
+Description: Kích hoạt gói các chỉnh sửa iArrays
+ - Activate all tweaks from iArrays Repo
+Name: iArrays Crack
+Author: Artem Kasper
 
 Package: com.jtis.icatch
 Architecture: iphoneos-arm64e
@@ -7427,6 +7607,25 @@ Name: CCSupport
 Author: opa334
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 
+Package: com.opa334.choicy
+Architecture: iphoneos-arm64
+Version: 1.5.3-2
+Section: Ần Jailbreak
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1136
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: ./debs/com.opa334.choicy_1.5.3-2_iphoneos-arm64.deb
+Size: 161464
+MD5sum: 24f1b072ea5568fe6f5a16c122d5a703
+SHA1: 26f0ce4508679a8e344bc86aa514a8193fc945c7
+SHA256: 3e81824f8ea43f1b6532e3368de5b8cd2dfde28e93a78bda37a4c73c3ad22a19
+SHA512: 9c34d5e279ddb3ca3571222f4cfe05c01804753d85c92061727ab72c4aee10717936b10c9c5e39b13a5396e3d078188bf76fee80b209f50a5cbf0f6cc6531e12
+Description: Advanced Tweak Configuration!
+Name: Choicy (Rootless)
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Author: opa334 <opa334@protonmail.com>
+Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fcydia.saurik.com%2Ficon%2Fcom.opa334.choicy.png&s=180x180&f=webp
+
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm64
 Version: 2.1
@@ -7859,6 +8058,43 @@ Author: Baw Appie <pp121324@gmail.com>
 Icon: https://jtisvn.github.io/sectionIcons/A-Font.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/A-Font.json
 
+Package: com.skypain.ccrespring
+Architecture: iphoneos-arm64e
+Version: 2.0.0-1
+Section: Control Center (Modules)
+Maintainer: JTISVN Repo
+Installed-Size: 192
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.skypain.ccrespring_2.0.0-1_iphoneos-arm64e.deb
+Size: 19244
+MD5sum: 96228405e6f107a0d7a5e3f55a81f4e4
+SHA1: 4e51e7a21d1a3de700b8a887edd6052766e0f9e6
+SHA256: 704379a984dc32ee44c291d5bb11139b6c253a0371fd2d1fbb2fcb475ff5f57d
+SHA512: 7a01edb76e6bc9f7d88db33d3d3a7e2c2876d64a64f32cfb3557e9c1ed212c6e2aeccee42e196da446b057bc2e89fa11f8c485c67d0fa1be06c3e3a03f49e171
+Homepage: https://jtisvn.github.io
+Description: Thêm Respring Mô-đun đăng Trung tâm điều khiển
+Name: CCRespring (Roothide)
+Author: Mr.Zhang <mr_zhang_00@163.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCRespring.json
+Icon: https://jtisvn.github.io/sectionIcons/CCRespring.png
+
+Package: com.snail.airdrop16.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Tweaks
+Maintainer: Snail <mu514983786@gmail.com>
+Installed-Size: 924
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.snail.airdrop16.roothide_1.0.4_iphoneos-arm64e.deb
+Size: 191084
+MD5sum: 9fc12f2377f93ac4cb6c4c10ba61b875
+SHA1: 8693556abf4efa4087b5a416f8e7133d7100c059
+SHA256: 1f1d8cd0a439eb53f6ecb719cf137c05f7c04b2b436f451137fb60e1eb1b746e
+SHA512: 71a447918eeacfb538c83cf05f0743133e3188dd37484e4464d5f62e76f4336392c1176bc41e24ef6727860cc194efde7a383b981162c5e39c8eb87334cc23f2
+Description: Đặt giới hạn thời gian cho chế độ “Mọi người” của AirDrop, tương tự như trên iOS 16 nhưng linh hoạt hơn.
+Name: AirDrop16 (Roothide)
+Author: Snail <mu514983786@gmail.com>
+
 Package: com.spark.autounlockx
 Architecture: iphoneos-arm64
 Version: 1.1.0-rootless
@@ -8277,6 +8513,42 @@ Name: AppData Plus (Rootless)
 Author: Fouad Raheb & Netskao
 Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
 Depiction: https://repo.thuthuatjb.com/index.php?pid=641
+
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm64
+Version: 4.0.1-4
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 23200
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit_4.0.1-4_iphoneos-arm64.deb
+Size: 6973628
+MD5sum: 90f0f22c56aa8e2e8bd01e1f796d187a
+SHA1: 12b1053eb70e496615f12fe9839bcb663d25c3e4
+SHA256: 74cba2360f13be67b5b9bcceaec597e640eb0fe6766f26043d7abd4c896989e9
+SHA512: c8e45cd46632795e2c3c4d7c5fbdeadfb7406ad73b1cad4830969857c1536f1574ed5ee2685f813dedeaca92a1d95220a0a6a33fdc7d205020230220d4ff26ec
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: TIGI Software
+
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm64e
+Version: 4.0.1-4~roothide
+Section: Utilities
+Maintainer: TIGI Software
+Pre-Depends: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit_4.0.1-4_iphoneos-arm64e.deb
+Size: 6972652
+MD5sum: 6391c39283f2cc45dcecf101228d4e28
+SHA1: 718d5c9bb34d0c749ca311e4917736804fe217ec
+SHA256: 35be3aa392b06cd7ed53dd3aa05bf5c3ddaa126ee692b33fba67321fc6cec28d
+SHA512: bcd8b044a4b877f5a2873b009ac40f0d61293ab01cf61326950a6137bfb55bb1445af0b395023ce910abc238456c39c5baedc4379ab2bc9904b16850746a12c8
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: TIGI Software
 
 Package: com.tomaszpoliszuk.lockscreenbatterymagsafe
 Architecture: iphoneos-arm64
