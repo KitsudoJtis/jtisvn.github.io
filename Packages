@@ -5514,6 +5514,47 @@ Description: Điều khiển trình chuyển đổi và khoá ứng dụng của
 Name: PrimeDeck (Roothide)
 Author: 0xkuj
 
+Package: com.jtis.quickpowerbutton
+Architecture: iphoneos-arm64
+Version: 0.0.1-29
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 560
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.quickpowerbutton_0.0.1-29_iphoneos-arm64.deb
+Size: 65284
+MD5sum: e7ff4a44f5120df0c1fa40d6e01f6ae6
+SHA1: 0c991e0e56a01eb3d496964ee4f5286ab79c4f13
+SHA256: e5ffe9a352a7d47a085a0cd2bf8153a63de6fa5e91dd291742501fd87db60c2f
+SHA512: e32c34111d3105e53291a6e3e94503317932da2f14c2711de277fcb267e6574a50924083ba91548c485cf70f611d1583ffb9fb59741b42def2708559ebdd300a
+Homepage: https://jtisvn.github.io
+Description: Thêm nút phím tắt giữa đèn pin và camera trên Màn hình khóa. Bấm vào để bật lên các tùy chọn nguồn.
+Name: QuickPowerButton (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/QuickPowerButton.json
+Icon: https://jtisvn.github.io/sectionIcons/QuickPowerButton.png
+Author: SINI
+
+Package: com.jtis.quickpowerbutton
+Architecture: iphoneos-arm64e
+Version: 0.0.1-29
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 560
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.quickpowerbutton_0.0.1-29_iphoneos-arm64e.deb
+Size: 63432
+MD5sum: a1a79da06e963380c26bd596708546d8
+SHA1: fa8cc43a153b60f2858e196e216e4ab6c524dbf6
+SHA256: 10e81a6d8debd20c71ccf0f61b297b2756a5108d82430e3a0c934e142a020e8b
+SHA512: d1c82cfb0b5a22d6446076d6876e058482d2310ed79665f6583619108d8203cd047a521bedd6ead50f2a2343c592efbfa75b50370576a4017ab13b4c913a8df2
+Homepage: https://jtisvn.github.io
+Description: Thêm nút phím tắt giữa đèn pin và camera trên Màn hình khóa. Bấm vào để bật lên các tùy chọn nguồn.
+Name: QuickPowerButton (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/QuickPowerButton.json
+Icon: https://jtisvn.github.io/sectionIcons/QuickPowerButton.png
+Author: SINI
+
 Package: com.jtis.recorddot
 Architecture: iphoneos-arm64e
 Version: 0.0.1
