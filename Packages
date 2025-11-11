@@ -533,6 +533,28 @@ Icon: https://jtisvn.github.io/sectionIcons/YTLite.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/YTLite.json
 
 Package: com.exile90.icleanerpro
+Architecture: iphoneos-arm64
+Version: 7.10.0
+Section: Utilities
+Maintainer: JTISVN Repo
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm64.deb
+Size: 1101328
+MD5sum: 1451f586de37fe27b9a470dba6592332
+SHA1: 075a39c7e3e89c78b1432c9f9fd06810f53434d7
+SHA256: 87e63bb8df5d99978e9ba475788f9156d903586d991a4ee2ae6b16091458805b
+SHA512: 014ad57ee832334cada3e8e13274e0922e693fec02bf402d547b0873221a4577f7533fde6f0ca643f3045329621b45b53341741c5ed07930f2a54c4379916fe4
+Homepage: http://ib-soft.net/icleaner
+Description: Tiện ích quản lý và dọn dẹp hệ thống iOS.
+Name: iCleaner Pro (Rootless)
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iCleanerPro.json
+Icon: https://jtisvn.github.io/sectionIcons/iCleanerPro.png
+
+Package: com.exile90.icleanerpro
 Architecture: iphoneos-arm64e
 Version: 7.10.0
 Section: Utilities
