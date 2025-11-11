@@ -26,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Thêm nút phím tắt giữa đèn pin và camera trên Màn hình khóa thiết bị của bạn.\n\n- Nhấn giữ vào để bật lên các tùy chọn nguồn.\n\n- Hiển thị cửa số mở lên (Popup):\n\n- Hiển thị thông tin, CPU, dung lượng và thời gian hạot đồng của thiết bị\n- Hiển thị trạng thái phần trăm pin\n\n- Respring nhanh\n\n- Buộc Respring\n\n- Khởi động lại Springboard\n\n- Buộc thiết bị vao chế độ an toàn\n\n- Khởi động lại không goan người dùng\n\n- Tắt nhanh lập tức thiết bị của bạn.",
+"markdown":"\n\n- Thêm nút phím tắt giữa đèn pin và camera trên Màn hình khóa thiết bị của bạn.\n\n- Nhấn giữ vào để bật lên các tùy chọn nguồn.\n\n- Hiển thị cửa số mở lên (Popup):\n\n- Hiển thị thông tin, CPU, dung lượng và thời gian hạot đồng của thiết bị\n- Hiển thị trạng thái phần trăm pin\n\n- Respring nhanh\n\n- Buộc Respring\n\n- Khởi động lại Springboard\n\n- Buộc thiết bị vao chế độ an toàn\n\n- Khởi động lại không gian người dùng\n\n- Tắt nhanh lập tức thiết bị của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
