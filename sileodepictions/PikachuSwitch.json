@@ -4,15 +4,15 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"title":"Pikachu Switch"
 },
 {
-"markdown":"Day-Night Switch\n\n- Mang phong cách hoạt ảnh mới cho nút công tắc trên thiết bị của bạn.\n\n- Chi tiết xem hình ảnh bên dưới.",
+"markdown":"\n\n- Mang phong cách hoạt ảnh mới cho nút công tắc trên thiết bị của bạn.\n\n- Chi tiết xem hình ảnh bên dưới.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -21,7 +21,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Switchthemes/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/PikachuSwitch/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -48,18 +48,18 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"baiy"
+"text":"Wxfx8"
 },
 { "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.0" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
-"text":"Tweaks"
+"text":"Tweak"
 },
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"26/6/2025"
+"text":"13/11/2025"
 },
 {
 "class":"DepictionTableTextView",
