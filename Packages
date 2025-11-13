@@ -9098,6 +9098,28 @@ depiction: https://havoc.app/depiction/aerial
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Aerial.json
 Icon: https://jtisvn.github.io/sectionIcons/Aerial.png
 
+Package: jp.uzra.aeria
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: uz.ra
+Installed-Size: 672
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/jp.uzra.aeria_1.0_iphoneos-arm64e.deb
+Size: 104696
+MD5sum: 20e6d378213c6301d903d24104caed1c
+SHA1: e125452ea0c75d66663758195c8ddb3199f3e5d6
+SHA256: b3a72331265557068d35930ae81919fd786ffc65eabcddc59ff05732a0b1fa2c
+SHA512: a1c3e93b7eaa80782d76e94f801f626f3f1c54f6fd154a90492a7a69a0f5c09dbc76ad69968903e2a2e113bbef4ef7c638141191953cc5f0c983b0ba0ffc8195
+Homepage: https://jtisvn.github.io
+Description: Stage Manager, redesigned for iOS
+Name: Aerial (Roothide)
+Author: uz.ra
+depiction: https://havoc.app/depiction/aerial
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Aerial.json
+Icon: https://jtisvn.github.io/sectionIcons/Aerial.png
+
 Package: jp.uzra.muteplay
 Architecture: iphoneos-arm64
 Version: 1.0
