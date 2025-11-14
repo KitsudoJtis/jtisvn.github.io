@@ -3368,6 +3368,49 @@ Author: Ginsu
 Icon: https://jtisvn.github.io/sectionIcons/Dodo.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Dodo.json
 
+Package: com.jtis.dynamicpeninsula
+Architecture: iphoneos-arm64
+Version: 0.6-25
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1684
+Depends: mobilesubstrate, preferenceloader, firmware(>=12.0), com.jtis.limneos-crack
+Conflicts: org.mr.unsubsrl
+Filename: ./debs/com.jtis.dynamicpeninsula_0.6-25_iphoneos-arm64.deb
+Size: 281884
+MD5sum: a7b31a1c62a5ff4d1fb61e322586ebd7
+SHA1: 58472e5ab29e12d6de3035275300bae2fa5b9d4f
+SHA256: b3994e64e1ee9eca91e0b1d02183cca5fbd7f3a93fa06dfdf774ad74e9623c25
+SHA512: 2f3a3a6cfc4d9bb5bfd50618208a6436cdd23f681ffbac195e1bb1b1891643d9f9f81da87221ac75e21492111a4d43e21cfc35c7fa622e25089f08ff4e7ed1b9
+Description: Dynamic Island on your notch
+Name: DynamicPeninsula (Rootless)
+Author: Elias Limneos <limneoselias@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DynamicPeninsula.json
+Icon: https://jtisvn.github.io/sectionIcons/DynamicPeninsula.png
+MainLibMD5: 12fb8ae6a7b6448240b69c068e6b49d0
+
+Package: com.jtis.dynamicpeninsula
+Architecture: iphoneos-arm64e
+Version: 0.6-25
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1684
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware(>=12.0), com.jtis.limneos-crack
+Conflicts: org.mr.unsubsrl
+Filename: ./debs/com.jtis.dynamicpeninsula_0.6-25_iphoneos-arm64e.deb
+Size: 276496
+MD5sum: 5bfa07ec2f162f0a7565b611cad07527
+SHA1: b71f0602db64084287a3596a7a821d9d8e8c5de6
+SHA256: 12a2101659399ce3f9fc1d95073fba65f791dbe4e636d9cb50a965c6ca8faa1f
+SHA512: 4131be65c72d90ac20db3595628db845f579e07bb9f9766b6fda3052cdc8eaebd83319811b61a74c2955edfc909a6c195cc09327f070898ccefe410a48b26e1c
+Description: Dynamic Island on your notch
+Name: DynamicPeninsula (Roothide)
+Author: Elias Limneos <limneoselias@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DynamicPeninsula.json
+Icon: https://jtisvn.github.io/sectionIcons/DynamicPeninsula.png
+MainLibMD5: 12fb8ae6a7b6448240b69c068e6b49d0
+
 Package: com.jtis.edge2
 Architecture: iphoneos-arm64
 Version: 1.0.3
@@ -4702,6 +4745,25 @@ SHA256: ed6b39235755dabbd00d869ea6ae8a90f846202b2559c5b49ba13293ad022c2f
 SHA512: f9a87a0070c6954627ad70ce47f454866625ed33bde878a5e6ad0e4335dce48c141906363f4819d3ddb834714b30dc42936370eec49e236e350edce34ae6529d
 Description: Crack các tinh chỉnh của Limneos
 Name: Limneos Crack (Rootless)
+Author: CBZ
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.limneos-crack
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: CBZ
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.limneos-crack_1.0_iphoneos-arm64e.deb
+Size: 5368
+MD5sum: 4544b5afac4bbbdef91ba34351d5191f
+SHA1: b1b9dc023b5ba50a54c8a41a6027d8e961251440
+SHA256: 54517ac967293fed37a7d126624468e90c788ff1e28db411cbf094d686b40340
+SHA512: 36b0e9006f9cfb89fed0d0a8db8dfb4e5aef0c590452bbf2a7ea503e1ae24b084cbaf1274295925bf0896f69948a96140b102a6ec396ef0f629c995da86e1d37
+Description: Crack các tinh chỉnh của Limneos
+Name: Limneos Crack (Roothide)
 Author: CBZ
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
