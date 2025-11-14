@@ -2173,6 +2173,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoScroll.json
 Icon: https://jtisvn.github.io/sectionIcons/Autoscroll.png
 
 Package: com.jtis.axon
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 692
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon
+Filename: ./debs/com.jtis.axon_1.5.5_iphoneos-arm64.deb
+Size: 145612
+MD5sum: 19594376c84528b3817769da83036895
+SHA1: 84076d1b110d68664f52e3180e0fddd83ab6ede7
+SHA256: 3494bb486a367925f3a07959a29d76cf5a15320b73c66e9bf8cb34adde940e43
+SHA512: 13bc4583845571b408d433bbc4b93859a38a69d0fa581cb3139c3bc9e22e630ce4b15936c0f82bb070802088369781a33230c5b72d1c073813cb29a3bc2a9db2
+Description: Gom nhóm thông báo trên màn hình khoá - Hỗ trợ IOS 15/16.
+Name: Axon (Rootless)
+Author: Nepeta
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
+Icon: https://jtisvn.github.io/sectionIcons/Axon.png
+
+Package: com.jtis.axon
 Architecture: iphoneos-arm64e
 Version: 1.5.5
 Section: Tweaks
@@ -7406,24 +7426,6 @@ Icon: https://jtisvn.github.io/sectionIcons/Stella.png
 Name: Stella (Roothide)
 Author: yan
 
-Package: com.kitsudo.axon
-Architecture: iphoneos-arm64
-Version: 1.5
-Section: Gói Tiếng Việt
-Maintainer: JTISVN Repo
-Installed-Size: 36568
-Depends: mobilesubstrate
-Filename: ./debs/com.kitsudo.axon_1.5_iphoneos-arm64.deb
-Size: 2784
-MD5sum: 6a5b8c55fa50413ea5e78f6cd014ae31
-SHA1: a232c575456a238d4f1084084f8379a12e1223aa
-SHA256: 48ed96728bcd8ffca82e041930fb8a248ac22f8823eeeb63fb03e16b38b85263
-SHA512: 020e892b8bb92ba8d067a76448a1ee4e60194395b50a5379162efa100f9b79401974dcebf527b951279c012a27fa07bac47dabbf584247d6d77db2a64e2af294
-Description: Patch Tiếng Việt cho tweak Axon
-Name: Axon gói Việt Hoá (Rootless)
-Author: JTISVN Repo
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
 Package: com.kitsudo.choicy
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -9006,19 +9008,39 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/MagSafe.json
 Author: Tomasz Poliszuk
 
 Package: com.udevs.dockx
+Architecture: iphoneos-arm64
+Version: 2.6.2
+Section: Tweaks
+Maintainer: udevs
+Installed-Size: 2036
+Depends: mobilesubstrate, preferenceloader, com.kitsudo.dockx, firmware(>=14.0)
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/com.udevs.dockx_2.6.2_iphoneos-arm64.deb
+Size: 415612
+MD5sum: 7a0a3d179285ec591aa600e4b8fb1ae7
+SHA1: d91448d626caf5cdc195240da298aa75be402b11
+SHA256: 8624db53ee66c4fef3386fc6898d1196ea5c28a64dd939412a5fd74b1ffafb6e
+SHA512: 2612cd854dcbbbd0fd0d8cf2c8b1b853f23190e224f2279803d755f4fd496748ac2ec81e867c842ee39993f5970d2c887bd15df693b2373428aad9008b374c77
+Description: Pasteboard shortcuts on your keyboard dock!
+Name: DockX (Rootless)
+Author: udevs
+Icon: https://jtisvn.github.io/sectionIcons/Dockx.png
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
+Package: com.udevs.dockx
 Architecture: iphoneos-arm64e
 Version: 2.6.2
 Section: Tweaks
 Maintainer: udevs
 Installed-Size: 2036
-Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
+Depends: mobilesubstrate, preferenceloader, com.kitsudo.dockx, firmware(>=14.0)
 Conflicts: com.restiveconch.actionbar
 Filename: ./debs/com.udevs.dockx_2.6.2_iphoneos-arm64e.deb
-Size: 415676
-MD5sum: 4468e4a7322fd1f828fc4ec58d14b9ca
-SHA1: 3fa06333eca1fdbbb1af3db45327d114c7cf242b
-SHA256: 4499320d7011183c22b38f906ec1a2cc7dd9c5d4a1df802c248537e026e6af28
-SHA512: 86c5ea3a20a9a82326980be9f386956c9443136665a73adc88defdd0f3cba327d62f6e32777d66dfcec3f78b2e70861a3cff98e14ba7ab2f268ecae1607889a9
+Size: 414444
+MD5sum: e772c320902c15f654cbe61cc00d126c
+SHA1: 7db9ee0178f1913fdf679ac84a5bf3c660defa24
+SHA256: 667c52f2a26080cddfb65f258f9efbb54d82b9ad07bc617b11603c59cc80f53d
+SHA512: 6c0777644e7eb307697222198f4cdf00281635f3d60d9561310ef67f7289113ab7ae0aafc976d6b29fc7ee3a4a06301fd786a2106e3b4fb6d37e3acc5b90493c
 Description: Pasteboard shortcuts on your keyboard dock!
 Name: DockX (Roothide)
 Author: udevs
