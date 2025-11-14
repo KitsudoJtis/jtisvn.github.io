@@ -1218,18 +1218,18 @@ Icon: https://Jtisvn.github.io/sectionIcons/Barmoji.png
 
 Package: com.jtis.CCbonder16
 Architecture: iphoneos-arm64
-Version: 1.1.8
+Version: 1.1.8k
 Section: Tweaks
 Maintainer: JTIS Repo
 Installed-Size: 448
 Depends: mobilesubstrate, firmware (>= 16.0), ws.hbang.alderis
-Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane, org.thebigboss.libcolorpicker
-Filename: ./debs/com.jtis.CCbonder16_1.1.8_iphoneos-arm64.deb
-Size: 40224
-MD5sum: dc0c57cd62043b78efb8d718cbb40e33
-SHA1: d9811ea6a9474b8413296cd967711378e9ba8c75
-SHA256: 914d6e419af4f0e0b0a22e2603ebd4c77967b6f5681d8d252fa304ac45babae6
-SHA512: 9c2561a8ee27959afdea11ca797031cc858762095fed3f10386ee9e0d21c1a0ba037d62dd783bf9b088d0c13e790ced5c54367c96634cbdc3a5d1e2cb61a3242
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane
+Filename: ./debs/com.jtis.CCbonder16_1.1.8k_iphoneos-arm64.deb
+Size: 40204
+MD5sum: 886a4bff87329f577a094cd902814844
+SHA1: 9660d7ee4b5cdfa849b81364dc72785dfbb25aa3
+SHA256: 563aa99c7c3a16268454c43d41288941664a4436d9daa54a3e09da6e45d61e25
+SHA512: c04aa8e137f389b40c94fbdcf6fe1292722d1586c52bb0abee881224535951ecf87b022eefcd2b41e725729b9559cc48d3b4135117be2d0190690f7b98374a43
 Description: Tuỳ chỉnh Trung tâm điều khiển theo kiểu của IOS 18 xuống cho các thiết bị IOS thấp hơm.
 Name: CCBorder16 (Rootless)
 Author: fiore & p2kdev & 妖刀
@@ -1238,19 +1238,19 @@ Icon: https://jtisvn.github.io/sectionIcons/CCbonder.png
 
 Package: com.jtis.CCbonder16
 Architecture: iphoneos-arm64e
-Version: 1.1.8
+Version: 1.1.8k
 Section: Tweaks
 Maintainer: JTIS Repo
 Installed-Size: 448
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 16.0), ws.hbang.alderis
-Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane, org.thebigboss.libcolorpicker
-Filename: ./debs/com.jtis.CCbonder16_1.1.8_iphoneos-arm64e.deb
-Size: 39328
-MD5sum: 0129f48a93c0e80c2f5d03da6d567b7a
-SHA1: 7e911a35538c31c1cbceb7b716106d6cb03c80a6
-SHA256: 53a26be1837f894f05baf5c39634973dec596d324581fc160307d48c9a0ed794
-SHA512: 29f3e79403eef74391489c85fb32223c0676b8b5e4e336430e037327e9b68078370b5726fa9c1db73531fbf0d055478d0c39b1b7ee0683e810b7d3e41bc7d366
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane
+Filename: ./debs/com.jtis.CCbonder16_1.1.8k_iphoneos-arm64e.deb
+Size: 39308
+MD5sum: c90474aea105e283f8628cb2bb607a64
+SHA1: b3e8ba94725966aefdb14f572ec357ebc19fb2df
+SHA256: 8639c57a9ac4b91d92673662ce9b4bd9cf620517115b4369ead63525e1d78cc2
+SHA512: 9c330fc92d2d3eb85aa9155253b827a72bf9a45cc368f92587ec7f0ed57d0438b1ef9da0cc683f2d1022c3b3e47bbf5b397f7fb3435c7be3602e3bc64c9e97a4
 Description: Tuỳ chỉnh Trung tâm điều khiển theo kiểu của IOS 18 xuống cho các thiết bị IOS thấp hơm.
 Name: CCBorder16 (Roothide)
 Author: fiore & p2kdev & 妖刀

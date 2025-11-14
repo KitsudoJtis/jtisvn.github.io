@@ -12,7 +12,7 @@
 "title":"CCbonder16"
 },
 {
-"markdown":"\n\n- Tuỳ chỉnh hình đang Mô-đun Trung tâm điều khiển theo kiểu của IOS 18 xuống cho các thiết bị IOS thấp hơm\n\n- Chỉ hỗ trợ chp IOS 16 trở lên!.",
+"markdown":"\n\n- Tuỳ chỉnh hình đang Mô-đun Trung tâm điều khiển theo kiểu của IOS 18 xuống cho các thiết bị IOS thấp hơm\n\n- Chỉ hỗ trợ chp IOS 16 trở lên!\n\n- Yêu cầu cài thêm gói libcolorpicker tránh lỗi k hiển thì cài đặt.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -43,7 +43,7 @@
 "title":"Tác giả",
 "text":"fiore & p2kdev & 妖刀"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1.8" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1.8m" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
