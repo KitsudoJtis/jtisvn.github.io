@@ -88,7 +88,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "12/10/2025",
+"text": "14/11/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -106,7 +106,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "6.1.6",
+"text": "6.2.2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -161,7 +161,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 6.2.6\n\n- Sửa một số lỗi trên Spotify phiên bản 9.0.96 mới nhất\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
