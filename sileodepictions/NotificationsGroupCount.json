@@ -1,33 +1,23 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/EeveeSpotify.png",
-"tintColor":"#00CC33",
+"minVersion": "0.1",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#B5B5B5",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/EeveeSpotify/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"class":"DepictionLabelView",
+"text":"NotificationsGroupCount",
+"fontWeight": "bold",
+"fontSize": 19,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/EeveeSpotify/Screenshots/2.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/EeveeSpotify/Screenshots/3.png",
-"accessibilityText":"Screenshot"
-}
-],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
-},
-{
-"markdown":"EeveeSpotify\n\n- Mở khoá gói Prenium miễn phí giúp loại bỏ mọi quảng cáo, cho phép bỏ qua bài hát không giới hạn và kích hoạt nhiều tính năng cao cấp khác trên ứng dụng Spotify.\n\n- Hỗ trợ phiên bản mới nhất.",
+"markdown":"\n\n- Hiển thị số lượng thông báo được nhóm lại ngay trên màn hình khoá của bạn.\n\n- Tính năng:\n\n- Huy hiệu đếm: Thêm một huy hiệu vào nhóm thông báo, hiển thị tổng số lượng thông báo có trong nhóm đó.\n\n- Tùy chỉnh bóng đổ: Cho phép bạn kiểm soát hiệu ứng bóng đổ của huy hiệu để dễ nhìn hơn.\n\n- Ba chế độ phối màu:\n\n- Màu tùy chỉnh: Tự chọn màu nền và màu chữ riêng.\n\n- Màu theo hình nền: Tự động khớp với màu trung bình của hình nền màn hình khoá.\n\n- Màu theo biểu tượng (Mặc định): Thích ứng với màu của biểu tượng ứng dụng để có giao diện gọn gàng.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -40,9 +30,32 @@
 },
 {
 "class": "DepictionLabelView",
+"text": "Ảnh chụp màn hình",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"itemCornerRadius": true,
+"itemSize": "{185, 400}",
+"screenshots": [
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/NotificationsGroupCount/Screenshots/1.png"
+}
+],
+"class": "DepictionScreenshotsView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
 "text": "Thông tin chi tiết",
 "fontWeight": "semibold",
-"fontSize": 16,
+"fontSize": 17,
 "usePadding": true,
 "useMargins": true,
 "margins": "{10,0,8,0}"
@@ -62,7 +75,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Eevee",
+"text": "Oxkuj",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -106,7 +119,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "6.2.2",
+"text": "1.0.7",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -119,7 +132,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "154 MB",
+"text": "72 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -132,7 +145,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.x - 16.x",
+"text": "15.0 - 16.7.10",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -156,18 +169,18 @@
 "class": "DepictionStackView"
 },
 {
+
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 6.2.6\n\n- Sửa một số lỗi trên Spotify phiên bản 9.0.96 mới nhất\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.0.7\n\n- Sửa lỗi\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootfull, Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
 },
 {
 "tabname":"Liên hệ Hỗ trợ",
-"tintColor":"#9900FF",
 "views":[
 {
 "class":"DepictionTableButtonView",
