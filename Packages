@@ -4687,6 +4687,24 @@ Author: Traurige <hello@traurige.dev>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Lidell.json
 Icon: https://jtisvn.github.io/sectionIcons/Lidell.png
 
+Package: com.jtis.limneos-crack
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: CBZ
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.limneos-crack_1.0_iphoneos-arm64.deb
+Size: 4424
+MD5sum: b9159e59e4dd20c0cbe72ea282697e55
+SHA1: d511999f5aee28728657d26c352ef4f18967718e
+SHA256: ed6b39235755dabbd00d869ea6ae8a90f846202b2559c5b49ba13293ad022c2f
+SHA512: f9a87a0070c6954627ad70ce47f454866625ed33bde878a5e6ad0e4335dce48c141906363f4819d3ddb834714b30dc42936370eec49e236e350edce34ae6529d
+Description: Crack các tinh chỉnh của Limneos
+Name: Limneos Crack (Rootless)
+Author: CBZ
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.liquidglass
 Architecture: all
 Version: 2.0
@@ -9485,53 +9503,6 @@ Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
 Name: SwiftProtobuf
 Author: eevee
-
-Package: org.thebigboss.libcolorpicker
-Architecture: iphoneos-arm64
-Version: 1.6.9.1
-Section: System
-Maintainer: Bailey Seymour
-Installed-Size: 392
-Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
-Depends: firmware (>= 6.0)
-Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
-Filename: ./debs/org.thebigboss.libcolorpicker_1.6.9.1_iphoneos-arm64.deb
-Size: 71096
-MD5sum: dcd979434652725495b904063c88cceb
-SHA1: 9e19e8bf343dd27b072ad91eae13a5232e1dac40
-SHA256: d9fd2065a9ccb11e9dc5c7cdec10ff278544bff028e36110a71b8cebb4b7edfc
-SHA512: 199279bb7c1d17e91fc86966dc8622fa562aceeef8b0ba761572b133f15efaac0edfb4c8ffdb0de38ef8cf170992d6ce4a23cd7333c59732333f5d82427d0387
-Description: An awesome library of some sort!!
-Tag: role::developer
-Name: libcolorpicker (Unofficial)
-Author: Bailey Seymour
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=org.thebigboss.libcolorpicker
-Icon: https://p2kdev.github.io/repo/api/packageinfo/org.thebigboss.libcolorpicker/icon.png
-SileoDepiction: https://p2kdev.github.io/repo/depictions/native/org.thebigboss.libcolorpicker.json
-
-Package: org.thebigboss.libcolorpicker
-Architecture: iphoneos-arm64e
-Version: 1.6.9.1
-Section: System
-Maintainer: Bailey Seymour
-Installed-Size: 392
-Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 6.0)
-Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
-Filename: ./debs/org.thebigboss.libcolorpicker_1.6.9.1_iphoneos-arm64e.deb
-Size: 72176
-MD5sum: eb9a632c0d8f5d8b28b66199512ef2a7
-SHA1: c2f35d3bab404cb94ad4935769cc943ec6dc61b8
-SHA256: 7df82183b0a6b5a0ab3f2933d1e7dca567b836e9ece563b1decec9941bdaecf1
-SHA512: f70a10e36bae55b1fc65c2e47e8b9584b1670ea13b686651821a3ed37c8a4d526962c85b6e668820a224d223754ed062cf45e0b441ca7f636d96eb73f727fa23
-Description: An awesome library of some sort!!
-Tag: role::developer
-Name: libcolorpicker (Unofficial)
-Author: Bailey Seymour
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=org.thebigboss.libcolorpicker
-Icon: https://p2kdev.github.io/repo/api/packageinfo/org.thebigboss.libcolorpicker/icon.png
-SileoDepiction: https://p2kdev.github.io/repo/depictions/native/org.thebigboss.libcolorpicker.json
 
 Package: org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm64
