@@ -1223,13 +1223,13 @@ Section: Tweaks
 Maintainer: JTIS Repo
 Installed-Size: 448
 Depends: mobilesubstrate, firmware (>= 16.0), ws.hbang.alderis
-Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane, com.bvn.sugarcane
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane, org.thebigboss.libcolorpicker
 Filename: ./debs/com.jtis.CCbonder16_1.1.8_iphoneos-arm64.deb
-Size: 40148
-MD5sum: 4e3a3f92beba0f74f8641d09874d45cc
-SHA1: 19012f6257ccd5af38b36b452ef0f1329a509c9c
-SHA256: a2a12b8977137cb5fa299d66bf12570f283c6e646652b2a84c75f84a7ef7c71d
-SHA512: 7616c4ec7fb9fa93dc705dccaafeff55bf1fdbcdfe129df652a66b9105527be1b8c249fd13231b7889785ae299da651d480c7279cc5cc37df7e8df50570a4f47
+Size: 40224
+MD5sum: dc0c57cd62043b78efb8d718cbb40e33
+SHA1: d9811ea6a9474b8413296cd967711378e9ba8c75
+SHA256: 914d6e419af4f0e0b0a22e2603ebd4c77967b6f5681d8d252fa304ac45babae6
+SHA512: 9c2561a8ee27959afdea11ca797031cc858762095fed3f10386ee9e0d21c1a0ba037d62dd783bf9b088d0c13e790ced5c54367c96634cbdc3a5d1e2cb61a3242
 Description: Tuỳ chỉnh Trung tâm điều khiển theo kiểu của IOS 18 xuống cho các thiết bị IOS thấp hơm.
 Name: CCBorder16 (Rootless)
 Author: fiore & p2kdev & 妖刀
@@ -1244,13 +1244,13 @@ Maintainer: JTIS Repo
 Installed-Size: 448
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 16.0), ws.hbang.alderis
-Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane, com.bvn.sugarcane
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane, org.thebigboss.libcolorpicker
 Filename: ./debs/com.jtis.CCbonder16_1.1.8_iphoneos-arm64e.deb
-Size: 39400
-MD5sum: ab8d754ddc8426b237391da536d104dc
-SHA1: 5f501a4e32f872da4673bf14b94d7fe9e559cb6f
-SHA256: 73d39e03aa4f6311f7f50a8ca8dcea525330e0848d1b1ceb0f894df664aae068
-SHA512: 6ea6946cfd32a09a3c564a4ee4fc3e77a53991344386fe8c2a1a2edf8544f8ff8f3b7560d8d7a42f0f23e8abb8c9041fbf14e9ff5799baad3cf09f6303859a13
+Size: 39328
+MD5sum: 0129f48a93c0e80c2f5d03da6d567b7a
+SHA1: 7e911a35538c31c1cbceb7b716106d6cb03c80a6
+SHA256: 53a26be1837f894f05baf5c39634973dec596d324581fc160307d48c9a0ed794
+SHA512: 29f3e79403eef74391489c85fb32223c0676b8b5e4e336430e037327e9b68078370b5726fa9c1db73531fbf0d055478d0c39b1b7ee0683e810b7d3e41bc7d366
 Description: Tuỳ chỉnh Trung tâm điều khiển theo kiểu của IOS 18 xuống cho các thiết bị IOS thấp hơm.
 Name: CCBorder16 (Roothide)
 Author: fiore & p2kdev & 妖刀
@@ -9485,6 +9485,47 @@ Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
 Name: SwiftProtobuf
 Author: eevee
+
+Package: org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm64
+Version: 1.6.9
+Section: System
+Maintainer: Bailey Seymour
+Installed-Size: 392
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: ./debs/org.thebigboss.libcolorpicker_1.6.9_iphoneos-arm64.deb
+Size: 65310
+MD5sum: edc543419c4fd17e1b7af5e082fe6d7e
+SHA1: d67d773a98dca7af48fa79ac19d8f6e33e6381a3
+SHA256: a1258bfdacd61c41e3b515d16a03c98a265647753639e31691574522af15b056
+SHA512: 1fcba97162e8dc4b044e65884bb4cd2e1040d5d08ec2284ef0afd30fc0ca9f9a505e44b0339e67913da5bc14616e201011ea6a45079ed168ddd42cd76b1f9b38
+Description: An awesome library of some sort!!
+Tag: role::developer
+Name: libcolorpicker
+Author: Bailey Seymour
+
+Package: org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm64e
+Version: 1.6.9
+Section: System
+Maintainer: Bailey Seymour
+Installed-Size: 392
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: ./debs/org.thebigboss.libcolorpicker_1.6.9_iphoneos-arm64e.deb
+Size: 66332
+MD5sum: 79a94f3384e4b5d48e0e4b82b4b432d7
+SHA1: aa0ef4f1d75a85257027493ff04539a998bbd138
+SHA256: e9d0f7ebf0a8ac502eac095379d2eea05b0591dbdfc9cba4929736087f40fb01
+SHA512: 43a25394bc0de47aa183666b3034ea496d1dfe9f71ec0e8b739a05d437c2163d3f6b74622d6148b2209fe6ae60b32340deebb9567c4f7ae4071cff5b33b9acef
+Description: An awesome library of some sort!!
+Tag: role::developer
+Name: libcolorpicker
+Author: Bailey Seymour
 
 Package: ru.rejail.dleasy
 Architecture: iphoneos-arm64e

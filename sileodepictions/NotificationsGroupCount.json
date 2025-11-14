@@ -119,7 +119,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.7",
+"text": "1.0.7k",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -132,7 +132,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "72 KB",
+"text": "537.0 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
