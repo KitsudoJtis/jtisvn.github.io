@@ -230,6 +230,47 @@ Author: 0xkuj
 Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.filzadirprobe.png
 Sileodepiction: https://jtisvn.github.io/sileodepictions/FilzaDirProbe.json
 
+Package: com.0xkuj.notificationsgroupcount
+Architecture: iphoneos-arm64
+Version: 1.0.7k
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 584
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.0xkuj.notificationsgroupcount_1.0.7k_iphoneos-arm64.deb
+Size: 99744
+MD5sum: b891f8d3e02bc5754ecdbfee1e2f68ed
+SHA1: 94544f03d420efcdda2aad9c5a3f6024f3111fd8
+SHA256: 40af7f204ac5a291daeb270be7d3de5af9eeaa9f70361374581166a241cf9db8
+SHA512: fc64e1ba883be2bd04a02d6475a02045c3b43a088a56cbc07db4438a75a10e3920b4293f316c08dc23cd27d342a93c3d44f2ecd5296175e1c5b4bdcac9aa827f
+Homepage: https://jtisvn.github.io
+Description: Đếm số thông báo trong từng nhóm thông báo của Apple!
+Name: NotificationsGroupCount (Rootless)
+Author: 0xkuj
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NotificationsGroupCount.json
+Icon: https://jtisvn.github.io/sectionIcons/NotificationsGroupCount.png
+
+Package: com.0xkuj.notificationsgroupcount
+Architecture: iphoneos-arm64e
+Version: 1.0.7k
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 584
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.0xkuj.notificationsgroupcount_1.0.7k_iphoneos-arm64e.deb
+Size: 99624
+MD5sum: 8e4b04d9a75b7578918bb63eb4c50062
+SHA1: 1875cbf2af69c4a69618b261b24ae0a416bd0ab3
+SHA256: 1d00632ccb268b091d259ef1935a90f6fe8e24cfa92363e814b7c270d239abec
+SHA512: 5be0305acb5d655b5ce7c7d766ee4a854e7d31003e9ca79582819b3a87e2c2444dd24d6e865731ddf7c1f835a00c4f66e2a5b94b55b89ffb51b4f2585653df67
+Homepage: https://jtisvn.github.io
+Description: Đếm số thông báo trong từng nhóm thông báo của Apple!
+Name: NotificationsGroupCount (Roothide)
+Author: 0xkuj
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NotificationsGroupCount.json
+Icon: https://jtisvn.github.io/sectionIcons/NotificationsGroupCount.png
+
 Package: com.0xkuj.safarix
 Architecture: iphoneos-arm64e
 Version: 1.9.8
