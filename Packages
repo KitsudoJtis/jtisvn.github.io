@@ -420,6 +420,25 @@ Author: Lessica <82flex@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Touchviz.json
 Icon: https://jtisvn.github.io/sectionIcons/Touchviz.png
 
+Package: com.Axs.dynamicislandanimation
+Architecture: iphoneos-arm64
+Version: 1.1.8
+Section: Tweaks
+Maintainer: Simon
+Installed-Size: 432
+Depends: mobilesubstrate
+Filename: ./debs/com.Axs.dynamicislandanimation_1.1.8_iphoneos-arm64.deb
+Size: 29180
+MD5sum: 22e529ef3bec87733103bc9579739c5a
+SHA1: 88b5887296383b79481eec3a2936e428a2424e7b
+SHA256: 724c296bd6a8daf97b7758949f366c487fe59d20f62e072c2eeb25b97705a3f9
+SHA512: 519d123ca757c168d9a45a909d62582319dc1b9e7598eb6f332596fa04606b20be2b47a3e8692cb19a92210a2497eb845c1adae308bfa3d3e3dce02e7e103389
+Description: Được sử dụng để tích hợp các hiệu ứng Dynamic Island và ghi lại màn hình hoạt ảnh nhảy năng động như hiển thị thông báo hoặc một số sự kiện khác!
+Name: Dynamicisland Animation
+Author: Simon
+Icon: https://axs66.github.io/repo/icon/dynamicislandanimation.png
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/dynamicislandanimation/js.json
+
 Package: com.LLSwitch.roothide
 Architecture: iphoneos-arm64e
 Version: 1.0

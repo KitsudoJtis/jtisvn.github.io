@@ -50,7 +50,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"DynamicPeninsula\n\n- Mang hầu hết các hiệu ứng Dynamic Island của iPhone 14 Pro lên tất cả các thiết bị có tai thỏ!\n\n- Tận hưởng các hoạt ảnh mượt mà của DynamicPeninsula trên iPhone X, XS, iPhone 11, iPhone 12, iPhone 13 và các thiết bị tương tự.\n\n- Bạn cũng có thể bật tùy chọn 'Tai thỏ giả' (Fake Notch) để nó hoạt động trên các thiết bị không có tai thỏ (như iPhone 6, 7, 8, v.v.).\n\n- DynamicPeninsula cung cấp giao diện hoạt ảnh mượt mà cho các tác vụ sau:\n\n- Cuộc gọi\n\n- Hẹn giờ\n\n- Trình phát nhạc/Phương tiện (Đang phát)\n\n- Các sự kiện Không Làm Phiền\n\n- Quay màn hình\n\n- Kết nối thiết bị Bluetooth\n\n- Công tắc Âm lượng/Gạt im lặng\n\n- Sự kiện sạc pin/pin yếu\n\n- Sạc Watch\n\n- Sự kiện bật/tắt (toggle) hệ thống\n\n- Thông báo watchOS [hiện tại cho iOS 16]\n\n- Điều hướng Apple Maps [hiện tại cho iOS 16]",
+"markdown":"DynamicPeninsula\n\n- Mang hầu hết các hiệu ứng Dynamic Island của iPhone 14 Pro lên tất cả các thiết bị có tai thỏ!\n\n- Tận hưởng các hoạt ảnh mượt mà của DynamicPeninsula trên iPhone X, XS, iPhone 11, iPhone 12, iPhone 13 và các thiết bị tương tự.\n\n- Bạn cũng có thể bật tùy chọn 'Tai thỏ giả' (Fake Notch) để nó hoạt động trên các thiết bị không có tai thỏ (như iPhone 6, 7, 8, v.v.).\n\n- DynamicPeninsula cung cấp giao diện hoạt ảnh mượt mà cho các tác vụ sau:\n\n- Cuộc gọi\n\n- Hẹn giờ\n\n- Trình phát nhạc (Đang phát)\n\n- Không Làm Phiền\n\n- Quay màn hình\n\n- Kết nối Bluetooth\n\n- Công tắc Âm lượng/Gạt im lặng\n\n- Đang sạc pin/pin yếu\n\n- Sạc Watch\n\n- Bật/tắt (toggle) hệ thống\n\n- Thông báo watchOS [hiện tại cho iOS 16]\n\n- Điều hướng Apple Maps [hiện tại cho iOS 16]",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
