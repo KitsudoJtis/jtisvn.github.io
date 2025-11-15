@@ -2992,6 +2992,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Colobar15.json
 Icon: https://jtisvn.github.io/sectionIcons/Colobar15.png
 
 Package: com.jtis.complications
+Architecture: iphoneos-arm
+Version: 3.4.5
+Section: Tweaks
+Maintainer: Bvnsupport
+Installed-Size: 3196
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.complications_3.4.5_iphoneos-arm.deb
+Size: 608820
+MD5sum: b7337b573aa6b2141fc39ce7f654677f
+SHA1: 2b0928ba3979e2b2509f711d3eda22eba720ec68
+SHA256: 70934eabfdb540a4f041f2855096571777649bae2fb3738b48b50515fde3ec39
+SHA512: 68145552883b7dc2ffb9a2b8343966ddeed00a8cbac7f06d02f520f9eee56183d2ffff05a272c51b582fd6f3ae1150b41dcacd46687361ac7c7194c57fad723f
+Description: Tiện ích watchOS trên màn hình khóa của bạn
+Name: Complications
+Author: Ben Giannis
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Complications.json
+Icon: https://jtisvn.github.io/sectionIcons/Complications.png
+
+Package: com.jtis.complications
 Architecture: iphoneos-arm64
 Version: 4.0
 Section: Tweaks
@@ -4278,6 +4297,24 @@ Name: HorizontalSliders (Roothide)
 Author: Nightwind
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HorizontalSliders.json
+
+Package: com.jtis.hswidgets
+Architecture: iphoneos-arm
+Version: 0.3-7
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Installed-Size: 4668
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.hswidgets_0.3-7_iphoneos-arm.deb
+Size: 448880
+MD5sum: edc0adb6e53c71c9295de94644675995
+SHA1: e1cc2cd306cb7047d2048e1998d78c3f555de28b
+SHA256: a5757063c70e29a0bdaf659a8a1ff22ea92b90d6711e02ee17a1e057000ffb4d
+SHA512: 2e671d1f29193b16e4ef66622d703bee48add0ee1e4d8616ebfad9af3c2bd6579fa0bb6e2dbfc93eb3e0fc7ebaada3c26812c438a505b387d9b720fe0511b69c
+Description: Thêm tiện ích hôm nay hoặc tiện ích tùy chỉnh vào màn hình chính.
+Name: HSWidgets
+Author: DGh0st <deeppwnage@yahoo.com>
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.iOS26
 Architecture: iphoneos-arm64
