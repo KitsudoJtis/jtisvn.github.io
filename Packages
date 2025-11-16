@@ -74,6 +74,29 @@ Description: Settings Icons for SnowBoard
 Name: SnowBoard Settings Icons Extension
 Author: Spark
 
+Package: ai.akemi.appsyncunified
+Architecture: iphoneos-arm64
+Version: 112.0
+Section: Tweaks
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 676
+Provides: appsync, net.angelxwind.appsyncunified
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Filename: ./debs/ai.akemi.appsyncunified_112.0_iphoneos-arm64.deb
+Size: 34292
+MD5sum: 064feabf4a471ee97650b5a0f272ab2f
+SHA1: bea688b74fc33aad259aa0da82d17ad0d0a84065
+SHA256: 94f662119646dadf5deb0a3ed933ef48ed7d287da3c0fa46298edf930b29748d
+SHA512: b415ea6080ea94de24f356d9fcbad55892be1334d19b41088f917eabdbbc83732d6f2b710a06771ff86429fa911ce1ad04734bdb60c92c2653fcc5f36d57d41a
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+
 Package: com.jtis.mobilemeadowreborn
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -1027,6 +1050,25 @@ Author: P2KDev <p2kdev@gmail.com>
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.imkpatil.homebarsizer
 SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.imkpatil.homebarsizer.json
+
+Package: com.johnzaro.appstoreupdatestab
+Architecture: iphoneos-arm64
+Version: 4.0
+Section: Tweaks
+Maintainer: Hitori
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/com.johnzaro.appstoreupdatestab_4.0_iphoneos-arm64.deb
+Size: 5472
+MD5sum: d99ecec08ff7a5c51a5cdeb1e1377203
+SHA1: 12191aae8c8f9a8023b1212133dddfd3439713d8
+SHA256: e29946492205e754f74926fe67ec1d78d69c0429c4fd2cab7d00c9758bab18aa
+SHA512: a0478329998569b8adbc8803d86a12e99a9cbef1ab649ebd86aec5fde115d1aa43630e459f82c28be9e4f7e84f1d503c75355578e42d3dcc2cde08a44a355cae
+Description: Thay nút Arcade bằng nút "Hiển thị cập nhật" trong ứng dụng AppStore
+Name: AppStoreUpdatesTab (Rootless)
+Sileodepiction: https://siieo.github.io/sileodepictions/UpdateTab/UpdateTab.json
+Icon: https://siieo.github.io/sileodepictions/UpdateTab/icon.png
+Author: Johnzaro & Hitori <johnzrgnns@gmail.com>
 
 Package: com.jti.atria
 Architecture: iphoneos-arm64
@@ -5848,6 +5890,45 @@ Name: RecordDot (Roothide)
 Author: Night wind
 Icon: https://jtisvn.github.io/sectionIcons/Recorddit.png
 
+Package: com.jtis.resentment
+Architecture: iphoneos-arm64
+Version: 1.1k
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 572
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/com.jtis.resentment_1.1k_iphoneos-arm64.deb
+Size: 81872
+MD5sum: 89126d3499dafb7e491e10d97887721c
+SHA1: 2d2f9f5adc64dff78610f63ef4d693b99d0715a9
+SHA256: 81431e02bd78e7ddcc86cec623393104f0f7f0c0b2282fc19956fc69fdfb421e
+SHA512: 43272f0dd6ae66450c5e62de56f651c5a347453c310cec679a0d89507c5a06e9933811fce911d3fae2061e9fad927faf74fa6a321b61ed7ccfe55894cd543dbf
+Description: Mang trình phát nhạc iOS 16 LS lên thiết bị iOS cũ hơn!
+Name: Resentment (Rootless)
+Author: uz.ra
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Resentment.json
+Icon: https://jtisvn.github.io/sectionIcons/Resentment.png
+
+Package: com.jtis.resentment
+Architecture: iphoneos-arm64e
+Version: 1.1k
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 572
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/com.jtis.resentment_1.1k_iphoneos-arm64e.deb
+Size: 81748
+MD5sum: f425407e7145edc51b0c1dc5961d363f
+SHA1: 74183f57f6182db9a575bfff8c57be71ce33625e
+SHA256: 9fe742bd697119e39dbfc79d58af8752a5b075b83ee556f37159554e3a5d6db0
+SHA512: 68a12777b32a0bd4f8ed169bcbaae2f9279e1d69e2a915c06385a3ed5c80cb06faeaa14d86a0ba8da122d853f52f942ca1faa61f7a7096e90154c3b9d2d29f50
+Description: Mang trình phát nhạc iOS 16 LS lên thiết bị iOS cũ hơn!
+Name: Resentment (Roothide)
+Author: uz.ra
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Resentment.json
+Icon: https://jtisvn.github.io/sectionIcons/Resentment.png
+
 Package: com.jtis.rophim
 Architecture: iphoneos-arm64e
 Version: 0.0.1-5+debug
@@ -5996,6 +6077,44 @@ Name: Setting Meizu 3D
 Author: Miss
 SileoDepiction: https://jtisvn.github.io/sileodepictions/setting3dmeizu.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.settingswidgets
+Architecture: iphoneos-arm
+Version: 1.2.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 472
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.settingswidgets_1.2.3_iphoneos-arm.deb
+Size: 76428
+MD5sum: 82fe2d7b4556f5264aaefb1d0337ee37
+SHA1: ec5531ca61196c3ed15e36ced723753ce3962434
+SHA256: 36554de29d30af6c41ab99564da0fa03d9e703adf95a260187e4207f876205af
+SHA512: a635a8b2dfac8c29737e9590b1b08570380247696bef5bb69b61848cbf2c402f9bb8266c7b2158c3bfd8829aa94c0cfdc438241a8bd7f7e37f40f0b36bc96882
+Description:  Đưa các vật dụng đẹp mắt lên trang đầu của cài đặt!
+Name: SettingsWidgets
+Author: shepgoba
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsWidgets.json
+Icon: https://jtisvn.github.io/sectionIcons/SettingsWidgets.png
+
+Package: com.jtis.settingswidgets
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Section: Tweaks
+Maintainer: shepgoba
+Installed-Size: 512
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.settingswidgets_1.2.3_iphoneos-arm64.deb
+Size: 73516
+MD5sum: 333516791107c440c472ad65c3dd3edd
+SHA1: d58ca66b5c9baabb9900ddbaae2448543e448e9f
+SHA256: b21202a97edc526491fcb449c37c316f47fa5ad83e8856a417c1d961dceef12a
+SHA512: 0ae3bca7191367d7180b2c971b4d6a7eda38d9e4ed3c1f632050a00a7e9ac20c5c5b8afc9f31ca0eff6a7cc9dd6283e082f455dc4660ef97b8357cfb156eaf41
+Description: Bring good looking widgets to the front page of settings!
+Name: SettingsWidgets (Rootless)
+Author: shepgoba
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsWidgets.json
+Icon: https://jtisvn.github.io/sectionIcons/SettingsWidgets.png
 
 Package: com.jtis.settingswifipassword
 Architecture: iphoneos-arm64
@@ -9447,11 +9566,11 @@ Maintainer: uz.ra
 Installed-Size: 692
 Depends: mobilesubstrate
 Filename: ./debs/jp.uzra.aeria_1.1_iphoneos-arm64.deb
-Size: 107852
-MD5sum: edee21ef0c9ec4db83d31ec5384212b8
-SHA1: 8806a730309c17511bab534b0939cbd953b04752
-SHA256: 47a50876f52d8ce8ea080e20d890b6894b237fd6ed9875e94d548ea983aabb03
-SHA512: 6557c4c03f1f8c51e2588daa23b77f3c7d1c17776306c4e3df5ce8f31092b386f26e9ffccb0f710000497a0850413af5e041be0720786d64f668074d3dc36db5
+Size: 110500
+MD5sum: fb8509976f0422e9cce07ed6d4d2abc8
+SHA1: 2558e98b63e81ce838682576459dcadcd1a1bda6
+SHA256: c1adb11d110014a98a0eaf9bf8bfa982bd0758d1f5c79d95d1e4d7863ad37d25
+SHA512: 1017e80a20ac38613f403c9e284b697d5a3c8d00d062f478f4d1f675bfa798884954d63783f0a4bfe42698a0d348d4ded23f54a50dc2a02cd332697faf043d14
 Homepage: https://jtisvn.github.io
 Description: Stage Manager, redesigned for iOS
 Name: Aerial (Rootless)
@@ -9469,11 +9588,11 @@ Installed-Size: 692
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/jp.uzra.aeria_1.1_iphoneos-arm64e.deb
-Size: 107488
-MD5sum: 9844cced0c0a8d35e349b3e975de89c0
-SHA1: 90e84f91acad3eb4b60777c861d71edfca4951ca
-SHA256: 48b7c2f094bcc743aec44a40c8fe523cc45a3d193a7c9c7beb3ada62548c0f13
-SHA512: a991e6b159bcb7ed88cad95b299e6689c736edbda35c7dea238f1549d12281d6ea22008740ad0737e1f2408f958f6a99bdcc88435b7d8f67b8d40bc11936c81d
+Size: 110496
+MD5sum: d33b4d295b85ad6be8e46f0963a74f05
+SHA1: 87e800e4bb09d21ed565e0275291bf8831488304
+SHA256: 118f767bc1a50b37f691678d0603f0fc9003d183b656bcf09c45f09e2933d63f
+SHA512: 5ea39f321b13eee4c8acb5b36d1fdc76cfa6497cabe6b01137d183acebb0163a2bc3b2094fcb1bda7603a84cb2569141f74baedaa983d4f0eba7fb835fbeefd7
 Homepage: https://jtisvn.github.io
 Description: Stage Manager, redesigned for iOS
 Name: Aerial (Roothide)
@@ -9519,25 +9638,6 @@ Name: MutePlay (Roothide)
 Author: uz.ra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/MutePlay.json
 Icon: https://jtisvn.github.io/sectionIcons/MutePlay.png
-
-Package: jp.uzra.resentment
-Architecture: iphoneos-arm64
-Version: 1.1k
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 572
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/jp.uzra.resentment_1.1k_iphoneos-arm64.deb
-Size: 81872
-MD5sum: c7a11714f1f637b6e78e6c9b4b62ee4d
-SHA1: 4238785c2abf1c53e6528c54b2091afeff995dc8
-SHA256: d90e7c5257d6b13b0f2fbfba471d4123ff9b005a530a2d794dd15f9eff45490b
-SHA512: 85441b08bc167de9fb3faf72d0a501eca5315556e9ad952f171927c0342a40a18bf3fdec679f504ee4c44ac9a222e1938fa627b6da3db9cb4e2877a1fce7acfd
-Description: Mang trình phát nhạc iOS 16 LS lên thiết bị iOS cũ hơn!
-Name: Resentment (Rootless)
-Author: uz.ra
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Resentment.json
-Icon: https://jtisvn.github.io/sectionIcons/Resentment.png
 
 Package: com.foxfort.libfoxfortutils
 Architecture: iphoneos-arm64e
