@@ -6116,6 +6116,26 @@ Author: shepgoba
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsWidgets.json
 Icon: https://jtisvn.github.io/sectionIcons/SettingsWidgets.png
 
+Package: com.jtis.settingswidgets
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Section: Tweaks
+Maintainer: shepgoba
+Installed-Size: 512
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.settingswidgets_1.2.3_iphoneos-arm64e.deb
+Size: 72548
+MD5sum: 856bdc5ea7072e028d9fec14290ac41b
+SHA1: b6fc49ac54b1292fbab1eb6be80c9deff7bd8d4e
+SHA256: 39fa06f99f45482909857d5b40d28cca5b25f618b8fc080c736cbba542f9c686
+SHA512: 48242c6690309782732053cf47496ed1cf690b2e5013913df58cbe98f927bd58cd98926c86e62bef8b0405dbcef938b7c0fc97c393abcc869f2ac5b28664c510
+Description: Bring good looking widgets to the front page of settings!
+Name: SettingsWidgets (Roothide)
+Author: shepgoba
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsWidgets.json
+Icon: https://jtisvn.github.io/sectionIcons/SettingsWidgets.png
+
 Package: com.jtis.settingswifipassword
 Architecture: iphoneos-arm64
 Version: 0.0.1
