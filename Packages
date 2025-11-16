@@ -117,6 +117,26 @@ Author: Ayden Panhuyzen
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Ultrasound.json
 Icon: https://jtisvn.github.io/sectionIcons/Ultrasound.png
 
+Package: applebetas.ios.tweak.willow
+Architecture: iphoneos-arm64
+Version: 1.2.14
+Section: Tweaks
+Maintainer: Ayden Panhuyzen
+Installed-Size: 984
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader, dev.ayden.ios.tweak.lib.libdundas
+Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud, hi.my.name.is.ubik.sonus13, com.ikilledappl3.switchhud, com.muirey03.13hud, com.kingpuffdaddi.ringer13
+Filename: ./debs/applebetas.ios.tweak.willow_1.2.14_iphoneos-arm64.deb
+Size: 278124
+MD5sum: efb38e51a0f4ef60621ab02d69b4987c
+SHA1: 364df9aa29a20f6d59a224610e5d5d1f24de6bcc
+SHA256: 43eb73f267bd64f9047863eaa10959578eed54f893eec445bacbc49657c59a7a
+SHA512: d4c505177e19253e993b04aede3a6acf9a568aab6a3546e5ae96a0f950ff46097ae85d5dccf2bfd08b55ea2dcd43effd9265d22b2ecb9f79764ba578fc31a266
+Description: A brand-new, unobtrusive, OLED-friendly volume HUD.
+Name: Ultrasound (Rootless)
+Author: Ayden Panhuyzen
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Ultrasound.json
+Icon: https://jtisvn.github.io/sectionIcons/Ultrasound.png
+
 Package: com.jtis.mobilemeadowreborn
 Architecture: iphoneos-arm64
 Version: 1.0.2
