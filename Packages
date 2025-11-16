@@ -7245,6 +7245,27 @@ Author: Brend0n <brendonjkding@126.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/VolumeMixer.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.volumemixer
+Architecture: iphoneos-arm64e
+Version: 0.0.7~beta2
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 1400
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/com.jtis.volumemixer_0.0.7~beta2_iphoneos-arm64e.deb
+Size: 232076
+MD5sum: e46b9d42aecb4ccb885972ceec1f7b5e
+SHA1: 96fe85cf898fd9630c3a236cecbd572774558f02
+SHA256: a7a47710f7243112595984d53a13625cf150219e1262a28eee53c160185d8d21
+SHA512: e37388e793267b0ebc323bd8663ebf4379da06936b0dbdfc7637e362207e48484f45904df65630d7341546618749ed4e01547ca0c990068b7d710aba95c8e520
+Homepage: https://jtisvn.github.io
+Description: Điều khiển âm lượng cho từng ứng dụng của bạn.
+Name: VolumeMixer (Roothide)
+Author: Brend0n <brendonjkding@126.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VolumeMixer.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.waktos2
 Architecture: iphoneos-arm64
 Version: 1.0.1

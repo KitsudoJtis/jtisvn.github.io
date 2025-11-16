@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"VolumeMixer\n\n- Mổ tinh chỉnh cho phép bạn điều khiển âm lượng của từng ứng dụn theo ý muốn.",
+"markdown":"VolumeMixer\n\n- Một tinh chỉnh cho phép bạn điều khiển âm lượng của từng ứng dụng theo ý muốn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
