@@ -15,6 +15,24 @@ Tag: role::developer
 Name: libSparkAppList
 Author: Spark
 
+Package: dev.ayden.ios.lib.sys.aurora
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: Development
+Maintainer: Ayden Panhuyzen
+Installed-Size: 144
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/14572873fb3810a4d50b887415e0001d.deb
+Size: 10514
+MD5sum: 14572873fb3810a4d50b887415e0001d
+SHA1: 14c1b87c83095ec23c6f4d81a8bdda7e072e078f
+SHA256: d7fc42ef71e20a536a1e5aaab2518be994314a3530aaf4435421f87a543389ce
+SHA512: 4d7e68c7c020bf52a3a5d26c820e2e1c52ebaba5b10b3a981c5df31277d964967ef41d5161e263313e71a8abf0b93a4c117bdb12ed15d028d866ba07543967d8
+Description: Specialized out-of-process weather utility library.
+Tag: role::developer
+Name: libaurora
+Author: Ayden Panhuyzen
+
 Package: com.foxfort.foxforttools
 Architecture: iphoneos-arm64e
 Version: 1.4.13
@@ -9473,6 +9491,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
 Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Name: AniTime (Roothide)
 Author: yan
+
+Package: dev.ayden.ios.tweak.lib.libdundas
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Development
+Maintainer: Ayden Panhuyzen
+Installed-Size: 332
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/dev.ayden.ios.tweak.lib.libdundas_1.0.3_iphoneos-arm64.deb
+Size: 38012
+MD5sum: 9741f38043d499f9ffaff79d4279980e
+SHA1: 5551c2ada88a65f1dbab6b10d682ebbd79c59686
+SHA256: 9a211d0cd4307685ec79412de4706846f3dfeba7898fe289866d24ede0e9acff
+SHA512: 9a64919dd2bb21ac14f6da4970d0babcd58fa2c1c1fb217220b3c8727aa3c554d012c181d1ba649850fcc4aab7f682b78e6c7d4a312bf8b1509c9e1e0539e2be
+Description: Utilities for my tweaks.
+Tag: role::developer
+Name: libdundas
+Author: Ayden Panhuyzen
 
 Package: dev.theos.orion14
 Architecture: iphoneos-arm64e
