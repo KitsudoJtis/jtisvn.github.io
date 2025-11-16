@@ -97,6 +97,26 @@ Name: AppSync Unified (Rootless)
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 
+Package: applebetas.ios.tweak.willow
+Architecture: iphoneos-arm
+Version: 1.2.14
+Section: Tweaks
+Maintainer: Ayden Panhuyzen
+Installed-Size: 984
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader, dev.ayden.ios.tweak.lib.libdundas
+Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud, hi.my.name.is.ubik.sonus13, com.ikilledappl3.switchhud, com.muirey03.13hud, com.kingpuffdaddi.ringer13
+Filename: ./debs/applebetas.ios.tweak.willow_1.2.14_iphoneos-arm.deb
+Size: 243420
+MD5sum: fbc0bfda0c84a29476f1d73ab7eba3e6
+SHA1: a2d149dadf11f9370f625f364ea95eb637f3f14a
+SHA256: 986b622c6d4c3d904dc5c8ad95bdd54cde96064455f7c5175065d4c7742d6937
+SHA512: 8131413999c9804a7e6db07d5e35541885b7fabdbdef8ada6d7fb3768ed80bdf5c74bf6115b85bcceb24696114af5e2d26d4b9e1fac1c77c85ca22cad3350889
+Description: A brand-new, unobtrusive, OLED-friendly volume HUD.
+Name: Ultrasound
+Author: Ayden Panhuyzen
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Ultrasound.json
+Icon: https://jtisvn.github.io/sectionIcons/Ultrasound.png
+
 Package: com.jtis.mobilemeadowreborn
 Architecture: iphoneos-arm64
 Version: 1.0.2
