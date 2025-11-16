@@ -9520,6 +9520,25 @@ Author: uz.ra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/MutePlay.json
 Icon: https://jtisvn.github.io/sectionIcons/MutePlay.png
 
+Package: jp.uzra.resentment
+Architecture: iphoneos-arm64
+Version: 1.1k
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 572
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/jp.uzra.resentment_1.1k_iphoneos-arm64.deb
+Size: 81872
+MD5sum: c7a11714f1f637b6e78e6c9b4b62ee4d
+SHA1: 4238785c2abf1c53e6528c54b2091afeff995dc8
+SHA256: d90e7c5257d6b13b0f2fbfba471d4123ff9b005a530a2d794dd15f9eff45490b
+SHA512: 85441b08bc167de9fb3faf72d0a501eca5315556e9ad952f171927c0342a40a18bf3fdec679f504ee4c44ac9a222e1938fa627b6da3db9cb4e2877a1fce7acfd
+Description: Mang trình phát nhạc iOS 16 LS lên thiết bị iOS cũ hơn!
+Name: Resentment (Rootless)
+Author: uz.ra
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Resentment.json
+Icon: https://jtisvn.github.io/sectionIcons/Resentment.png
+
 Package: com.foxfort.libfoxfortutils
 Architecture: iphoneos-arm64e
 Version: 1.4.7
