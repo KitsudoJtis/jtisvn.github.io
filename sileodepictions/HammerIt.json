@@ -38,7 +38,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Hammer It\n\n- Một tinh tỉnh mạnh mẽ để xử lý văn bản cà hình ảnh.\n\n- Khi bạn chọn một đoạn văn bản (hoặc sao chép văn bản/hình ảnh), một cửa sổ hoặc bóng nổi của HammerIt sẽ xuất hiện, cho phép bạn.\n\n- Tách từ: Tách đoạn văn bản thành các từ/khối riêng lẻ.\n\n- Dịch thuật: Dịch văn bản đã chọn (có thể so sánh bản gốc/bản dịch và tự động nhận diện ngôn ngữ).\n\n- Tìm kiếm: Tìm kiếm nhanh văn bản trên web (nhấn giữ để tìm trong các ứng dụng khác).\n\n- OCR (Đọc chữ từ ảnh): Tự động quét và lấy chữ từ hình ảnh bạn vừa sao chép hoặc từ ảnh chụp màn hình (có thể kích hoạt từ Control Center).\n\n- Tích hợp: Hoạt động bên trong nhiều ứng dụng phổ biến như Telegram, Twitter, WeChat, Sileo, v.v.",
+"markdown":"Hammer It\n\n- Một tinh tỉnh mạnh mẽ để xử lý văn bản và hình ảnh.\n\n- Khi bạn chọn một đoạn văn bản (hoặc sao chép văn bản/hình ảnh), một cửa sổ hoặc bóng nổi của HammerIt sẽ xuất hiện, cho phép bạn.\n\n- Tách từ: Tách đoạn văn bản thành các từ/khối riêng lẻ.\n\n- Dịch thuật: Dịch văn bản đã chọn (có thể so sánh bản gốc/bản dịch và tự động nhận diện ngôn ngữ).\n\n- Tìm kiếm: Tìm kiếm nhanh văn bản trên web (nhấn giữ để tìm trong các ứng dụng khác).\n\n- OCR (Đọc chữ từ ảnh): Tự động quét và lấy chữ từ hình ảnh bạn vừa sao chép hoặc từ ảnh chụp màn hình (có thể kích hoạt từ Control Center).\n\n- Tích hợp: Hoạt động bên trong nhiều ứng dụng phổ biến như Telegram, Twitter, WeChat, Sileo, v.v.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

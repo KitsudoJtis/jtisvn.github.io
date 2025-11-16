@@ -6503,6 +6503,26 @@ Author: iOS Creatix, kasiimh1, p2kdev
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SugarCare.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.sugarcane
+Architecture: iphoneos-arm64e
+Version: 1.2.4.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate,firmware (>= 13.0)
+Filename: ./debs/com.jtis.sugarcane_1.2.4.4_iphoneos-arm64e.deb
+Size: 8168
+MD5sum: 5be5f68640c1551abee98da0c734ce9a
+SHA1: f469badb6f6ed74d1ea9bd3f913d36dd82683c8a
+SHA256: dc9bf73f212576d19a6f537e66054e3a2d22808a70c559ff840beaac5ca4db29
+SHA512: 6aaacd3a427a137455e205d72c7054eb42f9ed5ecc3043e24481f3d81e9e02ff33b1ac80e674311ec3c8b41f5ccc6d24efde8bbea33172c17970ee9acea9a5e6
+Description: Hiển thị % cho modun Độ sáng & Âm lượng trên trung tâm diều khiển.
+Name: SugarCane 13/14/15/16 (Roothide)
+Author: iOS Creatix, kasiimh1, p2kdev
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SugarCare.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.switchtheme
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -8257,6 +8277,26 @@ Description: A shimeji simulator for iOS
 Name: Shijima for iOS (Roothide)
 Author: pixelomer
 icon: https://media.havoc.app/66c119baecb6d6b2e1b395aa
+
+Package: com.ps.amber
+Architecture: iphoneos-arm64e
+Version: 1.2.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 368
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 14.0)
+Filename: ./debs/com.ps.amber_1.2.0_iphoneos-arm64e.deb
+Size: 9452
+MD5sum: b70a29c0ef4dbb0fb91664febe5bc18e
+SHA1: 950c00343693abf42e08972684acceb6b91cb30d
+SHA256: eb774e876876b184f9cfbea2175275cb826054719ab47d33e09b6357e494b00c
+SHA512: 1ca2e2f9cc8a2cc06902191dc0beba9506c98bb643f6d20d1dd2421e78b5cab08766dd0724f770c9e4ec261871ed34ccbeed74312360b163dddc4f8e8ce2f477
+Description: Công tắc chuyển đổi CC / Flipswitch cho phép bật đèn LED thành màu vàng ánh hoặc đèn LED màu trắng và màu vàng ánh
+Name: Amber (Roothide)
+Author: PoomSmart
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Amber.json
 
 Package: com.ps.amber
 Architecture: iphoneos-arm64
