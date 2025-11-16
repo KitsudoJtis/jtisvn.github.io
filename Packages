@@ -8533,6 +8533,47 @@ Description: Làm mượt con trỏ chuột di chuyển khi gõ phím chứ trê
 Name: SmoothCursor (iOS 13+)
 Author: Jtis Repo
 
+Package: com.ps.trollleds
+Architecture: iphoneos-arm64
+Version: 1.10.0
+Section: Utilities
+Maintainer: PoomSmart
+Installed-Size: 236
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), gsc.camera-flash
+Filename: ./debs/com.ps.trollleds_1.10.0_iphoneos-arm64.deb
+Size: 75300
+MD5sum: 3346c65cb252fbc45bb7a688baa29420
+SHA1: 35e7980900fe567621e15015ce56eb6ec4ad3111
+SHA256: 3b8c602dbfaa13bbc1a37f938aa7da42f8ef346638b371f1d2d2280ca7634ffc
+SHA512: 640a3b622e2cf9f585160fd7dc60f0b5ce965ae3854b87035fd50ff0d0271e1d287c07e2637a3f2575290a5cf5213170af9a210762dbde501a0550015df26e8b
+Description: Điều khiển đèn LED đèn pin một cách dễ dàng.
+Name: TrollLEDs (Rootless)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/trollleds.html
+Icon: https://jtisvn.github.io/sectionIcons/TrollLEDs.png
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/trollleds.json
+
+Package: com.ps.trollleds
+Architecture: iphoneos-arm64e
+Version: 1.10.0
+Section: Utilities
+Maintainer: PoomSmart
+Installed-Size: 236
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), gsc.camera-flash
+Filename: ./debs/com.ps.trollleds_1.10.0_iphoneos-arm64e.deb
+Size: 74220
+MD5sum: 3f03971f8a8aea434cb43daf3a34ff78
+SHA1: ca701b22b071066d001e0857a5b6018659352d8b
+SHA256: 5cb0ae755628aafdc476c99694bf026a2faede7bb7d3cdeecefd79c291f08ce1
+SHA512: 632ef29e84316bab73fa0235bb6c774a5ff3be46929f639dcc25c210459eb8e8d28766695211d70f50602dda475690bab00be974831ed5154e7dc7ffbcd7bb90
+Description: Điều khiển đèn LED đèn pin một cách dễ dàng.
+Name: TrollLEDs (Roothide)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/trollleds.html
+Icon: https://jtisvn.github.io/sectionIcons/TrollLEDs.png
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/trollleds.json
+
 Package: com.ps.youpip
 Architecture: iphoneos-arm64e
 Version: 1.12.7
