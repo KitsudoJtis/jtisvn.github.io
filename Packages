@@ -5852,17 +5852,17 @@ Icon: https://jtisvn.github.io/sectionIcons/PikachuSwitch.png
 Package: com.jtis.plampyuipro
 Architecture: iphoneos-arm64e
 Version: 1.0
-Section: Control Center UI
+Section: Tweaks
 Maintainer: JTIS Repo
 Installed-Size: 2064
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common
 Filename: ./debs/com.jtis.plampyuipro_1.0_iphoneos-arm64e.deb
-Size: 734272
-MD5sum: ca613ede9f05df446030c542d97c2a3f
-SHA1: b556e2eb883f23fcbabc339960cc9dcfc56c0622
-SHA256: 587cdb652ac0fef545638f8b2edd2dc5bad8d2dc6562792222cdad0cf24f2549
-SHA512: 1103cec81350c78ef84e84d0112626e58692e6083ab9860bce170d48a621fea4ed69b30320a7f6d0989e4e45cd30b056eeea34510e652b6cb5841aee2ee799cc
+Size: 734308
+MD5sum: 2f7b079475ae452fe4ad50b0570be3e2
+SHA1: 0439630f9bde7454d70b8883f394432b7b8b2da0
+SHA256: def24e620fbc7f922ac4d37d744d11e4707ad6d187c2a9927be4e15c9b8d6942
+SHA512: 60c295b9d3b04de0d0d59edcb8a868ad3c8d158acf2e02e6f7ce65019b2df6d6e707d6a361b2fb86c04240fad255300b62820bd82b89bb59d7c6188fc7b1674b
 Description: Plampy UI Pro - custumizing CC on Jailbroken devices for iOS 15 & 16.
 Name: Plampy UI Pro (Roothide)
 Author: Phuc Do
