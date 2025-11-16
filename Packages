@@ -2513,6 +2513,26 @@ Icon: https://jtisvn.github.io/sectionIcons/BHtiktokplus.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BHtiktokplus.json
 
 Package: com.jtis.bigshotsnapper3plugin
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 532
+Depends: mobilesubstrate, firmware(>=14.0), com.opa334.ccsupport
+Filename: ./debs/com.jtis.bigshotsnapper3plugin_1.1_iphoneos-arm64.deb
+Size: 19072
+MD5sum: 5e8c23076f160b435d326d535f1415fc
+SHA1: 3c8a277c25aa126445f1ab57fb314b76468b2780
+SHA256: 8618981e95c38b40800c6c3853abaf194b59cdccfe96f9515f4521b2a5302256
+SHA512: 4e0dd431ba1f1340c23833bf4d68925b1f63645a678c4079ae3739e03617b9c32f834954ba264dff1a72dc7fb682682f6977062e74914219fdc80c39bfaa24d1
+Description: BigShot CC module for iOS 14/15/16 and Snapper 3 plugin. Snapper 3 is NOT required to use this. It can be used as a standalone CC module.
+Depiction: https://jtisvn.github.io/depictions/BigShot.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BigShot.json
+Name: BigShot (Rootless)
+Author: Jonathan Winger-lang
+Icon: https://jtisvn.github.io/sectionIcons/BigShot.png
+
+Package: com.jtis.bigshotsnapper3plugin
 Architecture: iphoneos-arm64e
 Version: 1.1
 Section: Tweaks
@@ -2521,15 +2541,15 @@ Installed-Size: 532
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware(>=14.0), com.opa334.ccsupport
 Filename: ./debs/com.jtis.bigshotsnapper3plugin_1.1_iphoneos-arm64e.deb
-Size: 21256
-MD5sum: 51e14e2a16987a65e7ba0769a52af98a
-SHA1: 6fc478fa31ac619a9bad0232d99f9df673c99d42
-SHA256: 923ea3e84ce090ac6c3d935a88fbe5ba09380dc31e98d64f054d1539e25f9d58
-SHA512: cd18adb839c14b18d8228fcc8ed9b0aa2c4ea94b43959ad84b99c4dfa96334fd40d2940c2c953752b26ed29a17c8a76b41fee3c3cc6b9dd1811bce7f32d1058b
+Size: 19176
+MD5sum: d2e6a322e700477c7825d0d0040331b6
+SHA1: 384b066ebca2b1342f7fd9eb5de921c4fbaeaab9
+SHA256: a21b629ccf98a5b6b1869a470bfefdb0119a4b91172c80fafe213f8770718598
+SHA512: 9719a0f56cf667207e5fdfd8c12f58c81d0b35c099843df1315033b3a337319e209d38c4e07f5854a87125dccee11f4fba17dcd330a5d11566356593db4271d7
 Description: BigShot CC module for iOS 14/15/16 and Snapper 3 plugin. Snapper 3 is NOT required to use this. It can be used as a standalone CC module.
 Depiction: https://jtisvn.github.io/depictions/BigShot.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BigShot.json
-Name: BigShot for Snapper 3 and CCSupport (Roothide)
+Name: BigShot (Roothide)
 Author: Jonathan Winger-lang
 Icon: https://jtisvn.github.io/sectionIcons/BigShot.png
 
