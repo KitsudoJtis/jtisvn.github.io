@@ -7225,6 +7225,26 @@ Name: Vizage Gói Việt Hoá (Rootless)
 Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
+Package: com.jtis.volumemixer
+Architecture: iphoneos-arm64
+Version: 0.0.7~beta2
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 1400
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/com.jtis.volumemixer_0.0.7~beta2_iphoneos-arm64.deb
+Size: 236356
+MD5sum: 02d7951c7ea8f3343354689fe234aeaa
+SHA1: 7e51e7d52c57f0609cbe60523766b749689e36f7
+SHA256: 95b798053154557979d2a2ec1b1518f51e420cc8a3dad85c0c810296849b19e4
+SHA512: ad81c64e38aca64737da227bc05fba9b9c218095cb5f056a0552583a79579acba3d54f17df819e5fb940c42d6e2279cb0806b6511077e62d1882a84412275ba4
+Homepage: https://jtisvn.github.io
+Description: Điều khiển âm lượng cho từng ứng dụng của bạn.
+Name: VolumeMixer (Rootless)
+Author: Brend0n <brendonjkding@126.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VolumeMixer.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.waktos2
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -7969,14 +7989,14 @@ Section: Tweaks
 Maintainer: Nets
 Installed-Size: 2440
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Depends: com.kitsudo.pulloverpro, firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: com.c1d3r.pulloverpro
 Filename: ./debs/com.netskao.pulloverpro_2.1.6_iphoneos-arm64e.deb
-Size: 700000
-MD5sum: 769743f0d65b0a1d047202c4795a66e3
-SHA1: 0d043d4c6c6cb27d6fc8eb11c0ed5fa3ef7203a6
-SHA256: 3f5604fd44c53469accd33a9492b4ab8d022729b988f503b612e2f1bbdd5ed87
-SHA512: 9020283075ff195c5cc1e7471b6b3cc255ab73c1debed09a4df9bb2294b70f28242e187b6d8ed2cfc85591520cb21720a71feb653f16b7fabf93e3948968d302
+Size: 696916
+MD5sum: 28c40280475e560d7c81726d7ef9bd75
+SHA1: bd0e410f96a7b6d240e586e3e9d14ae65168fc22
+SHA256: dbc9832e0f98beab4ed237306890cbc568f8df432303d9682999e725de81566e
+SHA512: 50bae7d00b0894625259bf40e521492259a574f26b8253424e3c1da95aa782bf3c278b2b63a3a48696b82b29f9a30f7a65a55949e0b3bee7cd236adeea5d1908
 Description: Dễ dàng truỵ cập nhanh ứng dụng qua bong bóng chat ở cạnh màn hình - Hồi trợ IOS15+
 Name: PullOver Pro (Roothide)
 Author: c1d3r
