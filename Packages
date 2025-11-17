@@ -4653,6 +4653,24 @@ Description: This module provides the Cydia Substrate API for HookKit Framework.
 Name: HookKit Module (Cydia Substrate)
 Author: jjolano
 
+Package: com.jtis.homegesture1316
+Architecture: iphoneos-arm64e
+Version: 0.0.1-7
+Section: Tweaks
+Maintainer: i0s_tweak3r <djvs23@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.homegesture1316_0.0.1-7_iphoneos-arm64e.deb
+Size: 44812
+MD5sum: cbc065a247cd36fdad43d0c26a1a38ec
+SHA1: b7a7cdf1463cfb69ada14245d83398aac11ba5ee
+SHA256: 4bdd5bb6ef6a16ae38cb0b0e6ffb397913140185620d0606e270ce0a09f95e62
+SHA512: 5466a6409a35e71d5e404a42163351580f3bf48aa4c3c57915449eade4565f818313c342877761f4d56225b7a7e907a6fff65e1cfd6acbe2e60cd7606f4bb3c0
+Description: Mang các cử chỉ vuốt (Home gestures) lên các thiết bị đời cũ và các dòng máy không có tai thỏ (như SE). Vuốt lên để mở Đa nhiệm (App Switcher) và mở khoá máy, vuốt xuống từ góc trên màn hình để mở Trung tâm điều khiển (Control Center). Không cần dùng đến nút Home nữa! Hỗ trợ các bản Jailbreak ROOTLESS & Roothide iOS 13-16.
+Name: HomeGesture1316 (Roothide)
+Author: i0s_tweak3r <djvs23@icloud.com>
+Icon: https://jtisvn.github.io/sectionIcons/HomeGesture1315.png
+
 Package: com.jtis.horizontalsliders
 Architecture: iphoneos-arm64e
 Version: 0.0.1
