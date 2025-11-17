@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản: 0.0.1-30\n\n- Thêm tùy chọn tắt vuốt xuống mở Tìm kiếm (Spotlight) trên màn hình khóa\n\n- Thêm tùy chọn tắt vuốt mở Camera trên màn hình khóa\n\n- Thêm tùy chọn tắt vuốt mở chế độ xem hôm nay trên màn hình khóa\n\n ### Phiên bản 0.0.1-29\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 0.0.1-30\n\n- Thêm tùy chọn tắt vuốt xuống mở Tìm kiếm (Spotlight) trên màn hình khóa\n\n- Thêm tùy chọn tắt vuốt mở Camera trên màn hình khóa\n\n- Thêm tùy chọn tắt vuốt mở chế độ xem hôm nay trên màn hình khóa\n\n ### Phiên bản 0.0.1-29\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
