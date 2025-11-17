@@ -1018,6 +1018,30 @@ Author: IArrays <support@iarrays.com>
 Sponsor: IArrays
 Icon: https://jtisvn.github.io/sectionIcons/BioLocker.png
 
+Package: com.iarrays.biolocker
+Architecture: iphoneos-arm64e
+Version: 1.15.0-beta-2
+Section: Utilities
+Maintainer: IArrays <support@iarrays.com>
+Installed-Size: 2916
+Pre-Depends: rootless-compat(>= 0.9), firmware (>=15.0)
+Depends: mobilesubstrate, preferenceloader, com.iarrays.libiarrays.rootless (>= 1.0.16), com.jtis.iarrays-crack
+Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect, com.iarrays.biolocker.r-o-o-t-l-e-s-s-
+Filename: ./debs/com.iarrays.biolocker_1.15.0-beta-2_iphoneos-arm64e.deb
+Size: 652888
+MD5sum: 327085e9f5efdb3693500caa05965ac8
+SHA1: 4a5302a9551196bb254d422b055a6bd2ebf40ba4
+SHA256: a08a702dd87e4add01a0ba92e5242466c0c96a69ffd0d093f2d052e7ef242577
+SHA512: d99f778a22da686544d31a85b59d56d8294c8f71abfc9eafaa2d7276ce5e80c8da4772932803ee7d125c432d10a20921d18bffd58df0b9d4d510bbd557d15d4b
+Homepage: https://jtisvn.github.io
+Description: Simple, light weight and elegant locker for your apps. Protect your apps with Face ID or Touch ID or a custom passcode.
+Name: Bio Locker (Roothide)
+Depiction: http://iarrays.com/depiction/biolocker
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BioLocker.json
+Author: IArrays <support@iarrays.com>
+Sponsor: IArrays
+Icon: https://jtisvn.github.io/sectionIcons/BioLocker.png
+
 Package: com.iarrays.libiarrays.rootless
 Architecture: iphoneos-arm64
 Version: 1.0.16-beta-15
@@ -10260,6 +10284,25 @@ Description: Tinh chỉnh thay đối nhiều màu săc cho sóng mạng & wifi 
 Name: PrideBars (Roothide)
 Author: p0358
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PrideBars.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: net.limneos.simpleactivationactions-roothide
+Architecture: iphoneos-arm64e
+Version: 0.1-1
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/net.limneos.simpleactivationactions-roothide_0.1-1_iphoneos-arm64e.deb
+Size: 7056
+MD5sum: 50fc54bbf8244effbbacd35fe35f51a7
+SHA1: 06a1d454fe874f63d10066fa34e1074258f246fc
+SHA256: 2a5fb897ccba4ae776110cf0fb157a7d7462f948aeb2184e8dd1f66c671ba08d
+SHA512: e55c8758eb8c18ca7c0d59a5a34915f1f8e82e803edd103880a2215707b2701de4ed35a53908a9977072bcd9264bd07c8fbdbc964ba6b5ff52b33ae35a9b3a2c
+Description: Simple Activation Actions
+ Handles StatusBar actions for simple activation events
+Name: SimpleActivationActions (roothide)
+Author: Elias Limneos <limneoselias@gmail.com>
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: oldabi
