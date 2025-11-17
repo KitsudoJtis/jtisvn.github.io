@@ -5,7 +5,7 @@
     "banners": [
         {
             "title": "JTISVN Repo",
-            "package": "com.jtis.flow",
+            "package": "com.jtid.lynx",
             "url": "https://jtisvn.github.io/coverimage/jtisvnrepo.png"},
 {
            "title": "Capcut Pro",
@@ -33,8 +33,12 @@
             "url": "https://jtisvn.github.io/coverimage/SafariX.png"},
 {
            "title": "Snapper 3",
-            "package": "com.jtis.bigshotsnapper3plugin",
+            "package": "com.jtis.snapper3",
             "url": "https://jtisvn.github.io/coverimage/Snapper3.png"},
+{
+           "title": "Shuffle",
+            "package": "com.jtis.shuffle",
+            "url": "https://jtisvn.github.io/coverimage/Shuffle.png"},
 {
            "title": "VisibleIsland",
             "package": "com.jtis.visibleisland",

@@ -575,6 +575,45 @@ Tag: compatible_min::iOS9
 Name: libCSPreferences
 Author: CreatureSurvive <support@creaturecoding.com>
 
+Package: com.den.locktouchx
+Architecture: iphoneos-arm64
+Version: 1.3-18+debug
+Section: Tweaks
+Maintainer: MrDeNsor
+Installed-Size: 240
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.den.locktouchx_1.3-18+debug_iphoneos-arm64.deb
+Size: 23324
+MD5sum: a4df9676bfe9fbd98e2729dff1152a3b
+SHA1: fa5a31c48b366211758b5300e0cceeecde576da9
+SHA256: cd82c86f828c9016fa76b76032df8e0b084ec6b431d83f29d9cd4417e118218d
+SHA512: 77dae9030b3ee1ea60da17676390417fc0b1c1fb8fa622869b96331e1853c24918bc7b9f74ce8f8876e1b566aea4b1161512490dd31afa3f2a9266daa1a7b962
+Description: Thêm xác thực Touch/Face ID vào ứng dụng, giống như các tính năng bảo mật của iOS 18
+Name: LockTouchX (Rootless)
+Author: MrDeNsor
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LockTouchX.json
+Icon: https://jtisvn.github.io/sectionIcons/LockTouchX.png
+
+Package: com.den.locktouchx
+Architecture: iphoneos-arm64e
+Version: 1.3-18+debug
+Section: Tweaks
+Maintainer: MrDeNsor
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.den.locktouchx_1.3-18+debug_iphoneos-arm64e.deb
+Size: 21724
+MD5sum: a0693a60d16ebef3d38a26ab74beef41
+SHA1: 4603c1e41d405b9a3fa047813b59c6237eb03d85
+SHA256: beb9cc96b5a6437bbc51f58a108ac233c6831208be944d3aed1a600dcd3ff950
+SHA512: fc747e8e13fdffedac38643f1eaacfd1448d8b6cd1ea24f868a415ef96bf71ab4a69e2021ed70923e496c2f6ea202eb7c1042811a07753ad047c6c4118161f52
+Description: Thêm xác thực Touch/Face ID vào ứng dụng, giống như các tính năng bảo mật của iOS 18
+Name: LockTouchX (Roothide)
+Author: MrDeNsor
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LockTouchX.json
+Icon: https://jtisvn.github.io/sectionIcons/LockTouchX.png
+
 Package: com.dvntm.glow
 Architecture: iphoneos-arm
 Version: 1.3.1
