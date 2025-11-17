@@ -994,6 +994,30 @@ Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
 Depiction: https://chariz.com/buy/misaki
 Taq: cydia::commercial, compatible_min::ios15.0
 
+Package: com.iarrays.biolocker
+Architecture: iphoneos-arm64
+Version: 1.15.0-beta-2
+Section: Utilities
+Maintainer: IArrays <support@iarrays.com>
+Installed-Size: 2916
+Pre-Depends: firmware (>=15.0)
+Depends: mobilesubstrate, preferenceloader, com.iarrays.libiarrays.rootless (>= 1.0.16), com.jtis.iarrays-crack
+Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect, com.iarrays.biolocker.roothide
+Filename: ./debs/com.iarrays.biolocker_1.15.0-beta-2_iphoneos-arm64.deb
+Size: 665976
+MD5sum: de06c1ce44b5936abcddf3fec233a83c
+SHA1: 6e4c2be3b20212b4196694d6fbfdf3f3085c478a
+SHA256: 3ba78d2543663f92de71aca38e80ff9b6cf1be6e59dbcd47dcaac656eb652adc
+SHA512: 092005ef562fd75a146a27c0ed3a93238ae2659442cfe154cd5891427648bf26554dae3a80a9a9ac3e7cc5939553dd3bf721121322f2bb3bd8dd88eaaea0f64d
+Homepage: https://jtisvn.github.io
+Description: Simple, light weight and elegant locker for your apps. Protect your apps with Face ID or Touch ID or a custom passcode.
+Name: Bio Locker (Rootless)
+Depiction: http://iarrays.com/depiction/biolocker
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BioLocker.json
+Author: IArrays <support@iarrays.com>
+Sponsor: IArrays
+Icon: https://jtisvn.github.io/sectionIcons/BioLocker.png
+
 Package: com.iarrays.libiarrays.rootless
 Architecture: iphoneos-arm64
 Version: 1.0.16-beta-15
@@ -2633,6 +2657,49 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/BigShot.json
 Name: BigShot (Roothide)
 Author: Jonathan Winger-lang
 Icon: https://jtisvn.github.io/sectionIcons/BigShot.png
+
+Package: com.jtis.bioprotectxs
+Architecture: iphoneos-arm64
+Version: 4.7-4
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 2328
+Depends: mobilesubstrate, preferenceloader, com.jtis.limneos-crack
+Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/com.jtis.bioprotectxs_4.7-4_iphoneos-arm64.deb
+Size: 569544
+MD5sum: 0105c94d56cdff19f09792130af2b301
+SHA1: a52cec302eefe172c1c88f04a3ad8490750b1ed6
+SHA256: a5378cc3d88e590f12c73f6adde8cc5d006d10f0ea6ee152922aa858464e1333
+SHA512: 55fa0f5b8dde2c182cddb3c0a4bf4fa901c8d80aa150c0f4272f923a843f1d8ed568d48c3e801752b472f486401b64abbd8cdd6c06275324f64fd7537a4844e0
+Description: Khoá bảo vệ ứng dụng của bạn bằng Touch ID, Face ID hoặc mật mã!
+Name: BioProtect XS [Rootless iOS14/18)
+Author: Elias Limneos <limneoselias@gmail.com>
+MainLibMD5: 11a31f2c14af96f0ee846d1e06d5cfd0
+Icon: https://jtisvn.github.io/sectionIcons/BioProtect.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BioProtect.json
+
+Package: com.jtis.bioprotectxs
+Architecture: iphoneos-arm64e
+Version: 4.7-4
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 2328
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.jtis.limneos-crack
+Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/com.jtis.bioprotectxs_4.7-4_iphoneos-arm64e.deb
+Size: 563028
+MD5sum: 64c673c96c5d729584a11e0a3250d331
+SHA1: da87bf8cf50ba99c40eb29e31df93ff6211caaea
+SHA256: ef55ee01213cf138689bc7ebeef09ff2a9c81baace81d02179ba071f545abdf1
+SHA512: f0ebccb90d402376ebd07a3aa3d7927050e5ed0f6f022cc0e7d16cb00c6d8faa0704ec095d571b41f2e84a5bb967ff2254461e664d0df1248edc4c8fb6df8c28
+Description: Khoá bảo vệ ứng dụng của bạn bằng Touch ID, Face ID hoặc mật mã!
+Name: BioProtect XS [Roothide iOS14/18)
+Author: Elias Limneos <limneoselias@gmail.com>
+MainLibMD5: 11a31f2c14af96f0ee846d1e06d5cfd0
+Icon: https://jtisvn.github.io/sectionIcons/BioProtect.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BioProtect.json
 
 Package: com.jtis.blur
 Architecture: iphoneos-arm64
