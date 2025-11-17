@@ -913,6 +913,87 @@ Name: SearchDots (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/SearchDots.png
 Author: NightwinDev
 
+Package: com.hitori.misaki
+Architecture: iphoneos-arm64
+Version: 2.2-1
+Section: Tweaks
+Maintainer: Hitori <mikasa-san@outlook.jp>
+Installed-Size: 1049
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: ./debs/com.hitori.misaki_2.2-1_iphoneos-arm64.deb
+Size: 306408
+MD5sum: 6cd8784bb0f37c93448675652ca69c52
+SHA1: 4fbed686a8d7ac6acb0db80bc75ef1fa0aa39f45
+SHA256: 8e235094ff77a48251e9b4c3fc717da118479d9adf796dc45fb6e778712a0d4d
+SHA512: aafbbafaebae202f7379a849d12152a894c5ece88362edb96ab6bb7b213bbf1707d1f66f4ad4fc37a120b3760fd60d877a529301aadf241186aa1bb98d474c43
+Description: Tùy chỉnh jailbreak toàn diện cho iOS 15 và 16, giúp bạn trải nghiệm tuỳ biến iPhone trở nên độc đáo. Dưới đây là một số tính năng và tùy chọn mà Misaki cung cấp:
+ - Tùy chỉnh Màn hình khóa:
+ - Ẩn thời gian, biểu tượng Face ID và khóa
+ - Tùy chỉnh nút Quick Action tăng cường khả năng truy cập
+ - Ẩn thông báo không mong muốn
+ - Tùy chỉnh Màn hình chính:
+ - Ẩn nhãn ứng dụng, dấu trang và thanh tìm kiếm
+ - Tùy chỉnh giao diện và bố cục ứng dụng
+ - Tùy chỉnh Trung tâm điều khiển:
+ - Tùy chỉnh bố cục và giao diện
+ - Thêm chỉ số phần trăm cho các thanh trượt
+ - *Tùy chỉnh Thanh trạng thái:
+ - Tùy chỉnh văn bản nhà mạng và thời gian
+ - Ẩn các biểu tượng không mong muốn
+ - Tùy chỉnh Trung tâm thông báo:
+ - Tùy chỉnh giao diện và bố cục
+ - Ẩn văn bản không mong muốn
+ * Misaki cũng cung cấp nhiều tính năng khác như:
+ - Tùy chỉnh thư mục*: Ẩn tiêu đề, nền và hiệu ứng mờ
+ - Tùy chỉnh ứng dụng điện thoại: Ẳn tab không mong muốn
+ - Tùy chỉnh App Switcher: ẩn biểu tượng và nhãn ứng dụng
+Author: Hitori <mikasa-san@outlook.jp>
+Name: Misaki (Rootless)
+Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
+Depiction: https://chariz.com/buy/misaki
+Taq: cydia::commercial, compatible_min::ios15.0
+
+Package: com.hitori.misaki
+Architecture: iphoneos-arm64e
+Version: 2.2-1
+Section: Tweaks
+Maintainer: Hitori <mikasa-san@outlook.jp>
+Installed-Size: 1049
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: ./debs/com.hitori.misaki_2.2-1_iphoneos-arm64e.deb
+Size: 301852
+MD5sum: 64456ca3302e95409f6d298291dd820a
+SHA1: 9fabc7c4e7845f1813f0365d62b0a04c4445ca05
+SHA256: 6bc2a034913f37ff39a0f4b0e686ca320251c9a066f9e687f8dca9e5f4410d12
+SHA512: da4ece66e91a212ab19c7265b6ccbdcebc79a831afb48a4dc56421caf9f678b41936152d2227dddb9ab56eec5302148c5314b5bfee42619d2effd20a6391f582
+Description: Tùy chỉnh jailbreak toàn diện cho iOS 15 và 16, giúp bạn trải nghiệm tuỳ biến iPhone trở nên độc đáo. Dưới đây là một số tính năng và tùy chọn mà Misaki cung cấp:
+ - Tùy chỉnh Màn hình khóa:
+ - Ẩn thời gian, biểu tượng Face ID và khóa
+ - Tùy chỉnh nút Quick Action tăng cường khả năng truy cập
+ - Ẩn thông báo không mong muốn
+ - Tùy chỉnh Màn hình chính:
+ - Ẩn nhãn ứng dụng, dấu trang và thanh tìm kiếm
+ - Tùy chỉnh giao diện và bố cục ứng dụng
+ - Tùy chỉnh Trung tâm điều khiển:
+ - Tùy chỉnh bố cục và giao diện
+ - Thêm chỉ số phần trăm cho các thanh trượt
+ - *Tùy chỉnh Thanh trạng thái:
+ - Tùy chỉnh văn bản nhà mạng và thời gian
+ - Ẩn các biểu tượng không mong muốn
+ - Tùy chỉnh Trung tâm thông báo:
+ - Tùy chỉnh giao diện và bố cục
+ - Ẩn văn bản không mong muốn
+ * Misaki cũng cung cấp nhiều tính năng khác như:
+ - Tùy chỉnh thư mục*: Ẩn tiêu đề, nền và hiệu ứng mờ
+ - Tùy chỉnh ứng dụng điện thoại: Ẳn tab không mong muốn
+ - Tùy chỉnh App Switcher: ẩn biểu tượng và nhãn ứng dụng
+Author: Hitori <mikasa-san@outlook.jp>
+Name: Misaki (Roothide)
+Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
+Depiction: https://chariz.com/buy/misaki
+Taq: cydia::commercial, compatible_min::ios15.0
+
 Package: com.iarrays.libiarrays.rootless
 Architecture: iphoneos-arm64
 Version: 1.0.16-beta-15
@@ -8792,6 +8873,45 @@ Name: BHTikTok++ (Roothide)
 Author: raul saeed
 icon: https://jtisvn.github.io/sectionIcons/BHtiktokplus.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BHtiktok++.json
+
+Package: com.reo.mystery
+Architecture: iphoneos-arm64
+Version: 2.6.0
+Section: Tweaks
+Maintainer: Mystery
+Installed-Size: 900
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.17.0), firmware (>= 14.0)
+Filename: ./debs/com.reo.mystery_2.6.0_iphoneos-arm64.deb
+Size: 286960
+MD5sum: e318062304c9d1f34d70321d93e15e08
+SHA1: e7badcafb672e8edb3993c058fbf00337b7b5959
+SHA256: a4ae4b566b763e10f58207d805acdfbee8d00c413a28da070eade7cfdb1d6e21
+SHA512: 037c4c6706163a9290cf3fb3ab483f82b19a496644259d92f94e2037ed4c8c10e9de4df78393d128fd95504d8b1e3ba7710c5e501374843f86890e3e4ef9d23d
+Description: Classic Music player for LS
+Name: Reo (Rootless)
+Author: Mystery
+SileoDepiction: https://havoc.app/package/reo/depiction.json
+Icon: https://media.havoc.app/6683a5d2b31c69deb54d4705
+
+Package: com.reo.mystery
+Architecture: iphoneos-arm64e
+Version: 2.6.0
+Section: Tweaks
+Maintainer: Mystery
+Installed-Size: 900
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.17.0), firmware (>= 14.0)
+Filename: ./debs/com.reo.mystery_2.6.0_iphoneos-arm64e.deb
+Size: 283504
+MD5sum: feec9cab4e76781bf1198102f13425ed
+SHA1: 32c5537f2486560bcb2d3ce50afe037ecc601c9e
+SHA256: 0a52beceb06a8fbad6de5136631721d5f70685ffe5c6a014d431ce6aa861173e
+SHA512: 21f9015bca8ffcf6c3f9eed1b4778e868e7895b71a98ae0b41ca3a6f20eb5455ffd85f25793812deb3cb2c495e24554d65a1a18c37f948b5b07af005597ef70b
+Description: Classic Music player for LS
+Name: Reo (Roothide)
+Author: Mystery
+SileoDepiction: https://havoc.app/package/reo/depiction.json
+Icon: https://media.havoc.app/6683a5d2b31c69deb54d4705
 
 Package: com.roothide.manager
 Architecture: iphoneos-aảm64
