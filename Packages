@@ -2325,6 +2325,28 @@ Name: ArtworkSpinner (Roothide)
 Author: Lessica
 Icon: https://jtisvn.github.io/sectionIcons/ArworkSpinner.png
 
+Package: com.jtis.audiorecorderxs
+Architecture: iphoneos-arm64e
+Version: 5.1-12
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 6136
+Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions-roothide, firmware(>=15.0), com.jtis.limneos-crack
+Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
+Filename: ./debs/com.jtis.audiorecorderxs_5.1-12_iphoneos-arm64e.deb
+Size: 1191428
+MD5sum: 8029a8dbeb09cb1778f72dd0f00c281d
+SHA1: 810c22429677d5620b428f8453f164c32d7e3d27
+SHA256: fb5a3889fa93363333eb63f3da1d022ab9e2f91021c9bb4335236fd50f029f9a
+SHA512: d92b914a4a1516b6436fc2a30838bab056d891483a98b6b2bfa030153663259a208005fa62dd1efc8f643d44f24dffe59afcbf90632ab1c46a2f3a96efcce1a5
+Description: Most Advanced iOS Call Recorder Ever!
+Name: AudioRecorder (Roothide iOS 15 to 17)
+Author: Elias Limneos <limneoselias@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AudioRecorder.json
+Icon: https://jtisvn.github.io/sectionIcons/AudioRecorder.png
+MainLibMD5: 2bd89895e747af47790b0eb2f6bac296
+
 Package: com.jtis.autofaceunlock-rootless
 Architecture: iphoneos-arm64
 Version: 1.1-7

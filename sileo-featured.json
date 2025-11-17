@@ -12,6 +12,10 @@
             "package": "com.jtisvn.capcutcrack",
             "url": "https://jtisvn.github.io/coverimage/CapcutPro.png"},
 {
+           "title": "Designer",
+            "package": "com.jtis.designer",
+            "url": "https://jtisvn.github.io/coverimage/Designer.png"},
+{
            "title": "Liquid Glass",
             "package": "com.jtis.LiquidglAss",
             "url": "https://jtisvn.github.io/coverimage/LiquidGlass.png"},
@@ -27,6 +31,10 @@
            "title": "Safari X",
             "package": "com.0xkuj.safarix",
             "url": "https://jtisvn.github.io/coverimage/SafariX.png"},
+{
+           "title": "Snapper 3",
+            "package": "com.jtis.bigshotsnapper3plugin",
+            "url": "https://jtisvn.github.io/coverimage/Snapper3.png"},
 {
            "title": "VisibleIsland",
             "package": "com.jtis.visibleisland",
