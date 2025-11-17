@@ -42,7 +42,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Ultrasound\n\n- Là tinh chỉnh thay thế giao diện hiển thị âm lượng (HUD) mặc định của iOS.\n\n- Tính năng:\n\n- Thiết kế hiện đại: Thay thế HUD vuông to ở giữa màn hình bằng một thanh trượt nhỏ gọn, đẹp mắt nằm ngay cạnh các nút âm lượng.\n\n- Hiển thị chi tiết: Luôn hiển thị phần trăm âm lượng và biểu tượng loa cập nhật trực tiếp.\n\n- Thiết kế cho iPhone X trở lên: Tận dụng không gian bên cạnh tai thỏ (notch) một cách hoàn hảo.\n\n- Tương tác mượt mà: Bạn có thể vuốt lên để ẩn thanh trượt đi ngay lập tức.\n\n- Lưu ý: Tweak này chỉ hỗ trợ iPhone 7 đổ về có thể k hoạt động trên ios cao hơn.",
+"markdown":"Ultrasound\n\n- Là tinh chỉnh thay thế giao diện hiển thị âm lượng (HUD) mặc định của iOS.\n\n- Tính năng:\n\n- Thiết kế hiện đại: Thay thế HUD vuông to ở giữa màn hình bằng một thanh trượt nhỏ gọn, đẹp mắt nằm ngay cạnh các nút âm lượng.\n\n- Hiển thị chi tiết: Luôn hiển thị phần trăm âm lượng và biểu tượng loa cập nhật trực tiếp.\n\n- Thiết kế cho iPhone X trở lên: Tận dụng không gian bên cạnh tai thỏ (notch) một cách hoàn hảo.\n\n- Tương tác mượt mà: Bạn có thể vuốt lên để ẩn thanh trượt đi ngay lập tức.\n\n- Lưu ý: Tweak này chỉ hỗ trợ iPhone 7 trở xuống và có thể không hoạt động trên ios cao hơn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
