@@ -1212,6 +1212,49 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/HideSerialNumber.json
 Icon: https://Jtisvn.github.io/sectionIcons/HideSerialNumber.png
 dev: ichitaso
 
+Package: com.ichitaso.otadisabler
+Architecture: iphoneos-arm64
+Version: 0.6
+Section: System
+Maintainer: ichitaso
+Installed-Size: 168
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/com.ichitaso.otadisabler_0.6_iphoneos-arm64.deb
+Size: 9580
+MD5sum: 3d5371197babff923214659c9a679885
+SHA1: 80f1e21bca6f931e4b694197759861810c117d75
+SHA256: 1e381dd629516c79443060f6ac330cdc0f283ee34528475e8ae84643c9a84bed
+SHA512: 692ff056b78c301c4583ca679cbd9a5b6d6c6b9e1a65155ff4b50eede277ebc4020117870841030cde6895a071f12378d0e124503e86c159f7bcf6b0c02c8a7e
+Homepage: https://ichitaso.com
+Description: Disable OTA and remove badges on home screen, etc.
+Name: OTADisabler (Rootless)
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/otadisabler.html
+SileoDepiction: https://cydia.ichitaso.com/depiction/otadisabler.json
+Icon: https://raw.githubusercontent.com/ichitaso/OTADisabler-App/main/OTADisabler/Icon-60%403x.png
+
+Package: com.ichitaso.otadisabler
+Architecture: iphoneos-arm64e
+Version: 0.6
+Section: System
+Maintainer: ichitaso
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/com.ichitaso.otadisabler_0.6_iphoneos-arm64e.deb
+Size: 9872
+MD5sum: ab8a1e6174116ca16617158eb30aedb8
+SHA1: 0ca94b8503c4122479b42fa46924c9b01a94b7cb
+SHA256: 7ecb11f18c8c966867939a873a00e47eb83d31353f7eda15b0534c7f63e28ac5
+SHA512: 4194eeaf9ebc5b73d898951dc68a924f5bdae50722f4eec30ddf25df24b7aa982b193188bc5322d0625d309a3b70d5e97a7028c63683642d51c8c9daef9429e2
+Homepage: https://ichitaso.com
+Description: Disable OTA and remove badges on home screen, etc.
+Name: OTADisabler (Roothide)
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/otadisabler.html
+SileoDepiction: https://cydia.ichitaso.com/depiction/otadisabler.json
+Icon: https://raw.githubusercontent.com/ichitaso/OTADisabler-App/main/OTADisabler/Icon-60%403x.png
+
 Package: com.ichitaso.powerselector11
 Architecture: iphoneos-arm64
 Version: 1.4.0
@@ -3325,6 +3368,23 @@ Author: TQM
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LSclockfont.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
  Pre-Depends: rootless-compat(>= 0.9)
+
+Package: com.jtis.clockfonts
+Architecture: iphoneos-arm
+Version: 1.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.clockfonts_1.3_iphoneos-arm.deb
+Size: 49548
+MD5sum: 9b49d428ac2608fdb1044dc70992185f
+SHA1: 074b3fc5998624ba23f46b7da12e64a556b07fca
+SHA256: bc19767f88708bfc000b2a94dd79662c7826155fcc71ba106ba6d710a54102d4
+SHA512: 8c0892cf0c526b3f1ef97fa306525c160e59d7ea8c5aad7a82e83b54af19ef3cde8121ea3e6fc53453fe4af7b82aaafcb4fdc5ad304f80764f5bea9bfb789d9e
+Description: Tuỳ chỉnh phông chữ đồng hồ trên màn hình khoá của bạn, Hỗ trợ iOS15 trở xuống
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Name: ClockFonts
+Author: nqt1195
 
 Package: com.jtis.colorbar15
 Architecture: iphoneos-arm64
@@ -6375,6 +6435,27 @@ Author: LK
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Rophim.json
 Icon: https:/jtisvn.github.io/sectionIcons/Rophim.png
 
+Package: com.jtis.safariplusVN
+Architecture: iphoneos-arm
+Version: 1.7.22
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 5421
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.opa334.libundirect (>= 1.1.3) | firmware (<< 14.0)
+Filename: ./debs/com.jtis.safariplusVN_1.7.22_iphoneos-arm.deb
+Size: 1195528
+MD5sum: f2bab297f7e600ffc372f4b4d464d95f
+SHA1: 4eced104d8a4347d3bed0f6248ee70807054566e
+SHA256: 673eff522abb9861f689b308bb4aafd11407b8cbe87993998a794f9e3bed8e57
+SHA512: 282f8cb0c4ec53ffaae2176c800545c3c40b7c980642454f3d04ae66a1a43ec09ec051a7960dcfca27762b15f25bb01ecd2b934f68d5418ea0cf71e0d06ff50f
+Description: Various enhancements to Safari!
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Name: Safari Plus
+dev: opa334
+depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.safeccmodules
 Architecture: iphoneos-arm64e
 Version: 1.5-2
@@ -6835,6 +6916,24 @@ Author: Kitsudo & dothanh1110
 Depiction: https://jtisvn.github.io/depictions/SmProVVkp.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SmProVip.json
 Icon: https://jtisvn.github.io/sectionIcons/SmProVip.png
+
+Package: com.jtis.snapper3
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
+Filename: ./debs/com.jtis.snapper3_1.0_iphoneos-arm64.deb
+Size: 906348
+MD5sum: e19fc1807143977ab777878d43fe45e7
+SHA1: ce96855e7bce405662d5caa8602cc1b8518b2247
+SHA256: 2e5915fc381bf9d2e1318a4e72247d17fac49bf1bdb0291dbed47ec58e15b9b1
+SHA512: de3b5e5fd7631abcaf32a264981c4001875a5d9923ef9289451c0b47822b88416e1af8ba88cf20555b1658a3a2fa62c1b08e0a27e845db66888331ab51c53c40
+Description: Snapper 3 là công cụ chụp ảnh màn hình với nhiều chức năng cho IOS.  - Chức năng: - Ghim ảnh chụp đã cắt để hiển thị thông tin xuyên suốt các ứng dụng. - Sao chép, chia sẻ và lưu nhanh vùng màn hình đã chọn. - Nhận diện văn bản (OCR) trực tiếp từ ảnh hoặc ảnh chụp màn hình. - Quét mã QR ngay trên màn hình. - Xem lại lịch sử Snapper 3 để quản lý ảnh đã lưu. - Tải ảnh trực tiếp lên Imgur. - Hỗ trợ plugin như Translomatic, Tranzlo, HammerIt để dịch thuật và quản lý văn bản
+Name: Snapper 3 (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
+Author: Jonathan Winger-lang
 
 Package: com.jtis.snapper3
 Architecture: iphoneos-arm64e
@@ -8590,6 +8689,51 @@ Name: PullOver Pro (Roothide)
 Author: c1d3r
 Icon: https://jtisvn.github.io/sectionIcons/PullOverPro.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverpro.json
+
+Package: com.nguyenasang.snmessenger
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Section: Tweaks
+Maintainer: NguyenASang
+Installed-Size: 792
+Provides: com.haoict.messengernoads
+Depends: mobilesubstrate, firmware (>= 12.4)
+Conflicts: com.haoict.messengernoads
+Replaces: com.haoict.messengernoads
+Filename: ./debs/com.nguyenasang.snmessenger_2.0.0_iphoneos-arm64.deb
+Size: 419108
+MD5sum: ab8beb7b58377279e304b3070058daab
+SHA1: 4fb75a9df3a59c06c34dca1d5fa2497145735d4e
+SHA256: b55dfc7ea357df9ea372ab91613e08d6b53b44abea3e23769970ae0532b9f954
+SHA512: cd33c867e1dd33918917d9e573b48a7b5f246aced842caf94e7c453428c14f44bc71352bafb1e62197f17d502eb27877b03062c22f369871794c1e48e335d3d6
+Description: A full-featured tweak for Messenger.
+Name: SNMessenger (Rootless)
+Author: NguyenASang
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SNMessenger.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.nguyenasang.snmessenger
+Architecture: iphoneos-arm64e
+Version: 2.0.0
+Section: Tweaks
+Maintainer: NguyenASang
+Installed-Size: 792
+Provides: com.haoict.messengernoads
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.4)
+Conflicts: com.haoict.messengernoads
+Replaces: com.haoict.messengernoads
+Filename: ./debs/com.nguyenasang.snmessenger_2.0.0_iphoneos-arm64e.deb
+Size: 419120
+MD5sum: 6af8c028ba4583a4911cf7304ac66d7e
+SHA1: a54ea0a7bf95e2a1e0f2b094b93e7e0852e62b7f
+SHA256: 05369324e32236f54a33f7cad2500a21d385c444da74a458dccf900912e26e89
+SHA512: 4bd8a292136daa5f7f43e5b7b719853907d1c64548780591ae5d1d7a51d473b330b27eb37d997ca716634da330e0525f1bb94628b246d02d9d5018fa4f1dfc9d
+Description: A full-featured tweak for Messenger.
+Name: SNMessenger (Roothhide)
+Author: NguyenASang
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SNMessenger.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64e
