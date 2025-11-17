@@ -10309,6 +10309,27 @@ Author: uz.ra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/MutePlay.json
 Icon: https://jtisvn.github.io/sectionIcons/MutePlay.png
 
+Package: kr.xsf1re.vnodebypass
+Architecture: iphoneos-arm64
+Version: 0.4.3
+Section: System
+Maintainer: alias20
+Installed-Size: 476
+Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
+Filename: ./debs/kr.xsf1re.vnodebypass_0.4.3_iphoneos-arm64.deb
+Size: 65152
+MD5sum: a6b07791be52a3b6eb8a43192165baf5
+SHA1: 69ede687ea2db82df3b809081fb0ab89a29928f7
+SHA256: f01cc3ff809f5577967517b84b68d41a995d0bbd8b360259da3947d3d3c7b2d4
+SHA512: 2fa7450fda10547cacbafa1f1e53123e021fdce8e87fe60e602f8314ac5a527fe110c1f93d221484430d067515e00ac420f9ce4167bc8797ba5d33fd9e4c01f6
+Description: An expermental tool to hide jailbreak files for bypass detection. (Only supported iOS 15-16 with Dopamine2)
+Tag: role::hacker, compatible::ios15, compatible::ios16
+Author: XsF1re, ichitaso, level3tjg
+Name: vnodebypass (Rootless)
+Depiction: https://cydia.ichitaso.com/depiction/vnoderootless.html
+SileoDepiction: https://cydia.ichitaso.com/depiction/vnoderootless.json
+Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
+
 Package: com.foxfort.libfoxfortutils
 Architecture: iphoneos-arm64e
 Version: 1.4.7
