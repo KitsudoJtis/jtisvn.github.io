@@ -9982,14 +9982,15 @@ Maintainer: JTIS Repo
 Installed-Size: 288
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.xina.blacklist_0.0.3-1+debug_iphoneos-arm64.deb
-Size: 39512
-MD5sum: 997811e88ff5deb07b36b39b365364ac
-SHA1: 527e36e43348ec5ad03d2e3061d3fbbcd679344e
-SHA256: 99fe04a97ae98dc7ced879f1ff1ac532927eb4e9b39405cd95b9add52a3bf51e
-SHA512: f00802b4e08e83f5b1c64a3735824437285880ca825622c5914281089698529f2463c9c48f14a15483b3288ab387e1e0f2052b2b7c3f6ef759be45b77dbff478
+Size: 39580
+MD5sum: 88a4c36ff313b66e5be1d8ace7915f8b
+SHA1: b3a385531ee68a7c11521548de0a1c3741960926
+SHA256: 5166d809eeda4c87f9f781808c58a15da6c5b60d38a770df95989c8a10272f01
+SHA512: 353828624a9e70b9891316b1b9093feda85c88f808515d05cd6fb337dd2ae2486951c62f74fd29421d89107803cf218ca4a7adda46c6fcc5f11b8408a3807e80
 Description: XinaBlackList cho phép bạn loại trừ các ứng dụng hoặc tiến trình khỏi việc load tweak trong môi trường jailbreak XinaA15. Rất hữu ích để vượt qua các cơ chế phát hiện jailbreak trong app ngân hàng, game hoặc ứng dụng bảo mật cao.
 Name: XinaBlackList (Rootless)
 Author: xina520 <3608063@qq.com>
+Icon: https://jtisvn.github.io/sectionIcons/XinaBlackList.png
 
 Package: com.xybp888.noapplemobilerepair
 Architecture: iphoneos-arm64
