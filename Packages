@@ -5948,6 +5948,45 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/QuickPowerButton.json
 Icon: https://jtisvn.github.io/sectionIcons/QuickPowerButton.png
 Author: SINI
 
+Package: com.jtis.quickpowerbutton
+Architecture: iphoneos-arm64
+Version: 0.0.1-30
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 564
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.quickpowerbutton_0.0.1-30_iphoneos-arm64.deb
+Size: 64800
+MD5sum: 23e496fd0d9b9f1b8d2efac98617ded3
+SHA1: 5bf067323a7b9314f13eb76456585eee3df48a7a
+SHA256: 0b7d8f57aadd0afa12f439f5b4dc181f6b0dde25cb106d66621af2834dedd06c
+SHA512: 28be8b102bfe96c77be0a91987e7de098599036e3be98bc73cee60c5e570de65b0e834da50650fe7f0f5dfba469028e0b5a2ca397edf943baa3f3e3a690bff8b
+Homepage: https://jtisvn.github.io
+Description: Thêm nút phím tắt giữa đèn pin và camera trên Màn hình khóa. Bấm vào để bật lên các tùy chọn nguồn.
+Name: QuickPowerButton (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/QuickPowerButton.json
+Icon: https://jtisvn.github.io/sectionIcons/QuickPowerButton.png
+Author: SINI
+
+Package: com.jtis.quickpowerbutton
+Architecture: iphoneos-arm64e
+Version: 0.0.1-30
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 564
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.quickpowerbutton_0.0.1-30_iphoneos-arm64e.deb
+Size: 64680
+MD5sum: 3ba469b5207429449bb8e47255b3e798
+SHA1: 5769f3dbb54d07387ba932bb77e75e392c4aea24
+SHA256: 6d668709a4cf138cd5f6d0f0d932f7c46ac69a2c1fe523c6111362125677417d
+SHA512: 68a7f30ac853405ee981f7b3239734d3bb5500b24faf1c51ea69223743541a34b601222b563538ee4d392fae1babba638ca0b865c1e688fda32467fb9d2f100a
+Description: Thêm nút phím tắt giữa đèn pin và camera trên Màn hình khóa. Bấm vào để bật lên các tùy chọn nguồn.
+Name: QuickPowerButton (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/QuickPowerButton.json
+Icon: https://jtisvn.github.io/sectionIcons/QuickPowerButton.png
+Author: SINI
+
 Package: com.jtis.recorddot
 Architecture: iphoneos-arm64e
 Version: 0.0.1
