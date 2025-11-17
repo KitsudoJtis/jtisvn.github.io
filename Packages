@@ -2701,6 +2701,27 @@ MainLibMD5: 11a31f2c14af96f0ee846d1e06d5cfd0
 Icon: https://jtisvn.github.io/sectionIcons/BioProtect.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BioProtect.json
 
+Package: com.jtis.bioprotectxs
+Architecture: iphoneos-arm
+Version: 4.8-2
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 2232
+Depends: mobilesubstrate, preferenceloader, com.jtis.limneos
+Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/com.jtis.bioprotectxs_4.8-2_iphoneos-arm.deb
+Size: 598556
+MD5sum: ae3f3d1a34450d3eceadc260a96f8f5f
+SHA1: 81e6eba315f6ff3a9b86beb2111c87af8c5ec40f
+SHA256: 4b7c2d7f9770b4d02ea9a09eb51e4190dc672bbc4debd0825e7edd181f694320
+SHA512: 0774934a5123a666202fa0a23defefe64219a8ee84948bc9e95d39de55cc07688c5dd644d212c8424622daf2e1fbc1eceb48a06156e93a3989fcf89ed7d95aff
+Description: Bảo vệ ứng dụng của bạn bằng Touch/Face ID!
+Name: BioProtect XS (iOS 12/16)
+Author: Elias Limneos <limneoselias@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/BioProtect.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BioProtect.json
+MainLibMD5: b22ceb543f0b4c1d6354ef7ad70f769b
+
 Package: com.jtis.blur
 Architecture: iphoneos-arm64
 Version: 1.0-8+debug
@@ -5109,6 +5130,25 @@ SHA512: 36b0e9006f9cfb89fed0d0a8db8dfb4e5aef0c590452bbf2a7ea503e1ae24b084cbaf127
 Description: Crack các tinh chỉnh của Limneos
 Name: Limneos Crack (Roothide)
 Author: CBZ
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.limneos
+Architecture: iphoneos-arm
+Version: 3.1-1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: org.mr.unsubs
+Filename: ./debs/com.jtis.limneos_3.1-1_iphoneos-arm.deb
+Size: 4868
+MD5sum: 5335fb5edf7909c98727ffbe15dbfdcd
+SHA1: f64003a5b58505b0c12900b475d5ad2e38a0b5d9
+SHA256: a10ee4b898eed23f965df8efba74dc14396321b5b31e0d3acf0628133d882bda
+SHA512: 44b267be0db14da7cb5ae870e84374e13fc162b6cf584f48ff75979dc26582ea12f953d86cb4ce0c434480c8100b89d8ba6c5ab0cb39ddb39014f635f59b5965
+Description: Kích hoạt tất cả các Tweak của Limneos by CBZ.
+Name: Limneos Crack All
+Author: Netskao
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.liquidglass
