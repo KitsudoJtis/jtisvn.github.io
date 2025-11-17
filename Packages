@@ -8757,6 +8757,25 @@ Author: opa334
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 
 Package: com.opa334.choicy
+Architecture: iphoneos-arm64e
+Version: 1.5-1
+Section: Tweaks
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 888
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader, com.kitsudo.choicy
+Filename: ./debs/com.opa334.choicy_1.5-1_iphoneos-arm64e.deb
+Size: 112072
+MD5sum: 3dd429ef4fcb411169efbe4f4bb1f0be
+SHA1: 14f5f69e52caeba76908a5bf35aa276c7f1f589b
+SHA256: ab5d9aba315d80e15b01f93254fd84351444862da3510ba8f3201b8ac956b911
+SHA512: 9a2e3e2ae398512f8b663db8ef8139576914ccefb3b5c6992260009167ba30613d0ec49927685720491b871de71fd9a36fae46ed580bfb782acad799bc67f28f
+Description: Advanced Tweak Configuration!
+Name: Choicy
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Author: opa334 <opa334@protonmail.com>
+Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fcydia.saurik.com%2Ficon%2Fcom.opa334.choicy.png&s=180x180&f=webp
+
+Package: com.opa334.choicy
 Architecture: iphoneos-arm64
 Version: 1.5.3-2
 Section: Ần Jailbreak
