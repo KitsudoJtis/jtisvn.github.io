@@ -9412,14 +9412,15 @@ Maintainer: Snail <mu514983786@gmail.com>
 Installed-Size: 924
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.snail.airdrop16.roothide_1.0.4_iphoneos-arm64e.deb
-Size: 191084
-MD5sum: 9fc12f2377f93ac4cb6c4c10ba61b875
-SHA1: 8693556abf4efa4087b5a416f8e7133d7100c059
-SHA256: 1f1d8cd0a439eb53f6ecb719cf137c05f7c04b2b436f451137fb60e1eb1b746e
-SHA512: 71a447918eeacfb538c83cf05f0743133e3188dd37484e4464d5f62e76f4336392c1176bc41e24ef6727860cc194efde7a383b981162c5e39c8eb87334cc23f2
+Size: 190956
+MD5sum: 5b27ed22d6a43806f6d2c8c27753b2df
+SHA1: edc7cbd3d11a65d255c4fdaabcabc48fb7adf455
+SHA256: 8d7885707993d861f0d8b9129111836a452d296f0a5c63dd35f01138b795baa4
+SHA512: 3a19c32d53386848f315fe0df0046195074e182352d2a3c9ff0ed2b87f47be1644d4df0d32281dbba6bc440aab00c7eef4b932e5b39de4aca3548df1d8d31694
 Description: Đặt giới hạn thời gian cho chế độ “Mọi người” của AirDrop, tương tự như trên iOS 16 nhưng linh hoạt hơn.
 Name: AirDrop16 (Roothide)
 Author: Snail <mu514983786@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/AirDrop16.png
 
 Package: com.spark.autounlockx
 Architecture: iphoneos-arm64
