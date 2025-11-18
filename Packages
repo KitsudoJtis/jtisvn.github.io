@@ -175,6 +175,46 @@ Sponsor: 搬运工
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Sileodepiction: https://jtisvn.github.io/sileodepictions/DockPixel.json
 
+Package: chaoge.ChargeLimiter
+Architecture: iphoneos-arm64e
+Version: 1.6
+Priority: optional
+Section: Applications
+Maintainer: chaoge
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Conflicts: chaoge.ChargeLimiter
+Filename: ./debs/chaoge.ChargeLimiter_1.6_iphoneos-arm64e.deb
+Size: 1991404
+MD5sum: bb4725df4aecaf056af72a5d2e1cffcc
+SHA1: c80356fa24be899d127251f6fc7066663a2b5ff8
+SHA256: a5f407f44b9946dda4d1d9a31d974120424c25a5d2d61a58e4725f089eb85d65
+SHA512: 7e9b19593849047720ff25bfe1cafe66d01a86b2459dba397709453f4d3cdfaa4f4a0fcb493efaf1f7b97e4099720d1f1f4cfe7f842f2be4295ef48cf68ba797
+Description: ChargeLimiter
+Name: ChargeLimiter (Roothide)
+SileoDepiction: https://havoc.app/package/chargelimiter/depiction.json
+Icon: https://jtisvn.github.io/sectionIcons/ChargeLimiter.png
+Author: chaoge
+
+Package: chaoge.ChargeLimiter
+Architecture: iphoneos-arm64
+Version: 1.7
+Priority: optional
+Section: Applications
+Maintainer: chaoge
+Depends: firmware (>= 5.0)
+Filename: ./debs/chaoge.ChargeLimiter_1.7_iphoneos-arm64.deb
+Size: 2014316
+MD5sum: e6c888d3e309942fbca2aaf6be1a0a7a
+SHA1: 22dc2deab6b014f0d218c40e15b6445488ed8b51
+SHA256: da928d7e48e48989738a337a87327afdbb7f67dff5c0dbfc6ddf7ce3c89b6a27
+SHA512: 3d5914e3118c69c9720ab98bad4f70f7ee15869820a2f8ee1f69b2eec72352bd6e81d647aa8609d0b15ea428fc27c5561de269690ce8b997f22eb86097262ceb
+Description: ChargeLimiter
+Name: ChargeLimiter (Rootless)
+SileoDepiction: https://havoc.app/package/chargelimiter/depiction.json
+Icon: https://jtisvn.github.io/sectionIcons/ChargeLimiter.png
+Author: chaoge
+
 Package: cn.llld.2playerbj
 Architecture: iphoneos-arm64
 Version: 1.0
