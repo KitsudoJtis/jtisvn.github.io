@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#33FF00",
+"tintColor":"#FF6600",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -9,19 +9,19 @@
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Widdy Unlock"
+"title":"Swiftgram Crack"
 },
 {
-"markdown":"\n\n- Kích hoạt một dố tính năng cho ứng dụng Widdy.",
+"markdown":"\n\n- Kích hoạt gói Pro cho ứng dụng Swiftgram\n\n- Hỗ trợ phiên bản mới nhất.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
-{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
+{ "class":"DepictionHeaderView", "title":"Ảnh chụ màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/WiddyUnlock/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/Swiftgramcrack/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -41,9 +41,9 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"Blatant"
+"text":"Netskao"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1-1" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -52,7 +52,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"9/11/2025"
+"text":"20/11/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -67,7 +67,7 @@
 "title":"Liên hệ Hỗ trợ",
 "action":"https://jtisvn.github.io/donate/donate.html",
 "openExternal":"true",
-"tintColor":"#33FF00"
+"tintColor":"#3366CC"
 },
 {
 "class":"DepictionTableButtonView",
