@@ -7211,42 +7211,42 @@ Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.swiftgramcrack
 Architecture: iphoneos-arm64
-Version: 1.1-1
-Section: Mở khoá ứng dụng
+Version: 1.1-2
+Section: Nở khoá úng dụng
 Maintainer: JTISVN Repo
 Installed-Size: 224
 Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/com.jtis.swiftgramcrack_1.1-1_iphoneos-arm64.deb
-Size: 49672
-MD5sum: 7869faab729a452311fdd458e6cbb897
-SHA1: e58e384097fe655c0d803af65d374efc5f0cd7b4
-SHA256: 908f4dd5b92376a8a761aefe53e3c07c98af7aadc00ad71a10fc1540c9bfa60b
-SHA512: 4eb792b3745f91316e2f20e0d2d045840e874871787d791d172bc4b0ae7f253336068c34e760c26d0524c37c4deb2e64f3fb5588bd10a215e63a6272a83e1b8d
+Filename: ./debs/com.jtis.swiftgramcrack_1.1-2_iphoneos-arm64.deb
+Size: 50144
+MD5sum: 46cd141433a217207d47f4eb4ebb255c
+SHA1: d102ab91495a882ff707adc3fb38572dc5c29756
+SHA256: 664e9de80c60d87b9eb418ef25f9d3c3579bc1a864c53ea69c9573cf6f1d5988
+SHA512: fddaa8b8d99bd7e8f8931aa4c7635094c4e88bf5b4bd7c171e0d6a70058b0d97b1e2a1360c4de0e96c54e99ec331281c0758dd1ce5712643b4e9d39be972c37f
 Description: Unlock Swiftgram Pro, Hỗ trợ phiên bản mới nhất
 Name: Swiftgram Crack
+Author: Netskao
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Swiftgramcrack.json
 Icon: https://jtisvn.github.io/sectionIcons/Swiftgramcrack.png
-Author: Netskao
 
 Package: com.jtis.swiftgramcrack
 Architecture: iphoneos-arm64e
-Version: 1.1-1
-Section: Mở khoá ứng dụng
+Version: 1.1-2
+Section: Nở khoá úng dụng
 Maintainer: JTISVN Repo
 Installed-Size: 224
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/com.jtis.swiftgramcrack_1.1-1_iphoneos-arm64e.deb
-Size: 78974
-MD5sum: 20152ba0075fe4a359fdbdaf1e807ae4
-SHA1: 46ba1fc609be00a5b0058de5d9f1641a5f71900f
-SHA256: a9b3c643df6c310b8047f230e4be8e1232c503c47bc5c329e9994a26fefd5dc9
-SHA512: 8deddb024e5229437df57d467a3bbbf3c6d9218e22ef805b1d77d5737f16de911d4de78047e985f940f509915b1179d8aaf5313d9f46d775fad6b1a7420472a5
+Filename: ./debs/com.jtis.swiftgramcrack_1.1-2_iphoneos-arm64e.deb
+Size: 79578
+MD5sum: ba3df01b7e90c4142a4b1e838ee4ae00
+SHA1: 96c496a7a47cac65fdc01f878abaef0ad4ca419f
+SHA256: 5ad55a022c2d7db3e02e7c93f7d026e4ff35bb4c2dae89c53d3273be17ed8a6f
+SHA512: c7c15d4b3683709258beb6b8d40f7759e6ab5f3854a91467eeeacac88dd87e1831440625c622ffb5efaa3557f97f1be01be80c979f86c99ab8925795c21ad134
 Description: Unlock Swiftgram Pro, Hỗ trợ phiên bản mới nhất
 Name: Swiftgram Crack
+Author: Netskao
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Swiftgramcrack.json
 Icon: https://jtisvn.github.io/sectionIcons/Swiftgramcrack.png
-Author: Netskao
 
 Package: com.jtis.switchtheme
 Architecture: iphoneos-arm64
