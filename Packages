@@ -3640,6 +3640,24 @@ Author: NoisyFlake、SINI
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/CozyBadges.json
 Icon: https://jtisvn.github.io/sectionIcons/CozyBadges.png
 
+Package: com.jtis.cracktool4ios1214
+Architecture: iphoneos-arm
+Version: 4.2
+Section: Utilities
+Maintainer: JTISVN Repo
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Conflicts: com.julioverne.cracktool4
+Filename: ./debs/com.jtis.cracktool4ios1214_4.2_iphoneos-arm.deb
+Size: 1955540
+MD5sum: ab967143df98e2ca9b499fb74c5daccd
+SHA1: 2dbdd3c30d7245c8e218fe85d95c27b5aec07a98
+SHA256: 103106fe56573a3ff198ec6fc812e48e91bafa88b373110d6ab94c43111abdec
+SHA512: 42d9c2b82889500ce78cee32d8dae099cf87e6380e5df42e589bae581c902455f9e2edd40b968c05ef509d16cd3af5d20d2540a8ccc284994619458ae7551101
+Description: Kích hoạt bản quyền!
+Name: CrackTool4
+Author: julioverne
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.customlpm
 Architecture: iphoneos-arm64e
 Version: 1.0.3
@@ -8766,6 +8784,24 @@ Description: Giải mã và xuất tép IPA các Ứng dụng iOS, hỗ trợ iO
 Name: DumpDecrypter (Roothide)
 Author: Netskao
 Icon: https://axs66.github.io/repo/icon/dumpdecrypter.png
+
+Package: com.netskao.pulloverpro
+Architecture: iphoneos-arm
+Version: 2.1.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
+Filename: ./debs/com.netskao.pulloverpro_2.1.1_iphoneos-arm.deb
+Size: 742020
+MD5sum: d5ee49995ae742779cc6a6b8de741a4b
+SHA1: 69f1c9da21728f1e7f5f1408319f5e6a50c9e841
+SHA256: 158da62a6629dd3591abd0455bab13ba6cd9e4ed33681692d7ac71aa0034740d
+SHA512: e9ab1a97bdcff458b4ce98e12f209349320453a0abd9db915bb7778192a0e91866638c6378f0f0abf2137d157bd098aa49e8ebbc589ba98a35647daddde501e7
+Description: Dễ dàng truỵ cập nhanh ứng dụng qua bong bóng chat ở cạnh màn hình.Tải xong vào cydia cài thêm gói Cracktool4 để crack!
+Name: PullOver Pro
+Author: c1d3r <c1d3rdev@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/PullOverPro.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverpro.json
 
 Package: com.netskao.pulloverpro
 Architecture: iphoneos-arm64
