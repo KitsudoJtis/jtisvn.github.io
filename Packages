@@ -1215,11 +1215,11 @@ Maintainer: JTISVN Repo
 Installed-Size: 472
 Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader
 Filename: ./debs/com.ichitaso.hideserialnumber_0.0.4_iphoneos-arm64.deb
-Size: 61776
-MD5sum: 1b15053389566066e464b9ebe8d55127
-SHA1: a1380dd32552b8a37d193bea389eb3e9fc10450f
-SHA256: fe0ed2378d4ec775ee52bde15aeed9e0164c596102b50fca5c4336aa8133f397
-SHA512: 68a59a5feef4097869fd2ab5d78a1390e39d63b2625cb5147dbe0f48aa56a087a5b194138689b39244b0506a4d2c27c476b3f4ce790e3e50f5f85c4fca300ea4
+Size: 54196
+MD5sum: 529eeee0d2a220d3775bda7cca903a07
+SHA1: ee197e9fe4ee46dcf4dea5cb1cf18555a6e6b634
+SHA256: 27961e9fc1577b8c66d4aab8cd232b3a138d607084a6521c157721e179361d5b
+SHA512: 63a69a901b02c3601801c736544d842971644236f3bf156bbae6c2b28341a4d8366b741f7a66b7153f4811167eccd2f1022366b764f9d16f41987c355c3545a6
 Homepage: https://jtisvn.github.io
 Description: Hide Serial Number in Settings About page.
 Tag: purpose::extension, compatible_min::ios12.2, compatible_max::ios17.1.2
@@ -1238,11 +1238,11 @@ Installed-Size: 472
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader
 Filename: ./debs/com.ichitaso.hideserialnumber_0.0.4_iphoneos-arm64e.deb
-Size: 60728
-MD5sum: 8adcdf69acb77bbf4c8c171309b46aea
-SHA1: 4522bf3a8b22b28bd609305d40cd837e7450530a
-SHA256: ca94dff984d943d73a42a6c891de148986b5337d06e40636ad338ab33b53ce11
-SHA512: 3a0db45536bda89c5af625dd348d26723260322a77f058b27c6ccdbb3ba1374c61121c849c9050184c2d87cd9e16ee1254cb387aafeb3fe432370a215fde7110
+Size: 54340
+MD5sum: 8ef734dcc985f5eb0346a0f599919274
+SHA1: 0e2d35bf2c791c10f787f7ca5beb5c3a8acfaa2c
+SHA256: 1466d237eabc82ecc8db59fe42dd203afb27065379cd53470cc9b993d01380c6
+SHA512: 5c99f30c94c01098489391005a5e1c2ef11d101e48f1064410793ba3fffaf3ac3f90d403657bd8beacd080187f120d9e7ff138ad17cfa39888ed57b589b9113c
 Homepage: https://jtisvn.github.io
 Description: Hide Serial Number in Settings About page.
 Tag: purpose::extension, compatible_min::ios12.2, compatible_max::ios17.1.2
