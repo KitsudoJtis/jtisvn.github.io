@@ -8769,6 +8769,47 @@ Icon: https://axs66.github.io/repo/icon/dumpdecrypter.png
 
 Package: com.netskao.pulloverpro
 Architecture: iphoneos-arm64
+Version: 2.1.5-3
+Section: Netskao-Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2440
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.kitsudo.pulloverpro
+Conflicts: com.c1d3r.pulloverpro
+Filename: ./debs/com.netskao.pulloverpro_2.1.5-3_iphoneos-arm64.deb
+Size: 707756
+MD5sum: 610dae12f0fcd9d7236bdd136c15cf39
+SHA1: f1341a787d82d013bb0d9a43b9256c1b2052c2b2
+SHA256: f3d143abed3c56c9264e501953f886e533f9a771e5e4f0eeacad37ec3fe95231
+SHA512: c776ace6e4305ba6d787a7b3c7830925623b6f47f072c1b077298ddfa701f521b970d8f8e3c1d79ebc2c11de780ac4ff9eacf03dbfeab1a65b0fc79387167dcd
+Description: A better way to multitask! Fix support for iOS15+
+Name: PullOver Pro (Roôtless)
+Author: c1d3r
+Icon: https://jtisvn.github.io/sectionIcons/PullOverPro.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverpro.json
+
+Package: com.netskao.pulloverpro
+Architecture: iphoneos-arm64e
+Version: 2.1.5-3
+Section: Netskao-Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2440
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.kitsudo.pulloverpro
+Conflicts: com.c1d3r.pulloverpro
+Filename: ./debs/com.netskao.pulloverpro_2.1.5-3_iphoneos-arm64e.deb
+Size: 708044
+MD5sum: c13ffd1f6cf42a118110dcd8a649e9fa
+SHA1: fdc6c514e91499270344c4f6b124e64ada14c265
+SHA256: 808685707c7db7607f4c93fcee1490e10ecbed4c9c56f573a9412f2da6ce9eb5
+SHA512: db6d58dc88f07bb4cf98e98e2cf12d6e0bb80d426029b9b5d5299bf3f311b2aef03158a0ff03a6783d1c90cd758de8e0b2e7d95f6a2f53f6bdbc09624f824fac
+Description: A better way to multitask! Fix support for iOS15+
+Name: PullOver Pro (Roothide)
+Author: c1d3r
+Icon: https://jtisvn.github.io/sectionIcons/PullOverPro.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverpro.json
+
+Package: com.netskao.pulloverpro
+Architecture: iphoneos-arm64
 Version: 2.1.6
 Section: Tweaks
 Maintainer: Nets
