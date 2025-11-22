@@ -8011,6 +8011,45 @@ Author: Brend0n <brendonjkding@126.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/VolumeMixer.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.volumemixer
+Architecture: iphoneos-arm64
+Version: 0.0.7~beta3
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 1016
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/com.jtis.volumemixer_0.0.7~beta3_iphoneos-arm64.deb
+Size: 176188
+MD5sum: 09ade88350a45b568bfb25300766e50d
+SHA1: 1ac8cab0b9fc0f17c6477834f5c9652d8c7adac8
+SHA256: 739d71ad5dc2abe5fb93a25a7244364767e7b411c30b28a76da61f863290285c
+SHA512: cd446e29a97123f0312237c0584473e8c0bdf79da6b1740c0e88cd795b295f7751bbf5090c1092960dd636d42a44b2ba58f1b53b63754fd8fe44a48603aa8b44
+Description: Điều khiển âm lượng cho từng ứng dụng
+Name: VolumeMixer (Roôtless)
+Author: Brend0n <brendonjkding@126.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VolumeMixer.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.volumemixer
+Architecture: iphoneos-arm64e
+Version: 0.0.7~beta3
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 1016
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/com.jtis.volumemixer_0.0.7~beta3_iphoneos-arm64e.deb
+Size: 173540
+MD5sum: e4fc6843f3947146f9f8376d4a377c96
+SHA1: 7a59b90d2cfc499bcc670fe04082a98edc973044
+SHA256: 0747e123ec05a85c094703d17d6dbbfc89b9dae8beee1a8d0bc451c47d347647
+SHA512: 596fa43ee89a5a312596a327b204bd4749f78a463234ae28d2ecb1e34719da014199b2722d5e92b2c870f05fac3dd47cee2deb3c08c3b6f69781d11793394de4
+Description: Điều khiển âm lượng cho từng ứng dụng
+Name: VolumeMixer (Roothide)
+Author: Brend0n <brendonjkding@126.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VolumeMixer.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.waktos2
 Architecture: iphoneos-arm64
 Version: 1.0.1

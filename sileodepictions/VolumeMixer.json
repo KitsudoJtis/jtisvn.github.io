@@ -83,7 +83,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "16/11/2025",
+"text": "22/11/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -101,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.0.7~beta2",
+"text": "0.0.7~beta3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -155,7 +155,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.0.7~beta2\n\n- Sửa lỗi\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 0.0.7~beta3\n\n- Sửa lỗi\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
