@@ -8850,14 +8850,14 @@ Version: 2.1.6
 Section: Tweaks
 Maintainer: Nets
 Installed-Size: 2440
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.kitsudo.pulloverpro
 Conflicts: com.c1d3r.pulloverpro
 Filename: ./debs/com.netskao.pulloverpro_2.1.6_iphoneos-arm64.deb
-Size: 696892
-MD5sum: 1fdbc8470b2641f2eb93b9b834c48a6a
-SHA1: ece6ac42ed3115619b35a331910fef6ac6096c02
-SHA256: 588c1ca6d94c37f405f64ea51af25a7f1cae7bf4dd08c74b3ba630abbf89715c
-SHA512: 5375f7865f25c6386e9b1f41af62a29c117b032b770bf59b9dbf1c421cd0436d812e65f4318f59c01b06a91d881d93c943164116f9bb6df4d1a77cc6de82cada
+Size: 696776
+MD5sum: 73ce5a391c0889a7083102011a17462b
+SHA1: fafe6546ccf9b10907e7746722c8d83cd84dc0e7
+SHA256: 1de14d3573283abc4abde99345e642b21f52ae7ef2f2ed45c8f0ea35f3b2a446
+SHA512: 8cd4a77cd69a3a9960d2eda4906d4137c6931983f09e7e0c8084aacb9cf90345522851043a2e65052dbb1307033f53d35f10a91d9bf92f44db0b7a18b5437df6
 Description: Dễ dàng truỵ cập nhanh ứng dụng qua bong bóng chat ở cạnh màn hình - Hồi trợ IOS15+
 Name: PullOver Pro (Rootless)
 Author: c1d3r
@@ -8871,14 +8871,14 @@ Section: Tweaks
 Maintainer: Nets
 Installed-Size: 2440
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: com.kitsudo.pulloverpro, firmware (>= 15.0), mobilesubstrate, preferenceloader
+Depends: com.kitsudo.pulloverpro, firmware (>= 15.0), mobilesubstrate, preferenceloader, com.kitsudo.pulloverpro
 Conflicts: com.c1d3r.pulloverpro
 Filename: ./debs/com.netskao.pulloverpro_2.1.6_iphoneos-arm64e.deb
-Size: 696916
-MD5sum: 28c40280475e560d7c81726d7ef9bd75
-SHA1: bd0e410f96a7b6d240e586e3e9d14ae65168fc22
-SHA256: dbc9832e0f98beab4ed237306890cbc568f8df432303d9682999e725de81566e
-SHA512: 50bae7d00b0894625259bf40e521492259a574f26b8253424e3c1da95aa782bf3c278b2b63a3a48696b82b29f9a30f7a65a55949e0b3bee7cd236adeea5d1908
+Size: 696000
+MD5sum: 7c3ca1fb40ca52e4459a7d8b49cbaf8a
+SHA1: f9e55a3132992ff3da05db2f1d12f501ce52f283
+SHA256: 2c7e2bc9a74fe394973888b762967aa735939f79201786d181cbc7667b2d4be9
+SHA512: a9a9056c6d4734915ea97036673baf8301805a519252cf01334fe63ee835cda037fc77ecd5e309cf184141c178373685cc149ff463e6b4b0b921e39e30290ce7
 Description: Dễ dàng truỵ cập nhanh ứng dụng qua bong bóng chat ở cạnh màn hình - Hồi trợ IOS15+
 Name: PullOver Pro (Roothide)
 Author: c1d3r
