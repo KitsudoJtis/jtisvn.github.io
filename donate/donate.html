@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-<body class="bg-gray-900 font-sans text-white min-h-screen" data-theme="dark">
+<body class="font-sans text-white min-h-screen" data-theme="dark">
     <div class="background-animation"></div>
     <canvas id="raindrop-effect"></canvas>
 
@@ -32,15 +32,18 @@
 
                 <img src="https://jtisvn.github.io/icons/avatar.webp" alt="Avatar" class="avatar">
                 <div class="flex flex-col items-center space-y-2 mt-4">
-                    <h1 class="text-4xl font-bold shimmering-text">REPO JTISVN</h1>
+                    <h1 class="text-4xl font-bold shimmering-text">JTISVN REPO</h1>
                 </div>
-                <p class="text-xl max-w-2xl mx-auto mt-2">Nhận mua hộ Tweak có phí của Havoc và niceOS<br>Ủng hộ cho tôi qua số tài khoản hoặc quét mã QR bên dưới<br> Lưu ý: Nhớ ghi rõ nội dung, mục đích khi thanh toán nha!</p>
+                <p class="text-xl max-w-2xl mx-auto mt-2" style="text-shadow: 0 2px 4px rgba(0,0,0,0.8);">
+                    Nhận mua hộ Tweak có phí của Havoc và niceOS<br>Hoặc ủng hộ qua số tài khoản & quét mã QR bên dưới<br> Lưu ý: Nhớ ghi rõ nội dung, mục đích khi thanh toán nha!
+                </p>
             </div>
 
             <div class="social-buttons-grid mt-8">
                 <a href="https://t.me/Kitsudo" class="social-button telegram-button"><i class="fab fa-telegram-plane"></i> <span>Liên hệ tôi qua Telegram</span></a>
                 <a href="https://www.facebook.com/hieu.kitsudo?locale=vi_VN" class="social-button facebook-button"><i class="fab fa-facebook-f"></i> <span>Liên hệ tôi qua Facebook</span></a>
             </div>
+
             <div class="payment-buttons-grid-vertical mt-8">
                 <div class="payment-item purple-gradient-bg">
                     <div class="payment-main-content">
@@ -53,9 +56,26 @@
                                     <i class="fas fa-copy"></i>
                                     <span class="ml-2">Sao chép</span>
                                 </button>
-                                </div>
+                            </div>
                         </div>
                         <img src="https://jtisvn.github.io/icons/qr.webp" alt="QR Code" class="payment-qr-code">
+                    </div>
+                </div>
+
+                <div class="payment-item purple-gradient-bg">
+                    <div class="payment-main-content">
+                        <div class="payment-info-block">
+                            <p class="bank-name">Ngân hàng TMCP Bản Việt (MoMo)</p>
+                            <p class="account-owner">Chủ TK: NGUYEN TRUNG HIEU</p>
+                            <div class="account-info-row">
+                                <p class="account-number" id="momo-account-number">Số TK:<br>99MM24041M46376294</p>
+                                <button class="copy-btn" onclick="copyToClipboard('momo-account-number', event)">
+                                    <i class="fas fa-copy"></i>
+                                    <span class="ml-2">Sao chép</span>
+                                </button>
+                            </div>
+                        </div>
+                        <img src="https://jtisvn.github.io/icons/qr2.webp" alt="QR Code" class="payment-qr-code">
                     </div>
                 </div>
             </div>
@@ -65,7 +85,7 @@
             </div>
             
             <div class="copyright-container">
-                <p>Copyright © 2025 By: KITSUDO - JTISVN. All rights reserved.</p>
+                <p>Copyright © 2025 - 2030 By: KITSUDO - JTISVN. All rights reserved.</p>
             </div>
         </main>
     </div>
@@ -76,6 +96,8 @@
         const body = document.body;
         const currentTheme = localStorage.getItem('theme') || 'dark';
 
+        // Set theme ban đầu
+        body.setAttribute('data-theme', currentTheme);
         if (currentTheme === 'light') {
             body.classList.add('light');
             themeIcon.classList.remove('fa-sun');
@@ -83,15 +105,18 @@
         }
 
         themeToggleBtn.addEventListener('click', () => {
-            body.classList.toggle('light');
-            if (body.classList.contains('light')) {
+            const isLight = body.classList.toggle('light');
+            const newTheme = isLight ? 'light' : 'dark';
+            
+            body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+
+            if (newTheme === 'light') {
                 themeIcon.classList.remove('fa-sun');
                 themeIcon.classList.add('fa-moon');
-                localStorage.setItem('theme', 'light');
             } else {
                 themeIcon.classList.remove('fa-moon');
                 themeIcon.classList.add('fa-sun');
-                localStorage.setItem('theme', 'dark');
             }
         });
 
@@ -159,14 +184,17 @@
                 this.y = y;
                 this.r = 0.5;
                 this.dr = 0.8;
+                this.opacity = 1;
+                this.dOpacity = -0.01;
             }
             update() {
                 this.r += this.dr;
+                this.opacity += this.dOpacity;
             }
             draw() {
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
-                ctx.strokeStyle = `rgba(137, 207, 240, 1)`;
+                ctx.strokeStyle = `rgba(137, 207, 240, ${this.opacity})`;
                 ctx.lineWidth = 1;
                 ctx.stroke();
             }
@@ -183,7 +211,7 @@
             for (let i = 0; i < drops.length; i++) {
                 drops[i].update();
                 drops[i].draw();
-                if (drops[i].r >= 100) {
+                if (drops[i].opacity <= 0) {
                     drops.splice(i, 1);
                     i--;
                 }
@@ -192,7 +220,7 @@
         };
 
         initCanvas();
-        animateDrops();
+        animateDrops(0);
     </script>
 </body>
 </html>

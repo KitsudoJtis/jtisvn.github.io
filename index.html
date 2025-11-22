@@ -9,6 +9,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        .copy-feedback {
+            color: #4ade80 !important;
+        }
+    </style>
 </head>
 <body class="bg-gray-900 font-sans text-white min-h-screen" data-theme="dark">
     <div class="background-animation"></div>
@@ -27,44 +32,70 @@
                 </div>
 
                 <img src="https://jtisvn.github.io/icons/avatar.webp" alt="Avatar" class="avatar">
+                
                 <div class="flex flex-col items-center space-y-2 mt-4">
-                    <h1 class="text-4xl font-bold text-animate-gradient">REPO JTISVN</h1>
+                    <h1 class="text-4xl font-bold text-animate-gradient">JTISVN REPO</h1>
+                    
+                    <div class="repo-box flex items-center gap-2 backdrop-blur-sm border rounded-full px-4 py-1.5 mt-2 transition-all">
+                        <span id="repo-link" class="repo-text font-mono text-sm select-all">https://jtisvn.github.io/</span>
+                        <button onclick="copyToClipboard()" class="copy-btn transition-colors p-1" title="Sao chép liên kết">
+                            <i id="copy-icon" class="fa-regular fa-copy"></i>
+                        </button>
+                    </div>
                 </div>
-                <p class="text-xl max-w-2xl mx-auto mt-2">
-                    Chào mừng bạn đến vời JTISVN<br>Một nơi thoả sức niềm đam mê, khám phá kho tàng tweaks đa dạng. ổn định mang đến sự khác biệt cho IPhoneIOS theo phong cách riêng của bạn<br>(Hỗ trợ Rootfull, Rootless & Roothide)
+
+                <p class="text-xl max-w-2xl mx-auto mt-4">
+                    Chào mừng bạn đến vời JTISVN<br>Một nơi thoả sức niềm đam mê, khám phá các tinh chỉnh việt hóa đa dạng, hữu ích mang đến trải mghiệm ổn định cho thiết bị iPhone/iPadIOS của bạn<br>(Hỗ trợ Rootfull, Rootless & Roothide)
                 </p>
             </div>
 
             <div class="social-buttons-grid mt-8">
-                <a href="cydia://source/https://jtisvn.github.io" class="social-button sileo-button" aria-label="Thêm repo vào Sileo"><i class="fa-solid fa-download"></i> <span>Thêm Vào Cydia</span></a>
-                 <a href="sileo://source/https://jtisvn.github.io" class="social-button sileo-button" aria-label="Thêm repo vào Sileo"><i class="fa-solid fa-download"></i> <span>Thêm Vào Sileo</span></a>
+                <a href="cydia://source/https://jtisvn.github.io" class="social-button sileo-button" aria-label="Thêm repo vào Cydia"><i class="fa-solid fa-download"></i> <span>Thêm Vào Cydia</span></a>
+                <a href="sileo://source/https://jtisvn.github.io" class="social-button sileo-button" aria-label="Thêm repo vào Sileo"><i class="fa-solid fa-download"></i> <span>Thêm Vào Sileo</span></a>
                 <a href="zbra://sources/https://jtisvn.github.io" class="social-button zebra-button" aria-label="Thêm repo vào Zebra"><i class="fa-solid fa-download"></i> <span>Thêm Vào Zebra</span></a>
                 <a href="https://vdns.io.vn/dot-Signed.mobileconfig" class="social-button zebra-button" aria-label="Cấu hình DNS chặn quảng cáo"><i class="fa-solid fa-shield-halved"></i> <span>DNS NoADS</span></a>
-            </div> <div class="copyright-container">
-                <p>Copyright © 2025 By: KITSUDO - JTISVN. All rights reserved.</p>
+            </div> 
+            
+            <div class="copyright-container mt-8 text-center text-gray-500 text-sm">
+                <p>Copyright © 2025 - 2030 By: KITSUDO - JTISVN. All rights reserved.</p>
             </div>
         </main>
     </div>
 
     <script>
-        function installWithTrollStore(ipaUrl) {
-            const encodedUrl = encodeURIComponent(ipaUrl);
-            const trollstoreLink = "apple-magnifier://install?url=" + encodedUrl;
-            window.location.href = trollstoreLink;
+        function copyToClipboard() {
+            const linkText = document.getElementById("repo-link").innerText;
+            const icon = document.getElementById("copy-icon");
+            
+            navigator.clipboard.writeText(linkText).then(() => {
+                // Đổi icon sang dấu tích xanh
+                icon.classList.remove("fa-copy", "fa-regular");
+                icon.classList.add("fa-check", "fa-solid", "copy-feedback");
+                
+                // Sau 2 giây đổi lại như cũ
+                setTimeout(() => {
+                    icon.classList.remove("fa-check", "fa-solid", "copy-feedback");
+                    icon.classList.add("fa-copy", "fa-regular");
+                }, 2000);
+            }).catch(err => {
+                console.error('Không thể sao chép: ', err);
+            });
         }
-
-        // Theme toggle script
+        
+        // --- Theme Toggle Logic ---
         const themeToggleBtn = document.getElementById('theme-toggle-btn');
         const themeIcon = document.getElementById('theme-icon');
         const body = document.body;
         const currentTheme = localStorage.getItem('theme') || 'dark';
 
+        // Set theme ban đầu
         if (currentTheme === 'light') {
             body.classList.add('light');
             themeIcon.classList.remove('fa-sun');
             themeIcon.classList.add('fa-moon');
         }
 
+        // Xử lý khi bấm nút đổi theme
         themeToggleBtn.addEventListener('click', () => {
             body.classList.toggle('light');
             if (body.classList.contains('light')) {
@@ -78,7 +109,7 @@
             }
         });
 
-        // Raindrop effect script
+        // --- Raindrop Effect Logic ---
         const canvas = document.getElementById('raindrop-effect');
         const ctx = canvas.getContext('2d');
         let width, height;

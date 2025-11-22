@@ -10,6 +10,8 @@
     --border-color: #374151; /* Màu đường viền */
     --shadow-color: rgba(0, 0, 0, 0.3); /* Màu bóng đổ */
     --accent-pink-purple: #c084fc; /* Màu tím hồng cho nút */
+    
+    --bg-image-url: url('https://jtisvn.github.io/coverimage/jtisvnrepo.png');
 }
 
 #theme-toggle-btn {
@@ -37,8 +39,9 @@ body.light {
     --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
+/* Style thẻ thanh toán (Light Mode) */
 body.light .payment-item {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
     backdrop-filter: blur(10px);
@@ -56,20 +59,41 @@ body.light .account-number {
     color: var(--text-primary);
 }
 
-
-body.light .background-animation {
-    background: linear-gradient(
-        135deg,
-        var(--accent-color),
-        var(--bg-main) 50%,
-        var(--bg-main)
-    );
-    background-size: 400% 400%;
-    animation: gradientShift 15s ease infinite;
+/* --- CẤU HÌNH BACKGROUND ANIME --- */
+.background-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-main); /* Nền dự phòng */
+    
+    /* Thiết lập ảnh nền từ biến */
+    background-image: var(--bg-image-url);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
     z-index: -2;
-    opacity: 0.7;
 }
 
+/* Lớp phủ màu TỐI cho chế độ Dark Mode (mặc định) */
+.background-animation::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(10, 14, 26, 0.85); /* Đen mờ 85% để chữ nổi */
+    transition: background 0.5s ease;
+}
+
+/* Lớp phủ màu SÁNG cho chế độ Light Mode */
+body.light .background-animation::after {
+    background: rgba(255, 255, 255, 0.6); /* Trắng mờ 60% */
+    backdrop-filter: blur(3px); /* Làm mờ nhẹ ảnh nền */
+}
+
+/* CSS CŨ */
 body.light .nav-container {
     background-color: #e9ecef;
     border: 1px solid #ced4da;
@@ -94,14 +118,6 @@ body.light .social-button:hover {
     box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
 }
 
-body.light .tweak-item {
-    background-color: rgba(255, 255, 255, 0.7);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-}
-
 body.light .bg-bg-card {
     background-color: #ffffff;
     color: var(--text-primary);
@@ -114,37 +130,6 @@ body.light input::placeholder {
 
 body.light .copyright-container p {
     color: #495057;
-}
-
-.background-animation {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-        135deg,
-        var(--accent-color),
-        var(--bg-main) 50%,
-        var(--bg-main)
-    );
-    background-size: 400% 400%;
-    animation: gradientShift 15s ease infinite;
-    z-index: -2;
-    opacity: 0.7;
-    transition: background 0.5s ease, opacity 0.5s ease;
-}
-
-@keyframes gradientShift {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
 }
 
 body {
@@ -179,7 +164,8 @@ p.max-w-2xl {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1a1e2f;
+    background-color: rgba(26, 30, 47, 0.8); /* Thêm trong suốt */
+    backdrop-filter: blur(10px);
     border-radius: 9999px;
     padding: 0.3rem;
     margin-bottom: 2rem;
@@ -267,7 +253,8 @@ body.light #theme-toggle-btn:active {
     align-items: center;
     justify-content: center;
     padding: 0.6rem 1.2rem;
-    background-color: #1a1e2f;
+    background-color: rgba(26, 30, 47, 0.8); /* Thêm trong suốt */
+    backdrop-filter: blur(5px);
     border-radius: 9999px;
     color: var(--text-secondary);
     font-weight: 600;
@@ -303,6 +290,7 @@ body.light #theme-toggle-btn:active {
     margin-right: auto;
 }
 
+/* Style cho thẻ thanh toán */
 .payment-item {
     position: relative;
     display: flex;
@@ -311,12 +299,14 @@ body.light #theme-toggle-btn:active {
     border-radius: 20px;
     color: var(--text-primary);
     text-decoration: none;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.5s ease, border-color 0.5s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
     box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
     text-align: left;
     overflow: hidden;
-    background-color: rgba(30, 41, 59, 0.1);
+    
+    /* Kính mờ để nhìn xuyên thấu ảnh nền */
+    background-color: rgba(30, 41, 59, 0.7);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -422,9 +412,6 @@ body.light #theme-toggle-btn:active {
 /* Responsive */
 @media (max-width: 768px) {
     .nav-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         width: 100%;
         margin: 1rem auto;
         padding-left: 0.5rem;
@@ -517,6 +504,7 @@ body.light #theme-toggle-btn:active {
     color: var(--text-secondary);
     opacity: 0.8;
     font-size: 0.9rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
 .thank-you-message {
@@ -525,10 +513,10 @@ body.light #theme-toggle-btn:active {
     color: var(--text-secondary);
     opacity: 0.9;
     transition: color 0.5s ease;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
-/* ▼▼▼ PHẦN ĐƯỢC CẬP NHẬT ▼▼▼ */
-/* Hiệu ứng màu chữ mới cho REPO JTISVN (Sáng xanh - trắng) */
+/* Hiệu ứng màu chữ REPO JTISVN */
 .shimmering-text {
     background-image: linear-gradient(
         -75deg,
@@ -541,10 +529,52 @@ body.light #theme-toggle-btn:active {
     -webkit-background-clip: text;
     background-clip: text;
     animation: shimmer 5s linear infinite;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
 }
 
 @keyframes shimmer {
     to {
         background-position: 200% center;
     }
+}
+
+/* --- SEARCH BAR STYLING (Để dùng chung cho page.html) --- */
+#ipa-search-input {
+    width: 100%;
+    padding: 0.8rem 1rem 0.8rem 3rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(26, 30, 47, 0.8);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#ipa-search-input:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 10px rgba(137, 207, 240, 0.5);
+}
+
+.search-icon {
+    position: absolute;
+    left: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-secondary);
+    pointer-events: none;
+}
+
+/* Search bar for Light Mode */
+body.light #ipa-search-input {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ced4da;
+    color: #333;
+}
+
+body.light #ipa-search-input:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.3);
 }

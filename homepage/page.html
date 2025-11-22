@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>✪ kho lưu trữ IPA JTISVN ✪</title>
+    <title>✪ Kho Lưu Trữ IPA JTISVN ✪</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="icon" href="https://raw.githubusercontent.com/jtisvn/jtisvn.github.io/master/icons/favicon.ico" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -13,22 +13,24 @@
     <style>
         /* Hiệu ứng hover cho link nguồn */
         .new-item p a {
-            color: #89cff0; /* Màu xanh da trời mặc định */
-            text-decoration: none; /* Bỏ gạch chân mặc định */
-            transition: color 0.3s ease; /* Hiệu ứng chuyển màu mượt mà */
+            color: #89cff0;
+            text-decoration: none;
+            transition: color 0.3s ease;
         }
 
         .new-item p a:hover {
-            color: #add8e6; /* Chuyển sang màu xanh nhạt hơn khi di chuột qua */
-            text-decoration: underline; /* Thêm gạch chân khi di chuột qua */
+            color: #add8e6;
+            text-decoration: underline;
         }
 
         /* Chỉnh màu tiêu đề "Kho IPA" cho các chế độ */
         #kho-ipa-heading {
-            color: white; /* Màu mặc định (chế độ tối) */
+            color: white;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
         }
         body.light #kho-ipa-heading {
-            color: black; /* Đổi thành màu đen ở chế độ sáng */
+            color: black;
+            text-shadow: none;
         }
     </style>
 </head>
@@ -50,10 +52,10 @@
 
                 <img src="https://jtisvn.github.io/icons/avatar.webp" alt="Avatar" class="avatar">
                 <div class="flex flex-col items-center space-y-2 mt-4">
-                    <h1 class="text-4xl font-bold shimmering-text">REPO JTISVN</h1>
+                    <h1 class="text-4xl font-bold shimmering-text">JTISVN REPO</h1>
                 </div>
-                <p class="text-xl max-w-2xl mx-auto mt-2">
-                    Xin chào<br>Trang này là nơi chia sẻ kho lưu trữ các công cụ ký IPA và công cụ Jailbreak tốt nhất để tối ưu hóa trái nhiệm IPhone/IPad của ban.<br>Nhớ theo dõi các kênh mạng xã hội bên dưới để cập nhật thông tin nhé!
+                <p class="text-xl max-w-2xl mx-auto mt-2" style="text-shadow: 0 2px 4px rgba(0,0,0,0.8);">
+                    Xin chào<br>Trang này là nơi chia sẻ kho lưu trữ các công cụ ký IPA và công cụ Jailbreak tốt nhất để tối ưu hóa trải nghiệm IPhone/IPad của bạn.<br>Nhớ theo dõi các kênh mạng xã hội bên dưới để cập nhật thông tin nhé!
                 </p>
             </div>
 
@@ -64,44 +66,65 @@
                 <a href="https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP" class="social-button facebook-button"><i class="fab fa-facebook"></i> <span>Nhóm Facebook</span></a>
             </div>
 
+            <div class="search-container mt-8 max-w-2xl mx-auto px-4">
+                <div class="search-wrapper relative">
+                    <input type="text" id="ipa-search-input" placeholder="Tìm kiếm IPA, công cụ..." autocomplete="off">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+            </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-                <div class="new-item">
+                <div class="new-item p-4 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-all duration-300">
                     <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <div>
-                            <h2 class="text-xl font-semibold text-center">Chặn cập nhật IOS</h2>
-                            <p class="text-gray-300 text-left"><b>Mô tả</b>:<br>- Cấu hình chặn cập nhật iOS là tệp .mobileconfig cài trên thiết bị iOS để ngăn tải hoặc cài bản cập nhật mới từ Apple<br><b>Hướng dẫn</b>:<br>- Tải xuống và cho phép cài về cấu hình<br> - Mở cài đặt - Vào cài đặt chung<br> - Quản lý VPN DNS & thiết bị<br>- Tiến hành cài đặt cầu hình</p>
+                    <div class="flex flex-row items-start gap-4 mb-4">
+                        <img src="https://jtisvn.github.io/icons/ota.webp" alt="OTA Icon" class="w-16 h-16 rounded-xl object-cover flex-shrink-0 shadow-lg">
+                        
+                        <div class="text-left">
+                            <h2 class="text-lg font-bold text-white leading-tight mb-1">Chặn cập nhật IOS</h2>
+                            <div class="text-xs text-gray-300 space-y-1">
+                                <p><b class="text-cyan-400">Mô tả:</b> Cấu hình chặn iOS tự động tải về bản cập nhật mới.</p>
+                                <p><b class="text-cyan-400">Hướng dẫn:</b> Tải về -> Cài đặt chung -> Quản lý VPN & Thiết bị -> Cài đặt cấu hình.</p>
+                            </div>
                         </div>
                     </div>
-                    <a href="https://cydia.ichitaso.com/no-ota18.mobileconfig" class="install-button">
+                    <a href="https://cydia.ichitaso.com/no-ota18.mobileconfig" class="install-button text-sm py-2">
                         <i class="fas fa-download mr-2"></i>
                         <span>Tải OTA</span>
                     </a>
                 </div>
 
-                <div class="new-item">
+                <div class="new-item p-4 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-all duration-300">
                     <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <div>
-                            <h2 class="text-xl font-semibold text-center">Trollstore bản Việt Hóa</h2>
-                            <p class="text-gray-300 text-left"><b>Mô tả</b>:<br>- Là phiên bản Trollstore cải tiến do pháp sư Trung hoa phát triển, File đã được biên dịch Việt Hóa đầy đủ gần như 100%<br><b>Hướng dẫn</b>:<br>- Tải xuống file tar cho phép chia sẻ qua Trollstore để cài dặt<br>- Mở ứng dụng Trollstore - Settings<br>- Chọn ngôn ngữ tiếng Việt</p>
+                    <div class="flex flex-row items-start gap-4 mb-4">
+                        <img src="https://jtisvn.github.io/icons/trollstore.webp" alt="TrollStore Icon" class="w-16 h-16 rounded-xl object-cover flex-shrink-0 shadow-lg">
+                        
+                        <div class="text-left">
+                            <h2 class="text-lg font-bold text-white leading-tight mb-1">Trollstore Việt Hóa</h2>
+                            <div class="text-xs text-gray-300 space-y-1">
+                                <p><b class="text-cyan-400">Mô tả:</b> Bản mod Trollstore Tiếng Việt, ổn định, do pháp sư Trung hoa phát triển</p>
+                                <p><b class="text-cyan-400">Hướng dẫn:</b> Tải file .tar -> Mở TrollStore -> Settings -> Chọn ngôn ngữ Tiếng Việt.</p>
+                            </div>
                         </div>
                     </div>
-                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/TrollStore_2.1_iosdumpremod.tar" class="install-button">
+                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/TrollStore_2.1_iosdumpremod.tar" class="install-button text-sm py-2">
                         <i class="fas fa-download mr-2"></i>
                         <span>Tải Tar</span>
                     </a>
                 </div>
 
-                <div class="new-item">
+                <div class="new-item p-4 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-all duration-300">
                     <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <div>
-                            <h2 class="text-xl font-semibold text-center">Esign+ bản Trollstore</h2>
-                            <p class="text-gray-300 text-left"><b>Mô tả</b>:<br>-Như cái tên, là phiên bản khác của Esign chỉ dành cho Trollstore giúp ký IPA vĩnh viễn mà không cần dùng đến chứng chỉ<br><b>Hướng dẫn</b>:<br>- Tải xuống IPA cho phép chia sẻ qua Trollstore để cài dặt - Mở Jetsign - installEsign+ - thêm vào ứng dụng Sách - Chọm dòng 3 thêm file Esign tar</p>
+                    <div class="flex flex-row items-start gap-4 mb-4">
+                        <img src="https://jtisvn.github.io/icons/esign.webp" alt="Esign Icon" class="w-16 h-16 rounded-xl object-cover flex-shrink-0 shadow-lg">
+                        
+                        <div class="text-left">
+                            <h2 class="text-lg font-bold text-white leading-tight mb-1">Esign+ (Trollstore)</h2>
+                            <div class="text-xs text-gray-300 space-y-1">
+                                <p><b class="text-cyan-400">Mô tả:</b> Ký IPA vĩnh viễn không cần chứng chỉ (yêu cầu TrollStore).</p>
+                                <p><b class="text-cyan-400">Hướng dẫn:</b> Tải IPA -> Mở jetsign -> Install -> thêm vào ứng dụng Sách -> Chọm dòng 3 thêm Esign tar.</p>
+                            </div>
                         </div>
                     </div>
-                    <a href="https://app.mediafire.com/folder/t0nebgmtmtisp" class="install-button">
+                    <a href="https://app.mediafire.com/folder/t0nebgmtmtisp" class="install-button text-sm py-2">
                         <i class="fas fa-download mr-2"></i>
                         <span>Tải IPA</span>
                     </a>
@@ -207,9 +230,8 @@
             </div>
         <div class="text-center">
             <h2 id="kho-ipa-heading" class="text-3xl font-bold mt-12 mb-2">Kho IPA</h2>
-            <p class="text-lg text-gray-400 mb-8">Dưới đây là các tệp IPA ứng dụng tương thích với thiết bị IOS Trollstore và Jailbreak</p>
+            <p class="text-lg text-gray-400 mb-8" style="text-shadow: 0 1px 3px rgba(0,0,0,0.8);">Dưới đây là các tệp IPA ứng dụng tương thích với thiết bị IOS Trollstore và Jailbreak</p>
         </div>
-
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="new-item">
                 <div class="highlight-overlay"></div>
@@ -867,6 +889,70 @@
                     </a>
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
                 </div>
+                <div class="new-item">
+                    <div class="highlight-overlay"></div>
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/TrollFools3.webp" alt="TrollFools Icon" class="w-16 h-16 mr-4">
+                        <div>
+                            <h2 class="text-xl font-semibold">TrollFools</h2>
+                            <p class="text-gray-400">Phiên bản v4.2-227</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là Phiên bản TrollFools thứ 3 đước chỉnh sửa bởi iosdump.<br>Sử dụng “trollfools://open?bid=target app's package name” để thêm vào Phím tắt để truy cập nhanh vào trang quản lý plugin.
+                        2. Sử dụng “trollfools://enable-all” phiên bản gốc, số phiên bản để thêm vào Phím tắt để kích hoạt tất cả plugin chỉ bằng một cú nhấp chuột..<br>Tương thích: Thiết bị IOS có Trollstore</p>
+                    <p><b>Nguồn</b>: <a href="https://t.me/iosdumpzzz" target="_blank">Telegram</a></p>
+                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/TrollFools_4.2-227.tipa" class="install-button mt-2">
+                         <i class="fas fa-download mr-2"></i>
+                         <span>Tải IPA</span>
+                    </a>
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/TrollFools_4.2-227.tipa')" class="install-button mt-2">
+                        <i class="fa-solid fa-bolt mr-2"></i>
+                        <span>Cài qua TrollStore</span>
+                    </a>
+                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+                </div>
+                <div class="new-item">
+                    <div class="highlight-overlay"></div>
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/Geranium.webp" alt="Geranium Icon" class="w-16 h-16 mr-4">
+                        <div>
+                            <h2 class="text-xl font-semibold">Geranium</h2>
+                            <p class="text-gray-400">Phiên bản v1.1.3</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ cho phép Giả lập vị trí: Fake GPS toàn hệ thống, hỗ trợ lưu bookmark và import từ Apple Maps và Dọn dẹp hệ thống: Xóa Cache, file OTA và dữ liệu, giúp giải phóng dung lượng lớn. Quản lý Daemon Tắt các tiến trình chạy ngầm không cần thiết (HomeKit, OTA...) để tối ưu pin và hiệu năng và Gỡ bỏ mật mã Thời gian sử dụng (Screen Time/ByeTime).<br>Tương thích: Thiết bị IOS có Trollstore</p>
+                    <p><b>Nguồn</b>: <a href="https://github.com/c22dev/Geranium" target="_blank">GitHub</a></p>
+                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/Geranium.tipa" class="install-button mt-2">
+                         <i class="fas fa-download mr-2"></i>
+                         <span>Tải IPA</span>
+                    </a>
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/Geranium.tipa')" class="install-button mt-2">
+                        <i class="fa-solid fa-bolt mr-2"></i>
+                        <span>Cài qua TrollStore</span>
+                    </a>
+                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+                </div>
+                <div class="new-item">
+                    <div class="highlight-overlay"></div>
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/iOSCleanPro.webp" alt="iOSCleanPro Icon" class="w-16 h-16 mr-4">
+                        <div>
+                            <h2 class="text-xl font-semibold">iOSCleanPro</h2>
+                            <p class="text-gray-400">Phiên bản v1.5</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ Tái cấu trúc toàn bộ các phiên bản trước đây, đồng thời an toàn hơn, gần như không bị thoát đột ngột..<br>Đảm bảo chỉ dọn dẹp bộ nhớ đệm và tập tin tạm an toàn <br> Giúp giải phóng một số không gian bộ nhớ và dữ liệu hệ thống, phiên bản dành cho thiết bị hỗ trợ TrollStore<br>Tương thích: Thiết bị IOS có Trollstore</p>
+                    <p><b>Nguồn</b>: <a href="https://t.me/TheBallnow" target="_blank">Telegram</a></p>
+                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/iOSCleanPro1.5.ipa" class="install-button mt-2">
+                         <i class="fas fa-download mr-2"></i>
+                         <span>Tải IPA</span>
+                    </a>
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/iOSCleanPro1.5.ipa')" class="install-button mt-2">
+                        <i class="fa-solid fa-bolt mr-2"></i>
+                        <span>Cài qua TrollStore</span>
+                    </a>
+                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+                </div>
             </div>
     </div>
     
@@ -877,7 +963,7 @@
 </main>
 
 <div class="copyright-container">
-    <p>Copyright © 2025 By: KITSUDO - JTISVN. All rights reserved.</p>
+    <p>Copyright © 2025 - 2030 By: KITSUDO - JTISVN. All rights reserved.</p>
 </div>
     </div>
 
@@ -897,6 +983,31 @@
             // 3. Thực hiện chuyển hướng đến link TrollStore
             window.location.href = trollstoreLink;
         }
+
+        // --- TÍNH NĂNG TÌM KIẾM IPA (LIVE SEARCH) ---
+        const searchInput = document.getElementById('ipa-search-input');
+        const items = document.querySelectorAll('.new-item');
+
+        searchInput.addEventListener('input', (e) => {
+            // Lấy từ khóa và chuyển về chữ thường
+            const filter = e.target.value.toLowerCase();
+
+            items.forEach(item => {
+                // Tìm thẻ h2 chứa tên IPA trong item đó
+                const titleElement = item.querySelector('h2');
+                
+                if (titleElement) {
+                    const text = titleElement.innerText.toLowerCase();
+                    // Nếu tên chứa từ khóa thì hiện, không thì ẩn
+                    if (text.includes(filter)) {
+                        item.style.display = ''; // Reset về mặc định
+                    } else {
+                        item.style.display = 'none'; // Ẩn đi
+                    }
+                }
+            });
+        });
+        // -------------------------------------------
 
         // Theme toggle script
         const themeToggleBtn = document.getElementById('theme-toggle-btn');

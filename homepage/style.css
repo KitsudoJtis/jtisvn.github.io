@@ -10,6 +10,8 @@
     --border-color: #374151; /* Màu đường viền */
     --shadow-color: rgba(0, 0, 0, 0.3); /* Màu bóng đổ */
     --accent-pink-purple: #c084fc; /* Màu tím hồng cho nút */
+  
+    --bg-image-url: url('https://jtisvn.github.io/coverimage/jtisvnrepo.png');
 }
 
 #theme-toggle-btn {
@@ -40,24 +42,45 @@ body.light {
 body.light .bank-name,
 body.light .account-owner,
 body.light .account-number,
-body.light .new-item h2 { /* Thêm màu cho tiêu đề ở chế độ sáng */
+body.light .new-item h2 { 
     color: #212529;
 }
 
-
-body.light .background-animation {
-    background: linear-gradient(
-        135deg,
-        var(--accent-color),
-        var(--bg-main) 50%,
-        var(--bg-main)
-    );
-    background-size: 400% 400%;
-    animation: gradientShift 15s ease infinite;
+/* --- CẤU HÌNH BACKGROUND ANIME --- */
+.background-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-main); /* Nền dự phòng */
+    
+    /* Thiết lập ảnh nền từ biến */
+    background-image: var(--bg-image-url);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
     z-index: -2;
-    opacity: 0.7;
 }
 
+/* Lớp phủ màu TỐI cho chế độ Dark Mode (mặc định) */
+.background-animation::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(10, 14, 26, 0.85); /* Đen mờ 85% để chữ nổi */
+    transition: background 0.5s ease;
+}
+
+/* Lớp phủ màu SÁNG cho chế độ Light Mode */
+body.light .background-animation::after {
+    background: rgba(255, 255, 255, 0.6); /* Trắng mờ 60% */
+    backdrop-filter: blur(3px); /* Làm mờ nhẹ ảnh nền */
+}
+
+/* CSS CŨ (Nav, Buttons, Cards...) */
 body.light .nav-container {
     background-color: #e9ecef;
     border: 1px solid #ced4da;
@@ -96,31 +119,6 @@ body.light .copyright-container p {
     color: #495057;
 }
 
-.background-animation {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-        135deg,
-        var(--accent-color),
-        var(--bg-main) 50%,
-        var(--bg-main)
-    );
-    background-size: 400% 400%;
-    animation: gradientShift 15s ease infinite;
-    z-index: -2;
-    opacity: 0.7;
-    transition: background 0.5s ease, opacity 0.5s ease;
-}
-
-@keyframes gradientShift {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background-color: var(--bg-main);
@@ -153,7 +151,8 @@ p.max-w-2xl {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1a1e2f;
+    background-color: rgba(26, 30, 47, 0.8); /* Thêm trong suốt */
+    backdrop-filter: blur(10px);
     border-radius: 9999px;
     padding: 0.3rem;
     margin-bottom: 2rem;
@@ -241,7 +240,8 @@ body.light #theme-toggle-btn:active {
     align-items: center;
     justify-content: center;
     padding: 0.6rem 1.2rem;
-    background-color: #1a1e2f;
+    background-color: rgba(26, 30, 47, 0.8); /* Thêm trong suốt */
+    backdrop-filter: blur(5px);
     border-radius: 9999px;
     color: var(--text-secondary);
     font-weight: 600;
@@ -265,18 +265,19 @@ body.light #theme-toggle-btn:active {
     transform: scale(1.05);
 }
 
-/* Sửa đổi khu vực này */
+/* Thẻ item mới */
 .new-item {
     padding: 1.5rem;
     border-radius: 20px;
     color: var(--text-primary);
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.5s ease, border-color 0.5s ease;
     box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
-    background-color: var(--bg-card);
+    background-color: rgba(24, 32, 51, 0.8); /* Nền mờ để nhìn thấy ảnh anime */
+    backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     width: 100%;
-    position: relative; /* Thêm để định vị lớp phủ */
-    overflow: hidden; /* Thêm để ẩn phần hiệu ứng thừa */
+    position: relative;
+    overflow: hidden;
 }
 
 .new-item:hover {
@@ -285,7 +286,7 @@ body.light #theme-toggle-btn:active {
 }
 
 body.light .new-item {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6); /* Tăng độ trong suốt cho light mode */
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
     backdrop-filter: blur(10px);
@@ -321,7 +322,7 @@ body.light .new-item:hover {
 body.light .install-button {
     color: #000000;
     border: 1px solid #000000;
-    background-color: #e9ecef;
+    background-color: rgba(233, 236, 239, 0.8);
 }
 
 body.light .install-button:hover {
@@ -377,6 +378,7 @@ body.light .install-button:hover {
     color: var(--text-secondary);
     opacity: 0.8;
     font-size: 0.9rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Thêm bóng chữ cho footer */
 }
 
 body.light .new-item p {
@@ -386,9 +388,10 @@ body.light .new-item p {
 /* Lời cảm ơn */
 .thank-you-message {
     font-size: 1.1rem;
-    font-weight: 600; /* Làm đậm chữ */
-    color: var(--text-secondary); /* Tự động đổi màu theo biến của theme */
+    font-weight: 600;
+    color: var(--text-secondary);
     opacity: 0.9;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
 /* Hiệu ứng ánh sáng quét qua */
@@ -424,17 +427,15 @@ body.light .highlight-overlay {
 
 /* Bo tròn icon ứng dụng trong các ô */
 .new-item .flex img {
-    border-radius: 16px; /* Tạo góc bo tròn, bạn có thể điều chỉnh giá trị này */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Thêm bóng đổ nhẹ để tạo chiều sâu */
-    transition: transform 0.3s ease-in-out; /* Thêm hiệu ứng chuyển động mượt mà */
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
 }
 
-/* Thêm hiệu ứng phóng to nhẹ khi di chuột qua để tăng tương tác */
 .new-item:hover .flex img {
     transform: scale(1.08);
 }
 
-/* ▼▼▼ PHẦN ĐƯỢC THÊM VÀO ▼▼▼ */
 /* Hiệu ứng màu chữ cho REPO JTISVN */
 .shimmering-text {
     background-image: linear-gradient(
@@ -448,10 +449,52 @@ body.light .highlight-overlay {
     -webkit-background-clip: text;
     background-clip: text;
     animation: shimmer 5s linear infinite;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5)); /* Thêm bóng đổ cho chữ tiêu đề */
 }
 
 @keyframes shimmer {
     to {
         background-position: 200% center;
     }
+}
+
+/* --- SEARCH BAR STYLING --- */
+#ipa-search-input {
+    width: 100%;
+    padding: 0.8rem 1rem 0.8rem 3rem; /* Padding trái chừa chỗ cho icon */
+    border-radius: 9999px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(26, 30, 47, 0.8);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#ipa-search-input:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 10px rgba(137, 207, 240, 0.5);
+}
+
+.search-icon {
+    position: absolute;
+    left: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-secondary);
+    pointer-events: none; /* Icon không cản trở click vào input */
+}
+
+/* Search bar for Light Mode */
+body.light #ipa-search-input {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ced4da;
+    color: #333;
+}
+
+body.light #ipa-search-input:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.3);
 }
