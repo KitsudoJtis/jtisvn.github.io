@@ -579,6 +579,25 @@ Author: Simon <qiaozhani000@163.com>
 Icon: https://axs66.github.io/repo/icon/llswitch.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Swich.json
 
+Package: com.bandarhl.bhtwitter
+Architecture: iphoneos-arm64
+Version: 4.4-1
+Section: Tweaks
+Maintainer: Bandar Alruwaili
+Installed-Size: 19120
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/com.bandarhl.bhtwitter_4.4-1_iphoneos-arm64.deb
+Size: 7051432
+MD5sum: 4678fc21db82a6bffe8e94ffe463b407
+SHA1: a1608b3fc7d5e1f42294d098e894f9aae82389fd
+SHA256: 939e45a7c9da50c97800e3bc236b1f49be821e3b036ead28e2a2ee0f22a26298
+SHA512: ef7fc7c16e149ed7f078ab6579692e3fd0b334a585ce876fbb8699e5085ecb8a710a00dc5b81b28ea7ac30c7286c13bcf14ffa1d1e2d249adf76007fd70f9cf5
+Description: Awesome tweak for Twitter
+Name: BHTwitter (Rootless)
+Author: Bandar Alruwaili
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BHTwitter.json
+Icon: https://jtisvn.github.io/sectionIcons/BHTwitter.png
+
 Package: com.boo.libscribble
 Architecture: iphoneos-arm64
 Version: 1.0.0
