@@ -581,37 +581,35 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Swich.json
 
 Package: com.bandarhl.bhtwitter
 Architecture: iphoneos-arm64
-Version: 4.4-1
+Version: 4.4.1
 Section: Tweaks
 Maintainer: Bandar Alruwaili
-Installed-Size: 19120
 Depends: mobilesubstrate, ws.hbang.common
-Filename: ./debs/com.bandarhl.bhtwitter_4.4-1_iphoneos-arm64.deb
-Size: 7051432
-MD5sum: 4678fc21db82a6bffe8e94ffe463b407
-SHA1: a1608b3fc7d5e1f42294d098e894f9aae82389fd
-SHA256: 939e45a7c9da50c97800e3bc236b1f49be821e3b036ead28e2a2ee0f22a26298
-SHA512: ef7fc7c16e149ed7f078ab6579692e3fd0b334a585ce876fbb8699e5085ecb8a710a00dc5b81b28ea7ac30c7286c13bcf14ffa1d1e2d249adf76007fd70f9cf5
+Filename: ./debs/com.bandarhl.bhtwitter_4.4.1_iphoneos-arm64.deb
+Size: 6715648
+MD5sum: 0fb81394237c287985d84ed7f0fe373e
+SHA1: a40a0f11d5a7661c225f52a599018577b8d984d2
+SHA256: 07dbab688fca44c59e2c5ce51c51cf0f71bfd6774c712431ded9c0054db4f802
+SHA512: 35d6d7b39c25cab4016d9c75f9b2402104806df43ba8c81ffeaf16dd734a3ebfa761a1be86bfa8927058213fe957e910a67591d7623138526e66fe1f278ccc38
 Description: Awesome tweak for Twitter
-Name: BHTwitter (Rootless)
+Name: BHTwitter
 Author: Bandar Alruwaili
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BHTwitter.json
 Icon: https://jtisvn.github.io/sectionIcons/BHTwitter.png
 
 Package: com.bandarhl.bhtwitter
 Architecture: iphoneos-arm64e
-Version: 4.4-1
+Version: 4.4.1
 Section: Tweaks
 Maintainer: Bandar Alruwaili
-Installed-Size: 19120
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, ws.hbang.common
-Filename: ./debs/com.bandarhl.bhtwitter_4.4-1_iphoneos-arm64e.deb
-Size: 6955424
-MD5sum: a4ab1bb908e67d403a7380313542100a
-SHA1: 965a8c9e94791a2be1e7bb431a9f440a1dd20b71
-SHA256: ee2ce69e79b79026487f760e4a72d09167975858064ad4505782aec018704b8d
-SHA512: 5a74a60193cd5f708ddff2d5f1a41a96fc406d6f97bc27c3810ed2cd0252e0ca0a38538c24415a7511160ac6678fd6d5643421a800b1372eaf822985a5a33ede
+Filename: ./debs/com.bandarhl.bhtwitter_4.4.1_iphoneos-arm64e.deb
+Size: 6623148
+MD5sum: 1b9e491f6c31a5c5173c6acab5212f14
+SHA1: 766a69aa14e43a56d3a79a8e5a3a8493591fc727
+SHA256: 37cdd581e385a92e98e40bb1d3bec79e39b7ce151f4a47cb60f8f4b58b52dbae
+SHA512: 9fb016adc73f3475ce70ec8b4dc4c1f305b681516948c3e12de1ec023b02b4878133b4d7be2b4221e2497db6057435a683c13eaa6a27e67c45b459e9cccc36a8
 Description: Awesome tweak for Twitter
 Name: BHTwitter (Roothide)
 Author: Bandar Alruwaili
