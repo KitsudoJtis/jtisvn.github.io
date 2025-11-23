@@ -598,6 +598,26 @@ Author: Bandar Alruwaili
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BHTwitter.json
 Icon: https://jtisvn.github.io/sectionIcons/BHTwitter.png
 
+Package: com.bandarhl.bhtwitter
+Architecture: iphoneos-arm64e
+Version: 4.4-1
+Section: Tweaks
+Maintainer: Bandar Alruwaili
+Installed-Size: 19120
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/com.bandarhl.bhtwitter_4.4-1_iphoneos-arm64e.deb
+Size: 6955424
+MD5sum: a4ab1bb908e67d403a7380313542100a
+SHA1: 965a8c9e94791a2be1e7bb431a9f440a1dd20b71
+SHA256: ee2ce69e79b79026487f760e4a72d09167975858064ad4505782aec018704b8d
+SHA512: 5a74a60193cd5f708ddff2d5f1a41a96fc406d6f97bc27c3810ed2cd0252e0ca0a38538c24415a7511160ac6678fd6d5643421a800b1372eaf822985a5a33ede
+Description: Awesome tweak for Twitter
+Name: BHTwitter (Roothide)
+Author: Bandar Alruwaili
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BHTwitter.json
+Icon: https://jtisvn.github.io/sectionIcons/BHTwitter.png
+
 Package: com.boo.libscribble
 Architecture: iphoneos-arm64
 Version: 1.0.0
