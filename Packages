@@ -1580,45 +1580,6 @@ Author: Jonathan Winger-lang
 Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Snapper2.json
 
-Package: com.jtid.swiftgramcrack
-Architecture: iphoneos-arm64
-Version: 1.1-4
-Section: Mở khoá ứng dụng
-Maintainer: JTISVN Repo
-Installed-Size: 240
-Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/com.jtid.swiftgramcrack_1.1-4_iphoneos-arm64.deb
-Size: 60172
-MD5sum: a629130ea012a362002bedb47d9cc828
-SHA1: c15f49def945e2b2709cc7600a52f47404036ca7
-SHA256: 227bf845a1eb690ae638d4e56d8f0ba4eeb4ce2c94f9c767eb36ef106f009e38
-SHA512: c79a0df61fa3d7a033e1bca1948efad33aa9dd5ee873fad78b71d637fea1f400f3a608d3d3465efc76ce8b96a3410f262c97ee558da12a80f0410e774050b9b6
-Description: Unlock Swiftgram Pro, Hỗ trợ phiên bản mới nhất
-Name: Swiftgram Crack
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Swiftgramcrack.json
-Icon: https://jtisvn.github.io/sectionIcons/Swiftgramcrack.png
-Author: Netskao
-
-Package: com.jtid.swiftgramcrack
-Architecture: iphoneos-arm64e
-Version: 1.1-4
-Section: Mở khoá ứng dụng
-Maintainer: JTISVN Repo
-Installed-Size: 240
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/com.jtid.swiftgramcrack_1.1-4_iphoneos-arm64e.deb
-Size: 93386
-MD5sum: fbe1f3f37e892b4a2987c9280ef84067
-SHA1: dfa944f6633a549942532176ec059d96cc19117c
-SHA256: bbc9ab1d69f9aaae9ff2a09f39544da638d00cb991e6e5e248a7d584e607d1ec
-SHA512: e925516c9a6104fcedbb56dc1eaf3de8a44010495fd279f983ab36ca4468b80b5535e742c91dbca7311ce1a414e017491abdecf171797ed01cdc556e29b58c52
-Description: Unlock Swiftgram Pro, Hỗ trợ phiên bản mới nhất
-Name: Swiftgram Crack
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Swiftgramcrack.json
-Icon: https://jtisvn.github.io/sectionIcons/Swiftgramcrack.png
-Author: Netskao
-
 Package: com.jtis.Barmoji
 Architecture: iphoneos-arm64
 Version: 2023.3.3
