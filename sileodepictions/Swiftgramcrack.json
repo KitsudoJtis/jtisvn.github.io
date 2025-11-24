@@ -43,7 +43,7 @@
 "title":"Tác giả",
 "text":"Netskao"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1-4" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1-5" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -52,7 +52,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"22/11/2025"
+"text":"24/11/2025"
 },
 {
 "class":"DepictionTableTextView",

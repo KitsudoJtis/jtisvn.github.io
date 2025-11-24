@@ -616,51 +616,6 @@ Author: Bandar Alruwaili
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BHTwitter.json
 Icon: https://jtisvn.github.io/sectionIcons/BHTwitter.png
 
-Package: com.bienvannhat.appdatamanager
-Architecture: iphoneos-arm64
-Version: 1.8.2-5
-Priority: optional
-Section: Utilities
-Maintainer: TIGI Software
-Installed-Size: 9121
-Depends: firmware (>= 7.0), ldid
-Filename: ./debs/com.bienvannhat.appdatamanager_1.8.2-5_iphoneos-arm64.deb
-Size: 2523180
-MD5sum: 6c48b94743bdfe3e097fb3e0e7fd8a22
-SHA1: ecbfa12f86da0cfbc6a9d15fd8eb1eb5f4b10d88
-SHA256: b4b6cb87465111cc9a382c6f163e11b33abf40fc7ccc5857a4e9307164601844
-SHA512: 02ad91c4dbf42c494227aa1e520df00293c3ae29d8d0e03f6076066c68fec4d7479506055744752da3095b150dbe82234a77306278d7cc2fb4db0cfe5a4e7b4b
-Description: Công cụ quản lý Dữ Liệu, SAO LƯU, KHÔI PHỤC cho các Ứng dụng đã cài đặt
-Tag: purpose::uikit
-Name: Apps Manager (Rootless)
-SileoDepiction: https://jtisvn.github.io/sileodepictions/AppsManager.json
-Icon: https://jtisvn.github.io/sectionIcons/AppsManager.png
-Author: TIGI Software <satashi2009@gmail.com>
-dev: satashi2009
-
-Package: com.bienvannhat.appdatamanager
-Architecture: iphoneos-arm64e
-Version: 1.8.2-5
-Priority: optional
-Section: Utilities
-Maintainer: TIGI Software
-Installed-Size: 9121
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 7.0), ldid
-Filename: ./debs/com.bienvannhat.appdatamanager_1.8.2-5_iphoneos-arm64e.deb
-Size: 2480808
-MD5sum: ffab5d4161769a0ec11ad14de1e97210
-SHA1: e8ba7fb7a80543ab7692d3a93525281e1fcb9595
-SHA256: 86dd47a39caa9274610c0cbb0b09c539e60650155fdd8ee2ab00091ea4b463a4
-SHA512: 8381800df294e185889532613626924c49b769d85b9ae7b6de5e16ad20be57b6b61833e85036b0339dd41151796abb65e914c3ae9947b5f59be86e389467cef4
-Description: Công cụ quản lý Dữ Liệu, SAO LƯU, KHÔI PHỤC cho các Ứng dụng đã cài đặt
-Tag: purpose::uikit
-Name: Apps Manager (Roothide)
-SileoDepiction: https://jtisvn.github.io/sileodepictions/AppsManager.json
-Icon: https://jtisvn.github.io/sectionIcons/AppsManager.png
-Author: TIGI Software <satashi2009@gmail.com>
-dev: satashi2009
-
 Package: com.boo.libscribble
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -2256,6 +2211,51 @@ Depiction: http://bvnsupport.github.io/infodeb/Html/AdGuard.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AdGuard.json
 Icon: https://jtisvn.github.io/sectionIcons/AdGuard.png
 
+Package: com.jtis.aemulo
+Architecture: iphoneos-arm64
+Version: 1.2.5
+Section: Tweaks
+Maintainer: Amy While <support@anamy.gay>
+Installed-Size: 2224
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Conflicts: com.amywhile.aemulotrial
+Filename: ./debs/com.jtis.aemulo_1.2.5_iphoneos-arm64.deb
+Size: 626256
+MD5sum: e5d1f811f7325ac4d8a94a2018d55e42
+SHA1: a61ba43102fc9bad769af19afa33e6b6edb6f4c7
+SHA256: 4e4cc61b6e4bf3ca20109ad219bac56b7f3829a0c2a837b3a21823d4a14f34d1
+SHA512: 5ba3bc14f9b52f1123afb529c328d43b85e55d1377243b40dd2b76061beed10ef2b4427abd5c6b71aacd82a175cba5d1abd1753339844de297ccfe798e6418f4
+Description: NFC Frickery
+Name: Aemulo (Rootless)
+Author: Amy While <support@anamy.gay>
+Depiction:
+Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
+Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
+Icon: https://jtisvn.github.io/sectionIcons/Aemulo.png
+
+Package: com.jtis.aemulo
+Architecture: iphoneos-arm64e
+Version: 1.2.5
+Section: Tweaks
+Maintainer: Amy While <support@anamy.gay>
+Installed-Size: 2224
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Conflicts: com.amywhile.aemulotrial
+Filename: ./debs/com.jtis.aemulo_1.2.5_iphoneos-arm64e.deb
+Size: 618612
+MD5sum: f954ea59112c110e4b800c4fa645a867
+SHA1: b347743cd22dc54dd7480206ab06a6c4529e49bc
+SHA256: 2942fe075bb6865455ebae4265a97987d799e19527bb8cc2bc6dfd112fa859c8
+SHA512: 2991ec97d8f62dbd6d36f4a7064c0e20c53d44f5e7dd6a4aad00d07f0dbaa5b0b8628751c6dbd77987ec1556b63b79045b93ec2147a1e86864d2105b70ce6cf5
+Description: NFC Frickery
+Name: Aemulo (Roothide)
+Author: Amy While <support@anamy.gay>
+Depiction:
+Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
+Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
+Icon: https://jtisvn.github.io/sectionIcons/Aemulo.png
+
 Package: com.jtis.aimpro
 Architecture: iphoneos-arm
 Version: 1.1.3K
@@ -2373,6 +2373,51 @@ Name: Ampere (Roothide)
 Author: MTAC
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Ampere.json
 Icon: https://jtisvn.github.io/sectionIcons/Ampere.png
+
+Package: com.jtis.appdatamanager
+Architecture: iphoneos-arm64
+Version: 1.8.2-5
+Priority: optional
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 9121
+Depends: firmware (>= 7.0), ldid
+Filename: ./debs/com.jtis.appdatamanager_1.8.2-5_iphoneos-arm64.deb
+Size: 2523804
+MD5sum: 17361c492792740871918332b661a013
+SHA1: 43bba3a967d20262ad8de046a76380bd72055e40
+SHA256: 09964d2b173efef21fe0273cc7dc808fef0640f46734507af8b29ea18ed504c6
+SHA512: 91b1d769f84be4bba4f10f2818c019a04f8a483a59e28475379f6ee0a002f6b57755c92bba13f46152d26aceff7120077a54679ca392cddbec0f1252385c5f87
+Description: Công cụ quản lý Dữ Liệu, SAO LƯU, KHÔI PHỤC cho các Ứng dụng đã cài đặt
+Tag: purpose::uikit
+Name: Apps Manager (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppsManager.json
+Icon: https://jtisvn.github.io/sectionIcons/AppsManager.png
+Author: TIGI Software <satashi2009@gmail.com>
+dev: satashi2009
+
+Package: com.jtis.appdatamanager
+Architecture: iphoneos-arm64e
+Version: 1.8.2-5
+Priority: optional
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 9121
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 7.0), ldid
+Filename: ./debs/com.jtis.appdatamanager_1.8.2-5_iphoneos-arm64e.deb
+Size: 2482432
+MD5sum: bdb9547adc1863a3fe16132866eb9b48
+SHA1: 0c8a36ac2532dfe8d9eb46f7a3f6c80182637293
+SHA256: 79a2c7dafad096e0063ed62c07179369d0fc63b0416878228d28f9ba5782e531
+SHA512: fcaadf1ab87222cc456a56d2fd8b7062cb323d0774cd1b5cccd29e9330ed8398a43d766344e0f0ff3fe9985eea2f2d07bd3007fd2a45698771ee44ba75b243c4
+Description: Công cụ quản lý Dữ Liệu, SAO LƯU, KHÔI PHỤC cho các Ứng dụng đã cài đặt
+Tag: purpose::uikit
+Name: Apps Manager (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppsManager.json
+Icon: https://jtisvn.github.io/sectionIcons/AppsManager.png
+Author: TIGI Software <satashi2009@gmail.com>
+dev: satashi2009
 
 Package: com.jtis.appdataplus
 Architecture: iphoneos-arm64e
@@ -7347,6 +7392,45 @@ Name: SugarCane 13/14/15/16 (Roothide)
 Author: iOS Creatix, kasiimh1, p2kdev
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SugarCare.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.swiftgramcrack
+Architecture: iphoneos-arm64
+Version: 1.1-5
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 256
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.jtis.swiftgramcrack_1.1-5_iphoneos-arm64.deb
+Size: 69960
+MD5sum: a5a59aa8c282050c48d5c69e84e6df66
+SHA1: f4504bc88f16688a97175d2791471ebddf8a0132
+SHA256: 942877a9331561831da2430d92c2814ef52b1a70df97c1f1d75f5e7ed5fa49bb
+SHA512: 0865ce09d287fa33a62962310eb17de1e7c467dd3de60f098fcf718f9074face33a2d93afdf0915d25044c9ae63f0052e3495e2bc79d7e33d46f724db245353b
+Description: Unlock Swiftgram Pro, Hỗ trợ phiên bản mới nhất
+Name: Swiftgram Crack
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Swiftgramcrack.json
+Icon: https://jtisvn.github.io/sectionIcons/Swiftgramcrack.png
+Author: Netskao
+
+Package: com.jtis.swiftgramcrack
+Architecture: iphoneos-arm64e
+Version: 1.1-5
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 256
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.jtis.swiftgramcrack_1.1-5_iphoneos-arm64e.deb
+Size: 107326
+MD5sum: b023638e969ec84ff0bff5b83bf97962
+SHA1: 3396b4f0a2762eab606cb46ec96e62f663827efa
+SHA256: 89f3dc8d269d61be05e8a6c8041362f4ee0ed38975f548c78a37768f7ffdddcd
+SHA512: b9d26cbe89867873e1e43c9536cb3bbbaef50283a2498f1b91327ba2a287b8ff62556c3973c6caaaef22c370af0045a8e21e916363ee111e28bcc2d4f9003675
+Description: Unlock Swiftgram Pro, Hỗ trợ phiên bản mới nhất
+Name: Swiftgram Crack
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Swiftgramcrack.json
+Icon: https://jtisvn.github.io/sectionIcons/Swiftgramcrack.png
+Author: Netskao
 
 Package: com.jtis.switchtheme
 Architecture: iphoneos-arm64
