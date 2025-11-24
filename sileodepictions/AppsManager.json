@@ -1,7 +1,7 @@
 {
 "minVersion":"0.4",
-"headerImage":"https://jtisvn.github.io/coverimage/BHTwitter.png",
-"tintColor":"#577788",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#CC33FF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -10,19 +10,15 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/BHTwitter/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/AppsManager/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/BHTwitter/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/AppsManager/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/BHTwitter/Screenshots/3.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/BHTwitter/Screenshots/4.png",
+"url":"https://jtisvn.github.io/infodeb/AppsManager/Screenshots/3.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -30,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"BHTwitter\n\n- Bộ công cụ tối ưu hóa Twitter đa năng\n\n- Tải xuống video (ngay cả từ các tài khoản riêng tư).\n\n- Tùy chỉnh thanh điều hướng (Tab bar) theo sở thích cá nhân.\n\n- Chế độ không lưu lịch sử để tăng cường quyền riêng tư.\n\n- Tùy chọn ẩn các Tweet theo chủ đề (Topics).\n\n- Tắt lớp phụ đề trên video.\n\n- Khóa ứng dụng (Padlock) để bảo mật hơn.\n\n- Tính năng tùy chỉnh phông chữ.\n\n- Bật/tắt giao diện tìm kiếm Tin nhắn (DM) mới.\n\n- Tự động tải ảnh ở chất lượng cao nhất.\n\n- Tính năng hoàn tác (Undo) Tweet.\n\n- Hỗ trợ đổi giao diện chủ đề (tương tự Twitter Blue).\n\n- Tùy chỉnh biểu tượng ứng dụng.\n\n- Hỗ trợ tính năng Vòng tròn Twitter (Circle).\n\n- Sao chép thông tin hồ sơ một cách dễ dàng.\n\n- Lưu Tweet dưới dạng hình ảnh.\n\n- Ẩn thanh Spaces.\n\n- Tắt bố cục phải-sang-trái (RTL).\n\n- Luôn mở liên kết bằng Safari.\n\n- Dịch tiểu sử (Bio) người dùng.\n\n- Tắt kiểu hiển thị Tweet tràn viền mới.\n\n- Bật Tweet giọng nói và tin nhắn thoại trong DM.\n\n- Ẩn các Tweet được quảng cáo khỏi dòng thời gian.\n\n- Cảnh báo xác nhận trước khi đăng Tweet.\n\n- Cảnh báo xác nhận trước khi Thích.\n\n- Cảnh báo xác nhận trước khi Theo dõi.\n\n- Tích hợp sẵn công cụ gỡ lỗi FLEX.",
+"markdown":"AppsManager\n\n- Công cụ quản lý ứng dụng cho iOS\n\n- Hỗ trợ sao lưu và khôi phục\n\n- Vii lòng kích hoạt bản quyên để sử dụng.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -65,7 +61,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Bandar Alruwaili",
+"text": "TIGI Software",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -91,7 +87,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "19/5/2025",
+"text": "9/1/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -109,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "4.4.1",
+"text": "1.8.2-5",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -122,7 +118,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15.7 MB",
+"text": "3.7 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -135,7 +131,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15.0 - 18.0",
+"text": "11.0 - 15+",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -163,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 4.4.1\n\n- Sửa một số lối\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"

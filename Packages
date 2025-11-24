@@ -616,6 +616,51 @@ Author: Bandar Alruwaili
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BHTwitter.json
 Icon: https://jtisvn.github.io/sectionIcons/BHTwitter.png
 
+Package: com.bienvannhat.appdatamanager
+Architecture: iphoneos-arm64
+Version: 1.8.2-5
+Priority: optional
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 9121
+Depends: firmware (>= 7.0), ldid
+Filename: ./debs/com.bienvannhat.appdatamanager_1.8.2-5_iphoneos-arm64.deb
+Size: 2523180
+MD5sum: 6c48b94743bdfe3e097fb3e0e7fd8a22
+SHA1: ecbfa12f86da0cfbc6a9d15fd8eb1eb5f4b10d88
+SHA256: b4b6cb87465111cc9a382c6f163e11b33abf40fc7ccc5857a4e9307164601844
+SHA512: 02ad91c4dbf42c494227aa1e520df00293c3ae29d8d0e03f6076066c68fec4d7479506055744752da3095b150dbe82234a77306278d7cc2fb4db0cfe5a4e7b4b
+Description: Công cụ quản lý Dữ Liệu, SAO LƯU, KHÔI PHỤC cho các Ứng dụng đã cài đặt
+Tag: purpose::uikit
+Name: Apps Manager (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppsManager.json
+Icon: https://jtisvn.github.io/sectionIcons/AppsManager.png
+Author: TIGI Software <satashi2009@gmail.com>
+dev: satashi2009
+
+Package: com.bienvannhat.appdatamanager
+Architecture: iphoneos-arm64e
+Version: 1.8.2-5
+Priority: optional
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 9121
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 7.0), ldid
+Filename: ./debs/com.bienvannhat.appdatamanager_1.8.2-5_iphoneos-arm64e.deb
+Size: 2480808
+MD5sum: ffab5d4161769a0ec11ad14de1e97210
+SHA1: e8ba7fb7a80543ab7692d3a93525281e1fcb9595
+SHA256: 86dd47a39caa9274610c0cbb0b09c539e60650155fdd8ee2ab00091ea4b463a4
+SHA512: 8381800df294e185889532613626924c49b769d85b9ae7b6de5e16ad20be57b6b61833e85036b0339dd41151796abb65e914c3ae9947b5f59be86e389467cef4
+Description: Công cụ quản lý Dữ Liệu, SAO LƯU, KHÔI PHỤC cho các Ứng dụng đã cài đặt
+Tag: purpose::uikit
+Name: Apps Manager (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppsManager.json
+Icon: https://jtisvn.github.io/sectionIcons/AppsManager.png
+Author: TIGI Software <satashi2009@gmail.com>
+dev: satashi2009
+
 Package: com.boo.libscribble
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -8567,6 +8612,25 @@ Name: Hammer It (Roothide)
 Author: lclrc(SquidForce)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HammerIt.json
 Icon: https://jtisvn.github.io/sectionIcons/HammerIt.png
+
+Package: com.leftyfl1p.carbridge13
+Architecture: iphoneos-arm
+Version: 2.0.15K
+Section: Tweaks
+Maintainer: leftyfl1p <carbridge@havoc.app>
+Installed-Size: 7156
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.16), com.spark.libsparkapplist (>= 1.0.9), com.opa334.altlist (>= 1.0.10)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Filename: ./debs/com.leftyfl1p.carbridge13_2.0.15K_iphoneos-arm.deb
+Size: 404736
+MD5sum: bb16eeab80b830ff8e4b3ad694e7990e
+SHA1: bf55760a4e7e98968edfcd940a106644bf9b8e15
+SHA256: b3631c894221c69695b51f2e4b1bc6c1bf62f23b822c22756486e4d566a8392a
+SHA512: eb4e5112568e663421c0a3e4d6d4537f56c9eb1409196fa3de487af72a718d9f25f57d63e9afb83792c8793a496dbb068b257b3ddba467a851682d9742dfbfc7
+Description: Mở bất kỳ ứng dụng nào trong CarPlay!
+Icon: https://media.havoc.app/6393d4ecfb3fac29d26b9143
+Name: CarBridge
+Author: leftyfl1p <carbridge@havoc.app>
 
 Package: com.matchstic.xenhtml
 Architecture: iphoneos-arm
