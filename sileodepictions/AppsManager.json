@@ -26,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"AppsManager\n\n- Công cụ quản lý ứng dụng cho iOS\n\n- Hỗ trợ sao lưu và khôi phục\n\n- Vii lòng kích hoạt bản quyên để sử dụng.",
+"markdown":"AppsManager\n\n- Công cụ quản lý ứng dụng cho iOS\n\n- Hỗ trợ sao lưu và khôi phục\n\n- Vui lòng kích hoạt bản quyên để sử dụng.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

@@ -826,6 +826,43 @@ Author: dvntm
 Icon: https://jtisvn.github.io/sectionIcons/YTLite.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/YTLite.json
 
+Package: com.evynw.fontcenter14
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Filename: ./debs/com.evynw.fontcenter14_1.1_iphoneos-arm64.deb
+Size: 8006096
+MD5sum: ef733cae755d189ec46f2e7d38c049cf
+SHA1: bf449784a4b27c0e92b1e7acc0fd33007110fdac
+SHA256: eb443081fcba049a704ade25928a691caa0088e32dab39338312888c461902ac
+SHA512: 1c22eec26ea37e2e80374dc205bc9be2d83b426d4d81de49d1b0c94d9fafb9d64dea2cc818917372f7bd5300ae42f8dee4ae010d309c9a84e4fd4e896d8f291a
+Description: Grotesque style sans. 100% size. For iOS14-16.
+Name: Center (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontcenter14
+SileoDepiction: https://evynw.github.io/sileo/fontcenter14.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
+Package: com.evynw.fontcenter14
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.evynw.fontcenter14_1.1_iphoneos-arm64e.deb
+Size: 27968458
+MD5sum: 78c41c965f0dede5f607ea9bc1d45f7f
+SHA1: b1967db3f29525ff883d52607513ff8edd4947a0
+SHA256: 09563b8ade7eff22c5a4727d07365672cf36c789fa49df206f17a08006d3a082
+SHA512: 7d0c050c9c5af48fa3661db3d3e647161d3d4429e7cbee71bce0e49ae70613ac047d603c9b0c220ce0ceeb1cfe1b21152e80dd31858b48676bb6442ceb581958
+Description: Grotesque style sans. 100% size. For iOS14-16.
+Name: Center (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontcenter14
+SileoDepiction: https://evynw.github.io/sileo/fontcenter14.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
 Package: com.exile90.icleanerpro
 Architecture: iphoneos-arm64
 Version: 7.10.0
