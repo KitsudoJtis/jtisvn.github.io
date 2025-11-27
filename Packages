@@ -155,6 +155,49 @@ Author: Ayden Panhuyzen
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Ultrasound.json
 Icon: https://jtisvn.github.io/sectionIcons/Ultrasound.png
 
+Package: applist
+Architecture: iphoneos-arm64
+Version: 1.5.16
+Section: System
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: ./debs/applist_1.5.16_iphoneos-arm64.deb
+Size: 58768
+MD5sum: 7bbe8b81aae32a6b3c3418e6c8c9a93d
+SHA1: f36baaaaf6bffa073c615b012244f3999db45530
+SHA256: 3b16b4fd60eaf7faa25def59cba7792b6fa41006f7149ff820d4dc56415d16c4
+SHA512: fa2043f6485eb8495539d0ef6657212230afb6fe5ee0c9ad24361dbdfff42e543f8c196cd829d0493394d55cc634523b68bf4f1f6dac9973e321884bc05ac74b
+Description: Allow extensions to read the list of installed apps
+Name: AppList
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+
+Package: applist
+Architecture: iphoneos-arm64e
+Version: 1.5.16
+Section: System
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Installed-Size: 780
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: ./debs/applist_1.5.16_iphoneos-arm64e.deb
+Size: 80176
+MD5sum: 32753e7e5be6378acb7ad21773b5fedf
+SHA1: 91cda7c4b916fc7a0451e42581d85ea0a5a48da9
+SHA256: f9484a4e47a25d3280f99160415cf037158d61d504b2007a10be99edc10c1375
+SHA512: a8999f80f9ff5c7d8d6e24349357bf8c77bb5997f2d4957b8c55feba3cbd0484eb5242122f7b15df13925a76cc825c0e534161236300da3a2994e3faf4b8407f
+Description: Allow extensions to read the list of installed apps
+Name: AppList
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+
 Package: com.jtis.mobilemeadowreborn
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -350,6 +393,23 @@ Name: FilzaDirProbe (Roothide)
 Author: 0xkuj
 Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.filzadirprobe.png
 Sileodepiction: https://jtisvn.github.io/sileodepictions/FilzaDirProbe.json
+
+Package: com.0xkuj.installdpkg
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: System
+Maintainer: 0xkuj
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: dpkg
+Filename: ./debs/com.0xkuj.installdpkg_1.1_iphoneos-arm64e.deb
+Size: 1348
+MD5sum: ed72d1174e93d5a96776a4ccd13831ce
+SHA1: c26576c93b9997eebac9b5e42a2cd020a322eb17
+SHA256: ec48383a8c80b9896a5518caa9a3fa0285980bd11482a696b23477e5f5a271f0
+SHA512: ecec1bb15f21121824f3b231ce0db45aab84d26ffe4f9b6c9d52d8865a230b386418c2bdd01fcba1e7a4302955383d91b937f5f5018c3b4df83890ed94c9e576
+Description: Install deb files from Filza
+Name: Filza Deb Installer Script
+Author: 0xkuj
 
 Package: com.0xkuj.notificationsgroupcount
 Architecture: iphoneos-arm64
@@ -632,6 +692,53 @@ Description: Scribble gesture library
 Tag: role::developer
 Name: libScribble
 Author: Boo
+
+Package: com.cokepokes.libnotifications
+Architecture: iphoneos-arm64
+Version: 0.3-6-1+debug
+Priority: optional
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 376
+Depends: firmware (>= 8.0)
+Filename: ./debs/com.cokepokes.libnotifications_0.3-6-1+debug_iphoneos-arm64.deb
+Size: 15274
+MD5sum: e4d491a6b989681d5d6d88047efab0a3
+SHA1: f443c46ba47ca53a3df55ff46595c2bd2a2d43ef
+SHA256: 987516d85d8b64692eb9b155634d05fef690383df6352223637aabd9bf4edfe8
+SHA512: db5655d2983db4981ae24bfe4c708ddc22fd0013558dbfb49ea06a175eabbb1ac32ea2f205bc3ccb8186b515d71b0b0038a3284c7a6250de7dfc35eb5bd0fb83
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
+Description: App notification library.
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Name: libnotifications
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: CokePokes <cokepokes@gmail.com>
+dev: cokepokes
+
+Package: com.cokepokes.libnotifications
+Architecture: iphoneos-arm64e
+Version: 0.3-6-1+debug
+Priority: optional
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 376
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 8.0)
+Filename: ./debs/com.cokepokes.libnotifications_0.3-6-1+debug_iphoneos-arm64e.deb
+Size: 21590
+MD5sum: 94e00392ddc9e42a614a26b53f8e0932
+SHA1: 2914b117efc65770e76ee565a488062e32440349
+SHA256: 0c2a482c995288e5fbb4fff16b0df995f0b10c95f276cbe8c8c447ccc1cfcbba
+SHA512: da988a24b8181f2a3c463fff259db25d3bfbc85f95471fc23e107b2c07560dead93faf9a1e799673edc1b03cd5c924f7473e7189c8a72761b2dd58bba4b12242
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
+Description: App notification library.
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Name: libnotifications
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: CokePokes <cokepokes@gmail.com>
+dev: cokepokes
 
 Package: com.creaturecoding.libcspreferences
 Architecture: iphoneos-arm64e
@@ -8967,6 +9074,26 @@ Icon: https://media.havoc.app/6393d4ecfb3fac29d26b9143
 Name: CarBridge
 Author: leftyfl1p <carbridge@havoc.app>
 
+Package: com.m1337.varclean
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: System
+Maintainer: m1337
+Installed-Size: 876
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.m1337.varclean_1.1_iphoneos-arm64.deb
+Size: 721256
+MD5sum: d2877e312e6ae013a9b49b7fd59ccd55
+SHA1: 0b8f40cdbe95984baeaa9637ccd1c1fa941ceed1
+SHA256: de98204e1ed7467649bc4954899ecc54ca81cebdcafc06bc654ccec5e3dc2979
+SHA512: 82ca257b67362a54215caffd07d704db4ff881e5e669bb9449da125e4f75cb341a89e1d2890bd23bb0788628c1a7e87aa0c3afef20006211d8cfa3ddbd8adc77
+Description: varClean for Rootless
+Name: varClean
+Author: m1337
+Icon: https://github.com/roothide/RootHideManagerApp/blob/main/RootHide/Assets.xcassets/AppIcon.appiconset/icon-76.png?raw=true
+Depiction: https://github.com/roothide/RootHideManagerApp
+Support: https://github.com/roothide/RootHideManagerApp
+
 Package: com.matchstic.xenhtml
 Architecture: iphoneos-arm
 Version: 3.63~release
@@ -9489,6 +9616,61 @@ Depiction: https://opa334.github.io/depic/Choicy/index.html
 Author: opa334 <opa334@protonmail.com>
 Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fcydia.saurik.com%2Ficon%2Fcom.opa334.choicy.png&s=180x180&f=webp
 
+Package: com.opa334.libundirect
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Section: System
+Maintainer: opa334
+Installed-Size: 168
+Filename: ./debs/com.opa334.libundirect_1.1.6_iphoneos-arm64.deb
+Size: 7784
+MD5sum: 03ead59a9a00256e46db9deb82541baf
+SHA1: 0277416ba9951143e3189438d0998eb2fc4c7364
+SHA256: 13127fcea8e4e20202b18d63c521da7ac10b232186d7cc3e911d7539a8c8d0ce
+SHA512: 5aeb6ad1e24115ef1a7e9d020f2f182922460f3ba081fd56ffe2cd1bb33aeb2bf97954aa22e66f434ac6bfc2e3211920b3429e5771652f64261c6108b617d722
+Description: Patchfinder and rebinder for objc_direct methods
+Tag: role::developer
+Name: libundirect
+Author: opa334
+
+Package: com.opa334.libundirect
+Architecture: iphoneos-arm64e
+Version: 1.1.6
+Section: System
+Maintainer: opa334
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.opa334.libundirect_1.1.6_iphoneos-arm64e.deb
+Size: 9968
+MD5sum: eedc5a6489ae7adb72c1ebc543389b53
+SHA1: d85f4c10c4110af568f6363bcaa092af86883d8a
+SHA256: 6d80124088829cc13134d5052b6efd07a5e31b46ab217a5df24582dd0f23748f
+SHA512: e38a4d12cb4bed8708456f1c36bd7336c48c2caab7b5d7794dceb70f614b2b6240caa2258b2a7c775c85de68ac96ef2cbe77b8ff13ae00d46de782dd16e25943
+Description: Patchfinder and rebinder for objc_direct methods
+Tag: role::developer
+Name: libundirect
+Author: opa334
+
+Package: com.opa334.safariplussnakeoil
+Architecture: iphoneos-arm
+Version: 1.7.20-2
+Section: Tweaks
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 5500
+Depends: firmware (>=8.0), mobilesubstrate, preferenceloader, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.opa334.libundirect (>=1.1.3) | firmware (<<14.0)
+Filename: ./debs/com.opa334.safariplussnakeoil_1.7.20-2_iphoneos-arm.deb
+Size: 1180746
+MD5sum: 9c22bce925f2d0ba4ef2effae5a35d21
+SHA1: 3ceae7e8458a5331c5d2f81e840c91631e4cbfbd
+SHA256: 707455afe640d7e633585409079104698d7f4c5820d2dbd9994d2449104515cb
+SHA512: 6b395674c529c9c429ae20cf4fbb65ec71f64ce6d125bdcd8bd713c632b3574e45ee079ba9cdde95f691a66be5320af249ba198767fb9fc4d5854cf0659d3920
+Homepage: https://opa334.github.io/
+Description: Various enhancements to Safari!
+Name: Safari Plus (Cepheiless)
+Depiction: https://opa334.github.io/depic/SafariPlus/index.html
+Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
+Author: opa334 <opa334@protonmail.com>
+
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm64
 Version: 2.1
@@ -9525,6 +9707,46 @@ Name: TrollStore Helper
 Author: opa334
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollstoreHelper.json
 Icon: https://jtisvn.github.io/sectionIcons/TrollstoreHelper.png
+
+Package: com.opa334.whitepointmodule
+Architecture: iphoneos-arm64e
+Version: 1.2.2-1+debug
+Section: Control Center (Modules)
+Maintainer: opa334
+Installed-Size: 248
+Depends: mobilesubstrate, com.opa334.ccsupport, firmware (>= 11.0)
+Filename: ./debs/com.opa334.whitepointmodule_1.2.2-1+debug_iphoneos-arm64e.deb
+Size: 19056
+MD5sum: ec33c68c2d8744db582a92d9e51e2118
+SHA1: eb7d8bfd352b8223841f56671947701242d66aba
+SHA256: 2b42749b0fba4b2985bb7469bd75914a4345434d7b9464ec93dc4b56fb47217d
+SHA512: e5eaf9b321bb8241f0b44597b973dbbb38d0dee4714831a50885bffb8021aef85b32a78ee8a407f9393a95b7494ffa5e1a2b054bb01801edc1561bfc08bdd290
+Description: Reduce White Point from Control Center!
+Name: White Point Module
+Depiction: https://opa334.github.io/depic/WhitePointModule/index.html
+SileoDepiction: https://opa334.github.io/depic/WhitePointModule/sileo.json
+Icon: https://opa334.github.io/depic/WhitePointModule/Resources/icon.png
+Author: opa334
+
+Package: com.opa334.whitepointmodule
+Architecture: iphoneos-arm
+Version: 1.2.3
+Section: Control Center (Modules)
+Maintainer: opa334
+Installed-Size: 184
+Depends: mobilesubstrate, com.opa334.ccsupport, firmware (>= 11.0)
+Filename: ./debs/com.opa334.whitepointmodule_1.2.3_iphoneos-arm.deb
+Size: 15490
+MD5sum: 49d7788c061b1eebd2be3f3bb359b4c9
+SHA1: 8dd0b6a2a62b53d6c5fa6e17391f36b618600659
+SHA256: 1aea4122cf4765e919ce980db83abe0426e8695b5931ced59d80c9f85e46de7b
+SHA512: 39e92e7c7117a1ec7e5bb45cecbaed7fa2c2c58f688b7c865e9498a2cf80f5afcfb5c0c8ad15e7d08695a468ab205e246f86f842938a26923f7854046b5ffb12
+Description: Reduce White Point from Control Center!
+Name: White Point Module
+Depiction: https://opa334.github.io/depic/WhitePointModule/index.html
+SileoDepiction: https://opa334.github.io/depic/WhitePointModule/sileo.json
+Icon: https://opa334.github.io/depic/WhitePointModule/Resources/icon.png
+Author: opa334
 
 Package: com.p2kdev.quitall
 Architecture: iphoneos-arm64
@@ -10021,6 +10243,26 @@ Icon: https://bvnsupport.github.io/depictions/sectionIcons/hethongg1.png:
 Depiction: https://github.com/roothide/RootHideManagerApp
 Support: https://github.com/roothide/RootHideManagerApp
 
+Package: com.roothide.patcher
+Architecture: iphoneos-arm64e
+Version: 2.1.2-1+debug
+Section: Utilities
+Maintainer: roothide
+Installed-Size: 4128
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Filename: ./debs/com.roothide.patcher_2.1.2-1+debug_iphoneos-arm64e.deb
+Size: 1202674
+MD5sum: 407eaabea9aa3b8aeec7a868b8b82511
+SHA1: c2d92c981d23e831cf04fc5bc3bcedf8d033c3ad
+SHA256: dfa9dd31f04a801307579da60b93e84f1791cc9034998a513315d03354f2ec8a
+SHA512: 503908118c18442a438d8b6d565e14d1c0dfa35e8d122981d8d30945df5641654e42517f4be5910d672f0b4f58a7509b67be12949e310ea8489d4130778d5ab6
+Description: patch rootless package to roothide, not work for all packages.
+Name: RootHide Patcher
+Author: roothide
+Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
+Depiction: https://github.com/roothide/RootHidePatcher
+Support: https://github.com/roothide/RootHidePatcher
+
 Package: com.rpgfarm.a-font
 Architecture: iphoneos-arm
 Version: 1.10
@@ -10078,6 +10320,41 @@ Name: A-Font (Roothide)
 Author: Baw Appie <pp121324@gmail.com>
 Icon: https://jtisvn.github.io/sectionIcons/A-Font.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/A-Font.json
+
+Package: com.rullinoiz.ipa2deb
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Development
+Maintainer: rullinoiz
+Depends: dpkg
+Filename: ./debs/com.rullinoiz.ipa2deb_1.0.4_iphoneos-arm64.deb
+Size: 3444
+MD5sum: f6d4d53d9efee6d089bea1128d03420e
+SHA1: e0e913559d1a00923f803e3837402057f42ac16e
+SHA256: 881842918593f666a66f69d3b11f9b810f3da01896268b61e01ed6de809d5ee4
+SHA512: 4d14e67ca78fad4690bcd2edc0d5b16424a126a24c729fd6644c3b77fcc0ead1c713009f7ee2cd4332b80de2d6db8ecf0e796177b6db065033e606282652ef54
+Description: Convert IPA to DEB
+Name: ipa2deb
+Author: rullinoiz
+Depiction: https://repoiz.github.io/repoiz/depictions/?p=com.rullinoiz.ipa2deb
+
+Package: com.rullinoiz.ipa2deb
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Development
+Maintainer: rullinoiz
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dpkg
+Filename: ./debs/com.rullinoiz.ipa2deb_1.0.4_iphoneos-arm64e.deb
+Size: 2172
+MD5sum: 328f47d77364e04db143efbfd027caf5
+SHA1: 0dc898bfc907e8faa5bf91975d926a5de68081cc
+SHA256: 95e98ffbaf3aaf0b65c234d5d53f50ff0ef9144cf38f3643db675ad3eca79a80
+SHA512: 73909ad11837c5597b8d800f643ae962090a00cbf170bcf5c4ebc6f91868970614c9b4a86201e7345945d69059bb8f90f76764900d203e0ec3459e1caf6e53d4
+Description: Convert IPA to DEB
+Name: ipa2deb
+Author: rullinoiz
+Depiction: https://repoiz.github.io/repoiz/depictions/?p=com.rullinoiz.ipa2deb
 
 Package: com.skypain.ccrespring
 Architecture: iphoneos-arm64e
@@ -10212,6 +10489,23 @@ Tag: role::developer
 Name: libsparkcolourpicker
 Author: Spark
 Icon: file:///var/jb/Library/IconRepo/hethongg1.png
+
+Package: com.spark.libsparkmessage
+Architecture: iphoneos-arm64
+Version: 1.1.0~rootless
+Section: System
+Maintainer: Spark
+Installed-Size: 200
+Filename: ./debs/com.spark.libsparkmessage_1.1.0~rootless_iphoneos-arm64.deb
+Size: 8216
+MD5sum: 96a3fbfc6801b3858bfa6bf65972089e
+SHA1: cf7a814caf6c72b345b36bec99659b77aaaa49d3
+SHA256: def11abd6eab785384665d6988d23dc3471b3f60adce51b4347f87dedb7e6ffe
+SHA512: 7c8b0af7c6b6c89791bfade15027fcf64da84360d0dda08d816ac455e93649ccb9678e0dfee59945c34c42ca7d85dbe3c843ea708cf52a3a93042cf7743d6ed1
+Description: Super lightweight IPC messaging library
+Tag: role::developer
+Name: libSparkMessage
+Author: Spark
 
 Package: com.spark.snowboard.dock
 Architecture: iphoneos-arm64e
@@ -10488,6 +10782,24 @@ Depiction: https://jtisvn.github.io/depictions/SnowBoard.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SnowBoard.json
 Tags: compatible_min::ios15.0, compatible_max::ios17.3
 Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
+
+Package: com.sudo.debra
+Architecture: iphoneos-arm64
+Version: 2.9.9
+Section: Utilities
+Maintainer: Sudo
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), gzip, sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: ./debs/com.sudo.debra_2.9.9_iphoneos-arm64.deb
+Size: 24312
+MD5sum: 4b39f2af2c1a3482f1c595e0d82cd769
+SHA1: 448dc19c66b824416af66882148e04cbac632582
+SHA256: e94f51b03e0b6d3dfb58fe04cd4b28a1b8ddd3ccc71ebfcc1915c7ddd36978b0
+SHA512: 6921dd27a2a29e0b9e0f9d42620c7e983f8de669d86d760fd9931b00e85ace279b3090d69d2f7ff886bd264e9befbdac4c0c48220b7540398ffb22130411bf61
+Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
+Depiction: https://sudo9000.github.io/depictions/debra/index.html
+Name: Debra (Rootless)
+Author: Sudo
+Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
 
 Package: com.teslaman3092.popoutbuttons
 Architecture: iphoneos-arm64
@@ -10902,6 +11214,27 @@ SileoDepiction: https://paisseon.github.io/depictions/Xinamine.json
 Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Xinamine.json&name=Xinamine&dev=Paisseon
 Icon: https://paisseon.github.io/icons/Xinamine.png
 
+Package: emt.paisseon.xinamine
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Section: System
+Maintainer: Sudo + Paisseon
+Installed-Size: 564
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: ellekit, oldabi | cy+cpu.arm64, firmware (>= 15.0)
+Filename: ./debs/emt.paisseon.xinamine_0.0.5_iphoneos-arm64e.deb
+Size: 89106
+MD5sum: 707c83f7e29b8dead8fe9f3424570074
+SHA1: bea89d3da727bf4c64e40caf908cb61554d5fd62
+SHA256: dce849dd4005751e9574797d179c10cb178fafc2dad17c18fb6008bbef54ed13
+SHA512: 692361c9ca106290ab91b051a4453d8095ede34fbe013734931c095328b4ba6667f724c6998f37ecd79086f232f0cb578c61a0de01001832001f9f514dc20304
+Description: Add Xina tweak compatibility to Dopamine
+Name: Xinamine
+Author: Sudo + Paisseon
+SileoDepiction: https://paisseon.github.io/depictions/Xinamine.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Xinamine.json&name=Xinamine&dev=Paisseon
+Icon: https://paisseon.github.io/icons/Xinamine.png
+
 Package: com.34306.trolldecryptjb
 Architecture: iphoneos-arm64
 Version: 1.3.1-1+debug
@@ -11126,6 +11459,24 @@ Description: library for Foxfort tweaks
 Tag: role::developer
 Name: libfoxfortutils
 Author: FoxfortMobile
+
+Package: libkrw-dev
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Priority: optional
+Section: Development
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 16
+Depends: libkrw0 (= 1.1.2)
+Filename: ./debs/libkrw-dev_1.1.2_iphoneos-arm64.deb
+Size: 4352
+MD5sum: 485ab1c7200f2332b3d827adf844b0cb
+SHA1: b2a528b1b34d342f13b9bb875647a77b3673805d
+SHA256: c913f19c3756f34a418093c29d9a0726a450ae3437b5e4ed5016638cf264d19b
+SHA512: f7fbcf7e71818f29486bbed2d6b3bf20477b94d5880dc1d5835b9f57da63473146a8826a67060c57a7d2498318f7771b26e26e02f8728ffd0508dba40c94b1ba
+Homepage: https://github.com/Cryptiiiic/libkrw
+Description: A kernel R/W API for jailbreaks (Development Files)
+Author: Cryptiiiic
 
 Package: me.tomt000.copylog
 Architecture: iphoneos-arm
