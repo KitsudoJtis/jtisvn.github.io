@@ -12,10 +12,10 @@
 "title":"Icatch"
 },
 {
-"markdown":"\n\n- Tải xuống file.deb khi cài đặt tweak kèm gói từ Sileo và Zebra trực tiếp vào Filza.\n\n- Chi tiết xrm hình ảnh bên dươi.\n\n",
+"markdown":"\n\n- Tải xuống file.deb dễ dàng khi cài đặt tweaks hỗ trợ kèm quản lý gói Sileo và Zebra trực tiếp vào Filza.\n\n- Chi tiết xrm hình ảnh bên dươi.",
 "class":"DepictionMarkdownView"
 },
-{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
+{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -52,7 +52,7 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin "
+"title":"Thông tin chi tiết"
 },
 {
 "class":"DepictionTableTextView",
@@ -63,7 +63,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
-"text":"Tweak"
+"text":"Tweaks"
 },
 {
 "class":"DepictionTableTextView",

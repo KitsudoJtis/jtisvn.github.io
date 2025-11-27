@@ -5147,6 +5147,26 @@ Author: DeNsor
 
 Package: com.jtis.icatch
 Architecture: iphoneos-arm64e
+Version: 1.1-120+debug
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 272
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.icatch_1.1-120+debug_iphoneos-arm64e.deb
+Size: 29088
+MD5sum: b2c8c514b333d38291d7f7e9c70b2805
+SHA1: 199ec3087b3a180585587ef8a5fde38ff5f69982
+SHA256: adc45d938dc4b8e035e5dcd59457671956e0c54f210245daa359a0d348c22e3e
+SHA512: a481643a9ee295552a194f5dfaa834e4be1d2f44a7ce93ed8f1e27652c02c9fd3fdafbdeade696b376085e32a753be1dda907b2bf571ca8e174bad822a654f8e
+Description: Tải xuống file.deb khi cài đặt tweak kèm gói từ Sileo và Zebra trực tiếp vào Filza
+Name: iCatch (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Icatch.json
+Icon: https://repo.cypwn.xyz/packages/iCatch-Rootless/icon.png
+Author: DeNsor
+
+Package: com.jtis.icatch
+Architecture: iphoneos-arm64e
 Version: 1.1-120
 Section: Tweaks
 Maintainer: JTIS Repo
