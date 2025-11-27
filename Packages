@@ -11708,22 +11708,6 @@ Description: Support for legacy arm64e ABI in iOS 15.0+
 Author: Evelyn
 Name: Legacy arm64e Support
 
-Package: oldabi
-Architecture: iphoneos-arm64e
-Version: 0.3.2
-Section: Tweak Injection
-Maintainer: Evelyn
-Depends: mobilesubstrate, cy+cpu.arm64e, firmware (>= 15.0)
-Filename: ./debs/oldabi_0.3.2_iphoneos-arm64e.deb
-Size: 14876
-MD5sum: ac04c874c339f5994f0fa718d0db5697
-SHA1: 99c9529188878c6c22ceb95a61de52211d8e84b6
-SHA256: f6581d05013765a652849be048734a11fe25e1e3412b0af80d1a1162d5d4956d
-SHA512: 8b3855916a5bc6078324d3efea8dd4b94ce097c9b10fc8f20ef5cbc3de21bc2abb2cb045dbed1e7aea3073c855af16828dd0b15f2507dea06a7e3ec847a78a84
-Description: Support for legacy arm64e ABI in iOS 15.0+
-Author: Evelyn
-Name: Legacy arm64e Support
-
 Package: org.swift.protobuf.swiftprotobuf
 Architecture: iphoneos-arm64
 Version: 1.29.0
