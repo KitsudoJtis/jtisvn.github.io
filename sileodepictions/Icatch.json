@@ -4,15 +4,15 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"title":"Icatch"
 },
 {
-"markdown":"Icatch\n\n- Tải xuống file.deb khi cài đặt tweak kèm gói từ Sileo và Zebra trực tiếp vào Filza.\n\n- Chi tiết xrm hình ảnh bên dươi.\n\n",
+"markdown":"\n\n- Tải xuống file.deb khi cài đặt tweak kèm gói từ Sileo và Zebra trực tiếp vào Filza.\n\n- Chi tiết xrm hình ảnh bên dươi.\n\n",
 "class":"DepictionMarkdownView"
 },
 { "class":"DepictionHeaderView", "title":"Hình ảnh" },
@@ -90,7 +90,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"###  Hỗ trợ Roothide"
+"markdown":"###  Hỗ trợ Rootless & Roothide Jailbreak"
 },
 {
 "class":"DepictionLabelView",

@@ -5127,6 +5127,25 @@ Name: iArrays Crack
 Author: Artem Kasper
 
 Package: com.jtis.icatch
+Architecture: iphoneos-arm64
+Version: 1.1-120+debug
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 272
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.icatch_1.1-120+debug_iphoneos-arm64.deb
+Size: 29744
+MD5sum: c739dfdbfd4e2bdc60a834fb6bc2fc1f
+SHA1: 4ce632481c395774477567ee6b0a9857f3e14bec
+SHA256: 83166039566113d8378c6f365c86043550ba7f7fa7df573b385524b073b41017
+SHA512: dc426f9ae728f73b203c94db80602bb4c41272c9eceb87e34a3ece0556675df1c0f526a37dd4cc100e4f5f4368d2551fb1abb4c6b73af3264a9ebe471ff213f7
+Description: Tải xuống file.deb khi cài đặt tweak kèm gói từ Sileo và Zebra trực tiếp vào Filza
+Name: iCatch (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Icatch.json
+Icon: https://repo.cypwn.xyz/packages/iCatch-Rootless/icon.png
+Author: DeNsor
+
+Package: com.jtis.icatch
 Architecture: iphoneos-arm64e
 Version: 1.1-120
 Section: Tweaks
