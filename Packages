@@ -2718,12 +2718,12 @@ Installed-Size: 692
 Depends: mobilesubstrate, firmware (>= 11.0)
 Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon
 Filename: ./debs/com.jtis.axon_1.5.5_iphoneos-arm64.deb
-Size: 145312
-MD5sum: eb6fe1b5b9454432f0f8f5778295f2b8
-SHA1: 52cdeb71772222c1b8b1079bb4e248d54efd2d62
-SHA256: 1315344a576f41b1ab9c910eb113ca90eaa1e5168efee4dee0c1020a018503a9
-SHA512: 4e1c72e212a6ea0309849b5146570893023556bd07de31c12941c6ca5a047d029672cf8bbdb2f2cbe710865a99850c2b26eb035a67fd1d69ad0975cf33bc0368
-Description: Gom nhóm thông báo trên màn hình khoá - Hỗ trợ IOS 15/16.
+Size: 145824
+MD5sum: fbf90c235b42560b8f9cbb16f42c8b4b
+SHA1: d8eb392603595ced5ed520f1a6aca40650a6cd6e
+SHA256: a030b084d3660253c764bc35ecd1ffdb7c60eadf64d9d9a1f6c60a0501b9bd66
+SHA512: ef33691e1781180291f7f32632c969bcbedee6d03189beb0948a4349e13f79a2d8a2d0a7e6fd55ac99452365b06a1c6b600aec5d2d1a28f7517324ad89d4a20c
+Description: Gom nhóm thông báo trên màn hình khoá - Hỗ trợ IOS 15/16/17
 Name: Axon (Rootless)
 Author: Nepeta
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
@@ -2745,6 +2745,24 @@ SHA256: e2a7ca01b1fe3cb6a6cb89f3806ef223192236b65cc736ee0d6c7e3ceb775106
 SHA512: 051bb8372e7c7e9dab8b0ef987010e371d355714827c76f5986702a66da05bc6672901d00fce9cb7922d867abacb11f9b9696aecd9ff72498fbb787db40a0073
 Description: Gom nhóm thông báo trên màn hình khoá - Hỗ trợ IOS 15/16.
 Name: Axon (RootHide)
+Author: Nepeta & Baw Appie
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
+Icon: https://jtisvn.github.io/sectionIcons/Axon.png
+
+Package: com.jtis.axon
+Architecture: iphoneos-arm64
+Version: 1.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.jtis.axon_1.5_iphoneos-arm64.deb
+Size: 142380
+MD5sum: 721f7fceebf94ac16c23dd881d8773d1
+SHA1: 8051b1ee9f558dd12bdc2ed0b8ef1422ed93a708
+SHA256: 7439c7cd82fb9c6052b1f45f8356de98e382976b23a607a776101fc6ea0f42ca
+SHA512: 59dbb1f083cd80f66f950ff12e853301ec226ce2b1ea14b863e1881126ba5f16394b5ff450f53e85479fff174409cc95a75b9a88a4dcc9ff3861170d1c94131c
+Description: Priority Hub for iOS 15 - 16
+Name: Axon (Rootless)
 Author: Nepeta & Baw Appie
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
 Icon: https://jtisvn.github.io/sectionIcons/Axon.png
@@ -9132,6 +9150,28 @@ SHA512: 44fc2e5a2af4edd54c881d379cff8c7e303743d4c935d1f48ae7b45bc5b7c4f49c581ff6
 Description: Support tweak for CC modules!
 Name: CCSupport
 Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+
+Package: com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 1.3.13-2
+Section: Tweaks
+Maintainer: opa334
+Installed-Size: 560
+Provides: com.ioscreatix.silo
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.3.13-2_iphoneos-arm64.deb
+Size: 93656
+MD5sum: f6fab5693c56d6e8c61ae684e846059d
+SHA1: f89ab6763e63ae131060b94815df09c32225f3b2
+SHA256: a4e76334f78f9bcd628e46bd415b53e3001a2364020cb8572bcb7eb07cf19366
+SHA512: 51a0b571d253dcf6f67e64956f226f33a4f4a0a8f0619a1c6381c23cefd40e370721c81e298cd7f8cfd0b32fd0a856d6d57dc36051ecd2edd2fa2bb341a07bf9
+Description: Support tweak for CC modules!
+Name: CCSupport
+Author: opa334
+Icon: file:///var/jb/Library/IconRepo/hethongg1.png
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 
 Package: com.opa334.choicy
