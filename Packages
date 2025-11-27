@@ -2718,11 +2718,11 @@ Installed-Size: 692
 Depends: mobilesubstrate, firmware (>= 11.0)
 Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon
 Filename: ./debs/com.jtis.axon_1.5.5_iphoneos-arm64.deb
-Size: 145612
-MD5sum: 19594376c84528b3817769da83036895
-SHA1: 84076d1b110d68664f52e3180e0fddd83ab6ede7
-SHA256: 3494bb486a367925f3a07959a29d76cf5a15320b73c66e9bf8cb34adde940e43
-SHA512: 13bc4583845571b408d433bbc4b93859a38a69d0fa581cb3139c3bc9e22e630ce4b15936c0f82bb070802088369781a33230c5b72d1c073813cb29a3bc2a9db2
+Size: 145312
+MD5sum: eb6fe1b5b9454432f0f8f5778295f2b8
+SHA1: 52cdeb71772222c1b8b1079bb4e248d54efd2d62
+SHA256: 1315344a576f41b1ab9c910eb113ca90eaa1e5168efee4dee0c1020a018503a9
+SHA512: 4e1c72e212a6ea0309849b5146570893023556bd07de31c12941c6ca5a047d029672cf8bbdb2f2cbe710865a99850c2b26eb035a67fd1d69ad0975cf33bc0368
 Description: Gom nhóm thông báo trên màn hình khoá - Hỗ trợ IOS 15/16.
 Name: Axon (Rootless)
 Author: Nepeta
