@@ -863,6 +863,43 @@ SileoDepiction: https://evynw.github.io/sileo/fontcenter14.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 Author: Evelyn (ev_ynw)
 
+Package: com.evynw.fontquicksand
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Filename: ./debs/com.evynw.fontquicksand_1.0_iphoneos-arm64.deb
+Size: 11796900
+MD5sum: 87f5a2443fb6fa5b40b7d9c200b0acbf
+SHA1: f743b08cbfd59133dc1d469d29d4da7e01669201
+SHA256: ff528911b981006b1da6b1ce68740cd0eb0f690f6990af71a7de5aa357f7a90c
+SHA512: 4afb1977c9394facf8208729fc72e66659cae8e4ee0d9130e8f3b9670dadfc4f66f4ea305abff22a82845cfa107081a48508bdf37fa7f6f775da0b6fc4188f66
+Description: Rounded sans serif. 100% size. For iOS15-16.
+Name: Quicksand (iOS15-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontquicksand14
+SileoDepiction: https://evynw.github.io/sileo/fontquicksand14.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Alex (@Alexman1979)
+
+Package: com.evynw.fontquicksand
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.evynw.fontquicksand_1.0_iphoneos-arm64e.deb
+Size: 39828952
+MD5sum: a5ff9f3b3e64907008da6116ecdebf21
+SHA1: e8b07846d29af376646fe60c15ed93c26cdc309f
+SHA256: dd927a76ef595ce1495300437a6962057cbb3473c94fdb6d3d4dab11894ad8cf
+SHA512: b15c2bdaefd21a952cb51c5b110c3465b16aaff3f4932f7ee2efd64bac6e79cfdb9096b2059be12921d4ef0d4b533d76cf3d8dfe9ecafc2354972dc306d3a65e
+Description: Rounded sans serif. 100% size. For iOS15-16.
+Name: Quicksand (iOS15-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontquicksand14
+SileoDepiction: https://evynw.github.io/sileo/fontquicksand14.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Alex (@Alexman1979)
+
 Package: com.exile90.icleanerpro
 Architecture: iphoneos-arm64
 Version: 7.10.0
@@ -1393,6 +1430,30 @@ dev: ichitaso
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
 Icon: https://jtisvn.github.io/sectionIcons/PowerSelector.png
 
+Package: com.ichitaso.powerselector11
+Architecture: iphoneos-arm64e
+Version: 1.4.0
+Section: Utilities
+Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
+Installed-Size: 2212
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Filename: ./debs/com.ichitaso.powerselector11_1.4.0_iphoneos-arm64e.deb
+Size: 201712
+MD5sum: 284d56d014c2f9b0a2e02f05d08f93b7
+SHA1: 0ed29de0334168743cb24d97d0e97099fce76c81
+SHA256: 013a63354ed7e9f8b658fa1dd980602d3084b0dd5b87d1384d65f3762d52eb8b
+SHA512: 5a453de17772ed70f169a2d2934e9119d710d13f5b99d898bf47f83ba7989259fd842077bac9891a0ec41c5fdffe0eaad75af922ac4aea7f85a787659ea10b87
+Description: The power supply relation of a device is operated.
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios17.1.2
+Author: ichitaso <willfeeltips+ps11@gmail.com>
+Name: PowerSelector (Roothide)
+dev: ichitaso
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
+Icon: https://jtisvn.github.io/sectionIcons/PowerSelector.png
+
 Package: com.imkpatil.homebarsizer
 Architecture: iphoneos-arm64
 Version: 1.1.1
@@ -1735,22 +1796,6 @@ Name: Depths PD
 Author: Polyphian
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
-
-Package: com.jtis.FontEdgy
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Fonts
-Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.FontEdgy_1.0_iphoneos-arm64e.deb
-Size: 9805360
-MD5sum: 7765d9c51d5ca1feb637813fea9ee4ef
-SHA1: dd51f4e0b787c4b54c94e3d1886ddb42282fafac
-SHA256: bb7bb08d4d800b38749f252595b6300e6b346dd11124121a2adb831497384729
-SHA512: 8db939e8a8952accffdee931f45c2e59cb46b0a0fcb8b7b555cae4ab22adb8772cbc45baf6d26fcdcdd6a0f6a00bb26027c621fd150c37f9cbb668c524d55ebe
-Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
-Author: Edgy
-Name: Font Edgy (Roothide)
-Icon: https://Jtisvn.github.io/sectionIcons/font3.png
 
 Package: com.jtis.Gifisland
 Architecture: iphoneos-arm64
@@ -4675,19 +4720,20 @@ Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: Lizynz <lizynz@ya.ru>
 
 Package: com.jtis.fontedgy-rootless
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Fonts
 Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>=14.0)
-Filename: ./debs/com.jtis.fontedgy-rootless_1.0_iphoneos-arm64.deb
-Size: 4954504
-MD5sum: 69eb37988d7210a62b075202cd265c7d
-SHA1: 668c1573597c32d314986625f221f1b79ea059d1
-SHA256: cac18b0415adabc2484e5fa20a9c5f2ee7067ba53f4bb26e57da5a874b48647c
-SHA512: 5cc24d6f6f4a34fbd4373584b3a8846b6ebe3bb589e3e004c7b901432cd7535980685266b32c8752896f86b525bafbb886e229a228c8eb6a5fa28b864bb7cced
+Filename: ./debs/com.jtis.fontedgy-rootless_1.0_iphoneos-arm64e.deb
+Size: 4954356
+MD5sum: 0b19919075053bfbec9c131275a1f93c
+SHA1: e7cfc7ba06980e3602a1482b3f4035ff7d3c25a1
+SHA256: c3a5752b47c2ec19c4563b5896a5cf4e609562c81713183084a3859ee181c35c
+SHA512: a96b35aef113f3fb42b12bac9d28c24ad95333300ea5363d90589e581eb49ab03c384fed9cf55d2edb2f6db6ba4e2ec97e231bd998ebbd4308b7a3ed9e8c9f77
 Homepage: https://alo.works/
-Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard 16
+Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
 Name: Font Edgy
 Icon: https://Jtisvn.github.io/sectionIcons/font3.png
 Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
@@ -4705,6 +4751,26 @@ MD5sum: bc16a54f3167fe7255c912185d985333
 SHA1: 4e852d5f8594fd6657cc474d59788007a7bb36bd
 SHA256: 6d09c88a392adf042dc7a07a3b291a7cd9da77d9281440df6b7f8bcc93f36571
 SHA512: f1bf474a9483356ff0b6fd95faad1328c0a33a9707ff02866071bdf212014b8ae62c82df3c89068d3e37f0940ae584b592b02db02adf8cf5bd548cff6a7ff5ef
+Homepage: https://alo.works/
+Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
+Name: Font Lobster Two
+Icon: https://Jtisvn.github.io/sectionIcons/font.png
+Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
+Author: Pablo Impallari
+
+Package: com.jtis.fontlobstertwo-rootless
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=14.0)
+Filename: ./debs/com.jtis.fontlobstertwo-rootless_1.0_iphoneos-arm64e.deb
+Size: 2439770
+MD5sum: a830564173e84ca8d32e48dca9146dac
+SHA1: e4d7e81c209b244d8ca8588bed93d684cd78c488
+SHA256: 696cb552168659601bf1fd46e46f8fba18697751b42e5a5148a8f6650663ba86
+SHA512: 365507bf99062df6b8e071a7ab6f4ede4edf821a379240009fc1ff4bacde0e815f9ab3e7244e7d17fcc2fd63e7deaa5c55b32e8ea840a4a8cb58fe0f26bd0111
 Homepage: https://alo.works/
 Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
 Name: Font Lobster Two
