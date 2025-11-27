@@ -826,6 +826,62 @@ Author: dvntm
 Icon: https://jtisvn.github.io/sectionIcons/YTLite.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/YTLite.json
 
+Package: com.evynw.fontainsliesans14
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Depends: com.evynw.repoicons (>= 1.2-3)
+Filename: ./debs/com.evynw.fontainsliesans14_1.1_iphoneos-arm.deb
+Size: 5600096
+MD5sum: beb1bd704a7afd579ba0833df90c1bd7
+SHA1: 50d356512701f00b2518d1a9b0f55c295dba7a12
+SHA256: 26baca8b4bcac5daef6cb3065211cc03436fd4f0aeb0f8eef8623603610d833e
+SHA512: 198aaf09fe2826ff962e86f51be7353c7e85fab0523c5e225a7986a28f88ef7bda7b1e225c61a02e322cfe0ac2b26ee27d10157d25a05f027b9ce900690a6b7a
+Description: Sans serif slightly rounded. For iOS14-16.
+Name: Ainslie Sans (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontainsliesans14
+SileoDepiction: https://evynw.github.io/sileo/fontainsliesans14.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
+Package: com.evynw.fontainsliesans14
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Filename: ./debs/com.evynw.fontainsliesans14_1.1_iphoneos-arm64.deb
+Size: 5600172
+MD5sum: 7db90b68a4e0a742a074693f1ce3ae24
+SHA1: 62b0ac7998897ca157b84fc68a3b3b10ac16573e
+SHA256: 735593ad72b8162aade5010d6faed02104f9946c4137e45b752709c22b0fb34c
+SHA512: b7f6f1c3530db55da0c8d860f68a705e8b216c9d208af71d4b98bea5a7d67d3dfb89c66092b8fa743c7cfe53996d9adc12358aeef1774aa93be7948f36f0c7da
+Description:  Ainslie Sans (Font). Dành cho iOS14-16.
+Name: Ainslie Sans (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontainsliesans14
+SileoDepiction: https://evynw.github.io/sileo/fontainsliesans14.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
+Package: com.evynw.fontainsliesans14
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.evynw.fontainsliesans14_1.1_iphoneos-arm64e.deb
+Size: 17958736
+MD5sum: 070328eee9c92de1cef4b3954a97b815
+SHA1: 97046a23b8005797f46340362f79aa7508dde0fa
+SHA256: af75b9530a846f185ddd467c783850798ac2bc10344e16d711eff1c75073a1a2
+SHA512: 7960a3b07742a9712f87052dbc95d6469aa7ba054f8e58e8edb45b24598362935f26e81e64cb4d5e4643c74bbd2948c7fd61be77db5d00789ac8961569cd59c5
+Description:  Ainslie Sans (Font). Dành cho iOS14-16.
+Name: Ainslie Sans (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontainsliesans14
+SileoDepiction: https://evynw.github.io/sileo/fontainsliesans14.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
 Package: com.evynw.fontcenter14
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -862,6 +918,80 @@ Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontcenter14
 SileoDepiction: https://evynw.github.io/sileo/fontcenter14.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 Author: Evelyn (ev_ynw)
+
+Package: com.evynw.fontcenter8514
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Filename: ./debs/com.evynw.fontcenter8514_1.1_iphoneos-arm64.deb
+Size: 8511644
+MD5sum: 1781467f9b9e5d6ed17b22c34dc8edeb
+SHA1: 73d828368804afc568905151221a44c5e07671f5
+SHA256: e82aeff031a4c83aff27bb4ad329746aba7f6a920fdaf6c33d223a3d3c206230
+SHA512: d6adfafd0fca2aa46d3c74114bcd1a9d5a025fa2bf4a2dfd62a365a22882aee056365877817f625c57b1c73e1e120e7a85c17ef02b6cdce64613c0e0a7efbe9c
+Description: Grotesque style sans. 85% size. For iOS14-16.
+Name: Center_85% (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontcenter8514
+SileoDepiction: https://evynw.github.io/sileo/fontcenter8514.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
+Package: com.evynw.fontcenter8514
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.evynw.fontcenter8514_1.1_iphoneos-arm64e.deb
+Size: 28033730
+MD5sum: 16d67f377c773c5178395f24d4d74bb1
+SHA1: f5233521c090ef500fe72ea56ece9f91c7a90c8d
+SHA256: 88a1f289184614359bee2a581f410633a49e59a6cf8c3a914ab8045c6c9ea696
+SHA512: dd73be9bb92cfaa20986d0e2dc1650b5489c08c8a640309f82f149f1f078740241b2789c21b7f838cc1492641f68ef9d2527fd4ce45ef4da6cced25be00284ec
+Description: Grotesque style sans. 85% size. For iOS14-16.
+Name: Center_85% (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontcenter8514
+SileoDepiction: https://evynw.github.io/sileo/fontcenter8514.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
+Package: com.evynw.fontquicksand8514
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Filename: ./debs/com.evynw.fontquicksand8514_1.0_iphoneos-arm64.deb
+Size: 11088716
+MD5sum: c26501e0e9d6c6166b0c6469c7f5e46a
+SHA1: 3590606313aaa26f467cc29f5ddfea254f7e2761
+SHA256: 6ae171f205d3238e5d34fac6a049e5046bf7bf0fcf230a0bd74646e68d5057e0
+SHA512: 19c35bd2b629eea4de2afedf0e8e78d228c9b8c24905fd52f2a9464efbe585d5f2bf791ed405c2ba14084a4cb833e9ca77a50abb6e740037ce8fc1e654d470d6
+Description: Rounded sans serif. 85% size. For iOS14-16.
+Name: Quicksand_85% (iOS14)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontquicksand8514
+SileoDepiction: https://evynw.github.io/sileo/fontquicksand8514.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Alex (@Alexman1979)
+
+Package: com.evynw.fontquicksand8514
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.evynw.fontquicksand8514_1.0_iphoneos-arm64e.deb
+Size: 41982610
+MD5sum: 6b18600b1867c689857890ad85a673fa
+SHA1: bc5e90ffb54f49d47ee74a857e9dd156894b2054
+SHA256: 1e7094cc96989b953e34fcdac9c7074ae5d60a877f4ec23634f40f6af6c92c9a
+SHA512: f210d62848e1222370585a53ac04e6e3a28c10104f64b6b4357e8112f72681fcf20a8c473c0c6aeb69a87c8bbb814b7bcf52806c97564e3fd3cfac164a0d2282
+Description: Rounded sans serif. 85% size. For iOS14-16.
+Name: Quicksand_85% (iOS14)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontquicksand8514
+SileoDepiction: https://evynw.github.io/sileo/fontquicksand8514.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Alex (@Alexman1979)
 
 Package: com.evynw.fontquicksand
 Architecture: iphoneos-arm64
@@ -9236,6 +9366,47 @@ Author: NguyenASang
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SNMessenger.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 1.0.11
+Section: System
+Maintainer: opa334
+Installed-Size: 340
+Depends: firmware (>=7.0)
+Filename: ./debs/com.opa334.altlist_1.0.11_iphoneos-arm64.deb
+Size: 45436
+MD5sum: 6b2e3c1c4815a9d7b3d4a341daf81488
+SHA1: f7742112830355a78f463a844c4c8bde077de10c
+SHA256: a20c1e35b6a5e82a28e863a4b887e7b2879e8762181dc44bb2ab5dc7005c6c85
+SHA512: 8658e9ed798b72510fdc321c9c9c63e7775042b3fbcc33e652169b8d3932d05a20970f4f24f4d8c77406fa88ed643b3beaeb60323e2361fff869630ff5f75db5
+Description: A modern AppList alternative
+Tag: role::developer
+Name: AltList
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Author: opa334
+Icon: file:///var/jb/Library/IconRepo/hethongg1.png
+
+Package: com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.0.11
+Section: System
+Maintainer: opa334
+Installed-Size: 340
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=7.0)
+Filename: ./debs/com.opa334.altlist_1.0.11_iphoneos-arm64e.deb
+Size: 37522
+MD5sum: 38952429249723eb97223ecce057c1d4
+SHA1: d241191119e2fae615aaf6f2d8e4490250538ea1
+SHA256: daf16037acec0fa1b74661cdc79d00d97751181b8a5d9f3dd8097016e9185395
+SHA512: 9510f94ea24cf4e10c3e9fbf7803bb4547c604d1ebc406044844788d48befd29a42e0a125b577b4c99ed36b12ed48d8ecae9a4e5cfc6813584ce8387758e917d
+Description: A modern AppList alternative
+Tag: role::developer
+Name: AltList
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Author: opa334
+Icon: file:///var/jb/Library/IconRepo/hethongg1.png
+
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64e
 Version: 1.3.13-2-15+debug
@@ -9984,6 +10155,24 @@ Name: AutoUnlockX (Roothide)
 Author: Spark
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoUnlockX.json
 Icon: https://jtisvn.github.io/sectionIcons/AutoUnlockX.png
+
+Package: com.spark.libsparkapplist
+Architecture: iphoneos-arm64e
+Version: 1.1.0~rootless
+Section: System
+Maintainer: Spark
+Installed-Size: 408
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.spark.libsparkapplist_1.1.0~rootless_iphoneos-arm64e.deb
+Size: 33374
+MD5sum: 468104c46881264bbf3e460e20c63aad
+SHA1: 8926328fb475db717d47acdf56bc86bed7b5349e
+SHA256: 23ec0cbb9eaba5012e5c40756a5517a00765c53c898d6c4cc35f9632cf9c7969
+SHA512: 366f30a1a671de6ad66d6db8c96d124d4a688237c71af2eb8496118833cfb24d8a5d100dfde89ee4f4fddc25b75ab592c30b2f2722aa413a295c911dd0c1bca5
+Description: AppList alternative
+Tag: role::developer
+Name: libSparkAppList
+Author: Spark
 
 Package: com.spark.libsparkcolourpicker
 Architecture: iphoneos-arm64
