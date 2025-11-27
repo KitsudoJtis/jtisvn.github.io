@@ -15,7 +15,6 @@
 "markdown":"\n\n- Tải xuống file.deb dễ dàng khi cài đặt tweaks hỗ trợ kèm quản lý gói Sileo và Zebra trực tiếp vào Filza.\n\n- Chi tiết xrm hình ảnh bên dươi.",
 "class":"DepictionMarkdownView"
 },
-{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[

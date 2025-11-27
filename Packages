@@ -7980,13 +7980,13 @@ Section: Tweaks
 Maintainer: MTAC
 Installed-Size: 188
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, com.opa334.ccsupport
+Depends: mobilesubstrate, com.opa334.ccsupport, oldabi
 Filename: ./debs/com.jtis.uptime_1.0.2_iphoneos-arm64e.deb
-Size: 28688
-MD5sum: d55159be5b0afc93496fe4a575234c5d
-SHA1: 065bd78ba225ab58a306a5abbbac564244fb1452
-SHA256: a48e17312873f1dc553e253db1af3d45d9cc5d29a9c2848b22f194eb843274bc
-SHA512: fc03b8d952d89727db8c3710b40a79c464a216417b80c6e9e3bb9aa50c59433cd973e6d4ea84a18ea22f4bdf53dd83712f2057f49bb78a9b28e7c3c4535f0e6e
+Size: 28732
+MD5sum: d37ab5ea38b83b94fdf85aeda3061b82
+SHA1: 010b47721b3cb3e9f6e6735d16816bd7c570b8df
+SHA256: 7e33a6df851f09f72ea236550ce25e2af68afa3ac0c5a979de16aa9abcb7c342
+SHA512: b886ea2b9e84c0cd433da2a549c4edd4caaea68084e02badad772ff62ebe7c70f7e3aedca6e28f3a76090e345defc27db87b7ef10b6f32365d2893b3572bd2f1
 Description: Control Center module to view time since boot
 Name: Uptime (Roothide)
 Author: MTAC
@@ -11098,6 +11098,22 @@ MD5sum: 2cc9de6dbc75226517fb558ab251b60f
 SHA1: d0f1f502f27764505e8557348f8b9ed58714df84
 SHA256: cb5bb774cd99f5f39c14d2925a5189782a3536583588b8385066dc00c6220d56
 SHA512: e351bb292a5bc8c6a4848aa0cdffcbd097d00f971725b19742aaa807499d17fa1ff2a8bf884fa228a9c6540ae8f93208fe9deac262582db8643b6f05e62efe17
+Description: Support for legacy arm64e ABI in iOS 15.0+
+Author: Evelyn
+Name: Legacy arm64e Support
+
+Package: oldabi
+Architecture: iphoneos-arm64e
+Version: 0.3.2
+Section: Tweak Injection
+Maintainer: Evelyn
+Depends: mobilesubstrate, cy+cpu.arm64e, firmware (>= 15.0)
+Filename: ./debs/oldabi_0.3.2_iphoneos-arm64e.deb
+Size: 14876
+MD5sum: ac04c874c339f5994f0fa718d0db5697
+SHA1: 99c9529188878c6c22ceb95a61de52211d8e84b6
+SHA256: f6581d05013765a652849be048734a11fe25e1e3412b0af80d1a1162d5d4956d
+SHA512: 8b3855916a5bc6078324d3efea8dd4b94ce097c9b10fc8f20ef5cbc3de21bc2abb2cb045dbed1e7aea3073c855af16828dd0b15f2507dea06a7e3ec847a78a84
 Description: Support for legacy arm64e ABI in iOS 15.0+
 Author: Evelyn
 Name: Legacy arm64e Support
