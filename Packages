@@ -639,6 +639,25 @@ Author: Simon <qiaozhani000@163.com>
 Icon: https://axs66.github.io/repo/icon/llswitch.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Swich.json
 
+Package: com.alimaulana.bundarstatusbar
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Themes
+Maintainer: alimaulana
+Depends: Winterboard
+Filename: ./debs/com.alimaulana.bundarstatusbar_1.0_iphoneos-arm64.deb
+Size: 35400
+MD5sum: 04e2a415988d00e00eef175f5b67f5fc
+SHA1: caf9d582623cc9223834f57e3e873f5edb033a02
+SHA256: 2a5372e6de2d06a898034511e430f60ff79f14d4fa4222178520ddec85ce7501
+SHA512: ef90625cf2e36af16cba1f653e264456344ed6ac4db29bf5d730c6ba7b4e48f82340a09792090b3ee4707500988f1ae0f5d9366e49c6c494c2eaf7a04d89a331
+Description: Thau đổi tín hiệu di động, wifi và pin thanh hình tròn trên thanh trạng thái
+Name: Bundar Status Bar (Rootless)
+Author: alimaulana
+Depiction: https://repo.packix.com/package/com.alimaulana.bundarstatusbar
+SileoDepiction: https://repo.packix.com/depictions/com.alimaulana.bundarstatusbar/depiction.json
+Icon: https://repo.packix.com/media/com.alimaulana.bundarstatusbar/icon.png
+
 Package: com.bandarhl.bhtwitter
 Architecture: iphoneos-arm64
 Version: 4.4.1
@@ -1191,12 +1210,12 @@ Installed-Size: 5080
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.4.7), com.opa334.altlist
 Filename: ./debs/com.foxfort.translomatic_2.18.31_iphoneos-arm64e.deb
-Size: 1170636
-MD5sum: 741793b3f706a470cb09968d3cc603b2
-SHA1: 0fcaf228b6def81376e3c2e5bced26ce4c37a34e
-SHA256: 44a3e51b250f528695bcb2392d85753dd2729276271337fb23961d7bbda036f2
-SHA512: 2a1773c34ce8651b01bc6c592b2654450cca47b4e4ee0ad62a8d558475a0c7e0de83db2ee483069d522618f9970d525356d4ae58fefb4ab9e5ebecbab446e6f2
-Description: Dịch nhanh bất kỳ văn bản nào bạn muốn và đây là phiên bàn hỗ trợ tương thích cho Roothide. Xin vui lòng mua nó để sử dụng.
+Size: 1172528
+MD5sum: a05fcd52ebbded491975e2ce32ecb1cb
+SHA1: f7ceffa2c083eaa854374c2ee5a44b3ba80fdf73
+SHA256: a5fe6eb2c6f818b834fc23efeefb5bcfdf09d6d2d963a15246c85115a878ffdc
+SHA512: 4285dd6b423614a39f3999453c7ef020f5dca93ee36f2c59a4b46ccd35857e45c196a4c8df1e9689cb5275e69acb1eeac1be8669fb34228db2eea20ddae25485
+Description: Dịch nhanh bất kỳ văn bản nào bạn muốn. Đây là phiên bàn hỗ trợ tương thích dành cho Roothide.- Xin vui lòng  cài đặt 2 gói foxfort trong nguồn JTISVN trước và mua tweak bên nguồn havoc để sử dụng
 Name: Translomatic (Roothide)
 Author: FoxfortMobile
 Icon: https://jtisvn.github.io/sectionIcons/Tra%C3%A1nlomatic.png
@@ -10003,6 +10022,28 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/trollleds.html
 Icon: https://jtisvn.github.io/sectionIcons/TrollLEDs.png
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/trollleds.json
+
+Package: com.ps.youpip
+Architecture: iphoneos-arm64
+Version: 1.12.10
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 212
+Provides: com.spicat.youpip
+Depends: mobilesubstrate, com.ps.ytvideooverlay (>= 2.0.0), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture (>= 1.0.1)
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Filename: ./debs/com.ps.youpip_1.12.10_iphoneos-arm64.deb
+Size: 25420
+MD5sum: f369af68c4a159a1bb59853404d0a358
+SHA1: 961b06be342a4ea1b78c21bb64279a897d76ac14
+SHA256: 801ea7f4d8ff17539ed51eff046f694dfe1e627322abea1c4c011bfe97e905ef
+SHA512: dfc0dbc25543b390113c35ae66a79ffe4f57aa666ead897bfa262758fa28526887e1eeace7914f3c8d28b849e1417032e0a743595f67f959fe06ebef9482c21c
+Description: Enables native PiP in iOS YouTube app.
+Name: YouPiP (Rootless)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
 
 Package: com.ps.youpip
 Architecture: iphoneos-arm64e
