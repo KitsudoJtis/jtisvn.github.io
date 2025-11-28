@@ -6417,6 +6417,64 @@ Author: simon
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCMusic.json
 Icon: https://jtisvn.github.io/sectionIcons/CCMusic.png
 
+Package: com.jtis.miuminuipro
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Phuc Do
+Installed-Size: 4676
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/com.jtis.miuminuipro_1.0_iphoneos-arm.deb
+Size: 3541784
+MD5sum: 0be3b33197a564eb09b3ae9f1c0dd913
+SHA1: d7da2021e4595c632f9201113717a4d1ea686b8f
+SHA256: 7376703978a2a8f4e566c650827c0c68b38a6c87ca79a01e7e1dbbdb336f912b
+SHA512: 73fd12aee6f4e301012da1c9b0ccdf7c59fa2c391c564b240c16d988438126aaa9638f21f7b5cdd1fa0ffeede08a473067d718b2ec2553736f40878cbce01160
+Description: Miumin UI Pro is custumize CC on Jailbroken devices for iOS 15 & 16.
+Name: Miumin UI Pro
+SileoDepiction: https://jtisvn.github.io/sileodepictions/MiuminUIPro.json
+Icon: https://dobabaophuc1706.github.io/repo/package/CC/icon.png
+Author: Phuc Do
+
+Package: com.jtis.miuminuipro
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: Phuc Do
+Installed-Size: 4676
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/com.jtis.miuminuipro_1.0_iphoneos-arm64.deb
+Size: 3541728
+MD5sum: 1af9d3be6a179c2e809fa6e48aa26ee0
+SHA1: 8b5748579345ecc28f499e3fd0a71fd2f5be3212
+SHA256: 1c52b72f6206c7d0cc317f27b1b6a09dcda603748909b3e07f70d155d14bb4d9
+SHA512: 102585afb5e95e1d0c6fb6ec239c61b7f25ad882a97163a9e6ee61bf4b4b3ffe9c56b219b740cd1cf0340a221064434aea16210327f88b8083982d97a3d4b551
+Description: Miumin UI Pro is custumize CC on Jailbroken devices for iOS 15 & 16.
+Name: Miumin UI Pro (Rootless)
+Author: Phuc Do
+SileoDepiction: https://jtisvn.github.io/sileodepictions/MiuminUIPro.json
+Icon: https://dobabaophuc1706.github.io/repo/package/CC/icon.png
+
+Package: com.jtis.miuminuipro
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: Phuc Do
+Installed-Size: 4676
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/com.jtis.miuminuipro_1.0_iphoneos-arm64e.deb
+Size: 3284532
+MD5sum: 88a9fe979492f1f5108b8f55ad1cf8b0
+SHA1: 88f4a200f693eee5bfb91f37ce8b14ddc1205ad0
+SHA256: ed0b218301c9814e5f14370cbee07f70470c730288b76c7de91d6daaca5c29f5
+SHA512: 48c1ab1ce063272233c89e1e10d44ef64c8c07f474b18fc5953b14a29d6471cf628826de4a2ddb7372af15a8280d9be1d537bf289be5964b83e60da793de8f4f
+Description: Miumin UI Pro is custumize CC on Jailbroken devices for iOS 15 & 16.
+Name: Miumin UI Pro (Roothide)
+Author: Phuc Do
+SileoDepiction: https://jtisvn.github.io/sileodepictions/MiuminUIPro.json
+Icon: https://dobabaophuc1706.github.io/repo/package/CC/icon.png
+
 Package: com.jtis.networkmanager
 Architecture: iphoneos-arm64
 Version: 1.4.3
