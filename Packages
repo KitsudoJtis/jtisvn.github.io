@@ -712,6 +712,23 @@ Tag: role::developer
 Name: libScribble
 Author: Boo
 
+Package: com.jtis.DepthsPD
+Architecture: iphoneos-arm64
+Version: 0.1
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/com.check0ver.DepthsPDRootless_0.deb
+Size: 33424040
+MD5sum: b1e646167b259d5a4336646986eac680
+SHA1: b46794ec9f936ee06e9d9696dd81f7f35d3f2236
+SHA256: 97a86daf1d386a2c5777a26948bc5234571cf5fb5bfb98c3cc2dfd0b28af24de
+SHA512: 1e52cf25ba39de2e9d9fc8ef9e45f9e35d60111b36503e921ee2bab6a2a21eda4da21b977ce10dc44b327935da09494580187aaa16a21a527f887b9d04856c03
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Depths PD
+Author: Polyphian
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm64
 Version: 0.3-6-1+debug
@@ -2672,6 +2689,41 @@ Name: Ampere (Roothide)
 Author: MTAC
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Ampere.json
 Icon: https://jtisvn.github.io/sectionIcons/Ampere.png
+
+Package: com.jtis.angeltheme
+Architecture: iphoneos-arm64
+Version: 0.1
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.angeltheme_0.1_ iphoneos-arm64.deb
+Size: 760608
+MD5sum: fbe43b49017710a6467663f6d34a366d
+SHA1: fa087990096bf05707478e9c8eea6bf66967aaf3
+SHA256: bdea351c75b4a6d5eb31676822d9babf9e97868258676a7a640d2dbdf25ba38d
+SHA512: fb57ebb6c05ae49da0c4ee1ea6ca9f47256010052f578b36f2e3e6da4533e7b0018855798f46d77e8de8d814ea0cb3cf47a7be8c3a55caf55c1638902c82540d
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Angel Theme
+Author: @UAE_AD1001
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Angel.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+
+Package: com.jtis.angeltheme
+Architecture: iphoneos-arm64e
+Version: 0.1
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.angeltheme_0.1_iphoneos-arm64e.deb
+Size: 1617150
+MD5sum: 0f1a90f4ac6c7dbe43a926c9dfbfc1eb
+SHA1: a36882e9511755f90525615d643815790ec44c99
+SHA256: 90ec788fe4cd94575e0d5ef953d91f909a217d3a1e5700974e299b41c6e8a452
+SHA512: dd4c598885debfe8c7973def290fe61a7ba3fce9e45766a807e83f0f6690cd67213cf97f3d5e050c748c61787d609c1c433926676bd0fd467596b2bc33f895ec
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Angel Theme
+Author: @UAE_AD1001
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Angel.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
 Package: com.jtis.appdatamanager
 Architecture: iphoneos-arm64
@@ -7796,6 +7848,41 @@ Author: Eevee
 SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
 Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
 
+Package: com.jtis.starfalltheme
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.starfalltheme_1.0 _iphoneos-arm64.deb
+Size: 16785272
+MD5sum: 363f85a163b0286e1ee10c755a4d6243
+SHA1: 6e0c4e18ede239f0d949782237a0e7fd638eb5bb
+SHA256: 0ff7ef51b236f1145d2f2b246b7da7a9735a9811257d22474e253dd1a3e45ba2
+SHA512: 77afde1fa8ff1e060a56a919c603501bd3033b4d5f4aacdad9d46dce34fa431d9162468295edb0758007e7518b60cd1f5ed169275c2e1bbbf81d86f546f5252b
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Starfall Theme
+Author: @UAE_AD1001
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Starfall.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+
+Package: com.jtis.starfalltheme
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.starfalltheme_1.0_iphoneos-arm64e.deb
+Size: 51734026
+MD5sum: 04bf10ffdbb98971621b32c782869a7d
+SHA1: bec4fe5b92e251a2734f7bae2fb0539e27cbd649
+SHA256: 2c37a8cdc16d5f1c5023f67d9d5ee31d5b4b3b448370b4a00a9ac8d43016e510
+SHA512: 60dc9972b9302140614cf72d94df7546a3003d1536a1e23c2ec4dd5172353925215b7fa55f5659d6f3f7a1d3e59f76898f6093e2d6d6d73ea619341f73317b23
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Starfall Theme
+Author: @UAE_AD1001
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Starfall.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+
 Package: com.jtis.stealthcc
 Architecture: iphoneos-arm64
 Version: 0.9.0
@@ -9193,6 +9280,26 @@ SHA256: 840f4e69fbac0ccde8d5af2a6131879f51fd21a8baee77336c806369cfd0a38d
 SHA512: dbd0a37268c399644291342ee9f225b4502ae2a17ecef40457395ecadb9bb1903a455d69981947b2458fd959f053a5c483bd0006818918ae2677d03abb2b83c7
 Description: Mở bất kỳ ứng dụng nào trong CarPlay!
 Icon: https://media.havoc.app/6393d4ecfb3fac29d26b9143
+Name: CarBridge
+Author: leftyfl1p <carbridge@havoc.app>
+
+Package: com.leftyfl1p.carbridge13
+Architecture: iphoneos-arm
+Version: 2.0.15
+Section: Tweaks
+Maintainer: leftyfl1p <carbridge@havoc.app>
+Installed-Size: 7156
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.16), com.spark.libsparkapplist (>= 1.0.9), com.opa334.altlist (>= 1.0.10)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Filename: ./debs/com.leftyfl1p.carbridge13_2.0.15_iphoneos-arm.deb
+Size: 439740
+MD5sum: 1ffd1b7017da1bba6af40eb78e8d2ce8
+SHA1: c870bd4ce442b0b56fb7921ef4e123764defa9ef
+SHA256: 727300375bbc3bf8ef13751cd2e8115f13db9a5781c21947f57f040a55b09cca
+SHA512: e47f06978150b9b8e9e994e3d6cd67f6810b6bf1e9e20a064ca6a5961a7cd03094c911dc978936fa71af0230a452ed12dcd709e526408f86eab9a00e991c1c7c
+Description: Mở bất kỳ ứng dụng nào trong CarPlay!
+Icon: https://media.havoc.app/6393d4ecfb3fac29d26b9143
+SileoDepiction: https://jtisvn.github.io/sectionIcons/CarBridge.png
 Name: CarBridge
 Author: leftyfl1p <carbridge@havoc.app>
 
