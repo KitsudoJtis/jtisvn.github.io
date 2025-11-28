@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JTISVN Repo - Thư viện DYLIB</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-sans min-h-screen" data-theme="dark">
+    <div class="background-animation"></div>
+    <canvas id="raindrop-effect"></canvas>
+
+    <div class="main-container mx-auto relative z-10">
+        <main class="container mx-auto px-4 py-8">
+            <div class="flex flex-col items-center justify-center text-center mb-8">
+                <div class="nav-container">
+                    <a href="https://jtisvn.github.io/">JTISVN JB</a>
+                    <a href="https://jtisvn.github.io/donate/donate.html">Ủng hộ</a>
+                    <a href="https://jtisvn.github.io/homepage/page.html">Kho IPA</a>
+                    <button id="theme-toggle-btn" class="nav-button theme-toggle-button">
+                        <i class="fas fa-sun" id="theme-icon"></i>
+                    </button>
+                </div>
+
+                <img src="https://jtisvn.github.io/icons/avatar.webp" alt="Avatar" class="avatar mb-4">
+                <h1 class="text-4xl font-bold shimmering-text">JTISVN REPO</h1>
+                <p class="text-gray-400 mt-2">Kho Cập nhật các Tệp Deb, Dylib  Việt Hóa & Mod mới nhất<br>Hỗ trợ tiêm qua Trollfools và Esign trên thiết bị iOS.</p>
+            </div>
+
+            <div class="max-w-xl mx-auto mb-10 relative">
+                <input type="text" id="search-box" placeholder="Tìm kiếm Tweak, Dylib..." class="search-input w-full py-3 px-5 rounded-full text-white outline-none pl-12">
+                <i class="fas fa-search absolute left-4 top-3.5 text-gray-500"></i>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto" id="tweak-list">
+                
+                <div class="tweak-item tweak-card p-4 rounded-2xl group">
+                    <div class="flex items-center gap-4">
+                        <img src="https://jtisvn.github.io/sectionIcons/BHtiktokplus.png" class="w-16 h-16 rounded-xl object-cover shadow-md">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">BHTikTokVh</h3>
+                            <p class="text-sm text-gray-400">Việt Hóa chức năng Bhtiktok</p>
+                            <div class="flex gap-2 mt-2">
+                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
+                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://example.com/files/bhtiktok.dylib" class="download-btn-static" download>
+                        <i class="fas fa-cloud-download-alt"></i> Tải về
+                    </a>
+                </div>
+
+                <div class="tweak-item tweak-card p-4 rounded-2xl group">
+                    <div class="flex items-center gap-4">
+                        <img src="https://jtisvn.github.io/icons/iOSCleanPro.webp" class="w-16 h-16 rounded-xl object-cover shadow-md">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">iOSCleanProVH</h3>
+                            <p class="text-sm text-gray-400">Việt Hóa iOSCleanPro</p>
+                            <div class="flex gap-2 mt-2">
+                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
+                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://www.mediafire.com/file/g1n4mo4d6v2kckc/iOSCleanProVH.dylib/file" class="download-btn-static" download>
+                        <i class="fas fa-cloud-download-alt"></i> Tải về
+                    </a>
+                </div>
+
+                <div class="tweak-item tweak-card p-4 rounded-2xl group">
+                    <div class="flex items-center gap-4">
+                        <img src="https://jtisvn.github.io/icons/trollstore.webp" class="w-16 h-16 rounded-xl object-cover shadow-md">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">TrollstoreVH</h3>
+                            <p class="text-sm text-gray-400">Việt Hóa Trollstore gốc</p>
+                            <div class="flex gap-2 mt-2">
+                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
+                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://example.com/files/trollstore.dylib" class="download-btn-static" download>
+                        <i class="fas fa-cloud-download-alt"></i> Tải về
+                    </a>
+                </div>
+
+                <div class="tweak-item tweak-card p-4 rounded-2xl group">
+                    <div class="flex items-center gap-4">
+                        <img src="https://jtisvn.github.io/icons/trollstore.webp" class="w-16 h-16 rounded-xl object-cover shadow-md">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">TrollstoreVH</h3>
+                            <p class="text-sm text-gray-400">Việt Hóa Trollstore gốc</p>
+                            <div class="flex gap-2 mt-2">
+                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
+                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://example.com/files/trollstore.dylib" class="download-btn-static" download>
+                        <i class="fas fa-cloud-download-alt"></i> Tải về
+                    </a>
+                </div>
+
+                <div class="tweak-item tweak-card p-4 rounded-2xl group">
+                    <div class="flex items-center gap-4">
+                        <img src="https://jtisvn.github.io/icons/trollstore.webp" class="w-16 h-16 rounded-xl object-cover shadow-md">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">TrollstoreVH</h3>
+                            <p class="text-sm text-gray-400">Việt Hóa Trollstore gốc</p>
+                            <div class="flex gap-2 mt-2">
+                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
+                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://example.com/files/trollstore.dylib" class="download-btn-static" download>
+                        <i class="fas fa-cloud-download-alt"></i> Tải về
+                    </a>
+                </div>
+
+                <div class="tweak-item tweak-card p-4 rounded-2xl group">
+                    <div class="flex items-center gap-4">
+                        <img src="https://jtisvn.github.io/icons/trollstore.webp" class="w-16 h-16 rounded-xl object-cover shadow-md">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">TrollstoreVH</h3>
+                            <p class="text-sm text-gray-400">Việt Hóa Trollstore gốc</p>
+                            <div class="flex gap-2 mt-2">
+                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
+                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://example.com/files/trollstore.dylib" class="download-btn-static" download>
+                        <i class="fas fa-cloud-download-alt"></i> Tải về
+                    </a>
+                </div>
+
+                <div class="tweak-item tweak-card p-4 rounded-2xl group">
+                    <div class="flex items-center gap-4">
+                        <img src="https://jtisvn.github.io/icons/trollstore.webp" class="w-16 h-16 rounded-xl object-cover shadow-md">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">TrollstoreVH</h3>
+                            <p class="text-sm text-gray-400">Việt Hóa Trollstore gốc</p>
+                            <div class="flex gap-2 mt-2">
+                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
+                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://example.com/files/trollstore.dylib" class="download-btn-static" download>
+                        <i class="fas fa-cloud-download-alt"></i> Tải về
+                    </a>
+                </div>
+
+                <div class="tweak-item tweak-card p-4 rounded-2xl group">
+                    <div class="flex items-center gap-4">
+                        <img src="https://jtisvn.github.io/icons/trollstore.webp" class="w-16 h-16 rounded-xl object-cover shadow-md">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">TrollstoreVH</h3>
+                            <p class="text-sm text-gray-400">Việt Hóa Trollstore gốc</p>
+                            <div class="flex gap-2 mt-2">
+                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
+                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://example.com/files/trollstore.dylib" class="download-btn-static" download>
+                        <i class="fas fa-cloud-download-alt"></i> Tải về
+                    </a>
+                </div>
+
+                <div class="tweak-item tweak-card p-4 rounded-2xl group">
+                    <div class="flex items-center gap-4">
+                        <img src="https://jtisvn.github.io/icons/trollstore.webp" class="w-16 h-16 rounded-xl object-cover shadow-md">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">TrollstoreVH</h3>
+                            <p class="text-sm text-gray-400">Việt Hóa Trollstore gốc</p>
+                            <div class="flex gap-2 mt-2">
+                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
+                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://example.com/files/trollstore.dylib" class="download-btn-static" download>
+                        <i class="fas fa-cloud-download-alt"></i> Tải về
+                    </a>
+                </div>
+
+                <div class="tweak-item tweak-card p-4 rounded-2xl group">
+                    <div class="flex items-center gap-4">
+                        <img src="https://jtisvn.github.io/icons/trollstore.webp" class="w-16 h-16 rounded-xl object-cover shadow-md">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">TrollstoreVH</h3>
+                            <p class="text-sm text-gray-400">Việt Hóa Trollstore gốc</p>
+                            <div class="flex gap-2 mt-2">
+                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
+                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://example.com/files/trollstore.dylib" class="download-btn-static" download>
+                        <i class="fas fa-cloud-download-alt"></i> Tải về
+                    </a>
+                </div>
+
+                <div class="tweak-item tweak-card p-4 rounded-2xl group">
+                    <div class="flex items-center gap-4">
+                        <img src="https://jtisvn.github.io/icons/trollstore.webp" class="w-16 h-16 rounded-xl object-cover shadow-md">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">TrollstoreVH</h3>
+                            <p class="text-sm text-gray-400">Việt Hóa Trollstore gốc</p>
+                            <div class="flex gap-2 mt-2">
+                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
+                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://example.com/files/trollstore.dylib" class="download-btn-static" download>
+                        <i class="fas fa-cloud-download-alt"></i> Tải về
+                    </a>
+                </div>
+
+                <div class="tweak-item tweak-card p-4 rounded-2xl group">
+                    <div class="flex items-center gap-4">
+                        <img src="https://jtisvn.github.io/icons/trollstore.webp" class="w-16 h-16 rounded-xl object-cover shadow-md">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">TrollstoreVH</h3>
+                            <p class="text-sm text-gray-400">Việt Hóa Trollstore gốc</p>
+                            <div class="flex gap-2 mt-2">
+                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
+                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://example.com/files/trollstore.dylib" class="download-btn-static" download>
+                        <i class="fas fa-cloud-download-alt"></i> Tải về
+                    </a>
+                </div>
+
+                <div class="tweak-item tweak-card p-4 rounded-2xl group">
+                    <div class="flex items-center gap-4">
+                        <img src="https://jtisvn.github.io/icons/trollstore.webp" class="w-16 h-16 rounded-xl object-cover shadow-md">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">TrollstoreVH</h3>
+                            <p class="text-sm text-gray-400">Việt Hóa Trollstore gốc</p>
+                            <div class="flex gap-2 mt-2">
+                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
+                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://example.com/files/trollstore.dylib" class="download-btn-static" download>
+                        <i class="fas fa-cloud-download-alt"></i> Tải về
+                    </a>
+                </div>
+
+                <div class="tweak-item tweak-card p-4 rounded-2xl group">
+                    <div class="flex items-center gap-4">
+                        <img src="https://jtisvn.github.io/icons/trollstore.webp" class="w-16 h-16 rounded-xl object-cover shadow-md">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">TrollstoreVH</h3>
+                            <p class="text-sm text-gray-400">Việt Hóa Trollstore gốc</p>
+                            <div class="flex gap-2 mt-2">
+                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
+                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://example.com/files/trollstore.dylib" class="download-btn-static" download>
+                        <i class="fas fa-cloud-download-alt"></i> Tải về
+                    </a>
+                </div>
+
+                <div class="tweak-item tweak-card p-4 rounded-2xl group">
+                    <div class="flex items-center gap-4">
+                        <img src="https://jtisvn.github.io/icons/trollstore.webp" class="w-16 h-16 rounded-xl object-cover shadow-md">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">TrollstoreVH</h3>
+                            <p class="text-sm text-gray-400">Việt Hóa Trollstore gốc</p>
+                            <div class="flex gap-2 mt-2">
+                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
+                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://example.com/files/trollstore.dylib" class="download-btn-static" download>
+                        <i class="fas fa-cloud-download-alt"></i> Tải về
+                    </a>
+                </div>
+
+            </div>
+            
+            <div class="text-center mt-12 text-gray-500 text-sm">
+                <p>Copyright © 2025 - 2030 by JTISVN</p>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // 1. Logic Tìm kiếm
+        document.getElementById('search-box').addEventListener('keyup', function() {
+            let filter = this.value.toLowerCase();
+            let items = document.querySelectorAll('.tweak-item');
+            
+            items.forEach(item => {
+                let text = item.innerText.toLowerCase();
+                if (text.includes(filter)) {
+                    item.style.display = "flex"; // Giữ layout flex khi hiện
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        });
+
+        // 2. Logic Theme
+        const themeToggleBtn = document.getElementById('theme-toggle-btn');
+        const themeIcon = document.getElementById('theme-icon');
+        const body = document.body;
+        const currentTheme = localStorage.getItem('theme') || 'dark';
+        
+        body.setAttribute('data-theme', currentTheme);
+        if (currentTheme === 'light') { body.classList.add('light'); themeIcon.className = 'fas fa-moon'; }
+        
+        themeToggleBtn.addEventListener('click', () => {
+            const isLight = body.classList.toggle('light');
+            const newTheme = isLight ? 'light' : 'dark';
+            body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            themeIcon.className = newTheme === 'light' ? 'fas fa-moon' : 'fas fa-sun';
+        });
+
+        // 3. Raindrop Effect
+        const canvas = document.getElementById('raindrop-effect');
+        const ctx = canvas.getContext('2d');
+        let width, height, drops = [];
+        const initCanvas = () => { width = canvas.width = window.innerWidth; height = canvas.height = window.innerHeight; drops = []; };
+        window.addEventListener('resize', initCanvas);
+        
+        class Drop { 
+            constructor(x, y) { this.x = x; this.y = y; this.r = 0.5; this.dr = 0.8; this.opacity = 1; this.dOpacity = -0.01; } 
+            update() { this.r += this.dr; this.opacity += this.dOpacity; } 
+            draw() { 
+                ctx.beginPath(); ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2); 
+                ctx.strokeStyle = `rgba(137, 207, 240, ${this.opacity})`; ctx.lineWidth = 1; ctx.stroke(); 
+            } 
+        }
+        
+        const animateDrops = () => { 
+            ctx.clearRect(0, 0, width, height); 
+            if (Math.random() < 0.1) drops.push(new Drop(Math.random() * width, Math.random() * height)); 
+            for (let i = 0; i < drops.length; i++) { 
+                drops[i].update(); drops[i].draw(); 
+                if (drops[i].opacity <= 0) { drops.splice(i, 1); i--; } 
+            } 
+            requestAnimationFrame(animateDrops); 
+        };
+        initCanvas(); animateDrops();
+    </script>
+</body>
+</html>
