@@ -4105,6 +4105,30 @@ Author: julioverne
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.customlpm
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 612
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
+Filename: ./debs/com.jtis.customlpm_1.0.3_iphoneos-arm64.deb
+Size: 67228
+MD5sum: 7056e7fb5f85138320d959ef3a6da978
+SHA1: 678323ccf9c13cdad5b6e69519b95176716b36ca
+SHA256: acc5fb671bd02102318b7e79b8a3c4ffa2d60b7a3275ae91b4cc162895aa8f39
+SHA512: 9fa1d0513bf0c4f0e5d39a71814660de2ecb259a0adb32af37b2e623bae0cb25c9d538e1cde6799f9900114bcda19020ced254f6a722c399865db69d0772fb72
+Description: Customization for the Low Power Mode.
+Tag: purpose::extension
+Name: CustomLPM (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CustomLPM.json
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=customlpmDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: CydiaGeek <lucaluca86@aol.com>
+dev: lucaluca86
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.customlpm
 Architecture: iphoneos-arm64e
 Version: 1.0.3
 Priority: optional
@@ -4114,11 +4138,11 @@ Installed-Size: 612
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
 Filename: ./debs/com.jtis.customlpm_1.0.3_iphoneos-arm64e.deb
-Size: 70952
-MD5sum: f10f9f6bbcc2e6f22ff28ba8d0118f99
-SHA1: 007cf5ca8b27f9fa4160e64165f5e12e6c6a31b3
-SHA256: fc9a7ae6bf14f9ca3944528129267b3aa86b70b62fa50d5c165b17f7506234d1
-SHA512: ddae91a8f3b3d64db7c44754569e0e92a9b7370b9b225d5be4e15de7de98ee2c00a99b747dde19ca96bd550288be0422bc349811febd07d9301a4aaedab22e77
+Size: 70972
+MD5sum: 44fc015f7e8ad4101048f71d9487bfbe
+SHA1: 3340b5275c15ceb32a86a23f2248f2d688ded06d
+SHA256: 61a7ccf20f6c176c0823b5da5518b524dc39b80a611019c8c7f20d64d075ffe2
+SHA512: 7098a653f96a585158b35530bdefa373fbeb9a61a14c3aa0eca00abd424ae177d5a3aeaf2d2a095970a1f11421c0f7748d81f470e035663c36b83cead890e024
 Description: Tự động bật chế độ nguồn điện thấp tỉ lẹ % pin theo ý muốn.
 Tag: purpose::extension
 Name: CustomLPM (Roothide)
@@ -4127,7 +4151,7 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=customlpmD
 Sponsor: thebigboss.org <http://thebigboss.org>
 Author: CydiaGeek <lucaluca86@aol.com>
 dev: lucaluca86
-Icon: file:///var/jb/Library/PreferenceBundles/CustomLPM.bundle/CustomLPM@2x.png
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.cydiageek.roundprefs
 Architecture: iphoneos-arm64e
@@ -4633,7 +4657,26 @@ Author: dvntm
 Icon: https://jtisvn.github.io/sectionIcons/FastLock.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/FastLock.json
 
-Package: com.jtis.filzacrack-roothide
+Package: com.jtis.filzacrack
+Architecture: iphoneos-arm64
+Version: 1.1-8
+Section: Tweaks
+Maintainer: Netskao
+Installed-Size: 88
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
+Filename: ./debs/com.jtis.filzacrack_1.1-8_iphoneos-arm64.deb
+Size: 5008
+MD5sum: c489cc78a0dd63ac96cc0c5f7c9df55e
+SHA1: 08674bcc9f022623e96576e165f251253026f6d9
+SHA256: 3fcba824327405f73a5e0a30a945c5fc38cf706b11d3faef22e6f311be8e5476
+SHA512: 6ad640c3283a45e3706f9eb437585120e3b5693a384aa7790d650a812e0e03a977d2eb634f6fe5df73342e924661b096424736e98f025325ce86f26d1a6612ef
+Homepage: https://tigisoftware.com/cydia/
+Description: Kích hoạt tất cả quyền chức năng cho Filza bản chính thức.
+Name: Filza Crack (Rootless)
+Author: Netskao
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.filzacrack
 Architecture: iphoneos-arm64e
 Version: 1.1-8
 Section: Tweaks
@@ -4641,12 +4684,12 @@ Maintainer: Jtis Repo
 Installed-Size: 72
 Pre-Depends: rootless-compat(>= 0.1)
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/com.jtis.filzacrack-roothide_1.1-8_iphoneos-arm64e.deb
-Size: 6352
-MD5sum: 73673fd17f5b0e0c40d95b9deabd9336
-SHA1: 02923c7ce35cad1720497ccd4a1de470056e90a2
-SHA256: 1fb2a244d96913faf75597e04d4c1a3de066fc16fd14ba97eebef94570cbfe28
-SHA512: 66aa6c41dca3433309f46d121763294eb8c3a083cbd388d70f90f565734f99b7907ec2d780c268c82329291732cb0206da9c77565657197297cce5324c32f205
+Filename: ./debs/com.jtis.filzacrack_1.1-8_iphoneos-arm64e.deb
+Size: 5424
+MD5sum: d84a0b109da594f2ea358939b8b300b0
+SHA1: 61935e5b1354c27ed092eaf9ffc817317160bf7c
+SHA256: 8d09294b88e6bfc5848adedfa8f1ad4c6b84674fc1ed16c2efc51f6429ebb7e0
+SHA512: abf5a5fd5e0b91ed38c511475a843ec9d6274923ff7b3a6ed264f3cdf1976fffc7fbc32afd2d5dd979a0485b77c71f21d4dfe1016806cc04c3caf51cb3ef009b
 Homepage: https://tigisoftware.com/cydia/
 Description: Kích hoạt tất cả quyền chức năng cho Filza bản chính thức.
 Name: Filza Crack (Roothide)
@@ -9085,11 +9128,11 @@ Installed-Size: 7156
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.16), com.spark.libsparkapplist (>= 1.0.9), com.opa334.altlist (>= 1.0.10)
 Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
 Filename: ./debs/com.leftyfl1p.carbridge13_2.0.15K_iphoneos-arm.deb
-Size: 404736
-MD5sum: bb16eeab80b830ff8e4b3ad694e7990e
-SHA1: bf55760a4e7e98968edfcd940a106644bf9b8e15
-SHA256: b3631c894221c69695b51f2e4b1bc6c1bf62f23b822c22756486e4d566a8392a
-SHA512: eb4e5112568e663421c0a3e4d6d4537f56c9eb1409196fa3de487af72a718d9f25f57d63e9afb83792c8793a496dbb068b257b3ddba467a851682d9742dfbfc7
+Size: 404996
+MD5sum: 60ae818431cf46bcd6b23b5acf87a7da
+SHA1: 1af6b1f8e508d9f36e7a8a09acfd585975b08052
+SHA256: 840f4e69fbac0ccde8d5af2a6131879f51fd21a8baee77336c806369cfd0a38d
+SHA512: dbd0a37268c399644291342ee9f225b4502ae2a17ecef40457395ecadb9bb1903a455d69981947b2458fd959f053a5c483bd0006818918ae2677d03abb2b83c7
 Description: Mở bất kỳ ứng dụng nào trong CarPlay!
 Icon: https://media.havoc.app/6393d4ecfb3fac29d26b9143
 Name: CarBridge
