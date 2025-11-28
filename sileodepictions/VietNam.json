@@ -38,7 +38,6 @@
 "text":"Kitsudo"
 },
 { "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
-},
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",

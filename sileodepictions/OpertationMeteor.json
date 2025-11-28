@@ -38,7 +38,6 @@
 "text":"Polyphian"
 },
 { "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.0" },
-},
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
