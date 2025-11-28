@@ -182,6 +182,7 @@
 },
 {
 "tabname":"Liên hệ Hỗ trợ",
+"tintColor":"#5777B8",
 "views":[
 {
 "class":"DepictionTableButtonView",
@@ -190,8 +191,8 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Ủng hộ tôi một ly cà phê",
-"action":"https://jtisvn.github.io/donate/donate.html",
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
