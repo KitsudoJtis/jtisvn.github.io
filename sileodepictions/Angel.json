@@ -37,10 +37,12 @@
 "title":"Tác giả",
 "text":"@UAE_AD1001"
 },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"0.1" },
+},
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
-"text":"Themes"
+"text":"Keyboard Themes"
 },
 {
 "class":"DepictionTableTextView",

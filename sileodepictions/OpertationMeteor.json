@@ -37,10 +37,12 @@
 "title":"Tác giả",
 "text":"Polyphian"
 },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.0" },
+},
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
-"text":"Themes"
+"text":"Keyboard Themes"
 },
 {
 "class":"DepictionTableTextView",
