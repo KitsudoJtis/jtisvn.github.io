@@ -4,19 +4,19 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"title":"CCModules"
 },
 {
-"markdown":" Thêm nhiều Mô-đun vào trung tâm điều khiển cho IOS.\n\n- Xem hình ảnh phia dưới để biết thêm chi tiết.\n\n",
+"markdown":"\n\n- Thêm nhiều Mô-đun vào trung tâm điều khiển cho IOS.\n\n- Xem hình ảnh phia dưới để biết thêm chi tiết.\n\n",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
-{ "class":"DepictionHeaderView", "title":"Hình ảnh" },
+{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -33,15 +33,6 @@
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Liên hệ tôi"
-},
-{
-"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7\n\nㅤ\n\n",
-"useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
 {
@@ -49,7 +40,7 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin "
+"title":"Thông tin cni tiết"
 },
 {
 "class":"DepictionTableTextView",
@@ -74,7 +65,7 @@
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTISVN",
+"text":"Copyright © 2025 - 2030 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
@@ -102,8 +93,8 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
-"action": "https://jtisvn.github.io/donate/donate.html"
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
@@ -112,7 +103,7 @@
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTISVN",
+"text":"Copyright © 2025 - 2030 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
