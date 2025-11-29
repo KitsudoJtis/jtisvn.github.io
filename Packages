@@ -729,6 +729,23 @@ Author: Polyphian
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
+Package: com.jtis.DepthsPD
+Architecture: iphoneos-arm
+Version: 0.1
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/com.check0ver.DepthsPD_0.deb
+Size: 22366820
+MD5sum: b28989bd293f89dd365c39a74a63d800
+SHA1: de4064c47b9eb79afe6fe11b9d8979891c33d75f
+SHA256: 5faa24ec770d0236352597078e95c81e1f43bdfd984b44dc10f0fdbb5365f751
+SHA512: d4ec4d03dae79eaecacfdd271cdc223baa7d29e433fd1c1b44fd8d8145d59a84e10e43ac5d1a2464c6553d49328a2e690369954910ec44dda0e05de2c5a5f9d5
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Depths PD
+Author: Polyphian
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm64
 Version: 0.3-6-1+debug
@@ -11502,6 +11519,45 @@ SHA512: b3a9805ed8e2897c42e60ec3380d22dfadbe2452d78febe61730cac3ac4656aebb6739d6
 Description: Decrypt Appstore App that require higher iOS
 Name: TrollDecryptJB
 Author: 34306, khanhduytran0
+
+Package: jp.dcsyhi.airaw
+Architecture: iphoneos-arm64
+Version: 1.6.7
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 13502
+Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), ws.hbang.common,com.opa334.ccsupport
+Filename: ./debs/jp.dcsyhi.airaw_1.6.7_iphoneos-arm64.deb
+Size: 10358756
+MD5sum: 9ea80b2f4180338d7ea46726b224d8b9
+SHA1: 9ed41473bcc485de43de7c5a6b487242ffa4a2ef
+SHA256: 971c263a85001bc37c13ecced682bdc48f1e45eeafb1294ed3e22d5522e643cc
+SHA512: 90ce57415096d496e61f1124124bf1efd35ac7136fd388450265a5a3b693643268d0fce5deb8181c4c2cdbabed66f0bbadb450253af74929788e354bb74051fb
+Description: Một tinh chỉnh CarPlay tuyệt vời.
+Name: Airaw (Rootless)
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Airaw.json
+Icon: https://jtisvn.github.io/sectionIcons/Airaw.png
+
+Package: jp.dcsyhi.airaw
+Architecture: iphoneos-arm64e
+Version: 1.6.7
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 13502
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), ws.hbang.common,com.opa334.ccsupport
+Filename: ./debs/jp.dcsyhi.airaw_1.6.7_iphoneos-arm64e.deb
+Size: 10348576
+MD5sum: fa7e51d6a547867a6ebfb9e47b5d07af
+SHA1: 9d3f08a0038b93b382effe4f148172ed7964924d
+SHA256: f8ac4720d1fa12bbff16b12b6d90eac1dc4e16f4d1afb56c601b81e093a60fd9
+SHA512: 8f49de92bb89398c7df74d4f8f045294880fbf72449e7d9689d927659a0f2c775a28f40848c5ac20a38763420973aea5c616d2281d6ef667fac496ae6827e6d3
+Description: Một tinh chỉnh CarPlay tuyệt vời.
+Name: Airaw (Roothide)
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Airaw.json
+Icon: https://jtisvn.github.io/sectionIcons/Airaw.png
 
 Package: jp.uzra.aeria
 Architecture: iphoneos-arm64
