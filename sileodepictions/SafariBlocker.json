@@ -26,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Chặn nhảy các tab hoặc cửa sổ mới tự mở trong Safari một cách chủ động\n\n- SafariBlocker giúp ngăn chặn các trang web tự động mở tab mới hay popup làm phiền khi duyệt web. Bạn có thể tuỳ chỉnh hành vi chặn trực tiếp trong phần Cài đặt.\n\n- Tính năng:\n\n• Chặn tự động mở tab mới trong Safari\n\n• Tuỳ chọn cho phép hoặc chặn popup theo ý muốn\n\n• Gọn nhẹ, không làm chậm khi duyệt web\n\n• Có mục cấu hình riêng trong Cài đặt.",
+"markdown":"\n\n- Chặn nhảy các tab hoặc cửa sổ mới tự mở trong Safari một cách chủ động\n\n- SafariBlocker giúp ngăn chặn các trang web tự động mở tab mới hay popup làm phiền khi duyệt web. Bạn có thể tuỳ chỉnh hành vi chặn trực tiếp trong phần Cài đặt.\n\n- Tính năng:\n\n- Chặn tự động mở tab mới trong Safari\n\n- Tuỳ chọn cho phép hoặc chặn popup theo ý muốn\n\n- Gọn nhẹ, không làm chậm khi duyệt web\n\n- Có mục cấu hình riêng trong Cài đặt.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
