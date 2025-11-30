@@ -3729,6 +3729,64 @@ Name: Callassist16 (Roothide)
 Author: xybp888vh
 SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist16.json
 
+Package: com.jtis.callblocker
+Architecture: iphoneos-arm
+Version: 2.0.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 512
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.callblocker_2.0.4_iphoneos-arm.deb
+Size: 53536
+MD5sum: 3e2cca66fbb79052e9faacb7f7c1ab79
+SHA1: da38eb628941ec672d0b32a5d60c145aeef52f66
+SHA256: 6df08fed35e14f7bf385f37ec01b5d250861cbb4eb850a3fba8865c73ca9efbd
+SHA512: 6db4a001e42cd5d7e694b3c4399cfa1a31faa31d40cafce10288a3e7bb3dafca65c69ddfa5c2b0f78f3215475da35fb2c8c702aa7401b0fcebaeb093c0260fbd
+Description: Chặn cuộc gọi gây phiền nhiễu!
+Name: CallBlocker Việt Hoá
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://jtisvn.github.io/depictions/CallBlocker.html
+https: //jtisvn.github.io/sectionIcons/CallBlocker.png
+
+Package: com.jtis.callblocker
+Architecture: iphoneos-arm64
+Version: 2.0.4
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 512
+Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/com.jtis.callblocker_2.0.4_iphoneos-arm64.deb
+Size: 54044
+MD5sum: 47290704080abcc58b9e0b44af901847
+SHA1: 7f96aa195fbd458b0cb699fd6bebf1ac94020414
+SHA256: 3582f0072c561c3fb2fae260cce42ab732c680d2e5b167fc2c637c2b7a06ec09
+SHA512: 400dbf8a7e3eeba70e95fa6b543bfe03a54c3b9343ed9b2a6dd8a696608584b32ee072d8e12ec9f5090f28abdfc47d52d776078165b1080cbf0afe4c6a6207e9
+Description: Chặn cuộc gọi lạ gây phiền nhiễu!
+Name: CallBlocker (Rootless)
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://jtisvn.github.io/depictions/CallBlocker.html
+Icon: https://jtisvn.github.io/sectionIcons/CallBlocker.png
+
+Package: com.jtis.callblocker
+Architecture: iphoneos-arm64e
+Version: 2.0.4
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 512
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/com.jtis.callblocker_2.0.4_iphoneos-arm64e.deb
+Size: 53752
+MD5sum: 787087e4fcb0ba718f4418b0bfc7d280
+SHA1: 5dc5bffb5cb9f1e8a1e14bc6679f3ece13241b14
+SHA256: 61d1bb166c3dc744a40f753a5327389156e627a7227af54446f5f9ae55a4e89c
+SHA512: 93a3465ee189fc62aecd9c2120d3dae490f88693ddefb9aa51329b136288078498a5de0b796008b2bb3242d7cfc0cbc483d704c73da011e9d8c21fec4c01e088
+Description: Chặn cuộc gọi lạ gây phiền nhiễu!
+Name: CallBlocker (Roothide)
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://jtisvn.github.io/depictions/Depiction: https://jtisvn.github.io/depictions/AimPro.CallBlocker.html
+Icon: https://jtisvn.github.io/sectionIcons/CallBlocker.png
+
 Package: com.jtis.Cartoo
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -4581,6 +4639,26 @@ Name: Dodo (Roothide)
 Author: Ginsu
 Icon: https://jtisvn.github.io/sectionIcons/Dodo.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Dodo.json
+
+Package: com.jtis.doodle
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Tweaks
+Maintainer: Ethan Whited
+Installed-Size: 4064
+Depends: preferenceloader
+Filename: ./debs/com.jtis.doodle_1.2_iphoneos-arm.deb
+Size: 3577500
+MD5sum: 72af7deed7c0767c5608fd1ae1195a53
+SHA1: 4ba815b9f9c8bf199eab9771c99de0199985e001
+SHA256: cb124bc4a76941577391ffd6331da963b826101f642af056d8dac9e2014f41cc
+SHA512: 4ab84dd67eef3417b62155470db0615ce1b714a1efd5742d117b55ae10ad2cec3e49a29bd0513731c08de4df7151aba963812eef9c6f7d7671f44c78e97b428b
+Description: Unlock device using a doodle
+Name: Doodle
+Author: Ethan Whited
+Depiction: https://jtisvn.github.io/depictions/Doodle.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
+Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
 
 Package: com.jtis.dynamicpeninsula
 Architecture: iphoneos-arm64
