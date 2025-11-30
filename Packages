@@ -2187,6 +2187,26 @@ Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Goku.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 
+Package: com.jtis.GoodWifi
+Architecture: iphoneos-arm64
+Version: 1.0-debug
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 596
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.jtis.GoodWifi_1.0-debug_iphoneos-arm64.deb
+Size: 41740
+MD5sum: 19773aa25ca1bb585e7e200805d3aa7f
+SHA1: d7f26ce88ff37d00379a8e8a56bd9b6c6faf8e1f
+SHA256: 1e9a4e19ba8906cdecb039d212af359e94f47b3c9d95de76d570789a851d3aed
+SHA512: 2f2129b15e6c81f616359b576f6cf3f2e7b843aac80f47b692a1e2d0c02ab1e3282eae7da810ea29416ee563882ffe5c57a6fe9f90675e554d1e5a5a5a077a2c
+Description: Hiển thị mật khảu Wifi đã kết nối
+Name: GoodWifi (Rootless)
+Author: Julioverne
+SileoDepiction: https://jtisvn.github.io/sileodepictions/GoodWiFi.json
+Depiction: https://jtisvn.github.io/depictions/GoodWiFi.html
+Icon: https://jtisvn.github.io/sectionIcons/GoodWiFi.png
+
 Package: com.jtis.LS-16-VN
 Architecture: iphoneos-arm64
 Version: 1.0

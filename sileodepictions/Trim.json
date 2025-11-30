@@ -4,16 +4,19 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"title":"Trim"
 },
 {
-"markdown":" Fix lỗi tỉ lê khung hình sau khi fake cử chỉ X trên thiết nút home đời thấp.\n\n- Cải thiện việc ẩn Home Bar.\n\n- Thêm tuỳ chọn cài đặt\n\n- Điểu chỉnh khoảng cách viền màn hình\n\n- Thêm khả năng thu nhỏ bàn phím và bỏ khoảng trống xung quanh.",
+"markdown":"\n\n- Fix lỗi tỉ lê khung hình sau khi fake cử chỉ X trên thiết nút home đời thấp.\n\n- Cải thiện việc ẩn Home Bar.\n\n- Thêm tuỳ chọn cài đặt\n\n- Điểu chỉnh khoảng cách viền màn hình\n\n- Thêm khả năng thu nhỏ bàn phím và bỏ khoảng trống xung quanh.",
 "useSpacing":"true",
+"class":"DepictionMarkdownView"
+},
+{
 "class":"DepictionMarkdownView"
 },
 {
@@ -21,19 +24,7 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Liên hệ tôi "
-},
-{
-"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7\n\nㅤ\n\n",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Thông tin"
+"title":"Thông tin chi tiết"
 },
 {
 "class":"DepictionTableTextView",
@@ -59,7 +50,7 @@
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTISVN",
+"text":"Copyright © 2025 - 2030 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
@@ -87,8 +78,8 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
-"action": "https://jtisvn.github.io/donate/donate.html"
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
@@ -97,7 +88,7 @@
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTISVN",
+"text":"Copyright © 2025 - 2030 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1

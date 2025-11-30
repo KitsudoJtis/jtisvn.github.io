@@ -4,15 +4,15 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"title":"Zaire"
 },
 {
-"markdown":" Hiển thí số lượng ứng dụng đã tải về trong mục dung lượng cài đặt.\n\n- Xem hình ảnh phía dưới để biết chi tiết.\n\n",
+"markdown":"\n\n- Hiển thí số lượng ứng dụng đã tải về trong mục dung lượng cài đặt.\n\n- Xem hình ảnh phía dưới để biết chi tiết.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -29,15 +29,6 @@
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Liên hệ tôi"
-},
-{
-"markdown":"[**Telegram ADmin**](https://t.me/Kitsudo) - 24/7\n\nㅤ\n\n",
-"useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
 {
@@ -45,7 +36,7 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin "
+"title":"Thông tin chi tiết"
 },
 {
 "class":"DepictionTableTextView",
@@ -70,7 +61,7 @@
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTISVN",
+"text":"Copyright © 2025 - 2030 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
@@ -98,8 +89,8 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Mua cho tôi một ly cà phê",
-"action": "https://jtisvn.github.io/donate/donate.html"
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
@@ -108,7 +99,7 @@
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTISVN",
+"text":"Copyright © 2025 - 2030 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1

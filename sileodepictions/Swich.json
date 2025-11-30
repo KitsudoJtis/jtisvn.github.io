@@ -4,15 +4,15 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionHeaderView",
-"title":"Mô tả & Giới thiệu"
+"title":"LLSwitch"
 },
 {
-"markdown":"LLSwitch\n\n- Mang phong cách hoạt ảnh mới cho nút công tắc trên thiết bị của bạn.\n\n- Chi tiết xem hình ảnh bên dưới.",
+"markdown":"\n\n- Mang phong cách hoạt ảnh mới cho nút công tắc trên thiết bị của bạn.\n\n- Chi tiết xem hình ảnh bên dưới.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -29,13 +29,6 @@
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Tham gia nhóm"
-},
-{
 "class":"DepictionMarkdownView"
 },
 {
@@ -43,7 +36,7 @@
 },
 {
 "class":"DepictionHeaderView",
-"title":"Thông tin "
+"title":"Thông tin chi tiết"
 },
 {
 "class":"DepictionTableTextView",
@@ -72,7 +65,7 @@
 {
 "class":"DepictionTableButtonView",
 "title":"Liên hệ Hỗ trợ",
-"action":"https://jtisvn.github.io/donate/donate.html"
+"action":"https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
@@ -86,7 +79,7 @@
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTISVN",
+"text":"Copyright © 2025 - 2030 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
@@ -103,7 +96,7 @@
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 by JTISVN",
+"text":"Copyright © 2025 - 2030 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
