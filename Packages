@@ -6562,6 +6562,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Modern6.json
 Depiction: https://jtisvn.github.io/depictions/Modern6.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
+Package: com.jtis.modern6
+Architecture: iphoneos-arm64e
+Version: 2.1.2
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.modern6_2.1.2_iphoneos-arm64e.deb
+Size: 7901080
+MD5sum: 098d2ade59b533f332fcb2d42a53585a
+SHA1: fd7a7f763e9ba41a60232436cc609938fa66020d
+SHA256: b327608a9411169e90d4c2a6da4dde7d40096dffc1477db86f36061ba1e0c40a
+SHA512: c56cfdb7c1639cf6eeff71a7ade6894da351997ec7812089ba1cad81b3001ae41f376fa024b58fb46d085fbad1dc0252ed6ec7dc70247d88e9873a992682c592
+Description: Chủ đề iOS 6
+Name: Modern 6
+Author: IceCool Tech
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Modern6.json
+Depiction: https://jtisvn.github.io/depictions/Modern6.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
 Package: com.jtis.networkmanager
 Architecture: iphoneos-arm64
 Version: 1.4.3
