@@ -43,7 +43,7 @@
 "title":"Tác giả",
 "text":"Netskao"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1-5" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1-7" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
@@ -52,7 +52,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Ngày tải lên",
-"text":"24/11/2025"
+"text":"30/11/2025"
 },
 {
 "class":"DepictionTableTextView",
@@ -92,7 +92,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.1-4\n\n- Thêm tính năng chụp ảnh màn hình trong nhóm kênh riêng tư k cho phép chụp\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.1-7\n\n- Xoá bỏ bổ sung bảo vệ tài khoản\n\n ### Phiên bản 1.1-4\n\n- Thêm tính năng chụp ảnh màn hình trong nhóm kênh riêng tư k cho phép chụp\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",

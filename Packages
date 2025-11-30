@@ -6544,6 +6544,24 @@ Author: Phuc Do
 SileoDepiction: https://jtisvn.github.io/sileodepictions/MiuminUIPro.json
 Icon: https://dobabaophuc1706.github.io/repo/package/CC/icon.png
 
+Package: com.jtis.modern6
+Architecture: iphoneos-arm64
+Version: 2.1.2
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.modern6_2.1.2_iphoneos-arm64.deb
+Size: 7902348
+MD5sum: 001d15cb9fc3b7ee4d8cb5f7283fcd38
+SHA1: d0540965465e4e1c4d68f32a4c00fb58718b5134
+SHA256: 3c2acd749d19e08c670621759187b781a06a44c8577288fe6f4706213cedf0f1
+SHA512: 5f79e9aa457843ffac8616bbbbd1f18c3318257f04d3c42100c4056402554a06ce0aa43529deea5fbfb0ee8ad58e6be1f612e8320f869dbc07f5fb35a558936f
+Description: Chủ đề iOS 6
+Name: Modern 6
+Author: IceCool Tech
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Modern6.json
+Depiction: https://jtisvn.github.io/depictions/Modern6.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
 Package: com.jtis.networkmanager
 Architecture: iphoneos-arm64
 Version: 1.4.3
@@ -8010,6 +8028,45 @@ MD5sum: b023638e969ec84ff0bff5b83bf97962
 SHA1: 3396b4f0a2762eab606cb46ec96e62f663827efa
 SHA256: 89f3dc8d269d61be05e8a6c8041362f4ee0ed38975f548c78a37768f7ffdddcd
 SHA512: b9d26cbe89867873e1e43c9536cb3bbbaef50283a2498f1b91327ba2a287b8ff62556c3973c6caaaef22c370af0045a8e21e916363ee111e28bcc2d4f9003675
+Description: Unlock Swiftgram Pro, Hỗ trợ phiên bản mới nhất
+Name: Swiftgram Crack
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Swiftgramcrack.json
+Icon: https://jtisvn.github.io/sectionIcons/Swiftgramcrack.png
+Author: Netskao
+
+Package: com.jtis.swiftgramcrack
+Architecture: iphoneos-arm64
+Version: 1.1-7
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 1080
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.jtis.swiftgramcrack_1.1-7_iphoneos-arm64.deb
+Size: 423384
+MD5sum: e63da1e058e1ff6f4b30c3703f49a8de
+SHA1: a665bc3d488611f659daac2016039320cd52dfaa
+SHA256: 1dce2c0efe37776ffaf4e0a2ff2a8ca03e50bf42b38247d20ec0e60abd1a251a
+SHA512: df08c33cbb696484a5c09864fcc402c287a8aa0e2e7e0c0f8645dba53b59203f50508f904d5dcb277c7a74c7a5177479561b576f0b4fab8d82ac69d7c04c3954
+Description: Unlock Swiftgram Pro, Hỗ trợ phiên bản mới nhất
+Name: Swiftgram Crack
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Swiftgramcrack.json
+Icon: https://jtisvn.github.io/sectionIcons/Swiftgramcrack.png
+Author: Netskao
+
+Package: com.jtis.swiftgramcrack
+Architecture: iphoneos-arm64e
+Version: 1.1-7
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 1080
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.jtis.swiftgramcrack_1.1-7_iphoneos-arm64e.deb
+Size: 573400
+MD5sum: 1fe9735d1e3902b7b35e07809ed066a2
+SHA1: 28c330bbc7616402a5f005dd5a51390f4130a577
+SHA256: 034abe549cb2cc15020a738e3049e7ade4486361b8ba0e45ffe7d44c5eea1f01
+SHA512: 2267fc49809e6a8843601b76d5bc16ff4e10a1a5b594ad32914358de6ec3a6c6ff6e3170a710ee2de424020495cdd63dcfb2ae4740cf80f05245e088a2ef75c2
 Description: Unlock Swiftgram Pro, Hỗ trợ phiên bản mới nhất
 Name: Swiftgram Crack
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Swiftgramcrack.json
