@@ -3257,22 +3257,65 @@ Icon: https://jtisvn.github.io/sectionIcons/Batteryinfo.png
 Name: Battery Info (Roothide)
 
 Package: com.jtis.batterypercent
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.batterypercent_1.0.1_iphoneos-arm.deb
+Size: 12836
+MD5sum: d8242b71ba6ef415ed2e79db87e43903
+SHA1: 1a519ad65c0c670cf5965fb3a6e75eec712f72c5
+SHA256: e688350383f89a39b871d7b500a1ae2135fb247aba9fbe74d4c24427bb819a7d
+SHA512: 5def785f12adcecbebffe91133f02faa1fdd029adc62ff0983509af367665f817905a3244e8362caf3f02ed220274dda9f519d80f8cc6a8ae74495f89a511ff2
+Description: Hiển thị % của iOS 16 cho thiết bị đơi thấp!
+Name: BatteryPercent iOS16
+Author: nqt1195
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BatteryPercent.json
+Depiction: https://jtisvn.github.io/depictions/BatteryPercent.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.batterypercent
 Architecture: iphoneos-arm64
 Version: 1.1.2
 Section: Tweaks
-Maintainer: JTIS Repo
+Maintainer: JTISVN Repo
 Installed-Size: 104
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.batterypercent_1.1.2_iphoneos-arm64.deb
-Size: 12548
-MD5sum: 094fe1e88aa2860585a97369503749af
-SHA1: 75446ffadb607a0f05a718eadb7a32143d970628
-SHA256: 893586e99b20c25d6d080a1d1cd97dd2ce8aa60157b43fed38b4dfd7110cba66
-SHA512: a13f3f4b3f0d4f2da7814947b1ff5fec20d9157bcd85cfe29a9d019076d96871bd572fb74aef1dc03ec4830caf8832ac3443e575a20a77d9a21920452efd60d6
+Size: 12584
+MD5sum: 47839e3a73c893fa5f6b81da9e372ade
+SHA1: 24cb00da1bf7aed40775461386580b97381e9a0f
+SHA256: 81019aa50546751ab6fae2e6c8228b9d91479054418472871ec17746ff71c020
+SHA512: 2e2765ef2143ddc3ea0f165b031bd9208914beeae1f3f636b9c40b7cd0f06a31c3e171ac1a5c90670d5b33d3cb1a7c0bf8859005777eb305330f856480c08399
 Description: Hiển thị % pin iOS 16 cho dòng thấp IOS 15 trở xuống
 Name: BatteryPercent iOS16 (Rootless)
 Author: nqt1195
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BatteryPercent.json
+Depiction: https://jtisvn.github.io/depictions/BatteryPercent.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.batterypercent
+Architecture: iphoneos-arm64e
+Version: 1.1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 104
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.batterypercent_1.1.2_iphoneos-arm64e.deb
+Size: 12784
+MD5sum: b1c965b10b904af02631586eb7f62f0e
+SHA1: 670f40d5554272bc111d1f772fab78ad2e398061
+SHA256: 1bd3bb67be1599362eedc1fe02fcfa17c6110005b6daa0ec28a207b29b75364a
+SHA512: 14dc0e49bc035bae43ff8022be72206a99972cbd4249247ac5ceebdade6a178affc1278d62518fe000112b1b4604fd914e6ba793e1a1392b1c0156572c7ac08c
+Description: Hiển thị % pin iOS 16 cho dòng thấp IOS 15 trở xuống
+Name: BatteryPercent iOS16 (Roothide)
+Author: nqt1195
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BatteryPercent.json
+Depiction: https://jtisvn.github.io/depictions/BatteryPercent.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.bettercc
 Architecture: iphoneos-arm64
