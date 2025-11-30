@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liquid Glass - JTISVN Repo</title>
+    <title>AppData Plus - JTISVN Repo</title>
     <style>
         :root {
             /* Màu Tint từ JSON */
-            --tint-color: #339999; 
+            --tint-color: #3399FF; 
             --bg-color: #ffffff;
             --text-color: #000000;
             --secondary-text: #777777;
@@ -42,7 +42,7 @@
             display: block;
         }
 
-        /* 2. TABS NAVIGATION (Cố định) */
+        /* 2. TABS NAVIGATION */
         .tab-nav {
             display: flex;
             justify-content: space-around;
@@ -108,7 +108,7 @@
             padding-bottom: 20px;
             -webkit-overflow-scrolling: touch;
             scrollbar-width: none; 
-            /* Căn giữa vì số lượng ảnh ít, nhìn sẽ đẹp hơn */
+            /* Căn giữa vì số lượng ảnh ít (2 ảnh) */
             justify-content: center; 
         }
         .screenshots-scroll::-webkit-scrollbar {
@@ -219,7 +219,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background-color: rgba(51, 153, 153, 0.1); /* Màu Tint nhạt */
+            background-color: rgba(51, 153, 255, 0.1); /* Màu Tint nhạt */
             color: var(--tint-color);
             padding: 15px;
             border-radius: var(--radius);
@@ -246,12 +246,12 @@
 </head>
 <body>
 
-    <img src="https://jtisvn.github.io/coverimage/LiquidGlass.png" alt="Liquid Glass Banner" class="banner">
+    <img src="https://jtisvn.github.io/coverimage/Appdata.png" alt="AppData Banner" class="banner">
 
     <nav class="tab-nav">
         <button class="tab-btn active" onclick="openTab(event, 'info')">Giới thiệu</button>
         <button class="tab-btn" onclick="openTab(event, 'changelog')">Nhật ký thay đổi</button>
-        <button class="tab-btn" onclick="openTab(event, 'contact')">Liên hệ Hỗ trợ</button>
+        <button class="tab-btn" onclick="openTab(event, 'contact')">L.Hệ & Hỗ trợ</button>
     </nav>
 
     <div class="content-container">
@@ -259,23 +259,21 @@
         <div id="info" class="tab-content active">
             
             <div class="screenshots-scroll">
-                <img src="https://jtisvn.github.io/infodeb/LiquidglAss/Screenshots/1.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/LiquidglAss/Screenshots/2.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/Appdataplus/Screenshots/1.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/Appdataplus/Screenshots/2.png" class="screenshot-img" onclick="openImage(this)">
             </div>
 
             <div>
                 <ul>
-                    <li>Chủ đề Liquid Glass, được thiết kế bởi Nguyên Tokuda và Hoàng MD</li>
-                    <li>Chi tiết gói gồm:</li>
+                    <li>Trình quản lý xem và truy cập dữ liệu ứng dụng của bạn bằng cách vuốt lên biểu tượng từ màn hình chính</li>
+                    <li>Chức năng gồm có:</li>
                     <ul>
-                        <li>610 biểu tượng</li>
-                        <li>1 Huy hiệu thông báo</li>
-                        <li>1 biểu tượng LS UI</li>
-                        <li>2 Hiệu ứng Mask AE</li>
-                        <li>2 Dock UI (Light & Dark)</li>
+                        <li>Hạ cấp và chỉnh sửa tên ứng dụng.</li>
+                        <li>Xem phiên bản và sao chép Bundle ID ứng dụng.</li>
+                        <li>Kiểm tra kích thước, dữ liệu và bộ đệm ứng dụng.</li>
+                        <li>Đặt lại quyền, xoá dữ liệu và bộ nhớ đệm ứng dụng.</li>
+                        <li>Truy cập nhanh các nhóm gọi ứng dụng và vùng chứa úng dụng.</li>
                     </ul>
-                    <li>1 chủ đề Trình quay số và mật khẩu màn hình khoá</li>
-                    <li>Kích hoạt chủ đề qua tinh chỉnh Snowboard.</li>
                 </ul>
             </div>
 
@@ -286,25 +284,29 @@
                 <div class="info-column">
                     <div class="info-item">
                         <span class="info-label">Tác giả</span>
-                        <span class="info-value">Nguyên Tokuda & Hoàng MD</span>
+                        <span class="info-value">Fouad Raheb & Netskao</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Thể loại</span>
-                        <span class="info-value">Themes</span>
+                        <span class="info-value">Tweaks</span>
                     </div>
                     <div class="info-item">
-                        <span class="info-label">Phiên bản</span>
-                        <span class="info-value">2.0k</span>
+                        <span class="info-label">Ngày cập nhật</span>
+                        <span class="info-value">7/7/2025</span>
                     </div>
                 </div>
                 <div class="info-column">
                     <div class="info-item">
-                        <span class="info-label">Ngày tải lên</span>
-                        <span class="info-value">21/9/2025</span>
+                        <span class="info-label">Phiên bản</span>
+                        <span class="info-value">1.1.0-p</span>
                     </div>
                     <div class="info-item">
-                        <span class="info-label">Khả năng tương thích</span>
-                        <span class="info-value">iOS 12.0 đến 16.7.10</span>
+                        <span class="info-label">Kích thước</span>
+                        <span class="info-value">13 MB</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Tương thích iOS</span>
+                        <span class="info-value">15.0 - 16.6.1</span>
                     </div>
                 </div>
             </div>
@@ -312,17 +314,9 @@
         </div>
 
         <div id="changelog" class="tab-content">
-            <h3 style="margin-top: 10px;">Phiên bản 2.0k</h3>
+            <h3 style="margin-top: 10px;">Phiên bản 1.4.0</h3>
             <ul>
-                <li>Sửa lỗi sự cố tải về Theme cho Roothide</li>
-            </ul>
-            
-            <div class="separator"></div>
-
-            <h3 style="margin-top: 10px;">Phiên bản 2.0</h3>
-            <ul>
-                <li>Thêm 1 số biểu tượng mới</li>
-                <li>Thêm hỗ trợ cho Rootfull</li>
+                <li>Sửa lỗi</li>
                 <li>Hỗ trợ Rootless & Roothide Jailbreak</li>
             </ul>
         </div>
@@ -332,7 +326,7 @@
                 <a href="https://paypal.me/HiuKitsudo" class="action-btn" target="_blank">
                     Paypal <span>&#8594;</span>
                 </a>
-                <a href="https://jtisvn.github.io/donate/donate.html" class="action-btn" target="_blank">
+                <a href="https://jtisvn.github.io/homepage/donate/donate.html" class="action-btn" target="_blank">
                     Ủng hộ tôi một ly cà phê <span>&#8594;</span>
                 </a>
                 <a href="https://t.me/jailbreaktrolliossupport" class="action-btn" target="_blank">
