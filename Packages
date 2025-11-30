@@ -2639,15 +2639,16 @@ Installed-Size: 5708
 Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.17.1), com.spark.libsparkcolourpicker
 Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
 Filename: ./debs/com.jtis.aimpro_1.1.3K_iphoneos-arm.deb
-Size: 2356204
-MD5sum: 1c93ee5069c77a6f13c11630891be633
-SHA1: 0aedc45f57cc103286eb5fe075a7d12580c991fc
-SHA256: 622e11c10588954e9cc306b18cd8fedeaec7c87d57457617d6a72ec049fa6e09
-SHA512: 529e012dc9c53a2f41b270b3db3b73ee1c2bf19bbfa3e1a5b26d99f00582ef98d582c7b57e379ce96b075e20ed5ed587b7713bd84178e07e78ed79668dfb6195
+Size: 2355724
+MD5sum: 83562ea228d8492cc03deaf16a8cf0fc
+SHA1: 40593d5700fd644250e6a8aa70ba41bc0be76dea
+SHA256: a5ff1a631c5aa71924ecedad0d7dc1faf8f1d4bccc9febe8414902755e02a7ad
+SHA512: 77c35431249662c3598dac510b1582f332618b1c04ef6fb0835906859f4b167f4d790f37b150ec9916492f2412d88c943bca8bf5c3df9d3cab602f87a1b795a5
 Description: Tuỳ chỉnh màn hình khóa theo kiểu iOS 16
 Name: AIM Pro
 Author: alimaulana
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AimPro.json
+Depiction: https://jtisvn.github.io/depictions/AimPro.html
 Icon: https://jtisvn.github.io/sectionIcons/AimPro.png
 
 Package: com.jtis.aimpro
@@ -3755,11 +3756,11 @@ Installed-Size: 812
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
 Replaces: com.ryannair05.cask2
 Filename: ./debs/com.jtis.cask3_1.0.0_iphoneos-arm.deb
-Size: 318420
-MD5sum: 8421dc235183db3741fb58da938036af
-SHA1: c4caff399bcbd8ae59b793e0d28c5fe6f674bf66
-SHA256: e4cff1f16a3b6c050a8e55d40f2b04e792cb01953542b7511ff991b9382771ef
-SHA512: 2661f3616d0c34f5e815942cbe3b91deae28f394139a5cd360db1035b2f2ae4c1a5792974b2295b022ad115de43df639e3eec5b1b2e2148cc7aed5373cb7dfe8
+Size: 318516
+MD5sum: 8fb9bffd1665689a00e033c42698c33b
+SHA1: be2e11bd50c742355a36d41c66f5173c0563b836
+SHA256: b74c0741f74acb8ee2aec0724d3bd2f1383a7b5144d918559f7d01f74ded4d29
+SHA512: fc742938f589ffc07e01d7f2dcd104e13633981ccab0f64846a8f82ecc5d8d03545f8c336a43776fd525ad617edebd1ffa166df69e839061c5df6dd4d30271de
 Description: Di chuyển bảng hoạt hình
 Name: Cask 3
 Author: Ryan Nair
@@ -3776,16 +3777,17 @@ Installed-Size: 840
 Depends: firmware (>= 14.0)
 Replaces: com.ryannair05.cask2
 Filename: ./debs/com.jtis.cask3_1.0.3_iphoneos-arm64.deb
-Size: 313276
-MD5sum: 2c59590b2432cb07569e6e3066af3af5
-SHA1: 35d2df684b3064739391452e79fbb2e78b266bcc
-SHA256: 79de723e09bc3fbe5c02aeac73e0809bc0ff7dff8b691d445f859cb77fad75d7
-SHA512: 58c61cae4cc45aa9f91a4fde9e0d39680f1acec662c0b89757550a6ed00556b8661d55b75e828c353846da1d08ac19d2b94c5ab2c85e26905411e496291ac3c9
+Size: 313280
+MD5sum: 597ba6b4a1d2b1ad28f90dd3462a6853
+SHA1: a4d74cc4b3dd389afa506be067a0c368040e62b7
+SHA256: f0ea192ee6a190b9872b5c9c948c6012c859225ab40ec0751f4a9d927875b53c
+SHA512: 2854fe5b2068870582b0a3a805ea109979edc4d868b80943376dc99d30fa5101f55993d85a777d79297aacd42d2e2232049279fad8ae61529a258e82cd3ee988
 Description: Cask 3 mang hiệu ứng cuộn bảng động đến toàn bộ iOS 14 trở lên. Với các phiên bản iOS thấp hơn, hãy thử dùng Cask gốc của Ryan Petrich hoặc Cask 2.
 Tag: compatible_min::ios14.0
 Author: Ryan Nair <ryannairtweaks@gmail.com>
 Name: Cask 3 (Rootless)
 Icon: https://jtisvn.github.io/sectionIcons/Cask3.png
+Depiction: https://jtisvn.github.io/depictions/Cask3.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cask3.json
 
 Package: com.jtis.cask3
@@ -5534,15 +5536,34 @@ Version: 1..1
 Section: Chủ đề
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.iOS26_1..1_iphoneos-arm64.deb
-Size: 4386368
-MD5sum: d73dd3027978c2101ffa8a618d021229
-SHA1: 6fcd268d5befd805ab59275387d45ea1a554f50c
-SHA256: 98fa498fd4d39eb6e7ddd9f752f2bf97fca39aa27528ce6b69cb830135f7f340
-SHA512: 7e2f942ada2e5907792e02d7fb44d29173f876a7176bc6a099699a3aefbe77e1c0edb24cd169d75deed188bd847f3a84635cab29a11ae3a1aa14bf2b5fc07cc8
+Size: 4386384
+MD5sum: e10271a47e13c0fce9cbb2e0fc1574e8
+SHA1: bcb31399700f95be823b0d15f9eec36c70fb1684
+SHA256: cb84dcd8a6a17b2005f02b2a3b1c2798be660886120ceb2012c017ac79f40181
+SHA512: c81679b2301ab702a51852db692ca2272666d61ea0f34a1518a97d054ccf159c16ddb66d125f792e956dfabe335de34911543c918d72b2f6e86c9c41c430b718
 Description: Chủ đề iOS26
 Name: iOS26 Theme
 Author: Hoàng MD
 SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS26.json
+Depiction: https://jtisvn.github.io/depictions/iOS26.html
+Icon: https://jtisvn.github.io/sectionIcons/iOS26.png
+
+Package: com.jtis.iOS26
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Chủ đề
+Depends: com.spark.snowboard
+Filename: ./debs/com.jtis.iOS26_1.1_iphoneos-arm.deb
+Size: 4386496
+MD5sum: b5cfeed0f13cb0c072150825a191ead3
+SHA1: c2c6fda28db9193f44d1895b855b73168e24d21b
+SHA256: 71128d88d99f14cce5e61a08c9c50b53c7c4568746e3c6d06a9c0278e67e679a
+SHA512: 8573629cbd7874edc3cbe756d8fce0eb701721d604693d432dfe5345097fcdf477869a016e5f3f78ae2ff6661e0ea4eed7fa6f7488cf4849830a8478e60d6de7
+Description: Chủ đề iOS 26
+Name: iOS26 Theme
+Author: Hoang MD
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS26.json
+Depiction: https://jtisvn.github.io/depictions/iOS26.html
 Icon: https://jtisvn.github.io/sectionIcons/iOS26.png
 
 Package: com.jtis.iScreen
@@ -7609,15 +7630,16 @@ Depends: com.creaturecoding.libcspreferences
 Conflicts: com.cpdigitaldarkroom.placeholder
 Replaces: com.cpdigitaldarkroom.placeholder
 Filename: ./debs/com.jtis.shuffle_1.6.2_iphoneos-arm.deb
-Size: 352924
-MD5sum: acd567adaf2f45963951eb6f714743ee
-SHA1: 0cc469de36986ff5327536dc2c30b744c1ced28b
-SHA256: c1d05efb7b2e80eda706a038562c9d19b21dc0a09ad83f6b1f9865a31557dd64
-SHA512: 33919e1c400248d2d9a2413eaab094939dab40ecf6928ebc74347bf30873012cb34c3fb03b12bcc250bbd087d534190397e9148464568a18598f2100c5d328a3
+Size: 353108
+MD5sum: 249136a898fa0af2db6d1a0fd5e32d2f
+SHA1: 2e7302ff65bdf12eaadaa6b628e047ef64b4c78e
+SHA256: cd0591fe5087632b3ed9dfb045388548549ffb215a1a63456fdf1f330c18b048
+SHA512: cea45d749f248f7cd9afcfe8883be40a8ec0f6b009538107eb60fa01ea5c7e83a52209979a102e3d628a20f20cfa43fd6f2a6fee7d27ded02a4a7d203c721b62
 Homepage: https://jtisvn.github.io
 Description: Sắp xếp cài đặt của bạn
 Name: Shuffle
 Author: CreatureSurvive
+Depiction: https://jtisvn.github.io/depictions/Shuffle.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Shuffle.json
 Icon: https://jtisvn.github.io/sectionIcons/Shuffle.png
 Tags: purpose::extension, compatible_min::ios10.0, compatible_max::ios15.5
@@ -7633,17 +7655,18 @@ Depends: com.creaturecoding.libcspreferences
 Conflicts: com.cpdigitaldarkroom.placeholder
 Replaces: com.cpdigitaldarkroom.placeholder
 Filename: ./debs/com.jtis.shuffle_1.6.2_iphoneos-arm64.deb
-Size: 253940
-MD5sum: b58b7c4baf1b9656fc9c5eef90b2b69e
-SHA1: 4254341b5441315bc6876c6c0a774f95dd1082b7
-SHA256: 45ae20230dc2d839ea648cb8dcef1f45e17b2626aa8d32445a81d2fe51a70a5f
-SHA512: 04f7dd729d029ee553a023398a8cac4e3f533d9689ac6eb29e535c948054ff65ec6f855c47ebc371ac31810787a52a0d690d499ddde0635d58e14e114c99499c
+Size: 253804
+MD5sum: 7d784100942479385cca1e9ac51f3ca9
+SHA1: b188c288ddc0e1c92ef7160e9f67281a26b9ac0a
+SHA256: ea9f51b8ca3ad501903170dfb1d814714c707751e5b82bbc42bdfed9f34c1a70
+SHA512: 6a291b21ab47f2981c674c216d2f0b5cf9b43595ff4845e4900025e1b38dc41dd9f64bd3cda1ac6063bf6e402ccddb135e3b5ec22158f424f0e484dfe99b7f72
 Homepage: https://jtisvn.github.io
 Description: Organize your settings
 Tag: purpose::extension, compatible_min::ios10
 Name: Shuffle (Rootless)
 Author: CreatureSurvive <support@creaturecoding.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Shuffle.json
+Depiction: https://jtisvn.github.io/depictions/Shuffle.html
 Icon: https://jtisvn.github.io/sectionIcons/Shuffle.png
 
 Package: com.jtis.shuffle
@@ -9443,25 +9466,6 @@ Icon: https://jtisvn.github.io/sectionIcons/HammerIt.png
 
 Package: com.leftyfl1p.carbridge13
 Architecture: iphoneos-arm
-Version: 2.0.15K
-Section: Tweaks
-Maintainer: leftyfl1p <carbridge@havoc.app>
-Installed-Size: 7156
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.16), com.spark.libsparkapplist (>= 1.0.9), com.opa334.altlist (>= 1.0.10)
-Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
-Filename: ./debs/com.leftyfl1p.carbridge13_2.0.15K_iphoneos-arm.deb
-Size: 404996
-MD5sum: 60ae818431cf46bcd6b23b5acf87a7da
-SHA1: 1af6b1f8e508d9f36e7a8a09acfd585975b08052
-SHA256: 840f4e69fbac0ccde8d5af2a6131879f51fd21a8baee77336c806369cfd0a38d
-SHA512: dbd0a37268c399644291342ee9f225b4502ae2a17ecef40457395ecadb9bb1903a455d69981947b2458fd959f053a5c483bd0006818918ae2677d03abb2b83c7
-Description: Mở bất kỳ ứng dụng nào trong CarPlay!
-Icon: https://media.havoc.app/6393d4ecfb3fac29d26b9143
-Name: CarBridge
-Author: leftyfl1p <carbridge@havoc.app>
-
-Package: com.leftyfl1p.carbridge13
-Architecture: iphoneos-arm
 Version: 2.0.15
 Section: Tweaks
 Maintainer: leftyfl1p <carbridge@havoc.app>
@@ -9469,14 +9473,15 @@ Installed-Size: 7156
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.16), com.spark.libsparkapplist (>= 1.0.9), com.opa334.altlist (>= 1.0.10)
 Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
 Filename: ./debs/com.leftyfl1p.carbridge13_2.0.15_iphoneos-arm.deb
-Size: 439740
-MD5sum: 1ffd1b7017da1bba6af40eb78e8d2ce8
-SHA1: c870bd4ce442b0b56fb7921ef4e123764defa9ef
-SHA256: 727300375bbc3bf8ef13751cd2e8115f13db9a5781c21947f57f040a55b09cca
-SHA512: e47f06978150b9b8e9e994e3d6cd67f6810b6bf1e9e20a064ca6a5961a7cd03094c911dc978936fa71af0230a452ed12dcd709e526408f86eab9a00e991c1c7c
+Size: 440540
+MD5sum: 190ad1518efe257827e526246a9b5aaa
+SHA1: d78ef000c1b8840a39d0e09f96c9bbd79aefef44
+SHA256: 709ff968b827f9c8a910198e6f1ceb5aded641a180bbb442ba4246a0d5ccf5a8
+SHA512: 6a6a096cc75a036a6897d4ee0db69a599c5ec733247a73c0a93e19c0ea2c1ced0d854954c2202643e1b307c4730f85cd2ef3208b8912cc7cdab93684a17a97f8
 Description: Mở bất kỳ ứng dụng nào trong CarPlay!
-Icon: https://media.havoc.app/6393d4ecfb3fac29d26b9143
-SileoDepiction: https://jtisvn.github.io/sectionIcons/CarBridge.png
+Icon: https://jtisvn.github.io/sectionIcons/CarBridge.png
+Depiction: https://jtisvn.github.io/depictions/CarBridge.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CarBridge.json
 Name: CarBridge
 Author: leftyfl1p <carbridge@havoc.app>
 
@@ -10766,14 +10771,15 @@ Maintainer: Baw Appie <pp121324@gmail.com>
 Installed-Size: 2380
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/com.rpgfarm.a-font_1.10_iphoneos-arm.deb
-Size: 496468
-MD5sum: ba5b39f0f1c1fc372aa35173d8a303ca
-SHA1: 03c9888b8b025187dd6e9ad5accc2a1002b0fdd8
-SHA256: ef26cd0dda8a8dac4c5a53e903b369ebead6fa86ede489f169c25851cb608e5a
-SHA512: 24ed25c756bdbe45f20de6db9c32abe6b3e05999e9e88e44aac3029510b12ee6059fc57e970c73b93ce1a3cf1817bba6850b227bff8e73221bbd5258ba5c6dff
+Size: 497488
+MD5sum: 64c411e6ea7cd4a9d351cce4e831b3a3
+SHA1: 79c7d9811b45e15f51ac352b7e05e17c59eba13d
+SHA256: 6c41ce41803a1de1279a4fead9800997cacc689e24f63f8c06c371e1585ae380
+SHA512: 6474c4d0505f101362fe03a754f6ab1d599b10f9ea8ea4d6434c1405e965a8703a6e1fea5095dd49dfefffed847f4290b145f13ef8061b549b90b54864a4bc7b
 Description: Thay đổi phông chữ của bạn!
 Name: A-Font
 Icon: https://jtisvn.github.io/sectionIcons/A-Font.png
+Depiction: https://jtisvn.github.io/depictions/A-Font.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/A-Font.json
 Author: Baw Appie <pp121324@gmail.com>
 
