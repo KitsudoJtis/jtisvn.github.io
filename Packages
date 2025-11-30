@@ -2207,6 +2207,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/GoodWiFi.json
 Depiction: https://jtisvn.github.io/depictions/GoodWiFi.html
 Icon: https://jtisvn.github.io/sectionIcons/GoodWiFi.png
 
+Package: com.jtis.GoodWifi
+Architecture: iphoneos-arm64e
+Version: 1.0-debug
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 596
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.jtis.GoodWifi_1.0-debug_iphoneos-arm64e.deb
+Size: 41212
+MD5sum: f8737a3f759e702e4329b8bfbb59e3c9
+SHA1: 3f77b8a207793e7f3da74a174db9b12fc11dda8e
+SHA256: 4a93ace7b9e93393e691a8124fe3434825f87bb112d3077435d7f638fc7b2bb2
+SHA512: adf3c9a64adfcd79967b86f814a32516b4fa716209cb795c8b89dc851be338dc58a2083ef86722766d615e96f45c43ce83d3fb588738d6d489adab285bbc89dd
+Description: Hiển thị mật khảu Wifi đã kết nối
+Name: GoodWifi (Roothide)
+Author: Julioverne
+SileoDepiction: https://jtisvn.github.io/sileodepictions/GoodWiFi.json
+Depiction: https://jtisvn.github.io/depictions/GoodWiFi.html
+Icon: https://jtisvn.github.io/sectionIcons/GoodWiFi.png
+
 Package: com.jtis.LS-16-VN
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -11835,11 +11856,11 @@ Maintainer: uz.ra
 Installed-Size: 896
 Depends: mobilesubstrate
 Filename: ./debs/jp.uzra.aeria_1.3_iphoneos-arm64.deb
-Size: 158972
-MD5sum: 8ecb27494dd98ffb5817c4351a89dbf4
-SHA1: 6b1b3952103d9bbc8c4946893e33e03c20d1cecc
-SHA256: 40951ffa65301fe05cdb3e57faba8be3ee750af2a88d0ff77d4540688259915e
-SHA512: 15e6512301d971181cc7978b6602b0a78c1f5b1aa83b0461715910394fe6e2254acbe69ddfe48e9ee205577bb39c834d212be691c4c65212f6efd80d36773547
+Size: 155244
+MD5sum: 8170aee1e4ae756e33fa576a1f81eb5b
+SHA1: e0487cf3a6bb03db1ba4d37719fc93dc7fe1b2bd
+SHA256: 4d8aaeda54a59b623334797d4cbe726caaea3b92cf573a43528f4938247a2b91
+SHA512: 816db96d7e306c50006872f925238677e8a6f2ec8ba389e20a3f3126129a000f80f601ef99c098bfad7088dd1314bceb7dd21ef317b702b3ec48e54b42182502
 Homepage: https://jtisvn.github.io
 Description: Stage Manager, redesigned for iOS
 Name: Aerial (Rootless)
@@ -11857,11 +11878,11 @@ Installed-Size: 896
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/jp.uzra.aeria_1.3_iphoneos-arm64e.deb
-Size: 158468
-MD5sum: b94860a1f1a04d6ec0f5a4ddee75b1d1
-SHA1: ba1855dc3e5778540a032cb950609cb6df847a93
-SHA256: ee4dbc0688b7fadd34b6f3bfdf0cd611fb0285e14ffbf6e98c787ef1674df58b
-SHA512: 117a617be37276fcbc6107a921f709036d94f48589c62a45233692418b73de54281925dfa23d935c2bf1af4fac86a232578913a62c8a306a75360067088431a6
+Size: 155624
+MD5sum: d077bfa3c0ec1ef2c1f83c7a09436363
+SHA1: 11404e4c1904f9bd2e6dceb232f3fed293e64c62
+SHA256: 95811964075faab61eb44b9966091a1eeae59956bf3bde36982c39265311d161
+SHA512: 8311cb12766fe598a07de0de08a619b356afddf8d5df3e9d36360916b174ee91f4da9cc30a14bc462e0ee126e3e9f1c39e479071163c669dff8ab300c0dd485e
 Homepage: https://jtisvn.github.io
 Description: Stage Manager, redesigned for iOS
 Name: Aerial (Roothide)
