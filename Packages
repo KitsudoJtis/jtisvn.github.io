@@ -9756,6 +9756,30 @@ Icon: https://axs66.github.io/repo/icon/dumpdecrypter.png
 
 Package: com.netskao.pulloverpro
 Architecture: iphoneos-arm
+Version: 1.7
+Priority: optional
+Section: Tweaks
+Maintainer: c1d3r <c1d3rdev@gmail.com>
+Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
+Conflicts:
+Replaces:
+Filename: ./debs/com.netskao.pulloverpro_1.7_iphoneos-arm.deb
+Size: 909752
+MD5sum: 2d41a4433035336ee6e54d821775cc79
+SHA1: 57455191c36716d8df7abe5c797ff729d8b9ac91
+SHA256: 2c3fe54ebdb2d059c19626a38d707d38c99f67b1da13dfd5a5032bf794d4f242
+SHA512: 11fbff727ba7be6fb3154dd72b4f0e9e872762d90776c978c5cd52b9b266f47e344d1a7c07c4be6fc945868fb34ef06717f12d4a0c5939b3fa2bf13b1159478e
+Homepage:
+Description: A better way to multitask!
+Name: PullOver Pro
+Author: c1d3r
+dev: c1d3r
+Depiction: https://c1d3r.com/repo/depictions/?p=com.c1d3r.pulloverpro
+Icon: https://jtisvn.github.io/sectionIcons/PullOverPro.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverpro.json
+
+Package: com.netskao.pulloverpro
+Architecture: iphoneos-arm
 Version: 2.1.1
 Section: Tweaks
 Maintainer: JTISVN Repo

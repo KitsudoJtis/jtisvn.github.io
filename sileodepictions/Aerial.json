@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.0\n\n- Thêm tùy chọn tắt tính năng Flex Resize (Co giãn linh hoạt).\n\n- Thêm biểu tượng vào menu 3D Touch.\n\n- Thêm chế độ chia ba màn hình (split-thirds) cho SplitStage.\n\n- Tắt cảm ứng đa điểm trên các thanh điều chỉnh (handles) để tránh bị vỡ giao diện.\n\n- Sửa lỗi Chế độ Cắt (Trim Mode) khi tính năng Flex Resize đang bị tắt.\n\n- Sửa lỗi FBScene không tự nạp lại (rehost) khi thay đổi ứng dụng hiển thị chính (foreground).\n\n- Sửa lỗi thanh/nút "minusHandle" không hiện ra khi thoát khỏi Chế độ Cắt.\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 2.0\n\n- Thêm tùy chọn tắt tính năng Flex Resize (Co giãn linh hoạt).\n\n- Thêm biểu tượng vào menu 3D Touch.\n\n- Thêm chế độ chia ba màn hình (split-thirds) cho SplitStage.\n\n- Tắt cảm ứng đa điểm trên các thanh điều chỉnh (handles) để tránh bị vỡ giao diện.\n\n- Sửa lỗi Chế độ Cắt (Trim Mode) khi tính năng Flex Resize đang bị tắt.\n\n- Sửa lỗi FBScene không tự nạp lại (rehost) khi thay đổi ứng dụng hiển thị chính (foreground).\n\n- Sửa lỗi thanh/nút minusHandle không hiện ra khi thoát khỏi Chế độ Cắt.\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
