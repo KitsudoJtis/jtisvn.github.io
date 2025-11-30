@@ -3757,10 +3757,10 @@ Installed-Size: 512
 Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
 Filename: ./debs/com.jtis.callblocker_2.0.4_iphoneos-arm64.deb
 Size: 54044
-MD5sum: 47290704080abcc58b9e0b44af901847
-SHA1: 7f96aa195fbd458b0cb699fd6bebf1ac94020414
-SHA256: 3582f0072c561c3fb2fae260cce42ab732c680d2e5b167fc2c637c2b7a06ec09
-SHA512: 400dbf8a7e3eeba70e95fa6b543bfe03a54c3b9343ed9b2a6dd8a696608584b32ee072d8e12ec9f5090f28abdfc47d52d776078165b1080cbf0afe4c6a6207e9
+MD5sum: 19f4e46a400a5e2668cd8a153b0aa6d3
+SHA1: f19ed92950c158441d20671a379d75dd526f39bb
+SHA256: 53047fccd841bc6bb9ffc0c953182d9c523d5e7ee14a4a9b91e76b70d73902c5
+SHA512: ef7b17164b9495060ca72212e92f176dda241ff49a6c66c44aa91e0a40107c00d951b4f5c89126ca7d6bf97049e43f1b65fe324666a271c3e1395f25cd31165b
 Description: Chặn cuộc gọi lạ gây phiền nhiễu!
 Name: CallBlocker (Rootless)
 Author: P2KDev <p2kdev@gmail.com>
@@ -3776,15 +3776,15 @@ Installed-Size: 512
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
 Filename: ./debs/com.jtis.callblocker_2.0.4_iphoneos-arm64e.deb
-Size: 53752
-MD5sum: 787087e4fcb0ba718f4418b0bfc7d280
-SHA1: 5dc5bffb5cb9f1e8a1e14bc6679f3ece13241b14
-SHA256: 61d1bb166c3dc744a40f753a5327389156e627a7227af54446f5f9ae55a4e89c
-SHA512: 93a3465ee189fc62aecd9c2120d3dae490f88693ddefb9aa51329b136288078498a5de0b796008b2bb3242d7cfc0cbc483d704c73da011e9d8c21fec4c01e088
+Size: 53740
+MD5sum: dc4fb8df02c461e64d3fa26fd7fd8bda
+SHA1: 511ff15e15eca8fa62d645f951dad3eee7d8dd7a
+SHA256: f3ae4fae9b0eb418353d818352cb32359a494e6678f565a958a77d72dac86c48
+SHA512: f9ac95b482261f2cae3a5f5ebc68d8372dadbe9e5e6bbbce7577258b46c95fe5cc6ae3eb1fa75e007e47848b8762a1574388dec751218237eb151548b4c5fecc
 Description: Chặn cuộc gọi lạ gây phiền nhiễu!
 Name: CallBlocker (Roothide)
 Author: P2KDev <p2kdev@gmail.com>
-Depiction: https://jtisvn.github.io/depictions/Depiction: https://jtisvn.github.io/depictions/AimPro.CallBlocker.html
+Depiction: https://jtisvn.github.io/depictions/CallBlocker.html
 Icon: https://jtisvn.github.io/sectionIcons/CallBlocker.png
 
 Package: com.jtis.Cartoo
