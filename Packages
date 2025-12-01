@@ -5331,45 +5331,6 @@ Icon: https://Jtisvn.github.io/sectionIcons/font2.png
 Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
 Author: TQM
 
-Package: com.jtis.galaxy
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Chủ đề
-Maintainer: JTISVN Repo
-Installed-Size: 65137
-Filename: ./debs/com.jtis.galaxy_1.0_iphoneos-arm64.deb
-Size: 2539836
-MD5sum: 54ff2668e0c8c28a354666401f50276f
-SHA1: 01bc2d56c3374cf2eb68fd2ae9911db10b406a2e
-SHA256: 2fbb9b95e787817c27692f3671c3c133e3db176ca1566235ac9af3272924198f
-SHA512: 08d96ecb1218a7ac29435835841146ea1bcba1e1bbb93a82b939f39a528796567474ff84150a7a0c367de0a29bca1eb183e2432f8e79dbc1b2fb062e501dc43c
-Description: Chủ đề Galaxy màu thiên hà
-Name: Galaxy Theme
-Author: @tqmmos
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Galaxy.json
-Depiction: https://jtisvn.github.io/depictions/Galaxy.html
-Icon: https://jtisvn.github.io/sectionIcons/Themes.png
-
-Package: com.jtis.galaxy
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Chủ đề
-Maintainer: JTISVN Repo
-Installed-Size: 65137
- Pre-Depends: rootless-compat(>= 0.9)
-Filename: ./debs/com.jtis.galaxy_1.0_iphoneos-arm64e.deb
-Size: 2539588
-MD5sum: 0a4a28ba0ece29edeb1cc2a1ea6890ba
-SHA1: eab21478ec4c89624a4037d670a7131c9a3aa62c
-SHA256: 2d8ff6b5656b438d93478f8c780cdc88160521da5cefe6753a48059fb9684ea7
-SHA512: 6864777126d6be9b5b5ddb24200c70c708913ee3293d55c7e1bb8b94dc7875cd6234328bc3c58b9a445f876d7a3118a7a047c6d86183317296d815cfbea0f62e
-Description: Chủ đề Galaxy màu thiên hà
-Name: Galaxy Theme
-Author: @tqmmos
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Galaxy.json
-Depiction: https://jtisvn.github.io/depictions/Galaxy.html
-Icon: https://jtisvn.github.io/sectionIcons/Themes.png
-
 Package: com.jtis.gesturesxv
 Architecture: iphoneos-arm64e
 Version: 1.6
