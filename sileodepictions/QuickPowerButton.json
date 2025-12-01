@@ -87,7 +87,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "17/11/2025",
+"text": "1/12/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.0.1-30",
+"text": "0.0.1-32",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.0.1-30\n\n- Thêm tùy chọn tắt vuốt xuống mở Tìm kiếm (Spotlight) trên màn hình khóa\n\n- Thêm tùy chọn tắt vuốt mở Camera trên màn hình khóa\n\n- Thêm tùy chọn tắt vuốt mở chế độ xem hôm nay trên màn hình khóa\n\n ### Phiên bản 0.0.1-29\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 0.0.1-32\n\n- Thêm tùy chọn các cử chỉ vuốt sang trái đến bài bài hát trước đó, vuốt sang phải chuyển sang bài hát tiếp theo và vuốt để phát hoặc tạm dừng\n\n ### Phiên bản 0.0.1-30\n\n- Thêm tùy chọn tắt vuốt xuống mở Tìm kiếm (Spotlight) trên màn hình khóa\n\n- Thêm tùy chọn tắt vuốt mở Camera trên màn hình khóa\n\n- Thêm tùy chọn tắt vuốt mở chế độ xem hôm nay trên màn hình khóa\n\n ### Phiên bản 0.0.1-29\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
