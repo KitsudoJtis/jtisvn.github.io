@@ -6945,6 +6945,41 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Modern6.json
 Depiction: https://jtisvn.github.io/depictions/Modern6.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
+Package: com.jtis.neofreebird
+Architecture: iphoneos-arm64
+Version: 5.3-beta
+Section: Tweaks
+Maintainer: Aridan
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/com.jtis.neofreebird_5.3-beta_iphoneos-arm64.deb
+Size: 6841780
+MD5sum: 69377c9fab646664f4a6922be18164de
+SHA1: 978a7d2c754f79f3acd5c8ef1034920cc31fcbad
+SHA256: 7c6da13124c5957d32a445966470bb443f3f8b4422fb540908e7bd60e29e46bf
+SHA512: 18fa6577e3fd1b1d30d198a9d0f4020cbc70c7a7f1e2bfd0a18736f38acae513d86f84f28ee83a9009af57766e36b0c8a5d289fba1f7ac7ece436acd7fff6788
+Description: Tinh chỉnh Twitter của bạn. Ẩn quảng cáo, kích hoạt các tính năng Blue, và nhiều hơn nữa.
+Name: NeoFreeBird (Rootless)
+Author: Aridan
+Icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxIZv8J1EA7kmghMw_4ZJjjKsn2H_n4zO0JXrXu_QzGA&s=10
+
+Package: com.jtis.neofreebird
+Architecture: iphoneos-arm64e
+Version: 5.3-beta
+Section: Tweaks
+Maintainer: Aridan
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/com.jtis.neofreebird_5.3-beta_iphoneos-arm64e.deb
+Size: 6752984
+MD5sum: 65c09400ae29a7bf94650760d59370b6
+SHA1: 9668e775034805e10721e3c402017ebda9d647ff
+SHA256: f0853620ec3ee7c3a4e8de98f089d2059e443fe32e9e8aad6b1df4ec7a10c88d
+SHA512: 1c5c6f0115d03504111a8629cee268747f7f5d081126528398faf9f80397c0d3dca26f3719df39bd0ae582d7a77a9d5c21e03e4f9201124fb936e3ff810dc9cf
+Description: Tinh chỉnh Twitter của bạn. Ẩn quảng cáo, kích hoạt các tính năng Blue, và nhiều hơn nữa.
+Name: NeoFreeBird (Roothide)
+Author: Aridan
+Icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxIZv8J1EA7kmghMw_4ZJjjKsn2H_n4zO0JXrXu_QzGA&s=10
+
 Package: com.jtis.networkmanager
 Architecture: iphoneos-arm64
 Version: 1.4.3
