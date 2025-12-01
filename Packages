@@ -7331,6 +7331,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/QuickPowerButton.json
 Icon: https://jtisvn.github.io/sectionIcons/QuickPowerButton.png
 Author: SINI
 
+Package: com.jtis.quickpowerbutton
+Architecture: iphoneos-arm64
+Version: 0.0.1-32
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 568
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.quickpowerbutton_0.0.1-32_iphoneos-arm64.deb
+Size: 64760
+MD5sum: 0724601acef2bab12b85b00e6aea7dde
+SHA1: cb1696d8451b67fbe08b54e5700dee8f1515d79c
+SHA256: bb02625abd6c6a78e72008064dc1309f7bea2142d0aaec12810705f5dd931fa9
+SHA512: 7966a1f812e6c9c69c286633f0a01792b87163306dbeb856a14c8f3171271f8f5d59536f55c4fe1cf0089e7ccfa54a8e2856155909a7ded9437e538131164766
+Homepage: https://jtisvn.github.io
+Description: Thêm nút phím tắt giữa đèn pin và camera trên Màn hình khóa. Bấm vào để bật lên các tùy chọn nguồn.
+Name: QuickPowerButton (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/QuickPowerButton.json
+Icon: https://jtisvn.github.io/sectionIcons/QuickPowerButton.png
+Author: SINI
+
+Package: com.jtis.quickpowerbutton
+Architecture: iphoneos-arm64e
+Version: 0.0.1-32
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.quickpowerbutton_0.0.1-32_iphoneos-arm64e.deb
+Size: 62908
+MD5sum: bb75b4c610505d7b7299fed43fc947c7
+SHA1: 7090a41356291a1fdce31d94cfc5c27949169123
+SHA256: dfec8a5fd7cdc6ce9ed91d1d081ba56a7448d04f862f7b12f924772e0bbb8f2c
+SHA512: 583fbe4acaeac688781a264f04bdcb37db236790b06b78358e722e20ea2a523f6758d4e5096a64e655fb062040fb70c294d060816ba4ee3bfd8999e08467c035
+Homepage: https://jtisvn.github.io
+Description: Thêm nút phím tắt giữa đèn pin và camera trên Màn hình khóa. Bấm vào để bật lên các tùy chọn nguồn.
+Name: QuickPowerButton (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/QuickPowerButton.json
+Icon: https://jtisvn.github.io/sectionIcons/QuickPowerButton.png
+Author: SINI
+
 Package: com.jtis.recorddot
 Architecture: iphoneos-arm64e
 Version: 0.0.1
@@ -7726,23 +7767,19 @@ Package: com.jtis.shuffle
 Architecture: iphoneos-arm64
 Version: 1.6.2
 Section: Tweaks
-Maintainer: CreatureSurvive <support@creaturecoding.com>
-Installed-Size: 1484
-Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
-Depends: com.creaturecoding.libcspreferences
-Conflicts: com.cpdigitaldarkroom.placeholder
-Replaces: com.cpdigitaldarkroom.placeholder
+Maintainer: JTISVN Repo
+Installed-Size: 596
+Depends: mobilesubstrate, com.creaturecoding.libcspreferences
 Filename: ./debs/com.jtis.shuffle_1.6.2_iphoneos-arm64.deb
-Size: 253804
-MD5sum: 7d784100942479385cca1e9ac51f3ca9
-SHA1: b188c288ddc0e1c92ef7160e9f67281a26b9ac0a
-SHA256: ea9f51b8ca3ad501903170dfb1d814714c707751e5b82bbc42bdfed9f34c1a70
-SHA512: 6a291b21ab47f2981c674c216d2f0b5cf9b43595ff4845e4900025e1b38dc41dd9f64bd3cda1ac6063bf6e402ccddb135e3b5ec22158f424f0e484dfe99b7f72
+Size: 251020
+MD5sum: 326b2919effc2847ab410f4bfdde0af7
+SHA1: 5bd40faba36975f2775b46f55dc874f64dc6068a
+SHA256: ad864359fb398f70591c3f8435c08447b44a90a98bf27c08f46e0d7e0332f6a3
+SHA512: 7790aba07d4ecb177424353288181c51bc89cbbed5b800446310e730fba074d6276d516ca97c80221125c465937e869f190f66df6d8c3b017a4be26c03466eba
 Homepage: https://jtisvn.github.io
-Description: Organize your settings
-Tag: purpose::extension, compatible_min::ios10
+Description: Shuffle
 Name: Shuffle (Rootless)
-Author: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Shuffle.json
 Depiction: https://jtisvn.github.io/depictions/Shuffle.html
 Icon: https://jtisvn.github.io/sectionIcons/Shuffle.png
