@@ -7517,17 +7517,16 @@ Architecture: iphoneos-arm64
 Version: 0.0.1-32
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 568
+Installed-Size: 572
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.quickpowerbutton_0.0.1-32_iphoneos-arm64.deb
-Size: 64760
-MD5sum: 0724601acef2bab12b85b00e6aea7dde
-SHA1: cb1696d8451b67fbe08b54e5700dee8f1515d79c
-SHA256: bb02625abd6c6a78e72008064dc1309f7bea2142d0aaec12810705f5dd931fa9
-SHA512: 7966a1f812e6c9c69c286633f0a01792b87163306dbeb856a14c8f3171271f8f5d59536f55c4fe1cf0089e7ccfa54a8e2856155909a7ded9437e538131164766
-Homepage: https://jtisvn.github.io
+Size: 66548
+MD5sum: be98f7c40ea9ce5f2fef0b32795dd27a
+SHA1: 418a64d134059252ed6f5a6519155f2f8d0192dc
+SHA256: a039774dcf3f979fad23286663412811ef4c6e04c4f15e3d0bf646be4b1e232f
+SHA512: 5f9e6445b555a1b1887d0eaa7158884e916a927a2a60d907d56b064d8953d3354a329cb87f55ae26e38017d2811b1d66cd01554db5a3ce8855e8db55818a1e76
 Description: Thêm nút phím tắt giữa đèn pin và camera trên Màn hình khóa. Bấm vào để bật lên các tùy chọn nguồn.
-Name: QuickPowerButton (Rootless)
+Name: QuickPowerButton Rootless)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/QuickPowerButton.json
 Icon: https://jtisvn.github.io/sectionIcons/QuickPowerButton.png
 Author: SINI
@@ -7541,11 +7540,11 @@ Installed-Size: 568
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.quickpowerbutton_0.0.1-32_iphoneos-arm64e.deb
-Size: 62908
-MD5sum: bb75b4c610505d7b7299fed43fc947c7
-SHA1: 7090a41356291a1fdce31d94cfc5c27949169123
-SHA256: dfec8a5fd7cdc6ce9ed91d1d081ba56a7448d04f862f7b12f924772e0bbb8f2c
-SHA512: 583fbe4acaeac688781a264f04bdcb37db236790b06b78358e722e20ea2a523f6758d4e5096a64e655fb062040fb70c294d060816ba4ee3bfd8999e08467c035
+Size: 62964
+MD5sum: 6144f7ccaf9abfaf4ac5bbee07a87f4f
+SHA1: bebcf739000c813978637f023f46b5adb8bfb7b0
+SHA256: d856dc85e3f71470dd308b5bf48378bfda9b6c5f0d1c1f72f4b9c8be9f518b06
+SHA512: b85033b1ac44fc4c154877357aeec285885074fd84f683e5a9f7c42c236f9d9e9c137b3b9d3480d220bf7ce3ee5fdd6ecc5dd1ac3c883b2ee6eb9d40528b659b
 Homepage: https://jtisvn.github.io
 Description: Thêm nút phím tắt giữa đèn pin và camera trên Màn hình khóa. Bấm vào để bật lên các tùy chọn nguồn.
 Name: QuickPowerButton (Roothide)

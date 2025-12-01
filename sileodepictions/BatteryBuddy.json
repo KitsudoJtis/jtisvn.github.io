@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"BatteryBuddy\n\n- Thay đổi biểu tượng pin trên thanh trạng thái màn trình chính và màn hình khoá của bạn.",
+"markdown":"BatteryBuddy\n\n- Thay đổi biểu tượng pin trên thanh trạng thái màn hình chính và màn hình khoá của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
