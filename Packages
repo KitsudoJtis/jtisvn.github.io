@@ -9996,19 +9996,18 @@ Section: Tweaks
 Maintainer: c1d3r <c1d3rdev@gmail.com>
 Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
 Conflicts:
-Replaces:
 Filename: ./debs/com.netskao.pulloverpro_1.7_iphoneos-arm.deb
-Size: 909752
-MD5sum: 2d41a4433035336ee6e54d821775cc79
-SHA1: 57455191c36716d8df7abe5c797ff729d8b9ac91
-SHA256: 2c3fe54ebdb2d059c19626a38d707d38c99f67b1da13dfd5a5032bf794d4f242
-SHA512: 11fbff727ba7be6fb3154dd72b4f0e9e872762d90776c978c5cd52b9b266f47e344d1a7c07c4be6fc945868fb34ef06717f12d4a0c5939b3fa2bf13b1159478e
-Homepage:
+Size: 909540
+MD5sum: b4dd5e20c3e464aaf02b3bb5d536d8b6
+SHA1: 67e05c4acaee2f4406d8fa3aa0563274af75c952
+SHA256: 5f647dbb9dcf0d9518a5134f3c3d52edbb9cd815818084a27a23683a64044eea
+SHA512: 4b392defd6c0670b2dd982110a07753e8d9326cea9a3946ec3d865c78d4947091e526ea3c76d0143a41314ed1a70e1e8cc8d1d23644108ae6b02733107d28932
+Homepage: https://jtisvn.github.io/
 Description: A better way to multitask!
 Name: PullOver Pro
 Author: c1d3r
 dev: c1d3r
-Depiction: https://c1d3r.com/repo/depictions/?p=com.c1d3r.pulloverpro
+Depiction: https://jtisvn.github.io/depictions/PullOverPro.html
 Icon: https://jtisvn.github.io/sectionIcons/PullOverPro.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverpro.json
 
@@ -10019,15 +10018,16 @@ Section: Tweaks
 Maintainer: JTISVN Repo
 Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
 Filename: ./debs/com.netskao.pulloverpro_2.1.1_iphoneos-arm.deb
-Size: 742020
-MD5sum: d5ee49995ae742779cc6a6b8de741a4b
-SHA1: 69f1c9da21728f1e7f5f1408319f5e6a50c9e841
-SHA256: 158da62a6629dd3591abd0455bab13ba6cd9e4ed33681692d7ac71aa0034740d
-SHA512: e9ab1a97bdcff458b4ce98e12f209349320453a0abd9db915bb7778192a0e91866638c6378f0f0abf2137d157bd098aa49e8ebbc589ba98a35647daddde501e7
+Size: 742280
+MD5sum: dc3f754b8898323110994e15f9c18e85
+SHA1: 40ade02adb4b0c9bb366ddf74bb39793496d4b15
+SHA256: a44d3f469bdebde0b6b9d6a29a68e531ff20bfc59b6fb5b9f09754575339a830
+SHA512: b73d9ec77ecf6c9d31ef4f41459e38e035edd522db430901d68539a26fe9f9eebc79cc5fd9e7ad49cba76569eafbb36de77c3663320132074c22b262cd5fb320
 Description: Dễ dàng truỵ cập nhanh ứng dụng qua bong bóng chat ở cạnh màn hình.Tải xong vào cydia cài thêm gói Cracktool4 để crack!
 Name: PullOver Pro
 Author: c1d3r <c1d3rdev@gmail.com>
 Icon: https://jtisvn.github.io/sectionIcons/PullOverPro.png
+Depiction: https://jtisvn.github.io/depictions/PullOverPro.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PullOverpro.json
 
 Package: com.netskao.pulloverpro
