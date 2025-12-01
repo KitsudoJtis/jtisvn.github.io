@@ -620,6 +620,25 @@ Author: Simon
 Icon: https://axs66.github.io/repo/icon/dynamicislandanimation.png
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/dynamicislandanimation/js.json
 
+Package: com.BIENVANNHAT.cconandoff
+Architecture: iphoneos-arm
+Version: 1.1.0
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.jakeashacks.realcc
+Filename: ./debs/com.BIENVANNHAT.cconandoff_1.1.0_iphoneos-arm.deb
+Size: 8070
+MD5sum: f44ccc76547c37e5898a35577375c917
+SHA1: 2f0bd7f79a4681fba077883539bc14895bd335cf
+SHA256: 647213cfad4acc0da511bf7025494b5791d0e770eab89f696e527ed3f61e8528
+SHA512: 07aac17603ce0e5b5491e1659d3106cce8513e141c9ef2a9522c239d56fc870bb60e938a30ebd7aec0433b294adb15c927f407080772704653ff589a75d57b85
+Description: Bật/tắt Wi-Fi và Bluetooth từ Trung tâm điều khiển (iOS 11+)
+Name: CC On & Off
+Author: PoomSmart
+Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
+
 Package: com.LLSwitch.roothide
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -1414,6 +1433,47 @@ Description: Mang phong cách tìm kiếm trên iOS 16 xuống iOS 15
 Name: SearchDots (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/SearchDots.png
 Author: NightwinDev
+
+Package: com.hitori.centra
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: Hitori
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.hitori.centra_1.0_iphoneos-arm64.deb
+Size: 55020
+MD5sum: aebd87e3df55ae03c88e479603c9ca1c
+SHA1: b2e7c8f5207dc81425f843e3218ae79c6a3b4a6a
+SHA256: e3c76a1463b848991dcdbec2c76c9b6c52f98f3870d921083900d8c7b942b644
+SHA512: 03d6a328cd5bab9137a17800f65c342cfd04267b3c4cd96e51ccbb4ed88b963f04b97d7b8ca33df31b602b5cd4d28baf80cbe32b1324d44b67db233c4dff2f98
+Description: Customize the size of modules in the Control Center, including Connectivity and other modules.
+Name: Centra (Rootless)
+Author: Hitori <mikasa-san@outlook.jp>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Centra.json
+Depiction: https://havoc.app/depiction/centra
+Icon: https://media.havoc.app/67575d53275fa071ba16d884
+
+Package: com.hitori.centra
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: Hitori
+Installed-Size: 476
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.hitori.centra_1.0_iphoneos-arm64e.deb
+Size: 54284
+MD5sum: ff2abb0063052a0ddbb1b809a8ae7b2d
+SHA1: 07fc59449bb9cfda87a90671108ea0a9bc970638
+SHA256: 677c261b4be772f2c6f6987cde6b45df8e145be9ed89e15eb562dd39f8c95548
+SHA512: 4dd13fce1e3adb2641dfb06b514737c4e797805db0af5ae1f0aa3c491548e61c19a3bae6f7dc482325c23aa67684ad5acac83250e5da7f48a395ef9b3af6dc04
+Description: Customize the size of modules in the Control Center, including Connectivity and other modules.
+Name: Centra (Roothide)
+Author: Hitori <mikasa-san@outlook.jp>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Centra.json
+Depiction: https://havoc.app/depiction/centra
+Icon: https://media.havoc.app/67575d53275fa071ba16d884
 
 Package: com.hitori.misaki
 Architecture: iphoneos-arm64
