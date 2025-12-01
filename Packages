@@ -7525,6 +7525,24 @@ dev: opa334
 depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.safariwallpapervitho
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Tweaks
+Maintainer: Litten <nhatbien97@gmail.com>
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.0), com.muirey03.libimagepicker
+Filename: ./debs/com.jtis.safariwallpapervitho_1.2_iphoneos-arm.deb
+Size: 15892
+MD5sum: 8729f9b7a3883eb2ddc863689c5222b7
+SHA1: 5bca6f1c994ea42e1186127340d695c4463c5b5b
+SHA256: d140c8c3dcfbca54e0da01321216cde445dace8a4865cd74af06ae98f5c64c38
+SHA512: 3aac73cbaaf60fea97e850e8709d792dd83e283b36716a1b258a11ca39419ddd3968aa70eafb361366fcb3dc311ff16205fe6b031acafca59984ff58743afe9a
+Description: Thêm hình nền cho Safari!
+Name: SafariWallpaper
+Author: Litten <nhatbien97@gmail.com>
+Depiction: https://jtisvn.github.io/depictions/SafariWallpaper.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.safeccmodules
 Architecture: iphoneos-arm64e
 Version: 1.5-2
@@ -9818,6 +9836,24 @@ Author: MTAC
 Icon: https://jtisvn.github.io/sectionIcons/Vitreux.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Vitreux.json
 
+Package: com.muirey03.libimagepicker
+Architecture: iphoneos-arm
+Version: 1.0.4R
+Section: System
+Maintainer: Muirey03
+Installed-Size: 324
+Filename: ./debs/com.muirey03.libimagepicker_1.0.4R_iphoneos-arm.deb
+Size: 16376
+MD5sum: 90963e4821e435eb4fd5ae22c368f80f
+SHA1: 915353640cb8fcefd8adfdb93efc13c5aa3bb2f8
+SHA256: 055d32a12d7631b3c4faa67a29b7f867e6e87d39ec93401a3b1ff923f9c1f3bd
+SHA512: f6ef629cacf8154703d8ca429a0f12ce05744bc081925f47099a6136b0984d29a3a6896d0b5f63bbe725eca8275001b9222ec3988d793cec2ae340f44f55aa18
+Description: A simple library for choosing images in preference bundles.
+Tag: role::developer
+Name: libimagepicker
+Author: Muirey03
+Icon: file:///Applications/Cydia.app/Sections/hethongg1.png
+
 Package: com.nathan.tiktokphotocomments
 Architecture: iphoneos-arm
 Version: 0.0.1
@@ -11806,6 +11842,31 @@ Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Name: AniTime (Roothide)
 Author: yan
 
+Package: cydia
+Architecture: iphoneos-arm
+Version: 1.1.36-3
+Priority: important
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./debs/cydia_1.1.36-3_iphoneos-arm.deb
+Size: 1242528
+MD5sum: f55218a68a1f0ac9966bd40d8cc5ee67
+SHA1: 6f175ddec364c843427ac50372a57bf36d79b353
+SHA256: 340a1b8ee2048f24ef50ba89cd405e205721180ab2f87f45c333640092d3c3ac
+SHA512: 6effca68161fc518ba26d27a42f5cc489b072a0183c080d8545cd99f3cbe0eb6737f0c4ac559406dafb52b92fdf1dcebd652107515454758b5076b20a6e6363d
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, role::enduser
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+
 Package: dev.ayden.ios.tweak.lib.libdundas
 Architecture: iphoneos-arm64
 Version: 1.0.3
@@ -12538,6 +12599,28 @@ Name: Alderis Color Picker
 Author: HASHBANG Productions <support@hbang.ws>
 Depiction: https://chariz.com/get/alderis
 Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Support: https://hashbang.productions/support/
+dev: hbang
+
+Package: ws.hbang.common
+Architecture: iphoneos-arm
+Version: 1.17.1
+Section: Development
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 1852
+Depends: firmware (<< 8.0) | firmware (>= 11.0) | com.rpetrich.rocketbootstrap
+Filename: ./debs/ws.hbang.common_1.17.1_iphoneos-arm.deb
+Size: 208096
+MD5sum: a1a27d51f93da4262059fe937e025f35
+SHA1: d546e6520c107d8fa6e748c97244dcdbf38603ad
+SHA256: dca96478c832a552b35e77afa7b4950c66a00a06e0e467006b543adcaa2e92d0
+SHA512: 86295a36f82bcc52fd77cc13859aa638f2ab5e4df285f687a788e930b69ba2d01b12521acc4a90032c98810889a0f4a4e19dbe37eb21dc133c79a0c18ae35d4a
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios5.0
+Name: Cephei Tweak Support
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://cdn.chariz.cloud/icon/cephei/icon@3x.png
+Depiction: https://chariz.com/get/cephei
 Support: https://hashbang.productions/support/
 dev: hbang
 
