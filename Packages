@@ -5331,6 +5331,45 @@ Icon: https://Jtisvn.github.io/sectionIcons/font2.png
 Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
 Author: TQM
 
+Package: com.jtis.galaxy
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Installed-Size: 65137
+Filename: ./debs/com.jtis.galaxy_1.0_iphoneos-arm64.deb
+Size: 2539836
+MD5sum: 54ff2668e0c8c28a354666401f50276f
+SHA1: 01bc2d56c3374cf2eb68fd2ae9911db10b406a2e
+SHA256: 2fbb9b95e787817c27692f3671c3c133e3db176ca1566235ac9af3272924198f
+SHA512: 08d96ecb1218a7ac29435835841146ea1bcba1e1bbb93a82b939f39a528796567474ff84150a7a0c367de0a29bca1eb183e2432f8e79dbc1b2fb062e501dc43c
+Description: Chủ đề Galaxy màu thiên hà
+Name: Galaxy Theme
+Author: @tqmmos
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Galaxy.json
+Depiction: https://jtisvn.github.io/depictions/Galaxy.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.galaxy
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Installed-Size: 65137
+ Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.galaxy_1.0_iphoneos-arm64e.deb
+Size: 2539588
+MD5sum: 0a4a28ba0ece29edeb1cc2a1ea6890ba
+SHA1: eab21478ec4c89624a4037d670a7131c9a3aa62c
+SHA256: 2d8ff6b5656b438d93478f8c780cdc88160521da5cefe6753a48059fb9684ea7
+SHA512: 6864777126d6be9b5b5ddb24200c70c708913ee3293d55c7e1bb8b94dc7875cd6234328bc3c58b9a445f876d7a3118a7a047c6d86183317296d815cfbea0f62e
+Description: Chủ đề Galaxy màu thiên hà
+Name: Galaxy Theme
+Author: @tqmmos
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Galaxy.json
+Depiction: https://jtisvn.github.io/depictions/Galaxy.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
 Package: com.jtis.gesturesxv
 Architecture: iphoneos-arm64e
 Version: 1.6
@@ -11010,6 +11049,24 @@ Name: AirDrop16 (Roothide)
 Author: Snail <mu514983786@gmail.com>
 Icon: https://jtisvn.github.io/sectionIcons/AirDrop16.png
 
+Package: com.snail.airdrop16
+Architecture: iphoneos-arm64
+Version: 1.0.3k
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, com.tqm-mos.snailcrack
+Filename: ./debs/com.snail.airdrop16_1.0.3k_iphoneos-arm64.deb
+Size: 199592
+MD5sum: be26bd5e3ee78de276a2166feb73810d
+SHA1: 250e834eba7ba4dc9bf8b12a905670b260759ef8
+SHA256: 3d74950fd6249de509d0cc51f86e36119f2b4237c14b94db9ed3cfc1c78f4a0c
+SHA512: 265ba8b7c6db17fbb22217e20de5708896fa2907cedb4930e3053d7408f679576114e0742a2382b52b14ec115744a533baad558c1f8b117116dcc5d69d079d5e
+Homepage: https://jtisvn.github.io/
+Description: Đặt giới hạn thời gian cho chế độ ‘Mọi người’ của AirDrop, tương tự như iOS 16, nhưng linh hoạt hơn.
+Name: AirDrop16 (Rootless)
+Author: Snail
+Icon: https://jtisvn.github.io/sectionIcons/AirDrop16.png
+
 Package: com.spark.autounlockx
 Architecture: iphoneos-arm64
 Version: 1.1.0-rootless
@@ -11377,24 +11434,49 @@ Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
 
 Package: com.spark.snowboard
 Architecture: iphoneos-arm64
-Version: 1.5.37-Beta4
+Version: 1.5.37-Beta4-rootless
 Section: Tweaks
 Maintainer: JTISVN Repo
 Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Depends: mobilesubstrate, preferenceloader
 Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Filename: ./debs/com.spark.snowboard_1.5.37-Beta4_iphoneos-arm64.deb
-Size: 4337388
-MD5sum: a3959fa2715d0040c550f048e0dcff9e
-SHA1: 018599ba1556b67c9998d95eea77a51b70866074
-SHA256: 4c5a12bfeecf27b172bcb166303ed669fd166cf4551ccf4a073e16031a65b6c1
-SHA512: 1cabfd103149343b82750114b3a870d6ddd2b99ae857263f35918723dcd69b114a11567357e4df68eebf8c0413c3f8fc0cff92f71a8253fff5410dc5ad3d33b0
+Filename: ./debs/com.spark.snowboard_1.5.37-Beta4-rootless_iphoneos-arm64.deb
+Size: 10113088
+MD5sum: fbb8acb38c17373622e08fbb2cd7f912
+SHA1: 1ecf05b18029e6a6324df60a600fa3651aa4039b
+SHA256: 73d85baec511245af962977d61b276c0c39ff00524644175834d6a8e973c1302
+SHA512: d088f664c076fc2cac06e1682086a42d087beebecb43f21b9ea09825891a434f0b629edf814a155b5fac346473a31a0e2f2167ee733898d6e00e9e7072bf6319
 Homepage: https://jtisvn.github.io
 Description: Tinh chỉnh này dùng thay đổi chủ đề
 Name: SnowBoard (Rootless)
 Author: Spark & Dennis D. Bednarz
 Depiction: https://jtisvn.github.io/depictions/SnowBoard.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SnowBoard.json
+Tags: compatible_min::ios15.0, compatible_max::ios17.3
+Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
+
+Package: com.spark.snowboard
+Architecture: iphoneos-arm64e
+Version: 1.5.37-Beta4-rootless
+Section: Tweaks
+Maintainer: JTISVN Repo
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/com.spark.snowboard_1.5.37-Beta4-rootless_iphoneos-arm64e.deb
+Size: 10093360
+MD5sum: 687687f77529f38d6bc658ad3cd8d40f
+SHA1: ae5bbb2da01ec775dace36cfa5add5632b34ad17
+SHA256: 796c68b89806ee20144b0ae8f4018da98ec4c0681e3ff28770c3e08d4e011517
+SHA512: 0737f59f7420734a304d36ed167e3884e609ab74bf8f55f63e89cee473a48213c08b39407f0adbcb37766fce838bc96de35c95124cda0b7a040ea3ac39a54471
+Homepage: https://jtisvn.github.io
+Description: Tinh chỉnh thay đổi chủ đề ứng dụng.
+Name: SnowBoard  (Roothide)
+Author: Spark & Dennis D. Bednarz
+https: //jtisvn.github.io/depictions/SnowBoard.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SnowBoard.json
 Tags: compatible_min::ios15.0, compatible_max::ios17.3
 Icon: https://jtisvn.github.io/sectionIcons/Snowboard.png
