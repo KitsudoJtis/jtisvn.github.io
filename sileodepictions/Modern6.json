@@ -5,11 +5,15 @@
 "tabs":[
 {
 "tabname":"Giới thiệu",
-"views":[
-{ "class":"DepictionHeaderView", "title":"" },
+"views": [
 {
-"class":"DepictionHeaderView",
-"title":"Mô tả"
+"class": "DepictionHeaderView",
+"useBoldText": true,
+"useBottomMargin": false
+},        
+{
+"class": "DepictionSpacerView",
+"spacing": 8
 },
 {
 "markdown":"\n\n- Chủ đê Modern 6 theo kiểu iOS 6, được thiết kế bởi IceCool Tech\n\n- Chi tiết gói gồm:\n\n+ 163 biểu tượng\n\n+ 1 ClassicDock\n\n+ 2 badge thông báo\n\n+ 5 hiệu ứng mask.\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",

@@ -6,10 +6,14 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionHeaderView",
-"title":"Mô tả"
+"class": "DepictionHeaderView",
+"useBoldText": true,
+"useBottomMargin": false
+},        
+{
+"class": "DepictionSpacerView",
+"spacing": 8
 },
 {
 "markdown":"\n\n- Chủ đê Liquid Glass Color, được thiết kế lại bởi Miss và bé iu (GPT) của anh ấy😁\n\n- Gồm 4326 biểu tượng\n\n- Ae tải về tự đổi Bundle nha\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
