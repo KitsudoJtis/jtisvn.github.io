@@ -4615,15 +4615,15 @@ Installed-Size: 604
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.6011), preferenceloader
 Conflicts: com.ryannair05.cylinder
 Filename: ./debs/com.jtis.cylinderremade.roothide_0.0.3-beta_iphoneos-arm64e.deb
-Size: 105556
-MD5sum: 0320359c37f23c23b9a403c1ff386540
-SHA1: b9785a9cfff3acfd716d4f759fafe19ca7a753d8
-SHA256: fe11f25f6bd26af826cfc966337d2bd4503a19b202b769e44eb6b0db6fec7dda
-SHA512: 2a56f2b07127369535af400c90b355d7784495e0681544bd1b8144dfef9020ff9fd7ccc27e7dcf9f08214628f013e21f2c43573f9d552f994d55e4731eb10b94
-Description: Tuỳ biến hiệu ứng cuộn trên màn hình chính
+Size: 105532
+MD5sum: bd6d37a7d9475944db49a6737b1ddb8f
+SHA1: aa541142610744a9e87b29250d5a6c8937a94312
+SHA256: 2b3bb036430f32987b4df5ad765f9cc98fc110fb88f39c03577218c23039c739
+SHA512: 554a892208d5e6a153b3aa1efa946575ba36595f3d672735ae5cf7d7ed2f52a952ebf45403b5ece9d01e1c51d392d5f2faf790f5c854c409f903b018d1c2545a
+Description: Tuỳ biến hiệu ứng cuộn trên màn hình chính, Hỗ trợ Rootbide.
 Name: Cylinder Remade (Roothide)
 Author: Ryan Nalr
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Cylinder-reborn.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CylinderRemade.json
 Icon: https://jtisvn.github.io/sectionIcons/Cylinder-rebom.png
 
 Package: com.jtis.deleteforeverxs
