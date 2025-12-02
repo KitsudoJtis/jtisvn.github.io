@@ -9,6 +9,7 @@
 {
 "class": "DepictionSubheaderView",
 "title": "Mikhak",
+"fontSize": 14,
 "useBoldText": true,
 "useBottomMargin": false
 },        
