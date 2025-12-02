@@ -1,16 +1,18 @@
 {
 "minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"headerImage":"https://jtisvn.github.io/coverimage/Cylinder-reborn.png",
 "tintColor":"#00FF66",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views": [
 {
-"class": "DepictionScreenshotsView",
-"itemCornerRadius": 8,
-"itemSize": "{185, 400}",
-"screenshots": [
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"accessibilityText": "Screenshot",
+"url": "https://cdn.chariz.cloud/screenshot/cylinder-reborn/cylinder-reborn.mp4"
+},
 {
 "accessibilityText": "Screenshot",
 "url": "https://jtisvn.github.io/infodeb/Cylinder-reborn/Screenshots/1.png"
@@ -21,7 +23,11 @@
 },
 {
 "accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/Cylinder-reborn/Screenshots/3.png"8
+"url": "https://jtisvn.github.io/infodeb/Cylinder-reborn/Screenshots/3.png"
+}
+],
+"itemCornerRadius":0,
+"itemSize":"{185,400}"
 },
 {
 "class": "DepictionMarkdownView",
