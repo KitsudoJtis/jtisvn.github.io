@@ -17,7 +17,7 @@
 },
 {
 "class": "DepictionMarkdownView",
-"markdown": "<p style=\"font-size:12pt;\">Phông chữ Mikhak 100%</p>\n<p style=\"font-size:12pt;\">Kích hoạt phông chữ qua tinh chỉnh Snowboard.</p>\n<p style=\"font-size:12pt;\">Sau khi áp dụng vui lòng Respring hoặc Dọn Rác qua iClean Pro để hiển thị đầy đủ.</p>",
+"markdown": "<p style=\"font-size:12pt;\">Mikhak</p>\n<p style=\"font-size:12pt;\">Kích thước phông chữ: 100%</p>\n<p style=\"font-size:12pt;\">Kích hoạt qua tinh chỉnh Snowboard.</p>\n<p style=\"font-size:12pt;\">Sau khi áp dụng vui lòng Respring hoặc Dọn Rác qua iClean Pro để hiển thị đầy đủ.</p>",
 "useRawFormat": true
 },
 {
@@ -184,7 +184,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 4.0\n\n-Hỗ trợ iOS 15-16\n\n- Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 4.0\n\n-Hỗ trợ iOS 15-16 Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
