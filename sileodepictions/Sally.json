@@ -14,23 +14,13 @@
 "useBottomMargin": false
 },
 {
-"markdown":"<p style=\"font-size:12pt;\">Công cụ quản lý & cài đặt file.deb<p style=\"font-size:12pt;\">Thêm repo có thể xem thông tin tweaks và package thông qua sally.<p style=\"font-size:12pt;\">Chi tiết xem hình ảnh bên dưới.</p>",
-"useRawFormat": true
+"markdown":"\n\n- Công cụ quản lý & cài đặt file.deb\n\n- Thêm repo có thể xem thông tin tweaks và package thông qua sally.\n\n- Chi tiết xem hình ảnh bên dưới.",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
 },
+{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionHeaderView",
-"useBoldText": true,
-"useBottomMargin": false
-},
-{
-"class": "DepictionSpacerView",
-"spacing": 16
-},
-{
-"class": "DepictionScreenshotsView",
+"class":"DepictionScreenshotsView",
 "itemCornerRadius": 8,
 "itemSize": "{185, 400}",
 "screenshots":[
