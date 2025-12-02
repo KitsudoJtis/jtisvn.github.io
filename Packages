@@ -1475,6 +1475,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Centra.json
 Depiction: https://havoc.app/depiction/centra
 Icon: https://media.havoc.app/67575d53275fa071ba16d884
 
+Package: com.hitori.meloso100
+Architecture: iphoneos-arm64
+Version: 4.0
+Section: Fonts
+Maintainer: Hitori
+Depends: mobilesubstrate, firmware (>= 15.0), com.spark.snowboard.fonts
+Filename: ./debs/com.hitori.meloso100_4.0_iphoneos-arm64.deb
+Size: 11423836
+MD5sum: 09f135e1bcfabe508a62700d1966ae28
+SHA1: 59fd00e5e00c25b536bb350fc940a82f06a74652
+SHA256: 8cd642ab4b3bca816e45347a4d595d13430f17d037656beed4c00fee471c323b
+SHA512: 7841484e6ff11cf7726eb71d6a09a9771fed688e2173138b02e1bd50bc2c302383cb47c9bb0aba8acdb55ad36a8dd1d6779e690ed22541def65ea0e4fb64497a
+Description: Meloso is a font which has a playful and organic feel that has its own hand-drawn charm.
+Name: Meloso (100)
+Author: Alexman
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Meloso.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+
 Package: com.hitori.mikhak100
 Architecture: iphoneos-arm64
 Version: 4.0

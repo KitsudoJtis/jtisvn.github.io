@@ -7,10 +7,9 @@
 "tabname":"Giới thiệu",
 "views": [
 {
-"class": "DepictionSubheaderView",
-"title": "Phông Chữ Mikhak",
-"usePadding": true,
-"useMargins": true,
+"class": "DepictionHeaderView",
+"useBoldText": true,
+"useBottomMargin": false
 },        
 {
 "class": "DepictionSpacerView",
@@ -18,7 +17,7 @@
 },
 {
 "class": "DepictionMarkdownView",
-"markdown": "</p>\n<p style=\"font-size:12pt;\">Kích thước phông chữ: 100%</p>\n<p style=\"font-size:12pt;\">Kích hoạt qua tinh chỉnh Snowboard.</p>\n<p style=\"font-size:12pt;\">Sau khi áp dụng vui lòng Respring hoặc Dọn Rác qua iClean Pro để hiển thị đầy đủ.</p>",
+"markdown": "<p style=\"font-size:13pt;\">Phông Chữ Mikhak</p>\n<p style=\"font-size:12pt;\">Kích thước phông chữ: 100%</p>\n<p style=\"font-size:12pt;\">Kích hoạt qua tinh chỉnh Snowboard.</p>\n<p style=\"font-size:12pt;\">Sau khi áp dụng vui lòng Respring hoặc Dọn Rác qua iClean Pro để hiển thị đầy đủ.</p>",
 "useRawFormat": true
 },
 {
@@ -113,7 +112,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2/12/2025",
+"text": "2/2/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
