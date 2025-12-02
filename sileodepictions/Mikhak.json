@@ -184,7 +184,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 4.0\n\n-Hỗ trợ iOS 15-16\n\n- Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
