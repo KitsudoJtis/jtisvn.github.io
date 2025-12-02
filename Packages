@@ -7448,6 +7448,46 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/PikachuSwitch.json
 Icon: https://jtisvn.github.io/sectionIcons/PikachuSwitch.png
 
 Package: com.jtis.plampyuipro
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Phuc Do
+Installed-Size: 2064
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/com.jtis.plampyuipro_1.0_iphoneos-arm.deb
+Size: 728152
+MD5sum: a30fae412f37029286d07a5139e8c4a3
+SHA1: 85c98db2b992e587112c3c9494d41ebc8260ea79
+SHA256: e7d2fe9c61167a8a20b557813ab3bb577a764ebc725f9bbb7289211d5c7bb7b3
+SHA512: 83ea9c97568ffebb767b8e8b100dfe39bbe47acac1f3726ca40db3a885e908922fea244ea0660ef8e80b1fab4b54c2261fdcbbbf3f27db393fcac3f4e4c16e11
+Description: Plampy UI Pro - tùy chỉnh CC trên các thiết bị đã Jailbreak cho iOS 15 & 16.
+Name: Plampy UI Pro
+Author: Phuc Do
+Depiction: https://jtisvn.github.io/depictions/PlampyUI.html
+Icon: https://jtisvn.github.io/sectionIcons/PlampyUI.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PlampyUI.json
+
+Package: com.jtis.plampyuipro
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2064
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/com.jtis.plampyuipro_1.0_iphoneos-arm64.deb
+Size: 728048
+MD5sum: c3a5071e00b365a375e51c66e3a7699d
+SHA1: b100a8a82440bc4729e5e971aad051ac0b7bed76
+SHA256: cdb2605800b728b42716a9245e283c4f263c3dd5dce92894c9850bd23b93514e
+SHA512: 8ab1ed7c3f926f265e86fc5295f21f8e7ed5e4467a3f405dda92bd97ffb59f74830aa7e7490c96dbfd3897dd12dffeee24009e40a11b7b35672aad3b55205820
+Description: Plampy UI Pro - custumizing CC on Jailbroken devices for iOS 15 & 16.
+Name: Plampy UI Pro (Rootless)
+Author: Phuc Do
+Depiction: https://jtisvn.github.io/depictions/PlampyUI.html
+Icon: https://jtisvn.github.io/sectionIcons/PlampyUI.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PlampyUI.json
+
+Package: com.jtis.plampyuipro
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
