@@ -10,7 +10,6 @@
 {
 "class": "DepictionSubheaderView",
 "title": "Sally",
-"fontSize": 17,
 "useBoldText": true,
 "useBottomMargin": false
 },
@@ -51,17 +50,8 @@
 {
 "class": "DepictionSubheaderView",
 "title": "Thông tin chi tiết",
-"fontSize": 17,
 "useBoldText": true,
 "useBottomMargin": false
-},
-{
-"class": "DepictionStackView",
-"orientation": "landscape",
-"views": [
-{
-"class": "DepictionStackView",
-"views": [
 },
 {
 "class":"DepictionTableTextView",

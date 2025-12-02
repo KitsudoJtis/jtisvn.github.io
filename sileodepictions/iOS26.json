@@ -6,17 +6,6 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
-{
-"class":"DepictionHeaderView",
-"title":"Mô tả"
-},
-{
-"markdown":"\n\n- Chủ đê iOS26, được thiết kế bởi Hoàng MD\n\n- Chi tiết gói gồm:\n\n+ 114 biểu tượng\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -27,6 +16,11 @@
 ],
 "itemCornerRadius":0,
 "itemSize":"{185,400}"
+},
+{
+"markdown":"\n\n- Chủ đê iOS26, được thiết kế bởi Hoàng MD\n\n- Chi tiết gói gồm:\n\n+ 114 biểu tượng\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
+"useSpacing":"true",
+"class":"DepictionMarkdownView"
 },
 {
 "class":"DepictionMarkdownView"
