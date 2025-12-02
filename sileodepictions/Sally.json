@@ -8,8 +8,10 @@
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionHeaderView",
-"title":"Saily"
+"class": "DepictionSubheaderView",
+"title": "Sally",
+"useBoldText": true,
+"useBottomMargin": false
 },
 {
 "markdown":"\n\n- Công cụ quản lý & cài đặt file.deb\n\n- Thêm repo có thể xem thông tin tweaks và package thông qua sally.\n\n- Chi tiết xem hình ảnh bên dưới.",
