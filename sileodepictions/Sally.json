@@ -14,13 +14,25 @@
 "useBottomMargin": false
 },
 {
-"markdown":"\n\n- Công cụ quản lý & cài đặt file.deb\n\n- Thêm repo có thể xem thông tin tweaks và package thông qua sally.\n\n- Chi tiết xem hình ảnh bên dưới.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"markdown":"<p style=\"font-size:12pt;\">Công cụ quản lý & cài đặt file.deb<p style=\"font-size:12pt;\">Thêm repo có thể xem thông tin tweaks và package thông qua sally.<p style=\"font-size:12pt;\">Chi tiết xem hình ảnh bên dưới.</p>",
+"useRawFormat": true
 },
-{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
-"class":"DepictionScreenshotsView",
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionHeaderView",
+"useBoldText": true,
+"useBottomMargin": false
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 16
+},
+{
+"class": "DepictionScreenshotsView",
+"itemCornerRadius": 8,
+"itemSize": "{185, 400}",
 "screenshots":[
 {
 "url":"https://jtisvn.github.io/infodeb/Sally/Screenshots/1.png",
