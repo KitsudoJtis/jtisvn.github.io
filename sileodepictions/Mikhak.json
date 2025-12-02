@@ -9,11 +9,9 @@
 {
 "class": "DepictionSubheaderView",
 "title": "Phông Chữ Mikhak",
-"fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": true,
 "useMargins": true,
-"margins": "{10,0,8,0}"
 },        
 {
 "class": "DepictionSpacerView",

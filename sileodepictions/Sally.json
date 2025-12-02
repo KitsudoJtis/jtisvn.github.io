@@ -15,7 +15,7 @@
 "useBottomMargin": false
 },
 {
-"markdown":"\n\n- Công cụ quản lý & cài đặt file.deb\n\n- Thêm repo có thể xem thông tin tweaks và package thông qua sally.\n\n- Chi tiết xem hình ảnh bên dưới.",
+"markdown":"\n\n Công cụ quản lý & cài đặt file.deb\n\n Thêm repo có thể xem thông tin tweaks và package thông qua sally.\n\n Chi tiết xem hình ảnh bên dưới.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -54,6 +54,14 @@
 "fontSize": 17,
 "useBoldText": true,
 "useBottomMargin": false
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
 },
 {
 "class":"DepictionTableTextView",
