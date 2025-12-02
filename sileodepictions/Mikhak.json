@@ -1,13 +1,10 @@
 {
-"class": "DepictionTabView",
-"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"minVersion": "0.3",
-"itemSize": "{330, 110}",
-"tabs": [
+"minVersion":"0.1",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#339999",
+"tabs":[
 {
-"class": "DepictionStackView",
-"tabname": "Giới thiệu",
-"tintColor": "#577788",
+"tabname":"Giới thiệu",
 "views": [
 {
 "class": "DepictionHeaderView",
@@ -20,7 +17,7 @@
 },
 {
 "class": "DepictionMarkdownView",
-"markdown": "<p style=\"font-size:15pt;\">Phông chữ Mikhak 100%</p>\n<p style=\"font-size:12pt;\">Kích hoạt phông chữ qua tinh chỉnh Snowboard.</p>\n<p style=\"font-size:12pt;\">Sau khi áp dụng vui lòng Respring hoặc Dọn Rác qua iClean Pro để hiển thị đầy đủ.</p>",
+"markdown": "<p style=\"font-size:12pt;\">Phông chữ Mikhak 100%</p>\n<p style=\"font-size:12pt;\">Kích hoạt phông chữ qua tinh chỉnh Snowboard.</p>\n<p style=\"font-size:12pt;\">Sau khi áp dụng vui lòng Respring hoặc Dọn Rác qua iClean Pro để hiển thị đầy đủ.</p>",
 "useRawFormat": true
 },
 {
@@ -158,7 +155,7 @@
 "margins": "{16,0,8,0}"
 },
 {
-"class": "DepictionLabellView",
+"class": "DepictionLabelView",
 "text": "15.0 - 16.6.1",
 "fontWeight": "semibold",
 "fontSize": 17,
