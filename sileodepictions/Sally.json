@@ -18,7 +18,11 @@
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
-{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
+{"class": "DepictionSubheaderView",
+"title": "Ảnh chụp màn hình",
+"useBoldText": true,
+"useBottomMargin": false
+},
 {
 "class":"DepictionScreenshotsView",
 "itemCornerRadius": 8,
@@ -43,8 +47,10 @@
 "class":"DepictionSpacerView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiét"
+"class": "DepictionSubheaderView",
+"title": "Thông tin chi tiết",
+"useBoldText": true,
+"useBottomMargin": false
 },
 {
 "class":"DepictionTableTextView",
