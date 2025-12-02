@@ -1475,6 +1475,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Centra.json
 Depiction: https://havoc.app/depiction/centra
 Icon: https://media.havoc.app/67575d53275fa071ba16d884
 
+Package: com.hitori.mikhak100
+Architecture: iphoneos-arm64
+Version: 4.0
+Section: Fonts
+Maintainer: Hitori
+Depends: mobilesubstrate, firmware (>= 15.0), com.spark.snowboard.fonts
+Filename: ./debs/com.hitori.mikhak100_4.0_iphoneos-arm64.deb
+Size: 10780488
+MD5sum: 17e152b07c56300a92de05420be8a941
+SHA1: 89c6d33de2472684b7b35c0b4300f99bbd8de96b
+SHA256: bc379ce529851483fb6ba5d173138a01fa2a7af457b947f3c6cdc37d2814d011
+SHA512: 7191c2dc3a6449ac1bafb775e4fe0114f0379bd2cfbb0cc3a9bb194afacfcafb469a3602f969151e2dd52e968b681bc76d58e63c65a28a6a624d7c0bfe98b4d0
+Description: Mikhak is a simple monoline semi handwriting font.
+Name: Mikhak (100)
+Author: Alexman
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Mikhak.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+
 Package: com.hitori.misaki
 Architecture: iphoneos-arm64
 Version: 2.2-1
@@ -8081,21 +8099,42 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/SingleMute.json
 Icon: https://jtisvn.github.io/sectionIcons/SingleMute.png
 
 Package: com.jtis.sixls
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: Skitty
+Installed-Size: 2260
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
+Filename: ./debs/com.jtis.sixls_1.1_iphoneos-arm64.deb
+Size: 1473540
+MD5sum: a28c974b3dca2ff08b2416c0ea889886
+SHA1: 2f4162c8ad921e3f3195cab2019074eca802c0c8
+SHA256: 259bae189efb2e153fa3fff3badac954c848c8462b9896e522458d1e258c021e
+SHA512: 8e327b948ae41f19efc0d7166b9c2a3b60bf58d69c847115752a479a1a227a87820d555f3be64b21e47113cedb1d92b1aa82e996f247a233864305e32520d679
+Description: Màn hình khóa phong cách iOS 6!
+Name: Six (LS)
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls
+SileoDepiction: https:/jtisvn.github.io/sileodepictions/SixLS.json
+Icon: https://jtisvn.github.io/sectionIcons/SixLS.png
+Author: Skitty
+
+Package: com.jtis.sixls
 Architecture: iphoneos-arm64e
 Version: 1.1
-Section: LS UI
+Section: Tweaks
 Maintainer: Skitty
 Installed-Size: 2260
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
 Filename: ./debs/com.jtis.sixls_1.1_iphoneos-arm64e.deb
-Size: 1470492
-MD5sum: be10e9eba09167dc1c71555b8bd56655
-SHA1: aab74fbc64191d7169e6baad94c3f81f6032313d
-SHA256: 89979e9dea0ebabac0235254a4fe3e917718b4a4bbc6f0181263a76dfd237d7e
-SHA512: 8d35fa18b585d921fcd86939be73a902572b5da8f00e66f0e77eb61646afd7e6387a6563efb4b494571619d31ada67ac8a754f24bd9e145267460618a3cf517c
-Description: Đổi màn hình khoá theo kiểu IOS 6!
+Size: 3191752
+MD5sum: 35ee15fb003903013a0637dbf7a3247a
+SHA1: 5fbfa58a21aadac191980c6a69de43ff9b48da4e
+SHA256: bb9c0e0e3eeef2c44d95670d8382e5a35ea5d20b54f8eb46b2cd38049af804bb
+SHA512: 4854ddeab864737c0e7e6cca46b2258272775ab2c46f5cf55a88fb01b08f8f9643fe80418ea2573c48f9b8d11e01f396a6d8e61afa2d24a62fe21b9fa23c8c0f
+Description: Màn hình khóa phong cách iOS 6!
 Name: Six (LS)
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/SixLS.json
 Icon: https://jtisvn.github.io/sectionIcons/SixLS.png
 Author: Skitty
@@ -10712,23 +10751,6 @@ Name: Badge Breathing (Roothide)
 Author: Phuc Do
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
-Package: com.phucdo.LSUISharingan
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: LS UI
-Maintainer: Phuc Do
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: ./debs/com.phucdo.lsuisharingan_1.0_iphoneos-arm64e.deb
-Size: 65460
-MD5sum: 7cb6dbda99a5d0c0848bebfbf757c456
-SHA1: daaddb2a81efc9cc5b7bd2e3dd12f4e7d402b147
-SHA256: 2b115c0ba150573349e16ea124ddf5e8800b1ac652a87bf95c4737565a4c8a50
-SHA512: 7a69557a7d4c3cc6ee4b6701ad62c090840a131c9f30492e26c27373d91e912af27195f4ac8520f2e95efb0114688f15fbd78c530c4f9c55ed216502b8d1fa8e
-Description: Use Snowboard UI Extension to enable LS UI.
-Author: Phuc Do
-Name: LS UI Sharingan
-Icon: https://dobabaophuc1706.github.io/repo/package/LSUI/icon.png
-
 Package: com.pixelomer.shijima-ios
 Architecture: iphoneos-arm64e
 Version: 1.3.2-drmfree
@@ -10789,23 +10811,43 @@ Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Amber.json
 
 Package: com.ps.smoothcursorios13
+Architecture: iphoneos-arm
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: org.thebigboss.smoothcursor
+Filename: ./debs/com.ps.smoothcursorios13_0.0.1_iphoneos-arm.deb
+Size: 2676
+MD5sum: 185499213809965231beefee8d60e3dc
+SHA1: aff90cfbc51def1e314b5b50f618e840bc12b6f8
+SHA256: 033c97afdccaac443c301edfe463b777aeaa4ee91daa23af2b78c4ecca8ec5a6
+SHA512: dd40873e5bce4363dc2ca6dfc69e245035013d18147cbfda96406bf2e8675c7075310fad45d44b4ecea3cceebabf774b7f86844fd6299f85000e7898a07f053d
+Description: Làm mượt con trỏ chuột di chuyển khi gõ phím chữ trên IOS
+Name: SmoothCursor iOS 13
+Author: PoomSmart
+https: //jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.ps.smoothcursorios13
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Tweaks
-Maintainer: JTIS Repo
+Maintainer: JTISVn Repo
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 6.0)
 Conflicts: org.thebigboss.smoothcursor
 Filename: ./debs/com.ps.smoothcursorios13_0.0.1_iphoneos-arm64e.deb
-Size: 4096
-MD5sum: 1fe351614c7339b223f1b2fada7a6c36
-SHA1: c7d1ab59b77040ee7723b4cfcbd450a55f39cd29
-SHA256: 78d77aceb44cef1d690ecdbbd34f88e467140950094d1dadeddc63da82856140
-SHA512: 2088b90e64cb6d9b0e70375ebe7b63b9ebc6722a68ff5cff938458ebe7100366ddebb13bccc612162342fe3fd064423a0d830c9877159ef32fcf3b0d7808ae1b
-Description: Làm mượt con trỏ chuột di chuyển khi gõ phím chứ trên IOS
+Size: 3088
+MD5sum: 897701f337171e781ce9b619e768c328
+SHA1: d9c01f653cd63963ea940e1e92dfef8dbdd1fd88
+SHA256: e6c8d50bfcd72008cca53a466a2a57674b5d609c6587e1b9026eb7de37cebb94
+SHA512: 221963c6208d4c19d0e7216911e75c6d30f425c2d059e906832533188ab550aa301ab27c015109ef8886a45c882ecb3befc1972a3091642f8acbfb76dc773d8b
+Description: Làm mượt con trỏ chuột di chuyển khi gõ phím chữ trên IOS
 Name: SmoothCursor (iOS 13+)
-Author: Jtis Repo
+Author: PoomSmart
+https: //jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.ps.trollleds
 Architecture: iphoneos-arm64
@@ -12386,6 +12428,64 @@ Homepage: https://github.com/Cryptiiiic/libkrw
 Description: A kernel R/W API for jailbreaks (Development Files)
 Author: Cryptiiiic
 
+Package: me.apptapp.installer
+Architecture: iphoneos-arm
+Version: 5.0.3-2
+Section: Packaging
+Maintainer: AppTapp <support@apptapp.me>
+Depends: firmware (>= 11.0)
+Filename: ./debs/me.apptapp.installer_5.0.3-2_iphoneos-arm.deb
+Size: 20795708
+MD5sum: a5ce9ebf4561f9d6d3f34bcdf77452de
+SHA1: f13a56df89861b6a2d218e54236311eb512f3755
+SHA256: 506b8d27a65f18fe08d5f13169683347a45bcc118ca3f6905bc2e12f51bc6e7a
+SHA512: 45b1261e96187a3ba02f51bb81c59de7ce2b87dbe7186a740d9986530f0eb152fcdf4c8b8d8f2e986e2943c8b35cc207d729294ed3cb43740c34eb4e525709f3
+Description: Trình quản lý gói nhanh nhất được xây dựng riêng cho iOS!
+Author: AppTapp <support@apptapp.me>
+Depiction: https://apptapp.me/repo/installer.html
+Icon: https://jtisvn.github.io/sectionIcons/Installer.png
+Name: Installer
+SileoDepiction: https://apptapp.me/repo/installer.json
+
+Package: me.apptapp.installer
+Architecture: iphoneos-arm64
+Version: 5.1.1
+Section: Packaging
+Maintainer: AppTapp
+Depends: firmware (>= 12.0)
+Filename: ./debs/me.apptapp.installer_5.1.1_iphoneos-arm64.deb
+Size: 9491208
+MD5sum: 58b5ce4646c1ea72c99e6cc6e26e5453
+SHA1: 2af2bcc40c4c9bb1fda336d2225ee876727b7427
+SHA256: 0558b3252958cdb44e9d1f405c4ba14fd744d95b03e8b4d641a2406b66ecd348
+SHA512: a9b691b22e54bd651a320a8eb6836964afa4387ef361e23e85d1386ca6cd1356f29b01a2c4eb8da6e1b597c8532f1651f0d0bfc2d21f2a7a7d7d7aacbb4ea9bf
+Description: Installer 5.1 beta. Fastest Trình quản lý gói cho iOS.
+Name: Installer (Rootless)
+Author: AppTapp
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Installer.json
+Depiction: https://apptapp.me/repo/installer.html
+Icon: https://jtisvn.github.io/sectionIcons/Installer.png
+
+Package: me.apptapp.installer
+Architecture: iphoneos-arm64e
+Version: 5.1.1
+Section: Packaging
+Maintainer: AppTapp
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 12.0)
+Filename: ./debs/me.apptapp.installer_5.1.1_iphoneos-arm64e.deb
+Size: 9372444
+MD5sum: b9b99c16497940c771312e02d21b4320
+SHA1: efd3a605bc519702a79c6b8c9bf34d0d08bd0589
+SHA256: 43ce6c667471eb5b328c51e4feeede011e41ca01c84dad168a8f36a918d6a23b
+SHA512: 3709b5cb715a4421271fc83446ee1f6748cb070d792a0f5f36fe982599c2e97b9440da47bdd649ee8371a42f11a59fe579b309c2da0962972488f9828aabc28d
+Description: Installer 5.1 beta. Fastest Trình quản lý gói cho iOS.
+Name: Installer (Roothide)
+Author: AppTapp
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Installer.json
+Depiction: https://apptapp.me/repo/installer.html
+Icon: https://jtisvn.github.io/sectionIcons/Installer.png
+
 Package: me.tomt000.copylog
 Architecture: iphoneos-arm
 Version: 1.7.1
@@ -13011,4 +13111,46 @@ SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2484
 Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
 Name: Xinam1ne AIO (Rootless)
 Author: Paisseon, Sudo, NoW4U2Kid
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm64e
+Version: 1.1.36-2-1+debug
+Section: Packaging
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 10740
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: ./debs/xyz.willy.zebra_1.1.36-2-1+debug_iphoneos-arm64e.deb
+Size: 4409110
+MD5sum: 4c77fe7e8ead2660ef8f103536003237
+SHA1: 4a5e9215bd7a89b4b77dfec6718544ea9905997f
+SHA256: ca82c18256e19ff78af3e53308d53f047a2d429cb7e025c892377abe4d2e7825
+SHA512: 2d4ce6180e858253e1ba9b3a8dd14aad459c7f6cb416f99bb9dae99118cc9f59b820f4ffa5fe740070e9165f3addd2c11ac41e19e0b5cd64b6adf277f1be93f7
+Description: A Useful Package Manager
+Tag: compatible::9.0-16.4
+Name: Zebra
+Author: Zebra Team <team@getzbra.com>
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm64
+Version: 1.1.36
+Section: Packaging
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 6992
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: ./debs/xyz.willy.zebra_1.1.36_iphoneos-arm64.deb
+Size: 3616708
+MD5sum: 33a8010a8be7b51c436647a2a583973c
+SHA1: 3381f05e6a94ae64648d6ee1ae91cb139db67266
+SHA256: fa186ff4e85145e304b0922eead1e4ac0ea0e232a9fa58fdb6449ee4e9555716
+SHA512: 04a6149ca7681cd807070239570a5d25b0a46efaeeb2ad0ade67b3cc63abd2c3c12cb078165ae3c58dd3dbd81882edd3f0470b73f08e1ffc8120a8e7f639bb6f
+Description: A Useful Package Manager
+Tag: compatible::9.0-16.6
+Name: Zebra
+Author: Zebra Team <team@getzbra.com>
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
