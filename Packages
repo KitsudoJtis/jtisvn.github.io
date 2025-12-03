@@ -6533,6 +6533,28 @@ Name: LittleXS
 Author: binksalex & Ryan Nair
 Icon: https://jtisvn.github.io/sectionIcons/LittleXS.png
 
+Package: com.jtis.locationfakerx
+Architecture: iphoneos-arm
+Version: 2.9-1Crk
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2531
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), org.mr.cunstuck
+Conflicts: org.thebigboss.locationchangerx, org.thebigboss.locationfaker8
+Filename: ./debs/com.jtis.locationfakerx_2.9-1Crk_iphoneos-arm.deb
+Size: 1485380
+MD5sum: 48e147ba70180cdc26d8516deb60b259
+SHA1: fbf5507a0ea902a4cffbaf1cbe90aabd73a1bee5
+SHA256: c14857435b7502866f1ea035de40adaae9cbcea7bdb450f8fcb032f08e0ac3ba
+SHA512: 577a9d8ba40b44bf6fd9013e4374b5e56826840a8be83d37fa7a3b7385530e6114a1cf1f6123bf7da087bc7ee998707154b4b8caeed5dec80fea7dc03ce3ff54
+Description: Thay đổi Vị trí của bạn trên bất kỳ Ứng dụng!
+Tag: purpose::extension
+Name: LocationFakerX
+Author: CUNSTUCK <cunstuck@gmail.com>
+dev: cunstuck
+depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=locationfakerxDp
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.lockplayer
 Architecture: iphoneos-arm64
 Version: 3.22
@@ -10564,6 +10586,27 @@ Name: SNMessenger (Roothhide)
 Author: NguyenASang
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SNMessenger.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.niceios.nicebarx
+Architecture: iphoneos-arm
+Version: 3.0.0.5R
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 13160
+Depends: com.rpetrich.rocketbootstrap,mobilesubstrate
+Filename: ./debs/com.niceios.nicebarx_3.0.0.5R_iphoneos-arm.deb
+Size: 2198708
+MD5sum: 6277bc4cb0a05a60ab9fb6b23ffce897
+SHA1: c9a736113f5f6bbf949069ea1c6932d23556fb39
+SHA256: 9a2325742cb25c1c7ae32dfc1b23125e1c327158eac1b2bd532bf12a8a7e21e1
+SHA512: 2c31d20f0d01e5c7ac158e49c7b8180507e833f3bcb685bd986ffd3f8628cb63bdf6692832e07a0279521171659eba013d7b70e6c306ff8e8d826ae0d29ab81d
+Description: Một tinh chỉnh cho thanh trang thái Miễn phí, Chỉ hỗ trợ iOS11-12
+Name: NiceBarX iOS 11 to 12
+Depiction: http://bvnsupport-jailbreak.github.io/infodeb/NiceBarX/?p=info
+SileoDepiction: http://bvnsupport-jailbreak.github.io/infodeb/NiceBarX?p=info
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: niceios
+Sponsor: niceios
 
 Package: com.opa334.altlist
 Architecture: iphoneos-arm64
