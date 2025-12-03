@@ -26,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"QuitAll\n\n- Đóng tất cả ứng dụng chỉ bằng cách kéo xuống trong chuyển đổi đa nhiệm.n\n- Hỗ trợ thêm tuỳ chọn khác như:\n\n- Respring\n\n- Tắt nguồn\n\n- Làm mới bộ đêm\n\n- Tải lại SpringBoard\n\n- Chế độ an toàn\n\n- Khỏi động lại không gian người dùng.",
+"markdown":"QuitAll\n\n- Đóng tất cả ứng dụng chỉ bằng cách kéo xuống trong chuyển đổi đa nhiệm.\n\n- Hỗ trợ thêm tuỳ chọn khác:\n\n- Respring\n\n- Tắt nguồn\n\n- Làm mới bộ đêm\n\n- Tải lại SpringBoard\n\n- Chế độ an toàn\n\n- Khỏi động lại không gian người dùng.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

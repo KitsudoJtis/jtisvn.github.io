@@ -4613,36 +4613,38 @@ Package: com.jtis.cydiageek.roundprefs
 Architecture: iphoneos-arm64e
 Version: 1.0.9
 Section: Tweaks
-Maintainer: JTIS Repo
+Maintainer: JTISVN Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.cydiageek.roundprefs_1.0.9_iphoneos-arm64e.deb
-Size: 59088
-MD5sum: 499c5a5d1b64cff6375f73fd1dc4b45d
-SHA1: 7328dca1e561f9a7cd9f4664c1699c3737822a2d
-SHA256: 766bb79b76c5d4a7e6581853d990335f3d2146214e68c4d9306d51200c94fd4d
-SHA512: df373ff8bf17159a4f9d2fc54e23ed8cf5ba48c7602c28038e4ed98f75c089c867afb3439ad497bce629fe0f2fb9f70c821798e781a1766577343186cda254e4
+Size: 55952
+MD5sum: b6b8a6119a90df5527e7a353b081bbc1
+SHA1: 075db45954669f9c05ec534ee389850d8650c247
+SHA256: a0784bf6e3f0d2a1fceb271d09f89d911a004521dbd34f8bc43fdc8c5ad4ba38
+SHA512: b2e9de85d0a1c6032a2d441af4306627a6ba35e9c27a9e1455dcc217f8fa909365e7a7083d46d4a5b16647200d68e99ef7efbb1cfb667b78420c9d3ed7c30419
 Description: Bo tròn các khung trong ứng dụng cài đặt
 Name: roundPrefs (Roothide)
 Author: CydiaGeek <lucaluca86@aol.com>
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/roudPrefs.json
 
 Package: com.jtis.cydiageek.roundprefs
 Architecture: iphoneos-aảm64
 Version: 1.0.9
 Section: Tweaks
-Maintainer: JTIS Repo
+Maintainer: JTISVN Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.cydiageek.roundprefs_1.0.9_iphoneos-aảm64.deb
 Size: 55948
-MD5sum: 1b9356f2eaa47718030f0846f85dd7bf
-SHA1: 2c603e3c29762fd93d8a96e40fa211ff13249770
-SHA256: 8ceb70d8e5e161d16ac3aca8f9b5166e405f278ba11e023b4dce5b93626aa6cf
-SHA512: 66f0f3ed57faabbecf4e46fa3f514310bc04311d6ced877fd2b6f22c45d447d470048cc7b5bcf4df1483e0c76622701d5a0f3178d18adfd10c3333329139ee06
+MD5sum: 898f3085ad10c616e43d854ec475173a
+SHA1: fabc8e1cd494e47d469ef7b6c23373714e4d5e47
+SHA256: 1831e993ab59662100b9c3324e17d5e0bd82017ee67671e2c1ab74e16b6fe099
+SHA512: d81518d80c3d1aaef53bd4b02abfc93425b19f5c26995b0076a712d3fc9dfed60041627a26dc2068603a41cd8c28c3375dc5971c683cc18220abc1ed8def4e29
 Description: Bo tròn các khung trong ứng dụng cài đặt
 Name: roundPrefs (Rootless)
 Author: CydiaGeek <lucaluca86@aol.com>
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/roudPrefs.json
 
 Package: com.jtis.cylinderreborn
@@ -7595,13 +7597,15 @@ Installed-Size: 1000
 Pre-Depends: rootless-compat(>= 0.1)
 Depends: com.opa334.altlist, preferenceloader
 Filename: ./debs/com.jtis.primedeck_1.3.0_iphoneos-arm64e.deb
-Size: 541912
-MD5sum: 97934e20f1bcfd221a4ddee0bcc85bbd
-SHA1: 9d770bcba2a6676ff1c122eb18a12e7291fa781f
-SHA256: 4b581063d2ee210c95c2ecfcddb27deae7c94d3eab780f269a94461b4faf1afc
-SHA512: 1dababf651b4d23b840a988e4cd101d3df443832495e181ad80cf9e102fd4ef41449d02fc662c719d27338702c6915f3c6804fe9b41bf3a386db2777247e0667
+Size: 538420
+MD5sum: 207e41c9da83f297ad3c1fe96dcdd96c
+SHA1: bf1d40e53771df86df1f36db748928a3887db93d
+SHA256: 1d153ecdd11ecfcd6b7603f15c3268890c838146405988007489bcc7c267ff5f
+SHA512: 876eb5590b967a6e4cb33125bab93bef6af6d5f2b14e2522aa97cb911b3872b30427f9982d25b6da8b2e29c824d529ba5579afdc221ef3cb0c944d66bfe36113
 Description: Điều khiển trình chuyển đổi và khoá ứng dụng của bạn trong đa nhiệm
 Name: PrimeDeck (Roothide)
+Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.primedeck.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PrimeDeck.json
 Author: 0xkuj
 
 Package: com.jtis.quickpowerbutton
@@ -8558,16 +8562,17 @@ Maintainer: JTIS Repo
 Installed-Size: 364
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/com.jtis.stealthcc_0.9.0_iphoneos-arm64.deb
-Size: 21452
-MD5sum: 463f361e5ed809fc661b8607a7863277
-SHA1: ae018f8e353edbf6be6d470d888e57a36ebf9815
-SHA256: b0f8d4eb381ae005060d1232133e7f8f88bf7b106bb2202da5ba5f4337d48f96
-SHA512: b00a48769328a7b5f453b4d35aa11250b848db9ba3a08ea05be4f157a3bbff8f64ef99ab192242e9b78eaa2348cc0513b638603893663f184121b9ec734ecb71
+Size: 21456
+MD5sum: d4f77a6fbfc43851dd0c33fb4ac56a38
+SHA1: 97bcfceaa490917eabd62c915c79483903e02a36
+SHA256: 91103918302c043dd35e806895e2e51639cc7209c942207774583dbee5480fd6
+SHA512: 6aa1cde18e95b312761341ae932581bea840180f18c46288160c11b1d470555dc4142139aeb5587a2ec86d7cd98099ec9c85e62288d6963ac6b75ab88a0dd613
 Description: Điều chỉnh chế độ trong suốt trung tâm điều khiên
 Name: StealthCC (Rootless)
 Author: Luki
 Depiction: https://luki120.github.io/depictions/web/?p=me.luki.stealthcc
 SileoDepiction: https://jtisvn.github.io/sileodepictions/StealthCC.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.stealthcc
 Architecture: iphoneos-arm64e
@@ -8578,15 +8583,16 @@ Installed-Size: 364
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/com.jtis.stealthcc_0.9.0_iphoneos-arm64e.deb
-Size: 23368
-MD5sum: 49e8ec2326b3a348488a5c74253ed74a
-SHA1: b0917ce79fc55fc35e81df67b33d4ceeb766393c
-SHA256: f8daff366a0feff4f868806ab0fd4119d114f54698e9ae15a31df5c9e221ea92
-SHA512: 4108d4ebdd05fe01a8d447ee1e783e4b18e23c3ea44439fe82fdba3df6c583e6c7679c66b7adbf34fdba9c0e65c5871752aee32f93293c880cfec22f4bc4300a
+Size: 20896
+MD5sum: f9d5d6eecae5fa2eda2c8988564a0f3c
+SHA1: e824b760c3878489225af28cadf73230916e0d6f
+SHA256: c26b7fee70a95e9ac3faab03301276ee989801314486bd5154d60cf306a8a8f9
+SHA512: 0010c23a88ec4dea25d02cd8bf4a050442929ea159e3f570e5f1228a52cc26084c9b3909f1f6d22a71b45669d30660ebf78ffc1b165a434212b6770119bc1545
 Description: Điều chỉnh chế độ trong suốt trung tâm điều khiên
 Name: StealthCC (Roothide)
 Author: Luki
 SileoDepiction: https://jtisvn.github.io/sileodepictions/StealthCC.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.sugarcane
 Architecture: iphoneos-arm64
@@ -9684,21 +9690,22 @@ Icon: https://jtisvn.github.io/sectionIcons/Laetus.png
 Author: Spark
 
 Package: com.jtisvn.settingsrevamp
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Version: 3.0.1
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 888
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
 Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader, com.sop.settingsrevamp
-Filename: ./debs/com.jtisvn.settingsrevamp_3.0.1_iphoneos-arm64.deb
-Size: 208172
-MD5sum: 17316cfcb25c9efbe72a29d137ec419d
-SHA1: c63833e1c0bab872cc9219ed4f62549b1c667fb1
-SHA256: c40c796a8def50f56a8caef42a5406dd5cabb65a84baccc1a6edc1e967717290
-SHA512: d16dc5bc0a99fa83bbc7aa9c0a469d10a7c316b30f96d58d99ca3a8eb6b9e45f29a14c2e2f753eb9320fc929de01dfa06c76c59cd2aafc3908d9d806ea659b0f
-Description: Phan chia các mục cài đặt trên thiết bị IOS của ban.
-Name: SettingsRevamp (Rootless)
+Filename: ./debs/com.jtisvn.settingsrevamp_3.0.1_iphoneos-arm64e (1).deb
+Size: 204440
+MD5sum: 68ce3ce4506a94754482b45113b6db9c
+SHA1: 58e21f87e1dff37a47b537d22a5c51b6a24b54cb
+SHA256: a921b023b0dbd019d76fd9bb00c75721bba9e05db97c2c18961b05abf22e81e6
+SHA512: fe54c76459501760426cc35be6705925f6f0a22993193428f53284f30692fd66063a4c8286bd6b5d3f41bc51954972475d4c63ccc231585d67e6a3eb1a0c0c94
+Description: Phân chia các mục trong ứng dụng cài đặt.
+Name: SettingsRevamp (Roothide)
 Author: SOPPPra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsRevamp.json
 Icon: https://jtisvn.github.io/sectionIcons/SettingsRevamp.png
@@ -9713,12 +9720,12 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
 Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader, com.sop.settingsrevamp
 Filename: ./debs/com.jtisvn.settingsrevamp_3.0.1_iphoneos-arm64e.deb
-Size: 204124
-MD5sum: 97ae1d0fe1f816463186262fa4463598
-SHA1: 45772f48c95e1b84c72baa875bafeca78b69681d
-SHA256: 1643fa29787b9eb19978db7dcabb245637fded23e38ec2062c153fa4976f0826
-SHA512: d64fd43f81eb2a845ea9f435dfcd726e4c4489a125d70985dce4057e2472668097228162a4bfd9336ba711a54d4ce6029ed0d1864ac59539916af285cda2452a
-Description: Phan chia các mục cài đặt trên thiết bị IOS của ban.
+Size: 204440
+MD5sum: 8772ca5305ed44afbc24d3880d070fb2
+SHA1: acce1936e7a43ec0c568225e2d6f13bc955c66aa
+SHA256: 2c1aaae9d1220a778846d17246d01a08bfbe095d4ee50f2c689992aab6c9fd50
+SHA512: 8820a91ee734dcc7000755a717dac85a34f1b30532d6d30ce2050765b18aed4f1565a0018ae2fab610aead90a42e6b01fd55fd399a94c7e4f1118f5dd92cdda3
+Description: Phân chia các mục trong ứng dụng cài đặt.
 Name: SettingsRevamp (Roothide)
 Author: SOPPPra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsRevamp.json
@@ -10879,13 +10886,13 @@ Maintainer: JTISVN Repo
 Installed-Size: 236
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
 Filename: ./debs/com.p2kdev.safariblocker_1.3.1-1+debug_iphoneos-arm64.deb
-Size: 39324
-MD5sum: ae91c21545793b858b2ffc5f76054fda
-SHA1: e07633d79eb22f61447e173e3e284b30bc109667
-SHA256: d12042a703c8c3924c1a739da22c38e8207c0fc96867cfea19ae93a5bc1a6f64
-SHA512: 4b0fe121f16dd63d9aca49e95ff6df281fc72a3942c8db6768cd13494ceb28ea6aa2648aebf95f54ba59df23909a4fa42fdb5f41d6aecc032ec04cb711b42d29
+Size: 39436
+MD5sum: 2fcbf632ad58fc838623046ba090b0d0
+SHA1: 34ef64cf125a87c6cb95e5402fab44d83a389dc5
+SHA256: 55d52e71ed658af72f2fab6db8737423b9de33b61946b41895f74d9186d5fb8a
+SHA512: 768a72984fade83412e678817e6c909f718d4496955cbd6b11b377377c0ca4db1a7b642ac0d2e827d9fb500da1d95de682928d845917cecf6633a870667e3890
 Homepage: https://jtisvn.github.io
-Description: Block pop-ups and new tabs in Safari with options!
+Description: Chặn các tab mới trong Safari bằng các tùy chọn nâng cao!
 Tag: role::enduser, purpose::enhancement
 Name: SafariBlocker (Rootless)
 Author: P2KDev <p2kdev@gmail.com>
@@ -10901,13 +10908,13 @@ Installed-Size: 236
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
 Filename: ./debs/com.p2kdev.safariblocker_1.3.1-1+debug_iphoneos-arm64e.deb
-Size: 38920
-MD5sum: c5e2b2032ea5ba8b14553096e7922839
-SHA1: 7ac6dc4d80fba79c88055c88cfb5fb8e678c54f5
-SHA256: 4c0236192b24ff91cd105ed9fd2db1016fa260c4815727642f23ef50026ee6d0
-SHA512: 3fa3dcde3a953b88d60f0a514ad2d68f4f694958cce05f4d7873fe9baa06e6b27857be6ac065f5e97dde9b1b6b05c59bf9613bff4d4b38ea28777251aef360c1
+Size: 38952
+MD5sum: 96fcf69b4a6c38a473cbd35646f6f09f
+SHA1: d7960bf6ad0585ef91173d34a009e67532b94e1c
+SHA256: 495d89e5ef4b7b3954fc443ba50af1a79c67041c798caef2f7290be851c4d9e0
+SHA512: 23d4d6230b4d36efd5c8ca62a3570e5bde81e85b7db27b5f85f88f08ddef02033cc2fddf3ac813bfaad4513dde4280f48de39cade972bdd285bea9c3eba08fda
 Homepage: https://jtisvn.github.io
-Description: Block pop-ups and new tabs in Safari with options!
+Description: Chặn các tab mới trong Safari bằng các tùy chọn nâng cao!
 Tag: role::enduser, purpose::enhancement
 Name: SafariBlocker (Roothide)
 Author: P2KDev <p2kdev@gmail.com>
@@ -11012,6 +11019,25 @@ Author: PoomSmart
 https: //jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.ps.smoothcursorios13
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 6.0)
+Conflicts: org.thebigboss.smoothcursor
+Filename: ./debs/com.ps.smoothcursorios13_0.0.1_iphoneos-arm64.deb
+Size: 3172
+MD5sum: 0b20b6068295d6ef23ea33ab2101d1c9
+SHA1: e13f742783ca9542a3fa5c961e3eb59f3b8b3d86
+SHA256: 0cca40c901704e51d00718f91a391f87304699ae1a677f8de4b4b454d334df0f
+SHA512: f17edcfd2b07c45493ad27dbd1b415f1a0714bfa0fe942f15dfa5933b9092dd96931245d38ed9b16bbff3c15b15d682ceb666efb7f17b1b66b23bfd9540f79e5
+Description:  mượt con trỏ chuột di chuyển khi gõ phím chữ trên IOS
+Name: SmoothCursor (iOS 13+)
+Author: PoomSmart
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.ps.smoothcursorios13
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Tweaks
@@ -11022,14 +11048,14 @@ Depends: mobilesubstrate, firmware (>= 6.0)
 Conflicts: org.thebigboss.smoothcursor
 Filename: ./debs/com.ps.smoothcursorios13_0.0.1_iphoneos-arm64e.deb
 Size: 3088
-MD5sum: 897701f337171e781ce9b619e768c328
-SHA1: d9c01f653cd63963ea940e1e92dfef8dbdd1fd88
-SHA256: e6c8d50bfcd72008cca53a466a2a57674b5d609c6587e1b9026eb7de37cebb94
-SHA512: 221963c6208d4c19d0e7216911e75c6d30f425c2d059e906832533188ab550aa301ab27c015109ef8886a45c882ecb3befc1972a3091642f8acbfb76dc773d8b
+MD5sum: ae08a1d63172c0a30c9df90e664099c7
+SHA1: be829af452016b63269346d781ee1463281f1c99
+SHA256: 06f3ccb96960445dd0f2ccffb9ac25de65097f3d11f95d103feb55534eee0cfe
+SHA512: f5b81cf884c4f8e3d8b830a96914086a38ce23c81d610f7a58a925480fa1cc4b66e778a64e4262e3a3c15a95bd27e6d3be1ded41aa5458504cdbdabc70febc10
 Description: Làm mượt con trỏ chuột di chuyển khi gõ phím chữ trên IOS
 Name: SmoothCursor (iOS 13+)
 Author: PoomSmart
-https: //jtisvn.github.io/sectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.ps.trollleds
 Architecture: iphoneos-arm64
