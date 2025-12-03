@@ -16,25 +16,28 @@
 "margins": "{10,0,8,0}"
 },
 {
-"class": "DepictionMarkdownView",
 "markdown": "\n\n-Tùy chỉnh giao diện và phong cách hiển thị pin trên iOS 15 giống kiểu của iOS 16.\n\n-Thay đổi màu sắc phần trăm pin khi ở chế độ Mặc định, Khi sạc hoặc Tiết kiệm pin.\n\n-Tuỳ chỉnh kích thước và màu sắc số phần trăm pin hiển thị.",
-"useRawFormat": false
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
 "class": "DepictionSeparatorView"
 },
 {
-"class": "DepictionHeaderView",
-"useBoldText": true,
-"useBottomMargin": false
+"class": "DepictionLabelView",
+"text": "Ảnh chụp màn hình",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class": "DepictionSpacerView",
-"spacing": 16
-},
-{
-"class": "DepictionScreenshotsView",
-"itemCornerRadius": 8,
+"itemCornerRadius": true,
 "itemSize": "{185, 400}",
 "screenshots": [
 {
