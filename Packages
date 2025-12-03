@@ -2778,12 +2778,12 @@ Installed-Size: 5160
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 2.0), com.spark.libsparkcolourpicker
 Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
 Filename: ./debs/com.jtis.aimpro_1.1.3_iphoneos-arm64.deb
-Size: 2356248
-MD5sum: b0708cfc73c67e9c9d0df3245aed7f46
-SHA1: cdda3a58b95d117fb572f9ae8177279e06da0eac
-SHA256: 26049a01dbe1afe3d315015f7dcadfbb0c1d459b6f9ebf5cbc23d2b908c311c7
-SHA512: b3557d0c7299f082b43d28e88dacb501e698189b3e7e6529172cfc1ddffce40612a8202fda8fc5fa33d349ae62b66c7b13c45480dfe0ee2e51da5830d0633571
-Description: iOS 16 Style Time & Date Lockscreen
+Size: 2355144
+MD5sum: e990640c47cb3560f0506c1cb12f6e9e
+SHA1: c34284085fb2c26e563f4a90f1cb12a7d4e1f79a
+SHA256: d132fe2a9a75cbdc75202b20f959b92e70c88df314ad836541387ead209c5e2b
+SHA512: 7f96a652bf706fea949c4ca8da0ab63b64b385471a172d0006daeb819f330b81be7ffaae1ba28a24b18ff8f7675ac125b16f67438894e29a35d26370d429ccf3
+Description: Màn hình khóa ngày và giờ phong cách iOS 16
 Name: AIM Pro (Rootless)
 Author: alimaulana
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AimPro.json
@@ -2799,12 +2799,12 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 2.0), com.spark.libsparkcolourpicker
 Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
 Filename: ./debs/com.jtis.aimpro_1.1.3_iphoneos-arm64e.deb
-Size: 2348556
-MD5sum: b4d26d086e1599ddd4e6141659d2fd32
-SHA1: 2b1a2130832a3ea1332f6e7027cefb1fa7f49e1a
-SHA256: fbe9aeeb063fbaa38104af1bc845195d1e903c87051abbd6e885f1693f01850a
-SHA512: 4761d74d7d1140c19973093993be26bcfe33cce427332ec146546ab9ee2aa5cdb053798cfbe647a5c444eb090cb5807b01fba7741bd9bbee1db12e3bd3c63326
-Description: iOS 16 Style Time & Date Lockscreen
+Size: 2348776
+MD5sum: 1545e12dff1af212da86bc862b2333b2
+SHA1: d3b7f097d58987a60ed0583ba4e9859e58d8c25f
+SHA256: 7811477c67797c0b0349f6222f60ffd49dde3841cc53e851a6b6b0fb14378c61
+SHA512: 61a44951c25853d461f462b622379cc2015381706d7ffa09e806297154607a2481b6216cf3bd5932ad71fb5ef5f29a4966da8a8d8801331e1295741e086404b4
+Description: Màn hình khóa ngày và giờ phong cách iOS 16
 Name: AIM Pro (Roothide)
 Author: alimaulana
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AimPro.json
@@ -3717,12 +3717,12 @@ Maintainer: JTIS Repo
 Installed-Size: 176
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.blur_1.0-8+debug_iphoneos-arm64.deb
-Size: 10464
-MD5sum: b9cf699d20d26726cb395c02ae12ad58
-SHA1: 032e6353086ca812dc438fcbdf3e4fb7c8d862aa
-SHA256: 068b1ad84ea4912235da3a4b695f06d5092002be2c84759e324011731e5eac6d
-SHA512: 3363f4069520d540e6707f6c2a26cc8b46a8c67952aed9f26185b86ce4ecadfade01ee9f41a645ae1dac24b62af4181be0b431480f9000e9bac02ce4925cc0dd
-Description: Khoá ảnh và video riêng thư bằng FaceID,TouchID và Passcode
+Size: 10448
+MD5sum: 6e81c81661257cb42128dd58b0b7fad7
+SHA1: e47198a749539e9a60bf0304099bc23664592283
+SHA256: c628298e36e5332c02d2992b9bdd37efae52b801dc19cb4fadde55587ec47e7f
+SHA512: 9206cdef4dc97f42f898d2b855d99767b0fe411dd9e77f0ccf44355857e30f4833f52ce74993abf1c61323b5470ee5fc7b46c441863efbedd384a25f28287a05
+Description: Khoá ảnh và video riêng tư bằng FaceID,TouchID và Passcode
 Name: Blurify6 (Rootless)
 Author: MrDeNsor
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Blurify6.json
@@ -3737,12 +3737,12 @@ Installed-Size: 176
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.blur_1.0-8+debug_iphoneos-arm64e.deb
-Size: 10172
-MD5sum: f16f595b1d3b67196afd72f5af1a042a
-SHA1: 86cd783cbe0f8cd2565adc797e965ce20c185e7a
-SHA256: 312a562a651917a4a85eabd49c6a25feed3fdb1be92d47ea630e256dafc21a0e
-SHA512: c47c80ec8c86284ed11f95ef12c9f2b007ab1143e1bae4a58c5d65a93d26f0b8e94709050d8308cccfa7691ff8d66cee68b285ebda29e9f61aeaa0149e60944c
-Description: Khoá ảnh và video riêng thư bằng FaceID,TouchID và Passcode
+Size: 10192
+MD5sum: 871caee11c1671c35fc642d7508f3ce6
+SHA1: 966e13ba211e8e399be12c23c783d6f3aedb9d33
+SHA256: a638625784be132a746dc54cfebb807abae2001889dcf8b762aa495ab5e32b5e
+SHA512: 5a4fb7deaa49ae45c6d0e4acb14efdb9a923c2bef19dbb9a09e15c09598bea6868c018cc24ad32256168a5714116aec9e687117c0d22b5de1043fb2294a2e264
+Description: Khoá ảnh và video riêng tư bằng FaceID,TouchID và Passcode
 Name: Blurify6 (Roothide)
 Author: MrDeNsor
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Blurify6.json
@@ -13263,16 +13263,16 @@ Section: Tweaks
 Maintainer: CyPwn
 Depends: preferenceloader
 Filename: ./debs/xyz.cypwn.doodle_1.2k_iphoneos-arm64.deb
-Size: 3576708
-MD5sum: 4a9132f8212b7cf7ee2fb7368f5024d9
-SHA1: 92e7e2a3b4368dd841929c93460e3d5f6da1c03a
-SHA256: 9abf6a6b1e2558922d82033f1e5a35370ef4bdc2bd1e6993df20b0810d1fa50b
-SHA512: e63c00da0af97c87b79c238f4a2136e26744123587adc549ac47deca7dc6bd8ed4b83be7f026bd5bdbff5af1554ff0683bf59e31f0f89a1ae7a83bb87ee2c417
-Description: Unlock device using a doodle
+Size: 3576792
+MD5sum: 80a79488b5f866e5e08d8ec9b4eacb79
+SHA1: 2f35ef96b18cc0687fc27d303625c56465d9ab23
+SHA256: 6f01c51105d9e026a6dfd49632bc3c95a4c4b5dcb33deec7d17be4f07a7bf7d6
+SHA512: 846d35f34da019584704efb0c8da7ebe2b4dbdc4174094c14bf89d94d19595c46ff2df1fd9804e9c84c5997d90e1c5979f361c8c244a70bc8ad6b1fb0401563e
+Description: Mở khóa thiết bị bằng hình vẽ
 Depiction: https://repo.cypwn.xyz/depiction/2756
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
 Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
-Name: Doodle
+Name: Doodle (Rootless)
 Author: Ethan Whited
 
 Package: xyz.cypwn.doodle
@@ -13283,12 +13283,12 @@ Maintainer: CyPwn
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: preferenceloader
 Filename: ./debs/xyz.cypwn.doodle_1.2k_iphoneos-arm64e.deb
-Size: 3580400
-MD5sum: 637e4a0c74a8f5fcb32e2aadf736b8af
-SHA1: 572d552699e348f21469c789cb1e208f2eaed77b
-SHA256: e4a053d36211b1b47799fb85be261d35282c986e81263e1476517235a5836b66
-SHA512: c59643ca20d72e65db02753881e1dbd3682f19b5f0da093da9180ab4d190b66814546df2ee6c0c10a96422055a1049f10ce74e414e5966c139477dd59cb917fa
-Description: Unlock device using a doodle
+Size: 3580432
+MD5sum: 4d3d7130aa1d79afd3906ec1ab0122c4
+SHA1: 5bcb0b6e6ff43fbc27ecdd3bbdd9ecfb5435d946
+SHA256: 457bfc616bab6777c4b109c5a2ebf051e9948381440fc4977a69bc32798616da
+SHA512: 58f51ca9a4994cbad9bf95a848f69cfba41da123ae20936fbbe88745be5bb91af366316e461b152aec12bf28d1b7ee92bd0190ed896bea413ed1c2f94e25cbe6
+Description: Mở khóa thiết bị bằng hình vẽ
 Depiction: https://repo.cypwn.xyz/depiction/2756
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
 Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
