@@ -9564,27 +9564,6 @@ Author: alimaulana
 Icon: https://jtisvn.github.io/sectionIcons/Waktos2.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Waktos2.json
 
-Package: com.jtis.weatherls
-Architecture: iphoneos-arm64e
-Version: 2.0.1
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 208
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, oldabi-stub|oldabi, firmware (>= 15.0)
-Filename: ./debs/com.jtis.weatherls_2.0.1_iphoneos-arm64e.deb
-Size: 17876
-MD5sum: 1cd3b65b0e3d708bbcb58f5c390993ee
-SHA1: 8a18e633d9150b1446d914d975f5d1099afacde3
-SHA256: c8bf9c9426a88cc196df25092d2569b4f50b51f746799d12b24e6d5762d6c679
-SHA512: 6dd1cfa48a543bcba68e28ef89d89da01c7833d9e89dcf82d874cce2777901b0c948590faf4d99bb4e37b17641836895bebb02bb14ee80915594931433fc6000
-Description: Show the weather on the lock screen!
-Name: WeatherLS (Roothide)
-Author: Ginsu
-SileoDepiction: https://jtisvn.github.io/sileodepictions/WeatherLS.json
-Depiction: https://jtisvn.github.io/depictions/WeatherLS.html
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
 Package: com.jtis.xuanhua120hz
 Architecture: iphoneos-arm64
 Version: 0.0.4
