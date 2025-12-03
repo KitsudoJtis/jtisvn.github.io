@@ -5,71 +5,166 @@
 "tabs":[
 {
 "tabname":"Giới thiệu",
-"views":[
-{ "class":"DepictionHeaderView", "title":"" },
+"views": [
 {
-"class":"DepictionHeaderView",
-"title":"DLEasy"
+"class": "DepictionHeaderView",
+"useBoldText": true,
+"useBottomMargin": false
+},        
+{
+"class": "DepictionLabelView",
+"text": "DLEasy",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n\n- Cho phép tải xuống hình ảnh và video từ các nền tảng Ứng dụng mạng xã hội.!\n\n- Facebook, Instagram, Messenger, Reddit, Tik Tok, Tumblr, Tweetbot, Twitter, VK, WhatsApp, YouTube)\n\n- Nhấn và giữ để lưu video và hình ảnh.\n\n- Tải xuống video và hình ảnh từ tất cả các ứng dụng có sẵn trong DLEasy.\n\n- Có thể xem các phiên bản ứng dụng tương thích bên trong cài đặt\n\n- Nhập video và âm thanh từ YouTube vào Music.app.\n\n- Lưu phương tiện trong một album tùy chỉnh là DLEasy\n\n- Bạn có thể thu nhỏ giao diện tải xuống và phần tải xuống ở chế độ nền.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
-{
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/DLEasy/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionMarkdownView",
+"markdown": "\n\n- Cho phép tải xuống hình ảnh và video từ các nền tảng Ứng dụng mạng xã hội!\n\n- Hỗ trợ: Facebook, Instagram, Messenger, Reddit, TikTok, Tumblr, Tweetbot, Twitter, VK, WhatsApp, YouTube.\n\n- Nhấn và giữ để lưu video và hình ảnh.\n\n- Tải xuống video và hình ảnh từ tất cả các ứng dụng có sẵn trong DLEasy.\n\n- Có thể xem các phiên bản ứng dụng tương thích bên trong cài đặt.\n\n- Nhập video và âm thanh từ YouTube vào Music.app.\n\n- Lưu phương tiện trong một album tùy chỉnh là DLEasy.\n\n- Bạn có thể thu nhỏ giao diện tải xuống và phần tải xuống ở chế độ nền.",
+"useRawFormat": false
 },
 {
-"url":"https://jtisvn.github.io/infodeb/DLEasy/Screenshots/2.png",
-"accessibilityText":"Screenshot"
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Ảnh chụp màn hình",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionScreenshotsView",
+"itemCornerRadius": 8,
+"itemSize": "{185, 400}",
+"screenshots": [
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/DLEasy/Screenshots/1.png"
+},
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/DLEasy/Screenshots/2.png"
 }
-],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
+]
 },
 {
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Nhà phát triển",
-"text":"AhmedBafkir"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.14.8" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
+"class": "DepictionLabelView",
+"text": "AhmedBafkir",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"10/5/2025"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Kích thước",
-"text":"8 MB"
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 12.0 - 16.6.1"
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "10/5/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.14.8",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "8 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "iOS 12.0 - 16.6.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -79,20 +174,20 @@
 "alignment":1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.14.8\n\n- Sửa lỗi văng ứng dụng khi tải xuống\n\n- Cập nhật danh sách các phiên bản ứng dụng mới tương thích hơn\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 2.14.8\n\n- Sửa lỗi văng ứng dụng khi tải xuống.\n\n- Cập nhật danh sách các phiên bản ứng dụng mới tương thích hơn.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
+"tabname":"Liên Hệ Hỗ Trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
