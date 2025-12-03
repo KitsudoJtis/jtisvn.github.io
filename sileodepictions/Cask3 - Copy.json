@@ -1,34 +1,60 @@
 {
-    "minVersion":"0.4",
+    "minVersion":"0.1",
     "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-    "tintColor":"#FF66CC",
+    "tintColor":"#FF6699",
     "tabs":[
     {
     "tabname":"Giới thiệu",
-    "views":[
+    "views": [
     {
-    "class":"DepictionScreenshotsView",
-    "screenshots":[
+    "class": "DepictionHeaderView",
+    "useBoldText": true,
+    "useBottomMargin": false
+    },        
     {
-    "url":"https://jtisvn.github.io/infodeb/April/Screenshots/1.png",
-    "accessibilityText":"Screenshot"
+    "class": "DepictionLabelView",
+    "text": "Cask 3",
+    "fontWeight": "semibold",
+    "fontSize": 17,
+    "usePadding": true,
+    "useMargins": true,
+    "margins": "{10,0,8,0}"
     },
     {
-    "url":"https://jtisvn.github.io/infodeb/April/Screenshots/2.png",
-    "accessibilityText":"Screenshot"
-    }
-    ],
-    "itemCornerRadius":8,
-    "itemSize":"{185,400}"
-    },
-    {
-    "markdown":"### April - Cá nhân hóa Cài đặt\n\n- Thổi làn gió mới vào giao diện Cài đặt nhàm chán bằng những hình nền sống động và độc đáo.\n\n- Tùy biến hình nền thông minh: Tự động thay đổi theo chế độ Sáng/Tối hoặc chuyển đổi linh hoạt theo thời gian trong ngày (Sáng, Chiều, Tối, Đêm).\n\n- Hiệu ứng thị giác đỉnh cao: Hỗ trợ các lớp phủ mờ (Blur) chuyên nghiệp (Gaussian, Thin Material...) giúp nội dung nổi bật trên nền ảnh.\n\n- Sáng tạo không giới hạn: Tùy chỉnh độ trong suốt của các ô thư mục và tạo điểm nhấn với dải màu Gradient chuyển động mượt mà.",
-    "useSpacing": false,
-    "class": "DepictionMarkdownView"
+    "class": "DepictionMarkdownView",
+    "markdown": "\n\n- Mang hiệu ứng cuộn bảng động đến toàn bộ iOS 14 trở lên. Đối với các phiên bản iOS thấp hơn, hãy thử dùng Cask gốc của Ryan Petrich hoặc Cask 2.\n\n- Xem hình ảnh phía dưới để biết thêm chi tiết.",
+    "useRawFormat": false
     },
     {
     "spacing": 20,
     "class": "DepictionSpacerView"
+    },
+    {
+    "class": "DepictionSeparatorView"
+    },
+    {
+    "class": "DepictionLabelView",
+    "text": "Ảnh chụp màn hình",
+    "fontWeight": "semibold",
+    "fontSize": 17,
+    "usePadding": true,
+    "useMargins": true,
+    "margins": "{10,0,8,0}"
+    },
+    {
+    "class": "DepictionScreenshotsView",
+    "itemCornerRadius": 8,
+    "itemSize": "{185, 400}",
+    "screenshots": [
+    {
+    "accessibilityText": "Screenshot",
+    "url": "https://jtisvn.github.io/infodeb/Cask3/Screenshots/1.png"
+    },
+    {
+    "accessibilityText": "Screenshot",
+    "url": "https://jtisvn.github.io/infodeb/Cask3/Screenshots/2.png"
+    }
+    ]
     },
     {
     "class": "DepictionSeparatorView"
@@ -57,7 +83,7 @@
     },
     {
     "class": "DepictionLabelView",
-    "text": "Luki120",
+    "text": "Ryan Nair",
     "fontWeight": "semibold",
     "fontSize": 16,
     "usePadding": false
@@ -83,7 +109,7 @@
     },
     {
     "class": "DepictionLabelView",
-    "text": "11/6/2025",
+    "text": "30/7/2025",
     "fontWeight": "semibold",
     "fontSize": 16,
     "usePadding": false
@@ -101,7 +127,7 @@
     },
     {
     "class": "DepictionLabelView",
-    "text": "3.1",
+    "text": "1.0.3",
     "fontWeight": "semibold",
     "fontSize": 16,
     "usePadding": false
@@ -114,20 +140,20 @@
     },
     {
     "class": "DepictionLabelView",
-    "text": "82 kB",
+    "text": "782,3 KB",
     "fontWeight": "semibold",
     "fontSize": 16,
     "usePadding": false
     },
     {
     "class": "DepictionLabelView",
-    "text": "Tương thích iOS/iPadOS",
+    "text": "Khả năng tương thích",
     "textColor": "#777",
     "margins": "{16,0,8,0}"
     },
     {
     "class": "DepictionLabelView",
-    "text": "12.0 - 16.6.1",
+    "text": "iOS 11.0 đến 16.7.11",
     "fontWeight": "semibold",
     "fontSize": 17,
     "usePadding": false
@@ -155,7 +181,7 @@
     "views":[
     {
     "class":"DepictionMarkdownView",
-    "markdown":"### Phiên bản 3.1\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+    "markdown":"### Phiên bản 1.0.3\n\n- Hỗ trợ Rootfull, Rootless & Roothide Jailbreak."
     }
     ],
     "class":"DepictionStackView"

@@ -22,7 +22,7 @@
     "itemSize":"{185,400}"
     },
     {
-    "markdown":"April - Cá nhân hóa Cài đặt\n\n- Thổi làn gió mới vào giao diện Cài đặt nhàm chán bằng những hình nền sống động và độc đáo.\n\n- Tùy biến hình nền thông minh: Tự động thay đổi theo chế độ Sáng/Tối hoặc chuyển đổi linh hoạt theo thời gian trong ngày (Sáng, Chiều, Tối, Đêm).\n\n- Hiệu ứng thị giác đỉnh cao: Hỗ trợ các lớp phủ mờ (Blur) chuyên nghiệp (Gaussian, Thin Material...) giúp nội dung nổi bật trên nền ảnh.\n\n- Sáng tạo không giới hạn: Tùy chỉnh độ trong suốt của các ô thư mục và tạo điểm nhấn với dải màu Gradient chuyển động mượt mà.",
+    "markdown":"### April - Cá nhân hóa Cài đặt\n\n- Thổi làn gió mới vào giao diện Cài đặt nhàm chán bằng những hình nền sống động và độc đáo.\n\n- Tùy biến hình nền thông minh: Tự động thay đổi theo chế độ Sáng/Tối hoặc chuyển đổi linh hoạt theo thời gian trong ngày (Sáng, Chiều, Tối, Đêm).\n\n- Hiệu ứng thị giác đỉnh cao: Hỗ trợ các lớp phủ mờ (Blur) chuyên nghiệp (Gaussian, Thin Material...) giúp nội dung nổi bật trên nền ảnh.\n\n- Sáng tạo không giới hạn: Tùy chỉnh độ trong suốt của các ô thư mục và tạo điểm nhấn với dải màu Gradient chuyển động mượt mà.",
     "useSpacing": false,
     "class": "DepictionMarkdownView"
     },
