@@ -7847,6 +7847,24 @@ Depiction: https://jtisvn.github.io/depictions/SafariWallpaper.html
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.safeccmodules
+Architecture: iphoneos-arm64
+Version: 1.5-2
+Section: Addons (ControlCenter)
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.safeccmodules_ 1.5-2_ iphoneos-arm64.deb
+Size: 1166032
+MD5sum: 76de09b209eeb382a82039313e41fe89
+SHA1: afd84acc09100b74dab232dc4008263003e256e9
+SHA256: ac0a4121d860f79fd92629b897aa3bd25bab80b4c23e7f6af115863474f7ffab
+SHA512: 0a7f8835ef04f4fccc55f35f8b71c4f13a7422f213e99bff2a9939a31b4a6d78ad01fc0eaafe329a73907f97627690c681a0e208d0fa0bbf52f1e60d93c1f261
+Description: Control center modules for iOS 11/12/13/15. New in v1.5-1: Fix for Tiny Volume and Silent Mode modules causing issues.
+Author: jailbreak365
+Name: CCModules (Rootless)
+dev: jailbreak365
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCModules.json
+ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.jtis.safeccmodules
 Architecture: iphoneos-arm64e
 Version: 1.5-2
 Section: Tweaks
@@ -11302,42 +11320,22 @@ SileoDepiction: https://havoc.app/package/reo/depiction.json
 Icon: https://media.havoc.app/6683a5d2b31c69deb54d4705
 
 Package: com.roothide.manager
-Architecture: iphoneos-aảm64
-Version: 1.3.3
-Section: System
-Maintainer: JITS Repo
-Installed-Size: 1076
-Depends: firmware (>= 15.0)
-Filename: ./debs/com.roothide.manager_1.3.3_iphoneos-aảm64.deb
-Size: 749128
-MD5sum: 97d2f76a537cf7f55050ac384257fc3f
-SHA1: 1929d409c1992b8245e1a55a9acbe68cb59616b3
-SHA256: 0041c5820ed1a613f64a8579d20c6f9627a0c92cb94905e44afd340a6f6e24ec
-SHA512: 3fa3b62a5dfbe05c458a03834b1493a8e3fd62a3613c8eb800fd77c583a03bd532462b06bdcea0854ad31c08530bf268de3ef9c600a56603cc158a7946460d4e
-Description: Configuare RootHide's Features
-Name: RootHide Manager (Rootless)
-Author: roothide
-Icon:
-Depiction: https://github.com/roothide/RootHideManagerApp
-Support: https://github.com/roothide/RootHideManagerApp
-
-Package: com.roothide.managers
-Architecture: iphoneos-arm64
-Version: 1.1
+Architecture: iphoneos-arm64e
+Version: 1.3.5
 Section: System
 Maintainer: roothide
-Installed-Size: 896
+Installed-Size: 1092
 Depends: firmware (>= 15.0)
-Filename: ./debs/com.roothide.managers_1.1_iphoneos-arm64.deb
-Size: 763450
-MD5sum: fcb15121c5f178629d0cf796178d12f7
-SHA1: 1f93f5c3b68f7b0b42a9e716cd49368077ba52d7
-SHA256: 53d0bf83d98ea9716c7ebbd99ff83519793c23aa5bae3f75320cda41727c4e23
-SHA512: 779ba58c282fe12d957ba7c435016396e7fa8fab4cf1a4787dabc7cddd0f0cca24bf0311e5de40892a83f8d044b0fd92e121b87f6681e70678cbdd69d60ca045
+Filename: ./debs/com.roothide.manager_1.3.5_iphoneos-arm64e.deb
+Size: 752470
+MD5sum: 0855bfee765fbec259bd55e13e3281ae
+SHA1: 9623b14bc1d7001756f9f2d265786770b8bc60b8
+SHA256: 0acb9442ce75773549b51231c4280d33f3c84907da2573f4f081c29fbeae9562
+SHA512: 0b8733dee45e6b85aa0de51b0a9e1ddf358b7583de4e23a0900236dcbbc7663a7680d35173a6b989a3d2da5fceb02a3d46208befcb7c2db801f1c43bf0df5ecf
 Description: Configuare RootHide's Features
 Name: RootHide Manager
 Author: roothide
-Icon: https://bvnsupport.github.io/depictions/sectionIcons/hethongg1.png:
+Icon:
 Depiction: https://github.com/roothide/RootHideManagerApp
 Support: https://github.com/roothide/RootHideManagerApp
 
