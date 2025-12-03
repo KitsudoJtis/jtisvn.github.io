@@ -9,9 +9,9 @@
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionLabelView",
-"text":"TikTokPhotoComments",
-"fontWeight": "bold",
-"fontSize": 19,
+"text":"AppStoreTroller",
+"fontWeight": "semibold",
+"fontSize": 18,
 "usePadding": true,
 "useMargins": true,
 "margins": "{10,0,8,0}"

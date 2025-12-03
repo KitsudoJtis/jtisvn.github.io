@@ -10,8 +10,8 @@
 {
 "class":"DepictionLabelView",
 "text":"TikTokPhotoComments",
-"fontWeight": "bold",
-"fontSize": 19,
+"fontWeight": "semibold",
+"fontSize": 18,
 "usePadding": true,
 "useMargins": true,
 "margins": "{10,0,8,0}"

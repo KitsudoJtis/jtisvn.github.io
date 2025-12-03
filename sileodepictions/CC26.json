@@ -10,7 +10,7 @@
 {
 "class":"DepictionLabelView",
 "text":"CC26",
-"fontWeight": "bold",
+"fontWeight": "semibold",
 "fontSize": 18,
 "usePadding": true,
 "useMargins": true,
