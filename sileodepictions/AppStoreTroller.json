@@ -11,13 +11,13 @@
 "class":"DepictionLabelView",
 "text":"AppStoreTroller",
 "fontWeight": "semibold",
-"fontSize": 18,
+"fontSize": 17,
 "usePadding": true,
 "useMargins": true,
 "margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n\n- Giả mạo Phiẻn bản iOS cao khi tải về ứng dụng từ AppStore.",
+"markdown":"\n\n-Giả mạo Phiẻn bản iOS cao khi tải về ứng dụng từ AppStore.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
