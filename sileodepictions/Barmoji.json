@@ -6,18 +6,17 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
+"class": "DepictionHeaderView",
+"useBoldText": true,
+"useBottomMargin": false
+},        
 {
-"class":"DepictionLabelView",
-"text":"Barmoji",
-"fontWeight": "bold",
-"fontSize": 19,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
+"class": "DepictionSpacerView",
+"spacing": 8
 },
 {
-"markdown":"\n\n- Thêm biều tượng cảm xúc cho thanh dưới bàn phím.",
+"class": "DepictionMarkdownView",
+"markdown":"<p style=\"font-size:12pt;\">Barmoji\n\n- Thêm biều tượng cảm xúc cho thanh dưới bàn phím.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
