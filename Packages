@@ -4971,42 +4971,24 @@ Icon: https://jtisvn.github.io/icons/avatar.webp
 
 Package: com.jtis.eneko
 Architecture: iphoneos-arm64
-Version: 1.5.0
+Version: 1.4.2
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 440
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.jtis.eneko_1.5.0_iphoneos-arm64.deb
-Size: 61104
-MD5sum: 6c3c85a675f283a629bea8eb32359260
-SHA1: 26270691003a8942649ff808a3f63f23fc69eb3e
-SHA256: 39bf3a65e5b89ace047c7f40d757e71861ae0860d256da2d15a9343c3f58641f
-SHA512: 7eac4ce01c25288c716fb436206a0682387b9eb95a168c7c8ac12f5b3f2ea7db3783702271befcdbc562d22ae7d02c83dc78e1b9477f4d9aebebdf6f3ff30484
-Description: Chọn video làm nền màn hình cho IOS
+Installed-Size: 464
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko, dev.traurige.eneko, net.limneos.voicechangerx-rootless
+Filename: ./debs/com.jtis.eneko_1.4.2_iphoneos-arm64.deb
+Size: 29540
+MD5sum: 19c91fcaf79a06e63b302bf3c3b86b78
+SHA1: bf759767f34f89623270b34c4817d9a96c056653
+SHA256: f9a75c6e6644e3b34b477567e4fda3029ad427a57b0811736a77828358545d0d
+SHA512: 6f1a12231e5ad0a0de8aed1895d9088af78bb94c65d2414847187a6d0dfcc73a16452f2bcbf6d6959666925876b1fd114127383722c5a4629d445ab23eee0f94
+Description: Hình nền video cho iOS. Tinh chỉnh ban đầu đã được sửa đổi để hỗ trợ rootless.
 Name: Eneko (Rootless)
-Author: Traurige & Axs
-Icon: https://axs66.github.io/repo/icon/eneko.png
+Author: Traurige <hello@traurige.dev>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
-
-Package: com.jtis.eneko
-Architecture: iphoneos-arm64e
-Version: 1.5.0
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 440
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.jtis.eneko_1.5.0_iphoneos-arm64e.deb
-Size: 59956
-MD5sum: 1123bb5d61ef0fbd1c72eb6d94044cad
-SHA1: 73900c0dee5614db007c9d6fb656f8f844648c55
-SHA256: bd1818156a36362f59a8d45c08e8ef7248a003a458b3b630ad1f1c0a45b78db5
-SHA512: 7ef48c6f1442e90444b88dedf578940793619fb981ce057c1efff46f191b01f0de513d3f82dd73e02eae3e947182d5d15fabac5693ec40847200d035fa02ec33
-Description: Chọn video làm nền màn hình cho IOS
-Name: Eneko (Roothide)
-Author: Traurige & Axs
-Icon: https://axs66.github.io/repo/icon/eneko.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
+Depiction: https://jtisvn.github.io/depictions/Eneko.html
+Icon: https://jtisvn.github.io/sectionIcons/Eneko.png
 
 Package: com.jtis.eneko
 Architecture: iphoneos-arm64
@@ -5016,15 +4998,15 @@ Maintainer: JTISVN Repo
 Installed-Size: 440
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.jtis.eneko_1.5.1_iphoneos-arm64.deb
-Size: 61196
-MD5sum: 9e60d42c830821cca7a3b445b8a675b6
-SHA1: 779ff9a031ceefb775e067ccd60f6f97e94877bb
-SHA256: 75480423076f623fa9407052b28091246979d0a45694f72673d44443178928c1
-SHA512: 70a3f00aae857abd7a36d0bfd6dd0126068fe4ffa2cb982b3cc2c5ca3c2017ab3bc14c8da5a6399c81b52298dfc1b672090e7c75f126c2441f21d8c07bbf3cb6
+Size: 61244
+MD5sum: 32c3cd40c71d3ae07120b5cfb2345272
+SHA1: c8a0c7967435b5db40a7a1563e8779d4a09fa61f
+SHA256: cb1e4530a4d5a38b7666b8b957b694293d60a78972490af767cc3d1dc2d7c2bd
+SHA512: f7b344d843382902229068466de2875dc2f6c833cf6485be8466ecf98e256ff01ce28fa5f03a1fe302d1f7c1b6dd4c250dc6b8fa73219ffcbd10cf603dfd5626
 Description: Chọn video làm nền màn hình cho IOS
 Name: Eneko (Rootless)
 Author: Traurige & Axs
-Icon: https://axs66.github.io/repo/icon/eneko.png
+Icon: https://jtisvn.github.io/sectionIcons/Eneko.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
 
 Package: com.jtis.eneko
@@ -5036,15 +5018,15 @@ Installed-Size: 440
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.jtis.eneko_1.5.1_iphoneos-arm64e.deb
-Size: 60076
-MD5sum: 0f9390a05a482abaf61dfada14e02520
-SHA1: a2b6ac72e25b3156552e75cd56655d1b55766faf
-SHA256: 424ea8e996a24c0ea590b0a15f27e31854d7fc0f18179ce3a336c9c26816bbf0
-SHA512: 53988a47ce34831de7cce96fb43dc4206864d7c1b25494e300f4a108355268212653935dec265346bdd6cd0136d36f037a2566d7ad7db9a390e1f51fa2f8d3b7
+Size: 60140
+MD5sum: 0a4e8765b6a168327592e027331726c0
+SHA1: 4af07b20de8a81f75b5ade50a58de216f391d0f5
+SHA256: dc12418d49088cf23486168cf9b2eb5e297ce34dc54ae17d0461dc3f813bc512
+SHA512: 5c103da497f8bdea1d6796596991825bc3ea02c455b8cd0184c594bf37ca80e761d81871b92666101436acb3184009e27c6323d905f7eef1543a5d712fcb643f
 Description: Chọn video làm nền màn hình cho IOS
 Name: Eneko (Roothide)
 Author: Traurige & Axs
-Icon: https://axs66.github.io/repo/icon/eneko.png
+Icon: https://jtisvn.github.io/sectionIcons/Eneko.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
 
 Package: com.jtis.ermete
@@ -6033,15 +6015,15 @@ Maintainer: JTISVN Repo
 Installed-Size: 272
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.icatch_1.1-120+debug_iphoneos-arm64.deb
-Size: 29744
-MD5sum: c739dfdbfd4e2bdc60a834fb6bc2fc1f
-SHA1: 4ce632481c395774477567ee6b0a9857f3e14bec
-SHA256: 83166039566113d8378c6f365c86043550ba7f7fa7df573b385524b073b41017
-SHA512: dc426f9ae728f73b203c94db80602bb4c41272c9eceb87e34a3ece0556675df1c0f526a37dd4cc100e4f5f4368d2551fb1abb4c6b73af3264a9ebe471ff213f7
+Size: 29760
+MD5sum: 61728fe6d96051af2039d4e096763b41
+SHA1: 7d4933691237ff0f414bca31798853efc581b680
+SHA256: cd09801fc33131bc3f7740a44b4be69b116ab1d922707f612742a30526ca3046
+SHA512: 07d569532c596c1c086978e383976a6a702ffcc7fa50671dc7837bf376c6634174bdaab13bbef65f945bde8e92123219c2e114c98dffa9050b48143e809f44cb
 Description: Tải xuống file.deb khi cài đặt tweak kèm gói từ Sileo và Zebra trực tiếp vào Filza
 Name: iCatch (Rootless)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Icatch.json
-Icon: https://repo.cypwn.xyz/packages/iCatch-Rootless/icon.png
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: DeNsor
 
 Package: com.jtis.icatch
@@ -6053,15 +6035,15 @@ Installed-Size: 272
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.icatch_1.1-120+debug_iphoneos-arm64e.deb
-Size: 29088
-MD5sum: b2c8c514b333d38291d7f7e9c70b2805
-SHA1: 199ec3087b3a180585587ef8a5fde38ff5f69982
-SHA256: adc45d938dc4b8e035e5dcd59457671956e0c54f210245daa359a0d348c22e3e
-SHA512: a481643a9ee295552a194f5dfaa834e4be1d2f44a7ce93ed8f1e27652c02c9fd3fdafbdeade696b376085e32a753be1dda907b2bf571ca8e174bad822a654f8e
+Size: 29024
+MD5sum: 219dfa2c1706768643d3692d55c06123
+SHA1: 2aacc1a7c90a25f56f4e7ea568b17ae6b3c11773
+SHA256: 700e06bbe635799f8bcc0518d046b53290b6114d588d97d8f7ddbe9443cb61b2
+SHA512: 4a59353508583462024e282d67ff147e6793eef8df0497e8894ab6e478a5c60ac5e2b16bbdd3953ac961154a75f84185f66897026ad3864496b23243603aeb34
 Description: Tải xuống file.deb khi cài đặt tweak kèm gói từ Sileo và Zebra trực tiếp vào Filza
 Name: iCatch (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Icatch.json
-Icon: https://repo.cypwn.xyz/packages/iCatch-Rootless/icon.png
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: DeNsor
 
 Package: com.jtis.icatch
