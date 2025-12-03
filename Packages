@@ -1475,6 +1475,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Centra.json
 Depiction: https://havoc.app/depiction/centra
 Icon: https://media.havoc.app/67575d53275fa071ba16d884
 
+Package: com.hitori.meloso100
+Architecture: iphoneos-arm64
+Version: 4.0
+Section: Fonts
+Maintainer: Hitori
+Depends: mobilesubstrate, firmware (>= 15.0), com.spark.snowboard.fonts
+Filename: ./debs/com.hitori.meloso100_4.0_iphoneos-arm64.deb
+Size: 11423836
+MD5sum: 09f135e1bcfabe508a62700d1966ae28
+SHA1: 59fd00e5e00c25b536bb350fc940a82f06a74652
+SHA256: 8cd642ab4b3bca816e45347a4d595d13430f17d037656beed4c00fee471c323b
+SHA512: 7841484e6ff11cf7726eb71d6a09a9771fed688e2173138b02e1bd50bc2c302383cb47c9bb0aba8acdb55ad36a8dd1d6779e690ed22541def65ea0e4fb64497a
+Description: Meloso is a font which has a playful and organic feel that has its own hand-drawn charm.
+Name: Meloso (100)
+Author: Alexman
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Meloso.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+
 Package: com.hitori.mikhak100
 Architecture: iphoneos-arm64
 Version: 4.0
@@ -2818,12 +2836,12 @@ Maintainer: JTIS Repo
 Installed-Size: 604
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
 Filename: ./debs/com.jtis.ampere_1.4_iphoneos-arm64.deb
-Size: 101816
-MD5sum: 6810779c6ac46a42e5d94ecbaf0ccd12
-SHA1: 55c23e833fbd3795c6dc65c7fbbb6d0c504fcfd5
-SHA256: 42667352dfdf4005667961158c1a5e6aebab2ec25fc3d421c51629c4fe896586
-SHA512: c8c5eac354a1dd859627857665b9b7d1defcecb1e9beac981d411530e552d316f1d313e0d7826d34f597445e2eb097f94349d71333f638f6acc89097c50bc1d7
-Description: Tùy chỉnh giao điện và phong cách hiển thị pin trên IOS 15 giống kiểu của IOS
+Size: 101820
+MD5sum: 5e4d39ef3d1a6c381f62fb54f498e81d
+SHA1: 139a40a007aeab8767e3d679a73414dd3a933525
+SHA256: c23445078b7828e81b90e8291e2d9e82580ef407c6e21575d008bf7821fd3b52
+SHA512: ba7f20a594d065f9bfe854490e472241fc3270147dad80dffc5b5ee095fc2abec5b1aff54a00ad10249946f696d50c013fa66978e261914168f675c02a1ce80f
+Description: Tùy chỉnh giao điện và phong cách hiển thị pin trên thiết bị IOS thấp giống kiểu của IOS 16
 Name: Ampere (Rootless)
 Author: MTAC
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Ampere.json
@@ -2833,17 +2851,17 @@ Package: com.jtis.ampere
 Architecture: iphoneos-arm64e
 Version: 1.4
 Section: Tweaks
-Maintainer: JTIS Repo
+Maintainer: JTISVN Repo
 Installed-Size: 604
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
 Filename: ./debs/com.jtis.ampere_1.4_iphoneos-arm64e.deb
-Size: 99976
-MD5sum: 5d7042ec5a957970b11f736e8385159e
-SHA1: 629c073edd4b264d9c83b41c03fca8a71327596c
-SHA256: 47ad76a632fd7d217cb78b8ef739c7af024658cd37938edf90cbfcc70d73edae
-SHA512: 235681ffe1b96389df52f72d9a2c1c50ea729b7b173f20ef43a2a116d977188d2261723c36fc0699868d0fe69e65df1380b8b042dd2979adf281fda0e47f5468
-Description: Tùy chỉnh giao điện và phong cách hiển thị pin trên IOS 15 giống kiểu của IOS
+Size: 100024
+MD5sum: 95e7d804af0587b360d04f063feec6ec
+SHA1: c85a25231c208fe75d8da1ce7d34af962a34ce97
+SHA256: fb39ee6f3bbc98a861073c7b12f7e2c562616b556441f0eb853307ac6c740150
+SHA512: 3599af9e2c5c2f966b76948f2e3b018453405f2832c23053e20715d6c8b11241d509d35afedeb8c247e40aedaf6b44296b59821e9fd500120c35a32c636c7aa7
+Description: Tùy chỉnh giao điện và phong cách hiển thị pin trên thiết bị IOS thấp giống kiểu của IOS 16
 Name: Ampere (Roothide)
 Author: MTAC
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Ampere.json
@@ -3766,6 +3784,67 @@ Description: Thay thế huy hiệu thông báo mặc định bằng hiệu ừng
 Name: BlurryBadges (Roothide)
 Author: PoomSmart <qiaozhani000@163.com>
 Icon: https://axs66.github.io/repo/icon/blurrybadges.png
+
+Package: com.jtis.boxy4vn
+Architecture: iphoneos-arm
+Version: 4.4.2
+Section: Tweaks
+Maintainer: William Vabrinskas
+Installed-Size: 3612
+Depends: mobilesubstrate, preferenceloader
+Conflicts: info.rpdev.betterfiveicondock, info.rpdev.betterfivecolumnhomescreen, net.r-ch.iconoclasm, ca.ndoizo.bolders, com.irepo.boxy3
+Filename: ./debs/com.jtis.boxy4vn_4.4.2_iphoneos-arm.deb
+Size: 2753156
+MD5sum: d8fe6178d7026b48be7d8247e92dc225
+SHA1: db1de7f1ebebe74b0b54840766162e490db95e4f
+SHA256: e408b25be8fca5a4b81e79608492f90cd82863258b39967a7f99ce7cd92c7043
+SHA512: df85364b0e6dfd1f1f24223eb55d2083fddcb6e683bfa6ad7183d9cb525cd1825eca4a36ce910250a82783df2459308dee6b7e04c61aa7a57aac0221e5c24162
+Description: Sắp xếp các biểu tượng trên màn hình chính.
+Name: Boxy 4(13/14)
+Author: William Vabrinskas
+Depiction: https://havoc.app/depiction/boxy4
+Icon: https://media.havoc.app/620ebd74859b1a1929e9c443
+
+Package: com.jtis.bridge
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 7104
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common
+Filename: ./debs/com.jtis.bridge_1.2.1_iphoneos-arm64.deb
+Size: 4949744
+MD5sum: 61c69b3c0da75f8dcc0ca384a8f7b28e
+SHA1: 8be69dc78026e0e1b7c27654e8e2402d860996aa
+SHA256: fe121d820a6b999aa866aa56ca833c50cf5a886805f585600efd5e4e398217a3
+SHA512: a8af501248d8a51545707809b1df9fdd10c9246025597d9b1c5285219ba89426f1431d8f4cafb650d9f84eb6e2198bfbd5e646c8c0e76459f6cfa60e5be6eb20
+Description: The Apple Watch homescreen experience brought to iOS
+Name: Bridge (Rootless)
+Author: MTAC • ETHN
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Bridge.json
+Depiction: https://havoc.app/depiction/bridge
+Icon: https://jtisvn.github.io/sectionIcons/Bridge.png
+
+Package: com.jtis.bridge
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 7104
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common
+Filename: ./debs/com.jtis.bridge_1.2.1_iphoneos-arm64e.deb
+Size: 5511636
+MD5sum: c54e003b86f1a13e9c11781ec9f4ed68
+SHA1: 124d4f56753d782abf5270fa22ec7211e1fc00c3
+SHA256: 216a9de1264a5880e01ef6a09c420c8818df9ef02361cca0c6c343659147188b
+SHA512: 438ace4950d35072931d1510b1ac5a02b0446360dd5c1e7139cc2f0a8824c98937c5c62912ffcf3193800ef4d7f96484f863022b70efb968ac596fe4a616a209
+Description: The Apple Watch homescreen experience brought to iOS
+Name: Bridge (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Bridge.json
+Depiction: https://havoc.app/depiction/bridge
+Icon: https://jtisvn.github.io/sectionIcons/Bridge.png
+Author: MTAC • ETHN
 
 Package: com.jtis.byehomebottombarx
 Architecture: iphoneos-arm64
@@ -9469,6 +9548,27 @@ Author: alimaulana
 Icon: https://jtisvn.github.io/sectionIcons/Waktos2.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Waktos2.json
 
+Package: com.jtis.weatherls
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 208
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, oldabi-stub|oldabi, firmware (>= 15.0)
+Filename: ./debs/com.jtis.weatherls_2.0.1_iphoneos-arm64e.deb
+Size: 17876
+MD5sum: 1cd3b65b0e3d708bbcb58f5c390993ee
+SHA1: 8a18e633d9150b1446d914d975f5d1099afacde3
+SHA256: c8bf9c9426a88cc196df25092d2569b4f50b51f746799d12b24e6d5762d6c679
+SHA512: 6dd1cfa48a543bcba68e28ef89d89da01c7833d9e89dcf82d874cce2777901b0c948590faf4d99bb4e37b17641836895bebb02bb14ee80915594931433fc6000
+Description: Show the weather on the lock screen!
+Name: WeatherLS (Roothide)
+Author: Ginsu
+SileoDepiction: https://jtisvn.github.io/sileodepictions/WeatherLS.json
+Depiction: https://jtisvn.github.io/depictions/WeatherLS.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.xuanhua120hz
 Architecture: iphoneos-arm64
 Version: 0.0.4
@@ -10112,6 +10212,53 @@ Tag: role::developer
 Name: libimagepicker
 Author: Muirey03
 Icon: file:///Applications/Cydia.app/Sections/hethongg1.png
+
+Package: com.nahtedetihw.reachplayer-rootless
+Architecture: iphoneos-arm64
+Version: 2.6
+Section: Tweaks
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Depends: firmware (>=13.0), mobilesubstrate
+Filename: ./debs/com.nahtedetihw.reachplayer-rootless_2.6_iphoneos-arm64.deb
+Size: 118184
+MD5sum: ef4d8edf1bb81cfe2451df68842fc385
+SHA1: f725fc5cfe36788ee5e9f9244bc37a350f10b68c
+SHA256: 016d87e3528d7ee1de1db182376a0536d6ae8ac81dcc851ec3ec4a77e919fd78
+SHA512: 3c37e04cdae32921d3d276fa53dab6f1376f43df5102dd98fddce356c8c70c1d46c8c7bf1fccca6fbae39a45e5ffee44ebbd726d8abb7d0e19d89857ff386009
+Homepage: https://jtisvn.github.io/
+Description: Now Playing info in Reachability Window!
+Tag: role::enduser
+Name: ReachPlayer (Rootless)
+Depiction: https://nahtedetihw.github.io/depiction/web/com.nahtedetihw.reachplayer-rootless.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Reachplayer.json
+Icon: https://jtisvn.github.io/sectionIcons/Reachplayer.png
+Tags: compatible_min::ios13.0, compatible_max::ios16.4
+Author: ETHN <ethanwhited2208@gmail.com>
+SomeOtherEntryToControl: True
+
+Package: com.nahtedetihw.reachplayer-rootless
+Architecture: iphoneos-arm64e
+Version: 2.6
+Section: Tweaks
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=13.0), mobilesubstrate
+Filename: ./debs/com.nahtedetihw.reachplayer-rootless_2.6_iphoneos-arm64e.deb
+Size: 116172
+MD5sum: 594667ad245112a8dac0fd9ec1865b82
+SHA1: 43f883f4b67e887f477f39c61d3332d8430441af
+SHA256: b5273ccdf12445cf527027f507318d610fb7c08a2031577aad589f0a25e4153f
+SHA512: 81b5d839fd5b06aad0c5f7b1685964f0926971e52ad75274ca25de9f11da39476e67316b5b2937a1efb8ab0d9de6ccb1bc6df5ae0b33b6e9d96030fdccd6ce0f
+Homepage: https://jtisvn.github.io/
+Description: Now Playing info in Reachability Window!
+Tag: role::enduser
+Name: ReachPlayer (Roothide)
+Depiction: https://nahtedetihw.github.io/depiction/web/com.nahtedetihw.reachplayer-rootless.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Reachplayer.json
+Icon: https://jtisvn.github.io/sectionIcons/Reachplayer.png
+Tags: compatible_min::ios13.0, compatible_max::ios16.4
+Author: ETHN <ethanwhited2208@gmail.com>
+SomeOtherEntryToControl: True
 
 Package: com.nathan.tiktokphotocomments
 Architecture: iphoneos-arm
