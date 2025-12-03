@@ -17,7 +17,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n\n-Thêm biều tượng cảm xúc cho thanh dưới bàn phím.",
+"markdown":"\n\n- Thêm biều tượng cảm xúc cho thanh dưới bàn phím.\n\n- Xem ảnh chụp bên dưới để biết chi tiết ",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

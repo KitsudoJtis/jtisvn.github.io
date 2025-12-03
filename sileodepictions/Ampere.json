@@ -16,7 +16,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown": "\n\n-Tùy chỉnh giao diện và phong cách hiển thị pin trên iOS 15 giống kiểu của iOS 16.\n\n-Thay đổi màu sắc phần trăm pin khi ở chế độ Mặc định, Khi sạc hoặc Tiết kiệm pin.\n\n-Tuỳ chỉnh kích thước và màu sắc số phần trăm pin hiển thị.",
+"markdown": "\n\n- Tùy chỉnh giao diện và phong cách hiển thị pin trên iOS 15 giống kiểu của iOS 16.\n\n- Thay đổi màu sắc phần trăm pin khi ở chế độ Mặc định, Khi sạc hoặc Tiết kiệm pin.\n\n- Tuỳ chỉnh kích thước và màu sắc số phần trăm pin hiển thị.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

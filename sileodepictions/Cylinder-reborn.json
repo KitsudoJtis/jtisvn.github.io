@@ -26,8 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"class": "DepictionMarkdownView",
-"markdown": "\n\n- Cylinder Reborn\n\n- Tạo hiệu ứng chuyển động đẹp mắt khi lướt trang màn hình chính\n\n- Với hơn 50 hiệu ứng độc đáo để tùy chỉnh và khám phá.\n\n- Có thể kết hợp nhiều hiệu ứng cùng lúc để tạo phong cách riêng của bạn.",
+"markdown": "Cylinder Reborn\n\n- Tạo hiệu ứng chuyển động đẹp mắt khi lướt trang màn hình chính\n\n- Với hơn 50 hiệu ứng độc đáo để tùy chỉnh và khám phá.\n\n- Có thể kết hợp nhiều hiệu ứng cùng lúc để tạo phong cách riêng của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
