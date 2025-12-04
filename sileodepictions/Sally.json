@@ -14,7 +14,7 @@
 "useBottomMargin": false
 },
 {
-"markdown":"\n\n Công cụ quản lý & cài đặt file.deb\n\n Thêm repo có thể xem thông tin tweaks và package thông qua sally.\n\n Chi tiết xem hình ảnh bên dưới.",
+"markdown":"\n\n- Trình quản lý gói & cài đặt file.deb tweaks.\n\n Chi tiết xem hình ảnh bên dưới.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -104,7 +104,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless Jailbreak"
+"markdown":"### Phiên bản 3.0\n|n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless Jailbreak"
 },
 {
 "class":"DepictionLabelView",

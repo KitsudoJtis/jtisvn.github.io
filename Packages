@@ -731,6 +731,24 @@ Tag: role::developer
 Name: libScribble
 Author: Boo
 
+Package: com.bvn.futura
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Pre-Depends: rootless-compat(>= 0.1)
+Filename: ./debs/com.bvn.futura_1.0_iphoneos-arm64e.deb
+Size: 356040
+MD5sum: 1b1c5d30163578413742f4cc25f417a2
+SHA1: cb0eda5b442469080bd459d3e6b7ddbc719eba62
+SHA256: 661ff651260cfe1fcec32d127bf924e3783f83edc5d51b8ea92dae8565d89fae
+SHA512: 424f24dd33307744e5c860bb7556f44339d36a463b6cef96bc791c4341fd4139444fe5c3c23df29ae3c9c4da31d93a8c6086f891366c6592347e1c60cf1fe9cf
+Description: kích thước 85%. Dành cho iOS15-16.
+Name: Futura (100)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Futura.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: unclear
+
 Package: com.jtis.DepthsPD
 Architecture: iphoneos-arm64
 Version: 0.1
@@ -4969,6 +4987,27 @@ Author: Nebbs + Max Bridgland
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Edge2.json
 Icon: https://jtisvn.github.io/icons/avatar.webp
 
+Package: com.jtis.electrode
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 432
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Replaces: com.bid3v.electrode
+Filename: ./debs/com.jtis.electrode_1.0.3_iphoneos-arm.deb
+Size: 41456
+MD5sum: dfdc97d09e68c5572d6d525edf2b249a
+SHA1: 15e2109db2df8149a30d3a1b30e858471f176c28
+SHA256: 82101805c00a682e80c9a9034bb587584380d12ab4731ae0674020476e1a410e
+SHA512: 4fbc1298c0660f922d4407d05641013a1262580eedc4dc80d9cc088489bee82e1c9c970faa9786d35a58c8b156bad9f2183aaa1a8a1c80577c7513058da32e08
+Homepage: https://bid3v.github.io/repo/depictions/electrode.html
+Description: Thay cảnh báo Pin yếu bằng dạng Biểu ngữ
+Name: Electrode
+Author: biD3V
+Icon: https://bid3v.github.io/repo/icons/Electrode.png
+Sileodepiction: https://bid3v.github.io/repo/depictions/sileo/electrode.json
+
 Package: com.jtis.eneko
 Architecture: iphoneos-arm64
 Version: 1.4.2
@@ -5557,6 +5596,23 @@ Name: Font U and I Love
 Icon: https://Jtisvn.github.io/sectionIcons/font2.png
 Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
 Author: TQM
+
+Package: com.jtis.futura
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Filename: ./debs/com.jtis.futura_1.0_iphoneos-arm64.deb
+Size: 356036
+MD5sum: dcb6dc673bd816c6088cbd8e11dab66c
+SHA1: c19885c0f943a4e2ca48fd95bd2c87afdebf5bd8
+SHA256: 2704dccdc274d03b459611bef36f6bda734ae259bee4565362c02f04dd2a6b74
+SHA512: 7c710cbd513fc53a2041002e5a0ffaaf6ec2e81ea34fc585619a68d9560ce01c6a630e6b525afb36a2ed2db5237e8d5649917fbed83a2d08f421822f3469cbae
+Description: kích thước 100%. Dành cho iOS15-16.
+Name: Futura (100)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Futura.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: unclear
 
 Package: com.jtis.galaxy
 Architecture: iphoneos-arm64
@@ -10595,15 +10651,15 @@ Maintainer: JTISVN Repo
 Installed-Size: 13160
 Depends: com.rpetrich.rocketbootstrap,mobilesubstrate
 Filename: ./debs/com.niceios.nicebarx_3.0.0.5R_iphoneos-arm.deb
-Size: 2198708
-MD5sum: 6277bc4cb0a05a60ab9fb6b23ffce897
-SHA1: c9a736113f5f6bbf949069ea1c6932d23556fb39
-SHA256: 9a2325742cb25c1c7ae32dfc1b23125e1c327158eac1b2bd532bf12a8a7e21e1
-SHA512: 2c31d20f0d01e5c7ac158e49c7b8180507e833f3bcb685bd986ffd3f8628cb63bdf6692832e07a0279521171659eba013d7b70e6c306ff8e8d826ae0d29ab81d
+Size: 2197916
+MD5sum: 068578edd4eca5c78922f61d0da96c0b
+SHA1: 9d470dd32c1bfda73a2543ffbd065506b4307997
+SHA256: a2e31d76e0e01f3e89ed55a7b507597e07b4ed22cbe62fbe421c8827896872c4
+SHA512: dead73a3701b5f2821eb96b50742efc430af99aac85746dd47c3a8b6d8a7713aabc0d863a80f501c21acace0d4ea6fd540fa5f8d6a7c057dc4b8e84c2419f088
 Description: Một tinh chỉnh cho thanh trang thái Miễn phí, Chỉ hỗ trợ iOS11-12
 Name: NiceBarX iOS 11 to 12
-Depiction: http://bvnsupport-jailbreak.github.io/infodeb/NiceBarX/?p=info
-SileoDepiction: http://bvnsupport-jailbreak.github.io/infodeb/NiceBarX?p=info
+depiction: https://repo.niceios.com/view/319
+sileodepiction: https://repo.niceios.com/sileo/319
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: niceios
 Sponsor: niceios
@@ -13133,18 +13189,18 @@ Maintainer: Saily Team <support.0xa1@qaq.wiki>
 Pre-Depends: firmware (>= 13.0), dpkg, uikittools
 Conflicts: wiki.qaq.chromatic
 Filename: ./debs/wiki.qaq.chromatic.rootless_3.0-rootless-release-1726897475.c88adb3_iphoneos-arm64.deb
-Size: 3351032
-MD5sum: 6435fc008d9bc61cf2d5264eee9b753f
-SHA1: 64445660bc5bec635e6524f3d6a58c871a35686a
-SHA256: 1b942fef0c685c78226d1b62c9f4fd6c10c75b73bafd2ccc8baed33042caab91
-SHA512: 3918f2d37e205793b78d6cbb305b7e17317cbe0b91afb6351df500f0d55713d49e6066848f88ad089f88647ff70945892ba53d8081f544cdcd5aa3cf968c9b18
-Homepage: https://sailyteam.github.io/Saily/index.html
+Size: 3355640
+MD5sum: 0bac55ba5729b778aca84d015bc9e03f
+SHA1: f3fdef06de2c4d0d19d1a6cf14bc6e3f1f0c00e1
+SHA256: b0113369b317e7969827ad072534a830b58b92bb27d9918d8cc76933b0ee740d
+SHA512: 0859820bcb387614ff2de68520b23cce459e51b7d926ff3df0ded3e5163d47d970f084fcae1db3788609eaf5c4eeda0caea51692748833442e44a94cbd45b8fc
+Homepage: https://jtisvn.github.io/
 Description: Modern. Fast. Beautiful.
 Name: Saily (Rootless)
 Author: Saily Team <support.0xa1@qaq.wiki>
 Website: https://sailyteam.github.io/Saily/index.html
 Depiction: https://sailyteam.github.io/Saily/index.html
-Icon: https://sailyteam.github.io/Saily/Resources/icon.png
+Icon: https://jtisvn.github.io/sectionIcons/Saily.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Sally.json
 
 Package: wiki.qaq.chromatic.rootless
@@ -13155,18 +13211,18 @@ Maintainer: Saily Team <support.0xa1@qaq.wiki>
 Pre-Depends: rootless-compat(>= 0.9), firmware (>= 13.0), dpkg, uikittools
 Conflicts: wiki.qaq.chromatic
 Filename: ./debs/wiki.qaq.chromatic.rootless_3.0-rootless-release-1726897475.c88adb3_iphoneos-arm64e.deb
-Size: 3352736
-MD5sum: ad7fe0d7b0f95e74c0b8b9eef2126fd2
-SHA1: 4bd0126d60d36c8fbdedbcde603b0b6230cd0742
-SHA256: 10c179037b6558df8fbb951b51af3af5b4ade9f62623d54936afd8c02f8aaeac
-SHA512: 50b6cb4d90f7ed10c818efe374ff4947e47229f5255193832d6dadb01072a286d91c4171d863f07fde09e95a23e8886f34ae9e4b44353e357c6f855ffa12a4f8
-Homepage: https://sailyteam.github.io/Saily/index.html
+Size: 3353924
+MD5sum: 8fce90c9364007bc85e0064d19d6c94a
+SHA1: 5457bfd0c8eed6d12428f5aac9e2ee3111ea1c1e
+SHA256: a30a9f8a6acbc02deefea43b95192a6f708443dc15ffd3acbcefc44fb708e585
+SHA512: e946be2e1c2de821ba7a6c8758cab25b98993f7d92bf4949f65f4161b163c9e22e95612eb9bb259ed8f9bba291520f2b3f3dba85e4abc144dba65f12884b1a4f
+Homepage: https://jtisvn.github.io/
 Description: Modern. Fast. Beautiful.
 Name: Saily (Roothide)
 Author: Saily Team <support.0xa1@qaq.wiki>
 Website: https://sailyteam.github.io/Saily/index.html
 Depiction: https://sailyteam.github.io/Saily/index.html
-Icon: https://sailyteam.github.io/Saily/Resources/icon.png
+Icon: https://jtisvn.github.io/sectionIcons/Saily.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Sally.json
 
 Package: ws.hbang.alderis
