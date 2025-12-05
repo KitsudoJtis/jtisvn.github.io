@@ -5614,6 +5614,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Futura.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 Author: unclear
 
+Package: com.jtis.futura
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.futura_1.0_iphoneos-arm64e.deb
+Size: 472410
+MD5sum: 34f913cf45fd7c01007d75277279bc8d
+SHA1: d55fadd83bb603d78368cc22f7250c569a480fba
+SHA256: cc4e8defed75b338a50cfb2200237c8b08d5d95252799dd72c8de23b36c57cbb
+SHA512: d877ce94826016cd1c2495cd1df81ec5dbdb8941cff10bbc901aff504c5e0e6094f57dc71903c7b27abc707e1c8308bfd48d45c6b93cb62d5d08ffbf29092e4c
+Description: kích thước 100%. Dành cho iOS15-16.
+Name: Futura (100)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Futura.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: unclear
+
 Package: com.jtis.galaxy
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -6295,6 +6313,47 @@ Author: Alexandra Aurora Göttlicher
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Kayoko.json
 Icon: https://jtisvn.github.io/sectionIcons/Kayoko.png
 
+Package: com.jtis.kbappdock
+Architecture: iphoneos-arm64
+Version: 1.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1364
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.kbappdock_1.5_iphoneos-arm64.deb
+Size: 806972
+MD5sum: 528d6c1553155bb893a1fd77b8f0049f
+SHA1: 56ac2fbc3e5905abbe3ff67ccece06403535d62a
+SHA256: cbea377b321911605e863323793cb0626d059830ac7212e971b002f061922e40
+SHA512: 1e9e9ebaaecc1ddc9ac03168ddc718b993b69ea730baada136db8a54221a8ff21cecae9b92cde1033e3e2a162e88978c6c9fed119e89f464f246d10c1fa35fab
+Description: Thêm modun sắp xếp các ứng dụng trên dock bàn phím ⌨️.
+Name: KBApp (Rootless)
+Author: Dcsyhi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/KBApp.json
+Depiction: https://jtisvn.github.io/depictions/KBApp.html
+Icon: https://jtisvn.github.io/sectionIcons/KBApp.png
+
+Package: com.jtis.kbappdock
+Architecture: iphoneos-arm64e
+Version: 1.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1364
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.kbappdock_1.5_iphoneos-arm64e.deb
+Size: 804996
+MD5sum: 7aca93645732f548d1b8e84e667a32ec
+SHA1: 277d44386bc4b817fff4be8458f0a1e2fa6a9a81
+SHA256: 7b6c35ed7c2625ec2d2b55abf24575868ae61462ca2aa659fc7da36d1b25fb14
+SHA512: 7a8417ad5ac9d47141670bb88971ec0130c94e79fd6fc58fc548b38e30ae4d03f56a6f1b30d99ee11cb2cad80dd9af6abb017c87b8c8963fd2d8d95215756fa2
+Description: Thêm modun sắp xếp các ứng dụng trên dock bàn phím ⌨️.
+Name: KBApp (Roothide)
+Author: Dcsyhi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/KBApp.json
+Depiction: https://jtisvn.github.io/depictions/KBApp.html
+Icon: https://jtisvn.github.io/sectionIcons/KBApp.png
+
 Package: com.jtis.killbackground13
 Architecture: iphoneos-arm
 Version: 1.0.9k
@@ -6551,21 +6610,22 @@ Package: com.jtis.little12
 Architecture: iphoneos-arm64
 Version: 1.2.3
 Section: Tweaks
-Maintainer: JTIS Repo
+Maintainer: JTISVN Repo
 Installed-Size: 1024
 Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), xyz.cypwn.xinam1ne
 Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
 Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
 Filename: ./debs/com.jtis.little12_1.2.3_iphoneos-arm64.deb
-Size: 399752
-MD5sum: e8239a7888851d39f8ef776cbdb25bb6
-SHA1: da2a5d9e7bd32569d14e70a7e64b098650acee34
-SHA256: 5d1712521430b674068ca96dd38e7117e1cde34b29bdad75cf8f1f039a1868ec
-SHA512: 94e6a0047c25ea3b458eacf72ef8cbf5b28f425524b76c438b668c5cc366d76ca1b017699e8d43cbdd00a3036281567be372e98bd6f07f616ca52938d7653a5b
+Size: 226820
+MD5sum: fd077d06e8b8e48ab014faa5e699aa1a
+SHA1: 91c324aa700153c341bffd9f6c5410f8a54bedec
+SHA256: df6875e6c7fbddf7683e7a98de1dcbf8a2d36a33db3d39386cf85a8a9e12e1e2
+SHA512: 19321996f1a3326844a12e0600a046a01bd447e654051e71669c2e83a3c531ff478a28827b35f06466157d6caf714f1c6c0966e50d2f92d44f63222d03c57386
 Description: Fake cử chỉ iPhone X/12 trên các thiết bị đời thấp.
 Name: Little12 (Rootless)
 Author: Ryan Nair
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Little12.json
 Icon: https://jtisvn.github.io/sectionIcons/Little12.png
 
 Package: com.jtis.littlexs
