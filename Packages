@@ -9471,6 +9471,27 @@ Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/VietNam.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 
+Package: com.jtis.violetpro
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 6740
+Depends: mobilesubstrate, firmware (>= 15.0), com.mrgcgamer.libgcuniversal, ws.hbang.common (>= 2.0)
+Filename: ./debs/com.jtis.violetpro_1.0.0_iphoneos-arm64.deb
+Size: 5773044
+MD5sum: d0079cfad2644fee437f2496c6890aea
+SHA1: 56ae04d45098bb40c922a3e57bf1f1ee7b4eab49
+SHA256: e9d28c19793578772b6f1f491f0c75eb3c84dbf32d263fbdd5a61581b54a6f39
+SHA512: 64c3375512867a494517010b909e989b84c71b2a5120925a7eb2da801ed703b6a791b8223eca513f42b53cfe91cb57fea70c7241af08049b0171376ee4669e6c
+Description: The maid for your 📱
+Name: Violet Pro (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VioletPro.json
+depiction: https://jtisvn.github.io/depictions/VioletPro.html
+Icon: https://jtisvn.github.io/sectionIcons/VioletPro.png
+Author: Erast
+Sponsor: 搬运工
+
 Package: com.jtis.visibleisland
 Architecture: iphoneos-arm64
 Version: 2.0
