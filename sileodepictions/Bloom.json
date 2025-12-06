@@ -1,7 +1,7 @@
 {
 "minVersion":"0.4",
 "headerImage":"https://jtisvn.github.io/coverimage/Bloom.png",
-"tintColor":"#CC33FF",
+"tintColor":"#5777B8",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -118,7 +118,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "110.01 KB",
+"text": "13,3 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
