@@ -5668,22 +5668,43 @@ Icon: https://jtisvn.github.io/sectionIcons/Themes.png
  Pre-Depends: rootless-compat(>= 0.9)
 
 Package: com.jtis.gesturesxv
+Architecture: iphoneos-arm
+Version: 1.6
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2756
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.gesturesxv_1.6_iphoneos-arm.deb
+Size: 2160328
+MD5sum: 0e02342dd5a0894bd58c905ec34ddb1d
+SHA1: ec95a4012f21f291bc71e065ed539a2a688809e9
+SHA256: 0fd25083a77108ceb17a6d0e3443867d6a15437d38feee4164d117c7511bcb1b
+SHA512: ad71c3011496846816f7ba3a6b89fced2158262e3d3ecf8aaa19dd6835a3f64c37721fa94c96dc582bdf48e05fad1be036dae181d365e2e6d2095fc445ec26fd
+Description: Mang Cử chỉ iPhone X lên iPhone cũ tương thích với iOS 15
+Name: GesturesXV
+Author: Ethan Whited
+depiction: https://havoc.app/depiction/gesturesxv
+Icon: https://jtisvn.github.io/sectionIcons/GesturesXV.png
+
+Package: com.jtis.gesturesxv
 Architecture: iphoneos-arm64e
 Version: 1.6
 Section: Tweaks
-Maintainer: JTIS Repo
+Maintainer: JTISVN Repo
 Installed-Size: 2756
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.gesturesxv_1.6_iphoneos-arm64e.deb
-Size: 2162916
-MD5sum: 98df83f4bd7d12aefc0cebc95dc8499f
-SHA1: 4205cf711db7a7282d0b4db25713995d3150427f
-SHA256: fe5ac75ec6c9335849b7338a812f27104c11f30ac85b1579b4debf82c39d4a4f
-SHA512: 039f83e13fe88c78b752e1141165cb580b957e9fca7a058c9330eccf0aed0e157d010709122700e6af25ee895ee05a075814ff8dd8215aa1e9e564178a18dd98
+Size: 2160152
+MD5sum: e5a1d40893be4bee7b2b17c87f771d98
+SHA1: 1ae1311c75e76e72d724b07f942d0027bc6f9237
+SHA256: 50331dd081e943c9ffd9e2ba0fc21f8bc933b3a2d5876154781306f362b890f1
+SHA512: 2d488315c2e8faa3b8745389901a9378d2b191d0b76a24ac1768af5aa4feba650b86a488320a6e72338cf93d3cdcb906c4acfb36e5df1c5bc9dbcb3d0b06f553
 Description: Mang thao tác vuốt của iPhone X lên các dòng iPhone đời cũ chạy iOS 15.
 Name: GesturesXV (Roothide)
 Author: Ethan Whited
+depiction: https://havoc.app/depiction/gesturesxv
+Icon: https://jtisvn.github.io/sectionIcons/GesturesXV.png
 
 Package: com.jtis.githubpro
 Architecture: iphoneos-arm64
