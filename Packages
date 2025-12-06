@@ -2230,23 +2230,23 @@ Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.Cydown
 Architecture: iphoneos-arm
-Version: 7.1.2
+Version: 7.1.6
 Section: Tweaks
 Maintainer: JTISVN Repo
 Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
-Filename: ./debs/com.jtis.Cydown_7.1.2_iphoneos-arm.deb
-Size: 2562492
-MD5sum: 23eaeb5c4c4dfc99aa4bdc4d2f8a3dfd
-SHA1: bc13292d156acc421721fa038d0e64751f267372
-SHA256: 25e84c99923c669ea14d032f426e480cdd14c8eb11da037c28cd1433fc5661ff
-SHA512: eb168afefb333b0c7afe4cf3995d64ec47dab0761b3db17d57b40e75bc76e8e6e429bd6d377cd3ed44112836d3a66a99054c18f1120ceef55b74a04b395bb5cd
-Description: Trình quản lý tải xuống cho Cydia và các tính năng bổ sung
-Name: Cydown
+Conflicts: com.julioverne.cydown
+Filename: ./debs/com.jtis.Cydown_7.1.6_iphoneos-arm.deb
+Size: 2712776
+MD5sum: 47a8ade9526c77410124cb9acedf7166
+SHA1: c8bf4defc13e42aa1bf3e0ce03fed3ea38b8f2db
+SHA256: 4a2cd75472dca01a710cf9d2d16e79f17a5cb68c85c4a1fb4d7a4177a4ac7fb5
+SHA512: b4cdb3d5abd4d45d9980759fe794d79a34e080140a5ba4ae20bbaa824365960f1bd46501cb74109fae15d57fabccd359bcbad8f37bc4c92df95a1dcc3086bc6f
+Description: Download tweaks for free
+Name: CyDown++
+Author: Julioverne & CyPwn
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cydown.json
 Depiction: https://jtisvn.github.io/depictions/Cydown.html
 Icon: https://jtisvn.github.io/sectionIcons/Cydown.png
-Tags: compatible_min::ios6.0, compatible_max::ios14.8.1
-Author: Julioverne
 
 Package: com.jtis.DepthsPD
 Architecture: iphoneos-arm64e
