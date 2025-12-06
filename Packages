@@ -754,24 +754,6 @@ Tag: role::developer
 Name: libScribble
 Author: Boo
 
-Package: com.bvn.futura
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Fonts
-Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
-Pre-Depends: rootless-compat(>= 0.1)
-Filename: ./debs/com.bvn.futura_1.0_iphoneos-arm64e.deb
-Size: 356040
-MD5sum: 1b1c5d30163578413742f4cc25f417a2
-SHA1: cb0eda5b442469080bd459d3e6b7ddbc719eba62
-SHA256: 661ff651260cfe1fcec32d127bf924e3783f83edc5d51b8ea92dae8565d89fae
-SHA512: 424f24dd33307744e5c860bb7556f44339d36a463b6cef96bc791c4341fd4139444fe5c3c23df29ae3c9c4da31d93a8c6086f891366c6592347e1c60cf1fe9cf
-Description: kích thước 85%. Dành cho iOS15-16.
-Name: Futura (100)
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Futura.json
-Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
-Author: unclear
-
 Package: com.jtis.DepthsPD
 Architecture: iphoneos-arm64
 Version: 0.1
@@ -2457,6 +2439,23 @@ Description: Thay đổi phông chữ đồng hồ màn hình khoá.
 Name: LS Blue Dragon
 Author: Phuc Do
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LSBlueDragon.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
+Package: com.jtis.LSSpaceQuest
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.LSSpaceQuest_1.0_iphoneos-arm64.deb
+Size: 47492
+MD5sum: ef3dc5681c3ab4e156dc3d56f876e6b3
+SHA1: 54d4c3ecabba9ac41b081c99047148615a0383e3
+SHA256: 0897a0e52c9cf2bfdcd82158e2c285f391a2e0e2dd2453f54d07a2782482a41f
+SHA512: 7330d6ef548850e67656a52be0f4cdf2ea57d9df7881819deb533177600e0a6e14642eacc41a677c6a7f751ab318efa536cd7b9859a40dca34f38dfb4f0702b0
+Description: Sử dụng phông chữ đồng hồ qua tinh chỉnh AIM/AIM Pro
+Author: p0s3id0n
+Name: LS Space Quest
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSSpaceQuest.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
 Package: com.jtis.LiquidglAss
@@ -7096,6 +7095,24 @@ Name: Looky (Roothide)
 Author: EllaSP
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
 Icon: https://jtisvn.github.io/sectionIcons/Looky.png
+
+Package: com.jtis.LSSpaceQuest
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.lsspacequest_1.0_iphoneos-arm64e.deb
+Size: 60264
+MD5sum: 5825985e3a2d91741eeb494e489de3b9
+SHA1: 841c27fff3521a8af4d1de1cca6e2142d70fc313
+SHA256: 8bbad6d04718d540062c5df508fd7bd0e3c31c460856669722f025174cbec3c5
+SHA512: 5d3a1c7cc0a117b4429efbdc9038673de0b4ab54e3df37ca1834a5a00b9b708feec5df35b2e3350781f22ee61d6a05154f6fb0d1f1ef2ac960991763f8b2afd6
+Description: Sử dụng phông chữ đồng hồ qua tinh chỉnh AIM/AIM Pro
+Author: p0s3id0n
+Name: LS Space Quest
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSSpaceQuest.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
 Package: com.jtis.lunartimeX
 Architecture: iphoneos-arm64
