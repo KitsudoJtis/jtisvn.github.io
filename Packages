@@ -6043,6 +6043,26 @@ Name: HSWidgets
 Author: DGh0st <deeppwnage@yahoo.com>
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.iOS17Deluxe
+Architecture: iphoneos-arm
+Version: 354
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Depends: firmware (>=10.0)
+Filename: ./debs/com.jtis.iOS17Deluxe_354_iphoneos-arm.deb
+Size: 3033916
+MD5sum: 7d216b2a7a051c6046aa44b30758aeae
+SHA1: dc79981fbe7a6805a2c0c6619a54c0557a957953
+SHA256: 59de21bf22a8a8304bf52c32762490ee2132312444df9e61e7a38027f229cfb0
+SHA512: 21237cc69161dff292c50538c2511d3a866bbf1a3a2f38f440711a76dc8fe7023b79cc48bdb583eb7d51c9d7e58ed4f6a7abf074f3684262746a4725a481cb84
+Homepage: https://jtisvn.github.io/
+Description: Chủ đề iOA17
+Name: iOS 17 Deluxe
+Author: 𝙾𝚇𝚃𝙵𝚁𝙳𝚂 𝙳𝙴𝚂𝙸𝙶𝙽
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS17Deluxe.json
+Depiction: https://jtisvn.github.io/depictions/iOS17Deluxe.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
 Package: com.jtis.iOS26
 Architecture: iphoneos-arm64
 Version: 1..1
@@ -13199,6 +13219,24 @@ Tag: purpose::extension, compatible_min::ios13.0, compatible_max::ios13.3
 Name: Lynx
 Author: MTAC <mtactheming@gmail.com>
 Sponsor: kiiimo.org <http://kiiimo.org>
+
+Package: org.cydia.kiimo.lynx
+Architecture: iphoneos-arm
+Version: 1.9.5-3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware (>= 12.0), com.spark.libsparkapplist, com.spark.libsparkcolourpicker
+Filename: ./debs/org.cydia.kiimo.lynx_1.9.5-3_iphoneos-arm.deb
+Size: 1205212
+MD5sum: a4110b186ba7c553b40d6f3ec2f08b19
+SHA1: 9ea3d7cf114386a18377bb7b4bc3fc94274b81ce
+SHA256: c0dfc5822a1dddd577b15606d6673bc0b79910e0da213204fded9cecba1779b4
+SHA512: 9e0211f9f1f3fb4d800d847bf9d5a385dc31a7ed3a613a191833a5cb3cc26b805b98ddd4e45b67e067e391321ec2007c7161e79c35cef4df80ec42a85cdd925d
+Description: Tùy chỉnh ẩn các thể loại cho hệ thống
+Name: Lynx
+Author: MTAC
+depiction: https://havoc.app/depiction/lynx
+Icon: https://media.havoc.app/61f896e61630a63286dc41c3
 
 Package: org.swift.protobuf.swiftprotobuf
 Architecture: iphoneos-arm64
