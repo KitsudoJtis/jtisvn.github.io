@@ -6063,6 +6063,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS17Deluxe.json
 Depiction: https://jtisvn.github.io/depictions/iOS17Deluxe.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
+Package: com.jtis.iOS17Deluxe
+Architecture: iphoneos-arm64
+Version: 354
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Depends: firmware (>=15.0)
+Filename: ./debs/com.jtis.iOS17Deluxe_354_iphoneos-arm64.deb
+Size: 3034356
+MD5sum: 5ab07b38dffb2016aed16a751c8e946f
+SHA1: 5ea0b7db2de40963573854122ae996c254e5ec86
+SHA256: f9721e247ee9585adb2473698c22162bb5932e4b66e3c25b26ea14309c61bd25
+SHA512: 22f1547974860c219611b2ce02e365b49dd61d01e0f4bae5b620874713e96dd6c8013541b6ce07b4b3428440dd350c0bfb8913aa9f80822b0cf6dc35003fb44b
+Homepage: https://jtisvn.github.io/
+Description: Chủ đề iOS 17
+Name: iOS 17 Deluxe
+Author: 𝙾𝚇𝚃𝙵𝚁𝙳𝚂 𝙳𝙴𝚂𝙸𝙶𝙽
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS17Deluxe.json
+Depiction: https://jtisvn.github.io/depictions/iOS17Deluxe.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+Tags: compatible_min::ios15.0, compatible_max::ios17.9
+
 Package: com.jtis.iOS26
 Architecture: iphoneos-arm64
 Version: 1..1
@@ -6333,6 +6354,28 @@ Name: IconRotation (Roothide)
 Author: Paisseon
 SileoDepiction: https://jtisvn.github.io/sileodepictions/IconRotation.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.iOS17Deluxe
+Architecture: iphoneos-arm64e
+Version: 354
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=15.0)
+Filename: ./debs/com.jtis.ios17deluxe_354_iphoneos-arm64e.deb
+Size: 6432400
+MD5sum: 016abfd6bdfb4077ba12fc70c15d8954
+SHA1: 81d1a588e541bfbc5980b1700e97eb1aaebdc225
+SHA256: c301019df2ec4c41cd6e9d26a8bb294be5d0e11ceee84fae34aabf4da68040c4
+SHA512: e7ed6cd817f54c982908784a06b5709b857e20f351e7ec3cc30d1e8a42e9c9dbd12a047d78655c3420ba2e63aaadbe43bc30bdbaa0b6778d1d67577b47ba844d
+Homepage: https://jtisvn.github.io/
+Description: Chủ đề iOS 17
+Name: iOS 17 Deluxe
+Author: 𝙾𝚇𝚃𝙵𝚁𝙳𝚂 𝙳𝙴𝚂𝙸𝙶𝙽
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS17Deluxe.json
+Depiction: https://jtisvn.github.io/depictions/iOS17Deluxe.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+Tags: compatible_min::ios15.0, compatible_max::ios17.9
 
 Package: com.jtis.iOS26
 Architecture: iphoneos-arm64e
