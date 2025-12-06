@@ -2513,6 +2513,24 @@ Depiction: https://jtisvn.github.io/depictions/LiquidGlass.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
  Pre-Depends: rootless-compat(>= 0.9)
 
+Package: com.jtis.MiDevice
+Architecture: iphoneos-arm
+Version: 2.0.0-4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader, org.thebigboss.libcolorpicker, applist
+Filename: ./debs/com.jtis.MiDevice_2.0.0-4_iphoneos-arm.deb
+Size: 193856
+MD5sum: b364c56b240f2ae0efe5bc5f3c833160
+SHA1: 56c6a8e583368ad3c5f9058d471e91c5dfc08308
+SHA256: e441fdf8bfc8458cdd284a5908c5a1681ed81db90f85b466ae21ef10fbdfe726
+SHA512: 1ed9fdd636820f5827bc16e56d1e97d52220778997d1f2083520a178f855a259bf5b1b2606080f6bc4f4bfa552bdbe400dcc6a98d7fb892fa21cc6366c59f680
+Homepage: https://jtisvn.github.io/
+Description: Tinh chỉnh đa chức năng
+Name: MiDevice
+Author: DodGraphics
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.Opertation
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -13164,6 +13182,23 @@ SHA512: e351bb292a5bc8c6a4848aa0cdffcbd097d00f971725b19742aaa807499d17fa1ff2a8bf
 Description: Support for legacy arm64e ABI in iOS 15.0+
 Author: Evelyn
 Name: Legacy arm64e Support
+
+Package: org.cydia.kiimo.lynx
+Architecture: iphoneos-arm
+Version: 1.1.1
+Section: Supports iOS 13
+Maintainer: Kiiimo <support@kiiimo.org>
+Depends: mobilesubstrate, ws.hbang.common, org.thebigboss.libcolorpicker
+Filename: ./debs/org.cydia.kiimo.lynx_1.1.1_iphoneos-arm.deb
+Size: 303754
+MD5sum: 5996f4a0c86dfb562ea68df6f3ed8fda
+SHA1: 62b66b8c93bebaa417dd424d690036da581993ff
+SHA256: ff7006a20f6a6791e17e2e0c8fcce1655400964e16251c2255e2472cd453e00a
+SHA512: 66d0ac43b39c89769b94ed9d9e5321844a2730d2c264105a09c23b3d879913c27e2526e74b73300c1256f50e10aedc7552379c0e17326d05a8357b742ac86a94
+Tag: purpose::extension, compatible_min::ios13.0, compatible_max::ios13.3
+Name: Lynx
+Author: MTAC <mtactheming@gmail.com>
+Sponsor: kiiimo.org <http://kiiimo.org>
 
 Package: org.swift.protobuf.swiftprotobuf
 Architecture: iphoneos-arm64
