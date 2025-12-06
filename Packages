@@ -115,6 +115,29 @@ Name: AppSync Unified (Rootless)
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 
+Package: ai.akemi.appsyncunified
+Architecture: iphoneos-arm
+Version: 116.0
+Section: Tweaks
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 636
+Provides: appsync, net.angelxwind.appsyncunified
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: com.jtis.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Filename: ./debs/ai.akemi.appsyncunified_116.0_iphoneos-arm.deb
+Size: 35856
+MD5sum: f4f2fc4768f86e759426701792fdbcab
+SHA1: fc03f6c512b38f665098fc48d0771c9d2706ba88
+SHA256: 58ee1299a463018b038fc15a2fcc62c693f4ee6b81072dbfb0f35e5a29914910
+SHA512: 7f1ce29f6a893f88790b899a205d32b87ade2f0819629a331419e3f768159e992e6d282f7d7f4b407ed71a0ff5759f50fb9a8ebfb283b2e120feadd6eb690284
+Homepage: https://jtisvn.github.io/
+Description: Cho phép bạn cài đặt các ứng dụng iOS chưa được ký/giả mạo.
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+
 Package: applebetas.ios.tweak.willow
 Architecture: iphoneos-arm
 Version: 1.2.14
@@ -2205,6 +2228,26 @@ Author: Yangji
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cartoo.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
+Package: com.jtis.Cydown
+Architecture: iphoneos-arm
+Version: 7.1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.Cydown_7.1.2_iphoneos-arm.deb
+Size: 2562492
+MD5sum: 23eaeb5c4c4dfc99aa4bdc4d2f8a3dfd
+SHA1: bc13292d156acc421721fa038d0e64751f267372
+SHA256: 25e84c99923c669ea14d032f426e480cdd14c8eb11da037c28cd1433fc5661ff
+SHA512: eb168afefb333b0c7afe4cf3995d64ec47dab0761b3db17d57b40e75bc76e8e6e429bd6d377cd3ed44112836d3a66a99054c18f1120ceef55b74a04b395bb5cd
+Description: Trình quản lý tải xuống cho Cydia và các tính năng bổ sung
+Name: Cydown
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Cydown.json
+Depiction: https://jtisvn.github.io/depictions/Cydown.html
+Icon: https://jtisvn.github.io/sectionIcons/Cydown.png
+Tags: compatible_min::ios6.0, compatible_max::ios14.8.1
+Author: Julioverne
+
 Package: com.jtis.DepthsPD
 Architecture: iphoneos-arm64e
 Version: 0.1
@@ -2524,6 +2567,23 @@ Name: RingTonesManager
 Icon: https://jtisvn.github.io/sectionIcons/Ringtones.png
 Author: Netskao
 Tags: compatible_min::ios15
+
+Package: com.jtis.SemiRestore
+Architecture: iphoneos-arm
+Version: 1.1.7
+Section: Utilities
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware(>=11.0)
+Filename: ./debs/com.jtis.SemiRestore_1.1.7_iphoneos-arm.deb
+Size: 50464
+MD5sum: 44ef144068341bd40e0669bb8bdc4462
+SHA1: fe70afc870eeaa4d20bc931acafb4dd402aa0ca6
+SHA256: 533b71b47505e39f1d5c00d6b70e2e92fa6c9abab76897db4b184a3a51e87272
+SHA512: cbdf2d9d63f5ca2e64d11f7ef523a95e935ee1f3aa081c075bc9e3beb2e6bb9cbde068780563f8a88f82e145c9955aa44897c96405e73550e4964657e52cbf53
+Description: Công cụ gỡ sạch Jailbreak 100% cho iOS 11 đến 14.3, khôi phục lại máy về như lúc xuất xưởng. Lưu ý: sao lưu lại dữ liệu trước khi chạy. Để dùng Tweak ban chỉ cần nhấn vào dòng Unjailbreak,nó sẽ zác nhật chạy xoá sạch.
+Name: SemiRestore 11 to 14
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: Pwn20wnd
 
 Package: com.jtis.Solstice
 Architecture: iphoneos-arm64
