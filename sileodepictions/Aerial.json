@@ -87,7 +87,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "30/11/2025",
+"text": "6/12/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.0",
+"text": "2.1.6",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.0\n\n- Thêm tùy chọn tắt tính năng Flex Resize (Co giãn linh hoạt).\n\n- Thêm biểu tượng vào menu 3D Touch.\n\n- Thêm chế độ chia ba màn hình (split-thirds) cho SplitStage.\n\n- Tắt cảm ứng đa điểm trên các thanh điều chỉnh (handles) để tránh bị vỡ giao diện.\n\n- Sửa lỗi Chế độ Cắt (Trim Mode) khi tính năng Flex Resize đang bị tắt.\n\n- Sửa lỗi FBScene không tự nạp lại (rehost) khi thay đổi ứng dụng hiển thị chính (foreground).\n\n- Sửa lỗi thanh/nút minusHandle không hiện ra khi thoát khỏi Chế độ Cắt.\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 2.1.6\n\n- Thêm nút trong Control Center (CC): Đã bổ sung nút bật/tắt nhanh tweak ngay trong Trung tâm điều khiển.\n\n- Thay đổi kích thước mặc định: Kích thước của khung hiển thị (stage) mặc định đã được tăng từ tỉ lệ 3/4 lên 5/6.\n\n- Nền mờ thông minh: Khung hiển thị (stage) giờ đây có hiệu ứng nền mờ tự động thích ứng (adaptive blur) đẹp mắt hơn.\n\n- Khóa xoay: Đã tắt tính năng tự động xoay màn hình (trên SBApplicationSceneView) khi ứng dụng đang nằm trong khung stage.\n\n- Bỏ tính năng Snapshot: Đã loại bỏ thành phần snapshot (ảnh chụp nhanh trạng thái).\n\n- Cải thiện chuyển cảnh: Khi bạn đưa một ứng dụng đang mở (frontmost app) vào khung stage, nó sẽ tự động trở về Màn hình chính trước, sau đó mới hiện khung stage (giúp hiệu ứng mượt mà, đúng logic hơn).\n\n- Sửa lỗi thu nhỏ: Khắc phục lỗi khung hình bị co lại khi thực hiện thao tác cắt/chỉnh (trimming).\n\n- Sửa lỗi Animation: Đã sửa các lỗi liên quan đến hiệu ứng động khi cửa sổ bật lên (pop-up).\n\n- Thêm API tích hợp bên ngoài: Bây giờ các tweak khác có thể kích hoạt Aerial thông qua AerialCore bằng các dòng lệnh code mới được cung cấp (như triggerAerialForBundle để mở và closeAerialForBundle để đóng).\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
