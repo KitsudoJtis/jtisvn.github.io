@@ -12594,6 +12594,26 @@ Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Name: AniTime (Roothide)
 Author: yan
 
+Package: com.yan.bloom
+Architecture: iphoneos-arm64
+Version: 1.0.3R
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2668
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.comet, mobilesubstrate, com.yan.lottie, gzip
+Filename: ./debs/com.yan.bloom_1.0.3R_iphoneos-arm64.deb
+Size: 1939304
+MD5sum: 98e47cc74a3368863a06820f363814e0
+SHA1: 83e1d8516ebedc677371676cdc63fe1f1e174aba
+SHA256: 4f67d51f028f5a2c0d4c01fdbeedd40ebc7386e383656626bea84372b29b32c4
+SHA512: 6ccb9a59c7118cf5e932e00b30584a1267249921c03284a54cff0a610e1a12abadfec1a2aa8c5449ac1c1daf121aa5c993338d3aa637b498a1a8bcb88a3473b5
+Description: Thông báo hoạt hình tuyệt đẹp.
+Name: Bloom (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Bloom.json
+Depiction: https://jtisvn.github.io/depictions/Bloom.html
+Icon: https://jtisvn.github.io/sectionIcons/Bloom.png
+Author: yan
+
 Package: cydia
 Architecture: iphoneos-arm
 Version: 1.1.36-3
