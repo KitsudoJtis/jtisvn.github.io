@@ -3805,6 +3805,26 @@ Icon: https://jtisvn.github.io/sectionIcons/BioProtect.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BioProtect.json
 MainLibMD5: b22ceb543f0b4c1d6354ef7ad70f769b
 
+Package: com.jtis.bloom
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2668
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.comet, mobilesubstrate, com.yan.lottie, gzip
+Filename: ./debs/com.jtis.bloom_1.0.3_iphoneos-arm64.deb
+Size: 1940712
+MD5sum: 2553736e62953a6acc58296b07cdecbb
+SHA1: 34d76be7e495239dbd9be2a164b9461c71519067
+SHA256: 8ede25cf13dd4eabfd9fb227505fedec23bb1d7a183388cffa2fc6dfe51f4381
+SHA512: 7b128dd980d03d33ad86504da9728bfec7c65a3519f87c6f253d94515efc04e5db9e0f4f4f9696ae8af20c11db64af8719327ffe8b87f68115d95db33c2bf991
+Description: Thông báo hoạt hình tuyệt đẹp.
+Name: Bloom (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Bloom.json
+Depiction: https://jtisvn.github.io/depictions/Bloom.html
+Icon: https://jtisvn.github.io/sectionIcons/Bloom.png
+Author: yan
+
 Package: com.jtis.blur
 Architecture: iphoneos-arm64
 Version: 1.0-8+debug
@@ -7364,16 +7384,16 @@ Icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxIZv8J1EA7kmghMw_4Z
 Package: com.jtis.networkmanager
 Architecture: iphoneos-arm64
 Version: 1.4.3
-Section: Control Center (Modules)
+Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 396
 Depends: mobilesubstrate, com.opa334.ccsupport
 Filename: ./debs/com.jtis.networkmanager_1.4.3_iphoneos-arm64.deb
 Size: 38084
-MD5sum: f21f266e8ceb803f32facdca542971e7
-SHA1: 0ce5edf0f0e57b101cdfdad3b5eb14b7314ad953
-SHA256: 1651350edfe10bfa5876091df461ca1f334be47ecd9f66fe2b3b1fee645b0377
-SHA512: d4cd7e5a132753314831d9ee6f08117bc354d9a098105615010841849773aa06f82946536a5f499b472af9c4ec59a86b8ae32d804d1eece77bf0468d4535c42a
+MD5sum: 3df58aa554375b0dcaec9ee334c97c68
+SHA1: 131133d978a6a55ac8fab684a581b0b40653201d
+SHA256: 04744a9c1a95e97d8c2bfefd5f8aa94953351c7b2ace167b6913cc2674f57ad8
+SHA512: ec80bde588a8b5ca67109475a06d6d3eb2eecba3a5fc80d53ce580873a994071005157dcc920941832348c5acca200d675773c7dd7ebeccec8bb5b79ebf13c45
 Description: Kiểm soát mạng 2G/3G/4G/5G từ Trung tâm điều khiển.
 Name: NetworkManagerReborn (Rootless)
 Author: NoisyFlake, Nixuge
@@ -7383,17 +7403,17 @@ Icon: https://jtisvn.github.io/sectionIcons/Network.png
 Package: com.jtis.networkmanager
 Architecture: iphoneos-arm64e
 Version: 1.4.3
-Section: Control Center (Modules)
+Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 396
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, com.opa334.ccsupport
 Filename: ./debs/com.jtis.networkmanager_1.4.3_iphoneos-arm64e.deb
 Size: 37068
-MD5sum: dedbbd15b8221f7ebe8ab389dbfed53a
-SHA1: 3d24091a0fd63a3c5d14cc21eb4c4e36973835a5
-SHA256: b2083da5ee4848c8e6563189bdecc8e226c44542644c47e9a34b9b448d9da427
-SHA512: 5a3e982505fac8d975b74b12f579737d3b17fe4306fc605435afac69995243bcc911d98f46b37128e74ddfe3c71b5095b3bf2cb89de4802f037b03fb14635677
+MD5sum: 386b51ba71be2f1c7e31cea75696d156
+SHA1: 5aa1a9f2c8d472ee7697486e2cb741b8bfe33d47
+SHA256: 73a2b55b02a7c1a052ce76d87fad184533d7510683522e23cfea2781bb0325fc
+SHA512: f8d65397571d383bc2cc7e906f53eb6080e8d1a37bc16e95e612ab70db4e4a8483ea13429050994bf8693ffeaa37133abaae46f56d00df697568cff811486c4d
 Description: Kiểm soát mạng 2G/3G/4G/5G từ Trung tâm điều khiển.
 Name: NetworkManagerReborn (Roothide)
 Author: NoisyFlake, Nixuge
@@ -8373,7 +8393,7 @@ Author: Nightwind
 Package: com.jtis.shadow
 Architecture: iphoneos-arm64
 Version: 3.7.6
-Section: Ần Jailbreak
+Section: Tweaks
 Maintainer: jjolano
 Installed-Size: 1076
 Provides: com.jtis.shadow.beta
@@ -8384,14 +8404,15 @@ Suggests: com.ps.injectionfoundation
 Conflicts: com.jtis.shadow.beta, com.jtis.shadow.legacy
 Replaces: com.jtis.shadow.beta
 Filename: ./debs/com.jtis.shadow_3.7.6_iphoneos-arm64.deb
-Size: 102812
-MD5sum: 1b8b3aa60fd215f3158706ec7e74edc4
-SHA1: f52bc762e9dea23fb95e2a736c9852f9b1769979
-SHA256: fa5e6a799adadfecbd00cc07cd182adeb3b12ce7ee450419ffa82abcef1e121e
-SHA512: a011149b04964c59c22d8691f322e19e56a025a02492af667471be515dd3321611292222d25c9fcd9248f9b0905021530813531a1859c74a5296d53ff8d4aabf
+Size: 102836
+MD5sum: ea70601652df37c60f314959861cdd2d
+SHA1: 2efb83408537630ae3719b135130519e0978a180
+SHA256: 64e6b2594d33556ae00547b312e27f286cf6a6710312c40b541fd3c1b2dd8a9c
+SHA512: 55ad5d92b2701474797103381b8e852aa44226f09e1cea2f6bbf414d52c8fb7d9d9e60ddbbb890dcf91c7e39c6d14d48c93f98a41cf20d772c8965ea7bdf521e
 Description: Công cụ giúp chặn phát hiện jailbreak cho các ứng dụng.
 Name: Shadow (Rootless)
 Author: jjolano
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Shadow.json
 
 Package: com.jtis.shadowbuster
@@ -10994,16 +11015,16 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportD
 Package: com.opa334.choicy
 Architecture: iphoneos-arm64
 Version: 1.5.3-2
-Section: Ần Jailbreak
+Section: Tweaks
 Maintainer: opa334 <opa334@protonmail.com>
 Installed-Size: 1136
 Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader, com.kitsudo.choicy
 Filename: ./debs/com.opa334.choicy_1.5.3-2_iphoneos-arm64.deb
-Size: 161456
-MD5sum: 98d9c8ac35309b3cb8717333e3672fe9
-SHA1: 354717d4946525b9e8e1c3b47d55df45bb7249c6
-SHA256: 1facf33814eb60fd548f34dd95c31df11d4d5b011508b50930453fc0f3118750
-SHA512: 159f0fea76e83832d487b01b51e327440ab02787977beeeefa1fb788e3f1581d525b64b89036d0bf557cbecb3f7b9f2f2e0f13120ffedb7da6865decb3dd21a0
+Size: 161516
+MD5sum: 66aad7fec230492c7d4f9b19ab6c6a12
+SHA1: fed09fb4c5c8e63ed55732cf28d36515eac716a3
+SHA256: 5be0a761b43f2d1485fd9d2d0f67f2b8985874ae322ee1310ad9af05d8af2c08
+SHA512: c816accc903fb9f31713d3814e3d08479898ecde0b6bed2626f92f52a727106a595bb44545423b3c6aa30d1f8f58e1ac47e4bbb52cbddc7ca0311496dac79ee8
 Description: Advanced Tweak Configuration!
 Name: Choicy (Rootless)
 Depiction: https://opa334.github.io/depic/Choicy/index.html
@@ -11013,17 +11034,17 @@ Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fcydia.saurik.c
 Package: com.opa334.choicy
 Architecture: iphoneos-arm64e
 Version: 1.5.3-2
-Section: Ần Jailbreak
+Section: Tweaks
 Maintainer: opa334 <opa334@protonmail.com>
 Installed-Size: 1136
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader, com.kitsudo.choicy
 Filename: ./debs/com.opa334.choicy_1.5.3-2_iphoneos-arm64e.deb
-Size: 161344
-MD5sum: d0032774b0d57cc5ebeb8ed32806ecba
-SHA1: ae3da3d5200b7561f144615eca8ddfccac71d622
-SHA256: 0f2c7e5f8b818bdbde546ae2f7fed265be858c6613193823de3a4f88a9fd2ae0
-SHA512: 378ef9f184da4ca76b42c5cfe8cd48bfdc83cec4010c6ca7a66f3a7ba4cf0d0fbdabb0114c2721f766cff41ded191b799fdb21d71109a51472340c489ac4896a
+Size: 161024
+MD5sum: a31e87a735f04a745326a895db52e56c
+SHA1: 4475e2392e36cc4916cf3ef809a4018821c989fe
+SHA256: a7bf0ae02238c12d14765ca34607ef28a109997f5fe78bd9b743247f13bbcb78
+SHA512: b4361f3a83a19b55ea77e6a3e5cbe9eb40dd8c6f50527786edbf04d695a5a6b0ab5bfc0ac58f49d83d6cf3d748fac8f2145581aeb6f5e4953f2a341d0870bc0d
 Description: Advanced Tweak Configuration!
 Name: Choicy (Roothide)
 Depiction: https://opa334.github.io/depic/Choicy/index.html
@@ -11121,46 +11142,6 @@ Name: TrollStore Helper
 Author: opa334
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollstoreHelper.json
 Icon: https://jtisvn.github.io/sectionIcons/TrollstoreHelper.png
-
-Package: com.opa334.whitepointmodule
-Architecture: iphoneos-arm64e
-Version: 1.2.2-1+debug
-Section: Control Center (Modules)
-Maintainer: opa334
-Installed-Size: 248
-Depends: mobilesubstrate, com.opa334.ccsupport, firmware (>= 11.0)
-Filename: ./debs/com.opa334.whitepointmodule_1.2.2-1+debug_iphoneos-arm64e.deb
-Size: 19056
-MD5sum: ec33c68c2d8744db582a92d9e51e2118
-SHA1: eb7d8bfd352b8223841f56671947701242d66aba
-SHA256: 2b42749b0fba4b2985bb7469bd75914a4345434d7b9464ec93dc4b56fb47217d
-SHA512: e5eaf9b321bb8241f0b44597b973dbbb38d0dee4714831a50885bffb8021aef85b32a78ee8a407f9393a95b7494ffa5e1a2b054bb01801edc1561bfc08bdd290
-Description: Reduce White Point from Control Center!
-Name: White Point Module
-Depiction: https://opa334.github.io/depic/WhitePointModule/index.html
-SileoDepiction: https://opa334.github.io/depic/WhitePointModule/sileo.json
-Icon: https://opa334.github.io/depic/WhitePointModule/Resources/icon.png
-Author: opa334
-
-Package: com.opa334.whitepointmodule
-Architecture: iphoneos-arm
-Version: 1.2.3
-Section: Control Center (Modules)
-Maintainer: opa334
-Installed-Size: 184
-Depends: mobilesubstrate, com.opa334.ccsupport, firmware (>= 11.0)
-Filename: ./debs/com.opa334.whitepointmodule_1.2.3_iphoneos-arm.deb
-Size: 15490
-MD5sum: 49d7788c061b1eebd2be3f3bb359b4c9
-SHA1: 8dd0b6a2a62b53d6c5fa6e17391f36b618600659
-SHA256: 1aea4122cf4765e919ce980db83abe0426e8695b5931ced59d80c9f85e46de7b
-SHA512: 39e92e7c7117a1ec7e5bb45cecbaed7fa2c2c58f688b7c865e9498a2cf80f5afcfb5c0c8ad15e7d08695a468ab205e246f86f842938a26923f7854046b5ffb12
-Description: Reduce White Point from Control Center!
-Name: White Point Module
-Depiction: https://opa334.github.io/depic/WhitePointModule/index.html
-SileoDepiction: https://opa334.github.io/depic/WhitePointModule/sileo.json
-Icon: https://opa334.github.io/depic/WhitePointModule/Resources/icon.png
-Author: opa334
 
 Package: com.p2kdev.quitall
 Architecture: iphoneos-arm64
@@ -11798,16 +11779,16 @@ Depiction: https://repoiz.github.io/repoiz/depictions/?p=com.rullinoiz.ipa2deb
 Package: com.skypain.ccrespring
 Architecture: iphoneos-arm64e
 Version: 2.0.0-1
-Section: Control Center (Modules)
+Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 192
 Depends: com.opa334.ccsupport
 Filename: ./debs/com.skypain.ccrespring_2.0.0-1_iphoneos-arm64e.deb
-Size: 19244
-MD5sum: 96228405e6f107a0d7a5e3f55a81f4e4
-SHA1: 4e51e7a21d1a3de700b8a887edd6052766e0f9e6
-SHA256: 704379a984dc32ee44c291d5bb11139b6c253a0371fd2d1fbb2fcb475ff5f57d
-SHA512: 7a01edb76e6bc9f7d88db33d3d3a7e2c2876d64a64f32cfb3557e9c1ed212c6e2aeccee42e196da446b057bc2e89fa11f8c485c67d0fa1be06c3e3a03f49e171
+Size: 19256
+MD5sum: c231d57a18e23b2500707b1514ec43d5
+SHA1: d8e0cb2aaabe353afffa112af51714d7411798ed
+SHA256: 695e8479cebf73b2b71c37c5d0e0303bffd2da65b62d5711ef3ecb9ee5ed0f0e
+SHA512: fd4321004f6df1f7c1d8fc1655b28a38a36bf4dc5921c738a4c8f587298d3b22e6be28f81bd875db1b58838dfa7e5c8f7deef0e2a1eda546abf99f2aa4ff2320
 Homepage: https://jtisvn.github.io
 Description: Thêm Respring Mô-đun đăng Trung tâm điều khiển
 Name: CCRespring (Roothide)
@@ -12485,16 +12466,16 @@ Icon: https://cdn.discordapp.com/attachments/418170831592488972/4652687760912548
 Package: com.xina.blacklist
 Architecture: iphoneos-arm64
 Version: 0.0.3-1+debug
-Section: Ần Jailbreak
+Section: Tweaks
 Maintainer: JTIS Repo
 Installed-Size: 288
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.xina.blacklist_0.0.3-1+debug_iphoneos-arm64.deb
-Size: 39580
-MD5sum: 88a4c36ff313b66e5be1d8ace7915f8b
-SHA1: b3a385531ee68a7c11521548de0a1c3741960926
-SHA256: 5166d809eeda4c87f9f781808c58a15da6c5b60d38a770df95989c8a10272f01
-SHA512: 353828624a9e70b9891316b1b9093feda85c88f808515d05cd6fb337dd2ae2486951c62f74fd29421d89107803cf218ca4a7adda46c6fcc5f11b8408a3807e80
+Size: 39520
+MD5sum: bcd618cd1d23798f7df24b1d3758052f
+SHA1: 8663c78a05d4f6557b062fd8cd2fc2701c234864
+SHA256: 22ec50b2b5de0108e9e6b39c801dcef16218240f00171d2d6c11852dd15d7cb1
+SHA512: a45adaa80dd101dc897c73c840b899b63a52acd929da97bab77e39ebe7fcadec45c9c74a1a24c939b961a865d354128069655d6795ba2a5d2c31a782a27c9260
 Description: XinaBlackList cho phép bạn loại trừ các ứng dụng hoặc tiến trình khỏi việc load tweak trong môi trường jailbreak XinaA15. Rất hữu ích để vượt qua các cơ chế phát hiện jailbreak trong app ngân hàng, game hoặc ứng dụng bảo mật cao.
 Name: XinaBlackList (Rootless)
 Author: xina520 <3608063@qq.com>
@@ -12592,26 +12573,6 @@ Description: Animated anime characters as your clock digits.
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
 Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Name: AniTime (Roothide)
-Author: yan
-
-Package: com.yan.bloom
-Architecture: iphoneos-arm64
-Version: 1.0.3R
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 2668
-Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.comet, mobilesubstrate, com.yan.lottie, gzip
-Filename: ./debs/com.yan.bloom_1.0.3R_iphoneos-arm64.deb
-Size: 1939304
-MD5sum: 98e47cc74a3368863a06820f363814e0
-SHA1: 83e1d8516ebedc677371676cdc63fe1f1e174aba
-SHA256: 4f67d51f028f5a2c0d4c01fdbeedd40ebc7386e383656626bea84372b29b32c4
-SHA512: 6ccb9a59c7118cf5e932e00b30584a1267249921c03284a54cff0a610e1a12abadfec1a2aa8c5449ac1c1daf121aa5c993338d3aa637b498a1a8bcb88a3473b5
-Description: Thông báo hoạt hình tuyệt đẹp.
-Name: Bloom (Rootless)
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Bloom.json
-Depiction: https://jtisvn.github.io/depictions/Bloom.html
-Icon: https://jtisvn.github.io/sectionIcons/Bloom.png
 Author: yan
 
 Package: cydia
