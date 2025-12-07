@@ -13517,6 +13517,25 @@ Depiction: https://apt.htv123.com/view/97
 Icon: file:///Applications/Cydia.app/Sections/hethongg1.png
 
 Package: ru.rejail.dleasy
+Architecture: iphoneos-arm
+Version: 2.14.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/ru.rejail.dleasy_2.14.4_iphoneos-arm.deb
+Size: 5554880
+MD5sum: 65a0a1e9abb8f13a84d811221859d20f
+SHA1: 67931236f288ae595d09622fea33971e0cead7db
+SHA256: 2a4c43d3703c7c4ffec7837e4cc67fca9807d1c0c342ac80373df9b5584b4e9c
+SHA512: 485e2f32fb6098ca01471f5a879b7d43c2b36df8d07ddbd9c5524647da037d584b4da104ede874656112441a972f22ed05e8d420fdc376d8762388afbd2998c0
+Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
+Name: DLEasy
+Author: AhmedBafkir
+Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
+Icon: https://Jtisvn.github.io/sectionIcons/DLEasy.png
+
+Package: ru.rejail.dleasy
 Architecture: iphoneos-arm64e
 Version: 2.14.8K-Roothide
 Section: Tweaks

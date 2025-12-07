@@ -181,7 +181,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.14.8\n\n- Sửa lỗi văng ứng dụng khi tải xuống.\n\n- Cập nhật danh sách các phiên bản ứng dụng mới tương thích hơn.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 2.14.8\n\n- Sửa lỗi văng ứng dụng khi tải xuống.\n\n- Cập nhật danh sách các phiên bản ứng dụng mới tương thích hơn.\n\n- Hỗ trợ Rootfull, Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
