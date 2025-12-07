@@ -663,6 +663,24 @@ Author: PoomSmart
 Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
 
 Package: com.LLSwitch.roothide
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: Simon <qiaozhani000@163.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.LLSwitch.roothide_1.0_iphoneos-arm64.deb
+Size: 16240
+MD5sum: af6510f78e693e91cbe51cda0bf566d7
+SHA1: 68bd9a9f72102e82f3edad8676c7359ca3eb4a03
+SHA256: 1f7075360c4ea749287b40faf8a9fe1be23159c30b8be43c4a3e95ed8f140a02
+SHA512: bd2cd9f8fb444177f722efd5e3a8525a2386bcd9d23f357bf73f7aa8a71ec8f66f1dcbab761a88fb2c7a6ede1a7818cc5b320ea41663fef72c7114df325bbb95
+Description: Sweitch nút On/Off mặt cười
+Name: LLSwitch (Rootless)
+Author: Simon <qiaozhani000@163.com>
+Icon: https://jtisvn.github.io/sectionIcons/LLSwitch.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Swich.json
+
+Package: com.LLSwitch.roothide
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -670,15 +688,15 @@ Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.LLSwitch.roothide_1.0_iphoneos-arm64e.deb
-Size: 17172
-MD5sum: d507b02d7f88c8b1085ab0fd65862312
-SHA1: 93a762093b3e54c6003d1f69a40f981442541798
-SHA256: 72d9501f55607cf6398a863c84a8b71278c8df3b15d66a1188447ebdb26032de
-SHA512: 15cb06fa756d07877414f8777181df4e1b64281bf90e7f9edd0f3ccee5fdafe662f8bd880095e8103ee53fd9096df2c0b64128c5485bb6f2ec951d77dbac4437
+Size: 15804
+MD5sum: 18bd471dfd64e690d5aaa9883983ed5a
+SHA1: 21f668bfc93147c28278b3c65bf16de8f1c25db4
+SHA256: 4f01afd89bf467cc46f30de23a8f631b8929f84dc0b71aa11e01c87a20ff0842
+SHA512: 3afd7b36cfa4f7c8dccea48d9f127198c4d1a5a4acfde67bc97aa6c626b2b866bbd508e18cdc6874c038576c07be0abad0b9ec2a7b54733b088813221df3a028
 Description: Sweitch nút On/Off mặt cười
 Name: LLSwitch (Roothide)
 Author: Simon <qiaozhani000@163.com>
-Icon: https://axs66.github.io/repo/icon/llswitch.png
+Icon: https://jtisvn.github.io/sectionIcons/LLSwitch.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Swich.json
 
 Package: com.alimaulana.bundarstatusbar
@@ -2777,6 +2795,25 @@ Author: Rifai
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Solstice.json
 Icon: https://jtisvn.github.io/sectionIcons/Solstice.png
  Pre-Depends: rootless-compat(>= 0.9)
+
+Package: com.jtis.SwitchLine
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTIS Repo
+Installed-Size: 5520
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.SwitchLine_1.0.0_iphoneos-arm64.deb
+Size: 47344
+MD5sum: 77be17f1d466e4bdd6905bcd350e086d
+SHA1: f363cad238e429c8d49c66f676c279f849f83629
+SHA256: c67d22e1d7288cff53fcfabbabea9317fc550fbab2e7e036c6df986c43683a68
+SHA512: 06d2b6afd8a47faf0b747951ba94b687e3a83f667330853287d643b3b0af103db6aa874ff3073b721a2617d86dea42f8d39a40e96664d970b9350e1f707936b6
+Description: Thay đổi phong cách hoạt ảnh cho nút công tắc.
+Name: SwitchTheme-Line (Rootless)
+Author: 白衣
+Icon: https://jtisvn.github.io/sectionIcons/SwitchLine.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SwitchLine.json
 
 Package: com.jtis.SwitchLine
 Architecture: iphoneos-arm64e
@@ -7020,11 +7057,11 @@ Maintainer: JTISVN Repo
 Installed-Size: 1464
 Depends: firmware (>= 15.0)
 Filename: ./debs/com.jtis.lockplayer_3.22_iphoneos-arm64.deb
-Size: 465268
-MD5sum: 5bec36b7d603102c8b8a3b3e646bccc5
-SHA1: f789485583edb1e85508347aa687b06ad852558c
-SHA256: f5ecbb0d5386b53d92f6b57f0ea82f2aed5f8a7370879e274531103f81bed185
-SHA512: ee2abccf169dce9e0a996a81da706229ee9da4798606902a08b024598d71f888d0ccd40a63dfdcb6105ef671e95e533bc5547777c1caf598ad4bfab594486645
+Size: 465636
+MD5sum: 3bc23c7a483859fc0005fa9c5cfa1ac1
+SHA1: 887594d211f92404cf03ebf3f0f66a1c9ce9d513
+SHA256: 8ef088279e78f149c9d6478ea990ecbd7d9a1efef17e746d6f140d6e0ded7b70
+SHA512: c6c3126a71b0b3e25475f502a73eee7030bb5d9d63e4bef0aa84bf8b760bbb870f721c4335dcff724f6402b2deefc81b359ee3be3a6fcb0e5631b139c4d6c88a
 Description: LockPlayer biến trình phát nhạc trên màn hình khoá của bạn thành một giao diện mới, đẹp và tiện lợi hơn với các thao tác sau：
 	  *  1.Mở nhanh ứng dụng nhạc: Chỉ cần chạm vào ảnh bìa bài hát là bạn sẽ được đưa ngay vào ứng dụng đang phát。
 	  *  2.Phát/Tạm dừng tức thì: Chạm vào vùng nền của trình phát để dừng hoặc tiếp tục bài hát。
@@ -7033,7 +7070,7 @@ Description: LockPlayer biến trình phát nhạc trên màn hình khoá của 
 	  *  5.Giao diện gọn gàng: Sau khi cài đặt, LockPlayer sẽ tự động thay thế trình phát nhạc gốc, giúp màn hình khoá của bạn trông gọn gàng và hiện đại hơn。
 Name: LockPlayer (Rootless)
 Author: Ethan Whited & lhh & Axs
-Icon: https://axs66.github.io/repo/icon/lockplayer.png
+Icon: https://jtisvn.github.io/sectionIcons/LockPlayer.png
 Sileodepiction: https://jtisvn.github.io/sileodepictions/LockPlayer.json
 
 Package: com.jtis.lockplayer
@@ -7045,11 +7082,11 @@ Installed-Size: 1464
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0)
 Filename: ./debs/com.jtis.lockplayer_3.22_iphoneos-arm64e.deb
-Size: 462724
-MD5sum: a9850441d9c66a57c393b81c66d2d84f
-SHA1: 54cd1c1face357195d10cba10efe487ec5b410f1
-SHA256: 70b1e641724cbbc57b001da00a8d32b86d19eece08140b6940a75b91c53a7918
-SHA512: 65e3e5762dcfae9d156cc0b901534c5c50d2ca91ffc64f87308917ac91540fb39fbabaa392715c6e5b8adec7f3af10c4d08c49ab13e51db4b2fcadde7ab0b234
+Size: 462516
+MD5sum: a09dbc98703efaac83f23ff307508c31
+SHA1: 0c6b3ae235598ff280a1e1d2185a57c30cdf2029
+SHA256: 3657956726df542e8806ca22047039d7e3210ec5b9d93e212875a00351710d71
+SHA512: 55197c750fe1de4026d11ebd8af6835ef243997ea3c3c364f7bce9fecf7dd14ab82d86edbfbbe1400d46e40a3ba14236741d229e158c679b6f7db62b89f2e5ef
 Description: LockPlayer biến trình phát nhạc trên màn hình khoá của bạn thành một giao diện mới, đẹp và tiện lợi hơn với các thao tác sau：
 	  *  1.Mở nhanh ứng dụng nhạc: Chỉ cần chạm vào ảnh bìa bài hát là bạn sẽ được đưa ngay vào ứng dụng đang phát。
 	  *  2.Phát/Tạm dừng tức thì: Chạm vào vùng nền của trình phát để dừng hoặc tiếp tục bài hát。
@@ -7058,7 +7095,7 @@ Description: LockPlayer biến trình phát nhạc trên màn hình khoá của 
 	  *  5.Giao diện gọn gàng: Sau khi cài đặt, LockPlayer sẽ tự động thay thế trình phát nhạc gốc, giúp màn hình khoá của bạn trông gọn gàng và hiện đại hơn。
 Name: LockPlayer (Roothide)
 Author: Ethan Whited & lhh & Axs
-Icon: https://axs66.github.io/repo/icon/lockplayer.png
+Icon: https://jtisvn.github.io/sectionIcons/LockPlayer.png
 Sileodepiction: https://jtisvn.github.io/sileodepictions/LockPlayer.json
 
 Package: com.jtis.looky
