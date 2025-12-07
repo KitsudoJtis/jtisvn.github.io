@@ -8398,6 +8398,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/CCModules.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.jtis.scribble
+Architecture: iphoneos-arm
+Version: 2.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 444
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.2), com.boo.libscribble, com.spark.libsparkcolourpicker
+Filename: ./debs/com.jtis.scribble_2.1_iphoneos-arm.deb
+Size: 44192
+MD5sum: 96908ec8e3555837e902ddcdb197a57f
+SHA1: a4a6f1ce0a8d2063b5e95b6d7a0dab0d0c59a393
+SHA256: cbbe0fb4dd351da576fa57f25eca26fc05a8d35c4e305b0a44bbf04b7dd0fbb1
+SHA512: 9eda242a7cf86bb1f8cdbb638ee548c654b2dba2b0acefe56c298cd645c186f06690241add7456c104231c566417f6c9642ca3ecb74dba208d6403cc85b34e39
+Description: Mở khoá bằng cách sử dụng hình vẽ lên màn hình!
+Name: Scribble
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Scribble.json
+Icon: https://jtisvn.github.io/sectionIcons/Scribble.png
+depiction: Depiction: https://jtisvn.github.io/depictions/Scribble.html
+Author: Boo
+
+Package: com.jtis.scribble
 Architecture: iphoneos-arm64
 Version: 2.1
 Section: Tweaks
@@ -9966,6 +9986,26 @@ Description: Patch Tiếng Việt cho tweak Vizage -Chỉ ap dụng cho tweak đ
 Name: Vizage Gói Việt Hoá (Rootless)
 Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.jtis.volhud
+Architecture: iphoneos-arm
+Version: 1.0-2+debug
+Section: Tweaks
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 480
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: ./debs/com.jtis.volhud_1.0-2+debug_iphoneos-arm.deb
+Size: 67120
+MD5sum: 0674b45e62f164bf4b7884eef62863dc
+SHA1: c93aca9e1ee7a58115ee2db09c42fbd0a810be9d
+SHA256: b9df124b66dcc0e69f9d074fb11e1401705a2251629d3c1c796532b7d0cdffb9
+SHA512: 63b344746d341d3f2ef6ebbd5370242c3df8be1d12b1d6fe3cca7a05d441397e9ac8e14d188ad9b0ec01d5f412fcf646086cb586f987d02ef36edc8e86dd63d2
+Description: Biểu ngữ âm thanh phong cách iOS 13 cho iOS 12/11
+Name: VolHUD Rus
+Author: DevelopApple
+Depiction: https://rejail.ru/depiction.php?file=volhud
+SileoDepiction: https://rejail.ru/sileo/depiction.php?file=volhud
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.volumemixer
 Architecture: iphoneos-arm64
