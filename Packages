@@ -1180,6 +1180,24 @@ SileoDepiction: https://evynw.github.io/sileo/fontcenter8514.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 Author: Evelyn (ev_ynw)
 
+Package: com.evynw.fonthouschkarounded14
+Architecture: iphoneos-arm64
+Version: 1.0-2
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Filename: ./debs/com.evynw.fonthouschkarounded14_1.0-2_iphoneos-arm64.deb
+Size: 6635320
+MD5sum: ff3f800e8f093e7fc5ea30df03146af2
+SHA1: f425081986a9f41a48a014d254acf1a375319a81
+SHA256: 455265653a92ad49e68a52f06b950b7637ecc974593f1ecf6eb6d36853755cab
+SHA512: 0c23fc6c79955ace08f627931811d4dedd61b26225d7f49848cdfe0d01af5ae6f09c74feefc4a6d2223a433f162acc5bdfaa73f9dcb9752b36fb8303c70e7891
+Description: Scriptive rounded font. 100% size. For iOS14-16.
+Name: Houschka Rounded (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fonthouschkarounded14
+SileoDepiction: https://evynw.github.io/sileo/fonthouschkarounded14.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
 Package: com.evynw.fontquicksand8514
 Architecture: iphoneos-arm64
 Version: 1.0
