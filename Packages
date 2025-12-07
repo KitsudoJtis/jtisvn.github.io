@@ -1534,6 +1534,24 @@ Author: Alexman
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Meloso.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 
+Package: com.hitori.meloso85
+Architecture: iphoneos-arm64
+Version: 4.0
+Section: Fonts
+Maintainer: Hitori
+Depends: mobilesubstrate, firmware (>= 15.0), com.spark.snowboard.fonts
+Filename: ./debs/com.hitori.meloso85_4.0_iphoneos-arm64.deb
+Size: 12478028
+MD5sum: cbde6ffc30017085c34cacaa63932869
+SHA1: 497f8aaf6e92152d758cb4c632aa617d78528d1e
+SHA256: ca4709109f22baa1140f2921c7e67ccb4dcc4e09aa90058eaa011599c4db24fd
+SHA512: 95b43f80f61ea4c8038978192c4865710c2f3023226dd5adf3c4e53a7d42ae4caf8fd2b5e9635cf8d8a6b9b7cd778bf81a81714b0f66f2c486f441d5d1fd5de2
+Description: Meloso is a font which has a playful and organic feel that has its own hand-drawn charm.
+Name: Meloso (85)
+Author: Alexman
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Meloso85.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+
 Package: com.hitori.mikhak100
 Architecture: iphoneos-arm64
 Version: 4.0
@@ -1632,6 +1650,24 @@ Name: Misaki (Roothide)
 Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
 Depiction: https://chariz.com/buy/misaki
 Taq: cydia::commercial, compatible_min::ios15.0
+
+Package: com.hitori.trakyarounded100
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: Hitori
+Depends: com.spark.snowboard.fonts
+Filename: ./debs/com.hitori.trakyarounded100_1.0_iphoneos-arm64.deb
+Size: 699328
+MD5sum: 087be8afcf00c7a4c43956ad41a5669a
+SHA1: 683e3771e1e3174feeba2b98edeea46ef27c0350
+SHA256: fc7f92af6e0965df49e8e47b533e3c764065f14504f491444b58913b46a013ce
+SHA512: ab07fb26516f407bff9ec58610e0d1c6fe6a3fa139ebaf3b80ab8d1021f8106271331ebad9f40917e61fb183086ae2bc261b6ed4ff283a83c05f9aea204aeb9e
+Description: A perfect blend of elegant, minimal and premium design aesthetics at it’s level best.
+Name: Trakya Rounded (100%)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Trakya.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Hitori
 
 Package: com.iarrays.biolocker
 Architecture: iphoneos-arm64
@@ -10520,26 +10556,6 @@ Author: leftyfl1p <carbridge@havoc.app>
 Icon: https://jtisvn.github.io/sectionIcons/CarBridge.png
 Depiction: https://jtisvn.github.io/depictions/CarBridge.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CarBridge.json
-
-Package: com.m1337.varclean
-Architecture: iphoneos-arm64
-Version: 1.1
-Section: System
-Maintainer: m1337
-Installed-Size: 876
-Depends: firmware (>= 15.0)
-Filename: ./debs/com.m1337.varclean_1.1_iphoneos-arm64.deb
-Size: 721256
-MD5sum: d2877e312e6ae013a9b49b7fd59ccd55
-SHA1: 0b8f40cdbe95984baeaa9637ccd1c1fa941ceed1
-SHA256: de98204e1ed7467649bc4954899ecc54ca81cebdcafc06bc654ccec5e3dc2979
-SHA512: 82ca257b67362a54215caffd07d704db4ff881e5e669bb9449da125e4f75cb341a89e1d2890bd23bb0788628c1a7e87aa0c3afef20006211d8cfa3ddbd8adc77
-Description: varClean for Rootless
-Name: varClean
-Author: m1337
-Icon: https://github.com/roothide/RootHideManagerApp/blob/main/RootHide/Assets.xcassets/AppIcon.appiconset/icon-76.png?raw=true
-Depiction: https://github.com/roothide/RootHideManagerApp
-Support: https://github.com/roothide/RootHideManagerApp
 
 Package: com.matchstic.xenhtml
 Architecture: iphoneos-arm
