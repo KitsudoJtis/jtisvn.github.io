@@ -3083,6 +3083,28 @@ Author: alimaulana
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AimPro.json
 Icon: https://jtisvn.github.io/sectionIcons/AimPro.png
 
+Package: com.jtis.alpine
+Architecture: iphoneos-arm64
+Version: 1.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Conflicts: com.mtac.alpine
+Replaces: com.mtac.alpine
+Filename: ./debs/com.jtis.alpine_1.deb
+Size: 602708
+MD5sum: bb73aaae262daf445d10c7390565a189
+SHA1: 59f842584e87437082cf987d0c07bc41307bf5fa
+SHA256: 7f9a986f9268aa6a707e356f86f8e9ee588d15a5e5af31fc9f8c08a9209577ac
+SHA512: b05e152404e28eabd4b5ce4995ac926f56ba309db15f14c105b3067dccb64b9132886ed47fadb127e1574e72e82520256e4433e7470a460171c3a85e9fcbadec
+Homepage: https://jtisvn.github.io/
+Description: Cảnh báo kiểu tvOS cho iOS
+Name: Alpine (RootLess)
+Author: MTAC
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Alpine.json
+Depiction: https://jtisvn.github.io/depictions/Alpine.html
+Icon: https://jtisvn.github.io/sectionIcons/Alpine.png
+
 Package: com.jtis.amonglock-rootless
 Architecture: iphoneos-arm64
 Version: 1.1.7-2
