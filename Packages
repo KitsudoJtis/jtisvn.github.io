@@ -9898,34 +9898,16 @@ Icon: https://jtisvn.github.io/sectionIcons/VisionSearchPill.png
 Package: com.jtis.vizagevh
 Architecture: iphoneos-arm64
 Version: 1.0.2
-Section: Gói Tiếng Việt
-Maintainer: JTISVN Repo
-Installed-Size: 36568
-Depends: mobilesubstrate
-Filename: ./debs/com.jtis.vizagevh_1.0.2_iphoneos-arm64 (1).deb
-Size: 1644
-MD5sum: 55efb485101218ad85977146a54fac43
-SHA1: 1b1e64473d6b97689574d55c693b2c4cc293e4d5
-SHA256: f37d518d10238377c3aafdc1db9715e21c3d11ee709fc5ff9a499a312dc51398
-SHA512: 1c42c708994106511f02bd5e81ff7c0eae40e50b576fe6de94935e19a16d68bdf9e25d6efaf65e7d14d328fdb06af1c773349c2a8b947594768143f396c53cdd
-Description: Patch Tiếng Việt cho tweak Vizage -Chỉ ap dụng cho tweak đã thanh toán trên nguồn Havoc.
-Name: Vizage Gói Việt Hoá (Rootless)
-Author: JTISVN Repo
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.jtis.vizagevh
-Architecture: iphoneos-arm64
-Version: 1.0.2
-Section: Gói Tiếng Việt
+Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 36568
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.vizagevh_1.0.2_iphoneos-arm64.deb
 Size: 1644
-MD5sum: 44a34b12117989ed9f4a3d0f0b132be6
-SHA1: 305d5866ab0fbdc3bd88e78cb54729f3ec054b51
-SHA256: cbb15f148ac86657cbbef51b4a86ad7009f2d886f67a6c8aec675234913bd819
-SHA512: 5a755d5cc33a13db4cb7ff95556ad532fe9e8ab18fd0ead171e4ab066d79976f30b8a4ec90d6b6951f7c1b3680f30adeb81861f1037b0e73904290d661aa5168
+MD5sum: 6291c40f43ec0b2896228c84ff4b3121
+SHA1: 4efcded2b7e0452c30e13a638bb2e7c0289157d6
+SHA256: a902dd001649a6a4497a38d39aee0aaec78f0eade9b5413c38cb7e8a694fd876
+SHA512: 1d878b091a104eeff3d8229c62afa3f1bf3b018e8c1749bda7732ce2dd6f81a2f7e94ace72bd3237e7cc91c9cdfddbe8c7fc4c0c549f99ba765556bd69530f8e
 Description: Patch Tiếng Việt cho tweak Vizage -Chỉ ap dụng cho tweak đã thanh toán trên nguồn Havoc.
 Name: Vizage Gói Việt Hoá (Rootless)
 Author: JTISVN Repo
@@ -10253,17 +10235,17 @@ Author: yan
 Package: com.kitsudo.choicy
 Architecture: iphoneos-arm64e
 Version: 1.0
-Section: Gói Tiếng Việt
+Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 36568
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.kitsudo.choicy_1.0_iphoneos-arm64e.deb
-Size: 3984
-MD5sum: 2ded4c3312a256c0301f030c6d4d3e34
-SHA1: 2d0b8a56be9c17cad77c1b4bd14960e909acac31
-SHA256: a0a3796e69fc12b995e9fd948ff5434d6dd344046c8d0cc803e80b1b0e4ae8cc
-SHA512: 2fb4a44e8860aef4ce1d7dcd00a618200e32c0a2a4619e2de3568541fe252b7b3c9902cffcf2d33da1173ccf4351875604867a6591763f64c20a65b4326b1187
+Size: 3980
+MD5sum: 2fb70efad4d28291d070b840cc51e60a
+SHA1: 8f83a0165ba1c39fc0c01a2078e5634e9b991d5a
+SHA256: d5df78e1d745666057e1a6967ddfd29486cdc38a13f2217accdab2d0b82e63d3
+SHA512: bd88871cb495229c01939abdd1de4f6443a33b5127a8ed66ddfe48e4fcda8a4278745182c2e2263d4f0db31237a1efe3ade6e296dc69616a82b2f9cb0e787a72
 Description: Thêm ngôn ngữ Tiếng Việt cho tweak Choicy
 Name: Choicy Gói Việt Hoá (Roothide)
 Author: JTISVN Repo
@@ -10272,16 +10254,16 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 Package: com.kitsudo.choicy
 Architecture: iphoneos-arm64
 Version: 1.5.2-2
-Section: Gói Tiếng Việt
+Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 36568
 Depends: mobilesubstrate
 Filename: ./debs/com.kitsudo.choicy_1.5.2-2_iphoneos-arm64.deb
-Size: 3992
-MD5sum: a98d6f5a3b065fcbbed57ab9d9f813a6
-SHA1: e3475b01ba35db9ceedb39ca189c203c629738ad
-SHA256: c358c583c5a439cd92a3f1e805d3622b0c0005b6ae2c75a234205a903d6fd8b8
-SHA512: 69e378fc6806b3f0acf4775a3a720ebed146ba08b1e28c10b3b1b5421d6de224d22b06023e4e1c1c811e16110eb2fbdb60ea3ad7e7230e5a0f5e98585c0ce8a9
+Size: 3988
+MD5sum: b7bc33f4d8a9bd4f63153244b4a887f9
+SHA1: 161ef8b3cbbcb48dff444512d55dcf28e10e0423
+SHA256: 6cdcc2aa414678312d1bac781629adc1faedf9484a90e8aca6d4451f7009a288
+SHA512: 3423c61a2c48473f579ddd8a391f8957a308af237c64d3950c59ec715d407c3e0e6945b57e61ff9a1cd49b0111bd32fff5ae1e4b6506de8bbe01c68913c07c36
 Description: Patch Tiếng Việt cho tweak Choicy
 Name: Choicy gói Việt Hoá (Rootless)
 Author: JTISVN Repo
@@ -10290,16 +10272,16 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 Package: com.kitsudo.dockx
 Architecture: iphoneos-arm64
 Version: 1.0
-Section: Gói Tiếng Việt
+Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 36568
 Depends: mobilesubstrate
 Filename: ./debs/com.kitsudo.dockx_1.0_iphoneos-arm64.deb
-Size: 8728
-MD5sum: 53420a59533b4f0c5119e69950115681
-SHA1: 4edd014bb9478521e87ad035caff499f74896e18
-SHA256: 44eb8536f6918c05eca5f1b668f5201caf96bcb528424fd2b62ee28025732461
-SHA512: c2b70b37a092a581e260575f7380fb2496d8d543daef730f22ee746b6e9b2a9ab47031955e0adc5778ddd7c094f3faaae0d4f9ec2e632c68e385ee52a57a6f01
+Size: 8724
+MD5sum: 04c457982447aac82ccb7ece490c500f
+SHA1: f86b6434f77dfc9b209bb0384faf4bbfa5f752b4
+SHA256: 23cd64bf2bdf76764df29bddf7c4885d056bc838e918f2680e7e6074f1ff6a97
+SHA512: ef11146627067d17070a3dff104c8d8c390574b2a45f1a0c26ebbf71e60282ad3a50973908219e4163a0fb90e46d38c0616d2431a94949264e3aaf4b260146de
 Description: Patch Tiếng Việt cho tweak Dock X
 Name: Dock X gói Việt Hoá (Rootless)
 Author: JTISVN Repo
@@ -10308,17 +10290,17 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 Package: com.kitsudo.dockx
 Architecture: iphoneos-arm64e
 Version: 1.0
-Section: Gói Tiếng Việt
+Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 36568
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.kitsudo.dockx_1.0_iphoneos-arm64e.deb
-Size: 8800
-MD5sum: 209810ae83511a2656371e2dddd7fad4
-SHA1: 4ec0b28acfb2f151b6cdd1090419ae6dcb96f31c
-SHA256: e8b289cedba050c11600e96952adc5aa026e759cc7fd86681d990a59b95b8efb
-SHA512: d04b657a239b177edcef39c9b4684a3b1f924a0438a77e60680cbe4d82521852c36da8c6a0b576ee1461fd8fe60c920cf96ea9a2304de6d902b25460bcd751ff
+Size: 8796
+MD5sum: 33c96d7a11aa059b2d4be191bdc21ca5
+SHA1: c8116c4531add525f39b9a2f7ef3ab1cca2b2249
+SHA256: 89239006b179255080c15ed70b9af5299beae63bc9d0112cdb25ed35d1d16810
+SHA512: 9a3143b40e8c177162282c7c6c142c3b1678c26f1d2947a01dbd19e4cec2da28a4fe3847af98511127629ba0f6d4e5160c05d4b917caf9f19adf2ce33c513b31
 Description: Thêm ngôn ngữ Tiếng Việt cho tweak Dock X
 Name: Dock X gói Việt Hoá (Roothide)
 Author: JTISVN Repo
@@ -10327,16 +10309,16 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 Package: com.kitsudo.pulloverpro
 Architecture: iphoneos-arm64
 Version: 1.0
-Section: Gói Tiếng Việt
+Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 36568
 Depends: mobilesubstrate
 Filename: ./debs/com.kitsudo.pulloverpro_1.0_iphoneos-arm64.deb
-Size: 2316
-MD5sum: b4f8a258a5d0e1c9d5af2046d8d540b0
-SHA1: bbf0da9d9a0622cbf710386328162543de49b817
-SHA256: 3db3c31772349d9abedc8075b4ccaad255117b455232cc178abfcbf9aba3c0f9
-SHA512: 4e180125fa9542a8bfa3d0eedf851e7df985bd3f3f7dddff6a0cd54e885e003d90e8419849397dc0983bb4b30e124f63166b0833d8d38695c65569b75f415fac
+Size: 2312
+MD5sum: 5b3ad4df1748bb12d5c5295f80ecc9ad
+SHA1: 37b3383d796acea635fa0381e40d1b0c96ff4165
+SHA256: e604520c46cc72501e513f905058df678e451a6bd6732ed28f8c0d052df9f1ca
+SHA512: 7a78cde582087a2f771da53ca804bd7a768593f7d4fb365db0e7966ff99b9b79732c4beb0052845db27ab1cb8fd0cb47c4703b54729c223a46992850fd6d663e
 Description: Patch Tiếng Việt cho tweak FullOver Pro
 Name: FullOver Pro gói Việt Hoá (Rootless)
 Author: JTISVN Repo
@@ -10345,37 +10327,19 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 Package: com.kitsudo.pulloverpro
 Architecture: iphoneos-arm64e
 Version: 1.0
-Section: Gói Tiếng Việt
+Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 36568
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.kitsudo.pulloverpro_1.0_iphoneos-arm64e.deb
 Size: 2284
-MD5sum: 51d4d37bd0299d46606193187f18d7a8
-SHA1: 5eb5bf13fb3e6f065889a370b9081443b3209343
-SHA256: 90ae4427621a8b58134c086c220d2c6cc273a1d12cb71a13e4247f3e2f3e30fa
-SHA512: e6ca2074a598a7c66641d8d9cd322698c2d9f3462adb7072b64b9014b9d4484c818244091ec381f4132699bc93e3223585e73741d7631b94d4ac08950d254b3e
+MD5sum: 23a16671ca163dd302c32a4d4e209dcf
+SHA1: f893dfb70e0a6e0077ee69b3e99cedb2d7a89f2c
+SHA256: d24387c2f4baa382ebb87f368a2117b264b5d7a98750969e0081659278b2e568
+SHA512: 8a3686a5c2dd380c61d474b64a565cd5007afd4feb2c12c696b0c494f6dd0a0905ba93f3f46af9b90df65d9f1e7d10b34bd229579baae2ab7dc5ea4fb2c84874
 Description: Thêm ngôn ngữ Tiếng Việt cho tweak PullOverPro
 Name: PullOver Pro Gói Việt Hoá (Roothide)
-Author: JTISVN Repo
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-
-Package: com.kitsudo.trapp.jb
-Architecture: iphoneos-arm64e
-Version: 2.10-499
-Section: Gói Tiếng Việt
-Maintainer: JTISVN Repo
-Installed-Size: 18856
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy
-Filename: ./debs/com.kitsudo.trapp.jb_2.10-499_iphoneos-arm64e.deb
-Size: 23344
-MD5sum: c35a7e2822ec60a670138df2247338b4
-SHA1: 623da56fc475f8eed82da1430de14b4d517f6d58
-SHA256: 6b0fca9e9626d89a37f27a73d14242e78fc453b808981330196b10419af9d280
-SHA512: 4f2f04ba42932ccda4efd91419e947bec5136b77e8d968a947615d27dcf177ec969ee0ae85a96a0450fd4d61c3c56e592943c63c3046e024167eadeffcb8ff23
-Description: Thêm ngôn ngừ Tiếng Việt cho tweak TrollRecorder JB
-Name: TrollRecorder JB Gói Việt Hoá (Roothide)
 Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
