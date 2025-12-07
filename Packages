@@ -13503,13 +13503,12 @@ Installed-Size: 152
 Depends: mobilesubstrate
 Filename: ./debs/net.limneos.simpleactivationactions-roothide_0.1-1_iphoneos-arm64e.deb
 Size: 7056
-MD5sum: 50fc54bbf8244effbbacd35fe35f51a7
-SHA1: 06a1d454fe874f63d10066fa34e1074258f246fc
-SHA256: 2a5fb897ccba4ae776110cf0fb157a7d7462f948aeb2184e8dd1f66c671ba08d
-SHA512: e55c8758eb8c18ca7c0d59a5a34915f1f8e82e803edd103880a2215707b2701de4ed35a53908a9977072bcd9264bd07c8fbdbc964ba6b5ff52b33ae35a9b3a2c
-Description: Simple Activation Actions
- Handles StatusBar actions for simple activation events
-Name: SimpleActivationActions (roothide)
+MD5sum: 5a3228662d625d38551670665260a167
+SHA1: 6842ff877c1e53304437ecca74afc5037ec062df
+SHA256: ccb7318c12f3b6ec2e0b7f066a1c739b36ecc72e34cd4a5532c17c420bd1a401
+SHA512: b7ea65ea76e383e6a27b7deffa9d466f78dec6c6dcb122ca193d2360e8ecf6f9f3868eec7102a95fb744fdb75bb387332b0c823646d51c6b113a4c54d46460d7
+Description: Simple Activation Actions Handles StatusBar actions for simple activation events
+Name: SimpleActivationActions (Roothide)
 Author: Elias Limneos <limneoselias@gmail.com>
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
@@ -13521,13 +13520,13 @@ Maintainer: Elias Limneos
 Installed-Size: 152
 Depends: mobilesubstrate
 Filename: ./debs/net.limneos.simpleactivationactions_0.1-1_iphoneos-arm64.deb
-Size: 7172
-MD5sum: 697cb3366087ad0e527166fca18ae8d4
-SHA1: 0db2c4720ceaa02d6388acca4b691470a1e70641
-SHA256: e090fb835b5f037ec7e099a38d9d9fde5c31e0a8b5d026ecd88a0ad1e8ce9add
-SHA512: 4ed7a5290aafe0c72b34d6342cf1fde26e88d02c3cb4bf02ac03450524a40c54d4212e52568ba5a48748e605ce49eb0bc6da42b9d1b0a1d2adf0eee506de72b6
+Size: 7176
+MD5sum: aba168daac3dcd859e0fca0124e82361
+SHA1: fdf08631daa6d6ddf4b8aae7bf4a0ff4161dca42
+SHA256: d66ae4b00f8a9190f9f5edd9ed22fb30963bb028b0f8ee9ab9b3cd049ac8fcf7
+SHA512: 795fc27bf9aa4eb5961b6a9f2ca80ab0d571f49f7fabfde94f62d8b2e3d69e17f4b80dc9cc363eacf064e228419066e7b1c33e27d69d2ff96a4d90b564082717
 Description: Hành động kích hoạt đơn giản Xử lý các hành động StatusBar cho các sự kiện kích hoạt đơn giản
-Name: SimpleActivationActions ( Rootless )
+Name: SimpleActivationActions (Rootless)
 Author: Elias Limneos <limneoselias@gmail.com>
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
