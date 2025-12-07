@@ -3478,6 +3478,23 @@ Name: ArtworkSpinner (Roothide)
 Author: Lessica
 Icon: https://jtisvn.github.io/sectionIcons/ArworkSpinner.png
 
+Package: com.jtis.atoqua
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.atoqua_1.0_iphoneos-arm64.deb
+Size: 3303340
+MD5sum: 7296e68c1027bb8e03ac7d38ea2d92dd
+SHA1: 4e27dbc9b1a8f439765204a8ad02a8daa1824392
+SHA256: d1f44a6b9490400ff242e143b134229ff7ee13cda80d045c9a58a9af55febd33
+SHA512: 50d7e5fdb2d4d7986f76f144a16c171bbba13e66bf3012aba92f932833269ba8fb6d3b66a39f83f955e508e34eb427f9067bd546fc822c3ad2e75191ef71ee98
+Description: Phông chữ Atoqua cho iOS
+Name: Atoqua
+Author: TQM-MOS
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Atoqua.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+
 Package: com.jtis.audiorecorderxs
 Architecture: iphoneos-arm64e
 Version: 5.1-12

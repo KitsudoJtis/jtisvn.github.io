@@ -1,50 +1,59 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#28CD41",
+"tintColor":"#339999",
 "tabs":[
 {
 "tabname":"Giới thiệu",
-"views":[
+"views": [
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
+"class": "DepictionHeaderView",
+"useBoldText": true,
+"useBottomMargin": false
+},        
 {
-"url":"https://jtisvn.github.io/infodeb/Alpine/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionSpacerView",
+"spacing": 8
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Alpine/Screenshots/2.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionMarkdownView",
+"markdown": "<p style=\"font-size:13pt;\">Phông Chữ Atoqua</p>\n<p style=\"font-size:12pt;\">Kích hoạt qua tinh chỉnh Snowboard.</p>\n<p style=\"font-size:12pt;\">Vui lòng Respring hoặc Dọn Rác qua iClean Pro để hiển thị đầy đủ.</p>",
+"useRawFormat": true
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Alpine/Screenshots/3.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionSeparatorView"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Alpine/Screenshots/4.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionHeaderView",
+"useBoldText": true,
+"useBottomMargin": false
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Alpine/Screenshots/5.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionSpacerView",
+"spacing": 16
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Alpine/Screenshots/6.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionScreenshotsView",
+"itemCornerRadius": 8,
+"itemSize": "{185, 400}",
+"screenshots": [
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/Mikhak/Screenshots/1.png"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Alpine/Screenshots/7.png",
-"accessibilityText":"Screenshot"
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/Mikhak/Screenshots/2.png"
+},
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/Mikhak/Screenshots/3.png"
+},
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/Mikhak/Screenshots/4.png"
 }
-],
-"itemCornerRadius":8,
-"itemSize":"{185,400}"
-},
-{
-"markdown":"Alpine\n\n- Mang giao diện thông báo hiện đại, gọn gàng của tvOS lên hệ thống iOS.\n\n- Tùy biến mạnh mẽ: Hỗ trợ tùy chỉnh độ làm mờ (Blur), chuyển đổi linh hoạt giữa phong cách iOS/tvOS và chế độ Sáng/Tối.\n\n- Tối ưu trải nghiệm: Tích hợp giao diện tvOS cho Share Sheet, hỗ trợ chạm ra ngoài để đóng nhanh và ẩn các nút không cần thiết.",
-"useSpacing": false,
-"class": "DepictionMarkdownView"
+]
 },
 {
 "spacing": 20,
@@ -77,7 +86,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "MTAC",
+"text": "TQM",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -90,7 +99,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Tweaks",
+"text": "Fonts",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -103,7 +112,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "27/01/2024",
+"text": "2/2/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -121,7 +130,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.4",
+"text": "1.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -134,7 +143,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1 MB",
+"text": "137.9 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -147,7 +156,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "iOS 14.0 - 17.7.3",
+"text": "15.0 - 16.6.1",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -175,13 +184,13 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.4\n\n- Thêm tùy chọn chọn thủ công kiểu làm mờ (Tối, Sáng, Tự động) cho cả giao diện iOS và tvOS.\n\n- Chế độ Tự động sẽ đồng bộ màu sắc theo giao diện máy.\n\n- Thay đổi tùy chọn Alpha thành Độ mạnh làm mờ (Blur Strength).\n\n- Sửa lỗi cài đặt không áp dụng ngay lập tức.\n\n- Sửa lỗi hiển thị nút trong Sileo và lỗi lặp lại lớp phủ mờ."
+"markdown":"### Phiên bản 1.0\n\n-Hỗ trợ iOS 15-16 Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
 },
 {
-"tabname":"Liên Hệ Hỗ Trợ",
+"tabname":"Liên hệ Hỗ trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
