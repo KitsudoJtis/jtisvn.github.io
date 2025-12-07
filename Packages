@@ -3484,16 +3484,37 @@ Version: 1.0
 Section: Fonts
 Maintainer: JTISVN Repo
 Filename: ./debs/com.jtis.atoqua_1.0_iphoneos-arm64.deb
-Size: 3303340
-MD5sum: 7296e68c1027bb8e03ac7d38ea2d92dd
-SHA1: 4e27dbc9b1a8f439765204a8ad02a8daa1824392
-SHA256: d1f44a6b9490400ff242e143b134229ff7ee13cda80d045c9a58a9af55febd33
-SHA512: 50d7e5fdb2d4d7986f76f144a16c171bbba13e66bf3012aba92f932833269ba8fb6d3b66a39f83f955e508e34eb427f9067bd546fc822c3ad2e75191ef71ee98
+Size: 3303344
+MD5sum: 1df094b786f9172fe306dae4fed3a65c
+SHA1: 363ad7fc84cbbf8d63f5d0e39f3c8b6d04e4ec9d
+SHA256: a03a75ba78931f49ab5b786d9a81bb42afa02c60a3252c7f3d80a7bf4b7c0949
+SHA512: 8254d23a2952d56e5d3b5e375f7ef456629504feae4f4a7283d4d0c240836f8f2494a1ab08e0484ae7cfec652970df81a56df931a9535a3471ae69238d643822
 Description: Phông chữ Atoqua cho iOS
-Name: Atoqua
+Name: Atoqua (iOS14-16)
 Author: TQM-MOS
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Atoqua.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+
+Package: com.jtis.audiorecorderxs
+Architecture: iphoneos-arm64
+Version: 5.0-17
+Section: Tweaks
+Maintainer: @tqmmos
+Installed-Size: 23088
+Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware(>=12.0), com.jtis.limneos-crack
+Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
+Filename: ./debs/com.jtis.audiorecorderxs_5.0-17_iphoneos-arm64.deb
+Size: 1179964
+MD5sum: 8e2e64360cfcba9d9de6fed5bb4cb6c5
+SHA1: 7e3853239dc42bca3e4a6c0250779817bc5b1623
+SHA256: 77ac67fc54e4a178cef14136fa623791ebe5e627d77093f27543487119da9e1e
+SHA512: 5c43c3276528b797067892e6555716c1f756beca4a33b9478b071677f8e5452b16612f1469ec568a0c97a2b337fdca7af51a1919278a4777fa9ff58ec886800a
+Description: Ghi âm cuộc gọi iOS tiên tiến nhất từ ​​trước đến nay!
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AudioRecorder.json
+Icon: https://jtisvn.github.io/sectionIcons/AudioRecorder.png
+Name: AudioRecorder XS (Rootless 15 to 17)
+Author: Elias Limneos
 
 Package: com.jtis.audiorecorderxs
 Architecture: iphoneos-arm64e
@@ -13489,6 +13510,24 @@ SHA512: e55c8758eb8c18ca7c0d59a5a34915f1f8e82e803edd103880a2215707b2701de4ed35a5
 Description: Simple Activation Actions
  Handles StatusBar actions for simple activation events
 Name: SimpleActivationActions (roothide)
+Author: Elias Limneos <limneoselias@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: net.limneos.simpleactivationactions
+Architecture: iphoneos-arm64
+Version: 0.1-1
+Section: Tweaks
+Maintainer: Elias Limneos
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/net.limneos.simpleactivationactions_0.1-1_iphoneos-arm64.deb
+Size: 7172
+MD5sum: 697cb3366087ad0e527166fca18ae8d4
+SHA1: 0db2c4720ceaa02d6388acca4b691470a1e70641
+SHA256: e090fb835b5f037ec7e099a38d9d9fde5c31e0a8b5d026ecd88a0ad1e8ce9add
+SHA512: 4ed7a5290aafe0c72b34d6342cf1fde26e88d02c3cb4bf02ac03450524a40c54d4212e52568ba5a48748e605ce49eb0bc6da42b9d1b0a1d2adf0eee506de72b6
+Description: Hành động kích hoạt đơn giản Xử lý các hành động StatusBar cho các sự kiện kích hoạt đơn giản
+Name: SimpleActivationActions ( Rootless )
 Author: Elias Limneos <limneoselias@gmail.com>
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
