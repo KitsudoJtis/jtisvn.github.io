@@ -10,7 +10,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/LS-16-VN/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/Constance/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Thay đổi phông chữ đồng hồ trên màn hình khoá\n\n- Kích hoạt phông chữ qua tinh chỉnh Snowboard.",
+"markdown":"\n\n- Thay đổi phông chữ đồng hồ trên màn hình khoá\n\n- Hỗ trợ iOS 16+\n\n- Kích hoạt phông chữ qua tinh chỉnh Snowboard.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -50,7 +50,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 14 đến 16.6.1"
+"text":"iOS 16 đến 16.6.1"
 },
 {
 "class":"DepictionSpacerView"

@@ -10,7 +10,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/LS-16-VN/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/LSPoetsenOne/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -35,7 +35,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"p0s3id0n"
+"text":"Phuc Do"
 },
 {
 "class":"DepictionTableTextView",
@@ -50,7 +50,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Khả năng tương thích",
-"text":"iOS 14 đến 16.6.1"
+"text":"iOS 15 đến 16.6.1"
 },
 {
 "class":"DepictionSpacerView"

@@ -2389,6 +2389,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/GoodWiFi.json
 Depiction: https://jtisvn.github.io/depictions/GoodWiFi.html
 Icon: https://jtisvn.github.io/sectionIcons/GoodWiFi.png
 
+Package: com.jtis.LS-16-Constance
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Depends: firmware (>= 16.0)
+Filename: ./debs/com.jtis.LS-16-Constance_1.0_iphoneos-arm64.deb
+Size: 118084
+MD5sum: 9cc5617cb70214d4aa1b8238f64cc087
+SHA1: 3980888a3d8e902cb5742d85aaa271c2f2f230f3
+SHA256: 21acbcf0995fa5317af10cf31ec1c704dd205742307472d72defe4b98d5df9d5
+SHA512: bff0cb265b8a37bc4071fd653325ca33df927e4ec13d15ed13013a8e190f330e0a736c6a1b05e616182f12356a5fd3ecad15f555636bd0cf5785fd121fccc336
+Description: Thay đổi phông chữ Đồng hồ
+Name: LS Constance
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Constance.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+Author: p0s3id0n
+
 Package: com.jtis.LS-16-VN
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -2424,6 +2442,23 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/LS-16-VN.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
  Pre-Depends: rootless-compat(>= 0.9)
 
+Package: com.jtis.LSBendigo
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS Fonts
+Maintainer: Phuc Do
+Filename: ./debs/com.jtis.LSBendigo_1.0_iphoneos-arm64.deb
+Size: 61940
+MD5sum: 509e6275e5e3b5baa45f5d32094db6ef
+SHA1: f9b574db44d02e37a5e5028ffc8d84acf99ade6f
+SHA256: d533b2f7c6d57acd522af89e00e65cce35e1baf3705ab19e7bcea9caf781ffd2
+SHA512: d36840e403dac639374ce75af56c7ef880dbc29293bf88cd6feea36b49bdd2f1e1a539b5fa9b73899260bad30e3919e3ffa593a4c4aaa85ae0959893782d30b2
+Description: Use Snowboard Font Extension to enable the clock font.
+Author: Phuc Do
+Name: LS Bendigo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSBendigo.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
 Package: com.jtis.LSBlueDragon
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -2439,6 +2474,58 @@ Description: Thay đổi phông chữ đồng hồ màn hình khoá.
 Name: LS Blue Dragon
 Author: Phuc Do
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LSBlueDragon.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
+Package: com.jtis.LSLunar
+Architecture: iphoneos-arm
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.LSLunar_1.0_iphoneos-arm.deb
+Size: 42448
+MD5sum: 395363ebcc0606344d6346aa4f50a101
+SHA1: 711606c2d27c615a4a53b565f7e7786c10bd9ef6
+SHA256: 8cefd4f46d146b67ebb4a86639a99a6f486587faef9629bb0411432f7d5f46b9
+SHA512: 604c953a00cc1ea88ad9609c6b7248a1f578f6ce1eae28c10f32b796fd5ae860d2155e609756653498e8fdd13d3165bd3b5a3d48886f2d6e1ca0024890b7d387
+Description: Use AIM/AIM Pro tweak to enable the font clock.
+Author: Phuc Do
+Name: LS Lunar 2024
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSLunar.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
+Package: com.jtis.LSLunar
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.LSLunar_1.0_iphoneos-arm64.deb
+Size: 42364
+MD5sum: 32ae52b107f8fa9a9a8248792d555393
+SHA1: 191920da9d0584ae810e748f9df81aeee3f2e09e
+SHA256: 68b3110f6bf032e221e9d56c7547631dd88ea7028b79a4ad3e6685c0142fdd8b
+SHA512: 972ab4903bc0731ace4c06d7991dcfc78370bc41171309c7e2a554d1969deea97aafb91961f9a2db9a2229c9bbef7751fda681127457483999273f7c82240485
+Description: Thay đổi phông chữ Đồng hồ
+Name: LS Lunar 2024
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSLunar.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+Author: Phu Do
+
+Package: com.jtis.LSPoetsenOne
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Depends: firmware (>= 16.0)
+Filename: ./debs/com.jtis.LSPoetsenOne_1.0_iphoneos-arm64.deb
+Size: 74416
+MD5sum: b088434dadb1a580222dc8f9bc881ea7
+SHA1: cf74c99b5eca42a92033c521b5468c9550cabe68
+SHA256: b670726bbf554c590f017497ff7fc8dca9eb5b3ac71b141bb742654155656985
+SHA512: 81431b1fc6cecf12320ac7dac43471466ceae715463c9cc49ad8a77122bdca65b3a4d5198615e2a5aa8d5fe9bfec4af9e8389bc85bca5fd01281f1780575cc23
+Description: Thay đổi phông chữ đồng hồ màn hình khoá
+Author: Phuc Do
+Name: LS Poetsen One
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSPoetsenOne.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
 Package: com.jtis.LSSpaceQuest
@@ -7095,6 +7182,42 @@ Name: Looky (Roothide)
 Author: EllaSP
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
 Icon: https://jtisvn.github.io/sectionIcons/Looky.png
+
+Package: com.jtis.LSLunar
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.lslunar_1.0_iphoneos-arm64e.deb
+Size: 55662
+MD5sum: 2b9a9ede776444713b22c596a92dcf04
+SHA1: d30e057f433304415b1b6047426b39ea62be7e60
+SHA256: 368f44bc7d4adff4ca5ecfed4ad07803c7c6cef7143c6284ac5c81c85e610b9c
+SHA512: c8570a19c62b6738105a50470d337d878d627acb090a334bde1279c19fac9dbae3590b579e5d20092d50784fe39c73eeb71593cfb329559d64304d3f1c2d9120
+Description: Use AIM/AIM Pro tweak to enable the font clock.
+Author: Phuc Do
+Name: LS Lunar 2024
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSLunar.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
+Package: com.jtis.LSPoetsenOne
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0)
+Filename: ./debs/com.jtis.lspoetsenone_1.0_iphoneos-arm64e.deb
+Size: 90262
+MD5sum: 58fc9b728281dd6a2984f32ed21777b9
+SHA1: 92d3dbb69e1d3ba015ee478196e98c991c4eaacf
+SHA256: 4e9c81bcd462f31af7555e9e2b1b37c1de094a50d0e4a32c9ea8ac5132dcf5ce
+SHA512: e914fe515b104258fda2d0c236555d30e6364b4bcb75a4ec958bb54c5476837d45e7f5b19e23667c38556d8f6fc50e8f04d33df602fe0ab9b87665fae63cbf20
+Description: Thay đổi phông chữ đồng hồ màn hình khoá
+Author: Phuc Do
+Name: LS Poetsen One
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSPoetsenOne.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
 Package: com.jtis.LSSpaceQuest
 Architecture: iphoneos-arm64e

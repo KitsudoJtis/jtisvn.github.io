@@ -10,7 +10,11 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/LS-16-VN/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/LSLunar/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/LSLunar/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -18,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Thay đổi phông chữ đồng hồ trên màn hình khoá\n\n- Kích hoạt phông chữ qua tinh chỉnh Snowboard.",
+"markdown":"\n\n- Thay đổi phông chữ đồng hồ trên màn hình khoá\n\n- Kích hoạt phông chữ qua tinh chỉnh AIM/AIM Pro.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -35,7 +39,7 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"p0s3id0n"
+"text":"Phuc Do"
 },
 {
 "class":"DepictionTableTextView",
