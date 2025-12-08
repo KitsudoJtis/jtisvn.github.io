@@ -5141,6 +5141,45 @@ Author: Ryan Nalr
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CylinderRemade.json
 Icon: https://jtisvn.github.io/sectionIcons/Cylinder-rebom.png
 
+Package: com.jtis.dayn14
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1936
+Depends: mobilesubstrate, firmware (>= 14.0), ws.hbang.common (>= 1.14), preferenceloader
+Replaces: com.jannikcrack.dayn
+Filename: ./debs/com.jtis.dayn14_1.0.2_iphoneos-arm.deb
+Size: 547936
+MD5sum: 8f75675c65d9890ccb145edc3ce39462
+SHA1: 6bf5732917d1a87666717e786d0fe1ec7f8812a7
+SHA256: 3b422d08d7cf0bdcdcf6ef0fd6ac5a7fd6d5be39ff3105794d41df3fef27bd4a
+SHA512: ad6f6019cd2fe4633aa19dc18917a4e638ab16157cd43f0305a8474b09d4200edeb2b2aea1380ab3afd1b3eaf69b9819372072ce92d1fbe3c57f6d4973f58c26
+Description: Khái niệm thông báo mới
+Name: Dayn (iOS 14)
+Author: Devvix, JannikCrack
+Icon: https://img.chariz.cloud/icon/dayn-14/icon@3x.png
+depiction: https://chariz.com/buy/dayn-14
+SileoDepiction: https://chariz.com/api/sileo/package/com.devvix.dayn14/depiction.json
+
+Package: com.jtis.deleteforever
+Architecture: iphoneos-arm
+Version: 0.0.1-57
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 682
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.deleteforever_0.0.1-57_iphoneos-arm.deb
+Size: 250508
+MD5sum: 7fb3ae8e8da915a71c776caa8ac7a6ed
+SHA1: 307774c6fe1eaa78ed7a05dd0cda217c2a3552fc
+SHA256: 87b00951f39170c6639f80991b507ea50f7b3d7d318e9911b7078d09df601468
+SHA512: c4fcd7eaa05bd4d18d5e601319260c414a135d3201afa396eabe1274bb2e223394c905b10711c3912048c5ce807f8ffe5f1f6223e81e6cdd2b187e3c61293b0b
+Description: Tùy chọn "Xóa vĩnh viễn" cho Ảnh.
+Name: DeleteForever
+Author: Creatix <ioscreatix@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.deleteforeverxs
 Architecture: iphoneos-arm64
 Version: 1.1k-debug
@@ -5338,6 +5377,47 @@ Author: Ethan Whited
 Depiction: https://jtisvn.github.io/depictions/Doodle.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
 Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
+
+Package: com.jtis.dynamicnotlands
+Architecture: iphoneos-arm64
+Version: 1.2.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 348
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.dynamicnotlands_1.2.4_iphoneos-arm64.deb
+Size: 12392
+MD5sum: cd15b68e23e4bc3ac5430e6ab829f5a9
+SHA1: 201c1808c9ab285c318f83ad0e410fb2454c03e3
+SHA256: a06db58dc54a5d4d1fe318301df1b0ffe48220507dcd17eb9459192a7b57e8ee
+SHA512: 6946c54aad92ea59c0cb2cf2db6e2f83e2caf333b08740d03f2b41b25314ad01e7415eba3a5528a4172297ae888db3262aece1b6813ff76e6e9a3af825792413
+Description: Một tinh chỉnh để ẩn đảo động thông minh trên dòng 14 Pro khi không sử dụng!
+Name: DynamicNotLand (Rootless)
+Author: Nathan
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DynamicNotLand.json
+Depiction: https://jtisvn.github.io/depictions/DynamicNotLand.html
+Icon: https://jtisvn.github.io/sectionIcons/DynamicNotLand.png
+
+Package: com.jtis.dynamicnotlands
+Architecture: iphoneos-arm64e
+Version: 1.2.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 348
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.dynamicnotlands_1.2.4_iphoneos-arm64e.deb
+Size: 12492
+MD5sum: 90fd0ad003dbe715b791d69d4f4f0505
+SHA1: ba0acbffeda66fd440b67c2334326d0d98128846
+SHA256: 41e8fca9379f2564eadc9627982f14325b93413e6351fb32c116711696392b90
+SHA512: 86a1b39ffb569165dc2359875370293ef0f010181b68a7bed2fafdf8967bf18f6de91b868d036041c6fd112857b2f426159cebc27222650defdcaa5c57968fba
+Description: Một tinh chỉnh để ẩn đảo động thông minh trên dòng 14 Pro khi không sử dụng!
+Name: DynamicNotLand (Roothide)
+Author: Nathan
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DynamicNotLand.json
+Depiction: https://jtisvn.github.io/depictions/DynamicNotLand.html
+Icon: https://jtisvn.github.io/sectionIcons/DynamicNotLand.png
 
 Package: com.jtis.dynamicpeninsula
 Architecture: iphoneos-arm64
@@ -12794,6 +12874,45 @@ Depiction: https://sudo9000.github.io/depictions/debra/index.html
 Name: Debra (Rootless)
 Author: Sudo
 Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
+
+Package: com.teslaman3092.16player
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1420
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, firmware (>= 14), firmware (<< 16), preferenceloader
+Conflicts: ch.mdaus.utils, com.johnzaro.perfectmusic13, com.p2kdev.tinywidget, com.laughingquoll.quart, com.tako3s.printemps, com.teslaman3092.16player, xyz.cypwn.16player
+Filename: ./debs/com.teslaman3092.16player_1.0.5_iphoneos-arm64.deb
+Size: 379028
+MD5sum: f56125df156527df354fa0dc8a735a76
+SHA1: 9ff9a59572a6a118177176454db6997b153ddeb7
+SHA256: 3dd55425aea13407b39711eeab9f76872e249cc0b26ada03d777e7f2ce4c6e3a
+SHA512: a8df2049d1489342585c2289700588483be77367e9448216f8501c28061b0f845d6caf3024f3c305cf7ffb8e019569f218c1f5fba182e5638413aa83faeea7a3
+Description: 16Player - tinh chỉnh tốt nhất để đưa trình phát nhạc màn hình khóa iOS 16 lên iPhone hoặc iPad chạy iOS 14 hoặc iOS 15 của bạn.
+Name: 16Player (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/16Player.png
+Author: tesla_man, Bibi Fire <computerman939+16playersupport@gmail.com>
+
+Package: com.teslaman3092.16player
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1420
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, firmware (>= 14), firmware (<< 16), preferenceloader
+Conflicts: ch.mdaus.utils, com.johnzaro.perfectmusic13, com.p2kdev.tinywidget, com.laughingquoll.quart, com.tako3s.printemps, com.teslaman3092.16player, xyz.cypwn.16player
+Filename: ./debs/com.teslaman3092.16player_1.0.5_iphoneos-arm64e.deb
+Size: 375852
+MD5sum: c42a14f599a43095310bbafc4117988a
+SHA1: 0be3dda58b03ff309b64c71f81278615c6261353
+SHA256: 0b62772fb342978995f766fc40bbe502770704d3fb3432567855194d04c70135
+SHA512: d4068ce7383bc78699df56c636488c5ee189429f9e5a73ffbdfbd47546991fc64b8e2bf03d63fd2cb17167081ed9f0830e9d9da26bd206396463e02337228b1f
+Description: 16Player - tinh chỉnh tốt nhất để đưa trình phát nhạc màn hình khóa iOS 16 lên iPhone hoặc iPad chạy iOS 14 hoặc iOS 15 của bạn.
+Name: 16Player (Roothide)
+Icon: https://jtisvn.github.io/sectionIcons/16Player.png
+Author: tesla_man, Bibi Fire <computerman939+16playersupport@gmail.com>
 
 Package: com.teslaman3092.popoutbuttons
 Architecture: iphoneos-arm64
