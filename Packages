@@ -7608,10 +7608,10 @@ Installed-Size: 876
 Depends: mobilesubstrate, com.spark.libsparkcolourpicker, ws.hbang.common
 Filename: ./debs/com.jtis.macpass_1.4_iphoneos-arm64.deb
 Size: 197256
-MD5sum: 1ebff1b770dcd6f498754dd8f8aab291
-SHA1: 5266246b006c2fb63c09a48f4708721a462636fc
-SHA256: 6e344e60c7518e3d04e5f4356394d7bc64e76aa67d935f05224e2e148e91a12d
-SHA512: ea3104e789dfa842c344cb12d99874b3c2f045a49bb5a0adbd1899bfdf4e26e239a64b65c95a2197a24ad9c4178406522f976a5f18fdd745819cefd308efb6ea
+MD5sum: 423af7dabff023a97276ad703a8b7e09
+SHA1: 42915902f6517960f2a589fe877799ec60d5df60
+SHA256: a1dc56660241358f0eb6d0359b9309f53990dfd9efe94cada1cd8aee555e98f5
+SHA512: db689ac25c3421a415f67b1daedb95f3ed2465f6b926e6ffd8384dfa36711461ccfd63f866bbdc23a37dc1dd9a4002ecd34fe20128810f5d09909d04749a0e9e
 Description: MacPass cung cấp màn hình mật khẩu MacOS cho iOS!
 Name: MacPass (Rootless)
 Author: Ethan Whited
