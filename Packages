@@ -10738,11 +10738,11 @@ Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.lclrc.hidepullover_0.0.1_iphoneos-arm64.deb
 Size: 4612
-MD5sum: 2a47421cbcf5b9d559ad91e40e59fe3b
-SHA1: 06019932c6c3982fd7e6fb580095f4d4492e90a6
-SHA256: e1e4547ea3cb43fc4109a04a54f15d59feef48d514b99a02b76fc6d6449f387d
-SHA512: b48a48a6af37dd51760c8c51c4e4fbf1ead065397c3e194106f0ba142de7cc081bd3bce9e8ba645c197d45fa8a81bb816a069f6fc7529dabae640a04b10d67a9
-Description: Hạn chế hiển thị PullOber Pro khi không đùng đến：
+MD5sum: d3f4bb5e5b998c77d91f44d091f37ae8
+SHA1: 7ef773e3bc4d430b8f1d9609f475e7fd4a17e858
+SHA256: 8b963be809c0f4df03a289f78138493ce97c50b705a481602d800a7e4bbdbd9d
+SHA512: 5a2af3d4fbb5837df45cf81c28d279cba04016042636cbcf25f53febeaa31f79971dcfbc8a4204c2ac41ae7203fda985f55ed409c6580771155e110536774165
+Description: Hạn chế hiển thị PullOver Pro khi không đùng đến：
  	  *  1.Ẩn khi chụp ảnh màn hình của hệ thống。
  	  *  2.Đóng nó đến mức tối thiểu để làm cho mở hơn。
 Name: HidePullOverPro (Rootless)
@@ -10759,11 +10759,11 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.lclrc.hidepullover_0.0.1_iphoneos-arm64e.deb
 Size: 4508
-MD5sum: bdeb0ed236f9d384044e2250d0eaadb3
-SHA1: e63bf666bba606891c9371cbb9d081194bff6923
-SHA256: e510969b6334834b1cc611eb57989928b57a9bf9eb145f924a38126cb28cba03
-SHA512: 9d0b1d8ea99cede1ffc01df760b6884fb235334839539a20bbbfc92ca9377b79dca90789556b1ad8b25e608200e5d6c7d305e4b1ae2255df544eb264d952857c
-Description: Hạn chế hiển thị PullOber Pro khi không đùng đến：
+MD5sum: 850c01368ce17ed6c65d673d07fe52ee
+SHA1: 3d98f45a5837ae8ab90fbdc82651c11a4767f508
+SHA256: 716ce45db7bebc1d4ffa64dce18970d6a76300cf138268e637c4d1125539bc96
+SHA512: 943f5c8d9f7edc44f94167e796a2ff6b31d30308a8960e1ae294fa731ac34eae5871978bf1c0cae776301a1f60126b6aeb1f570abb6bfa41ca5f406d33e27cf4
+Description: Hạn chế hiển thị PullOver Pro khi không đùng đến：
  	  *  1.Ẩn khi chụp ảnh màn hình của hệ thống。
  	  *  2.Đóng nó đến mức tối thiểu để làm cho mở hơn。
 Name: HidePullOverPro (Roothide)
