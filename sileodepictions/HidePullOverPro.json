@@ -9,7 +9,7 @@
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionLabelView",
-"text":"AppStoreTroller",
+"text":"HidePullOverPro",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": true,
@@ -17,7 +17,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n\n- Giả mạo Phiẻn bản iOS cao khi tải về ứng dụng từ AppStore.",
+"markdown":"\n\n- Ẩn hiển thị PullOver Pro tối thiểu khi không dùng đến.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
