@@ -6325,6 +6325,24 @@ Author: i0s_tweak3r <djvs23@icloud.com>
 Icon: https://jtisvn.github.io/sectionIcons/HomeGesture1315.png
 
 Package: com.jtis.horizontalsliders
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: ./debs/com.jtis.horizontalsliders_0.0.1_iphoneos-arm64.deb
+Size: 10648
+MD5sum: e011bee62e63183ebd64182f56e652c8
+SHA1: 588da6760691dece548494cf40e2c66677e308e7
+SHA256: 5daaf753aa84bb170c72917ac76a9580cf3da09adb8f7731fe0a0012cfa158aa
+SHA512: aa85246ae24aeed4838b7838dccaf1fb5a5e1a8bf5513a2a5396fffffa009f82313de12f4531d4051d48d82502ced7b61db2b3e016ad6ad7103b43fe00676433
+Description: Điều chỉnh cho Mô-đun độ sáng và âm lượng trên Trung tâm điều khiển xoay ngang.
+Name: HorizontalSliders (Rootless(
+Author: Nightwind
+Icon: https://jtisvn.github.io/sectionIcons/HorizontalSliders.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/HorizontalSliders.json
+
+Package: com.jtis.horizontalsliders
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Tweaks
@@ -6332,15 +6350,15 @@ Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
 Filename: ./debs/com.jtis.horizontalsliders_0.0.1_iphoneos-arm64e.deb
-Size: 10812
-MD5sum: 3caee37643b8095317c6451314f6c0d1
-SHA1: a25aadfc0ae2a1a3bdb64148a8b2e91a5392cecc
-SHA256: 5ff1023db64e1b06f7a8a70858b9f5305d77eb30689bc24f0ed0c31b3ad2f8d1
-SHA512: 4373b9c859448ff61268e1347139dc2e6413016898e485b26e9a3d782567c30ed0a377ed7ff19b5a4dec781def11f35f7b338cdec54976396b0fc61d370d41d3
+Size: 10820
+MD5sum: ddf9aff7824f65c11d534bacf605cbc2
+SHA1: 2535c54a54398d47d6020b51bee03e3298d9ad70
+SHA256: 010d0a3a23d01f3c3a778fe36f0dc6387a9984769984434f72c3c9883e97fddc
+SHA512: 5a3fbb29b5afb84889c4168bf38b3d07342ed0a47f3ada3dc34bdf376645d569731e119872729397a02f89f041eddcb496af8205780442b89d77246970f8728c
 Description: Điều chỉnh cho Mô-đun độ sáng và âm lượng trên Trung tâm điều khiển xoay ngang.
 Name: HorizontalSliders (Roothide)
 Author: Nightwind
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/HorizontalSliders.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HorizontalSliders.json
 
 Package: com.jtis.hswidgets
