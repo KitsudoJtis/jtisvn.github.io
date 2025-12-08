@@ -6232,6 +6232,43 @@ Icon: https://jtisvn.github.io/sectionIcons/Griddy.png
 Name: Griddy (Roothide)
 Author: mikifp
 
+Package: com.jtis.hideallbar
+Architecture: iphoneos-arm64
+Version: 2.1-1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 152
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.jtis.hideallbar_2.1-1_iphoneos-arm64.deb
+Size: 4112
+MD5sum: 9e0bcc80a742f2f5ffc626d21675092b
+SHA1: 6f6920b48d2ee007c7a0827058a2cffd5f4a1200
+SHA256: 02789c8d98db11e558fcc5a9e5b9dd948c7fbee1a7ca92b494a5b68713e4eea3
+SHA512: bbb965746290d6fa036730af9076f98b9ddc7d1f752cd6fd28bb40417615f605064caf2e5d3a77b707ba2bae421f7b9718135a88d8da8abccc95f0542df05571
+Description: Ẩn các thanh màu đen ở tất cả các vị trí của dòng X mà không hề ảnh hưởng gì (ví dụ vẫn cần vuốt lên 2 lần để thoát trong game màn hình ngang)
+Name: HideAllBar (Rootless)
+Author: Netskao
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.hideallbar
+Architecture: iphoneos-arm64e
+Version: 2.1-1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.jtis.hideallbar_2.1-1_iphoneos-arm64e.deb
+Size: 4528
+MD5sum: 6c5864c51175d9f432d515a4fc597377
+SHA1: f68a0cb3b3430203473e5c35500ec63e07aeafe9
+SHA256: fb0022c018be81a63ccc6b5180e75e02fdc07b02d2b8355cfd38eb2769162e7e
+SHA512: 404dcda280da62dc25f14c9a2d9a027054189d784fba00f593f01439a223171c2d8c8382ed6d22106d4275a18213734b74cf888800ab2b7d236d8a2b1172770d
+Description: Ẩn các thanh màu đen ở tất cả các vị trí của dòng X mà không hề ảnh hưởng gì (ví dụ vẫn cần vuốt lên 2 lần để thoát trong game màn hình ngang)
+Name: HideAllBar (Roothide)
+Author: Netskao
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.hidepullover
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -7541,6 +7578,44 @@ Description: Thêm Âm lịch lên góc trái Status Bar cho thiết bị nút H
 Name: LunarTime Plus (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimePlus.json
 Author: nqt1195
+
+Package: com.jtis.macpass
+Architecture: iphoneos-arm
+Version: 1.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: firmware (>=13.0), mobilesubstrate, com.spark.libsparkcolourpicker, com.muirey03.libimagepicker, ws.hbang.common
+Filename: ./debs/com.jtis.macpass_1.3_iphoneos-arm.deb
+Size: 194124
+MD5sum: f5509677ce832804c1688538bf5d9c38
+SHA1: 20f067e11da82d4104bb2e08e7de5d79970fc997
+SHA256: ff902ee3d29d1a90d2f0df19982cd0309ae9686cb554c5056244b5818f2e4136
+SHA512: 644985afd1c15608ca36819b6958276033dfc206549d35a0c0638349d12dffc79295605d540cb571f246a07b14423933e917b1dd8b569fa55781d0a6107dd764
+Description: Màn hình đăng nhập MacOS cho iOS!
+Tag: role::enduser
+Name: MacPass
+Icon: https://jtisvn.github.io/sectionIcons/MacPass.png
+Tags: compatible_min::ios13.0, compatible_max::ios16.2
+Author: ETHN <ethanwhited2208@gmail.com>
+SomeOtherEntryToControl: True
+
+Package: com.jtis.macpass
+Architecture: iphoneos-arm64
+Version: 1.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 876
+Depends: mobilesubstrate, com.spark.libsparkcolourpicker, ws.hbang.common
+Filename: ./debs/com.jtis.macpass_1.4_iphoneos-arm64.deb
+Size: 197256
+MD5sum: 1ebff1b770dcd6f498754dd8f8aab291
+SHA1: 5266246b006c2fb63c09a48f4708721a462636fc
+SHA256: 6e344e60c7518e3d04e5f4356394d7bc64e76aa67d935f05224e2e148e91a12d
+SHA512: ea3104e789dfa842c344cb12d99874b3c2f045a49bb5a0adbd1899bfdf4e26e239a64b65c95a2197a24ad9c4178406522f976a5f18fdd745819cefd308efb6ea
+Description: MacPass cung cấp màn hình mật khẩu MacOS cho iOS!
+Name: MacPass (Rootless)
+Author: Ethan Whited
+Icon: https://jtisvn.github.io/sectionIcons/MacPass.png
 
 Package: com.jtis.marie
 Architecture: iphoneos-arm64
