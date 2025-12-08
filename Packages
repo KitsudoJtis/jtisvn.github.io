@@ -10737,17 +10737,18 @@ Maintainer: SquidForce
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.lclrc.hidepullover_0.0.1_iphoneos-arm64.deb
-Size: 4612
-MD5sum: d3f4bb5e5b998c77d91f44d091f37ae8
-SHA1: 7ef773e3bc4d430b8f1d9609f475e7fd4a17e858
-SHA256: 8b963be809c0f4df03a289f78138493ce97c50b705a481602d800a7e4bbdbd9d
-SHA512: 5a2af3d4fbb5837df45cf81c28d279cba04016042636cbcf25f53febeaa31f79971dcfbc8a4204c2ac41ae7203fda985f55ed409c6580771155e110536774165
+Size: 4632
+MD5sum: cc0ff9326bfe2518e9ce9b83d3aba1fd
+SHA1: 97f415739a9d9f9b88109bb94d67cb4a9a22a193
+SHA256: 7910ec766ed61f952b776e37bd3b6db7bb123759414a42d04d3128915b877ee9
+SHA512: 8439a73a58ab5b050e778ab97d229f80f35125893316b951234d8b88fd14ba7f2546674cd8775916856b47c5c5cae4697b2d937659be44ebe375644ffa2f79f9
 Description: Hạn chế hiển thị PullOver Pro khi không đùng đến：
  	  *  1.Ẩn khi chụp ảnh màn hình của hệ thống。
  	  *  2.Đóng nó đến mức tối thiểu để làm cho mở hơn。
 Name: HidePullOverPro (Rootless)
 Author: SquidForce
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/HidePullOverPro.json
 
 Package: com.lclrc.hidepullover
 Architecture: iphoneos-arm64e
@@ -10758,17 +10759,18 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.lclrc.hidepullover_0.0.1_iphoneos-arm64e.deb
-Size: 4508
-MD5sum: 850c01368ce17ed6c65d673d07fe52ee
-SHA1: 3d98f45a5837ae8ab90fbdc82651c11a4767f508
-SHA256: 716ce45db7bebc1d4ffa64dce18970d6a76300cf138268e637c4d1125539bc96
-SHA512: 943f5c8d9f7edc44f94167e796a2ff6b31d30308a8960e1ae294fa731ac34eae5871978bf1c0cae776301a1f60126b6aeb1f570abb6bfa41ca5f406d33e27cf4
+Size: 4536
+MD5sum: ebe3e83612537b92edf3d0df1e56078a
+SHA1: 4e00f7e333291531ce94650223a35bb10e3560e5
+SHA256: d3008a366ad6a2e4d47439aa7c4822f68ce357a5789b955741c9edbc06605348
+SHA512: 751d01f902c3a1c7b841472a9fd0ab1371b011b2d3bb819061d17b58a615039391800ffee4dc5a02c866eacc5e76980e75378f56a2cc905a8048941160ea8310
 Description: Hạn chế hiển thị PullOver Pro khi không đùng đến：
  	  *  1.Ẩn khi chụp ảnh màn hình của hệ thống。
  	  *  2.Đóng nó đến mức tối thiểu để làm cho mở hơn。
 Name: HidePullOverPro (Roothide)
 Author: SquidForce
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/HidePullOverPro.json
 
 Package: com.leftyfl1p.carbridge13
 Architecture: iphoneos-arm
