@@ -6252,43 +6252,6 @@ Name: HideAllBar (Roothide)
 Author: Netskao
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
-Package: com.jtis.hidepullover
-Architecture: iphoneos-arm64
-Version: 0.0.1
-Section: Tweaks
-Maintainer: SquidForce
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.hidepullover_0.0.1_iphoneos-arm64.deb
-Size: 4520
-MD5sum: f7ae147f4a42517c52545269e3c45163
-SHA1: 09bb0faa150bda01f6c082e78b31c45306345bbc
-SHA256: 9e88207f83e2043b394f244bd4fccb92c59270fda30e5adb77fbed4feb843379
-SHA512: ba1a91c81c3e4c7a7a59d3433beb49d80ca33d46f6dbd9270fabd1e03d6dbddc1fff26df2bde41504b12ae9cc54613496f09e5e3c00c72bd88f0565473433596
-Description: Ẩn PullOver Pro khi chụp màn hình hoặc khi không sử dụng đến nó.
-Name: HidePullOverPro (Rootless)
-Author: SquidForce
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
-Package: com.jtis.hidepullover
-Architecture: iphoneos-arm64e
-Version: 0.0.1
-Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.hidepullover_0.0.1_iphoneos-arm64e.deb
-Size: 4440
-MD5sum: 9beb8d182558f274c6f81c5090bbeb07
-SHA1: 4de86dfb982d3361f1d66cf192b10527d654b54f
-SHA256: 060468c4b3e0766e8d2e0a0aeb5ec4f411b1c2d55616e8ef472a413d88556025
-SHA512: 7d6a4c67257797c78eb4b47faf6b46c41c5064da713116077266e6a1613e7b934596f513515bdd887ebcda05f193b760e04f4946bfd31741c887c8b62f4c77d8
-Description: Ẩn PullOver Pro khi chụp màn hình hoặc khi không sử dụng đến nó.
-Name: HidePullOverPro (Roothide)
-Author: SquidForce
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
 Package: com.jtis.hkmodule.substrate
 Architecture: iphoneos-arm64
 Version: 1.0.8
@@ -10765,6 +10728,47 @@ Name: Hammer It (Roothide)
 Author: lclrc(SquidForce)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HammerIt.json
 Icon: https://jtisvn.github.io/sectionIcons/HammerIt.png
+
+Package: com.lclrc.hidepullover
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: SquidForce
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.lclrc.hidepullover_0.0.1_iphoneos-arm64.deb
+Size: 4612
+MD5sum: 2a47421cbcf5b9d559ad91e40e59fe3b
+SHA1: 06019932c6c3982fd7e6fb580095f4d4492e90a6
+SHA256: e1e4547ea3cb43fc4109a04a54f15d59feef48d514b99a02b76fc6d6449f387d
+SHA512: b48a48a6af37dd51760c8c51c4e4fbf1ead065397c3e194106f0ba142de7cc081bd3bce9e8ba645c197d45fa8a81bb816a069f6fc7529dabae640a04b10d67a9
+Description: Hạn chế hiển thị PullOber Pro khi không đùng đến：
+ 	  *  1.Ẩn khi chụp ảnh màn hình của hệ thống。
+ 	  *  2.Đóng nó đến mức tối thiểu để làm cho mở hơn。
+Name: HidePullOverPro (Rootless)
+Author: SquidForce
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.lclrc.hidepullover
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: SquidForce
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.lclrc.hidepullover_0.0.1_iphoneos-arm64e.deb
+Size: 4508
+MD5sum: bdeb0ed236f9d384044e2250d0eaadb3
+SHA1: e63bf666bba606891c9371cbb9d081194bff6923
+SHA256: e510969b6334834b1cc611eb57989928b57a9bf9eb145f924a38126cb28cba03
+SHA512: 9d0b1d8ea99cede1ffc01df760b6884fb235334839539a20bbbfc92ca9377b79dca90789556b1ad8b25e608200e5d6c7d305e4b1ae2255df544eb264d952857c
+Description: Hạn chế hiển thị PullOber Pro khi không đùng đến：
+ 	  *  1.Ẩn khi chụp ảnh màn hình của hệ thống。
+ 	  *  2.Đóng nó đến mức tối thiểu để làm cho mở hơn。
+Name: HidePullOverPro (Roothide)
+Author: SquidForce
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.leftyfl1p.carbridge13
 Architecture: iphoneos-arm
