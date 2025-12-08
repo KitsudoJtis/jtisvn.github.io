@@ -6371,6 +6371,43 @@ Name: HideAllBar (Roothide)
 Author: Netskao
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.hikari
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.hikari_1.0.8_iphoneos-arm64.deb
+Size: 1194832
+MD5sum: 9c02536084002b60b3a2c4fd26962490
+SHA1: 142a1f39f98f79ac100127ad39877f90bd579586
+SHA256: 49f1720702cb2451e78be0d6d1b2434353cc0990c1d960608439e8a7ce577ae2
+SHA512: f112c2eeee9dd5c050b3874c618cc60ca4709c9cc0fb7b8822ee5d9bf8c97a2684c71e635e61e3766a3bff9165eacbf0257a14b479044720862292a4aa1c3856
+Description: Hikari cho phép bạn tùy chỉnh và nâng cao hiệu ứng âm thanh của thiết bị một cách dễ dàng.
+Name: Hikari (Rootless)
+depiction: https://havoc.app/depiction/hikari
+Icon: https://jtisvn.github.io/sectionIcons/Hikari.png
+Author: Hitori
+
+Package: com.jtis.hikari
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.hikari_1.0.8_iphoneos-arm64e.deb
+Size: 1193908
+MD5sum: acf6f64fc749834682a5e4772dc5dc5b
+SHA1: 61b531f0b346a111ca700886a073727bd57b49bb
+SHA256: 23d13d3c585a94445d8cc5d0861f79de6fa253cc8a052946898e31ed76821114
+SHA512: a2620a686333901e63ffb4e91b241793e3bd68cb5c6d5b6b70208fd5566da0035edaa828955e8264fd33c97ca9f929d92c2a0a94221a4145c3f378f894bc1a1f
+Description: Hikari cho phép bạn tùy chỉnh và nâng cao hiệu ứng âm thanh của thiết bị một cách dễ dàng.
+Name: Hikari (Roothide)
+depiction: https://havoc.app/depiction/hikari
+Icon: https://jtisvn.github.io/sectionIcons/Hikari.png
+Author: Hitori
+
 Package: com.jtis.hkmodule.substrate
 Architecture: iphoneos-arm64
 Version: 1.0.8
