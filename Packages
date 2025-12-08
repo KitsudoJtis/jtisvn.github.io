@@ -718,6 +718,45 @@ Depiction: https://repo.packix.com/package/com.alimaulana.bundarstatusbar
 SileoDepiction: https://repo.packix.com/depictions/com.alimaulana.bundarstatusbar/depiction.json
 Icon: https://repo.packix.com/media/com.alimaulana.bundarstatusbar/icon.png
 
+Package: com.antoine.senri
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: Antoine
+Installed-Size: 1740
+Depends: firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 1.17), mobilesubstrate
+Filename: ./debs/com.antoine.senri_1.1_iphoneos-arm64.deb
+Size: 205176
+MD5sum: 035e459d2f0c428e5a24ba71b4009635
+SHA1: 4cd5b2fc554cadbd1603b85ecd49d51d56242f60
+SHA256: 893b953549af76980dcdc40fedb95969c5053345b3524d377b94a333eadae161
+SHA512: c694345a70b0c4e3bac2928e8cd86270ed6c18be37b42a88581c238707b96bbb56be81fa8462872b1b925db8cc043077005840ae9fe59e4301f1e6cdc44f1975
+Description: Không bao giờ mất Thông báo của bạn nữa.
+Author: Antoine <hanzikashi@gmail.com>
+Name: Senri (Rootless)
+depiction: https://chariz.com/buy/senri
+Icon: https://jtisvn.github.io/sectionIcons/Senri.png
+
+Package: com.antoine.senri
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: Antoine
+Installed-Size: 1740
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 1.17), mobilesubstrate
+Filename: ./debs/com.antoine.senri_1.1_iphoneos-arm64e.deb
+Size: 198104
+MD5sum: 095761585be38b8d8ae1ceba795ee907
+SHA1: accf43eb107f909ac0a06cb889e10823c0ee112d
+SHA256: 070ffdfd7722485dc427207ee5aeefc56080c9c5c8203c37de10d4a3e795256e
+SHA512: 9432bce31c5f43f422c5af3cb7c8bf8e066b200c2e5a8f535331d007a1e836e81a9426deaba616c427a9f3001912b53a716be20d95d1cb331c485353823b034f
+Description: Không bao giờ mất Thông báo của bạn nữa.
+Author: Antoine <hanzikashi@gmail.com>
+Name: Senri (Roothide)
+depiction: https://chariz.com/buy/senri
+Icon: https://jtisvn.github.io/sectionIcons/Senri.png
+
 Package: com.bandarhl.bhtwitter
 Architecture: iphoneos-arm64
 Version: 4.4.1
@@ -7754,6 +7793,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Modern6.json
 Depiction: https://jtisvn.github.io/depictions/Modern6.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
+Package: com.jtis.modernsettings
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2420
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), ws.hbang.alderis, com.muirey03.libimagepicker
+Filename: ./debs/com.jtis.modernsettings_1.1_iphoneos-arm.deb
+Size: 1142904
+MD5sum: b823700667082af4c726de8ea6217d89
+SHA1: 4c29d56e21372489955f2d03b20f103cede821bd
+SHA256: 1de798fe3e7a964c4d8d51ac50c98ec6ee02e92d4d104bf055fff11933879117
+SHA512: c9bf306cdc9a0b306ad1f7f5be4075edc3343ddd862671e4b7f1848a919e18685bb5e34584d90df296f25f30fa78b72c08e279f036092485625328af913e2a2e
+Description: Mang các vật dụng và canvas vào ứng dụng Cài đặt của bạn.
+Name: ModernSettings
+Author: Dylan West <iosthemem0d@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ModernSettings.json
+Depiction: https://jtisvn.github.io/depictions/ModernSettings.html
+Icon: https://jtisvn.github.io/sectionIcons/ModernSettings.png
+
 Package: com.jtis.neofreebird
 Architecture: iphoneos-arm64
 Version: 5.3-beta
@@ -8457,6 +8516,43 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Recorddot.json
 Name: RecordDot (Roothide)
 Author: Night wind
 Icon: https://jtisvn.github.io/sectionIcons/Recorddit.png
+
+Package: com.jtis.removewidgetbg
+Architecture: iphoneos-arm64
+Version: 1.7
+Section: Tweaks
+Maintainer: @tqmmos
+Installed-Size: 384
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.jtis.removewidgetbg_1.7_iphoneos-arm64.deb
+Size: 29784
+MD5sum: 28e6381b3e4f9b16fc7013485a0be6eb
+SHA1: a2f7af6c855e0dc6d84338f2b15cec72ad62203c
+SHA256: 7b97c5ea306716e613ae12f04d9525c2df2247d4344a1a38127cb2db2f325e00
+SHA512: afa2b61ba05c460c427bb939a9a60591ab2ad51202fa63cb5494d6aa8a8d4bcda60b6772ccf874216ebb819726077ae1831238905a44f9e86da3693cca7e12f2
+Description: Xóa nền của các widget trên màn hình chính.
+Name: Remove Widget Background (Rootless)
+Author: Lessica <82flex@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/RemoveWidget.png
+
+Package: com.jtis.removewidgetbg
+Architecture: iphoneos-arm64e
+Version: 1.7
+Section: Tweaks
+Maintainer: @tqmmos
+Installed-Size: 384
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.jtis.removewidgetbg_1.7_iphoneos-arm64e.deb
+Size: 29748
+MD5sum: c127100453b0e18890c49c2739f1d7a6
+SHA1: ba300d4c88949a9b86dcd91e60125602b1357461
+SHA256: 153693c5ba27d8807feaf236ef81a170dc4536f4a7495d05b2733d3e116fe76b
+SHA512: 8e222e7d0da5a14f8b5346093728ad2c3f206e25bac2197a5cf12f727d25764aeee29b18ec87733a27e537ff771d1a1d9239cc694f0570750f52f67912b0b4a0
+Description: Xóa nền của các widget trên màn hình chính.
+Name: Remove Widget Background (Roothide)
+Author: Lessica <82flex@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/RemoveWidget.png
 
 Package: com.jtis.resentment
 Architecture: iphoneos-arm64
