@@ -5394,11 +5394,11 @@ Installed-Size: 464
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
 Conflicts: love.litten.eneko, dev.traurige.eneko, net.limneos.voicechangerx-rootless
 Filename: ./debs/com.jtis.eneko_1.4.2_iphoneos-arm64.deb
-Size: 29540
-MD5sum: 19c91fcaf79a06e63b302bf3c3b86b78
-SHA1: bf759767f34f89623270b34c4817d9a96c056653
-SHA256: f9a75c6e6644e3b34b477567e4fda3029ad427a57b0811736a77828358545d0d
-SHA512: 6f1a12231e5ad0a0de8aed1895d9088af78bb94c65d2414847187a6d0dfcc73a16452f2bcbf6d6959666925876b1fd114127383722c5a4629d445ab23eee0f94
+Size: 29560
+MD5sum: cc76a0117200e9c62a738d0e77c43cac
+SHA1: 08285dee0ca96f169b7319a694447dbe04224231
+SHA256: 9b2b431f818cc081f31c85510c43ddef1a8fa4d05360ae6bd6bd1d677e58155f
+SHA512: d67f04858caf9ec427773d1af77cff7757983e2eaadb6aa112ebb502f4136d70db40d947728d0046c954cd174c6253ffbc4e0152aabf5378571571ff0e192d13
 Description: Hình nền video cho iOS. Tinh chỉnh ban đầu đã được sửa đổi để hỗ trợ rootless.
 Name: Eneko (Rootless)
 Author: Traurige <hello@traurige.dev>
@@ -5407,43 +5407,26 @@ Depiction: https://jtisvn.github.io/depictions/Eneko.html
 Icon: https://jtisvn.github.io/sectionIcons/Eneko.png
 
 Package: com.jtis.eneko
-Architecture: iphoneos-arm64
-Version: 1.5.1
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 440
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.jtis.eneko_1.5.1_iphoneos-arm64.deb
-Size: 61244
-MD5sum: 32c3cd40c71d3ae07120b5cfb2345272
-SHA1: c8a0c7967435b5db40a7a1563e8779d4a09fa61f
-SHA256: cb1e4530a4d5a38b7666b8b957b694293d60a78972490af767cc3d1dc2d7c2bd
-SHA512: f7b344d843382902229068466de2875dc2f6c833cf6485be8466ecf98e256ff01ce28fa5f03a1fe302d1f7c1b6dd4c250dc6b8fa73219ffcbd10cf603dfd5626
-Description: Chọn video làm nền màn hình cho IOS
-Name: Eneko (Rootless)
-Author: Traurige & Axs
-Icon: https://jtisvn.github.io/sectionIcons/Eneko.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
-
-Package: com.jtis.eneko
 Architecture: iphoneos-arm64e
-Version: 1.5.1
+Version: 1.4.2
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 440
+Installed-Size: 464
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.jtis.eneko_1.5.1_iphoneos-arm64e.deb
-Size: 60140
-MD5sum: 0a4e8765b6a168327592e027331726c0
-SHA1: 4af07b20de8a81f75b5ade50a58de216f391d0f5
-SHA256: dc12418d49088cf23486168cf9b2eb5e297ce34dc54ae17d0461dc3f813bc512
-SHA512: 5c103da497f8bdea1d6796596991825bc3ea02c455b8cd0184c594bf37ca80e761d81871b92666101436acb3184009e27c6323d905f7eef1543a5d712fcb643f
-Description: Chọn video làm nền màn hình cho IOS
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko, dev.traurige.eneko, net.limneos.voicechangerx-rootless
+Filename: ./debs/com.jtis.eneko_1.4.2_iphoneos-arm64e.deb
+Size: 29332
+MD5sum: 7c446215e795e4222f28078821c51702
+SHA1: d5b5e564d77c17c4fbb2338b6f6c9ab5bd28391c
+SHA256: 09f48784e175f61b0b0a66033a0a7d24ea65f9ff43989c853735b737a907acdc
+SHA512: 8f782b63bb418b7cac2ce09a21cac7312d99868d042f5cad9fb6db6274c059d33a8f0a78dfea3d6a3746155d692b3b8dde34e2071b03fab29ade5f4bcf2f7964
+Description: Hình nền video cho iOS. Tinh chỉnh ban đầu đã được sửa đổi để hỗ trợ rootless.
 Name: Eneko (Roothide)
-Author: Traurige & Axs
-Icon: https://jtisvn.github.io/sectionIcons/Eneko.png
+Author: Traurige <hello@traurige.dev>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Eneko.json
+Depiction: https://jtisvn.github.io/depictions/Eneko.html
+Icon: https://jtisvn.github.io/sectionIcons/Eneko.png
 
 Package: com.jtis.ermete
 Architecture: iphoneos-arm64
