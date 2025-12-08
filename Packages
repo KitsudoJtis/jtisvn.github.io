@@ -6233,6 +6233,24 @@ Name: Griddy (Roothide)
 Author: mikifp
 
 Package: com.jtis.hidepullover
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: SquidForce
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.hidepullover_0.0.1_iphoneos-arm64.deb
+Size: 4520
+MD5sum: f7ae147f4a42517c52545269e3c45163
+SHA1: 09bb0faa150bda01f6c082e78b31c45306345bbc
+SHA256: 9e88207f83e2043b394f244bd4fccb92c59270fda30e5adb77fbed4feb843379
+SHA512: ba1a91c81c3e4c7a7a59d3433beb49d80ca33d46f6dbd9270fabd1e03d6dbddc1fff26df2bde41504b12ae9cc54613496f09e5e3c00c72bd88f0565473433596
+Description: Ẩn PullOver Pro khi chụp màn hình hoặc khi không sử dụng đến nó.
+Name: HidePullOverPro (Rootless)
+Author: SquidForce
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.hidepullover
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Tweaks
@@ -6288,6 +6306,24 @@ Name: HookKit Module (Cydia Substrate)
 Author: jjolano
 
 Package: com.jtis.homegesture1316
+Architecture: iphoneos-arm64
+Version: 0.0.1-7
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.homegesture1316_0.0.1-7_ iphoneos-arm64.deb
+Size: 44700
+MD5sum: 126d650d60100c165554060e2d204e44
+SHA1: 889c01767c5424e88818e7463312da622984bcf2
+SHA256: d5a7b500ac36314181192edd1bcccca1dfffdb96eb6ec5ab1008ab63826df1ae
+SHA512: 462fd8aa116780f4085b0ba44bc74e92dcffcc6392d4f76c1915b005bb1751fe71e6c31642355b09c99e30d419fcff9eec4b79aa33bc642fe76a7e894d3f0039
+Description: Mang các cử chỉ vuốt (Home gestures) lên các thiết bị đời cũ và các dòng máy không có tai thỏ (như SE). Vuốt lên để mở Đa nhiệm (App Switcher) và mở khoá máy, vuốt xuống từ góc trên màn hình để mở Trung tâm điều khiển (Control Center). Không cần dùng đến nút Home nữa! Hỗ trợ các bản Jailbreak Rootless & Roothide iOS 13-16.
+Name: HomeGesture13116 (Rootless)
+Author: i0s_tweak3r
+Sponsor: 搬运工
+Icon: https://jtisvn.github.io/sectionIcons/HomeGesture1315.png
+
+Package: com.jtis.homegesture1316
 Architecture: iphoneos-arm64e
 Version: 0.0.1-7
 Section: Tweaks
@@ -6295,12 +6331,12 @@ Maintainer: i0s_tweak3r <djvs23@gmail.com>
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/com.jtis.homegesture1316_0.0.1-7_iphoneos-arm64e.deb
-Size: 44812
-MD5sum: cbc065a247cd36fdad43d0c26a1a38ec
-SHA1: b7a7cdf1463cfb69ada14245d83398aac11ba5ee
-SHA256: 4bdd5bb6ef6a16ae38cb0b0e6ffb397913140185620d0606e270ce0a09f95e62
-SHA512: 5466a6409a35e71d5e404a42163351580f3bf48aa4c3c57915449eade4565f818313c342877761f4d56225b7a7e907a6fff65e1cfd6acbe2e60cd7606f4bb3c0
-Description: Mang các cử chỉ vuốt (Home gestures) lên các thiết bị đời cũ và các dòng máy không có tai thỏ (như SE). Vuốt lên để mở Đa nhiệm (App Switcher) và mở khoá máy, vuốt xuống từ góc trên màn hình để mở Trung tâm điều khiển (Control Center). Không cần dùng đến nút Home nữa! Hỗ trợ các bản Jailbreak ROOTLESS & Roothide iOS 13-16.
+Size: 44800
+MD5sum: baa490e8f51b9f55e2fc38b96346e4ed
+SHA1: 967e8f0b364b9a0157c305708eb099efd624391b
+SHA256: 506129e625ab5ed3565b52d0a418516b465637ae263e85bbf6b43f546ba09a22
+SHA512: 285a36e2a850a3087ad2e19ffff79a10698dbc67eb75ea41b18faf443200719d86e5564f096b6d558ed49dd30f62ffdffcddccc12095826aea735262c4df0495
+Description: Mang các cử chỉ vuốt (Home gestures) lên các thiết bị đời cũ và các dòng máy không có tai thỏ (như SE). Vuốt lên để mở Đa nhiệm (App Switcher) và mở khoá máy, vuốt xuống từ góc trên màn hình để mở Trung tâm điều khiển (Control Center). Không cần dùng đến nút Home nữa! Hỗ trợ các bản Jailbreak Rootless & Roothide iOS 13-16.
 Name: HomeGesture1316 (Roothide)
 Author: i0s_tweak3r <djvs23@icloud.com>
 Icon: https://jtisvn.github.io/sectionIcons/HomeGesture1315.png
