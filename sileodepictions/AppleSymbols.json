@@ -1,0 +1,125 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://dobabaophuc1706.github.io/repo/package/Fonts/SileoBanner.png",
+    "tintColor": "#c34b3b",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "views": [
+                {
+                    "itemCornerRadius": 8,
+                    "itemSize": "{195, 385}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://dobabaophuc1706.github.io/repo/package/Fonts/AppleSymbols/1.png",
+                            "fullSizeURL": "https://dobabaophuc1706.github.io/repo/package/Fonts/AppleSymbols/1.png"
+                        }
+                    ],
+                    "ipad": {
+                        "itemCornerRadius": 9,
+                        "itemSize": "{320, 550.8266666666667}",
+                        "screenshots": [
+                            {
+                                "accessibilityText": "Screenshot",
+                                "url": "https://dobabaophuc1706.github.io/repo/package/Fonts/AppleSymbols/1.png",
+                                "fullSizeURL": "https://dobabaophuc1706.github.io/repo/package/Fonts/AppleSymbols/1.png"
+                            }
+                        ],
+                        "class": "DepictionScreenshotView"
+                    },
+                    "class": "DepictionScreenshotsView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# Apple Symbols for iOS 14-16\n\n**How to Apply:**\nUse Snowboard + Snowboard Fonts Extension.\n\n**Characters Preview:**\n⠁ ⠂ ⠃ ⠄ ⠅ ⠆ ⠇ ⠈ ⠉ ⠊ ⠋ ⠌ ⠍ ⠎ ⠏ ⠐ ⠑ ⠒ ⠓ ⠔ ⠕ ⠖ ⠗ ⠜ ⠝ ⠟ ⠠ ⠡ ⠢ ⠣ ⠤ ⠥ ⠦ ⠧ ⠨ ⠩ ⠪ ⠫ ⠬ ⠭ ⠮ ⠯ ⠰ ⠱ ⠲ ⠳ ⠴ ⠶ ⠷ ⠸ ⠹ ⠺ ⠻ ⠼ ⠽ ⠾ ⠿ ⡀ ⡁ ⡂ ⡃ ⡄ ⡅ ⡆ ⡇ ⡈ ⡉ ⡊ ⡋ ⡎ ⡓ ⡔ ⡕ ⡖ ⡗ ⡙ ⡚ ⡛ ⡜ ⡞ ⡟ ⡠ ⡡ ⡢ ⡣ ⡤ ⡥ ⡦ ⡧ ⡩ ⡪ ⡫ ⡬ ⡭ ⡮ ⡯ ⡰ ⡱ ⡲ ⡳ ⡴ ⡵ ⡶ ⡷ ⡸ ⡹ ⡺ ⡻ ⡼ ⡽ ⡾ ⡿ ⢀ ⢁ ⢂ ⢃ ⢄ ⢅ ⢆ ⢇ ⢈ ⢋ ⢌ ⢍ ⢎ ⢑ ⢒ ⢓ ⢔ ⢕ ⢖ ⢗ ⢘ ⢙ ⢚ ⢛ ⢜ ⢝ ⢞ ⢢ ⢣ ⢤ ⢥ ⢨ ⢭ ⢲ ⢵ ⢶ ⢷ ⢹ ⢺ ⢻ ⢼ ⢽ ⢾ ⣀ ⣁ ⣂ ⣄ ⣅ ⣆ ⣇ ⣈ ⣉ ⣊ ⣋ ⣌ ⣍ ⣎ ⣏ ⣐ ⣑ ⣒ ⣓ ⣔ ⣕ ⣖ ⣨ ⣩ ⣪ ⣫ ⣬ ⣮ ⣱ ⣲ ⣳ ⣴ ⣵ ⣶ ⣷ ⣸ ⣹\n\nCopy characters -> Notes app -> Apply & Respring.",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Information"
+                },
+                {
+                    "text": "YangJiii",
+                    "title": "Developer",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "Phuc Do",
+                    "title": "Maintainer",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "Fonts",
+                    "title": "Section",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "Free",
+                    "title": "License",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Links & Support"
+                },
+                {
+                    "title": "Get Symbols Text File",
+                    "tintColor": "#c34b3b",
+                    "action": "https://raw.githubusercontent.com/dobabaophuc1706/Font-Clock/main/applesymbols.txt",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "title": "Tweak Depiction",
+                    "tintColor": "#c34b3b",
+                    "action": "https://dobabaophuc1706.github.io/repo/Sileo-Depiction-WebViews/?json=https://dobabaophuc1706.github.io/repo/package/Fonts/AppleSymbols/SileoDepiction.json&name=AppleSymbols&dev=YangJiii",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "title": "Telegram (@jtisvn)",
+                    "tintColor": "#55acee",
+                    "action": "https://t.me/jtisvn",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "title": "Donate (PayPal)",
+                    "tintColor": "#00457C",
+                    "action": "https://jtisvn.github.io/homepage/donate/donate.html",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "spacing": 12,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "URL": "https://jtisvn.github.io/CydiaIcon.png",
+                    "width": 40,
+                    "height": 40,
+                    "alignment": 1,
+                    "cornerRadius": 8,
+                    "class": "DepictionImageView"
+                },
+                {
+                    "markdown": "<div style='text-align: center; color: #888; font-size: 11px; margin-top: 5px;'>Created with ❤️ by JTISVN</div>",
+                    "useRawFormat": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "spacing": 20,
+                    "class": "DepictionSpacerView"
+                }
+            ]
+        }
+    ],
+    "minVersion": "0.1"
+}
