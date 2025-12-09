@@ -12443,6 +12443,26 @@ Author: rullinoiz
 Depiction: https://repoiz.github.io/repoiz/depictions/?p=com.rullinoiz.ipa2deb
 
 Package: com.skypain.ccrespring
+Architecture: iphoneos-arm64
+Version: 1.1.0-2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 164
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.skypain.ccrespring_1.1.0-2_iphoneos-arm64.deb
+Size: 13104
+MD5sum: a549a6b3c42f02cef8c31e7832b688e2
+SHA1: 57c6fa7693ffeb99591eca1eee226c22a446c383
+SHA256: 8650ab23e6ca63caf0ce091ee51e8b7e2cfeb9f415b1b79a126bdabcd4d03333
+SHA512: 14837fa38decfdc1200526997abd646bf4e34369062cf8785cabe10c73c257a38718747a7879aa0020411f4d66f3faaed3589f30849a1850df1af794e2d3ab71
+Homepage: https://jtisvn.github.io
+Description: Thêm Respring Mô-đun đăng Trung tâm điều khiển
+Name: CCRespring (Rootless)
+Author: Mr.Zhang <mr_zhang_00@163.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCRespring.json
+Icon: https://jtisvn.github.io/sectionIcons/CCRespring.png
+
+Package: com.skypain.ccrespring
 Architecture: iphoneos-arm64e
 Version: 2.0.0-1
 Section: Tweaks
@@ -13408,6 +13428,26 @@ Name: ElleKit
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 
+Package: ellekit
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: ./debs/ellekit_1.1.3_iphoneos-arm64.deb
+Size: 352628
+MD5sum: 600b4ddef6bd75c95ae868a7fed95c24
+SHA1: 7559bc0b8107dec16f3ed702bb5aa467a42f0552
+SHA256: b6fa34a45629f1eba602678d3322ad06d077b52e015223f99a989883652b277b
+SHA512: 0f8e4c6d1deebc23afeed44bbb94c9fadcac0cab5ff1cb186d39f795f58e62699598663fb700b5a765d9d5ea0c4b612f6e1148e9571653abadb25d2ffc4db974
+Description: ElleKit tweak injection libraries and loader
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+
 Package: emt.paisseon.xinamine
 Architecture: iphoneos-arm64
 Version: 0.0.5-1
@@ -13949,6 +13989,42 @@ Description: Support for legacy arm64e ABI in iOS 15.0+
 Author: Evelyn
 Name: Legacy arm64e Support
 
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm64e
+Version: 2.5.1-9
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./debs/org.coolstar.sileo_2.5.1-9_iphoneos-arm64e.deb
+Size: 3943268
+MD5sum: 6d0e0bcf1015dbc475e59318cfcc76c3
+SHA1: d485658da2915ec22ee9f3e865db08c057c6a243
+SHA256: 81e7ee83d2566a0b31d4f57a16467e3e2fbb9cf48cdd840281bd4fa2f19886ac
+SHA512: 382991753b47341b94ed8604fa5beb7b3d96e2944808d50471bce1a1751c4381682fac5c989ff5c04ddfc1cb33ca24cb97a03d7d196a86bf3a53e211feb956eb
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm64
+Version: 2.5.1
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./debs/org.coolstar.sileo_2.5.1_iphoneos-arm64.deb
+Size: 2909972
+MD5sum: 1a63e7c8df30e616f11977a1fcb13797
+SHA1: c2ea7d3cd4f11a9a0f74c115d19df07c3e62f13f
+SHA256: 8e3c90e5a7d32f4ca207a0ac30d3cfa8a13dca86a2b4e11cb3f9e5c68d7bc97a
+SHA512: f59e34d85addcdf208f6f737bc3700fb36d9ae4a020fd132aa1a53d08ae347b8d8001b53d4f97104a1edad707d21324b693142cae41d7a1dcc9539a7b0709be6
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
 Package: org.cydia.kiimo.lynx
 Architecture: iphoneos-arm
 Version: 1.1.1
@@ -14248,6 +14324,29 @@ Depiction: https://chariz.com/get/alderis
 Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
 Support: https://hashbang.productions/support/
 dev: hbang
+
+Package: ws.hbang.alderis
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Section: Development
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2463
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Filename: ./debs/ws.hbang.alderis_1.2.3_iphoneos-arm64.deb
+Size: 290546
+MD5sum: 3f9e6b11866f656255a80d57ddb7f258
+SHA1: 9f3243b042f64f1a36509be4c198148547148336
+SHA256: cdd1f47c08843bde9b0e34ec07697a29dcdd56f8493fe5503f8085e7c1d5fb76
+SHA512: 55a8783c7c501328de9633f6d6ff8061d08155b64cf25f6ad61bf7372349ae1eadf0b9b3593134e90f3e3c0e35dc82170b044f3f190c8ae172a8296fcd167222
+Description: Color picker support library for tweaks
+Tag: role::developer, compatible_min::ios12.0
+Author: HASHBANG Productions <support@hbang.ws>
+Name: Alderis Color Picker
+Support: https://hashbang.productions/support/
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Depiction: https://chariz.com/get/alderis
 
 Package: ws.hbang.common
 Architecture: iphoneos-arm
