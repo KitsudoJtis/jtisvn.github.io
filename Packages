@@ -7651,16 +7651,17 @@ Maintainer: JTIS Repo
 Installed-Size: 160
 Depends: mobilesubstrate, oldabi
 Filename: ./debs/com.jtis.lunartimeX_1.0.1_iphoneos-arm64.deb
-Size: 7500
-MD5sum: 98d55513f898d7883e5842df1bab5aa8
-SHA1: 9a1a67d3853e29cc57e2cad5927b281ffe8ad1f4
-SHA256: f93e791a4b136bc1774d35857489ddd5dfd16db18bb834629dc9271dd775dc36
-SHA512: db491c763b8b0977415b6e56e62394a4ca268d599b3ae5238e3d14a6ffc526566f5f489714f1336da107685efa5c9d961705a05a417244628a0875a3868afee9
+Size: 7524
+MD5sum: 94140ff95a3b8b08dc84c20976297e2c
+SHA1: 3379a0fb34e4472cbd4f0f7ba25cebb5bcac8b23
+SHA256: 04176e8c080fa70a496430f777c73172b8fec4d434e66fa975ed154ba0efeaa9
+SHA512: 23d0c7e621a8b5b970f51ebb85926998fadec9d58e300f1ee54a3c7d4bd349595d6375a177c85d3005e7dbf86b6c617e06a5bec15ac3afadf77045b91de9c42e
 Description: Thêm Âm lịch lên góc trái Status Bar cho thiết bị tai thỏ.
 Tag: purpose::extension
 Name: LunarTime X (Rootless)
 Author: NQT1195
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimeX.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.lunartimeX
 Architecture: iphoneos-arm64e
@@ -7671,16 +7672,17 @@ Installed-Size: 160
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, oldabi
 Filename: ./debs/com.jtis.lunartimeX_1.0.1_iphoneos-arm64e.deb
-Size: 7272
-MD5sum: 6c16b71392aafcb234a65ceb18c50ee2
-SHA1: b70b60571a2d6094b691c46ec7cdf4e6a89d6c34
-SHA256: ccdb0365ea9baf1e0b584713d5bbfb75a61b91ea5412da79f08bcf2f7df699be
-SHA512: d8497e60294f928f93edc8ddfd4f7c7658751dc82e9a949c9e27909e1b7ea1096bcfbac699e731a2ad3c7bf08581798763dd88d5ccf645d47bf4d2678f0bac01
+Size: 7288
+MD5sum: 519c7cefa7acf5f2177798d883125186
+SHA1: bb6ab101cd5f10cc0567bb22e483789c5450975d
+SHA256: 14667a48cdb7008f8038925cae1823dd83bb3ba9d237d6cf3c0da51f4f84e3cb
+SHA512: 4ee096abf6a0591bbfb418fa20bd3cbf55346d656233b48aa3e637ca6388c5391e8c6a9b08f83d3455d4b3728b3c2aa2bfd64e09cbe7f24c02c9b1ed4499dcea
 Description: Thêm Âm lịch lên góc trái Status Bar cho thiết bị tai thỏ.
 Tag: purpose::extension
 Name: LunarTime X (Roothide)
 Author: NQT1195
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimeX.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.lunartime
 Architecture: iphoneos-arm64
@@ -7690,14 +7692,15 @@ Maintainer: JTIS Repo
 Installed-Size: 152
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.lunartime_1.1_iphoneos-arm64.deb
-Size: 6888
-MD5sum: fb794e127645c7b5de7b2ee54a7aac69
-SHA1: 29716425d839252d5dfc8c0a25463ed621a97be1
-SHA256: 68bca6cbdc03a5fc5c38ed8ff355ac60114de704959bb1d5ea1994d49c9ca4c6
-SHA512: 43062027cddbf76b45c1e8722daa4b8ce7f85eda1ce2a86852c52e5fa4c76546684311aebf47c7edf897c9567b87f8d29ad164c2c6acfd0ed07f63181cb5d587
+Size: 6916
+MD5sum: 8b74ff1e248d70f65776d865e69415b2
+SHA1: c9f3d35ac8336bafe454d446b8967bdf1e319463
+SHA256: 7aa8fc42f0f2d80a4012f2d03e138bf42b60e4061181e65b43cb42b2da77814c
+SHA512: 75b2a87240b50610a91e643f8fb81a6c1fb667d35c85834cf832a4a7f9af6cb338a3f19c4b0517ac8f298b9235d95d41fce88d965a024e804ede43f1ccd82776
 Description: Thêm Âm lịch lên góc trái Status Bar cho thiết bị nút Home.
 Name: LunarTime Plus (Rootless)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimePlus.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: nqt1195
 
 Package: com.jtis.lunartime
@@ -7709,14 +7712,15 @@ Installed-Size: 152
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.lunartime_1.1_iphoneos-arm64e.deb
-Size: 7084
-MD5sum: a63a28db83d935db73e1abc2741c7fb8
-SHA1: 22886eda480f828245c194bdc23d305080c70354
-SHA256: d0e92e4b1912c906c8f22eacb226804329b54f0418674e1f64333d2bc1834759
-SHA512: 51763f809c13f7d9b49bf0858bc7a7191a12cd044879a9f6cdb5ee071fee5c83663371d98c4f34ef5f2189033805bd816c18c776335745c30644886a907b4c59
+Size: 7112
+MD5sum: 7ee62232f1160e1d80efe88709f5c615
+SHA1: b19a50e285904843245122f91a6d15a50fc3c168
+SHA256: 19ff6c6630cbaebc32304a25c32829e8c22c2d5122d27aa5fddc4707e9f85063
+SHA512: 2181793f9eb7e5b705c7ecf915d800f3be19b11bc1e651158acb49c9e1eb773b00697c310757329d6928b385978cc6c31f1f17d524d21c9fbbf7e98b27e3f7b8
 Description: Thêm Âm lịch lên góc trái Status Bar cho thiết bị nút Home.
 Name: LunarTime Plus (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimePlus.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: nqt1195
 
 Package: com.jtis.macpass
@@ -8403,13 +8407,13 @@ Maintainer: JTISVN Repo
 Installed-Size: 212
 Depends: firmware (>= 14.0), mobilesubstrate
 Filename: ./debs/com.jtis.pikachu_1.0.0_iphoneos-arm64.deb
-Size: 50296
-MD5sum: 16763813b33d201f40d7612d57421204
-SHA1: 1c7bf0a9f28e33417f333494435b9d7dd9e3b81e
-SHA256: 4db148fab99d7c37125880e0e5e9c69efe60a0b05a556bd38b1f95d4aeb7c684
-SHA512: 52f26867e5b0b07d7f0b8ac79038cd0142a525ed818c66d8e748ddd57c29cf884cfd39d903934033b5fc146e32c227520ce07a3bd147920f37ca5ef34f3edf03
+Size: 50468
+MD5sum: 1ae0df729dc1f7a08b3907fe822e87b0
+SHA1: fd4b7c349096403ce7cc7fd77fa151e50ba572f3
+SHA256: 5d2e3257767685f4590219def2c17849adff18822e51acdcd2535da4d414f51f
+SHA512: 4113cb9e55e4e206b73a0a24450c1260f475cde28ba604be92263cb0eee1fef80150c4c79c4ef1834adc8453ffcb4d171b7a4f701af08e584ea6b1e5025610ee
 Description: Thêm biểu tượng hoạt ảnh cho nút công tắc
-Name: Pikachu Switch Theme (Rootless)
+Name: Pikachu Switch (Rootless)
 Author: Wxfx8
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PikachuSwitch.json
 Icon: https://jtisvn.github.io/sectionIcons/PikachuSwitch.png
@@ -8423,13 +8427,13 @@ Installed-Size: 212
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), mobilesubstrate
 Filename: ./debs/com.jtis.pikachu_1.0.0_iphoneos-arm64e.deb
-Size: 50296
-MD5sum: f5addeb071ce3927a2fa20684ff936b9
-SHA1: ab5878b91af316c612dc6909f478013d99bdfbda
-SHA256: 36681acf898eaff13a4c803f65bb84b5b7dfb8048a934c82de7ff6fcabe7a543
-SHA512: 3b92c734a158ddf82d88f2fc19e2d5e79750aee1eaabe1e11db76788b3222ee025ee9fa0ec086a72c79051ef306fe56ee19451f4544078a3516bf038af66344f
+Size: 50512
+MD5sum: 01d0144ecbc8297ba7f9322b9334e2bc
+SHA1: 0051b7336e57633b0a2a828bf7787f526b086b2d
+SHA256: f6f91a9f0018c5e5909f1bf06ef55d95dce289a8b9e235c90cdb39fab3a55e0e
+SHA512: a7038d39be68e586b83428605da5c7683be86315744ddcb6791286dd58e0ed97e2f8d03ba4990b8298828755f3cdd1e97c70b8bfd1996482e9dc6c94ce4f274e
 Description: Thêm biểu tượng hoạt ảnh cho nút công tắc
-Name: Pikachu Switch Theme (Roothide)
+Name: Pikachu Switch (Roothide)
 Author: Wxfx8
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PikachuSwitch.json
 Icon: https://jtisvn.github.io/sectionIcons/PikachuSwitch.png
@@ -9778,15 +9782,15 @@ Maintainer: baiy（qq：961666883））
 Installed-Size: 272
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.switchtheme_1.0.0_iphoneos-arm64.deb
-Size: 37480
-MD5sum: 8bf3637704e26c23a8ab613a85d65b81
-SHA1: b72ac5725b4207af2292822f269ef8a9a0bafe73
-SHA256: 2314d544b90e43843fae2ef94249159a6439a1bf8e5592578da9085af4b54ad5
-SHA512: 0c618b92332e8a91c655a7ca4634a57c7ccce47781f74361dbeb318e4bdf039cbec73b832987628fbf3b065cb58d96d16e04fedae06e054467b3329f6c341d0c
+Size: 37444
+MD5sum: 8f9042bc107c8536cb2606fa8fa056a0
+SHA1: 7aca683bf8cb801a9d25ce1248338e9e6278ac7a
+SHA256: 6112719e13f85dc01a42851770bc5d9a32d19214123ea84d4d259849fd0c9496
+SHA512: 2198317907a91fedc1b0f7a77027b30475e7d3283f0d797ab1c7e105dca2e8b009b7ddfc307a2526547b27f79c6719c8d58015d7011155a45d13b184f3643327
 Description: Mang đến phong cách nút On/Off ngày & đêm trên thiết bị của bạn.
 Name: Switch DayNight (Rootless)
 Author: 白衣
-Icon: https://axs66.github.io/repo/icon/switchtheme.png
+Icon: https://jtisvn.github.io/sectionIcons/DayNight.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Switchthemes.json
 
 Package: com.jtis.switchtheme
@@ -9798,15 +9802,15 @@ Installed-Size: 272
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.switchtheme_1.0.0_iphoneos-arm64e.deb
-Size: 38548
-MD5sum: e2f41910a54bf4d6ebf490f4acd25313
-SHA1: 224644b6adb5a5a64304b3ebf0ac83f89b1f22ab
-SHA256: 0ac80137d25a3a8e9f01678a4552c2b069e4b7e7a0d41c8edb20ec8e8ac08070
-SHA512: 31a7da9ad83375463ea5590e6fddf2cbf31c12f8a3b9dac466e3296530e51c8dbbac7264fdde8d118c023b94640b33742c7aeee4164df6273f27b7d3fe2211fa
+Size: 37664
+MD5sum: 4088a4606102f32acc52bb88624a2d24
+SHA1: 5525e5066cf6df4bf9f0af46b3b7c96770821878
+SHA256: 4683872e283ea1d6cf4327a462577f1d5671f70e5fbd4b367b69834b96dee92c
+SHA512: d1cea97bfc3aa07ba174b2fc94e5530899d8dfcf8ff4eff768ed3efee9951daa3abefe7f3f5de3f5234bed532314d94f21047f1502c78dcb1d76e8c8e81402f3
 Description: Mang đến phong cách nút On/Off ngày & đêm trên thiết bị của bạn.
 Name: Switch DayNight (Roothide)
 Author: 白衣
-Icon: https://axs66.github.io/repo/icon/switchtheme.png
+Icon: https://jtisvn.github.io/sectionIcons/DayNight.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Switchthemes.json
 
 Package: com.jtis.taptaplock
@@ -11454,15 +11458,15 @@ Maintainer: Netskoa
 Installed-Size: 952
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/com.netskao.dumpdecrypter_1.5-1_iphoneos-arm64.deb
-Size: 393700
-MD5sum: e14742d9f6da73072bfbaa27fff848ca
-SHA1: 46bca645bd5c00bcb61f054f4fdb4b13d6b868d4
-SHA256: 85e13ea1917445bb9612f064dfb016939e19f71664357f3606065d056ef8736e
-SHA512: 855035ccad1ac7943c64a31581874c7b9c851edf1d1235485ff3ba76cc5256be869f7457554c3b829683f6d865e3bc8c41cfb6b169b48845548f8b50bbaeef3d
+Size: 393764
+MD5sum: 54a56391caa30c3f0ec36edac3f941d2
+SHA1: 5c8a18eb998c6b1b1abafab24497fbf7a37146b2
+SHA256: d3e27ee29e24d1b0eeffbcc0cd9e723d83a6f8ebb2d4c9559e77b6c86878bc2d
+SHA512: 6781fd855a3f6d7d0ba4cd6ab768564acfebd894b5f3078dc9ee8623977ed2955f710b938878a185acc7bc7029b5785a1bc0a6d43a6d40667380aa8498e19eca
 Description: Giải mã và xuất tép IPA các Ứng dụng iOS, hỗ trợ iOS15+, chỉ được thử nghiệm iOS16.1
 Name: DumpDecrypter (Rootless)
 Author: Netskao
-Icon: https://axs66.github.io/repo/icon/dumpdecrypter.png
+Icon: https://jtisvn.github.io/sectionIcons/DumpDecrypter.png
 
 Package: com.netskao.dumpdecrypter
 Architecture: iphoneos-arm64e
@@ -11473,15 +11477,15 @@ Installed-Size: 952
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/com.netskao.dumpdecrypter_1.5-1_iphoneos-arm64e.deb
-Size: 393556
-MD5sum: 0e20969d1fc94244969337419232186f
-SHA1: 873397db642d3fe1cdf3abbc5477b9b2e93ed55e
-SHA256: 214fe19aab765ee6e962c05a6db47f931e12237593da56c7b2f35eb2b9343c8f
-SHA512: d98d99544f55897b1ec7b261c4dc087309881d4900398a24c0937a6b4fba00f79c810ebaf31a43894a6decde916cec65dd3e5813b2a3cf485573b688245bdc4b
+Size: 393616
+MD5sum: fc7695fea161abda4fcb63b01f0ebbdd
+SHA1: 1e90ab635d66f5ffce281ac6dca725f5417e4bef
+SHA256: 62e6696fb04a288d880e3001ac2645cfedae5c9ec382266256b4c4fce4b31a40
+SHA512: 4140771917f0ae07635c838126f8ddb33b63c8b580a02cdd50806e49ce5cc7fdfcd7a090a90e082c54d6a9d8ec417541f53a545bf505ee43ee4c020e1b482770
 Description: Giải mã và xuất tép IPA các Ứng dụng iOS, hỗ trợ iOS15+, chỉ được thử nghiệm iOS16.1
 Name: DumpDecrypter (Roothide)
 Author: Netskao
-Icon: https://axs66.github.io/repo/icon/dumpdecrypter.png
+Icon: https://jtisvn.github.io/sectionIcons/DumpDecrypter.png
 
 Package: com.netskao.pulloverpro
 Architecture: iphoneos-arm
