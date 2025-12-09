@@ -4190,15 +4190,15 @@ Maintainer: Axs <qiaozhani000@163.com>
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
 Conflicts: org.thebigboss.blurrybadges, com.spicat.blurrybadges
 Filename: ./debs/com.jtis.blurrybadges_1.5.3_iphoneos-arm64.deb
-Size: 42456
-MD5sum: 9510ceb7978f1bfefbc91f58693940fc
-SHA1: 6ea311ef6d655d3ae036f0efb97cfcf4928b8329
-SHA256: 55f6795466d50ca3ffa4915443d391d38760af9dff016e67c2d5472fe124aa7c
-SHA512: 1aa5bc0cf93460e9f8c90eb25482ee8aa6beed658960f2d4864fa9694b6adcbb7816e84107114c105de3082bf4ae79b1e81049410f235457c6198a061cc99881
+Size: 42448
+MD5sum: d743812b949f7d3307a1777ec43ba8ad
+SHA1: 91fd32eaf74eac26fc6ac0645bda0096c819921e
+SHA256: febf795e31fd402065b287413ef701c1662e1526a6ba4db28ce0bc572ff337d6
+SHA512: f6f102d09aefcfeceef636455d5acdf31f9cc28de673da12a5f354f75ed474aa04dd56f0ca024cb99401e9757c6c9eae9fb045c5efb48ac295364405d84543d1
 Description: Thay thế huy hiệu thông báo mặc định bằng hiệu ừng mờ và trong suốt đông bộ với thanh Dock hoặc thư mục trên màn hình chính.
 Name: BlurryBadges (Rootless)
 Author: PoomSmart <qiaozhani000@163.com>
-Icon: https://axs66.github.io/repo/icon/blurrybadges.png
+Icon: https://jtisvn.github.io/sectionIcons/BlurryBadges.png
 
 Package: com.jtis.blurrybadges
 Architecture: iphoneos-arm64e
@@ -4209,15 +4209,15 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
 Conflicts: org.thebigboss.blurrybadges, com.spicat.blurrybadges
 Filename: ./debs/com.jtis.blurrybadges_1.5.3_iphoneos-arm64e.deb
-Size: 41876
-MD5sum: f2e50b75694979c22528a8261a36e560
-SHA1: 022f575e34bf1978a814a5b1fe79ac1e604869f1
-SHA256: feaa7a594316455ca8f4c33e4b929b2bbeb120bbc961725f75b16ae6bb4fddd6
-SHA512: 0c4a827666db1352c6ccc121ad46b3372df79de9ba928f249e222fc17a431ff0df4e4a5d2adb41b2dce77958eb11faa614c9e83c64f595e1ef8140b364b0a723
+Size: 41880
+MD5sum: 151deb07551d87e8c05d3736430bc05b
+SHA1: 4d6a4a2981c2a2d6388069b88e404573cd4a6cd8
+SHA256: c82a9a811dc6e6f0bb178c145894308f759be7332239371fc13fa63e748cd058
+SHA512: 8b98870d0c3a9d9c53bc5438bf4d2eaf924be0da48afaafc452e79401a7c4bf9341c858f02be063ac2db06786c42baf7c492b431436180b06d254ba8e0748403
 Description: Thay thế huy hiệu thông báo mặc định bằng hiệu ừng mờ và trong suốt đông bộ với thanh Dock hoặc thư mục trên màn hình chính.
 Name: BlurryBadges (Roothide)
 Author: PoomSmart <qiaozhani000@163.com>
-Icon: https://axs66.github.io/repo/icon/blurrybadges.png
+Icon: https://jtisvn.github.io/sectionIcons/BlurryBadges.png
 
 Package: com.jtis.boxy4vn
 Architecture: iphoneos-arm
