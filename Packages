@@ -9223,6 +9223,63 @@ Author: 82Flex <82flex@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SingleMute.json
 Icon: https://jtisvn.github.io/sectionIcons/SingleMute.png
 
+Package: com.jtis.singlemute
+Architecture: iphoneos-arm
+Version: 1.7
+Section: Tweaks
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 388
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.jtis.singlemute_1.7_iphoneos-arm.deb
+Size: 27692
+MD5sum: 04678642e3f3677de26d0e107c2aa529
+SHA1: 65ac1b6e3a00b67c6b0bf23d2f3bcdcea88a3048
+SHA256: 5bed19b4e5e0e15968df175015e95a96f10612f845e42a9b7348ddb384e2d4ed
+SHA512: 6b5b4ce6269a612005721f2ad76f83b6cb6b84039d531cae0647f1cb428ca186d577b6809bbdbc67fcab4d1394744d3cde66caf587ae0c9b349f27f3eddcb645
+Description: Hiện biểu tượng tắt tiếng trên thanh trạng thái của iOS.
+Name: Single Mute
+Author: 82Flex <82flex@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SingleMute.json
+Icon: https://jtisvn.github.io/sectionIcons/SingleMute.png
+
+Package: com.jtis.singlemute
+Architecture: iphoneos-arm64
+Version: 1.7
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 388
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.jtis.singlemute_1.7_iphoneos-arm64.deb
+Size: 28152
+MD5sum: 4ad11af252adb987e4743e0f04de14ca
+SHA1: 5f70530c412d8298a68e63fb14edfebe5c465fd4
+SHA256: 9ebc07a0cc783bae2d6c767e5d637133f6c90ce5f448cfbea2d86f5074286ad6
+SHA512: 5399a4b2ba638b5b27016ddcf8cfaa2774c7c1722a1d2e865eaceb7452f9579426a9a4c0760f93b16b4a390e24e3b9ffe38b47ce3921cdededc2dd649b9e7fdd
+Description: Hiện biểu tượng tắt tiếng trên thanh trạng thái của iOS.
+Name: Single Mute (Rootless)
+Author: 82Flex <82flex@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SingleMute.json
+Icon: https://jtisvn.github.io/sectionIcons/SingleMute.png
+
+Package: com.jtis.singlemute
+Architecture: iphoneos-arm64e
+Version: 1.7
+Section: Tweaks
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 388
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.jtis.singlemute_1.7_iphoneos-arm64e.deb
+Size: 27464
+MD5sum: 6f0c4eaa0e5c9f5366f3ca8066e5b6af
+SHA1: 6c86caf695b5bba053ab38ea0230208b1805fd47
+SHA256: 3ca9cf7d9beef50eb3e93120802ec440a67d532230b415088abd2672c9199238
+SHA512: 650a5c844b02698d37ead48b6791afb35ead67ee33c1bbc4371dca71b005ff4c1a03d7bf4f3db9b5c6ca6c8fb31fbe82eac1f4b47fac65195024dfb49bdd6ac8
+Description: Hiện biểu tượng tắt tiếng trên thanh trạng thái của iOS.
+Name: Single Mute (Roothide)
+Author: 82Flex <82flex@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SingleMute.json
+Icon: https://jtisvn.github.io/sectionIcons/SingleMute.png
+
 Package: com.jtis.sixls
 Architecture: iphoneos-arm64
 Version: 1.1
