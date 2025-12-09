@@ -20,6 +20,10 @@
             "package": "com.jtis.designer",
             "url": "https://jtisvn.github.io/coverimage/Designer.png"},
 {
+           "title": "Fiona",
+            "package": "com.jtis.fiona",
+            "url": "https://jtisvn.github.io/coverimage/Fiona.png"},
+{
            "title": "Liquid Glass",
             "package": "com.jtis.LiquidglAss",
             "url": "https://jtisvn.github.io/coverimage/LiquidGlass.png"},

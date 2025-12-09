@@ -5731,6 +5731,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/FilzaUI.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
  Pre-Depends: rootless-compat(>= 0.9)
 
+Package: com.jtis.fiona
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 576
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.jtis.fiona_1.0.7_iphoneos-arm64.deb
+Size: 122948
+MD5sum: fd09efd08c69cca2f40ff17e4aab6ab6
+SHA1: 854f4d2ded687ee5b476f83e37db092daeafb0b9
+SHA256: 6d05301c940c961a3fa188fbb7ba5c9063a3952aeb620ab7478d24c5d9e12f8d
+SHA512: 36c4e352ca040edf7da6be034b6d93565bcea9816a8296543ca402173f6405bd7e85dc5520450b6085fb3f1c9c30a642e4574eec790de167cf70b64f431d0af2
+Description: Thanh Tab nổi cho các thiết bị iOS.
+Name: Fiona (Rootless)
+Author: yan
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Fiona.json
+Depiction: https://jtisvn.github.io/depictions/Fiona.html
+Icon: https://jtisvn.github.io/sectionIcons/Fiona.png
+
+Package: com.jtis.fiona
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 576
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.jtis.fiona_1.0.7_iphoneos-arm64e.deb
+Size: 121512
+MD5sum: 92b4268ffc1ec797ec34a4e8fedd19f1
+SHA1: 33dd4439447415573fb667a5ebe01478c239efd0
+SHA256: 624895245528a723c5123b22fcac7ebdca0287ab808ccf3197b1fd376b5327dc
+SHA512: bd668d46a59e44f7fa2283e14fc4e4623f7f99ece88587ca032003ad6b9c029315ca6d2afe9c8c57f3321569d3d1201f3f5be7c0498dcd944404b6319a413f02
+Description: Thanh Tab nổi cho các thiết bị iOS.
+Name: Fiona (Roothide)
+Author: yan
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Fiona.json
+Depiction: https://jtisvn.github.io/depictions/Fiona.html
+Icon: https://jtisvn.github.io/sectionIcons/Fiona.png
+
 Package: com.jtis.floatingdockxvi
 Architecture: iphoneos-arm64e
 Version: 2.3
