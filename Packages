@@ -8844,6 +8844,26 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.jtis.scribble
 Architecture: iphoneos-arm
+Version: 1.5.2
+Section: Tweaks
+Maintainer: Boo
+Installed-Size: 1036
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, ws.hbang.common (>= 1.11)
+Filename: ./debs/com.jtis.scribble_1.5.2_iphoneos-arm.deb
+Size: 329496
+MD5sum: 8be717a8b93fe4112a52e1945e1f8949
+SHA1: d4ec5a9a119e0b361f8f14a72d1ef5be25159b3a
+SHA256: bf48dbc8d27c762711ee26e08600d559d3b401fdf6d848d0fb342eff97ee7f35
+SHA512: fa36ed2e0d813228d58810aa392fd25448439b047004c6f17283e676d764894480d41d154a0d57568b613f2858a83eabd50e102f2ec1c2a90cea41fdb9e5a506
+Description: Mở khoá bằng cách sử dụng hình vẽ lên màn hình!
+Name: Scribble
+Author: Boo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Scribble.json
+Depiction: https://jtisvn.github.io/depictions/Scribble.html
+Icon: https://jtisvn.github.io/sectionIcons/Scribble.png
+
+Package: com.jtis.scribble
+Architecture: iphoneos-arm
 Version: 2.1
 Section: Tweaks
 Maintainer: JTISVN Repo
@@ -13710,13 +13730,13 @@ Section: Packaging
 Maintainer: AppTapp
 Depends: firmware (>= 12.0)
 Filename: ./debs/me.apptapp.installer_5.1.1_iphoneos-arm64.deb
-Size: 9491208
-MD5sum: 58b5ce4646c1ea72c99e6cc6e26e5453
-SHA1: 2af2bcc40c4c9bb1fda336d2225ee876727b7427
-SHA256: 0558b3252958cdb44e9d1f405c4ba14fd744d95b03e8b4d641a2406b66ecd348
-SHA512: a9b691b22e54bd651a320a8eb6836964afa4387ef361e23e85d1386ca6cd1356f29b01a2c4eb8da6e1b597c8532f1651f0d0bfc2d21f2a7a7d7d7aacbb4ea9bf
+Size: 9492380
+MD5sum: 559df3ff9292e2dce5e46c0c214d9a63
+SHA1: bcddc56f0a68398ef6f6651ebb511e02e7f5c861
+SHA256: 02b78f8dc05bc5a430f580fe309180b86bf51eec40fb23d0112993f2b1e3f9b2
+SHA512: 962db87393cc73322f1bb0d816c73017e5b6bc85860326ec04bb029a2ab980b57573700c313c43e2d2a05558b280bf1ce5bc325d1e85030c15d2cd43def886ff
 Description: Installer 5.1 beta. Fastest Trình quản lý gói cho iOS.
-Name: Installer (Rootless)
+Name: Installer
 Author: AppTapp
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Installer.json
 Depiction: https://apptapp.me/repo/installer.html
@@ -13730,13 +13750,13 @@ Maintainer: AppTapp
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 12.0)
 Filename: ./debs/me.apptapp.installer_5.1.1_iphoneos-arm64e.deb
-Size: 9372444
-MD5sum: b9b99c16497940c771312e02d21b4320
-SHA1: efd3a605bc519702a79c6b8c9bf34d0d08bd0589
-SHA256: 43ce6c667471eb5b328c51e4feeede011e41ca01c84dad168a8f36a918d6a23b
-SHA512: 3709b5cb715a4421271fc83446ee1f6748cb070d792a0f5f36fe982599c2e97b9440da47bdd649ee8371a42f11a59fe579b309c2da0962972488f9828aabc28d
+Size: 9371652
+MD5sum: 393f9f59274a263edb2fabd9482e3de6
+SHA1: 80502e4e7f92142a96ce2f367456d6afa73ce4c2
+SHA256: 037270a0f0d02e7ab58fc048bf480ceb52949ac3c8f3c230e4c83a6c894b8a4a
+SHA512: 94c40a9277d07c934d5bc2296a24c5cf94bee80b81950a3bf57196fa3531c8747644f39ed7b22a85f755b3e023042893781e346ee8fdb88b76a60464a09082e1
 Description: Installer 5.1 beta. Fastest Trình quản lý gói cho iOS.
-Name: Installer (Roothide)
+Name: Installer
 Author: AppTapp
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Installer.json
 Depiction: https://apptapp.me/repo/installer.html
