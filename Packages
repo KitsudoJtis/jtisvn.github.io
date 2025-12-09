@@ -6887,6 +6887,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/iOS26.json
 Icon: https://jtisvn.github.io/sectionIcons/iOS26.png
  Pre-Depends: rootless-compat(>= 0.9)
 
+Package: com.jtis.irongold
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.irongold_1.0_iphoneos-arm64.deb
+Size: 32685840
+MD5sum: d9b09381b81ddb8c7eff939ef94b63a3
+SHA1: 7c4d77d4b6a7d2020fc53e7aab84ccf61a7ba819
+SHA256: b0635836284173bdf430525d1d1144743016ac8ebbc9a2653689026304214330
+SHA512: 6bf65ce7ffefb387b8b4e0ba6d9c1ccae94bc2847c8cb546f7bd02f6fed14c413a3ce24f462216ea6b254a233ed8366cac2b059d120ea92c9f7a1d6158ba37bd
+Description: Chủ đề IRonGold
+Name: IRonGold
+Author: @tqmmos
+SileoDepiction: https://jtisvn.github.io/sileodepictions/IRonGold.json
+Depiction: https://jtisvn.github.io/depictions/IRonGold.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
 Package: com.jtis.jade
 Architecture: iphoneos-arm64
 Version: 1.0.5
