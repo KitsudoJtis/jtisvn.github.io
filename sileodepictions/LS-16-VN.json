@@ -112,8 +112,13 @@
 "class": "DepictionSpacerView"
 },
 {
-"class":"DepictionHeaderView",
-"title": "Liên kết & Hỗ trợ"
+"class": "DepictionLabelView",
+"text": "Liên kết & Hỗ trợ",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
 "class":"DepictionTableButtonView",

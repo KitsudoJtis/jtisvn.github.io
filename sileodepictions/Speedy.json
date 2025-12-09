@@ -7,8 +7,8 @@
 "tabname":"Giới thiệu",
 "views":[
 {
-"text":"Tham gia nhóm chat Telegram",
-"action":"https://t.me/jailbreaktrolliossupport",
+"text":"Kênh Telegram",
+"action":"https://t.me/jtisvn",
 "openExternal": 1,
 "class": "DepictionButtonView"
 },
@@ -32,7 +32,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Speedy\n\n- Một tweak tuỳ chỉnh hiệu ứng tốc độ hoạt ảnh cho IPhone của bạn\n\n- Tính năng:\n\n- Thay đổi hiệu ứng tốc độ SpringBoard \n\n- Thay đối hiệu ứng tốc độ của ứng dụng.",
+"markdown":"Speedy\n\n- Tuỳ chỉnh hiệu ứng tốc độ hoạt ảnh cho IPhone của bạn\n\n- Thay đổi hiệu ứng tốc độ SpringBoard \n\n- Thay đối hiệu ứng tốc độ của ứng dụng.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
