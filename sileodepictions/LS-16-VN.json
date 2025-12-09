@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"# Phông chữ LS-16-VN\n\n- Thay đổi phông chữ đồng hồ trên màn hình khoá\n\n- Kích hoạt phông chữ qua tinh chỉnh Snowboard.",
+"markdown":"\n\n- Thay đổi phông chữ đồng hồ trên màn hình khoá\n\n- Kích hoạt phông chữ qua tinh chỉnh Snowboard.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -53,15 +53,15 @@
 "text":"14 - 16.6.1"
 },
 {
-"class": "DepictionSeparatorView"
+"class":"DepictionSpacerView"
 },
 {
-"class": "DepictionHeaderView",
+"class":"DepictionHeaderView",
 "title": "Liên kết & Hỗ trợ"
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Ủng hộ",
+"title":"Ủng hộ tôi",
 "action":"https://jtisvn.github.io/homepage/donate/donate.html",
 },
 {
@@ -75,31 +75,32 @@
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class": "DepictionSeparatorView"
-},
-{
-"spacing": 12,
-"class": "DepictionSpacerView"
-},
-{
-"URL": "https://jtisvn.github.io/CydiaIcon.png",
-"width": 40,
-"height": 40,
-"alignment": 1,
-"cornerRadius": 8,
-"class": "DepictionImageView"
-},
-{
-"markdown": "<div style='text-align: center; color: #888; font-size: 11px; margin-top: 5px;'>Created with by JTISVN Repo</div>",
-"useRawFormat": true,
-"class": "DepictionMarkdownView"
-},
-{
-"spacing": 20,
-"class": "DepictionSpacerView"
-}
-]
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
 }
 ],
-"minVersion": "0.1"
+"class":"DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak."
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class":"DepictionStackView"
+}
+],
+"class":"DepictionTabView"
 }
