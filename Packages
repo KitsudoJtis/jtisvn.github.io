@@ -12108,6 +12108,23 @@ Author: P2KDev <p2kdev@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariBlocker.json
 Icon: https://jtisvn.github.io/sectionIcons/SafariBlocker.png
 
+Package: com.phucdo.AppleSymbols
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: Phuc Do
+Filename: ./debs/com.phucdo.AppleSymbols_1.0_iphoneos-arm64.deb
+Size: 360504
+MD5sum: e8dafd65a1a19fda638731c8a2637e67
+SHA1: 9ebdc885d3bb86cd65c1613f1deddc6908188e29
+SHA256: eff2253742eae5b572272e077455c2289e95a5c1b273abb67e647d4f4247e51d
+SHA512: eba6109e345e2c22ac2976cbeaa5e9c3e431f70d249e4015f88ce6ff2051ba06f2aa32e30a3990e51609f71c6e04c90b95426c9fee322a91b3c66e7eb88fe323
+Description: Use Snowboard Font Extension to enable the font.
+Author: YangJiii
+Name: Apple Symbols
+sileodepiction: https://jtisvn.github.io/sileodepictions/AppleSymbols.json
+Icon: https://dobabaophuc1706.github.io/repo/package/Fonts/icon.png
+
 Package: com.phucdo.badgebreathing
 Architecture: iphoneos-arm64e
 Version: 0.0.1
