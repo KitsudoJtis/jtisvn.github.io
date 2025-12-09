@@ -2500,6 +2500,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/GoodWiFi.json
 Depiction: https://jtisvn.github.io/depictions/GoodWiFi.html
 Icon: https://jtisvn.github.io/sectionIcons/GoodWiFi.png
 
+Package: com.jtis.KillApps
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.KillApps_1.2-2_iphoneos-arm64.deb
+Size: 932632
+MD5sum: 1ef2979e4457100a1d28e791635f72dd
+SHA1: ff4c613c166f617e1ce2291077c963f681db4f94
+SHA256: 2f20dc3aeb1695d39bb922efb40d13feb11473a0aa4dd3e0bbbaa733266dc040
+SHA512: 560cbb13bf523bfc6c7236a7d1d95ebb7e0dbf7b204905640e9a2f548840b382db0c51c6e5b94bbb46bcd158b63ac05009287c47d6ba5b1e5436bdc6f0e0938c
+Homepage: https://jtisvn.github.io/
+Description: Đóng nhanh các ứng dụng trong nền đa nhiệm
+Tag: role::enduser
+Name: KillApps (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/KillApps.png
+Tags: compatible_min::ios15.0
+Author: Netskao
+SomeOtherEntryToControl: True
+
 Package: com.jtis.LS-16-Constance
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -7068,6 +7089,24 @@ Author: Dcsyhi
 SileoDepiction: https://jtisvn.github.io/sileodepictions/KBApp.json
 Depiction: https://jtisvn.github.io/depictions/KBApp.html
 Icon: https://jtisvn.github.io/sectionIcons/KBApp.png
+
+Package: com.jtis.killapps
+Architecture: iphoneos-arm
+Version: 1.7.8
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 560
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.jtis.killapps_1.7.deb
+Size: 156604
+MD5sum: 170e5ab6412c17ec3d89f225be6cce80
+SHA1: 38a658b6cd96e1421dfbf31bc47209933b5f555a
+SHA256: 224569e284708f1b764a051cdfc054bf8cd8e1b5fb9848ef9a0034a69a241163
+SHA512: 9ff27dd359d89c81e82dda011943ee796f0ca74a8071313e6f92c5b45b010e29577e17d3a4632897b0a2730de5f2914ab025a712ef4576bb81efe8714b903e09
+Description: Tinh chỉnh về Đa nhiệm với nhiều tuỳ chọn hữu ích. Lưu ý: Một số thiết bijđôi lúc sẽ không hoạt động!
+Name: KillApps
+Author: SOPPPra
+Icon: https://i.postimg.cc/hGzV6VSP/icon.png
 
 Package: com.jtis.killbackground13
 Architecture: iphoneos-arm
