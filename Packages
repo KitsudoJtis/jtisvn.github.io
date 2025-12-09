@@ -4378,14 +4378,15 @@ Section: Tweaks
 Maintainer: JTIS Repo
 Depends: firmware (>= 15.0), ellekit, preferenceloader,com.opa334.libsandy
 Filename: ./debs/com.jtis.callassist15_2.1.7_iphoneos-arm64e.deb
-Size: 2446456
-MD5sum: 8242fac713e62502556d1128f34dec4d
-SHA1: 08c8d762297c3d20eea28a44d34a78d75d6db99a
-SHA256: de21a7da67eb438e89553570addffda75f16b114ab3f50d2139b51516667153a
-SHA512: 4913f42da43bf0a07ddcb1f411910b79877abd81d58f3c4e85e60887c293911cb22d7cb2830934db93d8dbcecab922ca143783f3dfc347b38c8431b1a4cbc458
+Size: 2444648
+MD5sum: c7430f6ead793587788351b64f18c0d5
+SHA1: 0d9297c4fb94cdb1bf97e9cad810c6df21211f9f
+SHA256: a934f3841034820336942b07481b1bcc5b7388b5a53c3dca9d2a2d054f3264d5
+SHA512: a0bbd401be7bfb82f6871bfc2a2256e202a64373ceb109522fae9b036c5c9f7d7a71f5700332e2023a26fd0830456341f0372283972735d4a7368730fab43f1c
 Description: Trợ lý cuộc gọi mạnh mẽ, Hỗ trợ thiết IOS 15.0 - 15.9
 Name: Callassist15 (Roothide)
 Author: xybp888vh
+Icon: https://jtisvn.github.io/sectionIcons/Callassist.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist15.json
 
 Package: com.jtis.callassist16
@@ -4396,14 +4397,15 @@ Section: Tweaks
 Maintainer: JTIS Repo
 Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
 Filename: ./debs/com.jtis.callassist16_1.7.2_iphoneos-arm64e.deb
-Size: 2752000
-MD5sum: cf83f396ef9a72d2f5c4f01b8924381f
-SHA1: f0db4b7175b5a30b16fb4eb9a4368e178558dcca
-SHA256: 62c7b894e8cc350884061977e047dd31fa6b3bfbf3677d83fe68c57ab75cd8e3
-SHA512: aca0c07676eb11bf3ccc9747ce1b6a99c4cd99b0f3c23060450a300cc57d17b313971568835b0f390b985cfeb73033c17a221d96b5e0ae49611c5dc3f3de09ad
+Size: 2716012
+MD5sum: 2b82ee89ff95be6cd9bedba4638cd2ed
+SHA1: 770cd15c29afa10dda044e5ed6873381646311d1
+SHA256: 7ae3f6facdee536f36a5a785b4f761c721a38bf1d65fffd82d983f0d51b0b5ba
+SHA512: e8dfc473ffd1c639f5c21ed4189fdfc055299debc0b3c9a701707ddba85e439758c64b17553e3ab18614ce098e197c6768391943094adffc4e9eeb7e63eb15d3
 Description: Trợ lý cuộc gọi mạnh mẽ, Hỗ trợ thiết IOS 16.0 - 16.5
 Name: Callassist16 (Roothide)
 Author: xybp888vh
+Icon: https://jtisvn.github.io/sectionIcons/Callassist.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/callassist16.json
 
 Package: com.jtis.callblocker
