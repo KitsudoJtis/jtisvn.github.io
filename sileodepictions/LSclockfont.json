@@ -112,6 +112,9 @@
 "class": "DepictionSpacerView"
 },
 {
+"class": "DepictionSeparatorView"
+},
+{
 "class": "DepictionLabelView",
 "text": "Liên kết & Hỗ trợ",
 "fontWeight": "semibold",
@@ -122,7 +125,7 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Liên hệ Hỗ trợ",
+"title":"Ủng hộ tôi",
 "action":"https://jtisvn.github.io/homepage/donate/donate.html",
 },
 {
