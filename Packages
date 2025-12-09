@@ -845,6 +845,23 @@ Author: Polyphian
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
+Package: com.jtis.DepthsP
+Architecture: iphoneos-arm64
+Version: 0.2
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/com.check0ver.DepthsPRootless_0.deb
+Size: 24282204
+MD5sum: 8c867db909a42d74191f6addd0eb53e4
+SHA1: 2194191127405159beba3c8cd13c50170c572209
+SHA256: 0ea56147b7e1672f72e606072bb882c14037327080097df58f169a6e10f3da63
+SHA512: 7ec87b78242c276db898072a5d551d5f7975fe3de7b6d6ca705e1dccf8394a8d7772052c3eff7676832508448957308eb7b7788c6ef30651182f09d8f933bacd
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Depths P (Rootless)
+Author: Polyphian
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsP.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+
 Package: com.cokepokes.appstoreplusplus
 Architecture: iphoneos-arm
 Version: 0.10.1-5
@@ -5242,6 +5259,24 @@ Name: DeleteForeverXS (Rootless)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DeleteForeverXS.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: P2KDev <p2kdev@gmail.com>
+
+Package: com.jtis.DepthsP
+Architecture: iphoneos-arm64e
+Version: 0.2
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.depthsp_0.2_iphoneos-arm64e.deb
+Size: 80341682
+MD5sum: 049f52df1d0d7781003d0e533de20b70
+SHA1: e5f5d8a92a13c66afbd2f5fe68f0ee5111c25fed
+SHA256: ffde619310abb4c66b6f8a081b50e36efbe6199dc4acf4d44948ae6e19a5c868
+SHA512: 91afc071e93b49e1df8c9909cee1184095ac28005fc9888b84fa50245c07487bb91590607d596ecadeb50e75bf548ae9971398d8c0762fa467f8580cbc54e4c7
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Depths P (Rootless)
+Author: Polyphian
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsP.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
 Package: com.jtis.designer
 Architecture: iphoneos-arm64
