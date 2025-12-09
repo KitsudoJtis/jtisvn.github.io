@@ -2237,6 +2237,23 @@ Author: Jonathan Winger-lang
 Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Snapper2.json
 
+Package: com.jtis.AppleSymbols
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.AppleSymbols_1.0_iphoneos-arm64.deb
+Size: 360508
+MD5sum: c10a455b81f65f261e58259f35376fba
+SHA1: 276d94b3d90a5bb194adb90c6529ef0ea6753342
+SHA256: 3e1dbfd9dc1d0eadf771946b6c1b83f56c05c5eeeca1e857d91ad72badbe2cfe
+SHA512: 24c95be520e847f51734e5efa36bce79f8a628925c1c50ef05919f1f8e60434418e3142536db406f2615f9bf149d96512fdf11a1a29612a134f833a31e5b66de
+Description: Use Snowboard Font Extension to enable the font.
+Author: YangJiii
+Name: Apple Symbols
+sileodepiction: https://jtisvn.github.io/sileodepictions/AppleSymbols.json
+Icon: https://dobabaophuc1706.github.io/repo/package/Fonts/icon.png
+
 Package: com.jtis.Barmoji
 Architecture: iphoneos-arm64
 Version: 2023.3.3
@@ -12107,23 +12124,6 @@ Name: SafariBlocker (Roothide)
 Author: P2KDev <p2kdev@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariBlocker.json
 Icon: https://jtisvn.github.io/sectionIcons/SafariBlocker.png
-
-Package: com.phucdo.AppleSymbols
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Fonts
-Maintainer: Phuc Do
-Filename: ./debs/com.phucdo.AppleSymbols_1.0_iphoneos-arm64.deb
-Size: 360504
-MD5sum: e8dafd65a1a19fda638731c8a2637e67
-SHA1: 9ebdc885d3bb86cd65c1613f1deddc6908188e29
-SHA256: eff2253742eae5b572272e077455c2289e95a5c1b273abb67e647d4f4247e51d
-SHA512: eba6109e345e2c22ac2976cbeaa5e9c3e431f70d249e4015f88ce6ff2051ba06f2aa32e30a3990e51609f71c6e04c90b95426c9fee322a91b3c66e7eb88fe323
-Description: Use Snowboard Font Extension to enable the font.
-Author: YangJiii
-Name: Apple Symbols
-sileodepiction: https://jtisvn.github.io/sileodepictions/AppleSymbols.json
-Icon: https://dobabaophuc1706.github.io/repo/package/Fonts/icon.png
 
 Package: com.phucdo.badgebreathing
 Architecture: iphoneos-arm64e
