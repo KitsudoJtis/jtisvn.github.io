@@ -4,7 +4,7 @@
 "tintColor": "#B5B5B5",
 "tabs": [
 {
-"tabname": "Details",
+"tabname": "Giới thiệu",
 "class": "DepictionStackView",
 "views": [
 {
@@ -33,7 +33,7 @@
 },
 {
 "class": "DepictionMarkdownView",
-"markdown": "# Apple Symbols for iOS 14-16\n\n**How to Apply:**\nUse Snowboard + Snowboard Fonts Extension.\n\n**Characters Preview:**\n⠁ ⠂ ⠃ ⠄ ⠅ ⠆ ⠇ ⠈ ⠉ ⠊ ⠋ ⠌ ⠍ ⠎ ⠏ ⠐ ⠑ ⠒ ⠓ ⠔ ⠕ ⠖ ⠗ ⠜ ⠝ ⠟ ⠠ ⠡ ⠢ ⠣ ⠤ ⠥ ⠦ ⠧ ⠨ ⠩ ⠪ ⠫ ⠬ ⠭ ⠮ ⠯ ⠰ ⠱ ⠲ ⠳ ⠴ ⠶ ⠷ ⠸ ⠹ ⠺ ⠻ ⠼ ⠽ ⠾ ⠿ ⡀ ⡁ ⡂ ⡃ ⡄ ⡅ ⡆ ⡇ ⡈ ⡉ ⡊ ⡋ ⡎ ⡓ ⡔ ⡕ ⡖ ⡗ ⡙ ⡚ ⡛ ⡜ ⡞ ⡟ ⡠ ⡡ ⡢ ⡣ ⡤ ⡥ ⡦ ⡧ ⡩ ⡪ ⡫ ⡬ ⡭ ⡮ ⡯ ⡰ ⡱ ⡲ ⡳ ⡴ ⡵ ⡶ ⡷ ⡸ ⡹ ⡺ ⡻ ⡼ ⡽ ⡾ ⡿ ⢀ ⢁ ⢂ ⢃ ⢄ ⢅ ⢆ ⢇ ⢈ ⢋ ⢌ ⢍ ⢎ ⢑ ⢒ ⢓ ⢔ ⢕ ⢖ ⢗ ⢘ ⢙ ⢚ ⢛ ⢜ ⢝ ⢞ ⢢ ⢣ ⢤ ⢥ ⢨ ⢭ ⢲ ⢵ ⢶ ⢷ ⢹ ⢺ ⢻ ⢼ ⢽ ⢾ ⣀ ⣁ ⣂ ⣄ ⣅ ⣆ ⣇ ⣈ ⣉ ⣊ ⣋ ⣌ ⣍ ⣎ ⣏ ⣐ ⣑ ⣒ ⣓ ⣔ ⣕ ⣖ ⣨ ⣩ ⣪ ⣫ ⣬ ⣮ ⣱ ⣲ ⣳ ⣴ ⣵ ⣶ ⣷ ⣸ ⣹\n\nCopy characters -> Notes app -> Apply & Respring.",
+"markdown": "# Biểu tượng Apple cho iOS 14-16\n\n**Hướng dẫn:**\nSử dụng phông chữ qua tinh chỉnh Snowboard + Mở Snowboard.\n\n**Xem trước ký tự:**\n⠁ ⠂ ⠃ ⠄ ⠅ ⠆ ⠇ ⠈ ⠉ ⠊ ⠋ ⠌ ⠍ ⠎ ⠏ ⠐ ⠑ ⠒ ⠓ ⠔ ⠕ ⠖ ⠗ ⠜ ⠝ ⠟ ⠠ ⠡ ⠢ ⠣ ⠤ ⠥ ⠦ ⠧ ⠨ ⠩ ⠪ ⠫ ⠬ ⠭ ⠮ ⠯ ⠰ ⠱ ⠲ ⠳ ⠴ ⠶ ⠷ ⠸ ⠹ ⠺ ⠻ ⠼ ⠽ ⠾ ⠿ ⡀ ⡁ ⡂ ⡃ ⡄ ⡅ ⡆ ⡇ ⡈ ⡉ ⡊ ⡋ ⡎ ⡓ ⡔ ⡕ ⡖ ⡗ ⡙ ⡚ ⡛ ⡜ ⡞ ⡟ ⡠ ⡡ ⡢ ⡣ ⡤ ⡥ ⡦ ⡧ ⡩ ⡪ ⡫ ⡬ ⡭ ⡮ ⡯ ⡰ ⡱ ⡲ ⡳ ⡴ ⡵ ⡶ ⡷ ⡸ ⡹ ⡺ ⡻ ⡼ ⡽ ⡾ ⡿ ⢀ ⢁ ⢂ ⢃ ⢄ ⢅ ⢆ ⢇ ⢈ ⢋ ⢌ ⢍ ⢎ ⢑ ⢒ ⢓ ⢔ ⢕ ⢖ ⢗ ⢘ ⢙ ⢚ ⢛ ⢜ ⢝ ⢞ ⢢ ⢣ ⢤ ⢥ ⢨ ⢭ ⢲ ⢵ ⢶ ⢷ ⢹ ⢺ ⢻ ⢼ ⢽ ⢾ ⣀ ⣁ ⣂ ⣄ ⣅ ⣆ ⣇ ⣈ ⣉ ⣊ ⣋ ⣌ ⣍ ⣎ ⣏ ⣐ ⣑ ⣒ ⣓ ⣔ ⣕ ⣖ ⣨ ⣩ ⣪ ⣫ ⣬ ⣮ ⣱ ⣲ ⣳ ⣴ ⣵ ⣶ ⣷ ⣸ ⣹\n\nSao chép ký tự -> Ứng dụng ghi chú -> Áp dụng & Respring.",
 "useSpacing": true
 },
 {
@@ -41,26 +41,26 @@
 },
 {
 "class": "DepictionHeaderView",
-"title": "Information"
+"title": "Thông tin"
 },
 {
 "text": "YangJiii",
-"title": "Developer",
+"title": "Nhà phát triển",
 "class": "DepictionTableTextView"
 },
 {
 "text": "1.0",
-"title": "Version",
+"title": "Phiên bản",
 "class": "DepictionTableTextView"
 },
 {
 "text": "Fonts",
-"title": "Section",
+"title": "Thể loại",
 "class": "DepictionTableTextView"
 },
 {
 "text": "14.0 - 16.5",
-"title": "iOS Compatible",
+"title": "Tương thích iOS",
 "class": "DepictionTableTextView"
 },
 {
@@ -68,28 +68,28 @@
 },
 {
 "class": "DepictionHeaderView",
-"title": "Links & Support"
+"title": "Liên kết & Hỗ trợ"
 },
 {
-"title": "Get Symbols Text File",
+"title": "Nhận tệp văn bản biểu tượng",
 "tintColor": "#B5B5B5",
 "action": "https://raw.githubusercontent.com/dobabaophuc1706/Font-Clock/main/applesymbols.txt",
 "class": "DepictionTableButtonView"
 },
 {
-"title": "Tweak Depiction",
+"title": "Mô tả tinh chinhr",
 "tintColor": "#B5B5B5",
 "action": "https://dobabaophuc1706.github.io/repo/Sileo-Depiction-WebViews/?json=https://dobabaophuc1706.github.io/repo/package/Fonts/AppleSymbols/SileoDepiction.json&name=AppleSymbols&dev=YangJiii",
 "class": "DepictionTableButtonView"
 },
 {
-"title": "Telegram",
+"title": " Kênh Telegram",
 "tintColor": "#B5B5B5",
 "action": "https://t.me/jtisvn",
 "class": "DepictionTableButtonView"
 },
 {
-"title": "Donate",
+"title": "Ủng hộ tôi",
 "tintColor": "#B5B5B5",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html",
 "class": "DepictionTableButtonView"
