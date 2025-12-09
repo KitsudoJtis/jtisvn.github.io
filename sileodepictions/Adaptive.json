@@ -1,6 +1,6 @@
 {
 "minVersion":"0.4",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"headerImage":"https://jtisvn.github.io/coverimage/Adaptive.png",
 "tintColor":"#9933FF",
 "tabs":[
 {
@@ -10,7 +10,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Angel/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/Adaptive/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -35,9 +35,9 @@
 {
 "class":"DepictionTableTextView",
 "title":"Tác giả",
-"text":"@UAE_AD1001"
+"text":"@@psprrom"
 },
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"0.1" },
+{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.3" },
 {
 "class":"DepictionTableTextView",
 "title":"Thể loại",
