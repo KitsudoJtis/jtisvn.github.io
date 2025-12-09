@@ -19,46 +19,97 @@
 },
 {
 "markdown":"\n\n- Thay đổi phông chữ đồng hồ trên màn hình khoá.\n\n- Hỗ trợ iOS 16 trở lên\n\n- Kích hoạt phông chữ qua tinh chỉnh Snowboard.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionMarkdownView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"p0s3id0n"
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Phiên bản",
-"text":"1.0"
+"class": "DepictionLabelView",
+"text": "p0s3id0n",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Font LS"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"6/12/2025"
+"class": "DepictionLabelView",
+"text": "Font LS",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 16 đến 16.6.1"
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "1.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+
+},
+{
+"class": "DepictionLabelView",
+"text": "14.0 - 16.6.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionTableButtonView",
