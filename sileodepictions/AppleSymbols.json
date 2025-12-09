@@ -1,7 +1,7 @@
 {
 "class": "DepictionTabView",
-"headerImage": "https://dobabaophuc1706.github.io/repo/package/Fonts/SileoBanner.png",
-"tintColor": "#c34b3b",
+"headerImage": "https://jtisvn.github.io/coverimage/Fonts.png",
+"tintColor": "#B5B5B5",
 "tabs": [
 {
 "tabname": "Details",
@@ -49,8 +49,8 @@
 "class": "DepictionTableTextView"
 },
 {
-"text": "YangJiii",
-"title": "Maintainer",
+"text": "1.0",
+"title": "Version",
 "class": "DepictionTableTextView"
 },
 {
@@ -59,8 +59,8 @@
 "class": "DepictionTableTextView"
 },
 {
-"text": "Free",
-"title": "License",
+"text": "14.0 - 16.5",
+"title": "iOS Compatible",
 "class": "DepictionTableTextView"
 },
 {
@@ -72,25 +72,25 @@
 },
 {
 "title": "Get Symbols Text File",
-"tintColor": "#c34b3b",
+"tintColor": "#B5B5B5",
 "action": "https://raw.githubusercontent.com/dobabaophuc1706/Font-Clock/main/applesymbols.txt",
 "class": "DepictionTableButtonView"
 },
 {
 "title": "Tweak Depiction",
-"tintColor": "#c34b3b",
+"tintColor": "#B5B5B5",
 "action": "https://dobabaophuc1706.github.io/repo/Sileo-Depiction-WebViews/?json=https://dobabaophuc1706.github.io/repo/package/Fonts/AppleSymbols/SileoDepiction.json&name=AppleSymbols&dev=YangJiii",
 "class": "DepictionTableButtonView"
 },
 {
 "title": "Telegram",
-"tintColor": "#c34b3b",
+"tintColor": "#B5B5B5",
 "action": "https://t.me/jtisvn",
 "class": "DepictionTableButtonView"
 },
 {
 "title": "Donate",
-"tintColor": "#c34b3b",
+"tintColor": "#B5B5B5",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html",
 "class": "DepictionTableButtonView"
 },

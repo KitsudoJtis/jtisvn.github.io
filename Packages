@@ -699,25 +699,6 @@ Author: Simon <qiaozhani000@163.com>
 Icon: https://jtisvn.github.io/sectionIcons/LLSwitch.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Swich.json
 
-Package: com.alimaulana.bundarstatusbar
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Themes
-Maintainer: alimaulana
-Depends: Winterboard
-Filename: ./debs/com.alimaulana.bundarstatusbar_1.0_iphoneos-arm64.deb
-Size: 35400
-MD5sum: 04e2a415988d00e00eef175f5b67f5fc
-SHA1: caf9d582623cc9223834f57e3e873f5edb033a02
-SHA256: 2a5372e6de2d06a898034511e430f60ff79f14d4fa4222178520ddec85ce7501
-SHA512: ef90625cf2e36af16cba1f653e264456344ed6ac4db29bf5d730c6ba7b4e48f82340a09792090b3ee4707500988f1ae0f5d9366e49c6c494c2eaf7a04d89a331
-Description: Thau đổi tín hiệu di động, wifi và pin thanh hình tròn trên thanh trạng thái
-Name: Bundar Status Bar (Rootless)
-Author: alimaulana
-Depiction: https://repo.packix.com/package/com.alimaulana.bundarstatusbar
-SileoDepiction: https://repo.packix.com/depictions/com.alimaulana.bundarstatusbar/depiction.json
-Icon: https://repo.packix.com/media/com.alimaulana.bundarstatusbar/icon.png
-
 Package: com.antoine.senri
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -2243,16 +2224,16 @@ Version: 1.0
 Section: Fonts
 Maintainer: JTISVN Repo
 Filename: ./debs/com.jtis.AppleSymbols_1.0_iphoneos-arm64.deb
-Size: 360508
-MD5sum: c10a455b81f65f261e58259f35376fba
-SHA1: 276d94b3d90a5bb194adb90c6529ef0ea6753342
-SHA256: 3e1dbfd9dc1d0eadf771946b6c1b83f56c05c5eeeca1e857d91ad72badbe2cfe
-SHA512: 24c95be520e847f51734e5efa36bce79f8a628925c1c50ef05919f1f8e60434418e3142536db406f2615f9bf149d96512fdf11a1a29612a134f833a31e5b66de
+Size: 360488
+MD5sum: dd96ec0615de866932806a89e23190b3
+SHA1: 7f434eaca270e0f6458e85bc19d7f5889abdfbd0
+SHA256: 46adcac891f4538ba60a467b41868161eff44fae7874327cce99e0a66c9fde5d
+SHA512: 6bc740e9cf473955d917f6220495d1915ba4180cb40c7e80a9c3104290338bf60845a01795bd4ec2c4c0b70bb67b43f8421d83600edcfa1175309ffd19a5ecca
 Description: Use Snowboard Font Extension to enable the font.
 Author: YangJiii
 Name: Apple Symbols
 sileodepiction: https://jtisvn.github.io/sileodepictions/AppleSymbols.json
-Icon: https://dobabaophuc1706.github.io/repo/package/Fonts/icon.png
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
 
 Package: com.jtis.Barmoji
 Architecture: iphoneos-arm64
