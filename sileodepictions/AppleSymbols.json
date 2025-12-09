@@ -33,7 +33,7 @@
 },
 {
 "class": "DepictionMarkdownView",
-"markdown": "# Biểu tượng Apple cho iOS 14-16\n\n**Hướng dẫn:**\nSử dụng phông chữ qua tinh chỉnh Snowboard + Mở Snowboard.\n\n**Xem trước ký tự:**\n⠁ ⠂ ⠃ ⠄ ⠅ ⠆ ⠇ ⠈ ⠉ ⠊ ⠋ ⠌ ⠍ ⠎ ⠏ ⠐ ⠑ ⠒ ⠓ ⠔ ⠕ ⠖ ⠗ ⠜ ⠝ ⠟ ⠠ ⠡ ⠢ ⠣ ⠤ ⠥ ⠦ ⠧ ⠨ ⠩ ⠪ ⠫ ⠬ ⠭ ⠮ ⠯ ⠰ ⠱ ⠲ ⠳ ⠴ ⠶ ⠷ ⠸ ⠹ ⠺ ⠻ ⠼ ⠽ ⠾ ⠿ ⡀ ⡁ ⡂ ⡃ ⡄ ⡅ ⡆ ⡇ ⡈ ⡉ ⡊ ⡋ ⡎ ⡓ ⡔ ⡕ ⡖ ⡗ ⡙ ⡚ ⡛ ⡜ ⡞ ⡟ ⡠ ⡡ ⡢ ⡣ ⡤ ⡥ ⡦ ⡧ ⡩ ⡪ ⡫ ⡬ ⡭ ⡮ ⡯ ⡰ ⡱ ⡲ ⡳ ⡴ ⡵ ⡶ ⡷ ⡸ ⡹ ⡺ ⡻ ⡼ ⡽ ⡾ ⡿ ⢀ ⢁ ⢂ ⢃ ⢄ ⢅ ⢆ ⢇ ⢈ ⢋ ⢌ ⢍ ⢎ ⢑ ⢒ ⢓ ⢔ ⢕ ⢖ ⢗ ⢘ ⢙ ⢚ ⢛ ⢜ ⢝ ⢞ ⢢ ⢣ ⢤ ⢥ ⢨ ⢭ ⢲ ⢵ ⢶ ⢷ ⢹ ⢺ ⢻ ⢼ ⢽ ⢾ ⣀ ⣁ ⣂ ⣄ ⣅ ⣆ ⣇ ⣈ ⣉ ⣊ ⣋ ⣌ ⣍ ⣎ ⣏ ⣐ ⣑ ⣒ ⣓ ⣔ ⣕ ⣖ ⣨ ⣩ ⣪ ⣫ ⣬ ⣮ ⣱ ⣲ ⣳ ⣴ ⣵ ⣶ ⣷ ⣸ ⣹\n\nSao chép ký tự -> Ứng dụng ghi chú -> Áp dụng & Respring.",
+"markdown": "# Biểu tượng Apple cho iOS 14-16\n\n**Hướng dẫn:**\nSử dụng phông chữ qua tinh chỉnh Snowboard.\n\n**Xem trước ký tự:**\n⠁ ⠂ ⠃ ⠄ ⠅ ⠆ ⠇ ⠈ ⠉ ⠊ ⠋ ⠌ ⠍ ⠎ ⠏ ⠐ ⠑ ⠒ ⠓ ⠔ ⠕ ⠖ ⠗ ⠜ ⠝ ⠟ ⠠ ⠡ ⠢ ⠣ ⠤ ⠥ ⠦ ⠧ ⠨ ⠩ ⠪ ⠫ ⠬ ⠭ ⠮ ⠯ ⠰ ⠱ ⠲ ⠳ ⠴ ⠶ ⠷ ⠸ ⠹ ⠺ ⠻ ⠼ ⠽ ⠾ ⠿ ⡀ ⡁ ⡂ ⡃ ⡄ ⡅ ⡆ ⡇ ⡈ ⡉ ⡊ ⡋ ⡎ ⡓ ⡔ ⡕ ⡖ ⡗ ⡙ ⡚ ⡛ ⡜ ⡞ ⡟ ⡠ ⡡ ⡢ ⡣ ⡤ ⡥ ⡦ ⡧ ⡩ ⡪ ⡫ ⡬ ⡭ ⡮ ⡯ ⡰ ⡱ ⡲ ⡳ ⡴ ⡵ ⡶ ⡷ ⡸ ⡹ ⡺ ⡻ ⡼ ⡽ ⡾ ⡿ ⢀ ⢁ ⢂ ⢃ ⢄ ⢅ ⢆ ⢇ ⢈ ⢋ ⢌ ⢍ ⢎ ⢑ ⢒ ⢓ ⢔ ⢕ ⢖ ⢗ ⢘ ⢙ ⢚ ⢛ ⢜ ⢝ ⢞ ⢢ ⢣ ⢤ ⢥ ⢨ ⢭ ⢲ ⢵ ⢶ ⢷ ⢹ ⢺ ⢻ ⢼ ⢽ ⢾ ⣀ ⣁ ⣂ ⣄ ⣅ ⣆ ⣇ ⣈ ⣉ ⣊ ⣋ ⣌ ⣍ ⣎ ⣏ ⣐ ⣑ ⣒ ⣓ ⣔ ⣕ ⣖ ⣨ ⣩ ⣪ ⣫ ⣬ ⣮ ⣱ ⣲ ⣳ ⣴ ⣵ ⣶ ⣷ ⣸ ⣹\n\nSao chép ký tự -> Ứng dụng ghi chú -> Áp dụng & Respring.",
 "useSpacing": true
 },
 {
@@ -110,7 +110,7 @@
 "class": "DepictionImageView"
 },
 {
-"markdown": "<div style='text-align: center; color: #888; font-size: 11px; margin-top: 5px;'>Created with ❤️ by JTISVN</div>",
+"markdown": "<div style='text-align: center; color: #888; font-size: 11px; margin-top: 5px;'>Created with by JTISVN Repo</div>",
 "useRawFormat": true,
 "class": "DepictionMarkdownView"
 },

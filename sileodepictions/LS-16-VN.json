@@ -1,7 +1,7 @@
 {
 "minVersion":"0.4",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#6C7B8B",
+"headerImage":"https://jtisvn.github.io/coverimage/Fonts.png",
+"tintColor":"#339999",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Thay đổi phông chữ đồng hồ trên màn hình khoá\n\n- Kích hoạt phông chữ qua tinh chỉnh Snowboard.",
+"markdown":"# Phông chữ LS-16-VN\n\n- Thay đổi phông chữ đồng hồ trên màn hình khoá\n\n- Kích hoạt phông chữ qua tinh chỉnh Snowboard.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -49,15 +49,19 @@
 },
 {
 "class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 14 đến 16.6.1"
+"title":"Tương thích iOS",
+"text":"14 - 16.6.1"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionHeaderView",
+"title": "Liên kết & Hỗ trợ"
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Liên hệ Hỗ trợ",
+"title":"Ủng hộ",
 "action":"https://jtisvn.github.io/homepage/donate/donate.html",
 },
 {
@@ -71,32 +75,31 @@
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
-}
-],
-"class":"DepictionStackView"
+"class": "DepictionSeparatorView"
 },
 {
-"tabname":"Nhật ký thay đổi",
-"views":[
-{
-"class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak."
+"spacing": 12,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
+"URL": "https://jtisvn.github.io/CydiaIcon.png",
+"width": 40,
+"height": 40,
+"alignment": 1,
+"cornerRadius": 8,
+"class": "DepictionImageView"
+},
+{
+"markdown": "<div style='text-align: center; color: #888; font-size: 11px; margin-top: 5px;'>Created with by JTISVN Repo</div>",
+"useRawFormat": true,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+}
+]
 }
 ],
-"class":"DepictionStackView"
-}
-],
-"class":"DepictionTabView"
+"minVersion": "0.1"
 }
