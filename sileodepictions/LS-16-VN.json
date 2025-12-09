@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Thay đổi phông chữ đồng hồ trên màn hình khoá\n\n- Kích hoạt phông chữ qua tinh chỉnh Snowboard.",
+"markdown":"# LS-16-VN\n\n- Thay đổi phông chữ đồng hồ trên màn hình khoá\n\n- Kích hoạt phông chữ qua tinh chỉnh Snowboard.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
@@ -36,6 +36,11 @@
 "class":"DepictionTableTextView",
 "title":"Tác giả",
 "text":"p0s3id0n"
+},
+{
+"class":"DepictionTableTextView",
+"title":"Phiên bản",
+"text":"1.0"
 },
 {
 "class":"DepictionTableTextView",
