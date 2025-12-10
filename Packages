@@ -2936,14 +2936,14 @@ Version: 1.0
 Section: Fonts
 Maintainer: JTISVN Repo
 Filename: ./debs/com.jtis.TrakyaRoundedED_1.0_iphoneos-arm64.deb
-Size: 1753904
-MD5sum: 569cdb3ce98cb36019cedb90d7fa8e0c
-SHA1: 27c71c9ec91f98156dc45932195c555860d3f361
-SHA256: aa67718aa03903ea507722db7c4dbfdaed6bebed2bbd8489abfc6791eff5ffba
-SHA512: 45eeb4d2f8306ca76b354e878ae6d0af1c63ebd3af5d8b48a6ab7f65e6f7f5371ddab48e03144b3ba4cd7ee62af8d8213464a91413f40a2011beebcbb579443c
+Size: 20687260
+MD5sum: 30548c029d1d1b89300f183f953decec
+SHA1: 367ddbb3bae956c8e65b7474165e7a656b30d4b8
+SHA256: 3b7c758a3815fc8701214c9c3c18988dd5aef283369b8c419505f7500c87fc37
+SHA512: d52239a9b4824f25814597f8ab46eb2a4d639addcd7d8aec65c985bf23d9f60f3a6a57a554b146ee4c3a08deaf3c8978831763dff807b752ac08d04d8f16c07a
 Description: Font edition by YangJiii only support iOS 16 and up.
 Author: YangJiii
-Name: Trakya Rounded Edition
+Name: Trakya Rounded
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Trakya.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 
