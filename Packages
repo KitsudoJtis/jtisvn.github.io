@@ -2290,16 +2290,16 @@ Installed-Size: 448
 Depends: mobilesubstrate, firmware (>= 16.0), ws.hbang.alderis
 Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane
 Filename: ./debs/com.jtis.CCbonder16_1.1.8k_iphoneos-arm64.deb
-Size: 40204
-MD5sum: 886a4bff87329f577a094cd902814844
-SHA1: 9660d7ee4b5cdfa849b81364dc72785dfbb25aa3
-SHA256: 563aa99c7c3a16268454c43d41288941664a4436d9daa54a3e09da6e45d61e25
-SHA512: c04aa8e137f389b40c94fbdcf6fe1292722d1586c52bb0abee881224535951ecf87b022eefcd2b41e725729b9559cc48d3b4135117be2d0190690f7b98374a43
+Size: 40148
+MD5sum: bb6323173d576dcbe46a1c91403f3724
+SHA1: 7adc387960e8441eb5e1827f3216b5adf617e5dd
+SHA256: 5c32b2a71c4224bd94e53d305fcba146601c0ee860ec29a4fac01398a543a4d5
+SHA512: a253a1a3b84aea345fda1c7e26e64f8875ebf400e3eb4bbcb9ddffdc9d015df681bb9a791bde1696c4f018e25a8490f5904866c8e9fb77e6e8b211440b9fbec3
 Description: Tuỳ chỉnh Trung tâm điều khiển theo kiểu của IOS 18 xuống cho các thiết bị IOS thấp hơm.
 Name: CCBorder16 (Rootless)
 Author: fiore & p2kdev & 妖刀
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCbonder16.json
-Icon: https://jtisvn.github.io/sectionIcons/CCbonder.png
+Icon: https://jtisvn.github.io/sectionIcons/CCbonder16.png
 
 Package: com.jtis.CCbonder16
 Architecture: iphoneos-arm64e
@@ -2311,16 +2311,16 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 16.0), ws.hbang.alderis
 Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane
 Filename: ./debs/com.jtis.CCbonder16_1.1.8k_iphoneos-arm64e.deb
-Size: 39308
-MD5sum: c90474aea105e283f8628cb2bb607a64
-SHA1: b3e8ba94725966aefdb14f572ec357ebc19fb2df
-SHA256: 8639c57a9ac4b91d92673662ce9b4bd9cf620517115b4369ead63525e1d78cc2
-SHA512: 9c330fc92d2d3eb85aa9155253b827a72bf9a45cc368f92587ec7f0ed57d0438b1ef9da0cc683f2d1022c3b3e47bbf5b397f7fb3435c7be3602e3bc64c9e97a4
+Size: 39392
+MD5sum: 0885f0822e9a569ba88faa48a67835dc
+SHA1: 83ff33f57841d25e50839136363390cf61455c38
+SHA256: 69ca0a59cd61690d955ea48bb35ae46045c5c371f6cf8b802064e7db95e1fc90
+SHA512: 7c2c30bf6135be7bd81836ae77ceb496b596036032e5c62e3ae3723ede0017e8bf354fbb7171560a19388ac0720614c8796122b315ba3fa1744a90f23459f856
 Description: Tuỳ chỉnh Trung tâm điều khiển theo kiểu của IOS 18 xuống cho các thiết bị IOS thấp hơm.
 Name: CCBorder16 (Roothide)
 Author: fiore & p2kdev & 妖刀
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCbonder16.json
-Icon: https://jtisvn.github.io/sectionIcons/CCbonder.png
+Icon: https://jtisvn.github.io/sectionIcons/CCbonder16.png
 
 Package: com.jtis.Cartoo
 Architecture: iphoneos-arm64
@@ -8176,6 +8176,26 @@ SHA256: fdec96998aadb786f1427abe11b3f1fe8c77548da99eeccc07cc004f381e054c
 SHA512: 33e69a75cb742b5887982d1ec9bfdb8db570f0909f52b416ef0628e0fafb105603cfd4d6360da2e12ae090fad42b6efe9d721e411634ca22c4766a964e7b7679
 Description: Xoa bộ cảnh báo cập nhật IOS beta
 Name: NoBetaAlert (Rootless)
+Author: Hitori
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NoBetaAlert.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.nobetaalert
+Architecture: iphoneos-arm64e
+Version: 4.0
+Section: Tweaks
+Maintainer: Hitori
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.nobetaalert_4.0_iphoneos-arm64e.deb
+Size: 2920
+MD5sum: e2cb5e0bee95250829315dfdeef85561
+SHA1: 17565910b8b46f7181d8bbcdb9f41ec4b8de8318
+SHA256: 6e7b6928ad7db56fe4e5d74e41f632f69740acb125e61ecb0635a63f43f39fff
+SHA512: 598e4db170644d3482dceddb625739617673433ae72a547b61e6ed38d1a9dd2e71b6e71fbd4d83dc5e3037a20e5dcc8f5925f9e411bfad4aa34fb41dce8c747d
+Description: Xoa bộ cảnh báo cập nhật iOS beta
+Name: NoBetaAlert (Roothide)
 Author: Hitori
 SileoDepiction: https://jtisvn.github.io/sileodepictions/NoBetaAlert.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
