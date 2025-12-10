@@ -2037,6 +2037,26 @@ Sileodepiction: https://siieo.github.io/sileodepictions/UpdateTab/UpdateTab.json
 Icon: https://siieo.github.io/sileodepictions/UpdateTab/icon.png
 Author: Johnzaro & Hitori <johnzrgnns@gmail.com>
 
+Package: com.johnzaro.appstoreupdatestab
+Architecture: iphoneos-arm64e
+Version: 4.0
+Section: Tweaks
+Maintainer: Hitori
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.johnzaro.appstoreupdatestab_4.0_iphoneos-arm64e.deb
+Size: 5056
+MD5sum: 2202350aa6b7b6cc9ca9fe5cfc2f0464
+SHA1: 309cceeed87f5d54ef0aad1209c3ec6f2ebb6425
+SHA256: 7c95212add6f504f7bc377d451fd9385ef58f9d6d6209daea1d83e7abbf599e5
+SHA512: de1a541c308c9c75c724a025147ae87269995202f18c90869abd35e1feaea3791b94d4ff799b6b4119e751f197bd66fc60778bd09533befaddda7a560a6a6906
+Description: Thay nút Arcade bằng nút "Hiển thị cập nhật" trong ứng dụng AppStore
+Name: AppStoreUpdatesTab (Roothide)
+Sileodepiction: https://siieo.github.io/sileodepictions/UpdateTab/UpdateTab.json
+Icon: https://siieo.github.io/sileodepictions/UpdateTab/icon.png
+Author: Johnzaro & Hitori <johnzrgnns@gmail.com>
+
 Package: com.jti.atria
 Architecture: iphoneos-arm64
 Version: 1.4.1
