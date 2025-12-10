@@ -1,81 +1,181 @@
 {
 "minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"headerImage":"https://jtisvn.github.io/coverimage/OCD.png",
 "tintColor":"#5777B8",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
-{
-"class":"DepictionHeaderView",
-"title":"OCD"
-},
-{
-"markdown":"\n\n- Có thể tùy chỉnh màu biểu tượng và huy hiệu màn hình chính.\n\n- Biểu tượng: Tùy chỉnh màu sắc theo biểu tưởng ứng dụng và tự chọn màu \n\n- Huy hiệu: Thay đổi màu tự động theo ứng dụng,sử dụng dấu chấm thay huy hiệu gốc,điều chỉnh viền và bán kính bo góc.chọn màu viền tự dộng phù hợp với huy hiệu.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/OCD/Screenshots/ocd1.png",
+"url":"https://jtisvn.github.io/infodeb/OCD/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/OCD/Screenshots/ocd2.png",
+"url":"https://jtisvn.github.io/infodeb/OCD/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/OCD/Screenshots/ocd3.png",
+"url":"https://jtisvn.github.io/infodeb/OCD/Screenshots/3.png",
 "accessibilityText":"Screenshot"
-}    
+}
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionMarkdownView"
+"markdown":"OCD\n\n- Tinh chỉnh toàn diện màu sắc biểu tượng và huy hiệu thông báo trên màn hình chính.\n\n- Biểu tượng: Tùy chỉnh màu sắc dựa theo màu gốc của ứng dụng hoặc tự chọn màu yêu thích.\n\n- Huy hiệu: Tự động đổi màu theo ứng dụng, tùy chọn dùng dấu chấm thay cho số, điều chỉnh viền và độ bo góc. Tự động phối màu viền phù hợp.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionSpacerView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"B4dblr3"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"5.4.11" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"28/4/2025"
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Dung lượng",
-"text":"571.01 KB"
+"class": "DepictionLabelView",
+"text": "B4dblr3",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 15.0-16.5"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "28/4/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "5.4.11",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.7 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 16.5",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 5.4.11\n\n- Thêm ngôn ngữ Tiếng Việt.\n\n- Khắc phục sự cố chức năng không hiện trong cài đặt.\n\n- Tương thích cho Roothide.\n\n### Phiên bản 5.2\n\n- Sửa lỗi nhỏ.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Liên hệ Hỗ trợ",
-"action":"https://jtisvn.github.io/homepage/donate/donate.html"
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
@@ -88,24 +188,8 @@
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
-}
-],
-"class":"DepictionStackView"
-},
-{
-"tabname":"Nhật ký thay đổi",
-"views":[
-{
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 5.4.11\n\n- Thêm ngôn ngữ Tiếng việt.\n\n- Khắc phục sự cố chức năng không hiện trong cài đặt.\n\n- Tương thích cho Roothide\n\n ### Phiên bản 5.2\n\n- Sửa lỗi\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
-},
-{
 "class":"DepictionLabelView",
-"text":"Copyright © 2024 - 2030 by JTISVN",
+"text":"Copyright © 2025 - 2030 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
