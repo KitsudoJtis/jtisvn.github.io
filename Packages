@@ -1689,24 +1689,6 @@ Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
 Depiction: https://chariz.com/buy/misaki
 Taq: cydia::commercial, compatible_min::ios15.0
 
-Package: com.hitori.trakyarounded100
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Fonts
-Maintainer: Hitori
-Depends: com.spark.snowboard.fonts
-Filename: ./debs/com.hitori.trakyarounded100_1.0_iphoneos-arm64.deb
-Size: 699328
-MD5sum: 087be8afcf00c7a4c43956ad41a5669a
-SHA1: 683e3771e1e3174feeba2b98edeea46ef27c0350
-SHA256: fc7f92af6e0965df49e8e47b533e3c764065f14504f491444b58913b46a013ce
-SHA512: ab07fb26516f407bff9ec58610e0d1c6fe6a3fa139ebaf3b80ab8d1021f8106271331ebad9f40917e61fb183086ae2bc261b6ed4ff283a83c05f9aea204aeb9e
-Description: A perfect blend of elegant, minimal and premium design aesthetics at it’s level best.
-Name: Trakya Rounded (100%)
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Trakya.json
-Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
-Author: Hitori
-
 Package: com.iarrays.biolocker
 Architecture: iphoneos-arm64
 Version: 1.15.0-beta-2
@@ -2947,6 +2929,23 @@ Name: SwitchTheme-Line (Roothide)
 Author: 白衣
 Icon: https://jtisvn.github.io/sectionIcons/SwitchLine.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SwitchLine.json
+
+Package: com.jtis.TrakyaRoundedED
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.TrakyaRoundedED_1.0_iphoneos-arm64.deb
+Size: 1753904
+MD5sum: 569cdb3ce98cb36019cedb90d7fa8e0c
+SHA1: 27c71c9ec91f98156dc45932195c555860d3f361
+SHA256: aa67718aa03903ea507722db7c4dbfdaed6bebed2bbd8489abfc6791eff5ffba
+SHA512: 45eeb4d2f8306ca76b354e878ae6d0af1c63ebd3af5d8b48a6ab7f65e6f7f5371ddab48e03144b3ba4cd7ee62af8d8213464a91413f40a2011beebcbb579443c
+Description: Font edition by YangJiii only support iOS 16 and up.
+Author: YangJiii
+Name: Trakya Rounded Edition
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Trakya.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 
 Package: com.jtis.VibrateOnCall
 Architecture: iphoneos-arm64
