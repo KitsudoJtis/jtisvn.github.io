@@ -10807,6 +10807,26 @@ Author: Huayuarc
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.zaire
+Architecture: iphoneos-arm64
+Version: 0.9.0
+Section: Tweaks
+Maintainer: Luki
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.zaire_0.9.0_iphoneos-arm64.deb
+Size: 5404
+MD5sum: 31069cd5aff6b006896d74d74758f4da
+SHA1: fbb8f6cba3a8cd18ee13f45e02b3e3832dfdd1ce
+SHA256: e5c8cbdf179bd97be25478a0cbe9aa4da119c7da23ad70b9498bfe2d40eeb8bf
+SHA512: a4b21d3ffd93e40a6b931cf224e1f4bea360807907913ccfa1b89dd2c3f7abc63075dc119d2d4feda21fb52aba223adfa2bb30d84248c89858d5c3e030cae03e
+Description: Hiển thị số lượng ứng dụng đã tải về trong mục dung lượng cài đặt.
+Name: Zaire (Rootless)
+Author: Luki
+Depiction: https://luki120.github.io/depictions/web/?p=me.luki.zaire
+SileoDepiction: https:/jtisvn.github.io/sileodepictions/Zaire.json
+Icon: https://jtisvn.github.io/sectionIcons/Zaire.png
+
+Package: com.jtis.zaire
 Architecture: iphoneos-arm64e
 Version: 0.9.0
 Section: Tweaks
@@ -10815,15 +10835,16 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.zaire_0.9.0_iphoneos-arm64e.deb
-Size: 7204
-MD5sum: dd510204211744f91bad5f62596ece13
-SHA1: a3c4edc5f3aaea724ac65043b8bcac9bfaa84cbb
-SHA256: 89a09c03d73eda96daf69593304b00c1057f257d16219735cb3cff284e4d60db
-SHA512: 195d5d4d4d8d5da273460e7e8864aef5b88152e64d12eb01b06933a9adc2080a86a9a6c749dd90d27a384ee0b25c7676b74ecb4aaa988c4efa5ce3a49db0328b
+Size: 5280
+MD5sum: 9aca95744555cf388dfc001f2d5ffabf
+SHA1: 5e6bc81b2fb119982dc0b4f9d4efc3d6bba671be
+SHA256: c31d5b34ed793cd09e2fd93520fcb4decd75b7baadaaff2a54d978a4bcc0fe4b
+SHA512: f7d69fec3c8a996f501daac5ba1a87bb0f63fd64c6b749270e5cd47dd8be5d6bbfeb249bf99947e86e562ef676a60e960bd701426d2ae2ab89fc90cf6635761a
 Description: Hiển thị số lượng ứng dụng đã tải về trong mục dung lượng cài đặt.
 Name: Zaire (Roothide)
 Author: Luki
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/Zaire.json
+Icon: https://jtisvn.github.io/sectionIcons/Zaire.png
 
 Package: com.jtisvn.capcutcrack
 Architecture: iphoneos-arm64
