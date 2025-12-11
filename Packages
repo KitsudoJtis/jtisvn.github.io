@@ -9208,6 +9208,41 @@ Author: uz.ra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Resentment.json
 Icon: https://jtisvn.github.io/sectionIcons/Resentment.png
 
+Package: com.jtis.rixlovefool
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.rixlovefool_1.0_iphoneos-arm64.deb
+Size: 4729440
+MD5sum: 1704f34929ea02859fed198d754ca761
+SHA1: 1317e9843ece2c346304a9257b87efaed7552b98
+SHA256: 1ba25ffd2e41b752b73b14c6c150a402ad264070fe35e20cb6f76c3921ad8302
+SHA512: fc4860d55a34253f263d62ae450c5b7c3cfb6b09c9e529d77d882de0bb84c1090e5159d7f87f005758b61b51e5059bb079cf3e92170dfe3924d1fdac651c81e4
+Description: Sử dụng phông chữ Bông qua tinh chỉnh Snowboard
+Name: Rixlovefool (Bông)
+Author: unclear
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Rixlovefool.json
+
+Package: com.jtis.rixlovefool
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.rixlovefool_1.0_iphoneos-arm64e.deb
+Size: 17688404
+MD5sum: 25802a18c4cbefda525923503b751994
+SHA1: d882e06a428b8b1eba1fbbcf642b84d0dd8e83dd
+SHA256: 599d50d0e054ca8bb95b7de90fbde08962da709619348f69112855d403e9c400
+SHA512: 575865488543ac18518c300d60ce8005fcd7469925779e50e1cfc3f52379600fd048d9f216b5e994fa6ab06bf945c4484f3219c2ee5d7f3c14d5c70fd96758ac
+Description: Sử dụng phông chữ Bông qua tinh chỉnh Snowboard
+Name: Rixlovefool (Bông)
+Author: unclear
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Rixlovefool.json
+
 Package: com.jtis.rophim
 Architecture: iphoneos-arm64e
 Version: 0.0.1-5+debug

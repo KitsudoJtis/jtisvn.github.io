@@ -148,7 +148,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15.0 - 16.6.1",
+"text": "14.0 - 16.6.1",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -176,7 +176,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 4.0\n\n-Hỗ trợ iOS 15-16 Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.0\n\n-Hỗ trợ iOS 15-16 Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
