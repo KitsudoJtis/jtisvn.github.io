@@ -6133,24 +6133,45 @@ Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: Lizynz <lizynz@ya.ru>
 
 Package: com.jtis.fontedgy-rootless
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Depends: firmware (>=14.0)
+Filename: ./debs/com.jtis.fontedgy-rootless_1.0_iphoneos-arm64.deb
+Size: 4955412
+MD5sum: c4f1df06b7804731f61522043a4465c4
+SHA1: 3ba920eec226f12c959df4a73bf7bdf93a957c9f
+SHA256: e14c35d8176a94111397f4599b8aba518e5d69c985d1ebbb47ddab79ffcf4ee7
+SHA512: 7faee5a69d6784ac7779e14de62b80eb4e2dc6ec582ffc1e45ffe46c56440e8ec790d419e6c582b80d3b53dae7746e779c22b20d5b0bfeebbb6aa7dafa3b6d18
+Homepage: https://alo.works/
+Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
+Name: Edgy Font
+Icon: https://Jtisvn.github.io/sectionIcons/font3.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Edgy.json
+Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
+Author: Ha Tia To
+
+Package: com.jtis.fontedgy-rootless
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Fonts
-Maintainer: JTIS Repo
+Maintainer: JTISVN Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>=14.0)
 Filename: ./debs/com.jtis.fontedgy-rootless_1.0_iphoneos-arm64e.deb
-Size: 4954356
-MD5sum: 0b19919075053bfbec9c131275a1f93c
-SHA1: e7cfc7ba06980e3602a1482b3f4035ff7d3c25a1
-SHA256: c3a5752b47c2ec19c4563b5896a5cf4e609562c81713183084a3859ee181c35c
-SHA512: a96b35aef113f3fb42b12bac9d28c24ad95333300ea5363d90589e581eb49ab03c384fed9cf55d2edb2f6db6ba4e2ec97e231bd998ebbd4308b7a3ed9e8c9f77
+Size: 4953780
+MD5sum: 306b049e6efe7292e795e66371e9d671
+SHA1: 6024e4db6337daf3410baf2399fddf1e09d44d86
+SHA256: 4ed8180ca169d1054e7e372ca6fd6269e687a43a5cc23d1b7e966cb1f237626e
+SHA512: 77acca37cda50ab10f61a3a8d69e8db9e0ec6b177dd4cfd8d7822598cd9c47062e67a621a67aac149d79e6654a267f389c1584619b595678fe53fdf1a79de284
 Homepage: https://alo.works/
 Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
-Name: Font Edgy
+Name: Edgy Font
 Icon: https://Jtisvn.github.io/sectionIcons/font3.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Edgy.json
 Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
-Author: Hà Tía Tô
+Author: Ha Tia To
 
 Package: com.jtis.fontlobstertwo-rootless
 Architecture: iphoneos-arm64
