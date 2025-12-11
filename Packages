@@ -3093,6 +3093,24 @@ Author: blatant
 SileoDepiction: https://jtisvn.github.io/sileodepictions/WiddyUnlock.json
 Icon: https://jtisvn.github.io/sectionIcons/WiddyUnlock.png
 
+Package: com.jtis.a-bypass
+Architecture: iphoneos-arm
+Version: 1.5.8
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 960
+Depends: mobilesubstrate, com.muirey03.libmryipc, com.rpgfarm.libaptoast, preferenceloader
+Filename: ./debs/com.jtis.a-bypass_1.5.8_iphoneos-arm.deb
+Size: 144324
+MD5sum: 218bc18607cee1e295453c85d113d5b6
+SHA1: 553dde9faa82e3cf3a3e2a189330db203feb92a3
+SHA256: 55c520f29de11be379b6df9f0c36737cbb23438e6d6054f41e0d353c24c83187
+SHA512: e132de20b6c9e9f77c1e52595f5dede28186b16f5d74037d1897d6f6ff4bdc0d7efb9a9564c7f4cf2f2b18d0044d95b83a5c3bc718ede337d360c166f2c096a9
+Description: Chặn phát hiện Jailbreak.
+Name: A-Bypass
+Author: Baw Appie <pp121324@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.accentcustom
 Architecture: iphoneos-arm64
 Version: 2.2.1
