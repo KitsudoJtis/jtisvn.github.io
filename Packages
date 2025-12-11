@@ -1689,6 +1689,24 @@ Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
 Depiction: https://chariz.com/buy/misaki
 Taq: cydia::commercial, compatible_min::ios15.0
 
+Package: com.hitori.trakya85
+Architecture: iphoneos-arm64
+Version: 4.0
+Section: Fonts
+Maintainer: Hitori
+Depends: mobilesubstrate, com.spark.snowboard.fonts
+Filename: ./debs/com.hitori.trakya85_4.0_iphoneos-arm64.deb
+Size: 1753720
+MD5sum: 5f4e2fd192deffed3685d99e4df6ce6d
+SHA1: f7f4281c95e1e08810bc3caab4f6f7ca1c80293f
+SHA256: 897cfe3ca959ac41cdd5590e36caaf0db46de4ceb3389b9fe6205f81339270e1
+SHA512: 2b132a3e5a773aaccc2059f095a9e68ecd7ef089610be87a33fa54199d68d2a46cfc97febf59756fab6f87637ffb4ef91ae3fa52b55f907be5a27d6dcfed66be
+Description: Trakya Rounded is a perfect blend of elegant, minimal and premium design aesthetics at it’s level best.
+Name: Trakya Rounded (85)
+Author: Alexman
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Trakya85.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+
 Package: com.iarrays.biolocker
 Architecture: iphoneos-arm64
 Version: 1.15.0-beta-2
