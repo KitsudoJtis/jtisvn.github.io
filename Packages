@@ -12173,6 +12173,49 @@ Depiction: https://opa334.github.io/depic/Choicy/index.html
 Author: opa334 <opa334@protonmail.com>
 Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fcydia.saurik.com%2Ficon%2Fcom.opa334.choicy.png&s=180x180&f=webp
 
+Package: com.opa334.crane
+Architecture: iphoneos-arm64
+Version: 1.3.16-4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 3232
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy, com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/com.opa334.crane_1.3.16-4_iphoneos-arm64.deb
+Size: 605172
+MD5sum: fffbd9ddcc0f28405a631fb0c3696792
+SHA1: d8df2a331f5691a2b1e6f064d85851060f430b9a
+SHA256: 28cd3e156a0e45295e54e656e689d97d204738d0021e6fdd10bc521de4cbca50
+SHA512: b804c2a84a4191bf906d984a95d3f8b1cd0ad7f0a5754e0a0867dc5dc0b3dec0af41d6902330ae3e0f0618381a4327974a3171ed2bc0047c5d2463f4653b1fcf
+Description: Multiple containers for your applications!
+Name: Crane (Rootless)
+Author: opa334
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Crane.json
+Depiction: https://jtisvn.github.io/depictions/Crane.html
+Icon: https://jtisvn.github.io/sectionIcons/Crane.png
+
+Package: com.opa334.crane
+Architecture: iphoneos-arm64e
+Version: 1.3.16-4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 3232
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy, com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/com.opa334.crane_1.3.16-4_iphoneos-arm64e.deb
+Size: 603584
+MD5sum: 1ec1bb922b6d563e011e0c0115804a78
+SHA1: 5760cff6eefeb6a2e4344b8209da6dfd902fcf2c
+SHA256: 06afccb05fba8e3a42447c1d86d3b9a4e3730d0a1517495bf3d6477c5aa27004
+SHA512: b573643aba5786009edaa2bcbd0ef1641858b4624b4b747019900435a5d63c4af6dd756fc816adc895b5389e0cd7fcd07c483991e64b7787796078aded0f7d5d
+Description: Multiple containers for your applications!
+Name: Crane (Roothide)
+Author: opa334
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Crane.json
+Depiction: https://jtisvn.github.io/depictions/Crane.html
+Icon: https://jtisvn.github.io/sectionIcons/Crane.png
+
 Package: com.opa334.libundirect
 Architecture: iphoneos-arm64
 Version: 1.1.6
