@@ -6557,6 +6557,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/SG-dark.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.gravitation
+Architecture: iphoneos-arm
+Version: 0.1.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1264
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.gravitation_0.1.1_iphoneos-arm.deb
+Size: 97652
+MD5sum: c6138e16f941540c3c382ae3cf0eec31
+SHA1: fdf8e8cd157d66065144459db85c796a6cf7a963
+SHA256: 5890104a7c8f88b4d1a1102ad7b095de6f15efa36efb2080c4089cd943775939
+SHA512: 1abd3ce4dcb9469f8282fbd5615e2ba9d3e6c9656fbf6f3dad237b829f2a17da0b3e2a9b50ff12839aa3ffb75ba8608dcfcaf23ec0f0d52a7b86adb613f5ab50
+Description: Lắc điện thoại của bạn để làm rơi các biểu tượng
+Name: Gravitation
+Author: Kritanta
+Icon: https://jtisvn.github.io/sectionIcons/Gravitation.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Gravitation.json
+
+Package: com.jtis.gravitation
 Architecture: iphoneos-arm64
 Version: 4.0
 Section: Tweaks
@@ -7144,6 +7163,47 @@ Name: IconRotation (Roothide)
 Author: Paisseon
 SileoDepiction: https://jtisvn.github.io/sileodepictions/IconRotation.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.immortalizer
+Architecture: iphoneos-arm64
+Version: 2.0.0-1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 652
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Filename: ./debs/com.jtis.immortalizer_2.0.0-1_iphoneos-arm64.deb
+Size: 43948
+MD5sum: 5d256066a669d4f514fe70e2fdb5809d
+SHA1: 56a996cf49e209144a23846120efd433b8465f87
+SHA256: 309b8bb456d27a7faee76973fb6450333bbd535f4e1a44fb7af3e7bba0381557
+SHA512: 0935f530a85060f6a9841e1414f95ad004239bc5fa0f81878e069cfb455fdd01f0cffe5bf0f0bd2473cbce8da847af5d9e115975bbf18ec154a62921784d75e7
+Description: Làm nổi bật ứng dụng của bạn ngay cả khi ở chế độ nền!
+Name: Immortalizer (Rootless)
+Author: sergy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Immortalizer.json
+Depiction: https://jtisvn.github.io/depictions/Immortalizer.html
+Icon: https://jtisvn.github.io/sectionIcons/Immortalizer.png
+
+Package: com.jtis.immortalizer
+Architecture: iphoneos-arm64e
+Version: 2.0.0-1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 652
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Filename: ./debs/com.jtis.immortalizer_2.0.0-1_iphoneos-arm64e.deb
+Size: 42640
+MD5sum: f468bf279403745f4771379cfb6f0da3
+SHA1: 642c016250a9e0133d6b65b5dffbb9b1c5b71bb2
+SHA256: 38941dd7a1e1d83bfc1c505bc9e579bea9e07ed44faba29756ccaa47aeae1a8b
+SHA512: f5be02221e41aab6ddb9e5cd9a61036dab5a10ce07a44034febcaee1c4747cb4d640d821262401f3af583cb3b6c0041d50bd3d7250db871cd3d0e2e4795d52e6
+Description: Làm nổi bật ứng dụng của bạn ngay cả khi ở chế độ nền!
+Name: Immortalizer (Roothide)
+Author: sergy
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Immortalizer.json
+Depiction: https://jtisvn.github.io/depictions/Immortalizer.html
+Icon: https://jtisvn.github.io/sectionIcons/Immortalizer.png
 
 Package: com.jtis.iOS17Deluxe
 Architecture: iphoneos-arm64e
