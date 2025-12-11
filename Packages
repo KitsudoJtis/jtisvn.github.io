@@ -2221,6 +2221,75 @@ Author: Jonathan Winger-lang
 Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Snapper2.json
 
+Package: com.jtis.11cam14
+Architecture: iphoneos-arm
+Version: 0.0.11
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 88
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.jtis.11cam14_0.0.11_iphoneos-arm.deb
+Size: 4308
+MD5sum: 6f4ec0290141b7b39df01c8ca258a9d2
+SHA1: 4ee6d7f4393e6415e3db46df20676ba95d846f82
+SHA256: 3f085ec7b5ea4b4de77d3ec1e7e48e8f1adff21002d2defc632fd95f1b1e58bc
+SHA512: 78ebe604ae0adbb0fc29fee40237da5866da179cf5613f5fc93c330904118396fe1cd8a627e18ff80006d96ef0a34c83746c8899fa6c5f15b73cbf481f8f3563
+Description: 
+   Tính Năng:
+ - 11Cam thêm Ứng dụng Camera của iPhone 11 vào iPhone của bạn
+ - Zom 10X
+ - Tương thích với iPhone SE-->iPhone X trên iOS 14
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: Michael Melita
+Name: 11Cam14
+
+Package: com.jtis.2dockx
+Architecture: iphoneos-arm64
+Version: 1.0
+Priority: optional
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 116
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.jtis.2dockx_1.0_iphoneos-arm64.deb
+Size: 6660
+MD5sum: 9d614c4ff7aae6e5635fa262c07c24f7
+SHA1: 7b7f98160067b059fb4da01507180bd319816f99
+SHA256: fa8b719742e7eafa70f287f3151379b2e7d6b477e8ac3464b516823e55b8f633
+SHA512: dd40394674eb54c1fa849d58feaf2c1cebbf2b6160ca77e3d541c8459dab5327c5b25558e9e327c6925b59e77c97d8ff48f7a8b8fe5de57c4ab22ccfaaac9212
+Description: Thêm 2 Dock hiển thị màn hình chính, hỗ trợ iOS 15+ A12 trở lên
+Tag: purpose::extension, compatible::ios15
+Name: 2Dock X (Rootless iOS15+)
+Author: Minazuki <minazukidev@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/2DockX.json
+Depiction: https://jtisvn.github.io/depictions/2DockX.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+dev: minazuki
+
+Package: com.jtis.2dockx
+Architecture: iphoneos-arm64e
+Version: 1.0
+Priority: optional
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 116
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.jtis.2dockx_1.0_iphoneos-arm64e.deb
+Size: 6432
+MD5sum: 6cfd1217d2e1f92679fa4445e2ddb984
+SHA1: e60517d40aa6d078ea9197e8e3e99de5cca2e9dd
+SHA256: 5241e62ae9a4a0b57d527fc0b83b4bb33e24c1a029cf18f9f74050080e472c57
+SHA512: 5985ae28d9743edaecafb79cb03809d219c358e039ea2cd7eb2244a55156d2134c76ea9488593c4335fed430dc1a96ac6dd6c4101ca288c23d992cecc930c1a6
+Description: Thêm 2 Dock hiển thị màn hình chính, hỗ trợ iOS 15+ A12 trở lên
+Tag: purpose::extension, compatible::ios15
+Name: 2Dock X (Roothide iOS15+)
+Author: Minazuki <minazukidev@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/2DockX.json
+Depiction: https://jtisvn.github.io/depictions/2DockX.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+dev: minazuki
+
 Package: com.jtis.AppleSymbols
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -14389,6 +14458,26 @@ Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
 Name: SwiftProtobuf
 Author: eevee
+
+Package: org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm64e
+Version: 1.6.9.2
+Section: System
+Maintainer: Bailey Seymour
+Installed-Size: 304
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: ./debs/org.thebigboss.libcolorpicker_1.6.9.2_iphoneos-arm64e.deb
+Size: 44668
+MD5sum: 4da5fb75174eb83cb82ad59f22f233f9
+SHA1: 89c034d5c187697b5d460d998a1b94e1749ab298
+SHA256: f20085da3ebd4af4b5415891c8991be674f8ba2357e799b6c7e2e26ffaf7f6d0
+SHA512: 47cab2bc15315eec5607703bb5b87cc05b683de3c55436a907e77e7d3c33064d93f55331b722a87409488b2ba456ef95beb7a0fdf84d4f98830ceb6fd8a5e935
+Description: An awesome library of some sort!!
+Tag: role::developer
+Name: libcolorpicker
+Author: Bailey Seymour
 
 Package: org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm64
