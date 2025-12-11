@@ -1144,6 +1144,62 @@ SileoDepiction: https://evynw.github.io/sileo/fontainsliesans14.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 Author: Evelyn (ev_ynw)
 
+Package: com.evynw.fontasterisk14
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Fonts (iOS14-16)
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Depends: com.evynw.repoicons (>= 1.2-3)
+Filename: ./debs/com.evynw.fontasterisk14_1.1_iphoneos-arm.deb
+Size: 13882918
+MD5sum: 8443dfa943049d76152a2751486fa41d
+SHA1: a7f80e0b4a7cda6daab30e7dec9e00312807b900
+SHA256: f27aba078d85d23cf83b2f26c3fa0300beede7661e4ab0377c2bb6d5951b2f7b
+SHA512: f7b73c088dda6f02d9f6503bea7b3f74b9f44c3895a0e89d517145a2fdf3ceb14e007f05d86cc64d93f2dcb0ad06953316cc9f687145994e304cb430dbe97b5f
+Description: Clean and thin sans serif. For iOS14-16.
+Name: Asterisk Sans (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontasterisk14
+SileoDepiction: https://evynw.github.io/sileo/fontasterisk14.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
+Package: com.evynw.fontasterisk14
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Fonts (iOS14-16)
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Filename: ./debs/com.evynw.fontasterisk14_1.1_iphoneos-arm64.deb
+Size: 6365876
+MD5sum: a4d3dd80bbd012bc3dbb3d2fa54c89e0
+SHA1: b800033f12e5867b08c4375a52ba9d7899d9ab39
+SHA256: e8881a0d535558f12388f07bd74c2aa34b75bdafd9cd0227755450d5c93826f4
+SHA512: dbd72924df96952d56c0754b80acd7c22cfbb56ef5937e02be153b59bb4de2e62d3bf5ef4755e375b2fcbf3e7f8ccaa9ffc963ca971fc45ecfc0f4fe186efc8d
+Description: Clean and thin sans serif. For iOS14-16.
+Name: Asterisk Sans (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontasterisk14
+SileoDepiction: https://evynw.github.io/sileo/fontasterisk14.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
+Package: com.evynw.fontasterisk14
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Fonts (iOS14-16)
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Depends: com.evynw.repoicons (>= 1.2-3)
+Filename: ./debs/com.evynw.fontasterisk14_1.1_iphoneos-arm64e.deb
+Size: 9940608
+MD5sum: 6529b05a56ca8d093f78b41cb7519250
+SHA1: 3e2fad9f75204c48205e202160d8c40f764674fc
+SHA256: a7b3af2e9e5f44df466c439fda7b70b011b80ab82d5443fe2318d0136b54eb57
+SHA512: e0db2b95e36cd7ebe84bd6ff1995f6604b8213b56faf8d22c08d55aea3bf135a9e7e8f4391b322144f9d4ffb6bc6989ab9f59ff97a7854ad4aa1879b96f20f4e
+Description: Clean and thin sans serif. For iOS14-16.
+Name: Asterisk Sans (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontasterisk14
+SileoDepiction: https://evynw.github.io/sileo/fontasterisk14.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
 Package: com.evynw.fontcenter14
 Architecture: iphoneos-arm64
 Version: 1.1
