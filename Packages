@@ -10266,6 +10266,24 @@ Icon: https://jtisvn.github.io/sectionIcons/Tinge.png
 Name: Tinge (Roothide)
 Author: P2KDev
 
+Package: com.jtis.TrakyaRoundedED
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.trakyaroundeded_1.0_iphoneos-arm64e.deb
+Size: 82662722
+MD5sum: d14f71a2ec2923ffba90de4d0cf6c92b
+SHA1: aaacb27a8682ff7430c5958fb96ca18cfe3cf933
+SHA256: 92fe1940eb3794ca5fdc5e83f8977c7bada74ae1f39f9a5c4717ee6cf6c07f11
+SHA512: 858e676fd4a79adb3f96926f1bcea65b803975ef405e12298d4f217ea223603d726d76704b99871a4f449766f71008b638b4740433099e376f4a91c5578a551d
+Description: Font edition by YangJiii only support iOS 16 and up.
+Author: YangJiii
+Name: Trakya Rounded
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Trakya.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+
 Package: com.jtis.transilucent
 Architecture: iphoneos-arm64
 Version: 1.0
