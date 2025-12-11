@@ -1366,6 +1366,24 @@ SileoDepiction: https://evynw.github.io/sileo/fontquicksand14.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 Author: Alex (@Alexman1979)
 
+Package: com.evynw.fonturwgeo14
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Filename: ./debs/com.evynw.fonturwgeo14_1.1_iphoneos-arm64.deb
+Size: 5550148
+MD5sum: 126c41700f87f9d4758cd108a7b1b88c
+SHA1: 20f5c15201fcebe5a1a28899ab83b4549e7d4ce9
+SHA256: fd30fca6210d1ae6ca6b4a02da4f82ed0c01ae3c495f8ef6c568ed6452df87ce
+SHA512: 43a53cef80909f18187bcc5e563a24b35652755ec84acde40b49a0b48d91a58493752546af6e120f7f136966b574bb40488081c23046f8280337f32add3a29d3
+Description: Small & conventional sans. 100% size. For iOS14-16.
+Name: URW Geometric (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fonturwgeo14
+SileoDepiction: https://evynw.github.io/sileo/fonturwgeo14.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
 Package: com.exile90.icleanerpro
 Architecture: iphoneos-arm64
 Version: 7.10.0
@@ -3267,6 +3285,49 @@ Author: Dell <dvq273665536@gmail.com>
 Depiction: http://bvnsupport.github.io/infodeb/Html/AdGuard.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AdGuard.json
 Icon: https://jtisvn.github.io/sectionIcons/AdGuard.png
+
+Package: com.jtis.adsspee
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 620
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.lenglengyu.adsspeed
+Filename: ./debs/com.jtis.adsspee_1.1.3_iphoneos-arm64.deb
+Size: 111000
+MD5sum: e133a2a15a08114e84af7850213e4181
+SHA1: 43f9de8fa20c6721b865bf1d58d585af038771ea
+SHA256: 42d28755babcc2da84145d851deb442b0686a1a109580f3e52ebee442242abd3
+SHA512: 9091e79e243c7f01e4e98ad89e70788123ddd893a6fa6e127ab8d1aceaa0a1523d0f9b80b9fd1e94eb1a440bc1c541ef892d706eb4f7ac7af396682927d0b7ba
+Description: Bỏ qua quảng cáo video và tua nhanh nhận phần thưởng.
+Name: VideoAdsSpeed (Rootless)
+Author: lenglengyu
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VideoAdsSpeed.json
+Depiction: https://jtisvn.github.io/depictions/VideoAdsSpeed.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.adsspee
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 620
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.lenglengyu.adsspeed
+Filename: ./debs/com.jtis.adsspee_1.1.3_iphoneos-arm64e.deb
+Size: 108832
+MD5sum: 3e66751886890865e38b49ab8468327a
+SHA1: 0517f8724e2438a59a584759af96fb8fb7a89180
+SHA256: 4f39e403b994887c20d70dc993720f6e38a76ed50b88bcb95861fd9dcf907902
+SHA512: 926b90ff6dd35a7e5e48a00e331c4b04328a1a59788723a30077f1bf474ec9daa87b6c586d9f6afeee5024c248dc3fbc1926c1165703899a5d7ee20f84499a07
+Description: Bỏ qua quảng cáo video và tua nhanh nhận phần thưởng.
+Name: VideoAdsSpeed (Roothide)
+Author: lenglengyu
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VideoAdsSpeed.json
+Depiction: https://jtisvn.github.io/depictions/VideoAdsSpeed.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.aemulo
 Architecture: iphoneos-arm64
@@ -9697,6 +9758,25 @@ Author: 82Flex <82flex@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SingleMute.json
 Icon: https://jtisvn.github.io/sectionIcons/SingleMute.png
 
+Package: com.jtis.siriplus
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: dev.theos.orion (>= 1.0.0), com.ginsu.comet, firmware (>= 14.0)
+Filename: ./debs/com.jtis.siriplus_1.1_iphoneos-arm64.deb
+Size: 163492
+MD5sum: aeb1edfff459b0b52a7a7696583e38af
+SHA1: f7777c1ee1612abc9fc735a86b2301301c85d94d
+SHA256: bd7061d19d1014fd9c3e44d16d8f5d256bb0ee6c7edea28918fc5384715bcdb9
+SHA512: b85e44e7b44331928e7afa7c3cd6c9e0c067b06e4463b70b967f07718cdbd5938eca75de20837943bbe7512934633ed6c6c29d27dd22681cd30154efb6c29317
+Description: Replace Siri with ChatGPT/Gemini
+Name: SiriPlus (Rootless)
+Author: Uckermark
+depiction: https://havoc.app/depiction/siriplus
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SiriPlus.json
+Icon: https://jtisvn.github.io/sectionIcons/SiriPlus.png
+
 Package: com.jtis.sixls
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -9856,6 +9936,47 @@ Description: Snapper 3 là công cụ chụp ảnh màn hình với nhiều ch�
 Name: Snapper 3 (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
 Author: Jonathan Winger-lang
+
+Package: com.jtis.sniper
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 364
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.sniper_1.2_ phoneos-arm64.deb
+Size: 35404
+MD5sum: 8025d9ebeff7ee9b6820bb9a1d0a7fc8
+SHA1: bb74596911c87e8b8e4cb247cd53c71ef3ca9f70
+SHA256: b31d21fdeeaf9487565eed4fd6a38001e7bad93b96ea2d765ef65f1ec9443ad4
+SHA512: ed6971b9c4bc0661628f8357347c50aef81b4b6d8798411b5375ecd83f65dea4f7682828fea8164ea9ee0d99c2bcb11cb52e9f3c748617f90cd6fab1de9a1ea3
+Description: Xóa bỏ quảng cáo khỏi một số ứng dụng
+Name: SniperTool (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SniperTool.json
+Depiction: https://jtisvn.github.io/depictions/SniperTool.html
+Icon: https://jtisvn.github.io/sectionIcons/SniperTool.png
+Author: Sniper @DNS_Sys
+
+Package: com.jtis.sniper
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 364
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.sniper_1.2_iphoneos-arm64e.deb
+Size: 35480
+MD5sum: 3c699fe146d8b1794edb34d74986247a
+SHA1: 217efa6508e33453298597423c99923a1f48cc3d
+SHA256: 3c92a5bec20032d7fa0db46512c8b4160398a9f9823f0a27123603cf985630b0
+SHA512: fe90ba962cff5be4ac7d6083bef6542c0c1bfad1376439af18d6a5448d17757020435afc56f50242a530279bfad68bb65e73c51edb74472284fd7261059bf435
+Description: Xóa bỏ quảng cáo khỏi một số ứng dụng
+Name: SniperTool (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SniperTool.json
+Depiction: https://jtisvn.github.io/depictions/SniperTool.html
+Icon: https://jtisvn.github.io/sectionIcons/SniperTool.png
+Author: Sniper @DNS_Sys
 
 Package: com.jtis.sonus15
 Architecture: iphoneos-arm64
