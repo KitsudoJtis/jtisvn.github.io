@@ -33,7 +33,7 @@
 },
 {
 "class": "DepictionMarkdownView",
-"markdown": "# VideoAdsSpeed\n\n**Bỏ qua quảng cáo va tua nhanh để nhận thưởng một số ứng dụng/game**\n",
+"markdown": "# VideoAdsSpeed\n\n**Bỏ qua quảng cáo video và tua nhanh để nhận phần thưởng một số ứng dụng/game**\n",
 "useSpacing": true
 },
 {
@@ -54,7 +54,7 @@
 "class": "DepictionTableTextView"
 },
 {
-"text": "Fonts",
+"text": "Tweaks",
 "title": "Thể loại",
 "class": "DepictionTableTextView"
 },
