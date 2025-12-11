@@ -34,7 +34,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Immortalizer\n\n- Giữ cho các ứng dụng của bạn luôn chạy ở chế độ tiền cảnh (foreground) vô thời hạn, ngay cả khi bạn đã thoát ra màn hình chính hoặc tắt máy!\m\n- Kích hoạt chế độ chạy ngầm (giả lập tiền cảnh) dễ dàng qua menu 3D Touch/Haptic Touch (nhấn giữ biểu tượng ứng dụng).\n\n- Ứng dụng vẫn chạy ngay cả khi tắt màn hình hoặc khóa thiết bị.n\n- Tùy chọn hiển thị dấu hiệu hoặc thông báo nhỏ (toast) để bạn biết ứng dụng nào đang được bất tử.\n\n- Cho phép hiện thông báo ngay cả với những ứng dụng thường ẩn thông báo khi đang mở (foreground).\n\n- Ghim/Khóa ứng dụng trong trình chuyển đổi đa nhiệm để tránh việc bạn lỡ tay vuốt đóng ứng dụng đang chạy.\n\n- Hỗ trợ Module trong Trung tâm điều khiển để thao tác nhanh.",
+"markdown":"Immortalizer\n\n- Giữ cho các ứng dụng của bạn luôn chạy ở chế độ tiền cảnh (foreground) vô thời hạn, ngay cả khi bạn đã thoát ra màn hình chính hoặc tắt máy!\n\n- Kích hoạt chế độ chạy ngầm (giả lập tiền cảnh) dễ dàng qua menu 3D Touch/Haptic Touch (nhấn giữ biểu tượng ứng dụng).\n\n- Ứng dụng vẫn chạy ngay cả khi tắt màn hình hoặc khóa thiết bị.\n\n- Tùy chọn hiển thị dấu hiệu hoặc thông báo nhỏ (toast) để bạn biết ứng dụng nào đang được bất tử.\n\n- Cho phép hiện thông báo ngay cả với những ứng dụng thường ẩn thông báo khi đang mở (foreground).\n\n- Ghim/Khóa ứng dụng trong trình chuyển đổi đa nhiệm để tránh việc bạn lỡ tay vuốt đóng ứng dụng đang chạy.\n\n- Hỗ trợ Module trong Trung tâm điều khiển để thao tác nhanh.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -167,7 +167,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.0.0-1\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Sửa lỗi xung đột với các tweak thông báo\n\n- Sửa lỗi nút tắt trong CC và lỗi bàn phím không hoạt động\n\n- Khắc phục lỗi treo/đơ ứng dụng\n\n- Tối ưu hóa hiệu năng và hiệu ứng thông báoThêm hỗ trợ thao tác nhanh trong CC\n\n- Thêm tùy chọn khóa ứng dụng trong Đa nhiệm\n\n- Hiển thị biểu tượng khóa trên cả SpringBoard và Đa nhiệm\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 2.0.0-1\n\n- Thêm ngôn ngữ Tiếng Việt.\n\n- Sửa lỗi xung đột với các tweak thông báo.\n\n- Sửa lỗi nút tắt trong CC và lỗi bàn phím không hoạt động.\n\n- Khắc phục lỗi treo/đơ ứng dụng.\n\n- Tối ưu hóa hiệu năng và hiệu ứng thông báo.\n\n- Thêm hỗ trợ thao tác nhanh trong CC.\n\n- Thêm tùy chọn khóa ứng dụng trong Đa nhiệm.\n\n- Hiển thị biểu tượng khóa trên cả SpringBoard và Đa nhiệm.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"

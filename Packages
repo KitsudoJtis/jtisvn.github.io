@@ -2964,6 +2964,25 @@ Author: Polyphian
 SileoDepiction: https://jtisvn.github.io/sileodepictions/OpertationMeteor.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 
+Package: com.jtis.Orion
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 8572
+Depends: firmware (>=13.0), firmware (<=15), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16), com.opa334.ccsupport, net.limneos.libbulletin (>= 0.1-158), com.spark.libsparkcolourpicker (>= 1.0.2) | com.creaturesurvive.libcscolorpicker (>= 1.0.1) | ws.hbang.alderis (>= 1.1.2), com.spark.libsparkapplist, ws.hbang.alderis
+Filename: ./debs/com.jtis.Orion_1.2_iphoneos-arm.deb
+Size: 1762484
+MD5sum: 327d1183158e8e30e609754a81790743
+SHA1: a9759abcd3f067d2e8aa4658ef08c8a1f7de8430
+SHA256: a7405bc4906abd0f9c6e185cd8e2d67bfd9d9a2725c6cb09013fc0b684e09e6c
+SHA512: 513b4282dc8aa593ae074850f006dbee599fd92ae99b0d8f200420f05ae98eb5d23453806c56a6c4386abd8b2550e3a96115312673e439e532914576855b886a
+Description: Cấu hình mọi thứ trên thiết bị của bạn!
+Name: Orion Việt Hoá
+Author: John Zarogiannis <johnzrgnns@gmail.com>
+depiction: https://codeone.yourepo.com/pack/orion
+Icon: https://jtisvn.github.io/sectionIcons/Orion.png
+
 Package: com.jtis.RingTonesManager
 Architecture: iphoneos-arm64
 Version: 1.1-4
@@ -14243,6 +14262,27 @@ Homepage: https://github.com/Cryptiiiic/libkrw
 Description: A kernel R/W API for jailbreaks (Development Files)
 Author: Cryptiiiic
 
+Package: me.alfhaily.rocket
+Architecture: iphoneos-arm64
+Version: 3.8.36
+Priority: optional
+Section: Tweaks
+Maintainer: Rocket App <support@getrocketapp.io>
+Installed-Size: 6684
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debs/me.alfhaily.rocket_3.8.36_iphoneos-arm64.deb
+Size: 1469024
+MD5sum: 33be466b3d86363d2df0ead32e8f720b
+SHA1: a2773b780e8f484e2b9e789f805f6216d2164310
+SHA256: 5af24d3f8d7c86332608b6cd53b4369bcadb711fc1d6c48253ea5109e0abd9a3
+SHA512: 758abe69172287c51a2d45b7bf7eb9ba142ce45803050a035607c04cb4ba80be99a54663b333fcbf7a85d396d759eea561d5e5d555f2c0d5de404a3f63f560b3
+Homepage: https://jtisvn.github.io/
+Description: Save posts and view stories anonymously and do much more
+Name: Rocket for Instagram
+Author: Rocket App
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=rocketforinstagramDp
+SileoDepiction: https://apt.alfhaily.me/depiction/sileo/4EYOXC
+
 Package: me.apptapp.installer
 Architecture: iphoneos-arm
 Version: 5.0.3-2
@@ -14754,6 +14794,30 @@ Name: PreferenceLoader
 Author: Dhinak G
 Depiction: https://apt.htv123.com/view/97
 Icon: file:///Applications/Cydia.app/Sections/hethongg1.png
+
+Package: me.alfhaily.rocket
+Architecture: iphoneos-arm
+Version: 3.7.27
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 9325
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap (>= 1.0.10~beta1)
+Filename: ./debs/rocketforinstagram_3.7.27.deb
+Size: 2368148
+MD5sum: 2fc4ad3983b3f178dde147b45062bbd5
+SHA1: c76a1ed3ebcb7a75f4ee5cff9ba84eef5b0368de
+SHA256: 78e15c3bb85425a00b541f59bcfab66495773a6f3c31daafa37245499199afc8
+SHA512: 32e9916f13e40ebdbd0f538fa085bd4844c178b91324021e43173b8a32ff21ae2e133f561f8f79fea9f1e363b52d9489231548ed6228459df9599cb9a2e1709a
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=rocketforinstagramDp
+Description: Save posts and view stories anonymously and do much more
+Tag: purpose::extension
+Author: Rocket App <support@getrocketapp.io>
+Name: Rocket for Instagram
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=rocketforinstagramDp
+SileoDepiction: https://apt.alfhaily.me/depiction/sileo/4EYOXC
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: freemanrepo
+Icon: https://apt.alfhaily.me/cdn/assets/rocket-icon.png
 
 Package: ru.rejail.dleasy
 Architecture: iphoneos-arm
