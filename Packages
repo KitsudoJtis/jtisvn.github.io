@@ -2879,15 +2879,16 @@ Version: 1.0
 Section: Tweaks
 Maintainer: JTISVN Repo
 Filename: ./debs/com.jtis.LSUISharingan_1.0_iphoneos-arm.deb
-Size: 31568
-MD5sum: 11137e1ea64f9f771b2459adb9431bc4
-SHA1: c7e1b755689587b37a64321ad6d0bbe6fa202eab
-SHA256: 1476be1b5f01236c2176ffa657a617ac34a31194e21c40750701e9f3f24914dc
-SHA512: 4568302dbedc2b67dbe0bbba89effc5bc045d47baa0d68bb4213bb7b33990dbab6c1db971e4e5144973d7577c26f2344ec3edb8a82ec89c829d621ed0e85d959
+Size: 31584
+MD5sum: 78b57cbd0a00601558d480d6b4d54799
+SHA1: c023ebd0eca8dcef4d493470b2dac144ebdc0e95
+SHA256: 5c68d6c1ac71a8708da13c50437457360d7eb243009d84fa21120814fabeac53
+SHA512: 3668b5f2bc4118d4ccb40916a1f2a4c9d5864ec4a284a32b7c9c63f79c12b74522423b99abcd9ab72bace75752b06f0c378eb2e545b060416f081785a8393659
 Description: Use Snowboard UI Extension to enable LS UI.
 Author: Phuc Do
 Name: LS UI Sharingan
 Depiction: https://jtisvn.github.io/depictions/LSUISharingan.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSUISharingan.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.LSUISharingan
@@ -2896,14 +2897,33 @@ Version: 1.0
 Section: Tweaks
 Maintainer: JTISVN Repo
 Filename: ./debs/com.jtis.LSUISharingan_1.0_iphoneos-arm64.deb
-Size: 31656
-MD5sum: 3a809256be780a176baccb3d9770d069
-SHA1: a6b51a4acef1d413b9b727d8ca98088b986a5ef0
-SHA256: 5b32d03a93cf35c769e1f46fa8afab68497615412b96d533ab134ac6e545268c
-SHA512: 25528788d6ff00ae6d781629d0ec4c4a0c81c5051e3de3f44ab052e94a7d0e7049623a614ad4425ecf47d7ec7ed8f3b784c57439b62f0c15f974419ab579261f
+Size: 31668
+MD5sum: a48b094a19b2bf4d80066ad4e20db45a
+SHA1: 5abf86cb72f3e42225b151c7073e3d40f8e56aae
+SHA256: 11cde9559cbdd76742a0b38e98412ca25da36be49109e1f7e3aa10748302e273
+SHA512: 135e2e36f34b97945dbeffc2a705f6df85c52cfe119bd2f74d69851325bdb31a11d4255b38bbd91797e2f57597e63d299972cbe63c2bd5e718b573ec7c2073a8
 Description: Use Snowboard UI Extension to enable LS UI.
 Author: Phuc Do
 Name: LS UI Sharingan
+Depiction: https://jtisvn.github.io/depictions/LSUISharingan.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSUISharingan.json
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.LSUISharingan
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.LSUISharingan_1.0_iphoneos-arm64e.deb
+Size: 31596
+MD5sum: a7177bce51135151d3617b42e3089802
+SHA1: f92bce8f6740664842c44ac354d3d55b5d76a1b0
+SHA256: 5fcc6dcd035289357d6507853d4b7aff0922b0dd779e39a7f7fddf2f3f948f25
+SHA512: 82a806299ee959de0a8db82b5449fd34f31835ba57b29eea81bf459eb085083dd7e3b451d26c1a804708caf26fca69c7d0fc1ad4484389660744852f4124d1a4
+Description: Use Snowboard UI Extension to enable LS UI.
+Author: Phuc Do
+Name: LS UI Sharingan
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSUISharingan.json
 Depiction: https://jtisvn.github.io/depictions/LSUISharingan.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
