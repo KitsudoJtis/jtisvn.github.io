@@ -14592,6 +14592,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Installer.json
 Depiction: https://apptapp.me/repo/installer.html
 Icon: https://jtisvn.github.io/sectionIcons/Installer.png
 
+Package: me.luki.arizona
+Architecture: iphoneos-arm64
+Version: 0.9.2
+Section: Tweaks
+Maintainer: Luki
+Installed-Size: 796
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/me.luki.arizona_0.9.2_iphoneos-arm64.deb
+Size: 428256
+MD5sum: d5042382e3db045c72daff0b722b4897
+SHA1: 4144dbde96e9d021cf8dd16274cb883b3f9aa426
+SHA256: dec33d53d3a4470872570d700516404a02dbab0d30e59ca0d64f7693542ec60a
+SHA512: 66ffd2f94dba0ad4aa06019390f75fdb5de9200edf6125a6357d524312e7996166f5752a09a61a881f0239cfff40d31e7241840089895d64b7822e3fac1d33c4
+Description: Move the stock clock, date and lock glyph on the fly
+Name: Arizona (Rootless)
+Author: Luki
+Icon: https://jtisvn.github.io/sectionIcons/Arizona.png
+Depiction: https://luki120.github.io/depictions/web/?p=me.luki.arizona
+SileoDepiction: https://luki120.github.io/depictions/native/me.luki.arizona/depiction.json
+
+Package: me.luki.arizona
+Architecture: iphoneos-arm64e
+Version: 0.9.2
+Section: Tweaks
+Maintainer: Luki
+Installed-Size: 796
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/me.luki.arizona_0.9.2_iphoneos-arm64e.deb
+Size: 427040
+MD5sum: 2fe9d43d978cb05eb4888b020146791a
+SHA1: e79a52f060c38fcc5e796c70ad059c2b25f50a72
+SHA256: 3aa642049365358fd2ffec5b5dfb6dcae79e6e573b86660fa525205c989f617c
+SHA512: a452a4bcfb392460c0f8065672694d5063ad7f8c8d7634adf24017ae3beba3dd8aa5c4ffb5601092ba6df53deea2cda8db99aefd45f68d5e54d4c039df594589
+Description: Move the stock clock, date and lock glyph on the fly
+Name: Arizona (Roothide)
+Author: Luki
+Icon: https://jtisvn.github.io/sectionIcons/Arizona.png
+Depiction: https://luki120.github.io/depictions/web/?p=me.luki.arizona
+SileoDepiction: https://luki120.github.io/depictions/native/me.luki.arizona/depiction.json
+
 Package: me.tomt000.copylog
 Architecture: iphoneos-arm
 Version: 1.7.1
