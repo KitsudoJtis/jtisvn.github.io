@@ -10146,6 +10146,45 @@ Author: alias20 & daodao
 Icon: https://jtisvn.github.io/sectionIcons/Speedy.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Speedy.json
 
+Package: com.jtis.splitviewpro
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader, com.sunshinesong.split-view-pro-helper (>= 999.1)
+Filename: ./debs/com.jtis.splitviewpro_1.1.6_iphoneos-arm64.deb
+Size: 3484240
+MD5sum: e94e37b4e90c64d9988c0e0b1c0dbfb2
+SHA1: b9ab251b06f627410dfff3a070d7825f9f40baa1
+SHA256: 7d783bbdb218e9901496384c03e0813626816be72bb381b6e9583a758c0d44b5
+SHA512: 689da025d8e2bc736d79dd2baaff32e99d7d1090d64620ac4ecbb9f25d0785d51b93fd442653f1648579332f3b83aeb9acdf4a25166787b6b40446808378827c
+Description: Tinh chỉnh chia đôi màn hình đa nhiệm miễn phí được phát triển bởi Sunshine Song.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Splitviewpro.json
+Depiction: https://jtisvn.github.io/depictions/Splitviewpro.html
+Icon: https://jtisvn.github.io/sectionIcons/Splitviewpro.png
+Name: Split View Pro (Rootless)
+Author: sunshinesong
+
+Package: com.jtis.splitviewpro
+Architecture: iphoneos-arm64e
+Version: 1.1.6
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.sunshinesong.split-view-pro-helper (>= 999.1)
+Filename: ./debs/com.jtis.splitviewpro_1.1.6_iphoneos-arm64e.deb
+Size: 3415700
+MD5sum: 1c8afed3bef3161d827ca6898b35128c
+SHA1: ef3326b650e11f35f32dd6107e87e6e176861af5
+SHA256: 12778dfc48c80c4ce112d7e6512162b7d5d5e22cc221a219a6670bc86d76c308
+SHA512: 7cf99ae1d9b3524c3e42635b96087da580577099fd4d40705a792654fe9d1ebb24dcee23472819e9ed69bd2a1d59e9fdf7aaa522dfdc801d47f38ab3b27a9b9a
+Description: Tinh chỉnh chia đôi màn hình đa nhiệm miễn phí được phát triển bởi Sunshine Song.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Splitviewpro.json
+Depiction: https://jtisvn.github.io/depictions/Splitviewpro.html
+Icon: https://jtisvn.github.io/sectionIcons/Splitviewpro.png
+Name: Split View Pro (Roothide)
+Author: sunshinesong
+
 Package: com.jtis.spotify
 Architecture: iphoneos-arm64
 Version: 6.1.6
@@ -13756,6 +13795,43 @@ Depiction: https://sudo9000.github.io/depictions/debra/index.html
 Name: Debra (Rootless)
 Author: Sudo
 Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
+
+Package: com.sunshinesong.split-view-pro-helper
+Architecture: iphoneos-arm64
+Version: 999.1
+Section: Tweaks
+Maintainer: sunshinesong
+Installed-Size: 13792
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.sunshinesong.split-view-pro-helper_999.1_iphoneos-arm64.deb
+Size: 1376
+MD5sum: df0e96382a9c7f7384aad6f7c66453b2
+SHA1: d58dda22458ff06dadea6b1d2c8e68f9c2152dfa
+SHA256: 46b968c52a4b87c16260a8bfad3aa8ffa2082aa2438565335c1f8d5a24b21612
+SHA512: eed77be904f90488354729cd80ab4da0e26a6c8a84ff6855d4b5b3448f28bc1c2f3176c05df5d5cc13192e6efe28181f04efa0457ff62116661917c33d07d4ed
+Description: 分屏，不必太复杂，一切从简即可。
+Name: split-view-pro helper
+Author: sunshinesong
+TS: sp-sss
+
+Package: com.sunshinesong.split-view-pro-helper
+Architecture: iphoneos-arm64e
+Version: 999.1
+Section: Tweaks
+Maintainer: sunshinesong
+Installed-Size: 13792
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.sunshinesong.split-view-pro-helper_999.1_iphoneos-arm64e.deb
+Size: 1836
+MD5sum: 9046d8f7ec2710e87f6db1e4490c0da1
+SHA1: 8473e130a5878ceb27c3effa742a574b945ca5f2
+SHA256: c2adfa3932ca84548f98f7907181a1f9282621732b85d3f0191a08eb7ee5daa3
+SHA512: b885854e8dcbcaa4d9a7082d09ccf53d3330d656b45c6031f9c4efe8dc77ac1eeb69bc564ca35e2b608853811595b2201c10a564d8ac125258690a8b9f8c6063
+Description: 分屏，不必太复杂，一切从简即可。
+Name: split-view-pro helper
+Author: sunshinesong
+TS: sp-sss
 
 Package: com.teslaman3092.16player
 Architecture: iphoneos-arm64
