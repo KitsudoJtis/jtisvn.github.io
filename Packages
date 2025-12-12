@@ -3509,6 +3509,45 @@ Author: alimaulana
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AimPro.json
 Icon: https://jtisvn.github.io/sectionIcons/AimPro.png
 
+Package: com.jtis.akara
+Architecture: iphoneos-arm64
+Version: 2.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.muirey03.libimagepicker, firmware (>=15.0)
+Filename: ./debs/com.jtis.akara_2.0.2_iphoneos-arm64.deb
+Size: 615088
+MD5sum: aba8d3ac67600d139055a430add5697c
+SHA1: 0c2bd1197a780cdd2ea2cdc5381375131de7277d
+SHA256: 046a262289cf846dff19a259a47d7c717e0e21c6b743d174ed7f0fa24dfdd97c
+SHA512: 16c18584ef68439f46c15eace5268d0fdad2a27460b6c8b257fcfac255c38d6e1311c3ff1a310ccb6f0db785b16cb5fa162e489b5cff821607720d48986f2e59
+Description: Minimal design without compromise
+Name: Akara (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Akara.json
+Depiction: https://jtisvn.github.io/depictions/Akara.html
+Icon: https://jtisvn.github.io/sectionIcons/Akara.png
+Author: Tr1Fecta & Kennyroo
+
+Package: com.jtis.akara
+Architecture: iphoneos-arm64e
+Version: 2.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.muirey03.libimagepicker, firmware (>=15.0)
+Filename: ./debs/com.jtis.akara_2.0.2_iphoneos-arm64e.deb
+Size: 610772
+MD5sum: 2db1a3b95ef34658a7fba125ce4400c1
+SHA1: 9f3e8311accc291c415f84ea000e30fcfb8a1478
+SHA256: 97029b62b0edb0b610032a2832bd828caddc1958cf2263664f03d8d0bb2f310d
+SHA512: eec8b1e9d1fcca75a3b0b7a8c5fd68e224b32498ec6986a5bc57f700a978e998098bf8e21a5591b5564f3d69180407aee5641429c20a12ead7667e36d29392ca
+Description: Minimal design without compromise
+Name: Akara (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Akara.json
+Depiction: https://jtisvn.github.io/depictions/Akara.html
+Icon: https://jtisvn.github.io/sectionIcons/Akara.png
+Author: Tr1Fecta & Kennyroo
+
 Package: com.jtis.alpine
 Architecture: iphoneos-arm64e
 Version: 1.4
@@ -5992,12 +6031,12 @@ Section: Tweaks
 Maintainer: JTISVN Repo
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.fakedualsim_1.0.1_iphoneos-arm64.deb
-Size: 4132
-MD5sum: 40c3dca9eb905ac194e2716d79ede835
-SHA1: 26d98a0fa5e0294971984593fc6c51a17afd96a2
-SHA256: 36f08a3410ae46040c7ee7fb9bce8a55c346cb42651a474f772c04160ad8aa5b
-SHA512: f22a9f000c440f0d8372383bab7459e05e844d92c09eda44c4771558f72e606df709c987f6827b8b81c2b1e840f261995a93f5309bee978bb0d5ca5bc756bfe0
-Description: Giả mạo 2 sim trên thanh trạn thái
+Size: 4136
+MD5sum: e5b13505a26e3d5ac80c9e73ffeabd37
+SHA1: 6239d82726779ef1b49dfe6ee23fd928c6a0f8e8
+SHA256: 6de7bd36ee40dc45341a0db1cbf7c2a4821d4f703c8a18bbcbd2a00cdb79190c
+SHA512: bd4f3c41e753577b8c22d4bfd9a4b31e4e29dd9488f2cb51da8cc0d741cda5935e4a32abc0b39bc01250c9be2721d784832472f680508d243362a170d0d9247d
+Description: Giả mạo 2 sim trên thanh trạng thái
 Name: FakeDualSIM (Rootless)
 Author: CydiaGeek <lucaluca86@aol.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/FakeDualSIM.json
@@ -6012,12 +6051,12 @@ Maintainer: JTISVN Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.fakedualsim_1.0.1_iphoneos-arm64e.deb
-Size: 3884
-MD5sum: 8bc6623fe5391d2a30d650329e633479
-SHA1: 6a6b7f1abc01c1323f1f93284ddfeaddd4bf67e9
-SHA256: c64c214215bd704953680c4687f691fc6f2aeecf5ce16bde13f8f51eadb4b761
-SHA512: 3ff3f7a86468169773a79f4c33f3669b7312313ab084e04d09f4c104754a50b5459bf7184d3752d7b9dfbf035610403a98f7cd36193914b509c78f825e85f21d
-Description: Giả mạo 2 sim trên thanh trạn thái
+Size: 3892
+MD5sum: 6c3aded68d77503d7081adc8db6fedd6
+SHA1: fb5b2bf3647dbcc57c0fca46d5a19960ca6a30c2
+SHA256: f18ccb9df0d85572fc9f3e46e9cbb2341fd761985228e056cd66fa9b0b61f6c0
+SHA512: 0e6dc17ca22acf805565084e55e19ce8610b7b4c5cea96706a2fdc23be98350439c1ea8d97a3e1ed10fd078162344733220bee29e6dcb5c977b5d5d9187d04ac
+Description: Giả mạo 2 sim trên thanh trạng thái
 Name: FakeDualSIM (Roothide)
 Author: CydiaGeek <lucaluca86@aol.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/FakeDualSIM.json
