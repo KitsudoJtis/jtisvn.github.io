@@ -2873,6 +2873,40 @@ Name: LS Space Quest
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LSSpaceQuest.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
+Package: com.jtis.LSUISharingan
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.LSUISharingan_1.0_iphoneos-arm.deb
+Size: 31568
+MD5sum: 11137e1ea64f9f771b2459adb9431bc4
+SHA1: c7e1b755689587b37a64321ad6d0bbe6fa202eab
+SHA256: 1476be1b5f01236c2176ffa657a617ac34a31194e21c40750701e9f3f24914dc
+SHA512: 4568302dbedc2b67dbe0bbba89effc5bc045d47baa0d68bb4213bb7b33990dbab6c1db971e4e5144973d7577c26f2344ec3edb8a82ec89c829d621ed0e85d959
+Description: Use Snowboard UI Extension to enable LS UI.
+Author: Phuc Do
+Name: LS UI Sharingan
+Depiction: https://jtisvn.github.io/depictions/LSUISharingan.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.LSUISharingan
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.LSUISharingan_1.0_iphoneos-arm64.deb
+Size: 31656
+MD5sum: 3a809256be780a176baccb3d9770d069
+SHA1: a6b51a4acef1d413b9b727d8ca98088b986a5ef0
+SHA256: 5b32d03a93cf35c769e1f46fa8afab68497615412b96d533ab134ac6e545268c
+SHA512: 25528788d6ff00ae6d781629d0ec4c4a0c81c5051e3de3f44ab052e94a7d0e7049623a614ad4425ecf47d7ec7ed8f3b784c57439b62f0c15f974419ab579261f
+Description: Use Snowboard UI Extension to enable LS UI.
+Author: Phuc Do
+Name: LS UI Sharingan
+Depiction: https://jtisvn.github.io/depictions/LSUISharingan.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
 Package: com.jtis.LiquidglAss
 Architecture: iphoneos-arm
 Version: 2.0
