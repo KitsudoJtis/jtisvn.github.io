@@ -14334,17 +14334,17 @@ Icon: https://jtisvn.github.io/sectionIcons/Airaw.png
 
 Package: jp.uzra.aerial
 Architecture: iphoneos-arm64
-Version: 2.1.6
+Version: 2.2
 Section: Tweaks
 Maintainer: uz.ra
-Installed-Size: 2268
+Installed-Size: 2300
 Depends: mobilesubstrate
-Filename: ./debs/jp.uzra.aerial_2.1.6_iphoneos-arm64.deb
-Size: 1369324
-MD5sum: 214993e9495dfbaf9d86521cd54e709e
-SHA1: 45b35024880ed1f69f830c2c75d04cac0aff37e1
-SHA256: 301f71bdd26bb1726789f6b62cbdfb4686aaee0e9324665883031505912e4177
-SHA512: 82b750a91d3e74279bcac1db25eb6e95590a8548782ed87397fad5f2c103099fcfae84ba3bb1268b486abda505c04dc1a5c1e53a137d0581042f776ffbee5594
+Filename: ./debs/jp.uzra.aerial_2.2_iphoneos-arm64.deb
+Size: 1378588
+MD5sum: 5352bb66cde6cc83bc3acf8ad26b599f
+SHA1: 700bd3ad99abbd56b4d58f2d711719d20d1fb3ce
+SHA256: e5ba925f28e6054f86555f9eb8e1d48187b9928024ea75465859dc5729b53b4a
+SHA512: 135a50b58ed1a9348f6bdab0f86bd171d7728b40c210c66562fc47acfbbdb6af36d7c2623850ec7bd63a1fa9a034a9fe18158a452753f7520869275c6ee9e388
 Homepage: https://jtisvn.github.io
 Description: Stage Manager, redesigned for iOS
 Name: Aerial (Rootless)
@@ -14355,18 +14355,18 @@ Icon: https://jtisvn.github.io/sectionIcons/Aerial.png
 
 Package: jp.uzra.aerial
 Architecture: iphoneos-arm64e
-Version: 2.1.6
+Version: 2.2
 Section: Tweaks
 Maintainer: uz.ra
-Installed-Size: 2268
+Installed-Size: 2300
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
-Filename: ./debs/jp.uzra.aerial_2.1.6_iphoneos-arm64e.deb
-Size: 1370332
-MD5sum: cdfd58a916ce6b7d530ba2de4065bb7d
-SHA1: c2c68f5dadf28a1e2096ae05c601f63e07f84c04
-SHA256: 108c3ea46d47dd4bd6b81c2f69c893b4652c02194fef496ccd85aa48300151c8
-SHA512: fda86b5a202649cfc45fce4b468c181ce9695e90612e2dec878969b1939562cbe27f2fb1ce1eacb595816f0312eb10c451542d160234ff7ccd6cf697eb83c170
+Filename: ./debs/jp.uzra.aerial_2.2_iphoneos-arm64e.deb
+Size: 1378324
+MD5sum: d94a09da1fd4323896e7b0a0ca445d65
+SHA1: dd23e7138a6cfe7b122ddee2ce2cba31e90fde61
+SHA256: 0a983cd10ed038e0f87ee1960aa54732a9d28879528190d3a1e869146e5a4001
+SHA512: 8e901fd21cf02c7643d5f8b3f0ad22ca7193e69cc3ce94bce718f52d17128099f3760d0f86856fd82bc97c7faadcbefe3df2f263a6259c8541b8e211933c2b7c
 Homepage: https://jtisvn.github.io
 Description: Stage Manager, redesigned for iOS
 Name: Aerial (Roothide)
@@ -14412,6 +14412,47 @@ Name: MutePlay (Roothide)
 Author: uz.ra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/MutePlay.json
 Icon: https://jtisvn.github.io/sectionIcons/MutePlay.png
+
+Package: jp.uzra.planetes
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Section: Tweaks
+Maintainer: uz.ra
+Installed-Size: 2064
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/jp.uzra.planetes_1.1.1_iphoneos-arm64.deb
+Size: 1336568
+MD5sum: 4d08c0fc013d3bd39253865dd6d2449b
+SHA1: fbb5c10cae0ea99428d505214157e4eeea89e536
+SHA256: c4c5fc6e098432ccd439006cdf1b732b46817a6908058cc1f48cdf4e5a6ea14d
+SHA512: adc0478fc412044d68391f2c95ba1f3ef756858191575a6ce1602c3f65e115f85cf463c09dba87687cedc3ab100e244ba38c3fc5104ba6fd1c50e5a2ae0bf6a8
+Description: Edge panel, ported to iOS
+Name: Planetes (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Planetes.json
+Depiction: https://jtisvn.github.io/depictions/Planetes.html
+Icon: https://jtisvn.github.io/sectionIcons/Planetes.png
+Author: uz.ra
+
+Package: jp.uzra.planetes
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: uz.ra
+Installed-Size: 2064
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/jp.uzra.planetes_1.1.1_iphoneos-arm64e.deb
+Size: 1336488
+MD5sum: b47afc3b8e45ef509238b9aa604164e9
+SHA1: 8ae3e6bf32888e9d3b68892fbc0749fe94b219c0
+SHA256: 6c68f257756feb07666217528a6bb02dbebe9726d182b4592de91d66da68060d
+SHA512: 0361fc6632b93be6429b6690afcc078dd088378a87ef402d4e89ad10d7e4ece03a49b8315aa685b70ad6314c2630ceeb2cadec87f85ae787ffc7f7d10db0db7b
+Description: Edge panel, ported to iOS
+Name: Planetes (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Planetes.json
+Depiction: https://jtisvn.github.io/depictions/Planetes.html
+Icon: https://jtisvn.github.io/sectionIcons/Planetes.png
+Author: uz.ra
 
 Package: kr.xsf1re.vnodebypass
 Architecture: iphoneos-arm64
