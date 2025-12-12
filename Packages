@@ -1781,6 +1781,25 @@ Author: Alexman
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Trakya85.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 
+Package: com.hitori.trakya85
+Architecture: iphoneos-arm64e
+Version: 4.0
+Section: Fonts
+Maintainer: Hitori
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard.fonts
+Filename: ./debs/com.hitori.trakya85_4.0_iphoneos-arm64e.deb
+Size: 9586424
+MD5sum: 6b15f496da92d7ec7188b090b874dd04
+SHA1: 6aedaf2b5ed1315a83514cc358b12693768dd341
+SHA256: 89b2e38f467bece58ffb47f8c52a5d8d9f8b7e4f092aaf62e722af40d9b11589
+SHA512: 732a34d1804c83841e701b266826d25b3557f5daae0fc67ea7b773cf77e6e61a15c30f3ecdb550924df9c1b81d0f9d8329b2e92a634aeb4d866d5178d819c4c1
+Description: Trakya Rounded is a perfect blend of elegant, minimal and premium design aesthetics at it’s level best.
+Name: Trakya Rounded (85)
+Author: Alexman
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Trakya85.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+
 Package: com.iarrays.biolocker
 Architecture: iphoneos-arm64
 Version: 1.15.0-beta-2
