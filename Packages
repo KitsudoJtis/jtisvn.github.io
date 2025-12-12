@@ -5985,6 +5985,45 @@ Author: CydiaGeek <lucaluca86@aol.com>
 dev: lucaluca86
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.fakedualsim
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.fakedualsim_1.0.1_iphoneos-arm64.deb
+Size: 4132
+MD5sum: 40c3dca9eb905ac194e2716d79ede835
+SHA1: 26d98a0fa5e0294971984593fc6c51a17afd96a2
+SHA256: 36f08a3410ae46040c7ee7fb9bce8a55c346cb42651a474f772c04160ad8aa5b
+SHA512: f22a9f000c440f0d8372383bab7459e05e844d92c09eda44c4771558f72e606df709c987f6827b8b81c2b1e840f261995a93f5309bee978bb0d5ca5bc756bfe0
+Description: Giả mạo 2 sim trên thanh trạn thái
+Name: FakeDualSIM (Rootless)
+Author: CydiaGeek <lucaluca86@aol.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FakeDualSIM.json
+Depiction: https://jtisvn.github.io/depictions/FakeDualSIM.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.fakedualsim
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.fakedualsim_1.0.1_iphoneos-arm64e.deb
+Size: 3884
+MD5sum: 8bc6623fe5391d2a30d650329e633479
+SHA1: 6a6b7f1abc01c1323f1f93284ddfeaddd4bf67e9
+SHA256: c64c214215bd704953680c4687f691fc6f2aeecf5ce16bde13f8f51eadb4b761
+SHA512: 3ff3f7a86468169773a79f4c33f3669b7312313ab084e04d09f4c104754a50b5459bf7184d3752d7b9dfbf035610403a98f7cd36193914b509c78f825e85f21d
+Description: Giả mạo 2 sim trên thanh trạn thái
+Name: FakeDualSIM (Roothide)
+Author: CydiaGeek <lucaluca86@aol.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FakeDualSIM.json
+Depiction: https://jtisvn.github.io/depictions/FakeDualSIM.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.fastlock
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -11354,6 +11393,42 @@ Name: Waktos 2 (Roothide)
 Author: alimaulana
 Icon: https://jtisvn.github.io/sectionIcons/Waktos2.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Waktos2.json
+
+Package: com.jtis.watched
+Architecture: iphoneos-arm64e
+Version: 1.1-10+debug
+Section: Tweaks
+Maintainer: Little 34306
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: ./debs/com.jtis.watched_1.1-10+debug_iphoneos-arm64e.deb
+Size: 5756
+MD5sum: e90698babd5aee6846e469c21549575d
+SHA1: d7586a0bcaeaba36784285d1a8b021683d0f4d2d
+SHA256: 38a695586ef6e30476eb2219ababa3777c2fb8fcaa0e5077db0d0c23848203c9
+SHA512: a636ec6e81575f013608b22400a436b2d92101118368ecfcfe3f2cfdac26288beb45dcaab7a0c8738dec72834e0ac4ee5381f4dda7b39f837967f5bf4d40394a
+Description: Hỗ trợ ghép nối Apple Watch của bạn trên watchOS mới với iOS cũ hơn
+Name: watched (Roothide)
+Author: 34306
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.watched
+Architecture: iphoneos-arm64
+Version: 1.1-9+debug
+Section: Tweaks
+Maintainer: Little 34306
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: ./debs/com.jtis.watched_1.1-9+debug_iphoneos-arm64.deb
+Size: 5800
+MD5sum: ad9fc3313a8d288ef5e805642d8bc7d7
+SHA1: b2a1e42cb0b760eeef18315e7cc6d8d32c88b94e
+SHA256: 028bd801eece6e09801d25b7388ec55ffac615e8c8740641a1b72b5fdb301b76
+SHA512: e7da3ba71d63a504fd81ee1065bfd86a5faa533faa80cbab190e3bc830965b1e4c28a6a2048c96191d3a9904d65e0d6d558087c29db3c870e87e7b71c439ce87
+Description: Hỗ trợ ghép nối Apple Watch của bạn trên watchOS mới với iOS cũ hơn
+Name: watched (Rootless)
+Author: 34306
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.xuanhua120hz
 Architecture: iphoneos-arm64
