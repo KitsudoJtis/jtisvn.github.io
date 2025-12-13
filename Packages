@@ -1429,6 +1429,46 @@ Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 SileoDepiction: https://jtisvn.github.io/sileodepictions/iCleanerPro.json
 Icon: https://jtisvn.github.io/sectionIcons/iCleanerPro.png
 
+Package: com.foxfort.foxforttools
+Architecture: iphoneos-arm64e
+Version: 1.4.15
+Section: Development
+Maintainer: FoxfortMobile
+Installed-Size: 2068
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.foxfort.libfoxfortutils (>= 1.4.9)
+Conflicts: com.hackyouriphone.foxforthack, com.pulandres.foxforthack, org.cydia.kiimo.foxforthack, ru.rejail.foxforthack, me.pulandres.foxforttools, co.xrepo.appletweakjailbreak.foxforttools, net.kenhtao.foxforttools, sileoturkiye.foxforttools, com.yourepo.mohadu31.foxforttools, org.cydia.kiimo.foxforttools, com.hackyouriphone.foxforttools, com.hackyouriphone.mgspoof, org.mr.mgspoof, com.34306.foxforttools, r-o-o-t-l-e-s-s-, com.r-o-o-t-l-e-s-s-.manager
+Filename: ./debs/com.foxfort.foxforttools_1.4.15_iphoneos-arm64e.deb
+Size: 468896
+MD5sum: 10f12b73357d2e02179f098b9eaf17a1
+SHA1: ae3103b039775484366fde994bddc60d5bc9233e
+SHA256: 5615f4eb7d8cd26944fbb09217d3b6af7f1555fed2a87e3c8a6af1d52f2094f3
+SHA512: e9bf0528f553d95e2b1441b3ce72250c8ddeb76c6a1f8a2c56ee0d03c4c496a5a8ebffcabf729be6420f8f5e3a1f2f84a7a81911ff7ec5e76f977917ec1a9938
+Description: Helper tools for Foxfort tweaks
+Tag: role::developer
+Name: FoxFort Tools
+Author: FoxfortMobile
+
+Package: com.foxfort.libfoxfortutils
+Architecture: iphoneos-arm64e
+Version: 1.4.9
+Section: Development
+Maintainer: FoxfortMobile
+Installed-Size: 1304
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), com.opa334.libsandy
+Conflicts: co.xrepo.appletweakjailbreak.libfoxfortutils, co.xrepo.appletweakjailbreak.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64e, com.hackyouriphone.libfoxfortutils64, com.hackyouriphone.libfoxfortutils64e, com.yourepo.mohadu31.libfoxfortutils64, me.pulandres.libfoxfortutils64, me.pulandres.libfoxfortutils64e, net.kenhtao.libfoxfortutils64, sileoturkiye.libfoxfortutils64, sileoturkiye.libfoxfortutils64e, com.badr.libfoxfortutils, com.hackyouriphone.mgspoof, org.mr.mgspoof, com.34306.libfoxfortutils, r-o-o-t-l-e-s-s-
+Filename: ./debs/com.foxfort.libfoxfortutils_1.4.9_iphoneos-arm64e.deb
+Size: 281788
+MD5sum: 5ac238c2380b79e94252faa8a3e74976
+SHA1: 9321219a2afdf91473dcacbada4abaf4320bb36a
+SHA256: aac329298c2f97cf1c143590376787a222ac4ee8a9a7a34f1b87e075c229af63
+SHA512: 144d4c2c0b7ca5f7a71440d950edd2719661fa7c6c2172c83b052a4b04299e755a78709b89a466149b55c40561a84796478f0714a52f2f659d7b090977a82910
+Description: library for Foxfort tweaks
+Tag: role::developer
+Name: libfoxfortutils
+Author: FoxfortMobile
+
 Package: com.foxfort.translomatic
 Architecture: iphoneos-arm64e
 Version: 2.18.31
@@ -1438,14 +1478,18 @@ Installed-Size: 5080
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.4.7), com.opa334.altlist
 Filename: ./debs/com.foxfort.translomatic_2.18.31_iphoneos-arm64e.deb
-Size: 1172528
-MD5sum: a05fcd52ebbded491975e2ce32ecb1cb
-SHA1: f7ceffa2c083eaa854374c2ee5a44b3ba80fdf73
-SHA256: a5fe6eb2c6f818b834fc23efeefb5bcfdf09d6d2d963a15246c85115a878ffdc
-SHA512: 4285dd6b423614a39f3999453c7ef020f5dca93ee36f2c59a4b46ccd35857e45c196a4c8df1e9689cb5275e69acb1eeac1be8669fb34228db2eea20ddae25485
-Description: Dịch nhanh bất kỳ văn bản nào bạn muốn. Đây là phiên bàn hỗ trợ tương thích dành cho Roothide.- Xin vui lòng  cài đặt 2 gói foxfort trong nguồn JTISVN trước và mua tweak bên nguồn havoc để sử dụng
+Size: 1169132
+MD5sum: 7cfdb19a5b7cfa5561706c36cd41dfd8
+SHA1: d9e2b4414f31d2bdc504a66826ac152c2209525c
+SHA256: 69e96c2e3488e732e777f79140c5770bcd18b63be98810187920e171dad3bb11
+SHA512: 5edb9f675585678ebc9bdf55bda86bbc156172b6cfd63420a85caa785b01a66bee1d3e3eb838b96d3f15c0b997e70975a84e360e83f68f604a0586ee3581dd59
+Description: Dịch trực tiếp nhanh bất kỳ văn bản nào bạn muốn：Đây là phiên bàn tương thích dành cho Roothide Jailbreak.
+ 	  *  Có thể dịch trực tiếp bằng ảnh chụp màn hình tích hợp với tweak Snapper 3 
+ 	  *  Yêu cầu tải 2 gói foxfort trong nguồn JTISVN trước khi cài đặt tweak này
+ 	  *  Tweak Translomatic chỉ hoạt động khi bạn đã mua nó trên nguồn Havoc
 Name: Translomatic (Roothide)
 Author: FoxfortMobile
+depiction: https://havoc.app/depiction/translomatic
 Icon: https://jtisvn.github.io/sectionIcons/Tra%C3%A1nlomatic.png
 
 Package: com.ginsu.comet
