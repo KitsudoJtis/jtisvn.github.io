@@ -1274,6 +1274,24 @@ SileoDepiction: https://evynw.github.io/sileo/fontcenter8514.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 Author: Evelyn (ev_ynw)
 
+Package: com.evynw.fontdubai14
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Filename: ./debs/com.evynw.fontdubai14_1.1_iphoneos-arm64.deb
+Size: 5230892
+MD5sum: d31a8c6e7c44f8b6a9c6fcb1845a3699
+SHA1: de0051f01593e62cd53a04a4ba9a310920920230
+SHA256: b89b77f5344e57591d0ae5acaac197a7516045a451278b2c3ed7882f8cf538b4
+SHA512: 9b24df09fa8abb375d0d66f8dd639c74cb6a4e1917b2a3ad01cc6887dcbcce092a01d6d2b1cccb7f417d44d915057376cd8c8070af472c71b7326da9ed19179a
+Description: Well-known Microsoft font. 100% size. For iOS14-16.
+Name: Dubai (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontdubai14
+SileoDepiction: https://evynw.github.io/sileo/fontdubai14.json
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
 Package: com.evynw.fonthouschkarounded14
 Architecture: iphoneos-arm64
 Version: 1.0-2
@@ -7993,6 +8011,26 @@ Author: CUNSTUCK <cunstuck@gmail.com>
 dev: cunstuck
 depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=locationfakerxDp
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.locketgold
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 616
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.locketgold_0.0.2_iphoneos-arm64.deb
+Size: 26948
+MD5sum: 93053b6b0cf2c26fca0eb81200c97919
+SHA1: 86030a3c00a478ed000f59ea5f189e29dd34e68a
+SHA256: 431eff5114f43bcbc14a1b877db08ef7fb7c3ce802224257f29f7a2cbf2e783d
+SHA512: 0619607ac01c50cd08f4d80cc7660f973060ec2b9d4cbad3acab5000540db38fa19474b7da9bd16a7a4c680ee4d9308038a26fe62618acf1eaa1552f2d3d1ad6
+Description: Locket Widget Unlock
+Name: Locket Gold
+Author: Blatant
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Locketgold.json
+Depiction: https://jtisvn.github.io/depictions/Locketgold.html
+Icon: https://jtisvn.github.io/sectionIcons/Locketgold.png
 
 Package: com.jtis.lockplayer
 Architecture: iphoneos-arm64
