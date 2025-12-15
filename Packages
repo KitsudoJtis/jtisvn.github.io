@@ -6398,6 +6398,27 @@ SileoDepiction:  https://jtisvn.github.io/sileodepictions/Floaty.json
 Icon: https://jtisvn.github.io/sectionIcons/Floaty.png
 
 Package: com.jtis.flow
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: dvntm, nowesr1
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.dvntm.flow
+Replaces: com.dvntm.flow
+Filename: ./debs/com.jtis.flow_1.0_iphoneos-arm.deb
+Size: 229692
+MD5sum: 2f5b98278843d4a1d26ecdf98c3aebda
+SHA1: 9e73bb191ab5934f046810b3054e5a15a1092f87
+SHA256: a2189804daa6cdec8919b5558ee5ad5d05aad3f017335b6dcd93bf33900bbfbd
+SHA512: 9a8c7476ca7e5c92182c91a36dc2b0839da33b2e9d99bf92535cb11e18605644f2c349e9293a8f7d7c2c935e4f35be4634c10289d353df772a238a9adc224020
+Description: Bổ sung các tính năng tiện ích cho ứng dụng Messenger
+Name: Flow for Messenger
+Author: dvntm, nowesr1
+Icon: https://jtisvn.github.io/sectionIcons/FlowMerss.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FlowMerss.json
+
+Package: com.jtis.flow
 Architecture: iphoneos-arm64
 Version: 1.0
 Section: Tweaks
@@ -6546,6 +6567,45 @@ Description: An iOS developer framework for rootless tweak development.
 Tag: role::developer
 Name: RootBridge Framework
 Author: jjolano
+
+Package: com.jtis.folderlist
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: shepgoba
+Installed-Size: 480
+Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
+Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, ca.ndoizo.bolders, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, com.nightwind.dockapplibrary, com.tomaszpoliszuk.dockcontroller, com.lizynz.folderx, com.lizynz.folderx.rootless, com.nightwind.boldersreborn
+Filename: ./debs/com.jtis.folderlist_1.0_iphoneos-arm64.deb
+Size: 49816
+MD5sum: 021369c76e8036e3e26b2cf9197f60b2
+SHA1: ddf03097969c2caf2329af095dd3fc6522aff8de
+SHA256: 04aba7f8a49fb3e6729e8221be5e5f6593adc999df6baca18cf430756b2104df
+SHA512: 88eecef84fc03c5ad690b732ed31c1af05ae84651636b54a5ca7c8e700e87d4440c43cbe95511c68d661449036d4c3682ac3e15e73638313cc918c879e2f24b9
+Description: Hiển thị danh sách các ứng dụng trong một thư mục dạng như watchOS.
+Name: FolderList (Rootless)
+Author: shepgoba
+Icon: https://jtisvn.github.io/sectionIcons/FolderList.png
+
+Package: com.jtis.folderlist
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: shepgoba
+Installed-Size: 480
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
+Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, ca.ndoizo.bolders, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, com.nightwind.dockapplibrary, com.tomaszpoliszuk.dockcontroller, com.lizynz.folderx, com.lizynz.folderx.rootless, com.nightwind.boldersreborn
+Filename: ./debs/com.jtis.folderlist_1.0_iphoneos-arm64e.deb
+Size: 49744
+MD5sum: eee598b7349b621dea03a0565bca2f54
+SHA1: b733b8759c3a472622577d0056bf0b7b58bdf92c
+SHA256: 7f29f91bb1294dfe054f7b44031b432c7e270898040ae385d69c50e6589921e7
+SHA512: c79c9406f97d6d0a56a7efb6d8426ced5a4d0647979b50cbcfaba359bef991df21a4ff23e530e0fbacb6a647bd227456099fa5fafa89b0ef2c7d219348428bc4
+Description: Hiển thị danh sách các ứng dụng trong một thư mục dạng như watchOS.
+Name: FolderList (Roothide)
+Author: shepgoba
+Icon: https://jtisvn.github.io/sectionIcons/FolderList.png
 
 Package: com.jtis.folderx
 Architecture: iphoneos-arm64e
@@ -8856,6 +8916,25 @@ Name: No Redirect (Roothide)
 Author: Lessica <82flex@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/NoRedirect.json
 Icon: https://jtisvn.github.io/sectionIcons/NoRedirect.png
+
+Package: com.jtis.noscreenshotview
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Tweaks
+Maintainer: iBreak
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.noscreenshotview_1.0.1_iphoneos-arm.deb
+Size: 4576
+MD5sum: 2af05650d2959a75a1de799086d71b96
+SHA1: b3f528f369fdd5b8c42b9eb04101c865ad31b7c8
+SHA256: fa74767321922abe2b40905fa88d2824c4254c4c22dc795054d7ed4be76a0f65
+SHA512: edb28e5ad96be1d5b66e462e1334bf6c79d0e23c407fa8ac0df694418c3be5fabd95f2e1a649cfd8d4a45cf3b524fce11a7b73d9ac605c82d7c81fed43c3a6f4
+Description: Ẩn xem trước ảnh chụp màn hình
+Name: No ScreenShots view
+Author: iBreak
+Depiction: http://bvnsupport-jailbreak.github.io/infodeb/noscree/?p=info
+SileoDepiction: http://bvnsupport-jailbreak.github.io/infodeb/noscree?p=info
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.notisound
 Architecture: iphoneos-arm64
@@ -15103,6 +15182,27 @@ Name: PrideBars (Roothide)
 Author: p0358
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PrideBars.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: net.limneos.livecalltranslator
+Architecture: iphoneos-arm64
+Version: 0.1-61
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1816
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.pulandres.limneosos, ru.rejail.limneosos
+Filename: ./debs/net.limneos.livecalltranslator_0.1-61_iphoneos-arm64.deb
+Size: 235392
+MD5sum: eef7fd63b1d9e705529608a6248b2edb
+SHA1: bf76751f209e567956a1703199b50bff238070c8
+SHA256: 313dffa0b526c9ca1c1a35e5125f3dd18794b89de015e2b8c35a1c67ec9b984e
+SHA512: 4a1a4870a6e542f7ec5bd8720fbd2a9b5557c1ca4f245190196bf38126ed18b49572ebe342246c2914758de5c9ddbe40bb089abc015541aa3472055cffb0e486
+Description: Translate your voice over a call live!
+Name: Live Call Translator (Rootless)
+Depiction: https://limneos.net/livecalltranslator
+SileoDepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.livecalltranslator
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: Elias Limneos <limneoselias@gmail.com>
 
 Package: net.limneos.simpleactivationactions-roothide
 Architecture: iphoneos-arm64e
