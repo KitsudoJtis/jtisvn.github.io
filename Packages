@@ -4707,6 +4707,45 @@ Name: BlurryBadges (Roothide)
 Author: PoomSmart <qiaozhani000@163.com>
 Icon: https://jtisvn.github.io/sectionIcons/BlurryBadges.png
 
+Package: com.jtis.boardswipe
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.boardswipe_1.0.0_iphoneos-arm64.deb
+Size: 487416
+MD5sum: 20a1b0219a48a76ede5112341b3608c1
+SHA1: 8e058dbc3a49ec56accb626dbf3c4bfcd8561d9d
+SHA256: e4dba7c8d8a8bbd32aafea61d75dce8aa415c3d5887c245364ab8fb5aab8e15d
+SHA512: ad038a49023cb047daa1d3bb25cdd931e18bd9a39c236131b07492859312efed8f2c4be60efa9c1996bd2b374e016931efa854e8cd1768399148592165a060f6
+Description: Vuốt xuống để tắt bàn phím, vuốt lên để chuyển bàn phím
+Name: BoardSwipe (Rootless)
+Author: AnubisTweaks
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BoardSwipe.json
+Depiction: https://jtisvn.github.io/depictions/BoardSwipe.html
+Icon: https://jtisvn.github.io/sectionIcons/BoardSwipe.png
+
+Package: com.jtis.boardswipe
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.boardswipe_1.0.0_iphoneos-arm64e.deb
+Size: 487392
+MD5sum: 9d2c148c8ed11aa96029ba5890b90eb5
+SHA1: 7a4493e467ba79792922fdbd73cd226db18a52fc
+SHA256: e98f2f18b15432f43bb97ff420ac37ccc0953da8087dd8ac9380428f1dcccc21
+SHA512: 522d387686db049c03fa89c2063d1ce6b1b6ace5fc908c4a5d3ee16e07bcd92ae5a10a73defe93c9f85532806a7d3307048038cf12b8292053f16ae14c4d6f56
+Description: Vuốt xuống để tắt bàn phím, vuốt lên để chuyển bàn phím
+Name: BoardSwipe (Roothide)
+Author: AnubisTweaks
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BoardSwipe.json
+Depiction: https://jtisvn.github.io/depictions/BoardSwipe.html
+Icon: https://jtisvn.github.io/sectionIcons/BoardSwipe.png
+
 Package: com.jtis.boxy4vn
 Architecture: iphoneos-arm
 Version: 4.4.2
