@@ -9010,6 +9010,26 @@ Name: NotiSound (Roothide)
 Author: EliasSfeir
 Icon: https://jtisvn.github.io/sectionIcons/NotiSound.png
 
+Package: com.jtis.nowidgetlabels
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.nowidgetlabels_1.0_iphoneos-arm64.deb
+Size: 3636
+MD5sum: fab7b4aa8895f65d06788d7623f5bbb6
+SHA1: cf42d49a3f81da1aa0b0238f8b60581491bada4e
+SHA256: f47b1deb86749b3fb40106211c4777ce5a5c595edbec38584d823e3f66f0d1e7
+SHA512: 2677e4e85771f1539b3978083129be7a3bc912bb77092e074d2ef594f74c3d748b0614bb2c6fb041e357160c1c079f61e0502cb6da08f52a6ec8ea918819fb6b
+Homepage: https://jtisvn.github.io/
+Description: Ẩn nhãn tên tiện ích Widget trên màn hình chỉnh
+Tag: role::enduser
+Name: NoWidgetLabels (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Tags: compatible_min::ios14.0, compatible_max::ios16.2
+Author: ETHN <ethanwhited2208@gmail.com>
+SomeOtherEntryToControl: True
+
 Package: com.jtis.ocd
 Architecture: iphoneos-arm64
 Version: 5.2
