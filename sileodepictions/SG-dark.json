@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Snoked Glass Dark\n\n- Chủ đề Snoked Glass Dark, được thiết kế bởi Nguyên Tokuda.\n\n- Gồm 90 biểu tượng & Dock UI.\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.\n\n- Các bạn muốn đầy đủ icon còn thiếu thì liên hệ tác giả bên dưới để mua ủng hộ bác ấy nhé, xin cảm ơn!\n\n[**Facebook Tác Giả**](https://www.facebook.com/share/1BSw42sn6x/?mibextid=wwXIfr) 🤏 Ủng hộ tác giả",
+"markdown":"Chủ đề Snoked Glass Dark, được thiết kế bởi Nguyên Tokuda.\n\nGồm 100 biểu tượng & Dock UI.\n\nKích hoạt chủ đề qua tinh chỉnh Snowboard.\n\n- Các bạn muốn đầy đủ icon còn thiếu thì liên hệ tác giả bên dưới để mua ủng hộ bác ấy nhé, xin cảm ơn!\n\n[**Facebook Tác Giả**](https://www.facebook.com/share/1BSw42sn6x/?mibextid=wwXIfr) 🤏 Ủng hộ tác giả",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -151,7 +151,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.1\n\n- Đổi tên cũ sang tên Snoked Glass Theme.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.1\n\n- Thêm 1 số biểu tượng mới\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"

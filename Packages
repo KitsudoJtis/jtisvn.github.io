@@ -6885,15 +6885,37 @@ Section: Fonts
 Maintainer: JTIS Repo
 Depends: firmware (>=14.0)
 Filename: ./debs/com.jtis.fontuandilove-rootless_1.0_iphoneos-arm64.deb
-Size: 467768
-MD5sum: 2d183568ea98d6ece6aebfa987d716ce
-SHA1: d1a162f6e1f82cf37185ea3fd17583278d8575e0
-SHA256: e7e64a3c7652d2325d4f2f21ab3ce2e39c22f3bd8ed24a8b23c167c597c6797f
-SHA512: 9e2eb530af1eec3865078173dc78631d8d1f32167172fdd35cdb311b6bc8e72f0f5b9247a74e34946e0add0885c3cca976dadde90f80e25907776de30c3bc037
+Size: 467732
+MD5sum: 941e240052c8f55f0ec7383f2bd07e59
+SHA1: 72056530786ee0ff9a1edde124db686a47b8713a
+SHA256: 46afdc22e4dd963bf0e5b3e6301a2525c66e9e92b405656a2e743371d9d76307
+SHA512: 45a91bde14cb2a1dd9d2cbd6a5569b530f2a6308bd96da2e0b0e7705e2d186349a099a252ee002e815a263a9b7134b3ef4ddf6069d626edd18dd2dda2927f157
 Homepage: https://alo.works/
 Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
-Name: Font U and I Love
+Name: U and I Love Font
 Icon: https://Jtisvn.github.io/sectionIcons/font2.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Fontuandilove.json
+Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
+Author: TQM
+
+Package: com.jtis.fontuandilove-rootless
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=14.0)
+Filename: ./debs/com.jtis.fontuandilove-rootless_1.0_iphoneos-arm64e.deb
+Size: 1391954
+MD5sum: bd8b920e000eb9a9eb94c4dfb77b47b2
+SHA1: d1fdf6eaa81522ac4b3309913de2bee5a74ab0cc
+SHA256: 4ffc0408ef5038ec87a98aecabae6c32f7e69e209dd17ba73b942adbe3253bfe
+SHA512: 36924cc45c75994741393faf415fec1fc7426866dcac8bd9a77fa59ff603c1fafdc32da5d5716456f2ceb27bf074a68961b7b15562f07d8a4f999408e225c4b8
+Homepage: https://alo.works/
+Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
+Name: U and I Love Font
+Icon: https://Jtisvn.github.io/sectionIcons/font2.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Fontuandilove.json
 Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
 Author: TQM
 
@@ -7068,16 +7090,34 @@ Version: 1..1
 Section: Chủ đề
 Maintainer: JTIS Repo
 Filename: ./debs/com.jtis.gldark_1..1_iphoneos-arm64.deb
-Size: 7014308
-MD5sum: f1635ca0c979a82eac275b1683469594
-SHA1: 350d17328d1503dbc17248b2e7eeb2ec52cf8056
-SHA256: 1718756e9d8127be642598fca7a5dca441ddd3d0d4ef52d7bb13d450b0df7717
-SHA512: cc0c4102b6b6af22e0d429768d4dca972d637d3678458a7d7c1c8cfa8585a9e26d511aca752f120b4674c0f0486818c6b24961dc3a3052f29d5c39bd9942ed3a
+Size: 7575060
+MD5sum: 5fe0bd02afbd4efd5b1a36a953e3b93e
+SHA1: 4efabe27529d9f944ef71030854886661491195d
+SHA256: db536aca82c4a6eaf68b0ac89945c5320114c639deb0b0ec5fed9321988c6f1b
+SHA512: 555a9eca997b10dc99a18a9a41c0284fe3791e663fc6b13827f30983ae0f279e37e9054e3f685a0e77d64d36298fb5624721e4a4c3f5aeb40de46c809f2ca12e
 Description: Chủ đề Snoked Glass Dark
 Name: Snoked Glass
 Author: Nguyên Tokuda
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SG-dark.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.gldark
+Architecture: iphoneos-arm64e
+Version: 1..1
+Section: Chủ đề
+Maintainer: JTIS Repo
+Filename: ./debs/com.jtis.gldark_1..1_iphoneos-arm64e.deb
+Size: 15202628
+MD5sum: 0ef03b07dd55881c1980f3e7ca4352d0
+SHA1: 69adc82acd22e1836017da54964a272d5b5aa77d
+SHA256: f5a89134d9ca2465507c2d79b980cc3677b5f5607c9ceab7fe79daca1785509a
+SHA512: 55d85fb7e3ded826a03d98477f0705fa9e201944cf6f8bf07cb4c0c680d7aec9446670e817f061f2833f780eaa0e8be7627cc57546acca92bb152128254ea98c
+Description: Chủ đề Snoked Glass Dark
+Name: Snoked Glass
+Author: Nguyên Tokuda
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SG-dark.json
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+ Pre-Depends: rootless-compat(>= 0.9)
 
 Package: com.jtis.gmailnoads
 Architecture: iphoneos-arm64
