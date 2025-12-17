@@ -4781,23 +4781,6 @@ Icon: https://jtisvn.github.io/sectionIcons/BioProtect.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BioProtect.json
 MainLibMD5: b22ceb543f0b4c1d6354ef7ad70f769b
 
-Package: com.jtis.blackberry-lclassickeys
-Architecture: iphoneos-arm64
-Version: 1.0
-Maintainer: JTISVN Repo
-Filename: ./debs/com.jtis.blackberry-lclassickeys_1.0_iphoneos-arm64.deb
-Size: 17131672
-MD5sum: 63ac06ff82ebebc1834a930161d17c68
-SHA1: 5cf0f311e7cd8234a948d2c8cf657d26930a4a4f
-SHA256: f7fcc40b7e82aeaab1c0dec125b459746b3a81a5fac4e32081ea06b96340d183
-SHA512: 70943588d7a297a3326b9400ece80cee42c15cd9270e3f961e624d4a048320e25c6e398597a30c8c9f47a1d30713f892c342743164eb11da3025915beee4a200
-Description: BlackBerry Classic Look cho iOS, Chủ đề bàn phím cho Laetus.
-Name: BlackBerry Classic Keys
-Author: @psprrom<rromero-mosso@hotmail.com>
-SileoDepiction: https://jtisvn.github.io/sileodepictions/BlackBerryClassic.json
-Depiction: https://jtisvn.github.io/depictions/LiquidGlass.html
-Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
-
 Package: com.jtis.bloom
 Architecture: iphoneos-arm64
 Version: 1.0.3
