@@ -6934,15 +6934,15 @@ Section: Fonts
 Maintainer: JTISVN Repo
 Depends: firmware (>=14.0)
 Filename: ./debs/com.jtis.fontedgy-rootless_1.0_iphoneos-arm64.deb
-Size: 4955412
-MD5sum: c4f1df06b7804731f61522043a4465c4
-SHA1: 3ba920eec226f12c959df4a73bf7bdf93a957c9f
-SHA256: e14c35d8176a94111397f4599b8aba518e5d69c985d1ebbb47ddab79ffcf4ee7
-SHA512: 7faee5a69d6784ac7779e14de62b80eb4e2dc6ec582ffc1e45ffe46c56440e8ec790d419e6c582b80d3b53dae7746e779c22b20d5b0bfeebbb6aa7dafa3b6d18
-Homepage: https://alo.works/
+Size: 4953832
+MD5sum: 5fd6432e0252cb825d22b838e760f7e4
+SHA1: 11fe37136af2b14fbdd8f0ca5d0ddeb1d422e994
+SHA256: 717f56f25c38b286fbdb9c58fa4f59518c2b0ce1ce2f5183f0ec81b6148ad7ad
+SHA512: 4ae739879f860dbbdd2c33e58ceef79909b80aea92eba4a71a581d233b46fef3d56c4227def32f4411dc82f9e924548dfa94333e17d21375693fc3e0200409fc
+Homepage: https://jtisvn.github.io/
 Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
 Name: Edgy Font
-Icon: https://Jtisvn.github.io/sectionIcons/font3.png
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Edgy.json
 Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
 Author: Ha Tia To
@@ -6955,15 +6955,15 @@ Maintainer: JTISVN Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>=14.0)
 Filename: ./debs/com.jtis.fontedgy-rootless_1.0_iphoneos-arm64e.deb
-Size: 4953780
-MD5sum: 306b049e6efe7292e795e66371e9d671
-SHA1: 6024e4db6337daf3410baf2399fddf1e09d44d86
-SHA256: 4ed8180ca169d1054e7e372ca6fd6269e687a43a5cc23d1b7e966cb1f237626e
-SHA512: 77acca37cda50ab10f61a3a8d69e8db9e0ec6b177dd4cfd8d7822598cd9c47062e67a621a67aac149d79e6654a267f389c1584619b595678fe53fdf1a79de284
-Homepage: https://alo.works/
+Size: 4953912
+MD5sum: 719bd121afe428684d860aaa70c85b37
+SHA1: ceb0283964ece18f23f69bab1983516a98c7f985
+SHA256: 25b9cb70fb83f0474b17457defbf6400641a37ff31d62a84c7c0e1f20cc5eb64
+SHA512: d0478fa2aeed4b1f4e38ee229bb156d80f6ead33feeacfae33576eef2508070397a97dd120d5b64746aacff883d8e02cff605b8bfb8901efa08a40f4587279fb
+Homepage: https://jtisvn.github.io/
 Description: Sử dụng phông chữ bằng cách kích hoạt qua Snowboard
 Name: Edgy Font
-Icon: https://Jtisvn.github.io/sectionIcons/font3.png
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Edgy.json
 Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
 Author: Ha Tia To
