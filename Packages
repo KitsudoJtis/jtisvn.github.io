@@ -2616,6 +2616,41 @@ Author: Yangji
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cartoo.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
+Package: com.jtis.ChromaSettings
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.ChromaSettings_1.0_iphoneos-arm64.deb
+Size: 1499204
+MD5sum: 4586b039679dc648e195f9cad628a7e3
+SHA1: 909a5c902b601a43d89f2413f206ee29c2c22b1d
+SHA256: 3bd24a9ddc8ff9486ef69db59a2bd07b194ad87fe5799797ec615edf5d6c059a
+SHA512: 771bb27157607ee654c991feb9947fa7c179cbfa05378bae64e1b799143a956480f6931735bd1336ff3ff270323b41f636ff4033ee32064ff251fcb4e6a7fd1e
+Description: Chủ đề setting Snoked
+Name: Setting Chroma
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SnokedSettings.json
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.ChromaSettings
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.ChromaSettings_1.0_iphoneos-arm64e.deb
+Size: 1499104
+MD5sum: bc1a20315c87369034457c3809734fe8
+SHA1: 9cce38790d664ba900c7203f242acd3484e14ee0
+SHA256: 114661461ea747c53b0002c81bdf0508d885a5e6f3ccbc4df64f0467bc78adc7
+SHA512: 1c00de67afe379db6a4c5b681fda9d5a57f8db25127e399860c7919332134bce69490f5fcf6ebb4e5ee12acc67c2155a2c88d9fccbc00287e23a2699403a2fe8
+Description: Chủ đề setting Snoked
+Name: Setting Chroma
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SnokedSettings.json
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+ Pre-Depends: rootless-compat(>= 0.9)
+
 Package: com.jtis.Cydown
 Architecture: iphoneos-arm
 Version: 7.1.6
@@ -3223,23 +3258,6 @@ Description: Công cụ gỡ sạch Jailbreak 100% cho iOS 11 đến 14.3, khôi
 Name: SemiRestore 11 to 14
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: Pwn20wnd
-
-Package: com.jtis.SnokedSettings
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Chủ đề
-Maintainer: JTISVN Repo
-Filename: ./debs/com.jtis.SnokedSettings_1.0_iphoneos-arm64.deb
-Size: 1499236
-MD5sum: 8d289423f138f49df2951d2a5b74a08d
-SHA1: 11f08264b66167d649895b3b8567e27d7ad23fec
-SHA256: a468ab00fe9cb4609e733bfec2ff7168b1166744b919469d5075badc4f2e15bd
-SHA512: 8e3d7cc8a96015866e4c2950b816e4b3d6137b5e49e8ed6ea064493282c5d63c965137be2ee242f5491957f511c90c34eae51caf051160bd8433f74b36575424
-Description: Chủ đề setting Snoked
-Name: Setting Snoked
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/SnokedSettings.json
-Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.Solstice
 Architecture: iphoneos-arm64
@@ -10790,24 +10808,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/SniperTool.json
 Depiction: https://jtisvn.github.io/depictions/SniperTool.html
 Icon: https://jtisvn.github.io/sectionIcons/SniperTool.png
 Author: Sniper @DNS_Sys
-
-Package: com.jtis.SnokedSettings
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Chủ đề
-Maintainer: JTISVN Repo
-Filename: ./debs/com.jtis.snokedsettings_1.0_iphoneos-arm64e.deb
-Size: 1509486
-MD5sum: 66519b0391de78e07c66f27b04c145cc
-SHA1: f4bbc46fe7d2338d881711aa2ab87dbc3b3a81c7
-SHA256: 5c59148f79613d28f1048c4d20d63558f5a5c3ff3c0cdf67f86adb0d1350f291
-SHA512: 1b79b5a3f12254bb9fe1d407674e5a59918755ebf5604b9691f4f5e3aeef0a1768dd91066189be35cf465bce7ad126884426ddfe2c0e86729bb018f81196f3b9
-Description: Chủ đề setting Snoked
-Name: Setting Snoked
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/SnokedSettings.json
-Icon: https://jtisvn.github.io/sectionIcons/Themes.png
- Pre-Depends: rootless-compat(>= 0.9)
 
 Package: com.jtis.sonus15
 Architecture: iphoneos-arm64

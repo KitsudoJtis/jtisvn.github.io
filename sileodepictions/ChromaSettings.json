@@ -11,11 +11,11 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/SnokedSettings/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/ChromaSettings/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/SnokedSettings/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/ChromaSettings/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -23,7 +23,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Chủ đê Snokrd cho ứng dụng cài dặt\n\n- được thiết kế bởi Kitsudo\n\n- Chi tiết gói gồm:\n\n+ 127 biểu tượng\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
+"markdown":"\n\n- Chủ đê Chroma cho ứng dụng cài dặt\n\n- được thiết kế bởi Kitsudo\n\n- Chi tiết gói gồm:\n\n+ 127 biểu tượng\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
 "useSpacing":"true",
 "class":"DepictionMarkdownView"
 },
