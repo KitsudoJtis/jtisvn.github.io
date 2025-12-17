@@ -6358,6 +6358,24 @@ Author: Ethan Whited
 Icon: https://jtisvn.github.io/sectionIcons/Floatingdock.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Floatingdock.json
 
+Package: com.jtis.floatingsafari
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Nightwind
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.jtis.floatingsafari_0.0.1_iphoneos-arm64.deb
+Size: 8920
+MD5sum: b049deeedfc5be32ca2005b8a95ecc7c
+SHA1: 1f2ad34e668cad6c0f8a415c91b4536861dd5199
+SHA256: 3d91f3cac14a18eff6dd234cb2459b1c50513e44a457b58918f7aa22840dc7c6
+SHA512: f22d2339c2d42ac0c2c911cac3959d02227eec6e045b9b48412494a81b2106e978af1f547ad7051767e913e40b192dc08a0b9ee8ab61d668b37f463f76b24677
+Description: Mang trải nghiệm Safari iOS 15 beta lên iOS mới hơn
+Name: FloatingSafari (Rootless)
+Author: Nightwind
+Icon: https://github.com/NightwindDev/FloatingSafari/blob/main/Images/Icon.png?raw=true
+
 Package: com.jtis.floaty
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -6948,6 +6966,36 @@ Author: Nguyên Tokuda
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SG-dark.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
+Package: com.jtis.gmailnoads
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Hao Nguyen
+Installed-Size: 452
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/com.jtis.gmailnoads_1.1.0_iphoneos-arm64.deb
+Size: 137024
+MD5sum: bef95cafda46570a8cc4df894a825657
+SHA1: b69babff25e0a4730b829c19e65dd0772e846993
+SHA256: e4c824129fe7a4d498ba1e5feab1671b8a0dbe6cc7b5ca407c15294840c32dd2
+SHA512: fc3f370989d245736422d97f1bc44fb162a700c07e1baa3a807cba76ef5a43fe785e62962d0c05e8396296fc55b59e9f4bcd0c82faf3729a01addf9938383565
+Description: Free & Open Source Tweak for Gmail
+ Free & Open Source Tweak for Gmail
+ Change log: https://github.com/haoict/gmail-no-ads/releases
+ . 
+ Features:
+ - Remove Ads (in inbox list)
+ - Lightweight
+ - Support iOS 12 - 14 & latest Gmail version
+ . 
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ . 
+ Thanks a ton
+Name: Gmail No Ads (Rootless)
+Icon: https://files.catbox.moe/fyh9dy.webp
+Author: Hao Nguyen
+
 Package: com.jtis.gravitation
 Architecture: iphoneos-arm
 Version: 0.1.1
@@ -7518,6 +7566,43 @@ Tag: purpose::extension
 Name: JTISVN Icon Repo
 Author: JTIS Repo
 Sponsor: JTIS Repo
+
+Package: com.jtis.iconrestore
+Architecture: iphoneos-arm64
+Version: 1.7
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 412
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.jtis.iconrestore_1.7_iphoneos-arm64.deb
+Size: 31024
+MD5sum: a2d4a6651ed1a5de990b68ca6a4df725
+SHA1: 49635de512f238fba046b3c0363e496c5c9c20d4
+SHA256: 2a20efa7c4814c27a76172ba41d3a59a867c6901e77972f3b28aa9ae79850c6a
+SHA512: a99b42d078abc558dfdae165d039a0c576f97468b2b12572b5fd75204542bce0dea629311fcfa97f286a7f94aab91cae8ea8f95a5c96c489de5cfc101c0d7e78
+Description: Lưu và khôi phục bố cục biểu tượng của bạn.
+Name: Icon Restore (Rootless)
+Author: Lessica <82flex@gmail.com>
+Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fmedia.havoc.app%2F66e1ea16c8dd969b8bcbac5b&s=180x180&f=webp
+
+Package: com.jtis.iconrestore
+Architecture: iphoneos-arm64e
+Version: 1.7
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 412
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.jtis.iconrestore_1.7_iphoneos-arm64e.deb
+Size: 30388
+MD5sum: e8d25b2d0dd9a5b077d2edf63c2a8855
+SHA1: 2e47988ded4ff376adb42886d0d31df033b4d486
+SHA256: 7eec3d67b0b00176c9f01ed5515a5b2f1df01db214d42181780906a2712fa976
+SHA512: 4f1e5381468433c351e03959da9aef3a070088552e21889b4736d3ef98992f31a60ee53913eaf823a53dc3f642fe796a63ccb4c05802386faf45c2b1f4463605
+Description: Lưu và khôi phục bố cục biểu tượng của bạn.
+Name: Icon Restore (Roothide)
+Author: Lessica <82flex@gmail.com>
+Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fmedia.havoc.app%2F66e1ea16c8dd969b8bcbac5b&s=180x180&f=webp
 
 Package: com.jtis.iconrotation-rootless
 Architecture: iphoneos-arm64
@@ -8739,6 +8824,43 @@ Author: Dylan West <iosthemem0d@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ModernSettings.json
 Depiction: https://jtisvn.github.io/depictions/ModernSettings.html
 Icon: https://jtisvn.github.io/sectionIcons/ModernSettings.png
+
+Package: com.jtis.musicplayercolor
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Nightwind
+Installed-Size: 352
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), com.mrgcgamer.libgcuniversal, preferenceloader
+Filename: ./debs/com.jtis.musicplayercolor_0.0.1_iphoneos-arm64.deb
+Size: 15372
+MD5sum: 10ab21d072ea2e333c003607e8363ca7
+SHA1: 9b92730e368b7f7ec5edc820a9e5a5e68ae8b715
+SHA256: 83aee28ff7d6a3f0366140f71c9f910bee05a1c8be7b25dd90725fefc3a3f1e8
+SHA512: b235451b2861b5ece42f6844b75bcd28261cf3a6a58633546926ed412637c24863aa075e68e96a87dba233d00a1278c6c3d6d7917462a69fc4b0216133e0d860
+Description: Tô màu trình phát nhạc trên iOS 16!
+Name: MusicPlayerColor (Rootless)
+Author: Nightwind
+Icon: https://github.com/NightwindDev/MusicPlayerColor/blob/main/icon.png?raw=true
+
+Package: com.jtis.musicplayercolor
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Nightwind
+Installed-Size: 352
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), com.mrgcgamer.libgcuniversal, preferenceloader
+Filename: ./debs/com.jtis.musicplayercolor_0.0.1_iphoneos-arm64e.deb
+Size: 15412
+MD5sum: ca16d7a8201b0944cf843357dab3febe
+SHA1: 86029f4284dcf644e71401ef84a447dff7fd8b63
+SHA256: 21fe9b14cd2cb8a8fb5cbaaa60f397b5c25793759617f00d4ef6b92bf00ac00f
+SHA512: d717a785c6b55b62f6527fc5e1c46d125e13d0b304cbb8b9baeb7d822af53fb7e95cca77518013dc803a9cc486b8098dfb11a87bc228d80b615ded38907e4482
+Description: Tô màu trình phát nhạc trên iOS 16!
+Name: MusicPlayerColor (Roothide)
+Author: Nightwind
+Icon: https://github.com/NightwindDev/MusicPlayerColor/blob/main/icon.png?raw=true
 
 Package: com.jtis.neofreebird
 Architecture: iphoneos-arm64
@@ -13129,6 +13251,26 @@ Name: Shijima for iOS (Roothide)
 Author: pixelomer
 icon: https://media.havoc.app/66c119baecb6d6b2e1b395aa
 
+Package: com.pkgfiles.harlemshakereborn
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: pkgFiles
+Installed-Size: 8316
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/com.pkgfiles.harlemshakereborn_1.0_iphoneos-arm64.deb
+Size: 7733810
+MD5sum: 65b35c595dff74033baa93a631227bf5
+SHA1: 44728b5958e88e4be4d5000aaa748abfd82fcd57
+SHA256: b9e43eaac95c27617f7df443d885a4acc4ce045d970589ff972b2744b53077e6
+SHA512: 12d117e1ccf21b6c98da51968e8eba6c5c2bb309833f04474b253b185b402bfa147f1ccad8f51fb87b3c1354860a937787912712dcb875e251a10a8c283bc8d0
+Description: You probably thought the Harlem Shake was over, didn't you?
+Name: HarlemShake Reborn
+Author: pkgFiles
+SileoDepiction: https://pkgfiles.github.io/sileodepictions/com.pkgfiles.harlemshakereborn/depiction.json
+Depiction: https://pkgfiles.github.io/depictions/?p=com.pkgfiles.harlemshakereborn
+Icon: https://raw.githubusercontent.com/pkgFiles/pkgfiles.github.io/main/assets/TweakIcons/HarlemShakeReborn.png
+
 Package: com.ps.amber
 Architecture: iphoneos-arm64e
 Version: 1.2.0
@@ -14664,6 +14806,27 @@ Description: ElleKit tweak injection libraries and loader
 Name: ElleKit
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
+
+Package: emt.jtis.paibloxx
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: waruhachi
+Installed-Size: 508
+Depends: firmware (>= 12.0), com.bingner.plutil|plutil, com.opa334.ccsupport, ws.hbang.common (>= 1.17), emt.paisseon.pseudo, bash
+Conflicts: net.myxxdev.mybloxx12, net.myxxdev.mybloxx13, net.myxxdev.mybloxx14
+Filename: ./debs/emt.jtis.paibloxx_1.2_iphoneos-arm64.deb
+Size: 67260
+MD5sum: 15f15546c2f4bc818d1104de503e5c08
+SHA1: 2b84f9e812a927a97ae550bb996882d62ec8ee55
+SHA256: 6a299216e8570ede3cafdef013a3df6c99b2f923659eb3258011818f357fd6c5
+SHA512: c5dc26cc9eeaa74434b5735c34982429150f76c6789fc787b39600c34ec8dffa7ce50a3ff06547be042eaf8f5a3e3876e597266cdcff42b4b3e7eb39c97a3cd5
+Description: Trình chặn quảng cáo an toàn cho iOS
+Name: PaiBloxx (Rootless)
+Author: Paisseon
+SileoDepiction: https://paisseon.github.io/depictions/paibloxx.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/paibloxx.json&name=PaiBloxx&dev=Paisseon
+Icon: https://spaceship-cdn.com/blog/2024/03/SPS_Release_Notes_Spacemail_Twitter_1200x600.png
 
 Package: emt.paisseon.xinamine
 Architecture: iphoneos-arm64
