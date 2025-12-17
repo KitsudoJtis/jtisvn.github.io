@@ -5,76 +5,203 @@
 "tabs":[
 {
 "tabname":"Giới thiệu",
-"views":[
-{ "class":"DepictionHeaderView", "title":"" },
+"views": [
 {
-"class":"DepictionHeaderView",
-"title":"roudPrefs"
+"class": "DepictionHeaderView",
+"useBoldText": true,
+"useBottomMargin": false
+},        
+{
+"class": "DepictionLabelView",
+"text": "roudPrefs",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n\n- Bo tròn các khung trong cài đặt.\n\n- Chi tiết xem ảnh bên dưới.",
-"class":"DepictionMarkdownView"
+"class": "DepictionMarkdownView",
+"markdown": "\n\n- Bo tròn các khung trong cài đặt.\n\n- Chi tiết xem ảnh bên dưới.",
+"useRawFormat": false
 },
 {
-"class":"DepictionSpacerView", "title":"Ảnh chụp màn hình" },
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
 {
-    "class":"DepictionScreenshotsView",
-    "screenshots":[
-    {
-    "url":"https://jtisvn.github.io/infodeb/roudPrefs/Screenshots/1.png",
-    "accessibilityText":"Screenshot"
-    },
-    {
-    "url":"https://jtisvn.github.io/infodeb/roudPrefs/Screenshots/2.png",
-    "accessibilityText":"Screenshot"
-    },
-    {"url":"https://jtisvn.github.io/infodeb/roudPrefs/Screenshots/3.png",
-    "accessibilityText":"Screenshot"
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Ảnh chụp màn hình",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionScreenshotsView",
+"itemCornerRadius": 8,
+"itemSize": "{185, 400}",
+"screenshots": [
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/roudPrefs/Screenshots/1.png"
+},
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/roudPrefs/Screenshots/2.png"
+},
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/roudPrefs/Screenshots/3.png"
+}
+]
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "CydiaGeek",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày tải lên",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "9/5/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.0.9",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "578 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14.0 - 17.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
 }
 ],
-"itemCornerRadius":0,
-"itemSize":"{185,400}"
+"class": "DepictionStackView"
 },
 {
-"class":"DepictionMarkdownView"
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.0.9\n\n- Hỗ trợ Rootless & Roothide."
+}
+],
+"class":"DepictionStackView"
 },
 {
-"class":"DepictionSpacerView"
-},
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin "
-},
-{
-"class":"DepictionTableTextView",
-"title":"Tac giả",
-"text":"CydiaGeek"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.9" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
-},
-{
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"9/5/2025"
-},
-{
-"class":"DepictionTableTextView",
-"title":"Dung lượng",
-"text":"578 KB"
-},
-{
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 14 đến 17.0"
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Liên hệ Hỗ trợ",
-"action":"https://jtisvn.github.io/homepage/donate/donate.html"
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
@@ -85,23 +212,6 @@
 "class":"DepictionTableButtonView",
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
-},
-{
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
-}
-],
-"class":"DepictionStackView"
-},
-{
-"tabname":"Nhật ký thay đổi",
-"views":[
-{
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.9\n\n- Hỗ trợ Rootless & Roothide"
 },
 {
 "class":"DepictionLabelView",

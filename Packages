@@ -9814,6 +9814,25 @@ Icon: https://jtisvn.github.io/sectionIcons/QuickPowerButton.png
 Author: SINI
 
 Package: com.jtis.recorddot
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.recorddot_0.0.1_iphoneos-arm64.deb
+Size: 185712
+MD5sum: 175e5460d5e60194ddf1fdf7a93d0485
+SHA1: b75136abbaf241fa2096adc82d551a239e88077e
+SHA256: f5cbd426466bee98f2f1697dcae62a692e983b43e37665fc1c8319b4e66b6cc9
+SHA512: b915e7b9e819b95597430144a4d848f640f189f3a925b2652ae88ad67102fe2bd2a10faf472ff60295f398176aa5e4cff8ea3b25466f43feceb0d6d6be3359d3
+Description: Thu nhỏ gọn gàng hình tròn đỏ trên thanh trang thái khi quay màn hình.
+Name: RecordDot (Rootless)
+Author: Nightwind
+Icon: https://jtisvn.github.io/sectionIcons/Recorddit.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Recorddot.json
+
+Package: com.jtis.recorddot
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Tweaks
@@ -12202,11 +12221,11 @@ Maintainer: JTISVN Reo
 Installed-Size: 1828
 Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
 Filename: ./debs/com.jtisvn.laetus_3.5.1_iphoneos-arm64.deb
-Size: 836044
-MD5sum: d90f584668b38e711bed9671a9eefc7d
-SHA1: e7e5dcffba1aaaae89d98d100311729a9d3dfea6
-SHA256: 8bdd1e6f3873b1dd951ce2751c3e58af7d12c49bdd02ff3bf3fe565044ac9b7d
-SHA512: 26e5c1c775e9ec655b5036b295d2e9877efa0a9a402e76cbadc2f9fed7b309a36250b5669fb975d9ba32d9818f8db2588719cca70bf1a4e583a7638f88ce5a59
+Size: 835928
+MD5sum: f427864a0bfd75aa5811b3fe28d85471
+SHA1: ed1c0e71dae38294c50dc54fa823ac919eb0ce37
+SHA256: dc3987f520375512bf08d3399430762caa2f05e36be522d26a14fa9e94e916db
+SHA512: 3e208fdacc068199e7cf231660593a4bf16c989a2d870cf5c34561b59b71bc6c22df60de454cee881fce0b1cb7c9151c839c68e08ce1d8d4cfe722c8a848223c
 Description: Tùy chỉnh bàn phím tuyệt vời
 Name: Laetus (Rootless)
 Author: Spark
