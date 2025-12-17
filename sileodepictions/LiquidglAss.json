@@ -6,7 +6,6 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -19,44 +18,127 @@
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Chủ đê Liquid Glass, được thiết kế bởi Nguyên Tokuda và Hoàng MD\n\n- Chi tiết gói gồm:\n\n+ 610 biểu tượng\n\n+ 1 Huy hiệu thông báo\n\n+ 1 biểu tượng LS UI\n\n+ 2 Hiệu ứng Mask AE\n\n+ 2 Dock UI (Light & Dark)\n\n- 1 chủ đề Trình quay số và mặt khẩu màn hình khoá\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"markdown":"\n\n- Chủ đề Liquid Glass\n\n- được thiết kế bởi Nguyên Tokuda và Hoàng MD.\n\n- Chi tiết gói gồm:\n\n  + 610 biểu tượng\n\n  + 1 Huy hiệu thông báo\n\n  + 1 biểu tượng LS UI\n\n  + 2 Hiệu ứng Mask AE\n\n  + 2 Dock UI (Light & Dark)\n\n  + 1 chủ đề Trình quay số và mật khẩu màn hình khóa.\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionMarkdownView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết "
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"Nguyên Tokuda & Hoàng MD"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.0k" },
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
 {
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Themes"
-},
+"class": "DepictionStackView",
+"views": [
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"21/9/2025"
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 12.0 đến 16.7.10"
+"class": "DepictionLabelView",
+"text": "Nguyên Tokuda & Hoàng MD",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Themes",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày tải lên",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "21/9/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.0k",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2,1 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "12.0 - 16.7.10",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -66,20 +148,20 @@
 "alignment":1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.0k\n\n- Sửa lỗi sư cố tải về Theme cho Roothide\n\n ### Phiên bản 2.0\n\n- Thêm 1 số biểu tượng mới\n\n- Thêm hỗ trợ cho Rootfull\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 2.0k\n\n- Sửa lỗi sự cố tải về Theme cho Roothide.\n\n### Phiên bản 2.0\n\n- Thêm 1 số biểu tượng mới.\n\n- Thêm hỗ trợ cho Rootfull.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
+"tabname":"Liên Hệ Hỗ Trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
