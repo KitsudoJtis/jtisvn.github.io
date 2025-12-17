@@ -362,6 +362,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/BackgrounderAction15Aut
 Icon: https://jtisvn.github.io/sectionIcons/BackgrounderAction15AutoState.png
 
 Package: com.0xkuj.bettercccrashprotect
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.0xkuj.bettercccrashprotect_1.0.0_iphoneos-arm64.deb
+Size: 3608
+MD5sum: fcb493fdf8031c4733e43675801562b3
+SHA1: 85dbefbd884f863aea883ed830aa185562dcc956
+SHA256: 4a91ed1414dab308c0dd2ff48863b3d1debc02144288c18a0f711237565695f0
+SHA512: 26048d9a58fa7039076842ed51e6248108124f0fc2d2a58383a861c4503b4f40c33aba6201fb1a933538033ddc137c98832421f9b284a5bf9c42e0cf18b6ee7d
+Description: Prevent Weather Module with BetterCC crash your idevice
+Name: BetterCCCrashProtect
+Author: 0xkuj
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.0xkuj.bettercccrashprotect
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -12177,6 +12195,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/CapcutPro.json
 Icon: https://jtisvn.github.io/sectionIcons/CapcutPro.png
 
 Package: com.jtisvn.laetus
+Architecture: iphoneos-arm64
+Version: 3.5.1
+Section: Tweaks
+Maintainer: JTISVN Reo
+Installed-Size: 1828
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
+Filename: ./debs/com.jtisvn.laetus_3.5.1_iphoneos-arm64.deb
+Size: 836044
+MD5sum: d90f584668b38e711bed9671a9eefc7d
+SHA1: e7e5dcffba1aaaae89d98d100311729a9d3dfea6
+SHA256: 8bdd1e6f3873b1dd951ce2751c3e58af7d12c49bdd02ff3bf3fe565044ac9b7d
+SHA512: 26e5c1c775e9ec655b5036b295d2e9877efa0a9a402e76cbadc2f9fed7b309a36250b5669fb975d9ba32d9818f8db2588719cca70bf1a4e583a7638f88ce5a59
+Description: Tùy chỉnh bàn phím tuyệt vời
+Name: Laetus (Rootless)
+Author: Spark
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Laetus.json
+Icon: https://jtisvn.github.io/sectionIcons/Laetus.png
+
+Package: com.jtisvn.laetus
 Architecture: iphoneos-arm64e
 Version: 3.5.1
 Section: Tweaks
@@ -15617,6 +15654,25 @@ SileoDepiction: https:/jtisvn.github.io/sileodepictions/Copylog.json
 Icon: https://jtisvn.github.io/sectionIcons/Copylog.png
 
 Package: me.tomt000.stageduo
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Section: Tweaks
+Maintainer: tomt000
+Installed-Size: 4900
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Filename: ./debs/me.tomt000.stageduo_1.2.1_iphoneos-arm64.deb
+Size: 3073564
+MD5sum: fc3ac9d020fecfb1dbea6c2ed3392454
+SHA1: 70df8fc54088e7c0b8a17f06cff5779d5c696da3
+SHA256: 5318779cc13ef228882b1494a73d2722e2e97070f07deb00c6a1e742e2fed9cb
+SHA512: cda7da08a171d1e16c3e4501d1382b58a1c2cf1f044cb51e68c9a8cad66b0c1d772169635a3a7e0da1c7b292950b181c90f7181895f77f24cea267fdea7d69a2
+Description: Stage Manager Reimagined for iPhone
+Name: Dynamic Stage (Rootless)
+Author: tomt000
+Icon: https://jtisvn.github.io/sectionIcons/Stage.png
+SileoDepiction: https:/jtisvn.github.io/sileodepictions/Stage.json
+
+Package: me.tomt000.stageduo
 Architecture: iphoneos-arm64e
 Version: 1.2.1
 Section: Tweaks
@@ -16282,6 +16338,27 @@ MD5sum: 739b2a38610ecfea647aa23f807b357e
 SHA1: d4e218471cf948b365f0a00b3f5be4d3dc6d2083
 SHA256: 9d7c570bcd6cfccd0a2137ee4d45d2db622604bf0a009b625660d67f49054194
 SHA512: 7284b23203e2c5f454cd11d4a80c1f2fee9fc8fbc62e08412439986bc07b0efede4965568173e85f8d2b41ef094bf044b76d119b5aea7e8e4a862e28ff6f81de
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Name: Cephei Tweak Support
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Depiction: https://chariz.com/get/cephei
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.common
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Development
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3132
+Depends: firmware (>= 15.0)
+Filename: ./debs/ws.hbang.common_2.0_iphoneos-arm64.deb
+Size: 198906
+MD5sum: b41babea6af14166166ac70da0d472bb
+SHA1: d7703febee3eaea3b1319d18cff7c7d59a9af2ab
+SHA256: 67338fa3f52951d5cbb900e8582e15dfff5964104bf627643bfe3901cda69652
+SHA512: b6a7f0755d627ae955dc272db7142a373cb07a879ddabd24476e389757425bd174113eac972acb6ea9eaa3481c302f4822dcbbfe82f04fa622d0591d7076eaed
 Description: Support library for tweaks
 Tag: role::developer, compatible_min::ios15.0
 Name: Cephei Tweak Support

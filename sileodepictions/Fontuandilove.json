@@ -1,30 +1,51 @@
 {
 "minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
+"headerImage":"https://jtisvn.github.io/coverimage/Fonts.png",
+"tintColor":"#339999",
 "tabs":[
 {
 "tabname":"Giới thiệu",
-"views":[
+"views": [
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
+"class": "DepictionHeaderView",
+"useBoldText": true,
+"useBottomMargin": false
+},        
 {
-"url":"https://jtisvn.github.io/infodeb/CalculatorHistory/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionSpacerView",
+"spacing": 8
 },
 {
-"url":"https://jtisvn.github.io/infodeb/CalculatorHistory/Screenshots/2.png",
-"accessibilityText":"Screenshot"
+"class": "DepictionMarkdownView",
+"markdown": "<p style=\"font-size:13pt;\">Phông Chữ U and I Love</p>\n<p style=\"font-size:12pt;\">Kích hoạt qua tinh chỉnh Snowboard.</p>\n<p style=\"font-size:12pt;\">Vui lòng Respring hoặc Dọn Rác qua iClean Pro để hiển thị đầy đủ.</p>",
+"useRawFormat": true
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionHeaderView",
+"useBoldText": true,
+"useBottomMargin": false
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 16
+},
+{
+"class": "DepictionScreenshotsView",
+"itemCornerRadius": 8,
+"itemSize": "{185, 400}",
+"screenshots": [
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/Fontuandilove/Screenshots/1.png"
+},
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/Fontuandilove/Screenshots/2.png"
 }
-],
-"itemCornerRadius":8,
-"itemSize":"{185,400}"
-},
-{
-"markdown":"CalculatorHistory\n\n- Thêm tiện ích lưu lịch sử tính toán cho ứng dụng Máy tính (Calculator) trên các thiết bị iOS thấp hơn (giống tính năng trên iOS 18).",
-"useSpacing": false,
-"class": "DepictionMarkdownView"
+]
 },
 {
 "spacing": 20,
@@ -51,13 +72,13 @@
 "views": [
 {
 "class": "DepictionLabelView",
-"text": "Nhà phát triển",
+"text": "Tác giả",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "Fiore",
+"text": "TQM",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -70,20 +91,20 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Tweaks",
+"text": "Fonts",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày tải lên",
+"text": "Ngày cập nhật",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "18/7/2025",
+"text": "2/2/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -101,7 +122,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.2",
+"text": "1.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -114,7 +135,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "497 KB",
+"text": "137.9 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -127,7 +148,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.0 - 16.7.11",
+"text": "14.0 - 16.6.1",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -155,13 +176,13 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.2\n\n- Sửa lỗi trên iOS 14.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.0\n\n-Hỗ trợ iOS 15-16 Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
 },
 {
-"tabname":"Liên Hệ Hỗ Trợ",
+"tabname":"Liên hệ Hỗ trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
