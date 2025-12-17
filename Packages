@@ -15171,6 +15171,49 @@ Icon: https://jtisvn.github.io/sectionIcons/Airaw.png
 
 Package: jp.uzra.aerial
 Architecture: iphoneos-arm64
+Version: 2.2.3
+Section: Tweaks
+Maintainer: uz.ra
+Installed-Size: 2336
+Depends: mobilesubstrate
+Filename: ./debs/jp.uzra.aerial_2.2.3_iphoneos-arm64.deb
+Size: 1386676
+MD5sum: 6cc3fe88df9e23aceab36b24f881eea9
+SHA1: 8d532bb3a4e8e33ad42e97889de5b7bfa117c7ec
+SHA256: 00fc7a882a995e56f2abe87ea015c791564a4df3ba03f48da94c75592a342857
+SHA512: 837eeb9cec66b8a61b49350532ad94a145106d8c3028bbbfd3519ae26ad4d44fcd5a0d0e72bce95cc5c271aeaaba361c567b25a8cfb5a9bc77d13eb01e1ba4c0
+Homepage: https://jtisvn.github.io
+Description: Stage Manager, redesigned for iOS
+Name: Aerial (Rootless)
+Author: uz.ra
+depiction: https://jtisvn.github.io/depictions/Aerial.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Aerial.json
+Icon: https://jtisvn.github.io/sectionIcons/Aerial.png
+
+Package: jp.uzra.aerial
+Architecture: iphoneos-arm64e
+Version: 2.2.3
+Section: Tweaks
+Maintainer: uz.ra
+Installed-Size: 2336
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/jp.uzra.aerial_2.2.3_iphoneos-arm64e.deb
+Size: 1387196
+MD5sum: df73bd918602b672450afc68b81e0ccc
+SHA1: d075ae879884cc6b611712eeda31631f5ec48ca0
+SHA256: 2323ba3a556043a25cfc3ab5d153e36ffa432a3b2a3f18d7bbfdc092a9c9b85b
+SHA512: 8a016cd15bb1d52862d45d63df875ffc858b84192d9a4d22dfe75a44f7ace00121e4cf016c4b5230353f097854c980cf4dbb28ec8714c9d2114bbbf19193fb5b
+Homepage: https://jtisvn.github.io
+Description: Stage Manager, redesigned for iOS
+Name: Aerial (Roothide)
+Author: uz.ra
+depiction: https://jtisvn.github.io/depictions/Aerial.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Aerial.json
+Icon: https://jtisvn.github.io/sectionIcons/Aerial.png
+
+Package: jp.uzra.aerial
+Architecture: iphoneos-arm64
 Version: 2.2
 Section: Tweaks
 Maintainer: uz.ra
