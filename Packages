@@ -10656,6 +10656,24 @@ Depiction: https://jtisvn.github.io/depictions/SniperTool.html
 Icon: https://jtisvn.github.io/sectionIcons/SniperTool.png
 Author: Sniper @DNS_Sys
 
+Package: com.jtis.SnokedSettings
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.snokedsettings_1.0_iphoneos-arm64e.deb
+Size: 1509486
+MD5sum: 66519b0391de78e07c66f27b04c145cc
+SHA1: f4bbc46fe7d2338d881711aa2ab87dbc3b3a81c7
+SHA256: 5c59148f79613d28f1048c4d20d63558f5a5c3ff3c0cdf67f86adb0d1350f291
+SHA512: 1b79b5a3f12254bb9fe1d407674e5a59918755ebf5604b9691f4f5e3aeef0a1768dd91066189be35cf465bce7ad126884426ddfe2c0e86729bb018f81196f3b9
+Description: Chủ đề setting Snoked
+Name: Setting Snoked
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SnokedSettings.json
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+ Pre-Depends: rootless-compat(>= 0.9)
+
 Package: com.jtis.sonus15
 Architecture: iphoneos-arm64
 Version: 1.0.5
