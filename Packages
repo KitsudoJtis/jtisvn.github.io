@@ -2622,15 +2622,15 @@ Version: 1.0
 Section: Chủ đề
 Maintainer: JTISVN Repo
 Filename: ./debs/com.jtis.ChromaSettings_1.0_iphoneos-arm64.deb
-Size: 1499204
-MD5sum: 4586b039679dc648e195f9cad628a7e3
-SHA1: 909a5c902b601a43d89f2413f206ee29c2c22b1d
-SHA256: 3bd24a9ddc8ff9486ef69db59a2bd07b194ad87fe5799797ec615edf5d6c059a
-SHA512: 771bb27157607ee654c991feb9947fa7c179cbfa05378bae64e1b799143a956480f6931735bd1336ff3ff270323b41f636ff4033ee32064ff251fcb4e6a7fd1e
+Size: 1499144
+MD5sum: 8dbb493bd3d3b62edfa82fbc30291878
+SHA1: 2b6c41688742c94c4a100ec37cfe854fd0f92863
+SHA256: 4da101e5b4807802e66f154beebc914392ce2cbc50d648ddb712c233e82aa505
+SHA512: 1f890c6a6b3bd803290f2bbd8414f6aa1c2434ec46b3bcc2582e807b99eacd30d2afc53b815d3a76711839f002fd27e214c9ebd581a75a527c8eb6f7105c462f
 Description: Chủ đề setting Snoked
 Name: Setting Chroma
 Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/SnokedSettings.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ChromaSettings.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.ChromaSettings
@@ -2639,15 +2639,15 @@ Version: 1.0
 Section: Chủ đề
 Maintainer: JTISVN Repo
 Filename: ./debs/com.jtis.ChromaSettings_1.0_iphoneos-arm64e.deb
-Size: 1499104
-MD5sum: bc1a20315c87369034457c3809734fe8
-SHA1: 9cce38790d664ba900c7203f242acd3484e14ee0
-SHA256: 114661461ea747c53b0002c81bdf0508d885a5e6f3ccbc4df64f0467bc78adc7
-SHA512: 1c00de67afe379db6a4c5b681fda9d5a57f8db25127e399860c7919332134bce69490f5fcf6ebb4e5ee12acc67c2155a2c88d9fccbc00287e23a2699403a2fe8
+Size: 1499108
+MD5sum: c72d7f022fcec21f369aa3e8e5fe27e9
+SHA1: e0d91686c1008055b31332b79001d02f64c9868e
+SHA256: f8aa16d1eeec65b0e89500e2a081e3df331dec4753601a7cdec39ce1d4db7720
+SHA512: 7d6aad9b7f2a7ebd4624f1b417f59e58ea830ba72256495479870b3aab62aa582682c718621e1fb6f8618bf67bedd763000f68691844df623da147ee968fe871
 Description: Chủ đề setting Snoked
 Name: Setting Chroma
 Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/SnokedSettings.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ChromaSettings.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
  Pre-Depends: rootless-compat(>= 0.9)
 
