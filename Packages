@@ -826,6 +826,23 @@ Author: Polyphian
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
+Package: com.jtis.YangJiiiLineat
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Filename: ./debs/com.check0ver.YangJiiiLineatRootless_1.deb
+Size: 16372
+MD5sum: c829bd246e4da376fd539dede0534c22
+SHA1: 614d6e049eac30ce835ec18b8a2987e0bb0fe94e
+SHA256: 7884b46ede125ec314c27f54c788837289a16360e24394b0b317cdbc90b3c275
+SHA512: 6e42bcda6489caa5010abf30b327618169ce73e6e10e38594dcf5411b7c769b91970fe7a2beed7b31453fa194a0c8177fff97a0db3e6018ae70e5344c3217825
+Description: Phông chữ đồng hồ kích hoạt qua AIM
+Name: YangJiii_Lineat
+Author: YangJiii
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YangJiiiLineat.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
 Package: com.cokepokes.appstoreplusplus
 Architecture: iphoneos-arm
 Version: 0.10.1-5
@@ -3321,6 +3338,24 @@ Author: blatant
 SileoDepiction: https://jtisvn.github.io/sileodepictions/WiddyUnlock.json
 Icon: https://jtisvn.github.io/sectionIcons/WiddyUnlock.png
 
+Package: com.jtis.YangJiiiExodar
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.jtis.YangJiiiExodar_1.0_iphoneos-arm64.deb
+Size: 11788
+MD5sum: 3534e2e1303ebbc717e642f361a799dd
+SHA1: 62a191b66f0e4fe99a5746819859b4035f84c756
+SHA256: a087ce5ccca2223546df26b084356b28d78b23df8ff06c382e8039cefd478040
+SHA512: e919e1e026d3e633a4cde33e184932e6e1b795641e9c2b99fb650f96c8b64f6252c386b76fe88aa2bc4083c08e01a5f478abc06c6893fc5e2f9da1d1c48efb3a
+Description: Phông chữ đồng hồ kích hoạt qua AIM
+Name: YangJiii_Exodar
+Author: legionfonts
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YangJiii_Exodar.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
 Package: com.jtis.a-bypass
 Architecture: iphoneos-arm
 Version: 1.5.8
@@ -3508,6 +3543,49 @@ Depiction:
 Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
 Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
 Icon: https://jtisvn.github.io/sectionIcons/Aemulo.png
+
+Package: com.jtis.aim
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 4904
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker, oldabi
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aimpro, com.icraze.nexus
+Filename: ./debs/com.jtis.aim_1.3.1_iphoneos-arm64.deb
+Size: 2320988
+MD5sum: c26b58f4befca58e7226b8ce3a39c93a
+SHA1: d5216327db2b4d60b9001876a3f3d3845233407d
+SHA256: 256ad8220457b27135211d09687bda65f2040d738ff6b214b14f6f978dd084fd
+SHA512: d3a500a7e88fe6e6469d24d15bfe7c9de4667d984c04a5ac6cc4c6a163b438c680c3c5f3d5dea94e65b7454926dceae9aae2142c10dbb447eba1b8980c030882
+Description: Màn hình khóa iOS 16
+Name: AIM (Rootless)
+Author: alimaulana
+SileoDepiction: https://havoc.app/package/aim/depiction.json
+Depiction: https://jtisvn.github.io/depictions/AIM.html
+Icon: https://jtisvn.github.io/sectionIcons/AimPro.png
+
+Package: com.jtis.aim
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 4904
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker, oldabi
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aimpro, com.icraze.nexus
+Filename: ./debs/com.jtis.aim_1.3.1_iphoneos-arm64e.deb
+Size: 2316148
+MD5sum: eded5a10204288e3a9e12335653a44a9
+SHA1: 350bc86d538d924e30d2e911ad37e7ec25475d8b
+SHA256: 30b12a1c1e9c81e1dbc0db0188c8a29a8b10069eb0621b38b91422b21993f330
+SHA512: 3b5edd9c270b5835592f86a79571103c5d29561c97f474abc4bdfde3f46dbc75d54dc2d316756ce242a2e15baf441db4499bfbaa48266bbb73da1775a2498be1
+Description: Màn hình khóa iOS 16
+Name: AIM (Roothide)
+Author: alimaulana
+SileoDepiction: https://havoc.app/package/aim/depiction.json
+Depiction: https://jtisvn.github.io/depictions/AIM.html
+Icon: https://jtisvn.github.io/sectionIcons/AimPro.png
 
 Package: com.jtis.aimpro
 Architecture: iphoneos-arm
@@ -6125,6 +6203,24 @@ Author: CydiaGeek <lucaluca86@aol.com>
 dev: lucaluca86
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.exodar
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware (>= 14)
+Filename: ./debs/com.jtis.exodar_1.0_iphoneos-arm64.deb
+Size: 11332
+MD5sum: c99614c455652958dc6d88d357543ed4
+SHA1: 015b8476e30beb891aef2a88afb030ad1a6fd431
+SHA256: 7a8663ea624c4d16b2a3e361b4b62f8e8e82f0916ca129ddb320d0c83c845d45
+SHA512: 4be8e4062c1e18fa2cfcb2fc7d1164677be1e006e85dea51a5dd626e3b361efa268e531a1d719a0b5fd174977bcdf5ed02c0d8475e9b3e6365cac6eb1c287c0f
+Description: Phông chữ đồng hồ kích hoạt qua AIM
+Name: Exodar
+Author: Alexman & Kennyroo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Exodar.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
 Package: com.jtis.fakedualsim
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -7090,6 +7186,43 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Griddy.json
 Icon: https://jtisvn.github.io/sectionIcons/Griddy.png
 Name: Griddy (Roothide)
 Author: mikifp
+
+Package: com.jtis.gwyneth23
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.jtis.gwyneth23_1.0_iphoneos-arm64.deb
+Size: 14100
+MD5sum: 77380d6c110be1ffc38b083d48b0cacf
+SHA1: e1491a7f6a0b40f9a808e69070eb04b92783a79a
+SHA256: 3d7d13512de7dcc9ffadcddd451c91d6940f84de6e8c8283cb9e946de0965b50
+SHA512: 6bb04a5067a5b46116cd9abce84b6df85835669cb8b9e6c7ca0a25c33e2a7da5aad66ae434a2002655767d9981274457724a3f8ce0f34b619cb1f4279c1a3554
+Description: Phông chữ đồng hồ kích hoạt qua AIM
+Name: Gwyneth23
+Author: YangJiii
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Gwyneth23.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
+Package: com.jtis.gwyneth23
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.jtis.gwyneth23_1.0_iphoneos-arm64e.deb
+Size: 17790
+MD5sum: 62f339cc9badb79e1c0027105bab1474
+SHA1: 65bd568a38a8d6733925eac82b877b70a7fef980
+SHA256: 4b3087dce196cf9557bd3f104048c0984ffe56de0709fce4c0b06e1f0a598114
+SHA512: b1ecc4057bc6889aff947a90b4e7ff8877c82a389f872ef16d3630ff1471c9dc590da3487d52869a52f1999395b047674b84421696ef2a9851b68321f585e627
+Description: Phông chữ đồng hồ kích hoạt qua AIM
+Name: Gwyneth23
+Author: YangJiii
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Gwyneth23.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
 Package: com.jtis.hideallbar
 Architecture: iphoneos-arm64
@@ -11847,6 +11980,43 @@ Description: Tinh chỉnh tốc độ làm mới 120Hz miễn phí có thể gi�
 Name: Xuanhua 120Hz (Roothide)
 Author: Huayuarc
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.YangJiiiExodar
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.jtis.yangjiiiexodar_1.0_iphoneos-arm64e.deb
+Size: 14896
+MD5sum: 71f938b0ffd8662ea97fe3b69d9074ed
+SHA1: 64328f2e377968f40d7c63b64a93099340e54eca
+SHA256: 895eb5aef22d43eb1fc1ad125c94f2befd2daf5e18bd8f9d3880e4790a2108b0
+SHA512: 8f89af064b98921bf8445b97ff9c3e889f3b3036aaaebff7be3f1fa1a212b3ea87729258f430bd5eb363f870e1fe1921f62800865491b65f7aa40621de530da5
+Description: Phông chữ đồng hồ kích hoạt qua AIM
+Name: YangJiii_Exodar
+Author: legionfonts
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YangJiii_Exodar.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
+Package: com.jtis.YangJiiiLineat
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.yangjiiilineat_1.1_iphoneos-arm64e.deb
+Size: 20184
+MD5sum: 007fbb6c083473dd23cddfe17b69f48a
+SHA1: ecfb401b6d0b865b61f6b0498677f6889cd7d8a9
+SHA256: 7000128ec251bca79b81fce5e4200701342990068b45c08ce7f41b2b599aca06
+SHA512: d3ee64879a88d4cc4d9c79a7569d7107fb3b47ee29103d7a62d82c6faaedc04752e1937b0dda103dd3668386b41aba74851e2cc88377863c0e8ff48b59aa5c8b
+Description: Phông chữ đồng hồ kích hoạt qua AIM
+Name: YangJiii_Lineat
+Author: YangJiii
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YangJiiiLineat.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
 Package: com.jtis.zaire
 Architecture: iphoneos-arm64
