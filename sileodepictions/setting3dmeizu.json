@@ -10,11 +10,11 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Setting3fmeizu/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/setting3fmeizu/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Setting3fmeizu/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/setting3fmeizu/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"### Meizu 3D Settings\n\n- Thay đổi chủ đề cho ứng dụng Cài Đặt, được thiết kế bởi Miss.\n\n- Gồm 50 biểu tượng cơ bản.\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
+"markdown":"Meizu 3D Settings\n\n- Thay đổi chủ đề cho ứng dụng Cài Đặt\n\n- được thiết kế bởi Miss.\n\n- Gồm 50 biểu tượng cơ bản.\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -91,19 +91,6 @@
 "text": "1.0",
 "fontWeight": "semibold",
 "fontSize": 16,
-"usePadding": false
-},
-{
-"class": "DepictionLabelView",
-"text": "Kích thước",
-"textColor": "#777",
-"margins": "{16,0,8,0}"
-},
-{
-"class": "DepictionLabelView",
-"text": "915 KB",
-"fontWeight": "semibold",
-"fontSize": 17,
 "usePadding": false
 },
 {

@@ -6,17 +6,6 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
-{
-"class":"DepictionHeaderView",
-"title":"Mô tả"
-},
-{
-"markdown":"\n\n- Chủ đê Snoked Glass Dark, được thiết kế bởi Nguyên Tokuda\n\n- Gồm 90 biểu tượng & Dock UI\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.\n\n- Các bạn muốn đầy đủ icon còn thiếu thì liên hệ tác giả bên dưới để mua ủng hộ bác ấy nhé, xin cảm ơn!",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -25,48 +14,127 @@
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
+"markdown":"Snoked Glass Dark\n\n- Chủ đề Snoked Glass Dark, được thiết kế bởi Nguyên Tokuda.\n\n- Gồm 90 biểu tượng & Dock UI.\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.\n\n- Các bạn muốn đầy đủ icon còn thiếu thì liên hệ tác giả bên dưới để mua ủng hộ bác ấy nhé, xin cảm ơn!\n\n[**Facebook Tác Giả**](https://www.facebook.com/share/1BSw42sn6x/?mibextid=wwXIfr) 🤏 Ủng hộ tác giả",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Liên hệ tác giá"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"markdown":"[**Facebook**](https://www.facebook.com/share/1BSw42sn6x/?mibextid=wwXIfr) 🤏 Ủng hộ tác giả",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"Nguyên Tokuda"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Themes"
+"class": "DepictionLabelView",
+"text": "Nguyên Tokuda",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"16/9/2025"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 14.0 đến 16.7.10"
+"class": "DepictionLabelView",
+"text": "Themes",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày tải lên",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "16/9/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "774,2 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14.0 - 16.7.10",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -76,14 +144,14 @@
 "alignment":1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.1\n\n- Đổi tên cũ sang tên Snoke Glass Theme\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.1\n\n- Đổi tên cũ sang tên Snoked Glass Theme.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
