@@ -2497,6 +2497,24 @@ Name: Apple Symbols
 sileodepiction: https://jtisvn.github.io/sileodepictions/AppleSymbols.json
 Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
 
+Package: com.jtis.AppleSymbols
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.AppleSymbols_1.0_iphoneos-arm64e.deb
+Size: 360324
+MD5sum: 8bab26895bf007447a597174bf831383
+SHA1: 28a9196eae0d9d389c6798e4ac57c09439bc94f1
+SHA256: 50717250800f14028f237926bd87f3405c7e68c6f999e84eafc71b27cfbf9bb4
+SHA512: 8b24f5c8154c36930e46389421882e331458491f8846510ac5d933ce6ef9a7fcd41cc31e84b3fbd042d82d359fe9385652d7b5fbd9d1b0de0cfcf28c4a0aefe6
+Description: Use Snowboard Font Extension to enable the font.
+Author: YangJiii
+Name: Apple Symbols
+sileodepiction: https://jtisvn.github.io/sileodepictions/AppleSymbols.json
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+
 Package: com.jtis.Barmoji
 Architecture: iphoneos-arm64
 Version: 2023.3.3
@@ -3334,6 +3352,27 @@ Author: BVN
 SileoDepiction: https://jtisvn.github.io/sileodepictions/VibrateOnCall.json
 Icon: https://jtisvn.github.io/sectionIcons/VibrateOnCall.png
 
+Package: com.jtis.VibrateOnCall
+Architecture: iphoneos-arm64e
+Version: 1.0.1+debug
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, oldabi|oldabi-stub
+Conflicts: com.BIENVANNHAT.callconnected
+Filename: ./debs/com.jtis.VibrateOnCall_1.0.1+debug_iphoneos-arm64e.deb
+Size: 5780
+MD5sum: a4c0b7a8bc70bd869120581e8920b30b
+SHA1: 084b0a42618e752b13324d2da0b65a090f537108
+SHA256: a42d783d3b9fac7343d386d42f3291a6997b050443f5042d6a602ff5f86b1c6f
+SHA512: 4ee1b818827a00f49698c52edc5c3c289618b5fff61bda7e7e4f6adee4eedd5e4df5c73c6c4975da6e80c71ecafe188b2432631d0ffca3302d2fbf1327f4ee76
+Description: Rung 2 lần khi ngắt cuộc gọi và rung 1 lần khi nhận cuộc gọi đến.
+Name: VibrateOnCall (Roothide)
+Author: BVN
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VibrateOnCall.json
+Icon: https://jtisvn.github.io/sectionIcons/VibrateOnCall.png
+
 Package: com.jtis.Widgy
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -4129,6 +4168,24 @@ MD5sum: 1df094b786f9172fe306dae4fed3a65c
 SHA1: 363ad7fc84cbbf8d63f5d0e39f3c8b6d04e4ec9d
 SHA256: a03a75ba78931f49ab5b786d9a81bb42afa02c60a3252c7f3d80a7bf4b7c0949
 SHA512: 8254d23a2952d56e5d3b5e375f7ef456629504feae4f4a7283d4d0c240836f8f2494a1ab08e0484ae7cfec652970df81a56df931a9535a3471ae69238d643822
+Description: Phông chữ Atoqua cho iOS
+Name: Atoqua (iOS14-16)
+Author: TQM-MOS
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Atoqua.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+
+Package: com.jtis.atoqua
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.atoqua_1.0_iphoneos-arm64e.deb
+Size: 3301864
+MD5sum: feecf9dcb39b953ab26c0954cdfaccf8
+SHA1: c20960e0131e2a8becc470ca350c84e49cbb97fb
+SHA256: 7e8566020020e53d6ecebd29f3c7b49a4c8bc923dbb7d86477b455829bbc68e3
+SHA512: 54431ab91c40901398265b4390a611063b399ee8daed00a27298025e2018d43126451faf007c838f6c70a932340edca854deaeeb3b4178ff3ec52fdd4b95c68d
 Description: Phông chữ Atoqua cho iOS
 Name: Atoqua (iOS14-16)
 Author: TQM-MOS
@@ -9927,6 +9984,25 @@ Name: Resentment (Roothide)
 Author: uz.ra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Resentment.json
 Icon: https://jtisvn.github.io/sectionIcons/Resentment.png
+
+Package: com.jtis.RingTonesManager
+Architecture: iphoneos-arm64e
+Version: 1.1-4
+Section: Tweaks
+Maintainer: JTIS Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=15.0)
+Filename: ./debs/com.jtis.ringtonesmanager_1.1-4_iphoneos-arm64e.deb
+Size: 14344822
+MD5sum: 866cc795088fdb73dc05c48046bca92d
+SHA1: 61f034c426ca6e5a02e90f2df386e2e0d63aab82
+SHA256: 897a0e6f08afd9bef7d72663440fb3bd276c1bf00ed5a6bae5d495f93f31d442
+SHA512: 077e5b8d44d6942990689c948d1a8a0b919b1f8643e6a5ccc55ec0e96f52a7e18285787c35a097a8d79449f94ea71aba3616d88a91db556931efa40bf46ed2d8
+Description: Trình quản lý tạo nhạc chuông trên IPhone của bạn.
+Name: RingTonesManager
+Icon: https://jtisvn.github.io/sectionIcons/Ringtones.png
+Author: Netskao
+Tags: compatible_min::ios15
 
 Package: com.jtis.rixlovefool
 Architecture: iphoneos-arm64
