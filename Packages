@@ -4174,24 +4174,6 @@ Author: TQM-MOS
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Atoqua.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 
-Package: com.jtis.atoqua
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Fonts
-Maintainer: JTISVN Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: ./debs/com.jtis.atoqua_1.0_iphoneos-arm64e.deb
-Size: 3301864
-MD5sum: feecf9dcb39b953ab26c0954cdfaccf8
-SHA1: c20960e0131e2a8becc470ca350c84e49cbb97fb
-SHA256: 7e8566020020e53d6ecebd29f3c7b49a4c8bc923dbb7d86477b455829bbc68e3
-SHA512: 54431ab91c40901398265b4390a611063b399ee8daed00a27298025e2018d43126451faf007c838f6c70a932340edca854deaeeb3b4178ff3ec52fdd4b95c68d
-Description: Phông chữ Atoqua cho iOS
-Name: Atoqua (iOS14-16)
-Author: TQM-MOS
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Atoqua.json
-Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
-
 Package: com.jtis.audiorecorderxs
 Architecture: iphoneos-arm64
 Version: 5.0-17
