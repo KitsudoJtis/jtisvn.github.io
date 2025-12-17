@@ -4781,6 +4781,42 @@ Icon: https://jtisvn.github.io/sectionIcons/BioProtect.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BioProtect.json
 MainLibMD5: b22ceb543f0b4c1d6354ef7ad70f769b
 
+Package: com.jtis.blackberry-lclassickeys
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.blackberry-lclassickeys_1.0_iphoneos-arm64.deb
+Size: 17131688
+MD5sum: aa550ec86252fa7e0ead9d9513d34596
+SHA1: 925a8454814f94ff37a6d0360b4557809f054a97
+SHA256: f2cb638cc439bc7214d8824270a908c88841577c6cecf8ac5b4b27d4c6618723
+SHA512: be6517e3da74a1d4beadafd9f82db3e30a7c2756736d4db23b460d0e14c6cf13f369bd08f8ad4e277e7b42d635f898c7ff8626ef90046c270fd7985ecf51f503
+Description: BlackBerry Classic Look cho iOS, Chủ đề bàn phím cho Laetus.
+Name: BlackBerry Classic Keys
+Author: @psprrom<rromero-mosso@hotmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BlackBerryClassic.json
+Depiction: https://jtisvn.github.io/depictions/LiquidGlass.html
+Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+
+Package: com.jtis.blackberry-lclassickeys
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.blackberry-lclassickeys_1.0_iphoneos-arm64e.deb
+Size: 20411250
+MD5sum: 14d0c871e4c5d3e8ffc63fa67c8e2624
+SHA1: 29c33f1c483d68edc7d18a5cf529884d9b85e52c
+SHA256: 3073b978612737e441689a8f56b595f23358f41cfcf96a3e911f55df5f1ecfe2
+SHA512: c2cfb4f45b83f941331d1b737afc6eb69f2ef296cc9f596f2fe9fb5e983561228fc91739eafc54d3b9176895d788839f5dc88cbeae7695260714a812c6b8fd0e
+Description: BlackBerry Classic Look cho iOS, Chủ đề bàn phím cho Laetus.
+Name: BlackBerry Classic Keys
+Author: @psprrom<rromero-mosso@hotmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BlackBerryClassic.json
+Depiction: https://jtisvn.github.io/depictions/LiquidGlass.html
+Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+
 Package: com.jtis.bloom
 Architecture: iphoneos-arm64
 Version: 1.0.3
