@@ -15334,6 +15334,47 @@ Depiction: https://jtisvn.github.io/depictions/Planetes.html
 Icon: https://jtisvn.github.io/sectionIcons/Planetes.png
 Author: uz.ra
 
+Package: jp.uzra.planetes
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Section: Tweaks
+Maintainer: uz.ra
+Installed-Size: 2140
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/jp.uzra.planetes_1.2.2_iphoneos-arm64.deb
+Size: 1352084
+MD5sum: 857a43e12a1503eb03e834e49dc9cd24
+SHA1: f47585368c2a24a1077bd3bfc45bf2356bcd5cea
+SHA256: 8bcfaba65afbdcdbd8d2ace4e1304d1ea07dbde1493a10570f1c4b5008fa548b
+SHA512: 66feb1a35a84af439439fc2c97abc36909ceb242a142a778f35de91238c1c6a0ca5e20f89da27333440c8898a3866c9a4c7654777b7f090eea3b1aed595a6974
+Description: Edge panel, ported to iOS
+Name: Planetes (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Planetes.json
+Depiction: https://jtisvn.github.io/depictions/Planetes.html
+Icon: https://jtisvn.github.io/sectionIcons/Planetes.png
+Author: uz.ra
+
+Package: jp.uzra.planetes
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Section: Tweaks
+Maintainer: uz.ra
+Installed-Size: 2140
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/jp.uzra.planetes_1.2.2_iphoneos-arm64e.deb
+Size: 1352236
+MD5sum: 704311aabc3f332bab3e822e29d58e28
+SHA1: feac7253208c7ebf27f7b51b16f1edc38ae6f916
+SHA256: 4d1261b0c41f83dcdd00b4ee2152aa7cecb9f3702cbb81136b9935f538d34b32
+SHA512: 5f84abff4e7304205bc99364c9bd6bf5798a00e0f48f0c06b8424a6f3079d6c4cf8b27420377fd18c284880f87e68144b4e03d737b53bdd0e10f97a777211f7d
+Description: Edge panel, ported to iOS
+Name: Planetes (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Planetes.json
+Depiction: https://jtisvn.github.io/depictions/Planetes.html
+Icon: https://jtisvn.github.io/sectionIcons/Planetes.png
+Author: uz.ra
+
 Package: kr.xsf1re.vnodebypass
 Architecture: iphoneos-arm64
 Version: 0.4.3

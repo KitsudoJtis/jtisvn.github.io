@@ -99,7 +99,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "11/12/2025",
+"text": "17/12/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -117,7 +117,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1.1",
+"text": "1.2.2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -173,7 +173,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.1.1\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.2.2\n\n- Thêm tùy chọn ẩn thanh nắm (handle) khi ở chế độ xoay ngang (Landscape mode)\n\n- Thêm tùy chọn điều chỉnh tỷ lệ chiều rộng của bảng (panel)\n\n- Giờ đây, bạn có thể đóng bảng bằng cách chạm ra khu vực bên ngoài nếu Aerial không ở trạng thái được ghim (staged)\n\n- Ẩn hiệu ứng đổ bóng khi Aerial đang được ghim (staged) để cải thiện khả năng hiển thị\n\n ### Phiên bản 1.1.1\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
