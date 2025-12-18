@@ -2742,6 +2742,27 @@ Author: Polyphian
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsP.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
+Package: com.jtis.Dustry
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Depends: firmware (>=15.0)
+Filename: ./debs/com.jtis.Dustry_1.0.0_iphoneos-arm64.deb
+Size: 5211740
+MD5sum: cae5b2222fffebc3547e9f40c02504fb
+SHA1: 84ea4aa06ffd13e40afb3ed1173b8e16bb20b167
+SHA256: 3d5a0a7a8e0e2633a21388dc6d677292ae7ed883c339be8abeeca5171f7e538a
+SHA512: 176c7987b040cfbf80ce0a60af10ecaf99f6e714f82a7ca171ce16cd5dd2758f4dc81e94ca4544026098cf0e00b1ea339d5a572124272c48c258527c9e26b518
+Homepage: https://jtisvn.github.io/
+Description: Chủ đề bàn phím cho Laetus
+Name: Dustry
+Author: Polyphian
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Dustry.json
+Depiction: https://jtisvn.github.io/depictions/Dustry.html
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+Tags: compatible_min::ios15.0, compatible_max::ios16.4.1
+
 Package: com.jtis.Gifisland
 Architecture: iphoneos-arm64
 Version: 1.0
