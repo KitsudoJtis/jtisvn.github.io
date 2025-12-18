@@ -10542,13 +10542,13 @@ Installed-Size: 404
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
 Filename: ./debs/com.jtis.removewidgetbg_2.0_iphoneos-arm64e.deb
-Size: 30860
-MD5sum: 96e26bd1ecbe8d266f7b41d475bdaa9a
-SHA1: 42db457deca512b17bbb6695886f9ea959c6f75d
-SHA256: 12e85736bb2c09fd182dca74db2da3476fe33dbf4ec8cf8f47d6777d5d0ff8c7
-SHA512: 2e9a47b22398a0ea8f594fd89008ba6117761c8f6318bf5b51862dc04bcbd6ed45bd11bb389cdef196e7e88a1b0c4e2bb518aaf869585a97dc77711e47bf72c9
+Size: 30864
+MD5sum: 1221c5c5899891b41f13d0cf8ce6f87f
+SHA1: 37ab8384ade008ccd6b414606e9876a64e30928f
+SHA256: 1a1b0231ebb15f1006a20f1211e86d16def7ec4cfe5d97e5eeab4a94a6233f37
+SHA512: 6c3605f69099ed2f9cad2ef1ecadfa4fe38bbca8dc3ab3351fcfe12a8285ae108bcbfc99acb946f96c80dd0248f6c3feb6c47dd3845c26ecf034cc3f63f4cf82
 Description: Xóa nền của các widget trên màn hình chính.
-Name: Remove Widget Background ;Roothide)
+Name: Remove Widget Background (Roothide)
 Author: Lessica <82flex@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/RemoveWidget.json
 Depiction: https://jtisvn.github.io/depictions/RemoveWidget.html
