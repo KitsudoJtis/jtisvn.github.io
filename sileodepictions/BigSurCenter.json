@@ -10,11 +10,27 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/LSUISharingan/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/BigSurCenter/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/LSUISharingan/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/BigSurCenter/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/BigSurCenter/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/BigSurCenter/Screenshots/4.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/BigSurCenter/Screenshots/5.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/BigSurCenter/Screenshots/6.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -22,7 +38,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"LS UI Sharingan\n\n- Thay đổi biểu tượng đèn pin & camera Màn hình khoá\n\n- Kích hoạt qua tinh chỉnh Snowboard.",
+"markdown":"BigSurCenter\n\n- .",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -57,7 +73,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Phuc Do",
+"text": "nicho1asdev",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -70,20 +86,20 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "LS UI",
+"text": "Tưeaks",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày cập nhật",
+"text": "Ngày tải lên",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "8/3/2025",
+"text": "21/9/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -101,7 +117,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0",
+"text": "1,4.5",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -114,7 +130,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "52,19 KB",
+"text": "734,39 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -127,7 +143,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.0 - 16.7.10",
+"text": "13.0 - 16.3.1",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -155,7 +171,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"###  Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.4.5\n\n- Sửa lỗi.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"

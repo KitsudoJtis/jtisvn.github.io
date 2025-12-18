@@ -988,6 +988,26 @@ Author: MrDeNsor
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LockTouchX.json
 Icon: https://jtisvn.github.io/sectionIcons/LockTouchX.png
 
+Package: com.den.twigalaxy
+Architecture: iphoneos-arm64
+Version: 1.10-10+debug
+Section: Tweaks
+Maintainer: DeNsor
+Installed-Size: 1080
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.den.twigalaxy_1.10-10+debug_iphoneos-arm64.deb
+Size: 154560
+MD5sum: b450252b364b09634aed97f50b8b8a34
+SHA1: d3e00fc77b4ed722a9f8c9a161efe149b22ec544
+SHA256: bd282e834a6bbc299903e8937017c93df6e1d7344f271cd384da7c387cc04ad9
+SHA512: 36094618a9438259fd86d1fcd008b02759de89c24738cf9629cd28a9f8b056c5b6ffae5ace3f8543a44141765b4f4a654c72c527dccce332499ced68689ffba1
+Description: Make Twitter Better!
+Name: TWIGalaxy (Rootless)
+Author: DeNsor
+Icon: https://raw.githubusercontent.com/6gr8/IGFormat/main/twigal_logo.png
+Header: https://raw.githubusercontent.com/6gr8/IGFormat/main/twigal_header.png
+SileoDepiction: https://raw.githubusercontent.com/6gr8/IGFormat/main/twigal.json
+
 Package: com.dvntm.glow
 Architecture: iphoneos-arm
 Version: 1.3.1
@@ -3975,6 +3995,59 @@ Author: @UAE_AD1001
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Angel.json
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
+Package: com.jtis.anthocrack2
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.anthocrack2_1.0.0_iphoneos-arm64.deb
+Size: 2920
+MD5sum: 8989ed52271ceeb20a1189480824d72d
+SHA1: 26dfd000df35bc0f5341e5adb2dbe9d632c9944d
+SHA256: bde10523514b095f356092f84f27cdb6b88532ba72abe6f93b77b75019677965
+SHA512: cd73b4d35a7c8f9972936dcbbb1a0bc39850647cb3da91177eba7d566bfebcd0648fcce4cd66d6967176f6adfe387242b68d081f0ad948e7fd18d9bd4a0ec434
+Description: Vô hiệu hóa cảnh báo cho các chỉnh sửa AnthoPak.
+Name: AnthoCrack2 (Rootless)
+Author: CBZ
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.anthocrack2
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.anthocrack2_1.0.0_iphoneos-arm64e.deb
+Size: 2848
+MD5sum: 984dad6e324697fb3bc92576a8c120e1
+SHA1: 25d5270d752c22abffb4343626046cf0c3f5112a
+SHA256: 8250c980f0f6e16d48e7f63365f9a55291d3781ec874eb985ecc1bddf4458a82
+SHA512: 761119b0219115d95a385e4d09b15ef0368344508dae200465f544c6df2ec45000225d583e3827b0c1e41156bb35a26ab8a4ff1ba735fc9ded51b407a1ae7f00
+Description: Vô hiệu hóa cảnh báo cho các chỉnh sửa AnthoPak.
+Name: AnthoCrack2 (Roothide)
+Author: CBZ
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.appcrack
+Architecture: iphoneos-arm64
+Version: 0.1-1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 210
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.jtis.appcrack_0.1-1_iphoneos-arm64.deb
+Size: 130364
+MD5sum: 8bda355dded99a03b5ea346b44b85ac7
+SHA1: c51196ea16e21eadceac5d9ed28344ec9bdd29c7
+SHA256: 125348dfb85fc3f242968ca55ff2f91aaa8f43af1ce19fbcf687843d89c9ba53
+SHA512: fd7b15a10951ba6837d57bf6b241254ed3b0997159d17ef7b0faaf6c0705250f077c44dd426b849f90426a9bbc03ad6744695a0aa61b5a2688b54f47e5a97a04
+Description: Mở khóa quyền VIP một số ứng dụng
+Name: Apps Cracked (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: Nyxz
+
 Package: com.jtis.appdatamanager
 Architecture: iphoneos-arm64
 Version: 1.8.2-5
@@ -4656,6 +4729,43 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/BetterCC.json
 Icon: https://jtisvn.github.io/sectionIcons/BetterCC.png
 Author: Miguelaka95 <miguelaka95@gmail.com>
 
+Package: com.jtis.betteruiswitch
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.jtis.betteruiswitch_1.1_iphoneos-arm64.deb
+Size: 58548
+MD5sum: c6dfffa3a0ef1f3c4837838d9739d726
+SHA1: 5c479af318f9e734c63f2c136951ed9cbf061ccb
+SHA256: 06366de3e211f313e3ad89d06bf8515f5ad5f6531f79ab28dd05ad3502da6230
+SHA512: 50687b7112cd4b4a4f599ed5326bf5fa3dd70237a9f644aa51a6fe5be9c157ae13223dfa83830ced3313ffaef4c495ca22ccf26154b1e7c23f311dfa78760bb9
+Description: Thêm hiệu ứng đặc biệt vào công tắc trên điện thoại di động.
+Name: BetteruSwitch (Rootless)
+Author: TiaoTiao <qiaozhani000@163.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BetteruSwitch.json
+Icon: https://jtisvn.github.io/sectionIcons/BetteruSwitch.png
+
+Package: com.jtis.betteruiswitch
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.jtis.betteruiswitch_1.1_iphoneos-arm64e.deb
+Size: 58760
+MD5sum: 98fb40d31a613c44d6a044be44b3734c
+SHA1: 601c205b05b5ae33183fe7432c3bd0b26ceff567
+SHA256: f5719b8a5c044df6aa0bdf831ae132d5814e8718c700b9852134cfc323c3a71b
+SHA512: 23b53d3e7cf9a4cd7bc172ad494ad606c00e1e7310a6f74c7f9d23a2f9c31a2a57b8af5d5c39af50951c2b9441df12b7dd78676805dd012f5d97bcc132bf3fac
+Description: Thêm hiệu ứng đặc biệt vào công tắc trên điện thoại di động.
+Name: BetteruSwitch (Roothide)
+Author: TiaoTiao <qiaozhani000@163.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BetteruSwitch.json
+Icon: https://jtisvn.github.io/sectionIcons/BetteruSwitch.png
+
 Package: com.jtis.bhinsta
 Architecture: iphoneos-arm64
 Version: 1.2-3+debug
@@ -4755,6 +4865,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/BigShot.json
 Name: BigShot (Roothide)
 Author: Jonathan Winger-lang
 Icon: https://jtisvn.github.io/sectionIcons/BigShot.png
+
+Package: com.jtis.bigsurcenter
+Architecture: iphoneos-arm64
+Version: 1.4.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1608
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, ws.hbang.common (>= 1.17), ws.hbang.alderis (>= 1.2)
+Filename: ./debs/com.jtis.bigsurcenter_1.4.5_iphoneos-arm64.deb
+Size: 749996
+MD5sum: 6dd242ab0f970b890b9ddf266ef55d50
+SHA1: 26b75517a626dc560c04725807e8438075d18e74
+SHA256: acad5f095194e36bc9d750c6f32aa185b5f3f341dedda2de613fb6eca53afe86
+SHA512: 551e16746788dd6a5ff76507481cebfd4b9a1b51709f9a82bc77c153e13e8a236e919a53d7db573325af704951f0152acb966932da095334472a63555954df1f
+Description: BigSurCenter thay thế trung tâm điều khiển mặc định của iOS bằng một trung tâm mới nhẹ và trang nhã lấy cảm hứng từ trung tâm điều khiển mới trong MacOS Big Sur.
+Name: BigSurCenter (Rootless)
+Author: nicho1asdev <nicholasmusumeci@icloud.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BigSurCenter.json
+Depiction: https://jtisvn.github.io/depictions/BigSurCenter.html
+Icon: https://jtisvn.github.io/sectionIcons/BigSurCenter.png
 
 Package: com.jtis.bioprotectxs
 Architecture: iphoneos-arm64
