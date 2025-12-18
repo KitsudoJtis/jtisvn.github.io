@@ -6737,13 +6737,13 @@ Architecture: iphoneos-arm64
 Version: 1.1-9
 Section: Tweaks
 Maintainer: JTISVN Repo
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, com.tqm-mos.xinam1ne
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, xyz.cypwn.xinam1ne
 Filename: ./debs/com.jtis.fakemodel_1.1-9_iphoneos-arm64.deb
-Size: 164488
-MD5sum: 2aa1f6c88e1ec12a9d45e69ed798e6be
-SHA1: fc33133bceae7d23a0898d09961a80b18ff71b8c
-SHA256: 43cb47a676fe98ec0d69cdc2920c9b77b61e2582ec1db7e05de162423f2ea68b
-SHA512: 9ead695787b014438890288b787e71cc4d08bf3770f01184b141b8d8b203ffd0b19229124c91ff9488dabb74a4a9e0fdf9b4360b865776ba061d15805d475c65
+Size: 164596
+MD5sum: d9a2c22d604442520e3997f346835c8a
+SHA1: 08dfc1ae9745c858dbad42da617200834a7fcf8a
+SHA256: ac175c1756cc2b8a9a81a754d94e81c0f9ec831af510c7bab4723f7dac0b716a
+SHA512: 84970f108731b4dca3cfb55cd3bd6c116ca1ea05ef2f3237f4dfec4fceb0bb0bbf4189979838ddd1f72100503fa12421b969cdb6cf4d1f76be460564355ee2dc
 Description: Giả mạo mô hình thiết bị của bạn trong các ứng dụng.
 Name: FakeModel (Rootless)
 Author: Netskao
