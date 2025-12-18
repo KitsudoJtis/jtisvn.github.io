@@ -3068,6 +3068,24 @@ Author: Phuc Do
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LSBlueDragon.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
+Package: com.jtis.LSLeafyti
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.jtis.LSLeafyti_1.0_iphoneos-arm64.deb
+Size: 6584
+MD5sum: 2f0ec4efc524ef71ddc85205bb877285
+SHA1: 0f27cad97021c79f8645ef57bab7a28444763ac8
+SHA256: f483217f722110257fe974fcd0ea390ce8380c66daac7440cf277ebf4221acb6
+SHA512: 950895a2ea2a1b183c159b9af1e85a4033c67e66571ec7055dcbf8c86874b9f38decc0ca3642d35a08a3bdc45059df03b2f1e7a9b41c220730d38097714712ca
+Description: Phông chữ đồng hồ kích hoạt qua AIM
+Name: LS-Leafyti
+Author: p0s3id0n
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSLeafyti.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
 Package: com.jtis.LSLunar
 Architecture: iphoneos-arm
 Version: 1.0
