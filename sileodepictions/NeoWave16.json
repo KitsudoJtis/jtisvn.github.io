@@ -17,7 +17,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n\n- Hiển thị hoạt hình Siri góc cạnh màu Gradient.\n\n- Có thể tuỳ chỉnh màu cấu hình và thời lượng hoạt hình.",
+"markdown":"\n\n- Hiển thị hoạt hình Siri góc cạnh màu Gradient.\n\n- Có thể tuỳ chỉnh màu cấu hình và thời lượng hoạt ảnh.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

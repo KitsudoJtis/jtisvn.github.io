@@ -6905,6 +6905,43 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Fiona.json
 Depiction: https://jtisvn.github.io/depictions/Fiona.html
 Icon: https://jtisvn.github.io/sectionIcons/Fiona.png
 
+Package: com.jtis.fixSneakyCam
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 748
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.jtis.fixSneakyCam_0.0.1_iphoneos-arm64.deb
+Size: 26928
+MD5sum: c8c38602489ef784e4bfe2d46221774e
+SHA1: 08ca4819cfe038d9c26c0d4eb943c0d78995ec5d
+SHA256: d4173e9592aa6e673073f3b4f4bb8f0674dcd05278268f8c4935e2e58b06e15c
+SHA512: 5f79103ab21e2ca43e9ef65151d4110b71867137079bca6ac8edeac64a5d9e2947267310a5392a89b7eb59381cb3819a9bd7edc65ae2a1ef940f10fc96c5fb29
+Description: Fix SneakyCam không hoạt động trên iOS 16
+Name: fix SneakyCam (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: Alex
+
+Package: com.jtis.fixSneakyCam
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 748
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.jtis.fixSneakyCam_0.0.1_iphoneos-arm64e.deb
+Size: 27040
+MD5sum: d0ea460b3ce86ee95dd15c7de3a8814d
+SHA1: d2a9cf0aa8e74ec71bb6450973e916aa0181ebc1
+SHA256: 7405308570e7f7db40405f9d7b571fade4642a6527ab4153751671cf9904c46e
+SHA512: c676875e46f64d838a8e2730ce2c4752719b9406eb045bcc4598163b8e282aa13c55dcfceccab6844eabca2c896ca4b5042012750d1b152a5bce2540632098f7
+Description: Fix SneakyCam không hoạt động trên iOS 16
+Name: fix SneakyCam (Roothide)
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: Alex
+
 Package: com.jtis.fixset
 Architecture: iphoneos-arm64e
 Version: 1.1
@@ -11279,6 +11316,47 @@ Description: Snapper 3 là công cụ chụp ảnh màn hình với nhiều ch�
 Name: Snapper 3 (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Snapper3.png
 Author: Jonathan Winger-lang
+
+Package: com.jtis.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.0.7
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 560
+Depends: mobilesubstrate, preferenceloader, oldabi
+Filename: ./debs/com.jtis.sneakycam_2.0.7_iphoneos-arm64.deb
+Size: 104344
+MD5sum: b67be5c06fb2b6797fc14adb723822da
+SHA1: 707919f1c2759234a9ad421ccd56afa7587b313e
+SHA256: d6fd01e95d046860eccb1a446a294897ba85ee06d1fbee395edfb6ce1edb48b8
+SHA512: 7a657f31f7904dce449dcd9c7b670867e37f4f770071f717bca9292f89630d1378ad498c3e8220d6468c516d3c1ecd65308d043534f623c5d09416bcea47c683
+Description: Chụp ảnh hoặc quay video kín đáo bất cứ đâu, ngay cả khi màn hình của bạn tắt.
+Name: SneakyCam (Rootless)
+Author: SparkDev
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SneakyCam.json
+Depiction: https://jtisvn.github.io/depictions/SneakyCam.html
+Icon: https://jtisvn.github.io/sectionIcons/SneakyCam.png
+
+Package: com.jtis.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.0.7
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 560
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, oldabi
+Filename: ./debs/com.jtis.sneakycam_2.0.7_iphoneos-arm64e.deb
+Size: 104084
+MD5sum: c36fb7d4becf4e84aaddb6b9bcffa9de
+SHA1: b801c8a8ae1c4256257e474f228615073c1aa161
+SHA256: 9027bdac031b3c6f27ff9afc3ae11211890758aae42f7e09a143cb35b2acf447
+SHA512: 142d05595d3ac32fd3a270b4ee5f40395f42bf51007d8f0394afd35c259003b684a5c04d7a44b07b498cd0af1b1259646e44f2e1999fed444b6d27d61eeb4c8d
+Description: Chụp ảnh hoặc quay video kín đáo bất cứ đâu, ngay cả khi màn hình của bạn tắt.
+Name: SneakyCam (Roothide)
+Author: SparkDev
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SneakyCam.json
+Depiction: https://jtisvn.github.io/depictions/SneakyCam.html
+Icon: https://jtisvn.github.io/sectionIcons/SneakyCam.png
 
 Package: com.jtis.sniper
 Architecture: iphoneos-arm64
