@@ -1309,6 +1309,24 @@ SileoDepiction: https://evynw.github.io/sileo/fontcenter8514.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 Author: Evelyn (ev_ynw)
 
+Package: com.evynw.fontcomicrelief14
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Filename: ./debs/com.evynw.fontcomicrelief14_1.0_iphoneos-arm64.deb
+Size: 12390028
+MD5sum: e572c0fa9507699e2d7b021c4ff763c7
+SHA1: 7deade75a23d47c8c6c58e96e57dfe4466cb499c
+SHA256: b08d2be1e5316d3548933fe6f4a2a4edb82b70c5348dcdcc8814282f6683eefd
+SHA512: dad2d18df3df40ecea860a2f2ac52b2d10487f76e33eee9f41518b3fea2d3aa37f5478ac6a108aad81f9b6f53a4689c8d1c98dc05fb335f1f5dbea3e5b133e51
+Description: Phông chữ ios
+Name: Comic Relief (iOS14-16)
+Author: Evelyn (ev_ynw)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontcomicrelief14
+SileoDepiction: https://evynw.github.io/sileo/fontcomicrelief14.json
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+
 Package: com.evynw.fontdubai14
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -15108,6 +15126,30 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AniTime.json
 Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Name: AniTime (Roothide)
 Author: yan
+
+Package: cydia-dark
+Architecture: iphoneos-arm
+Version: 1.9.3~b5
+Priority: required
+Section: Packaging
+Maintainer: JTISVN Repo
+Installed-Size: 8880
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz, cydia
+Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./debs/cydia-dark_1.9.3~b5_iphoneos-arm.deb
+Size: 1283232
+MD5sum: 137ea5dffb36a6c93c839546e5200987
+SHA1: da8471d7f074a1fbaebacc6ece04c27b40aaa353
+SHA256: 76c05fff2937f344c8bbe2c6dbc8cb4442c1cc23d943276cd07b55b6db9915fd
+SHA512: 0193eaff9afaa5dbfbe69a57f47cfb6c990c0de2bedcb0c28de4b3f6f8fb11ebd111277b2ef571ae25279ddb331fb954d9103b6807ec6d30c601387152bfaa8d
+Description: giao diện người dùng iPhone đồ họa cho APT
+Tag: purpose::uikit, role::enduser
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: https://jtisvn.github.io/sectionIcons/Cydia.png
 
 Package: cydia
 Architecture: iphoneos-arm
