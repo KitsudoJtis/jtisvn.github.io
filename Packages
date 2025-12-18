@@ -4886,6 +4886,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/BigSurCenter.json
 Depiction: https://jtisvn.github.io/depictions/BigSurCenter.html
 Icon: https://jtisvn.github.io/sectionIcons/BigSurCenter.png
 
+Package: com.jtis.bigsurcenter
+Architecture: iphoneos-arm64e
+Version: 1.4.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1608
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, ws.hbang.common (>= 1.17), ws.hbang.alderis (>= 1.2)
+Filename: ./debs/com.jtis.bigsurcenter_1.4.5_iphoneos-arm64e.deb
+Size: 748468
+MD5sum: 43d6068c42f2a62d6ee48ae4e07212ec
+SHA1: 2c264a901600dc1687d3bd67c60980d15c7ea3c1
+SHA256: ddae0d446dbdac7ef0eac904addda11a4ad2f0af0720f59d368b98e4df6578c1
+SHA512: d8b0ee08ab1686a2068a81ecc0de1074e447d7635441e1fb5bbcbcb15acdb9ca103703250f7f71a979c74b3e158346c6b055bf6c3b7c5b8c227c0229225685ce
+Description: BigSurCenter thay thế trung tâm điều khiển mặc định của iOS bằng một trung tâm mới nhẹ và trang nhã lấy cảm hứng từ trung tâm điều khiển mới trong MacOS Big Sur.
+Name: BigSurCenter (Roothide)
+Author: nicho1asdev <nicholasmusumeci@icloud.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BigSurCenter.json
+Depiction: https://jtisvn.github.io/depictions/BigSurCenter.html
+Icon: https://jtisvn.github.io/sectionIcons/BigSurCenter.png
+
 Package: com.jtis.bioprotectxs
 Architecture: iphoneos-arm64
 Version: 4.7-4
@@ -5468,6 +5489,51 @@ Author: Ryan Nair <ryannairtweaks@gmail.com>
 Name: Cask 3 (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Cask3.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cask3.json
+
+Package: com.jtis.cc18
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (< 18.0)
+Conflicts: com.dvntm.cc18
+Filename: ./debs/com.jtis.cc18_0.0.3_iphoneos-arm64.deb
+Size: 4648
+MD5sum: 5e8b8a35e943941e9e3e4a06afccbc0a
+SHA1: a7d53edf6dda4cbd2c935ded4e628713223ec121
+SHA256: 0ccb15fa7c4b28ff28f7d670c2234d4fc31395dc039d75c08a596f386841c702
+SHA512: fdb40851c549706bb3de5eac59594f527d94f35e43fefb6621486104965d1a0d33381c60b22c0c7b8d342a4285e7d31dccf4157f37de6ea4bcdc0297ef4a53f6
+Description: Trung tâm điều khiển IOS 18
+ * Sao chép mô -đun CC tròn, như trong iOS 18
+Name: CC18 (Rootless)
+Author: dvntm
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CC18.json
+Depiction: https://jtisvn.github.io/depictions/CC18.html
+Icon: https://jtisvn.github.io/sectionIcons/CC18.png
+
+Package: com.jtis.cc18
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (< 18.0)
+Conflicts: com.dvntm.cc18
+Filename: ./debs/com.jtis.cc18_0.0.3_iphoneos-arm64e.deb
+Size: 4548
+MD5sum: c3ed37e46d1f21ed71cbbbf54f9a771b
+SHA1: 351aeeacd3f81183626f02c71eac82862590a3eb
+SHA256: d2789bdb790051486c76ea414a756fe21d32109a3a4b3143f650a7cc6653d172
+SHA512: a68ff99937a9707e2f56893a40de055886ece2a5827c529ebb239778835ab757e39168d5b016026851786a30d9b7c5de935e92f945cc8bf787ff7b996a1349b3
+Description: Trung tâm điều khiển IOS 18
+ * Sao chép mô -đun CC tròn, như trong iOS 18
+Name: CC18 (Roothide)
+Author: dvntm
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CC18.json
+Depiction: https://jtisvn.github.io/depictions/CC18.html
+Icon: https://jtisvn.github.io/sectionIcons/CC18.png
 
 Package: com.jtis.cc26
 Architecture: iphoneos-arm64
