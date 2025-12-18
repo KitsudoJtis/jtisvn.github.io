@@ -16001,11 +16001,11 @@ Maintainer: uz.ra
 Installed-Size: 2336
 Depends: mobilesubstrate
 Filename: ./debs/jp.uzra.aerial_2.2.3_iphoneos-arm64.deb
-Size: 1386676
-MD5sum: 6cc3fe88df9e23aceab36b24f881eea9
-SHA1: 8d532bb3a4e8e33ad42e97889de5b7bfa117c7ec
-SHA256: 00fc7a882a995e56f2abe87ea015c791564a4df3ba03f48da94c75592a342857
-SHA512: 837eeb9cec66b8a61b49350532ad94a145106d8c3028bbbfd3519ae26ad4d44fcd5a0d0e72bce95cc5c271aeaaba361c567b25a8cfb5a9bc77d13eb01e1ba4c0
+Size: 1412728
+MD5sum: 42051e9bddf11ef2dbb2326a4a939742
+SHA1: 089dce34ccae45cd51556c622fcd77fbb22b9a3f
+SHA256: 956d4df1d58d7b24a0420a7d5f8f5dc1baa7ce02e4e05f2039657fdda871a2fc
+SHA512: 4128be0621ff7d6e0e9acec202b50ffa5bd2cccef6897a36741f206c98e1e07067f4566297a74fe1659e0da0bfa338bf6ef8b61f62cc07268f1f83edac165684
 Homepage: https://jtisvn.github.io
 Description: Stage Manager, redesigned for iOS
 Name: Aerial (Rootless)
@@ -16023,54 +16023,11 @@ Installed-Size: 2336
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/jp.uzra.aerial_2.2.3_iphoneos-arm64e.deb
-Size: 1387196
-MD5sum: df73bd918602b672450afc68b81e0ccc
-SHA1: d075ae879884cc6b611712eeda31631f5ec48ca0
-SHA256: 2323ba3a556043a25cfc3ab5d153e36ffa432a3b2a3f18d7bbfdc092a9c9b85b
-SHA512: 8a016cd15bb1d52862d45d63df875ffc858b84192d9a4d22dfe75a44f7ace00121e4cf016c4b5230353f097854c980cf4dbb28ec8714c9d2114bbbf19193fb5b
-Homepage: https://jtisvn.github.io
-Description: Stage Manager, redesigned for iOS
-Name: Aerial (Roothide)
-Author: uz.ra
-depiction: https://jtisvn.github.io/depictions/Aerial.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Aerial.json
-Icon: https://jtisvn.github.io/sectionIcons/Aerial.png
-
-Package: jp.uzra.aerial
-Architecture: iphoneos-arm64
-Version: 2.2
-Section: Tweaks
-Maintainer: uz.ra
-Installed-Size: 2300
-Depends: mobilesubstrate
-Filename: ./debs/jp.uzra.aerial_2.2_iphoneos-arm64.deb
-Size: 1378588
-MD5sum: 5352bb66cde6cc83bc3acf8ad26b599f
-SHA1: 700bd3ad99abbd56b4d58f2d711719d20d1fb3ce
-SHA256: e5ba925f28e6054f86555f9eb8e1d48187b9928024ea75465859dc5729b53b4a
-SHA512: 135a50b58ed1a9348f6bdab0f86bd171d7728b40c210c66562fc47acfbbdb6af36d7c2623850ec7bd63a1fa9a034a9fe18158a452753f7520869275c6ee9e388
-Homepage: https://jtisvn.github.io
-Description: Stage Manager, redesigned for iOS
-Name: Aerial (Rootless)
-Author: uz.ra
-depiction: https://jtisvn.github.io/depictions/Aerial.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Aerial.json
-Icon: https://jtisvn.github.io/sectionIcons/Aerial.png
-
-Package: jp.uzra.aerial
-Architecture: iphoneos-arm64e
-Version: 2.2
-Section: Tweaks
-Maintainer: uz.ra
-Installed-Size: 2300
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/jp.uzra.aerial_2.2_iphoneos-arm64e.deb
-Size: 1378324
-MD5sum: d94a09da1fd4323896e7b0a0ca445d65
-SHA1: dd23e7138a6cfe7b122ddee2ce2cba31e90fde61
-SHA256: 0a983cd10ed038e0f87ee1960aa54732a9d28879528190d3a1e869146e5a4001
-SHA512: 8e901fd21cf02c7643d5f8b3f0ad22ca7193e69cc3ce94bce718f52d17128099f3760d0f86856fd82bc97c7faadcbefe3df2f263a6259c8541b8e211933c2b7c
+Size: 1412124
+MD5sum: 1f1e8c9e8a18e479de6d321f71f9497b
+SHA1: 7977ff699f3c7d7000933b61b20991155336b19e
+SHA256: 883dfa26c660937df18680dca03d91c5e44ab88b8c1a96323efc11ff8cf5e538
+SHA512: 34b1eb4f46775b888ff0ddb80aa5644e261b70f319d517ca81d35c766b8e4b3198daf0ee83c14f70c28cf73a0659226ae6efd1cefb5fb0ac825dcbc4246e753d
 Homepage: https://jtisvn.github.io
 Description: Stage Manager, redesigned for iOS
 Name: Aerial (Roothide)

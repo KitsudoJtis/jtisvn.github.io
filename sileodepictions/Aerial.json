@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.2.3\n\n- Thêm tính năng tự động tránh bàn phím (để nội dung không bị che)\n\n- Thêm chế độ Khóa Sân khấu(Lock Stage)\n\n- Thêm cử chỉ mới: Giờ đây bạn có thể vuốt thanh điều hướng xuống dưới để mở ứng dụng toàn màn hình\n\n- Sửa lỗi xoay bàn phím\n\n- Thay đổi hành vi cử chỉ phóng to (pinch-out): Nếu ứng dụng trước đó trùng với ứng dụng đang thao tác, sẽ thoát về Màn hình chính; nếu khác, sẽ chuyển sang ứng dụng trước đó (Các trường hợp khác -> Về Màn hình chính)\n\n ### Phiên bản 2.2\n\n- Đã hỗ trợ thêm iPad\n\n- Thêm cử chỉ thu nhỏ vào thanh điều hướng. Giờ đây bạn có thể vuốt thanh dưới lên và thu nhỏ sân khấu.\n\n- Sửa lỗi hiển thị tầng cửa sổ bàn phím\n\n- Cố gắng sửa lỗi xoay bàn phím\n\n- Thay đổi cách thực hiện xung quanh AffineTransform\n\n- Ở chế độ cắt (Trim mode), khung cảnh giờ đây di chuyển có tính đến hiệu ứng biến đổi.\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 2.2.3\n\n- Thêm tính năng tự động tránh bàn phím (để nội dung không bị che)\n\n- Thêm chế độ Khóa Sân khấu(Lock Stage)\n\n- Thêm cử chỉ mới: Giờ đây bạn có thể vuốt thanh điều hướng xuống dưới để mở ứng dụng toàn màn hình\n\n- Sửa lỗi xoay bàn phím\n\n- Thay đổi hành vi cử chỉ phóng to (pinch-out): Nếu ứng dụng trước đó trùng với ứng dụng đang thao tác, sẽ thoát về Màn hình chính; nếu khác, sẽ chuyển sang ứng dụng trước đó (Các trường hợp khác -> Về Màn hình chính).\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
