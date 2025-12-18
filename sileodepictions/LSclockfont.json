@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Thay đổi phông chữ đồng hồ trên màn hình khoá.\n\n- Kích hoạt phông chữ qua tinh chỉnh Snowboard.",
+"markdown":"\n\n- Chủ đề phông chữ đồng hồ trên màn hình khoá.\n\n- Kích hoạt phông chữ qua tinh chỉnh Snowboard.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

@@ -2347,6 +2347,44 @@ Icon: https://jtisvn.github.io/sectionIcons/Atria.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Attia.json
 Depiction: https://chariz.com/get/atria
 
+Package: com.jtid.clockfonts
+Architecture: iphoneos-arm
+Version: 1.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate
+Filename: ./debs/com.jtid.clockfonts_1.3_iphoneos-arm.deb
+Size: 49520
+MD5sum: 23cb8182ed94c66e16c6c042df9f131d
+SHA1: c76bd68f196133ec11c9c041ce156767ef6563ef
+SHA256: aae378150abe34a69c9c1cfc56e35ddc1c5eaf51a888ba04c1b90499bea123c0
+SHA512: 19594a6cd1352a0f35cb1b1d12f679bdb4dbade692cd15e7d748b00d460e621b3d41def8e4fa303ba3d23fb629a0dd5be3036f25676eb1766ed7a6d8f7bcb4b5
+Description: Tuỳ chỉnh phông chữ đồng hồ trên màn hình khoá của bạn
+Name: ClockFonts
+Author: nqt1195
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ClockFonts.json
+Depiction: https://jtisvn.github.io/depictions/ClockFonts.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtid.clockfonts
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, xyz.cypwn.xinam1ne
+Filename: ./debs/com.jtid.clockfonts_1.3_iphoneos-arm64.deb
+Size: 49724
+MD5sum: 552d22e5b411480699f0d13ce8cd52f9
+SHA1: d26c95b493a3269afffe08ff4d392978dc9d83d1
+SHA256: 1fc68a5ea8734fe65ebf04b17a69ed1ec2b21abb1d0ac58697bff830a8349097
+SHA512: 1354e99dd49aa3c777503e29fbe547038f4f46c67494af52265a654e721ad6e4943fab3c4e4c7824f7812b5dc523966ec1028b855ad3a6a8c73980eb4f138fc4
+Description: Tuỳ chỉnh phông chữ đồng hồ trên màn hình khoá của bạn
+Name: ClockFonts (Rootless)
+Author: nqt1195
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ClockFonts.json
+Depiction: https://jtisvn.github.io/depictions/ClockFonts.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtid.daynightswitchs
 Architecture: iphoneos-arm64
 Version: 1.2
@@ -3066,6 +3104,24 @@ Description: Thay đổi phông chữ đồng hồ màn hình khoá.
 Name: LS Blue Dragon
 Author: Phuc Do
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LSBlueDragon.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
+Package: com.jtis.LSLeafyti
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.jtis.LSLeafyti_1.0_iphoneos-arm64.deb
+Size: 6584
+MD5sum: aceca97b1a6002493b21f4bbc3d0ce3a
+SHA1: 5e9ec5f8ad7c0f0f830ac39e917bb9005e4645d6
+SHA256: 5192cd16624a31eec0e38b8b3e264a1fb3e126946a0c7ea6202254bc901944b0
+SHA512: 64d1d97d80ea7771c887a4c1a0ac2002c97228de4ddd27bb41379537e3223b5d03fa6ff5f8a18940eb073f5dc04930038816c9435ddbcc4825e468225f28ee4c
+Description: Phông chữ đồng hồ kích hoạt qua ClockFonts
+Name: LS-Leafyti
+Author: p0s3id0n
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSLeafyti.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
 Package: com.jtis.LSLunar
