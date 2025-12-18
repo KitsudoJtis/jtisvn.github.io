@@ -5922,6 +5922,24 @@ Icon: https://jtisvn.github.io/sectionIcons/Complications.png
 Name: Complications (Roothide)
 Author: Ben Giannis
 
+Package: com.jtis.coolcc
+Architecture: iphoneos-arm
+Version: 4.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 328
+Depends: mobilesubstrate,preferenceloader,com.creaturesurvive.libcscolorpicker
+Filename: ./debs/com.jtis.coolcc_4.0_iphoneos-arm.deb
+Size: 40592
+MD5sum: fa80d0ae41fe4c31bc5b6991c33a64fd
+SHA1: 920878b2a3c22b5bc7fbea48ecb1882751475157
+SHA256: bf98c6d9019f92cb64a6bddc1834f506d13c51e0703fc3eb1f18b11e0e77fef4
+SHA512: 4c1d65f6b191d06e4085a9f2847374bac723444ad919eeda6f93870a993c65a9335a52d082f5a316c6febf42633849fe0c092545abf331e07abb3c481420956b
+Description: Làm cho ControlCenter trở nên đẹp đẽ
+Name: CoolCC
+Author: 4nni3
+Icon: https://jtisvn.github.io/sectionIcons/CoolCC.png
+
 Package: com.jtis.copylogfix16
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -10495,6 +10513,47 @@ Name: Remove Widget Background (Roothide)
 Author: Lessica <82flex@gmail.com>
 Icon: https://jtisvn.github.io/sectionIcons/RemoveWidget.png
 
+Package: com.jtis.removewidgetbg
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 404
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.jtis.removewidgetbg_2.0_iphoneos-arm64.deb
+Size: 31628
+MD5sum: 4c082e49eb018aae432fd41d45ee3fe7
+SHA1: b92819ece9b7aa99edfd66ccdd08a8e6e66ca5d0
+SHA256: c67a89fa14aca67d09c13be82c43031644893ae30ff39bf4d7aa01215a563863
+SHA512: 1b2372d7da0d6455eecf3f5e032cddf133bd5d0cac66cdeba4f16e16ec9e3f5612c144e5d2295678f48b1a3da804f461520c4cb6564667e95466edd9ea8dde41
+Description: Xóa nền các widget trên màn hình chính.
+Name: Remove Widget Background (Rootless)
+Author: Lessica <82flex@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/RemoveWidget.json
+Depiction: https://jtisvn.github.io/depictions/RemoveWidget.html
+Icon: https://jtisvn.github.io/sectionIcons/RemoveWidget.png
+
+Package: com.jtis.removewidgetbg
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 404
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.jtis.removewidgetbg_2.0_iphoneos-arm64e.deb
+Size: 30860
+MD5sum: 96e26bd1ecbe8d266f7b41d475bdaa9a
+SHA1: 42db457deca512b17bbb6695886f9ea959c6f75d
+SHA256: 12e85736bb2c09fd182dca74db2da3476fe33dbf4ec8cf8f47d6777d5d0ff8c7
+SHA512: 2e9a47b22398a0ea8f594fd89008ba6117761c8f6318bf5b51862dc04bcbd6ed45bd11bb389cdef196e7e88a1b0c4e2bb518aaf869585a97dc77711e47bf72c9
+Description: Xóa nền của các widget trên màn hình chính.
+Name: Remove Widget Background ;Roothide)
+Author: Lessica <82flex@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/RemoveWidget.json
+Depiction: https://jtisvn.github.io/depictions/RemoveWidget.html
+Icon: https://jtisvn.github.io/sectionIcons/RemoveWidget.png
+
 Package: com.jtis.resentment
 Architecture: iphoneos-arm64
 Version: 1.1k
@@ -11806,6 +11865,43 @@ Name: Switch DayNight (Roothide)
 Author: 白衣
 Icon: https://jtisvn.github.io/sectionIcons/DayNight.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Switchthemes.json
+
+Package: com.jtis.systeminfo
+Architecture: iphoneos-arm64Author: ARX8x
+Version: 2.7.2-2
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.systeminfo_2.7.2-2_iphoneos-arm64Author: ARX8x.deb
+Size: 272548
+MD5sum: 7f26873f3ff26cf21d7dae9c2d6c891e
+SHA1: 53d216bdb95f1c88937768ce7ff7f2fdfd738460
+SHA256: a4f0a39b9641a8a0032f890a7a22d4ce750510e01015a9cb18b9a6325b2fe80c
+SHA512: d96e673149fdb27dcc901f82bbb2b2c8195db91b08aebc34ec5a584349ae2e93ff5e3db628dc1935551762a49a76f670e44ef9cfd7af968edc3d0d4c52c7893f
+Description: Thông tin hệ thống trong ứng dụng Cài đặt > Chung > Giới thiệu và các phần khác. Đặt boot-nonce, lưu shsh, thông tin pin, v.v.
+Name: System Info (Rootless)Section: Tweaks
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SystemInfo.json
+Depiction: https://jtisvn.github.io/depictions/SystemInfo.html
+Icon: https://jtisvn.github.io/sectionIcons/SystemInfo.png
+
+Package: com.jtis.systeminfo
+Architecture: iphoneos-arm64e
+Version: 2.7.2-3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, oldabi
+Filename: ./debs/com.jtis.systeminfo_2.7.2-3_iphoneos-arm64e.deb
+Size: 268376
+MD5sum: 942f8d8c185fc4f20aa63927461b2a61
+SHA1: 08eada4ae4cf49ca7f55da70bccc8c80399aab76
+SHA256: 0d0fa07d027e9dcfe56ae485005f95662d11e81322b30f7f5dbaba11ad6213a3
+SHA512: 2ea5f330a908adf7d1492740f395bc4307b49f32a1fcb5429fca2b191fb6d3c03a8e8b6c60be93a985f6e5558ff97ff1cd21ef90fab45d98636ce19749573f0e
+Description: Thông tin hệ thống trong ứng dụng Cài đặt > Cài đặt chung > Giới thiệu và các phần khác. Đặt boot-nonce, lưu SHSH, thông tin pin, v.v.
+Name: System Info (Roothide)
+Author: ARX8x
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SystemInfo.json
+Depiction: https://jtisvn.github.io/depictions/SystemInfo.html
+Icon: https://jtisvn.github.io/sectionIcons/SystemInfo.png
 
 Package: com.jtis.taptaplock
 Architecture: iphoneos-arm64e

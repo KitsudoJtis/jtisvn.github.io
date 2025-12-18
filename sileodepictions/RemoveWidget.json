@@ -1,7 +1,7 @@
 {
-"minVersion":"0.1",
+"minVersion":"0.4",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#339999",
+"tintColor":"#5777B8",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -10,19 +10,23 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/SneakyCam/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/RemoveWidget/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/SneakyCam/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/RemoveWidget/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/RemoveWidget/Screenshots/3.png",
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":8,
+"itemCornerRadius":0,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"SneakyCam\n\n- Chup ảnh & quay video lén bằng cách nhấn nút tăng giảm âm lượng ngay cả khi thiết bị của bạn tắt\n\n- Đối với iOS16 trở lên vui lòng tải tweak fixSneakyCam để nó hoạt động bình thường.",
+"markdown":"Remove Widget Background\n\n- Xoá nền các tiện ích Widget trên màn hình chính.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -57,7 +61,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "SparkDev",
+"text": "Lessica",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -71,6 +75,19 @@
 {
 "class": "DepictionLabelView",
 "text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "18/12/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -88,7 +105,20 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.0.7",
+"text": "2.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "29,9 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -101,7 +131,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15.0 - 16.6.1",
+"text": "15.0 - 17.7.10",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -115,21 +145,37 @@
 "class": "DepictionSpacerView"
 },
 {
-"class": "DepictionSeparatorView"
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class": "DepictionStackView"
 },
 {
-"class": "DepictionLabelView",
-"text": "Liên kết & Hỗ trợ",
-"fontWeight": "semibold",
-"fontSize": 16,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 2.0\n\n- Thêm hỗ trợ iOS 17.0\n\n- Thêm ngôn nggữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên hệ Hỗ trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Ủng hộ tôi",
-"action":"https://jtisvn.github.io/homepage/donate/donate.html"
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
@@ -143,24 +189,7 @@
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
-}
-],
-"class":"DepictionStackView"
-},
-{
-"tabname":"Nhật ký thay đổi",
-"views":[
-{
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
-},
-{
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
+"text":"Copyright © 2025 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1
