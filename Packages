@@ -9607,6 +9607,43 @@ Author: Nightwind
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Onesetings.json
 Icon: https://jtisvn.github.io/sectionIcons/Onesettings.png
 
+Package: com.jtis.onyx
+Architecture: iphoneos-arm64
+Version: 1.6
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.onyx_1.6_iphoneos-arm64.deb
+Size: 24404028
+MD5sum: 147bb0dbb9f95f5dc0265e3dac9e3e36
+SHA1: 5b01008bcb8ee052af04d1859c0ec92a261b174b
+SHA256: 2edc47df0400af2efc7ce392b5f89eea74fb1b7ab98ba95e5729fcb0934bccf1
+SHA512: 1557041db5b20f94ea8018ac495e9069674db6166aecf32c917fa1c9a7825faae3b09eb031727da5487e8e2c03b8eba65070602b04d78df923ad32739567df26
+Homepage: https://jtisvn.github.io/
+Description: Chủ đề Onyx
+Name: Onyx
+Author: theprestigext
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Onyx.json
+Depiction: https://jtisvn.github.io/depictions/Onyx.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.onyx
+Architecture: iphoneos-arm64e
+Version: 1.6
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.onyx_1.6_iphoneos-arm64e.deb
+Size: 24403004
+MD5sum: 55b0f4ceb430b7d255432417330eee55
+SHA1: fbff1459df2ed8041552de022c17bc09c631684c
+SHA256: d15b6925daa6ca68e4168665cbf667b930bd5e561605c21c07b0d241c3e710eb
+SHA512: febfb88e7c376d289b0315034005dfdbd73242849b3dd3a031be82b0078ee095513db32a752fd6b1168c711a1071e9e7d3b07cf3c8072197c63d6b5af0247f26
+Description: Chủ đề Onyx
+Name: Onyx
+Author: theprestigext
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Onyx.json
+Depiction: https://jtisvn.github.io/depictions/Onyx.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
 Package: com.jtis.picsart
 Architecture: iphoneos-arm64
 Version: 1.0.2
