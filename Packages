@@ -550,6 +550,23 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariX.json
 Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
 Author: 0xkuj
 
+Package: com.34306.messedd
+Architecture: iphoneos-arm
+Version: 3.2
+Maintainer: Little 34306
+Installed-Size: 2440
+Depends: mobilesubstrate
+Filename: ./debs/com.34306.messedd_3.2_iphoneos-arm.deb
+Size: 296840
+MD5sum: 8ecf5c27f1ac242ea6d816d2354b26f7
+SHA1: 47cbb57ce6ce1228fec2b7745dae0e78b087ea02
+SHA256: 794618b1d548c83d526c487f840d24dcb4f28fe24a4169a2c32874a71b018dab
+SHA512: 3f1f16c8f87c65df6636c75334ac6e24e2af9b919835e945948b685d667f8bc1d1d46ef43ad495794a404ac361411cfac6459a731a076dc981b1d90256c2a7fe
+Description: Messed, Messenger with No Ads and No seen.
+Name: Messed
+Author: 34306
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/messed.png
+
 Package: com.34306.messengerfix
 Architecture: iphoneos-arm
 Version: 1.0-2+debug
@@ -2782,6 +2799,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Dustry.json
 Depiction: https://jtisvn.github.io/depictions/Dustry.html
 Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 Tags: compatible_min::ios15.0, compatible_max::ios16.4.1
+
+Package: com.jtis.Flex3beta
+Architecture: iphoneos-arm64
+Version: 1:3~Beta98
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), oldabi
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/com.jtis.Flex3beta_1:3~Beta98_iphoneos-arm64.deb
+Size: 6304088
+MD5sum: 82df0b9ff62467630bd6c8fa1fac6fac
+SHA1: 3ece2a1d198767e582e03df790f29dabccffba9c
+SHA256: dbbcbdaf7dd934130d2431db254fb99a0d81f5687cd6526fb440ad2d5547b306
+SHA512: 5ebd6c1e9003b29d0499375617a248b09a6045b53a1aca52089d3cbddae366dcc825dc80232723c86998d90f85672d03dbb85adc74a8acf6cfd14ef148a29dde
+Description: Phát triển các chỉnh sửa của riêng bạn và chia sẻ chúng trên Đám mây Cộng đồng Flex
+Name: Flex 3 (Rootless)
+Author: John Coates
+Icon: https://jtisvn.github.io/sectionIcons/Flex3.png
 
 Package: com.jtis.Gifisland
 Architecture: iphoneos-arm64
@@ -6249,6 +6285,43 @@ Icon: https://jtisvn.github.io/sectionIcons/Designer.png
 Name: Designer (Roothide)
 Author: JunesiPhone <junesgraphics@gmail.com>
 
+Package: com.jtis.disablepastealert16
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: SquidForce
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: ./debs/com.jtis.disablepastealert16_1.0_iphoneos-arm64.deb
+Size: 4088
+MD5sum: 5e857c0ca38132cb6652daee2790b536
+SHA1: 4478ab5d2c6cd62bb5eb6a62c8a9d8bfc2888047
+SHA256: 24f920f150342f18a23c174b40f4688daee5f80d4420d33846171bbee04bf5f7
+SHA512: c2c248997703d25ee8b9e3c25ec70f8fe05cfef31d58a4e0b6f093766e555ef244c826e05ec00e7f6f2c1623828a82bfc640944b592e821fe9e84c97d6d92f49
+Description: Vô hiệu hóa cảnh báo nhắc dán toàn hệ thống iOS16+.
+Name: DisablePasteAlert16 (Rootless)
+Author: SquidForce
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.disablepastealert16
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: SquidForce
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: ./debs/com.jtis.disablepastealert16_1.0_iphoneos-arm64e.deb
+Size: 3972
+MD5sum: fbc4f50a78e01293540b9d3312577c0a
+SHA1: 9043112861ba92bde60ff70c4cf81968679e391d
+SHA256: 13a0bfe99bce5862c57d07a744a241506972e03d51a0d5baf0b6ab0939f36773
+SHA512: 376819b9805bc73bcad75010d5700400103d40d6ad749e67d1ad6afb896203374652c206916fab65347b831f3d9113b60e531aab9ec253ce85b15a7558443008
+Description: Vô hiệu hóa cảnh báo nhắc dán toàn hệ thống iOS16+.
+Name: DisablePasteAlert16 (Roothide)
+Author: SquidForce
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.disupdateapp
 Architecture: iphoneos-arm64
 Version: 0.0.3-1
@@ -6641,6 +6714,23 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/FakeDualSIM.json
 Depiction: https://jtisvn.github.io/depictions/FakeDualSIM.html
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.fakemodel
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, com.tqm-mos.xinam1ne
+Filename: ./debs/com.jtis.fakemodel_1.1-9_iphoneos-arm64.deb
+Size: 164488
+MD5sum: 2aa1f6c88e1ec12a9d45e69ed798e6be
+SHA1: fc33133bceae7d23a0898d09961a80b18ff71b8c
+SHA256: 43cb47a676fe98ec0d69cdc2920c9b77b61e2582ec1db7e05de162423f2ea68b
+SHA512: 9ead695787b014438890288b787e71cc4d08bf3770f01184b141b8d8b203ffd0b19229124c91ff9488dabb74a4a9e0fdf9b4360b865776ba061d15805d475c65
+Description: Giả mạo mô hình thiết bị của bạn trong các ứng dụng.
+Name: FakeModel (Rootless)
+Author: Netskao
+Icon: https://files.catbox.moe/tecw17.png
+
 Package: com.jtis.fastlock
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -6814,6 +6904,25 @@ Author: yan
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Fiona.json
 Depiction: https://jtisvn.github.io/depictions/Fiona.html
 Icon: https://jtisvn.github.io/sectionIcons/Fiona.png
+
+Package: com.jtis.fixset
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 123
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.fixset_1.1_iphoneos-arm64e.deb
+Size: 36792
+MD5sum: 82bae2d63a16d24ba0874a1e0bbf2b66
+SHA1: 19326073e946e7c0b0aa00cc9120568a983ab995
+SHA256: c4c16b35873ebd0c7d917463d83156786b22b20d3c7093dd9b9ee541bc3d04a5
+SHA512: 5356d4ae472ff3ad7ae6bc8b1e17d7272839088e53f1738634212a599804cd66af0140a51db76300048f84f04954e817d54cb8382207d876046641bd3e92d8b7
+Description: Khắc phục sự cố một số Tweaks được chuyển đổi sang cấu hình Roothide không hoạt động
+Name: FixSet (Roothide)
+Author: @bswbw
+Sponsor: gblw
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.floatingdockxvi
 Architecture: iphoneos-arm64e
@@ -8685,6 +8794,27 @@ Author: Nguyên Tokuda & Hoàng MD
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
 
+Package: com.jtis.little11
+Architecture: iphoneos-arm
+Version: 3.4.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 912
+Provides: com.ryannair05.poseidon, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Conflicts: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: ./debs/com.jtis.little11_3.4.5_iphoneos-arm.deb
+Size: 341596
+MD5sum: 44990e2c1ffc317d08b2bc00bcbc7036
+SHA1: 9c78f7ac3dc72c8b30f92e9b8d07d479f041a039
+SHA256: ddb8f996619ce2483a2b13d7ddb4f11884afc816627c05e60bd9920131eea9db
+SHA512: 93ef710171c38e86ba7004b66fa624bf14a3d832c78bade697c549709e268d6cb957445c5d808da66d2944d99c7249f8af712f03b403a614aba1a5ef0788dc00
+Description: Fake củ chỉ Iphone X cho các máy đời cũ.
+Name: Little11
+Author: Ryan Nair
+Icon: https://jtisvn.github.io/sectionIcons/Little12.png
+
 Package: com.jtis.little12
 Architecture: iphoneos-arm64
 Version: 1.2.3
@@ -9110,6 +9240,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimeX.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.lunartime
+Architecture: iphoneos-arm
+Version: 0.1fix
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.lunartime_0.1fix_iphoneos-arm.deb
+Size: 18944
+MD5sum: e43f36ed67cb240fb2809edafad55413
+SHA1: 6583d346aea96261dd5827525c008638df53a7b7
+SHA256: 7a12c3047e6295f49e0e5af4c0838484d8a4f7f359e85bce7fdeb5eff64b6cd8
+SHA512: 680b21077e994cac86da6aed7bf42896d07968ee286e89b6a4de2f965072cee9288d828b6eff186086977f1f2d282f6e885db2c273d60d7ca42a256baefd231b
+Description: Thêm Ngày tháng Âm lịch -Dương lịch bên dưới đồng hồ giả lập X và iPX
+Tag: purpose::extension
+Name: LunarTime
+Author: fahlnbg
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.lunartime
 Architecture: iphoneos-arm64
 Version: 1.1
 Section: Tweaks
@@ -9451,6 +9600,26 @@ Name: NeoFreeBird (Roothide)
 Author: Aridan
 Icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxIZv8J1EA7kmghMw_4ZJjjKsn2H_n4zO0JXrXu_QzGA&s=10
 
+Package: com.jtis.neowave16
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 8756
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.neowave16_1.0.0_iphoneos-arm64.deb
+Size: 8311208
+MD5sum: fe2e7ed06d0d27316fadbf651aee6b06
+SHA1: 9b829165c31876b0019a9aba61b2d9e70392feec
+SHA256: d236e44c5ce9f16485d4227f56b70a4f8b31cc19a7a6fb2937c561e14ef9b8c7
+SHA512: b7a5980feead49ea547d9083358bdd3167a873a3150aff4c819a08220fcf8d08eed31a14483985bbb2beecdbfe20cb9ef97f9f9c027e8a10ee410df2b577d7f2
+Description: Hoạt ảnh chuyển màu cạnh màn hình đánh thức Siri
+Name: NeoWave16 (Rootless)
+Author: SHTM
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NeoWave16.json
+Depiction: https://jtisvn.github.io/depictions/NeoWave16.html
+Icon: https://jtisvn.github.io/sectionIcons/NeoWave16.png
+
 Package: com.jtis.networkmanager
 Architecture: iphoneos-arm64
 Version: 1.4.3
@@ -9705,6 +9874,23 @@ Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Tags: compatible_min::ios14.0, compatible_max::ios16.2
 Author: ETHN <ethanwhited2208@gmail.com>
 SomeOtherEntryToControl: True
+
+Package: com.jtis.ntspeed
+Architecture: iphoneos-arm
+Version: 0.2~beta9
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.ntspeed_0.2~beta9_iphoneos-arm.deb
+Size: 56624
+MD5sum: 7d48f592f1e681f5bf5aae00c52e6753
+SHA1: b070b0fba90750a20fe191914c6b99ea0c4c7852
+SHA256: b3afcc56a39400d58ece4e14a468530fb579c2e0fd2784df81f28d821477ac18
+SHA512: f47194977d02e9006f49a7ca948ab6fefcb5ec01549cb8742d05999c3a1edb5e9741b9022be3f09de24f92664035bb35816ebdfa5c024c8c20cd18b5598e0e5c
+Description: Hiển thị tốc độ mạng trên thanh trạng thái. Hỗ trợ iOS6 tới iOS14.9
+Name: NtSpeed
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: Julioverne
 
 Package: com.jtis.ocd
 Architecture: iphoneos-arm64
