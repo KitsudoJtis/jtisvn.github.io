@@ -7868,6 +7868,24 @@ Icon: https://jtisvn.github.io/sectionIcons/Griddy.png
 Name: Griddy (Roothide)
 Author: mikifp
 
+Package: com.jtis.grpro
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.grpro_1.0_iphoneos-arm64.deb
+Size: 16813244
+MD5sum: 238c5186c07c36f0b3b7b2a0516d0aa9
+SHA1: 55108f40497adaafd7bb84b9b88843fd1488e99f
+SHA256: 1340dfda6e15a517ee6e2d0073c891738db84d0cf98c01c9a2efdade6c01baad
+SHA512: abe9761701e35c79905969c142c34362e5d93cd2eead19c28d23f63721b964ffe0221cfd6c4a82158d1fafda6a897167a6aa83e58321b7c38b88fa1bfa09325d
+Description: Chủ đề Green Red
+Name: GreenRed Pro
+Author: @tqmmos,@bqhtit <anhminh311105@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/GreenRed.json
+Depiction: https://jtisvn.github.io/depictions/GreenRed.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
 Package: com.jtis.gwyneth23
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -9563,6 +9581,24 @@ Name: CC Music (Roothide)
 Author: simon
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCMusic.json
 Icon: https://jtisvn.github.io/sectionIcons/CCMusic.png
+
+Package: com.jtis.meizu3D
+Architecture: iphoneos-arm64e
+Version: 1.6
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.meizu3D_1.6_iphoneos-arm64e.deb
+Size: 58666488
+MD5sum: 00090372fd8787df7b5cefcabe63fb7c
+SHA1: 221fa14df00cc7a171d93970eb4641aa1db9232e
+SHA256: 290329df319586855b446df63363795f162e6ff1470930c3cb062001a796110c
+SHA512: 4a82e16c94972afe02a16dced4077c0871c53c278ba46f7243d12791ab16090c049b90fbcfaa216f14cc2660650d993b97103b44b8f69ef4d402f0f3517048c5
+Description: Chủ đề Meizu 3D
+Name: Meizu 3D Theme
+Author: Miss
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Meizu3D.json
+Depiction: https://jtisvn.github.io/depictions/Meizu3D.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.miuminuipro
 Architecture: iphoneos-arm
