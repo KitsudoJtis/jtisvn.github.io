@@ -16158,11 +16158,11 @@ Maintainer: uz.ra
 Installed-Size: 2464
 Depends: mobilesubstrate, com.opa334.ccsupport
 Filename: ./debs/jp.uzra.aerial_3.1_iphoneos-arm64.deb
-Size: 1412332
-MD5sum: 300473a340756150ca3726469efa45c3
-SHA1: 3ea8352d90b1f50f8e40c06bf81395ab050bcd47
-SHA256: 243210bd9b1e26d218778b873ce68ab7909025b1f31613234d7eda2442d46b98
-SHA512: cf69e57b14e445487f0d254419adc21e4c61cc9d826bcb50aba1975a62748425a73096f4136ebcc049c44f4dc336d9b78165862720ec9af71518fb482c1ac21f
+Size: 1412872
+MD5sum: 505f9ff3357ebd3e7bae5103c963dcd4
+SHA1: ecefb96821787426ca44f9ffa54055dc5f74418e
+SHA256: 62194e8efe13ab005ee17ba8993cddbacbc46cb7d9f8ff0d398623d7e2cbbe5c
+SHA512: c4cf868aa801f73b231a70c86095d2186f899e31402f7db38c5c180066843f0f24295ffbbb8c5cb986afe071ee8c4fdef802a8370ba27b00157dc559be0c3d0f
 Homepage: https://jtisvn.github.io
 Description: Stage Manager, redesigned for iOS
 Name: Aerial (Rootless)
@@ -16180,11 +16180,11 @@ Installed-Size: 2464
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, com.opa334.ccsupport
 Filename: ./debs/jp.uzra.aerial_3.1_iphoneos-arm64e.deb
-Size: 1412024
-MD5sum: 7d568e95c30d6180db48e34025a9251e
-SHA1: b6443c7ae32f9ce56e315be36c09945ee7e470f5
-SHA256: cea1c2c50d420d85fbefce745bffdc0e713440e822747810a864f54f7479d749
-SHA512: e4cfd1fb1b943f53f46143ef8650cb3942cdcbb2a03fae83407e6ae6871ab1147167a56fc4329048fa146a603673bcf0fba85675634803d1d20c173f46c1a5d4
+Size: 1412392
+MD5sum: 44a4a68df355d38fd2dc3cc093c9d1f4
+SHA1: 4ad27f7619122f98f946b98496bec9b05cf643fa
+SHA256: 7a1f2d8c5c0f02d09ec372a6c405596d2748c9663191f87505ae5a16014b1de2
+SHA512: deb59337e0a3deab0d991157df4ca688c532911bb54707bf105da01c81a78bea3d8152aff0e4e3805904e217dd322fff44f3fd8f50fd378cf2963ecab9bb78df
 Homepage: https://jtisvn.github.io
 Description: Stage Manager, redesigned for iOS
 Name: Aerial (Roothide)
