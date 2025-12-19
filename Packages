@@ -12988,6 +12988,43 @@ Author: YangJiii
 SileoDepiction: https://jtisvn.github.io/sileodepictions/YangJiiiLineat.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
+Package: com.jtis.youspeed
+Architecture: iphoneos-arm64
+Version: 1.6.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.tqm-mos.ytvideooverlay (>= 2.2.0)
+Conflicts: com.lyvendia.ytspeed
+Filename: ./debs/com.jtis.youspeed_1.6.2_iphoneos-arm64.deb
+Size: 12076
+MD5sum: 59b0356dadc97f8a6f1ddbe858e5184b
+SHA1: c34e2b732ecc0fd987b3d2bf1a4accc56173d05f
+SHA256: ddb38e7d72c4c66d3a4f8dc87af8ff4e67c7cbbdd38bc52db09eba9faf9fa02b
+SHA512: 0e9555800a7965417c74545bbb07928c2f411151a98823d5127c69397f57aa7291bba3cbe1e42d5ef3f8b5b5f6d49d56eed224e10f39e46d04a0d443a5a86369
+Description: Lượt xem/thay đổi tốc độ video trong ứng dụng iOS trên YouTube nhanh hơn và thêm nhiều tùy chọn tốc độ.
+Name: YouSpeed (Rootless)
+Author: PoomSmart
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.ytlegacy
+Architecture: iphoneos-arm64
+Version: 1.9.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2376
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.ps.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
+Filename: ./debs/com.jtis.ytlegacy_1.9.0_iphoneos-arm64.deb
+Size: 224984
+MD5sum: ca0479ac03fd8028be98592a7cb3995b
+SHA1: 8624ff775de68885a9aa7fb520d9c9b1e81ad480
+SHA256: 4b836592b61255a66bfc78cc304cf04d66d980fd1e2b393c66faef23680b6992
+SHA512: d8d2fe86652eca15c4a95da64b2d6e84dd89718edbb559b640ab783ede158b2b59b2a13a011b5ffe26d82c7d791f0745eeefe13506c4650f1530c82ac825a77a
+Description: Hỗ trợ cho các phiên bản cũ YouTube của bạn hoạt động trở lại.
+Name: YouTube Legacy (Rootless)
+Author: PoomSmart
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.zaire
 Architecture: iphoneos-arm64
 Version: 0.9.0
