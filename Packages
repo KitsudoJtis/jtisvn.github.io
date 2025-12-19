@@ -2846,12 +2846,12 @@ Maintainer: JTISVN Repo
 Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), oldabi
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/com.jtis.Flex3beta_1:3~Beta98_iphoneos-arm64.deb
-Size: 6304088
-MD5sum: 82df0b9ff62467630bd6c8fa1fac6fac
-SHA1: 3ece2a1d198767e582e03df790f29dabccffba9c
-SHA256: dbbcbdaf7dd934130d2431db254fb99a0d81f5687cd6526fb440ad2d5547b306
-SHA512: 5ebd6c1e9003b29d0499375617a248b09a6045b53a1aca52089d3cbddae366dcc825dc80232723c86998d90f85672d03dbb85adc74a8acf6cfd14ef148a29dde
+Filename: ./debs/com.jtis.Flex3beta_1.3~Beta98_iphoneos-arm64.deb
+Size: 6308540
+MD5sum: 21ec06d1cc39a8a9b8ba96f65fdf3001
+SHA1: 7eb443afafad85b3079709197cdf4673c29a1db0
+SHA256: dbe45fd6011677afe94b870a8c7eb4550dd90f81bd048a7482402bd8bef33637
+SHA512: 4ad757a3bacac0d1e9779fe71637346643c456f50e3977a3123cbbf76b96ec6748c7ca1b51dffb474f27814efc558fd710bcff359161d08a48f99c992a305174
 Description: Phát triển các chỉnh sửa của riêng bạn và chia sẻ chúng trên Đám mây Cộng đồng Flex
 Name: Flex 3 (Rootless)
 Author: John Coates
@@ -7868,6 +7868,24 @@ Icon: https://jtisvn.github.io/sectionIcons/Griddy.png
 Name: Griddy (Roothide)
 Author: mikifp
 
+Package: com.jtis.grpro
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.grpro_1.0_iphoneos-arm64.deb
+Size: 16813244
+MD5sum: 238c5186c07c36f0b3b7b2a0516d0aa9
+SHA1: 55108f40497adaafd7bb84b9b88843fd1488e99f
+SHA256: 1340dfda6e15a517ee6e2d0073c891738db84d0cf98c01c9a2efdade6c01baad
+SHA512: abe9761701e35c79905969c142c34362e5d93cd2eead19c28d23f63721b964ffe0221cfd6c4a82158d1fafda6a897167a6aa83e58321b7c38b88fa1bfa09325d
+Description: Chủ đề Green Red
+Name: GreenRed Pro
+Author: @tqmmos,@bqhtit <anhminh311105@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/GreenRed.json
+Depiction: https://jtisvn.github.io/depictions/GreenRed.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
 Package: com.jtis.gwyneth23
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -11967,7 +11985,7 @@ Architecture: iphoneos-arm64Author: ARX8x
 Version: 2.7.2-2
 Maintainer: JTISVN Repo
 Depends: mobilesubstrate
-Filename: ./debs/com.jtis.systeminfo_2.7.2-2_iphoneos-arm64Author: ARX8x.deb
+Filename: ./debs/com.jtis.systeminfo_2.7.2-2_iphoneos-arm64.deb
 Size: 272548
 MD5sum: 7f26873f3ff26cf21d7dae9c2d6c891e
 SHA1: 53d216bdb95f1c88937768ce7ff7f2fdfd738460
