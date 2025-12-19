@@ -10,7 +10,15 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/GreenRed/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/Flora/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Flora/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Flora/Screenshots/3.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -18,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Green Red Pro\n\n- Chủ đề Green Red Pro, được thiết kế bởi TQM.\n\n- Chi tiết gói gồm:\n\n+ Gói biểu tượng chính GreenRed.\n\n+ 9 gói hiệu ứng Mask AE.\n\n+ 6 gói màu AE Color (AE Color 1-6).\n\n + 4 gói huy hiệu thông báo.\n\n+ 3 gói Dock UI.\n\n+ 2 gói công tắc Switch (UISwitch.\n\n+ 3 gói biểu tượng cài đặt.\n\n+ 2 gói giao diện cuộc gọi.\n\n+ Gói Wifi và Sóng.\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
+"markdown":"Flora\n\n- Tinh chỉnh thay đổi màu sắc hệ thống hiện đại, được xây dựng để thay thế các tweak cũ như Kaleidoscope hay Spectrum.\n\n- Chế độ Đơn giản (Simple): Chỉ cần chọn 2 màu để thay đổi giao diện toàn bộ iOS một cách nhanh chóng.\n\n- Chế độ Nâng cao (Advanced): Cho phép tùy chỉnh thủ công từng màu sắc theo ý muốn.\n\n- **Tính năng nổi bật:**\n\n+ Hỗ trợ Xuất/Nhập (Export/Import) các bộ màu.\n\n+ Thay đổi màu sắc bên trong các Ứng dụng (nhờ libSandy).\n\n+ Hỗ trợ đầy đủ cho Rootless Jailbreak.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -53,7 +61,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "TQM",
+"text": "rosiepie",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -66,20 +74,20 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Themes",
+"text": "Tweaks",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày tải lên",
+"text": "Ngày cập nhật",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "12/10/2025",
+"text": "03/03/2024",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -97,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0",
+"text": "1.1.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -110,7 +118,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "25,28 MB",
+"text": "1.57 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -123,7 +131,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.0 - 16.7.10",
+"text": "14.0 - 16.6.1",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -151,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.1.3\n\n- Sửa lỗi quan trọng: Tắt mặc định tùy chọn \"Màu cơ bản > Trắng\" để khắc phục lỗi văng (crash) khi dùng bàn phím viết tay tiếng Trung.\n\n- Hỗ trợ đổi màu bong bóng tin nhắn iMessage và giao diện Safari ở chế độ tối (thông qua Màu hệ thống).\n\n- Cải thiện phương thức Respring (sử dụng sbreload hoặc killall SpringBoard).\n\n- Tính năng Xuất (Export) giờ đây sẽ xuất toàn bộ dữ liệu thay vì chỉ màu sắc.\n\n- Sửa lỗi xử lý độ trong suốt (alpha) của màu sắc trong chế độ Nâng cao.\n\n- Thêm các giá trị dự phòng cho chế độ Đơn giản để khắc phục lỗi không hoạt động ở một số người dùng.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"

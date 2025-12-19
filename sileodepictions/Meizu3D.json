@@ -16,6 +16,10 @@
 {
 "url":"https://jtisvn.github.io/infodeb/Meizu3D/Screenshots/2.png",
 "accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Meizu3D/Screenshots/3.png",
+"accessibilityText":"Screenshot"
 }
 ],
 "itemCornerRadius":8,
@@ -74,6 +78,19 @@
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "12/12/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 }
 ]
 },
@@ -88,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0",
+"text": "1.5",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -169,7 +186,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.5\n\n- Thêm một số biểu tượng\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
