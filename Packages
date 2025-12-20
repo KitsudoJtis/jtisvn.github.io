@@ -15319,6 +15319,24 @@ Name: libSparkAppList
 Author: Spark
 
 Package: com.spark.libsparkcolourpicker
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: Development
+Maintainer: Spark
+Installed-Size: 424
+Depends:
+Filename: ./debs/com.spark.libsparkcolourpicker_1.0.2.deb
+Size: 69852
+MD5sum: e39b81a19226b2536ec1c9fdc935c311
+SHA1: 42b23f22d973922413fd787a32bc292448e33f98
+SHA256: 2a9bfc4668a9cedbdae5075d2688ac31364d0ccb33ef7d724837de69494f51f4
+SHA512: 266be9f2976e9427aaa9a91b414c3913c088a68acaca309177a86d9003a53ba7647850300c05f5eaa91f314b29cf9b906db0c3d20f53748ec45b982b9a9af04b
+Description: Simple to implement, simple to use colour picker library. Built by SparkDev.
+Tag: role::developer
+Name: libsparkcolourpicker
+Author: Spark
+
+Package: com.spark.libsparkcolourpicker
 Architecture: iphoneos-arm64
 Version: 1.0.3-rootless
 Section: System
