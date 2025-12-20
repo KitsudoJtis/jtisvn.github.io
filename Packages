@@ -966,6 +966,48 @@ Tag: compatible_min::iOS9
 Name: libCSPreferences
 Author: CreatureSurvive <support@creaturecoding.com>
 
+Package: com.creaturesurvive.libcscolorpicker
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: System
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 960
+Pre-Depends: firmware (>= 7.0)
+Filename: ./debs/com.creaturesurvive.libcscolorpicker_1.0.6_iphoneos-arm64.deb
+Size: 206352
+MD5sum: bc3b47252a5f1ac8c0cc1e4e28cc4891
+SHA1: de1df8e04e647361adaf8ded1d2061ee8f91dc17
+SHA256: 8bda84f9bee823a35e50baf62d30216a1b954ff2eb1862d933988808592a30f8
+SHA512: ce86d87d18d39ea836578e8f27002e1bc88834c9d0c60db29a2bbb80d0b28156ce1cf005e81f57b2aa683d5f7188b3de814a897def687b87f55f358699427375
+Homepage: https://creaturecoding.com/
+Description: A minimal color picker library for developers
+Tag: purpose::extension, compatible_min::iosiOS7
+Name: libCSColorPicker
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
+SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
+
+Package: com.creaturesurvive.libcscolorpicker
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: System
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 960
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 7.0)
+Filename: ./debs/com.creaturesurvive.libcscolorpicker_1.0.6_iphoneos-arm64e.deb
+Size: 207536
+MD5sum: 523283d1ed4cc1b2fb21acb6b1324f6e
+SHA1: bf17b7a7f88a38ed9c656937f1eb7d00927459fa
+SHA256: 52fd8d34c4701f7a1b7e70ce7ee4ff46ff35935a085e4aa16f92c4ebf0152e74
+SHA512: 89196d358119edfd51e8e13c8ea5b14b8a811d6e772a1fef5e489f7b9fa78b97ed5512f8f241a65c490238baf61a511b4d6f51d3995d83bcf187e612c5f9edf8
+Homepage: https://creaturecoding.com/
+Description: A minimal color picker library for developers
+Tag: purpose::extension, compatible_min::iosiOS7
+Name: libCSColorPicker
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
+SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
+
 Package: com.den.locktouchx
 Architecture: iphoneos-arm64
 Version: 1.3-18+debug
@@ -17105,6 +17147,29 @@ Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
 Name: SwiftProtobuf
 Author: eevee
+
+Package: org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm64
+Version: 1.6.9.1
+Section: System
+Maintainer: Bailey Seymour
+Installed-Size: 392
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: ./debs/org.thebigboss.libcolorpicker_1.6.9.1_iphoneos-arm64.deb
+Size: 71096
+MD5sum: dcd979434652725495b904063c88cceb
+SHA1: 9e19e8bf343dd27b072ad91eae13a5232e1dac40
+SHA256: d9fd2065a9ccb11e9dc5c7cdec10ff278544bff028e36110a71b8cebb4b7edfc
+SHA512: 199279bb7c1d17e91fc86966dc8622fa562aceeef8b0ba761572b133f15efaac0edfb4c8ffdb0de38ef8cf170992d6ce4a23cd7333c59732333f5d82427d0387
+Description: An awesome library of some sort!!
+Tag: role::developer
+Name: libcolorpicker (Unofficial)
+Author: Bailey Seymour
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=org.thebigboss.libcolorpicker
+Icon: https://p2kdev.github.io/repo/api/packageinfo/org.thebigboss.libcolorpicker/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/org.thebigboss.libcolorpicker.json
 
 Package: org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm64e
