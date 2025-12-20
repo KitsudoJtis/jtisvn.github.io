@@ -1492,6 +1492,24 @@ SileoDepiction: https://evynw.github.io/sileo/fonturwgeo14.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 Author: Evelyn (ev_ynw)
 
+Package: com.evynw.fontwhitney14
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Filename: ./debs/com.evynw.fontwhitney14_1.0_iphoneos-arm64.deb
+Size: 5679828
+MD5sum: 376128f218351e904aff9f62cde9dfc4
+SHA1: a662dc02b732afe22c0e139243e313a4c5416e54
+SHA256: d725296949ac90d42e9170ded114c5571e7767c9dadf1fe98104cef5c59d05e6
+SHA512: e165bd67b7902e1a9fda6cc587383dc26f89d38182f544f86d6b2b95f0daa27879e6a62d2c49692dab71f3f8cece3688103e614c80b03665a7ea2d6b644273c6
+Description: Official font for Discord. For iOS14-16.
+Name: Whitney (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontwhitney14
+SileoDepiction: https://evynw.github.io/sileo/fontwhitney14.json
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
 Package: com.exile90.icleanerpro
 Architecture: iphoneos-arm64
 Version: 7.10.0
@@ -2711,15 +2729,15 @@ Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.ChromaSettings
 Architecture: iphoneos-arm64
-Version: 1.0
+Version: 1.1
 Section: Chủ đề
 Maintainer: JTISVN Repo
-Filename: ./debs/com.jtis.ChromaSettings_1.0_iphoneos-arm64.deb
-Size: 1499144
-MD5sum: 8dbb493bd3d3b62edfa82fbc30291878
-SHA1: 2b6c41688742c94c4a100ec37cfe854fd0f92863
-SHA256: 4da101e5b4807802e66f154beebc914392ce2cbc50d648ddb712c233e82aa505
-SHA512: 1f890c6a6b3bd803290f2bbd8414f6aa1c2434ec46b3bcc2582e807b99eacd30d2afc53b815d3a76711839f002fd27e214c9ebd581a75a527c8eb6f7105c462f
+Filename: ./debs/com.jtis.ChromaSettings_1.1_iphoneos-arm64.deb
+Size: 1533760
+MD5sum: bc6f882bfd8bc8294a05dd311c220d14
+SHA1: 37bdcf4a72988763f73ae614dd03a9d4079906c9
+SHA256: d5bf2b73d215c36c4b727f77bdd2bd5403bbcc656fbbaad8451cdae1bef238e8
+SHA512: 7c26ec4fd2f322b686c24f6d8dc0cfa9fa3ad6ea2984b795a7e30f6edcfd5abb3fbce02c3200e0e4c0f303c1dcf2af01c8209b0cfb4f635f42dede1ffebf1723
 Description: Chủ đề setting Snoked
 Name: Setting Chroma
 Author: Kitsudo
@@ -2728,15 +2746,15 @@ Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.ChromaSettings
 Architecture: iphoneos-arm64e
-Version: 1.0
+Version: 1.1
 Section: Chủ đề
 Maintainer: JTISVN Repo
-Filename: ./debs/com.jtis.ChromaSettings_1.0_iphoneos-arm64e.deb
-Size: 1499108
-MD5sum: c72d7f022fcec21f369aa3e8e5fe27e9
-SHA1: e0d91686c1008055b31332b79001d02f64c9868e
-SHA256: f8aa16d1eeec65b0e89500e2a081e3df331dec4753601a7cdec39ce1d4db7720
-SHA512: 7d6aad9b7f2a7ebd4624f1b417f59e58ea830ba72256495479870b3aab62aa582682c718621e1fb6f8618bf67bedd763000f68691844df623da147ee968fe871
+Filename: ./debs/com.jtis.ChromaSettings_1.1_iphoneos-arm64e.deb
+Size: 1533584
+MD5sum: 00daebd55bb0bb4913dd85fadf025aba
+SHA1: 76bedc194efe891ba649ab49f0045d5b448eadfc
+SHA256: 5fc2bf37c9e0e0eaea9593289af56a9735ed853048013aa8728b1df26e65602b
+SHA512: 896fec260cd148b14674738a54f89db77ccfaadc6685f997a38e1d1f3259d8fe69e23eaa6150280bb5a5621a8f87d434c9634fe94128d7ba35ef90a121b2f464
 Description: Chủ đề setting Snoked
 Name: Setting Chroma
 Author: Kitsudo
@@ -4227,6 +4245,24 @@ Author: Fouad Raheb & Netskao
 Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
 
 Package: com.jtis.applecard
+Architecture: iphoneos-arm64
+Version: 3.3.3-end
+Section: Tweaks
+Maintainer: CyPwn
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
+Filename: ./debs/com.jtis.applecard_3.3.3-end_iphoneos-arm64.deb
+Size: 409332
+MD5sum: 94ea6a935dff312dd3aad5378272a30e
+SHA1: d84b12ddeaf04e6b049c572abaf06368fee9d722
+SHA256: 7a806afae9b2b37cf421324886ebd7f566647721e8b2fd37d450f13464923e19
+SHA512: 7acb89f48f33b5855bb948a52a535f9babe88686ed35672f17ec9ee5cccf4384bf689e0e96237175e75a076dbb04d7a4475a96636b12a79767d40895b49cc823
+Description: Superior iOS Multitasking. Outperforms Chia đôi màn hình các ứng dụng tiện lợi trên iPhone của bạn.
+Name: App Lecard (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppLecard.json
+Icon: https://repo.cypwn.xyz/packages/AppLecard-Rootless/icon.png
+Author: Crassna
+
+Package: com.jtis.applecard
 Architecture: iphoneos-arm64e
 Version: 3.3.3-end
 Section: Tweaks
@@ -4410,6 +4446,24 @@ MD5sum: 1df094b786f9172fe306dae4fed3a65c
 SHA1: 363ad7fc84cbbf8d63f5d0e39f3c8b6d04e4ec9d
 SHA256: a03a75ba78931f49ab5b786d9a81bb42afa02c60a3252c7f3d80a7bf4b7c0949
 SHA512: 8254d23a2952d56e5d3b5e375f7ef456629504feae4f4a7283d4d0c240836f8f2494a1ab08e0484ae7cfec652970df81a56df931a9535a3471ae69238d643822
+Description: Phông chữ Atoqua cho iOS
+Name: Atoqua (iOS14-16)
+Author: TQM-MOS
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Atoqua.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+
+Package: com.jtis.atoqua
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.atoqua_1.0_iphoneos-arm64e-2.deb
+Size: 11293006
+MD5sum: 6a6425d525709b2cc21234ab5b40e35b
+SHA1: 8fa462178e11c1bf0b562616c29ea1d5780ed7f6
+SHA256: e54567d15806aeea1f9b10ccd25b570727d19163eccbb86bfb7c2834dc011942
+SHA512: 7b4179d11fc9b8e94e39a8ca731542c3f2a3b94c711334391b3a955aea0a3ed3eabc2d0f0ffb33ae4171b9a5f7a0ddf892e02764d65d9753c7cd1654a9d3a66d
 Description: Phông chữ Atoqua cho iOS
 Name: Atoqua (iOS14-16)
 Author: TQM-MOS
@@ -9313,6 +9367,42 @@ Author: EllaSP
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
 Icon: https://jtisvn.github.io/sectionIcons/Looky.png
 
+Package: com.jtis.LSBendigo
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: LS Fonts
+Maintainer: Phuc Do
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.lsbendigo_1.0_iphoneos-arm64e.deb
+Size: 77066
+MD5sum: 185a3df426aeaaee41076d1b14f98caa
+SHA1: 03249b8b515dad4fe847c41be63209533ba8762c
+SHA256: 1c4220648652fba411b5cd1913c9fe48d4360a4f4b0a299907f756d3230c0eea
+SHA512: f0761b118eed186927f40873c779d56cc99329954192bd63800aa32c8bbf57a116a52e88f2f03353e30f58eec9eeef68f20324ba98c8424118caff20a1adb535
+Description: Use Snowboard Font Extension to enable the clock font.
+Author: Phuc Do
+Name: LS Bendigo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSBendigo.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
+Package: com.jtis.LSBlueDragon
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.lsbluedragon_1.0_iphoneos-arm64e.deb
+Size: 22158
+MD5sum: 3cc1509e0da2c62433f0fc9826c8de26
+SHA1: ff9aa194590e2fb2b969122245d8562760c02be7
+SHA256: 7d0091b2de233cffdf61c93c23ba18d43b679a9d6b0be177c1647d7ac0fa18be
+SHA512: 4de81208e9a3704a583217c1de5cd0579b4fb3aa15ed31addb740835b46da2e7f422efaccddeebc9bc40f3f33b4a8f30e2d48eef03b6393178f613310e4ab7d5
+Description: Thay đổi phông chữ đồng hồ màn hình khoá.
+Name: LS Blue Dragon
+Author: Phuc Do
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSBlueDragon.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+ Pre-Depends: rootless-compat(>= 0.9)
+
 Package: com.jtis.LSLunar
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -9581,6 +9671,42 @@ Name: CC Music (Roothide)
 Author: simon
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCMusic.json
 Icon: https://jtisvn.github.io/sectionIcons/CCMusic.png
+
+Package: com.jtis.meizu3D
+Architecture: iphoneos-arm64
+Version: 1.6
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.meizu3D_1.6_iphoneos-arm64.deb
+Size: 58666940
+MD5sum: ec279c921076538ca1b9f015038cd739
+SHA1: c07a62da2ba6da5cbcd77ee200af35650d19159e
+SHA256: 97a8fd550fdc8383f224f7d94b38f26d5df20912983d442d4434848917d00783
+SHA512: 47e899802c97b8ad37179e03d7beccd125fc68839f7706ec4669e1a41a4bbe0d29f6720ec9540b9fad316731c81de1c23df93bde02fda1dff904682178eea709
+Description: Chủ đề Meizu 3D
+Name: Meizu 3D Theme
+Author: Miss
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Meizu3D.json
+Depiction: https://jtisvn.github.io/depictions/Meizu3D.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.meizu3D
+Architecture: iphoneos-arm64e
+Version: 1.6
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.meizu3D_1.6_iphoneos-arm64e.deb
+Size: 58666488
+MD5sum: 00090372fd8787df7b5cefcabe63fb7c
+SHA1: 221fa14df00cc7a171d93970eb4641aa1db9232e
+SHA256: 290329df319586855b446df63363795f162e6ff1470930c3cb062001a796110c
+SHA512: 4a82e16c94972afe02a16dced4077c0871c53c278ba46f7243d12791ab16090c049b90fbcfaa216f14cc2660650d993b97103b44b8f69ef4d402f0f3517048c5
+Description: Chủ đề Meizu 3D
+Name: Meizu 3D Theme
+Author: Miss
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Meizu3D.json
+Depiction: https://jtisvn.github.io/depictions/Meizu3D.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.miuminuipro
 Architecture: iphoneos-arm
@@ -10589,6 +10715,43 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Recorddot.json
 Name: RecordDot (Roothide)
 Author: Night wind
 Icon: https://jtisvn.github.io/sectionIcons/Recorddit.png
+
+Package: com.jtis.redWhite
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.redWhite_1.0_iphoneos-arm64.deb
+Size: 4571284
+MD5sum: 18909fedcb02d5d8768bb015360ff3b6
+SHA1: c4578ee6de9bc4a29cc190ffa7e8950056e69e69
+SHA256: 473eefdbcc8ba3e9809b02c3faf7b989ef673b5564fb09df54db574d623f6064
+SHA512: 04ba845b4a50715f829dba0b43a11a2a777387746faa0a5992148d0cf51df7dc35799446c26ff21007f0f1a7e6cf4e14833def175387eecf7335707743a74dcb
+Description: Chủ đề Red White
+Name: Red White
+Author: Khoang Lang
+SileoDepiction: https://jtisvn.github.io/sileodepictions/RedWhite.json
+Depiction: https://jtisvn.github.io/depictions/RedWhite.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.redWhite
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.redWhite_1.0_iphoneos-arm64e.deb
+Size: 4570120
+MD5sum: a7f0b1d39f9f34a47dc41831c585da7f
+SHA1: 15fc0604ca3b8c5892a98a1d14b74a44a4363454
+SHA256: 7b623bdc721e048e6189ba5239573ea61c7331436acfdb489a0d8744e5264951
+SHA512: 9c3840c6a0d0fec489eb53bd2315de742e908cd6c6ddb044be5423d4b3274d10b2bdba04c000680bdbbd01fd7b187203944cb1ab9009038032f86af2e0ac56e3
+Description: Chủ đề Red White
+Name: Red White
+Author: Khoang Lang
+SileoDepiction: https://jtisvn.github.io/sileodepictions/RedWhite.json
+Depiction: https://jtisvn.github.io/depictions/RedWhite.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.removewidgetbg
 Architecture: iphoneos-arm64
@@ -13065,6 +13228,49 @@ Author: Luki
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/Zaire.json
 Icon: https://jtisvn.github.io/sectionIcons/Zaire.png
 
+Package: com.jtis.zetsu
+Architecture: iphoneos-arm64
+Version: 1.6.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 12005
+Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
+Filename: ./debs/com.jtis.zetsu_1.6.2_iphoneos-arm64.deb
+Size: 1951432
+MD5sum: 9f57b28703ba3d14e68dbcebf879023f
+SHA1: dc6d97bbdd426de7002f02f62df3fd762eeb7e14
+SHA256: 741f8280b6e382aaa6631512d7da52bd0b5b361964e17f03bd3605de17459eda
+SHA512: 16ed74f04d0a0af1d3a5cecba0c4ee2e8792ae0ac431a1fa89d124b99d8a558a782ced33d54eccfa6de53d44a7b56dc35c57930f7013a13e2341862e520ac053
+Description: Đa nhiệm trên iOS15 - iOS16.
+Tag: compatible_min::ios15.0
+Name: Zetsu (Rootless)
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Zetsu.json
+Depiction: https://jtisvn.github.io/depictions/Zetsu.html
+Icon: https://jtisvn.github.io/sectionIcons/Zetsu.png
+
+Package: com.jtis.zetsu
+Architecture: iphoneos-arm64e
+Version: 1.6.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 12005
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
+Filename: ./debs/com.jtis.zetsu_1.6.2_iphoneos-arm64e.deb
+Size: 1945704
+MD5sum: 5ff59e187a78a41c4e1e9b2c1fb9a504
+SHA1: 69ee0d7dc69e243b9932baba699b050250bb7065
+SHA256: 579a9bfca5056caa17e17741ac60bf5c549179f2b96b708cd2c3519b133bf679
+SHA512: 7e1d416e458d8505444f20e8ada32268c142176deb6eeee295e24932e0df3289ed3b6acd4ad6d9be6d2345a6dcaa8bfdfd5049fbe572697d47d1e5f701271d15
+Description: Đa nhiệm trên iOS15 - iOS16.
+Tag: compatible_min::ios15.0
+Name: Zetsu (Roothide)
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Zetsu.json
+Depiction: https://jtisvn.github.io/depictions/Zetsu.html
+Icon: https://jtisvn.github.io/sectionIcons/Zetsu.png
+
 Package: com.jtisvn.capcutcrack
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -14181,11 +14387,11 @@ Installed-Size: 3232
 Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy, com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
 Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
 Filename: ./debs/com.opa334.crane_1.3.16-4_iphoneos-arm64.deb
-Size: 605172
-MD5sum: fffbd9ddcc0f28405a631fb0c3696792
-SHA1: d8df2a331f5691a2b1e6f064d85851060f430b9a
-SHA256: 28cd3e156a0e45295e54e656e689d97d204738d0021e6fdd10bc521de4cbca50
-SHA512: b804c2a84a4191bf906d984a95d3f8b1cd0ad7f0a5754e0a0867dc5dc0b3dec0af41d6902330ae3e0f0618381a4327974a3171ed2bc0047c5d2463f4653b1fcf
+Size: 604728
+MD5sum: 5e9da052426926944639be82261b3d8b
+SHA1: 626b7694d78e3ee0e9738168567bd811783e5a75
+SHA256: 6e1ed024a94ac674a7008a26de06cd4e4371b717e177056208868d0cf7d36b8e
+SHA512: a4682a04527e79df8b746f9a2017e9fa811639112cd2b9f26d0860487087250de99a0e86eb48c83b1b8677f9156c56d980a9381013551c405d4ca9910d196c1b
 Description: Multiple containers for your applications!
 Name: Crane (Rootless)
 Author: opa334
@@ -15033,6 +15239,25 @@ SHA512: 265ba8b7c6db17fbb22217e20de5708896fa2907cedb4930e3053d7408f679576114e074
 Homepage: https://jtisvn.github.io/
 Description: Đặt giới hạn thời gian cho chế độ ‘Mọi người’ của AirDrop, tương tự như iOS 16, nhưng linh hoạt hơn.
 Name: AirDrop16 (Rootless)
+Author: Snail
+Icon: https://jtisvn.github.io/sectionIcons/AirDrop16.png
+
+Package: com.snail.airdrop16
+Architecture: iphoneos-arm64e
+Version: 1.0.3k
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.tqm-mos.snailcrack
+Filename: ./debs/com.snail.airdrop16_1.0.3k_iphoneos-arm64e.deb
+Size: 197296
+MD5sum: 12cb75c5a2740003b4a8a1539f77273e
+SHA1: 3c0399cfe2f69fd7703607e2bd324c18306ecc66
+SHA256: 8486f576ab8fa9ece1dd2588b4096609bfe0ab0be2090e8d37f4b6d02b784a2b
+SHA512: f7a3120f07f5f3992ce10eb0b8ee41d9fa3ca48392684cafa146f2f56220c0f82b04a3601a2255e3b7e51c502760d04ec1b6ea33bc7c907c9f68c3eafb31ab50
+Homepage: https://jtisvn.github.io/
+Description: Đặt giới hạn thời gian cho chế độ ‘Mọi người’ của AirDrop, tương tự như iOS 16, nhưng linh hoạt hơn.
+Name: AirDrop16 (Roothide)
 Author: Snail
 Icon: https://jtisvn.github.io/sectionIcons/AirDrop16.png
 
@@ -17370,6 +17595,25 @@ SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2484
 Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
 Name: Xinam1ne AIO (Rootless)
 Author: Paisseon, Sudo, NoW4U2Kid
+
+Package: xyz.cypwn.xinam1ne
+Architecture: iphoneos-arm64
+Version: 2.6-8
+Section: Utilities
+Maintainer: CyPwn
+Provides: emt.paisseon.xinamine (= 99)
+Depends: mobilesubstrate, firmware (>= 15.0), gawk, gzip, libclang-cpp16, llvm-16, llvm-16-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Replaces: emt.paisseon.xinamine
+Filename: ./debs/xyz.cypwn.xinam1ne_2.6-8_iphoneos-arm64.deb
+Size: 1946692
+MD5sum: 1c7ea15886743adc5c0945c7ddc1f3f7
+SHA1: ab9cb3440fc8188a03d9b852ba296005ff70b76b
+SHA256: 3a8c634d7297b42254b0459eff8c0a9a56c3c6b384154e7df4d2c7de310af6a2
+SHA512: 01fb1186324e4895545e448608a942690bb45796f1d7975b7f2692ea744053cffaffa1116ed26dfd67d77de873a80f3ee698da2302a5d21ce00b28897b65a3fc
+Description: Xinamine Official All-in-One bundle. Convert rootful tweaks to rootless (and rootless to rootful) with ease using the Xinam1nePatcher in Filza or use the included Xinaf1re app.
+Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
+Name: Xinam1ne AIO (Rootless)
+Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
 
 Package: xyz.willy.zebra
 Architecture: iphoneos-arm64e
