@@ -15248,24 +15248,6 @@ Author: Mr.Zhang <mr_zhang_00@163.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCRespring.json
 Icon: https://jtisvn.github.io/sectionIcons/CCRespring.png
 
-Package: com.snail.airdrop16.roothide
-Architecture: iphoneos-arm64e
-Version: 1.0.4
-Section: Tweaks
-Maintainer: Snail <mu514983786@gmail.com>
-Installed-Size: 924
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.snail.airdrop16.roothide_1.0.4_iphoneos-arm64e.deb
-Size: 190956
-MD5sum: 5b27ed22d6a43806f6d2c8c27753b2df
-SHA1: edc7cbd3d11a65d255c4fdaabcabc48fb7adf455
-SHA256: 8d7885707993d861f0d8b9129111836a452d296f0a5c63dd35f01138b795baa4
-SHA512: 3a19c32d53386848f315fe0df0046195074e182352d2a3c9ff0ed2b87f47be1644d4df0d32281dbba6bc440aab00c7eef4b932e5b39de4aca3548df1d8d31694
-Description: Đặt giới hạn thời gian cho chế độ “Mọi người” của AirDrop, tương tự như trên iOS 16 nhưng linh hoạt hơn.
-Name: AirDrop16 (Roothide)
-Author: Snail <mu514983786@gmail.com>
-Icon: https://jtisvn.github.io/sectionIcons/AirDrop16.png
-
 Package: com.snail.airdrop16
 Architecture: iphoneos-arm64
 Version: 1.0.3k
@@ -15301,6 +15283,24 @@ Homepage: https://jtisvn.github.io/
 Description: Đặt giới hạn thời gian cho chế độ ‘Mọi người’ của AirDrop, tương tự như iOS 16, nhưng linh hoạt hơn.
 Name: AirDrop16 (Roothide)
 Author: Snail
+Icon: https://jtisvn.github.io/sectionIcons/AirDrop16.png
+
+Package: com.snail.airdrop16
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Tweaks
+Maintainer: Snail <mu514983786@gmail.com>
+Installed-Size: 924
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.snail.airdrop16_1.0.4_iphoneos-arm64e.deb
+Size: 190948
+MD5sum: d17e641eed3e94e031c557205c7a8c73
+SHA1: e323c37f9bc1dc4e827b95360e46747d2280821d
+SHA256: d01ec319d6d1853b11259cf22ddab805c238b321f18f2cb5da3277716d517c74
+SHA512: 3df1c3269585cf8b1ed7d675764e8b2cc100f7460ac59542b3adb957c956af340d2456bc3da341177f9e69b3f7e3d4414a587b3ef2489b4ac2d5b1f127996aa3
+Description: Đặt giới hạn thời gian cho chế độ “Mọi người” của AirDrop, tương tự như trên iOS 16 nhưng linh hoạt hơn.
+Name: AirDrop16 (Roothide)
+Author: Snail <mu514983786@gmail.com>
 Icon: https://jtisvn.github.io/sectionIcons/AirDrop16.png
 
 Package: com.spark.autounlockx
