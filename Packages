@@ -11615,6 +11615,51 @@ Icon: https://jtisvn.github.io/sectionIcons/SmallBoard.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Smallboard.json
 Author: iCraze
 
+Package: com.jtis.smarttapxs
+Architecture: iphoneos-arm64
+Version: 0.5-2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 780
+Depends: mobilesubstrate,preferenceloader, com.jtis.limneos-crack
+Conflicts: net.limneos.smarttap, org.mr.unsubsrl
+Filename: ./debs/com.jtis.smarttapxs_0.5-2_iphoneos-arm64.deb
+Size: 126220
+MD5sum: 7ae16369cdcd59c53d21b666520eee3a
+SHA1: e1f9f9dd89989c413f6667997147dbe0c863ba7b
+SHA256: 9ac8132c072f905f56fe98f5e5b0d473252e589f0610c9dab484988341c5db44
+SHA512: 0f808f03516ce3d2fdcf2e050d92d5a9d971af5b1027dd3b15c40294e002940c7af1fe3f4a03f2caa070d2043719d041b08e90aaff600f4f0e6cd98afaad1a0b
+Description: Bật màn hình bằng cách chạm 2 lần vào màn hình!
+Name: SmartTap XS (Rootless)
+Depiction: http://limneos.net/smarttapx
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SmartTapXS.json
+Icon: https://jtisvn.github.io/sectionIcons/SmartTapXS.png
+Author: Elias Limneos <limneoselias@gmail.com>
+MainLibMD5: 54700ff3d543df6790f58a9f973f19b7
+
+Package: com.jtis.smarttapxs
+Architecture: iphoneos-arm64e
+Version: 0.5-2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 780
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate,preferenceloader, com.jtis.limneos-crack
+Conflicts: net.limneos.smarttap, org.mr.unsubsrl
+Filename: ./debs/com.jtis.smarttapxs_0.5-2_iphoneos-arm64e.deb
+Size: 123524
+MD5sum: 7c4ce05b1a228fd942a2a50e07552d69
+SHA1: cc884109f9ffe43164841188e7f4e1910922f786
+SHA256: 0081a94c39bdde42900af0572ec3369e7ee675b9bce3a7adda438573967790a3
+SHA512: 5b24801ff389931b70c4542000079dfa32c787cfbddb94783e3c84678764dd4edd727669c714ded2c52be6abc70c8e4c1a18086b507ff8dc4f725336a73a0c58
+Description: Bật màn hình bằng cách chạm 2 lần vào maà hình!
+Name: SmartTap XS (Roothide)
+Depiction: http://limneos.net/smarttapx
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SmartTapXS.json
+Icon: https://jtisvn.github.io/sectionIcons/SmartTapXS.png
+Author: Elias Limneos <limneoselias@gmail.com>
+MainLibMD5: 54700ff3d543df6790f58a9f973f19b7
+
 Package: com.jtis.smpro
 Architecture: iphoneos-arm64
 Version: 1.0.0
