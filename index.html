@@ -10,18 +10,20 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
-        .copy-feedback {
-            color: #4ade80 !important;
-        }
+        .copy-feedback { color: #4ade80 !important; }
     </style>
 </head>
 <body class="bg-gray-900 font-sans text-white min-h-screen" data-theme="dark">
     <div class="background-animation"></div>
-    <canvas id="raindrop-effect"></canvas>
+
+    <div id="copy-toast" class="copy-toast">
+        <p><i class="fas fa-check-circle mr-2"></i> Đã sao chép!</p>
+    </div>
 
     <div class="main-container mx-auto">
         <main class="container mx-auto px-4 py-8">
             <div class="flex flex-col items-center justify-center text-center mb-8">
+                
                 <div class="nav-container">
                     <a href="https://jtisvn.github.io/homepage/dylibrary/dylib.html">Kho Dylib</a>
                     <a href="https://jtisvn.github.io/homepage/donate/donate.html">Ủng hộ </a>
@@ -36,66 +38,94 @@
                 <div class="flex flex-col items-center space-y-2 mt-4">
                     <h1 class="text-4xl font-bold text-animate-gradient">JTISVN REPO</h1>
                     
-                    <div class="repo-box flex items-center gap-2 backdrop-blur-sm border rounded-full px-4 py-1.5 mt-2 transition-all">
+                    <div class="repo-box flex items-center gap-3 rounded-full px-5 py-2 mt-2 transition-all">
                         <span id="repo-link" class="repo-text font-mono text-sm select-all">https://jtisvn.github.io/</span>
-                        <button onclick="copyToClipboard()" class="copy-btn transition-colors p-1" title="Sao chép liên kết">
-                            <i id="copy-icon" class="fa-regular fa-copy"></i>
+                        <div class="h-4 w-px bg-gray-600"></div> 
+                        <button onclick="copyRepoLink()" class="copy-btn transition-colors flex items-center gap-2 group" title="Sao chép liên kết">
+                            <span class="text-xs font-semibold uppercase tracking-wider group-hover:text-white transition-colors">Sao chép</span>
+                            <i id="copy-icon-repo" class="fa-regular fa-copy group-hover:text-white transition-colors"></i>
                         </button>
                     </div>
                 </div>
 
-                <p class="text-xl max-w-2xl mx-auto mt-4">
-                    Chào mừng bạn đến vời JTISVN<br>Một nơi thoả sức niềm đam mê, khám phá các tinh chỉnh việt hóa đa dạng, hữu ích mang đến trải mghiệm ổn định cho thiết bị iPhone/iPadIOS của bạn<br>(Hỗ trợ Rootfull, Rootless & Roothide)
+                <p class="text-xl max-w-2xl mx-auto mt-4" style="text-shadow: 0 1px 3px rgba(0,0,0,0.8);">
+                    Chào mừng bạn đến vời JTISVN<br>Một nơi thoả sức niềm đam mê, khám phá các tinh chỉnh việt hóa đa dạng, hữu ích mang đến trải nghiệm ổn định cho thiết bị iPhone/iPad của bạn<br>(Hỗ trợ Rootfull, Rootless & Roothide)
                 </p>
             </div>
 
             <div class="social-buttons-grid mt-8">
-                <a href="cydia://source/https://jtisvn.github.io" class="social-button sileo-button" aria-label="Thêm repo vào Cydia"><i class="fa-solid fa-download"></i> <span>Thêm Vào Cydia</span></a>
-                <a href="sileo://source/https://jtisvn.github.io" class="social-button sileo-button" aria-label="Thêm repo vào Sileo"><i class="fa-solid fa-download"></i> <span>Thêm Vào Sileo</span></a>
-                <a href="zbra://sources/https://jtisvn.github.io" class="social-button zebra-button" aria-label="Thêm repo vào Zebra"><i class="fa-solid fa-download"></i> <span>Thêm Vào Zebra</span></a>
-                <a href="https://vdns.io.vn/dot-Signed.mobileconfig" class="social-button zebra-button" aria-label="Cấu hình DNS chặn quảng cáo"><i class="fa-solid fa-shield-halved"></i> <span>DNS NoADS</span></a>
+                <a href="cydia://source/https://jtisvn.github.io" class="btn-neon btn-dark">
+                    <i class="fa-solid fa-download"></i> <span>Thêm Vào Cydia</span>
+                </a>
+                
+                <a href="sileo://source/https://jtisvn.github.io" class="btn-neon btn-gradient">
+                    <i class="fa-solid fa-bolt text-xl"></i>
+                    <span>Thêm Vào Sileo</span>
+                </a>
+                
+                <a href="zbra://sources/https://jtisvn.github.io" class="btn-neon btn-dark">
+                    <i class="fa-solid fa-download"></i> <span>Thêm Vào Zebra</span>
+                </a>
+                
+                <a href="https://vdns.io.vn/dot-Signed.mobileconfig" class="btn-neon btn-dark">
+                    <i class="fa-solid fa-shield-halved text-xl"></i>
+                    <span>DNS NoAds</span>
+                </a>
             </div> 
             
             <div class="copyright-container mt-8 text-center text-gray-500 text-sm">
-                <p>Copyright © 2025 - 2030 By: KITSUDO - JTISVN. All rights reserved.</p>
+                <p class="mb-4">Copyright © 2025 - 2030 By: KITSUDO - JTISVN. All rights reserved.</p>
+                
+                <div class="footer-socials">
+                    <a href="https://t.me/jtisvn" target="_blank" class="footer-icon" aria-label="Telegram">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    
+                    <a href="https://www.facebook.com/hieu.kitsudo" target="_blank" class="footer-icon" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    
+                    <a href="https://github.com/jtisvn" target="_blank" class="footer-icon" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
             </div>
         </main>
     </div>
 
     <script>
-        function copyToClipboard() {
+        // --- Logic Copy Repo Link ---
+        function copyRepoLink() {
             const linkText = document.getElementById("repo-link").innerText;
-            const icon = document.getElementById("copy-icon");
+            const icon = document.getElementById("copy-icon-repo");
             
             navigator.clipboard.writeText(linkText).then(() => {
-                // Đổi icon sang dấu tích xanh
                 icon.classList.remove("fa-copy", "fa-regular");
-                icon.classList.add("fa-check", "fa-solid", "copy-feedback");
+                icon.classList.add("fa-check", "fa-solid", "text-green-400");
                 
-                // Sau 2 giây đổi lại như cũ
+                const toast = document.getElementById('copy-toast');
+                toast.classList.add('show');
+                
                 setTimeout(() => {
-                    icon.classList.remove("fa-check", "fa-solid", "copy-feedback");
+                    icon.classList.remove("fa-check", "fa-solid", "text-green-400");
                     icon.classList.add("fa-copy", "fa-regular");
+                    toast.classList.remove('show');
                 }, 2000);
-            }).catch(err => {
-                console.error('Không thể sao chép: ', err);
-            });
+            }).catch(err => { console.error('Lỗi: ', err); });
         }
         
-        // --- Theme Toggle Logic ---
+        // --- Logic Theme ---
         const themeToggleBtn = document.getElementById('theme-toggle-btn');
         const themeIcon = document.getElementById('theme-icon');
         const body = document.body;
         const currentTheme = localStorage.getItem('theme') || 'dark';
 
-        // Set theme ban đầu
         if (currentTheme === 'light') {
             body.classList.add('light');
             themeIcon.classList.remove('fa-sun');
             themeIcon.classList.add('fa-moon');
         }
 
-        // Xử lý khi bấm nút đổi theme
         themeToggleBtn.addEventListener('click', () => {
             body.classList.toggle('light');
             if (body.classList.contains('light')) {
@@ -108,63 +138,6 @@
                 localStorage.setItem('theme', 'dark');
             }
         });
-
-        // --- Raindrop Effect Logic ---
-        const canvas = document.getElementById('raindrop-effect');
-        const ctx = canvas.getContext('2d');
-        let width, height;
-        let drops = [];
-        let lastDropTime = 0;
-        const dropInterval = 200;
-
-        const initCanvas = () => {
-            width = canvas.width = window.innerWidth;
-            height = canvas.height = window.innerHeight;
-            drops = [];
-        };
-
-        window.addEventListener('resize', initCanvas);
-
-        class Drop {
-            constructor(x, y) {
-                this.x = x;
-                this.y = y;
-                this.r = 0.5;
-                this.dr = 0.8;
-            }
-            update() {
-                this.r += this.dr;
-            }
-            draw() {
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
-                ctx.strokeStyle = `rgba(137, 207, 240, 1)`;
-                ctx.lineWidth = 1;
-                ctx.stroke();
-            }
-        }
-
-        const animateDrops = (timestamp) => {
-            ctx.clearRect(0, 0, width, height);
-
-            if (timestamp - lastDropTime > dropInterval) {
-                drops.push(new Drop(Math.random() * width, Math.random() * height));
-                lastDropTime = timestamp;
-            }
-
-            for (let i = 0; i < drops.length; i++) {
-                drops[i].update();
-                drops[i].draw();
-                if (drops[i].r >= 100) {
-                    drops.splice(i, 1);
-                    i--;
-                }
-            }
-            requestAnimationFrame(animateDrops);
-        };
-
-        initCanvas();
-        animateDrops();
     </script>
 </body>
 </html>

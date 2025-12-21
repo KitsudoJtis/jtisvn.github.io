@@ -7,21 +7,21 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" href="https://raw.githubusercontent.com/jtisvn/jtisvn.github.io/master/icons/favicon.ico" type="image/x-icon">
     
     <script src="https://cdn.tailwindcss.com"></script>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="font-sans min-h-screen" data-theme="dark">
     <div class="background-animation"></div>
-    <canvas id="raindrop-effect"></canvas>
 
     <div class="main-container mx-auto relative z-10">
         <main class="container mx-auto px-4 py-8">
             <div class="flex flex-col items-center justify-center text-center mb-8">
+                
                 <div class="nav-container">
-                    <a href="https://jtisvn.github.io/">JTISVN JB</a>
+                    <a href="https://jtisvn.github.io/">Trang chủ</a>
                     <a href="https://jtisvn.github.io/homepage/donate/donate.html">Ủng hộ</a>
                     <a href="https://jtisvn.github.io/homepage/ipa/page.html">Kho IPA</a>
                     <button id="theme-toggle-btn" class="nav-button theme-toggle-button">
@@ -30,13 +30,17 @@
                 </div>
 
                 <img src="https://jtisvn.github.io/icons/avatar.webp" alt="Avatar" class="avatar mb-4">
-                <h1 class="text-4xl font-bold shimmering-text">JTISVN REPO</h1>
-                <p class="text-gray-400 mt-2">Kho Cập nhật các Tệp Deb, Dylib  Việt Hóa & Mod mới nhất<br>Hỗ trợ tiêm qua Trollfools và Esign trên thiết bị iOS.</p>
+                
+                <h1 class="text-4xl font-bold text-animate-gradient">JTISVN REPO</h1>
+                <p class="text-gray-300 mt-2 text-shadow-md">
+                    Kho cập nhật các tệp Deb, Dylib Việt Hóa & Mod mới nhất<br>
+                    <span class="text-sm opacity-80">Hỗ trợ tiêm qua Trollfools và Esign trên thiết bị iOS.</span>
+                </p>
             </div>
 
             <div class="max-w-xl mx-auto mb-10 relative">
                 <input type="text" id="search-box" placeholder="Tìm kiếm Tweak, Dylib..." class="search-input w-full py-3 px-5 rounded-full text-white outline-none pl-12">
-                <i class="fas fa-search absolute left-4 top-3.5 text-gray-500"></i>
+                <i class="fas fa-search absolute left-4 top-3.5 text-gray-400"></i>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto" id="tweak-list">
@@ -48,8 +52,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">BHTikTokVH</h3>
                             <p class="text-sm text-gray-400">Việt Hóa chức năng Bhtiktok++</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -65,8 +69,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">iOSCleanProVH</h3>
                             <p class="text-sm text-gray-400">Việt Hóa iOSCleanPro</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -82,8 +86,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">Capcut Crack</h3>
                             <p class="text-sm text-gray-400">Mở khóa tính năng Pro cho Capcut</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -99,8 +103,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">BHTikTok++</h3>
                             <p class="text-sm text-gray-400">Bổ sung các tính năng hữu ích cho Tiktok</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -116,8 +120,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">BeautyCam VIP</h3>
                             <p class="text-sm text-gray-400">Mở khoá tính năng VIP cho BeautyCam</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -133,8 +137,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">Locket Gold</h3>
                             <p class="text-sm text-gray-400">Mở khoá tính năng Gold cho Locket</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -150,8 +154,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">Glow for Facebook</h3>
                             <p class="text-sm text-gray-400">Bổ sung các tính năng hữu ích cho Facebook</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.3</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.3</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -167,8 +171,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">Flow for Messenger</h3>
                             <p class="text-sm text-gray-400">Bổ sung các tính năng hữu ích cho Messenger</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -182,10 +186,10 @@
                         <img src="https://files.catbox.moe/47qm0d.png" class="w-16 h-16 rounded-xl object-cover shadow-md">
                         <div class="flex-1">
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">Messenger Fix iOS14</h3>
-                            <p class="text-sm text-gray-400">Sửa lỗi không nghe gọi được trên Messenger iOS14</p>
+                            <p class="text-sm text-gray-400">Sửa lỗi không nghe gọi được iOS14</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v2.0.15</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Deb</span>
+                                <span class="badge-teal">v2.0.15</span>
+                                <span class="badge-blue">Deb</span>
                             </div>
                         </div>
                     </div>
@@ -201,8 +205,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">Meitu Pro</h3>
                             <p class="text-sm text-gray-400">Mở khoá tính năng Pro cho Meitu</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -216,10 +220,10 @@
                         <img src="https://files.catbox.moe/ql1zp2.webp" class="w-16 h-16 rounded-xl object-cover shadow-md">
                         <div class="flex-1">
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">iScreen Vip</h3>
-                            <p class="text-sm text-gray-400">Mở khoá tính năng VIP cho iScreen-Widget</p>
+                            <p class="text-sm text-gray-400">Mở khoá tính năng VIP cho iScreen</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -235,8 +239,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">Picsart Gold</h3>
                             <p class="text-sm text-gray-400">Mở khoá tính năng Gold cho Picsart</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -252,8 +256,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">Instagram Rocket</h3>
                             <p class="text-sm text-gray-400">Bổ sung các tính năng hữu ích cho Instagram</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -267,10 +271,10 @@
                         <img src="https://files.catbox.moe/feytmm.png" class="w-16 h-16 rounded-xl object-cover shadow-md">
                         <div class="flex-1">
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">TikTok Noads</h3>
-                            <p class="text-sm text-gray-400">Ẩn logo qc sự kiện trên màn hình lướt TikTok</p>
+                            <p class="text-sm text-gray-400">Ẩn logo qc sự kiện trên TikTok</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -286,8 +290,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">Snow Vip</h3>
                             <p class="text-sm text-gray-400">Mở khoá tính năng VIP cho Snow AI</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -303,8 +307,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">SmPro Crack</h3>
                             <p class="text-sm text-gray-400">Mở khoá vài tính năng cho SMPro</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -318,10 +322,10 @@
                         <img src="https://files.catbox.moe/mv9yb7.png" class="w-16 h-16 rounded-xl object-cover shadow-md">
                         <div class="flex-1">
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">NGL Pro</h3>
-                            <p class="text-sm text-gray-400">Mở khoá tính năng Pro cho ứng dụng NGL</p>
+                            <p class="text-sm text-gray-400">Mở khoá tính năng Pro cho NGL</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -337,8 +341,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">TrueCaller VIP</h3>
                             <p class="text-sm text-gray-400">Mở khoá tính năng VIP cho TrueCaller</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v2.0.15</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Deb</span>
+                                <span class="badge-teal">v2.0.15</span>
+                                <span class="badge-blue">Deb</span>
                             </div>
                         </div>
                     </div>
@@ -352,10 +356,10 @@
                         <img src="https://files.catbox.moe/4bwut0.png" class="w-16 h-16 rounded-xl object-cover shadow-md">
                         <div class="flex-1">
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">Wink Vip</h3>
-                            <p class="text-sm text-gray-400">Mở khoá tính năng Vip cho ứng dụng Wink</p>
+                            <p class="text-sm text-gray-400">Mở khoá tính năng Vip cho Wink</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -369,10 +373,10 @@
                         <img src="https://files.catbox.moe/qmcm41.jpg" class="w-16 h-16 rounded-xl object-cover shadow-md">
                         <div class="flex-1">
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">Quark VPN Vip</h3>
-                            <p class="text-sm text-gray-400">Mở khoá tính năng Vip cho ứng dụng Quark VPN</p>
+                            <p class="text-sm text-gray-400">Mở khoá tính năng Vip cho Quark VPN</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -388,8 +392,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">Xingtu Pro</h3>
                             <p class="text-sm text-gray-400">Mở khoá tính năng Pro cho Xingtu</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -405,8 +409,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">Youtube Plus</h3>
                             <p class="text-sm text-gray-400">Bổ sung nhiều tính năng cho Youtube</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -420,10 +424,10 @@
                         <img src="https://files.catbox.moe/zsezis.avif" class="w-16 h-16 rounded-xl object-cover shadow-md">
                         <div class="flex-1">
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">YTMusic Prenium</h3>
-                            <p class="text-sm text-gray-400">Mở khoá tính năng Premium cho Youtube Music</p>
+                            <p class="text-sm text-gray-400">Mở khoá Premium cho Youtube Music</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -439,8 +443,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">ACTikTok</h3>
                             <p class="text-sm text-gray-400">Bổ sung các tính năng hữu ích cho Tiktok</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -454,10 +458,10 @@
                         <img src="https://files.catbox.moe/83boka.avif" class="w-16 h-16 rounded-xl object-cover shadow-md">
                         <div class="flex-1">
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">ImmortalizerJailed</h3>
-                            <p class="text-sm text-gray-400">Cho phép bật chạy nền các ứng dụng kể cả khi tắt màn</p>
+                            <p class="text-sm text-gray-400">Chạy nền ứng dụng kể cả khi tắt màn</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -473,8 +477,8 @@
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">Satella</h3>
                             <p class="text-sm text-gray-400">Miễn phí thanh toán trong một số App/Game</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -488,10 +492,10 @@
                         <img src="https://files.catbox.moe/dhe9wv.jpg" class="w-16 h-16 rounded-xl object-cover shadow-md">
                         <div class="flex-1">
                             <h3 class="text-lg font-bold text-white group-hover:text-[#a855f7] transition-colors">Widgy Unlock</h3>
-                            <p class="text-sm text-gray-400">Mở khoá tính năng cho ứng dụng Widgy - Widgets</p>
+                            <p class="text-sm text-gray-400">Mở khoá tính năng cho Widgy - Widgets</p>
                             <div class="flex gap-2 mt-2">
-                                <span class="text-xs bg-teal-500/20 text-teal-300 px-2 py-1 rounded">v1.0</span>
-                                <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Dylib</span>
+                                <span class="badge-teal">v1.0</span>
+                                <span class="badge-blue">Dylib</span>
                             </div>
                         </div>
                     </div>
@@ -502,7 +506,7 @@
 
             </div>
             
-            <div class="text-center mt-12 text-gray-500 text-sm">
+            <div class="copyright-container mt-12 text-center text-gray-500 text-sm">
                 <p>Copyright © 2025 - 2030 by KITSUDO - JTISVN</p>
             </div>
         </main>
@@ -517,7 +521,7 @@
             items.forEach(item => {
                 let text = item.innerText.toLowerCase();
                 if (text.includes(filter)) {
-                    item.style.display = "flex"; // Giữ layout flex khi hiện
+                    item.style.display = "flex"; 
                 } else {
                     item.style.display = "none";
                 }
@@ -531,42 +535,26 @@
         const currentTheme = localStorage.getItem('theme') || 'dark';
         
         body.setAttribute('data-theme', currentTheme);
-        if (currentTheme === 'light') { body.classList.add('light'); themeIcon.className = 'fas fa-moon'; }
+        if (currentTheme === 'light') { 
+            body.classList.add('light'); 
+            themeIcon.classList.remove('fa-sun');
+            themeIcon.classList.add('fa-moon');
+        }
         
         themeToggleBtn.addEventListener('click', () => {
             const isLight = body.classList.toggle('light');
             const newTheme = isLight ? 'light' : 'dark';
             body.setAttribute('data-theme', newTheme);
             localStorage.setItem('theme', newTheme);
-            themeIcon.className = newTheme === 'light' ? 'fas fa-moon' : 'fas fa-sun';
+            
+            if (newTheme === 'light') {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            } else {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            }
         });
-
-        // 3. Raindrop Effect
-        const canvas = document.getElementById('raindrop-effect');
-        const ctx = canvas.getContext('2d');
-        let width, height, drops = [];
-        const initCanvas = () => { width = canvas.width = window.innerWidth; height = canvas.height = window.innerHeight; drops = []; };
-        window.addEventListener('resize', initCanvas);
-        
-        class Drop { 
-            constructor(x, y) { this.x = x; this.y = y; this.r = 0.5; this.dr = 0.8; this.opacity = 1; this.dOpacity = -0.01; } 
-            update() { this.r += this.dr; this.opacity += this.dOpacity; } 
-            draw() { 
-                ctx.beginPath(); ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2); 
-                ctx.strokeStyle = `rgba(137, 207, 240, ${this.opacity})`; ctx.lineWidth = 1; ctx.stroke(); 
-            } 
-        }
-        
-        const animateDrops = () => { 
-            ctx.clearRect(0, 0, width, height); 
-            if (Math.random() < 0.1) drops.push(new Drop(Math.random() * width, Math.random() * height)); 
-            for (let i = 0; i < drops.length; i++) { 
-                drops[i].update(); drops[i].draw(); 
-                if (drops[i].opacity <= 0) { drops.splice(i, 1); i--; } 
-            } 
-            requestAnimationFrame(animateDrops); 
-        };
-        initCanvas(); animateDrops();
     </script>
 </body>
 </html>

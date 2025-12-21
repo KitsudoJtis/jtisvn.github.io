@@ -11,59 +11,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <style>
-        /* Hiệu ứng hover cho link nguồn */
-        .new-item p a {
-            color: #89cff0;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .new-item p a:hover {
-            color: #add8e6;
-            text-decoration: underline;
-        }
-
-        /* Chỉnh màu tiêu đề "Kho IPA" cho các chế độ */
-        #kho-ipa-heading {
-            color: white;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-        }
-        body.light #kho-ipa-heading {
-            color: black;
-            text-shadow: none;
-        }
+        .new-item p a { color: #89cff0; text-decoration: none; transition: color 0.3s ease; }
+        .new-item p a:hover { color: #add8e6; text-decoration: underline; }
+        #kho-ipa-heading { text-shadow: 0 2px 10px rgba(0,0,0,0.5); }
     </style>
 </head>
 <body class="font-sans min-h-screen" data-theme="dark">
     <div class="background-animation"></div>
-    <canvas id="raindrop-effect"></canvas>
 
     <div class="main-container mx-auto">
         <main class="container mx-auto px-4 py-8">
             <div class="flex flex-col items-center justify-center text-center mb-8">
                 <div class="nav-container">
                     <a href="https://jtisvn.github.io/homepage/dylibrary/dylib.html">Kho Dylib</a>
-                    <a href="https://jtisvn.github.io/">JTISVN JB</a>
+                    <a href="https://jtisvn.github.io/">Trang chủ</a>
                     <a href="https://jtisvn.github.io/homepage/donate/donate.html">Ủng Hộ</a>
-                    <button id="theme-toggle-btn">
-                        <i class="fas fa-sun" id="theme-icon"></i>
-                    </button>
+                    <button id="theme-toggle-btn"><i class="fas fa-sun" id="theme-icon"></i></button>
                 </div>
 
                 <img src="https://jtisvn.github.io/icons/avatar.webp" alt="Avatar" class="avatar">
                 <div class="flex flex-col items-center space-y-2 mt-4">
-                    <h1 class="text-4xl font-bold shimmering-text">JTISVN REPO</h1>
+                    <h1 class="text-4xl font-bold text-animate-gradient">JTISVN REPO</h1>
                 </div>
-                <p class="text-xl max-w-2xl mx-auto mt-2" style="text-shadow: 0 2px 4px rgba(0,0,0,0.8);">
-                    Xin chào<br>Trang này là nơi chia sẻ kho lưu trữ các công cụ ký IPA và công cụ Jailbreak tốt nhất để tối ưu hóa trải nghiệm IPhone/IPad của bạn.<br>Nhớ theo dõi các kênh mạng xã hội bên dưới để cập nhật thông tin nhé!
+                <p class="text-xl max-w-2xl mx-auto mt-2 text-gray-300" style="text-shadow: 0 2px 4px rgba(0,0,0,0.8);">
+                    Xin chào<br>Kho lưu trữ các công cụ ký IPA và Jailbreak tốt nhất để tối ưu hóa trải nghiệm iPhone/iPad của bạn.<br>
+                    <span class="text-sm opacity-75">Nhớ theo dõi các kênh mạng xã hội bên dưới để cập nhật thông tin nhé!</span>
                 </p>
             </div>
 
             <div class="social-buttons-grid mt-8">
-                <a href="https://t.me/jtisvn" class="social-button telegram-button"><i class="fab fa-telegram-plane"></i> <span>Kênh Telegram</span></a>
-                <a href="https://t.me/jailbreaktrolliossupport" class="social-button telegram-button"><i class="fab fa-telegram-plane"></i> <span>Nhóm Telegram</span></a>
-                <a href="https://discord.com/channels/1375487570556878988/1376059466570666024" class="social-button tiktok-button"><i class="fab fa-discord"></i> <span>Nhóm Discord</span></a>
-                <a href="https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP" class="social-button facebook-button"><i class="fab fa-facebook"></i> <span>Nhóm Facebook</span></a>
+                <a href="https://t.me/jtisvn" class="btn-neon btn-dark"><i class="fab fa-telegram-plane text-blue-400"></i> <span>Kênh Telegram</span></a>
+                <a href="https://t.me/jailbreaktrolliossupport" class="btn-neon btn-dark"><i class="fab fa-telegram-plane text-blue-400"></i> <span>Nhóm Telegram</span></a>
+                <a href="https://discord.com/channels/1375487570556878988/1376059466570666024" class="btn-neon btn-dark"><i class="fab fa-discord text-indigo-400"></i> <span>Nhóm Discord</span></a>
+                <a href="https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP" class="btn-neon btn-dark"><i class="fab fa-facebook text-blue-600"></i> <span>Nhóm Facebook</span></a>
             </div>
 
             <div class="search-container mt-8 max-w-2xl mx-auto px-4">
@@ -72,6 +52,7 @@
                     <i class="fas fa-search search-icon"></i>
                 </div>
             </div>
+
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
                 <div class="new-item p-4 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-all duration-300">
                     <div class="highlight-overlay"></div>
@@ -105,7 +86,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/TrollStore_2.1_iosdumpremod.tar" class="install-button text-sm py-2">
+                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/TrollStore_2.1_1023.tar" class="install-button text-sm py-2">
                         <i class="fas fa-download mr-2"></i>
                         <span>Tải Tar</span>
                     </a>
@@ -283,16 +264,16 @@
                     <img src="https://jtisvn.github.io/icons/trollfools.webp" alt="Trollfools Icon" class="w-16 h-16 mr-4">
                     <div>
                         <h2 class="text-xl font-semibold">Trollfools</h2>
-                        <p class="text-gray-400">Phiên bản v3.7.42</p>
+                        <p class="text-gray-400">Phiên bản v42.2-227</p>
                     </div>
                 </div>
                 <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ tiêm file dylib cho 1 số ứng dụng trên IPhone.<br>Tương thích Thiết bị iOS có Trollstore</p>
                 <p><b>Nguồn</b>: <a href="https://github.com/Lessica/TrollFools" target="_blank">GitHub</a></p>
-                <a href="https://github.com/Lessica/TrollFools/releases/download/v3.7-42/TrollFools_3.7-42.tipa" class="install-button mt-2">
+                <a href="https://github.com/Lessica/TrollFools/releases/download/v4.2-227/TrollFools_4.2-227.tipa" class="install-button mt-2">
                      <i class="fas fa-download mr-2"></i>
                      <span>Tải IPA</span>
                 </a>
-                <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/Lessica/TrollFools/releases/download/v3.7-42/TrollFools_3.7-42.tipa')" class="install-button mt-2">
+                <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/Lessica/TrollFools/releases/download/v4.2-227/TrollFools_4.2-227.tipa')" class="install-button mt-2">
                     <i class="fa-solid fa-bolt mr-2"></i>
                     <span>Cài qua TrollStore</span>
                 </a>
@@ -314,7 +295,7 @@
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/Lessica/TrollSpeed/releases/download/v1.12.1/TrollSpeed_v1.12.1.tipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/TrollSpeed_v1.12.1.tipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -332,11 +313,11 @@
                     </div>
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ quản lí, sao chép và khôi phục dữ liệu ứng dụng trên IPhone/IPad.<br>Tương thích Thiết bi IOS có Trollstore</p>
                     <p><b>Nguồn</b>: <a href="https://github.com/MuntashirAkon/AppManager" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/AppsManager_1.8.4_Crack.tipa" class="install-button mt-2">
+                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AppsManager_1.8.4_Crack.tipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/AppsManager_1.8.4_Crack.tipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AppsManager_1.8.4_Crack.tipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -358,7 +339,7 @@
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/varClean15.tipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/varClean15.tipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -380,7 +361,7 @@
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://tigisoftware.com/download/Filza_NoURLScheme_4.0.0.ipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Filza_NoURLScheme_4.0.0.ipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -398,11 +379,11 @@
                     </div>
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ jailbreak semi-untethered mạnh mẽ cho IOS, niột phiên bản được biết đến với kiến trúc "Rootless" không can thiệp trực tiếp vào thư mục gốc của hệ thống<br>Thay vào đó tạo ra một thư mục riêng để cài đặt các tweak và ứng dụng giúp tăng tính ổn định, dễ dàng gỡ bỏ và giảm thiểu rủi ro lỗi hệ thống.<br>Tương thích iOS 14.0 - 16.5.1</p>
                     <p><b>Nguồn</b>: <a href="https://github.com/opa334/Dopamine" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/opa334/Dopamine/releases/latest/download/Dopamine.ipa" class="install-button mt-2">
+                    <a href="https://github.com/opa334/Dopamine/releases/download/2.4.5/Dopamine.tipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/opa334/Dopamine/releases/latest/download/Dopamine.ipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/opa334/Dopamine/releases/download/2.4.5/Dopamine.tipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -420,7 +401,7 @@
                     </div>
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là một ohiên bản tùy chỉnh của Dopamine, tăng cường khả năng (jailbreak detection bypass), sử dụng một cơ chế ẩn jailbreak khác cho Roothide để sử dụng một số ứng dụng bảo mật cao như Ngân hàng, ví điện tử an toàn và hiệu quả hơn cân bằng giữa tùy chỉnh và bảo mật.<br>Tương thích iOS 14.0 - 16.5.1</p>
                     <p><b>Nguồn</b>: <a href="https://github.com/roothide/Dopamine2-roothide" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/roothide/Dopamine2-roothide/releases/latest/download/Dopamine.tipa" class="install-button mt-2">
+                    <a href="https://github.com/roothide/Dopamine2-roothide/releases/download/19/Dopamine.tipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
@@ -446,7 +427,7 @@
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v1.2-1/AppStore++_TrollStore_v1.0.3-2.ipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AppStore++_TrollStore_v1.0.3-2.ipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -506,13 +487,13 @@
                             <p class="text-gray-400">Phiên bản v1.4.3</p>
                         </div>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ semi-jailbreak bẻ khóa một phần Rootlsss dành cho các thiết bị iOS (chip A12 trở lên), đơn giản hóa quá trình và chủ yếu cho phép các tweak được "tiêm" vào hệ thống và hoạt động trên một môi trường SpringBoard.<br>Tương thích IOS 16.5.1 - 16.6.1</p>
+                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ semi-jailbreak bẻ khóa một phần Rootlsss dành cho các thiết bị iOS (chip A12 trở lên), đơn giản hóa quá trình và chủ yếu cho phép các tweak được "tiêm" vào hệ thống và hoạt động trên một môi trường SpringBoard.<br>Tương thích IOS 16.5.1 - 16.6.1 và 17.0</p>
                     <p><b>Nguồn</b>: <a href="https://ios.cfw.guide/installing-nathanlr/" target="_blank">CFW Guide</a></p>
-                    <a href="http://nathan4s.lol/nathanlr/nathanlr.tipa" class="install-button mt-2">
+                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/NathanLR_2.1.1-4.tipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('http://nathan4s.lol/nathanlr/nathanlr.tipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/NathanLR_2.1.1-4.tipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -574,11 +555,11 @@
                     </div>
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ tiện ích được thiết kế để don dẹp hệ thống, cho phứp xóa các tệp rác, bộ nhớ đệm (cache) và giải phóng RAM để tăng tốc tối uu hóa dung lượng thiết bị.<br>Tương thích Thiết bi IOS có Trollstore</p>
                     <p><b>Nguồn</b>: <a href="https://t.me/TheBallnow" target="_blank">TheBallnow</a></p>
-                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/Troll.Cleaner.tipa" class="install-button mt-2">
+                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Troll.Cleaner.ipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/Troll.Cleaner.tipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Troll.Cleaner.ipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -640,11 +621,11 @@
                     </div>
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ trình quản lý gói thay thế cho Cydia/Sileo/Zebra, được thiết kế để cài đặt qua TrollStore<br>Cung cấp đầy đủ tính năng để quản lý tìm kiếm, cài đặt, cập nhật các gói tệp .deb và hiển thị Mô tả chi tiế các tweak trên thiết bị jailbreak<br>Tương thích Thiết bi IOS có Trollstore</p>
                     <p><b>Nguồn</b>: <a href="https://github.com/Lakr233/Saily" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/Saily.tipa" class="install-button mt-2">
+                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Saily.ipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/Saily.tipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Saily.ipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -706,11 +687,11 @@
                     </div>
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ mạnh mẽ giúp vượt qua những hạn chế của Apple trong việc tùy chỉnh nhạc chuông trên iPhone, Cho phép hỗ trợ nhập các tệp hiều định dạng  .m4r âm thanh từ nhiều nguồn khác nhau và loại bỏ hoàn toàn sự phụ thuộc vào iTunes để đồng bộ hóa và quản lý nhạc chuông. <br>Tương thích: iOS 14.0 - 16.6.1</p>
                     <p><b>Nguồn</b>: <a href="https://www.reddit.com/r/jailbreak/comments/1ax677q/ringtones_manager_for_ios_ipa_install_via/" target="_blank"> Reddit</a></p>
-                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/RingTonesManagerWith_TrollStore_1.1-4.ipa" class="install-button mt-2">
+                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/RingTonesManagerWith_TrollStore_1.1-4.ipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/RingTonesManagerWith_TrollStore_1.1-4.ipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/RingTonesManagerWith_TrollStore_1.1-4.ipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -728,11 +709,11 @@
                     </div>
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ tiện ích chuyên dụng được thiết kế để tận dụng các quyền hệ thống mà TrollStore cung cấp, Cho phép đọc trực tiếp dữ liệu phần cứng từ con chip quản lý pin của iPhone. Hiển thị chính xác số chu kỳ sạc,thông số dung lượng pin và các thông tin như ngày sản xuất pin, nhà sản xuất, hoặc số sê-ri của viên pin.<br>Tương thích: iOS 14.0 - 16.6.1 và 17.0</p>
                     <p><b>Nguồn</b>: <a href="https://github.com/DevelopCubeLab/BatteryInfo" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/DevelopCubeLab/BatteryInfo/releases/download/1.2.2/com.developlab.batteryinfo_1.2.2.tipa" class="install-button mt-2">
+                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/BatteryInfo-1.2.2.ipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/BatteryInfo_V1.2_VH.tipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/BatteryInfo-1.2.2.ipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -772,11 +753,11 @@
                     </div>
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ tiện ích quản lý lịch sử bảng tạm trên iPhone Cho phép theo dõi lưu lại, sắp xếp, Và quản lý nhanh các đoạn văn bản và hình ảnh đã sao chép<br> Ứng dụng hoạt động ngầm, hỗ trợ chia sẻ, xem trước liên kết, Giao diện dễ nhìn sử dụng với cử chỉ vuốt từ bàn phím và nút đọc chính tả.<br>Tương thích: iOS 14.0 - 16.6.1 và 17.0</p>
                     <p><b>Nguồn</b>: <a href="https://havoc.app/package/copylogts" target="_blank">Havoc</a></p>
-                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/CopyLog.tipa" class="install-button mt-2">
+                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/CopyLogTS-1.7.tipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/CopyLog.tipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/CopyLogTS-1.7.tipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -789,16 +770,16 @@
                         <img src="https://jtisvn.github.io/icons/uiharux.webp" alt="Uiharu X Icon" class="w-16 h-16 mr-4">
                         <div>
                             <h2 class="text-xl font-semibold">Uiharu X</h2>
-                            <p class="text-gray-400">Phiên bản v2.1</p>
+                            <p class="text-gray-400">Phiên bản v2.0</p>
                         </div>
                     </div>
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ tùy biến giao diện mạnh mẽ dành cho iPhone qua TrollStore, không cần jailbreak<br>Cho phép thêm một menu nổi truy cập các tính năng như Phím tắt (Shortcuts) và khởi chạy ứng dụng nhanh, Giả lập Dynamic Island, Tạo hiệu ứng tuyết rơi và đèn viền trên màn hình.<br>Tương thích: Thiết bị IOS có Trollstore</p>
                     <p><b>Nguồn</b>: <a href="https://github.com/straight-tamago/UiharuX" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/uiharux-2.1-free.tipa" class="install-button mt-2">
+                    <a href="https://github.com/straight-tamago/UiharuX/releases/download/2.0/com.straight-tamago.uiharux-pro-2.0.tipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/uiharux-2.1-free.tipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/straight-tamago/UiharuX/releases/download/2.0/com.straight-tamago.uiharux-pro-2.0.tipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -816,11 +797,11 @@
                     </div>
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ mạnh mẽ được cài đặt qua TrollStore mà không cần jailbreak.<br> Cho phép ghi âm cuộc gọi trực tiếp cho ứng dụng thông thường như FaceTime, Zalo, Messenger...Tự động ghi âm theo danh bạ đã chọn. Quản lý, nghe lại và chia sẻ file ghi âm dễ dàng hơn.<br>Tương thích: Thiết bị IOS có Trollstore</p>
                     <p><b>Nguồn</b>: <a href="https://limneos.net/?page=ipa" target="_blank">Limneos</a></p>
-                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/AudioRecorder.6.0.3.tipa" class="install-button mt-2">
+                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AudioRecorderTS_6.0.3_noDropbox.tipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/AudioRecorder.6.0.3.tipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AudioRecorderTS_6.0.3_noDropbox.tipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -837,11 +818,11 @@
                     </div>
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ fake vị trí mạnh mẽ dành cho iPhone qua TrollStore, không cần jailbreak<br>Cho phép giả lập vị trí GPS của iPhone một cách dễ dàng mà không cần phải jailbreak thiết bị. Công cụ này thường được tích hợp bên trong các ứng dụng tiện ích khác như Geranium, giúp thay đổi vị trí hiện tại của bạn đến bất kỳ đâu trên thế giới cho mọi ứng dụng trên hệ thống..<br>Tương thích: Thiết bị IOS có Trollstore</p>
                     <p><b>Nguồn</b>: <a href="https://github.com/c22dev" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/LocSim-1.3.7.ipa" class="install-button mt-2">
+                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/LocSim-1.3.7.ipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/LocSim-1.3.7.ipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/LocSim-1.3.7.ipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -858,11 +839,11 @@
                     </div>
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ (dưới dạng ứng dụng hoặc tiện ích) cho phép người dùng chỉnh sửa và tùy biến (mod) các tệp ứng dụng .ipa trực tiếp trên thiết bị iOS đã cài đặt TrollStore.<br>Cho phép thay đổi các thành phần bên trong một ứng dụng trước khi cài đặt để thêm tính năng, thay đổi giao diện, hoặc gỡ bỏ các hạn chế.<br>Tương thích: Thiết bị IOS có Trollstore</p>
                     <p><b>Nguồn</b>: <a href="https://github.com/powenn/ModMyIPA" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/ModMyIPA-1.0.2.ipa" class="install-button mt-2">
+                    <a href="https://github.com/powenn/ModMyIPA/releases/download/1.0.2/ModMyIPA-1.0.2.ipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/ModMyIPA-1.0.2.ipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/powenn/ModMyIPA/releases/download/1.0.2/ModMyIPA-1.0.2.ipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -879,11 +860,11 @@
                     </div>
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ cho phép hạ cấp (downgrade) hoặc nâng cấp (upgrade) các ứng dụng đã được cài đặt trên thiết bị về bất kỳ phiên bản nào còn tồn tại trên máy chủ của App Store, phiên bản dành cho thiết bị hỗ trợ TrollStore.<br>Cực kỳ hữu ích khi một bản cập nhật mới của ứng dụng bị lỗi, xóa mất tính năng bạn thích, hoặc không còn tương thích.<br>Tương thích: Thiết bị IOS có Trollstore</p>
                     <p><b>Nguồn</b>: <a href="https://x.com/DUpk3/status/1868284506828075210" target="_blank">X</a></p>
-                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/DowngradeApp_1.2-1.tipa" class="install-button mt-2">
+                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/DowngradeApp_1.2-1.tipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/DowngradeApp_1.2-1.tipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/DowngradeApp_1.2-1.tipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -901,11 +882,11 @@
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là Phiên bản TrollFools thứ 3 đước chỉnh sửa bởi iosdump.<br>Sử dụng “trollfools://open?bid=target app's package name” để thêm vào Phím tắt để truy cập nhanh vào trang quản lý plugin.
                         2. Sử dụng “trollfools://enable-all” phiên bản gốc, số phiên bản để thêm vào Phím tắt để kích hoạt tất cả plugin chỉ bằng một cú nhấp chuột..<br>Tương thích: Thiết bị IOS có Trollstore</p>
                     <p><b>Nguồn</b>: <a href="https://t.me/iosdumpzzz" target="_blank">Telegram</a></p>
-                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/TrollFools_4.2-227.tipa" class="install-button mt-2">
+                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/TrollFools.tipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/TrollFools_4.2-227.tipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/TrollFools.tipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -922,11 +903,11 @@
                     </div>
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ cho phép Giả lập vị trí: Fake GPS toàn hệ thống, hỗ trợ lưu bookmark và import từ Apple Maps và Dọn dẹp hệ thống: Xóa Cache, file OTA và dữ liệu, giúp giải phóng dung lượng lớn. Quản lý Daemon Tắt các tiến trình chạy ngầm không cần thiết (HomeKit, OTA...) để tối ưu pin và hiệu năng và Gỡ bỏ mật mã Thời gian sử dụng (Screen Time/ByeTime).<br>Tương thích: Thiết bị IOS có Trollstore</p>
                     <p><b>Nguồn</b>: <a href="https://github.com/c22dev/Geranium" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/Geranium.tipa" class="install-button mt-2">
+                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Geranium.tipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/Geranium.tipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Geranium.tipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
@@ -943,164 +924,63 @@
                     </div>
                     <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ Tái cấu trúc toàn bộ các phiên bản trước đây, đồng thời an toàn hơn, gần như không bị thoát đột ngột..<br>Đảm bảo chỉ dọn dẹp bộ nhớ đệm và tập tin tạm an toàn <br> Giúp giải phóng một số không gian bộ nhớ và dữ liệu hệ thống, phiên bản dành cho thiết bị hỗ trợ TrollStore<br>Tương thích: Thiết bị IOS có Trollstore</p>
                     <p><b>Nguồn</b>: <a href="https://t.me/TheBallnow" target="_blank">Telegram</a></p>
-                    <a href="https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/iOSCleanPro1.5.ipa" class="install-button mt-2">
+                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/iOSCleanPro.ipa" class="install-button mt-2">
                          <i class="fas fa-download mr-2"></i>
                          <span>Tải IPA</span>
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/iOSCleanPro1.5.ipa')" class="install-button mt-2">
+                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/iOSCleanPro.ipa')" class="install-button mt-2">
                         <i class="fa-solid fa-bolt mr-2"></i>
                         <span>Cài qua TrollStore</span>
                     </a>
                     <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
                 </div>
             </div>
-    </div>
-    
-    <div class="text-center mt-12 px-4">
-        <p class="thank-you-message">Cảm ơn bạn vì đã theo dõi và ủng hộ JTISVN. Hãy tiếp tục đồng hành cùng chúng tôi nhé!</p>
-    </div>
-    
-</main>
 
-<div class="copyright-container">
-    <p>Copyright © 2025 - 2030 By: KITSUDO - JTISVN. All rights reserved.</p>
-</div>
+            <div class="text-center mt-12 px-4">
+                <p class="thank-you-message">Cảm ơn bạn vì đã theo dõi và ủng hộ JTISVN!</p>
+            </div>
+        </main>
+
+        <div class="copyright-container">
+            <p>Copyright © 2025 - 2030 By: KITSUDO - JTISVN. All rights reserved.</p>
+        </div>
     </div>
 
     <script>
-        /**
-         * Chức năng này sẽ tạo và kích hoạt link cài đặt qua TrollStore.
-         * Nó sẽ sử dụng phương pháp apple-magnifier:// để tăng tính tương thích.
-         * @param {string} ipaUrl - Link tải trực tiếp đến file .ipa hoặc .tipa.
-         */
         function installWithTrollStore(ipaUrl) {
-            // 1. Mã hóa URL của file IPA để nó hợp lệ
             const encodedUrl = encodeURIComponent(ipaUrl);
-
-            // 2. Tạo link cài đặt hoàn chỉnh, sử dụng apple-magnifier để tương thích tốt hơn
-            const trollstoreLink = "apple-magnifier://install?url=" + encodedUrl;
-
-            // 3. Thực hiện chuyển hướng đến link TrollStore
-            window.location.href = trollstoreLink;
+            window.location.href = "apple-magnifier://install?url=" + encodedUrl;
         }
 
-        // --- TÍNH NĂNG TÌM KIẾM IPA (LIVE SEARCH) ---
         const searchInput = document.getElementById('ipa-search-input');
         const items = document.querySelectorAll('.new-item');
 
         searchInput.addEventListener('input', (e) => {
-            // Lấy từ khóa và chuyển về chữ thường
             const filter = e.target.value.toLowerCase();
-
             items.forEach(item => {
-                // Tìm thẻ h2 chứa tên IPA trong item đó
                 const titleElement = item.querySelector('h2');
-                
                 if (titleElement) {
                     const text = titleElement.innerText.toLowerCase();
-                    // Nếu tên chứa từ khóa thì hiện, không thì ẩn
-                    if (text.includes(filter)) {
-                        item.style.display = ''; // Reset về mặc định
-                    } else {
-                        item.style.display = 'none'; // Ẩn đi
-                    }
+                    item.style.display = text.includes(filter) ? '' : 'none';
                 }
             });
         });
-        // -------------------------------------------
 
-        // Theme toggle script
         const themeToggleBtn = document.getElementById('theme-toggle-btn');
         const themeIcon = document.getElementById('theme-icon');
         const body = document.body;
-
         const currentTheme = localStorage.getItem('theme') || 'dark';
         
         body.setAttribute('data-theme', currentTheme);
-        if (currentTheme === 'light') {
-            body.classList.add('light');
-            themeIcon.classList.remove('fa-sun');
-            themeIcon.classList.add('fa-moon');
-        } else {
-            themeIcon.classList.remove('fa-moon');
-            themeIcon.classList.add('fa-sun');
-        }
-
+        if (currentTheme === 'light') { body.classList.add('light'); themeIcon.className = 'fas fa-moon'; }
+        
         themeToggleBtn.addEventListener('click', () => {
             const isLight = body.classList.toggle('light');
             const newTheme = isLight ? 'light' : 'dark';
-            
             body.setAttribute('data-theme', newTheme);
             localStorage.setItem('theme', newTheme);
-            
-            if (newTheme === 'light') {
-                themeIcon.classList.remove('fa-sun');
-                themeIcon.classList.add('fa-moon');
-            } else {
-                themeIcon.classList.remove('fa-moon');
-                themeIcon.classList.add('fa-sun');
-            }
+            themeIcon.className = newTheme === 'light' ? 'fas fa-moon' : 'fas fa-sun';
         });
-
-        // Raindrop effect script
-        const canvas = document.getElementById('raindrop-effect');
-        const ctx = canvas.getContext('2d');
-        let width, height;
-        let drops = [];
-        let lastDropTime = 0;
-        const dropInterval = 200;
-
-        const initCanvas = () => {
-            width = canvas.width = window.innerWidth;
-            height = canvas.height = window.innerHeight;
-            drops = [];
-        };
-
-        window.addEventListener('resize', initCanvas);
-
-        class Drop {
-            constructor(x, y) {
-                this.x = x;
-                this.y = y;
-                this.r = 0.5;
-                this.dr = 0.8;
-                this.opacity = 1;
-                this.dOpacity = -0.01;
-            }
-            update() {
-                this.r += this.dr;
-                this.opacity += this.dOpacity;
-            }
-            draw() {
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
-                ctx.strokeStyle = `rgba(137, 207, 240, ${this.opacity})`;
-                ctx.lineWidth = 1;
-                ctx.stroke();
-            }
-        }
-
-        const animateDrops = (timestamp) => {
-            ctx.clearRect(0, 0, width, height);
-
-            if (timestamp - lastDropTime > dropInterval) {
-                drops.push(new Drop(Math.random() * width, Math.random() * height));
-                lastDropTime = timestamp;
-            }
-
-            for (let i = 0; i < drops.length; i++) {
-                drops[i].update();
-                drops[i].draw();
-                if (drops[i].opacity <= 0) {
-                    drops.splice(i, 1);
-                    i--;
-                }
-            }
-            requestAnimationFrame(animateDrops);
-        };
-
-        initCanvas();
-        animateDrops(0);
     </script>
 </body>
 </html>

@@ -1,500 +1,254 @@
-/* Màu sắc mới */
+/* =========================================
+   STYLE.CSS - JTISVN REPO (Full Glass Sync)
+   ========================================= */
+
+/* --- 1. CẤU HÌNH MÀU SẮC --- */
 :root {
-    --bg-main: #0a0e1a; /* Nền tối */
-    --bg-card: #182033; /* Màu nền cho các thẻ */
-    --bg-header-footer: transparent; /* Nền trong suốt cho header */
-    --text-primary: #e0e7ff; /* Màu chữ chính */
-    --text-secondary: #94a3b8; /* Màu chữ phụ */
-    --accent-color: #7c3aed; /* Màu nhấn chính (tím) */
-    --accent-color-light: #a855f7; /* Màu nhấn sáng hơn */
-    --border-color: #374151; /* Màu đường viền */
-    --shadow-color: rgba(0, 0, 0, 0.3); /* Màu bóng đổ */
-    --accent-pink-purple: #c084fc; /* Màu tím hồng cho nút */
-  
+    --bg-main: #020617; 
+    --bg-glass: rgba(15, 23, 42, 0.6); 
+    --text-primary: #ffffff;
+    --text-secondary: #cbd5e1;
+    --accent-color: #7c3aed;
+    --border-glass: 1px solid rgba(255, 255, 255, 0.1);
+    
     --bg-image-url: url('https://files.catbox.moe/bk8zmt.png');
 }
 
-#theme-toggle-btn {
-    background: none;
-    border: none;
-    color: var(--text-secondary);
-    cursor: pointer;
-    font-size: 1rem;
-    padding: 0.6rem 1.2rem;
-    transition: all 0.3s ease;
-    outline: none;
-    flex-grow: 1;
-}
-
-/* Định nghĩa màu sắc cho chế độ sáng */
 body.light {
-    --bg-main: #f0f2f5;
-    --bg-card: #ffffff;
-    --bg-header-footer: transparent;
-    --text-primary: #212529;
-    --text-secondary: #495057;
+    --bg-main: #f8fafc;
+    --bg-glass: rgba(255, 255, 255, 0.85);
+    --text-primary: #1e293b;
+    --text-secondary: #475569;
     --accent-color: #a855f7;
-    --accent-color-light: #d946ef;
-    --border-color: #dee2e6;
-    --shadow-color: rgba(0, 0, 0, 0.1);
+    --border-glass: 1px solid #e2e8f0;
 }
 
-body.light .bank-name,
-body.light .account-owner,
-body.light .account-number,
-body.light .new-item h2 { 
-    color: #212529;
-}
-
-/* --- CẤU HÌNH BACKGROUND ANIME --- */
+/* --- 2. HÌNH NỀN --- */
 .background-animation {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--bg-main); /* Nền dự phòng */
-    
-    /* Thiết lập ảnh nền từ biến */
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2;
     background-image: var(--bg-image-url);
-    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
-    
-    z-index: -2;
 }
-
-/* Lớp phủ màu TỐI cho chế độ Dark Mode (mặc định) */
 .background-animation::after {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(10, 14, 26, 0.85); /* Đen mờ 85% để chữ nổi */
+    content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(2, 6, 23, 0.4); 
+    backdrop-filter: blur(3px); 
     transition: background 0.5s ease;
 }
-
-/* Lớp phủ màu SÁNG cho chế độ Light Mode */
-body.light .background-animation::after {
-    background: rgba(255, 255, 255, 0.6); /* Trắng mờ 60% */
-    backdrop-filter: blur(3px); /* Làm mờ nhẹ ảnh nền */
+body.light .background-animation::after { 
+    background: rgba(255, 255, 255, 0.4); 
+    backdrop-filter: blur(5px);
 }
 
-/* CSS CŨ (Nav, Buttons, Cards...) */
-body.light .nav-container {
-    background-color: #e9ecef;
-    border: 1px solid #ced4da;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 0 10px rgba(173, 216, 230, 0.5);
-}
-
-body.light .nav-container a,
-body.light #theme-toggle-btn {
-    color: var(--text-secondary);
-}
-
-body.light .social-button {
-    background-color: #e9ecef;
-    color: var(--text-secondary);
-    border: 1px solid #ced4da;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 0 10px rgba(173, 216, 230, 0.5);
-}
-
-body.light .social-button:hover {
-    background-image: linear-gradient(to right, #add8e6, #f08080);
-    color: #ffffff;
-    box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
-}
-
-body.light .bg-bg-card {
-    background-color: #ffffff;
-    color: var(--text-primary);
-    border: 1px solid #ced4da;
-}
-
-body.light input::placeholder {
-    color: #adb5bd;
-}
-
-body.light .copyright-container p {
-    color: #495057;
-}
-
+/* --- 3. BODY & TEXT --- */
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: var(--bg-main);
     color: var(--text-primary);
     line-height: 1.6;
     overflow-x: hidden;
-    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: background-color 0.5s ease;
 }
+.main-container { max-width: 1280px; margin: 0 auto; }
 
-.main-container {
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
+h1 { 
+    font-size: 2.5rem; font-weight: 800; letter-spacing: -0.025em; 
+    text-shadow: 0 2px 10px rgba(0,0,0,0.5); 
 }
+p { text-shadow: 0 1px 2px rgba(0,0,0,0.5); }
 
-h1 {
-    font-size: 2.5rem;
-    font-weight: 800;
-    letter-spacing: -0.025em;
-    color: var(--text-primary);
-}
-
-p.max-w-2xl {
-    font-size: 1.25rem;
-    color: var(--text-secondary);
-}
-
-/* Nav container */
+/* --- 4. NAV MENU (GLASS) --- */
 .nav-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(26, 30, 47, 0.8); /* Thêm trong suốt */
-    backdrop-filter: blur(10px);
-    border-radius: 9999px;
-    padding: 0.3rem;
-    margin-bottom: 2rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), 0 0 15px rgba(137, 207, 240, 0.4);
-    overflow: hidden;
-    transition: background-color 0.5s ease, border-color 0.5s ease, box-shadow 0.5s ease;
+    display: flex; justify-content: center; align-items: center;
+    background: var(--bg-glass);
+    backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);
+    border: var(--border-glass);
+    border-radius: 9999px; padding: 0.4rem; margin-bottom: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+.nav-container a, #theme-toggle-btn {
+    font-weight: 600; font-size: 1rem; text-decoration: none;
+    padding: 0.6rem 1.4rem; border-radius: 9999px; transition: all 0.3s ease;
+    cursor: pointer; background: transparent; color: var(--text-secondary);
+    border: none; flex-grow: 1; text-align: center;
+}
+.nav-container a:hover, #theme-toggle-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1); color: #ffffff;
 }
 
-.nav-container a,
-#theme-toggle-btn {
-    position: relative;
-    font-weight: 600;
-    font-size: 1rem;
-    text-decoration: none;
-    padding: 0.6rem 1.2rem;
-    border-radius: 9999px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    background-color: transparent;
-    color: var(--text-secondary);
-    border: none;
-    flex-grow: 1;
-    text-align: center;
-}
-
-.nav-container a:hover,
-.nav-container a:focus,
-.nav-container a:active,
-#theme-toggle-btn:hover,
-#theme-toggle-btn:focus,
-#theme-toggle-btn:active {
-    background-image: linear-gradient(to right, #89cff0, #a855f7);
-    color: #ffffff;
-    box-shadow: 0 0 8px rgba(137, 207, 240, 0.6);
-    outline: none;
-    transform: scale(1.05);
-}
-
-body.light .nav-container a:hover,
-body.light .nav-container a:focus,
-body.light .nav-container a:active,
-body.light #theme-toggle-btn:hover,
-body.light #theme-toggle-btn:focus,
-body.light #theme-toggle-btn:active {
-    background-image: linear-gradient(to right, #add8e6, #f08080);
-    color: #ffffff;
-    box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
-    transform: scale(1.05);
-}
-
-.nav-container a:active,
-#theme-toggle-btn:active {
-    transform: scale(0.95);
-}
-
+/* --- 5. AVATAR --- */
 .avatar {
-    width: 140px;
-    height: 140px;
-    border-radius: 9999px;
-    object-fit: cover;
-    border: 5px solid #89cff0;
-    box-shadow: 0 0 20px rgba(137, 207, 240, 0.7);
-    transition: transform 0.8s ease-in-out, border-color 0.8s ease-in-out;
+    width: 150px; height: 150px; border-radius: 9999px; object-fit: cover;
+    border: 4px solid #22d3ee; 
+    box-shadow: 0 0 25px rgba(34, 211, 238, 0.4);
+    transition: transform 0.8s ease-in-out, border-color 0.3s ease;
 }
-
 .avatar:hover {
-    transform: rotate(360deg);
-    border-color: #a855f7;
+    transform: rotate(360deg); border-color: #d946ef;
+    box-shadow: 0 0 30px rgba(217, 70, 239, 0.6);
 }
 
-.social-buttons-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    margin-top: 2rem;
-    max-width: 400px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+/* --- 6. NÚT BẤM (ĐÃ CHỈNH LẠI BTN-DARK) --- */
+.social-buttons-grid, .buttons-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 15px;
+    max-width: 600px; width: 100%; margin: 2rem auto; padding: 0 10px;
+}
+.btn-neon {
+    display: flex; align-items: center; justify-content: center;
+    padding: 1rem 1.5rem; border-radius: 24px;
+    text-decoration: none; font-weight: 700; font-size: 1rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative; overflow: hidden;
+}
+.btn-neon i { margin-right: 12px; font-size: 1.3rem; }
+
+/* Nút Gradient (Sileo) */
+.btn-gradient {
+    background: linear-gradient(135deg, #0ea5e9 0%, #8b5cf6 100%);
+    color: #ffffff; border: none;
+    box-shadow: 0 0 20px rgba(14, 165, 233, 0.5);
+}
+.btn-gradient:hover {
+    transform: translateY(-4px); box-shadow: 0 0 35px rgba(139, 92, 246, 0.7);
 }
 
-.social-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.6rem 1.2rem;
-    background-color: rgba(26, 30, 47, 0.8); /* Thêm trong suốt */
-    backdrop-filter: blur(5px);
-    border-radius: 9999px;
+/* --- ĐÂY LÀ CHỖ ĐÃ SỬA: Nút Dark (Mạng xã hội, Zebra, Cydia...) --- */
+.btn-dark {
+    /* Chỉnh nền trong suốt hơn (30%) để giống card */
+    background: rgba(15, 23, 42, 0.3); 
+    
+    border: var(--border-glass); 
     color: var(--text-secondary);
-    font-weight: 600;
-    font-size: 1rem;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 15px rgba(137, 207, 240, 0.4);
-    text-align: center;
+    
+    /* Tăng độ Blur lên 20px */
+    backdrop-filter: blur(20px); 
+    -webkit-backdrop-filter: blur(20px);
 }
-
-.social-button i {
-    margin-right: 0.5rem;
+.btn-dark:hover {
+    border-color: #a855f7; 
+    background: rgba(30, 41, 59, 0.6); /* Hover thì đậm hơn xíu */
+    color: #ffffff; 
+    transform: translateY(-4px);
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.3);
 }
+body.light .btn-dark { background: #ffffff; border-color: #cbd5e1; color: #475569; }
 
-.social-button:hover {
-    background-image: linear-gradient(to right, #89cff0, #a855f7);
-    color: #ffffff;
-    box-shadow: 0 0 8px rgba(137, 207, 240, 0.6);
-    transform: scale(1.05);
-}
 
-/* Thẻ item mới */
-.new-item {
-    padding: 1.5rem;
-    border-radius: 20px;
-    color: var(--text-primary);
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.5s ease, border-color 0.5s ease;
-    box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
-    background-color: rgba(24, 32, 51, 0.8); /* Nền mờ để nhìn thấy ảnh anime */
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+/* --- 7. STYLE CHUNG CHO CARD (IPA & DYLIB) --- */
+
+/* Thanh tìm kiếm Glass */
+.search-input, #ipa-search-input {
     width: 100%;
-    position: relative;
-    overflow: hidden;
-}
-
-.new-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(137, 207, 240, 0.7);
-}
-
-body.light .new-item {
-    background-color: rgba(255, 255, 255, 0.6); /* Tăng độ trong suốt cho light mode */
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-}
-
-body.light .new-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15), 0 0 12px rgba(173, 216, 230, 0.6);
-}
-
-.install-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 0.75rem 1rem;
+    padding: 0.8rem 1rem 0.8rem 3rem;
     border-radius: 9999px;
-    font-weight: 700;
-    text-decoration: none;
+    background: rgba(15, 23, 42, 0.3);
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    border: var(--border-glass);
+    color: var(--text-primary);
+    font-size: 1rem; outline: none;
     transition: all 0.3s ease;
-    background-color: transparent;
-    color: #ffffff;
-    border: 1px solid #ffffff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.search-input:focus, #ipa-search-input:focus {
+    border-color: #22d3ee;
+    box-shadow: 0 0 15px rgba(34, 211, 238, 0.3);
+    background: rgba(15, 23, 42, 0.6);
+}
+.search-icon {
+    position: absolute; left: 1.2rem; top: 50%; transform: translateY(-50%);
+    color: var(--text-secondary); pointer-events: none;
 }
 
-.install-button:hover {
-    background-image: linear-gradient(to right, #89cff0, #a855f7);
-    transform: scale(1.05);
-    border-color: transparent;
+/* THẺ ITEM (Card to) */
+.tweak-card, .new-item {
+    background: rgba(15, 23, 42, 0.3); 
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); 
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+    padding: 1.5rem;
+    display: flex; flex-direction: column;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden; 
+    position: relative;
 }
 
-body.light .install-button {
-    color: #000000;
-    border: 1px solid #000000;
-    background-color: rgba(233, 236, 239, 0.8);
+.tweak-card:hover, .new-item:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    background: rgba(30, 41, 59, 0.5);
 }
 
-body.light .install-button:hover {
-    background-image: linear-gradient(to right, #add8e6, #f08080);
-    color: #ffffff;
-    border-color: transparent;
+/* Nút tải về trong suốt */
+.download-btn-static, .install-button {
+    display: flex; justify-content: center; align-items: center; gap: 8px;
+    width: 100%; padding: 10px 0; margin-top: auto;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    color: var(--text-primary);
+    font-weight: 600; text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+.download-btn-static:hover, .install-button:hover {
+    background: linear-gradient(90deg, #0ea5e9, #8b5cf6);
+    color: white; border-color: transparent;
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+    transform: translateY(-2px);
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .nav-container {
-        width: 100%;
-        margin: 1rem auto;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-        box-sizing: border-box;
-    }
-    .nav-container a, .nav-container button {
-        flex-grow: 1;
-        text-align: center;
-        padding: 0.6rem 0.5rem;
-        font-size: 0.9rem;
-    }
-}
+/* Badge (Cho Dylib) */
+.badge-teal { font-size: 0.75rem; background: rgba(20, 184, 166, 0.2); color: #5eead4; padding: 0.25rem 0.5rem; border-radius: 0.25rem; }
+.badge-blue { font-size: 0.75rem; background: rgba(59, 130, 246, 0.2); color: #93c5fd; padding: 0.25rem 0.5rem; border-radius: 0.25rem; }
 
-@media (min-width: 769px) {
-    /* CSS cho màn hình lớn hơn nếu cần */
+
+/* --- 8. PAYMENT CARDS (DONATE) --- */
+.payment-buttons-grid-vertical { display: flex; flex-direction: column; gap: 1.5rem; max-width: 500px; width: 100%; margin: 2rem auto; }
+.payment-item {
+    background: rgba(15, 23, 42, 0.3);
+    border: var(--border-glass);
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    border-radius: 24px; padding: 1.5rem; color: var(--text-primary);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
+.payment-item:hover { transform: translateY(-5px); border-color: rgba(255, 255, 255, 0.3); }
+.payment-main-content { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+.payment-info-block { flex-grow: 1; text-align: left; }
+.account-info-row { display: flex; align-items: center; gap: 10px; background: rgba(0, 0, 0, 0.2); padding: 8px 12px; border-radius: 12px; width: fit-content; }
+.account-number { font-family: 'Monaco', 'Consolas', monospace; font-size: 1.1rem; font-weight: 700; color: #67e8f9; }
+.copy-btn-mini { background: rgba(255, 255, 255, 0.1); color: var(--text-secondary); border: none; padding: 4px 10px; border-radius: 8px; cursor: pointer; }
+.copy-btn-mini:hover { background: var(--accent-color); color: white; }
+.payment-qr-code { width: 80px; height: 80px; border-radius: 12px; border: 2px solid rgba(255, 255, 255, 0.2); }
+.copy-toast { position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%); background: rgba(16, 185, 129, 0.9); color: white; padding: 0.8rem 1.5rem; border-radius: 9999px; z-index: 1000; opacity: 0; visibility: hidden; transition: all 0.3s ease; }
+.copy-toast.show { opacity: 1; visibility: visible; bottom: 2.5rem; }
+
+/* --- 9. FOOTER --- */
+.copyright-container { margin-top: 4rem; padding-bottom: 2rem; }
+.copyright-container p { color: #94a3b8; font-size: 0.9rem; }
+.text-animate-gradient {
+    background: linear-gradient(to right, #22d3ee, #e879f9, #ffffff, #22d3ee);
+    background-size: 300% auto;
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 15px rgba(124, 58, 237, 0.4));
+    animation: gradient-animation 6s linear infinite;
+}
+@keyframes gradient-animation { to { background-position: 300% center; } }
+.repo-box { background: var(--bg-glass); border: var(--border-glass); }
+.repo-text { color: #67e8f9; } body.light .repo-text { color: var(--accent-color); }
+.copy-btn { color: #94a3b8; }
 
 @media (max-width: 480px) {
-    .social-buttons-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-#raindrop-effect {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    pointer-events: none;
-}
-
-.copyright-container {
-    text-align: center;
-    margin-top: 4rem;
-    padding-bottom: 2rem;
-}
-
-.copyright-container p {
-    color: var(--text-secondary);
-    opacity: 0.8;
-    font-size: 0.9rem;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Thêm bóng chữ cho footer */
-}
-
-body.light .new-item p {
-    color: var(--text-secondary);
-}
-
-/* Lời cảm ơn */
-.thank-you-message {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--text-secondary);
-    opacity: 0.9;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-}
-
-/* Hiệu ứng ánh sáng quét qua */
-.highlight-overlay {
-    position: absolute;
-    top: 0;
-    left: -150%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(100deg, transparent 20%, rgba(255, 255, 255, 0.25) 50%, transparent 80%);
-    animation: light-sweep 4s ease-in-out infinite;
-    pointer-events: none;
-    z-index: 1;
-}
-
-@keyframes light-sweep {
-    0% {
-        transform: translateX(0);
-    }
-    50% {
-        transform: translateX(250%);
-    }
-    100% {
-        transform: translateX(250%);
-    }
-}
-
-/* Tắt hiệu ứng ở chế độ sáng */
-body.light .highlight-overlay {
-    animation: none;
-    background: transparent;
-}
-
-/* Bo tròn icon ứng dụng trong các ô */
-.new-item .flex img {
-    border-radius: 16px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
-}
-
-.new-item:hover .flex img {
-    transform: scale(1.08);
-}
-
-/* Hiệu ứng màu chữ cho REPO JTISVN */
-.shimmering-text {
-    background-image: linear-gradient(
-        -75deg,
-        #89cff0 0%,
-        #e0e7ff 50%,
-        #89cff0 100%
-    );
-    background-size: 200% auto;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    animation: shimmer 5s linear infinite;
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5)); /* Thêm bóng đổ cho chữ tiêu đề */
-}
-
-@keyframes shimmer {
-    to {
-        background-position: 200% center;
-    }
-}
-
-/* --- SEARCH BAR STYLING --- */
-#ipa-search-input {
-    width: 100%;
-    padding: 0.8rem 1rem 0.8rem 3rem; /* Padding trái chừa chỗ cho icon */
-    border-radius: 9999px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    background-color: rgba(26, 30, 47, 0.8);
-    backdrop-filter: blur(10px);
-    color: #ffffff;
-    font-size: 1rem;
-    outline: none;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-#ipa-search-input:focus {
-    border-color: var(--accent-color);
-    box-shadow: 0 0 10px rgba(137, 207, 240, 0.5);
-}
-
-.search-icon {
-    position: absolute;
-    left: 1.2rem;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--text-secondary);
-    pointer-events: none; /* Icon không cản trở click vào input */
-}
-
-/* Search bar for Light Mode */
-body.light #ipa-search-input {
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 1px solid #ced4da;
-    color: #333;
-}
-
-body.light #ipa-search-input:focus {
-    border-color: var(--accent-color);
-    box-shadow: 0 0 10px rgba(168, 85, 247, 0.3);
+    .social-buttons-grid, .buttons-grid { grid-template-columns: 1fr; }
+    .payment-main-content { flex-direction: column; text-align: center; }
+    .payment-info-block { text-align: center; width: 100%; }
+    .account-info-row { margin: 0 auto; justify-content: center; }
+    .nav-container { width: 100%; margin: 1rem auto; padding: 0.3rem; }
 }

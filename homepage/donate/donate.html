@@ -12,18 +12,18 @@
 </head>
 <body class="font-sans text-white min-h-screen" data-theme="dark">
     <div class="background-animation"></div>
-    <canvas id="raindrop-effect"></canvas>
 
     <div id="copy-toast" class="copy-toast">
-        <p>Đã sao chép!</p>
+        <p><i class="fas fa-check-circle mr-2"></i> Đã sao chép!</p>
     </div>
 
     <div class="main-container mx-auto">
         <main class="container mx-auto px-4 py-8">
             <div class="flex flex-col items-center justify-center text-center mb-8">
+                
                 <div class="nav-container">
                     <a href="https://jtisvn.github.io/homepage/ipa/page.html">Kho IPA</a>
-                    <a href="https://jtisvn.github.io/">JTISVN JB</a>
+                    <a href="https://jtisvn.github.io/">Trang chủ</a>
                     <a href="https://jtisvn.github.io/homepage/dylibrary/dylib.html">Kho Dylib</a>
                     <button id="theme-toggle-btn" class="nav-button theme-toggle-button">
                         <i class="fas fa-sun" id="theme-icon"></i>
@@ -31,30 +31,38 @@
                 </div>
 
                 <img src="https://jtisvn.github.io/icons/avatar.webp" alt="Avatar" class="avatar">
+                
                 <div class="flex flex-col items-center space-y-2 mt-4">
-                    <h1 class="text-4xl font-bold shimmering-text">JTISVN REPO</h1>
+                    <h1 class="text-4xl font-bold text-animate-gradient">JTISVN REPO</h1>
                 </div>
-                <p class="text-xl max-w-2xl mx-auto mt-2" style="text-shadow: 0 2px 4px rgba(0,0,0,0.8);">
-                    Nhận mua hộ Tweak có phí của Havoc và niceOS<br>Hoặc ủng hộ qua số tài khoản & quét mã QR bên dưới<br> Lưu ý: Nhớ ghi rõ nội dung, mục đích khi thanh toán nha!
+                
+                <p class="text-xl max-w-2xl mx-auto mt-4 text-gray-300">
+                    Nhận mua hộ Tweak có phí của Havoc và niceOS<br>Hoặc ủng hộ qua số tài khoản & quét mã QR bên dưới<br> 
+                    <span class="text-sm opacity-75">(Lưu ý: Nhớ ghi rõ nội dung, mục đích khi thanh toán nha!)</span>
                 </p>
             </div>
 
             <div class="social-buttons-grid mt-8">
-                <a href="https://t.me/Kitsudo" class="social-button telegram-button"><i class="fab fa-telegram-plane"></i> <span>Liên hệ Telegram</span></a>
-                <a href="https://www.facebook.com/hieu.kitsudo?locale=vi_VN" class="social-button facebook-button"><i class="fab fa-facebook-f"></i> <span>Liên hệ Facebook</span></a>
+                <a href="https://t.me/Kitsudo" class="btn-neon btn-dark">
+                    <i class="fab fa-telegram-plane text-xl text-blue-400"></i> 
+                    <span>Liên hệ Telegram</span>
+                </a>
+                <a href="https://www.facebook.com/hieu.kitsudo?locale=vi_VN" class="btn-neon btn-dark">
+                    <i class="fab fa-facebook-f text-xl text-blue-600"></i> 
+                    <span>Liên hệ Facebook</span>
+                </a>
             </div>
 
             <div class="payment-buttons-grid-vertical mt-8">
-                <div class="payment-item purple-gradient-bg">
+                <div class="payment-item">
                     <div class="payment-main-content">
                         <div class="payment-info-block">
-                            <p class="bank-name">Ngân hàng TMCP Á Châu</p>
+                            <p class="bank-name text-blue-300">Ngân hàng TMCP Á Châu (ACB)</p>
                             <p class="account-owner">Chủ TK: NGUYEN TRUNG HIEU</p>
                             <div class="account-info-row">
-                                <p class="account-number" id="acb-account-number">Số TK: 20219691</p>
-                                <button class="copy-btn" onclick="copyToClipboard('acb-account-number', event)">
-                                    <i class="fas fa-copy"></i>
-                                    <span class="ml-2">Sao chép</span>
+                                <p class="account-number" id="acb-account-number">20219691</p>
+                                <button class="copy-btn-mini" onclick="copyToClipboard('acb-account-number', event)">
+                                    <i class="fas fa-copy"></i> Sao chép
                                 </button>
                             </div>
                         </div>
@@ -62,16 +70,15 @@
                     </div>
                 </div>
 
-                <div class="payment-item purple-gradient-bg">
+                <div class="payment-item">
                     <div class="payment-main-content">
                         <div class="payment-info-block">
-                            <p class="bank-name">Ngân hàng TMCP Bản Việt (MoMo)</p>
+                            <p class="bank-name text-pink-400">Ngân hàng TMCP Bản Việt (MoMo)</p>
                             <p class="account-owner">Chủ TK: NGUYEN TRUNG HIEU</p>
                             <div class="account-info-row">
-                                <p class="account-number" id="momo-account-number">Số TK:<br>99MM24041M46376294</p>
-                                <button class="copy-btn" onclick="copyToClipboard('momo-account-number', event)">
-                                    <i class="fas fa-copy"></i>
-                                    <span class="ml-2">Sao chép</span>
+                                <p class="account-number" id="momo-account-number">99MM24041M46376294</p>
+                                <button class="copy-btn-mini" onclick="copyToClipboard('momo-account-number', event)">
+                                    <i class="fas fa-copy"></i> Sao chép
                                 </button>
                             </div>
                         </div>
@@ -91,12 +98,12 @@
     </div>
 
     <script>
+        // --- Logic Theme ---
         const themeToggleBtn = document.getElementById('theme-toggle-btn');
         const themeIcon = document.getElementById('theme-icon');
         const body = document.body;
         const currentTheme = localStorage.getItem('theme') || 'dark';
 
-        // Set theme ban đầu
         body.setAttribute('data-theme', currentTheme);
         if (currentTheme === 'light') {
             body.classList.add('light');
@@ -107,7 +114,6 @@
         themeToggleBtn.addEventListener('click', () => {
             const isLight = body.classList.toggle('light');
             const newTheme = isLight ? 'light' : 'dark';
-            
             body.setAttribute('data-theme', newTheme);
             localStorage.setItem('theme', newTheme);
 
@@ -120,39 +126,17 @@
             }
         });
 
+        // --- Logic Copy ---
         const copyToClipboard = (elementId, event) => {
             event.stopPropagation();
             const element = document.getElementById(elementId);
-            const textToCopy = element.textContent.replace('Số TK:', '').trim();
+            const textToCopy = element.textContent.trim();
 
-            if (navigator.clipboard && window.isSecureContext) {
-                navigator.clipboard.writeText(textToCopy)
-                    .then(() => {
-                        showToast();
-                    })
-                    .catch(err => {
-                        console.error('Không thể sao chép: ', err);
-                        fallbackCopyToClipboard(textToCopy);
-                    });
-            } else {
-                fallbackCopyToClipboard(textToCopy);
-            }
-        };
-
-        const fallbackCopyToClipboard = (text) => {
-            const textarea = document.createElement('textarea');
-            textarea.value = text;
-            textarea.style.position = 'fixed';
-            document.body.appendChild(textarea);
-            textarea.focus();
-            textarea.select();
-            try {
-                document.execCommand('copy');
+            navigator.clipboard.writeText(textToCopy).then(() => {
                 showToast();
-            } catch (err) {
-                console.error('Không thể sao chép dự phòng: ', err);
-            }
-            document.body.removeChild(textarea);
+            }).catch(err => {
+                console.error('Lỗi sao chép: ', err);
+            });
         };
 
         const showToast = () => {
@@ -162,65 +146,7 @@
                 toast.classList.remove('show');
             }, 2000);
         };
-
-        const canvas = document.getElementById('raindrop-effect');
-        const ctx = canvas.getContext('2d');
-        let width, height;
-        let drops = [];
-        let lastDropTime = 0;
-        const dropInterval = 200;
-
-        const initCanvas = () => {
-            width = canvas.width = window.innerWidth;
-            height = canvas.height = window.innerHeight;
-            drops = [];
-        };
-
-        window.addEventListener('resize', initCanvas);
-
-        class Drop {
-            constructor(x, y) {
-                this.x = x;
-                this.y = y;
-                this.r = 0.5;
-                this.dr = 0.8;
-                this.opacity = 1;
-                this.dOpacity = -0.01;
-            }
-            update() {
-                this.r += this.dr;
-                this.opacity += this.dOpacity;
-            }
-            draw() {
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
-                ctx.strokeStyle = `rgba(137, 207, 240, ${this.opacity})`;
-                ctx.lineWidth = 1;
-                ctx.stroke();
-            }
-        }
-
-        const animateDrops = (timestamp) => {
-            ctx.clearRect(0, 0, width, height);
-
-            if (timestamp - lastDropTime > dropInterval) {
-                drops.push(new Drop(Math.random() * width, Math.random() * height));
-                lastDropTime = timestamp;
-            }
-
-            for (let i = 0; i < drops.length; i++) {
-                drops[i].update();
-                drops[i].draw();
-                if (drops[i].opacity <= 0) {
-                    drops.splice(i, 1);
-                    i--;
-                }
-            }
-            requestAnimationFrame(animateDrops);
-        };
-
-        initCanvas();
-        animateDrops(0);
+        // Đã xóa hoàn toàn script tạo mưa
     </script>
 </body>
 </html>

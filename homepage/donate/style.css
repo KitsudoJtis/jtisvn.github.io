@@ -1,580 +1,263 @@
-/* Màu sắc mới */
+/* =========================================
+   STYLE.CSS - JTISVN REPO (Final Super Glass)
+   ========================================= */
+
+/* --- 1. CẤU HÌNH MÀU SẮC --- */
 :root {
-    --bg-main: #0a0e1a; /* Nền tối */
-    --bg-card: #182033; /* Màu nền cho các thẻ */
-    --bg-header-footer: transparent; /* Nền trong suốt cho header */
-    --text-primary: #e0e7ff; /* Màu chữ chính */
-    --text-secondary: #94a3b8; /* Màu chữ phụ */
-    --accent-color: #7c3aed; /* Màu nhấn chính (tím) */
-    --accent-color-light: #a855f7; /* Màu nhấn sáng hơn */
-    --border-color: #374151; /* Màu đường viền */
-    --shadow-color: rgba(0, 0, 0, 0.3); /* Màu bóng đổ */
-    --accent-pink-purple: #c084fc; /* Màu tím hồng cho nút */
+    --bg-main: #020617; 
+    --bg-glass: rgba(15, 23, 42, 0.6); 
+    --text-primary: #ffffff;
+    --text-secondary: #cbd5e1;
+    --accent-color: #7c3aed;
+    --border-glass: 1px solid rgba(255, 255, 255, 0.1);
     
     --bg-image-url: url('https://files.catbox.moe/bk8zmt.png');
 }
 
-#theme-toggle-btn {
-    background: none;
-    border: none;
-    color: var(--text-secondary);
-    cursor: pointer;
-    font-size: 1rem;
-    padding: 0.6rem 1.2rem;
-    transition: all 0.3s ease;
-    outline: none;
-    flex-grow: 1;
-}
-
-/* Định nghĩa màu sắc cho chế độ sáng */
 body.light {
-    --bg-main: #f0f2f5;
-    --bg-card: #ffffff;
-    --bg-header-footer: transparent;
-    --text-primary: #212529;
-    --text-secondary: #495057;
+    --bg-main: #f8fafc;
+    --bg-glass: rgba(255, 255, 255, 0.85);
+    --text-primary: #1e293b;
+    --text-secondary: #475569;
     --accent-color: #a855f7;
-    --accent-color-light: #d946ef;
-    --border-color: #dee2e6;
-    --shadow-color: rgba(0, 0, 0, 0.1);
+    --border-glass: 1px solid #e2e8f0;
 }
 
-/* Style thẻ thanh toán (Light Mode) */
-body.light .payment-item {
-    background-color: rgba(255, 255, 255, 0.6);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-}
-
-body.light .payment-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15), 0 0 12px rgba(173, 216, 230, 0.6);
-}
-
-body.light .bank-name,
-body.light .account-owner,
-body.light .account-number {
-    color: var(--text-primary);
-}
-
-/* --- CẤU HÌNH BACKGROUND ANIME --- */
+/* --- 2. HÌNH NỀN --- */
 .background-animation {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--bg-main); /* Nền dự phòng */
-    
-    /* Thiết lập ảnh nền từ biến */
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2;
     background-image: var(--bg-image-url);
-    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
-    
-    z-index: -2;
 }
-
-/* Lớp phủ màu TỐI cho chế độ Dark Mode (mặc định) */
 .background-animation::after {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(10, 14, 26, 0.85); /* Đen mờ 85% để chữ nổi */
+    content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(2, 6, 23, 0.4); 
+    backdrop-filter: blur(3px); 
     transition: background 0.5s ease;
 }
-
-/* Lớp phủ màu SÁNG cho chế độ Light Mode */
-body.light .background-animation::after {
-    background: rgba(255, 255, 255, 0.6); /* Trắng mờ 60% */
-    backdrop-filter: blur(3px); /* Làm mờ nhẹ ảnh nền */
+body.light .background-animation::after { 
+    background: rgba(255, 255, 255, 0.4); 
+    backdrop-filter: blur(5px);
 }
 
-/* CSS CŨ */
-body.light .nav-container {
-    background-color: #e9ecef;
-    border: 1px solid #ced4da;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 0 10px rgba(173, 216, 230, 0.5);
-}
-
-body.light .nav-container a,
-body.light #theme-toggle-btn {
-    color: var(--text-secondary);
-}
-
-body.light .social-button {
-    background-color: #e9ecef;
-    color: var(--text-secondary);
-    border: 1px solid #ced4da;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 0 10px rgba(173, 216, 230, 0.5);
-}
-
-body.light .social-button:hover {
-    background-image: linear-gradient(to right, #add8e6, #f08080);
-    color: #ffffff;
-    box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
-}
-
-body.light .bg-bg-card {
-    background-color: #ffffff;
-    color: var(--text-primary);
-    border: 1px solid #ced4da;
-}
-
-body.light input::placeholder {
-    color: #adb5bd;
-}
-
-body.light .copyright-container p {
-    color: #495057;
-}
-
+/* --- 3. BODY & TEXT --- */
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: var(--bg-main);
     color: var(--text-primary);
     line-height: 1.6;
     overflow-x: hidden;
-    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: background-color 0.5s ease;
 }
+.main-container { max-width: 1280px; margin: 0 auto; }
 
-.main-container {
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
+h1 { 
+    font-size: 2.5rem; font-weight: 800; letter-spacing: -0.025em; 
+    text-shadow: 0 2px 10px rgba(0,0,0,0.5); 
 }
+p { text-shadow: 0 1px 2px rgba(0,0,0,0.5); }
 
-h1 {
-    font-size: 2.5rem;
-    font-weight: 800;
-    letter-spacing: -0.025em;
-    color: var(--text-primary);
-}
-
-p.max-w-2xl {
-    font-size: 1.25rem;
-    color: var(--text-secondary);
-}
-
-/* Nav container */
+/* --- 4. NAV MENU (GLASS) --- */
 .nav-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(26, 30, 47, 0.8); /* Thêm trong suốt */
-    backdrop-filter: blur(10px);
-    border-radius: 9999px;
-    padding: 0.3rem;
-    margin-bottom: 2rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), 0 0 15px rgba(137, 207, 240, 0.4);
-    overflow: hidden;
-    transition: background-color 0.5s ease, border-color 0.5s ease, box-shadow 0.5s ease;
+    display: flex; justify-content: center; align-items: center;
+    background: var(--bg-glass);
+    backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);
+    border: var(--border-glass);
+    border-radius: 9999px; padding: 0.4rem; margin-bottom: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+.nav-container a, #theme-toggle-btn {
+    font-weight: 600; font-size: 1rem; text-decoration: none;
+    padding: 0.6rem 1.4rem; border-radius: 9999px; transition: all 0.3s ease;
+    cursor: pointer; background: transparent; color: var(--text-secondary);
+    border: none; flex-grow: 1; text-align: center;
+}
+.nav-container a:hover, #theme-toggle-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1); color: #ffffff;
 }
 
-.nav-container a,
-#theme-toggle-btn {
-    position: relative;
-    font-weight: 600;
-    font-size: 1rem;
-    text-decoration: none;
-    padding: 0.6rem 1.2rem;
-    border-radius: 9999px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    background-color: transparent;
-    color: var(--text-secondary);
-    border: none;
-    flex-grow: 1;
-    text-align: center;
-}
-
-.nav-container a:hover,
-.nav-container a:focus,
-.nav-container a:active,
-#theme-toggle-btn:hover,
-#theme-toggle-btn:focus,
-#theme-toggle-btn:active {
-    background-image: linear-gradient(to right, #89cff0, #a855f7);
-    color: #ffffff;
-    box-shadow: 0 0 8px rgba(137, 207, 240, 0.6);
-    outline: none;
-    transform: scale(1.05);
-}
-
-body.light .nav-container a:hover,
-body.light .nav-container a:focus,
-body.light .nav-container a:active,
-body.light #theme-toggle-btn:hover,
-body.light #theme-toggle-btn:focus,
-body.light #theme-toggle-btn:active {
-    background-image: linear-gradient(to right, #add8e6, #f08080);
-    color: #ffffff;
-    box-shadow: 0 0 8px rgba(173, 216, 230, 0.6);
-    transform: scale(1.05);
-}
-
-.nav-container a:active,
-#theme-toggle-btn:active {
-    transform: scale(0.95);
-}
-
+/* --- 5. AVATAR --- */
 .avatar {
-    width: 140px;
-    height: 140px;
-    border-radius: 9999px;
-    object-fit: cover;
-    border: 5px solid #89cff0;
-    box-shadow: 0 0 20px rgba(137, 207, 240, 0.7);
-    transition: transform 0.8s ease-in-out, border-color 0.8s ease-in-out;
+    width: 150px; height: 150px; border-radius: 9999px; object-fit: cover;
+    border: 4px solid #22d3ee; 
+    box-shadow: 0 0 25px rgba(34, 211, 238, 0.4);
+    transition: transform 0.8s ease-in-out, border-color 0.3s ease;
 }
-
 .avatar:hover {
-    transform: rotate(360deg);
-    border-color: #a855f7;
+    transform: rotate(360deg); border-color: #d946ef;
+    box-shadow: 0 0 30px rgba(217, 70, 239, 0.6);
 }
 
-.social-buttons-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    margin-top: 2rem;
-    max-width: 400px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+/* --- 6. NÚT BẤM (ĐÃ CHỈNH LẠI BTN-DARK) --- */
+.social-buttons-grid, .buttons-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 15px;
+    max-width: 600px; width: 100%; margin: 2rem auto; padding: 0 10px;
+}
+.btn-neon {
+    display: flex; align-items: center; justify-content: center;
+    padding: 1rem 1.5rem; border-radius: 24px;
+    text-decoration: none; font-weight: 700; font-size: 1rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative; overflow: hidden;
+}
+.btn-neon i { margin-right: 12px; font-size: 1.3rem; }
+
+/* Nút Gradient (Sileo) */
+.btn-gradient {
+    background: linear-gradient(135deg, #0ea5e9 0%, #8b5cf6 100%);
+    color: #ffffff; border: none;
+    box-shadow: 0 0 20px rgba(14, 165, 233, 0.5);
+}
+.btn-gradient:hover {
+    transform: translateY(-4px); box-shadow: 0 0 35px rgba(139, 92, 246, 0.7);
 }
 
-.social-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.6rem 1.2rem;
-    background-color: rgba(26, 30, 47, 0.8); /* Thêm trong suốt */
-    backdrop-filter: blur(5px);
-    border-radius: 9999px;
-    color: var(--text-secondary);
-    font-weight: 600;
-    font-size: 1rem;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 15px rgba(137, 207, 240, 0.4);
-    text-align: center;
-}
-
-.social-button i {
-    margin-right: 0.5rem;
-}
-
-.social-button:hover {
-    background-image: linear-gradient(to right, #89cff0, #a855f7);
-    color: #ffffff;
-    box-shadow: 0 0 8px rgba(137, 207, 240, 0.6);
-    transform: scale(1.05);
-}
-
-.payment-buttons-grid-vertical {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    margin-top: 2rem;
-    max-width: 400px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Style cho thẻ thanh toán */
-.payment-item {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    border-radius: 20px;
-    color: var(--text-primary);
-    text-decoration: none;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-    box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
-    text-align: left;
-    overflow: hidden;
+/* --- [CHỈNH SỬA] Nút Dark (Zebra, Cydia, Mạng xã hội...) --- */
+.btn-dark {
+    /* Giảm độ đậm màu nền xuống 0.3 để trong suốt hơn */
+    background: rgba(15, 23, 42, 0.3); 
     
-    /* Kính mờ để nhìn xuyên thấu ảnh nền */
-    background-color: rgba(30, 41, 59, 0.7);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    width: 100%;
-}
-
-.payment-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(137, 207, 240, 0.7);
-}
-
-.payment-main-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    padding: 0;
-    flex-grow: 1;
-}
-
-.payment-info-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-grow: 1;
-    text-align: center;
-}
-
-.payment-qr-code {
-    width: 60px;
-    height: 60px;
-    border-radius: 12px;
-    object-fit: cover;
-}
-
-.bank-name, .account-owner {
-    font-size: 0.9rem;
+    border: var(--border-glass); 
     color: var(--text-secondary);
-    margin-top: 0.2rem;
-    line-height: 1.2;
-    font-weight: 700;
-}
-
-.account-info-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    margin-top: 0.5rem;
-}
-
-.account-number {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin: 0;
-    white-space: normal;
-}
-
-.copy-btn {
-    padding: 0.35rem 0.75rem;
-    font-size: 0.8rem;
-    border-radius: 9999px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    width: auto;
-    background-color: var(--accent-color);
-    color: #ffffff;
-    font-weight: 600;
-    display: inline-flex;
-    align-items: center;
-}
-
-.copy-btn:hover {
-    background-color: var(--accent-color-light);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-/* Toast notification styling */
-.copy-toast {
-    position: fixed;
-    bottom: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(30, 41, 59, 0.9);
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border-radius: 9999px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-
-.copy-toast.show {
-    opacity: 1;
-    visibility: visible;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .nav-container {
-        width: 100%;
-        margin: 1rem auto;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-        box-sizing: border-box;
-    }
-    .nav-container a, .nav-container button {
-        flex-grow: 1;
-        text-align: center;
-        padding: 0.6rem 0.5rem;
-        font-size: 0.9rem;
-    }
     
-    .payment-buttons-grid-vertical {
-        max-width: 90%;
-    }
-    .payment-main-content {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 1rem;
-    }
-    .payment-info-block {
-        text-align: center;
-    }
-    .account-info-row {
-        justify-content: center;
-        align-items: baseline;
-        flex-wrap: nowrap;
-    }
-    .account-number {
-        font-size: 1rem;
-        font-weight: 700;
-        white-space: nowrap;
-    }
-    .copy-btn {
-        margin-left: 0.5rem;
-    }
-    .payment-qr-code {
-        width: 100px;
-        height: 100px;
-        margin-top: 1rem;
-    }
+    /* Tăng độ Blur lên 20px */
+    backdrop-filter: blur(20px); 
+    -webkit-backdrop-filter: blur(20px);
+    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
-
-@media (min-width: 769px) {
-    .payment-main-content {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        gap: 1rem;
-    }
-    .payment-info-block {
-        text-align: left;
-    }
-    .payment-qr-code {
-        width: 60px;
-        height: 60px;
-        margin-top: 0;
-    }
-    .account-info-row {
-        justify-content: flex-start;
-        flex-wrap: nowrap;
-    }
+.btn-dark:hover {
+    border-color: #a855f7; 
+    background: rgba(30, 41, 59, 0.6); /* Hover thì đậm hơn xíu */
+    color: #ffffff; 
+    transform: translateY(-4px);
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.3);
 }
+body.light .btn-dark { background: #ffffff; border-color: #cbd5e1; color: #475569; }
 
-@media (max-width: 480px) {
-    .social-buttons-grid {
-        grid-template-columns: 1fr;
-    }
-}
 
-#raindrop-effect {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    pointer-events: none;
-}
+/* --- 7. STYLE CHUNG CHO CARD (IPA & DYLIB) --- */
 
-.copyright-container {
-    text-align: center;
-    margin-top: 4rem;
-    padding-bottom: 2rem;
-}
-
-.copyright-container p {
-    color: var(--text-secondary);
-    opacity: 0.8;
-    font-size: 0.9rem;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-}
-
-.thank-you-message {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--text-secondary);
-    opacity: 0.9;
-    transition: color 0.5s ease;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-}
-
-/* Hiệu ứng màu chữ REPO JTISVN */
-.shimmering-text {
-    background-image: linear-gradient(
-        -75deg,
-        #89cff0 0%,
-        #e0e7ff 50%,
-        #89cff0 100%
-    );
-    background-size: 200% auto;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    animation: shimmer 5s linear infinite;
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
-}
-
-@keyframes shimmer {
-    to {
-        background-position: 200% center;
-    }
-}
-
-/* --- SEARCH BAR STYLING (Để dùng chung cho page.html) --- */
-#ipa-search-input {
+/* Thanh tìm kiếm Glass */
+.search-input, #ipa-search-input {
     width: 100%;
     padding: 0.8rem 1rem 0.8rem 3rem;
     border-radius: 9999px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    background-color: rgba(26, 30, 47, 0.8);
-    backdrop-filter: blur(10px);
-    color: #ffffff;
-    font-size: 1rem;
-    outline: none;
+    background: rgba(15, 23, 42, 0.3);
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    border: var(--border-glass);
+    color: var(--text-primary);
+    font-size: 1rem; outline: none;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
-
-#ipa-search-input:focus {
-    border-color: var(--accent-color);
-    box-shadow: 0 0 10px rgba(137, 207, 240, 0.5);
+.search-input:focus, #ipa-search-input:focus {
+    border-color: #22d3ee;
+    box-shadow: 0 0 15px rgba(34, 211, 238, 0.3);
+    background: rgba(15, 23, 42, 0.6);
 }
-
 .search-icon {
-    position: absolute;
-    left: 1.2rem;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--text-secondary);
-    pointer-events: none;
+    position: absolute; left: 1.2rem; top: 50%; transform: translateY(-50%);
+    color: var(--text-secondary); pointer-events: none;
 }
 
-/* Search bar for Light Mode */
-body.light #ipa-search-input {
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 1px solid #ced4da;
-    color: #333;
+/* THẺ ITEM (Card to) */
+.tweak-card, .new-item {
+    background: rgba(15, 23, 42, 0.3); 
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); 
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+    padding: 1.5rem;
+    display: flex; flex-direction: column;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden; 
+    position: relative;
 }
 
-body.light #ipa-search-input:focus {
-    border-color: var(--accent-color);
-    box-shadow: 0 0 10px rgba(168, 85, 247, 0.3);
+.tweak-card:hover, .new-item:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    background: rgba(30, 41, 59, 0.5);
+}
+
+/* Nút tải về trong suốt */
+.download-btn-static, .install-button {
+    display: flex; justify-content: center; align-items: center; gap: 8px;
+    width: 100%; padding: 10px 0; margin-top: auto;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    color: var(--text-primary);
+    font-weight: 600; text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+.download-btn-static:hover, .install-button:hover {
+    background: linear-gradient(90deg, #0ea5e9, #8b5cf6);
+    color: white; border-color: transparent;
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Badge (Cho Dylib) */
+.badge-teal { font-size: 0.75rem; background: rgba(20, 184, 166, 0.2); color: #5eead4; padding: 0.25rem 0.5rem; border-radius: 0.25rem; }
+.badge-blue { font-size: 0.75rem; background: rgba(59, 130, 246, 0.2); color: #93c5fd; padding: 0.25rem 0.5rem; border-radius: 0.25rem; }
+
+
+/* --- 8. PAYMENT CARDS (DONATE) --- */
+.payment-buttons-grid-vertical { display: flex; flex-direction: column; gap: 1.5rem; max-width: 500px; width: 100%; margin: 2rem auto; }
+.payment-item {
+    background: rgba(15, 23, 42, 0.3);
+    border: var(--border-glass);
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    border-radius: 24px; padding: 1.5rem; color: var(--text-primary);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+.payment-item:hover { transform: translateY(-5px); border-color: rgba(255, 255, 255, 0.3); }
+.payment-main-content { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+.payment-info-block { flex-grow: 1; text-align: left; }
+.account-info-row { display: flex; align-items: center; gap: 10px; background: rgba(0, 0, 0, 0.2); padding: 8px 12px; border-radius: 12px; width: fit-content; }
+.account-number { font-family: 'Monaco', 'Consolas', monospace; font-size: 1.1rem; font-weight: 700; color: #67e8f9; }
+.copy-btn-mini { background: rgba(255, 255, 255, 0.1); color: var(--text-secondary); border: none; padding: 4px 10px; border-radius: 8px; cursor: pointer; }
+.copy-btn-mini:hover { background: var(--accent-color); color: white; }
+.payment-qr-code { width: 80px; height: 80px; border-radius: 12px; border: 2px solid rgba(255, 255, 255, 0.2); }
+.copy-toast { position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%); background: rgba(16, 185, 129, 0.9); color: white; padding: 0.8rem 1.5rem; border-radius: 9999px; z-index: 1000; opacity: 0; visibility: hidden; transition: all 0.3s ease; }
+.copy-toast.show { opacity: 1; visibility: visible; bottom: 2.5rem; }
+
+/* --- 9. FOOTER --- */
+.copyright-container { margin-top: 4rem; padding-bottom: 2rem; }
+.copyright-container p { color: #94a3b8; font-size: 0.9rem; }
+.text-animate-gradient {
+    background: linear-gradient(to right, #22d3ee, #e879f9, #ffffff, #22d3ee);
+    background-size: 300% auto;
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 15px rgba(124, 58, 237, 0.4));
+    animation: gradient-animation 6s linear infinite;
+}
+@keyframes gradient-animation { to { background-position: 300% center; } }
+
+/* --- [CẬP NHẬT] KHUNG REPO BOX --- */
+.repo-box { 
+    background: rgba(15, 23, 42, 0.3); /* Đồng bộ blur */
+    backdrop-filter: blur(20px); 
+    -webkit-backdrop-filter: blur(20px); 
+    border: var(--border-glass); 
+}
+.repo-text { color: #67e8f9; } body.light .repo-text { color: var(--accent-color); }
+.copy-btn { color: #94a3b8; }
+
+@media (max-width: 480px) {
+    .social-buttons-grid, .buttons-grid { grid-template-columns: 1fr; }
+    .payment-main-content { flex-direction: column; text-align: center; }
+    .payment-info-block { text-align: center; width: 100%; }
+    .account-info-row { margin: 0 auto; justify-content: center; }
+    .nav-container { width: 100%; margin: 1rem auto; padding: 0.3rem; }
 }
