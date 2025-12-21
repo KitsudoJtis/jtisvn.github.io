@@ -1,5 +1,5 @@
 /* =========================================
-   STYLE.CSS - JTISVN REPO (Final Super Glass)
+   STYLE.CSS - JTISVN REPO (Final Clean)
    ========================================= */
 
 /* --- 1. CẤU HÌNH MÀU SẮC --- */
@@ -11,7 +11,7 @@
     --accent-color: #7c3aed;
     --border-glass: 1px solid rgba(255, 255, 255, 0.1);
     
-    --bg-image-url: url('https://files.catbox.moe/bk8zmt.png');
+    /* ĐÃ XÓA BIẾN ẢNH NỀN Ở ĐÂY ĐỂ CHUYỂN SANG HTML */
 }
 
 body.light {
@@ -26,7 +26,7 @@ body.light {
 /* --- 2. HÌNH NỀN --- */
 .background-animation {
     position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2;
-    background-image: var(--bg-image-url);
+    /* Đã xóa background-image ở đây */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,7 +92,7 @@ p { text-shadow: 0 1px 2px rgba(0,0,0,0.5); }
     box-shadow: 0 0 30px rgba(217, 70, 239, 0.6);
 }
 
-/* --- 6. NÚT BẤM (BLUR 20PX) --- */
+/* --- 6. NÚT BẤM --- */
 .social-buttons-grid, .buttons-grid {
     display: grid; grid-template-columns: 1fr 1fr; gap: 15px;
     max-width: 600px; width: 100%; margin: 2rem auto; padding: 0 10px;
@@ -115,12 +115,11 @@ p { text-shadow: 0 1px 2px rgba(0,0,0,0.5); }
     transform: translateY(-4px); box-shadow: 0 0 35px rgba(139, 92, 246, 0.7);
 }
 
-/* Nút Dark: Đã chỉnh trong suốt và Blur 20px */
 .btn-dark {
-    background: rgba(15, 23, 42, 0.3); /* Trong suốt */
+    background: rgba(15, 23, 42, 0.3); 
     border: var(--border-glass); 
     color: var(--text-secondary);
-    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); /* Blur mạnh */
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 .btn-dark:hover {
@@ -133,8 +132,7 @@ p { text-shadow: 0 1px 2px rgba(0,0,0,0.5); }
 body.light .btn-dark { background: #ffffff; border-color: #cbd5e1; color: #475569; }
 
 
-/* --- 7. STYLE CHUNG CHO CARD (IPA & DYLIB) --- */
-
+/* --- 7. STYLE CHUNG CHO CARD --- */
 .search-input, #ipa-search-input {
     width: 100%;
     padding: 0.8rem 1rem 0.8rem 3rem;
@@ -157,7 +155,6 @@ body.light .btn-dark { background: #ffffff; border-color: #cbd5e1; color: #47556
     color: var(--text-secondary); pointer-events: none;
 }
 
-/* THẺ ITEM */
 .tweak-card, .new-item {
     background: rgba(15, 23, 42, 0.3); 
     backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); 
@@ -195,10 +192,8 @@ body.light .btn-dark { background: #ffffff; border-color: #cbd5e1; color: #47556
     transform: translateY(-2px);
 }
 
-/* Badge */
 .badge-teal { font-size: 0.75rem; background: rgba(20, 184, 166, 0.2); color: #5eead4; padding: 0.25rem 0.5rem; border-radius: 0.25rem; }
 .badge-blue { font-size: 0.75rem; background: rgba(59, 130, 246, 0.2); color: #93c5fd; padding: 0.25rem 0.5rem; border-radius: 0.25rem; }
-
 
 /* --- 8. PAYMENT CARDS (DONATE) --- */
 .payment-buttons-grid-vertical { display: flex; flex-direction: column; gap: 1.5rem; max-width: 500px; width: 100%; margin: 2rem auto; }
@@ -234,7 +229,6 @@ body.light .btn-dark { background: #ffffff; border-color: #cbd5e1; color: #47556
 }
 @keyframes gradient-animation { to { background-position: 300% center; } }
 
-/* KHUNG REPO BOX (BLUR 20PX) */
 .repo-box { 
     background: rgba(15, 23, 42, 0.3); 
     backdrop-filter: blur(20px); 
@@ -252,48 +246,20 @@ body.light .btn-dark { background: #ffffff; border-color: #cbd5e1; color: #47556
     .nav-container { width: 100%; margin: 1rem auto; padding: 0.3rem; }
 }
 
-/* --- FOOTER SOCIAL ICONS (To hơn & Thoáng hơn) --- */
-.footer-socials {
-    display: flex;
-    justify-content: center;
-    gap: 25px; /* Tăng khoảng cách từ 15px -> 25px */
-    margin-top: 1.5rem;
-}
-
+/* --- FOOTER SOCIAL ICONS --- */
+.footer-socials { display: flex; justify-content: center; gap: 25px; margin-top: 1.5rem; }
 .footer-icon {
-    width: 50px; /* Tăng kích thước từ 40px -> 50px */
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    width: 50px; height: 50px;
+    display: flex; align-items: center; justify-content: center;
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 50%;
-    
-    color: var(--text-secondary);
-    text-decoration: none;
-    font-size: 1.5rem; /* Tăng icon to hơn (từ 1.1rem -> 1.5rem) */
+    color: var(--text-secondary); text-decoration: none; font-size: 1.5rem;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* Hiệu ứng khi rê chuột */
 .footer-icon:hover {
-    background: #7c3aed; /* Tím */
-    border-color: #7c3aed;
-    color: white;
-    transform: translateY(-5px); /* Bay cao hơn xíu */
-    box-shadow: 0 0 20px rgba(124, 58, 237, 0.6); /* Bóng sáng hơn */
+    background: #7c3aed; border-color: #7c3aed; color: white;
+    transform: translateY(-5px); box-shadow: 0 0 20px rgba(124, 58, 237, 0.6);
 }
-
-/* Light mode */
-body.light .footer-icon {
-    background: rgba(0, 0, 0, 0.05);
-    border-color: rgba(0, 0, 0, 0.1);
-    color: #64748b;
-}
-body.light .footer-icon:hover {
-    background: #a855f7;
-    color: white;
-    box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
-}
+body.light .footer-icon { background: rgba(0, 0, 0, 0.05); border-color: rgba(0, 0, 0, 0.1); color: #64748b; }
+body.light .footer-icon:hover { background: #a855f7; color: white; box-shadow: 0 0 20px rgba(168, 85, 247, 0.5); }
