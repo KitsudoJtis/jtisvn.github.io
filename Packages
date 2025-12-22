@@ -1314,6 +1314,24 @@ SileoDepiction: https://evynw.github.io/sileo/fontasterisk14.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 Author: Evelyn (ev_ynw)
 
+Package: com.evynw.fontbunday8514
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Filename: ./debs/com.evynw.fontbunday8514_1.1_iphoneos-arm64.deb
+Size: 5951024
+MD5sum: 9106c3ccdeeaa4e2e6232c90a23a0c08
+SHA1: f72efaa259ab27475f63f2db04e46ecbbb9e9689
+SHA256: 5caaf199ef2013da482b31b2ff24c999c143333fdc002c1602f23bbc43872165
+SHA512: 6d6331c5c16792999ebdb93b30ad5da0f8fbabc7e114d3d57b468ca37fc2e3489a2d41ac2a25a6dfd4c8262dd61d67e55d9205c6a1581465172fe36e592c5ab5
+Description: Scriptive Sans (alt ver). 85% size. For iOS14-16.
+Name: Bunday Clean_85% (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontbunday14
+SileoDepiction: https://evynw.github.io/sileo/fontbunday14.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
 Package: com.evynw.fontcenter14
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -1421,6 +1439,24 @@ Description: Well-known Microsoft font. 100% size. For iOS14-16.
 Name: Dubai (iOS14-16)
 Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontdubai14
 SileoDepiction: https://evynw.github.io/sileo/fontdubai14.json
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
+Package: com.evynw.fontffmilo14
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Filename: ./debs/com.evynw.fontffmilo14_1.1_iphoneos-arm64.deb
+Size: 5136632
+MD5sum: cfb298bf0e5384673b705503d15c107f
+SHA1: 3a29df65bd0ef441b487f16362936b848ff58f78
+SHA256: 92b62e5f46115c198477cb6ccc8b5c0f7a724ab4795c012c312db2da6f952e24
+SHA512: cb1b81f44b0fcb6bdfbfba25035fa94598a1fb8299e9ba7b3461734ae8b40c626309865b590b24c64e65644d72fc3e07a2df5faa8cabe5f85ea607daebda38a4
+Description: Plain sans serif. 100% size. For iOS14-16.
+Name: FF Milo (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontffmilo14
+SileoDepiction: https://evynw.github.io/sileo/fontffmilo14.json
 Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
 Author: Evelyn (ev_ynw)
 
@@ -2486,6 +2522,25 @@ Author: Finn Gaida
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/DayNightSwitch.json
 Icon: https://jtisvn.github.io/sectionIcons/DayNightSwitch.png
 
+Package: com.jtid.jellyfish
+Architecture: iphoneos-arm64
+Version: 1.6.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1), firmware (>= 15.0)
+Filename: ./debs/com.jtid.jellyfish_1.6.5_iphoneos-arm64.deb
+Size: 75416
+MD5sum: 8623e4524ac6b45f69e34589047ed5a4
+SHA1: 45411656fa21aa542cedf43a4a67dd38e9e213ec
+SHA256: 127da85e076b2681ccd57e884c7c79754356d3859e2502700464a828fa77bf35
+SHA512: 8fb0106ef7001f53949a8d03fdfd212c55519f9b27c49f650eaedf4cdba0ba75a766ec682cf9215aabfd5238e2421781d482d637dda2f9d84df63935fdd50b53
+Description: Tự Nhiên, Đơn Giản, Đẹp. Thiết kế lại màn hình khóa của bạn với Jellyfish.
+Name: Jellyfish (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Jellyfish.json
+Depiction: https://jtisvn.github.io/depictions/Jellyfish.html
+Icon: https://jtisvn.github.io/sectionIcons/Jellyfish.png
+Author: Justin Proulx & Ayden Panhuyzen
+
 Package: com.jtid.lynx
 Architecture: iphoneos-arm64
 Version: 2.5.4
@@ -2632,6 +2687,29 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/2DockX.json
 Depiction: https://jtisvn.github.io/depictions/2DockX.html
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 dev: minazuki
+
+Package: com.jtis.3dbadgeclear
+Architecture: iphoneos-arm64
+Version: 1.6.8
+Section: Tweaks
+Maintainer: isklikas
+Installed-Size: 192
+Provides: com.isklikas.3dbadgeclear
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: com.isklikas.3dbadgeclear
+Replaces: com.isklikas.3dbadgeclear
+Filename: ./debs/com.jtis.3dbadgeclear_1.6.8_iphoneos-arm64.deb
+Size: 17864
+MD5sum: 6ab842a8c172411b33e87759ac102275
+SHA1: 8dce5285c442c69a5af4ecbd28ec9feae47e5133
+SHA256: 953981575d5ceabe28e4da0f7c49d4a64895209b2e481c91e48262be1d9d22f5
+SHA512: f7bd91cd2a62a360f0d5d7e35f23ac56d6b3c8c768d33d123b8be270495b25b301d0b75401a593c152cc362b8662879282b628956ca95d3c99cc9049a5a891e4
+Description: Xóa huy hiệu của bạn khỏi Menu Force Touch / 3D Touch! Chỉ xuất hiện trên các ứng dụng có huy hiệu.
+Name: 3DBadgeClear(Rootless)
+Author: isklikas
+SileoDepiction: https://jtisvn.github.io/sileodepictions/3DBadgeClear.json
+Depiction: https://jtisvn.github.io/depictions/3DBadgeClear.html
+Icon: https://jtisvn.github.io/sectionIcons/3DBadgeClear.png
 
 Package: com.jtis.AppleSymbols
 Architecture: iphoneos-arm64
@@ -5480,6 +5558,24 @@ dev: lucaluca86
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ByeHomeBottomBarX.json
 
+Package: com.jtis.cahighfps
+Architecture: iphoneos-arm64
+Version: 2.1.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 360
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4), ws.hbang.alderis (>= 1.1)
+Filename: ./debs/com.jtis.cahighfps_2.1.3_iphoneos-arm64.deb
+Size: 15992
+MD5sum: ae90ebdece849c89ab2e63ce73cd37a2
+SHA1: 3878d66b8d54ab49229eff994c8d2809240cd8d2
+SHA256: 7b9340113dc5f8949aeb8ea6aae587434300c9bcec25f7723d85ba284a044823
+SHA512: 01f2ef6da67fc266d4e41d1291f1a75c6c0485e0d2d61cb589c891d489ef6248f9207755527de82d1e6e8465c2e3756c8976c4ff92394ed3bb87ee312bdcb595
+Description: Làm cho các ứng dụng CoreAnimation sử dụng FPS cao nhất hiện có (giống như tốc độ làm mới thiết bị của bạn).
+Name: CAHighFPS (Rootless)
+Author: PoomSmart, uz.ra, Korboy
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.calculatorhistory
 Architecture: iphoneos-arm64
 Version: 1.2
@@ -5614,6 +5710,26 @@ Name: CallBlocker (Roothide)
 Author: P2KDev <p2kdev@gmail.com>
 Depiction: https://jtisvn.github.io/depictions/CallBlocker.html
 Icon: https://jtisvn.github.io/sectionIcons/CallBlocker.png
+
+Package: com.jtis.callmemaybe
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 268
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.callmemaybe_1.0.1_iphoneos-arm64.deb
+Size: 45100
+MD5sum: 7385ecb305b5023625fb94d49cd2e748
+SHA1: 78c6cbed63eeed4aff6764e987a749adc4453576
+SHA256: e5908466d1d38cb3d08a42253fafe75dc3371233a0a15929a07719dfa2fc706b
+SHA512: f8708ec8912042ec82601a53c5754f737bafbfff3ec9ca26dd425208cc81577a972be241987ad76dc53109689089621d9de981ae87213f298f43041969821166
+Description: Trình cải tiến cho ứng dụng Điện thoại hệ thống
+Name: CallMeMaybe (Rootless)
+Author: dvntm
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CallMeMaybe.json
+Depiction: https://jtisvn.github.io/depictions/CallMeMaybe.html
+Icon: https://jtisvn.github.io/sectionIcons/CallMeMaybe.png
 
 Package: com.jtis.Cartoo
 Architecture: iphoneos-arm64e
@@ -5864,6 +5980,47 @@ Name: CCBorder (Roothide)
 Author: fiore
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCbonder.json
 Icon: https://jtisvn.github.io/sectionIcons/CCbonder.png
+
+Package: com.jtis.ccmusicartwork
+Architecture: iphoneos-arm64
+Version: 2.4.0-rootless
+Section: Tweaks
+Maintainer: JTISVN
+Installed-Size: 656
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.ccmusicartwork_2.4.0-rootless_iphoneos-arm64.deb
+Size: 254532
+MD5sum: d3d0e2ec018bb10f65f5a1ffe51aad3f
+SHA1: dddf99733ee43ad6827561a4e4efebbda508b449
+SHA256: a2704b5036cbacd4c12c9878f5fba4da229a04f9bfcee0b694ee2e168521b160
+SHA512: a98906c0d0a1c80ae2044648b2c24be94a4eddb4525c9d0ddeab581f65138d7e9757e5fa429821f9ed695b565c5f78c588d38035fb9a2bb2efa5264d594e630b
+Description: Hiển thị tác ảnh album đằng sau mô-đun âm nhạc trong trung tâm điều khiển iOS
+Name: CCMusicArtwork (Rootless)
+Author: Spark
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCMusicArtwork.json
+Depiction: https://jtisvn.github.io/depictions/CCMusicArtwork.html
+Icon: https://jtisvn.github.io/sectionIcons/CCMusicArtwork.png
+
+Package: com.jtis.ccmusicartwork
+Architecture: iphoneos-arm64e
+Version: 2.4.0-rootless
+Section: Tweaks
+Maintainer: JTISVN
+Installed-Size: 656
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.ccmusicartwork_2.4.0-rootless_iphoneos-arm64e.deb
+Size: 253372
+MD5sum: 480c0c02fd7102a820d736090b62c882
+SHA1: 1a026ee00edf4cf9b454e84f65dd7663abe080f3
+SHA256: b634862c7869b9bc1ba4ce88d4497281abf5e4b8b59a9fbd47c5a1d015798318
+SHA512: fb2a143bb174458372a6c55ed10f28cd933c72d4a7216d97542065b07ac85f09c19322f1193e81da36be9c814581d8afdff147bbbb82d1d03111ee3e15617aec
+Description: Hiển thị tác ảnh album đằng sau mô-đun âm nhạc trong trung tâm điều khiển iOS
+Name: CCMusicArtwork (Roothide)
+Author: Spark
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCMusicArtwork.json
+Depiction: https://jtisvn.github.io/depictions/CCMusicArtwork.html
+Icon: https://jtisvn.github.io/sectionIcons/CCMusicArtwork.png
 
 Package: com.jtis.ccuiplayer
 Architecture: iphoneos-arm64
@@ -14799,6 +14956,46 @@ Author: PoomSmart
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Amber.json
 
+Package: com.ps.cconandoff
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 156
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.jakeashacks.realcc
+Filename: ./debs/com.ps.cconandoff_1.1.0_iphoneos-arm64e.deb
+Size: 7212
+MD5sum: b832ea7970d193d256e589eb03c40369
+SHA1: 5d50141cc4d8076115cc030d6155781a903fc03d
+SHA256: 950eb0dcc88050498fb8173638f7ca5df8ed13e4268132494d8ee32806119ea4
+SHA512: 30d32929ffdffa7d96e8d9224246ebf071d1a7e2f71c243b20a4563cbdc19bdda6261c20fe695185593ab4d3a9bfeec09efd51b76c960edede737e302d5f20f6
+Description: Bật/Tắt Wi-Fi và Bluetooth từ Trung tâm điều khiển (iOS 11+).
+Name: CC On & Off (Roothide)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/cconoff.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/cconoff.json
+
+Package: com.ps.cconandoff
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.jakeashacks.realcc
+Filename: ./debs/com.ps.cconandoff_1.1.1_iphoneos-arm64.deb
+Size: 5052
+MD5sum: 1e723d56ae1b55dd74d872daf5056bea
+SHA1: c5ffdfdde249549b080de60b90b7b714e55da0b9
+SHA256: 4077945c97efe8ca35cec43ed92f7e8f2d88ddc90ff6f1e043d093f8ede25fe3
+SHA512: 169223493d858e8c35ee55fb2bdd7c739f4777056f5a05002df5ab60fe5cb12a1ec4cf56095d945d037173f2157708e26082535238daf71a579b233c51032c87
+Description: Bật/Tắt Wi-Fi và Bluetooth từ Trung tâm điều khiển (iOS 11+).
+Name: CC On & Off (Rootless)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/cconoff.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/cconoff.json
+
 Package: com.ps.smoothcursorios13
 Architecture: iphoneos-arm
 Version: 0.0.1
@@ -16697,6 +16894,23 @@ SHA512: f7fbcf7e71818f29486bbed2d6b3bf20477b94d5880dc1d5835b9f57da63473146a8826a
 Homepage: https://github.com/Cryptiiiic/libkrw
 Description: A kernel R/W API for jailbreaks (Development Files)
 Author: Cryptiiiic
+
+Package: lol.sep.turdusmerula
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Development
+Maintainer: kok3shi
+Depends: firmware (>= 15.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd
+Filename: ./debs/lol.sep.turdusmerula_1.0.2_iphoneos-arm64.deb
+Size: 875138
+MD5sum: f6ec771b285f783f809e68f74e02ebae
+SHA1: 74d2278add4c1109c43bb07fced7269f0985a042
+SHA256: d3a92b5ce754f41424a2a9777e29cb24336c30889df7eded178f0a0a2e9c6f82
+SHA512: 0b9fee0d438875d1963981aa0cfa6a0fcae1b9edf7963003cd2171d10a830ab1fcc8bafe2397b12e61b8a48a2eebf30256d0348cd51957bd6c04eb653f052626
+Description: meow
+Name: turdus merula
+Depiction: https://kok3shidoll.github.io/info/lol.sep.turdusmerula/
+Author: Clarity, kok3shidoll, Mineek
 
 Package: me.alfhaily.rocket
 Architecture: iphoneos-arm64
