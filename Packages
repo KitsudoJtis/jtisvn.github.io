@@ -1674,6 +1674,25 @@ Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 SileoDepiction: https://jtisvn.github.io/sileodepictions/iCleanerPro.json
 Icon: https://jtisvn.github.io/sectionIcons/iCleanerPro.png
 
+Package: com.foxfort.exiwall
+Architecture: iphoneos-arm
+Version: 2.1.7
+Section: Tweaks
+Maintainer: FoxfortMobile
+Installed-Size: 25632
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.foxfort.foxforttools (>= 1.4.16), firmware (>= 14.0)
+Conflicts: com.p2kdev.vartaman, com.julioverne.autowall, com.spark.freshwall, com.shinvou.wallmart, com.yourepo.cydiageek.lsvibrantclockdate, ru.rj.exiwallhack
+Filename: ./debs/com.foxfort.exiwall_2.1.7_iphoneos-arm.deb
+Size: 23097604
+MD5sum: 27f1d7e4339e207a3661ed7995611fe1
+SHA1: c0fdd053f0abfe17b4336e2bb00bd8a6393fb464
+SHA256: 144b3e6e3229e19aeb837a37c3c7e7ce9f3fe23f4cea6afb051b07dc7ff6eb1b
+SHA512: fbc729f0af779606f6c759340bc54454acb948624eb7017ba8cce38fa1f8a84a6b466e57a6796fe0db1e015a7719fba190cd6e9083e38098f44bfbbfca32951c
+Description: Depth effect for lockscreen wallpaper
+Name: Exiwall
+Author: FoxfortMobile
+Icon: file:///Library/PreferenceBundles/exiwallsettings.bundle/icon@3x.png
+
 Package: com.foxfort.foxforttools
 Architecture: iphoneos-arm64e
 Version: 1.4.15
@@ -2239,6 +2258,30 @@ Author: IArrays <support@iarrays.com>
 Sponsor: IArrays
 SileoDepiction: https://jtisvn.github.io/sileodepictions/eSim+.json
 Icon: https://jtisvn.github.io/sectionIcons/eSim+.png
+
+Package: com.iarrays.whoozit.roothide
+Architecture: iphoneos-arm64e
+Version: 2.15.0-beta-15
+Section: Utilities
+Maintainer: IArrays <support@iarrays.com>
+Installed-Size: 4372
+Pre-Depends: firmware (>=9.0)
+Depends: mobilesubstrate, preferenceloader, com.iarrays.libiarrays.roothide (>= 1.0.16)
+Conflicts: com.iarrays.whoozit, com.iarrays.whoozit.rootless
+Filename: ./debs/com.iarrays.whoozit.roothide_2.15.0-beta-15_iphoneos-arm64e.deb
+Size: 964304
+MD5sum: a52ec1d2cf3b8ff5ac3027724eff08e7
+SHA1: ab969408772a6b29d81f00100a864a49a6ace823
+SHA256: cf9e8366d13cefb0125c10ed909d787c7213f250bbeb7c8954284ea29b43bac8
+SHA512: 6114675be4c7a208355bace36930db6db145668f369da6c61586389f2cef27f9cf9558560c44dadf5206ae1f0785fa4a8e99f8898e095787487dd9e7dd7f18cc
+Homepage: http://iarrays.com/
+Description: No clue who is calling you and don't know whom you missed? Don't worry, now this all in one perfect caller ID solution will make your life is more simple. Just install this and TrueCaller or NumBuster! or ShowCaller on your device and just start searching the calls from stack apps like Phone, Messages & Notification Center and even from the CallLogPro.
+Name: WhoozItPro (RootHide iOS 17 to 15)
+Depiction: https://iarrays.com/depiction/whoiscalling
+SileoDepiction: https://iarrays.com/sileo-depiction/whoiscalling/whoiscalling.json
+Author: IArrays <support@iarrays.com>
+Sponsor: IArrays
+Icon: https://iarrays.com/sileo-depiction/whoiscalling/icon.png
 
 Package: com.ichitaso.hideserialnumber
 Architecture: iphoneos-arm64
@@ -16548,6 +16591,22 @@ Icon: https://Jtisvn.github.io/sectionIcons/AniTime.png
 Name: AniTime (Roothide)
 Author: yan
 
+Package: com.yourepo.cydiageek.lsvibrantclockdate
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: CydiaGeek <lucaluca86@aol.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.yourepo.cydiageek.lsvibrantclockdate_1.0.1_iphoneos-arm64.deb
+Size: 3518
+MD5sum: c60e50c6e26f0dbd3e44f73a4052dd81
+SHA1: ca08e33277d5a16902a87da1953b8b3afb15cc1e
+SHA256: 815f6abaaf2ce5bd580c7ad5ed25be17d1f6537f7032a6881fd098c1737c6379
+SHA512: 5cf525ca2ddc7428e5cdbb0a1e382360ba55bf9ddcdd7e8d590e237192d4ce48bae2cef849acfc749b9ab58cb8e6e3802ed0f0ceb8c13bc35dd5a647f48356a6
+Description: Vibrant Clock/Date on LS!
+Name: LSVibrantClockDate
+Author: CydiaGeek <lucaluca86@aol.com>
+
 Package: cydia-dark
 Architecture: iphoneos-arm
 Version: 1.9.3~b5
@@ -16614,6 +16673,23 @@ Description: Utilities for my tweaks.
 Tag: role::developer
 Name: libdundas
 Author: Ayden Panhuyzen
+
+Package: dev.mineek.muffinstore
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Utilities
+Maintainer: Mineek
+Installed-Size: 96
+Filename: ./debs/dev.mineek.muffinstore_0.0.1_iphoneos-arm64.deb
+Size: 15480
+MD5sum: 64966fa3416ae5b2e05dd2bc248f3cbf
+SHA1: 8b5be72f2f16d77a5933691d08116832b85b1da5
+SHA256: b25c7b31fa988721d70a1866184389c85a23276b611ba988fdddcf9f5a99c165
+SHA512: 7c0dcc24a2edefffb78577656a4eb1710d61e1faf0ab94e7d31ccb80a954249d65ef582182ab4408328afd981f8857543a4870693ec4b2ce8a8c54690356507e
+Description: Downgrade iOS apps easily on-device
+Name: MuffinStore (Rootless)
+Author: Mineek
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: dev.theos.orion14
 Architecture: iphoneos-arm64e
