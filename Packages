@@ -1333,6 +1333,25 @@ Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 Author: Evelyn (ev_ynw)
 
 Package: com.evynw.fontcenter14
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Fonts
+Maintainer: Evelyn (ev_ynw) <ev.ynam.w@gmail.com>
+Depends: com.evynw.repoicons (>= 1.2-3)
+Filename: ./debs/com.evynw.fontcenter14_1.1_iphoneos-arm.deb
+Size: 8002768
+MD5sum: 867e160b7f133fcc73125d4d182fcfab
+SHA1: d2747349139f0b988ff8c5387b2fa021803c4cab
+SHA256: 77af13ae89a9df677ed574e5b7a57c758155ec2b041ddd9dd1eb5e7cb592c108
+SHA512: 2e60d469c8e4aa322f30caf780d8201cf3950bc10bd3e59fd4717337be0897bf6ccb0bdaa0e2410d1515080c8189408fd0b0d0f512c52aa8c9c449e017ce6e2b
+Description: Grotesque style sans. 100% size. For iOS14-16.
+Name: Center (iOS14-16)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontcenter14
+SileoDepiction: https://evynw.github.io/sileo/fontcenter14.json
+Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
+Author: Evelyn (ev_ynw)
+
+Package: com.evynw.fontcenter14
 Architecture: iphoneos-arm64
 Version: 1.1
 Section: Fonts
@@ -4937,17 +4956,17 @@ Maintainer: JTISVN Repo
 Installed-Size: 104
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.batterypercent_1.1.2_iphoneos-arm64.deb
-Size: 12584
-MD5sum: 47839e3a73c893fa5f6b81da9e372ade
-SHA1: 24cb00da1bf7aed40775461386580b97381e9a0f
-SHA256: 81019aa50546751ab6fae2e6c8228b9d91479054418472871ec17746ff71c020
-SHA512: 2e2765ef2143ddc3ea0f165b031bd9208914beeae1f3f636b9c40b7cd0f06a31c3e171ac1a5c90670d5b33d3cb1a7c0bf8859005777eb305330f856480c08399
+Size: 12576
+MD5sum: 2017b4471f09aff147414393ac5966fb
+SHA1: cc66852032bbbd0c492fbd3dc09e255b903fc1b3
+SHA256: eb2cfabe1e681c7bdd96393f0ac423427a2f431ba0414b39fadd25c3025b4697
+SHA512: 9255b6f22ee82960e622b2053febc5e290efb889ee1937dd5f9328bc798e030590389175486d34bbf2c943735e65b8ee87dcdbefe5e6b697ead9a829a0c19106
 Description: Hiển thị % pin iOS 16 cho dòng thấp IOS 15 trở xuống
 Name: BatteryPercent iOS16 (Rootless)
 Author: nqt1195
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BatteryPercent.json
 Depiction: https://jtisvn.github.io/depictions/BatteryPercent.html
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/BatteryPercent.png
 
 Package: com.jtis.batterypercent
 Architecture: iphoneos-arm64e
@@ -4958,17 +4977,17 @@ Installed-Size: 104
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.batterypercent_1.1.2_iphoneos-arm64e.deb
-Size: 12784
-MD5sum: b1c965b10b904af02631586eb7f62f0e
-SHA1: 670f40d5554272bc111d1f772fab78ad2e398061
-SHA256: 1bd3bb67be1599362eedc1fe02fcfa17c6110005b6daa0ec28a207b29b75364a
-SHA512: 14dc0e49bc035bae43ff8022be72206a99972cbd4249247ac5ceebdade6a178affc1278d62518fe000112b1b4604fd914e6ba793e1a1392b1c0156572c7ac08c
+Size: 12788
+MD5sum: 75cf911c9487de60ea009ed7e047036e
+SHA1: 74085a3fc582328595ee67d2c389d9a612d7b0a9
+SHA256: 168049664339d3f1d1131161a5033d7d2076a7333b8db93faf939b99c4291de7
+SHA512: f620b7663c71b64e73a7f9608e88f8977a8f0989b26322d75e552cf5d2ce2b95acbbac745cb3f001a26e05436d4df75bfc1bd097d64b7927362910bc1567ad4d
 Description: Hiển thị % pin iOS 16 cho dòng thấp IOS 15 trở xuống
 Name: BatteryPercent iOS16 (Roothide)
 Author: nqt1195
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BatteryPercent.json
 Depiction: https://jtisvn.github.io/depictions/BatteryPercent.html
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/BatteryPercent.png
 
 Package: com.jtis.bettercc
 Architecture: iphoneos-arm64
