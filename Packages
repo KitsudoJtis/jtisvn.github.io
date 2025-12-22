@@ -3717,6 +3717,42 @@ Name: Trakya Rounded
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Trakya.json
 Icon: https://evynw.github.io/depictions/sectionIcons/Fonts.png
 
+Package: com.jtis.TrollColor
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.TrollColor_1.0_iphoneos-arm.deb
+Size: 246336
+MD5sum: 36767d743dd9018362159bce2d6404e9
+SHA1: f64f3b820d1826f459dd6890b5f5ea334c939a45
+SHA256: b3ffb11cfbdfa78ab26011e33ae0416fcae356dbf3456fc06e1abafbd9ce9215
+SHA512: 8fdb2b059f558660743153aaa93e53c9c633e702af7989e11cbc7d194a639e0b53e30a60ef5b12af982707e7926e48876e6128db402153c9f0d1e3960d3a4cf3
+Description: Bộ sưu tập biểu tượng TrollStore.
+Author: Phuc Do
+Name: TrollColor
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollColor.json
+Depiction: https://jtisvn.github.io/depictions/TrollColor.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.TrollColor
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.TrollColor_1.0_iphoneos-arm64.deb
+Size: 246400
+MD5sum: 6cf3ea7e3eaedd426869a18efc45b757
+SHA1: b3f16110c3c5365377fdd5ff2be63d26e96bee02
+SHA256: f0fdfd900c0e09275c51aa0e3e65b04d1aefe4b83cffa1d09846932b2a0dd47f
+SHA512: 5f4f8bc1244158f1a8cc86ef089a91183b001401b6c13a5a1ee179b54b5095d738a29139da817ba1e3682a1e6e40da724b2d600d7fcd5e6baf5ec8e490302ccf
+Description: Bộ sưu tập biểu tượng TrollStore.
+Author: Phuc Do
+Name: TrollColor
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollColor.json
+Depiction: https://jtisvn.github.io/depictions/TrollColor.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
 Package: com.jtis.VibrateOnCall
 Architecture: iphoneos-arm64
 Version: 1.0.1+debug
@@ -12894,6 +12930,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Trim.json
 Icon: https://jtisvn.github.io/sectionIcons/Trim.png
 Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
 Author: iGerman <igerman@igerman.cc>
+
+Package: com.jtis.TrollColor
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.trollcolor_1.0_iphoneos-arm64e.deb
+Size: 245184
+MD5sum: adf78ce1ce2245f8d7686b6be70b0c19
+SHA1: c48c1f938a656cfdec02664b3ceb3d0647ac34bb
+SHA256: e58afb27ba402e7d1aa1dafb89ba039beb4d4aea2b0cacb8574a67e6f3cc7dd7
+SHA512: d2506b4cd1a63c492e884f87d2471a80c4a8b30fe804d3f927fb2e03d691ba043bb3fb64d99fff824c43c9ed2bb3cdf0969f05ca6ae7eaa642ac82d455e517ec
+Description: Bộ sưu tập biểu tượng TrollStore.
+Author: Phuc Do
+Name: TrollColor
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollColor.json
+Depiction: https://jtisvn.github.io/depictions/TrollColor.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.trollpad
 Architecture: iphoneos-arm64
