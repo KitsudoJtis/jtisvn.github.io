@@ -1693,6 +1693,26 @@ Name: Exiwall
 Author: FoxfortMobile
 Icon: file:///Library/PreferenceBundles/exiwallsettings.bundle/icon@3x.png
 
+Package: com.foxfort.exiwall
+Architecture: iphoneos-arm64
+Version: 2.1.7
+Section: Tweaks
+Maintainer: FoxfortMobile
+Installed-Size: 25584
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.foxfort.foxforttools (>= 1.4.16), firmware (>= 14.0)
+Conflicts: com.p2kdev.vartaman, com.julioverne.autowall, com.spark.freshwall, com.shinvou.wallmart, com.yourepo.cydiageek.lsvibrantclockdate, ru.rj.exiwallhack
+Filename: ./debs/com.foxfort.exiwall_2.1.7_iphoneos-arm64.deb
+Size: 23091232
+MD5sum: a254efd35f5dd90a1d9b8201d3fce0ea
+SHA1: 38cc91fe0e6fe9e450e1fe83bce96e70e4733e99
+SHA256: bfd088371f33f8e2878d4caddfd40d333a7cac8ad8c35d4a6478611e0fd3bc7c
+SHA512: 8d028c851f8805e1659f3cca656335dbffaab0d0c1e932821afe1190e85d81864107486f6ef943631d54a996661553ec10703de9dd2c9c7a9e85a4cf587a8fb7
+Description: Hiệu ứng chiều sâu cho hình nền màn hình khóa.
+Name: Exiwall (Rootless)
+Author: FoxfortMobile
+Icon: https://jtisvn.github.io/sectionIcons/Exiwall.png
+depiction: https://havoc.app/depiction/exiwall
+
 Package: com.foxfort.foxforttools
 Architecture: iphoneos-arm64e
 Version: 1.4.15
