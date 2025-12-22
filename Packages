@@ -3003,6 +3003,23 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/ChromaSettings.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
  Pre-Depends: rootless-compat(>= 0.9)
 
+Package: com.jtis.CoolwcatL
+Architecture: all
+Version: 1.7
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.CoolwcatL_1.7.deb
+Size: 1173572
+MD5sum: 26407292ca9cc9e4ac7c2b9c3fafe304
+SHA1: 0da3458a476da12f1ee4c221dc057a617be0fd16
+SHA256: 727932c0f8a1eeb23b1b4e35ea0382aa548c1417a1b1594f4ec98fbc8b7b3fc0
+SHA512: 021c0d1b68e4f50a9d6934b6ac4ae72f06888f9bd19c6c8460009508a0f505a1c427d507bdb79c2f3e28df48fd59ef02162024e282690f40a93271c8a09d9e09
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Coolwcat-L1
+Author: Coolwcat
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Coolwcat-L1.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+
 Package: com.jtis.Cydown
 Architecture: iphoneos-arm
 Version: 7.1.6
@@ -14727,6 +14744,24 @@ sileodepiction: https://repo.niceios.com/sileo/319
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: niceios
 Sponsor: niceios
+
+Package: com.nightwind.cephei-compat
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Nightwind
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 2.0)
+Filename: ./debs/com.nightwind.cephei-compat_0.0.1_iphoneos-arm64.deb
+Size: 3764
+MD5sum: 3d26e09a8add704110f763ef32233249
+SHA1: 0e0a58d011ca77a9e5c1478fdc8d9a15b41fd31e
+SHA256: 915096580d0001e28aed9271cc9a662cc1443d74230aab81d0cd96a29bee674c
+SHA512: 8666614d9755746f82ae57d4a2369bad28b18048a7bd2b5c8c6dd817a512d12cc74104266b07b6f80755a9765fd947c13b8b9c130cc302adf25db3fe0b9e7145
+Description: Fixes an incompatibility with new versions of Cephei that certain patched tweaks have. Adds back the old `translucentNavigationBar` property from earlier versions of Cephei in order to prevent a `didNotRecognizeSelector:` exception being thrown. Tested with Shortmoji 2.
+Name: Cephei-compat
+Author: Nightwind
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.opa334.altlist
 Architecture: iphoneos-arm64
