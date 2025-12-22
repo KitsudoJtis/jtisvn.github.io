@@ -7755,6 +7755,24 @@ Icon: https://Jtisvn.github.io/sectionIcons/font.png
 Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
 Author: Pablo Impallari
 
+Package: com.jtis.fontmoduluspro14
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.fontmoduluspro14_1.0_iphoneos-arm64.deb
+Size: 20627136
+MD5sum: e1c4810d4eeaba32380662f53d1df293
+SHA1: 271442a85300858d1567c1111bfbc7360d245666
+SHA256: 4a696f89c6a6815790977019e82df4e408dca53458f497e4a43574096b11c428
+SHA512: 7f21bae6ef6366dda3b10f908abcdb7fb37837e7b276f9501b8de346602f9923e913b796a0f69b963c92deafa00612d2d02a0102c078cd4767c4b9be03934afb
+Description: Phông chữ Modulus Pro kích hoạt qua Snowboard
+Name: Modulus Pro (iOS 14-16)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ModulusPro.json
+Depiction: https://jtisvn.github.io/depictions/ModulusPro.html
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+Author: Alexman
+
 Package: com.jtis.fontuandilove-rootless
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -11029,6 +11047,24 @@ Author: Lessica <82flex@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/RemoveWidget.json
 Depiction: https://jtisvn.github.io/depictions/RemoveWidget.html
 Icon: https://jtisvn.github.io/sectionIcons/RemoveWidget.png
+
+Package: com.jtis.reprovision
+Architecture: iphoneos-arm64
+Version: 0.8.5.1~rootless
+Section: Applications
+Maintainer: JTISVN Repo
+Depends: firmware (>= 9.0)
+Conflicts: com.matchstic.reprovision
+Filename: ./debs/com.jtis.reprovision_0.8.5.1~rootless_iphoneos-arm64.deb
+Size: 15594360
+MD5sum: 5dc3b404c28fd05ca95fc8dce0f9751b
+SHA1: 7e9a5be5ab60d3eed1f44e875143b458be1fd8fa
+SHA256: e03abd3f0c8c82e1da20defe249697b033f581b993c1b10aaeb0ea81e1c8c181
+SHA512: c263f2eebe8cd205e03fa8178aea72dfe81dd8d1c490ffe0f0f5ed96377bcbff9351cb4bdd956af48ff09a8ac0069c68c7f8e571bf8c3aac9fb45f07f82bd74c
+Description: Ký lại ứng dụng ngay trên thiết bị. Hỗ trợ Rootless, nhưng tính năng tự động gia hạn ngầm không còn hoạt động. Ngoài ra, thông báo ứng dụng đã hết hạn là hiển thị sai! Bạn cần tự ghi nhớ thời hạn của từng ứng dụng!
+Name: ReProvision Reborn (Rootless)
+Iconhttps: //jtisvn.github.io/sectionIcons/ReProvision.png
+Author: Soh Satoh, Ghh
 
 Package: com.jtis.resentment
 Architecture: iphoneos-arm64
