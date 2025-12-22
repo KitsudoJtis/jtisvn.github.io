@@ -241,6 +241,28 @@ Sponsor: 搬运工
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Sileodepiction: https://jtisvn.github.io/sileodepictions/DockPixel.json
 
+Package: cc.igerman.taptapslumber
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: iGerman <igerman@igerman.cc>
+Depends: firmware (>=15.0)
+Filename: ./debs/cc.igerman.taptapslumber_0.0.3_iphoneos-arm64.deb
+Size: 23352
+MD5sum: fab28a3f226a7b21ff788bfb3f274469
+SHA1: 771d64e7508ea7fa859ab0846ed3928fb7a18449
+SHA256: ef35eefb2009d70bad3001c55ef29984b169a991834515cbec02e25bad6c09d2
+SHA512: c87e73bb16781d3073ad29fb9c014f8318e636b3d197bc51f94c5c1ca24cbf8c0cbdcd72305dca98718b45fb621720377a381d3d4f17fae1e305797099881c11
+Homepage: https://jtisvn.github.io/
+Description: Nhấn đúp vào màn hình khóa, màn hình chính hoặc thanh trạng thái để khóa thiết bị của bạn.
+Name: TapTapSlumber (Rootless)
+Depiction: https://repo.igerman.cc/depiction/web/cc.igerman.taptapslumber.html
+SileoDepiction: https://repo.igerman.cc/depiction/native/cc.igerman.taptapslumber.json
+ModernDepiction: https://repo.igerman.cc/depiction/native/cc.igerman.taptapslumber.json
+Icon: https://repo.igerman.cc/assets/cc.igerman.taptapslumber/icon.png
+Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
+Author: iGerman <igerman@igerman.cc>
+
 Package: chaoge.ChargeLimiter
 Architecture: iphoneos-arm64e
 Version: 1.6
@@ -1714,6 +1736,23 @@ Name: Translomatic (Roothide)
 Author: FoxfortMobile
 depiction: https://havoc.app/depiction/translomatic
 Icon: https://jtisvn.github.io/sectionIcons/Tra%C3%A1nlomatic.png
+
+Package: com.gamegod.igg
+Architecture: iphoneos-arm
+Version: 0.4.4
+Section: Utilities
+Maintainer: iGameGod
+Installed-Size: 203320
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.gamegod.igg_0.4.4_iphoneos-arm.deb
+Size: 37343394
+MD5sum: 6574ef2bc5aa7704de400e8aeb440906
+SHA1: 3359d24b58d9e44d7aeced3efa898669b50680a4
+SHA256: 590084bcb310a2a80cfbded7cdc05e6c8778e75ecd8263ca1f95f79cb5fba5c4
+SHA512: b256e4669cfc7b808f8dfe9ef9f60dac993c43bf050173146f164ea97b1ffc4868f217472968c4a7a232d735e0c8c6ae61845fa81d5a6a6e2d51df1cc27682af
+Description: Be the god of your games!
+Name: iGameGod
+Author: iGameGod
 
 Package: com.ginsu.comet
 Architecture: iphoneos-arm64
@@ -17064,6 +17103,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Installer.json
 Depiction: https://apptapp.me/repo/installer.html
 Icon: https://jtisvn.github.io/sectionIcons/Installer.png
 
+Package: me.jjolano.fmwk.rootbridge
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Development
+Maintainer: jjolano
+Installed-Size: 168
+Depends: firmware (>= 8.0)
+Filename: ./debs/me.jjolano.fmwk.rootbridge_1.0.1_iphoneos-arm64e.deb
+Size: 4054
+MD5sum: 3e4123b2d75c70e53eccdb2afefa58f9
+SHA1: b339ac87251125b8586ba9993b8c54a79c11ba28
+SHA256: 2256f96921ae3bb416978cb49957f650f9988e3616b16f3807f5f199660b93b7
+SHA512: da93d559c0159d6e39451a55f94b5e0b7fdc4513b41825e0bfa9992ac9d30ddaf935d57df3745f5b8957feaf02033850b1d48bcdf2c74ace7fe9320985c2a059
+Description: An iOS developer framework for rootless tweak development.
+Tag: role::developer
+Name: RootBridge Framework
+Author: jjolano
+
 Package: me.luki.arizona
 Architecture: iphoneos-arm64
 Version: 0.9.2
@@ -17205,6 +17262,23 @@ Name: Dynamic Stage (Roothide)
 Author: tomt000
 Icon: https://jtisvn.github.io/sectionIcons/Stage.png
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/Stage.json
+
+Package: moe.misty.bindfsmount
+Architecture: iphoneos-arm
+Version: 0.0.1-19+debug
+Section: System
+Maintainer: misty
+Installed-Size: 364
+Filename: ./debs/moe.misty.bindfsmount_0.0.1-19+debug_iphoneos-arm.deb
+Size: 7916
+MD5sum: 0c23ec3aaf9c74e086f50b0c788cc3d9
+SHA1: 1aa86d1505f33cf2b65bbaf5bb8f8dc5aacec2e0
+SHA256: e79dd9557012844e492c696323fb239078dc4593fedee040f3eaee000cdfc3ca
+SHA512: 89b9b9f9d785c39db7d35bf2a5a629187410d81d227cb0bf4e81b32cf897f5cb81c3cab5e9493683646c23167fad2bc896023cd68d1f49f4119f18279808a5f5
+Description: An awesome tool of some sort!!
+Tag: role::hacker
+Name: mount_bindfs
+Author: misty
 
 Package: net.jtid.randomiconsflip
 Architecture: iphoneos-arm64e
