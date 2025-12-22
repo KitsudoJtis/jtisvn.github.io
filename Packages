@@ -11161,6 +11161,24 @@ Author: LK
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Rophim.json
 Icon: https:/jtisvn.github.io/sectionIcons/Rophim.png
 
+Package: com.jtis.rowwhite
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.rowwhite_1.0_iphoneos-arm64.deb
+Size: 3360616
+MD5sum: 56921409c53177f3100d0526defe28f3
+SHA1: 5fd2d94d8adb53daf631cc3cab679f02330178c4
+SHA256: ed1763b005adb8e41b5cf02a05f767207d7015e42df24a8cbd8fd8f4332546c9
+SHA512: ba26fdca7f894cdf026b66a544d5487e48a501be75af3714a303c988ad980e9549823da14c4498c3515034d7a0fb4ce6be974338407d146ad5647bed8798e0cc
+Description: Chủ đề RowWhite
+Name: RowWhite Theme
+Author: TQM
+SileoDepiction: https://jtisvn.github.io/sileodepictions/RowWhite.json
+Depiction: https://jtisvn.github.io/depictions/RowWhite.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
 Package: com.jtis.safariplusVN
 Architecture: iphoneos-arm
 Version: 1.7.22
