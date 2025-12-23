@@ -6417,6 +6417,25 @@ Author: DTCalabro
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Colobar15.json
 Icon: https://jtisvn.github.io/sectionIcons/Colobar15.png
 
+Package: com.jtis.colorfulwallpaperx
+Architecture: iphoneos-arm64
+Version: 4.6
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.colorfulwallpaperx_4.6_iphoneos-arm64.deb
+Size: 1234420
+MD5sum: d56f258a7bc75392683836f26ed0643d
+SHA1: 80fce15cf59533a1855c97cbd1c82f8c424b93a3
+SHA256: 40d07a33259e89f09158d6112e9f4bbb362983209874e790678654f2353c9fa7
+SHA512: 30510bb1ef13b6d8a2f2d055af9fb86f41509d5b23875c94f06a1a836291a0675625f305905576e41d51eea4ebd00a4921d9a59fcd136ca593ca749948452faa
+Description: Hình nền sống động với hiệu ứng đầy màu sắc.
+Name: ColorfulWallpaperX (Rootless)
+Author: Lessica
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ColorfulWallpaperX.json
+Depiction: https://jtisvn.github.io/depictions/ColorfulWallpaperX.html
+Icon: https://jtisvn.github.io/sectionIcons/ColorfulWallpaperX.png
+
 Package: com.jtis.complications
 Architecture: iphoneos-arm
 Version: 3.4.5
@@ -17420,6 +17439,25 @@ Author: Luki
 Icon: https://jtisvn.github.io/sectionIcons/Arizona.png
 Depiction: https://luki120.github.io/depictions/web/?p=me.luki.arizona
 SileoDepiction: https://luki120.github.io/depictions/native/me.luki.arizona/depiction.json
+
+Package: me.nebula.ding
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.17), firmware (>= 13.0)
+Filename: ./debs/me.nebula.ding_1.1.0_iphoneos-arm64.deb
+Size: 25664
+MD5sum: f2c6f81737cba92a5485e5f81f40ec6d
+SHA1: 3702427a92e7733a062caf61d789e00d807c5b13
+SHA256: 19fb5fba8ce649fa433b4a9c61522cf9d6a6a325e4b0c765e9f2fd3152f53588
+SHA512: d10d09524d28ec740898957cd1fd63a95da7221ba547718f7ef3eaf9b1d07b053d67ece5bf5fd7d06c2f739ae6fe7b567554ff59072fe8d8dd586bc8156f3ebc
+Description: Kiểm soát công tắc chuông của bạn!
+Author: Nebula
+Name: Ding (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Ding.json
+Depiction: https://chariz.com/buy/ding
+Icon: https://jtisvn.github.io/sectionIcons/Ding.png
 
 Package: me.tomt000.copylog
 Architecture: iphoneos-arm
