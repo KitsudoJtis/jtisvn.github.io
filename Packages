@@ -2202,6 +2202,29 @@ Author: IArrays <support@iarrays.com>
 Sponsor: IArrays
 Icon: https://jtisvn.github.io/sectionIcons/BioLocker.png
 
+Package: com.iarrays.calllogpro.rootless
+Architecture: iphoneos-arm64
+Version: 15.0-beta-7
+Section: Utilities
+Maintainer: JTISVN Repo
+Installed-Size: 11136
+Pre-Depends: firmware (>=15.0)
+Depends: mobilesubstrate, com.iarrays.libiarrays.rootless (>= 1.0.16), com.jtis.iarrays-crack
+Conflicts: com.iarrays.CallLogPro10, com.iarrays.CallLogPro81, com.iarrays.CallLogPro8, com.iarrays.calllogpro.roothide
+Filename: ./debs/com.iarrays.calllogpro.rootless_15.0-beta-7_iphoneos-arm64.deb
+Size: 2514440
+MD5sum: 5ac02b6af0be43b1da093abf73b0a677
+SHA1: 70e6562ffc5514ffe4396186bfd73911339e1c8d
+SHA256: ea56763a3414c45853172e76fea9da46058384633d32fde01905d69fe585c43e
+SHA512: 198c630d9866d2c5c11846ff5ec1a8b47e2eaa45b54667e2034e21ec38e6706fb6cc3e56f6179100cc996ebca1f7ea3cb31d89088d73be42cde6c9ab13bcc7cc
+Description: Đã hỗ trợ iOS 16.x. CallLogPro cho phép quản lý lịch sử cuộc gọi, hỗ trợ xoá từng mục hoặc xoá toàn bộ.
+Name: CallLogPro (Rootless iOS 17 to 15)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CallLogPro.json
+Depiction: https://jtisvn.github.io/depictions/CallLogPro.html
+Author: IArrays <contact@iarrays.com>
+Sponsor: IArrays
+Icon: https://iarrays.com/sileo-depiction/calllogpro/icon.png
+
 Package: com.iarrays.libiarrays.rootless
 Architecture: iphoneos-arm64
 Version: 1.0.16-beta-15
@@ -10397,6 +10420,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/NCT.json
 Depiction: https://jtisvn.github.io/depictions/NCT.html
 Icon: https://jtisvn.github.io/sectionIcons/NCT.png
 
+Package: com.jtis.nct
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.nct_1.0.0_iphoneos-arm64e.deb
+Size: 6912
+MD5sum: 367d6b34a96bc490f1ce957d4fe892d3
+SHA1: 6a159ad860b3119a49a36f15dea915c7af366616
+SHA256: 19aa22b06cb31df40bfa647d38abe6a1eaf13768d570f7f489c1e6d3cc13301e
+SHA512: d858eb508add2ca6866af809d2de81d8a77da0580174767dba6f321d33e6dbd57790e4442fd69e7c6786084059abe2210bd994224272779b4821180c9008e643
+Description: NCT ViP By LK
+Author: LK
+Name: NCT ViP
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NCT.json
+Depiction: https://jtisvn.github.io/depictions/NCT.html
+Icon: https://jtisvn.github.io/sectionIcons/NCT.png
+
 Package: com.jtis.neofreebird
 Architecture: iphoneos-arm64
 Version: 5.3-beta
@@ -12129,6 +12173,25 @@ Name: Single Mute (Roothide)
 Author: 82Flex <82flex@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SingleMute.json
 Icon: https://jtisvn.github.io/sectionIcons/SingleMute.png
+
+Package: com.jtis.singlevpn
+Architecture: iphoneos-arm64
+Version: 2.1-2
+Section: Tweaks
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 404
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.jtis.singlevpn_2.1-2_iphoneos-arm64.deb
+Size: 35132
+MD5sum: f544bfdbedf32489ee7f3866ad0c1ed1
+SHA1: 0a42db005ede8c60a2ecffbdd034a22b16523aa9
+SHA256: 0ef1b6d9c2f9ade2e9dc341484606436447d4b2adcf3846c2cabae407c878d2c
+SHA512: 7e6063d2c6c8c92341bfe0e5709c4ad4cb051f38fbf9c9c39d6b7ca5e8e2b3ba7dc375546dd2ba91a0536ebe35cb69826408c29b773e2608a4deaae662ee9a56
+Description: Kết hợp trạng thái VPN và mạng không dây vào một biểu tượng.
+Name: Single VPN (Rootless)
+Author: 82Flex
+Icon: https://files.catbox.moe/py6c3m.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SingleVPN.json
 
 Package: com.jtis.siriplus
 Architecture: iphoneos-arm64
