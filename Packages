@@ -689,16 +689,17 @@ Maintainer: Simon
 Installed-Size: 432
 Depends: mobilesubstrate
 Filename: ./debs/com.Axs.dynamicislandanimation_1.1.8_iphoneos-arm64.deb
-Size: 29180
-MD5sum: 22e529ef3bec87733103bc9579739c5a
-SHA1: 88b5887296383b79481eec3a2936e428a2424e7b
-SHA256: 724c296bd6a8daf97b7758949f366c487fe59d20f62e072c2eeb25b97705a3f9
-SHA512: 519d123ca757c168d9a45a909d62582319dc1b9e7598eb6f332596fa04606b20be2b47a3e8692cb19a92210a2497eb845c1adae308bfa3d3e3dce02e7e103389
+Size: 29136
+MD5sum: ce982badcd24a541022de99dd3983caa
+SHA1: 4f1985fdd99cabe60d486eb8c48a0ffc88624c75
+SHA256: 92f98fd654e0e678d9f013b38edc7d92419841ee20729620d84a2d02197d3deb
+SHA512: d292bb2549a42b1a7e8b186283d5747a70337a95107fb05c29f7418f0b7a229151e5c11e94e0359ef337386627277ebeef66ddcb084fd5633ae4f835a5470782
 Description: Được sử dụng để tích hợp các hiệu ứng Dynamic Island và ghi lại màn hình hoạt ảnh nhảy năng động như hiển thị thông báo hoặc một số sự kiện khác!
 Name: Dynamicisland Animation
 Author: Simon
-Icon: https://axs66.github.io/repo/icon/dynamicislandanimation.png
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/dynamicislandanimation/js.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DLAnimation.json
+Depiction: https://jtisvn.github.io/depictions/DLAnimation.html
+Icon: https://jtisvn.github.io/sectionIcons/DLAnimation.png
 
 Package: com.BIENVANNHAT.cconandoff
 Architecture: iphoneos-arm
@@ -11735,6 +11736,26 @@ Description: Xoá bỏ đồ bóng tên ứng dụng trên màn hình chính.
 Name: ShadowBuster (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: Lizynz <lizynz@ya.ru>
+
+Package: com.jtis.showtouch
+Architecture: iphoneos-arm64
+Version: 1.0.4-3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1432
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.showtouch_1.0.4-3_iphoneos-arm64.deb
+Size: 376288
+MD5sum: 5cfe00e13bd2a829ecb5e5a3864b80e8
+SHA1: 99b9bd1a5a272dcfb63dbfd97411c27f3b266ef1
+SHA256: fb531f733f9d1de52fc0776f1540d82c70264f8916b76be002ffd28b3a84d0db
+SHA512: 5d7e49d24a5ca3b36ff17d355f5ea3805746a1700c58051f931dc28e96bf4e4662f7cbebf0c1586cfb5a47e3a00f89ba106808623950b70b6acf7dca4b20d25b
+Description: Hiển thị nơi bạn chạm vào màn hình
+Name: ShowTouch (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ShowTouch.json
+Depiction: https://jtisvn.github.io/depictions/ShowTouch.html
+Icon: https://jtisvn.github.io/sectionIcons/ShowTouch.png
+Author: LonestarX
 
 Package: com.jtis.shuffle
 Architecture: iphoneos-arm
