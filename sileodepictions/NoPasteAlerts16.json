@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
+"tintColor":"#339999",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -10,7 +10,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Lidell/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/NoPasteAlerts16/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Lidell\n\n- Thu nhỏ và tinh chỉnh kích thước biểu ngữ thông báo hiển thị trên màn hình chính, giúp giao diện gọn gàng và thẩm mỹ hơn.",
+"markdown":"NoPasteAlerts16\n\n- Xoá bỏ thông báo xác nhận dán trên IOS 16..",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -53,7 +53,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Traurige",
+"text": "0xkuj",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -97,7 +97,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.4.3",
+"text": "1.0.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -110,7 +110,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1,7 MB",
+"text": "163,04 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false

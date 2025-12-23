@@ -9048,6 +9048,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Immortalizer.json
 Depiction: https://jtisvn.github.io/depictions/Immortalizer.html
 Icon: https://jtisvn.github.io/sectionIcons/Immortalizer.png
 
+Package: com.jtis.infobattery
+Architecture: iphoneos-arm
+Version: 1.0.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 268
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.infobattery_1.0.4_iphoneos-arm.deb
+Size: 38056
+MD5sum: 6d966507f033ba3b97ad00bcedf458e3
+SHA1: 08db3d570e446b32c1009a79daaa9bb8deb7866c
+SHA256: c15745bc48e95a2f90bd0a43fe030e06586450d5b1d303e3c7ce6fbc0f45c3eb
+SHA512: b1e825c7d0cf1d82a857d4dae9a0ccb6d7acaabebfd93002024f1cd6aeb8d2adf2857220bce4f910c4f2d4cf72cf9ee92d3f18e2b822285ce36eeb3d7d6222f1
+Description: Panel xem chi tiết pin, máy, RAM, mạng... bật bằng cách chạm góc phải 2 lần thanh trạng thái.
+Name: InfoBattery Panel
+Author: BVN <repobvn@bvnrepo.xyz>
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.iOS17Deluxe
 Architecture: iphoneos-arm64e
 Version: 354
@@ -10494,6 +10512,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/NoBetaAlert.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.nopastealerts16
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 168
+Depends: firmware (>= 16.0)
+Filename: ./debs/com.jtis.nopastealerts16_1.0.0_iphoneos-arm64.deb
+Size: 4192
+MD5sum: 748c22025f50c2dcad2333c13d3f0981
+SHA1: 00ae12bac928db388475430dce066a90b3363f0c
+SHA256: 640315e2bdca1cdd91dea51859a2a0c277356d2f595a7d8cb85b10dee4fcf597
+SHA512: 137677aeca6decca0348286adb62135b735d29d774a2ca782dc713da030c3d9f806264bb40909593af2e109d2f9e8755da50cf41aa826b6e9733b2c7023c5a1c
+Description: Xoá bỏ thông báo xác nhận dán trên IOS 16.
+Name: NoPasteAlerts16 (Rootless)
+Author: 0xkuj
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NoPasteAlerts16.json
+Depiction: https://jtisvn.github.io/depictions/NoPasteAlerts16.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.nopastealerts16
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -10502,14 +10540,16 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 16.0)
 Filename: ./debs/com.jtis.nopastealerts16_1.0.0_iphoneos-arm64e.deb
-Size: 4068
-MD5sum: 05f316ff01ec80dab4dfa8632117f726
-SHA1: 9852b1b95f51ed4bdd974c46ab3daea1679eab1c
-SHA256: 8131855db9aea07b8ab9a74f1c4dea1e771fea2ef7d9f83236857d71be7e0359
-SHA512: 7c56b6111820ea0be74e215b50fb5ff0c898c7cc5de994ead008a9398d63ffe828c9838554899a3dba9321e34adf2f2d1a69e417b01a6ca6cddba4045751e370
+Size: 4120
+MD5sum: 9b42fca4b85de9f80487d6d44dfbc02a
+SHA1: cf2aacbd52df216ef0587df83256775f12ff6e19
+SHA256: f03606590c6223348d8d43b3182edb1436484072da87e3d9d39a57156de839d7
+SHA512: 9c3599959174d2ea3cbe51bb3c4a24fb9bae2e03a4bdd9dc1ab21a2041bc82823d3d35c00a8ebbe58f6eb8b791a8ed3bb7ab686c27fea37c0b091114346ee673
 Description: Xoá bỏ thông báo xác nhận dán trên IOS 16.
-Name: NoPasteAlerts16
+Name: NoPasteAlerts16 (Roothide)
 Author: 0xkuj
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NoPasteAlerts16.json
+Depiction: https://jtisvn.github.io/depictions/NoPasteAlerts16.html
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.nopreferencetips

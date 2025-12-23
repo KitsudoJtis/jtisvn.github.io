@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Ding\n\n- Kiểm soát hoàn toàn công tắc im lặng trên thiết bị của bạn.\n\n- **Tính năng chính:**\n\n+ Tùy biến hành động khi gạt công tắc: Bật đèn pin, Khóa xoay, Chế độ máy bay, Wi-Fi, Bluetooth, Chế độ nguồn điện thấp, Không làm phiền, Dữ liệu di động, Chế độ tối.\n\n+ Bỏ qua chức năng im lặng vật lý.\n\n+ Buộc bật/tắt âm thanh bất kể vị trí công tắc.\n\n+ Chỉ tắt tiếng chuông (Ringtone).\n\n+ Giữ phản hồi rung luôn bật.",
+"markdown":"Ding\n\n- Kiểm soát hoàn toàn công tắc im lặng trên thiết bị của bạn.\n\n- Tính năng chính:\n\n+ Tùy biến hành động khi gạt công tắc: Bật đèn pin, Khóa xoay, Chế độ máy bay, Wi-Fi, Bluetooth, Chế độ nguồn điện thấp, Không làm phiền, Dữ liệu di động, Chế độ tối.\n\n+ Bỏ qua chức năng im lặng vật lý.\n\n+ Buộc bật/tắt âm thanh bất kể vị trí công tắc.\n\n+ Chỉ tắt tiếng chuông (Ringtone).\n\n+ Giữ phản hồi rung luôn bật.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -155,7 +155,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.1.0\n\n- Thêm các hành động mới:\n  + Không làm phiền (Do Not Disturb).\n  + Dữ liệu di động (Cellular Data).\n  + Chế độ tối (Dark Mode).\n\n- Cải tiến hiệu năng và sửa lỗi nhỏ.\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.1.0\n\n- Thêm các hành động mới:\n\n+ Không làm phiền (Do Not Disturb).\n\n+ Dữ liệu di động (Cellular Data).\n\n+ Chế độ tối (Dark Mode).\n\n- Cải tiến hiệu năng và sửa lỗi nhỏ.\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
