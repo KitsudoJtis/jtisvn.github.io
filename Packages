@@ -1896,6 +1896,51 @@ Depiction: https://ginsu.dev/#/depiction/com.ginsu.gsweather
 Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/icon.png
 SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/sileo.json
 
+Package: com.haoict.libhdev
+Architecture: iphoneos-arm
+Version: 4.8.1
+Section: System
+Maintainer: @tqmmos
+Installed-Size: 316
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12)
+Filename: ./debs/com.haoict.libhdev_4.8.1_iphoneos-arm.deb
+Size: 46996
+MD5sum: cc75aa427fbd72c14a3ef84a4fee54e1
+SHA1: d3db20e12726f3e2c830a1eccafe92c59f16c892
+SHA256: 4cceb9c2e31b45054f04f3e33c5e88752abf22466ba71f2b46645c0e4c81cabc
+SHA512: 9f842e958bd134b46546f547d1a5e33dee1fae9725c7d087e5c37c439e70d6a6a3e64682779754524654aec831629cd5247822cf400bce92d23588965402c6af
+Description: Đây là thư viện dành cho nhà phát triển để có các tùy chọn tốt hơn và các tiện ích hữu ích.
+Tag: role::developer
+Name: libhdev
+Author: Hao Nguyen <hao.ict56@gmail.com>
+
+Package: com.haoict.libhdev
+Architecture: iphoneos-arm64
+Version: 4.8.1
+Section: System
+Maintainer: Hao Nguyen <hao.ict56@gmail.com>
+Installed-Size: 316
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/com.haoict.libhdev_4.8.1_iphoneos-arm64.deb
+Size: 46488
+MD5sum: 2968ade00c722f1efe20b07bceff8be9
+SHA1: 56cd70a9cf476a5080881e45d050a3fc0f6ca2d2
+SHA256: f41b1ad0c11553d4a5d2fba6f43d73737cf7601f78d49a7843138f87a46f01fe
+SHA512: 94a4e95c5756863dc7edc0f73a6faf3b6f8f3e0cfff1ea5671ca824967f26fd75274bfc7e5b76ac7735a2e61d54de81603a192b4f669621997a595a3f7be7ac7
+Description: This is a developer library for better preferences and useful utilities.
+ This is a developer library for better preferences and useful utilities.
+ . 
+ - v4.8.1: Minor improvement
+ - v4.8.0: Improve performance & reduce package size
+ - v4.7.0: Improve media download & fix preferences cell color
+ . 
+ Github: https://github.com/haoict/libhdev-public
+ . 
+ © 2021 haoict
+Tag: role::developer
+Name: libhdev
+Author: Hao Nguyen <hao.ict56@gmail.com>
+
 Package: com.hieu.SearchDots
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -12861,6 +12906,26 @@ Name: TGExtra (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
 Icon: https://jtisvn.github.io/sectionIcons/TeleSF.png
 Author: choco, r22i0
+
+Package: com.jtis.tiktokgod
+Architecture: iphoneos-arm
+Version: 4.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 420
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
+Filename: ./debs/com.jtis.tiktokgod_4.0.0_iphoneos-arm.deb
+Size: 53748
+MD5sum: 27a0f2a7a420b1b37d66c6c9d38150cc
+SHA1: 3ddbdf66f0b5a88e580868630d3f1ef4a0b354dd
+SHA256: 3dce35d19c881529dfd678471b07ef01983a58d422c3199008dd680922642326
+SHA512: d699b8a8302b28e2303e686fc35e47509a788b8188beea7010b239969a2cdbdec353c21d76de2d6cc33f88de6ee309b9f23f3b9394f3593f37e53d2be2888ebd
+Description: Tinh chỉnh tốt nhất cho ứng dụng TikTok.
+Name: TikTok God
+Author: Hao Nguyen
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TikTokGod.json
+Depiction: https://jtisvn.github.io/depictions/TikTokGod.html
+Icon: https://jtisvn.github.io/sectionIcons/TikTokGod.png
 
 Package: com.jtis.tiktoknoadsmall
 Architecture: iphoneos-arm64
