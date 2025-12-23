@@ -10338,6 +10338,26 @@ Name: MusicPlayerColor (Roothide)
 Author: Nightwind
 Icon: https://github.com/NightwindDev/MusicPlayerColor/blob/main/icon.png?raw=true
 
+Package: com.jtis.nct
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.nct_1.0.0_iphoneos-arm64.deb
+Size: 5140
+MD5sum: 407b61ce4a8463f0d0290fbd4f044944
+SHA1: b41e9f9d8006598d8c1d7558786bc9f5630cf1a9
+SHA256: 92cd32ae9280c89207b8bddf03c9f61602b6c6ab344414a2e7b318cd475fdf6b
+SHA512: 58943a3a6c4d2315cafaf1d7783fbadc714698e80545b616b3a08cf7ae4e9b87f3fc7c227565b10a50916ffa3b2c2fabadfe78a740a1a655c5bcfa6446c32a79
+Description: NCT ViP By LK
+Author: LK
+Name: NCT ViP
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NCT.json
+Depiction: https://jtisvn.github.io/depictions/NCT.html
+Icon: https://jtisvn.github.io/sectionIcons/NCT.png
+
 Package: com.jtis.neofreebird
 Architecture: iphoneos-arm64
 Version: 5.3-beta
