@@ -4987,6 +4987,47 @@ Author: Nepeta & Baw Appie
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
 Icon: https://jtisvn.github.io/sectionIcons/Axon.png
 
+Package: com.jtis.b612patch
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 2964
+Depends: mobilesubstrate, emt.paisseon.xinamine (>= 0.0.5)
+Filename: ./debs/com.jtis.b612patch_0.0.1_iphoneos-arm64.deb
+Size: 935196
+MD5sum: 3866dbfdedfc7bce7e53a784c56d3cc6
+SHA1: 5bd8bd60e2636c3acc0960327fb8c07c594c7388
+SHA256: 49108a2c70cbb79d8b232764e562ad8928ef381b64874498beeb6dc56e8e53cd
+SHA512: dac8b9c63f51ca0edfbfcbe2bca5d3b385e340bb761de4174908089026dfd203d741ead1f64d052dd5a95a652ba7ab27d358c33a1652e38a12407e72a0dccadb
+Description: Mở khóa tinh năng VIP ứng dụng B612
+Name: B612 Unlocked
+Author: Dell <dvq273665536@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/B612.json
+Depiction: https://jtisvn.github.io/depictions/B612.html
+Icon: https://files.catbox.moe/e05k26.png
+
+Package: com.jtis.b612patch
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 2964
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, emt.paisseon.xinamine (>= 0.0.5)
+Filename: ./debs/com.jtis.b612patch_0.0.1_iphoneos-arm64e.deb
+Size: 1929410
+MD5sum: 1fe2b970c892129209263c1851d0bd6a
+SHA1: 3542415c43adf123c8bfa5421f98fd77f3e03548
+SHA256: bdb56d1cae6e9b6fff0aa9b025eef26ab6ecaf5defbf5e8422169eef22fb9f79
+SHA512: 3fab8390f6b09a893b49872b1fbc8366adeec0fc64b4c15ebd2f61c7ffe0096c370385950099659392ebac88c173d18956d5e495ae8cc64a89c289b3f90c907a
+Description: Mở khóa tinh năng VIP ứng dụng B612
+Name: B612 Unlocked
+Author: Dell <dvq273665536@gmail.com>
+SileoDepiction: https://jtisvn.github.io/sileodepictions/B612.json
+Depiction: https://jtisvn.github.io/depictions/B612.html
+Icon: https://files.catbox.moe/e05k26.png
+
 Package: com.jtis.batterybuddy
 Architecture: iphoneos-arm
 Version: 1.3.5
@@ -12294,6 +12335,26 @@ Depiction: https://jtisvn.github.io/depictions/SniperTool.html
 Icon: https://jtisvn.github.io/sectionIcons/SniperTool.png
 Author: Sniper @DNS_Sys
 
+Package: com.jtis.snowai
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 2856
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.snowai_1.0_iphoneos-arm.deb
+Size: 428124
+MD5sum: 8d829ebeac7f2e390952082188c5fa37
+SHA1: 4eca07e07a0501ff9cd8bb51bdd31c5d5b3c7168
+SHA256: 86d8e59d570863d28505de9e40f1be5c0ffbc3a5b775b7fb771c50b9ec9a8f92
+SHA512: c9f97b5bfb6453c668a42b7325b38c9fa58c6f5fc6002b9afb1b3e43946256f65d4b66070bbbea73e106eb7cb1851263dd482e179c50a0fdb4a609ad5ff3175f
+Description: Cracked By Blatant
+Name: SNOW AI VIP
+Author: blatant
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SnowAI.json
+Depiction: https://jtisvn.github.io/depictions/SnowAI.html
+Icon: https://files.catbox.moe/oo57m9.png
+
 Package: com.jtis.sonus15
 Architecture: iphoneos-arm64
 Version: 1.0.5
@@ -13241,6 +13302,26 @@ Author: CreatureSurvive <support@creaturecoding.com>
 dev: CreatureSurvive
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TweakSettings.json
 Icon: https://jtisvn.github.io/sectionIcons/TweakSettings.png
+
+Package: com.jtis.ulikevip
+Architecture: iphoneos-arm64
+Version: 5.4.1
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 9600
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.ulikevip_5.4.1_iphoneos-arm64.deb
+Size: 1627060
+MD5sum: e2f28559de81d1c5a3fc20bc0262b9c4
+SHA1: b3c3c37188d5be6d48f2f1471972aa1effcffcd8
+SHA256: 750b696f26bf45f4a6f22939963208ca07d71bf54920edb2cde40a79ffbef092
+SHA512: 1471e359313ed1e1b0d0e82e1b30762351a6e5682293fb74a5413d0186e8a4dd7f86da978aa1070777ab4e2134bddd08681992b5909ba18c0057edaa8710a03b
+Description: Ulike unlock Vip
+Name: Ulike VIP
+Author: Laxus
+SileoDepiction: https://jtisvn.github.io/sileodepictions/UlikeVip.json
+Depiction: https://jtisvn.github.io/depictions/UlikeVip.html
+Icon: https://jtisvn.github.io/sectionIcons/UlikeVip.png
 
 Package: com.jtis.upsidedowned
 Architecture: iphoneos-arm64e
