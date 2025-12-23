@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#FF6699",
+"tintColor":"#339999",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -11,10 +11,6 @@
 "screenshots":[
 {
 "url":"https://jtisvn.github.io/infodeb/NetSpeedBar/Screenshots/1.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/NetSpeedBar/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -114,7 +110,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "345,75 KB",
+"text": "185,6 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
