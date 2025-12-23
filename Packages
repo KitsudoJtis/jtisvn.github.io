@@ -6773,6 +6773,26 @@ Author: Ryan Nalr
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CylinderRemade.json
 Icon: https://jtisvn.github.io/sectionIcons/Cylinder-rebom.png
 
+Package: com.jtis.dashapp
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: Dcsyhi
+Installed-Size: 1256
+Depends: mobilesubstrate,preferenceloader
+Filename: ./debs/com.jtis.dashapp_1.1_iphoneos-arm64.deb
+Size: 896680
+MD5sum: 264ebfef49fc5c58cd4e262c829f5ecd
+SHA1: c980ef3f747090cb0c918cd44d11823a2b58f6ed
+SHA256: 20c1e4a156d380266537ac0c98159f612580519935209ba473cdc8a0ff281d0d
+SHA512: 11280394ab4ae9f689d3fb69ba8298e05133ec172c173966c71e2423201aff3781ec6a06c265e655dedf796d61d92ac357caa42e1450e2c7485628ac57739568
+Description: DashApp😎Thay đổi camera màn hình khóa thành ứng dụng yêu thích của bạn.⚡️
+Name: DashApp (Rootless)
+Author: Dcsyhi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DashApp.json
+Depiction: https://jtisvn.github.io/depictions/DashApp.html
+Icon: https://jtisvn.github.io/sectionIcons/DashApp.png
+
 Package: com.jtis.dayn14
 Architecture: iphoneos-arm
 Version: 1.0.2
@@ -11174,6 +11194,26 @@ Name: QuickPowerButton (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/QuickPowerButton.json
 Icon: https://jtisvn.github.io/sectionIcons/QuickPowerButton.png
 Author: SINI
+
+Package: com.jtis.quickprefs
+Architecture: iphoneos-arm64
+Version: 1.3.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Filename: ./debs/com.jtis.quickprefs_1.3.3_iphoneos-arm64.deb
+Size: 512800
+MD5sum: 33c2814bf1fc81be79000f6eec0d5198
+SHA1: 12f5e121caac619a557e7be11365a0a5f943e394
+SHA256: ed17f2cc0d75b59974e73207126ea054ab7374a12eff9d887c4f15f2de3c1205
+SHA512: 3cdf0d1cf124a087b20f888ded346d1013aa380fdd8d44d3c60e543f48c0efea057bcff05da32a038307444c1ea6f73c03dc6b417cf5b41726e524239e4278ab
+Homepage: https://jtisvn.github.io/
+Description: Truy cập nhanh các cài đặt trước từ Menu 3D Touch
+Name: QuickPrefs (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/QuickPrefs.json
+depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.quickprefs-rootless.php
+Icon: https://jtisvn.github.io/sectionIcons/QuickPrefs.png
+Author: AnthoPak <anthopakdev@gmail.com>
 
 Package: com.jtis.recorddot
 Architecture: iphoneos-arm64
