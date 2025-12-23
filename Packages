@@ -5276,6 +5276,25 @@ Author: TiaoTiao <qiaozhani000@163.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BetteruSwitch.json
 Icon: https://jtisvn.github.io/sectionIcons/BetteruSwitch.png
 
+Package: com.jtis.bfdecrypt
+Architecture: iphoneos-arm
+Version: 1.3.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, com.opa334.altlist, firmware (>= 11.0)
+Filename: ./debs/com.jtis.bfdecrypt_1.3.5_iphoneos-arm.deb
+Size: 90524
+MD5sum: 427fe43c67f1154701ce1d6883f5c145
+SHA1: c7429309e14949bc82a94dbca668825ba79648e5
+SHA256: 1e5c78d1e43403776b0025f1e25869f411f4994f199058ea3fdfc1dacbfed0c9
+SHA512: 2d8de362f52cd61e54bd01bc241454da6a796798d086093e9f607ba2a5f47397f6f5b2649a3723ae03e89345aef522a8a31db94aa4a2080ef4af83ac4acd92c1
+Description: bfdecrypt IPA cho iOS 11 trở lên
+SileoDepiction: https://jtisvn.github.io/sileodepictions/bfdecrypt.json
+Depiction: https://jtisvn.github.io/depictions/bfdecrypt.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Name: bfdecrypt
+Author: BishopFox
+
 Package: com.jtis.bhinsta
 Architecture: iphoneos-arm64
 Version: 1.2-3+debug
@@ -14172,6 +14191,27 @@ Depiction: https://jtisvn.github.io/depictions/NetSpeedBar.html
 Icon: https://jtisvn.github.io/sectionIcons/NetSpeedBar.png
 Author: Kitsudo
 
+Package: com.jtisvn.netspeedbar
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Kitsudo (JTISVN)
+Installed-Size: 356
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.jtisvn.netspeedbar_1.0.0_iphoneos-arm64e.deb
+Size: 10436
+MD5sum: 2eab45831b7d20cda542e9c6e0349e1e
+SHA1: 96c2c15efece5d641cc95f8ffdfdb855442bd0cb
+SHA256: 13d5f96cff8e5cc47eeba8c1cce3a8aa47aa0b334d471b7915d90b65bba95e55
+SHA512: 53ab9e7a88795165caf3c9bc313fa4d95f8dcf0e0d3c6b1b3b52fcf78a0e5c94f94c40802cbc1507aa8f295397e94edeafe581dc2b45a696af55f722e2702a99
+Description: Hiển thị tốc độ mạng tải lên & tải xuống trực tiếp trên thanh trạng thái.
+Name: NetSpeedBar (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NetSpeedBar.json
+Depiction: https://jtisvn.github.io/depictions/NetSpeedBar.html
+Icon: https://jtisvn.github.io/sectionIcons/NetSpeedBar.png
+Author: Kitsudo
+
 Package: com.jtisvn.settingsrevamp
 Architecture: iphoneos-arm64e
 Version: 3.0.1
@@ -17860,6 +17900,21 @@ Name: Sileo
 Author: Amy While <me@anamy.gay>
 Icon: https://getsileo.app/img/icon.png
 SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.cydia.kiimo.assistivetouchx
+Architecture: iphoneos-arm
+Version: 1.0
+Section: iOS 11.3x
+Maintainer: Kiiimo <support@kiiimo.org>
+Filename: ./debs/org.cydia.kiimo.assistivetouchx_1.0_iphoneos-arm.deb
+Size: 459538
+MD5sum: cf09d0002f630cef94cafdad69b39633
+SHA1: 19ec63de0cc3ba4475d29c9baa03fbaf0db13621
+SHA256: 76895975005cd9dbcfbd28dde91a726f7edd512017509f6ff5ac41c3403f98f9
+SHA512: 7c59553ee4509c8d3cc22da296d7741b1b554fed72b6517d74a008447d2f1519cc0bdc475e0445bcea554647bc94ae6d2eab5df1c3526c043dc25591cfce5ef5
+Name: AssistiveTouchX
+Author: jailbreak365
+Sponsor: kiiimo.org <http://kiiimo.org>
 
 Package: org.cydia.kiimo.lynx
 Architecture: iphoneos-arm
