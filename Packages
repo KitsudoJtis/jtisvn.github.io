@@ -1466,25 +1466,6 @@ Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontcomicrelief14
 SileoDepiction: https://evynw.github.io/sileo/fontcomicrelief14.json
 Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
 
-Package: com.evynw.fontcomicrelief14
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Fonts
-Maintainer: JTISVN Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: ./debs/com.evynw.fontcomicrelief14_1.0_iphoneos-arm64e.deb
-Size: 42419922
-MD5sum: 9d3a88a53eef1539f4e2b41aba5ef776
-SHA1: e4164c45f44a6e8975849f0353635b556c8a7b6c
-SHA256: ff1754467efa915adc67c648035c32f305495180594cf38e334f65ebae576e6f
-SHA512: fc958f81d8fe8828730ad4af643933cbe72dd820cad54981cf2f7f3f2b1237a0a34024bcc58acf8642aca204c1ca366cf7897400102e5e1da8e1eaf07c597706
-Description: Phông chữ ios
-Name: Comic Relief (iOS14-16)
-Author: Evelyn (ev_ynw)
-Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontcomicrelief14
-SileoDepiction: https://evynw.github.io/sileo/fontcomicrelief14.json
-Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
-
 Package: com.evynw.fontdubai14
 Architecture: iphoneos-arm64
 Version: 1.1
