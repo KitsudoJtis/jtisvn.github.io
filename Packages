@@ -17403,25 +17403,49 @@ Depiction: https://kok3shidoll.github.io/info/lol.sep.turdusmerula/
 Author: Clarity, kok3shidoll, Mineek
 
 Package: me.alfhaily.rocket
+Architecture: iphoneos-arm
+Version: 3.7.27
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 9325
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap (>= 1.0.10~beta1)
+Filename: ./debs/me.alfhaily.rocket_3.7.27_iphoneos-arm.deb
+Size: 2368392
+MD5sum: 35c37e4a370b0f1ec5535fd175a3cf57
+SHA1: b6bb2a2de67340f8eeb136f6f3ec565465dc0f5f
+SHA256: 7cb1aeabd901dd07fc4ddbda91a365c9778dcc56edd484ccd816eccb754f9714
+SHA512: 1f7658d0366ed8e9d6c36951ad48368d43caeb97ad6e821a300d563db4cc4ee3348eeb88adf8253b3b8a7efa462d6719eb9920e16a214e3ad12ac01ec556173f
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=rocketforinstagramDp
+Description: Save posts and view stories anonymously and do much more
+Tag: purpose::extension
+Author: Rocket App <support@getrocketapp.io>
+Name: Rocket for Instagram
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=rocketforinstagramDp
+SileoDepiction: https://apt.alfhaily.me/depiction/sileo/4EYOXC
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: freemanrepo
+Icon: https://jtisvn.github.io/sectionIcons/Rocket.png
+
+Package: me.alfhaily.rocket
 Architecture: iphoneos-arm64
-Version: 3.8.36
+Version: 3.8.37
 Priority: optional
 Section: Tweaks
 Maintainer: Rocket App <support@getrocketapp.io>
-Installed-Size: 6684
+Installed-Size: 6688
 Depends: firmware (>= 8.0), mobilesubstrate
-Filename: ./debs/me.alfhaily.rocket_3.8.36_iphoneos-arm64.deb
-Size: 1469024
-MD5sum: 33be466b3d86363d2df0ead32e8f720b
-SHA1: a2773b780e8f484e2b9e789f805f6216d2164310
-SHA256: 5af24d3f8d7c86332608b6cd53b4369bcadb711fc1d6c48253ea5109e0abd9a3
-SHA512: 758abe69172287c51a2d45b7bf7eb9ba142ce45803050a035607c04cb4ba80be99a54663b333fcbf7a85d396d759eea561d5e5d555f2c0d5de404a3f63f560b3
-Homepage: https://jtisvn.github.io/
+Filename: ./debs/me.alfhaily.rocket_3.8.37_iphoneos-arm64.deb
+Size: 1450696
+MD5sum: bf76b3b94172f9d60979d4eb7aeaa258
+SHA1: dee2db841131f68dc8de8269ec71f0cc39c33875
+SHA256: f40b7daba1aed72046a53dd0733b4b82d5c3fa1398d2dce9ebbe9b004c4e8940
+SHA512: d834c071d7074d337595a23d0a8d8635dfe7b0673d754f385a36e4cf9a99f7d2e97428e5a23208989fa591ba22ad17c1411f5711e861a96d659d5d8cc86e9912
 Description: Save posts and view stories anonymously and do much more
 Name: Rocket for Instagram
 Author: Rocket App
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=rocketforinstagramDp
+Depiction: https://apt.alfhaily.me/depiction/4EYOXC
 SileoDepiction: https://apt.alfhaily.me/depiction/sileo/4EYOXC
+Icon: https://jtisvn.github.io/sectionIcons/Rocket.png
 
 Package: me.apptapp.installer
 Architecture: iphoneos-arm
@@ -18109,30 +18133,6 @@ Name: PreferenceLoader
 Author: Dhinak G
 Depiction: https://apt.htv123.com/view/97
 Icon: file:///Applications/Cydia.app/Sections/hethongg1.png
-
-Package: me.alfhaily.rocket
-Architecture: iphoneos-arm
-Version: 3.7.27
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 9325
-Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap (>= 1.0.10~beta1)
-Filename: ./debs/rocketforinstagram_3.7.27.deb
-Size: 2368148
-MD5sum: 2fc4ad3983b3f178dde147b45062bbd5
-SHA1: c76a1ed3ebcb7a75f4ee5cff9ba84eef5b0368de
-SHA256: 78e15c3bb85425a00b541f59bcfab66495773a6f3c31daafa37245499199afc8
-SHA512: 32e9916f13e40ebdbd0f538fa085bd4844c178b91324021e43173b8a32ff21ae2e133f561f8f79fea9f1e363b52d9489231548ed6228459df9599cb9a2e1709a
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=rocketforinstagramDp
-Description: Save posts and view stories anonymously and do much more
-Tag: purpose::extension
-Author: Rocket App <support@getrocketapp.io>
-Name: Rocket for Instagram
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=rocketforinstagramDp
-SileoDepiction: https://apt.alfhaily.me/depiction/sileo/4EYOXC
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: freemanrepo
-Icon: https://apt.alfhaily.me/cdn/assets/rocket-icon.png
 
 Package: ru.rejail.dleasy
 Architecture: iphoneos-arm
