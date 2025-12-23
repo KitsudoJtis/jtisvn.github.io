@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"NetSpeedBar\n\n- Hiển thị tốc độ mạng tải lên và tải xuống trewn thanh trạng thái của bạn.",
+"markdown":"NetSpeedBar\n\n- Hiển thị tốc độ mạng tải lên và tải xuống trực tiếp trên thanh trạng thái của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
