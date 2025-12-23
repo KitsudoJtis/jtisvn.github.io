@@ -15065,14 +15065,15 @@ Depends: mobilesubstrate, firmware (>=11.0)
 Conflicts: com.ioscreatix.silo
 Replaces: com.ioscreatix.silo
 Filename: ./debs/com.opa334.ccsupport_1.3.13-2-15+debug_iphoneos-arm64e.deb
-Size: 78138
-MD5sum: c08c9a3794e51d9d6ec64434f812b2ce
-SHA1: 5be2c804015f0c45ec4661e1e833165972b4b312
-SHA256: 51ff0060cb88235b1e098b8c5a550ed6280313ed29b42d5d4c809109b0e498bc
-SHA512: 44fc2e5a2af4edd54c881d379cff8c7e303743d4c935d1f48ae7b45bc5b7c4f49c581ff69c9f5f19ad28057b9e4518986d7dc79e106b9417cd7c61e160fd640e
+Size: 73724
+MD5sum: 884a283061993ab3bccbc82120176632
+SHA1: 674e3554824c234f3b4e4f311e7e48005165fed9
+SHA256: 32437dbbd5cf6c2d35029e7fd98cf349eebc6420c3acd2092db404a695c0c26b
+SHA512: 902acd31c603ac1cf552b1d93818d30b3a519619e639223c3d713ebb230b45ef8b5a32838ffe0af37c9abaa7710c15b8d6ea0737f40ecc096bf1ccbdedd03ed2
 Description: Support tweak for CC modules!
 Name: CCSupport
 Author: opa334
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 
 Package: com.opa334.ccsupport
@@ -15086,15 +15087,15 @@ Depends: mobilesubstrate, firmware (>=11.0)
 Conflicts: com.ioscreatix.silo
 Replaces: com.ioscreatix.silo
 Filename: ./debs/com.opa334.ccsupport_1.3.13-2_iphoneos-arm64.deb
-Size: 93656
-MD5sum: f6fab5693c56d6e8c61ae684e846059d
-SHA1: f89ab6763e63ae131060b94815df09c32225f3b2
-SHA256: a4e76334f78f9bcd628e46bd415b53e3001a2364020cb8572bcb7eb07cf19366
-SHA512: 51a0b571d253dcf6f67e64956f226f33a4f4a0a8f0619a1c6381c23cefd40e370721c81e298cd7f8cfd0b32fd0a856d6d57dc36051ecd2edd2fa2bb341a07bf9
+Size: 59000
+MD5sum: 7c6ba73038ececc71e51533d414625e1
+SHA1: 45a5258d351cda1be1f70a5504206a215ac4dcfd
+SHA256: 9a360335c22e0958069bbf71f11965b1c2761cf71a5739921448b29f936ba2ce
+SHA512: 624b0e893865d45019d6b56a3d1db857dabf31e49d5e231df023934c94a50dcce629806076966bbcff90a1147bf584b043a04d919699a6477f709978ea1c18e8
 Description: Support tweak for CC modules!
 Name: CCSupport
 Author: opa334
-Icon: file:///var/jb/Library/IconRepo/hethongg1.png
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 
 Package: com.opa334.choicy
