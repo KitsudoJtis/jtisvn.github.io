@@ -12908,6 +12908,26 @@ Icon: https://jtisvn.github.io/sectionIcons/TeleSF.png
 Author: choco, r22i0
 
 Package: com.jtis.tiktokgod
+Architecture: iphoneos-arm64
+Version: 4.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 420
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 15.0)
+Filename: ./debs/com.jtis.tiktokgod_4.0.0_ iphoneos-arm64.deb
+Size: 53296
+MD5sum: e221d6fd7c2a1e111cc16d2fbfad4a81
+SHA1: 0e513337531b4f3c479a038a6f6fee244823bd4e
+SHA256: 9917533f83e62d8ebff643eb94ea150ddd9010691aa71b78f62ca6bb36fb2787
+SHA512: edded22cfd5e6d95351365475c22576e36ee6080040deadfaa1e93012bcf2c9d2f14ecf60ef19c6a5d335b0d91f49812c655c878c4eb86f62b693aedfe29ad86
+Description: Tinh chỉnh tốt nhất cho ứng dụng TikTok phiên bản cũ.
+Name: TikTok God (Rootless)
+Author: Hao Nguyen
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TikTokGod.json
+Depiction: https://jtisvn.github.io/depictions/TikTokGod.html
+Icon: https://jtisvn.github.io/sectionIcons/TikTokGod.png
+
+Package: com.jtis.tiktokgod
 Architecture: iphoneos-arm
 Version: 4.0.0
 Section: Tweaks
