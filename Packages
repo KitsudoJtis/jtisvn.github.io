@@ -1466,6 +1466,25 @@ Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontcomicrelief14
 SileoDepiction: https://evynw.github.io/sileo/fontcomicrelief14.json
 Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
 
+Package: com.evynw.fontcomicrelief14
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.evynw.fontcomicrelief14_1.0_iphoneos-arm64e.deb
+Size: 42419922
+MD5sum: 9d3a88a53eef1539f4e2b41aba5ef776
+SHA1: e4164c45f44a6e8975849f0353635b556c8a7b6c
+SHA256: ff1754467efa915adc67c648035c32f305495180594cf38e334f65ebae576e6f
+SHA512: fc958f81d8fe8828730ad4af643933cbe72dd820cad54981cf2f7f3f2b1237a0a34024bcc58acf8642aca204c1ca366cf7897400102e5e1da8e1eaf07c597706
+Description: Phông chữ ios
+Name: Comic Relief (iOS14-16)
+Author: Evelyn (ev_ynw)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontcomicrelief14
+SileoDepiction: https://evynw.github.io/sileo/fontcomicrelief14.json
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+
 Package: com.evynw.fontdubai14
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -11752,6 +11771,27 @@ SHA256: fb531f733f9d1de52fc0776f1540d82c70264f8916b76be002ffd28b3a84d0db
 SHA512: 5d7e49d24a5ca3b36ff17d355f5ea3805746a1700c58051f931dc28e96bf4e4662f7cbebf0c1586cfb5a47e3a00f89ba106808623950b70b6acf7dca4b20d25b
 Description: Hiển thị nơi bạn chạm vào màn hình
 Name: ShowTouch (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ShowTouch.json
+Depiction: https://jtisvn.github.io/depictions/ShowTouch.html
+Icon: https://jtisvn.github.io/sectionIcons/ShowTouch.png
+Author: LonestarX
+
+Package: com.jtis.showtouch
+Architecture: iphoneos-arm64e
+Version: 1.0.4-3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1432
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.showtouch_1.0.4-3_iphoneos-arm64e.deb
+Size: 376356
+MD5sum: 344d56339270cad49aaf586818080829
+SHA1: 8de3cee48fc3635f708c4155f94027cb238d3dca
+SHA256: 4e143d8fdbe3d55bb8d1e8b25b25014ac44d7bddb40224f7416a752e2915c94b
+SHA512: c32356e08a8803375b80902b71707593f6b0ce642603da35ecb9b345faa945a4df093a44711fc8ff4d696a2531b5a4c8fe27b3f4337d82f6bb87751e7327552d
+Description: Hiển thị nơi bạn chạm vào màn hình
+Name: ShowTouch (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ShowTouch.json
 Depiction: https://jtisvn.github.io/depictions/ShowTouch.html
 Icon: https://jtisvn.github.io/sectionIcons/ShowTouch.png
