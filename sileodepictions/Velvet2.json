@@ -6,17 +6,6 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
-{
-"class":"DepictionHeaderView",
-"title":"Velvet 2"
-},
-{
-"markdown":"\n\n- Tùy chỉnh thônh báo hoàn toàn mới cho IOS 15 & 16.\n\n- Các chức năng gồm\n\n- Đổi nền màu thông báo.\n\n- Đổi màu viền và đổ bóng thông báo.\n\n- Đổi màu tiêu đề, nội dung ngày tháng.n\n- Ẩn biểu tượng ứng dụng.\n\n- Bán kính bo góc thông báo.\n\n- Làm tròn biểu tượng ứng dụng.\n\n- Không làm mờ thông báo khi chồng chéo.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -25,39 +14,127 @@
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionMarkdownView"
+"markdown":"Velvet 2\n\n- Tùy chỉnh thông báo hoàn toàn mới cho iOS 15 & 16.\n\n- Các chức năng bao gồm:\n\n  + Đổi màu nền, viền và đổ bóng thông báo.\n\n  + Đổi màu tiêu đề, nội dung, ngày tháng.\n\n  + Ẩn hoặc làm tròn biểu tượng ứng dụng.\n\n  + Tùy chỉnh bán kính bo góc thông báo.\n\n  + Không làm mờ thông báo khi chồng chéo.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionSpacerView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"NoisyFlake"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.12-3" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"3/8/2025"
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.5"
+"class": "DepictionLabelView",
+"text": "NoisyFlake",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày tải lên",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "3/8/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.12-3",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "83 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 16.5",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -67,20 +144,20 @@
 "alignment":1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.12-3\n\n- Thêm ngôn ngữ Tiếng Việt.\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 2.12-3\n\n- Thêm ngôn ngữ Tiếng Việt.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
+"tabname":"Liên Hệ Hỗ Trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",

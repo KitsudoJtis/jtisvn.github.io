@@ -683,25 +683,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/DLAnimation.json
 Depiction: https://jtisvn.github.io/depictions/DLAnimation.html
 Icon: https://jtisvn.github.io/sectionIcons/DLAnimation.png
 
-Package: com.BIENVANNHAT.cconandoff
-Architecture: iphoneos-arm
-Version: 1.1.0
-Section: Tweaks
-Maintainer: PoomSmart
-Installed-Size: 136
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Conflicts: com.jakeashacks.realcc
-Filename: ./debs/com.BIENVANNHAT.cconandoff_1.1.0_iphoneos-arm.deb
-Size: 8070
-MD5sum: f44ccc76547c37e5898a35577375c917
-SHA1: 2f0bd7f79a4681fba077883539bc14895bd335cf
-SHA256: 647213cfad4acc0da511bf7025494b5791d0e770eab89f696e527ed3f61e8528
-SHA512: 07aac17603ce0e5b5491e1659d3106cce8513e141c9ef2a9522c239d56fc870bb60e938a30ebd7aec0433b294adb15c927f407080772704653ff589a75d57b85
-Description: Bật/tắt Wi-Fi và Bluetooth từ Trung tâm điều khiển (iOS 11+)
-Name: CC On & Off
-Author: PoomSmart
-Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
-
 Package: com.LLSwitch.roothide
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -1844,17 +1825,17 @@ Section: Tweaks
 Maintainer: Ginsu
 Installed-Size: 1216
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: ./debs/com.ginsu.gsweather-_1.1.1_iphoneos-arm64.deb
-Size: 120364
-MD5sum: 2ceffc83cfbf7eb2a26c4292df0fdd15
-SHA1: 1157741bc79635f5429db0c116f333d9e01800be
-SHA256: d8b0131af91b9346f9096eb1fe7cf1e7dd216206cd993210abc076c7c456c4e9
-SHA512: 9dd4fe210227826e930b0c740a31ec169327c79012a63077f2a189344218769a26237c37b87ca6f56539b78ef82646aa23de1d900887f17c9b34f742eb9615f3
-Description: A Weather fetching framework
+Filename: ./debs/com.ginsu.gsweather_1.1.1_iphoneos-arm64.deb
+Size: 120352
+MD5sum: 5a9aa6ad2b741cded7accc1b6447cb48
+SHA1: 8ef47dbcc3a23851b0f0fb28679a65ee15734cf9
+SHA256: 0bbfe93f17d9c86d6bd1f9c047e0bf790e6688aefa84b559caa40ec0d38c16e4
+SHA512: cc19d73a680edc34d37394e8f7b8aaedaa7f2e1ddaa1838790f50f14363c2ad37ec1f8a2e0432c473cee68e1d1df80003b8a638b1432aadbacc58d4d499ee730
+Description: Khung tìm nạp thời tiết
 Name: GSWeather (Rootless)
 Author: Ginsu
 Depiction: https://ginsu.dev/#/depiction/com.ginsu.gsweather
-Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/icon.png
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/sileo.json
 
 Package: com.ginsu.gsweather
@@ -1866,16 +1847,16 @@ Installed-Size: 1216
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: dev.theos.orion14, firmware (>= 14.0)
 Filename: ./debs/com.ginsu.gsweather_1.1.1_iphoneos-arm64e.deb
-Size: 122324
-MD5sum: 206f892680625be7a7a1ce0c775d48c2
-SHA1: 8b6997d4be07925460aae4139bc4b560d4db1a1f
-SHA256: 31c2d7c460544131eb15147c6b6d2a4c79ea61fd990596cb8b14f5bf3d7a7d31
-SHA512: f5e086c0e5fbbb3b127335f00ce493751ffd4088cba8dfd33b097d9e7e5f63ed54f3431123fb892a70eddb628e0094bd9e70bc81e8e8f4fc1ba795f8de001dbd
-Description: A Weather fetching framework
+Size: 118244
+MD5sum: 8f468af8443dffefc065563faa7eb779
+SHA1: 8a360aafb7d17a947008d618f86c0a7884b6b7ad
+SHA256: ac849e504693d6b26bb88d177ec537f5c824dcd6c03358371f29eed625559630
+SHA512: be6bcdb90fd33a9e5e14017b4e5a260fd32b301368c167d83efe9f430268ae8356945f4d6165e729a2901c85f76948cdb247547bed21375576ef2798198786ce
+Description: Khung tìm nạp thời tiết
 Name: GSWeather (Roothide)
 Author: Ginsu
 Depiction: https://ginsu.dev/#/depiction/com.ginsu.gsweather
-Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/icon.png
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/sileo.json
 
 Package: com.haoict.libhdev
@@ -8806,15 +8787,15 @@ Installed-Size: 3384
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.jtis.iarrays-crack, org.mr.libiarraysrl
 Filename: ./debs/com.jtis.iarrays-crack_1.0.0_iphoneos-arm64.deb
-Size: 4624
-MD5sum: 1c253759ae57bdc17696dc151a02666e
-SHA1: 56e6a7b2a7faeb975d11a0fbcc0b6d0e9beb07fc
-SHA256: ee75a0dbac2fcb21df9497e90f107a2dcba192c7369707c1cc00399d04052878
-SHA512: 9ee6066bbb1938d17de3074c280c4c0d330efd492c7be8ac7e924e7cde3bd16344adeaa1475ef10c22893bd48134de62df46829ee90de831f5a887d755c2fa07
+Size: 4640
+MD5sum: a71cf8cb6b237d349802477ce2c1d699
+SHA1: acfb3f185e5d34a824a53937a409181dbe56c1b5
+SHA256: 8a9c91d798a8f3f26258a76868c47b46a6855ceff346792f3825e627d25b830d
+SHA512: aa1d4954cfdfea71e72fe57e1d6495303387fa32772b7a385a9358b0ce033564760fa4a34da0866da400e5773a06e00990aa7a6f53bd5741ad2cf99c41b33289
 Description: Kích hoạt gói các chỉnh sửa iArrays
- - Activate all tweaks from iArrays Repo
 Name: iArrays Crack
 Author: Artem Kasper
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.iarrays-crack
 Architecture: iphoneos-arm64e
@@ -8826,15 +8807,15 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.jtis.iarrays-crack, org.mr.libiarraysrl
 Filename: ./debs/com.jtis.iarrays-crack_1.0.0_iphoneos-arm64e.deb
-Size: 5556
-MD5sum: d6ac7285cf8a20c80f816d4ff99ee891
-SHA1: e7b005565abff4375773721a45b3de2f85ae8aca
-SHA256: 7d1512c966b63ae059b44401477808ed2991caabfd94f730f688a5f2bffdcf5a
-SHA512: 313786a2552faff5846f5fe692458d08bdc035cdfc6d3f3e694700ed342e4e300223fea2d09decbb9e389a81c8bb8581e627c07706f18f369a3b5c15e718e464
+Size: 4832
+MD5sum: 0c789447f91055ed63f502bbe5445694
+SHA1: e39450abf571174368c42c76a8693599738b0554
+SHA256: 1fe13bf9cc39b95e9f62a385284f152b0349b3f192fbdf8fa4fa1e6185f83724
+SHA512: b5b8d29b38b99b2f6d44c7c0e11040292dc56d12e69e7570db36635ff69f2fb6e78e4206f3f8ce53666135d7afeffc90692d143392321fd8291a481adfda0141
 Description: Kích hoạt gói các chỉnh sửa iArrays
- - Activate all tweaks from iArrays Repo
 Name: iArrays Crack
 Author: Artem Kasper
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.icatch
 Architecture: iphoneos-arm64
@@ -13366,6 +13347,24 @@ Depiction: https://jtisvn.github.io/depictions/UlikeVip.html
 Icon: https://jtisvn.github.io/sectionIcons/UlikeVip.png
 
 Package: com.jtis.upsidedowned
+Architecture: iphoneos-arm64
+Version: 1.1-4+debug
+Section: Tweaks
+Maintainer: Little 34306
+Installed-Size: 156
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.jtis.upsidedowned_1.1-4+debug_iphoneos-arm64.deb
+Size: 4688
+MD5sum: e2ce60420e51050fd1c06da41233cd10
+SHA1: c450bd812f3253d5052199c3e97544849d8d346c
+SHA256: 43b71eb1626023d0dbc9caf76a0affb2acc28b7a5533dbfcb9d782a0adc70305
+SHA512: 00f909096055cc2a318962940f95ab805c14362863c314887a0b24c7d282adeca5dcb26cd640321cefa86cb93bb12eb4c09c98e8bbb32ab98ecc1a113d64ec7c
+Description: Xoay mọi hướng bất kỳ (hướng ngược) trên IPhone của bạn.
+Name: upsidedowned (Rootless)
+Author: 34306, KhanhDuyTran
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.upsidedowned
 Architecture: iphoneos-arm64e
 Version: 1.1-6+debug
 Section: Tweaks
@@ -13373,14 +13372,15 @@ Maintainer: JTIS Repo
 Installed-Size: 156
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
 Filename: ./debs/com.jtis.upsidedowned_1.1-6+debug_iphoneos-arm64e.deb
-Size: 4608
-MD5sum: 0ccd4c1134f091a8f9f5e0900270ee23
-SHA1: 549fa4845c8cca694ba09aeac7aa3d50ebd23dba
-SHA256: 7d498db13de37630fa63c217851a68a78977135b3f19d747e651f913d148ff5c
-SHA512: ccce8a2469e2aa104408235d6acc0651867d4be916794d4dd0b0c6218d73e37f2aa9e13fc4045d12b41b4645996c4f84a959afbcf2348b8cc49b3c66f0d5d7cd
+Size: 4652
+MD5sum: d28594ece20d5daed3cc22489ead1a02
+SHA1: f70f2cdb6ddea89287e308eae03f674fa5b6fc62
+SHA256: c44dacb32fd545f74bbf172dc32255a4d9f2d49a559f787b1906fdabf47b53d5
+SHA512: ada50ce417e77a0b140928cff56f246fa9e9d8e37336268a1d81590a6ee170794354124c826629c39a33ad5ec2eab82b0b8888065155dbf32938b011e455e5a8
 Description: Xoay mọi hướng bất kỳ (hướng ngược) trên IPhone của bạn.
 Name: upsidedowned (Roothide)
 Author: 34306, KhanhDuyTran
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.uptime
 Architecture: iphoneos-arm64
@@ -15472,24 +15472,23 @@ Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Amber.json
 
 Package: com.ps.cconandoff
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm
 Version: 1.1.0
 Section: Tweaks
 Maintainer: PoomSmart
-Installed-Size: 156
+Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
 Conflicts: com.jakeashacks.realcc
-Filename: ./debs/com.ps.cconandoff_1.1.0_iphoneos-arm64e.deb
-Size: 7212
-MD5sum: b832ea7970d193d256e589eb03c40369
-SHA1: 5d50141cc4d8076115cc030d6155781a903fc03d
-SHA256: 950eb0dcc88050498fb8173638f7ca5df8ed13e4268132494d8ee32806119ea4
-SHA512: 30d32929ffdffa7d96e8d9224246ebf071d1a7e2f71c243b20a4563cbdc19bdda6261c20fe695185593ab4d3a9bfeec09efd51b76c960edede737e302d5f20f6
-Description: Bật/Tắt Wi-Fi và Bluetooth từ Trung tâm điều khiển (iOS 11+).
-Name: CC On & Off (Roothide)
+Filename: ./debs/com.ps.cconandoff_1.1.0_iphoneos-arm.deb
+Size: 5312
+MD5sum: c6b4dbf9de01f6c340af4e255e075ce6
+SHA1: a9113103d60c0c50fb7bf5058101079cfbd1ee1c
+SHA256: 1dfddb79debb1a01512df713cd94038af29e66d404e2fb92e6c51e1526194761
+SHA512: a0e39629e5963ac29b9affaf483f78393a433dfb679ef79213087fc46aae558d5fb2ddb1128e05410dd285ede6ddcfb682c96bfc0b7b88edec5631acd3e54919
+Description: Bật/tắt Wi-Fi và Bluetooth từ Trung tâm điều khiển (iOS 11+)
+Name: CC On & Off
 Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/cconoff.html
-SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/cconoff.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.ps.cconandoff
 Architecture: iphoneos-arm64
@@ -15500,16 +15499,39 @@ Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
 Conflicts: com.jakeashacks.realcc
 Filename: ./debs/com.ps.cconandoff_1.1.1_iphoneos-arm64.deb
-Size: 5052
-MD5sum: 1e723d56ae1b55dd74d872daf5056bea
-SHA1: c5ffdfdde249549b080de60b90b7b714e55da0b9
-SHA256: 4077945c97efe8ca35cec43ed92f7e8f2d88ddc90ff6f1e043d093f8ede25fe3
-SHA512: 169223493d858e8c35ee55fb2bdd7c739f4777056f5a05002df5ab60fe5cb12a1ec4cf56095d945d037173f2157708e26082535238daf71a579b233c51032c87
+Size: 5076
+MD5sum: 9850aa9f4bc0c5ca8ef08884fa4f42cc
+SHA1: 9826c29ce931d9bcfcf3fc153c9100964dca82ca
+SHA256: f2925b59daac0be392185f29e37596038a0d8dc04ed127489409007ddf0a53a5
+SHA512: 9716b2dfe0a79d98dd6337163d61623cd653c9590c08a968c26172a64e26f8878cf67ed532391223105e6f7813a498f9722086c74ab2341da653dc4b49bf302f
 Description: Bật/Tắt Wi-Fi và Bluetooth từ Trung tâm điều khiển (iOS 11+).
 Name: CC On & Off (Rootless)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/cconoff.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/cconoff.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.ps.cconandoff
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.jakeashacks.realcc
+Filename: ./debs/com.ps.cconandoff_1.1.1_iphoneos-arm64e.deb
+Size: 5256
+MD5sum: 0f3303ce9cd8f1d8dc5cf46202763111
+SHA1: 49a66613edbc7a8374eb5aa7bcf30573c54a2073
+SHA256: 85ed9c06426e394a0c1ab0d3e9848543cd2fae5673f50fe9f34e032d8d761f3e
+SHA512: b511193009a322decd1ee6a86679854a156539e5934fd9ab856f4529c62dcb974d611703522740f2526181dbc32b6aa7af76a3a620b3b522c2d1173d4e8ba965
+Description: Bật/Tắt Wi-Fi và Bluetooth từ Trung tâm điều khiển (iOS 11+).
+Name: CC On & Off (Roothide)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/cconoff.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/cconoff.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.ps.smoothcursorios13
 Architecture: iphoneos-arm
@@ -16317,14 +16339,15 @@ Maintainer: sunshinesong
 Installed-Size: 13792
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
 Filename: ./debs/com.sunshinesong.split-view-pro-helper_999.1_iphoneos-arm64.deb
-Size: 1376
-MD5sum: df0e96382a9c7f7384aad6f7c66453b2
-SHA1: d58dda22458ff06dadea6b1d2c8e68f9c2152dfa
-SHA256: 46b968c52a4b87c16260a8bfad3aa8ffa2082aa2438565335c1f8d5a24b21612
-SHA512: eed77be904f90488354729cd80ab4da0e26a6c8a84ff6855d4b5b3448f28bc1c2f3176c05df5d5cc13192e6efe28181f04efa0457ff62116661917c33d07d4ed
-Description: 分屏，不必太复杂，一切从简即可。
+Size: 1444
+MD5sum: d6396dc0b743f8477e317a936c65ea33
+SHA1: cf1ddcb382ee18dd37dd3bc2ae21257a208d9b63
+SHA256: ae4826adaf297d196ca3b1726bf9c7e765b18620f8896810609ed0103a2965e7
+SHA512: bd3a065e84d5e2cc545468fc8005aa659cc78269c40706450470ec72ce399294e218083f77a4eef35055a857f7ec0d13ccf8aac6993bf6995542bf22b1976201
+Description: Chia màn hình không cần quá phức tạp, chỉ cần giữ mọi thứ đơn giản.
 Name: split-view-pro helper
 Author: sunshinesong
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 TS: sp-sss
 
 Package: com.sunshinesong.split-view-pro-helper
@@ -16336,14 +16359,15 @@ Installed-Size: 13792
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
 Filename: ./debs/com.sunshinesong.split-view-pro-helper_999.1_iphoneos-arm64e.deb
-Size: 1836
-MD5sum: 9046d8f7ec2710e87f6db1e4490c0da1
-SHA1: 8473e130a5878ceb27c3effa742a574b945ca5f2
-SHA256: c2adfa3932ca84548f98f7907181a1f9282621732b85d3f0191a08eb7ee5daa3
-SHA512: b885854e8dcbcaa4d9a7082d09ccf53d3330d656b45c6031f9c4efe8dc77ac1eeb69bc564ca35e2b608853811595b2201c10a564d8ac125258690a8b9f8c6063
-Description: 分屏，不必太复杂，一切从简即可。
+Size: 1008
+MD5sum: 9529bfa0277aec7e882bb9aea01ccebf
+SHA1: 30e634908dca21be02e925bb188f3144ccf5988a
+SHA256: 2a5c54fba4ea46165f0f1424e24661617437d06376dd3f4afe803a7baaf80935
+SHA512: a4924b3257c532097d8dc903d97a4166d86768815ee8338e711097dad6e5ba1124a459ebfb1875982c862b643865c5b3c9958346a452650bf6c5a37de1437425
+Description: Chia màn hình không cần quá phức tạp, chỉ cần giữ mọi thứ đơn giản.
 Name: split-view-pro helper
 Author: sunshinesong
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 TS: sp-sss
 
 Package: com.teslaman3092.16player
@@ -17543,12 +17567,13 @@ Depends: mobilesubstrate
 Conflicts: com.icraze.gestures15, net.kenhtao.gestures15.full
 Replaces: com.icraze.gestures15, net.kenhtao.gestures15.full
 Filename: ./debs/net.jtis.gestures15_1.0_iphoneos-arm64.deb
-Size: 5016
-MD5sum: f29c9555bfb11fcec3f9dfdbbe088271
-SHA1: 1fd20fb0297997bc603c7c3118b16a92c2a79dd3
-SHA256: 674d829f13c642d167989ea7bab42c5b977684cf94694f91651f0755d5461887
-SHA512: 7aa02274f4f6132b758eb0bebb521808543d64511b1378cc5ede330f4f1e2e12630a4d727676546ec3dc66fbc4b41d9a062cb444110c56dd7a4ee887572e3cec
+Size: 5076
+MD5sum: 28211e6ca5212a9f2ca5362e3d85cc83
+SHA1: af3a9414754ba12aaee4a4a841a58efe3132c20b
+SHA256: 2d16e016075f1165c649b60009a7d6b1275ec32973b54fc5dc25751c40144aba
+SHA512: f43880f2556903a49a9fb7ecbe9854c62cb450e2d4c10b255f9bb71fb4829b8c2cc07a2509a76bde4452287cc2d51540915ea630754e2c0f219a25d7991b8ee8
 Description: Cử chỉ iPhone X và thanh trạng thái iPad cho tất cả thiết bị của bạn.
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Name: Gestures15 (Rootless)
 Author: iCraze
 
@@ -17563,12 +17588,13 @@ Depends: mobilesubstrate
 Conflicts: com.icraze.gestures15, net.kenhtao.gestures15.full
 Replaces: com.icraze.gestures15, net.kenhtao.gestures15.full
 Filename: ./debs/net.jtis.gestures15_1.0_iphoneos-arm64e.deb
-Size: 6092
-MD5sum: 0e0d9078fa34a951c1791efd9ebe69f2
-SHA1: c8396fbe8081a94340fec1bca92471a50f47c1db
-SHA256: ecfabd2017a5f10ebf34d3e8b3564840c3062f3761bd8a4ce30f8a348e5f02b4
-SHA512: 4533bb40ad703272772d67379b209de18d9924a598fb02dc618cf053a2be201e22a54e5c9b31bb398044fc38baaf247db13635853e8b7f2c5780ba35278e40c7
+Size: 5040
+MD5sum: 523d8733809ffd691c92853976140474
+SHA1: 4476759b837c71c21ca9f6cdba879981cf5f1695
+SHA256: 7a8660a0815b729a713078daac425831959b2410b2918a3b73f713899415f6d2
+SHA512: 86a6a11dfbaafbc051e13d087e17a5fcd7888780421d5f70ba942f92d50df9a0527c5a517ff98d77a5e07c5c4ba578b7433787a333b9519d60ad71177fe581b4
 Description: Cử chỉ iPhone X và thanh trạng thái iPad cho tất cả thiết bị của bạn.
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Name: Gestures15 (Roothide)
 Author: iCraze
 
