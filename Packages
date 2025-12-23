@@ -7484,6 +7484,43 @@ Name: Filza Crack (Roothide)
 Author: Netskao
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.filzacrack
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
+Filename: ./debs/com.jtis.filzacrack_1.1-9_iphoneos-arm64.deb
+Size: 28860
+MD5sum: ea48b688ab1da98e717f20c84ccac5e4
+SHA1: b303a07d25536cdf3f9af8f76b9cca38cd6ccdb0
+SHA256: 41266d1b01353f06c655d7012f02fbc8cab598bb0aa8fd686f52acc6ddd4457b
+SHA512: 1f9e0cb73b0a1f66d4df5774cb326629f45ae0ceee48b0681e4274e8d4a815cd41c3d1bfc7fd086bf67138772d30bc331e233f322b920950c28843e4de9e2d17
+Description: Mở khóa toàn bộ tính năng Filza. Vui lòng cài đặt Filza từ nguồn chính thức trước. Đây là bản cập nhật mới từ Netskao, được đăng tải để sao chép.
+Name: Filza Crack (Rootless)
+Author: Netskao
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.filzacrack
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
+Filename: ./debs/com.jtis.filzacrack_1.1-9_iphoneos-arm64e.deb
+Size: 29124
+MD5sum: 3348ae584e874a8ed16e0739b53d3681
+SHA1: 55e5cb2077036484add3f499026dc84c388af49b
+SHA256: eb95e3d6758d3373990295344f6ec0832bb851551e624f02bed21bb0fdc3f71f
+SHA512: ace0e49e2c97ad3c8378808016c72c11cb330ba0184cc3fd74111b93ad83ec1730111e88cd018be83a7707e7d615acf52705b11c9af06186cf5dd66e155c6efb
+Description: Mở khóa toàn bộ tính năng Filza. Vui lòng cài đặt Filza từ nguồn chính thức trước. Đây là bản cập nhật mới từ Netskao, được đăng tải để sao chép.
+Name: Filza Crack (Roothide)
+Author: Netskao
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.filzathememanager
 Architecture: iphoneos-arm64e
 Version: 1.0.1
@@ -13503,6 +13540,27 @@ MD5sum: e2f28559de81d1c5a3fc20bc0262b9c4
 SHA1: b3c3c37188d5be6d48f2f1471972aa1effcffcd8
 SHA256: 750b696f26bf45f4a6f22939963208ca07d71bf54920edb2cde40a79ffbef092
 SHA512: 1471e359313ed1e1b0d0e82e1b30762351a6e5682293fb74a5413d0186e8a4dd7f86da978aa1070777ab4e2134bddd08681992b5909ba18c0057edaa8710a03b
+Description: Ulike unlock Vip
+Name: Ulike VIP
+Author: Laxus
+SileoDepiction: https://jtisvn.github.io/sileodepictions/UlikeVip.json
+Depiction: https://jtisvn.github.io/depictions/UlikeVip.html
+Icon: https://jtisvn.github.io/sectionIcons/UlikeVip.png
+
+Package: com.jtis.ulikevip
+Architecture: iphoneos-arm64e
+Version: 5.4.1
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 9600
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.ulikevip_5.4.1_iphoneos-arm64e.deb
+Size: 4567568
+MD5sum: 62dc1e70bbb7e0e5dd67a19caa55b135
+SHA1: 6e00ed1ab2aaeef51906486b5dd5ae0b1030ad29
+SHA256: 25e1a9e3602a2f5e97f70c63283064f5bf2cf0de1b9740153d1aafbb8aaa7ea2
+SHA512: 394f5f171c727568aced70d98149d814f1641dddfa3e3e8d285d4da2199a61a4961052347ed39bb338e06d194f48fa71c3db6e1e58f7f48fab5bf5d800f288dd
 Description: Ulike unlock Vip
 Name: Ulike VIP
 Author: Laxus
