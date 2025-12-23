@@ -2225,6 +2225,29 @@ Author: IArrays <contact@iarrays.com>
 Sponsor: IArrays
 Icon: https://iarrays.com/sileo-depiction/calllogpro/icon.png
 
+Package: com.iarrays.calllogpro.rootless
+Architecture: iphoneos-arm64e
+Version: 15.0-beta-7
+Section: Utilities
+Maintainer: JTISVN Repo
+Installed-Size: 11136
+Pre-Depends: rootless-compat(>= 0.9), firmware (>=15.0)
+Depends: mobilesubstrate, com.iarrays.libiarrays.rootless (>= 1.0.16), com.jtis.iarrays-crack
+Conflicts: com.iarrays.CallLogPro10, com.iarrays.CallLogPro81, com.iarrays.CallLogPro8, com.iarrays.calllogpro.r-o-o-t-l-e-s-s-
+Filename: ./debs/com.iarrays.calllogpro.rootless_15.0-beta-7_iphoneos-arm64e.deb
+Size: 2488892
+MD5sum: e395f508ffd8987bcd2a216ef13d6a1f
+SHA1: bc173251ef1b3f9dcfd98760682c8c42e19b9725
+SHA256: 2c129a822468e034e9615432d8730e3120f54740a31d262e0125be77a68c2357
+SHA512: 684e9d153de4ca63e541832ea65fea806085f2e220536f41b112cbdd381c4dee24ca94e1772b8b67899938d2942ab306b546a3fa94b92ce1e43ec08e9ab6dc4d
+Description: Đã hỗ trợ iOS 16.x. CallLogPro cho phép quản lý lịch sử cuộc gọi, hỗ trợ xoá từng mục hoặc xoá toàn bộ.
+Name: CallLogPro (Roothide iOS 17 to 15)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CallLogPro.json
+Depiction: https://jtisvn.github.io/depictions/CallLogPro.html
+Author: IArrays <contact@iarrays.com>
+Sponsor: IArrays
+Icon: https://iarrays.com/sileo-depiction/calllogpro/icon.png
+
 Package: com.iarrays.libiarrays.rootless
 Architecture: iphoneos-arm64
 Version: 1.0.16-beta-15
