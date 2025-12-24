@@ -2922,6 +2922,27 @@ Name: Apple Symbols
 sileodepiction: https://jtisvn.github.io/sileodepictions/AppleSymbols.json
 Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
 
+Package: com.jtis.AvenirNext
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Depends: firmware (>=15.0)
+Filename: ./debs/com.jtis.AvenirNext_1.1.0_iphoneos-arm64.deb
+Size: 5082112
+MD5sum: 0c2c8c83b9ea3c565d148017ae6a58b3
+SHA1: 634ff11fdd20bb1f645161782deb3ee6ddcae729
+SHA256: a9b2c08b05ddac926678bd5809363cc12831f0b19f0d05f2c99a1c22a5a033a4
+SHA512: 0be4775479245100c78b3dc832614ef0c3a682ae2357701ffcb3eff457728e02c23be0f99aa07173656fd0d081539921823dbc2250fa021dad58ef6939711fdf
+Homepage: https://jtisvn.github.io/
+Description: Phông chữ kích hoạt qua Snowboard hỗ trợ iOS15
+Name: Avenir Next
+Author: Evelyn
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AvenirNext.json
+Depiction: https://jtisvn.github.io/depictions/AvenirNext.html
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+Tags: compatible_min::ios15.0, compatible_max::ios15.7.4
+
 Package: com.jtis.Barmoji
 Architecture: iphoneos-arm64
 Version: 2023.3.3
