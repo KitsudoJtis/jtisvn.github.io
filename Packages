@@ -2864,6 +2864,46 @@ Depiction: https://jtisvn.github.io/depictions/2DockX.html
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 dev: minazuki
 
+Package: com.jtis.3dappversionspoofer
+Architecture: iphoneos-arm
+Version: 2.1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 428
+Depends: com.opa334.altlist
+Filename: ./debs/com.jtis.3dappversionspoofer_2.1.0_iphoneos-arm.deb
+Size: 59096
+MD5sum: dedb8646e02e695c93da1ecf47e2cbc7
+SHA1: 1b9cea03204b2dd196b77e58c6b3b400dc133285
+SHA256: 23b10e2c949e40b6460123c5323634520de0021cd39aad27e566561599c5732b
+SHA512: bb1487265671faf831dad9de9afec082431728c27f2288c7c2810fd904fcec470ef0f84ca6d1d7681dd2904f2fbadd63f8e522d5cde9a35ad883164037d1b938
+Description: Một tinh chỉnh để thêm khả năng giả mạo ứng dụng từ menu3D và các cài đặt trước của bạn
+Name: 3DAppVersionSpoofer
+Author: 0xkuj
+SileoDepiction: https://jtisvn.github.io/sileodepictions/3DAppVersionSpoofer.json
+Depiction: https://jtisvn.github.io/depictions/3DAppVersionSpoofer.html
+Icon: https://jtisvn.github.io/sectionIcons/3DAppVersionSpoofer.png
+
+Package: com.jtis.3dappversionspoofer
+Architecture: iphoneos-arm64
+Version: 2.1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 408
+Depends: com.opa334.altlist
+Filename: ./debs/com.jtis.3dappversionspoofer_2.1.0_iphoneos-arm64.deb
+Size: 60052
+MD5sum: cc5ebef177cf7497a9bfd580086d06ea
+SHA1: e2f9343d0606fa558a20d392730d49b82292ad50
+SHA256: aad2be3d4f29e65f18be9d5e298f0bc6a0f7af65615707bbaf48d6de9a5c5dde
+SHA512: 4fdf8e1012e8955cdf9fd8b0c24848f5d204e106b917976dc8cbc8e25ca82b6c0ad22224d12c4b53d563642f13cae28d2b348c0ad4b61fd538656d7660163161
+Description: Một tinh chỉnh để thêm khả năng giả mạo ứng dụng ngay menu3D và các cài đặt trước của bạn
+Name: 3DAppVersionSpoofer (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/3DAppVersionSpoofer.json
+Depiction: https://jtisvn.github.io/depictions/3DAppVersionSpoofer.html
+Icon: https://jtisvn.github.io/sectionIcons/3DAppVersionSpoofer.png
+Author: 0xkuj
+
 Package: com.jtis.3dbadgeclear
 Architecture: iphoneos-arm64
 Version: 1.6.8
