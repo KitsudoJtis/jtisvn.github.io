@@ -7617,6 +7617,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Fiona.json
 Depiction: https://jtisvn.github.io/depictions/Fiona.html
 Icon: https://jtisvn.github.io/sectionIcons/Fiona.png
 
+Package: com.jtis.fivedock16
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Depends: firmware (>= 16.0),mobilesubstrate
+Filename: ./debs/com.jtis.fivedock16_1.0_iphoneos-arm64.deb
+Size: 4488
+MD5sum: d72696bdcf2b74882a890241f328efc5
+SHA1: a46dfcf95238ead5e955f45adcee6e9ca26bc7df
+SHA256: 137e9f900e609273fce048d73d8d0287d4b42196fba714ab805cc3a9511fb0f1
+SHA512: c4df1f677d63ba77da8e4635e798b976ba4058c6ef946bc98ae17d531ac4e54dd27ca72fdc88d0a3ea3df252ecba5465b9199d7fedbb42e12d20be4806852580
+Description: 5 biểu tượng trên Dock của bạn!
+Name: FiveDock16 (Rootless)
+Author: P2KDev <p2kdev@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.fixSneakyCam
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -11557,6 +11575,49 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/RemoveWidget.json
 Depiction: https://jtisvn.github.io/depictions/RemoveWidget.html
 Icon: https://jtisvn.github.io/sectionIcons/RemoveWidget.png
 
+Package: com.jtis.replaced
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.34306.replaced
+Filename: ./debs/com.jtis.replaced_1.0_iphoneos-arm64.deb
+Size: 3364
+MD5sum: 6923ae2f085e50a52c26625925857e0c
+SHA1: d50db7cee2388f77a79519a7f0a0eadd9859632f
+SHA256: 72c6ad2416ed31a000659f13887a1b5fe99459721f788d75a61de50f317d9f82
+SHA512: a44f921bf835639174278f15c7bd2ba50993e98310e0eebf7c815c6f860b93b31a214f6650203a47dccf2565a7b7e7a773a056211d9973cb847f9287ddc8d42c
+Description: Xoá thông báo linh kiện không xác định và linh kiện chính hãng trong mục giới thiệu của iPhone.
+Name: replaced (Rootless)
+Author: 34306
+SileoDepiction: https://jtisvn.github.io/sileodepictions/replaced.json
+Depiction: https://jtisvn.github.io/depictions/replaced.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.replaced
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.34306.replaced
+Filename: ./debs/com.jtis.replaced_1.0_iphoneos-arm64e.deb
+Size: 3288
+MD5sum: 74676f3c9ad2e481ed4563a50b6aa4ec
+SHA1: f82e5476a17311eeec7f6008fa94f33aee2490e4
+SHA256: e12733e4559d00b07d7d2f338eb8a5a30ddb66c4bbe4f59c9021976ac2ad203b
+SHA512: be0fd1649b32a4eb984c1dd885d3a7998b30612f3f33614ec3a8d45942a23e314109e14154dbe41d36f70748129223eb1aae0d5a92eed45dd5d5fb507d4a95e6
+Description: Xoá thông báo linh kiện không xác định và linh kiện chính hãng trong mục giới thiệu của iPhone.
+Name: replaced (Roothide)
+Author: 34306
+SileoDepiction: https://jtisvn.github.io/sileodepictions/replaced.json
+Depiction: https://jtisvn.github.io/depictions/replaced.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.reprovision
 Architecture: iphoneos-arm64
 Version: 0.8.5.1~rootless
@@ -12071,6 +12132,28 @@ Name: ShadowBuster (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: Lizynz <lizynz@ya.ru>
 
+Package: com.jtis.shortmoji2
+Architecture: iphoneos-arm64
+Version: 2.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2700
+Depends: mobilesubstrate, ws.hbang.common, com.rpetrich.rocketbootstrap, com.nightwind.cephei-compat, xyz.cypwn.xinam1ne
+Conflicts: xyz.cypwn.shortmoji, xyz.cypwn.shortmoji2
+Replaces: xyz.cypwn.shortmoji
+Filename: ./debs/com.jtis.shortmoji2_2.0.1_iphoneos-arm64.deb
+Size: 646924
+MD5sum: 1ad9d9171e9c76adcd4f426aed90218f
+SHA1: 9c4c6eced1e7acf68b61d58cec92c3ba5c273daf
+SHA256: 1a26336cd511ee7b53818b38f09101093f01127781ef468802335dc604e32e52
+SHA512: 0dd2ea1f2852c4887bcf5e6611c405b8a4459f24f2797f2bc387a0de51ade6662e9c16f76199037c8abbb20ca4f187067fd8e0b754fbe4000780b75501358ae3
+Description: Một tinh chỉnh tuyệt vời cho bàn phím của bạn.
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Shortmoji.json
+Depiction: https://jtisvn.github.io/depictions/Shortmoji.html
+Icon: https://jtisvn.github.io/sectionIcons/Shortmoji.png
+Name: Shortmoji 2 (Rootless)
+Author: MiRO <tweaks_support@miro92.com>
+
 Package: com.jtis.showtouch
 Architecture: iphoneos-arm64
 Version: 1.0.4-3
@@ -12180,6 +12263,47 @@ Name: Shuffle (Roothide)
 Author: CreatureSurvive <support@creaturecoding.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Shuffle.json
 Icon: https://jtisvn.github.io/sectionIcons/Shuffle.png
+
+Package: com.jtis.silentnotifs
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.silentnotifs_0.0.2_iphoneos-arm64.deb
+Size: 3880
+MD5sum: ee3bf43e663ba10ea5e12b3cd335e84b
+SHA1: cf52821e91c067f7cac3362ad71d7501b159d53b
+SHA256: cacb528ba56edad74a7494b3a34fa910258fee81c80931b9d7f172d7facc2505
+SHA512: 0ad56f33b8ae4a7e80cff1c92cb681201a33955314b63065c438fcaacbd15a00482feaa0497c0aa053fd1e07c0c5eb21308ab093bebb5f6e4b70ceb89bc456bd
+Description: Giữ thông báo im lặng trong khi phương tiện đang phát
+Name: SilentNotifs (Rootless)
+Author: dvntm
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SilentNotifs.json
+Depiction: https://jtisvn.github.io/depictions/SilentNotifs.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.silentnotifs
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.silentnotifs_0.0.2_iphoneos-arm64e.deb
+Size: 3776
+MD5sum: 9d9c2a3ef2c0c59b886daec8c31e67b9
+SHA1: cd3ae4c607ae3b73f874e18c978edeffd3e95484
+SHA256: 881ce3863d6f7648ce503afd4086cb253b8eecfcb9480b29a39b84bad9702b4b
+SHA512: 997178c79174acb939830f01eaaa8edeb6b9388d4b1871019a91afc1832c8bb839cc259d6bbe4d227e82ccf7abf034c107e6cbf96d2f27fa47ae53c06dffea2c
+Description: Giữ thông báo im lặng trong khi phương tiện đang phát
+Name: SilentNotifs (Roothide)
+Author: dvntm
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SilentNotifs.json
+Depiction: https://jtisvn.github.io/depictions/SilentNotifs.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.singlemute
 Architecture: iphoneos-arm64
@@ -16198,6 +16322,23 @@ Author: roothide
 Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
 Depiction: https://github.com/roothide/RootHidePatcher
 Support: https://github.com/roothide/RootHidePatcher
+
+Package: com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm64
+Version: 1.1.1~rootless
+Section: Tweaks
+Maintainer: JTISVN
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.rpetrich.rocketbootstrap_1.1.1~rootless_iphoneos-arm64.deb
+Size: 20292
+MD5sum: 5812d93656a57766e293f12f27ef3b41
+SHA1: 37f1c406f52eba0142b6b0bac105d7ac7c2776a5
+SHA256: b7a675cdd33ab0e4e13ba95780435da19b78041f09ed8ca58ef18065874c80ec
+SHA512: 9a7717b164d69598cdf85107afe29d1c043c29735595a54826347d176cd9f8c5f656fa42833a824512db7212ca964ad389fe6095631f51c5fb3dcdbd1a8b070a
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Name: RocketBootstrap (Rootless)
+Author: Ryan Petrich
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.rpgfarm.a-font
 Architecture: iphoneos-arm
