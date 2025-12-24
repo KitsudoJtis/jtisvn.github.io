@@ -6041,6 +6041,48 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/CallMeMaybe.json
 Depiction: https://jtisvn.github.io/depictions/CallMeMaybe.html
 Icon: https://jtisvn.github.io/sectionIcons/CallMeMaybe.png
 
+Package: com.jtis.callmemaybe
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 268
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.callmemaybe_1.0.1_iphoneos-arm64e.deb
+Size: 44612
+MD5sum: 5fbee7e0db263d4dd5b759dedee211a3
+SHA1: b8e2b52d7494d51b24cd8a12f2f74e8e5b3c7a41
+SHA256: c01c05eb2286f37b803382132701b6ca1a278c09d574275a55bdc66fdde57edd
+SHA512: 74d313ea3298853794f66b18b03fc879c1b10803b2c6c7a1a52a2bd24753976d5dfb5aa05fcca6398e4f27444eff810e739b661492327c93bfbed324da55f48b
+Description: Trình cải tiến cho ứng dụng Điện thoại hệ thống
+Name: CallMeMaybe (Roothide)
+Author: dvntm
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CallMeMaybe.json
+Depiction: https://jtisvn.github.io/depictions/CallMeMaybe.html
+Icon: https://jtisvn.github.io/sectionIcons/CallMeMaybe.png
+
+Package: com.jtis.callvideobg
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 352
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), oldabi
+Filename: ./debs/com.jtis.callvideobg_1.0.0_iphoneos-arm64e.deb
+Size: 33104
+MD5sum: 79e98916ab828d2c3780e89f77536742
+SHA1: b1d08e0b20c5aec3d41fa794534f3668e1a8be0c
+SHA256: aa42527f5927f9315ac349dcb7acc9a8ee0b202766b7d662b2421138e2d3c7e3
+SHA512: baeeab2d779f1b869fdba8b78dc46124684a02da179672e0efe5808c2070eb34e88065faf4f3eb6d18607f24a9ed97c71b91c2439c22b9d643072e86bfe43fec
+Description: Video nền cho cuộc gọi đến.
+  	  *  Thêm video làm nên từ Anbum Ảnh trong cài đặt
+  	  *  Yêu cầu tai gói tweak Legacy arm64e Support.
+Name: CallVideoBG (Roothide)
+Author: BVN
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.Cartoo
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -6252,6 +6294,25 @@ Name: CC26 (Roothide)
 Author: therealhoodboy
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
 Icon: https://jtisvn.github.io/sectionIcons/CC26.png
+
+Package: com.jtis.ccadsbegone
+Architecture: iphoneos-arm64
+Version: 1.5
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 6096
+Depends: com.opa334.ccsupport, com.ps.letmeblock (>= 1.3.0)
+Conflicts: com.0xkuj.ccadsbegone
+Filename: ./debs/com.jtis.ccadsbegone_1.5_iphoneos-arm64.deb
+Size: 952116
+MD5sum: 74daf70c2746fd49ab039f1cc3b6caac
+SHA1: a4f14b9d33bec0e2943d4098845a59a8dfd238c6
+SHA256: cdadc3b8a13d41bbda3eaa46a3a65739720c86955f0bf4feb7b3dd31072de35c
+SHA512: 17d58a09472d212d156c8e4bbaddc41179cbbeb4a3a4413bd2059ec2f848de6ea58a2ee0190c5c7e801195d4460eb376cc9cce1453c0d1510ad19369c525cca3
+Description: CC Chuyển đổi để chặn quảng cáo theo yêu cầu!
+Name: CCAdsBeGone (Rootless)
+Author: 0xkuj
+Icon: https://jtisvn.github.io/sectionIcons/CCAdsBeGone.png
 
 Package: com.jtis.ccborder
 Architecture: iphoneos-arm64
@@ -8937,6 +8998,49 @@ Author: Lightmann <lightmanns11@gmail.com>
 Name: IAmLazy (Rootless)
 Icon: https://Jtisvn.github.io/sectionIcons/Iamlazy.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Iamlazy.json
+
+Package: com.jtis.iapstorefugu
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 384
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtis.iapstorefugu_0.0.2_iphoneos-arm64.deb
+Size: 42532
+MD5sum: b3ab3838a0806dfc2141192d12acf4ae
+SHA1: 7721eebc0a055aa8924569cdb92b685eabafe788
+SHA256: c94435165900522c7a656b1fcffef83ab612c2ea54f9025e8529be1ab04e6e8e
+SHA512: 36f0cc8141743ba7ec0301f009a926eac8071b4a4c58a19d43f4c1de328446c830466eb8b23fadb68fd4ad03e3afdcd61e04ebf5b9d8223747c60be5495f63e9
+Description: Công cụ bẻ khóa một phần mua trong ứng dụng..
+  	  *  Khi mua, sẽ hiện cửa sổ pop-up yêu cầu thanh toán 
+  	  *  Bạn chỉ cần nhấn nút hủy.Chỉ áp dụng cho ứng dụng đã chọn
+Name: IAPStore (Rootless)
+Author: lenglengyu
+Depiction: https://jtisvn.github.io/depictions/IAPStore.html
+Icon: https://jtisvn.github.io/sectionIcons/IAPStore.png
+
+Package: com.jtis.iapstorefugu
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 384
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtis.iapstorefugu_0.0.2_iphoneos-arm64e.deb
+Size: 41540
+MD5sum: aac815881185e64bd7752cceb969d7d8
+SHA1: 4f98977e965df6d6798d1a36a71dfb04bc168330
+SHA256: e2b78f75c91370c04bc7fe140c685b339a2905d5f68462e0fab501e5ad35df0e
+SHA512: 509401fd80822b8f76694ecc8ec3c52160b657d62472df996df7d7932aea457c7849346487d54ff0364167b6735386d8ca5fc0f75ff6093c3457f077d8cb7a41
+Description: Công cụ bẻ khóa một phần mua trong ứng dụng..
+  	  *  Khi mua, sẽ hiện cửa sổ pop-up yêu cầu thanh toán 
+  	  *  Bạn chỉ cần nhấn nút hủy.Chỉ áp dụng cho ứng dụng đã chọn
+Name: IAPStore (Roothide)
+Author: lenglengyu
+Depiction: https://jtisvn.github.io/depictions/IAPStore.html
+Icon: https://jtisvn.github.io/sectionIcons/IAPStore.png
 
 Package: com.jtis.iarrays-crack
 Architecture: iphoneos-arm64
@@ -14754,45 +14858,6 @@ Name: PullOver Pro Gói Việt Hoá (Roothide)
 Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
-Package: com.langkhach.adblockpro
-Architecture: iphoneos-arm64
-Version: 0.0.1
-Section: Mở khoá ứng dụng
-Maintainer: JTIS Repo
-Installed-Size: 172	.dragon/_
-Depends: mobilesubstrate
-Filename: ./debs/com.langkhach.adblockpro_0.0.1_iphoneos-arm64.deb
-Size: 8600
-MD5sum: 5cccb003a2b4f0f61eacb4412b1e55c2
-SHA1: 320aafec0353c6ccb2fe64900b80346fda5e8db8
-SHA256: 8157bb1765a952b360737e2da7e03d738de207c8483c96bff5b6d0d136bffee0
-SHA512: 7140960e3d8d89424bb20afe2c3bf8aa10bd4608caf9e1f29ad0eff80643160c61cb4e28bc813fd739ab0feccfa86b72a114108e51689456edef8d7595041959
-Description: Kích hoạt gói cao cấp ứng dụng AdBlockPro
-Author: Lang khach
-Name: AdblockPro
-Icon: https:/jtisvn.github.io/sectionIcons/AdBlockPro.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/AdBlockPro.json
-
-Package: com.langkhach.adblockpro
-Architecture: iphoneos-arm64e
-Version: 0.0.1
-Section: Mở khoá ứng dụng
-Maintainer: JTIS Repo
-Installed-Size: 172	.dragon/_
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/com.langkhach.adblockpro_0.0.1_iphoneos-arm64e.deb
-Size: 11416
-MD5sum: 0d081c4899adc4bfca948241a9912019
-SHA1: b6a4b133415da703a81d387178ac24839c5e860b
-SHA256: df8d48d9725a09284f05a7f221189c14814d22104c2fac1275618146464b3b8d
-SHA512: 0a50f8a0e2d4d281fa25fcce7268419bf55f3f060e3a451e061f35ce324df255dcfe2ad8f64ff8560f36131818cc4a93b089dced93d8fa3b580bb6dfc5d996b7
-Description: Kích hoạt gói cao cấp ứng dụng AdBlockPro
-Author: Lang khach
-Name: AdblockPro
-Icon: https:/jtisvn.github.io/sectionIcons/AdBlockPro.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/AdBlockPro.json
-
 Package: com.langkhach.revenuecat
 Architecture: iphoneos-arm64e
 Version: 0.0.1
@@ -17057,6 +17122,25 @@ Name: MagSafe Enabler (Roothide)
 Icon: https://siieo.github.io/sileodepictions/MagSafe/icon.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/MagSafe.json
 Author: Tomasz Poliszuk
+
+Package: com.udevs.autotouchunlock
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Tweaks
+Maintainer: udevs
+Installed-Size: 364
+Depends: mobilesubstrate, firmware(>=13.0)
+Filename: ./debs/com.udevs.autotouchunlock_1.0.1_iphoneos-arm.deb
+Size: 20480
+MD5sum: eeb6b5243f95dbad6047f7636b38fdd3
+SHA1: c353653e862921bddc39ee1b786a96df4f8ea602
+SHA256: ca8f40256e6aa546c726bfc1baed2aea1ba9f9d14a942cc6cc5955236c85fc33
+SHA512: 7f0f72f8ad4700b5f9fad86d93d597b503fdbce9be6979a2b0edc9ee751de19995ff669e223f6840a4bbd070f67af37245db383d873deb6b192f033ecbc340a0
+Description: Unlock to home, but with conditions.
+Name: AutoTouchUnlock
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.autotouchunlock
+Author: udevs
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.autotouchunlock/icon/icon.png
 
 Package: com.udevs.dockx
 Architecture: iphoneos-arm64
