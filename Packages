@@ -2904,6 +2904,27 @@ Depiction: https://jtisvn.github.io/depictions/3DAppVersionSpoofer.html
 Icon: https://jtisvn.github.io/sectionIcons/3DAppVersionSpoofer.png
 Author: 0xkuj
 
+Package: com.jtis.3dappversionspoofer
+Architecture: iphoneos-arm64e
+Version: 2.1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 408
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.altlist
+Filename: ./debs/com.jtis.3dappversionspoofer_2.1.0_iphoneos-arm64e.deb
+Size: 60048
+MD5sum: 77a352b22feb46e9694324d0bb3ac36b
+SHA1: aea8765e95520886b9e7b84b8c282e84fddea5fd
+SHA256: e9a2b672ef629123a8c9b596a57b1a8f75e0ce5871ad5099b83a8539927cda09
+SHA512: 71deefffb6a0b77e1913e48472253b3ee58cb927ae82e7c0184032d0707a9d855255f1f79c8ad372a3c2d617ba3660d4dbfb60443ab473720c92c3131c44ef50
+Description: Một tinh chỉnh để thêm khả năng giả mạo ứng dụng ngay menu3D và các cài đặt trước của bạn
+Name: 3DAppVersionSpoofer (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/3DAppVersionSpoofer.json
+Depiction: https://jtisvn.github.io/depictions/3DAppVersionSpoofer.html
+Icon: https://jtisvn.github.io/sectionIcons/3DAppVersionSpoofer.png
+Author: 0xkuj
+
 Package: com.jtis.3dbadgeclear
 Architecture: iphoneos-arm64
 Version: 1.6.8
