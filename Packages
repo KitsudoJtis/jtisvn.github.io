@@ -14307,16 +14307,36 @@ Version: 1.6.2
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 108
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.tqm-mos.ytvideooverlay (>= 2.2.0)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
 Conflicts: com.lyvendia.ytspeed
 Filename: ./debs/com.jtis.youspeed_1.6.2_iphoneos-arm64.deb
-Size: 12076
-MD5sum: 59b0356dadc97f8a6f1ddbe858e5184b
-SHA1: c34e2b732ecc0fd987b3d2bf1a4accc56173d05f
-SHA256: ddb38e7d72c4c66d3a4f8dc87af8ff4e67c7cbbdd38bc52db09eba9faf9fa02b
-SHA512: 0e9555800a7965417c74545bbb07928c2f411151a98823d5127c69397f57aa7291bba3cbe1e42d5ef3f8b5b5f6d49d56eed224e10f39e46d04a0d443a5a86369
+Size: 12080
+MD5sum: f96802d36ad4c13cb0daacfbd3f21323
+SHA1: fa932d24efeca2f5db751bc00e1ed30e65a0e9d0
+SHA256: cc09f22f3343632c617312ad41d3ea143d3f17e2c43b8f420fd72a3405412413
+SHA512: 6663f5cfea5abc19a014c8e5cb0bc6f5d3f1cfb4dfeb05f9b1c4a518e4d5b3ad1c1c4a37d0870049c14e43b243929b18b474fe268eb93e823d47e338d011fbea
 Description: Lượt xem/thay đổi tốc độ video trong ứng dụng iOS trên YouTube nhanh hơn và thêm nhiều tùy chọn tốc độ.
 Name: YouSpeed (Rootless)
+Author: PoomSmart
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.youspeed
+Architecture: iphoneos-arm64e
+Version: 1.6.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 108
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
+Conflicts: com.lyvendia.ytspeed
+Filename: ./debs/com.jtis.youspeed_1.6.2_iphoneos-arm64e.deb
+Size: 11952
+MD5sum: 015608d5bf6b1fa96df1ef39009ae11f
+SHA1: 54c754444ea0c6f3220d203de2ef0b7aa7585130
+SHA256: 29d037f10b23a06ba3b6f67863b789cfb4810dfbccffe800ab6f39daa42cf5bc
+SHA512: a317f1455e80df643ee182f9e28979d0839276b0ae4285c2d17a1d03b5e27876f22953f1bed018b7141b719654f6427d75a5070f70fceff6f7f99c2affd7537e
+Description: Lượt xem/thay đổi tốc độ video trong ứng dụng iOS trên YouTube nhanh hơn và thêm nhiều tùy chọn tốc độ.
+Name: YouSpeed (Roothide)
 Author: PoomSmart
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
@@ -16150,23 +16170,44 @@ Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
 
 Package: com.ps.ytvideooverlay
-Architecture: iphoneos-arm64
-Version: 2.2.3
+Architecture: iphoneos-arm64e
+Version: 2.2.0
 Section: Tweaks
 Maintainer: PoomSmart
 Installed-Size: 144
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/com.ps.ytvideooverlay_2.2.3_iphoneos-arm64.deb
-Size: 14422
-MD5sum: a4300b44268deb5e467e5216660c8da6
-SHA1: e47383e0a4e6f18d27bb472189dcb966eb0cfd50
-SHA256: cecbe30411e6d59ad4bd7e644c01a18328dceb7bb529f292e23fdec3251829fe
-SHA512: 0943b88586fe95d72a74673991b26c52dc221f0085189a159291c4cc8e63673575f535e050086f72a4ed2c826d9873fc817dd6d9cdd493483dd6cf2be8931d46
+Filename: ./debs/com.ps.ytvideooverlay_2.2.0_iphoneos-arm64e.deb
+Size: 13580
+MD5sum: 1740c4420599b84dc45a181b5b9ad666
+SHA1: 8649a98cf9def267489e7dc0990b70c455561c23
+SHA256: 251106b83778457a40bff724231ded58b47b7d1b7a7ec712b1f1fb88b53741cf
+SHA512: d94158200154c6fece9ad192aedc2b81a70ffd8fa727a685c97b3a3bed07f8a16f2ae05da3805716da1ed7ebf7c916467f3806a472ccf2d828b15594d8b65a09
 Description: A helper tweak to add buttons on YouTube video overlay.
-Name: YTVideoOverlay
+Name: YTVideoOverlay (Roothide)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.ps.ytvideooverlay
+Architecture: iphoneos-arm64
+Version: 2.3.5
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.ytvideooverlay_2.3.5_iphoneos-arm64.deb
+Size: 16456
+MD5sum: 52b9944c18e77f25ec98bb1415953a44
+SHA1: fb4989d72d20b2ecab4137258ccd405956237255
+SHA256: 276f4dcd3c626811b7eca6b29ff8969910602d1f2b6c5df368e7482a0263c2ba
+SHA512: d5bd6d9925a3f03c7cb4e5a4ecb7a8f92bd5a75e55146a5c8697ac9383f25082aac737cdb2f233ad18ab6bc0e4a46c6663ef5f984c2783d3ebdb665e7ee2acc8
+Description: Một tinh chỉnh trợ giúp để thêm các nút trên lớp phủ video YouTube.
+Name: YTVideoOverlay (Rootless)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.raulsaeed.bhtiktok++s
 Architecture: iphoneos-arm64
