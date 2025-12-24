@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Velvet 2\n\n- Tùy chỉnh thông báo hoàn toàn mới cho iOS 15 & 16.\n\n- Các chức năng bao gồm:\n\n  + Đổi màu nền, viền và đổ bóng thông báo.\n\n  + Đổi màu tiêu đề, nội dung, ngày tháng.\n\n  + Ẩn hoặc làm tròn biểu tượng ứng dụng.\n\n  + Tùy chỉnh bán kính bo góc thông báo.\n\n  + Không làm mờ thông báo khi chồng chéo.",
+"markdown":"Velvet 2\n\n- Tùy chỉnh thông báo hoàn toàn mới cho iOS 15 & 16.\n\n- Các chức năng bao gồm:\n\n  + Đổi màu nền, viền và đổ bóng thông báo.\n\n+ Đổi màu tiêu đề, nội dung, ngày tháng.\n\n+ Ẩn hoặc làm tròn biểu tượng ứng dụng.\n\n+ Tùy chỉnh bán kính bo góc thông báo.\n\n+ Không làm mờ thông báo khi chồng chéo.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

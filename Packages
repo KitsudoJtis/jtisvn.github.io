@@ -18045,6 +18045,26 @@ Name: SimpleActivationActions (Rootless)
 Author: Elias Limneos <limneoselias@gmail.com>
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: oldabi-stub
+Architecture: iphoneos-arm64
+Version: 0.3
+Section: System
+Maintainer: alexia <me@alexia.lol>
+Installed-Size: 0
+Provides: oldabi (= 0.3)
+Filename: ./debs/oldabi-stub_0.3_iphoneos-arm64.deb
+Size: 686
+MD5sum: 65a5590f0a2b05cf9075a4ff4b465cae
+SHA1: 7da46cd2bcb4efaa9b4ed1bb00313168eac5b1fb
+SHA256: 8ea02fc8b881752d70b5cc40c2cc52eca22d62063d7eeba2b033343ad5906e47
+SHA512: 1f737025b6f8823d6ec482246fcd6dca8433199b1fb0298737d65936c5823136151db3dc4181704b222767c57fb0deb8369c37cd0e6d1aa6367d6897ac1284e1
+Description: oldabi stub for arm64
+ .
+ This package does nothing, it just provides a stub for oldabi on arm64 to be able to install tweaks with broken dependencies.
+Tag: role::hacker
+Name: oldabi-stub
+Author: alexia <me@alexia.lol>
+
 Package: oldabi
 Architecture: iphoneos-arm64e
 Version: 0.3.1~4.f55e807

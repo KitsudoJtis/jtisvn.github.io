@@ -1,23 +1,24 @@
 {
-"minVersion": "0.1",
-"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"minVersion":"0.1",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
 "tintColor":"#339999",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionLabelView",
-"text":"HidePullOverPro",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/HidePullOverPro/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Ẩn hiển thị PullOver Pro tối thiểu khi không dùng đến.",
+"markdown":"### HidePullOverPro\n\n- Ẩn hiển thị PullOver Pro tối thiểu khi không dùng đến.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -30,32 +31,9 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ảnh chụp màn hình",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
-},
-{
-"itemCornerRadius": true,
-"itemSize": "{185, 400}",
-"screenshots": [
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/HidePullOverPro/Screenshots/1.png"
-}
-],
-"class": "DepictionScreenshotsView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionLabelView",
 "text": "Thông tin chi tiết",
 "fontWeight": "semibold",
-"fontSize": 17,
+"fontSize": 16,
 "usePadding": true,
 "useMargins": true,
 "margins": "{10,0,8,0}"
@@ -95,7 +73,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày cập nhật",
+"text": "Ngày tải lên",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
@@ -132,7 +110,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "163,3 KB",
+"text": "163,4 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -169,18 +147,17 @@
 "class": "DepictionStackView"
 },
 {
-
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.0.1\n\n- Phát hành lần đầu\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 0.0.1\n\n- Phát hành lần đầu.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
+"tabname":"Liên Hệ Hỗ Trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
