@@ -9967,6 +9967,49 @@ Author: EllaSP
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
 Icon: https://jtisvn.github.io/sectionIcons/Looky.png
 
+Package: com.jtis.looky
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 460
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.jtis.looky_1.3_iphoneos-arm64.deb
+Size: 56504
+MD5sum: e44589e4bbaa0ee5f57437b43fabf439
+SHA1: ea07d1a057d2293bea95fe0a0974803cf698f7cb
+SHA256: 9289d1ed9c9b894bf106de694466f4ad70f1c7625c1621df54bf67dcd47fa47f
+SHA512: e1703a0af2a6d764eb5f36b0e6ec8ed3c8b477f05754306b8b76d24eeb0c1b0a769cf826900303f7f7c9a1349e209ce4374fc5f4acf05d84659486101250c0b0
+Homepage: https://jtisvn.github.io/
+Description: Dễ dàng trải nghiệm thông báo màn hình khóa thanh lịch!
+Name: Looky (Rootless)
+Author: EllaSP
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
+Depiction: https://jtisvn.github.io/depictions/Looky.html
+Icon: https://jtisvn.github.io/sectionIcons/Looky.png
+
+Package: com.jtis.looky
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 460
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.jtis.looky_1.3_iphoneos-arm64e.deb
+Size: 55340
+MD5sum: 277926da4f9303e5df53def30201e0d3
+SHA1: 1bdaf9da3d00d4925bb95e6dec2b2ed6126da56d
+SHA256: f979a4a5fb83ed95d51830cec880287128c592944afb2733b24af4981da17397
+SHA512: 2ee26051964c0eabffd4ccf84551c92ac8ad558853285e3df0dea44ee7b811dfc5b81f4785dc3e47a54bae1e50ad9d8419c4151ec3e4019d8ac6517d4ccffd64
+Homepage: https://jtisvn.github.io/
+Description: Dễ dàng trải nghiệm thông báo màn hình khóa thanh lịch!
+Name: Looky (Roothide)
+Author: EllaSP
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
+Depiction: https://jtisvn.github.io/depictions/Looky.html
+Icon: https://jtisvn.github.io/sectionIcons/Looky.png
+
 Package: com.jtis.LSBendigo
 Architecture: iphoneos-arm64e
 Version: 1.0
