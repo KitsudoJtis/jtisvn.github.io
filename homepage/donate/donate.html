@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ủng Hộ JTISVN</title>
+    
+    <meta name="google-site-verification" content="UvCQ1cyCw8prMQgwGKNOLe_ChzDAtR7Kz05jAvuxrQQ" />
+
+    <meta name="description" content="Ủng hộ JTISVN Repo - Chung tay phát triển cộng đồng Jailbreak iOS Việt Nam.">
+    <meta name="keywords" content="Donate JTISVN, Ủng hộ Kitsudo, Jailbreak iOS, Tweak Việt Hóa">
+    <meta name="author" content="Kitsudo - JTISVN">
+    
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="icon" href="https://raw.githubusercontent.com/jtisvn/jtisvn.github.io/master/icons/favicon.ico" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        .copy-feedback { color: #4ade80 !important; }
+    </style>
 </head>
-<body class="font-sans text-white min-h-screen" data-theme="dark">
-    <div class="background-animation"></div>
+<body class="bg-gray-900 font-sans min-h-screen" data-theme="dark">
+    
+    <div class="background-animation" style="background-image: url('https://files.catbox.moe/bk8zmt.png');"></div>
 
     <div id="copy-toast" class="copy-toast">
         <p><i class="fas fa-check-circle mr-2"></i> Đã sao chép!</p>
@@ -36,7 +47,7 @@
                     <h1 class="text-4xl font-bold text-animate-gradient">JTISVN REPO</h1>
                 </div>
                 
-                <p class="text-xl max-w-2xl mx-auto mt-4 text-gray-300">
+                <p class="text-xl max-w-2xl mx-auto mt-4 description-text">
                     Nhận mua hộ Tweak có phí của Havoc và niceOS<br>Hoặc ủng hộ qua số tài khoản & quét mã QR bên dưới<br> 
                     <span class="text-sm opacity-75">(Lưu ý: Nhớ ghi rõ nội dung, mục đích khi thanh toán nha!)</span>
                 </p>
@@ -88,17 +99,16 @@
             </div>
 
             <div class="text-center mt-12 px-4">
-                <p class="thank-you-message">Sự ủng hộ của bạn là động lực to lớn để JTISVN tiếp tục phát triển. Xin chân thành cảm ơn!</p>
+                <p class="thank-you-message description-text">Sự ủng hộ của bạn là động lực to lớn để JTISVN tiếp tục phát triển. Xin chân thành cảm ơn!</p>
             </div>
             
-            <div class="copyright-container">
-                <p>Copyright © 2025 - 2030 By: KITSUDO - JTISVN. All rights reserved.</p>
-            </div>
+            <div class="copyright-container mt-8 text-center text-sm">
+                <p class="mb-4">Copyright © 2025 - 2030 By: KITSUDO - JTISVN. All rights reserved.</p>
+                </div>
         </main>
     </div>
 
     <script>
-        // --- Logic Theme ---
         const themeToggleBtn = document.getElementById('theme-toggle-btn');
         const themeIcon = document.getElementById('theme-icon');
         const body = document.body;
@@ -109,6 +119,9 @@
             body.classList.add('light');
             themeIcon.classList.remove('fa-sun');
             themeIcon.classList.add('fa-moon');
+        } else {
+            themeIcon.classList.remove('fa-moon');
+            themeIcon.classList.add('fa-sun');
         }
 
         themeToggleBtn.addEventListener('click', () => {
@@ -126,27 +139,21 @@
             }
         });
 
-        // --- Logic Copy ---
         const copyToClipboard = (elementId, event) => {
             event.stopPropagation();
             const element = document.getElementById(elementId);
             const textToCopy = element.textContent.trim();
 
             navigator.clipboard.writeText(textToCopy).then(() => {
-                showToast();
+                const toast = document.getElementById('copy-toast');
+                toast.classList.add('show');
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                }, 2000);
             }).catch(err => {
                 console.error('Lỗi sao chép: ', err);
             });
         };
-
-        const showToast = () => {
-            const toast = document.getElementById('copy-toast');
-            toast.classList.add('show');
-            setTimeout(() => {
-                toast.classList.remove('show');
-            }, 2000);
-        };
-        // Đã xóa hoàn toàn script tạo mưa
     </script>
 </body>
 </html>
