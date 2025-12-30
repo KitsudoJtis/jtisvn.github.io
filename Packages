@@ -6561,6 +6561,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/CCMusicArtwork.json
 Depiction: https://jtisvn.github.io/depictions/CCMusicArtwork.html
 Icon: https://jtisvn.github.io/sectionIcons/CCMusicArtwork.png
 
+Package: com.jtis.ccsim
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 188
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.jtis.ccsim_1.1-9_iphoneos-arm64.deb
+Size: 23536
+MD5sum: 22ddf54d41bf8d065c63b29ca271ad1f
+SHA1: 3deae01c228e1bbad0ab9f1296dc0919707e38e6
+SHA256: 56208a71b75736e23bd8491ee6e9de98ff55980e9862ad5dda9b6e432ab60b84
+SHA512: 70aa1eeafdc3acdb75c8d3c4453bc6a07363a44f611743e4a67b757087e6a0d7bf7aca43711e379fa69081922fb495e473f71e285d0fc373b44c2d42425041b0
+Description: Đối với Esim, bạn có thể nhanh chóng bật/tắt một trong thẻ SIM qua Trung tâm điều khiển.
+Name: CCSIM (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/CCSIM.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCSIM.json
+Author: Netskao
+
 Package: com.jtis.ccuiplayer
 Architecture: iphoneos-arm64
 Version: 1.0.7
