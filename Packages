@@ -1074,6 +1074,67 @@ Icon: https://raw.githubusercontent.com/6gr8/IGFormat/main/twigal_logo.png
 Header: https://raw.githubusercontent.com/6gr8/IGFormat/main/twigal_header.png
 SileoDepiction: https://raw.githubusercontent.com/6gr8/IGFormat/main/twigal.json
 
+Package: com.den.vibetok
+Architecture: iphoneos-arm
+Version: 1.2-11+debug
+Section: Tweaks
+Maintainer: DeNsor
+Installed-Size: 616
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.den.vibetok_1.2-11+debug_iphoneos-arm.deb
+Size: 82232
+MD5sum: a0d6725f82d11ece2332cb6814073169
+SHA1: 24cbf2c8a548031aaa44826275ae5291d8b2ca69
+SHA256: 883b802459450ca64b65916f9a501274bbb4e10df0ac2c9ad8cd942612256022
+SHA512: 2512838aa1f22e9faca1e12c656b8474c93c921415c3375dc305b0942bf43ed7a6962574dbb7ace02a606038f40eb048b6d8836df123553e5b19d3f86b9b4058
+Description: Làm cho TikTok tốt hơn!
+Name: VibeTok
+Author: DeNsor
+Icon: https://github.com/6gr8/IGFormat/raw/main/VibeLogo.png
+Header: https://github.com/6gr8/IGFormat/raw/main/VibeLogo2.png
+SileoDepiction: https://raw.githubusercontent.com/6gr8/IGFormat/main/vibe.json
+
+Package: com.den.vibetok
+Architecture: iphoneos-arm64
+Version: 1.2-11+debug
+Section: Tweaks
+Maintainer: DeNsor
+Installed-Size: 616
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.den.vibetok_1.2-11+debug_iphoneos-arm64.deb
+Size: 84696
+MD5sum: 0ad41292b4b578a35e64a95f8f87a0b9
+SHA1: 869681c0647090dba73640b757685c4d45cd3e0b
+SHA256: 08de85cddfc45f5335b1a6cd07974aca28df92fed718822c9693721b48daa263
+SHA512: 611bf2fa4103f4909b6ccbbebaa6d71e283cb19b8d94621f49eca6388dc21951bbb304ecabed1ca139c5d31037f558fd198def5ee874002185ed772c0c3eadc4
+Description: Làm cho TikTok tốt hơn!
+Name: VibeTok (Rootless)
+Author: DeNsor
+Icon: https://github.com/6gr8/IGFormat/raw/main/VibeLogo.png
+Header: https://github.com/6gr8/IGFormat/raw/main/VibeLogo2.png
+SileoDepiction: https://raw.githubusercontent.com/6gr8/IGFormat/main/vibe.json
+
+Package: com.den.vibetok
+Architecture: iphoneos-arm64e
+Version: 1.2-11+debug
+Section: Tweaks
+Maintainer: DeNsor
+Installed-Size: 616
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.den.vibetok_1.2-11+debug_iphoneos-arm64e.deb
+Size: 82420
+MD5sum: 4ca5fbbcc9ad38adf2e1b7de48afc7f9
+SHA1: d417842a98616f747f4e8ca7735624becf411108
+SHA256: 57f5eb4c41a53291f31216445c0e67110f5ff8cd0ea9dc38ad64a2be749361ee
+SHA512: 168178b7c171ce13ef729a04bef298e8228cb15ad22523cb71609496b2fdd4347751b6d9b5591ebc2e6184992a80145eb067e7786900d293199326a970e93053
+Description: Làm cho TikTok tốt hơn!
+Name: VibeTok (Roothide)
+Author: DeNsor
+Icon: https://github.com/6gr8/IGFormat/raw/main/VibeLogo.png
+Header: https://github.com/6gr8/IGFormat/raw/main/VibeLogo2.png
+SileoDepiction: https://raw.githubusercontent.com/6gr8/IGFormat/main/vibe.json
+
 Package: com.dvntm.glow
 Architecture: iphoneos-arm
 Version: 1.3.1
@@ -13731,6 +13792,27 @@ SHA512: c0f4edb14a901deadc4bd1d03389dc470605693ebf24bf6e43f5d644e02f163673e490a0
 Homepage: https://jtisvn.github.io/
 Description: Hiển thị tìm kiếm theo tên hoặc số điện thoại
 Name: T9Dialer (Rootless)
+Author: Jordan Koch
+Tags: compatible_min::ios11.1.2, compatible_max::ios14.8.1
+Depiction: http://jtisvn.github.io/depiction/T9Dialer.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/T9Dialer.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.t9Dialer
+Architecture: iphoneos-arm64e
+Version: 1.2.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker, firmware (>= 11.1.2)
+Filename: ./debs/com.jtis.t9Dialer_1.2.0_iphoneos-arm64e.deb
+Size: 39288
+MD5sum: b6edb74682fa6f7a30d0fd0632dac653
+SHA1: d5b17881be098ea04ad823997c834d5e01c15a07
+SHA256: e89c61eff7e4ed1d1f87fe6c0317f81be95c9896bedc2aeb1356d722fc448285
+SHA512: 9186b3e517cba8bf79b49c30a3ed81ee6fafc365642f42a0773b67db32c75b552af852663bc55be0eab30edcfb0625293cda5fb5e4bb701ae33a70465ad44033
+Homepage: https://jtisvn.github.io/
+Description: Hiển thị tìm kiếm theo tên hoặc số điện thoại
+Name: T9Dialer (RootHide)
 Author: Jordan Koch
 Tags: compatible_min::ios11.1.2, compatible_max::ios14.8.1
 Depiction: http://jtisvn.github.io/depiction/T9Dialer.html
