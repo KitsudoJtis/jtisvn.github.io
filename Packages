@@ -13737,27 +13737,6 @@ Depiction: http://jtisvn.github.io/depiction/T9Dialer.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/T9Dialer.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
-Package: com.jtis.t9Dialer
-Architecture: iphoneos-arm64e
-Version: 1.2.0
-Section: Tweaks
-Maintainer: JTISVN Repo
-Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker, firmware (>= 11.1.2)
-Filename: ./debs/com.jtis.t9Dialer_1.2.0_iphoneos-arm64e.deb
-Size: 39288
-MD5sum: b6edb74682fa6f7a30d0fd0632dac653
-SHA1: d5b17881be098ea04ad823997c834d5e01c15a07
-SHA256: e89c61eff7e4ed1d1f87fe6c0317f81be95c9896bedc2aeb1356d722fc448285
-SHA512: 9186b3e517cba8bf79b49c30a3ed81ee6fafc365642f42a0773b67db32c75b552af852663bc55be0eab30edcfb0625293cda5fb5e4bb701ae33a70465ad44033
-Homepage: https://jtisvn.github.io/
-Description: Hiển thị tìm kiếm theo tên hoặc số điện thoại
-Name: T9Dialer (RootHide)
-Author: Jordan Koch
-Tags: compatible_min::ios11.1.2, compatible_max::ios14.8.1
-Depiction: http://jtisvn.github.io/depiction/T9Dialer.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/T9Dialer.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
 Package: com.jtis.taptaplock
 Architecture: iphoneos-arm64e
 Version: 0.0.3
