@@ -4245,26 +4245,6 @@ Depiction: http://bvnsupport.github.io/infodeb/Html/AdGuard.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AdGuard.json
 Icon: https://jtisvn.github.io/sectionIcons/AdGuard.png
 
-Package: com.jtis.adguardPro
-Architecture: iphoneos-arm
-Version: 0.0.1
-Section: Mở khoá ứng dụng
-Maintainer: Dell <dvq273665536@gmail.com>
-Installed-Size: 2964
-Depends: mobilesubstrate
-Filename: ./debs/com.jtis.adguardPro_0.0.1_iphoneos-arm.deb
-Size: 932004
-MD5sum: 04cbb6efa04359efa4fca106d52947f2
-SHA1: 36ffe2a0aaf270ba05643504588ca37a8f63cc37
-SHA256: 0faf8f09a58d07a78c7f5872eac887b261acbe5f8e4803c0ecd0140a09a34d7c
-SHA512: 24edc0816286360aa071d17455756e8a10be57715d297abebb3b74f50a3ea0f18384b566f8619b0e66383f32e2200a16cf0f3c4b22424c5cd936d74b9b4d8d49
-Description: Unlock AdGuard Premium
-Name: AdGuard Pro
-Author: Dell
-Depiction: http://bvnsupport.github.io/infodeb/Html/AdGuard.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/AdGuard.json
-Icon: https://jtisvn.github.io/sectionIcons/AdGuard.png
-
 Package: com.jtis.adsspee
 Architecture: iphoneos-arm64
 Version: 1.1.3

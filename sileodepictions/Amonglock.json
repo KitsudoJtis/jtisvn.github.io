@@ -1,7 +1,7 @@
 {
 "minVersion":"0.4",
 "headerImage":"https://jtisvn.github.io/coverimage/Amonglock.png",
-"tintColor":"#5777B8",
+"tintColor":"#6666FF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -123,7 +123,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "iOS 15.0 - 16.7.10",
+"text": "13.0 - 16.7.10",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
