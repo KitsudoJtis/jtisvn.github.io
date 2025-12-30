@@ -2575,6 +2575,36 @@ Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.imkpatil.homebarsizer
 SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.imkpatil.homebarsizer.json
 
+Package: com.jfks.gmailnoads
+Architecture: iphoneos-arm
+Version: 1.2.0
+Section: Tweaks
+Maintainer: Hao Nguyen
+Installed-Size: 488
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
+Filename: ./debs/com.jfks.gmailnoads_1.2.0_iphoneos-arm.deb
+Size: 138044
+MD5sum: 1b0f21d641a5c3ea9b7442353cd59c76
+SHA1: 737c1efef26be39736b4a619f67ad20f17f9a54a
+SHA256: f8376dca1dfce8661f84c8911a477742507af619e0da2445f11a7286ec427bd1
+SHA512: 8f93969db4beef722101113f1481726ab7653fa5a0fb1d1504cee2fa6937da1b67593476987fe721b9da0bbee2920e2d5a5a59237648cdad4596204ca0a45310
+Description: Free & Open Source Tweak for Gmail
+ Free & Open Source Tweak for Gmail
+ Change log: https://github.com/haoict/gmail-no-ads/releases
+ . 
+ Features:
+ - Remove Ads (in inbox list)
+ - Lightweight
+ - Support iOS 12 - 14 & latest Gmail version
+ . 
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ . 
+ Thanks a ton
+Name: Gmail No Ads
+Author: Hao Nguyen
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.johnzaro.appstoreupdatestab
 Architecture: iphoneos-arm64
 Version: 4.0
@@ -6550,6 +6580,67 @@ Icon: https://jtisvn.github.io/sectionIcons/CCSIM.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCSIM.json
 Author: Netskao
 
+Package: com.jtis.ccsim
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 188
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.jtis.ccsim_1.1-9_iphoneos-arm64e.deb
+Size: 23604
+MD5sum: 2b604c3c8d1660de83bf0f823f6d35b9
+SHA1: 71364acbad3322547a8765531ea9b04e445e260b
+SHA256: 309f667df021f8f1bd64923c61bf94dce136590b2649106be2dcd44631d1c936
+SHA512: 64d0749c650b8748401cdab88ca59a91a329db914439d26ad400f71bbd0e16fa1e5e544fe9e0c71edaad7d5599c2da0cabe72a151992a7b300b57b88a35fde6e
+Description: Đối với Esim, bạn có thể nhanh chóng bật/tắt một trong thẻ SIM qua Trung tâm điều khiển.
+Name: CCSIM (Roothide)
+Icon: https://jtisvn.github.io/sectionIcons/CCSIM.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCSIM.json
+Author: Netskao
+
+Package: com.jtis.ccswitchdata
+Architecture: iphoneos-arm64
+Version: 1.1-4
+Section: Tưeaks
+Maintainer: JTISVN Repo
+Installed-Size: 132
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.jtis.ccswitchdata _1.1-4_iphoneos-arm64.deb
+Size: 20872
+MD5sum: 978b344446742f3e885aebc1ea27bc08
+SHA1: 12cab18126dd60ba737717f05c3311c68ec7164a
+SHA256: e5d7680ad6164da0bd7a78d725cb33dcf7c1de7f24cf91f03ccf01fe26658ba7
+SHA512: ca5919d270cd0232b597e2d5d62a89e0713d66c6520c1268086207919d827f3578a8fac93e7c7cec49c8b520fdd15b1962281860afe8f643e8e25d369a8ad88d
+Description: Chuyển đổi nhanh dữ liệu di động của sim kép qua Trung tâm điều khiển.
+Name: CCSwitchData (Rootless)
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://jtisvn.github.io/sectionIcons/CCSwitchData.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LCCSwitchData.json
+
+Package: com.jtis.ccswitchdata
+Architecture: iphoneos-arm64e
+Version: 1.1-4
+Section: Tưeaks
+Maintainer: JTISVN Repo
+Installed-Size: 132
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.jtis.ccswitchdata_1.1-4_iphoneos-arm64e.deb
+Size: 21004
+MD5sum: d8d550f38f10ff4a22e783746b6304dc
+SHA1: 727b4e877a9b1582f6ac216e0716f6c62207c952
+SHA256: 40ff0abb5830b3b3a528c60454a7fb04769e297973768601428a2ebdc2d7e4c7
+SHA512: d16dc992ff01d8694fbcb0cad9ef03ff9fbe49d7df52970c0e93f0e1cbd4b6fd3b98a06b2bf5904e7fd426f550bedc3582efc3a19bb795d8ec7240e1dc32591b
+Description: Chuyển đổi nhanh dữ liệu di động của sim kép qua Trung tâm điều khiển.
+Name: CCSwitchData (Roothide)
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://jtisvn.github.io/sectionIcons/CCSwitchData.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LCCSwitchData.json
+
 Package: com.jtis.ccuiplayer
 Architecture: iphoneos-arm64
 Version: 1.0.7
@@ -7588,6 +7679,42 @@ Name: Exodar
 Author: Alexman & Kennyroo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Exodar.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
+Package: com.jtis.facebooknoads
+Architecture: iphoneos-arm
+Version: 1.4.1
+Section: Tweaks
+Maintainer: Hao Nguyen
+Installed-Size: 584
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.6.0), firmware (>= 12)
+Filename: ./debs/com.jtis.facebooknoads_1.4.1_iphoneos-arm.deb
+Size: 255064
+MD5sum: 0978ed8d715b0eb29a70f3e9c83f7457
+SHA1: 6e36a1a39d3a60ae8feb30019653d67338fc59ee
+SHA256: f93ddf292c4e75310577deaf772a405cce5b8f2af8f41d57911304d1cd175542
+SHA512: 8fcd967a655a1bb65839e0d34404340c0af2f9223aaec9c7698dc3fbfed8df744f1edce97ff02d3d94b235f492831e995853169b378d127afe98b27cb9707882
+Description: Free & Open Source Tweak for Facebook
+ Free & Open Source Tweak for Facebook
+ Change log: https://github.com/haoict/facebook-no-ads/releases
+ . 
+ Features:
+ - Remove Ads
+ - Can Download Video (long press to download)
+ - Can Download Story
+ - Can Only Me Profile Picture
+ - Disable Story Seen (See friends's story without letting them know)
+ - Hide Composer on News Feed
+ - Hide Stories on News Feed
+ - Support iOS 12-14
+ - Support latest Facebook version (If it doesn't work, you should update the app to latest version >= 307.0)
+ . 
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ . 
+ Thanks a ton
+Name: Facebook No Ads
+Author: Hao Nguyen
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.fakedualsim
 Architecture: iphoneos-arm64
@@ -10730,6 +10857,43 @@ Author: Miss
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Meizu3D.json
 Depiction: https://jtisvn.github.io/depictions/Meizu3D.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.messengernoads
+Architecture: iphoneos-arm
+Version: 3.12.0
+Section: Tweaks
+Maintainer: Hao Nguyen
+Installed-Size: 1012
+Depends: mobilesubstrate, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
+Filename: ./debs/com.jtis.messengernoads_3.12.0_iphoneos-arm.deb
+Size: 539388
+MD5sum: 38362a7e62501385c54a28dabc2155d8
+SHA1: b33dcb1f0fe2b756bdfe652136e35a44e5211c00
+SHA256: db1ad467163a5fcecfb58bf518cd215c1498b172735abaf3e7ab983319bcfc40
+SHA512: 426904a0823f3f9a4c82ead13a5ef338a03a6a0109b8ff92e9b573141ebd72dc94fa77a5ae4b1b85a0b574719d1bd6251012aa14c1a192136586c6d57124cc74
+Description: The best tweak for Messenger app.
+ The best tweak for Messenger app.
+ Change log: https://github.com/haoict/messenger-no-ads/releases
+ . 
+ Features:
+ - Hide Ads on Messenger app
+ - Disable Read Receipt
+ - Disable Typing Indicator
+ - Disable Story Seen Receipt
+ - Can Save Friend's Story
+ - Hide Search Bar, Stories row, People tab
+ - Hide Suggested Contact in Search
+ - Extend Story Video Upload Length (from default is 20 seconds to 10 minutes)
+ - Support iOS 12 - iOS 14
+ - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 300.0)
+ . 
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ . 
+ Thanks a ton
+Name: Messenger No Ads
+Author: Hao Nguyen
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.miuminuipro
 Architecture: iphoneos-arm
