@@ -14294,6 +14294,26 @@ Author: khanhduytran0
 Icon: https://jtisvn.github.io/sectionIcons/TrollPad.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollPad.json
 
+Package: com.jtis.truecallergold
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 3312
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.truecallergold_1.0.3_iphoneos-arm64.deb
+Size: 516228
+MD5sum: 8ed6b1182d595bb938fd87e2662e6d83
+SHA1: b24f10580dbe536e09edf8ca74a455edcf8a9641
+SHA256: 11482018909dbdcfb5fd4ad730391034f0194ea15392d1802a7a770078a83f8c
+SHA512: e099b05b0f2a59e5bccf13db53a957335b334a5e74e2543aa5d61e98bd6d231006210676f4c8ae61e49ebc2eb37b7cde9fe5edc469a0f5d06e5305929eee78ec
+Description: Cracked By Blatant
+Name: Truecaller Gold
+Author: blatant
+Depiction: http://jtisvn.github.io/depiction/Truecallergold.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Truecallergold.json
+Icon: https://jtisvn.github.io/sectionIcons/Truecallergold.png
+
 Package: com.jtis.tweaksettings
 Architecture: iphoneos-arm64
 Version: 1.0.8
@@ -14499,6 +14519,45 @@ Author: NoisyFlake <support@noisyflake.com>
 Name: Velvet 2 (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Velvet2.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Velvet2.json
+
+Package: com.jtis.videosunmute
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.videosunmute_1.0_iphoneos-arm64.deb
+Size: 6184
+MD5sum: c92a377043354e8693774215a751ac2b
+SHA1: 4598dc8d3ebe52ce1eef0fe6b43da7acb30d9092
+SHA256: 8e4d35c69ae798d6284641169b655bbdb81bd0ec2c01c67104ceb439cb872e42
+SHA512: 5ee6c0f47bc797af3e197dd2e49543f5ca6b50890f5d5ef58405595c49ba201a07b4a34c2f899092c9bd32b11370b42518a37bb6b46848b60ac35486b91d89da
+Description: Tự động bật tiếng video khi mở trong Ứng dụng Ảnh!
+Name: VideosUnmute (Rootless)
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: http://jtisvn.github.io/depiction/VideosUnmute.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VideosUnmute.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.videosunmute
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.videosunmute_1.0_iphoneos-arm64e.deb
+Size: 6096
+MD5sum: bf35bdd20928055e81b5165d754bb612
+SHA1: b798a2d489e1ee33cf5bcffcff8490bd9a1920c8
+SHA256: 865c786f6e513bbb6253c8e2a7a101409b8553105b0cfd48acb596edcd7b4dac
+SHA512: 939e8e67c3d4830a2a0bf711bbacb1deefa2fc8fefc83940b87ba70541dbfa95f037e9ea912b5bfcf4c8fcaecfab81b2ba09206574d38ece18e93bde903d68e9
+Description: Tự động bật tiếng video khi mở trong Ứng dụng Ảnh!
+Name: VideosUnmute (Roothide)
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: http://jtisvn.github.io/depiction/VideosUnmute.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VideosUnmute.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.vietnam2-9
 Architecture: iphoneos-arm
@@ -17272,6 +17331,48 @@ Name: CCRespring (Roothide)
 Author: Mr.Zhang <mr_zhang_00@163.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCRespring.json
 Icon: https://jtisvn.github.io/sectionIcons/CCRespring.png
+
+Package: com.skypain.ccvpn
+Architecture: iphoneos-arm64
+Version: 1.1.1-1
+Section: Tweaks
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 184
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.skypain.ccvpn_1.1.1-1_iphoneos-arm64.deb
+Size: 30564
+MD5sum: 23b53f81c5b1fb3f9fa1628151ae9418
+SHA1: 0d698bd51a3b1148eaf6137f4bf9d55f8d1e8ed0
+SHA256: 9b53eaf8fd1a80848b8c82cf6527301fa47739a8e85583ca53f81279e6962bc4
+SHA512: 016743ec927eeabf66df3ef11c720f8b6e820417eb49523b77a96e5e70412151068df950da499fcca40a59b2b43124080f23171454e77fe97b90bb8d97b02f29
+Homepage: https://skypain.github.io/repo/
+Description: Thêm chuyển đổi VPN mô dun Trung tâm điều khiển
+Name: CCVPN (Rootless)
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Icon: https://skypain.github.io/repo/src/ccvpn/Icon.png
+Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
+SileoDepiction: https://skypain.github.io/repo/src/ccvpn/config/sileo/depiction.json
+
+Package: com.skypain.ccvpn
+Architecture: iphoneos-arm64e
+Version: 1.1.1-2
+Section: Tweaks
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 184
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.skypain.ccvpn_1.1.1-2_iphoneos-arm64e.deb
+Size: 30664
+MD5sum: 3ec435612af0c3cdfe903303fbd7507a
+SHA1: 916282973300dc6071c5c0080da99b0f3e7eab7d
+SHA256: 6d8b7be362b56a813754d127486d7236e808fe3f5323cb72aefcf3dea1d7dcba
+SHA512: 0b1611623eea0958e5934bc1bd7877aead3b43a6ebebe311f3ddb2fab326ef4ffcc2d7fc8f8d710acee9805c01bfe07fff1bb86d1c81195152736805ec9c86be
+Homepage: https://skypain.github.io/repo/
+Description: Thêm chuyển đổi VPN mô dun Trung tâm điều khiển
+Name: CCVPN (Roothide)
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Icon: https://skypain.github.io/repo/src/ccvpn/Icon.png
+Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
+SileoDepiction: https://skypain.github.io/repo/src/ccvpn/config/sileo/depiction.json
 
 Package: com.snail.airdrop16
 Architecture: iphoneos-arm64
