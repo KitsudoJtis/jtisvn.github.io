@@ -4245,6 +4245,26 @@ Depiction: http://bvnsupport.github.io/infodeb/Html/AdGuard.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AdGuard.json
 Icon: https://jtisvn.github.io/sectionIcons/AdGuard.png
 
+Package: com.jtis.adguardPro
+Architecture: iphoneos-arm
+Version: 0.0.1
+Section: Mở khoá ứng dụng
+Maintainer: Dell <dvq273665536@gmail.com>
+Installed-Size: 2964
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.adguardPro_0.0.1_iphoneos-arm.deb
+Size: 932004
+MD5sum: 04cbb6efa04359efa4fca106d52947f2
+SHA1: 36ffe2a0aaf270ba05643504588ca37a8f63cc37
+SHA256: 0faf8f09a58d07a78c7f5872eac887b261acbe5f8e4803c0ecd0140a09a34d7c
+SHA512: 24edc0816286360aa071d17455756e8a10be57715d297abebb3b74f50a3ea0f18384b566f8619b0e66383f32e2200a16cf0f3c4b22424c5cd936d74b9b4d8d49
+Description: Unlock AdGuard Premium
+Name: AdGuard Pro
+Author: Dell
+Depiction: http://bvnsupport.github.io/infodeb/Html/AdGuard.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AdGuard.json
+Icon: https://jtisvn.github.io/sectionIcons/AdGuard.png
+
 Package: com.jtis.adsspee
 Architecture: iphoneos-arm64
 Version: 1.1.3
@@ -4597,6 +4617,25 @@ SHA512: ec9cf4ea8435b7ea955844c7f82ea01652deb7e3af2c53efeac60e4bbd58d9020c0abe28
 Description: Thay đổi giao điện mặt khẩu bảo mật theo kiểu trò chơi Among US
 Name: AmongLock (Roothide)
 Author: Litten
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Amonglock.json
+Icon: https://jtisvn.github.io/sectionIcons/Amonglock.png
+
+Package: com.jtis.amonglockvietho
+Architecture: iphoneos-arm
+Version: 1.1.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 24060
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
+Filename: ./debs/com.jtis.amonglockvietho_1.1.1_iphoneos-arm.deb
+Size: 21138412
+MD5sum: 2c86ab063e29886964f3d304763e2857
+SHA1: 3a471e4f0a8d767a0e09ee9f933cb80b8f570a3d
+SHA256: 1677ce0218abbfe37f4ae497225e696b8e29fbbcbca3bbf954bbeed3123798b2
+SHA512: 4b6b60911ae9378283e5e87641cf049da67f58bd71775f0ea86329a414a8c7813b2eaeded339d4072d64fdd68da900bc8ac9d72340d948fe9b44d8caa88a5432
+Description:  Thay đổi giao điện mặt khẩu bảo mật theo kiểu trò chơi Among US.
+Name: AmongLock
+Author: Litten <hiya@litten.love>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Amonglock.json
 Icon: https://jtisvn.github.io/sectionIcons/Amonglock.png
 
