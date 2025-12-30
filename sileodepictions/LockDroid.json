@@ -17,7 +17,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n\n- Màn hình khoá Android kiểu vẽ nối.",
+"markdown":"\n\n- Màn hình khoá Android kiểu vẽ nối theo ý muốn của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

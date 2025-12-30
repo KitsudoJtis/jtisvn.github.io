@@ -2575,6 +2575,36 @@ Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.imkpatil.homebarsizer
 SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.imkpatil.homebarsizer.json
 
+Package: com.jfks.gmailnoads
+Architecture: iphoneos-arm
+Version: 1.2.0
+Section: Tweaks
+Maintainer: Hao Nguyen
+Installed-Size: 488
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
+Filename: ./debs/com.jfks.gmailnoads_1.2.0_iphoneos-arm.deb
+Size: 138044
+MD5sum: 1b0f21d641a5c3ea9b7442353cd59c76
+SHA1: 737c1efef26be39736b4a619f67ad20f17f9a54a
+SHA256: f8376dca1dfce8661f84c8911a477742507af619e0da2445f11a7286ec427bd1
+SHA512: 8f93969db4beef722101113f1481726ab7653fa5a0fb1d1504cee2fa6937da1b67593476987fe721b9da0bbee2920e2d5a5a59237648cdad4596204ca0a45310
+Description: Free & Open Source Tweak for Gmail
+ Free & Open Source Tweak for Gmail
+ Change log: https://github.com/haoict/gmail-no-ads/releases
+ . 
+ Features:
+ - Remove Ads (in inbox list)
+ - Lightweight
+ - Support iOS 12 - 14 & latest Gmail version
+ . 
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ . 
+ Thanks a ton
+Name: Gmail No Ads
+Author: Hao Nguyen
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.johnzaro.appstoreupdatestab
 Architecture: iphoneos-arm64
 Version: 4.0
@@ -7570,6 +7600,42 @@ Author: Alexman & Kennyroo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Exodar.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
+Package: com.jtis.facebooknoads
+Architecture: iphoneos-arm
+Version: 1.4.1
+Section: Tweaks
+Maintainer: Hao Nguyen
+Installed-Size: 584
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.6.0), firmware (>= 12)
+Filename: ./debs/com.jtis.facebooknoads_1.4.1_iphoneos-arm.deb
+Size: 255064
+MD5sum: 0978ed8d715b0eb29a70f3e9c83f7457
+SHA1: 6e36a1a39d3a60ae8feb30019653d67338fc59ee
+SHA256: f93ddf292c4e75310577deaf772a405cce5b8f2af8f41d57911304d1cd175542
+SHA512: 8fcd967a655a1bb65839e0d34404340c0af2f9223aaec9c7698dc3fbfed8df744f1edce97ff02d3d94b235f492831e995853169b378d127afe98b27cb9707882
+Description: Free & Open Source Tweak for Facebook
+ Free & Open Source Tweak for Facebook
+ Change log: https://github.com/haoict/facebook-no-ads/releases
+ . 
+ Features:
+ - Remove Ads
+ - Can Download Video (long press to download)
+ - Can Download Story
+ - Can Only Me Profile Picture
+ - Disable Story Seen (See friends's story without letting them know)
+ - Hide Composer on News Feed
+ - Hide Stories on News Feed
+ - Support iOS 12-14
+ - Support latest Facebook version (If it doesn't work, you should update the app to latest version >= 307.0)
+ . 
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ . 
+ Thanks a ton
+Name: Facebook No Ads
+Author: Hao Nguyen
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.fakedualsim
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -10004,6 +10070,26 @@ depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=locationf
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.lockdroid
+Architecture: iphoneos-arm
+Version: 0.0~beta8
+Section: Tweaks
+Maintainer: Julio
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Filename: ./debs/com.jtis.lockdroid_0.0~beta8_iphoneos-arm.deb
+Size: 111276
+MD5sum: 7fc7067fe38f09403a1931abab19bdca
+SHA1: 22ea18af8057b83d5646c1f3a2df592025858012
+SHA256: 05729db49a7844f6a0d958d5dc12563aeff2e86f2e18a9991113beef30d23610
+SHA512: 18573af8d5e37f5f8d8f7f99e2f4de9f09cf36ebce9ea48ac2a56c723a42c7232779556ab35528f15817bb4af6d9f670b9c9ce40e0299141c31aaa28314cca19
+Homepage: https://jtisvn.github.io/
+Description: Màn hình khóa Android vẽ nối
+Name: LockDroid
+Author: julioverne
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LockDroid.json
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.lockdroid
+
+Package: com.jtis.lockdroid
 Architecture: iphoneos-arm64
 Version: 0.0~beta8
 Section: Tweaks
@@ -10691,6 +10777,43 @@ Author: Miss
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Meizu3D.json
 Depiction: https://jtisvn.github.io/depictions/Meizu3D.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.messengernoads
+Architecture: iphoneos-arm
+Version: 3.12.0
+Section: Tweaks
+Maintainer: Hao Nguyen
+Installed-Size: 1012
+Depends: mobilesubstrate, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
+Filename: ./debs/com.jtis.messengernoads_3.12.0_iphoneos-arm.deb
+Size: 539388
+MD5sum: 38362a7e62501385c54a28dabc2155d8
+SHA1: b33dcb1f0fe2b756bdfe652136e35a44e5211c00
+SHA256: db1ad467163a5fcecfb58bf518cd215c1498b172735abaf3e7ab983319bcfc40
+SHA512: 426904a0823f3f9a4c82ead13a5ef338a03a6a0109b8ff92e9b573141ebd72dc94fa77a5ae4b1b85a0b574719d1bd6251012aa14c1a192136586c6d57124cc74
+Description: The best tweak for Messenger app.
+ The best tweak for Messenger app.
+ Change log: https://github.com/haoict/messenger-no-ads/releases
+ . 
+ Features:
+ - Hide Ads on Messenger app
+ - Disable Read Receipt
+ - Disable Typing Indicator
+ - Disable Story Seen Receipt
+ - Can Save Friend's Story
+ - Hide Search Bar, Stories row, People tab
+ - Hide Suggested Contact in Search
+ - Extend Story Video Upload Length (from default is 20 seconds to 10 minutes)
+ - Support iOS 12 - iOS 14
+ - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 300.0)
+ . 
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ . 
+ Thanks a ton
+Name: Messenger No Ads
+Author: Hao Nguyen
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.miuminuipro
 Architecture: iphoneos-arm
@@ -13872,6 +13995,25 @@ Author: Hoang MD
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Translucent.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
+Package: com.jtis.trapp.jb
+Architecture: iphoneos-arm64
+Version: 2.10-499
+Section: Applications
+Maintainer: JTISVN Repo
+Installed-Size: 18856
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy
+Filename: ./debs/com.jtis.trapp.jb_2.10-499_iphoneos-arm64.deb
+Size: 4795256
+MD5sum: 0566d16ed0413e47afc4efb052d7dab7
+SHA1: 6871b48f12057ee08d4050b043c0c03b587cef9b
+SHA256: ca5affab265d6db2d5224d73b3875fbca6918dbdb86d3000e213ea0bf7814bdd
+SHA512: 8798d3b5cd5c434740ea0a88a26729ec2fffe77a2f72403d328a36fe1a5c4a64c3792db1b84f236fc4ae28816c285d90e31a911acab1ddfcbdf7186942d3f125
+Description: Tiện ích ghi âm cuộc gọi hiện đại và nhiều chức năng!
+Name: TrollRecorder (RootLess)
+Author: Lessica <82flex@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/TrollRecorder.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollRecorder.json
+
 Package: com.jtis.trim
 Architecture: iphoneos-arm64
 Version: 0.0.2
@@ -15828,6 +15970,31 @@ Name: AltList
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Author: opa334
 Icon: file:///var/jb/Library/IconRepo/hethongg1.png
+
+Package: com.opa334.ccsupport
+Architecture: iphoneos-arm
+Version: 1.2.2
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 201
+Provides: com.ioscreatix.silo
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.2.2.deb
+Size: 35410
+MD5sum: bedc14592047dfd4d98fd7118ade5cc2
+SHA1: f70e26d16dd5afe9576ee7801b9a4669d1077198
+SHA256: 0f3393ecbc3b4d0cf95f1a554aff9e113fd9a353006d96b8f8b8c7f55e6ce90f
+SHA512: 66fa360df5c16ea8e9ffccd01fdde26abe3e9deacdf8c7ab02b47e0c21894372a8ad903e462797c05f94f59bb61abd7badd4ea9abea279247d05cfbe2bcddb33
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Description: Support tweak for CC modules!
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: opa334 <opa334@protonmail.com>
+Name: CCSupport
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: opa334
 
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64e
@@ -17838,6 +18005,22 @@ Author: Sudo + Paisseon
 SileoDepiction: https://paisseon.github.io/depictions/Xinamine.json
 Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Xinamine.json&name=Xinamine&dev=Paisseon
 Icon: https://paisseon.github.io/icons/Xinamine.png
+
+Package: eu.teggers.netkillui
+Architecture: iphoneos-arm
+Version: 0.2.1-1
+Section: Tweaks
+Maintainer: Teggers
+Depends: adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils, firmware (>= 11.0)
+Filename: ./debs/eu.teggers.netkillui_0.2.1-1_iphoneos-arm.deb
+Size: 600540
+MD5sum: 7b4cc682799855d9e723c57db82985fe
+SHA1: f0571b70330810536844c7b459a7a1bd2e316ab1
+SHA256: 8c6590e5e7e8cf509b5299ef91d9b2a087a19b6f9084dfd4b130ac64cc2ddc7a
+SHA512: 7826720782f66cc309842ab5d7039e67b02e01dc393b0d9e37f8dec4e4ea256af4e36d5353e7bca12d2f2537f5d80af92bcb63b9c5764a4502fc6e3cb291d57e
+Description: GUI for arp-scan and arp-spoof.
+Name: NetKillUIbeta (iOS 11)
+Author: Teggers
 
 Package: com.34306.trolldecryptjb
 Architecture: iphoneos-arm64
