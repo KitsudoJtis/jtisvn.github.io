@@ -4334,6 +4334,27 @@ Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
 Icon: https://jtisvn.github.io/sectionIcons/Aemulo.png
 
 Package: com.jtis.aim
+Architecture: iphoneos-arm
+Version: 1.2.9
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 4944
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe
+Filename: ./debs/com.jtis.aim_1.2.9_iphoneos-arm.deb
+Size: 2677804
+MD5sum: 2e1420e4bdb397809b4ba59f48a9f3cc
+SHA1: 27285f3a60a80f489540221181b814a9f97db7d7
+SHA256: bc9aebc62d5e11e3e1c67eb6eb821ad58812a53825959356c7416919347dbc54
+SHA512: 6f8bea9977658424b3b048264f36c207cefe9eca43de1e86056a08537e36ff52ccce54c8d4f0adecade5ce9d18ec21f4d035706f75ce14a4512b1e5450bf234d
+Description: Màn hình khóa thời gian và ngày kiểu iOS 16
+Name: AIM
+Author: alimaulana
+SileoDepiction: https://havoc.app/package/aim/depiction.json
+Depiction: https://jtisvn.github.io/depictions/AIM.html
+Icon: https://jtisvn.github.io/sectionIcons/AimPro.png
+
+Package: com.jtis.aim
 Architecture: iphoneos-arm64
 Version: 1.3.1
 Section: Tweaks
@@ -7650,42 +7671,6 @@ Author: Alexman & Kennyroo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Exodar.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
-Package: com.jtis.facebooknoads
-Architecture: iphoneos-arm
-Version: 1.4.1
-Section: Tweaks
-Maintainer: Hao Nguyen
-Installed-Size: 584
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.6.0), firmware (>= 12)
-Filename: ./debs/com.jtis.facebooknoads_1.4.1_iphoneos-arm.deb
-Size: 255064
-MD5sum: 0978ed8d715b0eb29a70f3e9c83f7457
-SHA1: 6e36a1a39d3a60ae8feb30019653d67338fc59ee
-SHA256: f93ddf292c4e75310577deaf772a405cce5b8f2af8f41d57911304d1cd175542
-SHA512: 8fcd967a655a1bb65839e0d34404340c0af2f9223aaec9c7698dc3fbfed8df744f1edce97ff02d3d94b235f492831e995853169b378d127afe98b27cb9707882
-Description: Free & Open Source Tweak for Facebook
- Free & Open Source Tweak for Facebook
- Change log: https://github.com/haoict/facebook-no-ads/releases
- . 
- Features:
- - Remove Ads
- - Can Download Video (long press to download)
- - Can Download Story
- - Can Only Me Profile Picture
- - Disable Story Seen (See friends's story without letting them know)
- - Hide Composer on News Feed
- - Hide Stories on News Feed
- - Support iOS 12-14
- - Support latest Facebook version (If it doesn't work, you should update the app to latest version >= 307.0)
- . 
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- . 
- Thanks a ton
-Name: Facebook No Ads
-Author: Hao Nguyen
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
 Package: com.jtis.fakedualsim
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -10827,43 +10812,6 @@ Author: Miss
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Meizu3D.json
 Depiction: https://jtisvn.github.io/depictions/Meizu3D.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
-
-Package: com.jtis.messengernoads
-Architecture: iphoneos-arm
-Version: 3.12.0
-Section: Tweaks
-Maintainer: Hao Nguyen
-Installed-Size: 1012
-Depends: mobilesubstrate, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
-Filename: ./debs/com.jtis.messengernoads_3.12.0_iphoneos-arm.deb
-Size: 539388
-MD5sum: 38362a7e62501385c54a28dabc2155d8
-SHA1: b33dcb1f0fe2b756bdfe652136e35a44e5211c00
-SHA256: db1ad467163a5fcecfb58bf518cd215c1498b172735abaf3e7ab983319bcfc40
-SHA512: 426904a0823f3f9a4c82ead13a5ef338a03a6a0109b8ff92e9b573141ebd72dc94fa77a5ae4b1b85a0b574719d1bd6251012aa14c1a192136586c6d57124cc74
-Description: The best tweak for Messenger app.
- The best tweak for Messenger app.
- Change log: https://github.com/haoict/messenger-no-ads/releases
- . 
- Features:
- - Hide Ads on Messenger app
- - Disable Read Receipt
- - Disable Typing Indicator
- - Disable Story Seen Receipt
- - Can Save Friend's Story
- - Hide Search Bar, Stories row, People tab
- - Hide Suggested Contact in Search
- - Extend Story Video Upload Length (from default is 20 seconds to 10 minutes)
- - Support iOS 12 - iOS 14
- - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 300.0)
- . 
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- . 
- Thanks a ton
-Name: Messenger No Ads
-Author: Hao Nguyen
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.miuminuipro
 Architecture: iphoneos-arm
