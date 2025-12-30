@@ -324,6 +324,27 @@ Author: 来了老弟 h_h_x_t
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HideNoti.json
 
+Package: com..jtis.githubweblegacycompat
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 364
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), firmware (<< 15.4)
+Filename: ./debs/com..jtis.githubweblegacycompat_1.0.4_iphoneos-arm64e.deb
+Size: 18132
+MD5sum: 85dba9d38a7e798f1e751584111c5079
+SHA1: 63263f64e7a954c6a4d9809fa1282ed226eea3c1
+SHA256: adb4b479310a7d040e742db435546cc8d05c2d16d6678e868d80f8b29d7b997d
+SHA512: 1588fbabd718b3972cb56b0fbddf7834008efb3dd97c5b9dd4c4900810c5ab35205a9a8db118dab6421ee868adc5da016fc6c162426d9afedf6a6ea08010b365
+Description: Make GitHub website more accessible on iOS <15.4
+Name: GitHubWebLegacyCompat
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/githubweblegacycompat.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.0xkuj.backgrounderaction15autostate
 Architecture: iphoneos-arm64
 Version: 1.0.3
@@ -1422,6 +1443,25 @@ MD5sum: e572c0fa9507699e2d7b021c4ff763c7
 SHA1: 7deade75a23d47c8c6c58e96e57dfe4466cb499c
 SHA256: b08d2be1e5316d3548933fe6f4a2a4edb82b70c5348dcdcc8814282f6683eefd
 SHA512: dad2d18df3df40ecea860a2f2ac52b2d10487f76e33eee9f41518b3fea2d3aa37f5478ac6a108aad81f9b6f53a4689c8d1c98dc05fb335f1f5dbea3e5b133e51
+Description: Phông chữ ios
+Name: Comic Relief (iOS14-16)
+Author: Evelyn (ev_ynw)
+Depiction: https://evynw.github.io/depictions/?p=com.evynw.fontcomicrelief14
+SileoDepiction: https://evynw.github.io/sileo/fontcomicrelief14.json
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+
+Package: com.evynw.fontcomicrelief14
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.evynw.fontcomicrelief14_1.0_iphoneos-arm64e.deb
+Size: 42419922
+MD5sum: 9d3a88a53eef1539f4e2b41aba5ef776
+SHA1: e4164c45f44a6e8975849f0353635b556c8a7b6c
+SHA256: ff1754467efa915adc67c648035c32f305495180594cf38e334f65ebae576e6f
+SHA512: fc958f81d8fe8828730ad4af643933cbe72dd820cad54981cf2f7f3f2b1237a0a34024bcc58acf8642aca204c1ca366cf7897400102e5e1da8e1eaf07c597706
 Description: Phông chữ ios
 Name: Comic Relief (iOS14-16)
 Author: Evelyn (ev_ynw)
@@ -3518,6 +3558,43 @@ Name: LS Blue Dragon
 Author: Phuc Do
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LSBlueDragon.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
+Package: com.jtis.LSLeafyti16
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Depends: firmware (>= 16.0)
+Filename: ./debs/com.jtis.LSLeafyti16_1.0_iphoneos-arm64.deb
+Size: 114572
+MD5sum: c92252c36d6fe8943c156ec861cddff4
+SHA1: c34be8fcee4ccfb48bc7294de15aae499e689a28
+SHA256: aa878bada79e33282b18839b40ac79a24997e3c1fcefe52caccf25b55aaec39c
+SHA512: 77e33ee9a771c54083ea59c3d0c6294f40446e8e62fe40d3c33b9a177cab2d917036ee9a4187dcb1cc7d28c1c808c6f88e7d275cce8f704ad714aa286ec72be3
+Description: Thay đổi phông chữ Đồng hồ qua Snowboard
+Name: LS-16-Leafyti
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSLeafyti16.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+Author: p0s3id0n
+
+Package: com.jtis.LSLeafyti16
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0)
+Filename: ./debs/com.jtis.LSLeafyti16_1.0_iphoneos-arm64e.deb
+Size: 114576
+MD5sum: ed813895636940337bd4cc52928e992c
+SHA1: 6e67ac7096a360f56d5018586488bd5e60d537ad
+SHA256: 6517d87d0681430155daff955499d1d5a25c5646e5d295495102cf60ebf79a35
+SHA512: 987067e1dd844f3b770ac424cad50ccaefc6be0f2c69919ad71299a6a3f175e9711014d83380ce740981ab5d758225b04ec820da847bad70bb236d7fe8ab8f0a
+Description: Thay đổi phông chữ Đồng hồ qua Snowboard
+Name: LS-16-Leafyti
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSLeafyti16.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+Author: p0s3id0n
 
 Package: com.jtis.LSLeafyti
 Architecture: iphoneos-arm
@@ -8628,6 +8705,25 @@ Author: Kritanta && Hitori
 Icon: https://jtisvn.github.io/sectionIcons/Gravitation.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Gravitation.json
 
+Package: com.jtis.gravity
+Architecture: iphoneos-arm
+Version: 0.7
+Section: Tweaks
+Maintainer: Julio
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.gravity_0.7_iphoneos-arm.deb
+Size: 118992
+MD5sum: ce97d856fdc5f0da6cf039d1804fa65b
+SHA1: 4d6d404961a6045463e90d54b0e4110a65583672
+SHA256: af4c6fd9e5305ca398ac935a78024c226f7beaa51778f6950c6c9285a7ac053e
+SHA512: 90bf4dad44e28a41cf40c2f45f309c7229a511b1c3229c2afaa21ffd6e3ae67b06612f1b807c1cad2c20ac29878a801fff7528a3a6d68224550f3cda19f6854a
+Homepage: https://twitter.com/ijulioverne
+Description: Graviboard alternative
+Name: Gravity
+Author: julioverne <julioverne@me.com>
+Icon: file:///Library/PreferenceBundles/Gravity.bundle/icon@2x.png
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.gravity
+
 Package: com.jtis.griddy
 Architecture: iphoneos-arm64
 Version: 1.0.5
@@ -9906,6 +10002,47 @@ Author: CUNSTUCK <cunstuck@gmail.com>
 dev: cunstuck
 depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=locationfakerxDp
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.lockdroid
+Architecture: iphoneos-arm64
+Version: 0.0~beta8
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 472
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Filename: ./debs/com.jtis.lockdroid_0.0~beta8_iphoneos-arm64.deb
+Size: 84552
+MD5sum: b0b97059191a9429ebc680a93c022d9c
+SHA1: d9a5ef5d11a2f1de032e62541dbc594c17242baa
+SHA256: 9348c484e4c483275f15aaa1b2737de5e7fa87c6bd93f44da304e553c62d5948
+SHA512: 9c23a7272500236f7751a947029d16a4d84a08d716909270be2a6cbb8bee94be44a9569b148ad64143ef871a05d259ebe0e5b570e1fe119246a892f9c6724e21
+Description: Màn hình khoá android kiểu vẽ nối
+Name: LockDroid (Rootledd)
+Author: julioverne
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.lockdroid
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LockDroid.json
+
+Package: com.jtis.lockdroid
+Architecture: iphoneos-arm64e
+Version: 0.0~beta8
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 472
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Filename: ./debs/com.jtis.lockdroid_0.0~beta8_iphoneos-arm64e.deb
+Size: 83664
+MD5sum: 90b5a5683de0b365b96934a3049ddd2e
+SHA1: a43f78708343470fd221eaced9e560f65b83feeb
+SHA256: 3da61330bb1bd216b53b6d7c5bed706d17ab70be5dd9a337e86ef6ad80036bf2
+SHA512: d655d94acdb03ca46914768ecc74e9ab47ae7a6fe9207f18897addfedc7b8f84463beb7af4aa85da3491397087dee264e50a817b8a36ad6b34fbe9d871f89427
+Description: Màn hình khoá android kiểu vẽ nối
+Name: LockDroid (Roothide)
+Author: julioverne
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.lockdroid
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LockDroid.json
 
 Package: com.jtis.locketgold
 Architecture: iphoneos-arm64
@@ -15610,6 +15747,47 @@ Name: Cephei-compat
 Author: Nightwind
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.noisyflake.albummanager
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: NoisyFlake <support@noisyflake.com>
+Installed-Size: 690
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.libsandy, com.opa334.ccsupport
+Filename: ./debs/com.noisyflake.albummanager_1.0.2_iphoneos-arm64.deb
+Size: 56096
+MD5sum: fc176a1bff95153ab48cc38a3c9401b0
+SHA1: 16389895e136893f45c7dbfc2a35b3ca382ae338
+SHA256: a803dec06e163faaae99a344630c89a2f9ee847f13ffbebcb3f6f4a49a3951ca
+SHA512: c5f91b6666a619e29130f442dff8e7f96e53ea25e96cbae49ff60b46bcc4c9299e253c9354b7945ea666cb2a1c97e90e4bd58c271f35a32e2996694af44ef4ed
+Description: Sắp xếp và bảo vệ album ảnh của bạn
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: NoisyFlake <support@noisyflake.com>
+Name: AlbumManager (Rootless)
+Icon: https://img.chariz.cloud/icon/albummanager/icon@3x.png
+Sileodepiction:
+Depiction: https://chariz.com/buy/albummanager
+
+Package: com.noisyflake.albummanager
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: NoisyFlake
+Installed-Size: 690
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.libsandy, com.opa334.ccsupport
+Filename: ./debs/com.noisyflake.albummanager_1.0.2_iphoneos-arm64e.deb
+Size: 56352
+MD5sum: f5a3abab08902a5f4d7944579d6c86de
+SHA1: ec37b827ccd5b9413dcc335c60922810f43afaa3
+SHA256: 2e182108fc866d00ab1a2b87e7c3b698a2d444b3e8c3234d03141b1f59e4f01a
+SHA512: fc6f778dd09d5f5bc113630a46a7d1899a393b72c302437c4ace43b1557a113acd90ac52bce7ba9f0d977f74c41af8d47c5d36b24875500e950a5cf5476c9922
+Description: Sắp xếp và bảo vệ album ảnh của bạn
+Author: NoisyFlake <support@noisyflake.com>
+Name: AlbumManager (Roothide)
+Icon: https://img.chariz.cloud/icon/albummanager/icon@3x.png
+Depiction: https://chariz.com/buy/albummanager
+
 Package: com.opa334.altlist
 Architecture: iphoneos-arm64
 Version: 1.0.11
@@ -16294,6 +16472,27 @@ Name: YouPiP (Rootless)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.ytabgoodies
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.ps.youremembercaption, com.ps.ytsystemappearance, com.ps.youarethere
+Filename: ./debs/com.ps.ytabgoodies_1.0.6_iphoneos-arm64e.deb
+Size: 2828
+MD5sum: 74c94927cdbff517c15ac61a6e6f4bf2
+SHA1: 1d4b7882f11bfbc1a17865f402ccc839ec62dbae
+SHA256: e0a076d4783084bbad7c92d4e4f6fe995cafb6fe510a69bc78f7afa8c0136ee5
+SHA512: 38960afd5bf742fbbaef058585b2f5991e7ce3a6d1b047d7278db58f17b4d2eca07170432930be64eff07656887329d2e935e7e4b54fbd331c899a9ba90bea19
+Description: Thực thi các tính năng hữu ích của YouTube mà bạn có thể sử dụng 50/50.
+Name: YTABGoodies (Roothide)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.ps.ytvideooverlay
 Architecture: iphoneos-arm64e
@@ -17774,6 +17973,49 @@ MD5sum: 44a4a68df355d38fd2dc3cc093c9d1f4
 SHA1: 4ad27f7619122f98f946b98496bec9b05cf643fa
 SHA256: 7a1f2d8c5c0f02d09ec372a6c405596d2748c9663191f87505ae5a16014b1de2
 SHA512: deb59337e0a3deab0d991157df4ca688c532911bb54707bf105da01c81a78bea3d8152aff0e4e3805904e217dd322fff44f3fd8f50fd378cf2963ecab9bb78df
+Homepage: https://jtisvn.github.io
+Description: Stage Manager, redesigned for iOS
+Name: Aerial (Roothide)
+Author: uz.ra
+depiction: https://jtisvn.github.io/depictions/Aerial.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Aerial.json
+Icon: https://jtisvn.github.io/sectionIcons/Aerial.png
+
+Package: jp.uzra.aerial
+Architecture: iphoneos-arm64
+Version: 3.5
+Section: Tweaks
+Maintainer: uz.ra
+Installed-Size: 2592
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/jp.uzra.aerial_3.5_iphoneos-arm64.deb
+Size: 1438520
+MD5sum: 9b833a475a62850689d6153f3028cd6d
+SHA1: 4079303543eff1d3629cc2ff1808c3fb20541256
+SHA256: d04f4b91fe9fc097865077261bd92a772353d2c5016b3894d7a5df8209b9ef78
+SHA512: a639b91644d3145d1d3afaa9ccb47f4a424558f5f10269d9388511e53295e712db85c0e06e8d5a9455f00961dedb5b2619ddbf9a799d89710b57ebe92ea46e62
+Homepage: https://jtisvn.github.io
+Description: Stage Manager, redesigned for iOS
+Name: Aerial (Rootless)
+Author: uz.ra
+depiction: https://jtisvn.github.io/depictions/Aerial.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Aerial.json
+Icon: https://jtisvn.github.io/sectionIcons/Aerial.png
+
+Package: jp.uzra.aerial
+Architecture: iphoneos-arm64e
+Version: 3.5
+Section: Tweaks
+Maintainer: uz.ra
+Installed-Size: 2592
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/jp.uzra.aerial_3.5_iphoneos-arm64e.deb
+Size: 1438272
+MD5sum: 119a1827fde4b59c6e9e96e8d3313ffd
+SHA1: a350aba8fe0155737b0cdd9ce9cad65ad0458b13
+SHA256: 055d4722ddbc3504e79d250e1ea6a9c8f72e5b2cd9de5e79de241b9b5fd767c4
+SHA512: 66dc115342efc517d7e5aa1eefc1832a1677d707c725e778c71f924365023ba19cf5d12903ac8ce8c7369e5b2f8304f70ca99ed3da0b9af5457b28868f08e121
 Homepage: https://jtisvn.github.io
 Description: Stage Manager, redesigned for iOS
 Name: Aerial (Roothide)
