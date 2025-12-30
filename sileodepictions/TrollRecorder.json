@@ -1,7 +1,7 @@
 {
 "minVersion":"0.4",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#CC66FF",
+"tintColor":"#6666FF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -167,7 +167,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.5.5\n\n- Sửa lỗi và tối ưu hoá thông báo\n\n- Thêm ngôn nggữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 2.10\n\n- Thêm ngôn nggữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
