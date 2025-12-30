@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"CCSwitchData\n\n- Nhanh chóng chuyển đổi dữ liệu di động của thẻ sim kép thông qua Trung tâm điều khiển.\n\n- Ví dụ: khi dùng dữ liệu hiện tại là SIM 1 thì nhấn để chuyển nhanh sang SIM 2 hoặc ngược lại..",
+"markdown":"CCSwitchData\n\n- Nhanh chóng chuyển đổi dữ liệu di động của thẻ sim kép thông qua Trung tâm điều khiển.\n\n- Ví dụ: khi dùng dữ liệu hiện tại là SIM 1 thì nhấn để chuyển nhanh sang SIM 2 hoặc ngược lại.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

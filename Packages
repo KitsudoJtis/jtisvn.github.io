@@ -11159,6 +11159,27 @@ Author: NoisyFlake, Nixuge
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Network.json
 Icon: https://jtisvn.github.io/sectionIcons/Network.png
 
+Package: com.jtis.nfcwriterx-rootless
+Architecture: iphoneos-arm64
+Version: 4.0-4+debug
+Section: Utilities
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 3724
+Depends: mobilesubstrate, net.limneos.libbulletin, com.jtis.limneos-crack
+Conflicts: net.limneos.nfcwriter, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos, me.kanam.nfcwriterquickaction
+Filename: ./debs/com.jtis.nfcwriterx-rootless_4.0-4+debug_iphoneos-arm64.deb
+Size: 706060
+MD5sum: 65e8dbc785809a13e78082a452f7ba97
+SHA1: 294ef98b80782b131148b8e9a9d6e9175db9490c
+SHA256: c260797500835c3d85819a96282c574dc9f26cbd59217ed5a83fbd20ad30bb6f
+SHA512: c17e6ddf3b77289f80a7b1f5f819b7b3df69e7730ac8dd2a15e22394e774f7a2b40883a38ea034abb1aaf6e947484b4ccf391fc256ff7eeb082e9413e8ff1810
+Description: NFCWriter XS dành cho iOS 11>16
+Name: NFCWriter XS (Rootless)
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.nfcwriterx
+Author: Elias Limneos <limneoselias@gmail.com>
+MainLibMD5: 5c9513f65efdf5339b2ba47ef648a46c
+
 Package: com.jtis.nobetaalert
 Architecture: iphoneos-arm64
 Version: 4.0
@@ -13693,6 +13714,49 @@ Author: ARX8x
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SystemInfo.json
 Depiction: https://jtisvn.github.io/depictions/SystemInfo.html
 Icon: https://jtisvn.github.io/sectionIcons/SystemInfo.png
+
+Package: com.jtis.t9Dialer
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 23200
+Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker, firmware (>= 15.0), emt.paisseon.xinamine (>= 0.0.5)
+Filename: ./debs/com.jtis.t9Dialer_1.2.0_iphoneos-arm64.deb
+Size: 39264
+MD5sum: a3de2ad7da62aa444c78da06ebd92f48
+SHA1: 37c7d3a97498763dd315956a90116f30732f5c54
+SHA256: 3da03dce436f7a6fa6cbaf35787b42d7bb6a35cd5d0e77c6b8e361a2896e0144
+SHA512: c0f4edb14a901deadc4bd1d03389dc470605693ebf24bf6e43f5d644e02f163673e490a00595f72f4842d46b78738816ffb1b37ec4fa53c3c34f083e4d30b218
+Homepage: https://jtisvn.github.io/
+Description: Hiển thị tìm kiếm theo tên hoặc số điện thoại
+Name: T9Dialer (Rootless)
+Author: Jordan Koch
+Tags: compatible_min::ios11.1.2, compatible_max::ios14.8.1
+Depiction: http://jtisvn.github.io/depiction/T9Dialer.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/T9Dialer.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.t9Dialer
+Architecture: iphoneos-arm64e
+Version: 1.2.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker, firmware (>= 11.1.2)
+Filename: ./debs/com.jtis.t9Dialer_1.2.0_iphoneos-arm64e.deb
+Size: 39288
+MD5sum: b6edb74682fa6f7a30d0fd0632dac653
+SHA1: d5b17881be098ea04ad823997c834d5e01c15a07
+SHA256: e89c61eff7e4ed1d1f87fe6c0317f81be95c9896bedc2aeb1356d722fc448285
+SHA512: 9186b3e517cba8bf79b49c30a3ed81ee6fafc365642f42a0773b67db32c75b552af852663bc55be0eab30edcfb0625293cda5fb5e4bb701ae33a70465ad44033
+Homepage: https://jtisvn.github.io/
+Description: Hiển thị tìm kiếm theo tên hoặc số điện thoại
+Name: T9Dialer (RootHide)
+Author: Jordan Koch
+Tags: compatible_min::ios11.1.2, compatible_max::ios14.8.1
+Depiction: http://jtisvn.github.io/depiction/T9Dialer.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/T9Dialer.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.taptaplock
 Architecture: iphoneos-arm64e
