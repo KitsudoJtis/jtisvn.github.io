@@ -5604,6 +5604,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/BatteryPercent.json
 Depiction: https://jtisvn.github.io/depictions/BatteryPercent.html
 Icon: https://jtisvn.github.io/sectionIcons/BatteryPercent.png
 
+Package: com.jtis.beautyplus
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 160	.dragon/_
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.beautyplus_1.0_iphoneos-arm64.deb
+Size: 6720
+MD5sum: f5ae2c80c2e4f6553418828c58863a69
+SHA1: 957d8bce361657edd53dd446590de758618d4abf
+SHA256: 93c89428875200662221e710ebe74c325af3736850b9f9a470ad67190ca4d5ba
+SHA512: 8fc6e93027b582c6311dd26b85ecb4adaba555e165a547b0050b5a86762897414e93568bd278707ed2ec6a55c1d6c556f060bfc0725da7c86b7bd65a30ec2009
+Description: • Mở khóa tính năng Vip cho Ứng dụng BeautyPlus bởi TG@hiepkimcdtk55
+Name: BeautyPlus Vip
+Author: LK
+Depiction: http://jtisvn.github.io/depiction/Beautyplus.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Beautyplus.json
+Icon: https://files.catbox.moe/4grkw2.png
+
+Package: com.jtis.beautyplus
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 160	.dragon/_
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.beautyplus_1.0_iphoneos-arm64e.deb
+Size: 8690
+MD5sum: 4574fa6d03d75516e10333645e39c6ad
+SHA1: 0bddf2148a5b750f905f6d65193af6af995d7c91
+SHA256: 5ad2c815908fca2f59e78840c67106f6d0fb9f0f3c7f933ecef2da89177b1ff1
+SHA512: aabead24e8977396eb9bf7cd5f1f29115b71e85795e73781195c5af799f823329a0b3cab7a3b6885e94de3be0dd390979cd27001cdc99e2a8f883a0cda948dd1
+Description: • Mở khóa tính năng Vip cho Ứng dụng BeautyPlus bởi TG@hiepkimcdtk55
+Name: BeautyPlus Vip
+Author: LK
+Depiction: http://jtisvn.github.io/depiction/Beautyplus.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Beautyplus.json
+Icon: https://files.catbox.moe/4grkw2.png
+
 Package: com.jtis.bettercc
 Architecture: iphoneos-arm64
 Version: 0.0.51
@@ -14802,6 +14843,47 @@ Author: Nightwind
 SileoDepiction: https://jtisvn.github.io/sileodepictions/VisionSearchPill.json
 Icon: https://jtisvn.github.io/sectionIcons/VisionSearchPill.png
 
+Package: com.jtis.vivacutpatch
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.vivacutpatch_1.0_iphoneos-arm64.deb
+Size: 437384
+MD5sum: f7e700c4f2eedcc9c58271ff347f07ff
+SHA1: f8563d2fa20f0f2584e205bf7abf100f8d27d121
+SHA256: 99917fb3f5ca4eb8b6b1ddd869b5959a1769ddd1eb9fb90c31258d8a65aa37b6
+SHA512: 8ec740ffb96964c2f52583f04498a5b5dcbb1bb607be66311eb9adc61ed45684223ecceefd706b83d29ae681f9e55d5b60eacc83d9457176a18284d9f0c8e011
+Description: VivaCut crack by Blatan
+Name: VivaCut Pro
+Author: blatant
+Depiction: http://jtisvn.github.io/depiction/Vivacutpro.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Vivacutpro.json
+Icon: https://files.catbox.moe/nd7pmb.webp
+
+Package: com.jtis.vivacutpatch
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.vivacutpatch_1.0_iphoneos-arm64e.deb
+Size: 995462
+MD5sum: 51138c73afbd554f53c19a9d62ee0681
+SHA1: d9611994bcfefde4b63b50f50e4a33fb5f1c87da
+SHA256: 55b62d4763619da98ce5e07f16ca413a08d38f934d765399192e0091c50e1c8d
+SHA512: ec23f88494c1c09c6744adbba1d6973acde995f5c98727b4cd4be73316fd411b875954bf2287810825de81682c80b8bde6143c0368d1092f5dea8d1f80f8955f
+Description: VivaCut crack by Blatan
+Name: VivaCut Pro
+Author: blatant
+Depiction: http://jtisvn.github.io/depiction/Vivacutpro.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Vivacutpro.json
+Icon: https://files.catbox.moe/nd7pmb.webp
+
 Package: com.jtis.vizagevh
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -14996,6 +15078,47 @@ Description: Hỗ trợ ghép nối Apple Watch của bạn trên watchOS mới 
 Name: watched (Rootless)
 Author: 34306
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.winkvip
+Architecture: iphoneos-arm64
+Version: 0.1
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.winkvip_0.1_iphoneos-arm64.deb
+Size: 3056
+MD5sum: 38f214224a269465658d1010a5c61d97
+SHA1: e38e6eab14c5910ed69f6cdeda19e4644d2c77cb
+SHA256: 0977ad364270097a7492a65ed9ab2d70a6c62d466597efd6e6b9e24369f8f3fe
+SHA512: 987c471bb957081cff5ff48fdc4de52d8fb23ce8cb80fae30afb810758d147319fecffae204c70b24dd9dede5fc14100bccdc2b62a53c606f43b98d7589b8c63
+Description: Wink unlock VIP
+Name: Wink VIP
+Author: iOSign
+Depiction: http://jtisvn.github.io/depiction/WinkVip.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/WinkVip.json
+Icon: https://files.catbox.moe/cl7ru5.png
+
+Package: com.jtis.winkvip
+Architecture: iphoneos-arm64e
+Version: 0.1
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.winkvip_0.1_iphoneos-arm64e.deb
+Size: 4288
+MD5sum: fde408c3aa10bc6f1ca983b313b169f5
+SHA1: 571e1ee50c1124f05188603c7ed4b1f9f7cc217e
+SHA256: ddf71c3e19f6aa4ee0921d1fa956a9120472e091cff14500f5159f6ef161a062
+SHA512: 52f812713387ba9a2513e2c0777fa31881488fa1b32642f05d3be5beb3a9a7f793956b3f08063d6803ab9dfd62b398df7ca81dd6b12d9f01ee6c9a073ecb8481
+Description: Wink unlock VIP
+Name: Wink VIP
+Author: iOSign
+Depiction: http://jtisvn.github.io/depiction/WinkVip.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/WinkVip.json
+Icon: https://files.catbox.moe/cl7ru5.png
 
 Package: com.jtis.xuanhua120hz
 Architecture: iphoneos-arm64
