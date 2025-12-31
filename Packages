@@ -4893,6 +4893,31 @@ Name: AppData Plus (Roothide)
 Author: Fouad Raheb & Netskao
 Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
 
+Package: com.jtis.apphider
+Architecture: iphoneos-arm64
+Version: 2.2.6
+Section: Applications
+Maintainer: JTISVN Repo
+Installed-Size: 6134
+Depends: firmware (>= 6.0), mobilesubstrate
+Filename: ./debs/com.jtis.apphider_2.2.6_iphoneos-arm64.deb
+Size: 1856252
+MD5sum: 27200d8fe5bc1d44b4d6ad8a6521c87b
+SHA1: 61506db6929eb09a9a080a93105abfee93e8c9a7
+SHA256: 8ee511fd2d9b2f86423b1bace18c17a0ed03c860d5d145539cc39e30f75914e1
+SHA512: 520665a524331a8581cb9d5584f7c8c6d146c52777c7148d7216d2f642e58497b62ec6f6ed4c3be1098b9280169f10a5184a98507fd4d6ddd97e7e7d60d1a688
+Homepage: https://jtisvn.github.io/
+Description: Ẩn ứng dụng trên màn hình chính.
+  	  *  App Hider có thể ẩn ứng dụng của bạn khỏi SpringBoard. 
+  	  *  Vì vậy, bạn có thể ẩn các ứng dụng theo ý muốn hoặc không để người khác thấy.
+  	  *  Có thể Ẩn Cydia & Sileo, giống như thiết bị của bạn chưa được jailbreak. Chế độ Khách được thiết lập bằng cách sử dụng tính năng nhóm.
+Tag: purpose::extension, role::enduser
+Name: App Hider (Rootless)
+Author: liuming <liuminggui1993@163.com>
+Depiction: http://jtisvn.github.io/depiction/Apphider.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Apphider.json
+Icon: https://jtisvn.github.io/sectionIcons/Apphider.png
+
 Package: com.jtis.applecard
 Architecture: iphoneos-arm64
 Version: 3.3.3-end
@@ -5161,6 +5186,25 @@ Author: Elias Limneos <limneoselias@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AudioRecorder.json
 Icon: https://jtisvn.github.io/sectionIcons/AudioRecorder.png
 MainLibMD5: 2bd89895e747af47790b0eb2f6bac296
+
+Package: com.jtis.autoalerts
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: ./debs/com.jtis.autoalerts_1.0.4_iphoneos-arm64.deb
+Size: 78916
+MD5sum: a2e507b2d10d61395c692a4129fc68c5
+SHA1: ba360b4ae1e1612c8388becfd15f1086221f6123
+SHA256: d0858dcb0311a88919036cb79f803c9e3ae772b6832a52eebe7f9c91cc3eb9ed
+SHA512: e39e3407bb70642bb040a3dbf61ab3c623f92b5edffa0667213bd058a9e7e0c5d89f18b84d994566564de74e58fbb8d4c1b7f6ae085f34bc1ea67a9645fdd7cc
+Description: Tự động hóa các hành động cảnh báo bằng cách nhấn dài các tiêu đề cảnh báo.
+Name: AutoAlerts (Rootless)
+Author: shiftcmdk, waruhachi
+Depiction: http://jtisvn.github.io/depiction/AutoAlerts.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoAlerts.json
+Icon: https://jtisvn.github.io/sectionIcons/AutoAlerts.png
 
 Package: com.jtis.autofaceunlock-rootless
 Architecture: iphoneos-arm64
@@ -14307,6 +14351,27 @@ MD5sum: 8ed6b1182d595bb938fd87e2662e6d83
 SHA1: b24f10580dbe536e09edf8ca74a455edcf8a9641
 SHA256: 11482018909dbdcfb5fd4ad730391034f0194ea15392d1802a7a770078a83f8c
 SHA512: e099b05b0f2a59e5bccf13db53a957335b334a5e74e2543aa5d61e98bd6d231006210676f4c8ae61e49ebc2eb37b7cde9fe5edc469a0f5d06e5305929eee78ec
+Description: Cracked By Blatant
+Name: Truecaller Gold
+Author: blatant
+Depiction: http://jtisvn.github.io/depiction/Truecallergold.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Truecallergold.json
+Icon: https://jtisvn.github.io/sectionIcons/Truecallergold.png
+
+Package: com.jtis.truecallergold
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 3312
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.truecallergold_1.0.3_iphoneos-arm64e.deb
+Size: 1210354
+MD5sum: c9ab81340fd6b9f77e4d051191166f6b
+SHA1: bb88bdd3760c8d1102d384a79b5fe1bbec4d30c8
+SHA256: 3d065acbca96f2cae049a3a5eff8f75af15805591bb64c5347d97f1ca16822d7
+SHA512: 90a1c6c51b6659a04e9537f4c8c740e2599e6e36a4bb6e0bddaf38641e180a15955d3b6565ef3389262e88f6680eeab187fd48613a9c91033600aed45fd9a52c
 Description: Cracked By Blatant
 Name: Truecaller Gold
 Author: blatant
