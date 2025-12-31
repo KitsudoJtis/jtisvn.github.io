@@ -11465,6 +11465,25 @@ Author: Hitori
 SileoDepiction: https://jtisvn.github.io/sileodepictions/NoBetaAlert.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.noclutter
+Architecture: iphoneos-arm
+Version: 1.6
+Section: Tweaks
+Maintainer: Quix <3parsa3@gmail.com>
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/com.jtis.noclutter_1.6_iphoneos-arm.deb
+Size: 314068
+MD5sum: cc5f81e95319c543c8e369e11b720a7c
+SHA1: 559b9d8c2643d5df76dae1b5614503d8d9475e07
+SHA256: ed96b1e905c59fdbb04a57e1beb646f64d638788ec6bf7102086c06e294e032f
+SHA512: 07572dac3d2c19b970182960950026caacd0dfb45393e47ab0c53ab6e7a0842f589bafe01eebd71317fc30de034ab6f12a689da4de95bad1c0d19cf295084acd
+Description: Ẩn các thành phần gây rối mắt trên iOS.
+Name: NoClutter
+Author: Quix <3parsa3@gmail.com>
+Depiction: https://repo.twickd.com/get/com.twickd.quix.noclutter
+SileoDepiction: https://repo.twickd.com/get/com.twickd.quix.noclutter/native
+Icon: https://twickd.com/images/1fd9495fc86c7b7e369461b2df935e47.jpeg
+
 Package: com.jtis.nodockground
 Architecture: iphoneos-arm
 Version: 1.0.6
@@ -19690,6 +19709,23 @@ SHA256: 76895975005cd9dbcfbd28dde91a726f7edd512017509f6ff5ac41c3403f98f9
 SHA512: 7c59553ee4509c8d3cc22da296d7741b1b554fed72b6517d74a008447d2f1519cc0bdc475e0445bcea554647bc94ae6d2eab5df1c3526c043dc25591cfce5ef5
 Name: AssistiveTouchX
 Author: jailbreak365
+Sponsor: kiiimo.org <http://kiiimo.org>
+
+Package: org.cydia.kiimo.dra1n
+Architecture: iphoneos-arm
+Version: 1.2k
+Section: Supports iOS 13
+Maintainer: Kiiimo <support@kiiimo.org>
+Installed-Size: 7024
+Depends: mobilesubstrate, firmware (>= 11.0), ws.hbang.common, preferenceloader, com.cokepokes.libnotifications (>= 0.2-2), com.muirey03.libmryipc
+Filename: ./debs/org.cydia.kiimo.dra1n_1.2k_iphoneos-arm.deb
+Size: 2734994
+MD5sum: bc0370326c6c75e5b4c3040d7232ffd1
+SHA1: ec8f1f5289c91a1285cee2523713d7844dc2b782
+SHA256: 7d6a20ec319f82b6a5bb3329663b7ed5f58bbf961ec81de840c5dc65c3c64247
+SHA512: 747d050d4a0eb56b10cf47507ea3aad2b42db7c861654e22aa0bdbd235748cb2e7e960ca6da77df498c45792156966931e0d864277cd254cb01b96ef33d7e526
+Name: Dra1n
+Author: MegaDev & Charlie While
 Sponsor: kiiimo.org <http://kiiimo.org>
 
 Package: org.cydia.kiimo.lynx
