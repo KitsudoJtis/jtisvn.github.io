@@ -10168,6 +10168,30 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Latchkey.json
 Icon: https://jtisvn.github.io/sectionIcons/Latchkey.png
 Author: Maxwell Dausch <max.dausch@gmail.com>
 
+Package: com.jtis.leftpan
+Architecture: iphoneos-arm
+Version: 1.0-2
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 377
+Depends: mobilesubstrate, firmware (>= 5.0), preferenceloader, applist
+Filename: ./debs/com.jtis.leftpan_1.0-2_iphoneos-arm.deb
+Size: 45008
+MD5sum: 4979f94db8fcf1180ea074cc34c19f48
+SHA1: 6811a20c1db0485585bbb68d7b91ee3eb146e25c
+SHA256: 3ec59c7dd7be67cf5335f12e2647a5a02ffb44bdceeb109bda85423b8e931ba5
+SHA512: 67952c402d332a05f2d08c0ad091a1ad9578d12378158b61389b526e2cccf51b1dbb5dc7188d39227521a3d03d8dff197b94d438c3f93c64bed76522e787b8ea
+Homepage: https://jtisvn.github.io/
+Description: Vuốt sang trái ở bên phải màn hình để quay lại trang trước
+Tag: purpose::extension
+Name: Leftpan
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=leftpanDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: Mao <admin@25mao.com>
+dev: 25mao
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zhfh.png
+
 Package: com.jtis.letmeknow
 Architecture: iphoneos-arm64
 Version: 1.4.2
