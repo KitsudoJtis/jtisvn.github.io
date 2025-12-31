@@ -75,7 +75,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Phuc Do",
+"text": "A",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -101,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "20/2/2025",
+"text": "30/12/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -119,7 +119,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.0.1",
+"text": "1.0.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -132,7 +132,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "162,8 KB",
+"text": "183,4 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -145,7 +145,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.0 - 16.5",
+"text": "14.0 - 16.6.5",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false

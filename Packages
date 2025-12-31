@@ -12834,17 +12834,17 @@ Version: 1.5-2
 Section: Addons (ControlCenter)
 Maintainer: JTISVN Repo
 Filename: ./debs/com.jtis.safeccmodules_ 1.5-2_ iphoneos-arm64.deb
-Size: 1166032
-MD5sum: 76de09b209eeb382a82039313e41fe89
-SHA1: afd84acc09100b74dab232dc4008263003e256e9
-SHA256: ac0a4121d860f79fd92629b897aa3bd25bab80b4c23e7f6af115863474f7ffab
-SHA512: 0a7f8835ef04f4fccc55f35f8b71c4f13a7422f213e99bff2a9939a31b4a6d78ad01fc0eaafe329a73907f97627690c681a0e208d0fa0bbf52f1e60d93c1f261
+Size: 1165956
+MD5sum: c9cfa3e75020f363fb7f1f4fe4482172
+SHA1: 4dfe4e7e6b8920865b0fcfee36d53570edcefb5a
+SHA256: f132efca698317723c198c649a23bad49147b4ff3b31e08a8c9cb0dcbc538bf2
+SHA512: 169246fbc1bf89794f17564c8524c428976a7b1821aac1cf4892d1eef3418a1218a0ee89eb7595ed840446460434963c7379b628e9226239bd28013b67b6096d
 Description: Control center modules for iOS 11/12/13/15. New in v1.5-1: Fix for Tiny Volume and Silent Mode modules causing issues.
 Author: jailbreak365
 Name: CCModules (Rootless)
 dev: jailbreak365
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCModules.json
- Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+Icon: https://jtisvn.github.io/sectionIcons/CCModules.png
 
 Package: com.jtis.safeccmodules
 Architecture: iphoneos-arm64e
@@ -12853,17 +12853,17 @@ Section: Tweaks
 Maintainer: JTIS Repo
 Pre-Depends: rootless-compat(>= 0.1)
 Filename: ./debs/com.jtis.safeccmodules_1.5-2_iphoneos-arm64e.deb
-Size: 1162240
-MD5sum: 835438251912f8113d2dd754d7d4670a
-SHA1: 7021ae2c18223a49a003c7fc029890bc47054025
-SHA256: abb1c8694df6318898b992e1e31f300d48b30563dec95a38c2c446aa8846fd07
-SHA512: e83f8ed05e0702077d5284c3705d11a3ec69077ed0033af94ec26ef37455e2dcd0df0c13211db16cca351930ff8e7ba76b4959f18c5b31a40c5f56839bdc0cdd
+Size: 1162224
+MD5sum: c929275b506593b0cf8ead945cebbd16
+SHA1: e1980a2ad84f7bb4cb8e0d03fc1b1c46813761d3
+SHA256: 9014557c746cba2d9039432ad25deb3db5ed5068ce0cf232978ef6e4774b6c11
+SHA512: 740dbf9b12861b4203469c8f8530e8c76a108e957c2b87d4ca5de9c018c2061ad48a253a540c76576455093485a6bcaa9650b5f96fae6decd491679cb5607e3e
 Description: Control center modules for iOS 11/12/13/15. New in v1.5-1: Fix for Tiny Volume and Silent Mode modules causing issues.
 Author: jailbreak365
 Name: CCModules (Roothide)
 dev: jailbreak365
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCModules.json
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+Icon: https://jtisvn.github.io/sectionIcons/CCModules.png
 
 Package: com.jtis.scribble
 Architecture: iphoneos-arm
