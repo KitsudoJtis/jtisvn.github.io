@@ -3650,6 +3650,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/LS-16-VN.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
  Pre-Depends: rootless-compat(>= 0.9)
 
+Package: com.jtis.LS16Bunny
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Depends: firmware (>= 16.0)
+Filename: ./debs/com.jtis.LS16Bunny_1.0_iphoneos-arm64.deb
+Size: 41244
+MD5sum: 12168b00a9fc8a11e52e8707382bcdfc
+SHA1: 6b57e8ecef13710901b0d19ded79dc5b3b9cc402
+SHA256: 38f06b48b5a8ab9e50db378c0956abc8d95069414dacac50915d8fc1f00c5b4b
+SHA512: 87a300beffda0d635646f39f24780bd780e8df85e5dc0172f0b96db46f8c6b349bfb02b8439003490fb9c6d8683dcc2c681ed248106b83974f96d5869ef8a61a
+Description: Thay đổi phông chữ Đồng hồ qua Snowboard
+Name: LS16-Bunny
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LS16Bunny.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+Author: p0s3id0n
+
 Package: com.jtis.LSBendigo
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -3935,6 +3953,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
 Depiction: https://jtisvn.github.io/depictions/LiquidGlass.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
  Pre-Depends: rootless-compat(>= 0.9)
+
+Package: com.jtis.Ls16Chrismas
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Depends: firmware (>= 16.0)
+Filename: ./debs/com.jtis.Ls16Chrismas_1.0_iphoneos-arm64.deb
+Size: 80884
+MD5sum: 7eeb5d9f79da03fd357f0049a4509355
+SHA1: 2c7970fceb20779f0521ffd1d950947f9de43559
+SHA256: e17a3cd6491bfe33dbcf88b7fe34ae57559248adeff14d5ffa44305083bea2ee
+SHA512: 16ac5444843d784d74239c6fc9de09dba9d2eaca79c8101f3c8bf070a773fa1c23f98252454d5e8cbaa6814355bd9c9212a8274f4cd4d9744089080c039196d7
+Description: Thay đổi phông chữ Đồng hồ qua Snowboard
+Name: LS-16-Chrismas
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Ls16Chrismas.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+Author: p0s3id0n
 
 Package: com.jtis.MiDevice
 Architecture: iphoneos-arm
@@ -10881,6 +10917,25 @@ Author: EllaSP
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
 Depiction: https://jtisvn.github.io/depictions/Looky.html
 Icon: https://jtisvn.github.io/sectionIcons/Looky.png
+
+Package: com.jtis.Ls16Chrismas
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0)
+Filename: ./debs/com.jtis.ls16chrismas_1.0_iphoneos-arm64e.deb
+Size: 96714
+MD5sum: a4eb9b844d107926f05d14117ff1965e
+SHA1: a617a9e373f4f2728788e0cbf4dac1c884124340
+SHA256: e1c4f8ffdcca31c9e2aba8c488beba11f650787902ffc224862577d8809cd9d5
+SHA512: c1baeb09eb0ae147d575428c75d5ae50ccd305325198db4689ccbff5b90769a50de3c876ad2a03895f03bfa1403eca829d2dc844a69acf0be64b0437e578740b
+Description: Thay đổi phông chữ Đồng hồ qua Snowboard
+Name: LS-16-Chrismas
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Ls16Chrismas.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+Author: p0s3id0n
 
 Package: com.jtis.LSBendigo
 Architecture: iphoneos-arm64e
