@@ -5,8 +5,12 @@
     "banners": [
         {
             "title": "JTISVN Repo",
-            "package": "com.jtid.lynx",
+            "package": "com.jtis.cc26",
             "url": "https://jtisvn.github.io/coverimage/jtisvnrepo.png"},
+{
+           "title": "Atria",
+            "package": "com.jti.atria",
+            "url": "https://jtisvn.github.io/coverimage/ImmorAtria.png"},
 {
            "title": "CarBridge",
             "package": "com.leftyfl1p.carbridge13",
@@ -35,6 +39,14 @@
            "title": "GifIsland",
             "package": "com.jtis.Gifisland",
             "url": "https://jtisvn.github.io/coverimage/Gifisland.png"},
+{
+           "title": "Immortalizer",
+            "package": "com.jtis.immortalizer",
+            "url": "https://jtisvn.github.io/coverimage/Immortalizer.png"},
+{
+           "title": "Solstice",
+            "package": "com.jtis.Solstice",
+            "url": "https://jtisvn.github.io/coverimage/Solstice.png"},
 {
            "title": "SnowBoard",
             "package": "com.spark.snowboard",
