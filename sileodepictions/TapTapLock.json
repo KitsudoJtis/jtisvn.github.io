@@ -1,28 +1,23 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#00FF66",
+"minVersion": "0.1",
+"headerImage": "https://files.catbox.moe/mkwovd.jpg",
+"tintColor":"#339999",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
+{ "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/Smallboard/Screenshots/1.png",
-"accessibilityText":"Screenshot"
+"class":"DepictionLabelView",
+"text":"TapTapLock",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Smallboard/Screenshots/2.png",
-"accessibilityText":"Screenshot"
-}
-],
-"itemCornerRadius":8,
-"itemSize":"{185,400}"
-},
-{
-"markdown":"SmallBoard\n\n- Thu nhỏ khoảng cách (độ cao) dưới bàn phím khi sử dụng các tweak giả lập cử chỉ iPhone X.",
+"markdown":"\n Nhấn đúp vào màn màn hình phản hòi rung để khóa nhanh thiết bị của bạn..",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -35,9 +30,32 @@
 },
 {
 "class": "DepictionLabelView",
+"text": "Ảnh chụp màn hình",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"itemCornerRadius": 8,
+"itemSize": "{185, 400}",
+"screenshots": [
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/Tinhchinh/Screenshots/1.png"
+}
+],
+"class": "DepictionScreenshotsView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
 "text": "Thông tin chi tiết",
 "fontWeight": "semibold",
-"fontSize": 16,
+"fontSize": 17,
 "usePadding": true,
 "useMargins": true,
 "margins": "{10,0,8,0}"
@@ -57,7 +75,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "iCraze",
+"text": "狐童",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -77,13 +95,13 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày tải lên",
+"text": "Ngày cập nhật",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "16/8/2025",
+"text": "9/7/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -101,7 +119,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1",
+"text": "0.0.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -114,7 +132,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0 MB",
+"text": "164,8 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -127,7 +145,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15.0 - 16.7.10",
+"text": "14.0 - 16.7.10",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -154,8 +172,8 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Paypal",
-"action": "https://paypal.me/HiuKitsudo"
+"title":"Mô tả tinh chỉnh",
+"action":"https://jtisvn.github.io/depictions/Tinhchinh.html"
 },
 {
 "class":"DepictionTableButtonView",
@@ -187,7 +205,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.1\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",

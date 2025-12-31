@@ -14266,14 +14266,16 @@ Maintainer: JTISVN Repo
 Installed-Size: 172
 Depends: mobilesubstrate, com.jtis.iconrepo.roothide
 Filename: ./debs/com.jtis.taptaplock_0.0.3_iphoneos-arm64e.deb
-Size: 5556
-MD5sum: 77ee5e1908df4007fc998c4d5023a866
-SHA1: 2f4429b9a6f33b0b26339daf7807e7d212c50b7f
-SHA256: b9467ed05cb83d74868621ff08feee90fbe9facc07f7ce77ac18f4a18fddc30d
-SHA512: aa2089729ab74905f3e4d542f15d7135da70de5d116352344b3f7c0f59f84951eb9f17f4440f34ff43ffdbb8d9995d3398d627dea520fdbc479d33cd11e10cc5
+Size: 5608
+MD5sum: 3c8ae4d2589474a9fccb3b0488459f30
+SHA1: a87ea07789329b9967faab13fef1e62c70647378
+SHA256: 795160d4f5510610628f693d87cfdaa7fc0dfa23578cbcc17e7e86b919879bb8
+SHA512: 7fdb33bb24680c551438268f320eb4aa2a46e0c97fd3d6504accbdab8307db29cc1e5d88b090517c5ebd9771bad5a1f7e828018a43a88275f7bb5f1b42606b5c
 Description: Nhấn đúp vào màn màn hình phản hòi rung để khóa nhanh thiết bị của bạn.
 Name: TapTapLock (Roothide)
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TapTapLock.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.pngsectionIcons/Caidat.png
 Author: 狐童
 
 Package: com.jtis.teleSF
@@ -17409,14 +17411,16 @@ Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 6.0)
 Conflicts: org.thebigboss.smoothcursor
 Filename: ./debs/com.ps.smoothcursorios13_0.0.1_iphoneos-arm64.deb
-Size: 3172
-MD5sum: 0b20b6068295d6ef23ea33ab2101d1c9
-SHA1: e13f742783ca9542a3fa5c961e3eb59f3b8b3d86
-SHA256: 0cca40c901704e51d00718f91a391f87304699ae1a677f8de4b4b454d334df0f
-SHA512: f17edcfd2b07c45493ad27dbd1b415f1a0714bfa0fe942f15dfa5933b9092dd96931245d38ed9b16bbff3c15b15d682ceb666efb7f17b1b66b23bfd9540f79e5
-Description:  mượt con trỏ chuột di chuyển khi gõ phím chữ trên IOS
+Size: 3216
+MD5sum: ca5db22a891e9a9d865e2238cbd1db9d
+SHA1: 5225444961e50446579318160cf8e93972244ac7
+SHA256: c0e3a99701b42b24d09d7f59233551049113387763369afef1bb5e64f3f5f189
+SHA512: 04549b88d4e3b3b9e6804ecc495dddbbe9c30076897740062bcdf714c4c459f4ebd66180e4371d2d976ef6619405025feac2cee13d843a1c63a7c1055ac91f17
+Description:  Làm mượt con trỏ chuột di chuyển khi gõ phím chữ trên IOS
 Name: SmoothCursor (iOS 13+)
 Author: PoomSmart
+Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SmoothCursor.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.ps.smoothcursorios13
@@ -17429,14 +17433,16 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 6.0)
 Conflicts: org.thebigboss.smoothcursor
 Filename: ./debs/com.ps.smoothcursorios13_0.0.1_iphoneos-arm64e.deb
-Size: 3088
-MD5sum: ae08a1d63172c0a30c9df90e664099c7
-SHA1: be829af452016b63269346d781ee1463281f1c99
-SHA256: 06f3ccb96960445dd0f2ccffb9ac25de65097f3d11f95d103feb55534eee0cfe
-SHA512: f5b81cf884c4f8e3d8b830a96914086a38ce23c81d610f7a58a925480fa1cc4b66e778a64e4262e3a3c15a95bd27e6d3be1ded41aa5458504cdbdabc70febc10
+Size: 3128
+MD5sum: e12a088f1c398252430557bfa5c50bfd
+SHA1: 138788d78bd3fd6c90b45bc2f2702841b5540336
+SHA256: c13492d864fbf79d1b29b940f4351548e7497ad52dc8b9faba339e9bd1db152a
+SHA512: d50a8ce8a2c4475272fa12d979ddd30ee9be2c4cfc20d34935e1643abf1a967692dcb1cde6adf0b7acf10eddcdfa0ecef02285c8a745bc5113189a8fa948bfd3
 Description: Làm mượt con trỏ chuột di chuyển khi gõ phím chữ trên IOS
 Name: SmoothCursor (iOS 13+)
 Author: PoomSmart
+Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SmoothCursor.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.ps.trollleds
