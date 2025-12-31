@@ -10317,6 +10317,26 @@ Author: Traurige <hello@traurige.dev>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Lidell.json
 Icon: https://jtisvn.github.io/sectionIcons/Lidell.png
 
+Package: com.jtis.lifeguard
+Architecture: iphoneos-arm
+Version: 1.0
+Section: iOS 11.3x
+Maintainer: Kiiimo <support@kiiimo.org>
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.lifeguard_1.0_iphoneos-arm.deb
+Size: 122120
+MD5sum: 2d140a0e9425e8b3cd26876f206b9897
+SHA1: b16b567a13d5446fe1a024ca8608bb3c9557f262
+SHA256: 25507f389f39f33b858d553708c7576aa8cc6fccdedc411175e2ac89246529ca
+SHA512: bb3d04069eda7ef6e3524b74de20a89a1ca585545b4df1ee75a21a4c34a1677a7113b90af1fa5b3fcb986b720832a27c333d54a9375e36db1475e1765779ccdb
+Description: Tinh chỉnh giúp Respring, LDRestart bằng phím cứng cho thiết bị đã jailbreak khi bị đơ máy
+Name: Lifeguard
+Author: Kurrt <repo@hackyouriphone.org>
+Sponsor: kiiimo.org <http://kiiimo.org>
+Depiction: http://jtisvn.github.io/depiction/Lifeguard.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Lifeguard.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.limneos-crack
 Architecture: iphoneos-arm64
 Version: 1.0
