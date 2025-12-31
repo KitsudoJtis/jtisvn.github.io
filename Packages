@@ -1759,6 +1759,28 @@ Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 SileoDepiction: https://jtisvn.github.io/sileodepictions/iCleanerPro.json
 Icon: https://jtisvn.github.io/sectionIcons/iCleanerPro.png
 
+Package: com.exile90.icleanerpro
+Architecture: iphoneos-arm
+Version: 7.9.1k
+Section: Utilities
+Maintainer: JTISVN Repo
+Provides: com.exile90.icleanerpro
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro_7.9.1k_iphoneos-arm.deb
+Size: 4768412
+MD5sum: e4fa9f5b33e2c7dc3b29c1c25ee2dcee
+SHA1: 4f5eaf08b3948a9764e50bb44c00c164d8c38cfa
+SHA256: aca56df76e278039a5d65452c9c683138d4e9ad40803a827c2276253327966da
+SHA512: d18e933758b0b4f1fc119f3f7a0b7a180d654a4ad58065ef577be82edfbe6402353c2b925eda12fe0d1042360fd1dd843172bd9c1468f0e5888533c570db7969
+Homepage: http://ib-soft.net/icleaner
+Description: Tiện ích quản lý và dọn dẹp hệ thống iOS
+Name: iCleaner Pro
+Author: Ivano Bilenchi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/iCleanerPro.json
+Icon: https://jtisvn.github.io/sectionIcons/iCleanerPro.png
+
 Package: com.foxfort.exiwall
 Architecture: iphoneos-arm
 Version: 2.1.7
@@ -6140,6 +6162,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/BoardSwipe.json
 Depiction: https://jtisvn.github.io/depictions/BoardSwipe.html
 Icon: https://jtisvn.github.io/sectionIcons/BoardSwipe.png
 
+Package: com.jtis.boxy3
+Architecture: iphoneos-arm
+Version: 3.6.2
+Section: Tweaks
+Maintainer: JTISVN Reo
+Installed-Size: 3467
+Depends: mobilesubstrate, preferenceloader, com.chpwn.iconsupport
+Conflicts: info.rpdev.betterfiveicondock, info.rpdev.betterfivecolumnhomescreen, net.r-ch.iconoclasm, ca.ndoizo.bolders
+Filename: ./debs/com.jtis.boxy3_3.6.2_iphoneos-arm.deb
+Size: 2595720
+MD5sum: e156073a3365c02861bc358fa8bba367
+SHA1: f8cc4d6c7add52215c5f1a8260dc2ec7dd2e4810
+SHA256: 55681ff90c09d9f7e89e70c6cd1a5b7e1fe147c2568974178af443811bf9f3c4
+SHA512: d6a6efacb7747c2f8cf1a040df95f1812fbed9dd7a0f4c11a20ab5d48de7e04c026fbd8af2d906a577a643183bf607e78a603bee98757ef13fc44d5d76c2a275
+Description: Sắp xếp các biểu tượng trên màn hình
+Name: Boxy 3 (iOS 11 - 12)
+Author: William Vabrinskas <wvabrinskas@gmail.com>
+Depiction: https://havoc.app/depiction/boxy3
+SileoDepiction: https://havoc.app/package/boxy3/depiction.json
+Icon: https://media.havoc.app/620ebd20859b1a1929e92169
+
 Package: com.jtis.boxy4vn
 Architecture: iphoneos-arm
 Version: 4.4.2
@@ -7895,6 +7938,24 @@ Name: Exodar
 Author: Alexman & Kennyroo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Exodar.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
+
+Package: com.jtis.ezswipe
+Architecture: iphoneos-arm
+Version: 1.1.1
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 340
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.ezswipe_1.1.1_iphoneos-arm.deb
+Size: 21980
+MD5sum: 58d558d30e21a70c4ea29a326cb66dc8
+SHA1: 615c32ade0a5b47dba261bf77f569ab4f9cf1027
+SHA256: d1fb93534f49022b0e868cc1d5aa64265d5c89dab3b080eeea829de83cbae307
+SHA512: 7dc88c6da7fbdc3edcc5e22a6916b2ae187347d5ee4ce221ba3caf0e9e1ee0b0f75abc46bf36191eaeebafb4a30c6419e50d3209a0701a28ca8b09dcc8d63fb1
+Description: Cử chỉ nhanh, bạn có thể đặt Màn hình chính là trung tâm thông báo thả xuống bên trái, giữa và phải, tìm kiếm, trung tâm điều khiển, v.v. Cử chỉ nhanh, bạn có thể đặt trung tâm thông báo thả xuống bên trái, giữa và phải, tìm kiếm, trung tâm điều khiển, v.v.
+Name: EZSwipe
+Author: P2KDev <p2kdev@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.fakedualsim
 Architecture: iphoneos-arm64
@@ -13013,6 +13074,26 @@ Name: Shuffle (Roothide)
 Author: CreatureSurvive <support@creaturecoding.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Shuffle.json
 Icon: https://jtisvn.github.io/sectionIcons/Shuffle.png
+
+Package: com.jtis.shylabels
+Architecture: iphoneos-arm
+Version: 1.1.1
+Section: Tweaks
+Maintainer: NoisyFlake
+Installed-Size: 428
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.shylabels_1.1.1_iphoneos-arm.deb
+Size: 31636
+MD5sum: 8ad8f3c0844ab19275c8e293c9304054
+SHA1: 252ccebcaf1359abfb78b1669232d6379b8e8c5d
+SHA256: c7a9ed5e9ae46431a52f085e38259ed86173e1c8769ad3daa87476d491846fc3
+SHA512: 2f5055280a738e6d8d5a2af4d81e2ac5b478a41454cf662f830364a3ca8ea312510f9d013f1e91737856691d9103f2a51d81ed425fd08ff6fc58baac74d6e1b9
+Description: Ẩn nhãn ứng dụng khi không cuộn
+Name: Shy Labels
+Author: NoisyFlake
+Depiction: http://jtisvn.github.io/depiction/Shylabels.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Shylabels.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.silentnotifs
 Architecture: iphoneos-arm64
