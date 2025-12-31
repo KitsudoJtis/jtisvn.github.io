@@ -10201,13 +10201,13 @@ Section: Tweaks
 Maintainer: JTISVN Repo
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
 Filename: ./debs/com.jtis.leftpan_1.0-6_iphoneos-arm64.deb
-Size: 43528
-MD5sum: acc67647d32d9255e5b4d3c793afb349
-SHA1: b4cea60340d3b2126cc9da6197a058cb4a8e590e
-SHA256: 5c5fed92147436b0d579a6f7eb68e9b57d2c5eaed9b2fb8f130f47e7ff7b0735
-SHA512: 6a0f923d1a0969198189c32a72896d357a72201317720af96457730d5e578e8cdcc7df67ad4ba88d6bbe71c4d5b722bb3e8ebcf10cafd1b4c8b5188caa1ac059
+Size: 43540
+MD5sum: 1a6c81aa5566e0163b76375867067200
+SHA1: 57460da97b68b9950b9d615a8cd22a47c720d01e
+SHA256: be46d797e8d0daa0ec39beb274ff52923cd4004e0ede2ad9129db1e44dc0e281
+SHA512: 0ad01be2a28de12ca533c668bb4c0582963f886d13db5a0b4cded4fcb3fb047dd55635fdd6f60e6185bf32347e87d3bca3af69c2e2d89fe4e338bc661ba867d2
 Description: Vuốt sang trái ở cạnh phải để quay lại trang trước.
-Name: LeftPan
+Name: LeftPan (Rootless)
 Author: Mao
 Depiction: http://jtisvn.github.io/depiction/Leftpan.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Leftpan.json
@@ -11509,6 +11509,25 @@ Name: NoBetaAlert (Roothide)
 Author: Hitori
 SileoDepiction: https://jtisvn.github.io/sileodepictions/NoBetaAlert.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.noclutter
+Architecture: iphoneos-arm
+Version: 1.6
+Section: Tweaks
+Maintainer: Quix <3parsa3@gmail.com>
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/com.jtis.noclutter_1.6_iphoneos-arm.deb
+Size: 314068
+MD5sum: cc5f81e95319c543c8e369e11b720a7c
+SHA1: 559b9d8c2643d5df76dae1b5614503d8d9475e07
+SHA256: ed96b1e905c59fdbb04a57e1beb646f64d638788ec6bf7102086c06e294e032f
+SHA512: 07572dac3d2c19b970182960950026caacd0dfb45393e47ab0c53ab6e7a0842f589bafe01eebd71317fc30de034ab6f12a689da4de95bad1c0d19cf295084acd
+Description: Ẩn các thành phần gây rối mắt trên iOS.
+Name: NoClutter
+Author: Quix <3parsa3@gmail.com>
+Depiction: https://repo.twickd.com/get/com.twickd.quix.noclutter
+SileoDepiction: https://repo.twickd.com/get/com.twickd.quix.noclutter/native
+Icon: https://twickd.com/images/1fd9495fc86c7b7e369461b2df935e47.jpeg
 
 Package: com.jtis.nodockground
 Architecture: iphoneos-arm
