@@ -17200,6 +17200,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariBlocker.json
 Icon: https://jtisvn.github.io/sectionIcons/SafariBlocker.png
 
 Package: com.phucdo.badgebreathing
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Phuc Do
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.phucdo.badgebreathing_0.0.1_iphoneos-arm64.deb
+Size: 4260
+MD5sum: f9bae8fad1945400d2d05aa8df55d023
+SHA1: 841018325adb1a8a98db08ac5399aa8c4922de92
+SHA256: 807e9f9038642ae1129df115d8529ecb6d21330b944129a8ee04f7597e837367
+SHA512: 062c4301b673f034e1f9012a188c6bca84404431c0f4f20aa0daab8664070c53c12cb7adb46ec480cce3e1accc9221f60da9ca0b14e47dee77813ad35a0b0929
+Description: Tinh chỉnh này làm cho huy hiệu ứng dụng của bạn trở nên sống động hơn :D
+Name: Badge Breathing
+Author: Phuc Do
+Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Badgebreathing.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.phucdo.badgebreathing
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Tweaks
@@ -17208,14 +17228,16 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.phucdo.badgebreathing_0.0.1_iphoneos-arm64e.deb
-Size: 4120
-MD5sum: 278a7519088dcdcce1a5f44ccd481d8a
-SHA1: b7198815feb2ed52a2e7461a2f618181cfe4e336
-SHA256: 5b8ef84c1eaba58ced419a66e1767b98e83156974cf9804644d005f6335c91e0
-SHA512: 0a76253f7225e42e0195bf3a8de8d28aacd385487bcd557d694271147df48f48750efddc428d9cac003fd0158ccca6a006bdf11ad7dc113b7ba289dc5fd42006
+Size: 4164
+MD5sum: 9e4570e6e2b0ac3a8fd07919599a3fd2
+SHA1: 8cc0b67db253e4e74c9b4137a7c03045e09e544d
+SHA256: 9ac64be67ada80908283e044918bc1a9a42919217eb864b3667f7043845bb6d5
+SHA512: 7d497a52dd8d095dade396b58759d4540f1ba1b79556164d9d97608bd7b4705a467d0a81ea48e48dcfd4b06e7b3905613a2610c281bc8bb4ac63ac418bc1236e
 Description: Tinh chỉnh này làm cho huy hiệu ứng dụng của bạn trở nên sống động hơn :D
 Name: Badge Breathing (Roothide)
 Author: Phuc Do
+Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Badgebreathing.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.pixelomer.shijima-ios
@@ -17891,6 +17913,27 @@ Description: Convert IPA to DEB
 Name: ipa2deb
 Author: rullinoiz
 Depiction: https://repoiz.github.io/repoiz/depictions/?p=com.rullinoiz.ipa2deb
+
+Package: com.skypain.cclocation
+Architecture: iphoneos-arm64
+Version: 1.1.0-1
+Section: Tweaks
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 164
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.skypain.cclocation_1.1.0-1_iphoneos-arm64.deb
+Size: 14304
+MD5sum: 789fb86a1a7e5d8a6e299a2aee64332d
+SHA1: 8c1622a5c103eba6bb4abd941fce42b332105d52
+SHA256: 9a9ca0a66ac55026aa6c4d7618f041cb246ee4b76634893bf1016f0a020eb649
+SHA512: 0637f99cdfc47efb3cb0ec75b2e1a173cd8e63dc686c613a4d699a915785d7c219b2ece854f97559beb033108e8cf02dc2be704fc723197219bad591bdfd9903
+Homepage: https://jtisvn.github.io/
+Description: Mô-đun công tắc định vị trên trung tâm điều khiển
+Name: CCLocation (Rootless)
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Icon: https://skypain.github.io/repo/src/cclocation/Icon.png
+Depiction: https://skypain.github.io/repo/static/view/?p=cclocation
+SileoDepiction: https://skypain.github.io/repo/src/cclocation/config/sileo/depiction.json
 
 Package: com.skypain.ccrespring
 Architecture: iphoneos-arm64

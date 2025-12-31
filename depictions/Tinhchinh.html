@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AutoFaceUnlock - JTISVN Repo</title>
+    <title>TinhChinh - JTISVN Repo</title>
     <style>
         :root {
-            /* Màu Tint từ JSON */
-            --tint-color: #99FF99; 
+            /* Màu Tint từ yêu cầu */
+            --tint-color: #5777B8; 
             --bg-color: #ffffff;
             --text-color: #000000;
             --secondary-text: #777777;
             --separator-color: #e5e5ea;
             --radius: 12px;
-            /* Màu chữ đậm hơn cho các nút nền sáng để dễ đọc */
-            --text-on-tint: #2E7D32; 
+            /* Màu chữ của Tab đang hoạt động */
+            --text-on-tint: #5777B8; 
         }
 
         @media (prefers-color-scheme: dark) {
@@ -23,7 +23,8 @@
                 --text-color: #ffffff;
                 --secondary-text: #98989d;
                 --separator-color: #38383a;
-                --text-on-tint: #99FF99;
+                /* Đã sửa màu text dark mode cho đồng bộ màu xanh */
+                --text-on-tint: #5777B8; 
             }
         }
 
@@ -45,7 +46,7 @@
             display: block;
         }
 
-        /* 2. TABS NAVIGATION (CHỈ CÓ 2 NÚT) */
+        /* 2. TABS NAVIGATION */
         .tab-nav {
             display: flex;
             justify-content: space-around;
@@ -112,7 +113,7 @@
             padding-bottom: 20px;
             -webkit-overflow-scrolling: touch;
             scrollbar-width: none; 
-            /* Căn giữa vì chỉ có 1 ảnh */
+            /* Căn giữa vì số lượng ảnh ít */
             justify-content: center; 
         }
         .screenshots-scroll::-webkit-scrollbar {
@@ -120,7 +121,6 @@
         }
 
         .screenshot-img {
-            /* Kích thước ảnh screenshot dọc */
             width: 140px; 
             height: auto;
             border-radius: var(--radius);
@@ -224,8 +224,8 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background-color: rgba(153, 255, 153, 0.2); /* Màu Tint nhạt */
-            color: var(--text-on-tint);
+            background-color: rgba(87, 119, 184, 0.15); /* Màu Tint nhạt */
+            color: var(--tint-color);
             padding: 15px;
             border-radius: var(--radius);
             text-decoration: none;
@@ -251,7 +251,7 @@
 </head>
 <body>
 
-    <img src="https://jtisvn.github.io/coverimage/jtisvnrepo.png" alt="AutoFaceUnlock Banner" class="banner">
+    <img src="https://jtisvn.github.io/coverimage/jtisvnrepo.png" alt="Header Banner" class="banner">
 
     <nav class="tab-nav">
         <button class="tab-btn active" onclick="openTab(event, 'info')">Giới thiệu</button>

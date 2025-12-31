@@ -1,7 +1,7 @@
 {
 "minVersion": "0.1",
 "headerImage": "https://jtisvn.github.io/coverimage/AutoFaceUnlock.png",
-"tintColor": "#99FF99",
+"tintColor": "#5777B8",
 "tabs": [
 {
 "tabname": "Giới thiệu",
@@ -42,11 +42,11 @@
 },
 {
 "itemCornerRadius": 8,
-"itemSize": "{127, 275}",
+"itemSize": "{185, 400}",
 "screenshots": [
 {
 "accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/AutoFaceUnlock/Screenshots/1.png"
+"url": "https://jtisvn.github.io/infodeb/Tinhchinh/Screenshots/1.png"
 }
 ],
 "class": "DepictionScreenshotsView"
@@ -176,7 +176,7 @@
 {
 "class": "DepictionTableButtonView",
 "title": "Mô tả tinh chỉnh",
-"action": "https://jtisvn.github.io/depictions/Tinhcbinh.html"
+"action": "https://jtisvn.github.io/depictions/Tinhchinh.html"
 },
 {
 "class": "DepictionTableButtonView",
