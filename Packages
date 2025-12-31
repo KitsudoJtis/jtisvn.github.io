@@ -8747,6 +8747,24 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Edgy.json
 Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
 Author: Ha Tia To
 
+Package: com.jtis.fontgineso
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Fonts
+Maintainer: @tqmmos
+Filename: ./debs/com.jtis.fontgineso_1.0_iphoneos-arm64.deb
+Size: 18386128
+MD5sum: f4831e8b9b5bce9192cad395bdca7da9
+SHA1: d0f44a4c9861cf9d6b8b96122b0441a8becc8cc6
+SHA256: bc25f4d7f7264fba675949e8756779a2b0e3ceebfb68e7d04611e0a2b11d49cf
+SHA512: cd8921230ceca298638c2d1baedfeecc82264e6beea8b4eb0ce846a2161fb766d140e67ac13fb2f0d3810f1e546062e68a7ca6ddf9cbb34281faf01501491bdd
+Description: Phông chữ Gineso cho iOS 14 trở nên
+Name: Gineso (iOS 14-16)
+Author: Alexman
+Depiction: http://jtisvn.github.io/depiction/Gineso.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Gineso.json
+Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
+
 Package: com.jtis.fontlobstertwo-rootless
 Architecture: iphoneos-arm64
 Version: 1.0
