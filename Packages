@@ -9724,16 +9724,16 @@ Section: Tweaks
 Maintainer: JTISVN Repo
 Depends: mobilesubstrate, com.opa334.altlist
 Filename: ./debs/com.jtis.iconrotation-rootless_1.1_iphoneos-arm64.deb
-Size: 5884
-MD5sum: 727f826a1fc9f43cbce898a5bb92ee01
-SHA1: fe7625cb1cf46b4234f575f85948547c1d0e866f
-SHA256: eb9f2f8093bf4c03b545f5b4d6ae36c2b684b7715242dbce6884ae8242258243
-SHA512: 49f3631b81725e0b12a5386242a254a1b93fef660f60c1cca73b1d22aa9d086852de88821d62a4adc54d4605ead17721b846b4c9e7e8d1fe1cd67ea26b8a56c9
+Size: 5872
+MD5sum: b69a04fa684f8b85c9f2778f688d6a2b
+SHA1: f94dd99344ed3c6d4b09be89a37525252c8432ee
+SHA256: f6b229a7b4b8c57db649d141a6bc4cf6ff6f6fb8327f6732972eb7bf1035a0e5
+SHA512: 0b49aa0dc88dbbfd68c6862ab99b8207152542a0bb07e66c9362c4d3742aaf4d70e58328f56dfd9535fa8b666670a506cdead0e91a81710e755bb365347b69c9
 Description: Xoay ngang biểu tượng màn hình chính
 Name: IconRotation (Rootless)
 Author: Paisseon
 SileoDepiction: https://jtisvn.github.io/sileodepictions/IconRotation.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/IconRotation.png
 
 Package: com.jtis.iconrotation-rootless
 Architecture: iphoneos-arm64e
@@ -9743,16 +9743,16 @@ Maintainer: JTISVN Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, com.opa334.altlist
 Filename: ./debs/com.jtis.iconrotation-rootless_1.1_iphoneos-arm64e.deb
-Size: 5776
-MD5sum: 96ac485f4794710a175994c0caaacb19
-SHA1: 64ac0e45b73814f8ed5a1a2d12b06a471d3d824c
-SHA256: 41a86e4adc3e8f835739bc50fed55e940159fd63057b4b6b1921478be399afc0
-SHA512: 917e6718f0dad51f2eb49b64b414dcc99467b768b17c9d6625ba748b89bdc87be96b949094429ca60f5e3b41fa452c1775d57c19685b5c625e6fe7d62e296f56
+Size: 5768
+MD5sum: 6d5d99fb3bd319476e2862925b1a3f11
+SHA1: 669869112885c166f4524d0372d0f81fc4435899
+SHA256: 3f0c73494fbeba2a269385df92c7072ac334eb01f9966fb30fc6a353682e5045
+SHA512: 09c8d2cea48e1547448a266cd02fabe5013b9da8ba48f8869a4d2cb19352859ae7bff9732904683b1588b2c74c1b36ce83f2dd65db397af4974836455742c02f
 Description: Xoay ngang biểu tượng màn hình chính
 Name: IconRotation (Roothide)
 Author: Paisseon
 SileoDepiction: https://jtisvn.github.io/sileodepictions/IconRotation.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/IconRotation.png
 
 Package: com.jtis.immortalizer
 Architecture: iphoneos-arm64
@@ -11792,6 +11792,47 @@ Author: theprestigext
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Onyx.json
 Depiction: https://jtisvn.github.io/depictions/Onyx.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.passtext
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Hitori <mikasa-san@outlook.jp>
+Installed-Size: 544
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.passtext_1.0.1_iphoneos-arm64.deb
+Size: 127628
+MD5sum: 4c6c19d8f833d6906a31c7d016c3488b
+SHA1: ae57e869a46709beef62b0d8b36bed8d62fd66a3
+SHA256: 4751486dbb7a39beb7285ed67fccc54e44a17991d5a5675568078b04cc20d05d
+SHA512: 54a0a8b02e2eeff83d9e93b7876abc9d90e3f17740f1e438aac98d342db1b9274923f76491254d3fb6532c869d7fee35a786da379dcf835dafb8cf6e806fdf13
+Description: Biến số mật mã của bạn thành từ có phong cách
+Depiction: http://jtisvn.github.io/depiction/PassText.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PassText.json
+Icon: https://jtisvn.github.io/sectionIcons/PassText.png
+Author: Hitori <mikasa-san@outlook.jp>
+Name: PassText (Rootless)
+
+Package: com.jtis.passtext
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Hitori <mikasa-san@outlook.jp>
+Installed-Size: 544
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.passtext_1.0.1_iphoneos-arm64e.deb
+Size: 126836
+MD5sum: 85accbd7abe522869f1538f3818aacb9
+SHA1: 574ce1e56490bc43cd48c0de143d11cda6535d34
+SHA256: 608f1cde1806bbc0bf7cc17888f329514787db3bc5914cbaaff248012c0e518f
+SHA512: ff6619ae3bdf3b870e3779151b3750c391fd0c715d049d50fd8372617c8b118396fbb0cd0c2c161a8b6327442d9c91b9cb590126ca80f18e87d98bbd1cc275c0
+Description: Biến số mật mã của bạn thành từ có phong cách
+Depiction: http://jtisvn.github.io/depiction/PassText.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PassText.json
+Icon: https://jtisvn.github.io/sectionIcons/PassText.png
+Author: Hitori <mikasa-san@outlook.jp>
+Name: PassText (Roothide)
 
 Package: com.jtis.picsart
 Architecture: iphoneos-arm64

@@ -1,7 +1,7 @@
 {
-"minVersion":"0.4",
+"minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#9999FF",
+"tintColor":"#339999",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -14,51 +14,143 @@
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"IconRotation\n\n- Xoay ngang biểu tượng trên màn hình chính.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"markdown":"IconRotation\n\n- Cho phép xoay ngang các biểu tượng trên màn hình chính (SpringBoard) khi bạn xoay thiết bị.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionMarkdownView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"Poiseon"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1" },
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
 {
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
-},
+"class": "DepictionStackView",
+"views": [
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"6/4/2025"
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.5"
+"class": "DepictionLabelView",
+"text": "Poiseon",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "163,4 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 16.5",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày tải lên",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "6/4/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Liên kết & Hỗ trợ",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Liên hệ & Hỗ trợ",
+"title":"Ủng hộ tôi",
 "action":"https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
@@ -86,7 +178,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.1\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
