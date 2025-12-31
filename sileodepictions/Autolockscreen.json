@@ -1,6 +1,6 @@
 {
 "minVersion": "0.1",
-"headerImage": "https://jtisvn.github.io/coverimage/AutoFaceUnlock.png",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
 "tintColor":"99FF99",
 "tabs":[
 {
@@ -9,7 +9,7 @@
 { "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionLabelView",
-"text":"AutoFaceUnlock",
+"text":"Auto Lockscreen",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": true,
@@ -17,7 +17,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n\n-Tự động mở khoá không cần vuốt lên để vào màn hình chính cho thiết bị có Faceid.",
+"markdown":"\n\n-Đặt úp màn hình xuống, tự động tắt (khoá) thiết bị của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -75,7 +75,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Netskao",
+"text": "A",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -101,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15/4/2025",
+"text": "30/12/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -119,7 +119,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1-7",
+"text": "1.0.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -132,7 +132,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "714,2 KB",
+"text": "162,2 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -145,7 +145,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "12.0 - 16.7.10",
+"text": "14.0 - 17.0",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
