@@ -1,7 +1,7 @@
 {
 "minVersion": "0.1",
 "headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"99FF99",
+"tintColor":"#99FF99",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -17,7 +17,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n\n-Đặt úp màn hình xuống, tự động tắt (khoá) thiết bị của bạn.",
+"markdown":"\n Đặt úp màn hình xuống, tự động tắt (khoá) thiết bị của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -38,7 +38,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"itemCornerRadius": true,
+"itemCornerRadius": 8,
 "itemSize": "{127, 275}",
 "screenshots": [
 {
@@ -173,12 +173,12 @@
 {
 "class":"DepictionTableButtonView",
 "title":"Mô tả tinh chỉnh",
-"action":"https://jtisvn.github.io/depictions/Tinhcbinh.html",
+"action":"https://jtisvn.github.io/depictions/Tinhcbinh.html"
 },
 {
 "class":"DepictionTableButtonView",
 "title":"Ủng hộ tôi",
-"action":"https://jtisvn.github.io/homepage/donate/donate.html",
+"action":"https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
