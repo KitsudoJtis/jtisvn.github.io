@@ -10168,6 +10168,51 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Latchkey.json
 Icon: https://jtisvn.github.io/sectionIcons/Latchkey.png
 Author: Maxwell Dausch <max.dausch@gmail.com>
 
+Package: com.jtis.leftpan
+Architecture: iphoneos-arm
+Version: 1.0-2
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 377
+Depends: mobilesubstrate, firmware (>= 5.0), preferenceloader, applist
+Filename: ./debs/com.jtis.leftpan_1.0-2_iphoneos-arm.deb
+Size: 45172
+MD5sum: 653ff1e8b647b8ede5fc2b2eade33895
+SHA1: 58a927d7bcc481b6677e5ef3193aa9c0b0e61211
+SHA256: 9dc3271ed7e10a9043588d4b5686ecde3bbe77195552253a894985ea8e234f28
+SHA512: 8ac09eef10d37fbf4a5644d9e3e8d4ad81de9754859550145963f349bfbc75a6aaa310b76958fc0693c3294f44a706bf73a86865faa911de3d1d087ee49652e2
+Homepage: https://jtisvn.github.io/
+Description: Vuốt sang trái ở bên phải màn hình để quay lại trang trước
+Tag: purpose::extension
+Name: Leftpan
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: Mao <admin@25mao.com>
+dev: 25mao
+Depiction: http://jtisvn.github.io/depiction/Leftpan.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Leftpan.json
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zhfh.png
+
+Package: com.jtis.leftpan
+Architecture: iphoneos-arm64
+Version: 1.0-6
+Priority: optional
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/com.jtis.leftpan_1.0-6_iphoneos-arm64.deb
+Size: 43528
+MD5sum: acc67647d32d9255e5b4d3c793afb349
+SHA1: b4cea60340d3b2126cc9da6197a058cb4a8e590e
+SHA256: 5c5fed92147436b0d579a6f7eb68e9b57d2c5eaed9b2fb8f130f47e7ff7b0735
+SHA512: 6a0f923d1a0969198189c32a72896d357a72201317720af96457730d5e578e8cdcc7df67ad4ba88d6bbe71c4d5b722bb3e8ebcf10cafd1b4c8b5188caa1ac059
+Description: Vuốt sang trái ở cạnh phải để quay lại trang trước.
+Name: LeftPan
+Author: Mao
+Depiction: http://jtisvn.github.io/depiction/Leftpan.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Leftpan.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/zhfh.png
+
 Package: com.jtis.letmeknow
 Architecture: iphoneos-arm64
 Version: 1.4.2
