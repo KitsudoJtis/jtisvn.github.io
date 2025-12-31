@@ -8583,6 +8583,25 @@ Name: FolderList (Roothide)
 Author: shepgoba
 Icon: https://jtisvn.github.io/sectionIcons/FolderList.png
 
+Package: com.jtis.folderplus
+Architecture: iphoneos-arm
+Version: 1.2.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12.0), com.creaturesurvive.libcscolorpicker
+Filename: ./debs/com.jtis.folderplus_1.2.1_iphoneos-arm.deb
+Size: 824632
+MD5sum: ddf2dc3a0400c81987a51aaeef30d6a6
+SHA1: 4ed91dec2a034718a3eb38b1e189365287cbe068
+SHA256: 43ec0d6c8fb84dcd74367d477f8851ab369a061c2662d751e69db7c2fe248881
+SHA512: 89e3d67f998c6bebcc62ab20365bae9dbd67477d26c570e2f8be585cb6dc9e197e101cd8528e48b62e8f59b10e8e1b99045e11c65977d63c124941d10b9b373d
+Description: Lấy lại quyền kiểm soát các Thư mục của bạn!
+Name: FolderPlus
+Depiction: https://repo.twickd.com/get/com.twickd.sirius24.folderplus
+SileoDepiction: https://repo.twickd.com/get/com.twickd.sirius24.folderplus/native
+Author: Sirius24
+Icon: https://twickd.com/images/23c1811c2bb6817c2d5359b0f8acfe580e951291.jpeg?size=large
+
 Package: com.jtis.folderx
 Architecture: iphoneos-arm64e
 Version: 2.0
