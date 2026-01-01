@@ -1,88 +1,148 @@
 {
-    "minVersion":"0.4",
-    "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-    "tintColor":"#5777B8",
-    "tabs":[
-    {
-    "tabname":"Giới thiệu",
-    "views":[
-    { "class":"DepictionHeaderView", "title":"" },
-    {
-    "class":"DepictionHeaderView",
-    "title":"TGExtra"
-    },
-    {
-"markdown":"\n\n- Thêm các chức năng tiện ích cho ứng dụng Telegram, Swiftgram và Turrit..\n\n- Tắt Quảng Cáo\n\n- Chế độ Ẩn danh (Ghost Mode)\n\n- Tắt thông báo đã đọc tin nhắn và xem story.\n\n- Và còn 1 số chức năng khác nữa...\n\n- Sử dụng bằng cách nhấn 5 lần vào tab Chats\n\n- Chi tiết xem thêm hình ảnh bên dưới",
-"class":"DepictionMarkdownView"
+"minVersion":"0.1",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#5777B8",
+"tabs":[
+{
+"tabname":"Giới thiệu",
+"views":[
+{
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/TGetra/Screenshots/1.png",
+"accessibilityText":"Screenshot"
 },
 {
-"class":"DepictionSpacerView", "title":"Hình ảnh" },
+"url":"https://jtisvn.github.io/infodeb/TGetra/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
 {
-    "class":"DepictionScreenshotsView",
-    "screenshots":[
-    {
-    "url":"https://jtisvn.github.io/infodeb/TGetra/Screenshots/1.png",
-    "accessibilityText":"Screenshot"
-    },
-    {
-    "url":"https://jtisvn.github.io/infodeb/TGetra/Screenshots/2.png",
-    "accessibilityText":"Screenshot"
-    },
-    {"url":"https://jtisvn.github.io/infodeb/TGetra/Screenshots/3.png",
-    "accessibilityText":"Screenshot"
+"url":"https://jtisvn.github.io/infodeb/TGetra/Screenshots/3.png",
+"accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionMarkdownView"
+"markdown":"TGExtra\n\n- Tinh chỉnh bổ sung các tiện ích nâng cao cho ứng dụng Telegram, Swiftgram và Turrit.\n\n- **Các tính năng nổi bật:**\n\n+ Tắt Quảng Cáo.\n\n+ Chế độ Ẩn danh (Ghost Mode).\n\n+ Tắt thông báo đã đọc tin nhắn và xem story.\n\n+ Và nhiều chức năng hữu ích khác.\n\n- **Cách sử dụng:** Nhấn 5 lần vào tab **Chats** (Trò chuyện) để mở menu cài đặt.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionSpacerView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"choco"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.4.0" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"27/8/2025"
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 15 đến 16.6.1"
+"class": "DepictionLabelView",
+"text": "choco",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableButtonView",
-"title":"Liên hệ Hỗ trợ",
-"action":"https://jtisvn.github.io/homepage/donate/donate.html"
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionTableButtonView",
-"title": "Nhóm Telegram",
-"action": "https://t.me/jailbreaktrolliossupport"
+"class": "DepictionLabelView",
+"text": "Ngày tải lên",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableButtonView",
-"title": "Nhóm Facebook",
-"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+"class": "DepictionLabelView",
+"text": "27/8/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.4.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1,5 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 16.6.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -99,7 +159,33 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.4.0\n\n- Sửa lỗi\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.4.0\n\n- Sửa lỗi.\n\n- Thêm ngôn ngữ Tiếng Việt.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
 "class":"DepictionLabelView",

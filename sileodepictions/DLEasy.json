@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"DLEasy\n\n- Cho phép tải xuống hình ảnh và video từ các nền tảng mạng xã hội phổ biến một cách dễ dàng (chỉ cần nhấn giữ vào nội dung).\n\n- **Hỗ trợ các ứng dụng:** Facebook, Instagram, Messenger, Reddit, TikTok, Tumblr, Tweetbot, Twitter (X), VK, WhatsApp, YouTube.\n\n- **Tính năng nổi bật:**\n  + Tải xuống video và hình ảnh chất lượng cao.\n  + Nhập video và âm thanh từ YouTube trực tiếp vào ứng dụng Nhạc (Music.app).\n  + Tự động lưu phương tiện vào album riêng \"DLEasy\" trong thư viện ảnh.\n  + Hỗ trợ tải xuống trong nền và thu nhỏ giao diện tải.",
+"markdown":"DLEasy\n\n- Cho phép tải xuống hình ảnh và video từ các nền tảng mạng xã hội phổ biến một cách dễ dàng (chỉ cần nhấn giữ vào nội dung).\n\n- **Hỗ trợ các ứng dụng:** Facebook, Instagram, Messenger, Reddit, TikTok, Tumblr, Tweetbot, Twitter (X), VK, WhatsApp, YouTube.\n\n- **Tính năng nổi bật:**\n\n+ Tải xuống video và hình ảnh chất lượng cao.\n\n+ Nhập video và âm thanh từ YouTube trực tiếp vào ứng dụng Nhạc (Music.app).\n\n+ Tự động lưu phương tiện vào album riêng \"DLEasy\" trong thư viện ảnh.\n\n+ Hỗ trợ tải xuống trong nền và thu nhỏ giao diện tải.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

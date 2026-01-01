@@ -5,60 +5,34 @@
 "tabs":[
 {
 "tabname":"Giới thiệu",
-"views": [
+"views":[
 {
-"class": "DepictionHeaderView",
-"useBoldText": true,
-"useBottomMargin": false
-},        
+"class":"DepictionScreenshotsView",
+"screenshots":[
 {
-"class": "DepictionLabelView",
-"text": "roudPrefs",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
+"url":"https://jtisvn.github.io/infodeb/roudPrefs/Screenshots/1.png",
+"accessibilityText":"Screenshot"
 },
 {
-"class": "DepictionMarkdownView",
-"markdown": "\n\n- Bo tròn các khung trong cài đặt.\n\n- Chi tiết xem ảnh bên dưới.",
-"useRawFormat": false
+"url":"https://jtisvn.github.io/infodeb/roudPrefs/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/roudPrefs/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"roudPrefs\n\n- Bo tròn các cạnh (khung) trong ứng dụng Cài đặt (Settings), tạo cảm giác mềm mại và hiện đại hơn.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
 "spacing": 20,
 "class": "DepictionSpacerView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionLabelView",
-"text": "Ảnh chụp màn hình",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
-},
-{
-"class": "DepictionScreenshotsView",
-"itemCornerRadius": 8,
-"itemSize": "{185, 400}",
-"screenshots": [
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/roudPrefs/Screenshots/1.png"
-},
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/roudPrefs/Screenshots/2.png"
-},
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/roudPrefs/Screenshots/3.png"
-}
-]
 },
 {
 "class": "DepictionSeparatorView"
@@ -178,14 +152,14 @@
 "alignment":1
 }
 ],
-"class": "DepictionStackView"
+"class":"DepictionStackView"
 },
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.9\n\n- Hỗ trợ Rootless & Roothide."
+"markdown":"### Phiên bản 1.0.9\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"

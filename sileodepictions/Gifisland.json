@@ -1,5 +1,5 @@
 {
-"minVersion":"0.4",
+"minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/Gifisland.png",
 "tintColor":"#5777B8",
 "tabs":[
@@ -30,61 +30,165 @@
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Gif Island\n\n- Một tinh chỉnh độc đáo cho phép bạn thổi hồn vào thiết bị iPhone của mình bằng cách thêm hiệu ứng nền động dưới dạng GIF lên Dynammic Island thay vì nền đen mặc dịnh\n\n Tính năng mổi bật:\n\n- Dễ dàng thay đổi và chọn bất kỳ GIF nào bạn muốn để thể hiện cá tính, từ các nhân vật hoạt hình đến các hiệu ứng nghệ thuật độc đáo và hiện đại.\n\n- Hoạt động mượt mà ngay cả khi có thông báo hay Live Activities. GIF sẽ ẩn đi vào phía sau nhường chỗ cho các thông báo, tin nhắn quan trọng và xuất hiện trở lại khi Dynamic Island ở chế độ nghỉ.\n\n- Tạo điểm nhấn ấn tượng, giúp Dynamic Island trở nên bắt mắt và thú vị hơn nhiều so vơi giao diện mặc định.\n\n Hướng dẫn sử dụng:\n\n- Yêu cầu cài đặt Filza File Manager từ Sileo hoặc Zebra để hoạt động chính xác và ổn định.\n\n- Mở filza truy cập theo đường dẫn: var/mobile/lddgifbg/ để thêm file Gif.\n\n- Bên trong thư mục lddgifbg, bạn hãy tạo một thư mục mới bất kỳ, ví dụ: JTISVN như ảnh trên mô tả. Lưu ý: Mỗi file Gif phải nằm trong một thư mục riêng nhé,\n\n- Sau khi bạn thêm file  rồi vào cài đặt chọn Gif vừa tạo xong nhắn Respring ở trên góc phải màn hình dể áp dụng thay đổi.\n\n- Nếu bạn gặp lỗi GIF không hiển thị sau khi áp dụng, hãy Tắt rồi Bật lại tinh chỉnh, sau đó Respring một lần nữa.\n\n- Có vài hiệu ứng Gif ở link bên dưới cho các bạn tải về sử dụng.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Gif"
-},
-{
-"markdown":"[**Link tải GIF**](https://app.mediafire.com/folder/djcmpqbye0e6u)",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{
-"class":"DepictionSpacerView"
-},
-{
-"class":"DepictionHeaderView",
-"title":"Thông tin"
-},
-{
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"Liuf"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
-},
-{
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"22/9/2025"
-},
-{
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.7.10"
-},
-{
-"class":"DepictionSpacerView"
+"markdown":"Gif Island\n\n- Một tinh chỉnh độc đáo cho phép bạn thổi hồn vào thiết bị iPhone bằng cách thêm hiệu ứng nền động (GIF) lên Dynamic Island thay vì nền đen mặc định.\n\n- **Tính năng nổi bật:**\n\n+ Tùy chỉnh GIF theo cá tính (hoạt hình, hiệu ứng nghệ thuật...).\n\n+ Hoạt động mượt mà, tự động ẩn khi có thông báo hoặc Live Activities.\n\n+ Tạo điểm nhấn bắt mắt cho Dynamic Island.\n\n- **Hướng dẫn sử dụng:**\n\n1. Cài đặt **Filza File Manager**.\n\n2. Truy cập đường dẫn: `/var/mobile/lddgifbg/`.\n\n3. Tạo một thư mục con (ví dụ: `JTISVN`) và chép file GIF vào đó.\n\n4. Vào Cài đặt tweak, chọn GIF vừa tạo và nhấn **Respring**.\n\n5. *Lưu ý:* Nếu GIF không hiện, hãy Tắt/Bật lại tweak và Respring lần nữa.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Liên hệ & Hỗ trợ",
-"action":"https://jtisvn.github.io/homepage/donate/donate.html",
+"title":"Tải xuống bộ sưu tập GIF",
+"action":"https://app.mediafire.com/folder/djcmpqbye0e6u"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Liuf",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày tải lên",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "22/9/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "12,5 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 16.7.10",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.0\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
@@ -95,23 +199,6 @@
 "class":"DepictionTableButtonView",
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
-},
-{
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
-}
-],
-"class":"DepictionStackView"
-},
-{
-"tabname":"Nhật ký thay đổi",
-"views":[
-{
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",

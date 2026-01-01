@@ -7,41 +7,6 @@
 "tabname":"Giới thiệu",
 "views":[
 {
-"class": "DepictionHeaderView",
-"useBoldText": true,
-"useBottomMargin": false
-},
-{
-"class": "DepictionLabelView",
-"text": "SugarCare",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
-},
-{
-"markdown":"\n\n- Hiển thị phần trăm (%) cho mô-đun thanh trượt Độ sáng & Âm lượng trên Trung tâm điều khiển (Control Center).\n\n- Hỗ trợ thiết bị iOS 13 đến 16.",
-"useSpacing": false,
-"class": "DepictionMarkdownView"
-},
-{
-"spacing": 20,
-"class": "DepictionSpacerView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionLabelView",
-"text": "Ảnh chụp màn hình",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
-},
-{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
@@ -51,6 +16,15 @@
 ],
 "itemCornerRadius":8,
 "itemSize":"{185,400}"
+},
+{
+"markdown":"SugarCare\n\n- Hiển thị phần trăm (%) cho mô-đun thanh trượt Độ sáng & Âm lượng trên Trung tâm điều khiển (Control Center).",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
+},
+{
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
 "class": "DepictionSeparatorView"
@@ -92,7 +66,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Tweak",
+"text": "Tweaks",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false

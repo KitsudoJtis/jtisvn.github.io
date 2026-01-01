@@ -14300,6 +14300,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/T9Dialer.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.taptaplock
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.taptaplock_0.0.3_iphoneos-arm64.deb
+Size: 5740
+MD5sum: 17c2418dddef0a177331a4218011b02d
+SHA1: 5346c73de138e52881dd164666d94b4ed6d06e75
+SHA256: 53344a129b21648e2121ac9f3e341b5ada8a4f80b83e8b9405bb202c73057e7a
+SHA512: d86bbd6798a921d021d3d556b977431132f222a36572a943356877c0fcccd4f85a45af3b07d379541db04c185b4058ed426dda33d6e3a4bb270539c011a4f475
+Description: Nhấn đúp vào màn màn hình phản hòi rung để khóa nhanh thiết bị của bạn.
+Name: TapTapLock (Rootless)
+Author: 狐童
+Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TapTapLock.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.taptaplock
 Architecture: iphoneos-arm64e
 Version: 0.0.3
 Section: Tweaks
@@ -14307,16 +14327,16 @@ Maintainer: JTISVN Repo
 Installed-Size: 172
 Depends: mobilesubstrate, com.jtis.iconrepo.roothide
 Filename: ./debs/com.jtis.taptaplock_0.0.3_iphoneos-arm64e.deb
-Size: 5608
-MD5sum: 3c8ae4d2589474a9fccb3b0488459f30
-SHA1: a87ea07789329b9967faab13fef1e62c70647378
-SHA256: 795160d4f5510610628f693d87cfdaa7fc0dfa23578cbcc17e7e86b919879bb8
-SHA512: 7fdb33bb24680c551438268f320eb4aa2a46e0c97fd3d6504accbdab8307db29cc1e5d88b090517c5ebd9771bad5a1f7e828018a43a88275f7bb5f1b42606b5c
+Size: 5600
+MD5sum: 7ea91bd2701b648ece363bc0235fea2e
+SHA1: 6c104748e0560c06df2cd6478cd14ee9eda4202b
+SHA256: d8820d728a47360e306412f899d3b1fdd310e8b87a510878a77245ba7c4a73a7
+SHA512: 5e34957d67fb2aec40edcfe9adf6762f6c3487aa64f3164aeca63c631be5e7f748341b21524c5108710cff1da1e35cbdfd683a8a06e03d507029c153c0003bc3
 Description: Nhấn đúp vào màn màn hình phản hòi rung để khóa nhanh thiết bị của bạn.
 Name: TapTapLock (Roothide)
 Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TapTapLock.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.pngsectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: 狐童
 
 Package: com.jtis.teleSF

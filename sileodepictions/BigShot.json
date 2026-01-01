@@ -17,7 +17,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n Trình chụp ảnh màn hình dài tích hợp với Snapper 3 qua Mô-đun Trung tâm điều khiển trên thiết bị của bạn.\n\n Yêu cầu tải gói CCSupport và Snapper3.",
+"markdown":"\n Trình chụp ảnh màn hình dài tích hợp với Snapper 3 qua Mô-đun Trung tâm điều khiển trên thiết bị của bạn.\n Yêu cầu tải gói CCSupport và Snapper3.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
