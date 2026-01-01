@@ -17949,17 +17949,17 @@ Installed-Size: 164
 Depends: com.opa334.ccsupport
 Filename: ./debs/com.skypain.cclocation_1.1.0-1_iphoneos-arm64.deb
 Size: 14304
-MD5sum: 789fb86a1a7e5d8a6e299a2aee64332d
-SHA1: 8c1622a5c103eba6bb4abd941fce42b332105d52
-SHA256: 9a9ca0a66ac55026aa6c4d7618f041cb246ee4b76634893bf1016f0a020eb649
-SHA512: 0637f99cdfc47efb3cb0ec75b2e1a173cd8e63dc686c613a4d699a915785d7c219b2ece854f97559beb033108e8cf02dc2be704fc723197219bad591bdfd9903
+MD5sum: 2878fe8996f4d755c7a629629d14de02
+SHA1: 4ca5cae49390c7565fdcdf637a231f152b119385
+SHA256: 23cd9e2c8ea96f0086f1a36205446c686ac0a72abde3b5b829c11462d462645f
+SHA512: de038c7132fb1dc7064d1e7150325e2e0f4a4a01d9aa952fab8c950592eeec94f8b88aa8c715dd0f3badd698d9fdc0ba516260fa8cb273f7a211b0810c8dac84
 Homepage: https://jtisvn.github.io/
 Description: Mô-đun công tắc định vị trên trung tâm điều khiển
 Name: CCLocation (Rootless)
 Author: Mr.Zhang <mr_zhang_00@163.com>
 Icon: https://skypain.github.io/repo/src/cclocation/Icon.png
 Depiction: https://skypain.github.io/repo/static/view/?p=cclocation
-SileoDepiction: https://skypain.github.io/repo/src/cclocation/config/sileo/depiction.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCLocation.json
 
 Package: com.skypain.ccrespring
 Architecture: iphoneos-arm64
