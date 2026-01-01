@@ -6,17 +6,6 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
-{
-"class":"DepictionHeaderView",
-"title":"Translucent Settings"
-},
-{
-"markdown":"\n\n- Thau đổi chủ đề cho ứng dụng Cài Đặt, được thiết kế bởi Hoàng MD.\n\n- Gồm 29 biểu tượng cơ bản\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard\n\n- Ae cần full icon thì liên hệ tác giả ở mục liên hệ bên dưới để mua ủng hộ bác ấy nhé, Xin cảm ơn.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -29,60 +18,127 @@
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionSpacerView"
+"markdown":"Translucent Settings\n\n- Gói giao diện chủ đề trong suốt dành cho ứng dụng Cài đặt, được thiết kế bởi **Hoàng MD**.\n\n- **Chi tiết gói:**\n\n+ Bao gồm 29 biểu tượng cơ bản.\n\n+ Kích hoạt chủ đề thông qua tinh chỉnh Snowboard.\n\n- **Lưu ý:** Đây là phiên bản rút gọn. Nếu bạn muốn sử dụng bộ biểu tượng đầy đủ (Full Icon), vui lòng liên hệ tác giả ở tab liên hệ để mua và ủng hộ.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionHeaderView",
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"Hoòng MD"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
 {
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Themes"
-},
+"class": "DepictionStackView",
+"views": [
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"18/9/2025"
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 14.0 đến 16.7.10"
+"class": "DepictionLabelView",
+"text": "Hoàng MD",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableButtonView",
-"title":"Liên hệ tác giả",
-"action":"https://jtisvn.github.io/homepage/donate/donate.html",
+"class": "DepictionLabelView",
+"text": "Themes",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionTableButtonView",
-"title": "Nhóm Telegram",
-"action": "https://t.me/jailbreaktrolliossupport"
+"class": "DepictionLabelView",
+"text": "Ngày tải lên",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableButtonView",
-"title": "Nhóm Facebook",
-"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+"class": "DepictionLabelView",
+"text": "18/9/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2,6 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14.0 - 16.7.10",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -99,7 +155,33 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.0\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"title": "Liên hệ tác giả (Hoàng MD)",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
 "class":"DepictionLabelView",

@@ -6,18 +6,19 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionLabelView",
-"text":"VisionSearchPill",
-"fontWeight": "bold",
-"fontSize": 19,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/VisionSearchPill/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185, 400}"
 },
 {
-"markdown": "\n\n- Thêm hiệu ứng kiểu ViíionOS cho viền nhộng tìm kiếm trên màn hình chính.",
+"markdown":"VisionSearchPill\n\n- Mang hiệu ứng giao diện kính mờ sang trọng kiểu VisionOS lên thanh tìm kiếm (Search Pill) trên màn hình chính của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -30,32 +31,9 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ảnh chụp màn hình",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
-},
-{
-"itemCornerRadius": true,
-"itemSize": "{185, 400}",
-"screenshots": [
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/VisionSearchPill/Screenshots/1.png"
-}
-],
-"class": "DepictionScreenshotsView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionLabelView",
 "text": "Thông tin chi tiết",
 "fontWeight": "semibold",
-"fontSize": 17,
+"fontSize": 16,
 "usePadding": true,
 "useMargins": true,
 "margins": "{10,0,8,0}"
@@ -145,7 +123,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15.x - 16.x",
+"text": "15.0 - 16.x",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -169,18 +147,17 @@
 "class": "DepictionStackView"
 },
 {
-
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.0.1\n\n- Hỗ trợ cho Rootless & Roothide Jailbrrak"
+"markdown":"### Phiên bản 0.0.1\n\n- Hỗ trợ cho Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
+"tabname":"Liên Hệ Hỗ Trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",

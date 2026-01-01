@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"ChromaSettings\n\n- Gói giao diện chủ đề (Theme) Chroma đầy màu sắc dành cho ứng dụng Cài đặt (Settings), được thiết kế bởi Kitsudo.\n\n- **Chi tiết gói:**\n  + Bao gồm 127 biểu tượng được thiết kế tỉ mỉ.\n\n- **Hướng dẫn:** Kích hoạt chủ đề thông qua tinh chỉnh Snowboard.",
+"markdown":"ChromaSettings\n\n- Gói giao diện chủ đề Chroma đầy màu sắc dành cho ứng dụng Cài đặt, được thiết kế bởi Kitsudo.\n\n- Chi tiết gói: gồm 127 biểu tượng được thiết kế tỉ mỉ.\n\n- Kích hoạt chủ đề thông qua tinh chỉnh Snowboard.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

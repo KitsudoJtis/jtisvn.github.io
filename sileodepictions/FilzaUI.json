@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Filza JI Theme\n\n- Gói giao diện chủ đề (Theme) phong cách Belle & Helios dành cho ứng dụng quản lý file Filza File Manager.\n\n- **Hướng dẫn sử dụng:** Kích hoạt chủ đề thông qua tinh chỉnh Snowboard (yêu cầu cài đặt thêm tiện ích mở rộng SnowBoard UI Extension nếu cần).",
+"markdown":"Filza JI Theme\n\n- Gói giao diện chủ đề (Theme) phong cách Belle & Helios dành cho ứng dụng quản lý file Filza File Manager.\n\n- Kích hoạt chủ đề thông qua tinh chỉnh Snowboard (yêu cầu cài đặt thêm tiện ích mở rộng SnowBoard UI Extension nếu cần).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

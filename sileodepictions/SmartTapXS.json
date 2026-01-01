@@ -1,23 +1,24 @@
 {
 "minVersion": "0.1",
 "headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"577788",
+"tintColor":"#577788",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionLabelView",
-"text":"SmartTapXS",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/SmartTapXS/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Bật hoặc tắt màn hình bằng cách nhấn 2 lần vào màn hình của bạn\n\n- Yêu cầu cài thêm Legacy arm64e Support.",
+"markdown":"SmartTapXS\n\n- Cho phép bạn bật hoặc tắt màn hình nhanh chóng bằng cách nhấn 2 lần (Double Tap) vào màn hình (tương tự tính năng trên các dòng Android).\n\n- **Lưu ý:** Yêu cầu cài đặt thêm gói **Legacy arm64e Support** để hoạt động ổn định.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -30,32 +31,9 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ảnh chụp màn hình",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
-},
-{
-"itemCornerRadius": true,
-"itemSize": "{185, 400}",
-"screenshots": [
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/SmartTapXS/Screenshots/1.png"
-}
-],
-"class": "DepictionScreenshotsView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionLabelView",
 "text": "Thông tin chi tiết",
 "fontWeight": "semibold",
-"fontSize": 17,
+"fontSize": 16,
 "usePadding": true,
 "useMargins": true,
 "margins": "{10,0,8,0}"
@@ -169,18 +147,17 @@
 "class": "DepictionStackView"
 },
 {
-
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
+"tabname":"Liên Hệ Hỗ Trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",

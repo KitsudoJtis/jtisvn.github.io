@@ -5,52 +5,26 @@
 "tabs":[
 {
 "tabname":"Giới thiệu",
-"views": [
+"views":[
 {
-"class": "DepictionHeaderView",
-"useBoldText": true,
-"useBottomMargin": false
-},        
+"class":"DepictionScreenshotsView",
+"screenshots":[
 {
-"class": "DepictionLabelView",
-"text": "Gravitation",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
+"url":"https://jtisvn.github.io/infodeb/Gravitation/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
 },
 {
-"class": "DepictionMarkdownView",
-"markdown": "\n\n- Lắc điện thoại của bạn để làm rơi các biểu tượng trên màn hình chính.\n\n- Mang lại hiệu ứng vật lý trọng lực thú vị cho các icon ứng dụng, biến màn hình chính thành một hộp đồ chơi vui nhộn.",
-"useRawFormat": false
+"markdown":"Gravitation\n\n- Lắc điện thoại của bạn để làm \"rơi\" các biểu tượng trên màn hình chính.\n\n- Mang lại hiệu ứng vật lý trọng lực thú vị cho các icon ứng dụng, biến màn hình chính thành một hộp đồ chơi vui nhộn.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
 "spacing": 20,
 "class": "DepictionSpacerView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionLabelView",
-"text": "Ảnh chụp màn hình",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
-},
-{
-"class": "DepictionScreenshotsView",
-"itemCornerRadius": 8,
-"itemSize": "{185, 400}",
-"screenshots": [
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/Gravitation/Screenshots/1.png"
-}
-]
 },
 {
 "class": "DepictionSeparatorView"
@@ -99,7 +73,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày cập nhật",
+"text": "Ngày tải lên",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
@@ -149,7 +123,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "iOS 15.0 - 16.6.1",
+"text": "15.0 - 16.6.1",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -170,7 +144,7 @@
 "alignment":1
 }
 ],
-"class": "DepictionStackView"
+"class":"DepictionStackView"
 },
 {
 "tabname":"Nhật ký thay đổi",

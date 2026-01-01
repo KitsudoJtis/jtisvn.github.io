@@ -34,7 +34,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"FilzaThemes\n\n- Thay đổi và tùy chỉnh màu sắc chủ đề cho ứng dụng quản lý file Filza File Manager.\n\n- **Các tính năng tùy chỉnh:**\n\n+ Tùy chỉnh màu nền (Background).\n\n+ Tùy chỉnh màu nền thanh công cụ dưới.\n\n+ Tùy chỉnh màu nội dung.\n\n+ Tùy chỉnh màu hiệu ứng khi chạm (Highlight).\n\n+ Tùy chỉnh màu tiêu đề văn bản.\n  + Tự do phối màu theo sở thích cá nhân của bạn.",
+"markdown":"FilzaThemes\n\n- Thay đổi và tùy chỉnh màu sắc chủ đề cho ứng dụng quản lý file Filza File Manager.\n\n- Các tính năng tùy chỉnh:\n\n+ Tùy chỉnh màu nền (Background).\n\n+ Tùy chỉnh màu nền thanh công cụ dưới.\n\n+ Tùy chỉnh màu nội dung.\n\n+ Tùy chỉnh màu hiệu ứng khi chạm (Highlight).\n\n+ Tùy chỉnh màu tiêu đề văn bản.\n\n+ Tự do phối màu theo sở thích cá nhân của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

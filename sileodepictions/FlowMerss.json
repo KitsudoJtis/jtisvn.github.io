@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Flow cho Messenger\n\n- Tinh chỉnh tiện ích tất cả trong một cho ứng dụng Messenger.\n\n- Chức năng bao gồm:\n\n  + Chặn quảng cáo khó chịu.\n\n  + Tải story của người khác (nhấn vào nút 3 chấm).\n\n  + Chặn hiển thị \"Đã đọc\" tin nhắn và \"Đã xem\" story.\n\n  + Ẩn trạng thái đang gõ tin nhắn.\n\n  + Xác nhận lại khi bấm gọi thoại/video.\n\n- Cách dùng: Mở cài đặt Messenger -> Nhấn vào biểu tượng Flow ở góc phải phía trên.",
+"markdown":"Flow cho Messenger\n\n- Tinh chỉnh tiện ích tất cả trong một cho ứng dụng Messenger.\n\n- Chức năng bao gồm:\n\n+ Chặn quảng cáo khó chịu.\n\n+ Tải story của người khác (nhấn vào nút 3 chấm).\n\n+ Chặn hiển thị \"Đã đọc\" tin nhắn và \"Đã xem\" story.\n\n+ Ẩn trạng thái đang gõ tin nhắn.\n\n+ Xác nhận lại khi bấm gọi thoại/video.\n\n- Cách dùng: Mở cài đặt Messenger -> Nhấn vào biểu tượng Flow ở góc phải phía trên.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

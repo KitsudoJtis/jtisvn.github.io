@@ -1,24 +1,23 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"minVersion": "0.1",
+"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
 "tintColor":"#5777B8",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
+{ "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionScreenshotsView",
-"screenshots":[
-{
-"url":"https://jtisvn.github.io/infodeb/LunartimeX/Screenshots/1.png",
-"accessibilityText":"Screenshot"
-}
-],
-"itemCornerRadius":8,
-"itemSize":"{185,400}"
+"class":"DepictionLabelView",
+"text":"TikTokGod",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"markdown":"LunarTime X\n\n- Thêm hiển thị ngày Âm lịch lên góc trái Status Bar (Thanh trạng thái) cho các thiết bị tai thỏ (Notch).\n\n- **Lưu ý quan trọng:** Đối với iPhone XS trở lên, vui lòng tải tiện ích **oldabi** trước khi cài đặt tweak này để tránh gây lỗi treo táo (bootloop).",
+"markdown":"\n Tinh chỉnh TikTok Gold với nhiều tính năng nâng cao:\n\n Ẩn quảng cáo.\n\n Tải xuống video không có hình mờ (No Watermark).\n\n Tự động cuộn sang video tiếp theo.\n\n Thay đổi vùng quốc gia (Lưu ý: Có thể không hoạt động với iPad và một số thiết bị).\n\n Hiển thị thanh tiến trình (để tua đi hoặc tua lại video).\n\n Có thể ẩn giao diện người dùng (UI) để xem video toàn màn hình.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -31,9 +30,32 @@
 },
 {
 "class": "DepictionLabelView",
+"text": "Ảnh chụp màn hình",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
+},
+{
+"itemCornerRadius": 8,
+"itemSize": "{185, 400}",
+"screenshots": [
+{
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/Tinhchinh/Screenshots/1.png"
+}
+],
+"class": "DepictionScreenshotsView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
 "text": "Thông tin chi tiết",
 "fontWeight": "semibold",
-"fontSize": 16,
+"fontSize": 17,
 "usePadding": true,
 "useMargins": true,
 "margins": "{10,0,8,0}"
@@ -53,7 +75,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "NQT1195",
+"text": "Hao Nguyen",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -73,13 +95,13 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày tải lên",
+"text": "Ngày cập nhật",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "18/8/2025",
+"text": "3/1/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -97,7 +119,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.1",
+"text": "4.0.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -110,7 +132,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0 MB",
+"text": "183,4 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -123,7 +145,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15.0 - 16.6.1",
+"text": "14.0 - 16.5",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -150,8 +172,8 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Paypal",
-"action": "https://paypal.me/HiuKitsudo"
+"title":"Mô tả tinh chỉnh",
+"action":"https://jtisvn.github.io/depictions/Tinhchinh.html"
 },
 {
 "class":"DepictionTableButtonView",
@@ -183,7 +205,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.1\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Hỗ trợ Rootfull & Rootless Jailbreak."
 },
 {
 "class":"DepictionLabelView",

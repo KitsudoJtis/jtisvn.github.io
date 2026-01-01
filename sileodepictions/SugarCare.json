@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"SugarCare\n\n- Hiển thị phần trăm (%) cho mô-đun thanh trượt Độ sáng & Âm lượng trên Trung tâm điều khiển (Control Center).",
+"markdown":"SugarCare\n\n- Hiển thị phần trăm (%) cho mô-đun thanh trượt Độ sáng & Âm lượng trên Trung tâm điều khiển.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

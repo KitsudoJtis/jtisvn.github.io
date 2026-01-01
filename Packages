@@ -293,13 +293,13 @@ Maintainer: 来了老弟 h_h_x_t
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/cn.llld.2playerbj_1.0_iphoneos-arm64.deb
-Size: 3736
-MD5sum: a2c5d77653eebde280e094695eb47f70
-SHA1: 6e878d8b7d2445b19adab755ae620bd564defaa4
-SHA256: 2a0e49129b74f6a57ba4568ec8054318702d86c5d9b80d2c776d3ee57b32c13a
-SHA512: 08bc46a36381821bc6cb7907e710f9d88fee4ed725b34b9e32c1b73f6c0f7a93cc8eadbbd07bd734579407744851cc5f33a6131ae9c3ecca781cb681e88c43b1
+Size: 3728
+MD5sum: 5d5cfb5bfddd59f5d9e1a61a2ddcec57
+SHA1: 7e1ce8d6a03467c5adb7613b863c2f29eb54bd82
+SHA256: d620d594bf84e352df40fcfd5dba0a1de6b456a6eec604305ce5b920a40f5b4c
+SHA512: 968bbe39da91bcb2f8a843f7c21254d021773c8c96bc225057570e74a3b080c99a7f0fffd5a7e184837456ce6f85eb1cc161001fb401b8879adbd94284cc1cd5
 Description: Trong suót trình phát nhạc và thông báo trên màn hình khoá của bạn.
-Name: Hide Player Notification Background (Rootless)
+Name: Hide Player Notification Background
 Author: 来了老弟 h_h_x_t
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HideNoti.json
@@ -313,13 +313,13 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/cn.llld.2playerbj_1.0_iphoneos-arm64e.deb
-Size: 3628
-MD5sum: fa149f5d1aafd4398679bbd6cc73258a
-SHA1: 7dd25a7fec88ee23d3fd45fec0d98266db446b92
-SHA256: abbb4fe50c1ee11f36cdf457c6a7f6825bf40c66e5c5b88310d33a245151823b
-SHA512: df970ec3d5ac901caeec1ef51245d3bbf0a3605803bab65cd2985d5d77e043973d6e085c17a0306b25809925fd1b7f43d07ff2cec18cde27c00af6ea07196f2c
+Size: 3620
+MD5sum: e342410812a1304bb419bbe261d3b14c
+SHA1: 07757d647e5ad63e4753fd90e0e3ce2f3ef16aeb
+SHA256: 93772cde6865207fdfbadf8ec1d570c35371383d10647502eb3b6fb560b0838e
+SHA512: 029080fed274f7379f72656b0db7929f5b9e8a5018b36b2574a49438d4555851794cb8777c86ef5de94355575be6772fd2923ff22f54a51bda1f42e372fdc4dc
 Description: Trong suót trình phát nhạc và thông báo trên màn hình khoá của bạn.
-Name: Hide Player Notification Background (Roothide)
+Name: Hide Player Notification Background
 Author: 来了老弟 h_h_x_t
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HideNoti.json
