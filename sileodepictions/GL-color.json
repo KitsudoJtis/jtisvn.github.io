@@ -7,21 +7,6 @@
 "tabname":"Giới thiệu",
 "views":[
 {
-"class": "DepictionHeaderView",
-"useBoldText": true,
-"useBottomMargin": false
-},        
-{
-"class": "DepictionSpacerView",
-"spacing": 8
-},
-{
-"markdown":"### Chủ đê Liquid Glass Color\n\n- Được thiết kế lại bởi Miss và bé iu (GPT) của anh ấy😁\n\n- Gồm 4326 biểu tượng\n\n- Ae tải về tự đổi Bundle nha\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
-{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
@@ -29,39 +14,127 @@
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionMarkdownView"
+"markdown":"### Liquid Glass Color\n\n- Gói chủ đề (Theme) đầy màu sắc với phong cách thủy tinh lỏng.\n\n- **Thông tin gói:**\n\n+ Được thiết kế lại bởi Miss và trợ lý ảo (GPT).\n\n+ Bao gồm 4326 biểu tượng chất lượng cao.\n\n+ *Lưu ý:* Người dùng cần tự thay đổi Bundle ID cho phù hợp nếu cần.\n\n- Kích hoạt chủ đề thông qua tinh chỉnh Snowboard.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionSpacerView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"Miss"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Themes"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"5/9/2025"
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 14.0 đến 16.7.10"
+"class": "DepictionLabelView",
+"text": "Miss",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Themes",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày tải lên",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "5/9/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "63,1 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14.0 - 16.7.10",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -78,13 +151,13 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0\n\n- Lần đầu phát hành\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.0\n\n- Phát hành lần đầu.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
+"tabname":"Liên Hệ Hỗ Trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
@@ -108,7 +181,7 @@
 },
 {
 "class":"DepictionLabelView",
-"text":"Copyright © 2025- 2030  by JTISVN",
+"text":"Copyright © 2025 - 2030 by JTISVN",
 "textColor":"#999999",
 "fontSize":"10.0",
 "alignment":1

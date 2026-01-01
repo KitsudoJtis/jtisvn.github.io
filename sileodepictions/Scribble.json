@@ -1,5 +1,5 @@
 {
-"minVersion":"0.4",
+"minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
 "tintColor":"#5777B8",
 "tabs":[
@@ -14,62 +14,127 @@
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Scribble\n\n- Mở khóa thiết bị bằng cách sử dụng hình vẽ lên ên màn hình.\n\n- Tương tự như tweak Doodle, Cho phép mô phỏng hình vẽ lên màn hình để mở khóa thiết bị\n\n- Thay vì nhập mật khẩu hoặc Touch ID, bạn có thể tự tùy chỉnh màu sắc và tạo hình vẽ độc đáo khác nhau theo phong cách riêng mang đến trải nghiệm mở khoá màn hình hiện đại.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"markdown":"Scribble\n\n- Mở khóa thiết bị độc đáo bằng cách vẽ hình lên màn hình.\n\n- **Tính năng:**\n\n+ Tương tự như tweak Doodle, cho phép mô phỏng hình vẽ để mở khóa.\n\n+ Thay vì nhập mật khẩu hoặc dùng Touch ID/Face ID, bạn có thể tự tạo hình vẽ theo phong cách riêng.\n\n+ Tùy chỉnh màu sắc đường vẽ, mang đến trải nghiệm mở khoá màn hình hiện đại và thú vị.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionMarkdownView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"Boo"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"2.1" },
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
 {
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
-},
+"class": "DepictionStackView",
+"views": [
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"4/9/2025"
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.6.1"
+"class": "DepictionLabelView",
+"text": "Boo",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableButtonView",
-"title":"Liên hệ Hỗ trợ",
-"action":"https://jtisvn.github.io/homepage/donate/donate.html"
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionTableButtonView",
-"title": "Nhóm Telegram",
-"action": "https://t.me/jailbreaktrolliossupport"
+"class": "DepictionLabelView",
+"text": "Ngày tải lên",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableButtonView",
-"title": "Nhóm Facebook",
-"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+"class": "DepictionLabelView",
+"text": "4/9/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "2.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "10,3 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 16.6.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -86,7 +151,33 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.1\n\n- Thêm  hỗ trợ IOS 15 - 16\n\n- Thêm ngôn nggữ Tiếng Việt\n\n- Hỗ trợ Rootless Jailbreak."
+"markdown":"### Phiên bản 2.1\n\n- Thêm hỗ trợ iOS 15 - 16.\n\n- Thêm ngôn ngữ Tiếng Việt.\n\n- Hỗ trợ Rootless Jailbreak."
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Nhóm Telegram",
+"action": "https://t.me/jailbreaktrolliossupport"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
 "class":"DepictionLabelView",
