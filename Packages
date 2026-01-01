@@ -18042,6 +18042,27 @@ Author: Mr.Zhang <mr_zhang_00@163.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCRespring.json
 Icon: https://jtisvn.github.io/sectionIcons/CCRespring.png
 
+Package: com.skypain.ccscreenshot
+Architecture: iphoneos-arm64
+Version: 1.0.0-1
+Section: Tweaks
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 164
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.skypain.ccscreenshot_1.0.0-1_iphoneos-arm64.deb
+Size: 13432
+MD5sum: 8b980b354e02fb14bbc8c967b146b2c7
+SHA1: d2982f6ddede1e31be46500692e9a5364909cb24
+SHA256: f5dd5a72af60d6f43bb3f79e09c33b763abc60f3a4d08b74509b2ce1183b90be
+SHA512: a632d90eaa1cd37bddb03a7343ca20193513d509fce8f6a9223000a44526fc5c9208976e494d902072da7e82454f422a093995d998af48256e4b85864818896c
+Homepage: https://skypain.github.io/repo/
+Description: Mô-đun ảnh chụp màn hình trung tâm điều khiển
+Name: CCScreenShot (Rootless)
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Icon: https://skypain.github.io/repo/src/ccscreenshot/Icon.png
+Depiction: https://skypain.github.io/repo/static/view/?p=ccscreenshot
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCScreenShot.json
+
 Package: com.skypain.ccvpn
 Architecture: iphoneos-arm64
 Version: 1.1.1-1
