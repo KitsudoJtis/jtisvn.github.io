@@ -1,23 +1,24 @@
 {
 "minVersion": "0.1",
 "headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"577788",
+"tintColor":"#577788",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionLabelView",
-"text":"CCMusicArtwork",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/CCMusicArtwork/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Hiển thị tác ảnh album đằng sau mô-đun âm nhạc trong trung tâm điều khiển iOS.",
+"markdown":"CCMusicArtwork\n\n- Hiển thị ảnh bìa album (Artwork) làm nền cho mô-đun phát nhạc trong Trung tâm điều khiển (Control Center) của iOS.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -30,32 +31,9 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ảnh chụp màn hình",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
-},
-{
-"itemCornerRadius": true,
-"itemSize": "{185, 400}",
-"screenshots": [
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/CCMusicArtwork/Screenshots/1.png"
-}
-],
-"class": "DepictionScreenshotsView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionLabelView",
 "text": "Thông tin chi tiết",
 "fontWeight": "semibold",
-"fontSize": 17,
+"fontSize": 16,
 "usePadding": true,
 "useMargins": true,
 "margins": "{10,0,8,0}"
@@ -75,7 +53,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "SparkDav",
+"text": "SparkDev",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -169,18 +147,17 @@
 "class": "DepictionStackView"
 },
 {
-
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
+"tabname":"Liên Hệ Hỗ Trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",

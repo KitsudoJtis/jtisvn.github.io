@@ -5,51 +5,30 @@
 "tabs":[
 {
 "tabname":"Giới thiệu",
-"views": [
+"views":[
 {
-"class": "DepictionHeaderView",
-"useBoldText": true,
-"useBottomMargin": false
-},        
+"class":"DepictionScreenshotsView",
+"screenshots":[
 {
-"class": "DepictionSpacerView",
-"spacing": 8
+"url":"https://jtisvn.github.io/infodeb/CylinderRemade/Screenshots/1.png",
+"accessibilityText":"Screenshot"
 },
 {
-"class": "DepictionMarkdownView",
-"markdown": "### Cylinder Remade\n\n- Tạo hiệu ứng chuyển động đẹp mắt khi lướt trang màn hình chính.\n\n- Hơn 50 hiệu ứng độc đáo để tùy chỉnh và khám phá.\n\n- Có thể kết hợp nhiều hiệu ứng cùng lúc để tạo phong cách riêng\n\n- Hỗ trợ Roothide.",
-"useRawFormat": false
+"url":"https://jtisvn.github.io/infodeb/CylinderRemade/Screenshots/2.png",
+"accessibilityText":"Screenshot"
 },
 {
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionHeaderView",
-"useBoldText": true,
-"useBottomMargin": false
-},
-{
-"class": "DepictionSpacerView",
-"spacing": 16
-},
-{
-"class": "DepictionScreenshotsView",
-"itemCornerRadius": 8,
-"itemSize": "{185, 400}",
-"screenshots": [
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/CylinderRemade/Screenshots/1.png"
-},
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/CylinderRemade/Screenshots/2.png"
-},
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/CylinderRemade/Screenshots/3.png"
+"url":"https://jtisvn.github.io/infodeb/CylinderRemade/Screenshots/3.png",
+"accessibilityText":"Screenshot"
 }
-]
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"Cylinder Remade\n\n- Tạo hiệu ứng chuyển động (Animation) đẹp mắt khi lướt chuyển trang trên màn hình chính (SpringBoard).\n\n- **Tính năng:**\n  + Hơn 50 hiệu ứng độc đáo để tùy chỉnh và khám phá.\n  + Có thể kết hợp nhiều hiệu ứng cùng lúc để tạo ra phong cách riêng biệt.\n\n- Hỗ trợ tốt cho Roothide Jailbreak.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
 "spacing": 20,
@@ -180,13 +159,13 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.0.3 beta\n\n- Hỗ trợ Roothide Jailbreak."
+"markdown":"### Phiên bản 0.0.3 beta\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
+"tabname":"Liên Hệ Hỗ Trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",

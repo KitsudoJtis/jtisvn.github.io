@@ -1,23 +1,28 @@
 {
-"minVersion": "0.1",
-"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#577788",
+"minVersion":"0.1",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#3399FF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionLabelView",
-"text":"BetterCCXI",
-"fontWeight": "bold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/BetterCCXI/Screenshots/1.png",
+"accessibilityText":"Screenshot"
 },
 {
-"markdown":"\n\n- Một tinh chỉnh mạnh mẽ, cho phép bạn tùy chỉnh nâng cao và sắp xếp lại bố cục của các mô-đun trong Trung tâm điều khiển (Control Center).\n\n- Có thể thay đổi kích thước 4x2, 3x2, 2x2 cho mô-đun Kết nôi, nhạc media bà thời tiết theo ý muốn của bạn.",
+"url":"https://jtisvn.github.io/infodeb/BetterCCXI/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"BetterCCXI\n\n- Một tinh chỉnh mạnh mẽ, cho phép bạn tùy chỉnh nâng cao và sắp xếp lại bố cục của các mô-đun trong Trung tâm điều khiển (Control Center).\n\n- Có thể thay đổi kích thước 4x2, 3x2, 2x2 cho mô-đun Kết nối, Nhạc (Media) và Thời tiết theo ý muốn của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -30,36 +35,9 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ảnh chụp màn hình",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
-},
-{
-"itemCornerRadius": true,
-"itemSize": "{185, 400}",
-"screenshots": [
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/BetterCCXI/Screenshots/1.png"
-},
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/BetterCCXI/Screenshots/2.png"
-}
-],
-"class": "DepictionScreenshotsView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionLabelView",
 "text": "Thông tin chi tiết",
 "fontWeight": "semibold",
-"fontSize": 17,
+"fontSize": 16,
 "usePadding": true,
 "useMargins": true,
 "margins": "{10,0,8,0}"
@@ -173,7 +151,6 @@
 "class": "DepictionStackView"
 },
 {
-
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
@@ -184,7 +161,7 @@
 "class":"DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
+"tabname":"Liên Hệ Hỗ Trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
