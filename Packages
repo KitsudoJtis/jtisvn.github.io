@@ -11182,6 +11182,27 @@ Depiction: http://jtisvn.github.io/depiction/LunartimePro.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimePro.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.lunartimepro
+Architecture: iphoneos-arm64e
+Version: 1.0.3-1+debug
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 176
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.lunartimepro_1.0.3-1+debug_iphoneos-arm64e.deb
+Size: 16032
+MD5sum: 43cefb123f1733f8fc840dba5de2a6a5
+SHA1: 66a56e72efe68a3435980589648dc0a9d23e142a
+SHA256: 16bbf232af3fe995064e827fbed6ae8e8aa187831b2940b65fc408331a4d79af
+SHA512: e57cf8871bdab57f1f8713fa3ce5b249f438b0319f081d3fd8d614e434d66027d60b889d15b389c780ee08e708c10df7f643a6c9ab76a70b45666b429bbe1be9
+Description: Hiển thị Thứ, dương/ âm lịch ở dưới đồng hồ trên thanh trạng thái hỗ trợ iOS 15+
+Name: Lunartime Pro (Roothide)
+Author: BVN
+Depiction: http://jtisvn.github.io/depiction/LunartimePro.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimePro.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.macpass
 Architecture: iphoneos-arm
 Version: 1.3
