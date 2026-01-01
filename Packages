@@ -834,40 +834,6 @@ Tag: role::developer
 Name: libScribble
 Author: Boo
 
-Package: com.jtis.DepthsPD
-Architecture: iphoneos-arm64
-Version: 0.1
-Section: Keyboard Themes
-Maintainer: JTISVN Repo
-Filename: ./debs/com.check0ver.DepthsPDRootless_0.deb
-Size: 33424040
-MD5sum: b1e646167b259d5a4336646986eac680
-SHA1: b46794ec9f936ee06e9d9696dd81f7f35d3f2236
-SHA256: 97a86daf1d386a2c5777a26948bc5234571cf5fb5bfb98c3cc2dfd0b28af24de
-SHA512: 1e52cf25ba39de2e9d9fc8ef9e45f9e35d60111b36503e921ee2bab6a2a21eda4da21b977ce10dc44b327935da09494580187aaa16a21a527f887b9d04856c03
-Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Depths PD
-Author: Polyphian
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
-Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
-
-Package: com.jtis.DepthsPD
-Architecture: iphoneos-arm
-Version: 0.1
-Section: Keyboard Themes
-Maintainer: JTISVN Repo
-Filename: ./debs/com.check0ver.DepthsPD_0.deb
-Size: 22366820
-MD5sum: b28989bd293f89dd365c39a74a63d800
-SHA1: de4064c47b9eb79afe6fe11b9d8979891c33d75f
-SHA256: 5faa24ec770d0236352597078e95c81e1f43bdfd984b44dc10f0fdbb5365f751
-SHA512: d4ec4d03dae79eaecacfdd271cdc223baa7d29e433fd1c1b44fd8d8145d59a84e10e43ac5d1a2464c6553d49328a2e690369954910ec44dda0e05de2c5a5f9d5
-Description: Chủ đề bàn phím kích hoạt qua Laetus
-Name: Depths PD
-Author: Polyphian
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
-Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
-
 Package: com.jtis.YangJiiiLineat
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -3341,6 +3307,40 @@ Author: Julioverne & CyPwn
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cydown.json
 Depiction: https://jtisvn.github.io/depictions/Cydown.html
 Icon: https://jtisvn.github.io/sectionIcons/Cydown.png
+
+Package: com.jtis.DepthsPD
+Architecture: iphoneos-arm
+Version: 0.1
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.DepthsPD_0.1_iphoneos-arm.deb
+Size: 22366820
+MD5sum: 392575453b97112d9f952ea9037fd8ab
+SHA1: 2339eeaae95bbbf6bd0cb65fc773455b76606199
+SHA256: a438ed841d183ef5464cd54427aa2ddfd484e7348c6d9e33bac910ebefaf4b11
+SHA512: 2b8897ce5e078c4058cf913ce801bab5ac9973ab1dda0563eb779faf94f2372044d0ff28765235465a4446155489d46aaac612f12350f62c856c99b33ff2ae0e
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Depths PD
+Author: Polyphian
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
+
+Package: com.jtis.DepthsPD
+Architecture: iphoneos-arm64
+Version: 0.1
+Section: Keyboard Themes
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.DepthsPD_0.1_iphoneos-arm64.deb
+Size: 33424036
+MD5sum: 0247f89521074189156f811dbb60c1a8
+SHA1: 6fa8f79c3e912a55d59f09d893e57913da87fe7b
+SHA256: 8d73afca7239e21a7350b82c7dd6ea80e2b16067ab4be53fcbbdaf25749480f7
+SHA512: 76294d4420404c9f80d9bc017796ebd9fa22a633ac7963a6793fc6ad5e9a6c6f66a94e21cb862995c42869a8b73a9519c47788f8167cfec4b59059522426ac4d
+Description: Chủ đề bàn phím kích hoạt qua Laetus
+Name: Depths PD
+Author: Polyphian
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DepthsPD.json
+Icon: https://jailbreaktrolliossupport.github.io/depictions/sectionIcons/dich.png
 
 Package: com.jtis.DepthsPD
 Architecture: iphoneos-arm64e

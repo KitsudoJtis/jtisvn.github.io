@@ -1,5 +1,5 @@
 {
-"minVersion":"0.4",
+"minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/OpertationMeteor.png",
 "tintColor":"#9933FF",
 "tabs":[
@@ -14,47 +14,127 @@
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Thay đổi bản phím theo phong cách hiện đại và độc đáo.\n\n- Kích hoạt chủ đề qua tinh chỉnh Laetus.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"markdown":"Operation Meteor\n\n- Thay đổi giao diện bàn phím (Keyboard) theo phong cách hiện đại và độc đáo.\n\n- Kích hoạt chủ đề qua tinh chỉnh **Laetus**.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionMarkdownView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"Polyphian"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.0" },
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
 {
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Keyboard Themes"
-},
+"class": "DepictionStackView",
+"views": [
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"1/9/2025"
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 14 đến 16.6.1"
+"class": "DepictionLabelView",
+"text": "Polyphian",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Keyboard Themes",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày tải lên",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1/9/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.0.0",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "225,2 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14.0 - 16.6.1",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
@@ -71,13 +151,13 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.0.0\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
+"tabname":"Liên Hệ Hỗ Trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
