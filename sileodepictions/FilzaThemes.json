@@ -1,5 +1,5 @@
 {
-"minVersion":"0.4",
+"minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
 "tintColor":"#33FF00",
 "tabs":[
@@ -30,52 +30,160 @@
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Thay đổi màu sắc chủ đề cho Filza File Manager\n\n- Tuỳ chỉnh màu nền\n\n- Tuỳ chỉnh màu nền thanh dưới\n\n- Tuỳ chỉnh màu nội dung xám nhạt\n\n- Tuỳ chỉnh màu khi chạm\n\n- Tuỳ chỉnh màu tiêu đề văn bản\n\n- Tuỳ chỉnh màu theo ý muốn của bạn.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"markdown":"FilzaThemes\n\n- Thay đổi và tùy chỉnh màu sắc chủ đề cho ứng dụng quản lý file Filza File Manager.\n\n- **Các tính năng tùy chỉnh:**\n  + Tùy chỉnh màu nền (Background).\n  + Tùy chỉnh màu nền thanh công cụ dưới.\n  + Tùy chỉnh màu nội dung.\n  + Tùy chỉnh màu hiệu ứng khi chạm (Highlight).\n  + Tùy chỉnh màu tiêu đề văn bản.\n  + Tự do phối màu theo sở thích cá nhân của bạn.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionMarkdownView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"WitherTech"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.0.1" },
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
 {
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
-},
+"class": "DepictionStackView",
+"views": [
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"12/9/2025"
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 15.0 đến 16.5"
+"class": "DepictionLabelView",
+"text": "WitherTech",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày tải lên",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "12/9/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.0.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1,7 MB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 16.5",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
+}
+],
+"class": "DepictionStackView"
+},
+{
+"tabname":"Nhật ký thay đổi",
+"views":[
+{
+"class":"DepictionMarkdownView",
+"markdown":"### Phiên bản 1.0.1\n\n- Thêm ngôn ngữ Tiếng Việt.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+}
+],
+"class":"DepictionStackView"
+},
+{
+"tabname":"Liên Hệ Hỗ Trợ",
+"views":[
+{
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Liên hệ Hỗ trợ",
-"action":"https://jtisvn.github.io/homepage/donate/donate.html"
+"title": "Ủng hộ tôi một ly cà phê",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
@@ -86,23 +194,6 @@
 "class":"DepictionTableButtonView",
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
-},
-{
-"class":"DepictionLabelView",
-"text":"Copyright © 2025 - 2030 by JTISVN",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
-}
-],
-"class":"DepictionStackView"
-},
-{
-"tabname":"Nhật ký thay đổi",
-"views":[
-{
-"class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.1\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",

@@ -5,56 +5,30 @@
 "tabs":[
 {
 "tabname":"Giới thiệu",
-"views": [
+"views":[
 {
-"class": "DepictionHeaderView",
-"useBoldText": true,
-"useBottomMargin": false
-},        
+"class":"DepictionScreenshotsView",
+"screenshots":[
 {
-"class": "DepictionLabelView",
-"text": "DLEasy",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
+"url":"https://jtisvn.github.io/infodeb/DLEasy/Screenshots/1.png",
+"accessibilityText":"Screenshot"
 },
 {
-"class": "DepictionMarkdownView",
-"markdown": "\n\n- Cho phép tải xuống hình ảnh và video từ các nền tảng Ứng dụng mạng xã hội!\n\n- Hỗ trợ: Facebook, Instagram, Messenger, Reddit, TikTok, Tumblr, Tweetbot, Twitter, VK, WhatsApp, YouTube.\n\n- Nhấn và giữ để lưu video và hình ảnh.\n\n- Tải xuống video và hình ảnh từ tất cả các ứng dụng có sẵn trong DLEasy.\n\n- Có thể xem các phiên bản ứng dụng tương thích bên trong cài đặt.\n\n- Nhập video và âm thanh từ YouTube vào Music.app.\n\n- Lưu phương tiện trong một album tùy chỉnh là DLEasy.\n\n- Bạn có thể thu nhỏ giao diện tải xuống và phần tải xuống ở chế độ nền.",
-"useRawFormat": false
+"url":"https://jtisvn.github.io/infodeb/DLEasy/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185,400}"
+},
+{
+"markdown":"DLEasy\n\n- Cho phép tải xuống hình ảnh và video từ các nền tảng mạng xã hội phổ biến một cách dễ dàng (chỉ cần nhấn giữ vào nội dung).\n\n- **Hỗ trợ các ứng dụng:** Facebook, Instagram, Messenger, Reddit, TikTok, Tumblr, Tweetbot, Twitter (X), VK, WhatsApp, YouTube.\n\n- **Tính năng nổi bật:**\n  + Tải xuống video và hình ảnh chất lượng cao.\n  + Nhập video và âm thanh từ YouTube trực tiếp vào ứng dụng Nhạc (Music.app).\n  + Tự động lưu phương tiện vào album riêng \"DLEasy\" trong thư viện ảnh.\n  + Hỗ trợ tải xuống trong nền và thu nhỏ giao diện tải.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
 "spacing": 20,
 "class": "DepictionSpacerView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionLabelView",
-"text": "Ảnh chụp màn hình",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
-},
-{
-"class": "DepictionScreenshotsView",
-"itemCornerRadius": 8,
-"itemSize": "{185, 400}",
-"screenshots": [
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/DLEasy/Screenshots/1.png"
-},
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/DLEasy/Screenshots/2.png"
-}
-]
 },
 {
 "class": "DepictionSeparatorView"
@@ -153,7 +127,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "iOS 12.0 - 16.6.1",
+"text": "12.0 - 16.6.1",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
