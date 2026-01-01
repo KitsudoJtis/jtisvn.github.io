@@ -3657,16 +3657,16 @@ Section: LS Fonts
 Maintainer: JTISVN Repo
 Depends: firmware (>= 16.0)
 Filename: ./debs/com.jtis.LS16Bunny_1.0_iphoneos-arm64.deb
-Size: 41244
-MD5sum: 12168b00a9fc8a11e52e8707382bcdfc
-SHA1: 6b57e8ecef13710901b0d19ded79dc5b3b9cc402
-SHA256: 38f06b48b5a8ab9e50db378c0956abc8d95069414dacac50915d8fc1f00c5b4b
-SHA512: 87a300beffda0d635646f39f24780bd780e8df85e5dc0172f0b96db46f8c6b349bfb02b8439003490fb9c6d8683dcc2c681ed248106b83974f96d5869ef8a61a
+Size: 41156
+MD5sum: 6006644a7bef2a81337a27d7776f393e
+SHA1: 2c7bc59dfceddc5d53a9adb1ffdcc04ade8a37ea
+SHA256: c4d5b7e25cc5350e31fac15b6d0277db03b71823da13702ecc9f736be2431d86
+SHA512: 29ff67b2e46d7aadc60954889bdb69f4141c7e0c3b4617461e3c1dd9b99bde8e7ad79d8aabe209353fad068a4cb068fb3fed148e8a832c4e2c80942fb1333af2
 Description: Thay đổi phông chữ Đồng hồ qua Snowboard
 Name: LS16-Bunny
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LS16Bunny.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
-Author: p0s3id0n
+Author: Romlay
 
 Package: com.jtis.LSBendigo
 Architecture: iphoneos-arm64
@@ -3961,16 +3961,35 @@ Section: LS Fonts
 Maintainer: JTISVN Repo
 Depends: firmware (>= 16.0)
 Filename: ./debs/com.jtis.Ls16Chrismas_1.0_iphoneos-arm64.deb
-Size: 80884
-MD5sum: 7eeb5d9f79da03fd357f0049a4509355
-SHA1: 2c7970fceb20779f0521ffd1d950947f9de43559
-SHA256: e17a3cd6491bfe33dbcf88b7fe34ae57559248adeff14d5ffa44305083bea2ee
-SHA512: 16ac5444843d784d74239c6fc9de09dba9d2eaca79c8101f3c8bf070a773fa1c23f98252454d5e8cbaa6814355bd9c9212a8274f4cd4d9744089080c039196d7
+Size: 80860
+MD5sum: 5b988a1f9f1dff907921abb637657800
+SHA1: 131d4cdf9d92e6a9f6b86113a0aef5198cd474d6
+SHA256: 2a5fc840edbb0a895e406f6e7802bbb773b062d9d2aafe5f6342b724d7a16d2a
+SHA512: f3c16b6d895faf94729ae76394209c061592e3597b1da492557bee98fe9af88caf78446d8732afc6431bde49db32766ec5a3334471a89e1e38ebf7dad5857994
 Description: Thay đổi phông chữ Đồng hồ qua Snowboard
 Name: LS-16-Chrismas
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Ls16Chrismas.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
-Author: p0s3id0n
+Author: Romlay
+
+Package: com.jtis.Ls16Chrismas
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: LS Fonts
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0)
+Filename: ./debs/com.jtis.Ls16Chrismas_1.0_iphoneos-arm64e.deb
+Size: 80864
+MD5sum: 52de043ba6361689771dcd9f7def1620
+SHA1: 7df19589f52ecaeab9fbc651a53ff38c0f6985c2
+SHA256: bac2ebd91618050e676b4c7a42fbd5b10f9ec5d95ffa10def4b2429aa83431f3
+SHA512: d17f80732ea74c5e22f93c6848317b76389ef4840a1ad8013b8c4ef874c806ad2e34a6f2ba3d805131abdd1837c76ac29ac1d47cea53c29ad5484cf89341f0a8
+Description: Thay đổi phông chữ Đồng hồ qua Snowboard
+Name: LS-16-Chrismas
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Ls16Chrismas.json
+Icon: https://jtisvn.github.io/sectionIcons/LS.png
+Author: Romlay
 
 Package: com.jtis.MiDevice
 Architecture: iphoneos-arm
@@ -10954,25 +10973,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Looky.json
 Depiction: https://jtisvn.github.io/depictions/Looky.html
 Icon: https://jtisvn.github.io/sectionIcons/Looky.png
 
-Package: com.jtis.Ls16Chrismas
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: LS Fonts
-Maintainer: JTISVN Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 16.0)
-Filename: ./debs/com.jtis.ls16chrismas_1.0_iphoneos-arm64e.deb
-Size: 96714
-MD5sum: a4eb9b844d107926f05d14117ff1965e
-SHA1: a617a9e373f4f2728788e0cbf4dac1c884124340
-SHA256: e1c4f8ffdcca31c9e2aba8c488beba11f650787902ffc224862577d8809cd9d5
-SHA512: c1baeb09eb0ae147d575428c75d5ae50ccd305325198db4689ccbff5b90769a50de3c876ad2a03895f03bfa1403eca829d2dc844a69acf0be64b0437e578740b
-Description: Thay đổi phông chữ Đồng hồ qua Snowboard
-Name: LS-16-Chrismas
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Ls16Chrismas.json
-Icon: https://jtisvn.github.io/sectionIcons/LS.png
-Author: p0s3id0n
-
 Package: com.jtis.LSBendigo
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -11161,6 +11161,26 @@ Name: LunarTime Plus (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimePlus.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: nqt1195
+
+Package: com.jtis.lunartimepro
+Architecture: iphoneos-arm64
+Version: 1.0.3-1+debug
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 176
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.lunartimepro_1.0.3-1+debug_iphoneos-arm64.deb
+Size: 15972
+MD5sum: 71a973ce4ec6ffabfcc99648d886fa53
+SHA1: eaf38b2cb16390b90202dbd872eb7167dd68826f
+SHA256: 1f9cdcf68ed74d3d6dc3e7a769edebdd2326c7b29af71a59d72f037a85700a7e
+SHA512: f600aa872f61151fc42b4d63355593f249b0ec1c8313892a2ece505472157d101e99584c55540a67e042c6e9eb6191ea045beeaceac0b0572c66809dc65a3730
+Description: Hiển thị Thứ, dương/ âm lịch" ở dưới đồng hồ trên thanh trạng thái hỗ trợ iOS 15+
+Name: Lunartime Pro (Rootless)
+Author: BVN
+Depiction: http://jtisvn.github.io/depiction/LunartimePro.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimePro.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.macpass
 Architecture: iphoneos-arm
@@ -17960,6 +17980,27 @@ Author: Mr.Zhang <mr_zhang_00@163.com>
 Icon: https://skypain.github.io/repo/src/cclocation/Icon.png
 Depiction: https://skypain.github.io/repo/static/view/?p=cclocation
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCLocation.json
+
+Package: com.skypain.cclockscreen
+Architecture: iphoneos-arm64
+Version: 1.1.0-1
+Section: Tweaks
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 176
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.skypain.cclockscreen_1.1.0-1_iphoneos-arm64.deb
+Size: 24936
+MD5sum: d3a7f6e5af10cdfc6d9517e00f710838
+SHA1: 62fd7f5d3368da76efbbf8f23b6486efb8e17e80
+SHA256: 1f97e7cfefd383fa5c0d8bf91cc988876958bdfbf64e09799996463daa0ba90d
+SHA512: e81d741bfc8abdf081427ddaf9b169373f09afad06e7a32550ea26b40bc5a184bbf8cf3ad1a242a36c421c3dd391649e2a0bcbbd90bd2d1c950a7d1c14aa81a6
+Homepage: https://jtisvn.github.io/
+Description: Mô-đun màn hình khóa trung tâm điều khiển
+Name: CCLockScreen (Rootless)
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Icon: https://skypain.github.io/repo/src/cclockscreen/Icon.png
+Depiction: https://skypain.github.io/repo/static/view/?p=cclockscreen
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCLockScreen.json
 
 Package: com.skypain.ccrespring
 Architecture: iphoneos-arm64

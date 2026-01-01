@@ -1,7 +1,7 @@
 {
-"minVersion":"0.4",
-"headerImage":"https://jtisvn.github.io/coverimage/Fonts.png",
-"tintColor":"#6C7B8B",
+"minVersion":"0.1",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#5777B8",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -10,15 +10,15 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Ls16Chrismas/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/LunartimePro/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Chủ đề phông chữ đồng hồ trên màn hình khoá\n\n- Hỗ trợ thiết bị iOS 16 trở lên\n\n- Kích hoạt phông chữ qua tinh chỉnh Snowboard.",
+"markdown":"LunarTime X\n\n- Thêm hiển thị thứ, ngày Dương/Âm lịch lên góc trái Status Bar (Thanh trạng thái) cho các thiết bị tai thỏ (Notch).\n\n- **Lưu ý quan trọng:** Đối với iPhone XS trở lên, vui lòng tải tiện ích **Legacy arm64e Support** trước khi cài đặt tweak này để tránh gây lỗi treo táo (bootloop).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -53,7 +53,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Romlay",
+"text": "bvn",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -66,7 +66,20 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Font LS",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày tải lên",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "18/8/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -84,21 +97,33 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0",
+"text": "1.0.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
 },
 {
 "class": "DepictionLabelView",
-"text": "Tương thích iOS",
+"text": "Kích thước",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
-
 },
 {
 "class": "DepictionLabelView",
-"text": "16.0 - 17.0",
+"text": "170,4 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "15.0 - 16.6.1",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -125,8 +150,13 @@
 },
 {
 "class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
 "title":"Ủng hộ tôi",
-"action":"https://jtisvn.github.io/homepage/donate/donate.html",
+"action":"https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
@@ -153,7 +183,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0\n\n- Phát hành lần đầu\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.0.1\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
