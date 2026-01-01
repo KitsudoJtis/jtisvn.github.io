@@ -18395,13 +18395,14 @@ Installed-Size: 1420
 Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, firmware (>= 14), firmware (<< 16), preferenceloader
 Conflicts: ch.mdaus.utils, com.johnzaro.perfectmusic13, com.p2kdev.tinywidget, com.laughingquoll.quart, com.tako3s.printemps, com.teslaman3092.16player, xyz.cypwn.16player
 Filename: ./debs/com.teslaman3092.16player_1.0.5_iphoneos-arm64.deb
-Size: 379028
-MD5sum: f56125df156527df354fa0dc8a735a76
-SHA1: 9ff9a59572a6a118177176454db6997b153ddeb7
-SHA256: 3dd55425aea13407b39711eeab9f76872e249cc0b26ada03d777e7f2ce4c6e3a
-SHA512: a8df2049d1489342585c2289700588483be77367e9448216f8501c28061b0f845d6caf3024f3c305cf7ffb8e019569f218c1f5fba182e5638413aa83faeea7a3
+Size: 378844
+MD5sum: 2b3f4e99c92592c11aafdf3d0d8bf2c3
+SHA1: 841f2f9b6668b33845084aaac12e5d0de9943b4a
+SHA256: 497c99f698860dc158e1f5cb794153bb1d79113108bb1472b3036b01d2dcc5c7
+SHA512: b52b84b00e42a60db3bf5dae5b66052fb65e45e79512e7e9f76e2f8b52a0ba689b680d0dab8142b48c76e36355ab8bd847378926fd3b9b72fa78cd799236310d
 Description: 16Player - tinh chỉnh tốt nhất để đưa trình phát nhạc màn hình khóa iOS 16 lên iPhone hoặc iPad chạy iOS 14 hoặc iOS 15 của bạn.
 Name: 16Player (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/16Player.json
 Icon: https://jtisvn.github.io/sectionIcons/16Player.png
 Author: tesla_man, Bibi Fire <computerman939+16playersupport@gmail.com>
 
@@ -18415,13 +18416,14 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, firmware (>= 14), firmware (<< 16), preferenceloader
 Conflicts: ch.mdaus.utils, com.johnzaro.perfectmusic13, com.p2kdev.tinywidget, com.laughingquoll.quart, com.tako3s.printemps, com.teslaman3092.16player, xyz.cypwn.16player
 Filename: ./debs/com.teslaman3092.16player_1.0.5_iphoneos-arm64e.deb
-Size: 375852
-MD5sum: c42a14f599a43095310bbafc4117988a
-SHA1: 0be3dda58b03ff309b64c71f81278615c6261353
-SHA256: 0b62772fb342978995f766fc40bbe502770704d3fb3432567855194d04c70135
-SHA512: d4068ce7383bc78699df56c636488c5ee189429f9e5a73ffbdfbd47546991fc64b8e2bf03d63fd2cb17167081ed9f0830e9d9da26bd206396463e02337228b1f
+Size: 375928
+MD5sum: ae1af99bd0fed38d30bf21c05b38a363
+SHA1: 44efda0bfe59e8e9e325f05d344d728484b35551
+SHA256: b86493c633b706eb84dda5d2d3be60a83c31e327185e25a9e422a76e9be5e3e0
+SHA512: 55034cf93406be2156a73acb95e689662d42323fedadf24d62213b186f6c732b33fd953c7741fec9823cc5feb892f7a1e2a501a7a5984ac98b824de4debd259f
 Description: 16Player - tinh chỉnh tốt nhất để đưa trình phát nhạc màn hình khóa iOS 16 lên iPhone hoặc iPad chạy iOS 14 hoặc iOS 15 của bạn.
 Name: 16Player (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/16Player.json
 Icon: https://jtisvn.github.io/sectionIcons/16Player.png
 Author: tesla_man, Bibi Fire <computerman939+16playersupport@gmail.com>
 
