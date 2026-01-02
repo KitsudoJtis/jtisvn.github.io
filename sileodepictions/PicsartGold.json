@@ -152,7 +152,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 22.4.4\n\n Hỗ trợ phiên bản ứng dung mới nhất\n\n ### Phiên bản 1.0.2\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 22.4.4\n\n- Hỗ trợ phiên bản ứng dung mới nhất\n\n ### Phiên bản 1.0.2\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
