@@ -5342,6 +5342,27 @@ Depiction: http://jtisvn.github.io/depiction/Autolockscreen.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Autolockscreen.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.autolockscreen
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.autolockscreen_1.0.0_iphoneos-arm64e.deb
+Size: 3912
+MD5sum: 39010ccee6b2e72a87f910d3ffe8c4cb
+SHA1: fe53c1839ba67f1a6821b1945241f1c92ae0b843
+SHA256: 6941952dbd3f9e5332260e0a58f97d1110354bdb0afc128bbdac77fead36e2d5
+SHA512: c06695eeccf16f0c2a85402cb60a1b52a15d6ec5e2a9c876ce16b53e4a6032e40e70223c9fe26127ae637089ca3e4d1f914cff71a54957dcc48bc5f3bc472093
+Description: Úp xuống màn hình, tự động khóa thiết bị.
+Name: Auto LockScreen (Roothide)
+Author: A
+Depiction: http://jtisvn.github.io/depiction/Autolockscreen.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Autolockscreen.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.autoscroll15
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -15268,6 +15289,28 @@ SHA256: e9d28c19793578772b6f1f491f0c75eb3c84dbf32d263fbdd5a61581b54a6f39
 SHA512: 64c3375512867a494517010b909e989b84c71b2a5120925a7eb2da801ed703b6a791b8223eca513f42b53cfe91cb57fea70c7241af08049b0171376ee4669e6c
 Description: The maid for your 📱
 Name: Violet Pro (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VioletPro.json
+depiction: https://jtisvn.github.io/depictions/VioletPro.html
+Icon: https://jtisvn.github.io/sectionIcons/VioletPro.png
+Author: Erast
+Sponsor: 搬运工
+
+Package: com.jtis.violetpro
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 6740
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), com.mrgcgamer.libgcuniversal, ws.hbang.common (>= 2.0)
+Filename: ./debs/com.jtis.violetpro_1.0.0_iphoneos-arm64e.deb
+Size: 5768420
+MD5sum: 056ed752e36c8090aa62a94fcc54c22b
+SHA1: 75a1e9d1e1495b048946b441fcdce36b8e8e5698
+SHA256: ab027063da9c902f3032dab99478b61fb25cdd43361dbb1a66c70d16f7046e69
+SHA512: ba4b96274aadb2278dbd938c973e824a921eabecc9ba5d78557a58d989ebd6ac418ae892cd39f0b029ed0aa367c73aa6fdee30e7415609a6923c1e99fb15e0ed
+Description: The maid for your 📱
+Name: Violet Pro (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/VioletPro.json
 depiction: https://jtisvn.github.io/depictions/VioletPro.html
 Icon: https://jtisvn.github.io/sectionIcons/VioletPro.png
