@@ -12,13 +12,25 @@
 {
 "url":"https://jtisvn.github.io/infodeb/Lidell/Screenshots/1.png",
 "accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Lidell/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Lidell/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Lidell/Screenshots/4.png",
+"accessibilityText":"Screenshot"
 }
 ],
 "itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Lidell\n\n- Thu nhỏ và tinh chỉnh kích thước biểu ngữ thông báo hiển thị trên màn hình chính, giúp giao diện gọn gàng và thẩm mỹ hơn.",
+"markdown":"Lidell\n\n- Thu nhỏ và tinh chỉnh kích thước biểu ngữ thông báo hiển thị trên thanh trạng thái, giúp giao diện thông báo gọn gàng và thẩm mỹ hơn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
