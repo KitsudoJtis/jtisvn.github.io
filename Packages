@@ -15208,6 +15208,27 @@ Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/VietNam.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
 
+Package: com.jtis.violet
+Architecture: iphoneos-arm
+Version: 1.1.1
+Section: Tweaks
+Maintainer: Erast <applewormdev@gmail.com>
+Installed-Size: 5728
+Depends: mobilesubstrate, ws.hbang.common (>= 1.17), firmware (>= 14.0), com.mrgcgamer.libgcuniversal, com.miro.liblottie
+Filename: ./debs/com.jtis.violet_1.1.1_iphoneos-arm.deb
+Size: 5294424
+MD5sum: 1d07a20f6d36d4f9d049971673fef211
+SHA1: 200c33f34cac065868b07a62e62e97a7162ce5cd
+SHA256: da9bd51b0d78016437e471d1772b92a07c709dafb406b9fc90ac278e45c7b7a5
+SHA512: d9873544e622f0761753a15daf6d2c11038f5cdcdcd4eae58fb4af5954c43f0d79a515051bf2531e840a988ad753656e699371c3ab1e509fc1488f5f58ba076a
+Description: The maid for your 📱
+Name: Violet
+Author: Erast <applewormdev@gmail.com>
+dev: Erast
+Depiction: http://jtisvn.github.io/depiction/Violet.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Violet.json
+Icon: https://media.havoc.app/634efe8410a9996b61d0cc2d
+
 Package: com.jtis.violetpro
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -15601,25 +15622,6 @@ SHA512: f2c53f65f76ab5506d7978e19e81f0d152bb588348700669351ffb9ef967feed1c07f555
 Description: Tinh chỉnh tốc độ làm mới 120Hz miễn phí có thể giúp giảm mức tiêu thụ pin do điều chỉnh động tốc độ làm mới. Đảm bảo rằng phần cứng thiết bị của bạn hỗ trợ 120Hz.
  - Lưu ý: Tinh chỉnh này có thể không tương thích với tất cả các phiên bản iOS, tùy thuộc vào việc triển khai nội bộ của hệ thống.
 Name: Xuanhua 120Hz (Rootless)
-Author: Huayuarc
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
-Package: com.jtis.xuanhua120hz
-Architecture: iphoneos-arm64e
-Version: 0.0.4
-Section: Tweaks
-Maintainer: Huayuarc
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/com.jtis.xuanhua120hz_0.0.4_iphoneos-arm64e.deb
-Size: 3756
-MD5sum: 1ffbbdf480876b5916f8952cfa0aec57
-SHA1: 1beea19bd883f1ba13953bdd4bb9302e3650b0ad
-SHA256: d92de9be18db92e27df6314957451165db506a4c8ef5ea069231b62bc7c0d8cc
-SHA512: 0807cccfc5c474790d09578c62a598dd7530bff8c5d2fa1ccb7fddbfcb665bfbd23b13aaba8b978a19153b8dc5b52ef07810544fb782169f30c236f5b3029c59
-Description: Tinh chỉnh tốc độ làm mới 120Hz miễn phí có thể giúp giảm mức tiêu thụ pin do điều chỉnh động tốc độ làm mới. Đảm bảo rằng phần cứng thiết bị của bạn hỗ trợ 120Hz.
- - Lưu ý: Tinh chỉnh này có thể không tương thích với tất cả các phiên bản iOS, tùy thuộc vào việc triển khai nội bộ của hệ thống.
-Name: Xuanhua 120Hz (Roothide)
 Author: Huayuarc
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
@@ -18150,6 +18152,27 @@ SHA512: 0d001b55af34a9a3b7cf952c421dbb448a1ad08ede77554ac2ee8efab0f21d1155543599
 Homepage: https://jtisvn.github.io/
 Description: Thêm chuyển đổi VPN mô dun Trung tâm điều khiển
 Name: CCVPN (Rootless)
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Icon: https://skypain.github.io/repo/src/ccvpn/Icon.png
+Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCVPN.json
+
+Package: com.skypain.ccvpn
+Architecture: iphoneos-arm64e
+Version: 1.1.1-2
+Section: Tweaks
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 184
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.skypain.ccvpn_1.1.1-2_iphoneos-arm64e.deb
+Size: 30672
+MD5sum: de63bfe9673c62fe96dab4a9b59058e3
+SHA1: 5df4e0b33795d0ef85531c6bcf806e22e43a129e
+SHA256: 361b81d3e684dd29e110c3590f1ae96c44e98dcaf9a11807a3660665ce8a2071
+SHA512: 2cdcd13842c8937ea32ef553b49837858cfe56e06c234154dedfcaea2a20be66ba3016b730f634b48cef817854201c467f5d1a7fb264d6c622b5e7e4a211237a
+Homepage: https://jtisvn.github.io/
+Description: Thêm chuyển đổi VPN mô dun Trung tâm điều khiển
+Name: CCVPN (Roothide)
 Author: Mr.Zhang <mr_zhang_00@163.com>
 Icon: https://skypain.github.io/repo/src/ccvpn/Icon.png
 Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
