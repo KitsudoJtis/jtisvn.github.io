@@ -10562,6 +10562,30 @@ Author: Ryan Nair
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Little12.json
 Icon: https://jtisvn.github.io/sectionIcons/Little12.png
 
+Package: com.jtis.little12
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1008
+Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Filename: ./debs/com.jtis.little12_2.0_iphoneos-arm64e.deb
+Size: 380752
+MD5sum: c7c520bface42a56b65a431a0b98d06c
+SHA1: 7220234d913fb6cffdf0108688ef6449c82eb4a5
+SHA256: d685e6b52b067c9ad185973d5b0815090cf5bf99d044903a21af0a345c924468
+SHA512: 75d63f3d17d80f71dc22f4055e84d64eb57a79cbcd89194aaafe7984f35855b91c846e4a325ef9c8962fac15d1c26806ae6186e06465a2f41ad0dc4249fd0673
+Description: Fake cử chỉ iPhone X/12 trên các thiết bị đời thấp.
+Name: Little12 (Roothide)
+Author: Ryan Nair
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Little12.json
+Depiction: http://jtisvn.github.io/depiction/Little12.html
+Icon: https://jtisvn.github.io/sectionIcons/Little12.png
+
 Package: com.jtis.littlexs
 Architecture: iphoneos-arm
 Version: 2.4.4
@@ -18100,27 +18124,6 @@ SHA512: 0d001b55af34a9a3b7cf952c421dbb448a1ad08ede77554ac2ee8efab0f21d1155543599
 Homepage: https://jtisvn.github.io/
 Description: Thêm chuyển đổi VPN mô dun Trung tâm điều khiển
 Name: CCVPN (Rootless)
-Author: Mr.Zhang <mr_zhang_00@163.com>
-Icon: https://skypain.github.io/repo/src/ccvpn/Icon.png
-Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
-SileoDepiction: https://jtisvn.github.io/sileodepictions/CCVPN.json
-
-Package: com.skypain.ccvpn
-Architecture: iphoneos-arm64e
-Version: 1.1.1-2
-Section: Tweaks
-Maintainer: Mr.Zhang <mr_zhang_00@163.com>
-Installed-Size: 184
-Depends: com.opa334.ccsupport
-Filename: ./debs/com.skypain.ccvpn_1.1.1-2_iphoneos-arm64e.deb
-Size: 30668
-MD5sum: 39525cbaf746f275951907a532bea1df
-SHA1: 1b4c33deda9f1a80ad8916e8e7fe3cc8b1f6c33b
-SHA256: 56b035d42906d4a36542be96262cf72e65054eb0742f1393c6e58d41941751e6
-SHA512: 3c5bc1e31c0a54ce033dacea6d32286f62e8db7c8707d6f9336c022a7fef0d22448db1a3a128d197c4c6f4a6ba344dc319c3f7663e106c8f0519b9da2a7486ba
-Homepage: https://jtisvn.github.io/
-Description: Thêm chuyển đổi VPN mô dun Trung tâm điều khiển
-Name: CCVPN (Roothide)
 Author: Mr.Zhang <mr_zhang_00@163.com>
 Icon: https://skypain.github.io/repo/src/ccvpn/Icon.png
 Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
