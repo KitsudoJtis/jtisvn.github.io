@@ -12235,6 +12235,47 @@ Icon: https://jtisvn.github.io/sectionIcons/Picsart.png
 Name: PicsArt Gold
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PicsartGold.json
 
+Package: com.jtis.picsart
+Architecture: iphoneos-arm64
+Version: 22.4.4
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 940
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.picsart_22.4.4_iphoneos-arm64.deb
+Size: 152576
+MD5sum: b26c53aa9b69973cf565928a8a07731f
+SHA1: 9b671723da5b5e472d3b49b30a014c39c197e7c3
+SHA256: 49be0021dde29af20677726de884d1e9b053dcfe57735eb693ab3383fd971faf
+SHA512: 419fc0ca519cdfbaef5f2a2f0cc74af8a3bfdcbdc2722b0ded09f0f3932a7b76afd63e397a156b45fb70540f47b06fa01be6c5a68482d837b898dc52bb58d002
+Description: Kích hoạt gói tính năng Goldcho ứng dụng PicsArt
+Name: PicsArt® Gold
+Author: Laila Azmi <Lailaazmi@my.com>
+Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PicsartGold.json
+Icon: https://jtisvn.github.io/sectionIcons/Picsart.png
+
+Package: com.jtis.picsart
+Architecture: iphoneos-arm64e
+Version: 22.4.4
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 940
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.picsart_22.4.4_iphoneos-arm64e.deb
+Size: 212826
+MD5sum: 42c8067e90ec55294aee78e4a6db70dd
+SHA1: d7937490522a53972d2c921207ce4167ee995e62
+SHA256: 5f2a3a22354e797e1501f7b7e229f0b14bf010ef9b3507cf51fe3b04feaf0c6e
+SHA512: 43cacc1a92db3c85157a6e9b97a839cde2b809294549c4f273d3b409e947bade0695c7004dcf71158a4cf49241263e71bae985efce137a64bbe46007ec2e5cfe
+Description: Kích hoạt gói tính năng Goldcho ứng dụng PicsArt
+Name: PicsArt® Gold
+Author: Laila Azmi <Lailaazmi@my.com>
+Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PicsartGold.json
+Icon: https://jtisvn.github.io/sectionIcons/Picsart.png
+
 Package: com.jtis.picsewpro
 Architecture: iphoneos-arm64
 Version: 1.0.0

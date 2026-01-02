@@ -53,7 +53,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Lang Khach",
+"text": "Laila Azmi",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -84,7 +84,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.0.1",
+"text": "22.4.4",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -97,7 +97,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15.0 - 17.0",
+"text": "14.0 - 17.0",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -152,7 +152,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.0.1\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 22.4.4\n\n Hỗ trợ phiên bản ứng dung mới nhất\n\n ### Phiên bản 1.0.2\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
