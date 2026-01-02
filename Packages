@@ -1775,16 +1775,17 @@ Installed-Size: 25584
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.foxfort.foxforttools (>= 1.4.16), firmware (>= 14.0)
 Conflicts: com.p2kdev.vartaman, com.julioverne.autowall, com.spark.freshwall, com.shinvou.wallmart, com.yourepo.cydiageek.lsvibrantclockdate, ru.rj.exiwallhack
 Filename: ./debs/com.foxfort.exiwall_2.1.7_iphoneos-arm64.deb
-Size: 23091232
-MD5sum: a254efd35f5dd90a1d9b8201d3fce0ea
-SHA1: 38cc91fe0e6fe9e450e1fe83bce96e70e4733e99
-SHA256: bfd088371f33f8e2878d4caddfd40d333a7cac8ad8c35d4a6478611e0fd3bc7c
-SHA512: 8d028c851f8805e1659f3cca656335dbffaab0d0c1e932821afe1190e85d81864107486f6ef943631d54a996661553ec10703de9dd2c9c7a9e85a4cf587a8fb7
+Size: 23084168
+MD5sum: f6cae939e2f799d064919b54840139ca
+SHA1: ff67430d33790e58cbff7836838d84e3b6b73f5d
+SHA256: 4febe6ee258c9558887a55ad9edc7d89dd2ee3f25dbb2bc0d4fd354b7dd210d9
+SHA512: 1ac5200a39268ccf99cf82c084bca2e24b25fd6361acb30a25b456d57655c71034cad2bcc32fc53520728fed3aedd1a59451909ff09446d48b9c7f5fd03c454d
 Description: Hiệu ứng chiều sâu cho hình nền màn hình khóa.
 Name: Exiwall (Rootless)
 Author: FoxfortMobile
 Icon: https://jtisvn.github.io/sectionIcons/Exiwall.png
 depiction: https://havoc.app/depiction/exiwall
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Exiwall.json
 
 Package: com.foxfort.foxforttools
 Architecture: iphoneos-arm64e
