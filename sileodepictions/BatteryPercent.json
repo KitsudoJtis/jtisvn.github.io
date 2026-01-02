@@ -1,6 +1,6 @@
 {
-"minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/BatteryPercent.png",
+"minVersion": "0.1",
+"headerImage": "https://jtisvn.github.io/coverimage/BatteryPercent.png",
 "tintColor":"#5777B8",
 "tabs":[
 {
@@ -8,56 +8,176 @@
 "views":[
 { "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionHeaderView",
-"title":"BatteryPercentiOS16"
+"class":"DepictionLabelView",
+"text":"BatteryPercent iOS",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n\n- Hiển thị % pin giống IOS 16 cho thiết bị iOS 15 trở xuống\n\n- Đồi với thiết bị IPhone XS trở lên vui lòng cài tweak Odabi để tránh tình trạng treo máy sau khi cài đặt\n\n",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
+"markdown":"\n Hiển thị phần trăm (%) pin giống IOS 16 cho thiết bị iOS 15 trở xuống\n\n Đồi với thiết bị iPhone XS trở lên vui lòng tải gói **Odabi** để tránh tình trạng treo máy sau khi cài đặt.",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionMarkdownView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin "
+"class": "DepictionLabelView",
+"text": "Ảnh chụp màn hình",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Nhà phát triển",
-"text":"NQT"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"1.1.2" },
+"itemCornerRadius": 8,
+"itemSize": "{185, 400}",
+"screenshots": [
 {
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
-},
-{
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"7/5/2025"
+"accessibilityText": "Screenshot",
+"url": "https://jtisvn.github.io/infodeb/Tinhchinh/Screenshots/1.png"
+}
+],
+"class": "DepictionScreenshotsView"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Dung lượng",
-"text":"8 KB"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 14.0 đến 16.5"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "NQT",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Ngày cập nhật",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "17/1/2025",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "1.1.2",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Kích thước",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "143,8 KB",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "12.0 - 16.5",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Liên kết & Hỗ trợ",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Liên hệ Hỗ trợ",
+"title":"Mô tả tinh chỉnh",
+"action":"https://jtisvn.github.io/depictions/Tinhchinh.html"
+},
+{
+"class":"DepictionTableButtonView",
+"title":"Ủng hộ tôi",
 "action":"https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
