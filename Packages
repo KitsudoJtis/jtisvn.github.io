@@ -17611,15 +17611,16 @@ Depends: mobilesubstrate, com.ps.ytvideooverlay (>= 2.0.0), firmware (>= 11.0), 
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Filename: ./debs/com.ps.youpip_1.12.7_iphoneos-arm64e.deb
-Size: 26020
-MD5sum: ca7c8ebd2b1a228eabf5f4042f8e5b28
-SHA1: 97ccb912645095d15c7da4a161dc0462faac28bf
-SHA256: e12fa4807e952c339c8e12cf2cb9fd46f6f139e85c326c1bd5e9e89174ff1249
-SHA512: d03f1bc0094382c02fc520c60a6eea67000e1bf91a48d2901d6549295734064e90312220863b4d083b7893738841a1a413065ab28f8549d1fb06560fca7fa89f
+Size: 26040
+MD5sum: ecd1ff227854dd58b13adf15a9b91aa5
+SHA1: ede32b7b04589a86af1ce9b65d0bd1b3bd47f198
+SHA256: ff6599115eb0c5bc5e0c972e5ff659b2bdb44a8ab7c8666087bf5fc13a772355
+SHA512: 5f57bc194b669ea6bdc97cab6d3466b9ad27ba79c5608a15d44d407d341fbf6fb2542bc93e06c14e0f8c7559a45672bfbd79c32d32932eca83dee2591860c910
 Description: Enable native PiP in iOS YouTube app.
 Name: YouPiP (Roothide)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
 
 Package: com.ps.youpip
