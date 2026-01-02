@@ -6,17 +6,6 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
-{
-"class":"DepictionHeaderView",
-"title":"Adguard Pro"
-},
-{
-"markdown":"\n\n- Kích hoạt gói Premium cho ứng dụng AdGurad\n\n- Hỗ trợ phiên bản mới nhất.",
-"useSpacing":"true",
-"class":"DepictionMarkdownView"
-},
-{ "class":"DepictionHeaderView", "title":"Ảnh chụp màn hình" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -25,46 +14,122 @@
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"class":"DepictionMarkdownView"
+"markdown":"AdGuard Pro\n\n- Kích hoạt các tính năng của gói Premium cho ứng dụng **AdGuard** - Chặn quảng cáo & Bảo vệ quyền riêng tư.\n\n- Hỗ trợ cho phiên bản mới nhất trên [App Store](https://apps.apple.com/vn/app/adguard-adblock-privacy/id1047223162?l=vi).",
+"useSpacing": false,
+"class": "DepictionMarkdownView"
 },
 {
-"class":"DepictionSpacerView"
+"spacing": 20,
+"class": "DepictionSpacerView"
 },
 {
-"class":"DepictionHeaderView",
-"title":"Thông tin chi tiết"
+"class": "DepictionSeparatorView"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Tác giả",
-"text":"Dell"
-},
-{ "class":"DepictionTableTextView", "title":"Phiên bản", "text":"0.0.1" },
-{
-"class":"DepictionTableTextView",
-"title":"Thể loại",
-"text":"Tweaks"
+"class": "DepictionLabelView",
+"text": "Thông tin chi tiết",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Ngày tải lên",
-"text":"26/1/2025"
+"class": "DepictionStackView",
+"orientation": "landscape",
+"views": [
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Tác giả",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
 },
 {
-"class":"DepictionTableTextView",
-"title":"Khả năng tương thích",
-"text":"iOS 14.0 đến 17.0"
+"class": "DepictionLabelView",
+"text": "Dell",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
 },
 {
-"class":"DepictionSpacerView"
+"class": "DepictionLabelView",
+"text": "Thể loại",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "Tweaks",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+}
+]
+},
+{
+"class": "DepictionStackView",
+"views": [
+{
+"class": "DepictionLabelView",
+"text": "Phiên bản",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "0.0.1",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": false
+},
+{
+"class": "DepictionLabelView",
+"text": "Tương thích iOS/iPadOS",
+"textColor": "#777",
+"margins": "{16,0,8,0}"
+},
+{
+"class": "DepictionLabelView",
+"text": "14.0 - 17.0",
+"fontWeight": "semibold",
+"fontSize": 17,
+"usePadding": false
+}
+]
+}
+]
+},
+{
+"spacing": 25,
+"class": "DepictionSpacerView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionLabelView",
+"text": "Liên kết & Hỗ trợ",
+"fontWeight": "semibold",
+"fontSize": 16,
+"usePadding": true,
+"useMargins": true,
+"margins": "{10,0,8,0}"
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Liên hệ Hỗ trợ",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"title":"Ủng hộ tôi",
 "action":"https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
@@ -92,7 +157,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 0.0.1\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
