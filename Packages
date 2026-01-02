@@ -19995,6 +19995,51 @@ Name: SimpleActivationActions (Rootless)
 Author: Elias Limneos <limneoselias@gmail.com>
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: net.repobvn.voicechangerx-rootless
+Architecture: iphoneos-arm64
+Version: 2.4-3
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1420
+Depends: mobilesubstrate, preferenceloader, com.jtis.limneos-crack
+Conflicts:  com.hackyouriphone.limneosos, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos, org.mr.unsubsrl
+Filename: ./debs/net.repobvn.voicechangerx-rootless_2.4-3_iphoneos-arm64.deb
+Size: 232268
+MD5sum: 3c689d44213d8615f28101e1ffa1505e
+SHA1: 0fe32bbc2ded3fb30fb466f2e6d0617b0be349c9
+SHA256: 03d59de12c75791f890c7122d6f6ee916895529d7fbf34e3851f092d6e88008e
+SHA512: 43a36b9f66c0c1ef7e197550b03b4d71d23effbf7f4213846fa70202df5741f39c2368065810901383e8fd22b9bb4e0de86009d3f2016d3e751225e6a06057c7
+Description: Thay đổi giọng nói của bạn trong khi gọi!
+Name: VoiceChanger XS (Rootless) (iOS 11 to 16)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VoiceChangerXS.json
+Icon: https://jtisvn.github.io/sectionIcons/VoiceChangerXS.png
+Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.voicechangerx
+Author: Elias Limneos <limneoselias@gmail.com>
+MainLibMD5: 8131809d9825837c841f8f54015f50b4
+
+Package: net.repobvn.voicechangerx-rootless
+Architecture: iphoneos-arm64e
+Version: 2.4-3
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1420
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, preferenceloader, com.jtis.limneos-crack
+Conflicts:  com.hackyouriphone.limneosos, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/net.repobvn.voicechangerx-rootless_2.4-3_iphoneos-arm64e.deb
+Size: 228164
+MD5sum: 9a46345f5be73bb683f2068528d83589
+SHA1: a7f15c4788012de157712ddeed61e68862922621
+SHA256: e351ce1af3f33426e165ad843695426c5454dc3e3e9cc496e3bd0b905c9a9033
+SHA512: f721573f7491cdbef0be15b351295d87233c7bc75ba6c263740b346ef29ec2d188a86f2137271a6dfec428192a082f8a758da4636070e6294d3e39c39deb51bf
+Description: Thay đổi giọng nói của bạn trong khi gọi!
+Name: VoiceChanger XS (Roothide) (iOS 11 to 16)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VoiceChangerXS.json
+Icon: https://jtisvn.github.io/sectionIcons/VoiceChangerXS.png
+Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.voicechangerx
+Author: Elias Limneos <limneoselias@gmail.com>
+MainLibMD5: 8131809d9825837c841f8f54015f50b4
+
 Package: oldabi-stub
 Architecture: iphoneos-arm64
 Version: 0.3
