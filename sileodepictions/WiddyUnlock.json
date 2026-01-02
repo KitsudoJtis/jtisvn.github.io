@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#33FF00",
+"tintColor":"#33CC66",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Widdy Unlock\n\n- Kích hoạt một số tính năng nâng cao (Premium/VIP) cho ứng dụng Widdy - Widgets & Watch Faces.\n\n- Hỗ trợ cho các phiên bản mới trên [App Store](https://apps.apple.com/vn/app/widgy-widgets-home-lock-watch/id1524540481?l=vi).",
+"markdown":"Widdy Unlock\n\n- Kích hoạt tính năng nâng cao (Premium/VIP) cho ứng dụng **Widdy - Widgets & Watch Faces**.\n\n- Hỗ trợ cho các phiên bản mới trên [App Store](https://apps.apple.com/vn/app/widgy-widgets-home-lock-watch/id1524540481?l=vi).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

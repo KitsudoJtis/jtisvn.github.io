@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"CCbonder16\n\n- Tuỳ chỉnh hình dáng Mô-đun Trung tâm điều khiển theo phong cách iOS 18 cho thiết bị iOS thấp.\n\n- Lưu ý: Chỉ hỗ trợ cho iOS 16 trở lên!\n\n- Yêu cầu cài thêm gói **libcolorpicker** để tránh lỗi không hiển thị chức năng trong cài đặt.",
+"markdown":"CCbonder16\n\n- Tuỳ chỉnh hình dáng Mô-đun Trung tâm điều khiển theo phong cách iOS 18 cho thiết bị iOS thấp, Chỉ hỗ trợ cho iOS 16 trở lên!\n\n- Yêu cầu cài thêm gói **libcolorpicker** để tránh lỗi không hiển thị chức năng trong cài đặt.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

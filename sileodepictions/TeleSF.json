@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"TG Screenshot Freedom\n\n- Tinh chỉnh cho phép bạn chụp ảnh màn hình (Screenshot) trong các cuộc trò chuyện bí mật, kênh hoặc nhóm Telegram bị giới hạn tính năng này.\n\n- **Hỗ trợ các ứng dụng khác:** Telegram, Swiftgram, Turrit.",
+"markdown":"TG Screenshot Freedom\n\n- Tinh chỉnh cho phép bạn chụp ảnh màn hình (Screenshot) trong cuộc trò chuyện bí mật, kênh hoặc nhóm Telegram bị giới hạn tính năng này.\n\n- Hỗ trợ các ứng dụng Telegram, Swiftgram, Turrit.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

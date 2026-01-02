@@ -18092,18 +18092,18 @@ Maintainer: Mr.Zhang <mr_zhang_00@163.com>
 Installed-Size: 184
 Depends: com.opa334.ccsupport
 Filename: ./debs/com.skypain.ccvpn_1.1.1-1_iphoneos-arm64.deb
-Size: 30564
-MD5sum: 23b53f81c5b1fb3f9fa1628151ae9418
-SHA1: 0d698bd51a3b1148eaf6137f4bf9d55f8d1e8ed0
-SHA256: 9b53eaf8fd1a80848b8c82cf6527301fa47739a8e85583ca53f81279e6962bc4
-SHA512: 016743ec927eeabf66df3ef11c720f8b6e820417eb49523b77a96e5e70412151068df950da499fcca40a59b2b43124080f23171454e77fe97b90bb8d97b02f29
-Homepage: https://skypain.github.io/repo/
+Size: 30544
+MD5sum: 54890cfc0ae841d9260f08cc3cda6c88
+SHA1: e8ea01eea229adf412a2792b5e85ebf815109b31
+SHA256: eb7a42c7b29fbd3d8629464edbd5b01bf357e36b9f79328ca4c9ef6d72e8fa86
+SHA512: 0d001b55af34a9a3b7cf952c421dbb448a1ad08ede77554ac2ee8efab0f21d11555435993faca4d2a2ce3eaf14765394b896cfc9b0b178ccd96fd9731a05210c
+Homepage: https://jtisvn.github.io/
 Description: Thêm chuyển đổi VPN mô dun Trung tâm điều khiển
 Name: CCVPN (Rootless)
 Author: Mr.Zhang <mr_zhang_00@163.com>
 Icon: https://skypain.github.io/repo/src/ccvpn/Icon.png
 Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
-SileoDepiction: https://skypain.github.io/repo/src/ccvpn/config/sileo/depiction.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCVPN.json
 
 Package: com.skypain.ccvpn
 Architecture: iphoneos-arm64e
@@ -18113,18 +18113,18 @@ Maintainer: Mr.Zhang <mr_zhang_00@163.com>
 Installed-Size: 184
 Depends: com.opa334.ccsupport
 Filename: ./debs/com.skypain.ccvpn_1.1.1-2_iphoneos-arm64e.deb
-Size: 30664
-MD5sum: 3ec435612af0c3cdfe903303fbd7507a
-SHA1: 916282973300dc6071c5c0080da99b0f3e7eab7d
-SHA256: 6d8b7be362b56a813754d127486d7236e808fe3f5323cb72aefcf3dea1d7dcba
-SHA512: 0b1611623eea0958e5934bc1bd7877aead3b43a6ebebe311f3ddb2fab326ef4ffcc2d7fc8f8d710acee9805c01bfe07fff1bb86d1c81195152736805ec9c86be
-Homepage: https://skypain.github.io/repo/
+Size: 30668
+MD5sum: 39525cbaf746f275951907a532bea1df
+SHA1: 1b4c33deda9f1a80ad8916e8e7fe3cc8b1f6c33b
+SHA256: 56b035d42906d4a36542be96262cf72e65054eb0742f1393c6e58d41941751e6
+SHA512: 3c5bc1e31c0a54ce033dacea6d32286f62e8db7c8707d6f9336c022a7fef0d22448db1a3a128d197c4c6f4a6ba344dc319c3f7663e106c8f0519b9da2a7486ba
+Homepage: https://jtisvn.github.io/
 Description: Thêm chuyển đổi VPN mô dun Trung tâm điều khiển
 Name: CCVPN (Roothide)
 Author: Mr.Zhang <mr_zhang_00@163.com>
 Icon: https://skypain.github.io/repo/src/ccvpn/Icon.png
 Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
-SileoDepiction: https://skypain.github.io/repo/src/ccvpn/config/sileo/depiction.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCVPN.json
 
 Package: com.snail.airdrop16
 Architecture: iphoneos-arm64
