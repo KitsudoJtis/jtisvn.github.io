@@ -8823,24 +8823,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Edgy.json
 Tags: compatible_min::ios14.0, compatible_max::ios16.6.1
 Author: Ha Tia To
 
-Package: com.jtis.fontgineso
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Fonts
-Maintainer: @tqmmos
-Filename: ./debs/com.jtis.fontgineso_1.0_iphoneos-arm64.deb
-Size: 18386128
-MD5sum: f4831e8b9b5bce9192cad395bdca7da9
-SHA1: d0f44a4c9861cf9d6b8b96122b0441a8becc8cc6
-SHA256: bc25f4d7f7264fba675949e8756779a2b0e3ceebfb68e7d04611e0a2b11d49cf
-SHA512: cd8921230ceca298638c2d1baedfeecc82264e6beea8b4eb0ce846a2161fb766d140e67ac13fb2f0d3810f1e546062e68a7ca6ddf9cbb34281faf01501491bdd
-Description: Phông chữ Gineso cho iOS 14 trở nên
-Name: Gineso (iOS 14-16)
-Author: Alexman
-Depiction: http://jtisvn.github.io/depiction/Gineso.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Gineso.json
-Icon: https://jtisvn.github.io/sectionIcons/Fonts.png
-
 Package: com.jtis.fontlobstertwo-rootless
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -13614,6 +13596,47 @@ Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/SixLS.json
 Icon: https://jtisvn.github.io/sectionIcons/SixLS.png
 Author: Skitty
+
+Package: com.jtis.skinnymenu
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 912
+Depends: mobilesubstrate, com.foxfort.libfoxfortutils
+Filename: ./debs/com.jtis.skinnymenu_1.0.2_iphoneos-arm64.deb
+Size: 257340
+MD5sum: 8cd644a501f7646771dc17db5914504b
+SHA1: d0b584dea97072509c4c6a88b2a9986ac04079a9
+SHA256: 8005306ae4e7179d9dfc4422d89f8fba348089db0033078c080a54d4e5a6149b
+SHA512: 442f165e7e9438608faada69eeb9c662a813df24082ef39c9f7d55391f07da78594a8786e020cbfb35527d5bccf5bb95f0c4d7f97848f715651e445f4a2cdc46
+Description: Xóa chia sẻ và tra cứu khỏi menu
+Name: SkinnyMenu (Rootless)
+Author: FoxfortMobile
+Depiction: http://jtisvn.github.io/depiction/SkinnyMenu.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SkinnyMenu.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.skinnymenu
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 912
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.foxfort.libfoxfortutils
+Filename: ./debs/com.jtis.skinnymenu_1.0.2_iphoneos-arm64e.deb
+Size: 256556
+MD5sum: 2be6f2ca44754c0f69ef75c7ebcc3b87
+SHA1: e80a2e83f84fa060523015d774306a8bb9f40e7a
+SHA256: e232f754dce8937317dfeebbacf60bbeeb9ddcfab2e209d4e8ec1370c8983f9d
+SHA512: cb07c1dae669aa232f73337dc51e1c002d13ff1e7067708ef5dcf86bdd2208e74248ffb50243ade512839127f04f9810f1112ea8b866e518eaea1a4e3a976459
+Description: Xóa chia sẻ và tra cứu khỏi menu
+Name: SkinnyMenu (Roothide)
+Author: FoxfortMobile
+Depiction: http://jtisvn.github.io/depiction/SkinnyMenu.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SkinnyMenu.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.smallboard
 Architecture: iphoneos-arm64
