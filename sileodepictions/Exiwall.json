@@ -42,7 +42,7 @@
 "itemSize":"{160, 346}"
 },
 {
-"markdown":"Exiwall\n\n- Mang hiệu ứng chiều sâu (Depth Effect) tuyệt đẹp của hình nền khóa iOS 16 lên các thiết bị cũ hơn (iPhone 6s trở lên, chạy iOS 14.0+).\n\n- **Tính năng:**\n\n+ Tự động tách chủ thể trong ảnh và đặt đè lên phần đồng hồ/ngày tháng để tạo hiệu ứng 3D chiều sâu.\n\n+ Hoạt động offline ngay trên thiết bị, đảm bảo quyền riêng tư.\n\n+ Hỗ trợ mọi loại ảnh (chụp bằng iPhone, tải từ web, Android...).\n\n- **Lưu ý:**\n\n+ Hoạt động tốt nhất với ảnh có chủ thể rõ ràng, đủ sáng và tách biệt với nền.\n\n+ Không hỗ trợ iPad.\n\n+ Đây không phải là tweak tùy biến màn hình khóa (như Kalm, Jellyfish), nó chỉ tạo hiệu ứng chiều sâu cho hình nền.",
+"markdown":"Exiwall\n\n- Mang hiệu ứng chiều sâu (Depth Effect) tuyệt đẹp của hình nền khóa iOS 16 lên các thiết bị cũ hơn (iPhone 6s trở lên, chạy iOS 14.0+).\n\n- **Tính năng:**\n\n+ Tự động tách chủ thể trong ảnh và đặt đè lên phần đồng hồ/ngày tháng để tạo hiệu ứng 3D chiều sâu.\n\n+ Hoạt động offline ngay trên thiết bị, đảm bảo quyền riêng tư.\n\n+ Hỗ trợ mọi loại ảnh (chụp bằng iPhone, tải từ web, Android...).\n\n- **Lưu ý:** Hoạt động tốt nhất với ảnh có chủ thể rõ ràng, đủ sáng và tách biệt với nền.\n\n+ Không hỗ trợ iPad.\n\n+ Đây không phải là tweak tùy biến màn hình khóa (như Kalm, Jellyfish), nó chỉ tạo hiệu ứng chiều sâu cho hình nền.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

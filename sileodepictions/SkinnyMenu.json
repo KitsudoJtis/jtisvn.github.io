@@ -30,7 +30,7 @@
 "itemSize":"{160, 346}"
 },
 {
-"markdown":"SkinnyMenu\n\n- Bạn có thấy khó chịu khi bôi đen một đoạn văn bản hay nhấn giữ vào một từ, cái menu đen (Context Menu) hiện lên dài ngoằng với đủ thứ nút chẳng bao giờ dùng đến? SkinnyMenu chính là giải pháp giúp giảm cân cho menu này, loại bỏ các tùy chọn thừa thãi để giao diện gọn gàng hơn\n\n- Tính năng chính:\n +Ẩn tùy chọn Chia sẻ\n +Ẩn tùy chọn Tra cứu\n +Ẩn tùy chọn Quét văn bản.",
+"markdown":"SkinnyMenu\n\n- Bạn có thấy khó chịu khi bôi đen một đoạn văn bản hay nhấn giữ vào một từ, cái menu đen (Context Menu) hiện lên dài ngoằng với đủ thứ nút chẳng bao giờ dùng đến? SkinnyMenu chính là giải pháp giúp loại bỏ các tùy chọn thừa thãi để giao diện gọn gàng hơn\n\n- Tính năng chính:\n\n+ Ẩn tùy chọn Chia sẻ\n\n+ Ẩn tùy chọn Tra cứu\n\n+ Ẩn tùy chọn Quét văn bản.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
