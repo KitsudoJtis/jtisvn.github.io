@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#33FF00",
+"tintColor":"#3333FF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -10,7 +10,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/WiddyUnlock/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/Truecallergold/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Widdy Unlock\n\n- Kích hoạt một số tính năng nâng cao (Premium/VIP) cho ứng dụng Widdy - Widgets & Watch Faces.\n\n- Hỗ trợ cho các phiên bản mới trên [App Store](https://apps.apple.com/vn/app/widgy-widgets-home-lock-watch/id1524540481?l=vi).",
+"markdown":"Truecallerg Gld\n\n- Kích hoạt tính năng Glld cho ứng dụng **Truecall**.\n\n- Hỗ trợ cho phiên bản mới nhất trên [App Store](https://apps.apple.com/vn/app/truecaller-x%C3%A1c-%C4%91%E1%BB%8Bnh-cu%E1%BB%99c-g%E1%BB%8Di/id448142450?l=vi).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -84,7 +84,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0",
+"text": "1.0.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false

@@ -4563,15 +4563,15 @@ Installed-Size: 4904
 Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker, oldabi
 Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aimpro, com.icraze.nexus
 Filename: ./debs/com.jtis.aim_1.3.1_iphoneos-arm64.deb
-Size: 2320988
-MD5sum: c26b58f4befca58e7226b8ce3a39c93a
-SHA1: d5216327db2b4d60b9001876a3f3d3845233407d
-SHA256: 256ad8220457b27135211d09687bda65f2040d738ff6b214b14f6f978dd084fd
-SHA512: d3a500a7e88fe6e6469d24d15bfe7c9de4667d984c04a5ac6cc4c6a163b438c680c3c5f3d5dea94e65b7454926dceae9aae2142c10dbb447eba1b8980c030882
+Size: 2320288
+MD5sum: a6f052952f1aed81c36172ebbdf0b559
+SHA1: ac60bc68424143d5364aaa3bfdc2627b15e1c703
+SHA256: 6176cf919ca16ac83b9fdfd9c0fcc972eb6438e12a9e3a5860603ee4c425588f
+SHA512: ee956a6d1fb84e49a01edd67c1d2ccb3f8d8e57e215965fa39866406bfe4c115bb899900cdb4294b941b5dba46512ed9667042612c76665787c1e63bf5920911
 Description: Màn hình khóa iOS 16
 Name: AIM (Rootless)
 Author: alimaulana
-SileoDepiction: https://havoc.app/package/aim/depiction.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AIM.json
 Depiction: https://jtisvn.github.io/depictions/AIM.html
 Icon: https://jtisvn.github.io/sectionIcons/AimPro.png
 
@@ -4585,15 +4585,15 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker, oldabi
 Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aimpro, com.icraze.nexus
 Filename: ./debs/com.jtis.aim_1.3.1_iphoneos-arm64e.deb
-Size: 2316148
-MD5sum: eded5a10204288e3a9e12335653a44a9
-SHA1: 350bc86d538d924e30d2e911ad37e7ec25475d8b
-SHA256: 30b12a1c1e9c81e1dbc0db0188c8a29a8b10069eb0621b38b91422b21993f330
-SHA512: 3b5edd9c270b5835592f86a79571103c5d29561c97f474abc4bdfde3f46dbc75d54dc2d316756ce242a2e15baf441db4499bfbaa48266bbb73da1775a2498be1
+Size: 2317052
+MD5sum: adad078481c4ea53a690625f61cdec89
+SHA1: 3e6c40fab99cc059cb0de9330d205e12e9ddd124
+SHA256: 15678973540f7fd96f63cd7ade41409bc79994443cfab9ca7161eb6d583d38bd
+SHA512: db7918b8a03f0e675359add4d092d06f57e8cf20c127b8f6e1672e50b7a022d1b75f172db690c9737522ed8f8ef13b73e2da2fcf2fce9ec6ffc4a25232b06cf2
 Description: Màn hình khóa iOS 16
 Name: AIM (Roothide)
 Author: alimaulana
-SileoDepiction: https://havoc.app/package/aim/depiction.json
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AIM.json
 Depiction: https://jtisvn.github.io/depictions/AIM.html
 Icon: https://jtisvn.github.io/sectionIcons/AimPro.png
 
