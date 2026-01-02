@@ -1,23 +1,24 @@
 {
 "minVersion": "0.1",
 "headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
+"tintColor":"#FFCC00",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
-"class":"DepictionLabelView",
-"text":"KBApp",
-"fontWeight": "bold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
+"class":"DepictionScreenshotsView",
+"screenshots":[
+{
+"url":"https://jtisvn.github.io/infodeb/KBApp/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+}
+],
+"itemCornerRadius":8,
+"itemSize":"{185, 400}"
 },
 {
-"markdown": "\n\n- Tuỳ chỉnh thêm mô-đun hoặc ứng dụng hiển thị trên dock bừn phím",
+"markdown":"KBApp\n\n- Tinh chỉnh cho phép bạn tùy chỉnh thêm các mô-đun hoặc ứng dụng để hiển thị ngay trên thanh dock của bàn phím (Keyboard Dock).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -30,32 +31,9 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ảnh chụp màn hình",
-"fontWeight": "semibold",
-"fontSize": 17,
-"usePadding": true,
-"useMargins": true,
-"margins": "{10,0,8,0}"
-},
-{
-"itemCornerRadius": true,
-"itemSize": "{185, 400}",
-"screenshots": [
-{
-"accessibilityText": "Screenshot",
-"url": "https://jtisvn.github.io/infodeb/KBApp/Screenshots/1.png"
-}
-],
-"class": "DepictionScreenshotsView"
-},
-{
-"class": "DepictionSeparatorView"
-},
-{
-"class": "DepictionLabelView",
 "text": "Thông tin chi tiết",
 "fontWeight": "semibold",
-"fontSize": 17,
+"fontSize": 16,
 "usePadding": true,
 "useMargins": true,
 "margins": "{10,0,8,0}"
@@ -169,18 +147,17 @@
 "class": "DepictionStackView"
 },
 {
-
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.5\n\n- Thêm hỗ trợ cho Roothide"
+"markdown":"### Phiên bản 1.5\n\n- Thêm hỗ trợ cho Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
+"tabname":"Liên Hệ Hỗ Trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",

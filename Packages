@@ -1835,11 +1835,11 @@ Installed-Size: 5080
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.4.7), com.opa334.altlist
 Filename: ./debs/com.foxfort.translomatic_2.18.31_iphoneos-arm64e.deb
-Size: 1169132
-MD5sum: 7cfdb19a5b7cfa5561706c36cd41dfd8
-SHA1: d9e2b4414f31d2bdc504a66826ac152c2209525c
-SHA256: 69e96c2e3488e732e777f79140c5770bcd18b63be98810187920e171dad3bb11
-SHA512: 5edb9f675585678ebc9bdf55bda86bbc156172b6cfd63420a85caa785b01a66bee1d3e3eb838b96d3f15c0b997e70975a84e360e83f68f604a0586ee3581dd59
+Size: 1141512
+MD5sum: 7f620f069fb4ab6b89093b0bc98101b5
+SHA1: 7622099c03b4798eda88ef9a24999b6473c1a804
+SHA256: cf224b96f236460650d92d67e1efd8f4f1fdb825092151b2536eab5faa7f25fd
+SHA512: a0b133533c5ffe9126aa8aa4845ceac1a5e69702c2b75acadba9febe38e89d68eb4dc999f25f6b5091ffb2a0d266da870b4b5362162e9b5062d774909590c748
 Description: Dịch trực tiếp nhanh bất kỳ văn bản nào bạn muốn：Đây là phiên bàn tương thích dành cho Roothide Jailbreak.
  	  *  Có thể dịch trực tiếp bằng ảnh chụp màn hình tích hợp với tweak Snapper 3 
  	  *  Yêu cầu tải 2 gói foxfort trong nguồn JTISVN trước khi cài đặt tweak này
@@ -1847,6 +1847,7 @@ Description: Dịch trực tiếp nhanh bất kỳ văn bản nào bạn muốn�
 Name: Translomatic (Roothide)
 Author: FoxfortMobile
 depiction: https://havoc.app/depiction/translomatic
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Translomatic.json
 Icon: https://jtisvn.github.io/sectionIcons/Tra%C3%A1nlomatic.png
 
 Package: com.gamegod.igg
@@ -1947,27 +1948,6 @@ Depiction: https://ginsu.dev/#/depiction/com.ginsu.gsweather
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/sileo.json
 
-Package: com.ginsu.gsweather
-Architecture: iphoneos-arm64e
-Version: 1.1.1
-Section: Tweaks
-Maintainer: Ginsu
-Installed-Size: 1216
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: ./debs/com.ginsu.gsweather_1.1.1_iphoneos-arm64e.deb
-Size: 118244
-MD5sum: 8f468af8443dffefc065563faa7eb779
-SHA1: 8a360aafb7d17a947008d618f86c0a7884b6b7ad
-SHA256: ac849e504693d6b26bb88d177ec537f5c824dcd6c03358371f29eed625559630
-SHA512: be6bcdb90fd33a9e5e14017b4e5a260fd32b301368c167d83efe9f430268ae8356945f4d6165e729a2901c85f76948cdb247547bed21375576ef2798198786ce
-Description: Khung tìm nạp thời tiết
-Name: GSWeather (Roothide)
-Author: Ginsu
-Depiction: https://ginsu.dev/#/depiction/com.ginsu.gsweather
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/sileo.json
-
 Package: com.haoict.libhdev
 Architecture: iphoneos-arm
 Version: 4.8.1
@@ -2021,13 +2001,14 @@ Maintainer: JTISVN
 Installed-Size: 488
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: ./debs/com.hieu.SearchDots_1.0.0_iphoneos-arm64.deb
-Size: 102688
-MD5sum: cd4eacd079b0954706072f5954c41906
-SHA1: 21a566f12b4a27459f8733596fbce287611a4369
-SHA256: dcb5979ed9c5fa0d9ff12e60940fd579a3516105d62635a816111877207eb49f
-SHA512: 7ec078b9ea79e1366b3bc5180d75b481e6ffbd0e3fd69949bb59a38521c493828fd388dd3eaad0a2ccfd11ae8918edebf88acdf25e8d9df637cc2c2d2d903d6a
+Size: 102640
+MD5sum: 8a3f6565e3d66830e1031687ac256123
+SHA1: f58c3352e734798454a4ab22ddc1ae8f74e04f90
+SHA256: 397eef5bea8fa75953755c28bbbc7b2cb0ff5b4005df4e72455b029a0b77021b
+SHA512: 4532dc2014ebea5822ae3829b2db3cd2162c034ddbf85a1d1c068c95f799cc07a0e054798b0e74dacca651cf8ad23b17d2a3a3125b1453e512d1a758620d7924
 Description: Mang phong cách tìm kiếm trên iOS 16 xuống iOS 15
 Name: SearchDots (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SearchDots.json
 Icon: https://jtisvn.github.io/sectionIcons/SearchDots.png
 Author: NightwinDev
 
@@ -2040,13 +2021,14 @@ Installed-Size: 488
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: ./debs/com.hieu.SearchDots_1.0.0_iphoneos-arm64e.deb
-Size: 102664
-MD5sum: 5a04578fb6231a17ca03bc1096d45351
-SHA1: edc85243e4b4982027f761694eb1346906f7823d
-SHA256: 4e75c85e5569208d8b4c0e3194f020ab8352c7c823669ecaba22c57c8b7abbae
-SHA512: 68d0e3c267a7edc44c30bcc1a4fb895724f05aaaa924997904e219237695ca8d423f29124361517627b416a118492b695b3232aa3cc501a91bb7c35f61476bb1
+Size: 102692
+MD5sum: 2441acbb095d500873a6eda5f40f9614
+SHA1: ba754db2c288385e17432d7921c8e646002f1321
+SHA256: aaef19a47093e2b92f03dd92cbbe318643c24fbc8fcbea17c29eddd6f39ecc9a
+SHA512: 4939d9c7f1150c1f87efa4c841dfc5e392ad1c912f3a4b739a7113d212a349f3c27a0d0879e905b72248ad9636d1fafce1af4b0731b5b6ed63d50169fef77a20
 Description: Mang phong cách tìm kiếm trên iOS 16 xuống iOS 15
 Name: SearchDots (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SearchDots.json
 Icon: https://jtisvn.github.io/sectionIcons/SearchDots.png
 Author: NightwinDev
 
@@ -7391,15 +7373,16 @@ Maintainer: JTISVN Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.cydiageek.roundprefs_1.0.9_iphoneos-arm64e.deb
-Size: 55952
-MD5sum: b6b8a6119a90df5527e7a353b081bbc1
-SHA1: 075db45954669f9c05ec534ee389850d8650c247
-SHA256: a0784bf6e3f0d2a1fceb271d09f89d911a004521dbd34f8bc43fdc8c5ad4ba38
-SHA512: b2e9de85d0a1c6032a2d441af4306627a6ba35e9c27a9e1455dcc217f8fa909365e7a7083d46d4a5b16647200d68e99ef7efbb1cfb667b78420c9d3ed7c30419
+Size: 55900
+MD5sum: a1b320b88cc8480f10fbd4265af0f696
+SHA1: 4a680fa8a12342e51b6c4ebd7626af0ebb402b1b
+SHA256: 363b4036c9b6db34a5e4c7c833805e7fd724e1d4bf0e92f0bcbea1fc7a66b44f
+SHA512: 07da51edf4b7c17a2e2dc8775c9224c10ad2d437039fb466d506ace414234c9a4f20c66091b604718f75c33f5e09f3ce4aedc36fcfc9f46c0e7d575894923f22
 Description: Bo tròn các khung trong ứng dụng cài đặt
 Name: roundPrefs (Roothide)
 Author: CydiaGeek <lucaluca86@aol.com>
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Depiction: http://jtisvn.github.io/depiction/roundPrefs.html
+Icon: https://jtisvn.github.io/sectionIcons/roundPrefs.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/roudPrefs.json
 
 Package: com.jtis.cydiageek.roundprefs
@@ -7410,15 +7393,16 @@ Maintainer: JTISVN Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtis.cydiageek.roundprefs_1.0.9_iphoneos-aảm64.deb
-Size: 55948
-MD5sum: 898f3085ad10c616e43d854ec475173a
-SHA1: fabc8e1cd494e47d469ef7b6c23373714e4d5e47
-SHA256: 1831e993ab59662100b9c3324e17d5e0bd82017ee67671e2c1ab74e16b6fe099
-SHA512: d81518d80c3d1aaef53bd4b02abfc93425b19f5c26995b0076a712d3fc9dfed60041627a26dc2068603a41cd8c28c3375dc5971c683cc18220abc1ed8def4e29
+Size: 55932
+MD5sum: ac1bfdaae05ca2b9d661b3815ce65dfc
+SHA1: a33e0948b3f76492b36690d46dcaf95d2f7ceacd
+SHA256: 726003f64415abbab586ec4949109c9f13a64c053aa6616974bea673e252e587
+SHA512: 5d016c4057588fca97d8e29b1c60525808fb04cfb1c06588ce3cd4f2f9e8db742a8b22d6891c3ac3c65a2986ad39d2ccafefa2413f63738163a36f2cf374b76b
 Description: Bo tròn các khung trong ứng dụng cài đặt
 Name: roundPrefs (Rootless)
 Author: CydiaGeek <lucaluca86@aol.com>
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Depiction: http://jtisvn.github.io/depiction/roundPrefs.html
+Icon: https://jtisvn.github.io/sectionIcons/roundPrefs.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/roudPrefs.json
 
 Package: com.jtis.cylinderreborn
@@ -10158,27 +10142,6 @@ SHA256: cbea377b321911605e863323793cb0626d059830ac7212e971b002f061922e40
 SHA512: 1e9e9ebaaecc1ddc9ac03168ddc718b993b69ea730baada136db8a54221a8ff21cecae9b92cde1033e3e2a162e88978c6c9fed119e89f464f246d10c1fa35fab
 Description: Thêm modun sắp xếp các ứng dụng trên dock bàn phím ⌨️.
 Name: KBApp (Rootless)
-Author: Dcsyhi
-SileoDepiction: https://jtisvn.github.io/sileodepictions/KBApp.json
-Depiction: https://jtisvn.github.io/depictions/KBApp.html
-Icon: https://jtisvn.github.io/sectionIcons/KBApp.png
-
-Package: com.jtis.kbappdock
-Architecture: iphoneos-arm64e
-Version: 1.5
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 1364
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/com.jtis.kbappdock_1.5_iphoneos-arm64e.deb
-Size: 804996
-MD5sum: 7aca93645732f548d1b8e84e667a32ec
-SHA1: 277d44386bc4b817fff4be8458f0a1e2fa6a9a81
-SHA256: 7b6c35ed7c2625ec2d2b55abf24575868ae61462ca2aa659fc7da36d1b25fb14
-SHA512: 7a8417ad5ac9d47141670bb88971ec0130c94e79fd6fc58fc548b38e30ae4d03f56a6f1b30d99ee11cb2cad80dd9af6abb017c87b8c8963fd2d8d95215756fa2
-Description: Thêm modun sắp xếp các ứng dụng trên dock bàn phím ⌨️.
-Name: KBApp (Roothide)
 Author: Dcsyhi
 SileoDepiction: https://jtisvn.github.io/sileodepictions/KBApp.json
 Depiction: https://jtisvn.github.io/depictions/KBApp.html
@@ -18062,6 +18025,28 @@ SHA512: de038c7132fb1dc7064d1e7150325e2e0f4a4a01d9aa952fab8c950592eeec94f8b88aa8
 Homepage: https://jtisvn.github.io/
 Description: Mô-đun công tắc định vị trên trung tâm điều khiển
 Name: CCLocation (Rootless)
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Icon: https://skypain.github.io/repo/src/cclocation/Icon.png
+Depiction: https://skypain.github.io/repo/static/view/?p=cclocation
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCLocation.json
+
+Package: com.skypain.cclocation
+Architecture: iphoneos-arm64e
+Version: 1.1.0-1
+Section: Tweaks
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 164
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.skypain.cclocation_1.1.0-1_iphoneos-arm64e.deb
+Size: 14100
+MD5sum: 11ca6f1f769d2a2bbd8ce7dad04fe446
+SHA1: 6ae61e3eae4ddad504a3340b29ef954459b23f3e
+SHA256: cd9fb227d4f5c5662f1fbd43a6c8cc0e8c959e80d672785336df95a4a53f9879
+SHA512: 2242d2e248df76f0610b0053106b9e71071211a8d0647cf161eb029b820cbbdd9999303c658d32d9009b793a9b55255010775132b4d643e709c4990cea4da956
+Homepage: https://jtisvn.github.io/
+Description: Mô-đun công tắc định vị trên trung tâm điều khiển
+Name: CCLocation (Roothide)
 Author: Mr.Zhang <mr_zhang_00@163.com>
 Icon: https://skypain.github.io/repo/src/cclocation/Icon.png
 Depiction: https://skypain.github.io/repo/static/view/?p=cclocation
