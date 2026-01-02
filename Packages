@@ -10551,11 +10551,11 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), xyz.cypwn.xinam1
 Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
 Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
 Filename: ./debs/com.jtis.little12_1.2.3_iphoneos-arm64.deb
-Size: 226820
-MD5sum: fd077d06e8b8e48ab014faa5e699aa1a
-SHA1: 91c324aa700153c341bffd9f6c5410f8a54bedec
-SHA256: df6875e6c7fbddf7683e7a98de1dcbf8a2d36a33db3d39386cf85a8a9e12e1e2
-SHA512: 19321996f1a3326844a12e0600a046a01bd447e654051e71669c2e83a3c531ff478a28827b35f06466157d6caf714f1c6c0966e50d2f92d44f63222d03c57386
+Size: 226880
+MD5sum: b913d423bb65dac64e4532e200be10ec
+SHA1: ec8ec6aae1ff50efb501b2b63759cced43839b0e
+SHA256: 90b89fe9226596cd6f5a71f4d69eab027a897a90d34816e88c9ad1a84ea14d22
+SHA512: 5339f9d962ebd1b74d8cf26ec28eac98f53a565f18fd0dc06414b2b49592805cd2dce4293c23333bd88de5f65ef552556d93c2ce8b9601ae003abffe6efa2bfb
 Description: Fake cử chỉ iPhone X/12 trên các thiết bị đời thấp.
 Name: Little12 (Rootless)
 Author: Ryan Nair

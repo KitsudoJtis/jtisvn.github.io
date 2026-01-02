@@ -17,7 +17,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n\n Giả lập fake cử chỉ iPhone X cho các thiết bị đời thấp\n\n Lưu ý: Tweak này chỉ hỗ trợ cho Rootless",
+"markdown":"\n\n Bạn đang dùng iPhone đời cũ có nút Home nhưng lại muốn thao tác vuốt mượt mà của iPhone X/11/12? Little12 chính là giải pháp hoàn hảo nhất. Tinh chỉnh này mang trọn vẹn trải nghiệm của các dòng iPhone tai thỏ xuống các máy màn hình 16:9, giúp bạn quên đi nút Home vật lý.\n\n **Cử chỉ vuốt đa nhiệm:** Vuốt từ dưới lên để về màn hình chính\n\n Vuốt và giữ để mở trình đa nhiệm\n\n Vuốt cạnh dưới để chuyển nhanh giữa các ứng dụng.\n\n **Thanh trạng thái (Status Bar):** Chuyển đổi sang kiểu iPad hoặc iPhone X (đồng hồ bên trái, pin bên phải)\n\n Hiển thị thanh ngang ở dưới cùng màn hình (có thể tùy chỉnh ẩn/hiện)\n\n Nâng cao bàn phím, chừa khoảng trống phía dưới giống hệt iPhone đời mới, giúp gõ phím thoải mái hơn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -101,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2/4/2025",
+"text": "26/4/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
