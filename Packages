@@ -2012,6 +2012,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/SearchDots.json
 Icon: https://jtisvn.github.io/sectionIcons/SearchDots.png
 Author: NightwinDev
 
+Package: com.hieu.SearchDots
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN
+Installed-Size: 488
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.hieu.SearchDots_1.0.0_iphoneos-arm64e.deb
+Size: 102692
+MD5sum: 2441acbb095d500873a6eda5f40f9614
+SHA1: ba754db2c288385e17432d7921c8e646002f1321
+SHA256: aaef19a47093e2b92f03dd92cbbe318643c24fbc8fcbea17c29eddd6f39ecc9a
+SHA512: 4939d9c7f1150c1f87efa4c841dfc5e392ad1c912f3a4b739a7113d212a349f3c27a0d0879e905b72248ad9636d1fafce1af4b0731b5b6ed63d50169fef77a20
+Description: Mang phong cách tìm kiếm trên iOS 16 xuống iOS 15
+Name: SearchDots (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SearchDots.json
+Icon: https://jtisvn.github.io/sectionIcons/SearchDots.png
+Author: NightwinDev
+
 Package: com.hitori.centra
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -7344,6 +7364,26 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Author: CydiaGeek <lucaluca86@aol.com>
 dev: lucaluca86
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.cydiageek.roundprefs
+Architecture: iphoneos-arm64e
+Version: 1.0.9
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.cydiageek.roundprefs_1.0.9_iphoneos-arm64e.deb
+Size: 55900
+MD5sum: a1b320b88cc8480f10fbd4265af0f696
+SHA1: 4a680fa8a12342e51b6c4ebd7626af0ebb402b1b
+SHA256: 363b4036c9b6db34a5e4c7c833805e7fd724e1d4bf0e92f0bcbea1fc7a66b44f
+SHA512: 07da51edf4b7c17a2e2dc8775c9224c10ad2d437039fb466d506ace414234c9a4f20c66091b604718f75c33f5e09f3ce4aedc36fcfc9f46c0e7d575894923f22
+Description: Bo tròn các khung trong ứng dụng cài đặt
+Name: roundPrefs (Roothide)
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://jtisvn.github.io/depiction/roundPrefs.html
+Icon: https://jtisvn.github.io/sectionIcons/roundPrefs.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/roudPrefs.json
 
 Package: com.jtis.cydiageek.roundprefs
 Architecture: iphoneos-aảm64
