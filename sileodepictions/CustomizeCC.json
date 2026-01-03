@@ -1,7 +1,7 @@
 {
-"minVersion":"0.4",
+"minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#339999",
+"tintColor":"#FFCC00",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -10,23 +10,19 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/NoAppleMobileRepair/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/CustomizeCC/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/NoAppleMobileRepair/Screenshots/2.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/NoAppleMobileRepair/Screenshots/3.png",
+"url":"https://jtisvn.github.io/infodeb/CustomizeCC/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Ẩn các thông báo bảo trì, liên quan sửa chữa phần cứng trong mục Cài đặt chung > Giới thiệu\n\n- Ẩn thông náo linh kiện không xác định\n\n- Ẩn thồng báo thay pin không chính hãng và hiển thị lại % của pin\n\n- Ẩn cảnh báo cập nhật OTA phiên ban phần mềm iOS trong cái đặt.",
+"markdown":"CustomizeCC\n\n- Tùy biến toàn diện giao diện Trung tâm điều khiển của bạn!\n\n- Tính năng chính:\n\n+ Đổi màu các biểu tượng (Glyphs), mô-đun, thanh độ sáng/âm lượng.\n\n+ Tùy chỉnh màu sắc cho các nút bật/tắt (Toggles) và trình khởi chạy ứng dụng.\n\n+ Ẩn nền của từng thành phần hoặc ẩn lớp phủ (overlay).\n\n+ Bật/tắt và đổi màu viền (Border) cho các mô-đun.\n\n+ Thêm hiệu ứng phát sáng (Glow) và tùy chỉnh màu sắc.\n\n+ Đặt hình nền hoặc màu gradient cho Control Center.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -61,7 +57,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "xybp888",
+"text": "miguellamour",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -87,7 +83,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2/5/2025",
+"text": "7/10/2023",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "0.0.1-0.0.4",
+"text": "1.4.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -118,7 +114,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "147.4 KB",
+"text": "715,1 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -131,7 +127,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15.0 - 16.9",
+"text": "14.0 - 15.6.1",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -152,20 +148,20 @@
 "alignment":1
 }
 ],
-"class": "DepictionStackView"
+"class":"DepictionStackView"
 },
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.4.3\n\n- Sửa các lỗi nhỏ và cải thiện hiệu năng."
 }
 ],
 "class":"DepictionStackView"
 },
 {
-"tabname":"Liên hệ Hỗ trợ",
+"tabname":"Liên Hệ Hỗ Trợ",
 "views":[
 {
 "class":"DepictionTableButtonView",
