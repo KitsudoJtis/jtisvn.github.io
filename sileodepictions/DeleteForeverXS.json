@@ -18,7 +18,7 @@
 "itemSize":"{185, 400}"
 },
 {
-"markdown":"DeleteForeverXS\n\n- Một tinh chỉnh hữu ích cho phép bạn xóa ảnh và video vĩnh viễn ngay lập tức mà không cần chuyển vào mục Đã xóa gần đây (Recently Deleted).\n\n- Giúp tiết kiệm dung lượng lưu trữ và bỏ qua bước dọn dẹp thủ công.",
+"markdown":"DeleteForeverXS\n\n- Một tinh chỉnh hữu ích cho phép bạn xóa ảnh và video vĩnh viễn ngay lập tức mà không cần chuyển vào mục Đã xóa gần đây.\n\n- Giúp tiết kiệm dung lượng lưu trữ và bỏ qua bước dọn dẹp thủ công.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
