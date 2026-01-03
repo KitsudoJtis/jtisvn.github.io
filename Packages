@@ -11974,13 +11974,13 @@ Maintainer: JTISVN Repo
 Installed-Size: 580
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
 Filename: ./debs/com.jtis.noredirect_1.10_iphoneos-arm64.deb
-Size: 57288
-MD5sum: 1062de6acf4c5ffb1d7cabeeea8638e7
-SHA1: b8e4c0213e70292404ee68e844800d0a97f62c92
-SHA256: e09383f5cf11da0ed04a7e36af2126d675c3e56ff9dcff3135c84fcfcf238841
-SHA512: 9ad2e89d067137d4ec7e29fd7d992bf6019cd686f9a24a51577cf3fb0ff37fde3f74f84bb8a018a4f876c7ce371f6266fcc466423bbb3b6c06b6d06177b94fe1
+Size: 57328
+MD5sum: aa22c5ec31d7042ccc693fc14b02ec8e
+SHA1: d22c14464e7f8188516cfc43c8204db41517c4b3
+SHA256: 806fa49f9f607695c7ddb61af50d3abe6a975bd07abf4db50496f406195dc7ca
+SHA512: abe8f9ae4fc469005fd84c8116b173493dd071cd258a63fc40397696875ab17c939ab77abfc5f5e23807707b40390845345046b6f26843858abb61f4a0bf10fe
 Description: Ngăn các ứng dụng cụ thể chuyển hướng đến App Store, Safari hoặc các ứng dụng khác.
-Name: No Redirect (Rootleds)
+Name: No Redirect (Rootless)
 Author: Lessica <82flex@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/NoRedirect.json
 Icon: https://jtisvn.github.io/sectionIcons/NoRedirect.png
