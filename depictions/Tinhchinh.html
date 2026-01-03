@@ -240,6 +240,20 @@
             font-size: 11px;
             margin-top: 30px;
             padding-bottom: 20px;
+            /* Thêm flex để căn giữa logo và text */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Style cho Logo tròn */
+        .footer-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%; /* Làm tròn ảnh */
+            object-fit: cover;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
 
         .separator {
@@ -262,27 +276,27 @@
         
         <div id="info" class="tab-content active">
             
-            <div class="info-header" style="margin-top: 0;">Mô tả</div>
+            <div class="info-header" style="margin-top: 0;">Mô Tả Gói</div>
             <div>
                 <ul>
-                    <li>Gói tinh chỉnh và hình ảnh được nguồn mang về sửa lại để hỗ trợ tốt nhất cho các phiên bản iOS.</li>
+                    <li>Các gói tinh chỉnh (tweaks) được nguồn mang về để đảm bảo tốt tính trải nghiệm sự ổn định và hỗ trợ cho tất cả phiên bản Jailbreak tối thiểu. Cảm ơn bạn đã tin tưởng & sử dụng JTISVN Repo</li>
                 </ul>
             </div>
 
             <div class="separator"></div>
 
-            <div class="info-header">Ảnh chụp màn hình</div>
+            <div class="info-header">Hình Ảnh</div>
             <div class="screenshots-scroll">
                 <img src="https://jtisvn.github.io/infodeb/Tinhchinh/Screenshots/1.png" class="screenshot-img" onclick="openImage(this)">
             </div>
 
             <div class="separator"></div>
 
-            <div class="info-header">Thông tin chi tiết</div>
+            <div class="info-header">Thông Tin</div>
             <div class="info-grid">
                 <div class="info-column">
                     <div class="info-item">
-                        <span class="info-label">Nhà phát triển</span>
+                        <span class="info-label">Nguồn bảo trì</span>
                         <span class="info-value">JTISVN</span>
                     </div>
                     <div class="info-item">
@@ -290,14 +304,14 @@
                         <span class="info-value">Tweaks</span>
                     </div>
                     <div class="info-item">
-                        <span class="info-label">Ngày cập nhật</span>
-                        <span class="info-value">1/1/2025</span>
+                        <span class="info-label">Năm duy trì</span>
+                        <span class="info-value">2025 - 2030</span>
                     </div>
                 </div>
                 <div class="info-column">
                     <div class="info-item">
-                        <span class="info-label">Phiên bản</span>
-                        <span class="info-value">1.1.1</span>
+                        <span class="info-label">Tác giả</span>
+                        <span class="info-value">@Kitsudo</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Kích thước</span>
@@ -305,7 +319,7 @@
                     </div>
                     <div class="info-item">
                         <span class="info-label">Tương thích iOS</span>
-                        <span class="info-value">12.0 - 17.0</span>
+                        <span class="info-value">9.0 - 17.0</span>
                     </div>
                 </div>
             </div>
@@ -314,18 +328,24 @@
 
             <div class="info-header">Liên kết & Hỗ trợ</div>
             <div>
+                <a href="https://paypal.me/HiuKitsudo" class="action-btn" target="_blank">
+                    Paypal <span>&#8594;</span>
+             </a>
                 <a href="https://jtisvn.github.io/homepage/donate/donate.html" class="action-btn" target="_blank">
                     Ủng hộ tôi <span>&#8594;</span>
                 </a>
-                <a href="https://t.me/jailbreaktrolliossupport" class="action-btn" target="_blank">
-                    Nhóm Telegram <span>&#8594;</span>
+                <a href="https://t.me/jtisvn" class="action-btn" target="_blank">
+                    Kênh Telegram <span>&#8594;</span>
                 </a>
                 <a href="https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP" class="action-btn" target="_blank">
                     Nhóm Facebook <span>&#8594;</span>
                 </a>
             </div>
 
-            <div class="footer">Copyright © 2025 - 2030 by JTISVN</div>
+            <div class="footer">
+                <img src="https://jtisvn.github.io/CydiaIcon.png" class="footer-icon" alt="Logo">
+                <div>Copyright © 2025 - 2030 by JTISVN🇻🇳</div>
+            </div>
         </div>
 
         <div id="changelog" class="tab-content">

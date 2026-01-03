@@ -575,44 +575,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariX.json
 Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
 Author: 0xkuj
 
-Package: com.34306.messed
-Architecture: iphoneos-arm64
-Version: 3.2
-Maintainer: Little 34306
-Installed-Size: 2488
-Depends: mobilesubstrate
-Filename: ./debs/com.34306.messed_3.2_iphoneos-arm64.deb
-Size: 310744
-MD5sum: 2c194004d2a276154f9b140c6e5c53dd
-SHA1: bd24a2361c8662f4b80dfac921a3ca4523c9197c
-SHA256: da951f7080d298b3d0a54b864d7e894673434d2769c8a09f8d38220fb242a61c
-SHA512: eab5928c1d58b6c7941436ac3eedaa2c5a5d2bdddc703c1b1a2be1028502c2b943ea09b4b88d8248da155c28da86ebc171970cd5f46e360c7f91bdf23ec7012d
-Description: Messed, Messenger with No Ads and No seen.
-Name: Messed (Rootless)
-Author: 34306
-Depiction: http://jtisvn.github.io/depiction/Messed.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Messed.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
-Package: com.34306.messed
-Architecture: iphoneos-arm64e
-Version: 3.2
-Maintainer: Little 34306
-Installed-Size: 2488
-Depends: mobilesubstrate
-Filename: ./debs/com.34306.messed_3.2_iphoneos-arm64e.deb
-Size: 310404
-MD5sum: 062fbb012e3e4987ebd2b5811482c5d4
-SHA1: 6d2dc6708b3df22693994a119229da88d7fa23d2
-SHA256: 0bd24dca0d39a9c389b029d88d3dbcf828363a300d5e4221e556e0ab629558b0
-SHA512: 205e230f7a5605901971637686f3e2c113b89bc4fd9aea08ecfe0b6e07f9b2c6f5233b877fc143fb9e94f0994d5b7a0402533af73f6ce13355edec865ceffe2a
-Description: Messed, Messenger with No Ads and No seen.
-Name: Messed (Roothide)
-Author: 34306
-Depiction: http://jtisvn.github.io/depiction/Messed.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Messed.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
 Package: com.34306.messedd
 Architecture: iphoneos-arm
 Version: 3.2
@@ -11469,6 +11431,46 @@ Author: Miss
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Meizu3D.json
 Depiction: https://jtisvn.github.io/depictions/Meizu3D.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.messed
+Architecture: iphoneos-arm64
+Version: 3.2
+Section: Tweaks
+Maintainer: Little 34306
+Installed-Size: 2488
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.messed_3.2_iphoneos-arm64.deb
+Size: 310132
+MD5sum: eeffb1ca8826596ee0b9eb0fbcc12fa8
+SHA1: 8e58c7e7ed0d3a77b683b16cb078f134082fc192
+SHA256: c52c95d30392299120e536eab2b2b94e43bde1eeec2e6397086d0df94a9192eb
+SHA512: 78d04c1645c4ddfdec2d0534ec129cd389c7db541c12e414ec3eefc2e41fc6c6601570d55123169be7547da3ae8ad9a3d419904ba1d468468245616266eb5fb5
+Description: Messed, Messenger with No Ads and No seen.
+Name: Messed (Rootless)
+Author: 34306
+Depiction: http://jtisvn.github.io/depiction/Messed.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Messed.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.messed
+Architecture: iphoneos-arm64e
+Version: 3.2
+Section: Tweaks
+Maintainer: Little 34306
+Installed-Size: 2488
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.messed_3.2_iphoneos-arm64e.deb
+Size: 310456
+MD5sum: 3d35f8d7c8b223da8f52a5725fc15071
+SHA1: 8d0161dfe88279f9c5128a9673e781bda3596c10
+SHA256: b13963e4543c8c0e8b3b207c366ace41f9d3afcb957d527a7d4d5d14680297d5
+SHA512: 9a2bd6733814738e29e18e719da12c73da720ca7eb509195e0ef73fe752480ec117a7b83b4f7cb8f612ffe83df717f1a7154d9abe3184085323333d81a860b93
+Description: Messed, Messenger with No Ads and No seen.
+Name: Messed (Roothide)
+Author: 34306
+Depiction: http://jtisvn.github.io/depiction/Messed.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Messed.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.miuminuipro
 Architecture: iphoneos-arm

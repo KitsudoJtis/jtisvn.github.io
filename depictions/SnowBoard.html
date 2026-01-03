@@ -13,6 +13,7 @@
             --secondary-text: #777777;
             --separator-color: #e5e5ea;
             --radius: 12px;
+            --text-on-tint: #3399FF;
         }
 
         @media (prefers-color-scheme: dark) {
@@ -21,6 +22,7 @@
                 --text-color: #ffffff;
                 --secondary-text: #98989d;
                 --separator-color: #38383a;
+                --text-on-tint: #3399FF;
             }
         }
 
@@ -65,7 +67,7 @@
         }
 
         .tab-btn.active {
-            color: var(--tint-color);
+            color: var(--text-on-tint);
             position: relative;
         }
         
@@ -108,8 +110,8 @@
             padding-bottom: 20px;
             -webkit-overflow-scrolling: touch;
             scrollbar-width: none; 
-            /* Căn giữa cho đẹp */
-            justify-content: center; 
+            /* CÓ 4 ẢNH NÊN BỎ CĂN GIỮA ĐỂ KHÔNG BỊ CHE ẢNH TRÁI */
+            /* justify-content: center; */
         }
         .screenshots-scroll::-webkit-scrollbar {
             display: none; 
@@ -175,6 +177,13 @@
         ul { padding-left: 20px; margin-top: 5px;}
         li { margin-bottom: 8px; line-height: 1.5; }
         p { line-height: 1.5; margin-bottom: 10px; }
+        
+        .feature-title {
+            font-weight: 600;
+            color: var(--tint-color);
+            margin-top: 15px;
+            display: block;
+        }
 
         /* INFO GRID */
         .info-header {
@@ -251,7 +260,7 @@
     <nav class="tab-nav">
         <button class="tab-btn active" onclick="openTab(event, 'info')">Giới thiệu</button>
         <button class="tab-btn" onclick="openTab(event, 'changelog')">Nhật ký thay đổi</button>
-        <button class="tab-btn" onclick="openTab(event, 'contact')">L.Hệ & Hỗ trợ</button>
+        <button class="tab-btn" onclick="openTab(event, 'contact')">Liên Hệ Hỗ trợ</button>
     </nav>
 
     <div class="content-container">
@@ -268,13 +277,13 @@
             <div>
                 <p><strong>SnowBoard</strong></p>
                 <ul>
-                    <li>Tweak này dùng để thay đổi chủ đề các ứng dụng trên iPhone, được xem là sự kế thừa của Winterboard huyền thoại, hỗ trợ các định dạng thay đổi nhiều chủ đề phổ biến nhanh chóng, hoàn toàn miễn phí.</li>
+                    <li>Tweak này dùng để thay đổi chủ đề các ứng dụng trên iPhone, được xem là sự kế thừa của Winterboard huyền thoại. Hỗ trợ các định dạng thay đổi nhiều chủ đề phổ biến nhanh chóng, hoàn toàn miễn phí.</li>
                     <li>Bạn đã nhàm chán với những biểu tượng mặc định? Đây là tweak giúp bạn thay đổi những biểu tượng đó và có thêm nhiều tính năng tuyệt vời khác.</li>
                     <li>Cho phép bạn thêm các chủ đề vào Màn hình chính. Có khả năng thay phông chữ, thay thế hình ảnh Respring, thay đổi thanh Dock, chuyển dấu chấm trang, đổi các biểu tượng trong cài đặt, chèn thanh trạng thái, v.v...</li>
+                    <li><strong>Lưu ý:</strong> Vui lòng tải đầy đủ các gói tiện ích trong mục SnowBoard Extensions nếu bạn cài bản cấu hình Roothide.</li>
                 </ul>
-                <p style="color: var(--tint-color);"><strong>Vui lòng tải đầy đủ các gói tiện ích trong mục SnowBoard Extensions.</strong></p>
-                
-                <p><strong>Các tính năng trong phần Cài đặt:</strong></p>
+
+                <span class="feature-title">Các tính năng trong phần Cài đặt:</span>
                 <ul>
                     <li><strong>Bo tròn góc biểu tượng:</strong> Các góc sẽ được bo lại tròn hơn hoặc vuông hơn.</li>
                     <li><strong>Kích thước biểu tượng:</strong> Thay đổi độ phóng to hoặc thu nhỏ cho các ứng dụng trên màn hình chính.</li>
@@ -315,7 +324,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer">Copyright © 2025 by JTISVN</div>
+            <div class="footer">Copyright © 2025 - 2030 by JTISVN</div>
         </div>
 
         <div id="changelog" class="tab-content">
@@ -325,6 +334,7 @@
                 <li>Thêm ngôn ngữ Tiếng Việt</li>
                 <li>Hỗ trợ Rootfull, Rootless & Roothide Jailbreak</li>
             </ul>
+            <div class="footer">Copyright © 2025 - 2030 by JTISVN</div>
         </div>
 
         <div id="contact" class="tab-content">
@@ -342,7 +352,7 @@
                     Nhóm Facebook <span>&#8594;</span>
                 </a>
             </div>
-            <div class="footer">Copyright © 2025 by JTISVN</div>
+            <div class="footer">Copyright © 2025 - 2030 by JTISVN</div>
         </div>
 
     </div>
