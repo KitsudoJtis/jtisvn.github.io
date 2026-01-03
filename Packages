@@ -6938,16 +6938,16 @@ Author: Netskao
 Package: com.jtis.ccswitchdata
 Architecture: iphoneos-arm64
 Version: 1.1-4
-Section: Tưeaks
+Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 132
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Filename: ./debs/com.jtis.ccswitchdata_1.1-4_iphoneos-arm64.deb
-Size: 20884
-MD5sum: 6279ef95fa9a1972fdff3221132bd816
-SHA1: 43b242b8b347f21bae4f2479b44458f7176ef10d
-SHA256: 3c70a45bcfb3443da8b596bb174cc6b13afea23f4ccc410b3bf2005f76867142
-SHA512: 279748927598d24483815981c98390d7800485ea7e953b25e2e2b8bedd943aee565b2769786c68f1df39fb990d37e81ad77dd4943fb3a5885a59ec7082483a41
+Size: 20888
+MD5sum: 37ebeba7eeffc48eaa93cf3b7a0f5393
+SHA1: 3e8e48ea670e78a7a4424c6cd1bf9f38ccec672e
+SHA256: ea855c9290945dfbe1fd170c1a7e63a0ac74173e5153b122f8696d30f61ba926
+SHA512: 6fa803f9e2adc5738c77e0d2b75381041b1e28f0a953917d6496e8bc38ab436880aa1c9a8cb2c31972701ad8bebf05e9d8441279dfd142aad907cc92aa2964df
 Description: Chuyển đổi nhanh dữ liệu di động của sim kép qua Trung tâm điều khiển.
 Name: CCSwitchData (Rootless)
 Author: Netskao
@@ -6958,17 +6958,17 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/CCSwitchData.json
 Package: com.jtis.ccswitchdata
 Architecture: iphoneos-arm64e
 Version: 1.1-4
-Section: Tưeaks
+Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 132
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Filename: ./debs/com.jtis.ccswitchdata_1.1-4_iphoneos-arm64e.deb
-Size: 21028
-MD5sum: 23f472c22e7bf81fbfe76d129800d36f
-SHA1: 0292b9b70d50fed86afbff34f4bc453291cde70f
-SHA256: 48b6d0c90bd5d6d77e5b32e6cb24346706a875181d80373484e4cbda924a36b1
-SHA512: 5f8ef686ebe05d51428a82d5fc465d397e2f6821bff73860adcbcf0bdc57ba0adf4db539e01d32c861790d41cd2c43f186966a133b818b342f268b6c87f780fe
+Size: 21024
+MD5sum: 0287ae7d1fb44bd3c92b14c675aa18d8
+SHA1: 0ad9d56521929e2bc76c11513536d9893ff33465
+SHA256: 15e18326e61fd4fd8f0e6ae0c8e97697e736910ac83f7d1674c1ed29aa274a61
+SHA512: 1f22659b08d5fe31901cfda6729a45eab48e7953b87cc44ff84f9f3b8c363c09004d66f1978d68e9116ece0c3edd86f828d75dc6457d33dd460cf5343cf1d1f7
 Description: Chuyển đổi nhanh dữ liệu di động của sim kép qua Trung tâm điều khiển.
 Name: CCSwitchData (Roothide)
 Author: Netskao
