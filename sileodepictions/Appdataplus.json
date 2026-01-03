@@ -102,7 +102,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1.0-p",
+"text": "1.4.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false

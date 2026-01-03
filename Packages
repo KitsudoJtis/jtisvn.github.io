@@ -4975,22 +4975,45 @@ Author: TIGI Software <satashi2009@gmail.com>
 dev: satashi2009
 
 Package: com.jtis.appdataplus
-Architecture: iphoneos-arm64e
-Version: 1.4.0-p
+Architecture: iphoneos-arm64
+Version: 1.4.0
 Section: Tweaks
-Maintainer: JTIS Repo
+Maintainer: JTISVN Repo
 Installed-Size: 2412
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.jtis.iconrepo.roothide
-Filename: ./debs/com.jtis.appdataplus_1.4.0-p_iphoneos-arm64e.deb
-Size: 5056476
-MD5sum: 5493a994c69649ad636e20492c0610f0
-SHA1: bd94818a8b4cde99c104cafff496fe4d3a61e52d
-SHA256: 48790afd4c141c1ed7b7d02379e8c7b865953a9160ecd0d73282314f794ecf4a
-SHA512: 75a52f1a370d4d74c560f2dba332eb9cb351846b077a35122a981b64992895a3fddd31d1fb19a712b71e44f1ef3315542fe01073da5fe058b8530b875bcb68c1
+Conflicts: com.fouadraheb.appdata, com.thuthuatjb.fouadraheb.appdata
+Filename: ./debs/com.jtis.appdataplus_1.4.0_iphoneos-arm64.deb
+Size: 770752
+MD5sum: 743f63095557a553ffda6ad5194abc20
+SHA1: 10d201ba602c84a96788f95d8a6aaa1b90ea259b
+SHA256: 2056f2753f2ec6f5a0e4e5230096402bc0850ece04686bdd68ec6c6ea63da2ed
+SHA512: b98df8a033e5d8426591adb5ea1e43f8da8c533fdb7affb7b762203e9ec4b07c3e45c5cf899a76bff45511d05abb7b56149ed834e8bbb3b93b5725ecf10a841a
 Description: Trình quản lý dữ liệu ứng dụng từ màn hình chính phiên bản được bổ sung thêm chức năng.
 Tag: purpose::extension
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Appdataplus.json
+Name: AppData Plus (Rootless)
+Author: Fouad Raheb & Netskao
+Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
+Depiction: https://jtisvn.github.io/depictions/Appdataplus.html
+
+Package: com.jtis.appdataplus
+Architecture: iphoneos-arm64e
+Version: 1.4.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2412
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.jtis.iconrepo.roothide
+Filename: ./debs/com.jtis.appdataplus_1.4.0_iphoneos-arm64e.deb
+Size: 5057256
+MD5sum: bddcaf281c64decc0eb48271e3c9d3f4
+SHA1: ef63bd1cda054c3e8e7e1faa5e7dd424f905f5f5
+SHA256: 311b42fa3b51a534958d86f54211ae2d46e158cf57e07ea33e6599b022dcf38f
+SHA512: c9684c70197465071783eefa023ac8982a427acced1d7f33cf3aa26360322064d0e85c20132d92a7dfe7e20ae107a184f115c2bc51c818fffbe1ab561f5a97d9
+Description: Trình quản lý dữ liệu ứng dụng từ màn hình chính phiên bản được bổ sung thêm chức năng.
+Tag: purpose::extension
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Appdataplus.json
+Depiction: http://jtisvn.github.io/depiction/Appdataplus.html
 Name: AppData Plus (Roothide)
 Author: Fouad Raheb & Netskao
 Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
@@ -18863,28 +18886,6 @@ Name: PopOutButtons (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PopOutButtons.json
 Icon: https://Jtisvn.github.io/sectionIcons/PopOutButtons.png
 Depiction: https://chariz.com/get/popoutbuttons
-
-Package: com.jtis.appdataplus
-Architecture: iphoneos-arm64
-Version: 1.4.0-p
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 2412
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.jtis.iconrepo.roothide
-Conflicts: com.fouadraheb.appdata, com.thuthuatjb.fouadraheb.appdata
-Filename: ./debs/com.thuthuatjb.appdataplus_1.4.deb
-Size: 770944
-MD5sum: 8a71f260109cf6d7af29182a7ff2a683
-SHA1: 4fdad496fe0a6f0437dde7f32bd3aa62b9cba76e
-SHA256: 49081efd1b1a3b01088cc788c16514f9e5a91a123c5147b29e29bb3d93ce5f26
-SHA512: 14479723a4adc6654a73ae4401eed8d74cef525f607b16105ad73effd81c7a348c9f92aabe971702ed2aa73483e6204b52f6278cca90e79bc89c2a67c13fff71
-Description: Trình quản lý dữ liệu ứng dụng từ màn hình chính phiên bản được bổ sung thêm chức năng.
-Tag: purpose::extension
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Appdataplus.json
-Name: AppData Plus (Rootless)
-Author: Fouad Raheb & Netskao
-Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
-Depiction: https://repo.thuthuatjb.com/index.php?pid=641
 
 Package: com.tigisoftware.filza64bit
 Architecture: iphoneos-arm64

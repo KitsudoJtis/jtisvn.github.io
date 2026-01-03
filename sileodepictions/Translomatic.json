@@ -17,7 +17,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n Công cụ dịch nhanh trực tiếp bất kỳ văn bản nào bạn muốn Đây là phiên bản tương thích hoàn toàn với kiến trúc RootHide Jailbreak.\n\n Dịch siêu tốc chỉ cần bôi đen văn bản và chọn nút Translate trên menu ngữ cảnh, có thể tích hợp với tweak Snapper 3 để dịch trực tiếp bằng ảnh chụp màn hình\n\n Yêu cầu tải 2 gói FoxFort Tools & libfoxfortutils trong nguồn **JTISVN** trước khi cài đặt tưeak này\n\n **Lưu ý:** Tweak Translomatic chỉ hoạt động khi bạn đã mua bên nguồn **Havoc**\n\n Liên hệ mình nhận mua hộ ở đây nhé👉[Ủng Hộ](https://jtisvn.github.io/homepage/donate/donate.html)\n\n Hoặc thanh toán trên trang Website👉[Havoc](https://havoc.app/package/translomatic).",
+"markdown":"\n Công cụ dịch nhanh trực tiếp bất kỳ văn bản nào bạn muốn Đây là phiên bản tương thích hoàn toàn với kiến trúc RootHide Jailbreak.\n\n Dịch siêu tốc chỉ cần bôi đen văn bản và chọn nút Translate trên menu ngữ cảnh, có thể tích hợp với tweak Snapper 3 để dịch trực tiếp bằng ảnh chụp màn hình\n\n Yêu cầu tải 2 gói FoxFort Tools & libfoxfortutils trong nguồn **JTISVN** trước khi cài đặt tweak này\n\n **Lưu ý:** Tweak Translomatic chỉ hoạt động khi bạn đã mua bên nguồn **Havoc**\n\n Liên hệ mình nhận mua hộ ở đây nhé👉[Ủng Hộ](https://jtisvn.github.io/homepage/donate/donate.html)\n\n Hoặc thanh toán trên trang Website👉[Havoc](https://havoc.app/package/translomatic).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
