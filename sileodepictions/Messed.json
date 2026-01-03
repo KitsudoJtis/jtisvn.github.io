@@ -1,6 +1,6 @@
 {
 "minVersion": "0.1",
-"headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"headerImage": "https://files.catbox.moe/l1n4si.jpeg",
 "tintColor": "#0084FF",
 "tabs": [
 {
@@ -17,7 +17,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown": "\n\n Tinh chỉnh **Messed** dành cho ứng dụng Messenger với các tính năng hữu ích:\n\n **No Ads:** Loại bỏ hoàn toàn quảng cáo trong ứng dụng.\n\n **No Seen:** Chặn hiển thị trạng thái Đã xem khi bạn đọc tin nhắn (người gửi sẽ không biết bạn đã đọc).",
+"markdown": "\n\n Tinh chỉnh hữu ích cho ứng dụng Messenger:\n\n Loại bỏ hoàn toàn quảng cáo trong ứng dụng.\n\n Chặn hiển thị trạng thái Đã xem khi bạn đọc tin nhắn (người gửi sẽ không biết bạn đã đọc).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

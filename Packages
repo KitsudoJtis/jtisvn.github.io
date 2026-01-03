@@ -7965,6 +7965,28 @@ Author: Nebbs + Max Bridgland
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Edge2.json
 Icon: https://jtisvn.github.io/icons/avatar.webp
 
+Package: com.jtis.edge
+Architecture: iphoneos-arm
+Version: 3.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1180
+Depends: mobilesubstrate, firmware (>=11.0), org.thebigboss.libcolorpicker, com.opa334.ccsupport, com.support-jailbreak.libnebbs (>=1.6), ws.hbang.common
+Conflicts: com.junesiphone.lockpluspro, com.jtis.edge
+Filename: ./debs/com.jtis.edge_3.1_iphoneos-arm.deb
+Size: 205672
+MD5sum: 31989f889cc77d16bac2c53a5cb7e4f7
+SHA1: f0e69e956794b1c3dfa40438d7e17e81af1f163c
+SHA256: d23c5c23210a81ff2801993919d71b6eb626dd70f7a5234f2eb91c62cf2b389c
+SHA512: 858168e9d4ba6de69e09da55f10c2000fcb9cb4ba61f0caa2cb0239fb56567e4ca66215ff1917a596328653e4a4c199c05f439d4e4b27cbaebf46458d7ae55b5
+Homepage: https://jtisvn.github.io/
+Description: Hiển thị đường viền xung quanh màn hình.
+Depiction: http://jtisvn.github.io/depiction/Edge.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Edge.json
+Icon: https://jtisvn.github.io/sectionIcons/Edge.png
+Name: Edge
+Author: Variou
+
 Package: com.jtis.electrode
 Architecture: iphoneos-arm
 Version: 1.0.3
