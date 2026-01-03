@@ -13,6 +13,7 @@
             --secondary-text: #777777;
             --separator-color: #e5e5ea;
             --radius: 12px;
+            --text-on-tint: #CC33FF;
         }
 
         @media (prefers-color-scheme: dark) {
@@ -65,7 +66,7 @@
         }
 
         .tab-btn.active {
-            color: var(--tint-color);
+            color: var(--text-on-tint);
             position: relative;
         }
         
@@ -108,8 +109,8 @@
             padding-bottom: 20px;
             -webkit-overflow-scrolling: touch;
             scrollbar-width: none; 
-            /* Căn giữa cho đẹp */
-            justify-content: center; 
+            /* CÓ 3 ẢNH NÊN BỎ CĂN GIỮA ĐỂ KHÔNG BỊ CHE */
+            /* justify-content: center; */
         }
         .screenshots-scroll::-webkit-scrollbar {
             display: none; 
@@ -175,6 +176,13 @@
         ul { padding-left: 20px; margin-top: 5px;}
         li { margin-bottom: 8px; line-height: 1.5; }
         p { line-height: 1.5; margin-bottom: 10px; }
+        
+        .feature-group {
+            font-weight: 600;
+            color: var(--tint-color);
+            margin-top: 15px;
+            display: block;
+        }
 
         /* INFO GRID */
         .info-header {
@@ -271,13 +279,13 @@
                     <li>Mang đến trải nghiệm đa nhiệm thực thụ cho iOS.</li>
                     <li>Một phiên bản tinh tế của Stage Manager với các cử chỉ trực quan và giao diện đẹp mắt.</li>
                 </ul>
-                
-                <p><strong>Tính năng:</strong></p>
+
+                <span class="feature-group">Tính năng:</span>
                 <ul>
                     <li><strong>Menu trên cùng ở giữa:</strong> Nhấn vào biểu tượng "..." ở giữa trên cùng của Giai đoạn để mở menu điều khiển.</li>
                 </ul>
 
-                <p><strong>Các tùy chọn menu:</strong></p>
+                <span class="feature-group">Các tùy chọn menu:</span>
                 <ul>
                     <li><strong>Mở ứng dụng:</strong> Mở ứng dụng như bình thường.</li>
                     <li><strong>Phóng to:</strong> Mở rộng Giai đoạn ra toàn màn hình.</li>
@@ -286,7 +294,7 @@
                     <li><strong>Đóng:</strong> Đóng Giai đoạn hiện tại.</li>
                 </ul>
 
-                <p><strong>Điều khiển sân khấu:</strong></p>
+                <span class="feature-group">Điều khiển sân khấu:</span>
                 <ul>
                     <li><strong>Núm dưới cùng bên trái / bên phải:</strong> Kéo để điều chỉnh tỷ lệ khung hình của Sân khấu.</li>
                     <li><strong>Núm ở giữa phía dưới:</strong> Kéo để thay đổi kích thước toàn bộ Giai đoạn.</li>
@@ -309,17 +317,17 @@
                     </div>
                     <div class="info-item">
                         <span class="info-label">Ngày cập nhật</span>
-                        <span class="info-value">30/11/2025</span>
+                        <span class="info-value">30/12/2025</span>
                     </div>
                 </div>
                 <div class="info-column">
                     <div class="info-item">
                         <span class="info-label">Phiên bản</span>
-                        <span class="info-value">2.0</span>
+                        <span class="info-value">3.5</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Kích thước</span>
-                        <span class="info-value">110.01 KB</span>
+                        <span class="info-value">2,39 MB</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Tương thích iOS</span>
@@ -331,18 +339,36 @@
         </div>
 
         <div id="changelog" class="tab-content">
-            <h3 style="margin-top: 10px;">Phiên bản 2.0</h3>
+            <h3 style="margin-top: 10px;">Phiên bản 3.5</h3>
             <ul>
-                <li>Thêm tùy chọn tắt tính năng "Flex Resize" (Co giãn linh hoạt)</li>
-                    <li><strong>Thêm biểu tượng vào menu 3D Touch.</li>Thêm chế độ chia ba màn hình (split-thirds) cho SplitStage.</li>
-                    <li><strong>Tắt cảm ứng đa điểm trên các thanh điều chỉnh (handles) để tránh bị vỡ giao diện.</li>
-                    <li><strong>Sửa lỗi Chế độ Cắt (Trim Mode) khi tính năng Flex Resize đang bị tắt.</li>
-                    <li><strong>Sửa lỗi FBScene không tự nạp lại (rehost) khi thay đổi ứng dụng hiển thị chính (foreground).</li>
-                    <li><strong>Sửa lỗi thanh/nút "minusHandle" không hiện ra khi thoát khỏi Chế độ Cắt.</li>
+                <li>Thêm khôi phục trạng thái giai đoạn</li>
+                <li>Sửa lỗi chỉnh sửa bên ngoài khi đóng</li>
             </ul>
-
             <div class="separator"></div>
-            
+
+            <h3 style="margin-top: 10px;">Phiên bản 3.1</h3>
+            <ul>
+                <li>Tinh chỉnh giao diện (chỉ các máy tai thỏ) và các cử chỉ</li>
+                <li>Cải thiện hành vi xoay màn hình và thêm khả năng lưu trạng thái</li>
+                <li>Thay đổi thao tác vuốt mở rộng</li>
+                <li>Sửa lỗi hiển thị lệch giữa thanh điều khiển và vùng nhận cảm ứng thực tế</li>
+                <li>Chế độ Split Stage giờ đây đã tính đến hiệu ứng mờ nền</li>
+                <li>Thay đổi khả năng hiển thị của nền mờ</li>
+                <li>Sửa lỗi liên quan đến tính năng né bàn phím</li>
+                <li>Thêm tùy chọn tắt tính năng né bàn phím từ menu 3D Touch</li>
+                <li>Sửa lỗi chế độ Khóa (Lock mode) khi đang ở Trim mode</li>
+                <li>Sửa lỗi kích thước _UISceneLayerHostContainerView</li>
+                <li>Tối ưu và sắp xếp lại mã nguồn</li>
+            </ul>
+            <div class="separator"></div>
+
+            <h3 style="margin-top: 10px;">Phiên bản 2.2.3</h3>
+            <ul>
+                <li>Thêm tính năng tự động tránh bàn phím</li>
+                <li>Thêm chế độ Khóa Sân khấu (Lock Stage)</li>
+                <li>Thêm cử chỉ mới: Vuốt thanh điều hướng xuống để mở toàn màn hình</li>
+                <li>Sửa lỗi xoay bàn phím</li>
+                <li>Thay đổi hành vi cử chỉ phóng to (pinch-out)</li>
                 <li>Hỗ trợ Rootless & Roothide Jailbreak</li>
             </ul>
         </div>

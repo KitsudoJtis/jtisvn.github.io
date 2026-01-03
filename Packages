@@ -10571,8 +10571,31 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Little12.json
 Icon: https://jtisvn.github.io/sectionIcons/Little12.png
 
 Package: com.jtis.little12
+Architecture: iphoneos-arm
+Version: 2.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1008
+Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Filename: ./debs/com.jtis.little12_2.1_iphoneos-arm.deb
+Size: 382252
+MD5sum: faaa05c5a4780842fe18bff925e16966
+SHA1: d15bf80ebcecd7b636ee65bf712c77cbc7894d6a
+SHA256: e9bb2e0e657fa802570f83ca46177a6ea994a12136fc79c5718cecd01b7de71e
+SHA512: 0c7735259fd88174d3a56f2a9ebdef6fe714130062f9da55821a49948288dffe9a260d8a9caefaacb08a0c0357930e4ff07f7df1ee73e167841e07e0d67c81e4
+Description: Fake cử chỉ iPhone X/12 trên các thiết bị đời thấp.
+Name: Little12
+Author: Ryan Nair
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Little12.json
+Depiction: http://jtisvn.github.io/depiction/Little12.html
+Icon: https://jtisvn.github.io/sectionIcons/Little12.png
+
+Package: com.jtis.little12
 Architecture: iphoneos-arm64e
-Version: 2.0
+Version: 2.1
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 1008
@@ -10581,12 +10604,12 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
 Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
-Filename: ./debs/com.jtis.little12_2.0_iphoneos-arm64e.deb
-Size: 380752
-MD5sum: c7c520bface42a56b65a431a0b98d06c
-SHA1: 7220234d913fb6cffdf0108688ef6449c82eb4a5
-SHA256: d685e6b52b067c9ad185973d5b0815090cf5bf99d044903a21af0a345c924468
-SHA512: 75d63f3d17d80f71dc22f4055e84d64eb57a79cbcd89194aaafe7984f35855b91c846e4a325ef9c8962fac15d1c26806ae6186e06465a2f41ad0dc4249fd0673
+Filename: ./debs/com.jtis.little12_2.1_iphoneos-arm64e.deb
+Size: 382184
+MD5sum: 308246129903b8ace054fa6152c9a5e4
+SHA1: e9cdd098a0bc381f0ac8dd90b2ad274b57885842
+SHA256: 32ea03a8308b4ac43f1436b7fe917b1943d8233992c2698eaee440b445618f0f
+SHA512: d57262d1110c0b5d1037453e102c22fd1ed83ab73f401f94cbfc7ceee9c78472ae700dc6d07de4b0b834ec1e224e7fa80ec2dd7e9f94e54e0b20aebf28967f4b
 Description: Fake cử chỉ iPhone X/12 trên các thiết bị đời thấp.
 Name: Little12 (Roothide)
 Author: Ryan Nair
@@ -14066,25 +14089,6 @@ Name: Split View Pro (Roothide)
 Author: sunshinesong
 
 Package: com.jtis.spotify
-Architecture: iphoneos-arm64
-Version: 6.1.6
-Section: Tweaks
-Maintainer: Eevee
-Installed-Size: 1688
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
-Filename: ./debs/com.jtis.spotify_6.1.6_iphoneos-arm64.deb
-Size: 440708
-MD5sum: ec708a87348e0b134a84bf3141a304c0
-SHA1: 4dd7654ba688d3a655ec38886144e40ef73cebfd
-SHA256: ff9a099c4e128c308f2f9771629001e8e2a809a67f8dd0a47ba88f0038d9cde6
-SHA512: cddb73f122d3c3b082eb963d072b9a663073757974a1e29ac94f72559cfc622820ac5402b219f2ed08049402020a7b3857c23684ead6ab34efc8aa95d75c382a
-Description: A tweak to get Spotify Premium for free, just like Spotilife
-Name: EeveeSpotify (Rootless)
-Author: Eevee
-SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
-Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
-
-Package: com.jtis.spotify
 Architecture: iphoneos-arm64e
 Version: 6.1.6
 Section: Tweaks
@@ -14140,6 +14144,68 @@ SHA512: a8e7286fc7f5cc8f8d7a6d4688b67717f8ba49b3603e4de12277bcbd5a75988615f63176
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify (Roothide)
 Author: Eevee
+SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
+Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
+
+Package: com.jtis.spotify
+Architecture: iphoneos-arm
+Version: 6.4.8
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 1768
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
+Conflicts: com.jtis.spotify
+Filename: ./debs/com.jtis.spotify_6.4.8_iphoneos-arm.deb
+Size: 457932
+MD5sum: 0d510a0132048497b54568764ef68a98
+SHA1: d950179605ca0914ab7047eb847769463ab9e564
+SHA256: ab8d81ec034422efaf8014fb1c40e8858194855ded0af2a7abeae5096c5b14f8
+SHA512: 37fb8d19207793d778d2439c8996d4e53eb0ae88002d2fc5398de0235e1158519652027b6a070b47a2805964a05fc9990411e8307f07061331d8cbc0b477489a
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+Depiction: http://jtisvn.github.io/depiction/EeveeSpotify.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
+Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
+
+Package: com.jtis.spotify
+Architecture: iphoneos-arm64
+Version: 6.4.8
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 3712
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
+Filename: ./debs/com.jtis.spotify_6.4.8_iphoneos-arm64.deb
+Size: 892948
+MD5sum: d69527f190e0f03dfaaf08abb7d25272
+SHA1: 9f7d5d033d3c95628ace62ab8c9dfc0b3f929bbc
+SHA256: fc6ecb61c5fe2e6abe3f3be27eae15f97a25a800a351a1e8571e23613503548a
+SHA512: b45aee87a5cc3fb14e5e84b0172040d988f49d02a665d047f1ed03b2b2c2c2ec8385ed2b99fa68199ea2a75eb00584934428f3fa16b4da2f8bd2afc048ca9cc0
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify (Rootless)
+Author: Eevee
+Depiction: http://jtisvn.github.io/depiction/EeveeSpotify.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
+Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
+
+Package: com.jtis.spotify
+Architecture: iphoneos-arm64e
+Version: 6.4.8
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 3712
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
+Filename: ./debs/com.jtis.spotify_6.4.8_iphoneos-arm64e.deb
+Size: 876428
+MD5sum: ebc902ecd208efcaad25ca256614f525
+SHA1: 03509ab99aec022a23c7351b41850107891139b1
+SHA256: 3dc6c09aa6b8a5c7715b7c35a554c1f871e0edd5e0fe2f493c1c98db8e337d42
+SHA512: e299f5c42c0fdd47de8f1bac4e9eaabaf5ab064543bca46d512694424c6d9974090e7f5dce44076deeddfd524d8edbba54aa98612408f979a97fe5ba3d191714
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify (Roothide)
+Author: Eevee
+Depiction: http://jtisvn.github.io/depiction/EeveeSpotify.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
 Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
 
@@ -18240,6 +18306,28 @@ SHA512: a632d90eaa1cd37bddb03a7343ca20193513d509fce8f6a9223000a44526fc5c9208976e
 Homepage: https://skypain.github.io/repo/
 Description: Mô-đun ảnh chụp màn hình trung tâm điều khiển
 Name: CCScreenShot (Rootless)
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Icon: https://skypain.github.io/repo/src/ccscreenshot/Icon.png
+Depiction: https://skypain.github.io/repo/static/view/?p=ccscreenshot
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCScreenShot.json
+
+Package: com.skypain.ccscreenshot
+Architecture: iphoneos-arm64e
+Version: 1.0.0-1
+Section: Tweaks
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 164
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.skypain.ccscreenshot_1.0.0-1_iphoneos-arm64e.deb
+Size: 13216
+MD5sum: 4d23fe60e774e653a78b4a17d4e97467
+SHA1: a7f0a3ea71757e2ce06a0cb966553a89fe097eaf
+SHA256: 943d131f51f95a5d6ebd217cae21946dfd9bc4f11624fde6d90d36190f6e2614
+SHA512: 8b4ab0e27bebf6f9ca75c1c7ed1d56d326faeaa5a793136a15200105664aadc60638bfd04c80ab8aee45bd0bb224cc4b0e73ef052cae5515d366e491965997c9
+Homepage: https://skypain.github.io/repo/
+Description: Mô-đun ảnh chụp màn hình trung tâm điều khiển
+Name: CCScreenShot (Roothide)
 Author: Mr.Zhang <mr_zhang_00@163.com>
 Icon: https://skypain.github.io/repo/src/ccscreenshot/Icon.png
 Depiction: https://skypain.github.io/repo/static/view/?p=ccscreenshot

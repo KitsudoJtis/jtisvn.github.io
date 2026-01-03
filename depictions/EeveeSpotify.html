@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Looky - JTISVN Repo</title>
+    <title>EeveeSpotify - JTISVN Repo</title>
     <style>
         :root {
             /* Màu Tint từ JSON */
-            --tint-color: #CFCFCF;
-            --text-active: #808080; /* Màu chữ đậm hơn chút cho dễ đọc vì Tint quá sáng */
+            --tint-color: #00CC33; 
             --bg-color: #ffffff;
             --text-color: #000000;
             --secondary-text: #777777;
             --separator-color: #e5e5ea;
             --radius: 12px;
+            --text-on-tint: #00CC33;
         }
 
         @media (prefers-color-scheme: dark) {
@@ -22,7 +22,7 @@
                 --text-color: #ffffff;
                 --secondary-text: #98989d;
                 --separator-color: #38383a;
-                --text-active: #CFCFCF; /* Trên nền đen thì màu này hiển thị tốt */
+                --text-on-tint: #00CC33;
             }
         }
 
@@ -67,7 +67,7 @@
         }
 
         .tab-btn.active {
-            color: var(--text-active);
+            color: var(--text-on-tint);
             position: relative;
         }
         
@@ -78,7 +78,7 @@
             right: 0;
             bottom: -11px;
             height: 2px;
-            background-color: var(--text-active);
+            background-color: var(--tint-color);
         }
 
         /* 3. CONTENT CONTAINER */
@@ -110,7 +110,7 @@
             padding-bottom: 20px;
             -webkit-overflow-scrolling: touch;
             scrollbar-width: none; 
-            /* ĐÃ BỎ CĂN GIỮA ĐỂ KHẮC PHỤC LỖI CHE ẢNH BÊN TRÁI */
+            /* ĐÃ BỎ CĂN GIỮA ĐỂ TRÁNH LỖI CHE ẢNH BÊN TRÁI */
             /* justify-content: center; */
         }
         .screenshots-scroll::-webkit-scrollbar {
@@ -177,6 +177,8 @@
         ul { padding-left: 20px; margin-top: 5px;}
         li { margin-bottom: 8px; line-height: 1.5; }
         p { line-height: 1.5; margin-bottom: 10px; }
+        
+        a { color: var(--tint-color); text-decoration: none; font-weight: bold; }
 
         /* INFO GRID */
         .info-header {
@@ -221,20 +223,13 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background-color: rgba(207, 207, 207, 0.2); /* Màu Tint nhạt */
-            color: #555555; /* Màu chữ đậm hơn để dễ đọc */
+            background-color: rgba(0, 204, 51, 0.1); /* Màu Tint nhạt */
+            color: var(--tint-color);
             padding: 15px;
             border-radius: var(--radius);
             text-decoration: none;
             font-weight: 600;
             margin-bottom: 10px;
-        }
-        
-        @media (prefers-color-scheme: dark) {
-            .action-btn {
-                background-color: rgba(207, 207, 207, 0.15);
-                color: #ffffff;
-            }
         }
 
         /* FOOTER */
@@ -255,7 +250,7 @@
 </head>
 <body>
 
-    <img src="https://jtisvn.github.io/coverimage/jtisvnrepo.png" alt="Looky Banner" class="banner">
+    <img src="https://jtisvn.github.io/coverimage/EeveeSpotify.png" alt="EeveeSpotify Banner" class="banner">
 
     <nav class="tab-nav">
         <button class="tab-btn active" onclick="openTab(event, 'info')">Giới thiệu</button>
@@ -268,29 +263,16 @@
         <div id="info" class="tab-content active">
             
             <div class="screenshots-scroll">
-                <img src="https://jtisvn.github.io/infodeb/Looky/Screenshots/1.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/Looky/Screenshots/2.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/Looky/Screenshots/3.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/EeveeSpotify/Screenshots/1.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/EeveeSpotify/Screenshots/2.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/EeveeSpotify/Screenshots/3.png" class="screenshot-img" onclick="openImage(this)">
             </div>
 
             <div>
-                <p><strong>Looky - Luôn cập nhật thông báo mà không cần mở khoá thiết bị</strong></p>
+                <p><strong>EeveeSpotify</strong></p>
                 <ul>
-                    <li>Tweak này sẽ hiển thị thông báo ngay trên màn hình khóa, giúp bạn nắm bắt thông tin nhanh chóng chỉ bằng một cái liếc mắt.</li>
-                    <li>Không cần phải bật màn hình hay cầm điện thoại lên. Dù bạn đang bận rộn hay thư giãn, Looky được thiết kế để giúp bạn luôn cập nhật một cách dễ dàng.</li>
-                </ul>
-                <p><strong>Các tính năng nổi bật:</strong></p>
-                <ul>
-                    <li>Khi có thông báo mới, tên và biểu tượng ứng dụng sẽ hiển thị ngay lập tức.</li>
-                    <li>Tùy chọn hiển thị nội dung thông báo để đọc trước tin nhắn.</li>
-                    <li>Hỗ trợ hiển thị ảnh đại diện của WhatsApp (sẽ cập nhật thêm ứng dụng khác).</li>
-                    <li>Chạm vào màn hình để tắt nhanh hiệu ứng thông báo.</li>
-                    <li>Hiệu ứng đường viền màu sắc bao quanh màn hình (chỉ iPhone X trở lên).</li>
-                    <li>Tùy chỉnh màu viền cố định hoặc tự động theo màu ứng dụng.</li>
-                    <li>Hiển thị nền mờ phía sau nội dung, tùy chỉnh màu hoặc tự động.</li>
-                    <li>Tùy chỉnh màu chữ tin nhắn hoặc đồng bộ theo màu biểu tượng ứng dụng.</li>
-                    <li>Hiệu ứng tuyết rơi nhẹ nhàng.</li>
-                    <li>Tương thích iPhone X đến 14 Pro Max (Rootless & RootHide).</li>
+                    <li>Mở khoá gói Premium miễn phí giúp loại bỏ mọi quảng cáo, cho phép bỏ qua bài hát không giới hạn và kích hoạt nhiều tính năng cao cấp khác trên ứng dụng Spotify.</li>
+                    <li>Hỗ trợ cho phiên bản mới nhất trên <a href="https://apps.apple.com/vn/app/spotify-%C3%A2m-nh%E1%BA%A1c-v%C3%A0-podcast/id324684580?l=vi" target="_blank">App Store</a>.</li>
                 </ul>
             </div>
 
@@ -301,7 +283,7 @@
                 <div class="info-column">
                     <div class="info-item">
                         <span class="info-label">Tác giả</span>
-                        <span class="info-value">ella89sp</span>
+                        <span class="info-value">Eevee</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Thể loại</span>
@@ -309,21 +291,21 @@
                     </div>
                     <div class="info-item">
                         <span class="info-label">Ngày cập nhật</span>
-                        <span class="info-value">24/12/2025</span>
+                        <span class="info-value">3/1/2026</span>
                     </div>
                 </div>
                 <div class="info-column">
                     <div class="info-item">
                         <span class="info-label">Phiên bản</span>
-                        <span class="info-value">1.2</span>
+                        <span class="info-value">6.4.8</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Kích thước</span>
-                        <span class="info-value">436 KB</span>
+                        <span class="info-value">154 MB</span>
                     </div>
                     <div class="info-item">
-                        <span class="info-label">Tương thích iOS</span>
-                        <span class="info-value">15.0 - 17.0</span>
+                        <span class="info-label">Tương thích iOS/iPadOS</span>
+                        <span class="info-value">14.x - 16.x</span>
                     </div>
                 </div>
             </div>
@@ -331,43 +313,10 @@
         </div>
 
         <div id="changelog" class="tab-content">
-            <h3 style="margin-top: 10px;">Phiên bản 1.3</h3>
+            <h3 style="margin-top: 10px;">Phiên bản 6.2.6</h3>
             <ul>
-                <li>Thêm hỗ trợ iOS 17.0 và hơn thế nữa</li>
-            </ul>
-            <div class="separator"></div>
-
-            <h3 style="margin-top: 10px;">Phiên bản 1.2</h3>
-            <ul>
-                <li>Xoá bỏ tăng và giảm âm lượng gửi thông báo thử nghiệm</li>
-            </ul>
-            <div class="separator"></div>
-
-            <h3 style="margin-top: 10px;">Phiên bản 1.0.6</h3>
-            <ul>
-                <li>Thêm huy hiệu vào bên cạnh ảnh đại diện WhatsApp</li>
-            </ul>
-            <div class="separator"></div>
-
-            <h3 style="margin-top: 10px;">Phiên bản 1.0.5</h3>
-            <ul>
-                <li>Thêm thay đổi kích thước tiêu đề, tin nhắn, biểu tượng</li>
-                <li>Thêm hiệu ứng viền nhấp nháy</li>
-                <li>Thêm hỗ trợ ứng dụng X (Twitter)</li>
-                <li>Xoá bỏ nút tăng/giảm âm lượng khi test thông báo</li>
-            </ul>
-            <div class="separator"></div>
-
-            <h3 style="margin-top: 10px;">Phiên bản 1.0.4</h3>
-            <ul>
-                <li>Thêm thời gian hiển thị</li>
-            </ul>
-            <div class="separator"></div>
-
-            <h3 style="margin-top: 10px;">Phiên bản 1.0.2</h3>
-            <ul>
-                <li>Sửa lỗi trên iOS 15</li>
-                <li>Thêm ngôn ngữ Tiếng Việt</li>
+                <li>Thêm hỗ trợ trên Spotify phiên bản 9.1.6 mới nhất</li>
+                <li>Hỗ trợ Rootless & Roothide Jailbreak</li>
             </ul>
         </div>
 
