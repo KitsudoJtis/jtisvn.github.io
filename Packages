@@ -7858,6 +7858,24 @@ Author: zqbb
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BlockAppUpdate.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.dkmk
+Architecture: all
+Version: 1.0
+Section: Chủ đề
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.dkmk_1.0_all.deb
+Size: 40604288
+MD5sum: b4384eac18b315c9ce42579ecc027c1f
+SHA1: bd12e29234d0ca9ed0a6fd3297b4e55acde30b70
+SHA256: a93ab45bd3513103940601731ec782b6e80cfb5486b17ac85758ba1cceae9c5d
+SHA512: e0db3e3a8c67e4b5ebdddf4924d75f48f6da6d2aa204029a6c9fbc89f52b4320f33283d5631e775a099cf6b45f17662fc1b049cc42173a402a5885be4ba56ad3
+Description: Chủ đề DKMM Edited
+Name: DKMM Theme
+Author: Miss
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DKMM.json
+Depiction: https://jtisvn.github.io/depictions/DKMM.html
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
 Package: com.jtis.dobbyshim
 Architecture: iphoneos-arm64
 Version: 1.0.3
