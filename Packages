@@ -2632,6 +2632,26 @@ dev: ichitaso
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
 Icon: https://jtisvn.github.io/sectionIcons/PowerSelector.png
 
+Package: com.imkpatil.colormybattery
+Architecture: iphoneos-arm64
+Version: 1.3.4
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 436
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/com.imkpatil.colormybattery_1.3.4_iphoneos-arm64.deb
+Size: 41776
+MD5sum: e805797298bd703b15d36d9f4b4c9110
+SHA1: e11d36ad32255720f7511be42fc9ebff47d1a42b
+SHA256: f8207de1048e070f68ed5c9bd6d00b32f0e623c66f76000dec1e395a92017eef
+SHA512: 894db87e68ac65c7b66d02e144cfd31989fa277f4f2d20f25e91cc97af61454587dda8e574150da8838e2533098bd5bcb5166a0b81d8280927f1fccb5953358e
+Description: Tuỳ chỉnh màu phan trăm pin.
+Name: ColorMyBattery (Rootless)
+Author: P2KDev <p2kdev@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/ColorMyBattery.png
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.imkpatil.colormybattery
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ColorMyBattery.json
+
 Package: com.imkpatil.homebarsizer
 Architecture: iphoneos-arm64
 Version: 1.1.1
@@ -12833,6 +12853,27 @@ Author: Khoang Lang
 SileoDepiction: https://jtisvn.github.io/sileodepictions/RedWhite.json
 Depiction: https://jtisvn.github.io/depictions/RedWhite.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+
+Package: com.jtis.removeconfidential
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.removeconfidential_1.0.2_iphoneos-arm64e.deb
+Size: 3188
+MD5sum: f62d329fc2d43717dab7eb9ae6211afc
+SHA1: b56c5f8bc66ca4ead58fbf897f6cc7ca179b4e86
+SHA256: 4e8f5847de58b78eb9271da0e53aaf389dec712ca1b2ef1684ef3bf28d90eb06
+SHA512: acd4a6c507e9ceaebef49276e2753b4c3ee1f117fffb5a3a29518c1a9ff876b4bb1a7dccfd8ce3de891db82a9949ca659f3440d58234d2b705bbeb9a1cff4597
+Description: Xóa dòng chữ "Bí mật & Độc quyền" khỏi màn hình khóa.
+Name: Remove Confidential
+Author: Flame
+Depiction: http://jtisvn.github.io/depiction/Removeconfidential.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Removeconfidential.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.removewidgetbg
 Architecture: iphoneos-arm64
