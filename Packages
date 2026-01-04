@@ -6713,6 +6713,27 @@ Icon: https://jtisvn.github.io/sectionIcons/Cask3.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cask3.json
 
 Package: com.jtis.cc18
+Architecture: iphoneos-arm
+Version: 0.0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (< 18.0)
+Filename: ./debs/com.jtis.cc18_0.0.3_iphoneos-arm.deb
+Size: 4548
+MD5sum: dee4855df849beb15eb2d01cdb8e2d0d
+SHA1: ec0263eaab7e10a1a21e7d64fac42811dfca4c6e
+SHA256: 9f88317cf5a02006e4dfa3fa8753b1982f9446be0e08dac4e9aa2dd15e8c6146
+SHA512: 10d6df945270e6b740dce3555619d420e8855316560050dbaa9b573997ba49844e0cc15c5e41b92761151c6e7fe92c05af7a068b623d4aae8c919ef3c603ab50
+Description: Trung tâm điều khiển IOS 18
+  * Sao chép mô -đun CC tròn, như trong iOS 18
+Name: CC18
+Author: dvntm
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CC18.json
+Depiction: https://jtisvn.github.io/depictions/CC18.html
+Icon: https://jtisvn.github.io/sectionIcons/CC18.png
+
+Package: com.jtis.cc18
 Architecture: iphoneos-arm64
 Version: 0.0.3
 Section: Tweaks
@@ -6796,6 +6817,28 @@ Description: Mang phong cách mới IO26 gọn gàng cho trung tâm điều khi�
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
 Name: CC26 (Roothide)
 Author: therealhoodboy
+Icon: https://jtisvn.github.io/sectionIcons/CC26.png
+
+Package: com.jtis.cc26
+Architecture: iphoneos-arm
+Version: 0.4.9-9k
+Section: Tweaks
+Maintainer: therealhoodboy
+Installed-Size: 204
+Provides: com.jtis.cc26
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
+Conflicts: com.jtis.cc18
+Filename: ./debs/com.jtis.cc26_0.4.9-9k_iphoneos-arm.deb
+Size: 17988
+MD5sum: 19b876a0bef2a7fffc66bca8b43fa884
+SHA1: d731011616ccf1eb41737955ac0ceb87b35ba1e3
+SHA256: a3f30b993e17b7db133f0da5d529a6570565c7fecbebfaa08f548d17793f5547
+SHA512: 439eaceaf8dc51d0124d0e392c3df241c99164031b6c1719c4103647007b0a575709efcdc0e863d97f956f053322f85ede61f149f0d6609a70058acec7437776
+Description: Mang phong cách mới IO26 gọn gàng cho trung tâm điều khiển
+Name: CC26
+Author: therealhoodboy
+Depiction: http://jtisvn.github.io/depiction/CC26.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
 Icon: https://jtisvn.github.io/sectionIcons/CC26.png
 
 Package: com.jtis.cc26
@@ -16265,28 +16308,6 @@ Name: SettingsRevamp (Roothide)
 Author: SOPPPra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsRevamp.json
 Icon: https://jtisvn.github.io/sectionIcons/SettingsRevamp.png
-
-Package: com.jtks.cc26
-Architecture: iphoneos-arm
-Version: 0.4.9-9k
-Section: Tweaks
-Maintainer: therealhoodboy
-Installed-Size: 204
-Provides: com.cureux.cc26
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
-Conflicts: com.dvntm.cc18
-Filename: ./debs/com.jtks.cc26_0.4.9-9k_iphoneos-arm.deb
-Size: 17980
-MD5sum: 5986728f74e407aaaa417c0569f1b6d0
-SHA1: e3fe2559fadd967ef5cbbc4ca77e64c77b50a506
-SHA256: 8d63a6efd3e7d009bb5461b2ebbe191198e1db128c092408f33f7aaf53b5a1cc
-SHA512: ad5c83938d4f7c9b9ac9fac3dc17197670ffe7bf6bf69d03ffd173320dd06fb32ae58a43fa6c9fb96ed45a4fa03aa306a70ddb7eebbadcef733c536f46cf9ae0
-Description: A sleek reimagination of Control Center
-Name: CC26
-Author: therealhoodboy
-Depiction: http://jtisvn.github.io/depiction/CC26.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/CC26.json
-Icon: https://jtisvn.github.io/sectionIcons/CC26.png
 
 Package: com.juts.stella
 Architecture: iphoneos-arm64
