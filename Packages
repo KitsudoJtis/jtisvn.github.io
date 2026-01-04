@@ -751,15 +751,16 @@ Maintainer: Antoine
 Installed-Size: 1740
 Depends: firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 1.17), mobilesubstrate
 Filename: ./debs/com.antoine.senri_1.1_iphoneos-arm64.deb
-Size: 205176
-MD5sum: 035e459d2f0c428e5a24ba71b4009635
-SHA1: 4cd5b2fc554cadbd1603b85ecd49d51d56242f60
-SHA256: 893b953549af76980dcdc40fedb95969c5053345b3524d377b94a333eadae161
-SHA512: c694345a70b0c4e3bac2928e8cd86270ed6c18be37b42a88581c238707b96bbb56be81fa8462872b1b925db8cc043077005840ae9fe59e4301f1e6cdc44f1975
+Size: 205060
+MD5sum: 531380b5002841e6ff9d4603d1e6cd43
+SHA1: fadcc0224241e6c86d093ff1ff8c54ea2fd8fb73
+SHA256: c7f9d0a8b197bb958371bd2b2a32902dfef8d071c0c10905526a45be0d3682db
+SHA512: 6aa1417bc11512a1ad9a2db1f63eb39192799ef29ca04eba5ab58b45c14ea7a57f636412311717319fd064e023c779f174037c89ae81839b586966a7aa52ab9e
 Description: Không bao giờ mất Thông báo của bạn nữa.
 Author: Antoine <hanzikashi@gmail.com>
 Name: Senri (Rootless)
 depiction: https://chariz.com/buy/senri
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Senri.json
 Icon: https://jtisvn.github.io/sectionIcons/Senri.png
 
 Package: com.antoine.senri
@@ -771,15 +772,16 @@ Installed-Size: 1740
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 1.17), mobilesubstrate
 Filename: ./debs/com.antoine.senri_1.1_iphoneos-arm64e.deb
-Size: 198104
-MD5sum: 095761585be38b8d8ae1ceba795ee907
-SHA1: accf43eb107f909ac0a06cb889e10823c0ee112d
-SHA256: 070ffdfd7722485dc427207ee5aeefc56080c9c5c8203c37de10d4a3e795256e
-SHA512: 9432bce31c5f43f422c5af3cb7c8bf8e066b200c2e5a8f535331d007a1e836e81a9426deaba616c427a9f3001912b53a716be20d95d1cb331c485353823b034f
+Size: 198300
+MD5sum: e696adfe605812d60c8e45f87f96d58c
+SHA1: a407a8dc20adf41ac6df59e084d2b6405d54a158
+SHA256: e1cb64cb454de32b70f32487ec9b3a669748d37497e3620540f4ba5d909a5103
+SHA512: d2c5b951d7e71eed255b81198a5287691145b0fa9b37eab52562eb45f3fc36d6f0c4d39599caa804cbf4e87e8edbef42ecdefda38df4b6820bc1e854b7be87d9
 Description: Không bao giờ mất Thông báo của bạn nữa.
 Author: Antoine <hanzikashi@gmail.com>
 Name: Senri (Roothide)
 depiction: https://chariz.com/buy/senri
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Senri.json
 Icon: https://jtisvn.github.io/sectionIcons/Senri.png
 
 Package: com.bandarhl.bhtwitter
