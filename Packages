@@ -2652,6 +2652,27 @@ Icon: https://jtisvn.github.io/sectionIcons/ColorMyBattery.png
 Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.imkpatil.colormybattery
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ColorMyBattery.json
 
+Package: com.imkpatil.colormybattery
+Architecture: iphoneos-arm64e
+Version: 1.3.4
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 436
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/com.imkpatil.colormybattery_1.3.4_iphoneos-arm64e.deb
+Size: 40728
+MD5sum: cc85492a6c749db2e4083f02a8ed6934
+SHA1: 29e4fbec5c05d76b3f90d691997019c452085898
+SHA256: 081ed3db1199acc70b2a7054fa15db570c79ae8b48ae9a910c8b113e187fbb1d
+SHA512: 818107e4e64ea8681e73bcd414cee9699b4f2e417a5b68a6eedf151e2738341638d33fba9e6e77014091427208368a8c21d01822031d666adb940cc0c67fe2fa
+Description: Tuỳ chỉnh màu phan trăm pin.
+Name: ColorMyBattery (Roothide)
+Author: P2KDev <p2kdev@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/ColorMyBattery.png
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.imkpatil.colormybattery
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ColorMyBattery.json
+
 Package: com.imkpatil.homebarsizer
 Architecture: iphoneos-arm64
 Version: 1.1.1
