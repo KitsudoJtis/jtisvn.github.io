@@ -293,16 +293,17 @@ Maintainer: 来了老弟 h_h_x_t
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/cn.llld.2playerbj_1.0_iphoneos-arm64.deb
-Size: 3728
-MD5sum: 5d5cfb5bfddd59f5d9e1a61a2ddcec57
-SHA1: 7e1ce8d6a03467c5adb7613b863c2f29eb54bd82
-SHA256: d620d594bf84e352df40fcfd5dba0a1de6b456a6eec604305ce5b920a40f5b4c
-SHA512: 968bbe39da91bcb2f8a843f7c21254d021773c8c96bc225057570e74a3b080c99a7f0fffd5a7e184837456ce6f85eb1cc161001fb401b8879adbd94284cc1cd5
+Size: 3740
+MD5sum: 0f4073642bed21fcb79967fd8a4c7a8d
+SHA1: 30649578f36d9d4930d891e94cb0a020a7e81bb2
+SHA256: 60144ab6c85f95795f96f0612acc046a4d6e77b029217ba54cc5b6992afdf9ca
+SHA512: 301b13f4c348756fb9db3b215966765c0884b779a9d9bdc15927462c1ae07a5d6d9485fb9a4eb7f6d9ba268ea503a2bc00db2e4345604f7eef73414e75417e3c
 Description: Trong suót trình phát nhạc và thông báo trên màn hình khoá của bạn.
 Name: Hide Player Notification Background
 Author: 来了老弟 h_h_x_t
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/HideNoti.json
+Depiction: http://jtisvn.github.io/depiction/HideNotiPlayer.html
+Icon: https://jtisvn.github.io/sectionIcons/HideNotiPlayer.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/HideNotiPlayer.json
 
 Package: cn.llld.2playerbj
 Architecture: iphoneos-arm64e
@@ -313,16 +314,17 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/cn.llld.2playerbj_1.0_iphoneos-arm64e.deb
-Size: 3620
-MD5sum: e342410812a1304bb419bbe261d3b14c
-SHA1: 07757d647e5ad63e4753fd90e0e3ce2f3ef16aeb
-SHA256: 93772cde6865207fdfbadf8ec1d570c35371383d10647502eb3b6fb560b0838e
-SHA512: 029080fed274f7379f72656b0db7929f5b9e8a5018b36b2574a49438d4555851794cb8777c86ef5de94355575be6772fd2923ff22f54a51bda1f42e372fdc4dc
+Size: 3636
+MD5sum: 22b6a6439b001ee199ad77b17222f633
+SHA1: 76c81fc8a2097fcaf8b97dc517f472df8399e3a9
+SHA256: a0ea0e3eb0b88948507bff2c084afdc9ba20e0fa8439dab367030b4cf10c5181
+SHA512: cdb42fdc9869dc3b41fc196d80c7251a67f83569df9964a5cbf0277b36faa446f73a7a5b15263332cdef92510b9992e507405f55fd2b971617052e8c72a2e6bd
 Description: Trong suót trình phát nhạc và thông báo trên màn hình khoá của bạn.
 Name: Hide Player Notification Background
 Author: 来了老弟 h_h_x_t
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/HideNoti.json
+Depiction: http://jtisvn.github.io/depiction/HideNotiPlayer.html
+Icon: https://jtisvn.github.io/sectionIcons/HideNotiPlayer.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/HideNotiPlayer.json
 
 Package: com..jtis.githubweblegacycompat
 Architecture: iphoneos-arm64e
