@@ -17,7 +17,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n Thêm nút Mô-đun trình chụp ảnh màn hình dài vào Trung tâm điều khiển và tích hợp nó với twweak **Snapper 3** để chụp ảnh nhanh gọn hơn\n Yêu cầu tải thêm gói CCSupport.",
+"markdown":"\n Thêm nút Mô-đun trình chụp ảnh màn hình dài vào Trung tâm điều khiển và tích hợp nó với tweak **Snapper 3** để chụp ảnh nhanh gọn hơn\n\n Yêu cầu tải thêm gói CCSupport.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

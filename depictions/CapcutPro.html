@@ -8,6 +8,9 @@
         :root {
             /* Màu Tint từ JSON */
             --tint-color: #B5B5B5; 
+            /* Màu chữ đậm hơn cho Tab active vì màu tint quá sáng */
+            --text-active: #808080;
+            
             --bg-color: #ffffff;
             --text-color: #000000;
             --secondary-text: #777777;
@@ -21,6 +24,7 @@
                 --text-color: #ffffff;
                 --secondary-text: #98989d;
                 --separator-color: #38383a;
+                --text-active: #B5B5B5; /* Dark mode thì dùng màu gốc được */
             }
         }
 
@@ -65,7 +69,7 @@
         }
 
         .tab-btn.active {
-            color: var(--tint-color);
+            color: var(--text-active);
             position: relative;
         }
         
@@ -76,7 +80,7 @@
             right: 0;
             bottom: -11px;
             height: 2px;
-            background-color: var(--tint-color);
+            background-color: var(--text-active);
         }
 
         /* 3. CONTENT CONTAINER */
@@ -108,7 +112,7 @@
             padding-bottom: 20px;
             -webkit-overflow-scrolling: touch;
             scrollbar-width: none; 
-            /* Căn giữa vì số lượng ảnh ít (2 ảnh) */
+            /* CÓ 2 ẢNH -> GIỮ CĂN GIỮA */
             justify-content: center; 
         }
         .screenshots-scroll::-webkit-scrollbar {
@@ -175,6 +179,7 @@
         ul { padding-left: 20px; margin-top: 5px;}
         li { margin-bottom: 8px; line-height: 1.5; }
         p { line-height: 1.5; margin-bottom: 10px; }
+        a { color: var(--text-active); text-decoration: none; font-weight: bold; }
 
         /* INFO GRID */
         .info-header {
@@ -220,7 +225,7 @@
             align-items: center;
             justify-content: space-between;
             background-color: rgba(181, 181, 181, 0.2); /* Màu Tint nhạt */
-            color: #555555; /* Màu chữ đậm hơn chút vì nền xám */
+            color: #555555;
             padding: 15px;
             border-radius: var(--radius);
             text-decoration: none;
@@ -228,11 +233,10 @@
             margin-bottom: 10px;
         }
         
-        /* Dark mode adjustment for buttons */
         @media (prefers-color-scheme: dark) {
             .action-btn {
+                background-color: rgba(181, 181, 181, 0.15);
                 color: #ffffff;
-                background-color: rgba(181, 181, 181, 0.3);
             }
         }
 
@@ -254,30 +258,32 @@
 </head>
 <body>
 
-    <img src="https://jtisvn.github.io/coverimage/jtisvnrepo.png" alt="Header Banner" class="banner">
+    <img src="https://jtisvn.github.io/coverimage/jtisvnrepo.png" alt="Capcut Pro Banner" class="banner">
 
     <nav class="tab-nav">
         <button class="tab-btn active" onclick="openTab(event, 'info')">Giới thiệu</button>
         <button class="tab-btn" onclick="openTab(event, 'changelog')">Nhật ký thay đổi</button>
-        <button class="tab-btn" onclick="openTab(event, 'contact')">Liên hệ Hỗ trợ</button>
     </nav>
 
     <div class="content-container">
         
         <div id="info" class="tab-content active">
             
+            <h3 style="margin-bottom: 10px; margin-top: 0;">Capcut Pro</h3>
+
             <div class="screenshots-scroll">
                 <img src="https://jtisvn.github.io/infodeb/CapcutPro/Screenshots/1.png" class="screenshot-img" onclick="openImage(this)">
                 <img src="https://jtisvn.github.io/infodeb/CapcutPro/Screenshots/2.png" class="screenshot-img" onclick="openImage(this)">
             </div>
 
-            <div>
-                <h3 style="margin-bottom: 10px;">Capcut Pro</h3>
+            <div style="margin-top: 20px;">
                 <ul>
-                    <li>Kích hoạt gói Pro cho ứng dụng Capcut</li>
-                    <li>Hỗ trợ đến phiên bản mới nhất.</li>
+                    <li>Kích hoạt gói Pro cho ứng dụng <strong>Capcut</strong>.</li>
+                    <li>Hỗ trợ cho phiên bản tốt nhất 14.6 trên <a href="https://apps.apple.com/vn/app/capcut-ch%E1%BB%89nh-s%E1%BB%ADa-video/id1500855883?l=vi" target="_blank">App Store</a>.</li>
                 </ul>
-                <p style="color: #ff3b30; font-weight: bold;">Lưu ý: Vui lòng không login tài khoản vì sẽ bị mất pro và hạn chế một số tính năng</p>
+                <p style="color: #ff3b30; font-weight: bold; background: rgba(255, 59, 48, 0.1); padding: 10px; border-radius: 8px;">
+                    ⚠️ Lưu ý: Vui lòng không login tài khoản vì sẽ bị mất pro và hạn chế một số tính năng.
+                </p>
             </div>
 
             <div class="separator"></div>
@@ -293,45 +299,42 @@
                         <span class="info-label">Thể loại</span>
                         <span class="info-value">Tweaks</span>
                     </div>
+                </div>
+                <div class="info-column">
                     <div class="info-item">
                         <span class="info-label">Phiên bản</span>
                         <span class="info-value">1.0.0</span>
                     </div>
-                </div>
-                <div class="info-column">
                     <div class="info-item">
-                        <span class="info-label">Ngày tải lên</span>
-                        <span class="info-value">8/10/2025</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">Khả năng tương thích</span>
-                        <span class="info-value">iOS 14.0 đến 17.0</span>
+                        <span class="info-label">Tương thích iOS</span>
+                        <span class="info-value">14.0 - 17.0</span>
                     </div>
                 </div>
             </div>
-            <div class="footer">Copyright © 2025 by JTISVN</div>
-        </div>
 
-        <div id="changelog" class="tab-content">
-            <h3 style="margin-top: 10px;">Cập nhật mới</h3>
-            <ul>
-                <li>Hỗ trợ Rootless & Roothide Jailbreak.</li>
-            </ul>
-            <div class="footer">Copyright © 2025 - 2030 by JTISVN</div>
-        </div>
+            <div class="separator"></div>
 
-        <div id="contact" class="tab-content">
-            <div style="margin-top: 10px;">
+            <div class="info-header">Liên kết & Hỗ trợ</div>
+            <div>
                 <a href="https://jtisvn.github.io/homepage/donate/donate.html" class="action-btn" target="_blank">
-                    Liên hệ Hỗ trợ / Donate <span>&#8594;</span>
+                    Ủng hộ tôi <span>&#8594;</span>
                 </a>
-                <a href="https://t.me/jailbreaktrolliossupport" class="action-btn" target="_blank">
-                    Nhóm Telegram <span>&#8594;</span>
+                <a href="https://t.me/jtisvn" class="action-btn" target="_blank">
+                    Kênh Telegram <span>&#8594;</span>
                 </a>
                 <a href="https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP" class="action-btn" target="_blank">
                     Nhóm Facebook <span>&#8594;</span>
                 </a>
             </div>
+
+            <div class="footer">Copyright © 2025 - 2030 by JTISVN</div>
+        </div>
+
+        <div id="changelog" class="tab-content">
+            <h3 style="margin-top: 10px;">Phiên bản 1.0.0</h3>
+            <ul>
+                <li>Hỗ trợ Rootfull, Rootless & Roothide Jailbreak.</li>
+            </ul>
             <div class="footer">Copyright © 2025 - 2030 by JTISVN</div>
         </div>
 

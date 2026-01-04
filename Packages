@@ -7181,23 +7181,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/LSclockfont.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
  Pre-Depends: rootless-compat(>= 0.9)
 
-Package: com.jtis.clockfonts
-Architecture: iphoneos-arm
-Version: 1.3
-Section: Tweaks
-Maintainer: JTISVN Repo
-Depends: mobilesubstrate
-Filename: ./debs/com.jtis.clockfonts_1.3_iphoneos-arm.deb
-Size: 49548
-MD5sum: 9b49d428ac2608fdb1044dc70992185f
-SHA1: 074b3fc5998624ba23f46b7da12e64a556b07fca
-SHA256: bc19767f88708bfc000b2a94dd79662c7826155fcc71ba106ba6d710a54102d4
-SHA512: 8c0892cf0c526b3f1ef97fa306525c160e59d7ea8c5aad7a82e83b54af19ef3cde8121ea3e6fc53453fe4af7b82aaafcb4fdc5ad304f80764f5bea9bfb789d9e
-Description: Tuỳ chỉnh phông chữ đồng hồ trên màn hình khoá của bạn, Hỗ trợ iOS15 trở xuống
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-Name: ClockFonts
-Author: nqt1195
-
 Package: com.jtis.colorbar15
 Architecture: iphoneos-arm64
 Version: 1.1.1
@@ -16147,6 +16130,27 @@ Author: Dcsyhi <dcsyhi1998@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Zetsu.json
 Depiction: https://jtisvn.github.io/depictions/Zetsu.html
 Icon: https://jtisvn.github.io/sectionIcons/Zetsu.png
+
+Package: com.jtisvn.capcutcrack
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Mở khoá ứng dụng
+Maintainer: JTISVN Repo
+Installed-Size: 15984
+Depends: mobilesubstrate
+Filename: ./debs/com.jtisvn.capcutcrack_1.0.0_iphoneos-arm.deb
+Size: 13263284
+MD5sum: 183dbcacec147386cdec062ab66619ae
+SHA1: 9a8d70672cc1877eccb538e90efc794091da0eab
+SHA256: f48fb7a09ab07df7a6a33b8245d9d4005ceb9c5bbbcfb77b5d88c9f40d3c7664
+SHA512: e548973a3ed0432f5b433764d13b64e492c227bc459b2b3a059053b19bc9cd68226c72c9015a48ad3a951df70b51185817dcd8548db03d738b108e59b5e54e13
+Homepage: https://jtisvn.github.io/
+Description: Crafted with ♥ by @Kitsudo × @dothanh1110
+Name: Capcut Crack
+Author: Kitsudo & dothanh1110
+Depiction: https://jtisvn.github.io/depictions/CapcutPro.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CapcutPro.json
+Icon: https://jtisvn.github.io/sectionIcons/CapcutPro.png
 
 Package: com.jtisvn.capcutcrack
 Architecture: iphoneos-arm64
