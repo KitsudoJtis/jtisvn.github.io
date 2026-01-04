@@ -7823,17 +7823,17 @@ Version: 1.0
 Section: Chủ đề
 Maintainer: JTISVN Repo
 Filename: ./debs/com.jtis.dkmk_1.0_iphoneos-arm64.deb
-Size: 40603876
-MD5sum: c07b2217f8d01319c12ef4980560610b
-SHA1: d85bcc675367e89057720e1055fe564b2c15e448
-SHA256: ad6d10597462e763fac379ca200c30b141e7a6af722200c30cb7786ba0810dac
-SHA512: 097e33f9b4aa56dfeb6eb0b1e79869f715abc96b7796711f97d72089c0a48db19709ba0ea3e4b18bc10284717fb4001e7b9fdadb3b5f6080b199094bfb11bd14
+Size: 40603920
+MD5sum: 935bef69306785c680fe062f23ebbcc0
+SHA1: 006336dfeed84b4bee4c089fa377aadda56a277f
+SHA256: 91e10ed10cb5edf9fa4721cf3d8e5d2736cc415d9b7b46e63bd8ae26cae10ab9
+SHA512: 396c72595654e7fca48b8369ec412607b1ec73eec87d7845c646c6a12b763e1fdd86f5ecb0d956c471629a13ad1f1921675eae7d4a9e7f388e63bc8681a05ddb
 Description: Chủ đề DKMM Edited
 Name: DKMM Theme
 Author: Miss
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DKMM.json
 Depiction: https://jtisvn.github.io/depictions/DKMM.html
-Icon: https://jtisvn.github.io/sectionIcons/Theme.png
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
 Package: com.jtis.dobbyshim
 Architecture: iphoneos-arm64
