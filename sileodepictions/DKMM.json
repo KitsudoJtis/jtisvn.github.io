@@ -14,7 +14,11 @@
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/DKMK/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/DKMM/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/DKMM/Screenshots/3.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -22,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Chủ đê DKMM, được thiết kế bởi **Miss**\n\n- Chi tiết gói gồm:\n\n+ 800 biểu tượng\n\n- 3 Badges tròn/vuông & color\n\n- 1 chủ đề Dialer & Passcode UI\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
+"markdown":"\n\n- Chủ đê DKMM, được thiết kế bởi **Miss**\n\n- Chi tiết gói gồm:\n\n+ 800 biểu tượng\n\n- 3 Badges tròn/vuông & color\n\n- 1 chủ đề Settings (Cài đặt)\n\n- 1 chủ đề Dialer & Passcode UI\n\n- Kích hoạt chủ đề qua tinh chỉnh Snowboard.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -114,7 +118,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "42,2 MB",
+"text": "43,8 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
