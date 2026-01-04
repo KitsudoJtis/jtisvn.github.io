@@ -1747,6 +1747,26 @@ Author: Ivano Bilenchi
 SileoDepiction: https://jtisvn.github.io/sileodepictions/iCleanerPro.json
 Icon: https://jtisvn.github.io/sectionIcons/iCleanerPro.png
 
+Package: com.foxfort.checkl0ck
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1600
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.foxfort.checkl0ck_1.0.0_iphoneos-arm.deb
+Size: 927776
+MD5sum: d15b47819fa49deaaccae16075db0029
+SHA1: 4566734d4955cd0c516175228f6270bbdee0bb21
+SHA256: 5cd44b7630aa7b4824666953b9192b8de889a2dc3ff2ef42ed9a5048f9704931
+SHA512: e05bf064fc48d15902fcfaf877931f3b036b560cee255831d334f836807fd20027b29f0bf747f22e76a1995ae86a5ddda65e7e83cba3161fc7e1f451b2bdb170
+Description: Mở khoá Face ID và Passcode cho thiết bị da Jailbreak Checkra1n
+Name: Checkl0ck
+Author: FoxfortMobile
+Depiction: http://jtisvn.github.io/depiction/Checkl0ck.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Checkl0ck.json
+Icon: https://jtisvn.github.io/sectionIcons/Checkl0ck.png
+
 Package: com.foxfort.exiwall
 Architecture: iphoneos-arm
 Version: 2.1.7
@@ -8176,6 +8196,26 @@ Description: Giả mạo mô hình thiết bị của bạn trong các ứng d�
 Name: FakeModel (Rootless)
 Author: Netskao
 Icon: https://files.catbox.moe/tecw17.png
+
+Package: com.jtis.fakepass
+Architecture: iphoneos-arm
+Version: 0.1.0-11+debug
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 208
+Depends: cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.14)
+Filename: ./debs/com.jtis.fakepass_0.1.0-11+debug_iphoneos-arm.deb
+Size: 17528
+MD5sum: 7b5b3283f7bf6f8aa97ea291bc67878a
+SHA1: f65512397d9f7a2b342c58325a96ca68a112c5ed
+SHA256: a0b4646495112a38b580dda40fb8e17318237dfceac8595196dbfdb45022a274
+SHA512: ce510105178d250ced2a2e6edec424c7e082a46dc6d8ecda32701796b13f1ceaa1c2a701dbb81d90a2d741b10688e1f7579c63abbe77f10f3315bd2b439b7cf3
+Description: Thêm mật mã màn hình khóa cho các thiết bị A10(X)/A11 đã jailbreak bằng palera1n. Sử dụng giao diện người dùng mật khẩu gốc của iOS.
+Name: FakePass
+Author: nyuszika7h <nyuszika7h@gmail.com>
+Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FakePass.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.fastlock
 Architecture: iphoneos-arm64
