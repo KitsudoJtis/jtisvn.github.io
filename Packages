@@ -12884,12 +12884,12 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.1)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.removeconfidential_1.0.2_iphoneos-arm64e.deb
-Size: 3188
-MD5sum: f62d329fc2d43717dab7eb9ae6211afc
-SHA1: b56c5f8bc66ca4ead58fbf897f6cc7ca179b4e86
-SHA256: 4e8f5847de58b78eb9271da0e53aaf389dec712ca1b2ef1684ef3bf28d90eb06
-SHA512: acd4a6c507e9ceaebef49276e2753b4c3ee1f117fffb5a3a29518c1a9ff876b4bb1a7dccfd8ce3de891db82a9949ca659f3440d58234d2b705bbeb9a1cff4597
-Description: Xóa dòng chữ "Bí mật & Độc quyền" khỏi màn hình khóa.
+Size: 3200
+MD5sum: 729b1433c749b0425b0dfbaf20986421
+SHA1: e78666bb8d1e1b817fff9bbc83d7a7a6ebb0820a
+SHA256: 1eb952636cd85d029a1ae296cdab7fbef4472a00987633862ba49b8326aaafcc
+SHA512: 3d64b27455d79c3f470bb05f83346f98c820209733ab4148afe36399a77d0920ef62328882db2f296a19242309c1695c316eba5ef1bd44edfaf71cc62e826d3c
+Description: Xóa dòng chữ "Confidential and Proprietary" khỏi màn hình khóa sau khi Jailbreak Bootstrap.
 Name: Remove Confidential
 Author: Flame
 Depiction: http://jtisvn.github.io/depiction/Removeconfidential.html
