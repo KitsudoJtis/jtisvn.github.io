@@ -17,7 +17,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n Trình chụp ảnh màn hình dài tích hợp với Snapper 3 qua Mô-đun Trung tâm điều khiển trên thiết bị của bạn.\n Yêu cầu tải gói CCSupport và Snapper3.",
+"markdown":"\n Thêm nút Mô-đun trình chụp ảnh màn hình dài vào Trung tâm điều khiển và tích hợp nó với twweak **Snapper 3** để chụp ảnh nhanh gọn hơn\n Yêu cầu tải thêm gói CCSupport.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -173,7 +173,7 @@
 {
 "class":"DepictionTableButtonView",
 "title":"Mô tả tinh chỉnh",
-"action":"https://jtisvn.github.io/depictions/Tinhchinh.html"
+"action":"https://jtisvn.github.io/depictions/BigShot.html"
 },
 {
 "class":"DepictionTableButtonView",
