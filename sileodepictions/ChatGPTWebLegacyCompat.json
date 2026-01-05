@@ -17,7 +17,7 @@
 "margins": "{10,0,8,0}"
 },
 {
-"markdown":"\n Giúp trang web ChatGPT hoạt động và dễ truy cập hơn trên các thiết bị chạy iOS 15.0 - 15.8.\n\n- Tinh chỉnh này hoạt động bằng cách tiêm (inject) mã CSS đã được loại bỏ các cú pháp không được hỗ trợ trên các phiên bản iOS cũ.",
+"markdown":"\n Giúp trang web ChatGPT hoạt động và dễ truy cập hơn trên các thiết bị chạy iOS 15.0 - 15.8.\n\n Tinh chỉnh này hoạt động bằng cách tiêm (inject) mã CSS đã được loại bỏ các cú pháp không được hỗ trợ trên các phiên bản iOS cũ.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

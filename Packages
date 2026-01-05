@@ -10631,6 +10631,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/LetMeKnow.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.imkpatil.letmeknow
 
+Package: com.jtis.letmepass
+Architecture: iphoneos-arm
+Version: 1.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 200
+Filename: ./debs/com.jtis.letmepass_1.5_iphoneos-arm.deb
+Size: 3904
+MD5sum: ef9fc77cdfcf648d043a30cc56b61697
+SHA1: 19aac74f260d632eeb516f88406c2e1ff49e433d
+SHA256: e576ade8abe67f1632f5f0dd67327204f507c3b71a8f425345843818630886ba
+SHA512: 8b04ab46c264b3512940120e2edadde03c3836715264d0f061d7ab2ecc484d57eb84772134a1b971d8d2a04f2833bb9e993941361f834316d9dc7307858a5d5d
+Description: Bỏ qua cảnh báo cập nhật phiên bản của YouTube
+Name: LetMePass
+Author: Snoolie K
+Depiction: http://jtisvn.github.io/depiction/LetMePass.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LetMePass.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.liddell
 Architecture: iphoneos-arm64
 Version: 1.4.3
@@ -16190,6 +16209,26 @@ SHA512: d8d2fe86652eca15c4a95da64b2d6e84dd89718edbb559b640ab783ede158b2b59b2a13a
 Description: Hỗ trợ cho các phiên bản cũ YouTube của bạn hoạt động trở lại.
 Name: YouTube Legacy (Rootless)
 Author: PoomSmart
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.ytx
+Architecture: iphoneos-arm
+Version: 1.7.17
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
+Filename: ./debs/com.jtis.ytx_1.7.17_iphoneos-arm.deb
+Size: 5932
+MD5sum: 665351aa9ab14830466c96805adf3160
+SHA1: b728ad23f61afe3ec3a476d983a15f6e5a6abed1
+SHA256: de921b35cbe092280b4698c482f4b46de5df19f51a67c1c5f7dd05abe0599beb
+SHA512: 4f9d95a7c4e4376ab5ba2890215c0843dccb0170c6168950874fabb5182878752933276a04d9bef4047fd4ec31a2534d610c63888972e677c2665efa3b3d7ff5
+Description: A YouTube improvement tweak.
+Name: YouTube X
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.zaire
