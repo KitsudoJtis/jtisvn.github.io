@@ -1044,6 +1044,26 @@ Author: MrDeNsor
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LockTouchX.json
 Icon: https://jtisvn.github.io/sectionIcons/LockTouchX.png
 
+Package: com.den.locktouchx
+Architecture: iphoneos-arm64
+Version: 1.4
+Section: Tweaks
+Maintainer: MrDeNsor
+Installed-Size: 240
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.den.locktouchx_1.4_iphoneos-arm64.deb
+Size: 22352
+MD5sum: c68ea1eb3ed22b8c60baf14c3ec5f417
+SHA1: e29480961134870e28a9db8f5963d828b144e1bf
+SHA256: 81595acaeeb8b86f1bf4a7bb83b37df99dc6f2807ad9890f2ac79616fc2e1c2e
+SHA512: de2641b38a0a81d7620d213ba4f2cf02c95284370f9702cd81064bf9843aa33e187c7fb64536cf09d6af1fc8745627e7b53a37eeb1b9d91cec3b341dfdb8f237
+Description: Thêm xác thực Touch/Face ID vào ứng dụng, giống như các tính năng bảo mật của iOS 18
+Name: LockTouchX (Rootless)
+Author: MrDeNsor
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LockTouchX.json
+Depiction: http://jtisvn.github.io/depiction/LockTouchX.html
+Icon: https://jtisvn.github.io/sectionIcons/LockTouchX.png
+
 Package: com.den.twigalaxy
 Architecture: iphoneos-arm64
 Version: 1.10-10+debug
@@ -12884,12 +12904,12 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.1)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.removeconfidential_1.0.2_iphoneos-arm64e.deb
-Size: 3200
-MD5sum: 729b1433c749b0425b0dfbaf20986421
-SHA1: e78666bb8d1e1b817fff9bbc83d7a7a6ebb0820a
-SHA256: 1eb952636cd85d029a1ae296cdab7fbef4472a00987633862ba49b8326aaafcc
-SHA512: 3d64b27455d79c3f470bb05f83346f98c820209733ab4148afe36399a77d0920ef62328882db2f296a19242309c1695c316eba5ef1bd44edfaf71cc62e826d3c
-Description: Xóa dòng chữ "Confidential and Proprietary" khỏi màn hình khóa sau khi Jailbreak Bootstrap.
+Size: 3180
+MD5sum: db36c7cff7e25095af008cb76b85669c
+SHA1: 9fb0f38ad34e730dc8a86474d58d33e5d7f2ee61
+SHA256: 85147c2874319b9eb53bb51317a7a306cfdd1eed5f91aebe65e68a113a994f66
+SHA512: 6362722662457a21f87a268868f8186530edaebdac27dba89a908b3e4b72c97eddd65176a9db28e4802b7745d5b1b047633b3d2a0bcba05f294c1e808dcee68d
+Description: Xóa dòng chữ "Confidential and Proprietary" khỏi màn hình khóa.
 Name: Remove Confidential
 Author: Flame
 Depiction: http://jtisvn.github.io/depiction/Removeconfidential.html
