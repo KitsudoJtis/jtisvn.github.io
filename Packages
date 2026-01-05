@@ -7195,17 +7195,17 @@ Maintainer: PoomSmart
 Installed-Size: 840
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
 Filename: ./debs/com.jtis.chatgptweblegacycompat_1.3.12_iphoneos-arm64.deb
-Size: 77692
-MD5sum: 3565f653ad0c93eef6c17a96ef621897
-SHA1: 8ec665a87ab3f16d73bd5d28e027f62ebd09a6a3
-SHA256: 14e0eab7df6c749adcd1f426dcc413dbe2f028b6f6bdbaedde9144690bfb5a90
-SHA512: 7b90f2e6deb3603f02cb6fe49e198bdd547ec49f73c01834a8dfacee1e8cbe8a6ca1cd073b011f2b3e3c9065a0d782d94ccbe85f6f61773f734fda4030f83374
+Size: 77652
+MD5sum: 5374159a88418d5a30b8db93d3e1996e
+SHA1: 0bd9c46114d6d04080815d47a3b3d86703ab25ac
+SHA256: 2e6a2fa9cbdd4bc44098990dda43d10523238e116d0eee282f9125dcea1a10a4
+SHA512: d6dad276ce997a0cf602a7e500446c099e256223de5e9ba2f00a6bfe3f072209f2838bbefbccac30270e12019b5671a253a55048290ee78e11780613553c1693
 Description: Giúp trang web ChatGPT hoạt động được trên iOS 15.
 Name: ChatGPTWebLegacyCompat
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/chatgptweblegacycompat.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ChatGPTWebLegacyCompat.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/ChatGPTWeb.png
 
 Package: com.jtis.chatgptweblegacycompat
 Architecture: iphoneos-arm64e
@@ -7216,17 +7216,17 @@ Installed-Size: 840
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
 Filename: ./debs/com.jtis.chatgptweblegacycompat_1.3.12_iphoneos-arm64e.deb
-Size: 77456
-MD5sum: a3ae2c13c47b72aee5714b5467af7b51
-SHA1: 062b9ee049a9681c9b884186b3b851654bbd4a8d
-SHA256: 06412658d35ccb8eb4cc83adc52a4a07d3b087f2fec746fa42af3ae8d583f94e
-SHA512: caa95e522736db21d65d6c080bbacdb78e1214f9031bf237ca51803b2f8fc8d1342b93bea85d764bfeaf780f1c7d7217aaf6e024587b2010ff66835efb21c71f
+Size: 77492
+MD5sum: 20fe06f6603581de2ca768fe507ad580
+SHA1: c3f311c55271dc8754c578054d19d2b758e9746f
+SHA256: fd79dfb13e963336e2d1e96d6c5342aaf91a4db00658005744255e6defec36e0
+SHA512: 272452e29cf0121302e736b9f90bd08003a000053a57802f1acc63d9fcb1a1b8359d6861c0f6a37c73b20af3efffef4b8d5061d49a77bfe779af7949825050ce
 Description: Giúp trang web ChatGPT hoạt động được trên iOS 15.
 Name: ChatGPTWebLegacyCompat
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/chatgptweblegacycompat.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ChatGPTWebLegacyCompat.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/ChatGPTWeb.png
 
 Package: com.jtis.classicfolders3
 Architecture: iphoneos-arm64
