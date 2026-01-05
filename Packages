@@ -13212,6 +13212,25 @@ Author: uz.ra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Resentment.json
 Icon: https://jtisvn.github.io/sectionIcons/Resentment.png
 
+Package: com.jtis.rgboard
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: firmware (>=15.0), mobilesubstrate, preferenceloader, ws.hbang.common, com.creaturesurvive.libcscolorpicker, xyz.cypwn.xinam1ne
+Filename: ./debs/com.jtis.rgboard_1.0.5_iphoneos-arm64.deb
+Size: 280760
+MD5sum: 2073cf3355045ccbedff249d8616a0b5
+SHA1: 05cb22541ad244314a77e112570d24a8dc4df203
+SHA256: be46f753ab06df5cfaa0d3845e29a951f472483774b38ba015b128a3314de60d
+SHA512: bb5bd610de83436b258a9b8efbd12c09d8ea4d62fe9f2823a18bb253111b4a038a27ae9ab2bca27cb34885ff4c56917ddbb21d2857c1ebc70af200ba9f82e60b
+Description: Bàn phím Razer Chroma RGB.
+Name: RGBoard (Rootless)
+Author: MiRO
+Depiction: http://jtisvn.github.io/depiction/RGBoard.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/RGBoard.json
+Icon: https://jtisvn.github.io/sectionIcons/RGBoard.png
+
 Package: com.jtis.RingTonesManager
 Architecture: iphoneos-arm64e
 Version: 1.1-4
