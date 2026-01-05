@@ -9049,14 +9049,16 @@ Installed-Size: 480
 Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
 Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, ca.ndoizo.bolders, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, com.nightwind.dockapplibrary, com.tomaszpoliszuk.dockcontroller, com.lizynz.folderx, com.lizynz.folderx.rootless, com.nightwind.boldersreborn
 Filename: ./debs/com.jtis.folderlist_1.0_iphoneos-arm64.deb
-Size: 49816
-MD5sum: 021369c76e8036e3e26b2cf9197f60b2
-SHA1: ddf03097969c2caf2329af095dd3fc6522aff8de
-SHA256: 04aba7f8a49fb3e6729e8221be5e5f6593adc999df6baca18cf430756b2104df
-SHA512: 88eecef84fc03c5ad690b732ed31c1af05ae84651636b54a5ca7c8e700e87d4440c43cbe95511c68d661449036d4c3682ac3e15e73638313cc918c879e2f24b9
+Size: 49748
+MD5sum: eae38d60e9bb2556099d595dd1c0fd6a
+SHA1: 5bde12d5dbb949741ab37df63e0f036bee39062d
+SHA256: 0a18075e37197b33d5bbfa05ea1c45d19f355f7afbc6b220025aa51528d9fbaf
+SHA512: 54ef152dcac78b36cc68cb540c573424ab421b88df394ea7cc2e4d8a1214dc532a1cac9a65449710c468054ce163405b282bf42cf6807ebeb23c9821f02a778f
 Description: Hiển thị danh sách các ứng dụng trong một thư mục dạng như watchOS.
 Name: FolderList (Rootless)
 Author: shepgoba
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FolderList.json
+Depiction: http://jtisvn.github.io/depiction/FolderList.html
 Icon: https://jtisvn.github.io/sectionIcons/FolderList.png
 
 Package: com.jtis.folderlist
@@ -9069,14 +9071,16 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
 Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, ca.ndoizo.bolders, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, com.nightwind.dockapplibrary, com.tomaszpoliszuk.dockcontroller, com.lizynz.folderx, com.lizynz.folderx.rootless, com.nightwind.boldersreborn
 Filename: ./debs/com.jtis.folderlist_1.0_iphoneos-arm64e.deb
-Size: 49744
-MD5sum: eee598b7349b621dea03a0565bca2f54
-SHA1: b733b8759c3a472622577d0056bf0b7b58bdf92c
-SHA256: 7f29f91bb1294dfe054f7b44031b432c7e270898040ae385d69c50e6589921e7
-SHA512: c79c9406f97d6d0a56a7efb6d8426ced5a4d0647979b50cbcfaba359bef991df21a4ff23e530e0fbacb6a647bd227456099fa5fafa89b0ef2c7d219348428bc4
+Size: 49748
+MD5sum: 2b1648ca9a745152e21f66d6a96fe479
+SHA1: 41c7d1ba14fd1d19f177c3d0b0111339c1744bf4
+SHA256: abcc2acfcbc6805889ab8263cce5305079a97fd6985c4378ad7c49f7b8bea5ac
+SHA512: 427e1f37c106d2d51ba79dd11a1494555499e0c82feac12cada2ffba1874fd4f3e4e05ce82e23342c2a3375e500f44c8b875a30d542189c58c899b53403b8c3c
 Description: Hiển thị danh sách các ứng dụng trong một thư mục dạng như watchOS.
 Name: FolderList (Roothide)
 Author: shepgoba
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FolderList.json
+Depiction: http://jtisvn.github.io/depiction/FolderList.html
 Icon: https://jtisvn.github.io/sectionIcons/FolderList.png
 
 Package: com.jtis.folderplus
