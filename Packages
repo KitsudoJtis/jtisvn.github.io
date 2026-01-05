@@ -1064,6 +1064,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/LockTouchX.json
 Depiction: http://jtisvn.github.io/depiction/LockTouchX.html
 Icon: https://jtisvn.github.io/sectionIcons/LockTouchX.png
 
+Package: com.den.locktouchx
+Architecture: iphoneos-arm64e
+Version: 1.4
+Section: Tweaks
+Maintainer: MrDeNsor
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.den.locktouchx_1.4_iphoneos-arm64e.deb
+Size: 21744
+MD5sum: 9f51740eecc68434ed2d103ec2470081
+SHA1: 9a97c052b6993ae4f9806285d4efa13552df7cf4
+SHA256: 256c15a1468790ed40b3c2f38d27603634374766af196bedc5a36be62af5602d
+SHA512: 2af42930c36de96344bda90a112900a2e90b185c88baf4ad01009348613bda006c0f75140d760f383bee8661129e66c4b325a4330e8bdb28bf28e174c6edd2d2
+Description: Thêm xác thực Touch/Face ID vào ứng dụng, giống như các tính năng bảo mật của iOS 18
+Name: LockTouchX (Roothide)
+Author: MrDeNsor
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LockTouchX.json
+Depiction: http://jtisvn.github.io/depiction/LockTouchX.html
+Icon: https://jtisvn.github.io/sectionIcons/LockTouchX.png
+
 Package: com.den.twigalaxy
 Architecture: iphoneos-arm64
 Version: 1.10-10+debug
@@ -19469,6 +19490,27 @@ Tag: role::developer
 Name: libKitten
 Author: Traurige <hello@traurige.dev>
 Icon: file:///var/jb/Library/IconRepo/hethongg1.png
+
+Package: dev.traurige.libkitten
+Architecture: iphoneos-arm64e
+Version: 1.5
+Section: System
+Maintainer: zSaaiq <kevin.felix90@gmx.de>
+Installed-Size: 168
+Provides: love.litten.libkitten (= 1.3.3)
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0)
+Conflicts: love.litten.libkitten
+Filename: ./debs/dev.traurige.libkitten_1.5_iphoneos-arm64e.deb
+Size: 7960
+MD5sum: db8fc79cb416137f8a83451d7990d991
+SHA1: e8d8138915e4161cb4876693578b9ae48f809011
+SHA256: c5fc71872f3003d18132c1c2019919c47f57ccc22313567f5382e2fb46f93e81
+SHA512: 4a5935d6c57f4c38e9b63cb6227a67f205f949da50cf965f492763ae3bd0d69f81e425a899fb62af61e21bfdaae87a83831850e909252c4a7d8da7f32a3f0098
+Description: Collection of image and color calculations
+Tag: role::developer
+Name: libKitten
+Author: Traurige <hello@traurige.dev>
 
 Package: ellekit
 Architecture: iphoneos-arm64e
