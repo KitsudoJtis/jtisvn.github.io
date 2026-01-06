@@ -17181,6 +17181,45 @@ Author: MTAC
 Icon: https://jtisvn.github.io/sectionIcons/Vitreux.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Vitreux.json
 
+Package: com.mtac.vitreux
+Architecture: iphoneos-arm64
+Version: 1.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 7028
+Filename: ./debs/com.mtac.vitreux_1.4_iphoneos-arm64.deb
+Size: 122160
+MD5sum: e2213ea32ead314e9ceb1b6174625759
+SHA1: c351ed8165ae3334c968e1ceeb623752ec47dc67
+SHA256: e8472ab1c707ab1115a26e7da7732475c594c5b055e0ea19b155ee65beed2b0c
+SHA512: 125502ede8aefba7cbc76ea12d600871e008f26dbc7853e7d71311d057bd969757283354f97bf45d98e66dc7fef1c141cca4b79a58a4bb3874f2fb022d7d46ba
+Description: A recreation of Liquid Glass
+Name: Vitreux (Rootless)
+Author: MTAC
+Icon: https://jtisvn.github.io/sectionIcons/Vitreux.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Vitreux.json
+Depiction: http://jtisvn.github.io/depiction/Vitreux.htmlDepends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+
+Package: com.mtac.vitreux
+Architecture: iphoneos-arm64e
+Version: 1.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 7028
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.mtac.vitreux_1.4_iphoneos-arm64e.deb
+Size: 121852
+MD5sum: 0bb6f01aa113547b94a4caf78ff4d1f1
+SHA1: e10682cfd97fb133cf13dfead40b75717d81d482
+SHA256: 13ef24ce5062a26d43be5785148aeee7ef2702e1400321728de43022188b3804
+SHA512: 04f47924c82844a71f7ccc0737a76fe20015bba51e18d76811958668d0d270a9e6a8c2769acd9d581307a1b73fcdd83eed36e8c1f8d30382ec488bf91fd758e3
+Description: A recreation of Liquid Glass
+Name: Vitreux (Roothide)
+Author: MTAC
+Icon: https://jtisvn.github.io/sectionIcons/Vitreux.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Vitreux.json
+Depiction: http://jtisvn.github.io/depiction/Vitreux.htmlDepends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+
 Package: com.muirey03.libimagepicker
 Architecture: iphoneos-arm
 Version: 1.0.4R
