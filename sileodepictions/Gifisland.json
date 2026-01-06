@@ -34,7 +34,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Gif Island\n\n- Một tinh chỉnh độc đáo cho phép bạn thổi hồn vào thiết bị iPhone bằng cách thêm hiệu ứng nền động (GIF) lên Dynamic Island thay vì nền đen mặc định.\n\n- **Tính năng nổi bật:**\n\n+ Tùy chỉnh GIF theo cá tính (hoạt hình, hiệu ứng nghệ thuật...).\n\n+ Hoạt động mượt mà, tự động ẩn khi có thông báo hoặc Live Activities.\n\n+ Tạo điểm nhấn bắt mắt cho Dynamic Island.\n\n- **Hướng dẫn sử dụng:**\n\n1. Cài đặt Filza File Manager.\n\n2. Truy cập đường dẫn: `/var/mobile/lddgifbg/`.\n\n3. Tạo một thư mục con (ví dụ: `JTISVN`) và chép file GIF vào đó.\n\n4. Vào Cài đặt tweak, chọn GIF vừa tạo và nhấn Respring.\n\n5. *Lưu ý:* Nếu GIF không hiện, hãy Tắt/Bật lại tweak và Respring lần nữa.",
+"markdown":"Gif Island\n\n- Một tinh chỉnh độc đáo cho phép bạn thổi hồn vào thiết bị iPhone bằng cách thêm hiệu ứng nền động (GIF) lên Dynamic Island thay vì nền đen mặc định.\n\n- Tính năng nổi bật:\n\n+ Tùy chỉnh GIF theo cá tính (hoạt hình, hiệu ứng nghệ thuật...).\n\n+ Hoạt động mượt mà, tự động ẩn khi có thông báo hoặc Live Activities.\n\n+ Tạo điểm nhấn bắt mắt cho Dynamic Island.\n\n- **Hướng dẫn sử dụng:**\n\n1. Cài đặt Filza File Manager.\n\n2. Truy cập đường dẫn: `/var/mobile/lddgifbg/`.hoặc mở thư mục trong cài đặt\n\n3. Tạo một thư mục con (ví dụ: `JTISVN`) và chép file GIF vào đó.\n\n4. Vào Cài đặt tweak, chọn tệp GIF vừa tạo và nhấn Respring.\n\n5. *Lưu ý:* Nếu GIF không hiện, hãy Tắt/Bật lại tweak và Respring lần nữa.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -100,7 +100,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "22/9/2025",
+"text": "21/9/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -131,7 +131,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "12,5 MB",
+"text": "1,4 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -172,7 +172,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.0\n\n- Thêm đây đủ ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"

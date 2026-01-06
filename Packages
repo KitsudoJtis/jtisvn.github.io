@@ -3532,16 +3532,17 @@ Maintainer: JTISVN Repo
 Installed-Size: 356
 Depends: mobilesubstrate, oldabi
 Filename: ./debs/com.jtis.Gifisland_1.0_iphoneos-arm64.deb
-Size: 168324
-MD5sum: 0138e3c155333f25057108e3a2fcc22b
-SHA1: 4e772bb864be0d1025885023c1ee11c7fc0dffd6
-SHA256: 5f94e2e8908f7c9ab3f30fc4839c5a69054e8367c0104db3ccc6fb4356b4e791
-SHA512: 279a052b23fe4c2d03f8bac2937dff8dd226fc049e49c4fea5dc4dd21a56b1193f5a577f314aaf3a12b90296bbf6df0b621c3ce82a7f50efae0ac68bc3bdd92f
+Size: 176128
+MD5sum: 0051ca9a1fa6f64438a1ce6168ac8374
+SHA1: 47e6e12aa2e2ae72b5f93bb4eb67bddef62c23ef
+SHA256: bfa8fc89a077fc5704d2769a150e100a4105e5d2131d044e2c3234a5483413b7
+SHA512: 5ad0ab0b3b9b4fc6e179f6c7b5818b139a46834d7bc3ac0eb27bf0a08b2b6ea05c752a1e927924935d712c1448e39bf6e668f349d193a5af88b8f2c234e7d69a
 Homepage: https://jtisvn.github.io
 Description: Thêm nên động dạng Gif vào Dynamic island
 Name: Gif Island (Rootless)
 Author: liuf
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Gifisland.json
+Depiction: http://jtisvn.github.io/depiction/Gifisland.html
 Icon: https://jtisvn.github.io/sectionIcons/Gifisland.png
 
 Package: com.jtis.Gifisland
@@ -3553,16 +3554,17 @@ Installed-Size: 356
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, oldabi
 Filename: ./debs/com.jtis.Gifisland_1.0_iphoneos-arm64e.deb
-Size: 163620
-MD5sum: af0f2e6bbbaaf37239a2f4ec9a28c6fe
-SHA1: f15ff1c81f159d4ca7ab2b35dad7cc80e5380215
-SHA256: ebc597cb798550539c0f6fab745a516d73a7aa7e5f7a0c3cbc1ba81b85a5dcf5
-SHA512: e381fcada91c1fbf24ea2502cc71a327622488f17740ce45e7dfcc98a3b1f55bcc55f1e582485ae804888c36851a7bb6e8c61a6604c5f0d396d8b07c28b79fe3
+Size: 171208
+MD5sum: 8975fa6142f633a70423c192f3d59098
+SHA1: 6c5ffa8a8d954730d057f1c6baa660fe125ef2dd
+SHA256: 60da7227b4df255d9681064f9a0f9419906c3abc9008b4d210d5d1ef184004da
+SHA512: e7b52505e570a6de1f418c698940e20216ecd117390bbba03cb3164b69b411133dd51c522e926e47d556d1ccd0360b7715b0bc7a932537974266847bad0e1f60
 Homepage: https://jtisvn.github.io
 Description: Thêm nên động dạng Gif vào Dynamic island
-Name: Gif Island (Roothidd)
+Name: Gif Island (Roothide)
 Author: liuf
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Gifisland.json
+Depiction: http://jtisvn.github.io/depiction/Gifisland.html
 Icon: https://jtisvn.github.io/sectionIcons/Gifisland.png
 
 Package: com.jtis.Goku
@@ -16784,6 +16786,43 @@ Name: Dock X gói Việt Hoá (Roothide)
 Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
+Package: com.kitsudo.hidesnviethoa
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.kitsudo.hidesnviethoa_1.0.0_iphoneos-arm64.deb
+Size: 9768
+MD5sum: fa5656daf50b36dc1c5faf9e222cb6ca
+SHA1: 745c6334bedf0629b8809b30dabf3cf9d5834017
+SHA256: e33cfdfa4caf0be096448fe396890418ee3a9f9887ff189d18fc5b681fc0e555
+SHA512: e7ba18104387c877c96ca9e744dc47afa47361a9b72d519d795c05468d57305cf49eed6b1dd49c401a2f215a22cf99c6096af26857ff00b86474cc262eafe1dd
+Description: Thêm đầy đủ ngôn ngữ Tiếng Viet cho tweak HideSerialNumber
+Name: HideSerialNumber gói Việt Hóa
+Author: Kitsudo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.hidesnviethoa
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.kitsudo.hidesnviethoa_1.0.0_iphoneos-arm64e.deb
+Size: 13198
+MD5sum: be61ea568bba44c16297a87b4dda21de
+SHA1: ace83dd2a44e94b28d82600d9fe6ca0a66d3bf2d
+SHA256: 6c6851399518df2f2e5aeabb389a1344442fd7a6fb5a7e351f4b6f400f8ff7e6
+SHA512: 9d6bab74c488049f4409f7559bb713ddf176b1e5fb9b716be55069eea600627093f8a238cd7b67807fcbb665a0b80d262567aee1b1018e8e0d3fbfbcd794b71e
+Description: Thêm đầy đủ ngôn ngữ Tiếng Viet cho tweak HideSerialNumber
+Name: HideSerialNumber gói Việt Hóa
+Author: Kitsudo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
 Package: com.kitsudo.powerselectorvh
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -20445,22 +20484,23 @@ Icon: https://jtisvn.github.io/sectionIcons/Copylog.png
 
 Package: me.tomt000.copylog
 Architecture: iphoneos-arm64
-Version: 1.7.3
+Version: 1.7.1
 Section: Tweaks
 Maintainer: TomT000
 Installed-Size: 2240
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.0xkuj.copylogfix16
-Filename: ./debs/me.tomt000.copylog_1.7.3_iphoneos-arm64.deb
-Size: 1032916
-MD5sum: 20fbc4506bb24395fb6af5f7cf088271
-SHA1: 07fb6423429ab533c4eccbfafc64c5b087e53367
-SHA256: a2ab7c414bc19a9e47bd8a5e4031090d7d7a761961a2aa60f403cfa0ec1c509e
-SHA512: 572b4207203b19cadaec84c1c90efc9d9ff1e36ec4886ee0f840e6efcc2688aedbe28b8904a01fc4a835a09683dcc9e256de1def2e6eaaab01d095009c368605
+Filename: ./debs/me.tomt000.copylog_1.7.1_iphoneos-arm64.deb
+Size: 1036740
+MD5sum: 3c45a53e9e60165526dd0a2338a20ecd
+SHA1: 054b266a3d9bf1f4fb484d7730f68db8fa3e0fa2
+SHA256: ddb4ba49a76503160ffa2418d406785f65d6b0f14756744eacd50eac91027e7e
+SHA512: 72f0526783ee73a661744470d8c0eddfa01919c014ec4e2c91a2fe5dffdc5a3235dfddb004de2722a41e61f8a6a61cabb0d8b3dbd7b49dd27185b2c68a5f6f67
 Description: Quản lý lịch sử bảng tạm cho iOS!
 Name: CopyLog (Rootless)
 Author: TomT000
 SileoDepiction: https:/jtisvn.github.io/sileodepictions/Copylog.json
+Depiction: http://jtisvn.github.io/depiction/CopyLog.html
 Icon: https://jtisvn.github.io/sectionIcons/Copylog.png
 
 Package: me.tomt000.copylog
