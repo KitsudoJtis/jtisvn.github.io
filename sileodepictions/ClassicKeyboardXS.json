@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"ClassicKeyboardXS\n\n- Tinh chỉnh cho phép bạn điều chỉnh độ cao của phần đáy bàn phím (trên các dòng iPhone X trở lên) và thay đổi vị trí nút Quả cầu/Dictation.\n\n- **Tính năng:**\n\nn+ Hiển thị/Ẩn quả cầu trong bàn phím.\n\n+ Chỉnh chiều cao phím.\n\n+ Chỉnh chiều cao quả cầu.",
+"markdown":"ClassicKeyboardXS\n\n- Tinh chỉnh cho phép bạn điều chỉnh độ cao của phần đáy bàn phím (trên các dòng iPhone X trở lên) và thay đổi vị trí nút Quả cầu/Dictation.\n\n- Hiển thị/Ẩn quả cầu trong bàn phím.\n\n+ Chỉnh chiều cao phím.\n\n+ Chỉnh chiều cao quả cầu.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

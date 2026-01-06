@@ -205,7 +205,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.1\n\n- Thêm Hỗ trợ Roothide (make by bvn)\n\n- Khắc phục lỗi Safrmod trên 1 số thiết bị\n\n- Loại bỏ gói Xinamine AIO\n\n ### Phiên bản 1.2.3\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootfull & Rootless Jailbreak."
+"markdown":"### Phiên bản 1.2.3\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootfull & Rootless Jailbreak."
 },
 {
 "class":"DepictionLabelView",

@@ -27,7 +27,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Thêm 1 Hiển thị đày đủ ngôn ngữ Tiếng Việt trên menu tweak Aerial",
+"markdown":"\n Thêm 1 Hiển thị đày đủ ngôn ngữ Tiếng Việt trên menu tweak Aerial\n\n Yêu cầu tải gói **Legacy arm64e Support**",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

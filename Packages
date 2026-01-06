@@ -7269,6 +7269,47 @@ Author: CoolStar & Lizynz
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ClassicFolders3.json
 Icon: https://jtisvn.github.io/sectionIcons/ClassicFolders3.png
 
+Package: com.jtis.classickeyboardxs
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 1044
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.classickeyboardxs_1.1-9_iphoneos-arm64.deb
+Size: 282304
+MD5sum: 8d0b0cd61f29eb8cd2395729b697ac7b
+SHA1: a26380afeeea0a02ca9f94075511eebbc1dc8bf3
+SHA256: 1616788728a30e20e8eb6408c4783b0ecf91a18b0048cd33a073f31e1825c5be
+SHA512: 2c4392afebe2545d073c34838df147e3e01eac3d317855829637b74d43d7dafd2961883483b1059efee42096409efcffb5c28aa2b2cdc3eebd9cf14f00c1560c
+Description: Tùy chỉnh độ cao phần đáy bàn phím (dòng iPhone X), vị trí nút Quả cầu, v.v.
+Name: ClassicKeyboardXS (Rootless)
+Author: Netskao
+Depiction: http://jtisvn.github.io/depiction/ClassicKeyboardXS.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ClassicKeyboardXS.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.classickeyboardxs
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 1044
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.classickeyboardxs_1.1-9_iphoneos-arm64e.deb
+Size: 282728
+MD5sum: 618e1317a5176adfb867da3a2d057d10
+SHA1: a94c5c5a9d2ef4b243f03d8a1cdb27a6d727e87a
+SHA256: 5f85df6981346ef6245d6f4986f7d930f8add9a2d6576c0f141d11995a48af4e
+SHA512: f537d1c6f82d0311d4204f766d4a2ee9f33f2735bbbca984185123efc1d5944311dfb7aa1bce5f636d3c4368ab96fdcc26c53dca2824b53797ff0b38b2cf0dcb
+Description: Tùy chỉnh độ cao phần đáy bàn phím (dòng iPhone X), vị trí nút Quả cầu, v.v.
+Name: ClassicKeyboardXS (Roothide)
+Author: Netskao
+Depiction: http://jtisvn.github.io/depiction/ClassicKeyboardXS.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ClassicKeyboardXS.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.clockfont
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -16591,6 +16632,44 @@ Name: SquidGesturePro gói Việt Hoá
 Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
+Package: com.kitsudo.aerialviethoa
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.kitsudo.aerialviethoa_1.0.0_iphoneos-arm64.deb
+Size: 5308
+MD5sum: 0d4318857926a34e4c62cf3a1591146b
+SHA1: e8b0b7b3710959b44b141a6c1d918e6caa357041
+SHA256: e0fcd8f9abb854c22ec2d706d973a9f8fbaa36f36096e854ae7391f8c4edbe8b
+SHA512: 3922159b8f74cc6a5f6e04184a1a13116de0ab7b710eff8c7c3ca0cfe9789ddd9b00d6b4eebf55da580563f856b86f45587db887a08c67da996edbd6b8a810e0
+Description: Thêm ngôn ngữ đầy dù cho menu tweak Aerial
+Name: Aerial gói Việt Hóa (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AerialVietHoa.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.ccmusicviethoa
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.kitsudo.ccmusicviethoa_1.0.0_iphoneos-arm64.deb
+Size: 7680
+MD5sum: cab18aad1b6ecdcfb2daee032fcc483b
+SHA1: 2702c4f00a00eeacaf0f8176bf455493ba85587c
+SHA256: 33aa7e88922c59416cfdde9c23565577e812f0999534e4d466df9f7ce242b8c4
+SHA512: af3af7e0be36c1581788b5d3d8967c1fd923c655c104d4ddd22a7724f67cb57b6504f5aafb80721e163dafeb94bebba372f4e3d1ee9f96b0b8e3ac3f7daae65f
+Description: Thêm nguôn ngữ Tiếng Việt cho cài đặt tweak CCMusic
+Name: CCMusic gói Việt Hóa (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCMusicVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
 Package: com.kitsudo.choicy
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -16663,6 +16742,24 @@ SHA512: 9a3143b40e8c177162282c7c6c142c3b1678c26f1d2947a01dbd19e4cec2da28a4fe3847
 Description: Thêm ngôn ngữ Tiếng Việt cho tweak Dock X
 Name: Dock X gói Việt Hoá (Roothide)
 Author: JTISVN Repo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.powerselectorvh
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kitsudo.powerselectorvh_1.0.0_iphoneos-arm64.deb
+Size: 10244
+MD5sum: 1f9128627f892a74e62dbeba544f0fab
+SHA1: 7f08ce45dc8e6f3aa6e7ddef1180f9a50d2ccdde
+SHA256: 4019140d2b9a77a54f820bd93c4d101078d5682e71b18384b78430fa1c7dce5e
+SHA512: 0ce27c65248aaf308e87049b932c2042b4e4c4147a4ff4f5bf73bb78a40e31a93efd350b4f66db53b9948b1fd484378b41cdd981dd7aaff6fd7a6f05e9d32e00
+Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PoơerSelector
+Name: PoơerSelector gói Việt Hoá (Rootless)
+Author: KÃitsudo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.pulloverpro
