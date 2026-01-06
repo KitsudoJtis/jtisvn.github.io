@@ -10,15 +10,7 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/FolderList/Screenshots/1.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/FolderList/Screenshots/2.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/FolderList/Screenshots/3.png",
+"url":"https://jtisvn.github.io/infodeb/ClassicKeyboardXS/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -26,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"FolderList\n\n- Thay đổi giao diện hiển thị của các thư mục trên màn hình chính thành dạng danh sách cuộn dọc, tương tự như giao diện App List trên Apple Watch.\n\n- Tính năng:\n\n+ Hiển thị huy hiệu thông báo.\n\n+ Tùy chỉnh kích thước thư mục.\n\n+ Sắp xếp ứng dụng theo tên (A-Z, Z-A).\n\n+ Tùy chỉnh nền thư mục.",
+"markdown":"ClassicKeyboardXS\n\n- Tinh chỉnh cho phép bạn điều chỉnh độ cao của phần đáy bàn phím (trên các dòng iPhone X trở lên) và thay đổi vị trí nút Quả cầu/Dictation.\n\n- **Tính năng:**\n\nn+ Hiển thị/Ẩn quả cầu trong bàn phím.\n\n+ Chỉnh chiều cao phím.\n\n+ Chỉnh chiều cao quả cầu.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -61,7 +53,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "shepgoba",
+"text": "Netskao & Kitsudo",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -87,7 +79,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "11/5/2025",
+"text": "6/1/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +97,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0",
+"text": "1.1-9",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -118,7 +110,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "466,5 KB",
+"text": "1,2 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -131,7 +123,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.0 - 16.7",
+"text": "15.0 - 16.7.10",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -159,7 +151,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.1-9\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
