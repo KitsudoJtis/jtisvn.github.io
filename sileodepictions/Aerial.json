@@ -87,7 +87,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "30/12/2025",
+"text": "6/1/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "3.5",
+"text": "3.6",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 3.5\n\n- Thêm khôi phục trạng thái giai đoạn\n\n- Sửa lỗi chỉnh sửa bên ngoài khi đóng\n\n ### Phiên bản 3.1\n\n- Tinh chỉnh giao diện (chỉ các máy tai thỏ) và các cử chỉ\n\n- Cải thiện hành vi xoay màn hình và thêm khả năng lưu trạng thái\n\n- Thay đổi thao tác vuốt mở rộng\n\n- Sửa lỗi hiển thị lệch giữa thanh điều khiển và vùng nhận cảm ứng thực tế\n\n- Chế độ Split Stage giờ đây đã tính đến hiệu ứng mờ nền\n\n- Thay đổi khả năng hiển thị của nền mờ\n\n- Sửa lỗi liên quan đến tính năng né bàn phím\n\n- Thêm tùy chọn tắt tính năng né bàn phím từ menu 3D Touch\n\n- Sửa lỗi chế độ Khóa (Lock mode) khi đang ở Trim mode\n\n- Sửa lỗi kích thước _UISceneLayerHostContainerView\n\n- Tối ưu và sắp xếp lại mã nguồn\n\n ### Phiên bản 2.2.3\n\n- Thêm tính năng tự động tránh bàn phím (để nội dung không bị che)\n\n- Thêm chế độ Khóa Sân khấu(Lock Stage)\n\n- Thêm cử chỉ mới: Giờ đây bạn có thể vuốt thanh điều hướng xuống dưới để mở ứng dụng toàn màn hình\n\n- Sửa lỗi xoay bàn phím\n\n- Thay đổi hành vi cử chỉ phóng to (pinch-out): Nếu ứng dụng trước đó trùng với ứng dụng đang thao tác, sẽ thoát về Màn hình chính; nếu khác, sẽ chuyển sang ứng dụng trước đó (Các trường hợp khác -> Về Màn hình chính).\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 3.5\n\n- Sửa lỗi xoay màn hình trên iPad.\n\n- Thêm hook để ngăn lỗi crash khi giải phóng bộ nhớ.\n\n- Bổ sung 4 API Aerial mới:\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
