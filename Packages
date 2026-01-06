@@ -16651,6 +16651,26 @@ Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AerialVietHoa.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
+Package: com.kitsudo.aerialviethoa
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.kitsudo.aerialviethoa_1.0.0_iphoneos-arm64e.deb
+Size: 5480
+MD5sum: d5389be04a10616cd7238336486773f6
+SHA1: d58c330ba8c26ffff594761790805c89bab00aea
+SHA256: ff0f3e7ea8602ec1f0baa5be7d2c38810f167107640304f4fc90b9c230e225d6
+SHA512: d7d48ccec10b93e47fcf0825fbe47475db59ebb956364e5be71b9f0f2d492ff8c85e173a9fd6f5e91a2d7afa0266510bc1f75fc983e7dd0c7a8942c04ac232c9
+Description: Thêm ngôn ngữ đầy dù cho menu tweak Aerial
+Name: Aerial gói Việt Hóa (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AerialVietHoa.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
 Package: com.kitsudo.ccmusicviethoa
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -16666,6 +16686,26 @@ SHA256: 33aa7e88922c59416cfdde9c23565577e812f0999534e4d466df9f7ce242b8c4
 SHA512: af3af7e0be36c1581788b5d3d8967c1fd923c655c104d4ddd22a7724f67cb57b6504f5aafb80721e163dafeb94bebba372f4e3d1ee9f96b0b8e3ac3f7daae65f
 Description: Thêm nguôn ngữ Tiếng Việt cho cài đặt tweak CCMusic
 Name: CCMusic gói Việt Hóa (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCMusicVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.ccmusicviethoa
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.kitsudo.ccmusicviethoa_1.0.0_iphoneos-arm64e.deb
+Size: 7864
+MD5sum: 4e850ac28638ee844849f6fd55c98586
+SHA1: 69a7d7c25ebef5971af05af7a624b2953de3966a
+SHA256: 4a0278a076be5d77e9782f9215cd60268b3ca0ce4fc77049cb3c7fc88c7629a1
+SHA512: a38d05f285e88a238f3303bc7b78563e381408db63b1d6a6e677ef49300aed2349a6765be8650c538dcd2025f17c0c2c70de434e3f3936d750016607c65b5c7a
+Description: Thêm nguôn ngữ Tiếng Việt cho cài đặt tweak CCMusic
+Name: CCMusic gói Việt Hóa (Roothide)
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCMusicVH.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
@@ -16759,6 +16799,25 @@ SHA256: 4019140d2b9a77a54f820bd93c4d101078d5682e71b18384b78430fa1c7dce5e
 SHA512: 0ce27c65248aaf308e87049b932c2042b4e4c4147a4ff4f5bf73bb78a40e31a93efd350b4f66db53b9948b1fd484378b41cdd981dd7aaff6fd7a6f05e9d32e00
 Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PoơerSelector
 Name: PoơerSelector gói Việt Hoá (Rootless)
+Author: KÃitsudo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.powerselectorvh
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kitsudo.powerselectorvh_1.0.0_iphoneos-arm64e.deb
+Size: 10460
+MD5sum: 0b6a2b96ad30785b2b57f905381b65dd
+SHA1: 7d115223dc9ec405e036c19c54788c4f6dbe8629
+SHA256: cc3d4fda1d9950a7424722958ca4a3b45d066919d6c146dd623573ca7dbf3c08
+SHA512: d21fb8a2bcfcdefec7ad7ae840187940aad4633fcc54570cabdf10c33973c1a03c584d718f562dba8a8e16f77f8afbb17bd0fc3142c68683997007340cf9e10f
+Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PoơerSelector
+Name: PoơerSelector gói Việt Hoá (Roothide)
 Author: KÃitsudo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
