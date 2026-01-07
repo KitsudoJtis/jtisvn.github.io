@@ -7209,27 +7209,6 @@ Depiction: https://poomsmart.github.io/repo/depictions/chatgptweblegacycompat.ht
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ChatGPTWebLegacyCompat.json
 Icon: https://jtisvn.github.io/sectionIcons/ChatGPTWeb.png
 
-Package: com.jtis.chatgptweblegacycompat
-Architecture: iphoneos-arm64e
-Version: 1.3.12
-Section: Tweaks
-Maintainer: PoomSmart
-Installed-Size: 840
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/com.jtis.chatgptweblegacycompat_1.3.12_iphoneos-arm64e.deb
-Size: 77492
-MD5sum: 20fe06f6603581de2ca768fe507ad580
-SHA1: c3f311c55271dc8754c578054d19d2b758e9746f
-SHA256: fd79dfb13e963336e2d1e96d6c5342aaf91a4db00658005744255e6defec36e0
-SHA512: 272452e29cf0121302e736b9f90bd08003a000053a57802f1acc63d9fcb1a1b8359d6861c0f6a37c73b20af3efffef4b8d5061d49a77bfe779af7949825050ce
-Description: Giúp trang web ChatGPT hoạt động được trên iOS 15.
-Name: ChatGPTWebLegacyCompat
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/chatgptweblegacycompat.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/ChatGPTWebLegacyCompat.json
-Icon: https://jtisvn.github.io/sectionIcons/ChatGPTWeb.png
-
 Package: com.jtis.classicfolders3
 Architecture: iphoneos-arm64
 Version: 3.0.7
@@ -13516,6 +13495,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Sentinel.json
 Depiction: http://jtisvn.github.io/depiction/Sentinel.html
 Icon: https://media.havoc.app/620e286f62d8a0bb3788377a
 Name: Sentinel (Rootless)
+Author: MegaDev
+
+Package: com.jtis.sentinel
+Architecture: iphoneos-arm64e
+Version: 1.3.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.opa334.ccsupport
+Filename: ./debs/com.jtis.sentinel_1.3.2_iphoneos-arm64e.deb
+Size: 79624
+MD5sum: 1bc19b79fe85b03c40cd97ea0745966a
+SHA1: 1b066afd339c4c713e7efb084677ac63087f317b
+SHA256: 8a14e3f8fe8b0bdd8cbf243569c2389bf6f9155a28281ed79585102f87bfecc3
+SHA512: 9e2cd6354372aaf2a85e1b069d76d38a8ca7922e25647153822f426adc2e56d0d5270f50e2e8eb24938b92edf40a2dc4974104c43ff77c0d4e985b458a3fdaae
+Description: Ngắn chặn mất Jailbreak khi thiết bị của bạn hết pin hoặc sập nguồn!
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Sentinel.json
+Depiction: http://jtisvn.github.io/depiction/Sentinel.html
+Icon: https://media.havoc.app/620e286f62d8a0bb3788377a
+Name: Sentinel (Roothide)
 Author: MegaDev
 
 Package: com.jtis.settingGLcolor
