@@ -14454,17 +14454,38 @@ Section: Tweaks
 Maintainer: JTISVN Repo
 Depends: mobilesubstrate, preferenceloader, firmware (<< 17.0)
 Filename: ./debs/com.jtis.splitviewpro_1.4.2-2_iphoneos-arm64.deb
-Size: 1503976
-MD5sum: 853617382dd609e65272adebade8325b
-SHA1: b20999f3c929edf3e8c2c477c8b94674130f7b74
-SHA256: dda0d3c91c13bc378a9afb6d4e32ce3e21adcfbeb480d80fd15826bd72162e77
-SHA512: 02021e1b43cc587a7d7f9eec32b7d27d17d4a008b7cd33913ed700448e4425cb38cc7af8184172200d45b6beceeffa41a02e80cc3c96dda45c2e23bdfe480949
+Size: 1507012
+MD5sum: 408581cd5dfe5ddfb689b6dd5d7bb709
+SHA1: bceff19ae1fedd9f1374329532f90a70577547af
+SHA256: beb2c57af5ed3cd748bcc61269962fc9d5d15008930b8dfc3eb6978ea7cd42dc
+SHA512: 34e494dec7f0e327a0a0fb2e1a384545d2c261e67a69d8f9111dc53daf96b1adb571696bf33cc3b46a0626758b04e578ac176b7700bc732da08b5d48d62c440e
 Homepage: https://jtisvn.github.io/
 Description: Free multi-tasking splitscreen tweak developed by Sunshinesong.
 Depiction: https://jtisvn.github.io/depictions/Splitviewpro.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Splitviewpro.json
 Icon: https://jtisvn.github.io/sectionIcons/Splitviewpro.png
 Name: Split View Pro (Rootless)
+Author: sunshinesong
+
+Package: com.jtis.splitviewpro
+Architecture: iphoneos-arm64e
+Version: 1.4.2-2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (<< 17.0)
+Filename: ./debs/com.jtis.splitviewpro_1.4.2-2_iphoneos-arm64e.deb
+Size: 1509980
+MD5sum: 96d1d56884e373a3b465dc40836deea9
+SHA1: 31bf6929cccbe81608ca5f6a9b8b5099c5264672
+SHA256: 62d920750bf22b929196b7cdd4f2237b50e350d3fba9fbe89a083a1c70a96ff9
+SHA512: c771bc6b724299abe17923e9be48362f4536e4fabd182427910ea6822bc5ae8ebed6fd013a86679ff38d7ec6d707f95c8089642de1be479614bb902b52fedfd8
+Homepage: https://jtisvn.github.io/
+Description: Free multi-tasking splitscreen tweak developed by Sunshinesong.
+Depiction: https://jtisvn.github.io/depictions/Splitviewpro.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Splitviewpro.json
+Icon: https://jtisvn.github.io/sectionIcons/Splitviewpro.png
+Name: Split View Pro (Roothide)
 Author: sunshinesong
 
 Package: com.jtis.spotify
