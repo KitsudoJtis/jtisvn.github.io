@@ -13500,44 +13500,43 @@ Name: Scribble (Rootless)
 Author: Boo
 
 Package: com.jtis.sentinel
-Architecture: iphoneos-arm64e
-Version: 1.3.2
-Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 752
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate,ws.hbang.common,preferenceloader,com.opa334.ccsupport
-Filename: ./debs/com.jtis.sentinel_1.3.2_iphoneos-arm64e.deb
-Size: 79376
-MD5sum: 41911f20024a6baab645ec43250dec20
-SHA1: c8c383828bfdf51910dbbef585a6b2dfc2132ff8
-SHA256: 658c2c43059d63eaa51a28b4f015cd8211ddc3116258687f743aa16af329efff
-SHA512: b3a688fde446ddb0dc10d7c8da294ff6a956d71abe4f017c51db594b1fcdd13b3c3eafbaca2576a9ffb747b789413c4ff86d57501ffb2c90a0dea17ebb9aff3b
-Description: Ngắn chặn mất Jailbreak khi thiết bị của bạn hết pin hoặc sập nguồn.
-Name: Sentinel (Roothide)
-Author: MegaDev
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Sentinel.json
-Icon: https://media.havoc.app/620e286f62d8a0bb3788377a
-
-Package: com.jtis.sentinel
 Architecture: iphoneos-arm64
 Version: 1.3.2
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 752
-Depends: mobilesubstrate,ws.hbang.common,preferenceloader,com.opa334.ccsupport
-Filename: ./debs/com.jtis.sentinel_1.3.deb
-Size: 77576
-MD5sum: 6b08432641da77b414094f9bd2ac4d34
-SHA1: e3f581c3b80525b91e5b33161730dc3f8d5dba9b
-SHA256: 186fae02223ca32675998dc31d4779c48460bb844421e4f714868efaab53d5f7
-SHA512: 8fcd06e3ac289df0545c2c286a27abb893251eb930fcffa9204b0cef90e159d0aef1c7a773efe988d43f8fe5aad30ce6d1863ad4277c56939eb023921dc4421a
-Description: Ngắn chặn mất Jailbreak khi thiết bị của bạn hết pin hoặc sập nguồn.
-Name: Sentinel (Rootless)
-Author: MegaDev
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.opa334.ccsupport
+Filename: ./debs/com.jtis.sentinel_1.3.2_iphoneos-arm64.deb
+Size: 77776
+MD5sum: 6c69c5b5dfcab1cd783c6dd37f55cae0
+SHA1: fa1c8813467cae9b1d27d8bfd977cf336efd3c4c
+SHA256: 523ac49f2e622ba2812f432fa1bd17b701019f45f012dd483b63763e29deb5e4
+SHA512: 5827acfa05eedd557b645c9a66e25e4420f605606eb8b8e7d6c6f0c70944b933107e362bafcb69d0d37798a1a4fc6ea347a41286f179c835858163e3deb353a2
+Description: Ngắn chặn mất Jailbreak khi thiết bị của bạn hết pin hoặc sập nguồn!
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Sentinel.json
 Depiction: http://jtisvn.github.io/depiction/Sentinel.html
 Icon: https://media.havoc.app/620e286f62d8a0bb3788377a
+Name: Sentinel (Rootless)
+Author: MegaDev
+
+Package: com.jtis.sentinel
+Architecture: iphoneos-arm64e
+Version: 1.3.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.opa334.ccsupport
+Filename: ./debs/com.jtis.sentinel_1.3.2_iphoneos-arm64e.deb
+Size: 79624
+MD5sum: 1bc19b79fe85b03c40cd97ea0745966a
+SHA1: 1b066afd339c4c713e7efb084677ac63087f317b
+SHA256: 8a14e3f8fe8b0bdd8cbf243569c2389bf6f9155a28281ed79585102f87bfecc3
+SHA512: 9e2cd6354372aaf2a85e1b069d76d38a8ca7922e25647153822f426adc2e56d0d5270f50e2e8eb24938b92edf40a2dc4974104c43ff77c0d4e985b458a3fdaae
+Description: Ngắn chặn mất Jailbreak khi thiết bị của bạn hết pin hoặc sập nguồn!
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Sentinel.json
+Depiction: http://jtisvn.github.io/depiction/Sentinel.html
+Icon: https://media.havoc.app/620e286f62d8a0bb3788377a
+Name: Sentinel (Roothide)
+Author: MegaDev
 
 Package: com.jtis.settingGLcolor
 Architecture: iphoneos-arm64
