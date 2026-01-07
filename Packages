@@ -14449,41 +14449,22 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Speedy.json
 
 Package: com.jtis.splitviewpro
 Architecture: iphoneos-arm64
-Version: 1.1.6
+Version: 1.4.2-2
 Section: Tweaks
 Maintainer: JTISVN Repo
-Depends: mobilesubstrate, preferenceloader, com.sunshinesong.split-view-pro-helper (>= 999.1)
-Filename: ./debs/com.jtis.splitviewpro_1.1.6_iphoneos-arm64.deb
-Size: 3484240
-MD5sum: e94e37b4e90c64d9988c0e0b1c0dbfb2
-SHA1: b9ab251b06f627410dfff3a070d7825f9f40baa1
-SHA256: 7d783bbdb218e9901496384c03e0813626816be72bb381b6e9583a758c0d44b5
-SHA512: 689da025d8e2bc736d79dd2baaff32e99d7d1090d64620ac4ecbb9f25d0785d51b93fd442653f1648579332f3b83aeb9acdf4a25166787b6b40446808378827c
-Description: Tinh chỉnh chia đôi màn hình đa nhiệm miễn phí được phát triển bởi Sunshine Song.
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Splitviewpro.json
+Depends: mobilesubstrate, preferenceloader, firmware (<< 17.0)
+Filename: ./debs/com.jtis.splitviewpro_1.4.2-2_iphoneos-arm64.deb
+Size: 1503976
+MD5sum: 853617382dd609e65272adebade8325b
+SHA1: b20999f3c929edf3e8c2c477c8b94674130f7b74
+SHA256: dda0d3c91c13bc378a9afb6d4e32ce3e21adcfbeb480d80fd15826bd72162e77
+SHA512: 02021e1b43cc587a7d7f9eec32b7d27d17d4a008b7cd33913ed700448e4425cb38cc7af8184172200d45b6beceeffa41a02e80cc3c96dda45c2e23bdfe480949
+Homepage: https://jtisvn.github.io/
+Description: Free multi-tasking splitscreen tweak developed by Sunshinesong.
 Depiction: https://jtisvn.github.io/depictions/Splitviewpro.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Splitviewpro.json
 Icon: https://jtisvn.github.io/sectionIcons/Splitviewpro.png
 Name: Split View Pro (Rootless)
-Author: sunshinesong
-
-Package: com.jtis.splitviewpro
-Architecture: iphoneos-arm64e
-Version: 1.1.6
-Section: Tweaks
-Maintainer: JTISVN Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, com.sunshinesong.split-view-pro-helper (>= 999.1)
-Filename: ./debs/com.jtis.splitviewpro_1.1.6_iphoneos-arm64e.deb
-Size: 3415700
-MD5sum: 1c8afed3bef3161d827ca6898b35128c
-SHA1: ef3326b650e11f35f32dd6107e87e6e176861af5
-SHA256: 12778dfc48c80c4ce112d7e6512162b7d5d5e22cc221a219a6670bc86d76c308
-SHA512: 7cf99ae1d9b3524c3e42635b96087da580577099fd4d40705a792654fe9d1ebb24dcee23472819e9ed69bd2a1d59e9fdf7aaa522dfdc801d47f38ab3b27a9b9a
-Description: Tinh chỉnh chia đôi màn hình đa nhiệm miễn phí được phát triển bởi Sunshine Song.
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Splitviewpro.json
-Depiction: https://jtisvn.github.io/depictions/Splitviewpro.html
-Icon: https://jtisvn.github.io/sectionIcons/Splitviewpro.png
-Name: Split View Pro (Roothide)
 Author: sunshinesong
 
 Package: com.jtis.spotify
@@ -19295,12 +19276,12 @@ Maintainer: sunshinesong
 Installed-Size: 13792
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
 Filename: ./debs/com.sunshinesong.split-view-pro-helper_999.1_iphoneos-arm64.deb
-Size: 1444
-MD5sum: d6396dc0b743f8477e317a936c65ea33
-SHA1: cf1ddcb382ee18dd37dd3bc2ae21257a208d9b63
-SHA256: ae4826adaf297d196ca3b1726bf9c7e765b18620f8896810609ed0103a2965e7
-SHA512: bd3a065e84d5e2cc545468fc8005aa659cc78269c40706450470ec72ce399294e218083f77a4eef35055a857f7ec0d13ccf8aac6993bf6995542bf22b1976201
-Description: Chia màn hình không cần quá phức tạp, chỉ cần giữ mọi thứ đơn giản.
+Size: 1412
+MD5sum: ec4f127eab9ea0b9b5bfe901f45db902
+SHA1: 8b82b8050ca9767d256b72e88e4a9eaf7c1d37bb
+SHA256: 5b0086a3739635c184015ea93018159269b75e447dacfbbd436ab2da8e4173f0
+SHA512: ae39137787545e77ec1e3d3b001c30476af30c84f8ccd4e7143322819074d6c86bdc48362c0946bff850f006b493c323dbb81768efad309c84bc278e76b4ddab
+Description: 分屏，不必太复杂，一切从简即可。
 Name: split-view-pro helper
 Author: sunshinesong
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
@@ -19315,12 +19296,12 @@ Installed-Size: 13792
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
 Filename: ./debs/com.sunshinesong.split-view-pro-helper_999.1_iphoneos-arm64e.deb
-Size: 1008
-MD5sum: 9529bfa0277aec7e882bb9aea01ccebf
-SHA1: 30e634908dca21be02e925bb188f3144ccf5988a
-SHA256: 2a5c54fba4ea46165f0f1424e24661617437d06376dd3f4afe803a7baaf80935
-SHA512: a4924b3257c532097d8dc903d97a4166d86768815ee8338e711097dad6e5ba1124a459ebfb1875982c862b643865c5b3c9958346a452650bf6c5a37de1437425
-Description: Chia màn hình không cần quá phức tạp, chỉ cần giữ mọi thứ đơn giản.
+Size: 1864
+MD5sum: 906cf78499c8c65f879545b203e57243
+SHA1: 36371a47492477d42d3711d5b9af9c4ab262c11a
+SHA256: ed0883a2e829934122881e7d06fdf8b547a3c965d3ef3a4e19aaf3d2ba074a61
+SHA512: d322f3f87024515a3b5086d797a82136c3821c8ab16a48e94e65ebf563112ded473714c5c3ff0a676d157e392ce2b78c27d620f6b5c995bc1d0ca92f363263c6
+Description: 分屏，不必太复杂，一切从简即可。
 Name: split-view-pro helper
 Author: sunshinesong
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png

@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Split View Pro\n\n- Một tinh chỉnh chia đôi màn hình miễn phí.",
+"markdown":"Split View Pro\n\n- Một tinh chỉnh chia đôi màn hình miễn phí.\n\n- Yêu cầu tải gói **Legacy arm64e Support và split-view-pro helper** trước khi cài đặt tweak này.\n\n- Chỉ hỗ trợ thiết bị chạy chip A12 trở lên",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -83,7 +83,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "8/3/2025",
+"text": "7/1/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -101,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1.6",
+"text": "1.4.2-2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -114,7 +114,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "13,5 MB",
+"text": "5,6 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -155,7 +155,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"###  Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"###  Phiên bản 1.4.2-2\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
