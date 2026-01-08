@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/Appdata.png",
-"tintColor":"#3399FF",
+"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"tintColor":"#339999",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -11,11 +11,11 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Appdataplus/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/BackgroundCaller/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Appdataplus/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/BackgroundCaller/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -23,7 +23,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Trình quản lý xem và truy cập dữ liệu ứng dụng của bạn bằng cách vuốt lên biểu tượng từ màn hình chính\n\n- Chức năng gồm có:\n\n- Hạ cấp và chỉnh sửa tên ứng dụng.\n\n- Xem phiên bản và sao chép Bundle ID ứng dụng.\n\n- Kiểm tra kích thước, dữ liệu và bộ đệm ứng dụng.\n\n- Đặt lại quyền, xoá dữ liệu và bộ nhớ đệm ứng dụng.\n\n- Truy cập nhanh các nhóm gọi ứng dụng và vùng chứa úng dụng.",
+"markdown":"BackgroundCaller\n\n- Tinh chỉnh cho phép bạn chọn Video từ ứng dụng Ảnh làm nên cho cuộc gói đến.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -58,7 +58,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Fouad Raheb & Netskao",
+"text": "Kitsudo",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -84,7 +84,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "7/7/2025",
+"text": "8/1/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -102,7 +102,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.4.0",
+"text": "1.0.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -115,7 +115,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "13 MB",
+"text": "529,4 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -128,7 +128,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15.0 - 16.6.1",
+"text": "15.0 - 17.0",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -156,7 +156,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.4.0\n\n- Sửa lỗi\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.0.0\n\n- Phát hành lần đầu\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
@@ -177,7 +177,7 @@
 {
 "class":"DepictionTableButtonView",
 "title": "Nhóm Telegram",
-"action": "https://t.me/jailbreaktrolliossupport"
+"action": "https://t.me/jailbreaktrolliossupportt"
 },
 {
 "class":"DepictionTableButtonView",
