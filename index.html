@@ -21,44 +21,59 @@
                         sans: ['Nunito', 'sans-serif'],
                     },
                     colors: {
-                        'dark-bg': '#0B0B15', /* ĐÃ THÊM: Màu nền giống code Donate */
+                        'dark-bg': '#0B0B15',
                         zinc: {
-                            850: '#1f1f22', /* Màu nền thẻ tối hơn chút */
+                            850: '#1f1f22',
+                        }
+                    },
+                    animation: {
+                        'fade-down': 'fadeDown 0.8s ease-out',
+                        'fade-up': 'fadeUp 0.8s ease-out 0.1s backwards',
+                        'blob': 'blob 7s infinite',
+                    },
+                    keyframes: {
+                        fadeDown: { '0%': { opacity: '0', transform: 'translateY(-20px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+                        fadeUp: { '0%': { opacity: '0', transform: 'translateY(20px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+                        blob: {
+                            '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                            '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                            '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                            '100%': { transform: 'translate(0px, 0px) scale(1)' }
                         }
                     }
                 }
             }
         }
     </script>
-    
-    <style>
-        /* Chỉ giữ lại animation vì Tailwind mặc định không có keyframes phức tạp */
-        @keyframes fadeDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
-        @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-        .animate-fade-down { animation: fadeDown 0.6s ease-out; }
-        .animate-fade-up { animation: fadeUp 0.6s ease-out 0.1s backwards; }
-        .delay-100 { animation-delay: 0.1s; }
-    </style>
 </head>
 
-<body class="bg-dark-bg text-white font-sans antialiased min-h-screen flex flex-col items-center p-4 sm:p-6">
+<body class="bg-dark-bg text-white font-sans antialiased min-h-screen flex flex-col items-center p-4 sm:p-6 overflow-x-hidden relative selection:bg-pink-500 selection:text-white">
 
-    <div id="toast" class="fixed top-5 left-1/2 -translate-x-1/2 opacity-0 transition-opacity duration-300 z-50 pointer-events-none">
+    <div class="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
+        <div class="absolute top-0 left-[-10%] w-[500px] h-[500px] bg-purple-600/20 rounded-full mix-blend-screen filter blur-[100px] opacity-50 animate-blob transform-gpu"></div>
+        <div class="absolute top-[20%] right-[-10%] w-[400px] h-[400px] bg-pink-600/20 rounded-full mix-blend-screen filter blur-[100px] opacity-50 animate-blob animation-delay-2000 transform-gpu"></div>
+        <div class="absolute bottom-[-10%] left-[20%] w-[600px] h-[600px] bg-blue-600/10 rounded-full mix-blend-screen filter blur-[100px] opacity-30 animate-blob animation-delay-4000 transform-gpu"></div>
+    </div>
+
+    <div id="toast" class="fixed top-5 left-0 right-0 flex justify-center opacity-0 transition-opacity duration-300 z-50 pointer-events-none">
         <div class="bg-white/10 backdrop-blur-md border border-white/10 text-white px-4 py-2 rounded-full shadow-2xl font-semibold flex items-center gap-2 text-sm">
             <i class="fa-solid fa-check text-green-400"></i> Đã sao chép!
         </div>
     </div>
 
-    <div class="w-full max-w-2xl mx-auto flex flex-col h-full">
+    <div class="w-full max-w-2xl mx-auto flex flex-col h-full relative z-10">
         
         <header class="flex flex-col items-center justify-center mt-8 mb-8 text-center animate-fade-down">
-            <img src="https://jtisvn.github.io/icons/apps/avatar.webp" alt="JTISVN" class="w-24 h-24 rounded-[1.2rem] shadow-2xl mb-4 border border-white/10">
+            <div class="relative group mb-6">
+                <div class="absolute -inset-1 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full opacity-60 blur group-hover:opacity-100 transition duration-500"></div>
+                <img src="https://jtisvn.github.io/icons/apps/avatar.webp" alt="JTISVN" class="relative w-24 h-24 rounded-full shadow-2xl border border-white/10 bg-black object-cover transition-transform duration-700 ease-in-out hover:rotate-[360deg]">
+            </div>
             
             <h1 class="text-3xl font-extrabold tracking-tight">JTISVN Repo</h1>
-            <p class="text-gray-400 text-sm mt-1 font-medium">Kho Tweak & IPA Việt Hóa</p>
+            <p class="text-gray-400 text-sm mt-1 font-medium">Chào mừng bạn đến với JTISVN<br>Kho lưu trữ Tweak hữu ích và Việt Hóa cho cộng đồng Jailbreak iOS<br>Hỗ trợ đầy đủ Rootfull, Rootless & Roothide</p>
             
             <div class="mt-6 w-full max-w-sm" onclick="copyRepoLink()">
-                <div class="bg-zinc-900 border border-zinc-800 rounded-xl p-3 flex items-center justify-between active:scale-95 transition-transform duration-100 cursor-pointer group hover:border-zinc-700">
+                <div class="bg-zinc-900/80 backdrop-blur-md border border-zinc-800 rounded-xl p-3 flex items-center justify-between active:scale-95 transition-transform duration-100 cursor-pointer group hover:border-zinc-700">
                     <div class="flex items-center gap-3 overflow-hidden">
                         <div class="w-8 h-8 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-500 shrink-0">
                             <i class="fa-solid fa-link text-xs"></i>
@@ -71,19 +86,19 @@
         </header>
 
         <section class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8 animate-fade-up">
-            <a href="cydia://source/https://jtisvn.github.io" class="flex items-center justify-center w-full py-3.5 rounded-2xl font-bold text-[0.95rem] bg-white text-black hover:bg-gray-200 transition-transform active:scale-95 active:brightness-90">
+            <a href="cydia://source/https://jtisvn.github.io" class="flex items-center justify-center w-full py-3.5 rounded-2xl font-bold text-[0.95rem] bg-white text-black hover:bg-gray-200 transition-transform active:scale-95 active:brightness-90 shadow-lg shadow-white/5">
                 <i class="fa-solid fa-plus mr-2"></i> Thêm vào Cydia
             </a>
 
-            <a href="sileo://source/https://jtisvn.github.io" class="flex items-center justify-center w-full py-3.5 rounded-2xl font-bold text-[0.95rem] bg-zinc-800 text-blue-400 border border-zinc-700 hover:bg-zinc-700 transition-transform active:scale-95 active:brightness-90">
+            <a href="sileo://source/https://jtisvn.github.io" class="flex items-center justify-center w-full py-3.5 rounded-2xl font-bold text-[0.95rem] bg-zinc-800/80 backdrop-blur-md text-blue-400 border border-zinc-700 hover:bg-zinc-700 transition-transform active:scale-95 active:brightness-90">
                 <i class="fa-solid fa-bolt mr-2"></i> Thêm vào Sileo
             </a>
 
-            <a href="zbra://sources/https://jtisvn.github.io" class="flex items-center justify-center w-full py-3.5 rounded-2xl font-bold text-[0.95rem] bg-zinc-800 text-white border border-zinc-700 hover:bg-zinc-700 transition-transform active:scale-95 active:brightness-90">
+            <a href="zbra://sources/https://jtisvn.github.io" class="flex items-center justify-center w-full py-3.5 rounded-2xl font-bold text-[0.95rem] bg-zinc-800/80 backdrop-blur-md text-white border border-zinc-700 hover:bg-zinc-700 transition-transform active:scale-95 active:brightness-90">
                 <i class="fa-solid fa-bars-staggered mr-2"></i> Thêm vào Zebra
             </a>
 
-            <a href="https://jtisvn.github.io/homepage/ipa/page.html" class="flex items-center justify-center w-full py-3.5 rounded-2xl font-bold text-[0.95rem] bg-zinc-800 text-pink-400 border border-zinc-700 hover:bg-zinc-700 transition-transform active:scale-95 active:brightness-90">
+            <a href="https://jtisvn.github.io/homepage/ipa/page.html" class="flex items-center justify-center w-full py-3.5 rounded-2xl font-bold text-[0.95rem] bg-zinc-800/80 backdrop-blur-md text-pink-400 border border-zinc-700 hover:bg-zinc-700 transition-transform active:scale-95 active:brightness-90">
                 <i class="fa-brands fa-apple mr-2"></i> Kho IPA
             </a>
         </section>
@@ -91,14 +106,14 @@
         <section class="mb-8 animate-fade-up delay-100">
             <h2 class="text-lg font-bold mb-3 px-1 text-gray-200">Thông Tin Liên Hệ</h2>
             
-            <div class="bg-zinc-900 rounded-2xl border border-zinc-800 overflow-hidden">
+            <div class="bg-zinc-900/80 backdrop-blur-md rounded-2xl border border-zinc-800 overflow-hidden">
                 
                 <a href="https://www.facebook.com/jtisvnrepo?locale=vi_VN" target="_blank" class="p-3.5 flex items-center gap-4 border-b border-zinc-800 hover:bg-zinc-800/50 active:bg-zinc-800 transition-colors cursor-pointer group">
                     <div class="w-10 h-10 rounded-xl bg-[#1877F2] flex items-center justify-center text-white text-xl shrink-0">
                         <i class="fa-brands fa-facebook-f"></i>
                     </div>
                     <div class="flex-1 min-w-0">
-                        <h3 class="font-bold text-sm text-white truncate">Theo dõi Trang Page</h3>
+                        <h3 class="font-bold text-sm text-white truncate">Theo dõi Trang Fanpage</h3>
                         <p class="text-xs text-gray-500 truncate">Cập nhật tin tức mới nhất</p>
                     </div>
                     <i class="fa-solid fa-chevron-right text-gray-600 text-xs group-hover:text-white transition-colors"></i>
@@ -121,7 +136,7 @@
                     </div>
                     <div class="flex-1 min-w-0">
                         <h3 class="font-bold text-sm text-white truncate">Kho Dylib</h3>
-                        <p class="text-xs text-gray-500 truncate">Thư viện Dylib Việt hóa</p>
+                        <p class="text-xs text-gray-500 truncate">Thư viện Dylib Mod Apps & Việt hóa</p>
                     </div>
                     <i class="fa-solid fa-chevron-right text-gray-600 text-xs group-hover:text-white transition-colors"></i>
                 </a>
@@ -129,33 +144,64 @@
             </div>
 
             <div class="mt-8 text-center">
-                 <a href="https://jtisvn.github.io/homepage/donate/donate.html" class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full border border-pink-500/30 bg-pink-500/10 text-pink-400 font-bold text-sm hover:bg-pink-500 hover:text-white transition-all duration-300 active:scale-95">
-                    <i class="fa-solid fa-heart animate-pulse"></i> Ủng hộ
+                 <a href="https://jtisvn.github.io/homepage/donate/donate.html" class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full border border-pink-500/30 bg-pink-500/10 text-pink-400 font-bold text-sm hover:bg-pink-500 hover:text-white transition-all duration-300 active:scale-95 shadow-lg shadow-pink-500/20">
+                    <i class="fa-solid fa-heart animate-pulse"></i> Ủng hộ tôi
                  </a>
             </div>
         </section>
 
-        <footer class="mt-auto pt-8 pb-4 text-center border-t border-zinc-800">
+        <footer class="mt-auto pt-8 pb-4 text-center border-t border-white/5">
             <div class="flex justify-center gap-6 mb-4 text-gray-400">
                 <a href="https://t.me/jtisvn" class="hover:text-blue-400 text-xl transition-colors"><i class="fab fa-telegram"></i></a>
                 <a href="https://www.facebook.com/hieu.kitsudo" class="hover:text-blue-600 text-xl transition-colors"><i class="fab fa-facebook"></i></a>
                 <a href="https://github.com/jtisvn" class="hover:text-white text-xl transition-colors"><i class="fab fa-github"></i></a>
             </div>
-            <p class="text-xs text-zinc-600 font-medium">© 2025 JTISVN Repo • Kitsudo</p>
+            <p class="text-xs text-zinc-500 font-medium">Copyright © 2025 - 2030 Kitsudo • JTISVN</p>
         </footer>
 
     </div>
 
     <script>
         function copyRepoLink() {
-            const linkText = document.getElementById("repo-url").innerText;
-            navigator.clipboard.writeText(linkText).then(() => {
+            const repoUrl = document.getElementById("repo-url").innerText;
+            
+            function showToast() {
                 const toast = document.getElementById('toast');
                 toast.classList.remove('opacity-0');
                 setTimeout(() => {
                     toast.classList.add('opacity-0');
                 }, 2000);
-            });
+            }
+
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(repoUrl).then(() => {
+                    showToast();
+                }).catch(err => {
+                    fallbackCopy(repoUrl);
+                });
+            } else {
+                fallbackCopy(repoUrl);
+            }
+
+            function fallbackCopy(text) {
+                const textArea = document.createElement("textarea");
+                textArea.value = text;
+                textArea.style.position = "fixed";
+                textArea.style.left = "-9999px";
+                textArea.style.top = "0";
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                textArea.setSelectionRange(0, 99999); 
+
+                try {
+                    const successful = document.execCommand('copy');
+                    if(successful) showToast();
+                } catch (err) {
+                    console.error('Lỗi copy thủ công: ', err);
+                }
+                document.body.removeChild(textArea);
+            }
         }
     </script>
 </body>
