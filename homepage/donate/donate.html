@@ -2,158 +2,165 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Ủng Hộ JTISVN</title>
     
     <meta name="google-site-verification" content="UvCQ1cyCw8prMQgwGKNOLe_ChzDAtR7Kz05jAvuxrQQ" />
-
     <meta name="description" content="Ủng hộ JTISVN Repo - Chung tay phát triển cộng đồng Jailbreak iOS Việt Nam.">
-    <meta name="keywords" content="Donate JTISVN, Ủng hộ Kitsudo, Jailbreak iOS, Tweak Việt Hóa">
-    <meta name="author" content="Kitsudo - JTISVN">
     
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="icon" href="https://raw.githubusercontent.com/jtisvn/jtisvn.github.io/master/icons/favicon.ico" type="image/x-icon">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <style>
-        .copy-feedback { color: #4ade80 !important; }
-    </style>
-</head>
-<body class="bg-gray-900 font-sans min-h-screen" data-theme="dark">
+    <link rel="icon" href="https://raw.githubusercontent.com/jtisvn/jtisvn.github.io/master/icons/favicon.ico" type="image/x-icon">
     
-    <div class="background-animation" style="background-image: url('https://files.catbox.moe/6k1mqj.jpeg');"></div>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Nunito', 'sans-serif'] },
+                    colors: {
+                        'dark-bg': '#0B0B15',
+                        'glass-dark': 'rgba(20, 20, 30, 0.6)',
+                        'glass-border': 'rgba(255, 255, 255, 0.08)',
+                    },
+                    animation: {
+                        'fade-down': 'fadeDown 0.8s ease-out',
+                        'fade-up': 'fadeUp 0.8s ease-out 0.1s backwards',
+                        'blob': 'blob 7s infinite',
+                    },
+                    keyframes: {
+                        fadeDown: { '0%': { opacity: '0', transform: 'translateY(-20px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+                        fadeUp: { '0%': { opacity: '0', transform: 'translateY(20px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+                        blob: {
+                            '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                            '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                            '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                            '100%': { transform: 'translate(0px, 0px) scale(1)' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
 
-    <div id="copy-toast" class="copy-toast">
-        <p><i class="fas fa-check-circle mr-2"></i> Đã sao chép!</p>
+<body class="bg-dark-bg text-white font-sans antialiased min-h-screen flex flex-col items-center p-4 sm:p-6 overflow-x-hidden selection:bg-pink-500 selection:text-white relative">
+
+    <div class="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
+        <div class="absolute top-0 left-[-10%] w-[500px] h-[500px] bg-purple-600/20 rounded-full mix-blend-screen filter blur-[100px] opacity-50 animate-blob transform-gpu"></div>
+        <div class="absolute top-[20%] right-[-10%] w-[400px] h-[400px] bg-pink-600/20 rounded-full mix-blend-screen filter blur-[100px] opacity-50 animate-blob animation-delay-2000 transform-gpu"></div>
+        <div class="absolute bottom-[-10%] left-[20%] w-[600px] h-[600px] bg-blue-600/10 rounded-full mix-blend-screen filter blur-[100px] opacity-30 animate-blob animation-delay-4000 transform-gpu"></div>
     </div>
 
-    <div class="main-container mx-auto">
-        <main class="container mx-auto px-4 py-8">
-            <div class="flex flex-col items-center justify-center text-center mb-8">
-                
-                <div class="nav-container">
-                    <a href="https://jtisvn.github.io/homepage/ipa/page.html">Kho IPA</a>
-                    <a href="https://jtisvn.github.io/">Trang chủ</a>
-                    <a href="https://jtisvn.github.io/homepage/dylibrary/dylib.html">Kho Dylib</a>
-                    <button id="theme-toggle-btn" class="nav-button theme-toggle-button">
-                        <i class="fas fa-sun" id="theme-icon"></i>
-                    </button>
-                </div>
+    <div id="copy-toast" class="fixed top-5 left-1/2 -translate-x-1/2 opacity-0 transition-opacity duration-300 z-50 pointer-events-none">
+        <div class="bg-white/10 backdrop-blur-xl border border-white/10 text-white px-5 py-2.5 rounded-full shadow-2xl font-bold flex items-center gap-2 text-sm">
+            <i class="fa-solid fa-check text-green-400"></i> Đã sao chép!
+        </div>
+    </div>
 
-                <img src="https://jtisvn.github.io/icons/apps/avatar.webp" alt="Avatar" class="avatar">
-                
-                <div class="flex flex-col items-center space-y-2 mt-4">
-                    <h1 class="text-4xl font-bold text-animate-gradient">JTISVN REPO</h1>
-                </div>
-                
-                <p class="text-xl max-w-2xl mx-auto mt-4 description-text">
-                    Nhận mua hộ Tweak có phí của Havoc và niceOS<br>Hoặc ủng hộ qua số tài khoản & quét mã QR bên dưới<br> 
-                    <span class="text-sm opacity-75">(Lưu ý: Nhớ ghi rõ nội dung, mục đích khi thanh toán nha!)</span>
-                </p>
+    <div class="w-full max-w-2xl mx-auto flex flex-col h-full relative z-10">
+        
+        <header class="flex flex-col items-center justify-center mt-8 mb-8 text-center animate-fade-down">
+            
+            <div class="inline-flex justify-center items-center bg-glass-dark backdrop-blur-xl border border-glass-border rounded-full p-1.5 mb-8 shadow-lg gap-1">
+                <a href="https://jtisvn.github.io/homepage/ipa/page.html" class="px-5 py-2 rounded-full font-bold text-sm text-gray-300 hover:bg-white/10 hover:text-white transition-all">Kho IPA</a>
+                <a href="https://jtisvn.github.io/" class="px-5 py-2 rounded-full font-bold text-sm text-gray-300 hover:bg-white/10 hover:text-white transition-all">Trang chủ</a>
+                <a href="https://jtisvn.github.io/homepage/dylibrary/dylib.html" class="px-5 py-2 rounded-full font-bold text-sm text-gray-300 hover:bg-white/10 hover:text-white transition-all">Kho Dylib</a>
             </div>
 
-            <div class="social-buttons-grid mt-8">
-                <a href="https://t.me/Kitsudo" class="btn-neon btn-dark">
-                    <i class="fab fa-telegram-plane text-xl text-blue-400"></i> 
-                    <span>Liên hệ Telegram</span>
-                </a>
-                <a href="https://www.facebook.com/hieu.kitsudo?locale=vi_VN" class="btn-neon btn-dark">
-                    <i class="fab fa-facebook-f text-xl text-blue-600"></i> 
-                    <span>Liên hệ Facebook</span>
-                </a>
-            </div>
-
-            <div class="payment-buttons-grid-vertical mt-8">
-                <div class="payment-item">
-                    <div class="payment-main-content">
-                        <div class="payment-info-block">
-                            <p class="bank-name text-blue-300">Ngân hàng TMCP Á Châu (ACB)</p>
-                            <p class="account-owner">Chủ TK: NGUYEN TRUNG HIEU</p>
-                            <div class="account-info-row">
-                                <p class="account-number" id="acb-account-number">20219691</p>
-                                <button class="copy-btn-mini" onclick="copyToClipboard('acb-account-number', event)">
-                                    <i class="fas fa-copy"></i> Sao chép
-                                </button>
-                            </div>
-                        </div>
-                        <img src="https://jtisvn.github.io/icons/apps/qr.webp" alt="QR Code" class="payment-qr-code">
-                    </div>
-                </div>
-
-                <div class="payment-item">
-                    <div class="payment-main-content">
-                        <div class="payment-info-block">
-                            <p class="bank-name text-pink-400">Ngân hàng TMCP Bản Việt (MoMo)</p>
-                            <p class="account-owner">Chủ TK: NGUYEN TRUNG HIEU</p>
-                            <div class="account-info-row">
-                                <p class="account-number" id="momo-account-number">99MM24041M46376294</p>
-                                <button class="copy-btn-mini" onclick="copyToClipboard('momo-account-number', event)">
-                                    <i class="fas fa-copy"></i> Sao chép
-                                </button>
-                            </div>
-                        </div>
-                        <img src="https://jtisvn.github.io/icons/apps/qr2.webp" alt="QR Code" class="payment-qr-code">
-                    </div>
-                </div>
-            </div>
-
-            <div class="text-center mt-12 px-4">
-                <p class="thank-you-message description-text">Sự ủng hộ của bạn là động lực to lớn để JTISVN tiếp tục phát triển. Xin chân thành cảm ơn!</p>
+            <div class="relative group mb-6">
+                <div class="absolute -inset-1 bg-gradient-to-br from-cyan-400 to-purple-600 rounded-full opacity-60 blur group-hover:opacity-100 transition duration-500"></div>
+                <img src="https://jtisvn.github.io/icons/apps/avatar.webp" alt="Avatar" class="relative w-32 h-32 rounded-full object-cover border-4 border-white/10 bg-black shadow-2xl group-hover:rotate-[360deg] transition-transform duration-700 ease-in-out">
             </div>
             
-            <div class="copyright-container mt-8 text-center text-sm">
-                <p class="mb-4">Copyright © 2025 - 2030 By: KITSUDO - JTISVN. All rights reserved.</p>
+            <h1 class="text-4xl font-extrabold tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-white to-purple-400 drop-shadow-lg">
+                JTISVN REPO
+            </h1>
+            
+            <p class="text-lg text-gray-300 max-w-xl leading-relaxed font-medium">
+                Nhận mua hộ Tweak có phí của Havoc và niceOS<br>
+                Hoặc ủng hộ qua số tài khoản & quét mã QR bên dưới
+            </p>
+            <p class="text-sm text-gray-500 mt-2 italic">(Lưu ý: Nhớ ghi rõ nội dung, mục đích khi thanh toán nha!)</p>
+        </header>
+
+        <section class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full mb-8 animate-fade-up">
+            <a href="https://t.me/Kitsudo" class="flex items-center justify-center p-4 rounded-2xl font-bold text-base bg-glass-dark border border-glass-border backdrop-blur-xl text-gray-200 shadow-lg hover:border-blue-500/50 hover:bg-blue-500/10 hover:text-white transition-all group">
+                <i class="fab fa-telegram-plane text-2xl text-blue-400 mr-3 group-hover:scale-110 transition-transform"></i> 
+                <span>Liên hệ Telegram</span>
+            </a>
+            <a href="https://www.facebook.com/hieu.kitsudo?locale=vi_VN" class="flex items-center justify-center p-4 rounded-2xl font-bold text-base bg-glass-dark border border-glass-border backdrop-blur-xl text-gray-200 shadow-lg hover:border-blue-600/50 hover:bg-blue-600/10 hover:text-white transition-all group">
+                <i class="fab fa-facebook-f text-2xl text-blue-600 mr-3 group-hover:scale-110 transition-transform"></i> 
+                <span>Liên hệ Facebook</span>
+            </a>
+        </section>
+
+        <section class="flex flex-col gap-6 w-full mb-10 animate-fade-up delay-100">
+            
+            <div class="bg-glass-dark border border-glass-border backdrop-blur-xl rounded-3xl p-6 shadow-xl hover:border-blue-400/30 hover:shadow-blue-500/10 transition-all duration-300 group">
+                <div class="flex justify-between items-start mb-4">
+                    <div>
+                        <h3 class="text-blue-400 font-extrabold text-lg uppercase tracking-wide mb-1">Ngân hàng ACB</h3>
+                        <p class="text-gray-400 text-sm font-semibold">Chủ TK: NGUYEN TRUNG HIEU</p>
+                    </div>
+                    <img src="https://jtisvn.github.io/icons/apps/qr.webp" alt="ACB QR" class="w-16 h-16 rounded-xl border border-white/10 group-hover:scale-105 transition-transform bg-white/5">
                 </div>
-        </main>
+                
+                <div class="bg-black/30 rounded-xl p-3 flex items-center justify-between border border-white/5">
+                    <span id="acb-account" class="font-mono text-xl font-bold text-white tracking-widest pl-2">20219691</span>
+                    <button onclick="copyToClipboard('acb-account')" class="bg-white/10 hover:bg-blue-500 hover:text-white text-gray-300 p-2 px-4 rounded-lg transition-all text-sm font-bold uppercase tracking-wider flex items-center gap-2">
+                        <i class="fa-regular fa-copy"></i> Sao chép
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-glass-dark border border-glass-border backdrop-blur-xl rounded-3xl p-6 shadow-xl hover:border-pink-400/30 hover:shadow-pink-500/10 transition-all duration-300 group">
+                <div class="flex justify-between items-start mb-4">
+                    <div>
+                        <h3 class="text-pink-500 font-extrabold text-lg uppercase tracking-wide mb-1">Ví MoMo</h3>
+                        <p class="text-gray-400 text-sm font-semibold">Chủ TK: NGUYEN TRUNG HIEU</p>
+                    </div>
+                    <img src="https://jtisvn.github.io/icons/apps/qr2.webp" alt="Momo QR" class="w-16 h-16 rounded-xl border border-white/10 group-hover:scale-105 transition-transform bg-white/5">
+                </div>
+                
+                <div class="bg-black/30 rounded-xl p-3 flex items-center justify-between border border-white/5">
+                    <span id="momo-account" class="font-mono text-sm sm:text-lg font-bold text-white tracking-wide pl-2 truncate mr-2">99MM24041M46376294</span>
+                    <button onclick="copyToClipboard('momo-account')" class="bg-white/10 hover:bg-pink-500 hover:text-white text-gray-300 p-2 px-4 rounded-lg transition-all text-sm font-bold uppercase tracking-wider flex items-center gap-2 shrink-0">
+                        <i class="fa-regular fa-copy"></i> Sao chép
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="text-center animate-fade-up delay-100">
+            <p class="text-gray-300 font-medium mb-8 px-4 leading-relaxed bg-white/5 py-4 rounded-2xl border border-white/5">
+                Sự ủng hộ của bạn là động lực to lớn để <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 font-bold">JTISVN</span> tiếp tục phát triển. Xin chân thành cảm ơn! ❤️
+            </p>
+            
+            <footer class="text-center text-xs text-gray-500 font-semibold uppercase tracking-widest pb-8 border-t border-white/5 pt-8">
+                Copyright © 2025 - 2030 By: KITSUDO - JTISVN
+            </footer>
+        </div>
+
     </div>
 
     <script>
-        const themeToggleBtn = document.getElementById('theme-toggle-btn');
-        const themeIcon = document.getElementById('theme-icon');
-        const body = document.body;
-        const currentTheme = localStorage.getItem('theme') || 'dark';
-
-        body.setAttribute('data-theme', currentTheme);
-        if (currentTheme === 'light') {
-            body.classList.add('light');
-            themeIcon.classList.remove('fa-sun');
-            themeIcon.classList.add('fa-moon');
-        } else {
-            themeIcon.classList.remove('fa-moon');
-            themeIcon.classList.add('fa-sun');
-        }
-
-        themeToggleBtn.addEventListener('click', () => {
-            const isLight = body.classList.toggle('light');
-            const newTheme = isLight ? 'light' : 'dark';
-            body.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-
-            if (newTheme === 'light') {
-                themeIcon.classList.remove('fa-sun');
-                themeIcon.classList.add('fa-moon');
-            } else {
-                themeIcon.classList.remove('fa-moon');
-                themeIcon.classList.add('fa-sun');
-            }
-        });
-
-        const copyToClipboard = (elementId, event) => {
-            event.stopPropagation();
-            const element = document.getElementById(elementId);
-            const textToCopy = element.textContent.trim();
-
+        function copyToClipboard(elementId) {
+            const textToCopy = document.getElementById(elementId).innerText;
             navigator.clipboard.writeText(textToCopy).then(() => {
                 const toast = document.getElementById('copy-toast');
-                toast.classList.add('show');
+                toast.classList.remove('opacity-0');
+                
+                // Tự động ẩn sau 2s
                 setTimeout(() => {
-                    toast.classList.remove('show');
+                    toast.classList.add('opacity-0');
                 }, 2000);
             }).catch(err => {
                 console.error('Lỗi sao chép: ', err);
             });
-        };
+        }
     </script>
 </body>
 </html>
