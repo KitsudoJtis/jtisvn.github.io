@@ -1994,6 +1994,27 @@ Depiction: https://ginsu.dev/#/depiction/com.ginsu.gscore
 Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
 SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
 
+Package: com.ginsu.gscore
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 0
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/com.ginsu.gscore_1.0.1_iphoneos-arm64e.deb
+Size: 394540
+MD5sum: 56ac29f1d1e123f24373c452c82c95fb
+SHA1: 544ab7c1bf342634b914b249c43f30589152defc
+SHA256: e902115b6d443a5e6750eeda66696d33d03583a489fa3717a938948d7ecbab23
+SHA512: 484462716e14cc349102481308ea6f50bc8e3b0105f2be511cb0e3a8be38c5303f1811fb9432d26c764cafcc7812f87be3865959d325a15c2d4e042fd4380060
+Description: Environment and communication between my tweaks
+Name: GSCore (Roothide)
+Author: Ginsu
+Depiction: https://ginsu.dev/#/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
 Package: com.ginsu.gsweather
 Architecture: iphoneos-arm64
 Version: 1.1.1
@@ -2009,6 +2030,27 @@ SHA256: 0bbfe93f17d9c86d6bd1f9c047e0bf790e6688aefa84b559caa40ec0d38c16e4
 SHA512: cc19d73a680edc34d37394e8f7b8aaedaa7f2e1ddaa1838790f50f14363c2ad37ec1f8a2e0432c473cee68e1d1df80003b8a638b1432aadbacc58d4d499ee730
 Description: Khung tìm nạp thời tiết
 Name: GSWeather (Rootless)
+Author: Ginsu
+Depiction: https://ginsu.dev/#/depiction/com.ginsu.gsweather
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/sileo.json
+
+Package: com.ginsu.gsweather
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 1216
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/com.ginsu.gsweather_1.1.1_iphoneos-arm64e.deb
+Size: 122484
+MD5sum: 7c0052cc1dd04584375b1a8211fe986f
+SHA1: 8008ba01f5e91d17f96dd9f5adb39f02689809af
+SHA256: 0ed6c467a65beb110ec425886f75a69aadcbedb4370871401eb78a68a06e01d8
+SHA512: b11d5691fd1492922efc017a50648ffa85d9ca3534cfc4ad0eb1b5eb788399b47370abd63a4b807f229001210b2873877e8f2f73d166c55960cfdc2cab798c22
+Description: Khung tìm nạp thời tiết
+Name: GSWeather (Roothide)
 Author: Ginsu
 Depiction: https://ginsu.dev/#/depiction/com.ginsu.gsweather
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
