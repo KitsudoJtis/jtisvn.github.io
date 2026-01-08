@@ -11658,16 +11658,17 @@ Version: 1.0.5
 Section: Tweaks
 Maintainer: JTISVN
 Installed-Size: 428
-Depends: mobilesubstrate, firmware (>= 13.0)
+Depends: mobilesubstrate, firmware (>= 13.0), com.kitsudo.ccmusicviethoa
 Filename: ./debs/com.jtis.mediccmusic_1.0.5_iphoneos-arm64.deb
-Size: 28812
-MD5sum: b15b9ce926b92ba18c9bc342563a1265
-SHA1: 1c6b22b28f1b795c30190ed21f69939c5d5099f7
-SHA256: 93f45cdb0167daab5e9f438b9eb21d173bb5b791fd09bd2b689366cd5ac06ab5
-SHA512: 0084021a11ea4b46823ab6a089ce8d6081460451802edb93717249ce0aba95a8f5f3b09e905d1bfccf1a1ffd4405ddff2b0de532a3684d3c2baa70e029ce8d1e
+Size: 28848
+MD5sum: c46893bb8f197fd200c841815dfe8d16
+SHA1: 66d454740cae377d077808d0b63c7a3e450f68f3
+SHA256: 937726dcac4ba28081f7c1a3ca113c5f943c762f848de8226a36f87106396ef8
+SHA512: c7b12029e64e762c2937da54d03456641a33308211b657139b8cc444a8fee61dfc1f14162b92fa53520561dd8135fa369214a3eb5931f26b2d528ef62aa2a2ab
 Description: Thêm hình ảnh động vào mô-đun âm nhạc trong Trung tâm điều khiển
 Name: CC Music (Rootless)
 Author: simon
+Depiction: http://jtisvn.github.io/depiction/CCMusic.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCMusic.json
 Icon: https://jtisvn.github.io/sectionIcons/CCMusic.png
 
@@ -11678,16 +11679,17 @@ Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 428
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 13.0)
+Depends: mobilesubstrate, firmware (>= 13.0), com.kitsudo.ccmusicviethoa
 Filename: ./debs/com.jtis.mediccmusic_1.0.5_iphoneos-arm64e.deb
-Size: 28476
-MD5sum: b585cdc8eb893f8f9c9db4c3a5556332
-SHA1: e9fb60889ea9a504ebc69741e78c826285b2a981
-SHA256: 9bf84b10f291334b93e79386b1030cb15409f6f413417b0f58b1055a59442180
-SHA512: 6a9ac445ff52b1872ba4cb95e882d76d29e5eee38105a9423825efba316d9f20dd4a24cef7ed17c1c28edf7d93b91a0fd7c7cd983613bfc5ffdbb178186e6e87
+Size: 28532
+MD5sum: 7c0bea1cf1d63d031b8b0cbb2cfcec39
+SHA1: 146ee18e4ae2f6c70b2f9a4523ab91439bcd24cc
+SHA256: 32133cf2e5e025bee42ff2fa4f4e9921d4641d5238ca739b58ab67a91a89ea60
+SHA512: aa1aa985d7cd232bc9235100cd15da1d143d9ef247a9672b063c5535600b4a5aba2fe6e907c165d8fdf7d91c2b3aa168b14117632ab733cc3447fd50ebaed269
 Description: Thêm hình ảnh động vào mô-đun âm nhạc trong Trung tâm điều khiển
 Name: CC Music (Roothide)
 Author: simon
+Depiction: http://jtisvn.github.io/depiction/CCMusic.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCMusic.json
 Icon: https://jtisvn.github.io/sectionIcons/CCMusic.png
 
