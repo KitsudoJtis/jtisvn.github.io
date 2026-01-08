@@ -12643,27 +12643,6 @@ Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/PicsartGold.json
 Icon: https://jtisvn.github.io/sectionIcons/Picsart.png
 
-Package: com.jtis.picsart
-Architecture: iphoneos-arm64e
-Version: 22.4.4
-Section: Mở khoá ứng dụng
-Maintainer: JTISVN Repo
-Installed-Size: 940
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/com.jtis.picsart_22.4.4_iphoneos-arm64e.deb
-Size: 152712
-MD5sum: 3487cb91ee963cf80ff8d126d97447dd
-SHA1: 3ad657423cc8363347c2a636b08e9aef51d6ce72
-SHA256: af67804be9d4594aec8018b8ca157c05b41ba8861da3f7a2acdc4d5793afda77
-SHA512: 1e72399e4c97d05a86596655088c49001a8df618773e1357aa4e85ab40d20ae9c12e146a599924127b45e0b444d056ef025d9590dce946c3bc4ef6b556d398d7
-Description: Kích hoạt gói tính năng Goldcho ứng dụng PicsArt
-Name: PicsArt Gold
-Author: Laila Azmi <Lailaazmi@my.com>
-Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/PicsartGold.json
-Icon: https://jtisvn.github.io/sectionIcons/Picsart.png
-
 Package: com.jtis.picsewpro
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -14445,6 +14424,27 @@ Name: Speedy(Roothide)
 Author: alias20 & daodao
 Icon: https://jtisvn.github.io/sectionIcons/Speedy.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Speedy.json
+
+Package: com.jtis.splitviewpro
+Architecture: iphoneos-arm64e
+Version: 1.4.2-1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (<< 17.0)
+Filename: ./debs/com.jtis.splitviewpro_1.4.2-1_iphoneos-arm64e.deb
+Size: 1500964
+MD5sum: 0f5cd3ea07c967f7564e694f0dd67481
+SHA1: f5fd567eca126189726034834c0cd25373dd65ed
+SHA256: 3c07a1813b8e76048c0c7dfb7410f55c9d9d1fa76286b675400e577a5b27c35e
+SHA512: 5f985e25899861c98d59505bad784084f375207e8e81abe1e71a4c40adb720cbece50c9e6a2c971c9016fcc968666190b3ba6da8c0553714f2ba37c6b1cebd68
+Homepage: https://jtisvn.github.io/
+Description: Free multi-tasking splitscreen tweak developed by Sunshinesong.
+Depiction: https://jtisvn.github.io/depictions/Splitviewpro.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Splitviewpro.json
+Icon: https://jtisvn.github.io/sectionIcons/Splitviewpro.png
+Name: Split View Pro (Roothide)
+Author: sunshinesong
 
 Package: com.jtis.splitviewpro
 Architecture: iphoneos-arm64
