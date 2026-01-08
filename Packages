@@ -6738,27 +6738,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/CallMeMaybe.json
 Depiction: https://jtisvn.github.io/depictions/CallMeMaybe.html
 Icon: https://jtisvn.github.io/sectionIcons/CallMeMaybe.png
 
-Package: com.jtis.callvideobg
-Architecture: iphoneos-arm64e
-Version: 1.0.0
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 352
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 15.0), oldabi
-Filename: ./debs/com.jtis.callvideobg_1.0.0_iphoneos-arm64e.deb
-Size: 33104
-MD5sum: f1b312e47d8b0013c382b3b39aae358c
-SHA1: 10683acbe8b9ccd55cd3583b7741e23289ca9a63
-SHA256: 72dc5800c523ba7dc233bd165d6d6e7c89fcc00e5b715be36c5d32245061e2fe
-SHA512: c993d089a1c19de52fb311f59af47ef6df46d6c43b2ae68066c5da2ed03af52f1c1364000a00e00b16256fe2dd8895bb8d18db7539d8f897cd8a988c107fbc02
-Description: Video nền cho cuộc gọi đến.
-  	  *  Thêm video làm nên từ Anbum Ảnh trong cài đặt
-  	  *  Yêu cầu tai gói tweak Legacy arm64e Support.
-Name: CallVideoBG (Roothide)
-Author: BVNdog
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
 Package: com.jtis.Cartoo
 Architecture: iphoneos-arm64e
 Version: 1.0

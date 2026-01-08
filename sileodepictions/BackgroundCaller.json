@@ -23,7 +23,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"BackgroundCaller\n\n- Tinh chỉnh cho phép bạn chọn Video từ ứng dụng Ảnh làm nên cho cuộc gói đến.",
+"markdown":"BackgroundCaller\n\n- Tinh chỉnh cho phép bạn chọn Video từ ứng dụng Ảnh làm nền cho cuộc gói đến.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
