@@ -11575,6 +11575,23 @@ Depiction: http://jtisvn.github.io/depiction/LunartimePro.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimePro.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.macosnotifications
+Architecture: iphoneos-arm
+Version: 1.1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 420
+Filename: ./debs/com.jtis.macosnotifications_1.1.0_iphoneos-arm.deb
+Size: 52620
+MD5sum: a73be97f89e87ea03e6945b7ff3a0ca5
+SHA1: 4353295a3f6723c54dc03f69e5748f747904e0d1
+SHA256: 687ac9b3d606cc894ff764657864bcacf9dd8c286ccf553c89191b9902cac540
+SHA512: d447a25f0f9e3eea5b390ba956a50ec4ab2b03e3a4f181bbbb2e19a6ae818b5bf8744297d45e23ed4b551b06dbcf2c646a6a80d1b5521a8135c526f96552d6a1
+Description: Giao diện thông báo MacOS!
+Name: Destra
+Author: Jax Roth
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.macpass
 Architecture: iphoneos-arm
 Version: 1.3
@@ -15265,6 +15282,29 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Tinge.json
 Icon: https://jtisvn.github.io/sectionIcons/Tinge.png
 Name: Tinge (Roothide)
 Author: P2KDev
+
+Package: com.jtis.touchflow
+Architecture: iphoneos-arm
+Version: 1.0.7
+Priority: optional
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 820
+Pre-Depends: firmware (>= 11.0), mobilesubstrate | com.ex.libsubstitute
+Depends: com.creaturesurvive.libcscolorpicker
+Filename: ./debs/com.jtis.touchflow_1.0.7_iphoneos-arm.deb
+Size: 189724
+MD5sum: d789fec922097a19f1d40e4e227287ab
+SHA1: 1415d5b366e28ed929ac7c6da03661f42e7f509f
+SHA256: 88ec8707d7036f5d9109eda4ad28d77975f4bd35fccb2c874b967c3745514295
+SHA512: 34068ffa29e51becc240c77983ec29d476fb55432a318c0dfa9b787d469b019b04e00217ef58d54821db593950557da41a18aa8c03296d3f3a7a61b831b60a9d
+Description: Hiển thị thao tác khi chạm vào màn hình.Hỗ trợ iOS 11 tới 14.7
+Tag: purpose::extension, compatible_min::iosiOS11
+Name: TouchFlow
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: http://jtisvn.github.io/depiction/TouchFlow.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TouchFlow.json
+Icon: https://jtisvn.github.io/sectionIcons/TouchFlow.png
 
 Package: com.jtis.TrakyaRoundedED
 Architecture: iphoneos-arm64e
@@ -21175,6 +21215,27 @@ Author: AhmedBafkir <prooxy0@gmail.com>
 Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
 Icon: https://Jtisvn.github.io/sectionIcons/DLEasy.png
+
+Package: ru.rj.smartbattery2
+Architecture: iphoneos-arm
+Version: 1.6R
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2374
+Depends: mobilesubstrate, ws.hbang.common, net.limneos.libbulletin, com.spark.libsparkcolourpicker, com.opa334.ccsupport
+Conflicts: com.idevicelover.smartbattery
+Filename: ./debs/ru.rj.smartbattery2_1.6R_iphoneos-arm.deb
+Size: 737956
+MD5sum: e7ea7b76e8f5bd5ff744b4b776f50647
+SHA1: 1eaad761acfb6594419c911908fa70346e909a0c
+SHA256: bee5d92baccaa9e845ecc99e4783adb17401e3d0f7a6cdcfafe5c6e4d7e95ec3
+SHA512: 5fb9b42753432054a63e0dcfbf8be0ed40c15f28282c4cd3d45487dd444af291de2de7412bdd96ae97a24f7fb15805f0ee095ebe0a9c646a7dc5177ab730d754
+Description: Chế độ tiết kiệm điện thông minh
+Name: SmartBattery 2
+Author: elias
+Depiction: https://havoc.app/depiction/smartbattery2
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SmartBattery.json
+Icon: https://media.havoc.app/61fc6f3094bb9ecb0d320107
 
 Package: com.spark.snowboard.dock
 Architecture: iphoneos-arm64e
