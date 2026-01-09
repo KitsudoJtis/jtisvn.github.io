@@ -2,948 +2,684 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>JTISVN - Kho Lưu Trữ Tệp IPA</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="icon" href="https://raw.githubusercontent.com/jtisvn/jtisvn.github.io/master/icons/favicon.ico" type="image/x-icon">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
+    <link rel="icon" href="https://raw.githubusercontent.com/jtisvn/jtisvn.github.io/master/icons/favicon.ico" type="image/x-icon">
+    
+    <script>
+        // Kiểm tra ngay lập tức để áp dụng màu nền đúng
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+    </script>
+    
     <style>
-        .new-item p a { color: #89cff0; text-decoration: none; transition: color 0.3s ease; }
-        .new-item p a:hover { color: #add8e6; text-decoration: underline; }
-        #kho-ipa-heading { text-shadow: 0 2px 10px rgba(0,0,0,0.5); }
-    </style>
-</head>
-<body class="font-sans min-h-screen" data-theme="dark">
-    <div class="background-animation"></div>
-
-    <div class="main-container mx-auto">
-        <main class="container mx-auto px-4 py-8">
-            <div class="flex flex-col items-center justify-center text-center mb-8">
-                <div class="nav-container">
-                    <a href="https://jtisvn.github.io/homepage/dylibrary/dylib.html">Kho Dylib</a>
-                    <a href="https://jtisvn.github.io/">Trang chủ</a>
-                    <a href="https://jtisvn.github.io/homepage/donate/donate.html">Ủng Hộ</a>
-                    <button id="theme-toggle-btn"><i class="fas fa-sun" id="theme-icon"></i></button>
-                </div>
-
-                <img src="https://jtisvn.github.io/icons/apps/avatar.webp" alt="Avatar" class="avatar">
-                <div class="flex flex-col items-center space-y-2 mt-4">
-                    <h1 class="text-4xl font-bold text-animate-gradient">JTISVN REPO</h1>
-                </div>
-                <p class="text-xl max-w-2xl mx-auto mt-2 text-gray-300" style="text-shadow: 0 2px 4px rgba(0,0,0,0.8);">
-                    Xin chào<br>Kho lưu trữ các công cụ ký IPA và Jailbreak tốt nhất để tối ưu hóa trải nghiệm iPhone/iPad của bạn.<br>
-                    <span class="text-sm opacity-75">Nhớ theo dõi các kênh mạng xã hội bên dưới để cập nhật thông tin nhé!</span>
-                </p>
-            </div>
-
-            <div class="social-buttons-grid mt-8">
-                <a href="https://t.me/jtisvn" class="btn-neon btn-dark"><i class="fab fa-telegram-plane text-blue-400"></i> <span>Kênh Telegram</span></a>
-                <a href="https://t.me/+EkbcNF-ekJRhZjJl" class="btn-neon btn-dark"><i class="fab fa-telegram-plane text-blue-400"></i> <span>Nhóm Telegram</span></a>
-                <a href="https://discord.com/channels/1375487570556878988/1376059466570666024" class="btn-neon btn-dark"><i class="fab fa-discord text-indigo-400"></i> <span>Nhóm Discord</span></a>
-                <a href="https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP" class="btn-neon btn-dark"><i class="fab fa-facebook text-blue-600"></i> <span>Nhóm Facebook</span></a>
-            </div>
-
-            <div class="search-container mt-8 max-w-2xl mx-auto px-4">
-                <div class="search-wrapper relative">
-                    <input type="text" id="ipa-search-input" placeholder="Tìm kiếm IPA, công cụ..." autocomplete="off">
-                    <i class="fas fa-search search-icon"></i>
-                </div>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-                <div class="new-item p-4 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-all duration-300">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex flex-row items-start gap-4 mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/ota.webp" alt="OTA Icon" class="w-16 h-16 rounded-xl object-cover flex-shrink-0 shadow-lg">
-                        
-                        <div class="text-left">
-                            <h2 class="text-lg font-bold text-white leading-tight mb-1">Chặn cập nhật IOS</h2>
-                            <div class="text-xs text-gray-300 space-y-1">
-                                <p><b class="text-cyan-400">Mô tả:</b> Cấu hình chặn iOS tự động tải về bản cập nhật mới.</p>
-                                <p><b class="text-cyan-400">Hướng dẫn:</b> Tải về -> Cài đặt chung -> Quản lý VPN & Thiết bị -> Cài đặt cấu hình.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="https://cydia.ichitaso.com/no-ota18.mobileconfig" class="install-button text-sm py-2">
-                        <i class="fas fa-download mr-2"></i>
-                        <span>Tải OTA</span>
-                    </a>
-                </div>
-
-                <div class="new-item p-4 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-all duration-300">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex flex-row items-start gap-4 mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/trollstore.webp" alt="TrollStore Icon" class="w-16 h-16 rounded-xl object-cover flex-shrink-0 shadow-lg">
-                        
-                        <div class="text-left">
-                            <h2 class="text-lg font-bold text-white leading-tight mb-1">Trollstore Việt Hóa</h2>
-                            <div class="text-xs text-gray-300 space-y-1">
-                                <p><b class="text-cyan-400">Mô tả:</b> Bản mod Trollstore Tiếng Việt, ổn định, do pháp sư Trung hoa phát triển</p>
-                                <p><b class="text-cyan-400">Hướng dẫn:</b> Tải file .tar -> Mở TrollStore -> Settings -> Chọn ngôn ngữ Tiếng Việt.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/TrollStore_2.1_1023.tar" class="install-button text-sm py-2">
-                        <i class="fas fa-download mr-2"></i>
-                        <span>Tải Tar</span>
-                    </a>
-                </div>
-
-                <div class="new-item p-4 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-all duration-300">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex flex-row items-start gap-4 mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/esign.webp" alt="Esign Icon" class="w-16 h-16 rounded-xl object-cover flex-shrink-0 shadow-lg">
-                        
-                        <div class="text-left">
-                            <h2 class="text-lg font-bold text-white leading-tight mb-1">Esign+ (Trollstore)</h2>
-                            <div class="text-xs text-gray-300 space-y-1">
-                                <p><b class="text-cyan-400">Mô tả:</b> Ký IPA vĩnh viễn không cần chứng chỉ (yêu cầu TrollStore).</p>
-                                <p><b class="text-cyan-400">Hướng dẫn:</b> Tải IPA -> Mở jetsign -> Install -> thêm vào ứng dụng Sách -> Chọm dòng 3 thêm Esign tar.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="https://app.mediafire.com/folder/t0nebgmtmtisp" class="install-button text-sm py-2">
-                        <i class="fas fa-download mr-2"></i>
-                        <span>Tải IPA</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="text-center">
-                <h2 id="kho-ipa-heading" class="text-3xl font-bold mt-12 mb-2">Công cụ sign IPA</h2>
-                <p class="text-lg text-gray-400 mb-8">Dưới đây là công cụ sign các tệp IPA ứng dụng cho thiết bị IOS</p>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                  <div class="flex items-center mb-4">
-                     <img src="https://jtisvn.github.io/icons/apps/feather.webp" alt="Faether Icon" class="w-16 h-16 mr-4">
-                        <div>
-                           <h2 class="text-xl font-semibold">Feather</h2>
-                       </div>
-                   </div>
-                 <p class="text-gray-300 mb-2"><b>Chức năng </b>: Ký IPA trực tiếp trên thiết bị, hỗ trợ Apple Developer Program, thiết kế gọn nhẹ, tập trung vào tốc độ và sự đơn giản<br><b>Hỗ trợ </b>: Các thiết bị IOS 15+</p>
-                      <a href="https://github.com/khcrysalis/Feather/releases/tag/v2.3.1" class="install-button mt-2">
-                        <i class="fas fa-download mr-2"></i>
-                        <span>Link Tải</span>
-                    </a>
-                </div>
-
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/gbox.webp" alt="Gbox Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Gbox</h2>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 mb-2"><b>Chức năng </b>: Ký IPA , cài đặt IPA trực tiếp trên thiết bị mà không cần PC, quản lý ứng dụng, dọn dẹp hệ thống và nhiều tiện ích khác<br><b>Hỗ trợ </b>: Các thiết bị iOS 14+</p>
-                      <a href="https://gbox.run/" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Link Tải</span>
-                     </a>
-                </div>
-
-                <div class="new-item">
-                  <div class="highlight-overlay"></div>
-                     <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/sideloadly.webp" alt="Sideloadly Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Sideloadly</h2>
-                        </div>
-                    </div>
-                  <p class="text-gray-300 mb-2"><b>Chức năng </b>: Ký IPA trên máy tính, hỗ trợ Wi-Fi sideloading, tiêm tweak, giới hạn 3 ứng dụng sau 7 ngày, hỗ trợ Apple ID miễn phí<br><b>Hỗ trợ </b>: Các thiết bị IOS 7+</p>
-                     <a href="https://sideloadly.io/" class="install-button mt-2">
-                       <i class="fas fa-download mr-2"></i>
-                         <span>Link Tải</span>
-                    </a>
-                </div>
-    
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                      <div class="flex items-center mb-4">
-                          <img src="https://jtisvn.github.io/icons/apps/alstore.webp" alt="Altstore Icon" class="w-16 h-16 mr-4">
-                            <div>
-                                <h2 class="text-xl font-semibold">Altstore</h2>
-                            </div>
-                        </div>
-                  <p class="text-gray-300 mb-2"><b>Chức năng </b>: Ký và tự động làm mới IPA, yêu cầu máy tính chạy AltServer trên cùng mạng Wi-Fi, giới hạn 3 ứng dụng.<br><b>Hỗ trợ </b>: Các thiết bị IOS 12+</p>
-                     <a href="https://altstore.io/" class="install-button mt-2">
-                        <i class="fas fa-download mr-2"></i>
-                           <span>Link Tải</span>
-                        </a>
-                    </div>
-    
-                 <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                      <div class="flex items-center mb-4">
-                          <img src="https://jtisvn.github.io/icons/apps/sidestore.webp" alt="Sidestore Icon" class="w-16 h-16 mr-4">
-                            <div>
-                                <h2 class="text-xl font-semibold">Sidestore</h2>
-                            </div>
-                        </div>
-                      <p class="text-gray-300 mb-2"><b>Chức năng </b>: Ký IPA từ xa không cần máy tính (sau cài đặt đầu), sử dụng máy chủ riêng và VPN tích hợp để làm mới<br><b>Hỗ trợ </b>: Các thiết bị IOS 14+</p>
-                          <a href="https://sidestore.io/" class="install-button mt-2">
-                             <i class="fas fa-download mr-2"></i>
-                             <span>Link Tải</span>
-                          </a>
-                       </div>
+        html { background-color: #f3f4f6; } /* Màu sáng mặc định */
+        html.dark { background-color: #0B0B15; } /* Màu tối mặc định */
         
-                 <div class="new-item">
-                     <div class="highlight-overlay"></div>
-                         <div class="flex items-center mb-4">
-                           <img src="https://jtisvn.github.io/icons/apps/ksign.webp" alt="Ksign Icon" class="w-16 h-16 mr-4">
-                              <div>
-                                 <h2 class="text-xl font-semibold">Ksign</h2>
-                              </div>
-                           </div>
-                        <p class="text-gray-300 mb-2"><b>Chức năng </b>: Ký IPA trực tiếp trên thiết bị, hỗ trợ Apple Developer Program, quản lý chứng chỉ, tùy chỉnh tệp .IPA trước khi cài đặt<br><b>Hỗ trợ </b>: Các thiết bị IOS 14+</p>
-                          <a href="https://ksign-ios.com/" class="install-button mt-2">
-                             <i class="fas fa-download mr-2"></i>
-                               <span>Link Tải</span>    
-                    
-                     </a>
-                </div>
-            </div>
-        <div class="text-center">
-            <h2 id="kho-ipa-heading" class="text-3xl font-bold mt-12 mb-2">Kho IPA</h2>
-            <p class="text-lg text-gray-400 mb-8" style="text-shadow: 0 1px 3px rgba(0,0,0,0.8);">Dưới đây là các tệp IPA ứng dụng tương thích với thiết bị IOS Trollstore và Jailbreak</p>
-        </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="new-item">
-                <div class="highlight-overlay"></div>
-                <div class="flex items-center mb-4">
-                    <img src="https://jtisvn.github.io/icons/apps/trollinstallerx.webp" alt="Trollinstaller X Icon" class="w-16 h-16 mr-4">
-                    <div>
-                        <h2 class="text-xl font-semibold">Trollinstaller X</h2>
-                        <p class="text-gray-400">Phiên bản v1.0.3</p>
-                    </div>
-                </div>
-                <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ đước thiết kế để cài đặt Trollstore cho phép tải các tệp IPA vĩnh viễn.<br>Tương thích iOS 14.0 - 16.6.1</p>
-                <p><b>Nguồn</b>: <a href="https://ios.cfw.guide/installing-trollstore/" target="_blank">CFW Guide</a></p>
-                <a href="https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa" class="install-button mt-2">
-                    <i class="fas fa-download mr-2"></i>
-                    <span>Tải IPA</span>
-                </a>
-                <a href="https://dhinakg.github.io/files/apps/TrollInstallerMDC/TrollInstallerMDC.ipa" class="install-button mt-2">
-                    <i class="fas fa-download mr-2"></i>
-                    <span>Tải IPA MDC</span>
-                </a>
-                <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài dặt: AltStore, Sideloadly và Chứng Chỉ</p>
-            </div>
+        /* Ẩn thanh cuộn nhưng vẫn cuộn được */
+        ::-webkit-scrollbar { width: 0px; background: transparent; }
+    </style>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Nunito', 'sans-serif'] },
+                    colors: {
+                        'dark-bg': '#0B0B15',
+                        zinc: { 850: '#1f1f22' }
+                    },
+                    animation: {
+                        'fade-down': 'fadeDown 0.8s ease-out',
+                        'fade-up': 'fadeUp 0.8s ease-out 0.1s backwards',
+                        'blob': 'blob 7s infinite',
+                        'gradient-text': 'gradient-text 6s linear infinite',
+                    },
+                    keyframes: {
+                        fadeDown: { '0%': { opacity: '0', transform: 'translateY(-20px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+                        fadeUp: { '0%': { opacity: '0', transform: 'translateY(20px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+                        blob: {
+                            '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                            '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                            '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                            '100%': { transform: 'translate(0px, 0px) scale(1)' }
+                        },
+                        'gradient-text': {
+                            '0%': { 'background-position': '0% 50%' },
+                            '100%': { 'background-position': '300% 50%' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
 
-            <div class="new-item">
-                <div class="highlight-overlay"></div>
-                <div class="flex items-center mb-4">
-                    <img src="https://jtisvn.github.io/icons/apps/trollstore.webp" alt="TrollRestore Icon" class="w-16 h-16 mr-4">
-                    <div>
-                        <h2 class="text-xl font-semibold">TrollRestore</h2>
-                        <p class="text-gray-400">Phiên bản v1.0</p>
-                    </div>
-                </div>
-                <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ cài đặt cho Trollstore trên PC<br>Yêu cầu tải phần mềm Python, ITunes & 3utools.<br>Tương thích: iOS 14.0 - 16.6.1, 16.7 RC và 17.0</p>
-                <p><b>Nguồn</b>: <a href="https://ios.cfw.guide/installing-trollstore-trollrestore/" target="_blank">CFW Guide</a></p>
-                <a href="https://github.com/JJTech0130/TrollRestore/releases/latest/download/TrollRestore.exe" class="install-button mt-2">
-                     <i class="fas fa-download mr-2"></i>
-                     <span>Tải EXE</span>
-                </a>
-                <a href="https://www.3u.com/" class="install-button mt-2">
-                    <i class="fas fa-download mr-2"></i>
-                    <span>Tải 3uTool</span>
-                </a>
-                <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: PC, Windows và Mac</p>
-            </div>
+<body class="font-sans antialiased min-h-screen relative transition-colors duration-300 bg-gray-100 text-gray-900 dark:bg-dark-bg dark:text-white selection:bg-cyan-500 selection:text-white">
 
-            <div class="new-item">
-                <div class="highlight-overlay"></div>
-                <div class="flex items-center mb-4">
-                    <img src="https://jtisvn.github.io/icons/apps/trollfools.webp" alt="Trollfools Icon" class="w-16 h-16 mr-4">
-                    <div>
-                        <h2 class="text-xl font-semibold">Trollfools</h2>
-                        <p class="text-gray-400">Phiên bản v42.2-227</p>
-                    </div>
-                </div>
-                <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ tiêm file dylib cho 1 số ứng dụng trên IPhone.<br>Tương thích Thiết bị iOS có Trollstore</p>
-                <p><b>Nguồn</b>: <a href="https://github.com/Lessica/TrollFools" target="_blank">GitHub</a></p>
-                <a href="https://github.com/Lessica/TrollFools/releases/download/v4.2-227/TrollFools_4.2-227.tipa" class="install-button mt-2">
-                     <i class="fas fa-download mr-2"></i>
-                     <span>Tải IPA</span>
-                </a>
-                <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/Lessica/TrollFools/releases/download/v4.2-227/TrollFools_4.2-227.tipa')" class="install-button mt-2">
-                    <i class="fa-solid fa-bolt mr-2"></i>
-                    <span>Cài qua TrollStore</span>
-                </a>
-                <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
-            </div>
+    <div class="fixed inset-0 z-[-1] hidden dark:block pointer-events-none">
+        <div class="absolute top-0 left-[-10%] w-[500px] h-[500px] bg-purple-600/20 rounded-full mix-blend-screen filter blur-[100px] opacity-50 animate-blob transform-gpu"></div>
+        <div class="absolute top-[20%] right-[-10%] w-[400px] h-[400px] bg-pink-600/20 rounded-full mix-blend-screen filter blur-[100px] opacity-50 animate-blob animation-delay-2000 transform-gpu"></div>
+        <div class="absolute bottom-[-10%] left-[20%] w-[600px] h-[600px] bg-blue-600/10 rounded-full mix-blend-screen filter blur-[100px] opacity-30 animate-blob animation-delay-4000 transform-gpu"></div>
+    </div>
 
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/trollspeed.webp" alt="Trollspeed Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Trollspeed</h2>
-                            <p class="text-gray-400">Phiên bản v1.12.1</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ có chức năng kiểm tra tốc độ mạng, hiển thị tốc độ tải xuống, Upload và ping.<br>Tương thích Thiết bi IOS có Trollstore</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/Lessica/TrollSpeed" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/Lessica/TrollSpeed/releases/download/v1.12.1/TrollSpeed_v1.12.1.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/TrollSpeed_v1.12.1.tipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+    <div class="fixed inset-0 z-[-2] bg-white/50 dark:hidden pointer-events-none"></div>
+
+    <div class="w-full max-w-[1400px] mx-auto relative z-10 pb-20">
+        <main class="container mx-auto px-4 py-8">
+            
+            <div class="flex flex-col items-center justify-center text-center mb-10 animate-fade-down">
+                <div class="inline-flex justify-center items-center bg-white/80 dark:bg-zinc-900/60 backdrop-blur-xl border border-gray-200 dark:border-white/10 rounded-full p-1.5 mb-8 shadow-lg gap-1 transition-colors duration-300">
+                    <a href="https://jtisvn.github.io/homepage/dylibrary/dylib.html" class="px-4 py-2 rounded-full font-bold text-sm text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-white/10 dark:hover:text-white transition-all">Kho Dylib</a>
+                    <a href="https://jtisvn.github.io/" class="px-4 py-2 rounded-full font-bold text-sm text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-white/10 dark:hover:text-white transition-all">Trang chủ</a>
+                    <a href="https://jtisvn.github.io/homepage/donate/donate.html" class="px-4 py-2 rounded-full font-bold text-sm text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-white/10 dark:hover:text-white transition-all">Ủng Hộ</a>
+                    <button id="theme-toggle-btn" class="px-3 py-2 rounded-full font-bold text-sm text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-white/10 dark:hover:text-white transition-all cursor-pointer">
+                        <i class="fas fa-sun" id="theme-icon"></i>
+                    </button>
                 </div>
 
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/appsmanager.webp" alt="Appsmanager Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">AppsManager</h2>
-                            <p class="text-gray-400">Phiên bản v1.8.4</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ quản lí, sao chép và khôi phục dữ liệu ứng dụng trên IPhone/IPad.<br>Tương thích Thiết bi IOS có Trollstore</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/MuntashirAkon/AppManager" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AppsManager_1.8.4_Crack.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AppsManager_1.8.4_Crack.tipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
-                </div>
-
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/varclean.webp" alt="Varclean Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">VarClean 15</h2>
-                            <p class="text-gray-400">Phiên bản v1.8.4</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ dọn dẹp cache, các tệp tin rác trong thư mục var và giải phóng dung lượng<br>Tương thích Thiết bi IOS có Trollstore</p>
-                    <p><b>Nguồn</b>: <a href="https://senumy.com/ipa-library/trollstore/varclean-ipa/" target="_blank">Senumy</a></p>
-                    <a href="https://github.com/m1337v/RootHideManagerApp/releases/download/rootless/varClean15.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/varClean15.tipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
-                </div>
-
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/filza.webp" alt="Filza File Manager Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Filza No Url</h2>
-                            <p class="text-gray-400">Phiên bản v4.0.0</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là một phiên bản trình quản lý tệp tin mạnh mẽ,kín đáo cho iOS chưa jailbreak<br>Một phiên bản đặc biệt được sửa đổi để loại bỏ "URL scheme" (filza://) của Filza File Manager<br>Cho phép truy cập, duyệt, chỉnh sửa, sao chép và xóa các tệp tin trong hệ thống tệp, giúp ứng dụng trở nên "vô hình"  chặn phát hiện jailbreak.<br>Tương thích Thiết bị iOS có Trollstore</p>
-                    <p><b>Nguồn</b>: <a href="https://www.tigisoftware.com/default/?p=439" target="_blank">Tigi Software</a></p>
-                    <a href="https://tigisoftware.com/download/Filza_NoURLScheme_4.0.0.ipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Filza_NoURLScheme_4.0.0.ipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt Trollstore</p>
-                </div>
-
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/dopamine.webp" alt="Dopamine Jailbreak Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Dopamine Rootless</h2>
-                            <p class="text-gray-400">Phiên bản v2.4.6</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ jailbreak semi-untethered mạnh mẽ cho IOS, niột phiên bản được biết đến với kiến trúc "Rootless" không can thiệp trực tiếp vào thư mục gốc của hệ thống<br>Thay vào đó tạo ra một thư mục riêng để cài đặt các tweak và ứng dụng giúp tăng tính ổn định, dễ dàng gỡ bỏ và giảm thiểu rủi ro lỗi hệ thống.<br>Tương thích iOS 14.0 - 16.5.1</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/opa334/Dopamine" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/w2599/Dopamine/releases/download/2.4.6/Dopamine_blacklist_2.4.6.1767538173_b3ec2fa6.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/w2599/Dopamine/releases/download/2.4.6/Dopamine_blacklist_2.4.6.1767538173_b3ec2fa6.tipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Sideloadly, Trollstore và Chứng chỉ</p>
-                </div>
-
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/roothide.webp" alt="Dopamine Roothide Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Dopamine Roothide</h2>
-                            <p class="text-gray-400">Phiên bản v2.4.5.20</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là một ohiên bản tùy chỉnh của Dopamine, tăng cường khả năng (jailbreak detection bypass), sử dụng một cơ chế ẩn jailbreak khác cho Roothide để sử dụng một số ứng dụng bảo mật cao như Ngân hàng, ví điện tử an toàn và hiệu quả hơn cân bằng giữa tùy chỉnh và bảo mật.<br>Tương thích iOS 14.0 - 16.5.1</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/roothide/Dopamine2-roothide" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/roothide/Dopamine2-roothide/releases/download/19/Dopamine.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/roothide/Dopamine2-roothide/releases/download/19/Dopamine.tipa)" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Sideloadly, Trollstore và Chứng chỉ</p>
-                </div>
-
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/appstore+.webp" alt="Appstore+ Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Appstore++</h2>
-                            <p class="text-gray-400">Phiên bản v1.0.3.2</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ bùy chỉnh và can thiệp vào App Store chính thức của Apple<br>Chức năng cho phép hạ cấp (downgrade) hoặc nâng cấp (upgrade) các ứng dụng đã cài đặt lên một phiên bản cụ thể.<br>Tương thích IOS 14.0 - 16.1.2</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/CokePokes/AppStorePlus-TrollStore" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v1.2-1/AppStore++_TrollStore_v1.0.3-2.ipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AppStore++_TrollStore_v1.0.3-2.ipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
-                </div>
-
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/taurine.webp" alt="Taurine Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Taurine</h2>
-                            <p class="text-gray-400">Phiên bản v1.1.7.3</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ jailbreak semi-untethered cho Rootfull và Rootless, được phát triển bởi nhóm Odyssey Team<br>Lưu ý sau khi khởi động lại thiết bị, cần chạy lại Taurine để kích hoạt lại trạng thái bẻ khóa.<br>Tương thích IOS 14.0- - 14.8.1</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/Odyssey-Team/Taurine" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: AltStore, Sideloadly và Trollstore</p>
-                </div>
-
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/bootstrap.webp" alt="Bootstrap Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Bootstrap</h2>
-                            <p class="text-gray-400">Phiên bản v2.0 beta</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ semi jailbreak giả lập môi trường Rootlhide cho phép chạy một số tweak nhất định<br>Yêu cầu tải thêm công cụ Serotonin để sử dụng ổn định.<br>Tương thích IOS 15.0 - 16.6.1 và 17.0</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/roothide/Bootstrap" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Bootstrap2.0beta.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Bootstrap2.0beta.tipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ ài đặt: Trollstore</p>
-                </div>
-
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/nathanir.webp" alt="Nathanir Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Nathanir</h2>
-                            <p class="text-gray-400">Phiên bản v2.1.1-4</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ semi-jailbreak bẻ khóa một phần Rootlsss dành cho các thiết bị iOS (chip A12 trở lên), đơn giản hóa quá trình và chủ yếu cho phép các tweak được "tiêm" vào hệ thống và hoạt động trên một môi trường SpringBoard.<br>Tương thích IOS 16.5.1 - 16.6.1 và 17.0</p>
-                    <p><b>Nguồn</b>: <a href="https://ios.cfw.guide/installing-nathanlr/" target="_blank">CFW Guide</a></p>
-                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/NathanLR_2.1.1-4.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/NathanLR_2.1.1-4.tipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Sideloadly và Trollstore</p>
-                </div>
-
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/cowabunga.webp" alt="Cowabunga Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Cowabunga</h2>
-                            <p class="text-gray-400">Phiên bản v10.3.2</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là một ứng dụng toolbox (hộp công cụ) trong môi trường bị giới hạn (jailed) sử dụng lỗ hổng CVE-2022-46689<br>Có thể Thay đổi phông chữ hệ thống, biểu tượng ứng dụng, tên nhà mạng, bố cục màn hình chính.<br>Tương thích IOS 14.0 - 16.1.2</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/leminlimez/Cowabunga" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Sideloadly, Trollstore và Chứng chỉ</p>
-                </div>
-
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/misaka.webp" alt="Misaka Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Misaka</h2>
-                            <p class="text-gray-400">Phiên bản v8.2.4</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Trình quản lý tweak cho iOS chưa jailbreak. khai thác lỗ hổng MDC/KFD trong quá trình xử lý tệp tin của hệ thống để thay đổi một số cài đặt và tùy chỉnh, thay đổi phông chữ, biểu tượng, đến các tùy chọn giao diện.<br>Tương thích IOS 15.0- - 16.1.2</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/straight-tamago/misaka" target="_blank">GitHub</a></p> 
-                    <a href="https://github.com/straight-tamago/misaka/releases/download/8.2.4/misaka-v8.2.4.ipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/straight-tamago/misaka/releases/download/8.2.4/misaka-v8.2.4.ipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Sideloadly và Trollstore</p>
-                </div>
-
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/trollclean.webp" alt="Troll Cleaner Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Troll Cleaner</h2>
-                            <p class="text-gray-400">Phiên bản v1.0</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ tiện ích được thiết kế để don dẹp hệ thống, cho phứp xóa các tệp rác, bộ nhớ đệm (cache) và giải phóng RAM để tăng tốc tối uu hóa dung lượng thiết bị.<br>Tương thích Thiết bi IOS có Trollstore</p>
-                    <p><b>Nguồn</b>: <a href="https://t.me/TheBallnow" target="_blank">TheBallnow</a></p>
-                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Troll.Cleaner.ipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Troll.Cleaner.ipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+                <div class="relative group mb-6">
+                    <div class="absolute -inset-1 bg-gradient-to-br from-cyan-400 to-purple-600 rounded-full opacity-60 blur group-hover:opacity-100 transition duration-500"></div>
+                    <img src="https://jtisvn.github.io/icons/apps/avatar.webp" alt="Avatar" class="relative w-32 h-32 rounded-full border-4 border-cyan-400 bg-black shadow-2xl object-cover transition-transform duration-700 ease-in-out hover:rotate-[360deg]">
                 </div>
                 
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/cartube.webp" alt="CarTube Icon" class="w-16 h-16 mr-4">
+                <h1 class="text-4xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 dark:from-cyan-400 dark:via-purple-400 dark:to-pink-400 animate-gradient-text pb-2 drop-shadow-sm">
+                    JTISVN IPA LIBARY
+                </h1>
+                
+                <p class="mt-2 text-lg text-gray-700 dark:text-gray-300 font-medium max-w-2xl text-shadow">
+                    Kho lưu trữ các công cụ ký IPA và Jailbreak tốt nhất để tối ưu hóa trải nghiệm iPhone/iPad của bạn.
+                </p>
+                <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Nhớ theo dõi các kênh mạng xã hội bên dưới để cập nhật thông tin nhé!</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8 max-w-4xl mx-auto animate-fade-up">
+                <a href="https://t.me/jtisvn" class="flex items-center justify-center p-3 rounded-xl bg-white/70 dark:bg-zinc-900/60 border border-gray-200 dark:border-white/10 text-blue-600 dark:text-blue-400 font-bold text-sm hover:bg-blue-50 dark:hover:bg-blue-500/10 hover:border-blue-500 transition-all backdrop-blur-md shadow-sm">
+                    <i class="fab fa-telegram-plane mr-2 text-xl"></i> Kênh Telegram
+                </a>
+                <a href="https://t.me/+EkbcNF-ekJRhZjJl" class="flex items-center justify-center p-3 rounded-xl bg-white/70 dark:bg-zinc-900/60 border border-gray-200 dark:border-white/10 text-blue-600 dark:text-blue-400 font-bold text-sm hover:bg-blue-50 dark:hover:bg-blue-500/10 hover:border-blue-500 transition-all backdrop-blur-md shadow-sm">
+                    <i class="fab fa-telegram-plane mr-2 text-xl"></i> Nhóm Telegram
+                </a>
+                <a href="https://discord.com/channels/1375487570556878988/1376059466570666024" class="flex items-center justify-center p-3 rounded-xl bg-white/70 dark:bg-zinc-900/60 border border-gray-200 dark:border-white/10 text-indigo-600 dark:text-indigo-400 font-bold text-sm hover:bg-indigo-50 dark:hover:bg-indigo-500/10 hover:border-indigo-500 transition-all backdrop-blur-md shadow-sm">
+                    <i class="fab fa-discord mr-2 text-xl"></i> Nhóm Discord
+                </a>
+                <a href="https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP" class="flex items-center justify-center p-3 rounded-xl bg-white/70 dark:bg-zinc-900/60 border border-gray-200 dark:border-white/10 text-blue-700 dark:text-blue-600 font-bold text-sm hover:bg-blue-50 dark:hover:bg-blue-600/10 hover:border-blue-600 transition-all backdrop-blur-md shadow-sm">
+                    <i class="fab fa-facebook mr-2 text-xl"></i> Nhóm Facebook
+                </a>
+            </div>
+
+            <div class="max-w-2xl mx-auto mb-10 relative animate-fade-up">
+                <input type="text" id="ipa-search-input" placeholder="Tìm kiếm IPA, công cụ..." 
+                    class="w-full py-3.5 px-5 rounded-full bg-white/80 dark:bg-zinc-900/60 border border-gray-200 dark:border-white/10 text-gray-900 dark:text-white placeholder-gray-500 outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-all pl-12 backdrop-blur-md shadow-lg">
+                <i class="fas fa-search absolute left-5 top-1/2 -translate-y-1/2 text-gray-400"></i>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 item-grid animate-fade-up delay-[100ms]">
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 hover:shadow-xl transition-all duration-300 group">
+                    <div class="flex flex-row items-start gap-4 mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/ota.webp" class="w-16 h-16 rounded-xl object-cover shadow-lg flex-shrink-0 group-hover:scale-105 transition-transform">
                         <div>
-                            <h2 class="text-xl font-semibold">CarTube</h2>
-                            <p class="text-gray-400">Phiên bản v1.3</p>
+                            <h2 class="text-lg font-bold text-gray-900 dark:text-white mb-1 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Chặn cập nhật IOS</h2>
+                            <p class="text-xs text-gray-600 dark:text-gray-400"><b class="text-cyan-600 dark:text-cyan-400">Mô tả:</b> Chặn iOS tự động cập nhật.</p>
+                            <p class="text-xs text-gray-600 dark:text-gray-400 mt-1"><b class="text-cyan-600 dark:text-cyan-400">HD:</b> Tải về -> Cài đặt chung -> Quản lý VPN & Thiết bị -> Cài đặt.</p>
                         </div>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ tiện ích cho phép xem YouTube trực tiếp trên màn hình của ô tô thông tqua Apple CarPlay, được tích hợp SponsorBlock tự động chặn quảng cáo một cách dễ dàng.<br>Tương thích Thiết bi IOS có Trollstore</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/Avangelista/CarTube" target="Github">GitHub</a></p>
-                    <a href="https://github.com/Avangelista/CarTube/releases/download/1.3/CarTube.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
+                    <a href="https://cydia.ichitaso.com/no-ota18.mobileconfig" class="mt-auto w-full py-2.5 rounded-xl bg-gray-100 dark:bg-white/10 border border-gray-200 dark:border-white/5 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white hover:border-transparent transition-all">
+                        <i class="fas fa-download"></i> Tải OTA
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/Avangelista/CarTube/releases/download/1.3/CarTube.tipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
-                </div>
-               
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/dynamcow.webp" alt="Dynamiccow Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">DynamicCow</h2>
-                            <p class="text-gray-400">Phiên bản v2.0</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ tiện ích cho phép mang tính năng (Live Activities) của  Dynamic Island lên các dòng iOS không được Apple hỗ trợ chính thức như các iPhone có "tai thỏ"<br>Tương thích: IOS 16.0 - 16.6.1 và 17.0</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/matteozappia/DynamicCowTS" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/matteozappia/DynamicCowTS/releases/download/2.0/DynamicCowTS.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/matteozappia/DynamicCowTS/releases/download/2.0/DynamicCowTS.tipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
                 </div>
 
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/sally.webp" alt="Sally Icon" class="w-16 h-16 mr-4">
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 hover:shadow-xl transition-all duration-300 group">
+                    <div class="flex flex-row items-start gap-4 mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/trollstore.webp" class="w-16 h-16 rounded-xl object-cover shadow-lg flex-shrink-0 group-hover:scale-105 transition-transform">
                         <div>
-                            <h2 class="text-xl font-semibold">Sally</h2>
-                            <p class="text-gray-400">Phiên bản v1.0</p>
+                            <h2 class="text-lg font-bold text-gray-900 dark:text-white mb-1 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Trollstore Việt Hóa</h2>
+                            <p class="text-xs text-gray-600 dark:text-gray-400"><b class="text-cyan-600 dark:text-cyan-400">Mô tả:</b> Bản mod Trollstore Tiếng Việt.</p>
+                            <p class="text-xs text-gray-600 dark:text-gray-400 mt-1"><b class="text-cyan-600 dark:text-cyan-400">HD:</b> Tải file .tar -> Mở TrollStore -> Settings -> Chọn ngôn ngữ TV.</p>
                         </div>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ trình quản lý gói thay thế cho Cydia/Sileo/Zebra, được thiết kế để cài đặt qua TrollStore<br>Cung cấp đầy đủ tính năng để quản lý tìm kiếm, cài đặt, cập nhật các gói tệp .deb và hiển thị Mô tả chi tiế các tweak trên thiết bị jailbreak<br>Tương thích Thiết bi IOS có Trollstore</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/Lakr233/Saily" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Saily.ipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
+                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/TrollStore_2.1_1023.tar" class="mt-auto w-full py-2.5 rounded-xl bg-gray-100 dark:bg-white/10 border border-gray-200 dark:border-white/5 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white hover:border-transparent transition-all">
+                        <i class="fas fa-download"></i> Tải Tar
                     </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Saily.ipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
                 </div>
 
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/palera1n.webp" alt="PaleRL Icon" class="w-16 h-16 mr-4">
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 hover:shadow-xl transition-all duration-300 group">
+                    <div class="flex flex-row items-start gap-4 mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/esign.webp" class="w-16 h-16 rounded-xl object-cover shadow-lg flex-shrink-0 group-hover:scale-105 transition-transform">
                         <div>
-                            <h2 class="text-xl font-semibold">Palera1n Rootless</h2>
-                            <p class="text-gray-400">Phiên bản v2.1</p>
+                            <h2 class="text-lg font-bold text-gray-900 dark:text-white mb-1 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Esign+ (Trollstore)</h2>
+                            <p class="text-xs text-gray-600 dark:text-gray-400"><b class="text-cyan-600 dark:text-cyan-400">Mô tả:</b> Ký IPA vĩnh viễn không cần chứng chỉ.</p>
+                            <p class="text-xs text-gray-600 dark:text-gray-400 mt-1"><b class="text-cyan-600 dark:text-cyan-400">HD:</b> Tải IPA -> Mở jetsign -> Install -> thêm vào Sách -> Chọn dòng 3.</p>
                         </div>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ jailbreak "semi-tethered" dựa trên lỗ hổng bootrom checkm8, một phương pháp hiện đại và an toàn. Chức năng cho phép cài đặt tweak và tùy chỉnh sâu rộng trên thiết bị mà không sửa đổi các tập tin gốc của hệ điều hành<br>Tương thích: IOS 15.x - 16.7.11 (chip A8 - A11)</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/palera1n/palera1n" target="_blank">GitHub</a></p>
-                    <a href="https://palera.in/download/?tab=windows" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải USB</span>
+                    <a href="https://app.mediafire.com/folder/t0nebgmtmtisp" class="mt-auto w-full py-2.5 rounded-xl bg-gray-100 dark:bg-white/10 border border-gray-200 dark:border-white/5 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white hover:border-transparent transition-all">
+                        <i class="fas fa-download"></i> Tải IPA
                     </a>
-                    <a href="https://www.mediafire.com/file/brikeclld7jclz8/WinRa1n2.1.exe/file" class="install-button mt-2">
-                        <i class="fas fa-download mr-2"></i>
-                        <span>Tải WinRa1n EXE</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: USB Window và Mac</p>
+                </div>
+            </div>
+
+            <div class="text-center mb-8 animate-fade-up">
+                <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-2">Công cụ sign IPA</h2>
+                <p class="text-lg text-gray-600 dark:text-gray-400">Dưới đây là công cụ sign các tệp IPA ứng dụng cho thiết bị IOS</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 item-grid animate-fade-up delay-[150ms]">
+                
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/feather.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Feather</h2>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Chức năng:</b> Ký IPA trực tiếp, gọn nhẹ.<br><b>Hỗ trợ:</b> iOS 15+</p>
+                    <a href="https://github.com/khcrysalis/Feather/releases/tag/v2.3.1" class="mt-auto w-full py-2.5 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Link Tải</a>
                 </div>
 
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
                     <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/palera1n.webp" alt="PalenRH Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Palera1n Roothide</h2>
-                            <p class="text-gray-400">Phiên bản v2.0 beta 3</p>
-                        </div>
+                        <img src="https://jtisvn.github.io/icons/apps/gbox.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Gbox</h2>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ jailbreak "semi-tethered" dựa trên lỗ hổng bootrom checkm8, một phiên bản đặc biệt của jailbreak Rootless, được xây dựng với chức năng cốt lõi là ẩn jailbreak các ứng dụng như Ngân hàng, ví điện tử, hoặc game hoạt động bình thường.<br>Tương thích: IOS 15.x - 16.7.11 (chip A8 - A11)</p>
-                    <p><b>Nguồn</b>: <a href="https://discord.com/invite/6AKh9eZeD4" target="_blank">Discord</a></p>
-                    <a href="https://download2282.mediafire.com/jrkwnk2d8tmgWocOfQggen6gv_4vTPKX2JtrQZhczlPvKTkLNkCd8o3B6cMevO3zLH_8-rm3sDKgre-BsdHX6k5v4XIIuDWdJlykUWN4gZCd-04aJ8MvrSaZCsqhyvWGzFhtVk3GPQW5hyuPkGttPXIfNT7t0QUQQUzCOudoyhIt/vzjiwyz3r7e9nn5/palen1JB.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="https://www.mediafire.com/file/rsgwbqw7spw2snq/palehide.zip/file" class="install-button mt-2">
-                        <i class="fas fa-download mr-2"></i>
-                        <span>Tải Zip</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: USB Window và Mac</p>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Chức năng:</b> Ký và cài đặt IPA không cần PC.<br><b>Hỗ trợ:</b> iOS 14+</p>
+                    <a href="https://gbox.run/" class="mt-auto w-full py-2.5 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Link Tải</a>
                 </div>
 
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
                     <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/ringtones.webp" alt="RingTones Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">RingTonesManager</h2>
-                            <p class="text-gray-400">Phiên bản v1.1-4</p>
-                        </div>
+                        <img src="https://jtisvn.github.io/icons/apps/sideloadly.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Sideloadly</h2>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ mạnh mẽ giúp vượt qua những hạn chế của Apple trong việc tùy chỉnh nhạc chuông trên iPhone, Cho phép hỗ trợ nhập các tệp hiều định dạng  .m4r âm thanh từ nhiều nguồn khác nhau và loại bỏ hoàn toàn sự phụ thuộc vào iTunes để đồng bộ hóa và quản lý nhạc chuông. <br>Tương thích: iOS 14.0 - 16.6.1</p>
-                    <p><b>Nguồn</b>: <a href="https://www.reddit.com/r/jailbreak/comments/1ax677q/ringtones_manager_for_ios_ipa_install_via/" target="_blank"> Reddit</a></p>
-                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/RingTonesManagerWith_TrollStore_1.1-4.ipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/RingTonesManagerWith_TrollStore_1.1-4.ipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore và AltStore</p>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Chức năng:</b> Ký IPA trên PC, hỗ trợ Wi-Fi.<br><b>Hỗ trợ:</b> iOS 7+</p>
+                    <a href="https://sideloadly.io/" class="mt-auto w-full py-2.5 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Link Tải</a>
                 </div>
 
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
                     <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/batteryinfo.webp" alt="Battery Info Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Battery Info</h2>
-                            <p class="text-gray-400">Phiên bản v1.2</p>
-                        </div>
+                        <img src="https://jtisvn.github.io/icons/apps/alstore.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">AltStore</h2>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ tiện ích chuyên dụng được thiết kế để tận dụng các quyền hệ thống mà TrollStore cung cấp, Cho phép đọc trực tiếp dữ liệu phần cứng từ con chip quản lý pin của iPhone. Hiển thị chính xác số chu kỳ sạc,thông số dung lượng pin và các thông tin như ngày sản xuất pin, nhà sản xuất, hoặc số sê-ri của viên pin.<br>Tương thích: iOS 14.0 - 16.6.1 và 17.0</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/DevelopCubeLab/BatteryInfo" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/BatteryInfo-1.2.2.ipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/BatteryInfo-1.2.2.ipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Chức năng:</b> Tự động làm mới IPA qua PC.<br><b>Hỗ trợ:</b> iOS 12+</p>
+                    <a href="https://altstore.io/" class="mt-auto w-full py-2.5 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Link Tải</a>
                 </div>
 
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
                     <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/charge.webp" alt="Charge Limiter Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Charge Limiter</h2>
-                            <p class="text-gray-400">Phiên bản v1.7</p>
-                        </div>
+                        <img src="https://jtisvn.github.io/icons/apps/sidestore.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">SideStore</h2>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ tiện ích mạnh mẽ được cài đặt qua TrollStore giúp bảo vệ và kéo dài tuổi thọ pin cho iPhone<br>Cho phép chủ động đặt giới hạn nhiệt độ và mức sạc (ví dụ, tự ngắt sạc ở 80%) để tránh sạc đầy 100%,hoặc sạc trong thời gian quá dài giúp giảm tốc độ chai pin .<br>Tương thích: iOS 14.0 - 16.6.1 và 17.0</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/lich4/ChargeLimiter" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/lich4/ChargeLimiter/releases/download/1.7/ChargeLimiter_1.7.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/ChargeLimiter_1.7.tipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Chức năng:</b> Ký IPA từ xa không cần PC.<br><b>Hỗ trợ:</b> iOS 14+</p>
+                    <a href="https://sidestore.io/" class="mt-auto w-full py-2.5 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Link Tải</a>
                 </div>
 
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
                     <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/copylog.webp" alt="CopyLog Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">CopyLog</h2>
-                            <p class="text-gray-400">Phiên bản v1.7</p>
-                        </div>
+                        <img src="https://jtisvn.github.io/icons/apps/ksign.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Ksign</h2>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ tiện ích quản lý lịch sử bảng tạm trên iPhone Cho phép theo dõi lưu lại, sắp xếp, Và quản lý nhanh các đoạn văn bản và hình ảnh đã sao chép<br> Ứng dụng hoạt động ngầm, hỗ trợ chia sẻ, xem trước liên kết, Giao diện dễ nhìn sử dụng với cử chỉ vuốt từ bàn phím và nút đọc chính tả.<br>Tương thích: iOS 14.0 - 16.6.1 và 17.0</p>
-                    <p><b>Nguồn</b>: <a href="https://havoc.app/package/copylogts" target="_blank">Havoc</a></p>
-                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/CopyLogTS-1.7.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/CopyLogTS-1.7.tipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Chức năng:</b> Ký IPA trực tiếp, quản lý chứng chỉ.<br><b>Hỗ trợ:</b> iOS 14+</p>
+                    <a href="https://ksign-ios.com/" class="mt-auto w-full py-2.5 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Link Tải</a>
+                </div>
+            </div>
+
+            <div class="text-center mb-8 animate-fade-up">
+                <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-2">Kho IPA</h2>
+                <p class="text-lg text-gray-600 dark:text-gray-400">Các tệp IPA ứng dụng tương thích với Trollstore và Jailbreak</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 item-grid animate-fade-up delay-[200ms]">
+                
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/trollinstallerx.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">TrollInstaller X</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.0.3</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Cài đặt Trollstore vĩnh viễn.<br>iOS 14.0 - 16.6.1</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://ios.cfw.guide/installing-trollstore/" target="_blank" class="text-cyan-500 hover:underline">CFW Guide</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="https://dhinakg.github.io/files/apps/TrollInstallerMDC/TrollInstallerMDC.ipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA MDC</a>
+                    </div>
                 </div>
 
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
                     <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/uiharux.webp" alt="Uiharu X Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Uiharu X</h2>
-                            <p class="text-gray-400">Phiên bản v2.0</p>
-                        </div>
+                        <img src="https://jtisvn.github.io/icons/apps/trollstore.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">TrollRestore</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.0</p></div>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ tùy biến giao diện mạnh mẽ dành cho iPhone qua TrollStore, không cần jailbreak<br>Cho phép thêm một menu nổi truy cập các tính năng như Phím tắt (Shortcuts) và khởi chạy ứng dụng nhanh, Giả lập Dynamic Island, Tạo hiệu ứng tuyết rơi và đèn viền trên màn hình.<br>Tương thích: Thiết bị IOS có Trollstore</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/straight-tamago/UiharuX" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/straight-tamago/UiharuX/releases/download/2.0/com.straight-tamago.uiharux-pro-2.0.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/straight-tamago/UiharuX/releases/download/2.0/com.straight-tamago.uiharux-pro-2.0.tipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Cài Trollstore trên PC.<br>iOS 14.0 - 17.0</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://ios.cfw.guide/installing-trollstore-trollrestore/" target="_blank" class="text-cyan-500 hover:underline">CFW Guide</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/JJTech0130/TrollRestore/releases/latest/download/TrollRestore.exe" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải EXE</a>
+                        <a href="https://www.3u.com/" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải 3uTool</a>
+                    </div>
                 </div>
 
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
                     <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/audiorec.webp" alt="AudioRec Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">AudioRecorder</h2>
-                            <p class="text-gray-400">Phiên bản v6.0.3</p>
-                        </div>
+                        <img src="https://jtisvn.github.io/icons/apps/trollfools.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">TrollFools</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v4.2-227</p></div>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ mạnh mẽ được cài đặt qua TrollStore mà không cần jailbreak.<br> Cho phép ghi âm cuộc gọi trực tiếp cho ứng dụng thông thường như FaceTime, Zalo, Messenger...Tự động ghi âm theo danh bạ đã chọn. Quản lý, nghe lại và chia sẻ file ghi âm dễ dàng hơn.<br>Tương thích: Thiết bị IOS có Trollstore</p>
-                    <p><b>Nguồn</b>: <a href="https://limneos.net/?page=ipa" target="_blank">Limneos</a></p>
-                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AudioRecorderTS_6.0.3_noDropbox.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AudioRecorderTS_6.0.3_noDropbox.tipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Tiêm file dylib cho ứng dụng.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/Lessica/TrollFools" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/Lessica/TrollFools/releases/download/v4.2-227/TrollFools_4.2-227.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/Lessica/TrollFools/releases/download/v4.2-227/TrollFools_4.2-227.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
                 </div>
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
                     <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/Locsim.webp" alt="Locsim Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Locsim</h2>
-                            <p class="text-gray-400">Phiên bản v1.3.7</p>
-                        </div>
+                        <img src="https://jtisvn.github.io/icons/apps/trollspeed.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">TrollSpeed</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.12.1</p></div>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ fake vị trí mạnh mẽ dành cho iPhone qua TrollStore, không cần jailbreak<br>Cho phép giả lập vị trí GPS của iPhone một cách dễ dàng mà không cần phải jailbreak thiết bị. Công cụ này thường được tích hợp bên trong các ứng dụng tiện ích khác như Geranium, giúp thay đổi vị trí hiện tại của bạn đến bất kỳ đâu trên thế giới cho mọi ứng dụng trên hệ thống..<br>Tương thích: Thiết bị IOS có Trollstore</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/c22dev" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/LocSim-1.3.7.ipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/LocSim-1.3.7.ipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Hiển thị tốc độ mạng.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/Lessica/TrollSpeed" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/Lessica/TrollSpeed/releases/download/v1.12.1/TrollSpeed_v1.12.1.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/TrollSpeed_v1.12.1.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
                 </div>
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
                     <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/Modmyipa.webp" alt="ModMyIPA Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">ModMyIPA</h2>
-                            <p class="text-gray-400">Phiên bản v1.0.2</p>
-                        </div>
+                        <img src="https://jtisvn.github.io/icons/apps/appsmanager.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">AppsManager</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.8.4</p></div>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ (dưới dạng ứng dụng hoặc tiện ích) cho phép người dùng chỉnh sửa và tùy biến (mod) các tệp ứng dụng .ipa trực tiếp trên thiết bị iOS đã cài đặt TrollStore.<br>Cho phép thay đổi các thành phần bên trong một ứng dụng trước khi cài đặt để thêm tính năng, thay đổi giao diện, hoặc gỡ bỏ các hạn chế.<br>Tương thích: Thiết bị IOS có Trollstore</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/powenn/ModMyIPA" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/powenn/ModMyIPA/releases/download/1.0.2/ModMyIPA-1.0.2.ipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/powenn/ModMyIPA/releases/download/1.0.2/ModMyIPA-1.0.2.ipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Quản lý, sao lưu dữ liệu App.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/MuntashirAkon/AppManager" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AppsManager_1.8.4_Crack.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AppsManager_1.8.4_Crack.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
                 </div>
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
                     <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/DowngradeApp.webp" alt="DowngradeApp Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">DowngradeApp</h2>
-                            <p class="text-gray-400">Phiên bản v1.2.1</p>
-                        </div>
+                        <img src="https://jtisvn.github.io/icons/apps/varclean.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">VarClean 15</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.8.4</p></div>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ cho phép hạ cấp (downgrade) hoặc nâng cấp (upgrade) các ứng dụng đã được cài đặt trên thiết bị về bất kỳ phiên bản nào còn tồn tại trên máy chủ của App Store, phiên bản dành cho thiết bị hỗ trợ TrollStore.<br>Cực kỳ hữu ích khi một bản cập nhật mới của ứng dụng bị lỗi, xóa mất tính năng bạn thích, hoặc không còn tương thích.<br>Tương thích: Thiết bị IOS có Trollstore</p>
-                    <p><b>Nguồn</b>: <a href="https://x.com/DUpk3/status/1868284506828075210" target="_blank">X</a></p>
-                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/DowngradeApp_1.2-1.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/DowngradeApp_1.2-1.tipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Dọn dẹp rác hệ thống.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://senumy.com/ipa-library/trollstore/varclean-ipa/" target="_blank" class="text-cyan-500 hover:underline">Senumy</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/m1337v/RootHideManagerApp/releases/download/rootless/varClean15.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/varClean15.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
                 </div>
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
                     <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/TrollFools3.webp" alt="TrollFools Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">TrollFools</h2>
-                            <p class="text-gray-400">Phiên bản v4.2-227</p>
-                        </div>
+                        <img src="https://jtisvn.github.io/icons/apps/filza.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Filza No Url</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v4.0.0</p></div>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là Phiên bản TrollFools thứ 3 đước chỉnh sửa bởi iosdump.<br>Sử dụng “trollfools://open?bid=target app's package name” để thêm vào Phím tắt để truy cập nhanh vào trang quản lý plugin.
-                        2. Sử dụng “trollfools://enable-all” phiên bản gốc, số phiên bản để thêm vào Phím tắt để kích hoạt tất cả plugin chỉ bằng một cú nhấp chuột..<br>Tương thích: Thiết bị IOS có Trollstore</p>
-                    <p><b>Nguồn</b>: <a href="https://t.me/iosdumpzzz" target="_blank">Telegram</a></p>
-                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/TrollFools.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/TrollFools.tipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Quản lý tệp tin hệ thống.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://www.tigisoftware.com/default/?p=439" target="_blank" class="text-cyan-500 hover:underline">Tigi Software</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://tigisoftware.com/download/Filza_NoURLScheme_4.0.0.ipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Filza_NoURLScheme_4.0.0.ipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
                 </div>
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
                     <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/Geranium.webp" alt="Geranium Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">Geranium</h2>
-                            <p class="text-gray-400">Phiên bản v1.1.3</p>
-                        </div>
+                        <img src="https://jtisvn.github.io/icons/apps/dopamine.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Dopamine</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v2.4.6</p></div>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ cho phép Giả lập vị trí: Fake GPS toàn hệ thống, hỗ trợ lưu bookmark và import từ Apple Maps và Dọn dẹp hệ thống: Xóa Cache, file OTA và dữ liệu, giúp giải phóng dung lượng lớn. Quản lý Daemon Tắt các tiến trình chạy ngầm không cần thiết (HomeKit, OTA...) để tối ưu pin và hiệu năng và Gỡ bỏ mật mã Thời gian sử dụng (Screen Time/ByeTime).<br>Tương thích: Thiết bị IOS có Trollstore</p>
-                    <p><b>Nguồn</b>: <a href="https://github.com/c22dev/Geranium" target="_blank">GitHub</a></p>
-                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Geranium.tipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Geranium.tipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Jailbreak Rootless iOS 15 - 16.5.1.<br>An toàn, ổn định.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/opa334/Dopamine" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/w2599/Dopamine/releases/download/2.4.6/Dopamine_blacklist_2.4.6.1767538173_b3ec2fa6.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/w2599/Dopamine/releases/download/2.4.6/Dopamine_blacklist_2.4.6.1767538173_b3ec2fa6.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
                 </div>
-                <div class="new-item">
-                    <div class="highlight-overlay"></div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
                     <div class="flex items-center mb-4">
-                        <img src="https://jtisvn.github.io/icons/apps/iOSCleanPro.webp" alt="iOSCleanPro Icon" class="w-16 h-16 mr-4">
-                        <div>
-                            <h2 class="text-xl font-semibold">iOSCleanPro</h2>
-                            <p class="text-gray-400">Phiên bản v1.5</p>
-                        </div>
+                        <img src="https://jtisvn.github.io/icons/apps/roothide.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Roothide</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v2.4.5</p></div>
                     </div>
-                    <p class="text-gray-300 mb-2"><b>Mô tả</b>: Là công cụ Tái cấu trúc toàn bộ các phiên bản trước đây, đồng thời an toàn hơn, gần như không bị thoát đột ngột..<br>Đảm bảo chỉ dọn dẹp bộ nhớ đệm và tập tin tạm an toàn <br> Giúp giải phóng một số không gian bộ nhớ và dữ liệu hệ thống, phiên bản dành cho thiết bị hỗ trợ TrollStore<br>Tương thích: Thiết bị IOS có Trollstore</p>
-                    <p><b>Nguồn</b>: <a href="https://t.me/TheBallnow" target="_blank">Telegram</a></p>
-                    <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/iOSCleanPro.ipa" class="install-button mt-2">
-                         <i class="fas fa-download mr-2"></i>
-                         <span>Tải IPA</span>
-                    </a>
-                    <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/iOSCleanPro.ipa')" class="install-button mt-2">
-                        <i class="fa-solid fa-bolt mr-2"></i>
-                        <span>Cài qua TrollStore</span>
-                    </a>
-                    <p class="text-gray-500 text-sm mt-2">Hỗ trợ cài đặt: Trollstore</p>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Jailbreak ẩn, bypass phát hiện JB.<br>iOS 15 - 16.5.1</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/roothide/Dopamine2-roothide" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/roothide/Dopamine2-roothide/releases/download/19/Dopamine.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/roothide/Dopamine2-roothide/releases/download/19/Dopamine.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
                 </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/appstore+.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">AppStore++</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.0.3</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Hạ cấp/Nâng cấp ứng dụng AppStore.<br>iOS 14.0 - 16.1.2</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/CokePokes/AppStorePlus-TrollStore" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v1.2-1/AppStore++_TrollStore_v1.0.3-2.ipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AppStore++_TrollStore_v1.0.3-2.ipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/taurine.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Taurine</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.1.7</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Jailbreak iOS 14.0 - 14.8.1.<br>Nhanh & Ổn định.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/Odyssey-Team/Taurine" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/bootstrap.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Bootstrap</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v2.0 beta</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Semi-jailbreak giả lập Roothide.<br>iOS 15.0 - 17.0</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/roothide/Bootstrap" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Bootstrap2.0beta.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Bootstrap2.0beta.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/nathanir.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Nathanlr</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v2.1.1</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Semi-JB Rootless cho A12+.<br>iOS 16.5.1 - 17.0</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://ios.cfw.guide/installing-nathanlr/" target="_blank" class="text-cyan-500 hover:underline">CFW Guide</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/NathanLR_2.1.1-4.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/NathanLR_2.1.1-4.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/cowabunga.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Cowabunga</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v10.3.2</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Tùy biến hệ thống không cần JB.<br>iOS 14.0 - 16.1.2</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/leminlimez/Cowabunga" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/misaka.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Misaka</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v8.2.4</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Quản lý tweak KFD/MDC.<br>iOS 15.0 - 16.1.2</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/straight-tamago/misaka" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/straight-tamago/misaka/releases/download/8.2.4/misaka-v8.2.4.ipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/straight-tamago/misaka/releases/download/8.2.4/misaka-v8.2.4.ipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/cartube.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">CarTube</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.3</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Xem YouTube trên CarPlay.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/Avangelista/CarTube" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/Avangelista/CarTube/releases/download/1.3/CarTube.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/Avangelista/CarTube/releases/download/1.3/CarTube.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/dynamcow.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">DynamicCow</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v2.0</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Kích hoạt Dynamic Island.<br>iOS 16.0 - 17.0</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/matteozappia/DynamicCowTS" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/matteozappia/DynamicCowTS/releases/download/2.0/DynamicCowTS.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/matteozappia/DynamicCowTS/releases/download/2.0/DynamicCowTS.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/sally.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Saily</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.0</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Quản lý gói thay thế Cydia.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/Lakr233/Saily" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Saily.ipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Saily.ipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/palera1n.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Palera1n Rootless</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v2.1</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> JB checkm8 cho A8-A11.<br>iOS 15.x - 16.7.x</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/palera1n/palera1n" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://palera.in/download/?tab=windows" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải USB</a>
+                        <a href="https://www.mediafire.com/file/brikeclld7jclz8/WinRa1n2.1.exe/file" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải WinRa1n</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/palera1n.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Palera1n Roothide</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v2.0 beta 3</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> JB ẩn cho A8-A11.<br>iOS 15.x - 16.7.x</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://discord.com/invite/6AKh9eZeD4" target="_blank" class="text-cyan-500 hover:underline">Discord</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://download2282.mediafire.com/jrkwnk2d8tmgWocOfQggen6gv_4vTPKX2JtrQZhczlPvKTkLNkCd8o3B6cMevO3zLH_8-rm3sDKgre-BsdHX6k5v4XIIuDWdJlykUWN4gZCd-04aJ8MvrSaZCsqhyvWGzFhtVk3GPQW5hyuPkGttPXIfNT7t0QUQQUzCOudoyhIt/vzjiwyz3r7e9nn5/palen1JB.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="https://www.mediafire.com/file/rsgwbqw7spw2snq/palehide.zip/file" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải Zip</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/ringtones.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">RingTonesManager</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.1-4</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Quản lý nhạc chuông.<br>iOS 14.0 - 16.6.1</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://www.reddit.com/r/jailbreak/comments/1ax677q/ringtones_manager_for_ios_ipa_install_via/" target="_blank" class="text-cyan-500 hover:underline">Reddit</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/RingTonesManagerWith_TrollStore_1.1-4.ipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/RingTonesManagerWith_TrollStore_1.1-4.ipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/batteryinfo.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Battery Info</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.2</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Xem thông tin pin chi tiết.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/DevelopCubeLab/BatteryInfo" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/BatteryInfo-1.2.2.ipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/BatteryInfo-1.2.2.ipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/charge.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Charge Limiter</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.7</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Giới hạn mức sạc pin.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/lich4/ChargeLimiter" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/lich4/ChargeLimiter/releases/download/1.7/ChargeLimiter_1.7.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/jtisvnkhoipa.github.io/releases/download/KhoIPA/ChargeLimiter_1.7.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/copylog.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">CopyLog</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.7</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Quản lý clipboard.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://havoc.app/package/copylogts" target="_blank" class="text-cyan-500 hover:underline">Havoc</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/CopyLogTS-1.7.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/CopyLogTS-1.7.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/uiharux.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Uiharu X</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v2.0</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Tùy biến giao diện.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/straight-tamago/UiharuX" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/straight-tamago/UiharuX/releases/download/2.0/com.straight-tamago.uiharux-pro-2.0.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/straight-tamago/UiharuX/releases/download/2.0/com.straight-tamago.uiharux-pro-2.0.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/audiorec.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">AudioRecorder</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v6.0.3</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Ghi âm cuộc gọi.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://limneos.net/?page=ipa" target="_blank" class="text-cyan-500 hover:underline">Limneos</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AudioRecorderTS_6.0.3_noDropbox.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AudioRecorderTS_6.0.3_noDropbox.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/Locsim.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Locsim</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.3.7</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Fake GPS.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/c22dev" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/LocSim-1.3.7.ipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/LocSim-1.3.7.ipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/Modmyipa.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">ModMyIPA</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.0.2</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Chỉnh sửa IPA.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/powenn/ModMyIPA" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/powenn/ModMyIPA/releases/download/1.0.2/ModMyIPA-1.0.2.ipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/powenn/ModMyIPA/releases/download/1.0.2/ModMyIPA-1.0.2.ipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/DowngradeApp.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">DowngradeApp</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.2.1</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Hạ cấp ứng dụng AppStore.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://x.com/DUpk3/status/1868284506828075210" target="_blank" class="text-cyan-500 hover:underline">X (Twitter)</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/DowngradeApp_1.2-1.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/DowngradeApp_1.2-1.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/TrollFools3.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">TrollFools (Mod)</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v4.2-227</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Bản mod hỗ trợ shortcut.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://t.me/iosdumpzzz" target="_blank" class="text-cyan-500 hover:underline">Telegram</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/TrollFools.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/TrollFools.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/Geranium.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Geranium</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.1.3</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Fake GPS, Dọn dẹp, Daemon.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/c22dev/Geranium" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Geranium.tipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/Geranium.tipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/iOSCleanPro.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">iOSCleanPro</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.5</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Dọn dẹp bộ nhớ đệm an toàn.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://t.me/TheBallnow" target="_blank" class="text-cyan-500 hover:underline">Telegram</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/iOSCleanPro.ipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/iOSCleanPro.ipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
+                <div class="new-item flex flex-col p-5 rounded-[1.5rem] border border-gray-200 dark:border-white/10 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md hover:-translate-y-2 hover:bg-white dark:hover:bg-zinc-800/60 transition-all duration-300 group">
+                    <div class="flex items-center mb-4">
+                        <img src="https://jtisvn.github.io/icons/apps/AirTroller.webp" class="w-16 h-16 mr-4 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+                        <div><h2 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">AirTroller</h2><p class="text-gray-500 dark:text-gray-400 text-sm">v1.5</p></div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-2 text-sm"><b>Mô tả:</b> Spam AirDrop liên tục để trêu chọc bạn bè.<br>Yêu cầu Trollstore.</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-3"><b>Nguồn:</b> <a href="https://github.com/sourcelocation" target="_blank" class="text-cyan-500 hover:underline">GitHub</a></p>
+                    <div class="flex flex-col gap-2 mt-auto">
+                        <a href="https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AirTroller-1.1.1_TS.ipa" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fas fa-download"></i> Tải IPA</a>
+                        <a href="javascript:void(0);" onclick="installWithTrollStore('https://github.com/KitsudoJtis/JTISrepo.Ki-tudo/releases/download/1.0/AirTroller-1.1.1_TS.ipa')" class="w-full py-2 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-700 dark:text-gray-200 font-bold text-sm flex justify-center items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white transition-all"><i class="fa-solid fa-bolt"></i> Cài TrollStore</a>
+                    </div>
+                </div>
+
             </div>
 
             <div class="text-center mt-12 px-4">
-                <p class="thank-you-message">Cảm ơn bạn vì đã theo dõi và ủng hộ JTISVN!</p>
+                <p class="text-gray-600 font-bold text-sm sm:text-base dark:text-gray-400">Cảm ơn bạn vì đã theo dõi và ủng hộ JTISVN!</p>
+            </div>
+            
+            <div class="mt-16 text-center text-sm pb-8 border-t border-gray-200 dark:border-white/5 pt-8">
+                <p class="text-gray-500 dark:text-gray-400 font-bold">Copyright © 2025 - 2030 KITSUDO • JTISVN</p>
             </div>
         </main>
-
-        <div class="copyright-container">
-            <p>Copyright © 2025 - 2030 By: KITSUDO - JTISVN. All rights reserved.</p>
-        </div>
     </div>
 
     <script>
@@ -961,26 +697,41 @@
                 const titleElement = item.querySelector('h2');
                 if (titleElement) {
                     const text = titleElement.innerText.toLowerCase();
-                    item.style.display = text.includes(filter) ? '' : 'none';
+                    if (text.includes(filter)) {
+                        item.classList.remove('hidden');
+                        item.classList.add('flex');
+                    } else {
+                        item.classList.remove('flex');
+                        item.classList.add('hidden');
+                    }
                 }
             });
         });
 
         const themeToggleBtn = document.getElementById('theme-toggle-btn');
-        const themeIcon = document.getElementById('theme-icon');
+        const themeIcon = document.querySelector('#theme-toggle-btn i');
         const body = document.body;
         const currentTheme = localStorage.getItem('theme') || 'dark';
         
-        body.setAttribute('data-theme', currentTheme);
-        if (currentTheme === 'light') { body.classList.add('light'); themeIcon.className = 'fas fa-moon'; }
+        function setTheme(theme) {
+            if (theme === 'dark') {
+                document.documentElement.classList.add('dark');
+                if(themeIcon) themeIcon.className = 'fas fa-sun';
+            } else {
+                document.documentElement.classList.remove('dark');
+                if(themeIcon) themeIcon.className = 'fas fa-moon';
+            }
+            localStorage.setItem('theme', theme);
+        }
+
+        setTheme(currentTheme);
         
-        themeToggleBtn.addEventListener('click', () => {
-            const isLight = body.classList.toggle('light');
-            const newTheme = isLight ? 'light' : 'dark';
-            body.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-            themeIcon.className = newTheme === 'light' ? 'fas fa-moon' : 'fas fa-sun';
-        });
+        if(themeToggleBtn) {
+            themeToggleBtn.addEventListener('click', () => {
+                const isDark = document.documentElement.classList.contains('dark');
+                setTheme(isDark ? 'light' : 'dark');
+            });
+        }
     </script>
 </body>
 </html>

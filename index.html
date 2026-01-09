@@ -30,6 +30,7 @@
                         'fade-down': 'fadeDown 0.8s ease-out',
                         'fade-up': 'fadeUp 0.8s ease-out 0.1s backwards',
                         'blob': 'blob 7s infinite',
+                        'gradient-text': 'gradient-text 6s linear infinite',
                     },
                     keyframes: {
                         fadeDown: { '0%': { opacity: '0', transform: 'translateY(-20px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
@@ -39,6 +40,10 @@
                             '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
                             '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
                             '100%': { transform: 'translate(0px, 0px) scale(1)' }
+                        },
+                        'gradient-text': {
+                            '0%': { 'background-position': '0% 50%' },
+                            '100%': { 'background-position': '300% 50%' },
                         }
                     }
                 }
@@ -55,7 +60,7 @@
         <div class="absolute bottom-[-10%] left-[20%] w-[600px] h-[600px] bg-blue-600/10 rounded-full mix-blend-screen filter blur-[100px] opacity-30 animate-blob animation-delay-4000 transform-gpu"></div>
     </div>
 
-    <div id="toast" class="fixed top-5 left-1/2 -translate-x-1/2 opacity-0 transition-opacity duration-300 z-50 pointer-events-none">
+    <div id="toast" class="fixed top-5 left-0 right-0 mx-auto w-max opacity-0 transition-opacity duration-300 z-50 pointer-events-none">
         <div class="bg-white/10 backdrop-blur-md border border-white/10 text-white px-4 py-2 rounded-full shadow-2xl font-semibold flex items-center gap-2 text-sm">
             <i class="fa-solid fa-check text-green-400"></i> Đã sao chép!
         </div>
@@ -65,11 +70,14 @@
         
         <header class="flex flex-col items-center justify-center mt-8 mb-8 text-center animate-fade-down">
             <div class="relative group mb-6">
-                <div class="absolute -inset-1 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full opacity-60 blur group-hover:opacity-100 transition duration-500"></div>
-                <img src="https://jtisvn.github.io/icons/apps/avatar.webp" alt="JTISVN" class="relative w-24 h-24 rounded-full shadow-2xl border border-white/10 bg-black object-cover transition-transform duration-700 ease-in-out hover:rotate-[360deg]">
+                <div class="absolute -inset-1 bg-gradient-to-br from-cyan-400 to-purple-600 rounded-full opacity-60 blur group-hover:opacity-100 transition duration-500"></div>
+                <img src="https://jtisvn.github.io/icons/apps/avatar.webp" alt="Avatar" class="relative w-32 h-32 rounded-full object-cover border-4 border-cyan-400 bg-black shadow-2xl group-hover:rotate-[360deg] transition-transform duration-700 ease-in-out">
             </div>
             
-            <h1 class="text-3xl font-extrabold tracking-tight">JTISVN Repo</h1>
+            <h1 class="text-4xl font-extrabold tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-white to-purple-400 drop-shadow-lg">
+                JTISVN REPO
+            </h1>
+
             <p class="text-gray-400 text-sm mt-1 font-medium">Chào mừng bạn đến với JTISVN<br>Kho lưu trữ Tweak hữu ích và Việt Hóa cho cộng đồng Jailbreak iOS<br>Hỗ trợ đầy đủ Rootfull, Rootless & Roothide</p>
             
             <div class="mt-6 w-full max-w-sm" onclick="copyRepoLink()">
@@ -104,7 +112,7 @@
         </section>
 
         <section class="mb-8 animate-fade-up delay-100">
-            <h2 class="text-lg font-bold mb-3 px-1 text-gray-200">Khác</h2>
+            <h2 class="text-lg font-bold mb-3 px-1 text-gray-200">Thông Tin Liên Hệ</h2>
             
             <div class="bg-zinc-900/80 backdrop-blur-md rounded-2xl border border-zinc-800 overflow-hidden">
                 
@@ -156,7 +164,8 @@
                 <a href="https://x.com/hiukitsudo9889?s=21" class="hover:text-white text-xl transition-colors"><i class="fa-brands fa-x-twitter"></i></a>
                 <a href="https://github.com/jtisvn" class="hover:text-white text-xl transition-colors"><i class="fab fa-github"></i></a>
             </div>
-            <p class="text-xs text-zinc-500 font-medium">Copyright © 2025 - 2030 Kitsudo • JTISVN</p>
+            <div class="mt-16 text-center text-sm pb-8 border-t border-gray-200 dark:border-white/5 pt-8">
+                <p class="text-gray-500 dark:text-gray-400 font-bold">Copyright © 2025 - 2030 KITSUDO • JTISVN</p>
         </footer>
 
     </div>
