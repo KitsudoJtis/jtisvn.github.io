@@ -5574,6 +5574,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoScroll.json
 Icon: https://jtisvn.github.io/sectionIcons/Autoscroll.png
 
 Package: com.jtis.axon
+Architecture: iphoneos-arm
+Version: 1.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 584
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/com.jtis.axon_1.4_iphoneos-arm.deb
+Size: 146640
+MD5sum: 5697462b960da1228c8cba85c33b291d
+SHA1: 8d0eaba73103cb3b82e07202bf8fa68d345caf64
+SHA256: 376c8d0a52895c043d3724b37ebc4d3f1b85938040fd88a36e80cbc1652ac1e1
+SHA512: 8130514214d9fd0ff064808eb6115059b96726a5b474c07dddfcceaf89ea0166937dad15a31c5a4d824a6013bb1935f3ac5deb874a00e84f74b68c9fe30e2288
+Description: Gom nhóm thông báo trên màn hình khoá
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
+Depiction: http://jtisvn.github.io/depiction/Axon.html
+Icon: https://jtisvn.github.io/sectionIcons/Axon.png
+Name: Axon
+Author: Nepeta
+
+Package: com.jtis.axon
 Architecture: iphoneos-arm64
 Version: 1.5.5
 Section: Tweaks
@@ -6543,6 +6564,28 @@ Author: CydiaGeek <lucaluca86@aol.com>
 dev: lucaluca86
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ByeHomeBottomBarX.json
+
+Package: com.jtis.cahighfps
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
+Conflicts: com.ps.cahighfps
+Filename: ./debs/com.jtis.cahighfps_1.0.2_iphoneos-arm.deb
+Size: 5080
+MD5sum: 0c6f0138811be652ea33dcea6ca05c68
+SHA1: f53c0b9e0527e1a30c0542a1ed1615e4971c1519
+SHA256: f3fe2634aeafc9cec142e21d3b4033cbe23a5a81d3d176966bd14726a0e0eb48
+SHA512: af2a8699a5de82c37f4949d22cc42159f0b32d6f92f1ebc385e0be3046fc0e976111920794b0dbeb06cccbb25234bddcb62044d132188916ab13c670a2d4bd85
+Homepage: https://jtisvn.github.io/
+Description: Làm cho các ứng dụng CoreAnimation sử dụng FPS cao nhất hiện có (giống như tốc độ làm mới thiết bị của bạn).
+Name: CAHighFPS VH
+Author: PoomSmart
+Depiction: Depiction: http://jtisvn.github.io/depiction/Tinhchinh.htmlp=info
+SileoDepiction: https://jtisvn.github.io/sileodepictions/tweak.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.cahighfps
 Architecture: iphoneos-arm64
@@ -12014,6 +12057,27 @@ Name: NeoFreeBird (Roothide)
 Author: Aridan
 Icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxIZv8J1EA7kmghMw_4ZJjjKsn2H_n4zO0JXrXu_QzGA&s=10
 
+Package: com.jtis.neonboard
+Architecture: iphoneos-arm
+Version: 1.0.13
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2452
+Provides: com.artikus.neonboard-lite, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
+Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
+Conflicts: com.artikus.neonboard-lite, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
+Replaces: com.artikus.neonboard-lite, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
+Filename: ./debs/com.jtis.neonboard_1.0.13_iphoneos-arm.deb
+Size: 255612
+MD5sum: 3e6477a6e183fdc353f993bc566a0918
+SHA1: 07eda91072f73902d9a6acfe9d0eea2c2fc6f62f
+SHA256: 1cc1cc525fc5e189808aab66714b2e6f4c6f2c3ae06a969fbfff132f251381a9
+SHA512: 60c4b4860c39011dc0574da68ef8de1941982e147b7c606de68ff01be63e0b2d52ffd3dc9cbbde4dd0a68bed851bf147980c9fab475bcfa6898f97518816a441
+Description: Công cụ chủ đề nhẹ nhàng đầy đủ tính năng cho iOS 7-14.
+Name: NeonBoard
+Author: ArtikusHG
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.neowave16
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -15800,6 +15864,27 @@ Name: VietNam 2-9
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/VietNam.json
 Icon: https://jtisvn/jtisvn.github.io/features/Goku.png
+
+Package: com.jtis.vinyl
+Architecture: iphoneos-arm
+Version: 1.1.5
+Priority: optional
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 394
+Depends: mobilesubstrate, firmware (>= 12.0), preferenceloader
+Filename: ./debs/com.jtis.vinyl_1.1.5_iphoneos-arm.deb
+Size: 55020
+MD5sum: f0fe645aa521e06665c6aadf2a6f5a3b
+SHA1: ab5163e8ef7f49831eaa012b1854fe12f6945dd0
+SHA256: c73a1d83d4ec5972b740ec2b1a1487669bbfa15f32bf1db4f121d2d41774f695
+SHA512: b91ecc5719fda0c8b1be81c9360c85a36f5ef6dedfaa7c407910f76c4cdae9b391807fad1d4ec90343bb1467fad056cde0e31cc8b4531121d1a9753f3e6c1d86
+Description: Giao diện đơn giản cho trình phát nhạc màn hình khóa!
+Tag: purpose::extension
+Name: Vinyl
+Author: Lightmann <lightmanns11@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+dev: lightmann
 
 Package: com.jtis.violet
 Architecture: iphoneos-arm
