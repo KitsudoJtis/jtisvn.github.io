@@ -13,6 +13,10 @@
             --secondary-text: #777777;
             --separator-color: #e5e5ea;
             --radius: 12px;
+            /* Màu cho thông báo check iOS */
+            --success-color: #34c759;
+            --error-color: #ff3b30;
+            --text-on-tint: #339999;
         }
 
         @media (prefers-color-scheme: dark) {
@@ -21,6 +25,7 @@
                 --text-color: #ffffff;
                 --secondary-text: #98989d;
                 --separator-color: #38383a;
+                --text-on-tint: #339999;
             }
         }
 
@@ -65,7 +70,7 @@
         }
 
         .tab-btn.active {
-            color: var(--tint-color);
+            color: var(--text-on-tint);
             position: relative;
         }
         
@@ -108,7 +113,7 @@
             padding-bottom: 20px;
             -webkit-overflow-scrolling: touch;
             scrollbar-width: none; 
-            /* Căn giữa vì chỉ có 1 ảnh */
+            /* CÓ 1 ẢNH -> GIỮ CĂN GIỮA */
             justify-content: center; 
         }
         .screenshots-scroll::-webkit-scrollbar {
@@ -242,11 +247,24 @@
             background-color: var(--separator-color);
             margin: 20px 0;
         }
+
+        /* --- CSS CHO THÔNG BÁO CHECK IOS --- */
+        #pt {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: var(--radius);
+            font-size: 14px;
+            display: none; 
+        }
     </style>
 </head>
 <body>
 
-    <img src="https://jtisvn.github.io/coverimage/jtisvnrepo.png" alt="iOS26 Banner" class="banner">
+    <div id="prerequisite" data-min-ios="11.0" data-max-ios="15.9" style="display:none;"></div>
+
+    <img src="https://jtisvn.github.io/coverimage/jtisvnrepo.png" alt="CallBlocker Banner" class="banner">
 
     <nav class="tab-nav">
         <button class="tab-btn active" onclick="openTab(event, 'info')">Giới thiệu</button>
@@ -258,6 +276,8 @@
         
         <div id="info" class="tab-content active">
             
+            <div id="pt"></div>
+
             <div class="screenshots-scroll">
                 <img src="https://files.catbox.moe/6gsjr2.png" class="screenshot-img" onclick="openImage(this)">
             </div>
@@ -265,11 +285,11 @@
             <div>
                 <p><strong>CallBlocker</strong></p>
                 <ul>
-                    <li>Chặn cuộc gọi nâng cao cho phép chặn số lạ theo ý muốn</li>
-                    <li>Tính nang:</li>
+                    <li>Chặn cuộc gọi nâng cao cho phép chặn số lạ theo ý muốn.</li>
+                    <li><strong>Tính năng:</strong></li>
                     <ul>
-                        <li>Chặn số chưa lưu trong danh bạ</li>
-                        <li>Hiển thị nhật ký cuộc gọi bị chặn</li>
+                        <li>Chặn số chưa lưu trong danh bạ.</li>
+                        <li>Hiển thị nhật ký cuộc gọi bị chặn.</li>
                     </ul>
                 </ul>
             </div>
@@ -343,6 +363,7 @@
     </div>
 
     <script>
+        // Logic Tab & Modal ảnh
         function openTab(evt, tabName) {
             var i, tabcontent, tablinks;
             tabcontent = document.getElementsByClassName("tab-content");
@@ -372,6 +393,93 @@
             var modal = document.getElementById("myImageModal");
             modal.style.display = "none";
         }
+    </script>
+
+    <script>
+        const VERSION_CHECK_SUPPORTED = "✅ Phiên bản iOS của bạn được hỗ trợ! &#x1f60a;";
+        /* Đã thay đổi icon mặt cười thành mặt buồn cho hợp ngữ cảnh */
+        const VERSION_CHECK_UNCONFIRMED = "❌ Rất tiếc, phiên bản iOS hiện tại không hỗ trợ! %s &#x1f61e;"; 
+
+        (function (document) {
+            "use strict";
+
+            if (navigator.userAgent.indexOf("Dark") != -1) {
+                document.body.setAttribute("data-theme", "dark");
+            }
+
+            function setMessage(m, isSupported) {
+                var pt = document.getElementById("pt");
+                pt.style.display = "block"; 
+                pt.innerHTML = m;
+                
+                if (isSupported) {
+                    pt.style.backgroundColor = "rgba(52, 199, 89, 0.15)";
+                    pt.style.color = "#34c759";
+                    pt.style.border = "1px solid rgba(52, 199, 89, 0.3)";
+                } else {
+                    pt.style.backgroundColor = "rgba(255, 59, 48, 0.15)";
+                    pt.style.color = "#ff3b30";
+                    pt.style.border = "1px solid rgba(255, 59, 48, 0.3)";
+                }
+            }
+
+            function toNum(bits) {
+                return (10000 * parseInt(bits[0])) + parseInt((100 * (bits[1] ? bits[1] : 0))) + parseInt(bits[2] ? bits[2] : 0);
+            }
+
+            function parseVersionString(version) {
+                var bits = version.split(".");
+                return toNum(bits);
+            }
+
+            function compareVersions(one, two) {
+                var two_ = toNum(two);
+                return one != two_ ? (one > two_ ? 1 : -1) : 0;
+            }
+
+            var prerequisite = document.getElementById("prerequisite");
+            
+            var version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i);
+
+            if (!prerequisite) {
+                return;
+            }
+
+            if (!version && navigator.maxTouchPoints > 0 && navigator.appVersion.indexOf("(Macintosh; Intel Mac OS X 10_15") !== -1) {
+                version = navigator.appVersion.match(/(Version)\/(\d+)\.(\d+)(\.(\d+))?/i);
+            }
+
+            var minString = prerequisite.dataset.minIos;
+            var maxString = prerequisite.dataset.maxIos;
+
+            var minVersion = parseVersionString(minString);
+            var maxVersion = maxString ? parseVersionString(maxString) : null;
+            var message = null;
+            var isSupported = false;
+
+            if (version) {
+                var osVersion = [version[2], version[3], version[4] ? version[5] : 0];
+                var osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : "");
+                
+                message = VERSION_CHECK_SUPPORTED;
+                isSupported = true;
+
+                if (compareVersions(minVersion, osVersion) == 1) {
+                    message = VERSION_CHECK_UNCONFIRMED.replace("%s", "(Quá thấp: " + osString + ")");
+                    isSupported = false;
+                } else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
+                    if ("unsupported" in prerequisite.dataset) {
+                        message = null;
+                    } else {
+                        message = VERSION_CHECK_UNCONFIRMED.replace("%s", "(Quá cao: " + osString + ")");
+                        isSupported = false;
+                    }
+                }
+                
+                if (message)
+                    setMessage(message, isSupported);
+            }
+        })(document);
     </script>
 
 </body>

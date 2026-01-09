@@ -791,13 +791,13 @@ Section: Tweaks
 Maintainer: Bandar Alruwaili
 Depends: mobilesubstrate, ws.hbang.common
 Filename: ./debs/com.bandarhl.bhtwitter_4.4.1_iphoneos-arm64.deb
-Size: 6715648
-MD5sum: 0fb81394237c287985d84ed7f0fe373e
-SHA1: a40a0f11d5a7661c225f52a599018577b8d984d2
-SHA256: 07dbab688fca44c59e2c5ce51c51cf0f71bfd6774c712431ded9c0054db4f802
-SHA512: 35d6d7b39c25cab4016d9c75f9b2402104806df43ba8c81ffeaf16dd734a3ebfa761a1be86bfa8927058213fe957e910a67591d7623138526e66fe1f278ccc38
+Size: 6719744
+MD5sum: d0a07f69f0d201e5751e68e06076f3b8
+SHA1: c7e46a565a13de11f6ebe9908747c187a50cea60
+SHA256: f2c4fa0a191481eb61ee3696ee80ec652c49326cd0d38f6b48df42f87284e4b8
+SHA512: 1f6762b46bd12e3433acb53b149542e91f9bcc7ab9422908c548d14e8bbb6a04b569c47a0319be0e1f6387e449636cafc4f889e665bb5bc58a04f61ce3d7f4df
 Description: Awesome tweak for Twitter
-Name: BHTwitter
+Name: BHTwitter (Rootless)
 Author: Bandar Alruwaili
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BHTwitter.json
 Icon: https://jtisvn.github.io/sectionIcons/BHTwitter.png
