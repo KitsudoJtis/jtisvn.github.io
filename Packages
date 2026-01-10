@@ -686,67 +686,6 @@ Author: Lessica <82flex@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Touchviz.json
 Icon: https://jtisvn.github.io/sectionIcons/Touchviz.png
 
-Package: com.Axs.dynamicislandanimation
-Architecture: iphoneos-arm64
-Version: 1.1.8
-Section: Tweaks
-Maintainer: Simon
-Installed-Size: 432
-Depends: mobilesubstrate
-Filename: ./debs/com.Axs.dynamicislandanimation_1.1.8_iphoneos-arm64.deb
-Size: 29136
-MD5sum: ce982badcd24a541022de99dd3983caa
-SHA1: 4f1985fdd99cabe60d486eb8c48a0ffc88624c75
-SHA256: 92f98fd654e0e678d9f013b38edc7d92419841ee20729620d84a2d02197d3deb
-SHA512: d292bb2549a42b1a7e8b186283d5747a70337a95107fb05c29f7418f0b7a229151e5c11e94e0359ef337386627277ebeef66ddcb084fd5633ae4f835a5470782
-Description: Được sử dụng để tích hợp các hiệu ứng Dynamic Island và ghi lại màn hình hoạt ảnh nhảy năng động như hiển thị thông báo hoặc một số sự kiện khác!
-Name: Dynamicisland Animation
-Author: Simon
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DLAnimation.json
-Depiction: https://jtisvn.github.io/depictions/DLAnimation.html
-Icon: https://jtisvn.github.io/sectionIcons/DLAnimation.png
-
-Package: com.Axs.dynamicislandanimation
-Architecture: iphoneos-arm64
-Version: 1.1.9
-Section: Tweaks
-Maintainer: Simon
-Installed-Size: 432
-Depends: mobilesubstrate
-Filename: ./debs/com.Axs.dynamicislandanimation_1.1.9_iphoneos-arm64.deb
-Size: 35084
-MD5sum: 7d81a93ca070ca72e8132dcd1eb4b827
-SHA1: e5d8101b21a43976f5b4c57ad678c7eb95a21ecf
-SHA256: 65b84582faefa6449b1e3ad3cd098cbb31bef4e3eb7c43e3f8a8d39beecbef08
-SHA512: 57088dff307ea98dc0040f485f6882306f7e2779619932a8dae0ddc003e40016c2a8c6a617fa60c560e6aab38d030caf70cdf98e230d1c3c77e117076c97c299
-Description: Được sử dụng để tích hợp các hiệu ứng Dynamic Island và ghi lại màn hình hoạt ảnh nhảy năng động như hiển thị thông báo hoặc một số sự kiện khác!
-Name: Dynamicisland Animation
-Author: Simon
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DLAnimation.json
-Depiction: https://jtisvn.github.io/depictions/DLAnimation.html
-Icon: https://jtisvn.github.io/sectionIcons/DLAnimation.png
-
-Package: com.Axs.dynamicislandanimation
-Architecture: iphoneos-arm64e
-Version: 1.1.9
-Section: Tweaks
-Maintainer: Simon
-Installed-Size: 432
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/com.Axs.dynamicislandanimation_1.1.9_iphoneos-arm64e.deb
-Size: 34748
-MD5sum: 54b7c5256d72bd520c0c8693fdcbf802
-SHA1: 84b0ab3145522612e965abae06720529cfb9d8cf
-SHA256: 07c01cd9200a6c8329cef035ae229e72a4d3ec550fa75528470b060733ada7f0
-SHA512: fd5be0fd916083d8081c37fc458600eb3848267503b95612d562d3dccdccbfaf1c962930f9b79a14e9eac7daa908b215091a725a35f19d70e2b9da64fee8b5f3
-Description: Được sử dụng để tích hợp các hiệu ứng Dynamic Island và ghi lại màn hình hoạt ảnh nhảy năng động như hiển thị thông báo hoặc một số sự kiện khác!
-Name: Dynamicisland Animation
-Author: Simon
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DLAnimation.json
-Depiction: https://jtisvn.github.io/depictions/DLAnimation.html
-Icon: https://jtisvn.github.io/sectionIcons/DLAnimation.png
-
 Package: com.LLSwitch.roothide
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -8312,6 +8251,47 @@ Depiction: https://jtisvn.github.io/depictions/Doodle.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Doodle.json
 Icon: https://jtisvn.github.io/sectionIcons/Doodle.png
 
+Package: com.jtis.dynamicislandanimation
+Architecture: iphoneos-arm64
+Version: 1.1.9
+Section: Tweaks
+Maintainer: Simon
+Installed-Size: 432
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.dynamicislandanimation_1.1.9_iphoneos-arm64.deb
+Size: 35120
+MD5sum: 8114c4e968db15d08d3e7db9a069c448
+SHA1: bfb6c64d800708e431df5caf941b19c38a0fc915
+SHA256: 40dd3a8bd05b5cc0a3a730e77383baea4a8e712eb489355630dbb95ebdc80ab9
+SHA512: 42ccff1137a6153be338dfa2b65c9e95d827fd4c9af6f08fde80e92ad05777802d873a67e6ec6207a917fd593662321ec833545cfab5934d5a48d0893554ff06
+Description: Được sử dụng để tích hợp các hiệu ứng Dynamic Island và ghi lại màn hình hoạt ảnh nhảy năng động như hiển thị thông báo hoặc một số sự kiện khác!
+Name: Dynamicisland Animation
+Author: Simon
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DLAnimation.json
+Depiction: https://jtisvn.github.io/depictions/DLAnimation.html
+Icon: https://jtisvn.github.io/sectionIcons/DLAnimation.png
+
+Package: com.jtis.dynamicislandanimation
+Architecture: iphoneos-arm64e
+Version: 1.1.9
+Section: Tweaks
+Maintainer: Simon
+Installed-Size: 432
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.dynamicislandanimation_1.1.9_iphoneos-arm64e.deb
+Size: 34752
+MD5sum: fb78c8ed17d90214ba2de77687ab13ae
+SHA1: 3d16ccbb1da84e9cdaba820b0b31b0ee1beab7f5
+SHA256: 436b81f37cf49dd561a9e3ffab2e29350cb6d39fabc896f4ddcee16f7d53d423
+SHA512: d95239ffd89202c723c7532418b8c343a2784707c7c7896d8262318a89233c58250ee4cb76db0570c9c46510f9e178354b6d23e10e36129b0b6737dcf4b9fba5
+Description: Được sử dụng để tích hợp các hiệu ứng Dynamic Island và ghi lại màn hình hoạt ảnh nhảy năng động như hiển thị thông báo hoặc một số sự kiện khác!
+Name: Dynamicisland Animation
+Author: Simon
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DLAnimation.json
+Depiction: https://jtisvn.github.io/depictions/DLAnimation.html
+Icon: https://jtisvn.github.io/sectionIcons/DLAnimation.png
+
 Package: com.jtis.dynamicnotlands
 Architecture: iphoneos-arm64
 Version: 1.2.4
@@ -12286,6 +12266,29 @@ Author: SHTM
 SileoDepiction: https://jtisvn.github.io/sileodepictions/NeoWave16.json
 Depiction: https://jtisvn.github.io/depictions/NeoWave16.html
 Icon: https://jtisvn.github.io/sectionIcons/NeoWave16.png
+
+Package: com.jtis.neptune
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 378
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.neptune_1.2_iphoneos-arm.deb
+Size: 146840
+MD5sum: a5d0ff8b9929164e3698ced92fcfd952
+SHA1: 6e6da01cf84b292c0bbda5062f2cc35c02a0c8bc
+SHA256: e5178b3a02ce61dea38f6d534cae29bbc85dd6b89f73f5df62fc95b23dec3970
+SHA512: 7f572cbf841bbd5e39004cbfd6a4a015d7afe194c08029436e3b1dddab8ce3ffac0a9b0012303900fa930e238aadca9d025638cd632866ef4758ce34d27179d1
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=neptuneforiphoneDp
+Description: Enable Apple's modern fluid gestural interface on all devices.
+Tag: purpose::extension, compatible::ios12
+Name: Neptune for iPhone
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=neptuneforiphoneDp
+Author: Duraid Abdul <feedback.100@icloud.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: duraidabdul
+Icon: https://jtisvn.github.io/sectionIcons/Neptune.png
 
 Package: com.jtis.networkmanager
 Architecture: iphoneos-arm64
@@ -16996,6 +16999,28 @@ Name: SettingsRevamp (Roothide)
 Author: SOPPPra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsRevamp.json
 Icon: https://jtisvn.github.io/sectionIcons/SettingsRevamp.png
+
+Package: com.julioverne.appellancy11
+Architecture: iphoneos-arm
+Version: 1.1-20b
+Priority: optional
+Section: Tweaks
+Maintainer: Julio
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Conflicts: com.myrepospace.mlnlover11.appellancy, com.efrederickson.appellancy, org.thebigboss.appellancy
+Replaces: com.myrepospace.mlnlover11.appellancy, com.efrederickson.appellancy
+Filename: ./debs/com.julioverne.appellancy11_1.1-20b_iphoneos-arm.deb
+Size: 3709596
+MD5sum: 2b072e52293df37e2369c1223d0e6e64
+SHA1: eb0ad7375181814825a94e7d351359b9ebf069b9
+SHA256: 4f7e7829ae3a8dd6824df0a6164caef4c8f31e43b61cb57d43f20be078c4d2fb
+SHA512: e59fbf99e85239c7885e212fb3c57e8c4bfbded71959ff1eaaa79074baeed1939049840a2eacfe11939873841019031ed0b8edfdfffb010922fe792cb37063c9
+Description: Control your phone with your face!
+Name: Appellancy (iOS 11)
+Author: Elijah Frederickson, julioverne
+dev: elijahfrederickson
+Icon: file:///Library/PreferenceBundles/AppellancySettings.bundle/AppellancySettings@2x.png
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.appellancy11
 
 Package: com.juts.stella
 Architecture: iphoneos-arm64
