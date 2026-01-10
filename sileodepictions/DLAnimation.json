@@ -26,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"DynamicIsland Animation\n\n- Tinh chỉnh tích hợp các hiệu ứng hoạt hình sống động cho Dynamic Island.\n\n- Tính năng:\n\n+ Ghi lại màn hình hoạt ảnh nhảy năng động khi có thông báo hoặc sự kiện.\n\n+ Tùy chọn hoạt ảnh, xoay ảnh bìa Album,l.\n\n+ Điều chỉnh tốc độ xoay album và tốc độ nhảy theo khung hình.\n\n+ Nhiều hiệu ứng thú vị: Hiệu ứng Nhảy, Sharingan, Lớp phủ...",
+"markdown":"DynamicIsland Animation\n\n- Tinh chỉnh tích hợp các hiệu ứng hoạt hình sống động cho Dynamic Island.\n\n- Tính năng:\n\n+ Ghi lại màn hình hoạt ảnh nhảy năng động khi có thông báo hoặc sự kiện.\n\n+ Tùy chọn hoạt ảnh, xoay ảnh bìa Album,l.\n\n+ Điều chỉnh tốc độ xoay album và tốc độ nhảy theo khung hình.\n\n+ Nhiều hiệu ứng thú vị: Hiệu ứng Nhảy, Sharingan, Lớp phủ...\n\n- Có thể kết hợp với tweak CCMusic và Gif island (Sẽ nóng máy hao pin hơn nẻn cân nhắc nhé)\n\n- Yêu cầu tải gói Legacy arm64e Support trước khi cài đặt tweak này.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

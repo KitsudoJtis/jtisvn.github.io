@@ -17000,6 +17000,28 @@ Author: SOPPPra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsRevamp.json
 Icon: https://jtisvn.github.io/sectionIcons/SettingsRevamp.png
 
+Package: com.julioverne.appellancy11
+Architecture: iphoneos-arm
+Version: 1.1-20b
+Priority: optional
+Section: Tweaks
+Maintainer: Julio
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Conflicts: com.myrepospace.mlnlover11.appellancy, com.efrederickson.appellancy, org.thebigboss.appellancy
+Replaces: com.myrepospace.mlnlover11.appellancy, com.efrederickson.appellancy
+Filename: ./debs/com.julioverne.appellancy11_1.1-20b_iphoneos-arm.deb
+Size: 3709596
+MD5sum: 2b072e52293df37e2369c1223d0e6e64
+SHA1: eb0ad7375181814825a94e7d351359b9ebf069b9
+SHA256: 4f7e7829ae3a8dd6824df0a6164caef4c8f31e43b61cb57d43f20be078c4d2fb
+SHA512: e59fbf99e85239c7885e212fb3c57e8c4bfbded71959ff1eaaa79074baeed1939049840a2eacfe11939873841019031ed0b8edfdfffb010922fe792cb37063c9
+Description: Control your phone with your face!
+Name: Appellancy (iOS 11)
+Author: Elijah Frederickson, julioverne
+dev: elijahfrederickson
+Icon: file:///Library/PreferenceBundles/AppellancySettings.bundle/AppellancySettings@2x.png
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.appellancy11
+
 Package: com.juts.stella
 Architecture: iphoneos-arm64
 Version: 1.1.5
