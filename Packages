@@ -7652,6 +7652,47 @@ Name: CopyLogFix16 (Roothide)
 Icon: https://files.catbox.moe/aa1rb5.avif
 Author: 0xkuj
 
+Package: com.jtis.copyvaultgrabber
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: ./debs/com.jtis.copyvaultgrabber_0.0.2_iphoneos-arm64.deb
+Size: 10952
+MD5sum: 8d18094a745de91044677b0643885698
+SHA1: f2f2c3c5a199d8c4a68d9789c71ba56da27d266f
+SHA256: 1e6dc19028eea2cbd54e8ab3243f2185600665b23092cdc9e417015726e92b09
+SHA512: 182b2fc64044c77eb6788922b8e7b282a4181f85ed6f4e00bc7497bbd75dbcc7ddd8fb42683548f3829d64ac68260d9d6134133d0ae750593fa1d44993c8501e
+Description: Tinh chỉnh cho phép bạn thay đổi kích thước bảng bằng cách kéo lên hoặc xuống menu clipboard CopyVault
+Name: CopyVaultGrabber
+Author: Korboy <korboybeats@gmail.com>
+Depiction: http://jtisvn.github.io/depiction/CopyVaultGrabber.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CopyVaultGrabber.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.copyvaultgrabber
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 184
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: ./debs/com.jtis.copyvaultgrabber_0.0.2_iphoneos-arm64e.deb
+Size: 14830
+MD5sum: 0db49d4b0bffbbff7dab4ce0ded85b66
+SHA1: 1a2a038ccdeacf309ef9b10bc4712c47322d3e7f
+SHA256: 94f83cf7272cc246b388f39bec907e86f2bf2e0a8eef58e836f1fafb4069d5b6
+SHA512: fed7dd719c1eca02794af712272c90aab8ad49616db8937daf08534072442becdf5565f69226b8fabe25dd28c47e6af3e201094cd71e9deb2f2f70f02e9e0322
+Description: Tinh chỉnh cho phép bạn thay đổi kích thước bảng bằng cách kéo lên hoặc xuống menu clipboard CopyVault
+Name: CopyVaultGrabber
+Author: Korboy <korboybeats@gmail.com>
+Depiction: http://jtisvn.github.io/depiction/CopyVaultGrabber.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CopyVaultGrabber.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.cozybadges
 Architecture: iphoneos-arm64
 Version: 2.2-2
