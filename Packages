@@ -15347,6 +15347,46 @@ Icon: https://jtisvn.github.io/sectionIcons/Tinge.png
 Name: Tinge (Roothide)
 Author: P2KDev
 
+Package: com.jtis.touchbar
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate, ws.hbang.common
+Conflicts: com.twickd.ethan-whited.touchbar
+Filename: ./debs/com.jtis.touchbar_1.0_iphoneos-arm.deb
+Size: 177140
+MD5sum: 1256bee1e41389db5a18b53078e8d8f2
+SHA1: eb112d8e175ac0ba057181c41aff4a46ec61f7d1
+SHA256: 6f29a437641795e98cca8448a00cccc358ec5dcba26b7b639a58d305b1a08232
+SHA512: 707cfda903c95958979b500dba3658e0cb43aa36a5ead788d03d877e636cc3f6f9bf17b30674c184988322a49f0426edda52694e8bcd568f50329d82ee8a2673
+Description: MacOS TouchBar dành cho iOS!
+Name: TouchBar
+Author: Ethan Whited
+Depiction: http://jtisvn.github.io/depiction/TouchBar.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TouchBar.json
+Icon: https://jtisvn.github.io/sectionIcons/TouchBar.png
+
+Package: com.jtis.touchbar
+Architecture: iphoneos-arm
+Version: 1.3
+Section: Tweaks
+Maintainer: Ethan Whited
+Installed-Size: 920
+Depends: mobilesubstrate, ws.hbang.common, libactivator
+Filename: ./debs/com.jtis.touchbar_1.3_iphoneos-arm.deb
+Size: 278244
+MD5sum: 05e715fe9ac7ececf934cab9386bc1fb
+SHA1: 60e766bffb2da8c73cc33a24e89d94e920c06497
+SHA256: b55f5a66f351d321b6eaef4ef1453f0c0a657bbc503a030ef5e02e38efc08a66
+SHA512: 795621c9c91778b40a2cb6fa4f3984138432909a1c19005647147927cc4415ba6b5cda9cb1832f71fedd3ce48f7f139147b5d0d5896ef6b3d5a683028a7cef78
+Description: MacOS TouchBar dành cho iOS!
+Name: TouchBar
+Author: Ethan Whited
+Depiction: http://jtisvn.github.io/depiction/TouchBar.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TouchBar.json
+Icon: https://jtisvn.github.io/sectionIcons/TouchBar.png
+
 Package: com.jtis.touchflow
 Architecture: iphoneos-arm
 Version: 1.0.7
