@@ -17018,12 +17018,12 @@ Maintainer: JTISVN Repo
 Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 14.0)
 Filename: ./debs/com.kitsudo.aerialviethoa_1.0.0_iphoneos-arm64.deb
-Size: 5308
-MD5sum: 0d4318857926a34e4c62cf3a1591146b
-SHA1: e8b0b7b3710959b44b141a6c1d918e6caa357041
-SHA256: e0fcd8f9abb854c22ec2d706d973a9f8fbaa36f36096e854ae7391f8c4edbe8b
-SHA512: 3922159b8f74cc6a5f6e04184a1a13116de0ab7b710eff8c7c3ca0cfe9789ddd9b00d6b4eebf55da580563f856b86f45587db887a08c67da996edbd6b8a810e0
-Description: Thêm ngôn ngữ đầy dù cho menu tweak Aerial
+Size: 5296
+MD5sum: cd81b3fa4f0b1b1911386ab985d65b46
+SHA1: 9c7234f28fac28dca3935bca07bc59334f36e284
+SHA256: cb53e126e5a8269d83d1c8833adbb2fc16843710ca6699cc28c1fa5d3e48ae6a
+SHA512: 92fb255c002c4502388b641265fc03d05340ef5c0c075cd2aeaefdc5ae8b4d72b9241881436424744c39026997743b05c181bf23d33750ca5816286761710888
+Description: Thêm ngôn ngữ đầy đủ cho menu tweak Aerial
 Name: Aerial gói Việt Hóa (Rootless)
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AerialVietHoa.json
@@ -17038,12 +17038,12 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0)
 Filename: ./debs/com.kitsudo.aerialviethoa_1.0.0_iphoneos-arm64e.deb
-Size: 5480
-MD5sum: d5389be04a10616cd7238336486773f6
-SHA1: d58c330ba8c26ffff594761790805c89bab00aea
-SHA256: ff0f3e7ea8602ec1f0baa5be7d2c38810f167107640304f4fc90b9c230e225d6
-SHA512: d7d48ccec10b93e47fcf0825fbe47475db59ebb956364e5be71b9f0f2d492ff8c85e173a9fd6f5e91a2d7afa0266510bc1f75fc983e7dd0c7a8942c04ac232c9
-Description: Thêm ngôn ngữ đầy dù cho menu tweak Aerial
+Size: 5520
+MD5sum: 52e1eaa31137883bed31a8ff758619bb
+SHA1: 308509576c8a50c6df922f28ece701cb0ddeddc2
+SHA256: f696253c613e9017139e66709e166ccad82ad391396a739c4921608110d1405f
+SHA512: 5c9de15a4fba631d553dea1ceb7fec813859ae820175aaf25161d0ecad2103babe3cdc30fc6e74a40afe8de5b6edec732372836a0c0e6b0b1089c1e641e7960a
+Description: Thêm ngôn ngữ đầy đủ cho menu tweak Aerial
 Name: Aerial gói Việt Hóa (Roothide)
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AerialVietHoa.json
