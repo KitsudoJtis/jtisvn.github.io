@@ -6781,6 +6781,28 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/CallMeMaybe.json
 Depiction: https://jtisvn.github.io/depictions/CallMeMaybe.html
 Icon: https://jtisvn.github.io/sectionIcons/CallMeMaybe.png
 
+Package: com.jtis.cameramobile
+Architecture: iphoneos-arm
+Version: 0.0.4
+Priority: optional
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 801
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.cameramobile_0.0.4_iphoneos-arm.deb
+Size: 97356
+MD5sum: 7f3d83fde9a4e684b21f8f52c8bcda17
+SHA1: a5b0f7e1c84620db157ed3877ee3d9fe2d2947cb
+SHA256: f0695fef6111d3ae0ba5be0652e39f1e650e57346c75d647a05d1cd364f9b855
+SHA512: d7a39367109953d32274612feba8085e1280152763c5d7632cd9e80847c55214888dd840cf9c08f70f54155f78b02f3dfc8ef889aeebe5b6d572d5a99761f523
+Description: Ẩn Camera Bar, Hỗ trợ iOS 12 tới iOS 14.9
+Tag: purpose::extension
+Name: CameraMobile
+Author: mohammed alshehri
+Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+dev: moshehri83
+
 Package: com.jtis.Cartoo
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -7252,6 +7274,50 @@ Name: CCUIPlayer (Roothide)
 Author: Axs
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Sileodepiction: https://jtisvn.github.io/sileodepictions/ArtworkSpinner.json
+
+Package: com.jtis.centeredlabels
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Tweaks
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Filename: ./debs/com.jtis.centeredlabels_1.1_iphoneos-arm.deb
+Size: 7684
+MD5sum: 3a4b8e9d709bc5137b71a0cd8b9ead12
+SHA1: 78ccb8f2dd5bdb866643aefd2564d3c4c2bb70ae
+SHA256: 064f73f1eddb0f6441b796769ba6ae46e5f4b141a75429d5739696586bfefb4c
+SHA512: e39fbeb820f1f77f6ceb3722cd56bc49ebb6354179fbc306ccc285656e40e256c410fbb514325431e11e3f77a31b723220684bf21d999af39b501e63c4f310cb
+Homepage: https://jtisvn.github.io/
+Description: Căn giữa tất cả các nhãn trong Cài đặt
+Tag: role::enduser
+Name: CenteredLabels
+Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CenteredLabels.json
+Icon: https://jtisvn.github.io/sectionIcons/CenteredLabels.png
+Tags: compatible_min::ios13.0, compatible_max::ios16.2
+Author: ETHN <ethanwhited2208@gmail.com>
+SomeOtherEntryToControl: True
+
+Package: com.jtis.centeredlabels
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Tweaks
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Filename: ./debs/com.jtis.centeredlabels_1.3_iphoneos-arm64.deb
+Size: 10736
+MD5sum: bccff386c37b99ac0e427ea18fc575f4
+SHA1: 699953045ea2a1031510e4e4cbe4a4c2c6c32a75
+SHA256: 524c17926f95974f959c5a62a53bb42e23db799e1f1b456c2490475e5047b394
+SHA512: f32e82413af4193ceb9f6779d71ddb7fb56c8a3dcb29e31d82f2ecb2a9b40667e8fce10fa66da5de29370622f944687ec9f5aa0914ce61d610bb046d189d0161
+Homepage: https://jtisvn.github.io/
+Description: Căn giữa tất cả các nhãn trong Cài đặt
+Tag: role::enduser
+Name: CenteredLabels (Rootless)
+Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CenteredLabels.json
+Icon: https://jtisvn.github.io/sectionIcons/CenteredLabels.png
+Tags: compatible_min::ios13.0, compatible_max::ios16.4
+Author: ETHN <ethanwhited2208@gmail.com>
+SomeOtherEntryToControl: True
 
 Package: com.jtis.chatgptweblegacycompat
 Architecture: iphoneos-arm64
@@ -8415,6 +8481,24 @@ SHA512: 7dc88c6da7fbdc3edcc5e22a6916b2ae187347d5ee4ce221ba3caf0e9e1ee0b0f75abc46
 Description: Cử chỉ nhanh, bạn có thể đặt Màn hình chính là trung tâm thông báo thả xuống bên trái, giữa và phải, tìm kiếm, trung tâm điều khiển, v.v. Cử chỉ nhanh, bạn có thể đặt trung tâm thông báo thả xuống bên trái, giữa và phải, tìm kiếm, trung tâm điều khiển, v.v.
 Name: EZSwipe
 Author: P2KDev <p2kdev@gmail.com>
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.facespro
+Architecture: iphoneos-arm
+Version: 2.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 484
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker (>= 1.3), ws.hbang.common (>= 1.6)
+Filename: ./debs/com.jtis.facespro_2.4_iphoneos-arm.deb
+Size: 126780
+MD5sum: 6f87a69e864ea127e21491c530f535aa
+SHA1: 0ce45a1cab5155cbc235fb40118fb8dad5602e37
+SHA256: 4ea6ad2c748dc20c3e347b9ebda1a44c29fc5bfe3bf4f2db8dd2c751ff29125e
+SHA512: 5cd079ef01202f4d1512172375f7dbdc8eae0a00ff6452a0ff20fbbbe61cdb7e305d6943d2e5efeb20ff1691937489e1fa40cf4a7b4d4e2025cb60d44bfe4710
+Description: Thêm ảnh vào các nút mật mã màn hình khoá theo cách bạn muốn.Hỗ trợ iOS 7 tới iOS 14.5
+Name: Faces Pro
+Author: Ben Rosen & CPDigitalDarkroom <support@quantumtweaks.com>
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.fakedualsim
@@ -14765,6 +14849,23 @@ Name: StealthCC (Roothide)
 Author: Luki
 SileoDepiction: https://jtisvn.github.io/sileodepictions/StealthCC.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.successionrestore
+Architecture: iphoneos-arm
+Version: 1.4.16~b4
+Section: Utilities
+Maintainer: JTISVN Repo
+Depends: firmware-sbin, rsync
+Filename: ./debs/com.jtis.successionrestore_1.4.16~b4_iphoneos-arm.deb
+Size: 1008880
+MD5sum: bb1e5e3d9c5fa8d23938fee458a81aeb
+SHA1: 18c7e1e4ce09e3fb27b83ac8eec6ef79b58ec629
+SHA256: 53c93621d513aa92ab1cf49e470a727c9f476174e390fbcccd8f64526dadf5ea
+SHA512: 7944ff0349262e4b8b8df6a2fa61271e34ce89799351849ae78e9c9439bb4aefa4d1b871f7f2d65cc14e0a7fb666ff1dda4291942a16fc706ce7b6748c0c29bc
+Description: Khôi phục thiết bị của bạn và giữ lại iOS hiện tại. Hỗ trợ iOS 10 tới iOS 14.9.
+Name: Succession
+Author: Samg_is_a_Ninja
+Icon: https://jtisvn.github.io/sectionIcons/Succession.png
 
 Package: com.jtis.sugarcane
 Architecture: iphoneos-arm64
