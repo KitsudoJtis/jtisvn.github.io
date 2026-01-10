@@ -706,6 +706,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/DLAnimation.json
 Depiction: https://jtisvn.github.io/depictions/DLAnimation.html
 Icon: https://jtisvn.github.io/sectionIcons/DLAnimation.png
 
+Package: com.Axs.dynamicislandanimation
+Architecture: iphoneos-arm64
+Version: 1.1.9
+Section: Tweaks
+Maintainer: Simon
+Installed-Size: 432
+Depends: mobilesubstrate
+Filename: ./debs/com.Axs.dynamicislandanimation_1.1.9_iphoneos-arm64.deb
+Size: 35084
+MD5sum: 7d81a93ca070ca72e8132dcd1eb4b827
+SHA1: e5d8101b21a43976f5b4c57ad678c7eb95a21ecf
+SHA256: 65b84582faefa6449b1e3ad3cd098cbb31bef4e3eb7c43e3f8a8d39beecbef08
+SHA512: 57088dff307ea98dc0040f485f6882306f7e2779619932a8dae0ddc003e40016c2a8c6a617fa60c560e6aab38d030caf70cdf98e230d1c3c77e117076c97c299
+Description: Được sử dụng để tích hợp các hiệu ứng Dynamic Island và ghi lại màn hình hoạt ảnh nhảy năng động như hiển thị thông báo hoặc một số sự kiện khác!
+Name: Dynamicisland Animation
+Author: Simon
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DLAnimation.json
+Depiction: https://jtisvn.github.io/depictions/DLAnimation.html
+Icon: https://jtisvn.github.io/sectionIcons/DLAnimation.png
+
+Package: com.Axs.dynamicislandanimation
+Architecture: iphoneos-arm64e
+Version: 1.1.9
+Section: Tweaks
+Maintainer: Simon
+Installed-Size: 432
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.Axs.dynamicislandanimation_1.1.9_iphoneos-arm64e.deb
+Size: 34748
+MD5sum: 54b7c5256d72bd520c0c8693fdcbf802
+SHA1: 84b0ab3145522612e965abae06720529cfb9d8cf
+SHA256: 07c01cd9200a6c8329cef035ae229e72a4d3ec550fa75528470b060733ada7f0
+SHA512: fd5be0fd916083d8081c37fc458600eb3848267503b95612d562d3dccdccbfaf1c962930f9b79a14e9eac7daa908b215091a725a35f19d70e2b9da64fee8b5f3
+Description: Được sử dụng để tích hợp các hiệu ứng Dynamic Island và ghi lại màn hình hoạt ảnh nhảy năng động như hiển thị thông báo hoặc một số sự kiện khác!
+Name: Dynamicisland Animation
+Author: Simon
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DLAnimation.json
+Depiction: https://jtisvn.github.io/depictions/DLAnimation.html
+Icon: https://jtisvn.github.io/sectionIcons/DLAnimation.png
+
 Package: com.LLSwitch.roothide
 Architecture: iphoneos-arm64
 Version: 1.0
