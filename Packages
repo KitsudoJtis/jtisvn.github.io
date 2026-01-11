@@ -12267,29 +12267,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/NeoWave16.json
 Depiction: https://jtisvn.github.io/depictions/NeoWave16.html
 Icon: https://jtisvn.github.io/sectionIcons/NeoWave16.png
 
-Package: com.jtis.neptune
-Architecture: iphoneos-arm
-Version: 1.2
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 378
-Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.jtis.neptune_1.2_iphoneos-arm.deb
-Size: 146840
-MD5sum: a5d0ff8b9929164e3698ced92fcfd952
-SHA1: 6e6da01cf84b292c0bbda5062f2cc35c02a0c8bc
-SHA256: e5178b3a02ce61dea38f6d534cae29bbc85dd6b89f73f5df62fc95b23dec3970
-SHA512: 7f572cbf841bbd5e39004cbfd6a4a015d7afe194c08029436e3b1dddab8ce3ffac0a9b0012303900fa930e238aadca9d025638cd632866ef4758ce34d27179d1
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=neptuneforiphoneDp
-Description: Enable Apple's modern fluid gestural interface on all devices.
-Tag: purpose::extension, compatible::ios12
-Name: Neptune for iPhone
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=neptuneforiphoneDp
-Author: Duraid Abdul <feedback.100@icloud.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: duraidabdul
-Icon: https://jtisvn.github.io/sectionIcons/Neptune.png
-
 Package: com.jtis.networkmanager
 Architecture: iphoneos-arm64
 Version: 1.4.3
