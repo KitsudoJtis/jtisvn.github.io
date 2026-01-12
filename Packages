@@ -17416,6 +17416,43 @@ Name: PullOver Pro Gói Việt Hoá (Roothide)
 Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
+Package: com.kitsudo.trollstoreviethoa
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.kitsudo.trollstoreviethoa_1.0.0_iphoneos-arm64.deb
+Size: 15832
+MD5sum: 1111720784161782858f44f63681e9fb
+SHA1: e184a19cadf478027c95f5bfd0ad7e20a06b4e2f
+SHA256: 79c2b295dafb381c00a81d214f7568fac4f56546d01b361235e8fec0d3ddef48
+SHA512: df1b7a49fa733379aa2d17f42834ff28c8a59e0004b015df9f1608e073e268aa8aa05796e785dbea0608fc0166cd1bc8ff3bb5aeaaf414c45376c00498c0a48b
+Description: Thêm ngôn ngữ Tiếng Việt cho Trollstore
+Name: Trollstore gói Việt Hóa
+Author: Kitsudo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.trollstoreviethoa
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.kitsudo.trollstoreviethoa_1.0.0_iphoneos-arm64e.deb
+Size: 22014
+MD5sum: 0b01a3774dc7d87c27c3f5c228a4953e
+SHA1: d5bf35f8a30da24e7eed92d7aa3d4cd3350c7052
+SHA256: e3f6976d6262a4b69e3fbb711e9aaf43f06ee2877e79dc840983f490a5b238e2
+SHA512: 7a9a8641d8d63e9ae553c63c4acc2244162109aca02ba9624fa926dec1deac668c1933e4435de1c64242d5c7a9363a0caadd02093de063c962a104d3f312c63b
+Description: Thêm ngôn ngữ Tiếng Việt cho Trollstore
+Name: Trollstore gói Việt Hóa
+Author: Kitsudo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
 Package: com.langkhach.revenuecat
 Architecture: iphoneos-arm64e
 Version: 0.0.1
