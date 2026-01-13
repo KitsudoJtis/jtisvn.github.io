@@ -8047,14 +8047,14 @@ Installed-Size: 156
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 12.0)
 Filename: ./debs/com.jtis.deleteforeverxs_1.1k-debug_iphoneos-arm64e.deb
-Size: 10702
-MD5sum: 8926e550d2079c6465d327a8fab86e5a
-SHA1: 811153c2c43e6d6c7d580b88ddbcc0db9b1f639c
-SHA256: ce93aa134850befc7a313553d0877753797d344de1c8c86beedcccd271ad7e5f
-SHA512: 4890e58397146dcbc39cdeb3d68d35b100c44b2a60d1a51aa2d8c1becc901d0d3786809df99a010a02cd4cedd29a3ba0cf5b0ca85598524e4077a8e4eec1021d
+Size: 8388
+MD5sum: 7b5a6fbd71e0ff86fa693a24a1ba5a68
+SHA1: 6c701d7946275655546b0233d8e3316f7fc31ac4
+SHA256: 266ad0bae1c03fb034e530759d70476dd5ba0bb2c670a980b1bbfe5c4b2b55aa
+SHA512: 7f829d57a93821f3ac854a02631d905f696d5893642b4e72a4cc5dfad54039d3c6376e8fc9b171006f35bf535229017f59a59025820d5bde3b8b2f3d6ceacb24
 Homepage: https://jtisvn.github.io
-Description: Delete Media with moving to Recently Deleted!
-Name: DeleteForeverXS (Rootless)
+Description: Xóa ảnh và video vĩnh viễn không cần chuyển sang mục Đã xóa Gần đây!
+Name: DeleteForeverXS (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DeleteForeverXS.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: P2KDev <p2kdev@gmail.com>
@@ -17418,38 +17418,38 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.trollstoreviethoa
 Architecture: iphoneos-arm64
-Version: 1.0.0
+Version: 1.0.1
 Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 172
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/com.kitsudo.trollstoreviethoa_1.0.0_iphoneos-arm64.deb
-Size: 15832
-MD5sum: 1111720784161782858f44f63681e9fb
-SHA1: e184a19cadf478027c95f5bfd0ad7e20a06b4e2f
-SHA256: 79c2b295dafb381c00a81d214f7568fac4f56546d01b361235e8fec0d3ddef48
-SHA512: df1b7a49fa733379aa2d17f42834ff28c8a59e0004b015df9f1608e073e268aa8aa05796e785dbea0608fc0166cd1bc8ff3bb5aeaaf414c45376c00498c0a48b
+Maintainer: JTISVN repo
+Installed-Size: 92
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.trollstoreviethoa_1.0.1_iphoneos-arm64.deb
+Size: 15888
+MD5sum: 10b87978f9db1a8fdff55940e995c77f
+SHA1: a6b06b04a3ec035ce0d921ed9c0909a7e70398c9
+SHA256: 94f37d58e460db163fdf0ffb1e85e9111f25823b881ab8b615e9973cb74d3a84
+SHA512: 7764b38cd44882e64f1b1833435387ab5dc9b883beebd07805b62a53962dfcecb36a453d26be4ec067a10637a769fe7e1030fe134004087d7f816686d77b5ce4
 Description: Thêm ngôn ngữ Tiếng Việt cho Trollstore
-Name: Trollstore gói Việt Hóa
+Name: TrollStore gói Việt Hoá
 Author: Kitsudo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.trollstoreviethoa
 Architecture: iphoneos-arm64e
-Version: 1.0.0
+Version: 1.0.1
 Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 172
+Maintainer: JTISVN repo
+Installed-Size: 92
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/com.kitsudo.trollstoreviethoa_1.0.0_iphoneos-arm64e.deb
-Size: 22014
-MD5sum: 0b01a3774dc7d87c27c3f5c228a4953e
-SHA1: d5bf35f8a30da24e7eed92d7aa3d4cd3350c7052
-SHA256: e3f6976d6262a4b69e3fbb711e9aaf43f06ee2877e79dc840983f490a5b238e2
-SHA512: 7a9a8641d8d63e9ae553c63c4acc2244162109aca02ba9624fa926dec1deac668c1933e4435de1c64242d5c7a9363a0caadd02093de063c962a104d3f312c63b
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.trollstoreviethoa_1.0.1_iphoneos-arm64e.deb
+Size: 15956
+MD5sum: c507f793ee010e85f5f24aa879401f99
+SHA1: a99513478403bca60b9784dd37d95eeaffbd074c
+SHA256: 1351f060c3f026007ab2a0850104f99cd6a9d556b7cd77957f87fb3a5fd64fe0
+SHA512: 0d3df68ef5ed68752c4ed594973834c3e7d035b2d76347767c90e7db6c61c1c2a2c903e15b7eba418dec5bec8ea80d361be190a60e20d1839da1b64dda02b848
 Description: Thêm ngôn ngữ Tiếng Việt cho Trollstore
-Name: Trollstore gói Việt Hóa
+Name: TrollStore gói Việt Hoá
 Author: Kitsudo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
