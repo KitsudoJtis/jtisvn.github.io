@@ -17424,11 +17424,11 @@ Maintainer: JTISVN repo
 Installed-Size: 92
 Depends: mobilesubstrate
 Filename: ./debs/com.kitsudo.trollstoreviethoa_1.0.1_iphoneos-arm64.deb
-Size: 15888
-MD5sum: 10b87978f9db1a8fdff55940e995c77f
-SHA1: a6b06b04a3ec035ce0d921ed9c0909a7e70398c9
-SHA256: 94f37d58e460db163fdf0ffb1e85e9111f25823b881ab8b615e9973cb74d3a84
-SHA512: 7764b38cd44882e64f1b1833435387ab5dc9b883beebd07805b62a53962dfcecb36a453d26be4ec067a10637a769fe7e1030fe134004087d7f816686d77b5ce4
+Size: 15884
+MD5sum: 50277efeac677ded15a7d8c82769c975
+SHA1: 49e467ab158cab037a1f5e16223d717a58424f73
+SHA256: 664466242367947410e09f89df522fa1d0fae1f4d9e460c93df96c9f9255e1de
+SHA512: 7677ee79140b4465751f073c79f824ed2111d25d6d9a93a5739dc6824655fba588aafcc63e523ee55b10705e817de8a3b981141a159a8d3cc68e62c4017f5b1b
 Description: Thêm ngôn ngữ Tiếng Việt cho Trollstore
 Name: TrollStore gói Việt Hoá
 Author: Kitsudo
@@ -17443,11 +17443,11 @@ Installed-Size: 92
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.kitsudo.trollstoreviethoa_1.0.1_iphoneos-arm64e.deb
-Size: 15956
-MD5sum: c507f793ee010e85f5f24aa879401f99
-SHA1: a99513478403bca60b9784dd37d95eeaffbd074c
-SHA256: 1351f060c3f026007ab2a0850104f99cd6a9d556b7cd77957f87fb3a5fd64fe0
-SHA512: 0d3df68ef5ed68752c4ed594973834c3e7d035b2d76347767c90e7db6c61c1c2a2c903e15b7eba418dec5bec8ea80d361be190a60e20d1839da1b64dda02b848
+Size: 15972
+MD5sum: 00815fae3f472a8996cc8ba570972de4
+SHA1: 9fd6159cdb642d082d76257e00534d189fe0f084
+SHA256: 95118d3d0847684712aab5c30f5b726d0243cddb6ffcf22fea28c1f8688b5efa
+SHA512: 06a4e709b9873be2d22699003a6da8a0b1610b393cd454ba6790942cef551962c2f2aa141795c97175f6d853a655966da1e58daf9d2e264bd1f6feaccec9d603
 Description: Thêm ngôn ngữ Tiếng Việt cho Trollstore
 Name: TrollStore gói Việt Hoá
 Author: Kitsudo
