@@ -16955,6 +16955,27 @@ Depiction: https://jtisvn.github.io/depictions/CapcutPro.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CapcutPro.json
 Icon: https://jtisvn.github.io/sectionIcons/CapcutPro.png
 
+Package: com.jtisvn.kinewall
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Applications
+Maintainer: JTISVN Repo
+Installed-Size: 472
+Depends: mobilesubstrate, firmware (>= 16.0), oldabi-stub
+Filename: ./debs/com.jtisvn.kinewall_1.0.0_iphoneos-arm64.deb
+Size: 65980
+MD5sum: 8c6d5aa1444936e69c68c9b4ee2b3f20
+SHA1: a14aa2372e78a6d357180a4250398a45291dd458
+SHA256: 343dadf960b3624cab480504e4c3823a41243ed76a53abf99aced96e6da8ca74
+SHA512: 8a489a1d1aea4f08dbce99ffd54d60da7e45e6483d2f2658859335328c3a5a371d9a938d777bc0466bcb5ea808977f5e18c987a5d4f2a3b048584edc7d3ba38e
+Homepage: https://jtisvn.github.io
+Description: Ung dung chọn nền video cho màn hình khoá và màn hình chính, Chỉ hỗ trợ iOS 16+
+Name: KineWall (Rootless)
+Author: Kitsudo
+Depiction: http://jtisvn.github.io/depiction/KineWall.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/KineWall.json
+Icon: https://jtisvn.github.io/sectionIcons/KineWall.png
+
 Package: com.jtisvn.laetus
 Architecture: iphoneos-arm64
 Version: 3.5.1
