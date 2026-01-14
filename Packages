@@ -16976,28 +16976,6 @@ Depiction: http://jtisvn.github.io/depiction/KineWall.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/KineWall.json
 Icon: https://jtisvn.github.io/sectionIcons/KineWall.png
 
-Package: com.jtisvn.kinewall
-Architecture: iphoneos-arm64e
-Version: 1.0.0-73+debug
-Section: Applications
-Maintainer: JTISVN Repo
-Installed-Size: 472
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 16.0), oldabi
-Filename: ./debs/com.jtisvn.kinewall_1.0.0-73+debug_iphoneos-arm64e.deb
-Size: 66044
-MD5sum: ce51ff8e6519090e60af42d2a05cfbdb
-SHA1: 30215f6c9ac4cde2401aa710b07f0dd344353ecc
-SHA256: 62230ea80f0261f7b2d04cddb10a4a2b0cfbb9fbf9591968e351653ee3821e89
-SHA512: 40cf878ae91ecf8267e831b63c40e5ff0520788a2e303ffca6daeaa7d517fce51d2f798321adede519f39bc875d456da49c38282dd1c08dcbab3caf93b47ed08
-Homepage: https://jtisvn.github.io
-Description: Ung dung chọn nền video cho màn hình khoá và màn hình chính, Chỉ hỗ trợ iOS 16+
-Name: KineWall (Roothide)
-Author: Kitsudo
-Depiction: http://jtisvn.github.io/depiction/KineWall.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/KineWall.json
-Icon: https://jtisvn.github.io/sectionIcons/KineWall.png
-
 Package: com.jtisvn.laetus
 Architecture: iphoneos-arm64
 Version: 3.5.1
