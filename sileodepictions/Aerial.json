@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 3.5\n\n- Thêm hỗ trợ Camera (Cần Reboot UserSpace cho lần đầu sử dụng).\n\n- Tối ưu hóa việc tải lại FBScene, giúp nó không bị load lại mỗi khi thay đổi chế độ môi trường.\n\n- Cả 2 thay đổi trên đều là đóng góp của @m4fn3.\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 3.7\n\n- Thêm hỗ trợ Camera (Cần Reboot UserSpace cho lần đầu sử dụng).\n\n- Tối ưu hóa việc tải lại FBScene, giúp nó không bị load lại mỗi khi thay đổi chế độ môi trường.\n\n- Cả 2 thay đổi trên đều là đóng góp của @m4fn3.\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
