@@ -16998,6 +16998,49 @@ Depiction: http://jtisvn.github.io/depiction/KineWall.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/KineWall.json
 Icon: https://jtisvn.github.io/sectionIcons/KineWall.png
 
+Package: com.jtisvn.kinewall
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Applications
+Maintainer: JTISVN Repo
+Installed-Size: 524
+Depends: mobilesubstrate, firmware (>= 16.0), oldabi-stub
+Filename: ./debs/com.jtisvn.kinewall_1.0.2_iphoneos-arm64.deb
+Size: 73220
+MD5sum: b07d1ae7d870aa5935d08c117821551a
+SHA1: 95b2d2d1221fab772cb9c890f6102d3ef2bcd722
+SHA256: 9f182f3afdbefb43bf6aebe2e5bb26ec37f2da1df0adf2ba95f719d1acc75f7c
+SHA512: 0ef5892effe62e1c70830a452ccde7308d1f857dee33e267dacd3ffb37bbc737cc6f4fecd9475106e9241b52e73ad07ff22349bb7a6dfb09008ab0b21dc6a7f0
+Homepage: https://jtisvn.github.io
+Description: Ứng dụng chọn nền video màn hình khoá và màn hình chính, Chỉ hỗ trợ iOS 16+
+Name: KineWall (Rootless)
+Author: Kitsudo
+Depiction: http://jtisvn.github.io/depiction/KineWall.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/KineWall.json
+Icon: https://jtisvn.github.io/sectionIcons/KineWall.png
+
+Package: com.jtisvn.kinewall
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Applications
+Maintainer: JTISVN Repo
+Installed-Size: 524
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0), oldabi
+Filename: ./debs/com.jtisvn.kinewall_1.0.2_iphoneos-arm64e.deb
+Size: 73400
+MD5sum: 9e8fcbed3849d7333601e6598f7b98fe
+SHA1: 85e911eaa8de19f25b1dc36869ff655590e2a6eb
+SHA256: b3c3deed735ee162b6507b9859e2a65c5df39342801164dbecfe75a8c690af9f
+SHA512: 0fa67c151d3bbf0bbae3675978fe0517b569dc43b18043f763ff2f94ffd44d213b8cb9271481c769f993d1930062bc34481bd815c32a443455d8b9ee4d09d0eb
+Homepage: https://jtisvn.github.io
+Description: Ứng dụng chọn nền video màn hình khoá và màn hình chính, Chỉ hỗ trợ iOS 16+
+Name: KineWall (Roothide)
+Author: Kitsudo
+Depiction: http://jtisvn.github.io/depiction/KineWall.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/KineWall.json
+Icon: https://jtisvn.github.io/sectionIcons/KineWall.png
+
 Package: com.jtisvn.laetus
 Architecture: iphoneos-arm64
 Version: 3.5.1
