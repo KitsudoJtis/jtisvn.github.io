@@ -26,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"KineWall\n\n- Ứng dụng cho phép bạn cài đặt Video làm hình nền cho Màn hình khóa và Màn hình chính một cách dễ dàng.\n\n- Tính năng:\n\n+ Tùy chọn video riêng biệt cho màn hình khóa và màn hình chính.\n\n+ Hỗ trợ bật/tắt âm thanh của video.\n\n+ Thanh trượt điều chỉnh mức âm lượng video.\n\n- Lưu ý: Yêu cầu tài gói **oldabi-stub** (Rootless) và **oldabi** (Roothide) trước khi cài đặt tweak này\n\n- Chỉ hoạt động trên thiết bị chip A12 iOS 16 trở lên.",
+"markdown":"KineWall\n\n- Ứng dụng cho phép bạn cài đặt Video làm hình nền cho Màn hình khóa và Màn hình chính một cách dễ dàng.\n\n- Chỉ hoạt động trên thiết bị chip A12 chạy iOS 16 trở lên\n\n- Tính năng:\n\n+ Tùy chọn video riêng biệt cho màn hình khóa và màn hình chính.\n\n+ Hỗ trợ bật/tắt âm thanh của video.\n\n+ Thanh trượt điều chỉnh mức âm lượng video.\n\n- Hẹn giờ đổi video tự động theo ý muốn\n\n- Lưu ý: Yêu cầu tài gói **oldabi-stub** (Rootless) và **oldabi** (Roothide) trước khi cài đặt tweak này.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -81,13 +81,13 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày tải lên",
+"text": "Ngày cập nhật",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "14/1/2026",
+"text": "15/1/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.0",
+"text": "1.0.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -118,7 +118,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "441,2 KB",
+"text": "493,1 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -131,7 +131,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "16.0 - 16.8",
+"text": "16.0 - 16.6.1",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.0\n\n- Phát hành lần đầu.\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.0.1\n\n- Thêm chức năng hẹn giờ đổi video tự động\n\n- Sửa lỗi mất tiếng trên iOS 16.5.1-16.6.1 (Nathanir & Bootstrap)\n\n ### Phiên bản 1.0.0\n\n- Phát hành lần đầu.\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",

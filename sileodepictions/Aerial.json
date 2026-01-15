@@ -87,7 +87,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "11/1/2026",
+"text": "15/1/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "3.6.1",
+"text": "3.7",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 3.6.1\n\n- Thêm lại cơ chế pseudo rotation (xoay giả lập) gốc để khắc phục triệt để lỗi xoay màn hình.\n\n- Sửa lỗi vị trí của AerialWindow hiển thị không đúng sau khi xoay.\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 3.5\n\n- Thêm hỗ trợ Camera (Cần Reboot UserSpace cho lần đầu sử dụng).\n\n- Tối ưu hóa việc tải lại FBScene, giúp nó không bị load lại mỗi khi thay đổi chế độ môi trường.\n\n- Cả 2 thay đổi trên đều là đóng góp của @m4fn3.\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
