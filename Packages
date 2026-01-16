@@ -16976,6 +16976,28 @@ Depiction: http://jtisvn.github.io/depiction/InfiniteMedia.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/InfiniteMedia.json
 Icon: https://jtisvn.github.io/icons/apps/avatar.webp
 
+Package: com.jtisvn.infinitemedia
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 412
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.infinitemedia_1.0.0_iphoneos-arm64e.deb
+Size: 37092
+MD5sum: db435c7ecdfc463797fef52a8733f641
+SHA1: b98408c9e0de105ce584f7692970cbea56faf419
+SHA256: 89674d2c7eb1fddaeb0af4e711d9f1d74e666a60f0a540602fc4edec58c3cac8
+SHA512: 28595cb1079349496c3826b73bd50ef41fa350d8c647e4c03f96368084709f0083b4e197c2c48d38b49175a6b4311d0dd074b782de7aaa5c405152416933f324
+Homepage: https://jtisvn.github.io
+Description: Infinite Zoom, Loop Video, Silent Cam & Delete Forever.
+Name: InfiniteMedia (Roothide)
+Author: JTISVN
+Depiction: http://jtisvn.github.io/depiction/InfiniteMedia.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/InfiniteMedia.json
+Icon: https://jtisvn.github.io/icons/apps/avatar.webp
+
 Package: com.jtisvn.kinewall
 Architecture: iphoneos-arm64
 Version: 1.0.0
