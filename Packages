@@ -16955,6 +16955,27 @@ Depiction: https://jtisvn.github.io/depictions/CapcutPro.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CapcutPro.json
 Icon: https://jtisvn.github.io/sectionIcons/CapcutPro.png
 
+Package: com.jtisvn.infinitemedia
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 412
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.infinitemedia_1.0.0_iphoneos-arm64.deb
+Size: 37076
+MD5sum: 2db335a3f839100f5635783b56143f41
+SHA1: 126765761f5b5d5d30758950dfc78272223f603b
+SHA256: 7ef3d5ed2711e4d1628be4d93a5366ceecf4c1406cd1c49caa81be237b0bf93f
+SHA512: e331b60f0e03272a05d3ea57540ed1a201458ac840906570266e5057b03dbdec728abb92a509e43d78b6c7dd60e17f26745bbdb465fd48b47ece7e265deffb00
+Homepage: https://jtisvn.github.io
+Description: Infinite Zoom, Loop Video, Silent Cam & Delete Forever.
+Name: InfiniteMedia (Rootless)
+Author: JTISVN
+Depiction: http://jtisvn.github.io/depiction/InfiniteMedia.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/InfiniteMedia.json
+Icon: https://jtisvn.github.io/icons/apps/avatar.webp
+
 Package: com.jtisvn.kinewall
 Architecture: iphoneos-arm64
 Version: 1.0.0
