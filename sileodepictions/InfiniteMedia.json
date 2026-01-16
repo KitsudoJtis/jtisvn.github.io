@@ -12,13 +12,29 @@
 {
 "url":"https://jtisvn.github.io/infodeb/InfiniteMedia/Screenshots/1.png",
 "accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/InfiniteMedia/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/InfiniteMedia/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/InfiniteMedia/Screenshots/4.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/InfiniteMedia/Screenshots/5.png",
+"accessibilityText":"Screenshot"
 }
 ],
 "itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"InfiniteMedia\n\n- Tinh chỉnh tất cả trong một giúp nâng cao trải nghiệm sử dụng thư viện Ảnh và Máy ảnh trên thiết bị của bạn.\n\n- Các tính năng chính:\n\n+ **Tự động lặp lại Video:** Video sẽ tự động phát lại khi kết thúc.\n\n+ **Luôn bật tiếng Video:** Không cần phải bật tiếng thủ công mỗi khi xem video.\n\n+ **Phóng to vô hạn:** Zoom ảnh và video không giới hạn mức độ.\n\n+ **Xoá vĩnh viễn:** Xóa ảnh & video ngay lập tức mà không cần chuyển vào mục \"Đã xóa gần đây\".\n\n+ **Máy ảnh:** Hỗ trợ Zoom siêu xa (30x) và tắt âm thanh khi chụp ảnh.",
+"markdown":"InfiniteMedia\n\n- Tinh chỉnh tất cả trong một giúp nâng cao trải nghiệm sử dụng thư viện Ảnh và Máy ảnh trên thiết bị của bạn.\n\n- Các tính năng chính:\n\n+ **Tự động lặp lại Video:** Video sẽ tự động phát lại khi kết thúc.\n\n+ **Luôn bật tiếng Video:** Không cần phải bật tiếng thủ công mỗi khi xem video.\n\n+ **Phóng to vô hạn:** Zoom ảnh và video không giới hạn mức độ.\n\n+ **Xoá vĩnh viễn:** Xóa ảnh & video ngay lập tức mà không cần chuyển vào mục \"Đã xóa gần đây\".\n\n- **Ẩn thanh trượt:** Ẩn khung trượt nhỏ dưới Ảnh & Video.\n\n+ **Máy ảnh:** Hỗ trợ tắt âm thanh khi chụp ảnh.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -97,7 +113,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.0",
+"text": "1.0.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -151,7 +167,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.0\n\n- Phát hành lần đầu.\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.0.1\n\n- Thêm tính năng ẩn thanh trượt\n\n- Sửa lỗi video không lặp lại trên thiết bị iOS 15.0 -16.2.\n\n- Xoá bỏ zoom cam xa.\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
