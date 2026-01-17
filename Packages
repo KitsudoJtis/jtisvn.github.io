@@ -6885,18 +6885,18 @@ Maintainer: JTISVN Repo
 Installed-Size: 672
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 12.0)
 Filename: ./debs/com.jtis.cask2_1.2.0_iphoneos-arm.deb
-Size: 296292
-MD5sum: c77fe547033e21e4148227cff7ae9109
-SHA1: 79b365fd211759efb4db740034736fefc7a667f3
-SHA256: 181e947471c5c78e712b8450ab2989aa3beb240587e6a3869bb80710542a1a45
-SHA512: d8316e0c1c57e38f4ba81504e79c176f6cf55d80cbc605c37cbe09ed5598b65a3689fe309b4eeeed7b362a1802b3f743ff1fb608a1686c6c8ba78c2fd211ecf2
+Size: 296312
+MD5sum: 723855e2029e25d5fbd9e374b0c021f8
+SHA1: 93b6d0cfd80d7472756837ea2784fbe0db16c959
+SHA256: 9ac9feb6ed0243246c357399cfaa4131b63cb840c4ae99aa7eb1e2564decbb63
+SHA512: 6463a934b0fb81a0d3c7d811243836be48d7c9aa35d21a9bb32d14a1d8c8c90887e94e176a9b180fe4f833db1e0f2b746ac1344acd34f79e99d6b8316e11067e
 Homepage: https://jtisvn.github.io
-Description: Tuỳ biến iệu ứng cuộn trang.
+Description: Tuỳ biến hiệu ứng cuộn trang.
 Name: Cask 2
 Author: Ryan Nair
 Depiction: http://jtisvn.github.io/depiction/Cask2.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Cask2.json
-Icon: https://jtisvn.github.io/icons/Cask2.png
+Icon: https://jtisvn.github.io/sectionIcons/Cask2.png
 
 Package: com.jtis.cask3
 Architecture: iphoneos-arm
