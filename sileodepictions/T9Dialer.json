@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"T9Dialer\n\n- Hiển thị tên khi nhập số điện thoai trực tiếp trên bàn phím.",
+"markdown":"T9Dialer\n\n- Hiển thị tên khi nhập số điện thoai trực tiếp trên phím trình quay số.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
