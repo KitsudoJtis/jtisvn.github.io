@@ -113,8 +113,8 @@
             padding-bottom: 20px;
             -webkit-overflow-scrolling: touch;
             scrollbar-width: none; 
-            /* CÓ 1 ẢNH -> GIỮ CĂN GIỮA */
-            justify-content: center; 
+            /* CÓ 5 ẢNH -> BỎ CĂN GIỮA ĐỂ KHÔNG BỊ CHE ẢNH TRÁI */
+            /* justify-content: center; */
         }
         .screenshots-scroll::-webkit-scrollbar {
             display: none; 
@@ -269,7 +269,7 @@
 </head>
 <body>
 
-    <div id="prerequisite" data-min-ios="15.0" data-max-ios="17.0" style="display:none;"></div>
+    <div id="prerequisite" data-min-ios="15.0" data-max-ios="16.7.10" style="display:none;"></div>
 
     <img src="https://jtisvn.github.io/coverimage/jtisvnrepo.png" alt="InfiniteMedia Banner" class="banner">
 
@@ -287,6 +287,10 @@
 
             <div class="screenshots-scroll">
                 <img src="https://jtisvn.github.io/infodeb/InfiniteMedia/Screenshots/1.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/InfiniteMedia/Screenshots/2.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/InfiniteMedia/Screenshots/3.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/InfiniteMedia/Screenshots/4.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/InfiniteMedia/Screenshots/5.png" class="screenshot-img" onclick="openImage(this)">
             </div>
 
             <div>
@@ -300,7 +304,8 @@
                     <li><strong>Luôn bật tiếng Video:</strong> Không cần phải bật tiếng thủ công mỗi khi xem video.</li>
                     <li><strong>Phóng to vô hạn:</strong> Zoom ảnh và video không giới hạn mức độ.</li>
                     <li><strong>Xoá vĩnh viễn:</strong> Xóa ảnh & video ngay lập tức mà không cần chuyển vào mục "Đã xóa gần đây".</li>
-                    <li><strong>Máy ảnh:</strong> Hỗ trợ Zoom siêu xa (30x) và tắt âm thanh khi chụp ảnh.</li>
+                    <li><strong>Ẩn thanh trượt:</strong> Ẩn khung trượt nhỏ bên dưới Ảnh & Video.</li>
+                    <li><strong>Máy ảnh:</strong> Hỗ trợ tắt âm thanh khi chụp ảnh.</li>
                 </ul>
             </div>
 
@@ -325,7 +330,7 @@
                 <div class="info-column">
                     <div class="info-item">
                         <span class="info-label">Phiên bản</span>
-                        <span class="info-value">1.0.0</span>
+                        <span class="info-value">1.0.1</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Kích thước</span>
@@ -333,7 +338,7 @@
                     </div>
                     <div class="info-item">
                         <span class="info-label">Tương thích iOS</span>
-                        <span class="info-value">15.0 - 16,7.10</span>
+                        <span class="info-value">15.0 - 16.7.10</span>
                     </div>
                 </div>
             </div>
@@ -341,9 +346,11 @@
         </div>
 
         <div id="changelog" class="tab-content">
-            <h3 style="margin-top: 10px;">Phiên bản 1.0.0</h3>
+            <h3 style="margin-top: 10px;">Phiên bản 1.0.1</h3>
             <ul>
-                <li>Phát hành lần đầu.</li>
+                <li>Thêm tính năng ẩn thanh trượt.</li>
+                <li>Sửa lỗi video không lặp lại trên thiết bị iOS 15.0 - 16.2.</li>
+                <li>Xoá bỏ zoom cam xa.</li>
                 <li>Hỗ trợ Rootless & Roothide Jailbreak.</li>
             </ul>
             <div class="footer">Copyright © 2025 - 2030 by JTISVN</div>

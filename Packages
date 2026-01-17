@@ -16963,13 +16963,13 @@ Maintainer: JTISVN Repo
 Installed-Size: 432
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: ./debs/com.jtisvn.infinitemedia_1.0.1_iphoneos-arm64.deb
-Size: 38068
-MD5sum: 89dc28f73a960f29b557cbeb3c065e3c
-SHA1: 5c1dd2072546372de44d52baaa9d56fdd30a01f2
-SHA256: c53f7cf7fc0b02a798bf9cf7a8d06562d297478497629d1996cb9376ac54c22c
-SHA512: e61268febf017be4f70b386de136b9220e8d86a15fb68371bb973ec994c4a139c8fb30fe1316f4e8615c23a5baf0e80348a3f847e96dd7cc1d4918713217174b
+Size: 38120
+MD5sum: f891941c81091d98fcc029295491fde6
+SHA1: 9d9b3317af8c6a1a125517ee08c6c415ea0a2696
+SHA256: f211cb85fbf1af38a2ab725f390cedc39455316dd549bfb2a252e9ba10d2c288
+SHA512: dc0a77e199556dd967f2c238ea5bd5a5f7d7bb9143541702b8453f6a0c9aff06d0335f6f526e09c625837c586594716cb9ad05e00b7460988e20698d23d10c05
 Homepage: https://jtisvn.github.io
-Description: Infinite Zoom, Loop Video, Silent Cam & Delete Forever.
+Description: Nâng cao trải nghiệm thư vuện Ảnh & Camera.
 Name: InfiniteMedia (Rootless)
 Author: JTISVN
 Depiction: http://jtisvn.github.io/depiction/InfiniteMedia.html
@@ -16985,14 +16985,14 @@ Installed-Size: 432
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: ./debs/com.jtisvn.infinitemedia_1.0.1_iphoneos-arm64e.deb
-Size: 38084
-MD5sum: 697ad5a1fc1f7ad97a3321ff2822ab5d
-SHA1: eacf357cd1d6ce6b672e36a7d951547d1b8b9a91
-SHA256: 4179c4b0f087293dc79601a221cd6e3e808b925c55517437de0e56d1f6092afd
-SHA512: 6337b0f23669ce8dd6303f472415276aa6f2fc271279a5c9a8fc5df8c2451c5fd2510f62c563a9bde4dab804eb510120ef4568180476c6fb99435a1ef6c7fc24
+Size: 38128
+MD5sum: 47db3c4f3f3fba45e47d0e4705efa21a
+SHA1: 14be95b547295daef15d2452afe4d58a12c21ac8
+SHA256: 6491ff39b9ffe0d556744d22849cc78302a22509efb1da1270b4ff9855f01b4a
+SHA512: ccb4080e12e7d8e0079d74385e6b06147408addd5e172f7977be85a912b506f5c06505c3c91438dcb7b86258f52f5318ebcbb681368ff739151d40fbd76d11f9
 Homepage: https://jtisvn.github.io
-Description: Infinite Zoom, Loop Video, Silent Cam & Delete Forever.
-Name: InfiniteMedia (Rootless)
+Description: Nâng cao trải nghiệm thư vuện Ảnh & Camera.
+Name: InfiniteMedia (Roothide)
 Author: JTISVN
 Depiction: http://jtisvn.github.io/depiction/InfiniteMedia.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/InfiniteMedia.json
