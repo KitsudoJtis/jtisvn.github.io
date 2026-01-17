@@ -686,6 +686,25 @@ Author: Lessica <82flex@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Touchviz.json
 Icon: https://jtisvn.github.io/sectionIcons/Touchviz.png
 
+Package: com.82flex.touchvis
+Architecture: iphoneos-arm64
+Version: 4.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.jtis.82flexcrack
+Filename: ./debs/com.82flex.touchvis_4.0.2_iphoneos-arm64.deb
+Size: 1359016
+MD5sum: fcd0f42a993191371e916467d0b8bcf0
+SHA1: de62caf598de2f298bb10c11e28724967461c0c8
+SHA256: 6590d27b09d4914d9c70f949c1881acaf819b3e4e2c0c413a27b3e3ea31c9c33
+SHA512: e5237243ef842faa0669700e7bd68c75d73b54385094d4c892cf018ccd90bae59937a88eef2f9af145b66bde1cbae4f5bbc3da1a7f9dc91e0f0ce6e82d0dbced
+Description: Hiển thị cảm ứng tương tác của bạn trên màn hình.
+Name: Touch-Viz (Rootless)
+Author: Lessica
+Depiction: http://jtisvn.github.io/depiction/Touchviz.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Touchviz.json
+Icon: https://jtisvn.github.io/sectionIcons/Touchviz.png
+
 Package: com.LLSwitch.roothide
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -3229,6 +3248,23 @@ Author: isklikas
 SileoDepiction: https://jtisvn.github.io/sileodepictions/3DBadgeClear.json
 Depiction: https://jtisvn.github.io/depictions/3DBadgeClear.html
 Icon: https://jtisvn.github.io/sectionIcons/3DBadgeClear.png
+
+Package: com.jtis.82flexcrack
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.82flexcrack_0.0.2_iphoneos-arm64.deb
+Size: 31368
+MD5sum: 0b05cc44f88c0a3f3060484f3aedabbd
+SHA1: 55a9e5d3445777d140171923ebb5a1e9d6ae6c1e
+SHA256: 30f2bc0fcf2ed399630dd58fd63d30f6d9d402ffb26a2b0a6e581244c7f7ecba
+SHA512: c83f94aa0579fa2c50221247c592d34f0fabdc5db77e21a5fc82949570ad08518e211590a4e719c99ed3ac93f7c3e6f1780722a6bc5cae585200bd37fbb4ad03
+Description: Bẻ khoá các tinh chỉnh ColourWallPaperX, Touch-Viz và Write Now của 82Flex.
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Name: 82Flex Crack
+Author: CBZ
 
 Package: com.jtis.AppleSymbols
 Architecture: iphoneos-arm64
