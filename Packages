@@ -19271,6 +19271,27 @@ Depiction: http://jtisvn.github.io/depiction/BHtiktok++.html
 icon: https://jtisvn.github.io/sectionIcons/BHtiktokplus.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BHtiktok++.json
 
+Package: com.raulsaeed.bhtiktok++s
+Architecture: iphoneos-arm64e
+Version: 2.0k
+Section: Tweaks
+Maintainer: raul saeed
+Installed-Size: 1032
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.raulsaeed.bhtiktok++s_2.0k_iphoneos-arm64e.deb
+Size: 149120
+MD5sum: a82c698fe73612c548ae053d50401064
+SHA1: 9f0bf7f587220fa5f514685bf0f9e97ea5ad7f95
+SHA256: be395cc0a2b29cf225b26d88e01fa664ca948c3b4bcfbbce20f4f8a6350505d9
+SHA512: 8fc7f571e3dd7aa8f2d7694e3b2dd974c79bf708e3137d4badee3e57f69dbc3fcad3d2718da4d55df8da172ac2e2ab4882d921467ef6eb880da7ba4179047bcc
+Description: Bổ sung tính năng tiẹn ích cho Ứng dụng TikTok
+Name: BHTikTok++ (Roothide)
+Author: raul saeed
+Depiction: http://jtisvn.github.io/depiction/BHtiktok++.html
+icon: https://jtisvn.github.io/sectionIcons/BHtiktokplus.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/BHtiktok++.json
+
 Package: com.raulsaeed.rxtiktok
 Architecture: iphoneos-arm64
 Version: 1.4.5

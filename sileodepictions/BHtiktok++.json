@@ -114,7 +114,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.0",
+"text": "2.0k",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -127,7 +127,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "460 KB",
+"text": "1,2 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -168,7 +168,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.0\n\n- Sửa lỗi\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 2.0k\n\n- Sửa lỗi\n\n- Thêm đầy đủ ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
