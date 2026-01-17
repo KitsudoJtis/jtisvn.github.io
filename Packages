@@ -5484,16 +5484,16 @@ Maintainer: Nets
 Installed-Size: 452
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.jtis.autofaceunlock-rootless_1.1-7_iphoneos-arm64.deb
-Size: 63436
-MD5sum: 389b295caa03021972b9d49a356d9e37
-SHA1: 139250d3d4e97105af221b5eef56ca98b277fc73
-SHA256: 63a097bf9ca027bee7379a3303cdca983b7f95b2c68a6a824daa49c8a23c3d99
-SHA512: 3bdec313887e7be8fc0ed975a245a90830c244e1132693f715adfcb8e4dbd5d071ab76f50f2f9fbdb755c2df2dea1db953854b5445af942d3af7b0bbabd7d721
-Description: Tự động mở khoá không cần vuốt lên để vào màn hình chính cho thiết bị có Faceid.
+Size: 63536
+MD5sum: 2398b0afe9f6d3ce64cd824141d73389
+SHA1: 33213df77cf79e44de445c4bbea42b0932d7ac88
+SHA256: 7bab3fc5cb5fe51ad4a4209f35d2ed3e2214406f982bc31489fac51d46e764d6
+SHA512: 76b81ad5e0138c9baebde5e78c9708b16cb5fb98c7be2046f81440881caff2a1e7fd1d8e26e0bb713d1f8539c5989ed7156b05870fe1f48999e768a981845bbd
+Description: Tự động mở khoá bằng FaceID vào màn hình chính.
 Name: AutoFaceUnlock (Rootless)
 Author: Netskao
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoFaceUnlock.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/AutoFaceUnlock.png
 
 Package: com.jtis.autofaceunlock-rootless
 Architecture: iphoneos-arm64e
@@ -5504,16 +5504,16 @@ Installed-Size: 452
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.jtis.autofaceunlock-rootless_1.1-7_iphoneos-arm64e.deb
-Size: 65136
-MD5sum: 637acb05c3a790ae0a79a811bda00f26
-SHA1: 992abdde825f21ea4040bf53d9b033c60e224a6b
-SHA256: d68e76e0744a83f0e9dd98b4ff763e6d6cec26f87937d6d00b28b1fd90e6787d
-SHA512: 3b58de52fbdb034ac12f693f31c20f5544152ae773eca75d4dc6d8acf4915acce6787da68c04e52d174f024ad168bc0407d7ae940b9e582e0d8943da9f0aa9e5
-Description: Tự động mở khoá không cần vuốt lên để vào màn hình chính cho thiết bị có Faceid.
+Size: 63584
+MD5sum: 10a130112cd46f692ac48388c6d86dac
+SHA1: 70d19608820c5479ee46416636f24d4b6c104e3e
+SHA256: be34b4abd1fc05921bf2dcc5588d19e062794cedb5e2804539eba3bbfb8a959d
+SHA512: 5a64f1febfa0ab313283a1e51837e6d9d3faef1ef4b2d05ca46500361dc339031d62648749a0859bd2629ab4b14474544832b07d3416cfac0ae3b0740a0ac012
+Description: Tự động mở khoá bằng FaceID vào màn hình chính.
 Name: AutoFaceUnlock (Roothide)
 Author: Netskao
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoFaceUnlock.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/AutoFaceUnlock.png
 
 Package: com.jtis.autolockscreen
 Architecture: iphoneos-arm64
