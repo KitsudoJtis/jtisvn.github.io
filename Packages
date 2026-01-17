@@ -6841,6 +6841,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Cartoo.json
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
  Pre-Depends: rootless-compat(>= 0.9)
 
+Package: com.jtis.cask2
+Architecture: iphoneos-arm
+Version: 1.2.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 672
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 12.0)
+Filename: ./debs/com.jtis.cask2_1.2.0_iphoneos-arm.deb
+Size: 296292
+MD5sum: c77fe547033e21e4148227cff7ae9109
+SHA1: 79b365fd211759efb4db740034736fefc7a667f3
+SHA256: 181e947471c5c78e712b8450ab2989aa3beb240587e6a3869bb80710542a1a45
+SHA512: d8316e0c1c57e38f4ba81504e79c176f6cf55d80cbc605c37cbe09ed5598b65a3689fe309b4eeeed7b362a1802b3f743ff1fb608a1686c6c8ba78c2fd211ecf2
+Homepage: https://jtisvn.github.io
+Description: Tuỳ biến iệu ứng cuộn trang.
+Name: Cask 2
+Author: Ryan Nair
+Depiction: http://jtisvn.github.io/depiction/Cask2.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Cask2.json
+Icon: https://jtisvn.github.io/icons/Cask2.png
+
 Package: com.jtis.cask3
 Architecture: iphoneos-arm
 Version: 1.0.0
