@@ -17033,6 +17033,27 @@ Depiction: https://jtisvn.github.io/depictions/CapcutPro.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CapcutPro.json
 Icon: https://jtisvn.github.io/sectionIcons/CapcutPro.png
 
+Package: com.jtisvn.clocktimefont
+Architecture: iphoneos-arm64
+Version: 1.0.0+debug
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1640
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.clocktimefont_1.0.0+debug_iphoneos-arm64.deb
+Size: 404100
+MD5sum: 7b350d3e078c2a0edffe20d9ce39c602
+SHA1: 64b2e015c2e108b97b54a8fba2b69bb56dc3a957
+SHA256: a87e7dae9e8361f9f19a3e8b36c8f597e01eb01b16678754bfa8034315a63426
+SHA512: 9fcff98db78e91e64c05b54411a07d9cac4497cef07123fe733b4a333692eb7fb9863478b27ad7a08aed32bc472c4d5c1689e17ddc4c7f4167fa975ccadb0555
+Homepage: https://jtisvn.github.io/
+Description: Thay đổi phông chữ đồng hồ màn hình khoá
+Name: ClockTimeFont (Rootless)
+Author: Kitsudo
+Depiction: http://jtisvn.github.io/depiction/ClockTimeFont.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ClockTimeFont.json
+Icon: https://jtisvn.github.io/sectionIcons/ClockTimeFont.png
+
 Package: com.jtisvn.infinitemedia
 Architecture: iphoneos-arm64
 Version: 1.0.1
