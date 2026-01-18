@@ -17041,15 +17041,15 @@ Maintainer: JTISVN Repo
 Installed-Size: 432
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: ./debs/com.jtisvn.infinitemedia_1.0.1_iphoneos-arm64.deb
-Size: 38120
-MD5sum: f891941c81091d98fcc029295491fde6
-SHA1: 9d9b3317af8c6a1a125517ee08c6c415ea0a2696
-SHA256: f211cb85fbf1af38a2ab725f390cedc39455316dd549bfb2a252e9ba10d2c288
-SHA512: dc0a77e199556dd967f2c238ea5bd5a5f7d7bb9143541702b8453f6a0c9aff06d0335f6f526e09c625837c586594716cb9ad05e00b7460988e20698d23d10c05
+Size: 38108
+MD5sum: 05508bee1bdb358138f416cc48a586ff
+SHA1: 68bae1200cb5394b5df61cf8b8326cd961a1844d
+SHA256: 3f69272000fd3485a44e8fbfdc46792d256a6962fb522e6d5b4092b685c3f585
+SHA512: 1e1840115d13ee7f442b6e463e4748161bd98d6127fc76f7dce34d7739a3d163e37d2ae8f8fe0b1115a29a22804a112075024a5bee53d52e8eb728e2e99af5be
 Homepage: https://jtisvn.github.io
 Description: Nâng cao trải nghiệm thư vuện Ảnh & Camera.
 Name: InfiniteMedia (Rootless)
-Author: JTISVN
+Author: Kitsudo
 Depiction: http://jtisvn.github.io/depiction/InfiniteMedia.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/InfiniteMedia.json
 Icon: https://jtisvn.github.io/icons/apps/avatar.webp
@@ -17063,15 +17063,15 @@ Installed-Size: 432
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: ./debs/com.jtisvn.infinitemedia_1.0.1_iphoneos-arm64e.deb
-Size: 38128
-MD5sum: 47db3c4f3f3fba45e47d0e4705efa21a
-SHA1: 14be95b547295daef15d2452afe4d58a12c21ac8
-SHA256: 6491ff39b9ffe0d556744d22849cc78302a22509efb1da1270b4ff9855f01b4a
-SHA512: ccb4080e12e7d8e0079d74385e6b06147408addd5e172f7977be85a912b506f5c06505c3c91438dcb7b86258f52f5318ebcbb681368ff739151d40fbd76d11f9
+Size: 38136
+MD5sum: 1c5c6b4b76ddff584c624e26cd6d6250
+SHA1: f8f2a69af0443739893b5f29cac73391c8617c4c
+SHA256: dd8890cadf9d59cf5032e021fd33d4cc91efc617708ccdb1e92dd86322643f58
+SHA512: 148c3435868efd2c9fbaf4114bc1b7ef62e62e01bce63d7da0c52c1c3da01bb99d0aa0f9f36a82eb4fdcc1b8d24f29c9743e75cd6d72e692c1fb0b94e23ab483
 Homepage: https://jtisvn.github.io
 Description: Nâng cao trải nghiệm thư vuện Ảnh & Camera.
 Name: InfiniteMedia (Roothide)
-Author: JTISVN
+Author: Kitsudo
 Depiction: http://jtisvn.github.io/depiction/InfiniteMedia.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/InfiniteMedia.json
 Icon: https://jtisvn.github.io/icons/apps/avatar.webp
@@ -19558,6 +19558,47 @@ Description: Convert IPA to DEB
 Name: ipa2deb
 Author: rullinoiz
 Depiction: https://repoiz.github.io/repoiz/depictions/?p=com.rullinoiz.ipa2deb
+
+Package: com.ryannair05.audiosnapshotserver2
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Development
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 224
+Depends: mobilesubstrate
+Filename: ./debs/com.ryannair05.audiosnapshotserver2_1.0_iphoneos-arm64.deb
+Size: 4216
+MD5sum: 744031b7a15eaddc5e0fc272c67d03c6
+SHA1: 4955cbdeb8b4b8e00adb3c10132ce9a361436894
+SHA256: a625f394af3d4e2a7b5df99443c4149a669349d64975ab0015bf70de639f50d3
+SHA512: cf832a1b7b4ff8b59ca9eef6087c1a69097a7bc1cf3dcc32d067b2a0cfad99642018bdc93a9a9cb91009aad61bf4d87f8d88a024a2b4ea22d6e6d6d0347ea024
+Description: A modified iOS mediaserverd hook to serve snapshots of current audio buffer via UDP
+Tag: compatible_min::ios15.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Name: AudioSnapshotServer 2
+Icon: https://img.chariz.cloud/icon/audiosnapshotserver2/icon@3x.png
+Depiction: https://chariz.com/get/audiosnapshotserver2
+
+Package: com.ryannair05.audiosnapshotserver2
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Development
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 224
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.ryannair05.audiosnapshotserver2_1.0_iphoneos-arm64e.deb
+Size: 5822
+MD5sum: 8f060cded6125a30184b3ab9672b7827
+SHA1: 949d944d96987264f986d565362fdc3006ab7ccb
+SHA256: 5a49b94008a938e28eb32e6a57f0cc798c2823b6854a69002a58b22c5d5c2586
+SHA512: f6d4ce4336c7d41dd676eff9ee765d291203e1809718455fac8fd67120a09fd09f2b77aa221ad47a24a0c29340df2aa911eed0bbfe5b8ae9e1cfee3bc45c77e0
+Description: A modified iOS mediaserverd hook to serve snapshots of current audio buffer via UDP
+Tag: compatible_min::ios15.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Name: AudioSnapshotServer 2
+Icon: https://img.chariz.cloud/icon/audiosnapshotserver2/icon@3x.png
+Depiction: https://chariz.com/get/audiosnapshotserver2
 
 Package: com.skypain.cclocation
 Architecture: iphoneos-arm64
