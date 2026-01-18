@@ -20987,6 +20987,28 @@ Depiction: http://jtisvn.github.io/depiction/Nations.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Nations.json
 Icon: https://jtisvn.github.io/sectionIcons/Nations.png
 
+Package: jp.uzra.nations
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: uz.ra
+Installed-Size: 1068
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.ryannair05.audiosnapshotserver2
+Conflicts: com.jtisvn.kinewall
+Filename: ./debs/jp.uzra.nations_1.0_iphoneos-arm64e.deb
+Size: 307856
+MD5sum: 12225997a7cd5a25d19ee9fbc34befdc
+SHA1: 840ed08ec5ab8782c644c959b65567ac3c3fde36
+SHA256: dcfea8c0b16d2bc6fab06da86f58f9e611667e345db4f0af7e7eef64c9f36b6f
+SHA512: 218f23394869bf9be2db93ee231acaa12740d3a14e145c24f088d53423de4655943d68bae455d439223a46f1397f92cab5e0f127e57ddf1924317889f33d6ed8
+Description: Trap Nation-style audio spectrum on lock screen!
+Name: Nations (Roothide)
+Author: uz.ra
+Depiction: http://jtisvn.github.io/depiction/Nations.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Nations.json
+Icon: https://jtisvn.github.io/sectionIcons/Nations.png
+
 Package: jp.uzra.planetes
 Architecture: iphoneos-arm64
 Version: 1.2.2
