@@ -17039,16 +17039,38 @@ Version: 1.0.0+debug
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 1640
-Depends: mobilesubstrate, firmware (>= 15.0)
+Depends: mobilesubstrate, firmware (>= 15.0), oldabi-stub
 Filename: ./debs/com.jtisvn.clocktimefont_1.0.0+debug_iphoneos-arm64.deb
-Size: 404100
-MD5sum: 7b350d3e078c2a0edffe20d9ce39c602
-SHA1: 64b2e015c2e108b97b54a8fba2b69bb56dc3a957
-SHA256: a87e7dae9e8361f9f19a3e8b36c8f597e01eb01b16678754bfa8034315a63426
-SHA512: 9fcff98db78e91e64c05b54411a07d9cac4497cef07123fe733b4a333692eb7fb9863478b27ad7a08aed32bc472c4d5c1689e17ddc4c7f4167fa975ccadb0555
+Size: 404204
+MD5sum: 632937b39978a9338b413b5da35bafa8
+SHA1: a964e8c61e19c879670385b5f8bc4d327d1e9378
+SHA256: da8638c04ebfbe7f7e786f141a164040a17923e7a13b1da6f6c7e0bc918d4b6e
+SHA512: 7b6ed6782d1eabac065cca6cb6af7dd48fbbf63374e1b649bbc58a876fc41cd73cf35bf5c56f2a3df3028e68961ce467d7d9d3f1e61bd79b8fd848e6946611be
 Homepage: https://jtisvn.github.io/
-Description: Thay đổi phông chữ đồng hồ màn hình khoá
+Description: Tuỳ chỉnh phông chữ đồng hồ màn hình khoá theo ý muốn của bạn.
 Name: ClockTimeFont (Rootless)
+Author: Kitsudo
+Depiction: http://jtisvn.github.io/depiction/ClockTimeFont.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ClockTimeFont.json
+Icon: https://jtisvn.github.io/sectionIcons/ClockTimeFont.png
+
+Package: com.jtisvn.clocktimefont
+Architecture: iphoneos-arm64e
+Version: 1.0.0+debug
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1640
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), oldabi
+Filename: ./debs/com.jtisvn.clocktimefont_1.0.0+debug_iphoneos-arm64e.deb
+Size: 404000
+MD5sum: 024cb175883af0205db763cfc4839ccf
+SHA1: 0cd0a950c48ab47e4899df57130ef9fc7e405f37
+SHA256: b5269ba8cd7ae9d6b3739d711db901faf60a46c5141bf4da3184e67ff677af61
+SHA512: 500811d40a842de55cf6c52c6800ae0a3ccc42507fb25e2dd477d28d1b04b9f5d8163dd0be498d31064317cebdcfdc8985c3203953d1435cb69430dca3fd6a75
+Homepage: https://jtisvn.github.io/
+Description: Tuỳ chỉnh phông chữ đồng hồ màn hình khoá theo ý muốn của bạn.
+Name: ClockTimeFont (Roothide)
 Author: Kitsudo
 Depiction: http://jtisvn.github.io/depiction/ClockTimeFont.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ClockTimeFont.json
