@@ -10,15 +10,15 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://media.havoc.app/69628f94cbf6beea2ef61e01",
+"url":"https://jtisvn.github.io/infodeb/Nations/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://media.havoc.app/69628d3bcbf6beea2ef6102e",
+"url":"https://jtisvn.github.io/infodeb/Nations/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://media.havoc.app/69685f7fbb73674f0a13a46f",
+"url":"https://jtisvn.github.io/infodeb/Nations/Screenshots/3.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -26,7 +26,7 @@
 "itemSize":"{160,346}"
 },
 {
-"markdown":"Nations\n\n- mang hiệu ứng sóng nhạc (Visualizer) tuyệt đẹp lên màn hình khóa iOS, lấy cảm hứng từ phong cách \"Trap Nation\" nổi tiếng.\n\n- Tính năng nổi bật:\n\n+ **Hiệu ứng sóng nhạc:** Dạng Cánh bướm hoặc Đồng hồ cát đối xứng cực đẹp.\n\n+ **Phản hồi thời gian thực:** Sóng nhạc nhảy mượt mà theo giai điệu bài hát đang phát.\n\n+ **Tùy chỉnh màu sắc:** Hỗ trợ chọn màu thủ công hoặc chế độ màu thích ứng (tự động đổi theo ảnh bìa bài hát).\n\n+ **Tinh chỉnh chuyên sâu:** Cho phép chỉnh độ nhạy, tốc độ, độ mượt và dải tần số âm thanh.",
+"markdown":"Nations\n\n- Mang đến hiệu ứng sóng nhạc (Visualizer) tuyệt đẹp lên màn hình khóa iOS, lấy cảm hứng từ phong cách \"Trap Nation\" nổi tiếng.\n\n- Tính năng nổi bật:\n\n+ **Hiệu ứng sóng nhạc:** Dạng Cánh bướm hoặc Đồng hồ cát đối xứng cực đẹp.\n\n+ **Phản hồi thời gian thực:** Sóng nhạc nhảy mượt mà theo giai điệu bài hát đang phát.\n\n+ **Tùy chỉnh màu sắc:** Hỗ trợ chọn màu thủ công hoặc chế độ màu thích ứng (tự động đổi theo ảnh bìa bài hát).\n\n+ **Tinh chỉnh chuyên sâu:** Cho phép chỉnh độ nhạy, tốc độ, độ mượt và dải tần số âm thanh.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
