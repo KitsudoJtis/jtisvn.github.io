@@ -13052,25 +13052,6 @@ Icon: https://jtisvn.github.io/sectionIcons/PicsewPro.png
 Name: PicsewPro
 Author: x✨
 
-Package: com.jtis.picturemodule
-Architecture: iphoneos-arm64
-Version: 1.2
-Section: Tweaks
-Maintainer: JTISVN Repo
-Depends: firmware (>= 12.0), mobilesubstrate, com.opa334.ccsupport, oldabi, com.kitsudo.picturemodulevh
-Conflicts: com.4nni3.picturemodule
-Filename: ./debs/com.jtis.picturemodule_1.2_iphoneos-arm64.deb
-Size: 6272508
-MD5sum: 619df277993b1f9d0217cbeb635235e4
-SHA1: 52cedbf58ba5e823812dadc1652c267d76b254d9
-SHA256: 532ddaac46c61fe5f6e738b51d82f24a77cb8df07a4fde18bf6be4ce01124515
-SHA512: 13210c0ec23ddecc91fadb9688fc67c0f1a5b80bd9487b1328ea4ea1e7b1a7867d8ec86c92163d0bc368976b53f9c38849de20ab66326e4b1ccfc266b4ae8d56
-Description: Trang trí trung tâm điều khiển của bạn bằng ảnh, video và widget!
-Name: PictureModule (Rootless)
-Author: 4nni3
-SileoDepiction: https://jtisvn.github.io/sileodepictions/PictureModule.json
-Icon: https://jtisvn.github.io/sectionIcons/PictureModule.png
-
 Package: com.jtis.pikachu
 Architecture: iphoneos-arm64
 Version: 1.0.0
