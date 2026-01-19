@@ -13052,25 +13052,6 @@ Icon: https://jtisvn.github.io/sectionIcons/PicsewPro.png
 Name: PicsewPro
 Author: x✨
 
-Package: com.jtis.picturemodule
-Architecture: iphoneos-arm64
-Version: 1.2
-Section: Tweaks
-Maintainer: JTISVN Repo
-Depends: firmware (>= 12.0), mobilesubstrate, com.opa334.ccsupport, oldabi, com.kitsudo.picturemodulevh
-Conflicts: com.4nni3.picturemodule
-Filename: ./debs/com.jtis.picturemodule_1.2_iphoneos-arm64.deb
-Size: 6272508
-MD5sum: 619df277993b1f9d0217cbeb635235e4
-SHA1: 52cedbf58ba5e823812dadc1652c267d76b254d9
-SHA256: 532ddaac46c61fe5f6e738b51d82f24a77cb8df07a4fde18bf6be4ce01124515
-SHA512: 13210c0ec23ddecc91fadb9688fc67c0f1a5b80bd9487b1328ea4ea1e7b1a7867d8ec86c92163d0bc368976b53f9c38849de20ab66326e4b1ccfc266b4ae8d56
-Description: Trang trí trung tâm điều khiển của bạn bằng ảnh, video và widget!
-Name: PictureModule (Rootless)
-Author: 4nni3
-SileoDepiction: https://jtisvn.github.io/sileodepictions/PictureModule.json
-Icon: https://jtisvn.github.io/sectionIcons/PictureModule.png
-
 Package: com.jtis.pikachu
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -17613,17 +17594,37 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.picturemodulevh
 Architecture: iphoneos-arm64
-Version: 1.0.0-6+debug
+Version: 1.0.0
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 172
 Depends: mobilesubstrate
-Filename: ./debs/com.kitsudo.picturemodulevh_1.0.0-6+debug_iphoneos-arm64.deb
-Size: 9504
-MD5sum: 4ca73b35ec59dcf171e9d3dbccbb082a
-SHA1: 70c32dc49c97560ec2949536a2cce7cb79ef05e2
-SHA256: 91aa3cea9875219d8682648a3110c038dde703a80587a399b2d7b6144daa1d1a
-SHA512: 502c6cd1786520320cb6d4fa8a15c547d1475c9c93d7ec4a4df334feff0abbb6eeed909c57a719e4f43d5f9ced39050c46298079306f2756de3fb07de5408a26
+Filename: ./debs/com.kitsudo.picturemodulevh_1.0.0_iphoneos-arm64.deb
+Size: 9048
+MD5sum: c1b0887c8f024ddd218a64540e36c43b
+SHA1: e3660225d355ad583dce38c224ec0236532c3cc5
+SHA256: 40984e9f2c4156a63c74308755ef167053b8d51f3979110f0b486c10586b03cf
+SHA512: 134f03479d6ea9598b643ce9840dbc46f3b0004c38da3b4163d15a03240bf681d155c71312a834fd8a37489735f4ad3f4844eec5b0c4bd942bfc00ff81072a14
+Description: Thêm ngôn ngữ Tiếng Việt cho tweak PictureModule
+Name: PictureModule gói Việt Hoá
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PictureModuleVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.picturemodulevh
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.picturemodulevh_1.0.0_iphoneos-arm64e.deb
+Size: 11822
+MD5sum: 071220fc903ef80e19f6a60317c0716e
+SHA1: 0f582e5f643f7a65366047b4fe223dcb39fd484b
+SHA256: 41cf6a8cbc2716047d0eb26869f2d636c63a3e00a26efc87e39bf75a1445b58c
+SHA512: 80a12d64f0c8dc2d45caedbddc0554991cee592401bafc6852b9b9fe1ffd5d90d0a67733164cd50818b53ad3fef0a883e7fc7c6bf6224593814c6095ff2be58d
 Description: Thêm ngôn ngữ Tiếng Việt cho tweak PictureModule
 Name: PictureModule gói Việt Hoá
 Author: Kitsudo
