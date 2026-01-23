@@ -5931,6 +5931,26 @@ Icon: https://i.pinimg.com/736x/df/e3/d1/dfe3d1202abf889fc9287803d45fc74f.jpg
 Depiction: http://jtisvn.github.io/depiction/Beegram.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Beegram.json
 
+Package: com.jtis.beegram
+Architecture: iphoneos-arm64e
+Version: 1.0-bata6
+Section: Tweaks
+Maintainer: Ali Latif
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debs/com.jtis.beegram_1.0-bata6_iphoneos-arm64e.deb
+Size: 606240
+MD5sum: 78575b84541d1db6b66612040661ee80
+SHA1: 15eea545a7f0e417e9fdd1dbc7bbd2fa86aee419
+SHA256: 144ae2ca9f54a2ff78ca521e1b20aaf2bf60c9b201d36067dcccc59181522173
+SHA512: d1fcfb64515cce388415da4f58febd0c63136d0b86a6b04dc062b8c4b6aaf200a736dfa78fc98023ee3c716d8628430027be7ef6330398bd9b05f78e49502028
+Description: Best free alternative for Regram
+Name: Beegram For Instagram
+Author: Ali Latif
+Icon: https://i.pinimg.com/736x/df/e3/d1/dfe3d1202abf889fc9287803d45fc74f.jpg
+Depiction: http://jtisvn.github.io/depiction/Beegram.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Beegram.json
+
 Package: com.jtis.bettercc
 Architecture: iphoneos-arm64
 Version: 0.0.51

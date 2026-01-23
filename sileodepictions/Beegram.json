@@ -42,7 +42,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Beegram For Instagram\n\n- Tinh chỉnh \"Tất cả trong một\" tốt nhất dành cho Instagram, mang lại hàng loạt tính năng cao cấp miễn phí.\n\n- **Các tính năng nổi bật:**\n\n+ **Chế độ ẩn danh:** Xem Story, Xem Live, Đọc tin nhắn mà không hiện \"Đã xem\". Tắt báo đang nhập tin nhắn.\n\n+ **Tin nhắn nâng cao:** Giữ lại tin nhắn đã bị thu hồi, Xem tin nhắn \"Xem 1 lần\" không giới hạn, Tải xuống tin nhắn giọng nói (Voice), Tải lên Voice từ file.\n\n+ **Tải xuống:** Tải ảnh/video từ Bài viết, Reels, Story và Ảnh đại diện chất lượng cao (HD).\n\n+ **Tiện ích khác:** Thay đổi giọng nói, Sao chép bình luận/tiểu sử, Xác nhận khi nhấn Thích, và nhiều hơn nữa.",
+"markdown":"Beegram For Instagram\n\n- Tinh chỉnh Tất cả trong một tốt nhất dành cho Instagram, mang lại hàng loạt tính năng cao cấp miễn phí.\n\n- **Các tính năng nổi bật:**\n\n+ **Chế độ ẩn danh:** Xem Story, Xem Live, Đọc tin nhắn mà không hiện 'Đã xem'. Tắt báo đang nhập tin nhắn.\n\n+ **Tin nhắn nâng cao:** Giữ lại tin nhắn đã bị thu hồi, Xem tin nhắn 'Xem 1 lần' không giới hạn, Tải xuống tin nhắn giọng nói (Voice), Tải lên Voice từ file.\n\n+ **Tải xuống:** Tải ảnh/video từ Bài viết, Reels, Story và Ảnh đại diện chất lượng cao (HD).\n\n+ **Tiện ích khác:** Thay đổi giọng nói, Sao chép bình luận/tiểu sử, Xác nhận khi nhấn Thích, và nhiều hơn nữa.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -176,7 +176,7 @@
 {
 "class":"DepictionMarkdownView",
 "markdown":"### Phiên bản 1.0-beta6\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
-},e
+},
 {
 "class":"DepictionLabelView",
 "text":"Copyright © 2025 - 2030 by JTISVN",
