@@ -5912,6 +5912,25 @@ Depiction: http://jtisvn.github.io/depiction/Beautyplus.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Beautyplus.json
 Icon: https://files.catbox.moe/4grkw2.png
 
+Package: com.jtis.beegram
+Architecture: iphoneos-arm64
+Version: 1.0-bata6
+Section: Tweaks
+Maintainer: Ali Latif
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debs/com.jtis.beegram_1.0-bata6_iphoneos-arm64.deb
+Size: 606756
+MD5sum: 65894e53061b5e9e9479a2dd91137717
+SHA1: 3d83d2c8ce44854cedb8aca6473893e0a94fa601
+SHA256: d6f4634cd13bc426598dd7c5c036d2b95e59bd4cc5e6a2c748ff30dcb4c9fced
+SHA512: 4a14ece354832cf9f9587a2791156660a73da8df7823f35d15f1d18a0773e9ca1e3fba9a87b5b2fca289033f8ea72ed4f0d78214ea2734c5e4e6f2cb4b430f9f
+Description: Best free alternative for Regram
+Name: Beegram For Instagram
+Author: Ali Latif
+Icon: https://i.pinimg.com/736x/df/e3/d1/dfe3d1202abf889fc9287803d45fc74f.jpg
+Depiction: http://jtisvn.github.io/depiction/Beegram.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Beegram.json
+
 Package: com.jtis.bettercc
 Architecture: iphoneos-arm64
 Version: 0.0.51
