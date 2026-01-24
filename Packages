@@ -5507,6 +5507,45 @@ Author: Netskao
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoFaceUnlock.json
 Icon: https://jtisvn.github.io/sectionIcons/AutoFaceUnlock.png
 
+Package: com.jtis.autofaceunlock-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-7k
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 452
+Depends: firmware (>= 15.0), oldabi-stub, mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.autofaceunlock-rootless_1.1-7k_iphoneos-arm64.deb
+Size: 70004
+MD5sum: 95cc7d37ac3ec6f2652fcc5947d62091
+SHA1: 82a4cadb88c00e3c0c8bb61f5db81f30f916bbc1
+SHA256: 1d4e97dcae4fffff35644ce202fd4b5f1e8f0d06b1473d9095667bfda88c02dd
+SHA512: 75a512ac426eb29f7dab5cf0b43bbad53d3a8221083b820561bf757ae96611d4c20d6f347710907dbefa86f9c4af31822a257295c40bf57cbb68f09fd6343bcb
+Description: Tự động mở khoá bằng FaceID vào màn hình chính.
+Name: AutoFaceUnlock (Rootless)
+Author: Netskao
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoFaceUnlock.json
+Icon: https://jtisvn.github.io/sectionIcons/AutoFaceUnlock.png
+
+Package: com.jtis.autofaceunlock-rootless
+Architecture: iphoneos-arm64e
+Version: 1.1-7k
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 452
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), oldabi, mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.autofaceunlock-rootless_1.1-7k_iphoneos-arm64e.deb
+Size: 70056
+MD5sum: 1c3080cc9724b9b985d57004659a05db
+SHA1: f2eca229fc3ed692735b5742137893eedb328725
+SHA256: 7199d1869f2a3b869434bcc6a63f3aa79059acb9d14a4e1103dc66beaf3a350c
+SHA512: ed2f85b398dbab5bfafa67ccc67a7eda81546d6f9245b0a27ab565678134b5f48ff51fbf4b5507c71193e83eb094b5b2f92e2af0708555f5029b51cb2dc70815
+Description: Tự động mở khoá bằng FaceID vào màn hình chính.
+Name: AutoFaceUnlock (Rootless)
+Author: Netskao
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoFaceUnlock.json
+Icon: https://jtisvn.github.io/sectionIcons/AutoFaceUnlock.png
+
 Package: com.jtis.autolockscreen
 Architecture: iphoneos-arm64
 Version: 1.0.0
