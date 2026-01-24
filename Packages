@@ -5535,13 +5535,13 @@ Installed-Size: 452
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), oldabi, mobilesubstrate, preferenceloader
 Filename: ./debs/com.jtis.autofaceunlock-rootless_1.1-7k_iphoneos-arm64e.deb
-Size: 70056
-MD5sum: 1c3080cc9724b9b985d57004659a05db
-SHA1: f2eca229fc3ed692735b5742137893eedb328725
-SHA256: 7199d1869f2a3b869434bcc6a63f3aa79059acb9d14a4e1103dc66beaf3a350c
-SHA512: ed2f85b398dbab5bfafa67ccc67a7eda81546d6f9245b0a27ab565678134b5f48ff51fbf4b5507c71193e83eb094b5b2f92e2af0708555f5029b51cb2dc70815
+Size: 69976
+MD5sum: b9984e9a84665b0695d619e40ab5a429
+SHA1: 14056140883fffac8388efb5e123037139db12b0
+SHA256: 58c050da1295928afa6b2209659352ddf39abaee32a9f58075c37966a620506d
+SHA512: aa3e1a54d949475c2a8c3a89526344a732fca4bb15479e795540d24bc8eb7ca52c03e2e165c7e746f91b55011dc7a2011037906d13c8e54007bcb0ee16f2ac22
 Description: Tự động mở khoá bằng FaceID vào màn hình chính.
-Name: AutoFaceUnlock (Rootless)
+Name: AutoFaceUnlock (Roothide)
 Author: Netskao
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoFaceUnlock.json
 Icon: https://jtisvn.github.io/sectionIcons/AutoFaceUnlock.png
