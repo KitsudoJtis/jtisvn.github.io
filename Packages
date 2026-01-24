@@ -462,6 +462,43 @@ Author: 0xkuj
 Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.filzadirprobe.png
 Sileodepiction: https://jtisvn.github.io/sileodepictions/FilzaDirProbe.json
 
+Package: com.0xkuj.filzadirprobe
+Architecture: iphoneos-arm64
+Version: 1.7.3
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 240
+Filename: ./debs/com.0xkuj.filzadirprobe_1.7.3_iphoneos-arm64.deb
+Size: 35624
+MD5sum: 72c244e8eec3202f31c30025fa730209
+SHA1: 58a3e7d6f55129158d4999d7d98fe10eb15cc85f
+SHA256: 1a57a24eea238ed122daa944a8abdfecdb581febef020a5238282281fb2381bd
+SHA512: 4e62ce8b9c02ec5c7f51119de4acf45bf47000126b0fdf07f8a6aa77e93961539fbb718bbfac67b1db3274b80a17ca1064d30a64c80640ffd40c0f4d0ef567f8
+Description: Tính toán kích thước thư mục trong filza.
+Name: FilzaDirProbe (Rootless)
+Author: 0xkuj
+Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.filzadirprobe.png
+Sileodepiction: https://jtisvn.github.io/sileodepictions/FilzaDirProbe.json
+
+Package: com.0xkuj.filzadirprobe
+Architecture: iphoneos-arm64e
+Version: 1.7.3
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.0xkuj.filzadirprobe_1.7.3_iphoneos-arm64e.deb
+Size: 34360
+MD5sum: 5da4ffbe4e316f4ae1bd58fde8e1a61b
+SHA1: 14eb33127cae72caca9b0d1dd3bec1a8cc0d6846
+SHA256: 99fc2a4001527d39a93d6d2a093de51b119d5fd7d81ab9624a52487a331b4e6f
+SHA512: 3d0af4cdcecbd6a285b517bd38ece3c62e72c82c69a856f0a377d6cb4c749cc3351a0c838d6cf7b0e46d26f120a3ff7b7a9281eeb7a98e7c3ad421a377c0a39b
+Description: Tính toán kích thước thư mục trong filza.
+Name: FilzaDirProbe (Roothide)
+Author: 0xkuj
+Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.filzadirprobe.png
+Sileodepiction: https://jtisvn.github.io/sileodepictions/FilzaDirProbe.json
+
 Package: com.0xkuj.installdpkg
 Architecture: iphoneos-arm64e
 Version: 1.1
