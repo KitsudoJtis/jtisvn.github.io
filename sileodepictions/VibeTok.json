@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.2-1+debug\n\n- Thêm tải Video thành tin nhắn thoại\n\n- Thêm Tự động xóa lịch sử\n\n- Thêm hiển thị ngày đăng lại\n\n- Thêm hiển thị thanh tiến trình video\n\n ### Phiên bản 1.1-6+debug\n\n- Thêm ngôn ngữ Tiếng Việt.\n- Cải thiện tính năng tải xuống và chặn quảng cáo."
+"markdown":"### Phiên bản 1.2-1+debug\n\n- Thêm tải Video thành tin nhắn thoại\n\n- Thêm Tự động xóa lịch sử tìm kiếm khi mở ứng dụng\n\n- Thêm hiển thị ngày đăng lại\n\n- Thêm hiển thị thanh tiến trình video\n\n ### Phiên bản 1.1-6+debug\n\n- Thêm ngôn ngữ Tiếng Việt.\n- Cải thiện tính năng tải xuống và chặn quảng cáo."
 },
 {
 "class":"DepictionLabelView",

@@ -16268,6 +16268,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
 Depiction: http://jtisvn.github.io/depiction/VibeTok.html
 Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
 
+Package: com.jtis.vibett
+Architecture: iphoneos-arm64e
+Version: 1.2-1+debug
+Section: Tweaks
+Maintainer: DeNsor
+Installed-Size: 692
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.vibett_1.2-1+debug_iphoneos-arm64e.deb
+Size: 106576
+MD5sum: 1d6586be6b116cf3d2a8fbeb317b2281
+SHA1: 67a62674e713d21da9eceaf0c1c5c0b26562bf0b
+SHA256: fc31945bc6680439ca1b159bd5c7a1080090eaa8edfd4ee4133e842455708efe
+SHA512: 2ee99a16320badaeb2acb0bbce478f110fa7f4b5c59239bec4f68bc5601532aae28d4087b526f981cccf8f15d2dbe1ac0c5c211e7657a2e995c28ea298dac4b9
+Description: Make TikTok Better!
+Name: VibeTok (Roothide)
+Author: DeNsor
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
+Depiction: http://jtisvn.github.io/depiction/VibeTok.html
+Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
+
 Package: com.jtis.videosunmute
 Architecture: iphoneos-arm64
 Version: 1.0
