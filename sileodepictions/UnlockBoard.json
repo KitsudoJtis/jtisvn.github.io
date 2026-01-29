@@ -54,7 +54,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"UnlockBoard\n\n- Tinh chỉnh \"All-in-One\" giúp tùy biến giao diện SpringBoard và Màn hình khóa với hàng loạt tính năng hữu ích.\n\n- Các tính năng nổi bật:\n\n+ **Làm sạch giao diện:** Ẩn tên ứng dụng/thư mục, ẩn thanh Home Bar, ẩn dấu chấm trang, ẩn Thư viện ứng dụng, ẩn nền Dock...\n\n+ **Màn hình khóa:** Tự động mở khóa, Nhấn 2 lần để tắt màn hình, Hiển thị ngày Âm/Dương, Ẩn nút Camera/Đèn pin, Trong suốt thông báo.\n\n+ **Dock:** Hỗ trợ Dock iPad (Floating Dock), Dock 5 biểu tượng.\n\n+ **Bảo mật & Tiện ích:** Khóa ứng dụng bằng FaceID/Mật khẩu, Hiệu ứng sạc MagSafe, Dự báo thời gian sạc đầy pin và hơn thế nữa.",
+"markdown":"UnlockBoard\n\n- Tinh chỉnh \"All-in-One\" giúp tùy biến giao diện SpringBoard và Màn hình khóa với hàng loạt tính năng hữu ích.\n\n- Các tính năng nổi bật:\n\n+ **Làm sạch giao diện:** Ẩn tên ứng dụng/thư mục, ẩn thanh Home Bar, ẩn dấu chấm trang, ẩn Thư viện ứng dụng, ẩn nền Dock...\n\n+ **Màn hình khóa:** Tự động mở khóa, Nhấn 2 lần để tắt màn hình, Hiển thị ngày Âm/Dương, Ẩn nút Camera/Đèn pin, Trong suốt thông báo.\n\n+ **Dock:** Hỗ trợ Dock iPad (Floating Dock), ẩn phân cách & tắt cử chỉ Dock, Dock 5 biểu tượng.\n\n+ **Bảo mật & Tiện ích:** Khóa ứng dụng bằng FaceID/Mật khẩu, Hiệu ứng sạc MagSafe, Dự báo thời gian sạc đầy pin và hơn thế nữa.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
