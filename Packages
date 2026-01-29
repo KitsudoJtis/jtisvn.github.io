@@ -17464,6 +17464,28 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
 Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
 Icon: https://jtisvn.github.io/sectionIcons/UnlockBoard.png
 
+Package: com.jtisvn.unlockboard
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 668
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: ./debs/com.jtisvn.unlockboard_1.0.0_iphoneos-arm64e.deb
+Size: 132988
+MD5sum: dba59cc0aec67f7c2c39e56650a31efd
+SHA1: 9150e2246832415736cd046f192937a927482f67
+SHA256: 8678a3ae1b16673296c60494f3b49551aa33d037b9c690e4e6b17d540cd63051
+SHA512: 1be21f297ca49e3783dcc6b5731e2e6defd97786d030de2cfa83fd830176e6e2825a4455630597d5994f6d612d0b38db428fe3bccbd0dd2f27233c8c9fed935a
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: UnlockBoard (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
+Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/UnlockBoard.png
+
 Package: com.julioverne.appellancy11
 Architecture: iphoneos-arm
 Version: 1.1-20b
