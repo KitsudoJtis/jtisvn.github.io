@@ -17443,6 +17443,27 @@ Author: SOPPPra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsRevamp.json
 Icon: https://jtisvn.github.io/sectionIcons/SettingsRevamp.png
 
+Package: com.jtisvn.unlockboard
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: ./debs/com.jtisvn.unlockboard_1.0.0_iphoneos-arm64.deb
+Size: 133000
+MD5sum: 1da3327c02c22799e9042f910b1e0705
+SHA1: d486e78d931626770c9b331714ee57a21eefd31a
+SHA256: f25d78e9f3a7d3ded21541a21f23bf0b87e15b27550b5a19b296bbc1ed7d8e71
+SHA512: 981091b5daeab2daca3d8d717f53052a1ead1d0008e7b5c3066321d520e81f87a2c4d7adcf3539a32bfc15d31e4e880ce2d0a19bbdd011178397df53d3d04b4c
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: UnlockBoard (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
+Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/UnlockBoard.png
+
 Package: com.julioverne.appellancy11
 Architecture: iphoneos-arm
 Version: 1.1-20b
