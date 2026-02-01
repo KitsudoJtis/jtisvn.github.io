@@ -2619,6 +2619,32 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/HideSerialNumber.json
 Icon: https://Jtisvn.github.io/sectionIcons/HideSerialNumber.png
 dev: ichitaso
 
+Package: com.ichitaso.iconorder
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Provides: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Pre-Depends: firmware (>= 12.0)
+Depends: mobilesubstrate
+Conflicts: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Filename: ./debs/com.ichitaso.iconorder_1.0.4_iphoneos-arm64.deb
+Size: 8288
+MD5sum: 48668e22ba8d820a550d879e00e666eb
+SHA1: d53c668dcec48834d03122c3abe71bed1ffa54e4
+SHA256: 4eba7072ab9c20257d754887dde43beacbfb949cf72da11e105ba507ae65ee97
+SHA512: e1ab5dad99e74eb00afcd3722b6c9eb94048bee8935d62718840195d30eb881a1709a9d4ae941deb72b049f6901be30bb0742b5e42d029b0f50e72aa6b7b7ad1
+Description: Preserve custom icon layouts by Springboard Crash or reboots etc
+Tag: purpose::extension, compatible_min::ios12.0, compatible_max::ios18.2
+Author: ichitaso
+Name: IconOrder
+Depiction: https://cydia.ichitaso.com/depiction/iconorder.html
+SileoDepiction: https://cydia.ichitaso.com/depiction/iconorder.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+dev: ichitaso
+
 Package: com.ichitaso.otadisabler
 Architecture: iphoneos-arm64
 Version: 0.6
@@ -9487,6 +9513,26 @@ Depiction: https://repo.twickd.com/get/com.twickd.sirius24.folderplus
 SileoDepiction: https://repo.twickd.com/get/com.twickd.sirius24.folderplus/native
 Author: Sirius24
 Icon: https://twickd.com/images/23c1811c2bb6817c2d5359b0f8acfe580e951291.jpeg?size=large
+
+Package: com.jtis.folderx
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: Lizynz <lizynz@ya.ru>
+Installed-Size: 752
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0), com.ichitaso.iconorder
+Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, ca.ndoizo.bolders, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, com.nightwind.dockapplibrary, com.tomaszpoliszuk.dockcontroller
+Filename: ./debs/com.jtis.folderx_2.0_iphoneos-arm64.deb
+Size: 81040
+MD5sum: 44b8b81dca2b8b9201175fc81ae6fc53
+SHA1: 9badf18dcbd024fc669df469fc91364709cfaa3a
+SHA256: 83e66f92cdfb9c0ef3a0b454f498a460f2e7453210cb74f70ea396ddaf5544e7
+SHA512: 14cd99494c070ce85826ad3d356684749861dba40523e4f07ed700702fa1687d7264b2c7eaaf8f548fe19b6c8f32f07be55892f0b0ccd14a1ca7d445df7fd151
+Description: Tuỳ chỉnh thư mục theo ý thích của bạn.
+Name: FolderX (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FolderX.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: Lizynz <lizynz@ya.ru>
 
 Package: com.jtis.folderx
 Architecture: iphoneos-arm64e
@@ -17480,6 +17526,51 @@ MD5sum: a363cbd2c5db5979e114b98c034eae65
 SHA1: 712675dc165a3bb7f7ca87e3325db40d8c046755
 SHA256: 7a26797224b8ed931ea19120138dbcc3ff570666c9a3adca71bc54b419fa1c8f
 SHA512: f6525351d3416f05f3eaeb7a9739ba61dbababbf8630f4be086bbe12233aa323d73af888926a2a76974ad254844a175a6d463cbcf6c5fb44050045fa16de2917
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: UnlockBoard (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
+Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/UnlockBoard.png
+
+Package: com.jtisvn.unlockboard
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 740
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard
+Filename: ./debs/com.jtisvn.unlockboard_1.0.1_iphoneos-arm64.deb
+Size: 145088
+MD5sum: 572417725b4f7115d27e927460950cd3
+SHA1: b8011bf96fdedd4d6fa9b93a235ce28bfd230f20
+SHA256: 91059829b0447552f4f93c11527223e0757461d3b873e80e3eb7e9b6114e2ff7
+SHA512: 145d2668f978537b3cb086fc95b9e36145d90b7d3fbf32f773cb9aceee7cf2a6cd6e6c2cf302772a24d9ef217d66cd3bc2893b8a7f6295c49feefd76d304a171
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: UnlockBoard (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
+Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/UnlockBoard.png
+
+Package: com.jtisvn.unlockboard
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 740
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard
+Filename: ./debs/com.jtisvn.unlockboard_1.0.1_iphoneos-arm64e.deb
+Size: 145008
+MD5sum: 8bf1e4e55ebf36854203e9d94ee4e19e
+SHA1: 74841512128e6ffa362247ff9f0f7bd0d89da739
+SHA256: 6022fd32ed6098ba257ac947af5a5d09a912baabb17765a553338eac3628a49f
+SHA512: 96c2e86e17822f8a08e85d635a74a01dafd19741afd14fc8f0e4681eef7f8266f2992d13675f2e6770d716a9fcd01aa77e28330bd9bc645a19f44b5e77d244b3
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
 Name: UnlockBoard (Roothide)
