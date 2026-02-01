@@ -14591,6 +14591,28 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Smallboard.json
 Author: iCraze
 
 Package: com.jtis.smarttapxs
+Architecture: iphoneos-arm
+Version: 0.5-2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 812
+Depends: mobilesubstrate,preferenceloader, com.jtis.limneos-crack
+Conflicts: net.limneos.smarttap
+Filename: ./debs/com.jtis.smarttapxs_0.5-2_iphoneos-arm.deb
+Size: 118116
+MD5sum: c1710d304d2fe2c7c2f4502125dcda95
+SHA1: 5af7d7d47b576924cb0b368eb53222626cc78dee
+SHA256: c44caae4e1ab5d342a626db881c0f65898f4c5361d6a0690fcfbb40c2714a32a
+SHA512: c27de069c1940f9ad67e78a064014df0ceb1bbea9b3b77aa665f923796e0d459cbd466262ea74b46cb623bae0e3c47223adc2352b3eab046bd6e81978b585175
+Description: Bật màn hình bằng cách chạm 2 lần vào màn hình!
+Name: SmartTap XS
+Depiction: http://limneos.net/smarttapx
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SmartTapXS.json
+Icon: https://jtisvn.github.io/sectionIcons/SmartTapXS.png
+Author: Elias Limneos <limneoselias@gmail.com>
+MainLibMD5: 522c71e7914001710f600fa5205ad545
+
+Package: com.jtis.smarttapxs
 Architecture: iphoneos-arm64
 Version: 0.5-2
 Section: Tweaks

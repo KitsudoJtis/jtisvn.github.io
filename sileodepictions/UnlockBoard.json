@@ -187,7 +187,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.1\n\n- tích hợp tweak InfiniteMedia gồm tính năng xoá ảnh vĩnh viễn, phóng to vô hạn, lặp lại video, tắt tiếng chụp ảnh...\n\n- Thêm chạm 2 lần vào MHK để tắt thiết bị\n\n- Thêm ẩn phân cách khi bật Dock nổi\n\n ### Phiên bản 1.0.0\n\n- Phát hành lần đầu.\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.0.1\n\n- Thêm tích hợp tweak InfiniteMedia gồm tính năng xoá ảnh vĩnh viễn, phóng to vô hạn, lặp lại video, tắt tiếng chụp ảnh...\n\n- Thêm chạm 2 lần vào MHK để tắt thiết bị\n\n- Thêm ẩn phân cách khi bật Dock nổi\n\n ### Phiên bản 1.0.0\n\n- Phát hành lần đầu.\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",
