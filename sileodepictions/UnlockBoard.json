@@ -54,7 +54,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"UnlockBoard\n\n- Tinh chỉnh \"All-in-One\" giúp tùy biến giao diện SpringBoard và Màn hình khóa với hàng loạt tính năng hữu ích.\n\n- Các tính năng nổi bật:\n\n+ **Làm sạch giao diện:** Ẩn tên ứng dụng/thư mục, ẩn thanh Home Bar, ẩn dấu chấm trang, ẩn Thư viện ứng dụng, ẩn nền Dock...\n\n+ **Màn hình khóa:** Tự động mở khóa, Nhấn 2 lần để tắt màn hình, Hiển thị ngày Âm/Dương, Ẩn nút Camera/Đèn pin, Trong suốt thông báo.\n\n+ **Dock:** Hỗ trợ Dock iPad (Floating Dock), ẩn phân cách & tắt cử chỉ Dock, Dock 5 biểu tượng.\n\n+ **Bảo mật & Tiện ích:** Khóa ứng dụng bằng FaceID/Mật khẩu, Hiệu ứng sạc MagSafe, Dự báo thời gian sạc đầy pin và hơn thế nữa.",
+"markdown":"UnlockBoard\n\n- Tinh chỉnh \"All-in-One\" giúp tùy biến giao diện SpringBoard với hàng loạt tính năng hữu ích.\n\n- Các tính năng nổi bật:\n\n+ **Màn hình chính:** Ẩn tên ứng dụng/thư mục, ẩn thanh Home Bar, ẩn dấu chấm trang, ẩn Thư viện ứng dụng, ẩn nền Dock, xoay ngang biểu tượng...\n\n+ **Màn hình khóa:** Tự động mở khóa, Nhấn 2 lần để tắt màn hình, Hiển thị ngày Âm/Dương, Ẩn nút Camera/Đèn pin, Trong suốt thông báo.\n\n+ **Dock:** Hỗ trợ Dock iPad (Floating Dock), ẩn phân cách & tắt cử chỉ Dock, Dock 5 biểu tượng.\n\n+ **Bảo mật & Tiện ích:** Khóa ứng dụng bằng FaceID/Mật khẩu, Hiệu ứng sạc MagSafe, Dự báo thời gian sạc đầy pin và hơn thế nữa.\n\n+ **Ảnh & Camera:** Xoá vĩnh viẽn, phóng to vô hạn, ẩn thanh trượt, luôn bật tiếng video,tắt âm thanh chụp ảnh...\n\n+ **Trung tâm điều khiển:** Hiển thị số % thanh trượt Độ sáng & Âm lượng, trong suốt nền...",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -133,7 +133,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.1",
+"text": "1.2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -187,7 +187,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.1\n\n- Thêm tích hợp tweak InfiniteMedia gồm tính năng xoá ảnh vĩnh viễn, phóng to vô hạn, ẩn thanh trượt, lặp lại video, tắt tiếng chụp ảnh...\n\n- Thêm chạm 2 lần vào MHK để tắt thiết bị\n\n- Thêm ẩn phân cách khi bật Dock nổi\n\n- Thẻm xoay ngang biểu tượng\n\n ### Phiên bản 1.0.0\n\n- Phát hành lần đầu.\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.2\n\n- Thêm trong suốt nền Trung tâm điều khiển\n\n- Thêm hiện % trên thanh trượt Độ sáng & Âm lượng\n\n- Thêm chế độ xoay mọi hướng biểu tượng\n\n ### Phiên bản 1.0.1\n\n- Thêm tích hợp tweak InfiniteMedia gồm tính năng xoá ảnh vĩnh viễn, phóng to vô hạn, ẩn thanh trượt, lặp lại video, tắt tiếng chụp ảnh...\n\n- Thêm chạm 2 lần vào MHK để tắt thiết bị\n\n- Thêm ẩn phân cách khi bật Dock nổi\n\n ### Phiên bản 1.0.0\n\n- Phát hành lần đầu.\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",

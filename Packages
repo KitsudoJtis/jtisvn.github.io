@@ -2818,6 +2818,23 @@ Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.imkpatil.homebarsizer
 SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.imkpatil.homebarsizer.json
 
+Package: com.itznebbs.phoenix
+Architecture: iphoneos-arm64
+Version: 1.3.2
+Section: Development
+Maintainer: JTISVN Repo
+Installed-Size: 444
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.itznebbs.phoenix_1.3.2_iphoneos-arm64.deb
+Size: 57200
+MD5sum: a3eac2af32a01f3f5011c077ec6fb13d
+SHA1: 45b46355dc85f315a8ad8b43151d1fb1a1b258a4
+SHA256: 9c5a24abb952b97180f4541d536ed45df982730d9af04297889f2538b4d04ae3
+SHA512: c96c04b305acd8d26f314bb0afa932ddc1b416d34e0064a233afea18c3dfcc275ef9a0517db44e634b082db4e18c201819dc323aec8d6c89688411b7c3ae857c
+Description: Collection of classes used in my tweaks.
+Name: Phoenix (Rootless)
+Author: Nebbs
+
 Package: com.johnzaro.appstoreupdatestab
 Architecture: iphoneos-arm64
 Version: 4.0
@@ -17601,6 +17618,51 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
 Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
 Icon: https://jtisvn.github.io/sectionIcons/UnlockBoard.png
 
+Package: com.jtisvn.unlockboard
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 760
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard
+Filename: ./debs/com.jtisvn.unlockboard_1.2_iphoneos-arm64.deb
+Size: 153812
+MD5sum: 8436eec1a684a05ce35922b182606ef5
+SHA1: 7165845d41b3e2e935b5ca728f7d3031e6da64e4
+SHA256: 121eb25e38b5b243bade117af60c3d04652d2cbc49162172f8cc1ebfe172f9c9
+SHA512: 056252e11c9792b5277f52c9b13705f8fb7ad1e22da7b2043cbe22303006fa772cf1f3086130ed60bf5e2bc5772fc17de3bc27ffb90b41b7cd248d290152db89
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: UnlockBoard (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
+Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/UnlockBoard.png
+
+Package: com.jtisvn.unlockboard
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 760
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard
+Filename: ./debs/com.jtisvn.unlockboard_1.2_iphoneos-arm64e.deb
+Size: 153820
+MD5sum: 942b92916c7841616a4863c1f1edef34
+SHA1: 045ef171164eb19df020b5ccd6d307a0b64cd357
+SHA256: ace8699557aa4c1d74c1e6ccad9f6cdaf71f872d68c2ebcc13f5816f38d9b382
+SHA512: 3e493af2306182d598a7bc5aa8700c354247cf57e5cb03face4361eff41a88a3b3f18bfd54514c05c73d5372b9d4b52ab0ecbbfaea08f7d75548d89d357b8019
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: UnlockBoard (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
+Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/UnlockBoard.png
+
 Package: com.julioverne.appellancy11
 Architecture: iphoneos-arm
 Version: 1.1-20b
@@ -20282,12 +20344,12 @@ Maintainer: Spark
 Installed-Size: 424
 Pre-Depends: rootless-compat(>= 0.9)
 Depends:
-Filename: ./debs/com.spark.libsparkcolourpicker_1.0.3-rootless_iphoneos-arm64e-1.deb
-Size: 97496
-MD5sum: 94efe7342b5e706674dbad4dd1f26117
-SHA1: 51bb1277e0bb2e85ae1a61f1d7331c23e6b110c7
-SHA256: 5330217272271db966e7d1d014f076be2295606f7dfb01cb4ab04da0c8df5c52
-SHA512: 4765a73a399a6e8207fa91e2e87197d4446f0cf4d30ce7a697d164f9f5f72d0888d06f637417726d8c70186747469e73080e5b76548030de1311e8c9f685e637
+Filename: ./debs/com.spark.libsparkcolourpicker_1.0.3-rootless_iphoneos-arm64e.deb
+Size: 72184
+MD5sum: 49c00d3d8a2af331c4a33fe4636552d5
+SHA1: 636bafbec33403eb81acdc88675b195b23b48633
+SHA256: 0fe2fc40bff3e1079719195472bd425fee47414eaa7c36703f561918b263e0f5
+SHA512: 599b9153682e8192e53c9c9028badc88f3628a1168906c6f9f57972a00cab5b88e818d2d0597dcd302b5521def5516c6b3c51fc09aed5c4521abb58637ce141a
 Description: Simple to implement, simple to use colour picker library. Built by SparkDev.
 Tag: role::developer
 Name: libsparkcolourpicker
