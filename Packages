@@ -16294,17 +16294,17 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Velvet2.json
 
 Package: com.jtis.vibett
 Architecture: iphoneos-arm64
-Version: 1.1-6+debug
+Version: 1.3
 Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 648
+Maintainer: DeNsor
+Installed-Size: 692
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.vibett_1.1-6+debug_iphoneos-arm64.deb
-Size: 98948
-MD5sum: bb8ebb7b05193549aeed0f7a2a6003ce
-SHA1: 26d9c1941a6d0c8d74584851621f542ad3552966
-SHA256: 88f03b3c5add1dbb8e10b214eb9404ce27e5640b7f2bf5bf24a1e30886b9cf52
-SHA512: e32350c84154dcb136f4a16dd292addf183047d8e9a689151e4609146bdb3bf5569de18f916f3e9737f532f229d2b8249b5f380eed9c375d2fd1d911fa6d10f4
+Filename: ./debs/com.jtis.vibett_1.3_iphoneos-arm64.deb
+Size: 115740
+MD5sum: c7aa46bb2e1455700905ad1c3c9cea64
+SHA1: 23ba1d97f5e1337592044021f4446fb5c8866794
+SHA256: 0241b492db30ef83273546b53b3811eea1897fe01b7c60eadac150dcf2cacbc0
+SHA512: 3429e8a98afab01c79d469ec2b892f7ca2ab7c712eda9c5d0ee2c11877029b1295115069b17cebf6ed185c878265ae333185a68f945af5fc2f5fd6746edca301
 Description: Make TikTok Better!
 Name: VibeTok (Rootless)
 Author: DeNsor
@@ -16314,59 +16314,18 @@ Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
 
 Package: com.jtis.vibett
 Architecture: iphoneos-arm64e
-Version: 1.1-6+debug
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 648
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.vibett_1.1-6+debug_iphoneos-arm64e.deb
-Size: 95472
-MD5sum: e1651ec11b75f737fd8941e112b46d8c
-SHA1: b7e2bccc09c5b2a528bf5671280a51b283248693
-SHA256: c18d883d29d441886947b66966664c3c148b688df12028c43bc344f02c6865ff
-SHA512: a3091f92b71d803c7e642205afae0604944a95dfddd21f646a6442dec3e70f3a5499900a724e33fa0492a78bf70ac57a9dc483b9f83c2d2b93b6c41158cd7d5b
-Description: Make TikTok Better!
-Name: VibeTok (Roothide)
-Author: DeNsor
-SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
-Depiction: http://jtisvn.github.io/depiction/VibeTok.html
-Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
-
-Package: com.jtis.vibett
-Architecture: iphoneos-arm64
-Version: 1.2-1+debug
-Section: Tweaks
-Maintainer: DeNsor
-Installed-Size: 692
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.vibett_1.2-1+debug_iphoneos-arm64.deb
-Size: 110104
-MD5sum: b0fc19c601e139ab73cadf123b1ef0e6
-SHA1: a147ab59d062b59e129639a45537f4850552af2b
-SHA256: 2dbb9e0a780b2d5721dc2fde54b4dfb0b070d16c73b67336e865489fd0b86231
-SHA512: 48c2edf3b01a3835c2e29700da70f4f1a27829c565effcd828a16c3ab60268bcc6bf671fec4eb13b929548619bcd7265c8cb5879545676822cb74a137628597e
-Description: Make TikTok Better!
-Name: VibeTok (Rootless)
-Author: DeNsor
-SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
-Depiction: http://jtisvn.github.io/depiction/VibeTok.html
-Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
-
-Package: com.jtis.vibett
-Architecture: iphoneos-arm64e
-Version: 1.2-1+debug
+Version: 1.3
 Section: Tweaks
 Maintainer: DeNsor
 Installed-Size: 692
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.vibett_1.2-1+debug_iphoneos-arm64e.deb
-Size: 106576
-MD5sum: 1d6586be6b116cf3d2a8fbeb317b2281
-SHA1: 67a62674e713d21da9eceaf0c1c5c0b26562bf0b
-SHA256: fc31945bc6680439ca1b159bd5c7a1080090eaa8edfd4ee4133e842455708efe
-SHA512: 2ee99a16320badaeb2acb0bbce478f110fa7f4b5c59239bec4f68bc5601532aae28d4087b526f981cccf8f15d2dbe1ac0c5c211e7657a2e995c28ea298dac4b9
+Filename: ./debs/com.jtis.vibett_1.3_iphoneos-arm64e.deb
+Size: 111636
+MD5sum: ed26918793b9e48c861e93699ced20fd
+SHA1: 58289f46d2e309b287c75f971b486612452050c5
+SHA256: e132893caae11c172e98dbc56c315d6b28e7adabdd61c60ea43acce15ae27261
+SHA512: 81d30fb0b74f25e6cf126a22ba086a799789afe0d391208a978ff50ecd7b15f695e27b2f900fa42f53b3df9b61304364b132b08be66bd1497eeb65f703167dc2
 Description: Make TikTok Better!
 Name: VibeTok (Roothide)
 Author: DeNsor
@@ -22218,6 +22177,25 @@ Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
 Name: SwiftProtobuf
 Author: eevee
+
+Package: org.swift.protobuf.swiftprotobuf
+Architecture: iphoneos-arm64e
+Version: 1.29.0
+Section: System
+Maintainer: eevee
+Installed-Size: 10116
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/org.swift.protobuf.swiftprotobuf_1.29.0_iphoneos-arm64e.deb
+Size: 2283180
+MD5sum: 09ca5e60ebf12bcd26320500ea0c2e49
+SHA1: e29ac412689c0ff32ea554d0afb4d2e88309d754
+SHA256: 1057add026448b14915fb197702c0a635dc620fbec3c0db2b147c256550668c0
+SHA512: 43ed2e4727ff5e04b330febda4aa391c1feb17bdf9bcf4cc69cddf1556a68d8783e49063f6004fbffdc9a26145ee52fbe18faad5e88e1f1b5099e96db817bedf
+Description: Plugin and runtime library for using protobuf with Swift
+Tag: role::developer
+Name: SwiftProtobuf (Roothide)
+Author: eevee
+Icon: Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm64
