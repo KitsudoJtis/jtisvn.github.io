@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.2-1+debug\n\n- Thêm ẩn trạng thái đang gõ tin nhắn\n\n- Thêm tải hình ảnh trong bình luận\n\n- Thêm hiển thị thông báo xác nhận thích\n\n- Thêm ngôn ngữ Tiếng Việt.\n- Cải thiện tính năng tải xuống và chặn quảng cáo."
+"markdown":"### Phiên bản 1.3\n\n- Thêm ẩn trạng thái đang gõ tin nhắn\n\n- Thêm tải hình ảnh trong bình luận\n\n- Thêm hiển thị thông báo xác nhận thích\n\n- Thêm ngôn ngữ Tiếng Việt.\n- Cải thiện tính năng tải xuống và chặn quảng cáo."
 },
 {
 "class":"DepictionLabelView",
