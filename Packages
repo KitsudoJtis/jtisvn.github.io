@@ -17535,11 +17535,11 @@ Installed-Size: 884
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard
 Filename: ./debs/com.jtisvn.unlockboard_1.4_iphoneos-arm64.deb
-Size: 178852
-MD5sum: f1ff6930ccf973f432c4292939c32af7
-SHA1: 890722b2c162cc76b33fc1be17033dd7e6ed9727
-SHA256: a2ca0b883227ff998031b170a1f167f0c5ae8c11021ecc738b1352e569618339
-SHA512: 719cb110c82ddcf02863fc313e343d7944e1c0a19c7c9694bae016b4f44b4e731f945952d0f8c321060c00fdc77734aff6916473d9135edc40c84b4c51572fac
+Size: 179424
+MD5sum: 9c718f5ad02892b4590a95e1cf5c39c7
+SHA1: 9143d96e051a525ef01fd73eb45af068e7c3c5e2
+SHA256: ce6382b05bd5c5db19103e076cd6e4d7074350e763a00c8b648b93bfb07af26b
+SHA512: 139bd04e3b65f1b6277b53a96aa763e79e7bac4ccebdfb0258cb9b5b96303c96d1482630f89596e9b58068ca47b9bbf4cf7b27fe000add94797b6dbe5fd08c00
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
 Name: UnlockBoard (Rootless)
@@ -17558,11 +17558,11 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard
 Filename: ./debs/com.jtisvn.unlockboard_1.4_iphoneos-arm64e.deb
-Size: 178928
-MD5sum: 0ae23f42a9c181aceb36dae064820c1b
-SHA1: d6284efd280104eef0d004a26453d161fbed05ed
-SHA256: b41b1ee76972a9b51b61067ebdb0a49ece40818de8010e3cbcb65959ab78f701
-SHA512: 9440285c93fcae325156fb69c570f531b3b2f6285b09279f14c71ca21baaa8d12debc07c1d65e74fc5c95f48d585d55207877c3cdae8e0f9fa92bc160802326f
+Size: 179348
+MD5sum: 9a68a28e9f35491b6c40b9b491eb69db
+SHA1: 32b17ce52aa9c4e3a4dd463f0917fe414be2f80d
+SHA256: ec54f3ab6e65dd48e5ed18ec333e068b2fd8840f632a11883f3848cda3110000
+SHA512: 9902afcf9a1ed7e72f5593251f0d5d9f23a0e6d3c44b6acf06ca1bebe4e9323d1acc78507ef37517b44a548e726a036a06444d11deebbb1f758e5da3295d92f3
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
 Name: UnlockBoard (Roothide)
