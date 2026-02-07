@@ -13149,6 +13149,45 @@ Icon: https://jtisvn.github.io/sectionIcons/PicsewPro.png
 Name: PicsewPro
 Author: x✨
 
+Package: com.jtis.picturemodule
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Depends: firmware (>= 12.0), mobilesubstrate, com.opa334.ccsupport, oldabi, com.kitsudo.picturemodulevh
+Conflicts: com.4nni3.picturemodule
+Filename: ./debs/com.jtis.picturemodule_1.2_iphoneos-arm64.deb
+Size: 6272508
+MD5sum: 619df277993b1f9d0217cbeb635235e4
+SHA1: 52cedbf58ba5e823812dadc1652c267d76b254d9
+SHA256: 532ddaac46c61fe5f6e738b51d82f24a77cb8df07a4fde18bf6be4ce01124515
+SHA512: 13210c0ec23ddecc91fadb9688fc67c0f1a5b80bd9487b1328ea4ea1e7b1a7867d8ec86c92163d0bc368976b53f9c38849de20ab66326e4b1ccfc266b4ae8d56
+Description: Trang trí trung tâm điều khiển của bạn bằng ảnh, video và widget!
+Name: PictureModule (Rootless)
+Author: 4nni3
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PictureModule.json
+Icon: https://jtisvn.github.io/sectionIcons/PictureModule.png
+
+Package: com.jtis.picturemodule
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 12.0), mobilesubstrate, com.opa334.ccsupport, oldabi, com.kitsudo.picturemodulevh
+Conflicts: com.4nni3.picturemodule
+Filename: ./debs/com.jtis.picturemodule_1.2_iphoneos-arm64e.deb
+Size: 281440
+MD5sum: 6e57fce3c314ae91ffcbda7370dd20ab
+SHA1: 108a38ef5b160aea63841d92494d73edb58d9de5
+SHA256: 034f4b7121b38107c655545df12b9f6726499b2711b2b0b868f08de105eb8807
+SHA512: 42c0d41e6579097d62675d0246d8a73508b090a025e8944a6ef4c6056dc0e62e53c28bfa810f09efebe3873ec1ce45627c58ef10fd9a2c2fe3c5dd67835a4871
+Description: Trang trí trung tâm điều khiển của bạn bằng ảnh, video và widget!
+Name: PictureModule (Roothide)
+Author: 4nni3
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PictureModule.json
+Icon: https://jtisvn.github.io/sectionIcons/PictureModule.png
+
 Package: com.jtis.pikachu
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -17681,6 +17720,51 @@ MD5sum: f1fcc9855d9bf5adc3fb2988bc67e002
 SHA1: 1c5723c5ef84d1e61acb09c8bc6cd323fcd7bd25
 SHA256: 5de31133a0c67e89ea7a168d53d7330245fe7238e7c36f65b34ee528ef46f729
 SHA512: 039e883942b3dd03720e8b6476545bce814f905c0d46734acdbb8e9b53985f4daea15b676eb4a4fd786b2585f832723bea33a197531cb4a54ef8f59f9c166205
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: UnlockBoard (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
+Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/UnlockBoard.png
+
+Package: com.jtisvn.unlockboard
+Architecture: iphoneos-arm64
+Version: 1.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 884
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard
+Filename: ./debs/com.jtisvn.unlockboard_1.4_iphoneos-arm64.deb
+Size: 178852
+MD5sum: f1ff6930ccf973f432c4292939c32af7
+SHA1: 890722b2c162cc76b33fc1be17033dd7e6ed9727
+SHA256: a2ca0b883227ff998031b170a1f167f0c5ae8c11021ecc738b1352e569618339
+SHA512: 719cb110c82ddcf02863fc313e343d7944e1c0a19c7c9694bae016b4f44b4e731f945952d0f8c321060c00fdc77734aff6916473d9135edc40c84b4c51572fac
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: UnlockBoard (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
+Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/UnlockBoard.png
+
+Package: com.jtisvn.unlockboard
+Architecture: iphoneos-arm64e
+Version: 1.4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 884
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard
+Filename: ./debs/com.jtisvn.unlockboard_1.4_iphoneos-arm64e.deb
+Size: 178928
+MD5sum: 0ae23f42a9c181aceb36dae064820c1b
+SHA1: d6284efd280104eef0d004a26453d161fbed05ed
+SHA256: b41b1ee76972a9b51b61067ebdb0a49ece40818de8010e3cbcb65959ab78f701
+SHA512: 9440285c93fcae325156fb69c570f531b3b2f6285b09279f14c71ca21baaa8d12debc07c1d65e74fc5c95f48d585d55207877c3cdae8e0f9fa92bc160802326f
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
 Name: UnlockBoard (Roothide)
