@@ -16392,6 +16392,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
 Depiction: http://jtisvn.github.io/depiction/VibeTok.html
 Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
 
+Package: com.jtis.vibett
+Architecture: iphoneos-arm64e
+Version: 1.4-1+debug
+Section: Tweaks
+Maintainer: DeNsor
+Installed-Size: 808
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.vibett_1.4-1+debug_iphoneos-arm64e.deb
+Size: 123328
+MD5sum: f471fc123ca0818dbfd6afcee2e11555
+SHA1: a754505d1e4db24035e799ee63d445409d8aff87
+SHA256: e202e47cd1f507c5f2813d39e0933b941586c8719a630863a0a8de382a171614
+SHA512: 7694d2dff1014352dcf4986690ffe528d456b4552113713f7a06e29e1d29b041d0905f5aea8b99a5eaa7628a817aece8f821684b6c7ae0454dca4c1c24338511
+Description: Make TikTok Better!
+Name: VibeTok (Roothjde)
+Author: DeNsor
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
+Depiction: http://jtisvn.github.io/depiction/VibeTok.html
+Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
+
 Package: com.jtis.videosunmute
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -17547,42 +17568,20 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsRevamp.json
 Icon: https://jtisvn.github.io/sectionIcons/SettingsRevamp.png
 
 Package: com.jtisvn.unlockboard
-Architecture: iphoneos-arm64
-Version: 1.4
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 884
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
-Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard
-Filename: ./debs/com.jtisvn.unlockboard_1.4_iphoneos-arm64.deb
-Size: 179424
-MD5sum: 9c718f5ad02892b4590a95e1cf5c39c7
-SHA1: 9143d96e051a525ef01fd73eb45af068e7c3c5e2
-SHA256: ce6382b05bd5c5db19103e076cd6e4d7074350e763a00c8b648b93bfb07af26b
-SHA512: 139bd04e3b65f1b6277b53a96aa763e79e7bac4ccebdfb0258cb9b5b96303c96d1482630f89596e9b58068ca47b9bbf4cf7b27fe000add94797b6dbe5fd08c00
-Description: Customize SpringBoard with many useful features for iOS.
-  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
-Name: UnlockBoard (Rootless)
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
-Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
-Icon: https://jtisvn.github.io/sectionIcons/UnlockBoard.png
-
-Package: com.jtisvn.unlockboard
 Architecture: iphoneos-arm64e
-Version: 1.4
+Version: 1.5-105+debug
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 884
+Installed-Size: 932
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
-Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard
-Filename: ./debs/com.jtisvn.unlockboard_1.4_iphoneos-arm64e.deb
-Size: 179348
-MD5sum: 9a68a28e9f35491b6c40b9b491eb69db
-SHA1: 32b17ce52aa9c4e3a4dd463f0917fe414be2f80d
-SHA256: ec54f3ab6e65dd48e5ed18ec333e068b2fd8840f632a11883f3848cda3110000
-SHA512: 9902afcf9a1ed7e72f5593251f0d5d9f23a0e6d3c44b6acf06ca1bebe4e9323d1acc78507ef37517b44a548e726a036a06444d11deebbb1f758e5da3295d92f3
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
+Filename: ./debs/com.jtisvn.unlockboard_1.5-105+debug_iphoneos-arm64e.deb
+Size: 188932
+MD5sum: e3c27652aabb6299d74b355c8a5d39bf
+SHA1: a62e29018f85b2791db19aae7f5ac29327f77616
+SHA256: 158ffc220f20f891308a45889b5327492af63731ae553d55b8f81369b2993e3a
+SHA512: 7bfd0562f9485601bbc13d441781ed49694e0f0dd3c057b57b6e54b99ec01fe352076313077138c2e6594ce9236e63719e38a93ef092b050996f67cf25f1d3e5
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
 Name: UnlockBoard (Roothide)
