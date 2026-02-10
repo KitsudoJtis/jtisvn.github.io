@@ -17568,29 +17568,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsRevamp.json
 Icon: https://jtisvn.github.io/sectionIcons/SettingsRevamp.png
 
 Package: com.jtisvn.unlockboard
-Architecture: iphoneos-arm64e
-Version: 1.5-105+debug
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 932
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
-Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
-Filename: ./debs/com.jtisvn.unlockboard_1.5-105+debug_iphoneos-arm64e.deb
-Size: 188932
-MD5sum: e3c27652aabb6299d74b355c8a5d39bf
-SHA1: a62e29018f85b2791db19aae7f5ac29327f77616
-SHA256: 158ffc220f20f891308a45889b5327492af63731ae553d55b8f81369b2993e3a
-SHA512: 7bfd0562f9485601bbc13d441781ed49694e0f0dd3c057b57b6e54b99ec01fe352076313077138c2e6594ce9236e63719e38a93ef092b050996f67cf25f1d3e5
-Description: Customize SpringBoard with many useful features for iOS.
-  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
-Name: UnlockBoard (Roothide)
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
-Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
-Icon: https://jtisvn.github.io/sectionIcons/UnlockBoard.png
-
-Package: com.jtisvn.unlockboard
 Architecture: iphoneos-arm64
 Version: 1.5
 Section: Tweaks
@@ -17607,6 +17584,29 @@ SHA512: 0d25c204baa7951f48c5cfbad99376be747c8b6091ec28b600048424bcb0628896e9e2e9
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
 Name: UnlockBoard (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
+Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/UnlockBoard.png
+
+Package: com.jtisvn.unlockboard
+Architecture: iphoneos-arm64e
+Version: 1.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 932
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
+Filename: ./debs/com.jtisvn.unlockboard_1.5_iphoneos-arm64e.deb
+Size: 188784
+MD5sum: b5275635358fc8ae66371b82c5062f3e
+SHA1: 519a933473223a6744fae88c03b0a664abfd61aa
+SHA256: e3f738c428aee053153fa6dd81aec792f8096838c0248b852d6793e93b963c46
+SHA512: 442f1f542f1b8920f8e88d36d6cc70f7bc81d6b9e3c51fd1d3b85f2affa5e0c6fcc5906185d50e433c483b3bafa8a5a58a7aba31214cd8ef672f6a3c4672a836
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: UnlockBoard (Roothide)
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
 Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
