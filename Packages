@@ -16372,6 +16372,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
 Depiction: http://jtisvn.github.io/depiction/VibeTok.html
 Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
 
+Package: com.jtis.vibett
+Architecture: iphoneos-arm64
+Version: 1.4-1+debug
+Section: Tweaks
+Maintainer: DeNsor
+Installed-Size: 808
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.vibett_1.4-1+debug_iphoneos-arm64.deb
+Size: 126480
+MD5sum: d40b1a7a5d0b0bd602622287e3678848
+SHA1: 0a7aea9f5e889a17b95b2072ca3ed6f6ccddd779
+SHA256: ea7b2da339ed4a6d1408433c4d038ae3f21e35bd035c0c881212efb8d928e08e
+SHA512: abc80d84bfe04b876d1f2dd9ff1467effa60a243b30474bda636be1a0ad3a5303361ed549844e6646635bc557a4f4b8a96c7d255fbaa99347f5049616f7e7d30
+Description: Make TikTok Better!
+Name: VibeTok (Rootless)
+Author: DeNsor
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
+Depiction: http://jtisvn.github.io/depiction/VibeTok.html
+Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
+
 Package: com.jtis.videosunmute
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -17566,6 +17586,28 @@ SHA512: 9902afcf9a1ed7e72f5593251f0d5d9f23a0e6d3c44b6acf06ca1bebe4e9323d1acc7850
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
 Name: UnlockBoard (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
+Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/UnlockBoard.png
+
+Package: com.jtisvn.unlockboard
+Architecture: iphoneos-arm64
+Version: 1.5
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 932
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
+Filename: ./debs/com.jtisvn.unlockboard_1.5_iphoneos-arm64.deb
+Size: 188832
+MD5sum: 2eb1d48ab1b964c1361f4d74da5097cf
+SHA1: 379a4b7d2d9bc3fc77e26c6e46281dc96b137f65
+SHA256: 0ceca598067c88d6ec6a171c26ff0f3e49677f9260393de963134555bfb3feda
+SHA512: 0d25c204baa7951f48c5cfbad99376be747c8b6091ec28b600048424bcb0628896e9e2e947672e7e874872d9963d3570be3c8a293ca360d007046bf8591f899f
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: UnlockBoard (Rootless)
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/UnlockBoard.json
 Depiction: http://jtisvn.github.io/depiction/UnlockBoard.html
