@@ -4815,11 +4815,11 @@ Installed-Size: 5160
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 2.0), com.spark.libsparkcolourpicker
 Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
 Filename: ./debs/com.jtis.aimpro_1.1.3_iphoneos-arm64.deb
-Size: 2355144
-MD5sum: e990640c47cb3560f0506c1cb12f6e9e
-SHA1: c34284085fb2c26e563f4a90f1cb12a7d4e1f79a
-SHA256: d132fe2a9a75cbdc75202b20f959b92e70c88df314ad836541387ead209c5e2b
-SHA512: 7f96a652bf706fea949c4ca8da0ab63b64b385471a172d0006daeb819f330b81be7ffaae1ba28a24b18ff8f7675ac125b16f67438894e29a35d26370d429ccf3
+Size: 2355948
+MD5sum: 48a8bce06276d6bc7f69bcc92c96d2d7
+SHA1: 6232ff55d2bf553579c78c2298b7147c0ebda1ad
+SHA256: c8109d706db06d5584dc020d487cbd93c66d9af84992a41cfa9d6551ff4e2032
+SHA512: 7066f8410f3c476977d41398c6c08bfd038405e4690b047a4d0e0e44104538a1de2ffb2065fb0f2eb6de334c08d5fd6dc0d4e47c93acd266e57cc38f61d10c07
 Description: Màn hình khóa ngày và giờ phong cách iOS 16
 Name: AIM Pro (Rootless)
 Author: alimaulana
@@ -4836,11 +4836,11 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 2.0), com.spark.libsparkcolourpicker
 Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
 Filename: ./debs/com.jtis.aimpro_1.1.3_iphoneos-arm64e.deb
-Size: 2348776
-MD5sum: 1545e12dff1af212da86bc862b2333b2
-SHA1: d3b7f097d58987a60ed0583ba4e9859e58d8c25f
-SHA256: 7811477c67797c0b0349f6222f60ffd49dde3841cc53e851a6b6b0fb14378c61
-SHA512: 61a44951c25853d461f462b622379cc2015381706d7ffa09e806297154607a2481b6216cf3bd5932ad71fb5ef5f29a4966da8a8d8801331e1295741e086404b4
+Size: 2349436
+MD5sum: 1c92d208cf81cccd15cb9b650fdc1a1a
+SHA1: 047dd65ebfcd1e7ed50c9ad4963606f1261d3dd3
+SHA256: d735d1c2518fccf8a186769a81d1ee9431cd9eae71970338c45ead25f21c13b8
+SHA512: d9ca7819726e21734881ceb9331b0151be236efa3b4aff680b797371da27c00185e2a120e15ecdf5a7a822548c3fed6e707849ddd65e91faa6fc514af5a99d32
 Description: Màn hình khóa ngày và giờ phong cách iOS 16
 Name: AIM Pro (Roothide)
 Author: alimaulana
@@ -5134,51 +5134,6 @@ Name: Apps Cracked (Rootless)
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: Nyxz
 
-Package: com.jtis.appdatamanager
-Architecture: iphoneos-arm64
-Version: 1.8.2-5
-Priority: optional
-Section: Utilities
-Maintainer: TIGI Software
-Installed-Size: 9121
-Depends: firmware (>= 7.0), ldid
-Filename: ./debs/com.jtis.appdatamanager_1.8.2-5_iphoneos-arm64.deb
-Size: 2523804
-MD5sum: 17361c492792740871918332b661a013
-SHA1: 43bba3a967d20262ad8de046a76380bd72055e40
-SHA256: 09964d2b173efef21fe0273cc7dc808fef0640f46734507af8b29ea18ed504c6
-SHA512: 91b1d769f84be4bba4f10f2818c019a04f8a483a59e28475379f6ee0a002f6b57755c92bba13f46152d26aceff7120077a54679ca392cddbec0f1252385c5f87
-Description: Công cụ quản lý Dữ Liệu, SAO LƯU, KHÔI PHỤC cho các Ứng dụng đã cài đặt
-Tag: purpose::uikit
-Name: Apps Manager (Rootless)
-SileoDepiction: https://jtisvn.github.io/sileodepictions/AppsManager.json
-Icon: https://jtisvn.github.io/sectionIcons/AppsManager.png
-Author: TIGI Software <satashi2009@gmail.com>
-dev: satashi2009
-
-Package: com.jtis.appdatamanager
-Architecture: iphoneos-arm64e
-Version: 1.8.2-5
-Priority: optional
-Section: Utilities
-Maintainer: TIGI Software
-Installed-Size: 9121
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 7.0), ldid
-Filename: ./debs/com.jtis.appdatamanager_1.8.2-5_iphoneos-arm64e.deb
-Size: 2482432
-MD5sum: bdb9547adc1863a3fe16132866eb9b48
-SHA1: 0c8a36ac2532dfe8d9eb46f7a3f6c80182637293
-SHA256: 79a2c7dafad096e0063ed62c07179369d0fc63b0416878228d28f9ba5782e531
-SHA512: fcaadf1ab87222cc456a56d2fd8b7062cb323d0774cd1b5cccd29e9330ed8398a43d766344e0f0ff3fe9985eea2f2d07bd3007fd2a45698771ee44ba75b243c4
-Description: Công cụ quản lý Dữ Liệu, SAO LƯU, KHÔI PHỤC cho các Ứng dụng đã cài đặt
-Tag: purpose::uikit
-Name: Apps Manager (Roothide)
-SileoDepiction: https://jtisvn.github.io/sileodepictions/AppsManager.json
-Icon: https://jtisvn.github.io/sectionIcons/AppsManager.png
-Author: TIGI Software <satashi2009@gmail.com>
-dev: satashi2009
-
 Package: com.jtis.appdataplus
 Architecture: iphoneos-arm64
 Version: 1.4.0
@@ -5222,6 +5177,51 @@ Depiction: http://jtisvn.github.io/depiction/Appdataplus.html
 Name: AppData Plus (Roothide)
 Author: Fouad Raheb & Netskao
 Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
+
+Package: com.jtis.appdataplus
+Architecture: iphoneos-arm64
+Version: 1.4.6
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 5140
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.appdataplus_1.4.6_iphoneos-arm64.deb
+Size: 1488988
+MD5sum: 9516fb62c157f0353ca2ae9c2a8c1590
+SHA1: dcff1847eefa2bf4e0df97c0e7d485561b98bf19
+SHA256: 0f6afa71f8bc88c5e1bf99332095bd546140da2539f58e33d588c57418d12bb2
+SHA512: ae8cfb51d0fc259dc210e6afdb85a591956d4d4d1589667d717eab6504bf479e6250269d303f4ace40f201c1e82fa5a9c2aaa9ae4522c6674d262c6a6ca233b4
+Homepage: https://jtisvn.github.io/
+Description: View & Manage Applications Data from your Home Screen
+Name: AppData (Rootless)
+Author: Fouad Raheb
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Appdataplus.json
+Depiction: https://jtisvn.github.io/depictions/Appdataplus.html
+Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
+Markdowndescription: View & Manage Applications Data from your Home Screen<br><br>• v1.4.6: Fix iOS15 crash issues<br><br>• v1.4.5: Modify the API interface for obtaining the downgraded version number of an application
+
+Package: com.jtis.appdataplus
+Architecture: iphoneos-arm64e
+Version: 1.4.6
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 5140
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.appdataplus_1.4.6_iphoneos-arm64e.deb
+Size: 1489188
+MD5sum: 6afd6e1b91c4cac5b50a41781352c615
+SHA1: 4870938b9b4a46036b9d463b4caa53dedb25223d
+SHA256: 1c8ef79c342ec7942dedbd19910e03a99a9cbbd5824dba29b9725d412556d4a9
+SHA512: fcbff9acef95005b7e7f8cb500e02364e727a79467cf7392edf78820e130a187967cea3cedee5ef7a07f0b4e9ec49b353a05518c1d4571a8c068742be4d599d4
+Homepage: https://jtisvn.github.io/
+Description: View & Manage Applications Data from your Home Screen
+Name: AppData (Roothide)
+Author: Fouad Raheb
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Appdataplus.json
+Depiction: https://jtisvn.github.io/depictions/Appdataplus.html
+Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
+Markdowndescription: View & Manage Applications Data from your Home Screen<br><br>• v1.4.6: Fix iOS15 crash issues<br><br>• v1.4.5: Modify the API interface for obtaining the downgraded version number of an application
 
 Package: com.jtis.applecard
 Architecture: iphoneos-arm64
