@@ -13051,6 +13051,24 @@ Icon: https://jtisvn.github.io/sectionIcons/PassText.png
 Author: Hitori <mikasa-san@outlook.jp>
 Name: PassText (Roothide)
 
+Package: com.jtis.persistentwifi
+Architecture: iphoneos-arm64e
+Version: 1.2.4
+Section: Tweaks
+Maintainer: Tony Kraft <iostonykraft@gmail.com>
+Installed-Size: 368
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.persistentwifi_1.2.4_iphoneos-arm64e.deb
+Size: 30644
+MD5sum: c4a95176ae7daf849fd5f0f802f3fff6
+SHA1: 5d06f1cc00cfb6fe9354a28f3f38c70ee7fa2742
+SHA256: 0e67b421e236adb3d544cb53a935e233f88f13567fd2b5cdedeecee1d7dff89b
+SHA512: 4effa0cd7852d10111e547b8329e9a0c598c7b7b84547658883c84d88c848df1957b4a97ae77ec99962907f35a7e6c83e57bbe68fbc0a0fe7b8f6f451cb8b286
+Description: Cho phép Wifi duy trì kết nối khi thiết bị bị khóa.
+Name: Persistent WiFi (Roothide)
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: Tony Kraft <iostonykraft@gmail.com>
+
 Package: com.jtis.picsart
 Architecture: iphoneos-arm64
 Version: 1.0.2
