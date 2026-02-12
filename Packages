@@ -17662,11 +17662,11 @@ Installed-Size: 940
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
 Filename: ./debs/com.jtisvn.unlockboard_1.6_iphoneos-arm64.deb
-Size: 191032
-MD5sum: bdeee3aebd866039ab8126e3f5b0b985
-SHA1: aec60f744c1f9004616ca39c271d100878bac11d
-SHA256: f36602a5e341706bf78664bc1084a949ccd6a7df3ca4d71026a94da935850329
-SHA512: 70604bb1522d6a9dd9249ebcaf18aac3bbaf1969badcb19fc32eabf84924c2a1ad6499180a2b2ed8e3c32ef340b3c315eb19b6f3e4287252de4938e193a5c5be
+Size: 192492
+MD5sum: 946dac9499c74d37bb921fbfe55eef53
+SHA1: b4550b8c40ac3e8cdd27a64dee338de058b61696
+SHA256: b48ed2c7fe5c16d3640922baa8c6f755f3cbb7d90665b333651a1be86c7abbce
+SHA512: 06d29443b24a3ec5a0b9faf6e5379703a51308c6e092eb13b1bc1135874c6fb1f5822156c1ef58362fa0fa51cf65d8ab8beb981cb760d7979da65985a1f834ee
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
@@ -17686,11 +17686,11 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
 Filename: ./debs/com.jtisvn.unlockboard_1.6_iphoneos-arm64e.deb
-Size: 190984
-MD5sum: 762190bbfb8edd4d57f889d39a967bed
-SHA1: 855cb4d047d1d05b943998d900c39538fbe26308
-SHA256: f174d6c80531294aa34fa072e203aa251a59531436d0537f7e07f6e8a17c768a
-SHA512: 63138f9de39fda214b9dd80fe1d9a643642e96fe7a46907309ac829f66e740f074f35dcfaca5032ba75512c8b81e0401d514cd5736d161afec71a68baf3f283d
+Size: 192680
+MD5sum: 448d9217b743a50563c4384d0f0d4d08
+SHA1: 1e542868ae50a9395c7b199222aa24c579d5eca6
+SHA256: e9b21f6f80bf011c2fae5d1772155dcbedbfe532299d19e48d98cd82dace88ee
+SHA512: 32c671d63f321024c8c739bd74437bd1e599e9db0d19eb3657b7457e04bfbac0bc1321c1338320bdea2ccd350e4188d6e6cf4afedc8a9a63a0014ea280e4d04f
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
