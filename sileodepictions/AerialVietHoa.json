@@ -20,6 +20,10 @@
 {
 "url":"https://jtisvn.github.io/infodeb/AerialVietHoa/Screenshots/3.png",
 "accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/AerialVietHoa/Screenshots/4.png",
+"accessibilityText":"Screenshot"
 }
 ],
 "itemCornerRadius":8,
@@ -87,7 +91,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "6/1/2026",
+"text": "13/2/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +109,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0",
+"text": "1.0.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -191,7 +195,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0\n\n- Thêm ngôn ngữ Tiếng Việt.\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.0.1\n\n- Thêm ngôn ngữ Tiếng Việt trong cài đặt Aerial."
 },
 {
 "class":"DepictionLabelView",

@@ -17815,6 +17815,45 @@ Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AerialVietHoa.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
+Package: com.kitsudo.aerialviethoa
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.kitsudo.aerialviethoa_1.0.1_iphoneos-arm64.deb
+Size: 8068
+MD5sum: 5f35b1a02a234696b5cf535f5e07f353
+SHA1: 657ca7349348383f6cef92c1ea536fb332a30e6f
+SHA256: 7b93cc95f2655d5fb601067595a0847014417c91fdac51aaa6bf82a87cf0782e
+SHA512: f9dc6e9f72260c12270ed445c586ba88e74dc7e7cb188dd192c202637779b1042c17ebd02586e3e801205e6684d8adefd14f4f25cc0da2482c2a92090ef551de
+Description: Thêm ngôn ngữ đầy đủ cho menu tweak Aerial
+Name: Aerial gói Việt Hóa (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AerialVietHoa.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.aerialviethoa
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.kitsudo.aerialviethoa_1.0.1_iphoneos-arm64e.deb
+Size: 8172
+MD5sum: 56c2c07ab18c9a6dab68c8d3233669b1
+SHA1: b5f04da4ebb4dda02b97e0e8bee3e2a0bf1ce4dd
+SHA256: 085ffcb85d75b77b768718699dcf48965b317fdbf6edb1b5bd5f926a87f0498f
+SHA512: d341a9b7c6c070febdebcac7964325d7df7928c07c56dc3979291a34254f25603175eaa956b81401d21312a46c98c50fd0b507b3061f98cdefe25df0f951101e
+Description: Thêm ngôn ngữ đầy đủ cho menu tweak Aerial
+Name: Aerial gói Việt Hóa (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AerialVietHoa.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
 Package: com.kitsudo.ccmusicviethoa
 Architecture: iphoneos-arm64
 Version: 1.0.0
