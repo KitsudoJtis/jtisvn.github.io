@@ -17823,11 +17823,11 @@ Maintainer: JTISVN Repo
 Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 14.0)
 Filename: ./debs/com.kitsudo.aerialviethoa_1.0.1_iphoneos-arm64.deb
-Size: 8068
-MD5sum: 5f35b1a02a234696b5cf535f5e07f353
-SHA1: 657ca7349348383f6cef92c1ea536fb332a30e6f
-SHA256: 7b93cc95f2655d5fb601067595a0847014417c91fdac51aaa6bf82a87cf0782e
-SHA512: f9dc6e9f72260c12270ed445c586ba88e74dc7e7cb188dd192c202637779b1042c17ebd02586e3e801205e6684d8adefd14f4f25cc0da2482c2a92090ef551de
+Size: 8064
+MD5sum: 85c0ad0ef6bd6773931ccf47ed25a01d
+SHA1: 5088e2fce1cbb94026db4670326e76d145d0a28e
+SHA256: 215e54764fded52331ea3d37830d31aa2f01bd6f5cffbf485ea5d2d5a107977a
+SHA512: 783898f698870ba74605f58b90f714b7de59bcd0780b4976237657e1ff5d66b3657e05a0cd74c7fa6a5770021ba067b9f2090367c4ead2e0a037eb7d2243a717
 Description: Thêm ngôn ngữ đầy đủ cho menu tweak Aerial
 Name: Aerial gói Việt Hóa (Rootless)
 Author: Kitsudo
@@ -17843,11 +17843,11 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0)
 Filename: ./debs/com.kitsudo.aerialviethoa_1.0.1_iphoneos-arm64e.deb
-Size: 8172
-MD5sum: 56c2c07ab18c9a6dab68c8d3233669b1
-SHA1: b5f04da4ebb4dda02b97e0e8bee3e2a0bf1ce4dd
-SHA256: 085ffcb85d75b77b768718699dcf48965b317fdbf6edb1b5bd5f926a87f0498f
-SHA512: d341a9b7c6c070febdebcac7964325d7df7928c07c56dc3979291a34254f25603175eaa956b81401d21312a46c98c50fd0b507b3061f98cdefe25df0f951101e
+Size: 8260
+MD5sum: c0918448bb76cab22755a906c2a68e94
+SHA1: e59a0f0bc3259a97854c8ab2cf5c004914deb661
+SHA256: 4662d6981c2b5b9b9ba12d5223f0928cfc0ba817a93abba99a43b760ecfb78f0
+SHA512: 20aa6988bea3f392bd4f3c6f061644116afe291b116019e9106f27151a9fd77b5cc5d489853f38e298a5e08d3dd8840ebdf368ccb6f04c707b029ed4edd93058
 Description: Thêm ngôn ngữ đầy đủ cho menu tweak Aerial
 Name: Aerial gói Việt Hóa (Roothide)
 Author: Kitsudo
