@@ -5134,6 +5134,25 @@ Name: Anuisance
 Icon: Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: ZBC & CBZ
 
+Package: com.jtis.anuisance
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: System
+Maintainer: jtis
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: gzip
+Replaces: xyz.cypwn.anuisance
+Filename: ./debs/com.jtis.anuisance_1.0_iphoneos-arm64e.deb
+Size: 129586
+MD5sum: fc9d9269270591b5751c8c1bcbc0b73b
+SHA1: 6dde72cad3b1a2db40964a32195d20981391f076
+SHA256: 7cb63407cede12bfa7c14a7f76ddaebe0fac00cabf79f434982ac8432eb3d94a
+SHA512: 3fbd56c1ae09dc9bad9b6bc0298c486c0582c96fde3474d549a429deab9036d920eaee999bd53ac2fe8f881374a7a1f01490238fdd011b4ed60ca0931faaa362
+Description: Crack for Anubis's tweaks
+Name: Anuisance
+Icon: Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Author: ZBC & CBZ
+
 Package: com.jtis.appcrack
 Architecture: iphoneos-arm64
 Version: 0.1-1
@@ -8411,18 +8430,39 @@ Section: Tweaks
 Maintainer: JTISVN Repo
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), com.jtis.anuisance
 Filename: ./debs/com.jtis.dockcuts_1.0.2_iphoneos-arm64.deb
-Size: 173756
-MD5sum: e94d2a9d58f47f4402881711bcf966af
-SHA1: 754abfb247930357a24a9fcea27e21bdde19d665
-SHA256: 4ede7b4156252d5e963bd66fc25b83bf7ec4ea14029d65fb01345d30c209d410
-SHA512: 26afe8ae5010a395419fa37ae9b0f66c93b1cc8e4a328cbe439414128f96a3af838fd49b8034c4928b754b0b5f3a234ffb332bb4ce5d25f35acd2e55150af86e
+Size: 173656
+MD5sum: ffe4758e7897de08607079dec7456a00
+SHA1: 597846d352b32c5154c89c93ac1b4e03c9014d50
+SHA256: 51976c47389a479b1e3b8222e280401e2aa471538a3afd56ff68c9bc834c367b
+SHA512: 1d615a4eb7af8d4e6f83f5a44bcccc28b77514c8966ef117d077699bb7b98e9d691f71515cc574f7c0b1387a503f269acdc38df671f69ebcf806851400a96a24
 Homepage: https://jtisvn.github.io/
 Description: Add customizable shortcuts to keyboard dock with sticky texts support
 Name: DockCuts (Rootless)
 Author: AnubisTweaks
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DockCuts.json
 Depiction: http://jtisvn.github.io/depiction/DockCuts.html
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/DockCuts.png
+
+Package: com.jtis.dockcuts
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), com.jtis.anuisance
+Filename: ./debs/com.jtis.dockcuts_1.0.2_iphoneos-arm64e.deb
+Size: 173820
+MD5sum: b4ebcea7bf3c98c9697d679cf56c0b08
+SHA1: c5750a588b62f688479da510e3313e328d3e0c5e
+SHA256: fd28327fa9e7771954475bf05c54216f39fb53561acb35edd60f910eb407e7b0
+SHA512: d3640bc77b711177532a4b7b55ecfc57fcaf878c6658d07b4273be4d981144d80462e0530234d1b871f8685f8a0c80e3d19057b429a2b565e5ac9508ded027be
+Homepage: https://jtisvn.github.io/
+Description: Add customizable shortcuts to keyboard dock with sticky texts support
+Name: DockCuts (Roothide)
+Author: AnubisTweaks
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DockCuts.json
+Depiction: http://jtisvn.github.io/depiction/DockCuts.html
+Icon: https://jtisvn.github.io/sectionIcons/DockCuts.png
 
 Package: com.jtis.dodo
 Architecture: iphoneos-arm64
@@ -21216,6 +21256,27 @@ SHA512: a58dc101510d9ca90f5f4814af2bcb43089a2f1748158fe13e712f3cb503b1e8569481fc
 Homepage: https://github.com/AnubisTweaks
 Description: Tích hợp dịch nâng cao cho iOS, hỗ trợ nhận diện chữ trong ảnh (OCR) – bản DEBUG có ghi nhật ký chi tiết. Thêm nút dịch vào menu chọn văn bản trong mọi ứng dụng. Tích hợp với Snapper 3 để nhận diện và dịch chữ trong ảnh. Hỗ trợ các dịch vụ dịch Google, Baidu, ModernMT, Microsoft và OCR từ Youdao, Yandex. Có giao diện tùy chỉnh và danh sách ứng dụng được phép sử dụng.
 Name: TransLux (Rootless)
+Author: AnubisTweaks
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TransLux.json
+Depiction: http://jtisvn.github.io/depiction/TransLux.html
+Icon: https://jtisvn.github.io/sectionIcons/TransLux.png
+
+Package: eg.anubistweaks.translux
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: Tweaks
+Maintainer: AnubisTweaks
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.opa334.altlist (>= 1.0.4), com.jtis.anuisance
+Filename: ./debs/eg.anubistweaks.translux_1.1.0_iphoneos-arm64e.deb
+Size: 271288
+MD5sum: eefba3404c18ac51d99065d2982b1d7d
+SHA1: e34c7bb2ff805ab6aa8ac69cb560a9d74a26b9a0
+SHA256: 101d9d464ede214153b7878f98cf11d65ad74b9e5adba903e37be9942372d576
+SHA512: a47a21ff2b76a86fb6fe93739c2f92fcc694ae5b3d84577c4f61e1fe4ca90b351c7fcc27db89fc18767f91703f635d71ecfb139804d5650584598b1bb4483668
+Homepage: https://github.com/AnubisTweaks
+Description: Tích hợp dịch nâng cao cho iOS, hỗ trợ nhận diện chữ trong ảnh (OCR) – bản DEBUG có ghi nhật ký chi tiết. Thêm nút dịch vào menu chọn văn bản trong mọi ứng dụng. Tích hợp với Snapper 3 để nhận diện và dịch chữ trong ảnh. Hỗ trợ các dịch vụ dịch Google, Baidu, ModernMT, Microsoft và OCR từ Youdao, Yandex. Có giao diện tùy chỉnh và danh sách ứng dụng được phép sử dụng.
+Name: TransLux (Roothide)
 Author: AnubisTweaks
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TransLux.json
 Depiction: http://jtisvn.github.io/depiction/TransLux.html
