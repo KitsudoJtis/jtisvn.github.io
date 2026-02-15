@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#FF9900",
+"tintColor":"#3399CC",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -30,7 +30,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"DockCuts\n\n- Biến bàn phím iPhone trở thành công cụ năng suất thực thụ bằng cách thêm các nút phím tắt tùy chỉnh vào thanh Dock phía dưới bàn phím.\n\n- Các tính năng nổi bật:\n\n+ **Lịch sử Clipboard:** Nhấn giữ nút Dán (Paste) để xem và chọn lại các nội dung đã sao chép trước đó.\n\n+ **Ghim văn bản (Sticky Text):** Lưu các đoạn văn bản thường dùng (email, địa chỉ, mẫu câu...) để dán nhanh bất cứ lúc nào.\n  + **Phím tắt thông minh:** Hỗ trợ các nút Chọn tất cả, Copy, Cut, Undo/Redo, Dịch nhanh, Di chuyển con trỏ, Thu gọn bàn phím...\n\n+ **Cử chỉ Dock:** Vuốt trái hoặc phải trên thanh Dock để kích hoạt các hành động nhanh.",
+"markdown":"DockCuts\n\n- Biến bàn phím iPhone trở thành công cụ năng suất thực thụ bằng cách thêm các nút phím tắt tùy chỉnh vào thanh Dock phía dưới bàn phím.\n\n- Các tính năng nổi bật:\n\n+ **Lịch sử Clipboard:** Nhấn giữ nút Dán (Paste) để xem và chọn lại các nội dung đã sao chép trước đó.\n\n+ **Ghim văn bản (Sticky Text):** Lưu các đoạn văn bản thường dùng (email, địa chỉ, mẫu câu...) để dán nhanh bất cứ lúc nào.\n\n+ **Phím tắt thông minh:** Hỗ trợ các nút Chọn tất cả, Copy, Cut, Undo/Redo, Dịch nhanh, Di chuyển con trỏ, Thu gọn bàn phím...\n\n+ **Cử chỉ Dock:** Vuốt trái hoặc phải trên thanh Dock để kích hoạt các hành động nhanh.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

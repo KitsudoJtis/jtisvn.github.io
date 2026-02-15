@@ -26,7 +26,7 @@
 "itemSize":"{160, 346}"
 },
 {
-"markdown":"TransLux\n\n- Tinh chỉnh tích hợp dịch thuật nâng cao cho iOS, thêm nút dịch thông minh trực tiếp vào menu chọn văn bản của bạn.\n\n- Tính năng nổi bật:\n\n+ **Đa công cụ dịch:** Hỗ trợ Google Translate, Baidu, ModernMT, Microsoft Translator. Chuyển đổi nhanh chỉ với 1 chạm, không cần API.\n\n+ **Dịch thông minh:** Tự động phát hiện ngôn ngữ, phản hồi nhanh.\n  + **Hỗ trợ OCR:** Nhận diện văn bản hình ảnh qua Youdao, Yandex và tích hợp **Snapper 3**.\n\n+ **Giao diện tùy chỉnh:** 3 kiểu nút, 3 kích thước, hỗ trợ chế độ Sáng/Tối.\n\n+ **Quản lý ứng dụng:** Hệ thống Whitelist giúp bạn chỉ bật dịch ở những ứng dụng cần thiết.\n\n- **Lưu ý:** Bạn cần vào Cài đặt TransLux -> Whitelist để bật các ứng dụng muốn hiển thị nút dịch.",
+"markdown":"TransLux\n\n- Tinh chỉnh tích hợp dịch thuật nâng cao cho iOS, thêm nút dịch thông minh trực tiếp vào menu chọn văn bản của bạn.\n\n- Tính năng nổi bật:\n\n+ **Đa công cụ dịch:** Hỗ trợ Google Translate, Baidu, ModernMT, Microsoft Translator. Chuyển đổi nhanh chỉ với 1 chạm, không cần API.\n\n+ **Dịch thông minh:** Tự động phát hiện ngôn ngữ, phản hồi nhanh.\n\n+ **Hỗ trợ OCR:** Nhận diện văn bản hình ảnh qua Youdao, Yandex và tích hợp **Snapper 3**.\n\n+ **Giao diện tùy chỉnh:** 3 kiểu nút, 3 kích thước, hỗ trợ chế độ Sáng/Tối.\n\n+ **Quản lý ứng dụng:** Hệ thống Whitelist giúp bạn chỉ bật dịch ở những ứng dụng cần thiết.\n\n- **Lưu ý:** Bạn cần vào Cài đặt TransLux -> Whitelist để bật các ứng dụng muốn hiển thị nút dịch.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
