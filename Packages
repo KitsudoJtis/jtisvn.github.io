@@ -874,6 +874,24 @@ Tag: role::developer
 Name: libScribble
 Author: Boo
 
+Package: com.boo.libscribble
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: System
+Maintainer: Boo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.boo.libscribble_1.0.0_iphoneos-arm64e.deb
+Size: 13892
+MD5sum: 7d11006df2016ac42455046fe0bf883e
+SHA1: 3052d9284f90fce4a0cafdb369984f91b951b63b
+SHA256: a6d0dbf0b3db8dff83a4216e9a4ca37c357749a6c815eeecec4fe8929d10eec1
+SHA512: dfe95af42f026cb2e4eee1cd449ffb0062941e54c53781e6ca31e8849f1e7feb7ce3ee3e12a93fae0127f44d8a8f3009712a8186fc8b5dc3b4364a93d30d687d
+Description: Scribble gesture library
+Tag: role::developer
+Name: libScribble
+Author: Boo
+
 Package: com.jtis.YangJiiiLineat
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -18977,6 +18995,25 @@ MD5sum: 3d26e09a8add704110f763ef32233249
 SHA1: 0e0a58d011ca77a9e5c1478fdc8d9a15b41fd31e
 SHA256: 915096580d0001e28aed9271cc9a662cc1443d74230aab81d0cd96a29bee674c
 SHA512: 8666614d9755746f82ae57d4a2369bad28b18048a7bd2b5c8c6dd817a512d12cc74104266b07b6f80755a9765fd947c13b8b9c130cc302adf25db3fe0b9e7145
+Description: Fixes an incompatibility with new versions of Cephei that certain patched tweaks have. Adds back the old `translucentNavigationBar` property from earlier versions of Cephei in order to prevent a `didNotRecognizeSelector:` exception being thrown. Tested with Shortmoji 2.
+Name: Cephei-compat
+Author: Nightwind
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.nightwind.cephei-compat
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Nightwind
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 2.0)
+Filename: ./debs/com.nightwind.cephei-compat_0.0.1_iphoneos-arm64e.deb
+Size: 5260
+MD5sum: 590426b0b6b8bf678510d4f20b9f679c
+SHA1: fa492bfd0ab65bc9b21b9ece2f834ad1749e3e8b
+SHA256: a5ada4e41769585510035c3806c93bf574ed2daf273f5fbb52682f48bc34130a
+SHA512: 96cd8807c05b504c0bd1ca4386a4470badf072c6647e2db6f764bc2ce12de3c7adc47428d52158a943ee6a7c39e6bdf26d18dd7e1639141a19d8dc4eba4acc3a
 Description: Fixes an incompatibility with new versions of Cephei that certain patched tweaks have. Adds back the old `translucentNavigationBar` property from earlier versions of Cephei in order to prevent a `didNotRecognizeSelector:` exception being thrown. Tested with Shortmoji 2.
 Name: Cephei-compat
 Author: Nightwind
