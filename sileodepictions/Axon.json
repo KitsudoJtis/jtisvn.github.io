@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.5.5\n\n- Sửa lỗi và tối ưu hoá thông báo\n\n- Thêm ngôn nggữ Tiếng Việt\n\n- Hỗ trợ Rootfull, Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.5.5\n\n- Sửa lỗi và tối ưu hoá thông báo\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootfull, Rootless & Roothide Jailbreak"
 }
 ],
 "class":"DepictionStackView"
