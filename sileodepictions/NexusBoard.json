@@ -177,26 +177,17 @@
 "class": "DepictionSpacerView"
 },
 {
-"class": "DepictionImageView",
-"url": "https://jtisvn.github.io/CydiaIcon.png",
-"width": 55,
-"height": 55,
-"cornerRadius": 12,
-"alignment": 1
+"URL": "https://jtisvn.github.io/CydiaIcon.png",
+"width": 40,
+"height": 40,
+"alignment": 1,
+"cornerRadius": 8,
+"class": "DepictionImageView"
 },
 {
-"spacing": 15,
-"class": "DepictionSpacerView"
-},
-{
-"class":"DepictionLabelView",
-"text":"Created with by JTISVN Repo ",
-"textColor":"#999999",
-"fontSize":"10.0",
-"alignment":1
-}
-],
-"class":"DepictionStackView"
+"markdown": "<div style='text-align: center; color: #888; font-size: 11px; margin-top: 5px;'>Created with by JTISVN Repo</div>",
+"useRawFormat": true,
+"class": "DepictionMarkdownView"
 },
 {
 "tabname":"Nhật ký thay đổi",
