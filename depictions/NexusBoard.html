@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UnlockBoard - JTISVN Repo</title>
+    <title>NexusBoard - JTISVN Repo</title>
     <style>
         :root {
             /* Màu Tint từ JSON */
@@ -110,7 +110,7 @@
             padding-bottom: 20px;
             -webkit-overflow-scrolling: touch;
             scrollbar-width: none; 
-            /* NHIỀU ẢNH (10 cái) -> KHÔNG CĂN GIỮA */
+            /* RẤT NHIỀU ẢNH (11 cái) -> KHÔNG CĂN GIỮA ĐỂ DỄ VUỐT */
             justify-content: flex-start;
         }
         .screenshots-scroll::-webkit-scrollbar {
@@ -250,7 +250,7 @@
 </head>
 <body>
 
-    <img src="https://jtisvn.github.io/coverimage/UnlockBoard.png" alt="UnlockBoard Banner" class="banner">
+    <img src="https://jtisvn.github.io/coverimage/NexusBoard.png" alt="NexusBoard Banner" class="banner">
 
     <nav class="tab-nav">
         <button class="tab-btn active" onclick="openTab(event, 'info')">Giới thiệu</button>
@@ -263,29 +263,34 @@
         <div id="info" class="tab-content active">
             
             <div class="screenshots-scroll">
-                <img src="https://jtisvn.github.io/infodeb/UnlockBoard/Screenshots/1.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/UnlockBoard/Screenshots/2.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/UnlockBoard/Screenshots/3.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/UnlockBoard/Screenshots/4.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/UnlockBoard/Screenshots/5.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/UnlockBoard/Screenshots/6.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/UnlockBoard/Screenshots/7.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/UnlockBoard/Screenshots/8.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/UnlockBoard/Screenshots/9.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/UnlockBoard/Screenshots/10.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/1.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/2.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/3.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/4.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/5.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/6.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/7.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/8.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/9.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/10.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/11.png" class="screenshot-img" onclick="openImage(this)">
             </div>
 
             <div>
-                <p><strong>UnlockBoard</strong></p>
+                <p><strong>NexusBoard</strong></p>
                 <ul>
-                    <li>Tinh chỉnh "All-in-One" giúp tùy biến giao diện SpringBoard và Màn hình khóa với hàng loạt tính năng hữu ích.</li>
+                    <li>Tinh chỉnh "All-in-One" giúp tùy biến giao diện SpringBoard với hàng loạt tính năng hữu ích.</li>
                 </ul>
                 <p><strong>Các tính năng nổi bật:</strong></p>
                 <ul>
-                    <li><strong>Làm sạch giao diện:</strong> Ẩn tên ứng dụng/thư mục, ẩn thanh Home Bar, ẩn dấu chấm trang, ẩn Thư viện ứng dụng, ẩn nền Dock...</li>
+                    <li><strong>Màn hình chính:</strong> Ẩn tên ứng dụng/thư mục, ẩn thanh Home Bar, ẩn dấu chấm trang, ẩn Thư viện ứng dụng, ẩn nền Dock, ẩn nút quay lại ứng dụng, xoay mọi hướng biểu tượng, xoá cảnh báo pin yếu, hiển thị chi tiết pin...</li>
                     <li><strong>Màn hình khóa:</strong> Tự động mở khóa, Nhấn 2 lần để tắt màn hình, Hiển thị ngày Âm/Dương, Ẩn nút Camera/Đèn pin, Trong suốt thông báo.</li>
-                    <li><strong>Dock:</strong> Hỗ trợ Dock iPad (Floating Dock), ẩn phân cách & tắt cử chỉ Dock, Dock 5 biểu tượng.</li>
+                    <li><strong>Thanh Dock:</strong> Hỗ trợ Dock iPad (Floating Dock), ẩn phân cách & tắt cử chỉ Dock, Dock 5 biểu tượng, hiển thị tên ứng dụng dưới Dock.</li>
                     <li><strong>Bảo mật & Tiện ích:</strong> Khóa ứng dụng bằng FaceID/Mật khẩu, Hiệu ứng sạc MagSafe, Dự báo thời gian sạc đầy pin và hơn thế nữa.</li>
+                    <li><strong>Trung tâm điều khiển:</strong> Hiển thị số % thanh trượt Độ sáng & Âm lượng, trong suốt nền, tắt hoàn toàn WiFi & Bluetooth, bo tròn các Mô-đun...</li>
+                    <li><strong>Ảnh & Camera:</strong> Xoá vĩnh viễn, phóng to vô hạn, ẩn thanh trượt, luôn bật tiếng video, tắt âm thanh chụp ảnh, tắt bản xem trước ảnh chụp màn hình...</li>
+                    <li><strong>Ứng dụng cài đặt:</strong> Bo tròn biểu tượng và các ô mục trong cài đặt, Ẩn linh kiện không xác định,...</li>
+                    <li>Và hơn thế nữa...</li>
                 </ul>
             </div>
 
@@ -303,14 +308,14 @@
                         <span class="info-value">Tweaks</span>
                     </div>
                     <div class="info-item">
-                        <span class="info-label">Ngày tải lên</span>
-                        <span class="info-value">29/1/2026</span>
+                        <span class="info-label">Ngày cập nhật</span>
+                        <span class="info-value">24/2/2026</span>
                     </div>
                 </div>
                 <div class="info-column">
                     <div class="info-item">
                         <span class="info-label">Phiên bản</span>
-                        <span class="info-value">1.0.0</span>
+                        <span class="info-value">1.7</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Kích thước</span>
@@ -318,7 +323,7 @@
                     </div>
                     <div class="info-item">
                         <span class="info-label">Tương thích iOS</span>
-                        <span class="info-value">15.0 - 17.0</span>
+                        <span class="info-value">14.0 - 17.0</span>
                     </div>
                 </div>
             </div>
@@ -326,11 +331,84 @@
         </div>
 
         <div id="changelog" class="tab-content">
-            <h3 style="margin-top: 10px;">Phiên bản 1.0.0</h3>
+            <h3 style="margin-top: 10px;">Phiên bản 1.7</h3>
+            <ul>
+                <li>Thêm bo tròn các mục cài đặt.</li>
+                <li>Thêm bo tròn biểu tượng trong cài đặt.</li>
+                <li>Thêm ẩn thanh trạng thái trong CC.</li>
+                <li>Sửa đổi tên UnlockBoard thành <strong>NexusBoard</strong>.</li>
+            </ul>
+
+            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 1.6</h3>
+            <ul>
+                <li>Thêm ẩn thanh cuộn thông báo trên màn hình khoá.</li>
+                <li>Thêm nhấn nhanh 2 lần vào nút giảm âm lượng để bật đèn pin.</li>
+                <li>Thêm bo tròn mô-đun Trung tâm điều khiển.</li>
+                <li>Thêm xoá cảnh báo pin yếu.</li>
+                <li>Thêm tắt tiếng chụp ảnh màn hình.</li>
+            </ul>
+
+            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 1.5</h3>
+            <ul>
+                <li>Thêm hiển thị tên ứng dụng dưới Dock.</li>
+                <li>Thêm tắt xem trước ảnh chụp màn hình.</li>
+                <li>Thêm tắt hoàn toàn WiFi & Bluetooth.</li>
+                <li>Thay đổi giao diện cài đặt.</li>
+            </ul>
+
+            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 1.4</h3>
+            <ul>
+                <li>Thêm xem chi tiết pin (chạm 2 lần vào thanh trạng thái).</li>
+                <li>Thêm tô màu thông báo theo màu biểu tượng.</li>
+                <li>Thêm trong suốt thông báo trên màn hình khoá.</li>
+            </ul>
+
+            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 1.3</h3>
+            <ul>
+                <li>Thêm vuốt xuống đa nhiệm tuỳ chọn đóng tất cả ứng dụng.</li>
+                <li>Thêm ẩn vạch thanh kéo CC trên màn hình khoá.</li>
+                <li>Thêm đa nhiệm dạng lưới iPad.</li>
+            </ul>
+
+            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 1.2</h3>
+            <ul>
+                <li>Thêm trong suốt nền Trung tâm điều khiển.</li>
+                <li>Thêm hiện % trên thanh trượt Độ sáng & Âm lượng.</li>
+                <li>Thêm chế độ xoay mọi hướng biểu tượng.</li>
+                <li>Thêm hiển thị lịch Âm/Dương trên thanh trạng thái.</li>
+                <li>Thêm chụp ảnh màn hình bằng 2 ngón vuốt xuống.</li>
+            </ul>
+
+            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 1.1</h3>
+            <ul>
+                <li>Thêm ẩn dấu chấm beta & cập nhật.</li>
+                <li>Thêm ẩn thanh homebar.</li>
+                <li>Thêm ẩn nền dock.</li>
+                <li>Thêm ẩn chế độ xem hôm nay.</li>
+                <li>Thêm ẩn pin & camera trên màn hình khoá.</li>
+                <li>Thêm ẩn biểu tượng ổ khoá trên màn hình khoá.</li>
+                <li>Thêm ẩn huy hiệu thông báo.</li>
+                <li>Thêm ẩn nền thư mục.</li>
+                <li>Thêm ẩn thư viện ứng dụng.</li>
+                <li>Thêm ẩn dấu chấm trang.</li>
+            </ul>
+
+            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 1.0.1</h3>
+            <ul>
+                <li>Thêm tích hợp tweak InfiniteMedia gồm tính năng xoá ảnh vĩnh viễn, phóng to vô hạn, ẩn thanh trượt, lặp lại video, tắt tiếng chụp ảnh...</li>
+                <li>Thêm khoá bảo vệ ứng dụng.</li>
+                <li>Thêm chạm 2 lần vào MHK để tắt thiết bị.</li>
+                <li>Thêm ẩn phân cách khi bật Dock nổi.</li>
+                <li>Thêm tắt cử chỉ Dock.</li>
+                <li>Thêm Dock nổi iPad.</li>
+                <li>Thêm hoạt ảnh MagSafe.</li>
+            </ul>
+
+            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 1.0.0</h3>
             <ul>
                 <li>Phát hành lần đầu.</li>
-                <li>Hỗ trợ Rootless & Roothide Jailbreak.</li>
             </ul>
+
             <div class="footer">Copyright © 2025 - 2030 by JTISVN</div>
         </div>
 
@@ -360,6 +438,7 @@
     </div>
 
     <script>
+        // Logic Tab & Modal ảnh
         function openTab(evt, tabName) {
             var i, tabcontent, tablinks;
             tabcontent = document.getElementsByClassName("tab-content");
