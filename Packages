@@ -12916,6 +12916,27 @@ Name: NotiSound (Roothide)
 Author: EliasSfeir
 Icon: https://jtisvn.github.io/sectionIcons/NotiSound.png
 
+Package: com.jtis.nougat
+Architecture: iphoneos-arm
+Version: 1.3.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 5756
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16), com.a3tweaks.flipswitch (>= 1.0.16)
+Filename: ./debs/com.jtis.nougat_1.3.2_iphoneos-arm.deb
+Size: 1096768
+MD5sum: 8dc61f736e71634f5d9f2787fe9b81dd
+SHA1: e816b4ed69984a5a3d18065ea17a1fa78382ea2f
+SHA256: 1681333ed93ea8ccf026b7378f325a29eec93d3a14a99eead011cb3d51c89889
+SHA512: 4674682304e8a8c7624236cea0bc05858208a0b23c55cb847ea4c1567face82fc83678d3ca99108b3a16ff967f42a37bde72febd122b17f97fc5f236fe3cd24b
+Homepage: https://jtisvn.github.io/
+Description: Thay đổi trung tâm thông báo kiểu Android
+Name: Nougat
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Icon: https://chariz.com/cdn/icon/nougat/icon@3x.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Nougat.json
+Depiction: http://jtisvn.github.io/depiction/Nougat.html
+
 Package: com.jtis.nowidgetlabels
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -19223,6 +19244,28 @@ SHA256: 06afccb05fba8e3a42447c1d86d3b9a4e3730d0a1517495bf3d6477c5aa27004
 SHA512: b573643aba5786009edaa2bcbd0ef1641858b4624b4b747019900435a5d63c4af6dd756fc816adc895b5389e0cd7fcd07c483991e64b7787796078aded0f7d5d
 Description: Multiple containers for your applications!
 Name: Crane (Roothide)
+Author: opa334
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Crane.json
+Depiction: https://jtisvn.github.io/depictions/Crane.html
+Icon: https://jtisvn.github.io/sectionIcons/Crane.png
+
+Package: com.opa334.crane
+Architecture: iphoneos-arm64
+Version: 1.3.17
+Section: Tweaks
+Maintainer: opa334
+Installed-Size: 3252
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy (>=1.1.6), com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Replaces: com.repobvn.crane-rootless
+Filename: ./debs/com.opa334.crane_1.3.17_iphoneos-arm64.deb
+Size: 608084
+MD5sum: 51d0eff0f0225215f40a09eb980689d0
+SHA1: c882cbea4f7be042ad166e4ff3b1bd18786118f9
+SHA256: d476f7cfcfbb86b6eb152937dc143205387d5344aec88e36e687c32eca654dbc
+SHA512: 83d7f7f08966e0f5d4c61af678d61eaedbda9cd89eae998f33f9331736c47e4d14f8df5d49dc97c1ea81aeaf5d1116cf9cacabb6319cfa2d569dd121b06188f0
+Description: Multiple containers for your applications!
+Name: Crane (Rootless)
 Author: opa334
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Crane.json
 Depiction: https://jtisvn.github.io/depictions/Crane.html
