@@ -38,7 +38,7 @@
 "itemSize":"{160,346}"
 },
 {
-"markdown":"Nougat\n\n- Mang trải nghiệm Trung tâm thông báo (Notification Panel) mang phong cách Android Nougat và Oreo lên thiết bị iOS của bạn một cách mượt mà và tự nhiên nhất.\n\n- **Các tính năng nổi bật:**\n\n  + **Cách hoạt động:** Vuốt xuống từ giữa màn hình trên cùng để mở bảng điều khiển Nougat. (Vuốt từ góc trái vẫn mở Trung tâm thông báo gốc của iOS).\n\n  + **Bảng điều khiển chính (4 Module):** Tích hợp Thanh trạng thái (Status Bar), Thanh chỉnh độ sáng, Các nút bật/tắt nhanh (Toggles) và Cài đặt.\n\n  + **Thông báo & Âm nhạc:** Quản lý thông báo ngay bên dưới bảng điều khiển chính. Tích hợp MiniPlayer để điều khiển nhạc và tương thích hoàn toàn với tweak ColorFlow.\n\n  + **Tùy chỉnh giao diện:** Cung cấp sẵn 3 chủ đề (Theme) màu sắc, hoặc tự động thay đổi theo giao diện hệ thống. Cho phép thêm, bớt hoặc sắp xếp lại các nút công tắc (Toggles) theo ý muốn.",
+"markdown":"Nougat\n\n- Mang trải nghiệm Trung tâm thông báo (Notification Panel) mang phong cách Android Nougat và Oreo lên thiết bị iOS của bạn một cách mượt mà và tự nhiên nhất.\n\n- **Các tính năng nổi bật:**\n\n+ **Cách hoạt động:** Vuốt xuống từ giữa màn hình trên cùng để mở bảng điều khiển Nougat. (Vuốt từ góc trái vẫn mở Trung tâm thông báo gốc của iOS).\n\n+ **Bảng điều khiển chính (4 Module):** Tích hợp Thanh trạng thái (Status Bar), Thanh chỉnh độ sáng, Các nút bật/tắt nhanh (Toggles) và Cài đặt.\n\n+ **Thông báo & Âm nhạc:** Quản lý thông báo ngay bên dưới bảng điều khiển chính. Tích hợp MiniPlayer để điều khiển nhạc và tương thích hoàn toàn với tweak ColorFlow.\n\n+ **Tùy chỉnh giao diện:** Cung cấp sẵn 3 chủ đề (Theme) màu sắc, hoặc tự động thay đổi theo giao diện hệ thống. Cho phép thêm, bớt hoặc sắp xếp lại các nút công tắc (Toggles) theo ý muốn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -130,7 +130,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Không xác định",
+"text": "5,6 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
