@@ -13,6 +13,9 @@
             --separator-color: #e5e5ea;
             --radius: 12px;
             --text-on-tint: #9F9BFF;
+            /* Màu check iOS */
+            --success-color: #34c759;
+            --error-color: #ff3b30;
         }
 
         @media (prefers-color-scheme: dark) {
@@ -231,9 +234,21 @@
             background-color: var(--separator-color);
             margin: 20px 0;
         }
+
+        #pt {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: var(--radius);
+            font-size: 14px;
+            display: none; 
+        }
     </style>
 </head>
 <body>
+
+    <div id="prerequisite" data-min-ios="14.0" data-max-ios="17.0" style="display:none;"></div>
 
     <img src="https://jtisvn.github.io/coverimage/NexusBoard.png" alt="NexusBoard Banner" class="banner">
 
@@ -247,6 +262,8 @@
         
         <div id="info" class="tab-content active">
             
+            <div id="pt"></div>
+
             <div class="screenshots-scroll">
                 <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/1.png" class="screenshot-img" onclick="openImage(this)">
                 <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/2.png" class="screenshot-img" onclick="openImage(this)">
@@ -255,10 +272,6 @@
                 <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/5.png" class="screenshot-img" onclick="openImage(this)">
                 <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/6.png" class="screenshot-img" onclick="openImage(this)">
                 <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/7.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/8.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/9.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/10.png" class="screenshot-img" onclick="openImage(this)">
-                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/11.png" class="screenshot-img" onclick="openImage(this)">
             </div>
 
             <div>
@@ -292,13 +305,13 @@
                     </div>
                     <div class="info-item">
                         <span class="info-label">Ngày cập nhật</span>
-                        <span class="info-value">24/2/2026</span>
+                        <span class="info-value">26/2/2026</span>
                     </div>
                 </div>
                 <div class="info-column">
                     <div class="info-item">
                         <span class="info-label">Phiên bản</span>
-                        <span class="info-value">1.7</span>
+                        <span class="info-value">1.9</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Kích thước</span>
@@ -316,39 +329,29 @@
         </div>
 
         <div id="changelog" class="tab-content">
-            <h3 style="margin-top: 10px;">Phiên bản 1.7</h3>
+            <h3 style="margin-top: 10px;">Phiên bản 1.9</h3>
+            <ul>
+                <li>Thêm tắt làm mờ nền trong Đa nhiệm.</li>
+                <li>Thêm ẩn biểu tượng & tên thẻ trong Đa nhiệm.</li>
+                <li>Thêm chạm 2 lần để lật Camera.</li>
+            </ul>
+
+            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 1.8</h3>
+            <ul>
+                <li>Thêm giả mạo thông tin thiết bị trong mục Giới thiệu.</li>
+                <li>Thêm ẩn linh kiện ko xác định trong mục Giới thiệu.</li>
+                <li>Thêm hiệu ứng nảy và tốc độ đóng/mở ứng dụng.</li>
+                <li>Thêm chế độ xoay ngược màn hình.</li>
+            </ul>
+
+            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 1.7</h3>
             <ul>
                 <li>Thêm căn giữa văn bản & Avatar iCloud Cài đặt.</li>
                 <li>Thêm ẩn mũi tên điều hướng.</li>
-                <li>Thêm bo tròn các mục cài đặt.</li>
-                <li>Thêm bo tròn biểu tượng trong cài đặt.</li>
-                <li>Thêm ẩn linh kiện ko xác định trong mục Giới thiệu.</li>
+                <li>Thêm bo tròn các mục cài đặt và biểu tượng.</li>
+                <li>Thêm ẩn thanh tìm kiếm trong Cài đặt.</li>
                 <li>Thêm ẩn thanh trạng thái trong CC.</li>
                 <li>Sửa đổi tên UnlockBoard thành <strong>NexusBoard</strong>.</li>
-            </ul>
-
-            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 1.6</h3>
-            <ul>
-                <li>Thêm ẩn thanh cuộn thông báo trên màn hình khoá.</li>
-                <li>Thêm nhấn nhanh 2 lần vào nút giảm âm lượng để bật đèn pin.</li>
-                <li>Thêm bo tròn mô-đun Trung tâm điều khiển.</li>
-                <li>Thêm xoá cảnh báo pin yếu.</li>
-                <li>Thêm tắt tiếng chụp ảnh màn hình.</li>
-            </ul>
-
-            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 1.5</h3>
-            <ul>
-                <li>Thêm hiển thị tên ứng dụng dưới Dock.</li>
-                <li>Thêm tắt xem trước ảnh chụp màn hình.</li>
-                <li>Thêm tắt hoàn toàn WiFi & Bluetooth.</li>
-                <li>Thay đổi giao diện cài đặt.</li>
-            </ul>
-
-            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 1.4</h3>
-            <ul>
-                <li>Thêm xem chi tiết pin (chạm 2 lần vào thanh trạng thái).</li>
-                <li>Thêm tô màu thông báo theo màu biểu tượng.</li>
-                <li>Thêm trong suốt thông báo trên màn hình khoá.</li>
             </ul>
 
             <div class="footer-text" style="margin-top: 30px;">Copyright © 2025 - 2030 by JTISVN</div>
@@ -395,9 +398,7 @@
                 tablinks[i].className = tablinks[i].className.replace(" active", "");
             }
             document.getElementById(tabName).style.display = "block";
-            setTimeout(() => {
-                document.getElementById(tabName).classList.add("active");
-            }, 10);
+            setTimeout(() => { document.getElementById(tabName).classList.add("active"); }, 10);
             evt.currentTarget.className += " active";
         }
 
@@ -408,11 +409,56 @@
             modalImg.src = element.src; 
         }
 
-        function closeImage() {
-            var modal = document.getElementById("myImageModal");
-            modal.style.display = "none";
-        }
+        function closeImage() { document.getElementById("myImageModal").style.display = "none"; }
     </script>
 
+    <script>
+        const VERSION_CHECK_SUPPORTED = "✅ Phiên bản iOS của bạn được hỗ trợ! &#x1f60a;";
+        const VERSION_CHECK_UNCONFIRMED = "❌ Rất tiếc, phiên bản iOS hiện tại không hỗ trợ! %s &#x1f61e;"; 
+
+        (function (document) {
+            "use strict";
+            function setMessage(m, isSupported) {
+                var pt = document.getElementById("pt");
+                pt.style.display = "block"; pt.innerHTML = m;
+                if (isSupported) {
+                    pt.style.backgroundColor = "rgba(52, 199, 89, 0.15)";
+                    pt.style.color = "#34c759"; pt.style.border = "1px solid rgba(52, 199, 89, 0.3)";
+                } else {
+                    pt.style.backgroundColor = "rgba(255, 59, 48, 0.15)";
+                    pt.style.color = "#ff3b30"; pt.style.border = "1px solid rgba(255, 59, 48, 0.3)";
+                }
+            }
+            function toNum(bits) { return (10000 * parseInt(bits[0])) + parseInt((100 * (bits[1] ? bits[1] : 0))) + parseInt(bits[2] ? bits[2] : 0); }
+            function parseVersionString(version) { var bits = version.split("."); return toNum(bits); }
+            function compareVersions(one, two) { var two_ = toNum(two); return one != two_ ? (one > two_ ? 1 : -1) : 0; }
+
+            var prerequisite = document.getElementById("prerequisite");
+            var version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i);
+            if (!prerequisite) return;
+            if (!version && navigator.maxTouchPoints > 0 && navigator.appVersion.indexOf("(Macintosh; Intel Mac OS X 10_15") !== -1) {
+                version = navigator.appVersion.match(/(Version)\/(\d+)\.(\d+)(\.(\d+))?/i);
+            }
+            var minString = prerequisite.dataset.minIos;
+            var maxString = prerequisite.dataset.maxIos;
+            var minVersion = parseVersionString(minString);
+            var maxVersion = maxString ? parseVersionString(maxString) : null;
+            var message = null; var isSupported = false;
+
+            if (version) {
+                var osVersion = [version[2], version[3], version[4] ? version[5] : 0];
+                var osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : "");
+                message = VERSION_CHECK_SUPPORTED; isSupported = true;
+                if (compareVersions(minVersion, osVersion) == 1) {
+                    message = VERSION_CHECK_UNCONFIRMED.replace("%s", "(Quá thấp: " + osString + ")");
+                    isSupported = false;
+                } else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
+                    message = VERSION_CHECK_UNCONFIRMED.replace("%s", "(Quá cao: " + osString + ")");
+                    isSupported = false;
+                }
+                if (message) setMessage(message, isSupported);
+            }
+        })(document);
+    </script>
 </body>
 </html>
