@@ -17240,6 +17240,26 @@ Depiction: http://jtisvn.github.io/depiction/YouTubeLegacy.html
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.ytx
+Architecture: iphoneos-arm64
+Version: 1.7.14
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
+Filename: ./debs/com.jtis.ytx_1.7.14_iphoneos-arm64.deb
+Size: 6032
+MD5sum: a53e010054b9a0b130c060c75f7e2b96
+SHA1: 477cb63be50eb8350ed19ff4d405f6b8deddb150
+SHA256: db49ac3ad3e3e08b87bd70d454f3ceece5f38683cb3460a56870f3970e41702b
+SHA512: e7562993ba0b578bb72b6cc6beb8dcafbc25e109b0c7364e6055636ed671966901c6def4cec5271c3b77e1c82857c849b9d2c10baf4486a7f4d9c57185817d79
+Description: A YouTube improvement tweak.
+Name: YouTube X (Rootless)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
+Icon: https://jtisvn.github.io/sectionIcons/Youtube.png
+
+Package: com.jtis.ytx
 Architecture: iphoneos-arm
 Version: 1.7.17
 Section: Tweaks
@@ -19860,49 +19880,6 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
 
-Package: com.ps.youspeed
-Architecture: iphoneos-arm64
-Version: 1.6.2
-Section: Tweaks
-Maintainer: PoomSmart
-Installed-Size: 108
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
-Conflicts: com.lyvendia.ytspeed
-Filename: ./debs/com.ps.youspeed_1.6.2_iphoneos-arm64.deb
-Size: 12068
-MD5sum: 28bc4bf9c4b697c1d226ade0e291d816
-SHA1: c4033d17357d954f89c10e939c26d3acdff679f4
-SHA256: d91fd1b21d0926dcb07b155a62869fe0e9576ca1b318226a3fb5a01ce1609509
-SHA512: 2dde63611ab2a6e63fa8e2cb9cfa385506ae326688b0be42cd3bac12f679b25fb33a794437d03a11f32df513048009e0106f60660751329cd1d200cbf5d113dc
-Description: Views/changes video speed in iOS YouTube app faster, and more speed options.
-Name: YouSpeed (Rootless)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
-SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
-Package: com.ps.youspeed
-Architecture: iphoneos-arm64e
-Version: 1.6.2
-Section: Tweaks
-Maintainer: PoomSmart
-Installed-Size: 108
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
-Conflicts: com.lyvendia.ytspeed
-Filename: ./debs/com.ps.youspeed_1.6.2_iphoneos-arm64e.deb
-Size: 11932
-MD5sum: 33063623a49beee343cedcfa23ca1aaf
-SHA1: 52df32d311d9d4d716df57d636cb2edec49ad132
-SHA256: b130fc7bef3db1a2ad8bfcf1580c02fbf4144f26f9382bed09139b8dbc559be3
-SHA512: 6e2f941385ab5340968402b4e2beb00d0fdf14b2ccb518c4ec11a33b1ef8d6b614495794ff868fe274d72941a9acd1654c17d0588b52e7ae50f7bdbad04e4d33
-Description: Views/changes video speed in iOS YouTube app faster, and more speed options.
-Name: YouSpeed (Roothide)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
-SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
 Package: com.ps.ytabgoodies
 Architecture: iphoneos-arm64e
 Version: 1.0.6
@@ -19963,46 +19940,6 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
-Package: com.ps.ytx
-Architecture: iphoneos-arm64
-Version: 1.7.14
-Section: Tweaks
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
-Filename: ./debs/com.ps.ytx_1.7.14_iphoneos-arm64.deb
-Size: 6020
-MD5sum: 803406ea39b0b240a6f3a2f38af11031
-SHA1: f5df2788f658603952d06a6fa4e59f40d82a8290
-SHA256: 88cd4277e17c795f6157e4f16b519ec5eb0e87eabf669550ab0cf62288b0aa84
-SHA512: b7f69360e0e96ac097d25e10cd8b6553ad666f721298184d6d43527883a4de85edeb616dd64862619a036101ba4a184055691564aba8dfabb29e76f8ac2cdd4f
-Description: A YouTube improvement tweak.
-Name: YouTube X
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
-SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
-Icon: https://jtisvn.github.io/sectionIcons/Youtube.png
-
-Package: com.ps.ytx
-Architecture: iphoneos-arm
-Version: 1.7.17
-Section: Tweaks
-Maintainer: PoomSmart
-Installed-Size: 56
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
-Filename: ./debs/com.ps.ytx_1.7.17_iphoneos-arm.deb
-Size: 5924
-MD5sum: e429d2305e8fbd364f00841aee91310e
-SHA1: cb6a83618bd8e1c73d76bb3c834970f789b0698e
-SHA256: 7514fdd74f3e1e6243ac8fbdb57722d67c9d288469b5dc50d3194483fa3f138d
-SHA512: 2cb050894fa19b56474b871c91034f896ae8bf4b2d3837ca15f1df2e8ab87616f207a9a3a2f68b19822c9b20a23c23c78037dca421279d165183ba2a1c441186
-Description: A YouTube improvement tweak.
-Name: YouTube X
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
-SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
-Icon: https://jtisvn.github.io/sectionIcons/Youtube.png
 
 Package: com.raulsaeed.bhtiktok++s
 Architecture: iphoneos-arm64
