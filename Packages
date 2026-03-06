@@ -17197,6 +17197,48 @@ Name: YouTube Legacy (Rootless)
 Author: PoomSmart
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.ytlegacy
+Architecture: iphoneos-arm
+Version: 1.9.1~b1
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 2360
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.ps.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
+Replaces: com.ps.ytlegacy
+Filename: ./debs/com.jtis.ytlegacy_1.9.1~b1_iphoneos-arm.deb
+Size: 225632
+MD5sum: 77b8aa6fbc8c7d98d5bcaf10b991b50c
+SHA1: 0219fa0af61c723511260bc0f428ce3fc505cc50
+SHA256: 17b74c9fc9104d0c19fc7aa3d0ca5fecf4827d56590bd00122fa2a6b8fc7d329
+SHA512: 804916da4ec443b6afa1063c82c17bcbb32190d023c36970d1c13fe8662c3045008c49253174469eb346084e2c1918db1a4e1668f979c69961f33acb38034ebb
+Description: Hỗ trợ cho các phiên bản cũ YouTube của bạn hoạt động trở lại.
+Name: YouTube Legacy
+Author: PoomSmart
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YouTubeLegacy.json
+Depiction: http://jtisvn.github.io/depiction/YouTubeLegacy.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.ytlegacy
+Architecture: iphoneos-arm64
+Version: 1.9.1~b1
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 2376
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.bvn.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
+Filename: ./debs/com.jtis.ytlegacy_1.9.1~b1_iphoneos-arm64.deb
+Size: 225280
+MD5sum: d8a378bb7ada422671a25804af866e37
+SHA1: 1c17d08f9ffd63c01aca1369674d7b92e3c9d3bd
+SHA256: 111b691c9ec29c1bcba0737352c9f6a6c6a70a3c137408481c48712b97a9cd37
+SHA512: 45a29d7637eb30ebfd1aa671a9894e0eaf48de3c4ce9e06d214a084a55eb97f7a1f937ad2029f0f5facb01966742d829f8d07cec9a62c3785771ffb25c0e706d
+Homepage: https://jtisvn.github.io/
+Description: Hỗ trợ cho các phiên bản cũ YouTube của bạn hoạt động trở lại.
+Name: YouTube Legacy (Rootless)
+Author: PoomSmart
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YouTubeLegacy.json
+Depiction: http://jtisvn.github.io/depiction/YouTubeLegacy.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.ytx
 Architecture: iphoneos-arm
 Version: 1.7.17
@@ -19817,6 +19859,49 @@ Name: YouPiP (Rootless)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.youspeed
+Architecture: iphoneos-arm64
+Version: 1.6.2
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
+Conflicts: com.lyvendia.ytspeed
+Filename: ./debs/com.ps.youspeed_1.6.2_iphoneos-arm64.deb
+Size: 12068
+MD5sum: 28bc4bf9c4b697c1d226ade0e291d816
+SHA1: c4033d17357d954f89c10e939c26d3acdff679f4
+SHA256: d91fd1b21d0926dcb07b155a62869fe0e9576ca1b318226a3fb5a01ce1609509
+SHA512: 2dde63611ab2a6e63fa8e2cb9cfa385506ae326688b0be42cd3bac12f679b25fb33a794437d03a11f32df513048009e0106f60660751329cd1d200cbf5d113dc
+Description: Views/changes video speed in iOS YouTube app faster, and more speed options.
+Name: YouSpeed (Rootless)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.ps.youspeed
+Architecture: iphoneos-arm64e
+Version: 1.6.2
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 108
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
+Conflicts: com.lyvendia.ytspeed
+Filename: ./debs/com.ps.youspeed_1.6.2_iphoneos-arm64e.deb
+Size: 11932
+MD5sum: 33063623a49beee343cedcfa23ca1aaf
+SHA1: 52df32d311d9d4d716df57d636cb2edec49ad132
+SHA256: b130fc7bef3db1a2ad8bfcf1580c02fbf4144f26f9382bed09139b8dbc559be3
+SHA512: 6e2f941385ab5340968402b4e2beb00d0fdf14b2ccb518c4ec11a33b1ef8d6b614495794ff868fe274d72941a9acd1654c17d0588b52e7ae50f7bdbad04e4d33
+Description: Views/changes video speed in iOS YouTube app faster, and more speed options.
+Name: YouSpeed (Roothide)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.ps.ytabgoodies
 Architecture: iphoneos-arm64e
