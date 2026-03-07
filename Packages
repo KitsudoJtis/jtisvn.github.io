@@ -21839,6 +21839,26 @@ Depiction: https://kok3shidoll.github.io/info/lol.sep.turdusmerula/
 Author: Clarity, kok3shidoll, Mineek
 
 Package: me.ahmedbafkir.dleasy
+Architecture: iphoneos-arm64
+Version: 2.14.9
+Section: Tweaks
+Maintainer: AhmedBafkir <prooxy0@gmail.com>
+Installed-Size: 15684
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/me.ahmedbafkir.dleasy_2.14.9_iphoneos-arm64.deb
+Size: 5575476
+MD5sum: 4407d54627c30f5d9c4e9046deb850df
+SHA1: 937a99000d787784f6c65e4521e300048796fe3b
+SHA256: 920f726067c8016cdb218c081e0b002c379720def221635e65ace6845e42348b
+SHA512: 6028b8cdb86ed688c01d17be9675d5a9c24d40a8021654ac645a5fe15eb51e4e69e7fd0a09843c9f3b90d6516b7f45f9025a0f72c8f5351ccaf022c212f56f40
+Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
+Name: DLEasy (Rootless)
+Author: AhmedBafkir <prooxy0@gmail.com>
+Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
+Icon: https://Jtisvn.github.io/sectionIcons/DLEasy.png
+
+Package: me.ahmedbafkir.dleasy
 Architecture: iphoneos-arm64e
 Version: 2.14.9
 Section: Tweaks
@@ -22708,68 +22728,6 @@ SHA512: 485e2f32fb6098ca01471f5a879b7d43c2b36df8d07ddbd9c5524647da037d584b4da104
 Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
 Name: DLEasy
 Author: AhmedBafkir
-Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
-Icon: https://Jtisvn.github.io/sectionIcons/DLEasy.png
-
-Package: ru.rejail.dleasy
-Architecture: iphoneos-arm64e
-Version: 2.14.8K-Roothide
-Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 15616
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
-Filename: ./debs/ru.rejail.dleasy_2.14.8K-Roothide_iphoneos-arm64e.deb
-Size: 5476968
-MD5sum: bba0b5f5dc2136b5e2f7be87e2544392
-SHA1: 2cb2455fc0175e2acf753e0f05e141ffe10d0b92
-SHA256: 2eaea67beffcece7b0a05f13262dbabd3808f0f8854cb831c3f287a6a6ff7788
-SHA512: 2af3f69ae435a635811ec76225995ddf5ff00af0298157cce07488138b77ab124f52762c6130a8f645de68362ebf1d84cb0a08ef91a8613ff6fc01d4be713ff5
-Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
-Name: DLEasy (Roothide)
-Author: AhmedBafkir <prooxy0@gmail.com>
-Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
-Icon: https://Jtisvn.github.io/sectionIcons/DLEasy.png
-
-Package: ru.rejail.dleasy
-Architecture: iphoneos-arm64
-Version: 2.14.8
-Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 15616
-Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
-Filename: ./debs/ru.rejail.dleasy_2.14.8_iphoneos-arm64.deb
-Size: 5554252
-MD5sum: f1400a2f57ecd3b6d782aa2cd16df086
-SHA1: 6786df9d089cdfc419eb580569800cc823acb9f0
-SHA256: 2d8757607136896da3fa8670a8fc89537f05977b1c4d9ed0264db8c3b8842820
-SHA512: 2eaa03e5ae1a21e3fca7d6730348c61339d64d06975df9099e23a5cacc2f4c03e891c1b38a649b2c9224819c283a315b1e57283ade07570bb536d8850c0d2c27
-Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
-Name: DLEasy (Rootless)
-Author: AhmedBafkir <prooxy0@gmail.com>
-Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
-Icon: https://Jtisvn.github.io/sectionIcons/DLEasy.png
-
-Package: ru.rejail.dleasy
-Architecture: iphoneos-arm64e
-Version: 2.14.8
-Section: Tweaks
-Maintainer: JTIS Repo
-Installed-Size: 15616
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
-Filename: ./debs/ru.rejail.dleasy_2.14.8_iphoneos-arm64e.deb
-Size: 11027208
-MD5sum: 9bafd63d176f03f770f3f40fd044b74b
-SHA1: 99583a48bf503e4c5b2db666c62b97663d90a088
-SHA256: f4c96295115335ceec60065973da8ca5c224df1aaf72ca8f3b3513b61b9ffe72
-SHA512: 4b123f47e51035c68b2a1c9f0fff344f6a5e1bcf6c826cfb2237c268d5270db214f36750570124791ff125779e8700de19b6e6e290a60b51d088d6a593c7ac7d
-Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
-Name: DLEasy (Roothide)
-Author: AhmedBafkir <prooxy0@gmail.com>
 Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
 Icon: https://Jtisvn.github.io/sectionIcons/DLEasy.png
