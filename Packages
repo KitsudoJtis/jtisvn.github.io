@@ -22753,6 +22753,26 @@ Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
 Icon: https://Jtisvn.github.io/sectionIcons/DLEasy.png
 
+Package: ru.rejail.dleasy
+Architecture: iphoneos-arm64
+Version: 2.14.9
+Section: Tweaks
+Maintainer: AhmedBafkir <prooxy0@gmail.com>
+Installed-Size: 15684
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/ru.rejail.dleasy_2.14.9_iphoneos-arm64.deb
+Size: 5576516
+MD5sum: 2f2f2f4f084f3c0041697e4f771cde1f
+SHA1: e079e38d7faf39ee82192b30c708745fcae0b7a7
+SHA256: 36573fa3d686592555a3f43c482abe5a47455c241b23b4026e261eb0845cac6d
+SHA512: fde5124b4f70f3a48cf04a5d7b8817c4cea21190c4c562d37fb953dd4b712966754ceafbf21462e9da34d8f4e958bd54c8c0c87a7bf918e375f0f481e96fec7d
+Description: Tải xuống hình ảnh và video trên nền tảng mạng xã hội.
+Name: DLEasy (Rootless)
+Author: AhmedBafkir <prooxy0@gmail.com>
+Depiction: https://jtisvn/jtisvn.github.io/infodeb/DLEasy/index.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/DLEasy.json
+Icon: https://Jtisvn.github.io/sectionIcons/DLEasy.png
+
 Package: ru.rj.smartbattery2
 Architecture: iphoneos-arm
 Version: 1.6R
