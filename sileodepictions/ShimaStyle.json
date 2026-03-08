@@ -1,7 +1,7 @@
 {
 "minVersion": "0.1",
 "headerImage": "https://jtisvn.github.io/coverimage/ShimaStyle.png",
-"tintColor": "#0084FF",
+"tintColor": "#339999",
 "tabs": [
 {
 "tabname": "Giới thiệu",
@@ -9,7 +9,7 @@
 { "class": "DepictionHeaderView", "title": "" },
 {
 "class": "DepictionLabelView",
-"text": "Messed",
+"text": "ShimaStyle",
 "fontWeight": "semibold",
 "fontSize": 22,
 "usePadding": true,
