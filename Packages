@@ -17280,6 +17280,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/YouTubeLegacy.json
 Depiction: http://jtisvn.github.io/depiction/YouTubeLegacy.html
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.ytlegacy
+Architecture: iphoneos-arm
+Version: 1.9.1~b2
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 2360
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.ps.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
+Filename: ./debs/com.jtis.ytlegacy_1.9.1~b2_iphoneos-arm.deb
+Size: 225776
+MD5sum: 62ae6d2021d786b1c4a3295fdec3de5a
+SHA1: bceb1176c634a8272140a6ef44249ac283ba9ac3
+SHA256: 1dc03f57fcc8915520de9634ee061e7a97212f084ccf9b53e008c1660aefc479
+SHA512: 9f5474472601b509027129aa119bda9efc6a4fd937d7931814e91313b9aad32576e9eb1f4091da93a75884e274630133a62b28ca2daed5971ef9e865dcfa23bf
+Description: Hỗ trợ cho các phiên bản cũ YouTube của bạn hoạt động trở lại.
+Name: YouTube Legacy
+Author: PoomSmart
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YouTubeLegacy.json
+Depiction: http://jtisvn.github.io/depiction/YouTubeLegacy.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.ytx
 Architecture: iphoneos-arm64
 Version: 1.7.14
