@@ -14332,6 +14332,47 @@ Name: ShadowBuster (Roothide)
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: Lizynz <lizynz@ya.ru>
 
+Package: com.jtis.shimastyle
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Little 34306
+Installed-Size: 404
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.shimastyle_1.0.0_iphoneos-arm64.deb
+Size: 29372
+MD5sum: 7241617f34ff745b2b2d7d694643030e
+SHA1: bba929e8eded8917e643d16904ceffb41f39739d
+SHA256: f04ac7480ab0ecc8193c7faebeb9f98e412ab69ba8618d6ad1fa0fb93496d94c
+SHA512: 7dc60aa94720d94af5faf110796b3fd3632fe458c894da9e70ba837aaf181baa3b07d1cd0603abe36caba50868bace16635895b4999fcb277719a12409590297
+Description: Force all notifications to Dynamic Island with custom background support. Supports iOS 16-26.
+Name: ShimaStyle (Rootless)
+Author: 34306
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ShimaStyle.json
+Depiction: http://jtisvn.github.io/depiction/ShimaStyle.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.shimastyle
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Little 34306
+Installed-Size: 404
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.jtis.shimastyle_1.0.0_iphoneos-arm64e.deb
+Size: 28128
+MD5sum: 0be65f02f6ef8ae7c25e11f04b35a23a
+SHA1: ed87ea20cf6604caffdcf71204427337d3df23d3
+SHA256: f49c1990bd1d1ed992e0b6a1a09cfecfc2f18902866c4aa291b815ad79b3eed2
+SHA512: 6c1adcbfda3daa0757261c8ab111fde2b06966babf571fb191676cb0e686eab1c71d786735213f46cba154ba29da630e41d2b4d18dd43ae8e3dacc0935b14921
+Description: Force all notifications to Dynamic Island with custom background support. Supports iOS 16-26.
+Name: ShimaStyle (Roothide)
+Author: 34306
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ShimaStyle.json
+Depiction: http://jtisvn.github.io/depiction/ShimaStyle.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtis.shortmoji2
 Architecture: iphoneos-arm64
 Version: 2.0.1
