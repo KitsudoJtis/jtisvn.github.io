@@ -12,7 +12,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "AutoFaceUnlock",
+"text": "AutoScroll",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": true,
