@@ -16528,6 +16528,28 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
 Depiction: http://jtisvn.github.io/depiction/VibeTok.html
 Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
 
+Package: com.jtis.vibett
+Architecture: iphoneos-arm64e
+Version: 1.72
+Section: Tweaks
+Maintainer: DeNsor
+Installed-Size: 864
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Replaces: com.den.vibett
+Filename: ./debs/com.jtis.vibett_1.72_iphoneos-arm64e.deb
+Size: 132652
+MD5sum: 6bac18c6604cca724da5451c738bf1b2
+SHA1: bbb48babaff2cf39a734ea69c9999ba572447680
+SHA256: 21528baeb71fe9b5a389f73adff4ddc74b39dcdd22955e55cf1ecddc7a22b0aa
+SHA512: 3bd4e18044ce1aea1df42d07539e4ebb8600e14a7d8aec3cdb4d229b46f426a6fc002c90cc423697c62219fbd0e513608659315467f2e829afd6f711d3cf3476
+Description: Make TikTok Better!
+Name: VibeTok (Roothide)
+Author: DeNsor
+SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
+Depiction: http://jtisvn.github.io/depiction/VibeTok.html
+Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
+
 Package: com.jtis.videosunmute
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -17750,15 +17772,15 @@ Architecture: iphoneos-arm64
 Version: 2.0
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 1384
+Installed-Size: 1416
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
 Filename: ./debs/com.jtisvn.nexusboard_2.0_iphoneos-arm64.deb
-Size: 352592
-MD5sum: 9d083566c398ae8f59e4fd4daccbf519
-SHA1: 49db7a0fdbbf5f3f0e96abb20baf6acf47607cdb
-SHA256: 31ef7611189b2e3dd7638b85848bd71247ca8ced774a868d2201401c2d8007bd
-SHA512: 56b8c59c6cc3c1b48d5e32336763315cf19de7d56f86f72164d06c07aa87489719d73f5a0e95c7ea76f3862d3d9e6252503455b735d9a437a022b67d18f66cb8
+Size: 356044
+MD5sum: 67371b6d5fa9adbf3bc847373aff6ea0
+SHA1: 57a8e2bd1802acf47d5591ff66e1e49031a537e4
+SHA256: 5ae3ea2e08e3f49ff6f74b878dc8089899814e3ec5be648e68b31af46e2245ec
+SHA512: 63a47558ccc13c9b947f7a1e533a84421116a1034199163af4b7edf27df25e8e484bee9c7665c80607d3441f85400c639f2055dd48185bae210b4ae073f7d5bd
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
@@ -17773,16 +17795,16 @@ Architecture: iphoneos-arm64e
 Version: 2.0
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 1384
+Installed-Size: 1416
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
 Filename: ./debs/com.jtisvn.nexusboard_2.0_iphoneos-arm64e.deb
-Size: 352684
-MD5sum: 13a40dee72b4e01d6e232ca78e11c6ef
-SHA1: c1e083146386e61aea96c0e15f33ded0a02ec04a
-SHA256: b04c9dff2eafbe017451b0558b73af424a48fb3c36adfd5e0a977ce2a935da72
-SHA512: 864f9e95210ad6845b4514affbc19072f4e5edad5dd9d1448cb12ca8d4d1013fdf378c8b3bf84d16b5fa8dc3302a6f68b8741ea3c1c613ff9fcc63d98e60663a
+Size: 355796
+MD5sum: 0452665af8983387b58c1671ca9a8fe0
+SHA1: 5e3b2e0ca6c6df9a7a8061c7e29d10e0c117f288
+SHA256: df227902c2f8ebf0239ab0f72be0448d07ed44380955c1a6db6d50c81edf07ff
+SHA512: f06bdb11e2b33cc518d977e48bf6c9ef42428c4ee8eb1d769a927f73efeea6b8b9a4d6a0f3a4115c19c0b66b15aefee4ff28966334d627c2ea8d25c3bbb17c5c
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
