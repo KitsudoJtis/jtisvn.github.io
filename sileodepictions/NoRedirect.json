@@ -83,7 +83,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "8/11/2025",
+"text": "18/2/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -101,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.1.0",
+"text": "2.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false

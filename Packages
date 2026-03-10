@@ -12825,41 +12825,42 @@ Author: 苏苏
 
 Package: com.jtis.noredirect
 Architecture: iphoneos-arm64
-Version: 1.10
+Version: 1.9
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 580
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
-Filename: ./debs/com.jtis.noredirect_1.10_iphoneos-arm64.deb
-Size: 57328
-MD5sum: aa22c5ec31d7042ccc693fc14b02ec8e
-SHA1: d22c14464e7f8188516cfc43c8204db41517c4b3
-SHA256: 806fa49f9f607695c7ddb61af50d3abe6a975bd07abf4db50496f406195dc7ca
-SHA512: abe8f9ae4fc469005fd84c8116b173493dd071cd258a63fc40397696875ab17c939ab77abfc5f5e23807707b40390845345046b6f26843858abb61f4a0bf10fe
-Description: Ngăn các ứng dụng cụ thể chuyển hướng đến App Store, Safari hoặc các ứng dụng khác.
+Installed-Size: 576
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/com.jtis.noredirect_1.9_iphoneos-arm64.deb
+Size: 55656
+MD5sum: 05fe26207f9ba414c7384ff13b2999eb
+SHA1: c2a733359ff9ad5363bb119d13006ced1d23936e
+SHA256: 265a99ceab8100b3c7dc1cff0cd9e13920a4fa345083b70cedd6b7755c067b5a
+SHA512: 8a40215bb5f04a1368a217b67304cc8750832e3b314135de747e821e0e32e472a22a789a32dc13008891239266089788ab3fbd9d9dbd56e71a43234ea15aef5c
+Description: Stop specified apps from redirecting to App Store, Safari or other apps.
 Name: No Redirect (Rootless)
 Author: Lessica <82flex@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/NoRedirect.json
+Depiction: http://jtisvn.github.io/depiction/NoRedirect.html
 Icon: https://jtisvn.github.io/sectionIcons/NoRedirect.png
 
 Package: com.jtis.noredirect
 Architecture: iphoneos-arm64e
-Version: 1.10
+Version: 2.1
 Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 580
-Pre-Depends: rootless-compat(>= 0.9)
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 832
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
-Filename: ./debs/com.jtis.noredirect_1.10_iphoneos-arm64e.deb
-Size: 57220
-MD5sum: 173c1ed5d7d14fbc1472d04b2c4250f2
-SHA1: 19fe9f5798e845c6fd2025f9b0e7e9c922aca9fa
-SHA256: f23cdf53b93f2f5aa76dc6101d652fa94014dc82860a41861e74f1cc72dcb6fc
-SHA512: d74f62e30b95244aa4f30645d3b0bf5daa2a52fdaf30235e3e52cb5b928ed1077f2e2667328b356bff3bdeb6e5709e7faef3ce3dea5443f58c2445e3af574d21
+Filename: ./debs/com.jtis.noredirect_2.1_iphoneos-arm64e.deb
+Size: 92856
+MD5sum: b81b0eaa4eb7f173c8e3122ebf985d13
+SHA1: ef1a2a42c7e1d246f083863aa0b8c82b7d7d5995
+SHA256: a0903795d9dc2fc6097c11b7cf3a25c52ae3ba60c20322d19a4a2bd2b3e14215
+SHA512: 3c1fc9ba580d1e38c2c1d5828eef9a9c45b0112784e9217b66d6d446ef5c1621fd0f0c9f77b010931b01ae309e90352c1178edf8825b1f04f5f0552312a6b99e
 Description: Ngăn các ứng dụng cụ thể chuyển hướng đến App Store, Safari hoặc các ứng dụng khác.
 Name: No Redirect (Roothide)
 Author: Lessica <82flex@gmail.com>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/NoRedirect.json
+Depiction: http://jtisvn.github.io/depiction/NoRedirect.html
 Icon: https://jtisvn.github.io/sectionIcons/NoRedirect.png
 
 Package: com.jtis.noscreenshotview
@@ -16508,81 +16509,20 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Velvet2.json
 
 Package: com.jtis.vibett
 Architecture: iphoneos-arm64
-Version: 1.3
+Version: 1.72
 Section: Tweaks
 Maintainer: DeNsor
-Installed-Size: 692
+Installed-Size: 864
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.vibett_1.3_iphoneos-arm64.deb
-Size: 115740
-MD5sum: c7aa46bb2e1455700905ad1c3c9cea64
-SHA1: 23ba1d97f5e1337592044021f4446fb5c8866794
-SHA256: 0241b492db30ef83273546b53b3811eea1897fe01b7c60eadac150dcf2cacbc0
-SHA512: 3429e8a98afab01c79d469ec2b892f7ca2ab7c712eda9c5d0ee2c11877029b1295115069b17cebf6ed185c878265ae333185a68f945af5fc2f5fd6746edca301
+Replaces: com.den.vibett
+Filename: ./debs/com.jtis.vibett_1.72_iphoneos-arm64.deb
+Size: 137520
+MD5sum: 6ba79e261bb3036c0eecd72d91ebc364
+SHA1: aa54c7c621a4aed404fcd562aa8d941aadf807d6
+SHA256: d20b168d26cf00344a0f7cd785549ce40f1cb6419cabed52a324ace55df47a0b
+SHA512: 026f8d308457d50c49c63099765d9b7dee64f9972bba9a4022e56fd51b4f34aac6c01cd1649098da9c3a95469a69f496d7caa4081c2df51fc1300c662f566be1
 Description: Make TikTok Better!
 Name: VibeTok (Rootless)
-Author: DeNsor
-SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
-Depiction: http://jtisvn.github.io/depiction/VibeTok.html
-Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
-
-Package: com.jtis.vibett
-Architecture: iphoneos-arm64e
-Version: 1.3
-Section: Tweaks
-Maintainer: DeNsor
-Installed-Size: 692
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.vibett_1.3_iphoneos-arm64e.deb
-Size: 111636
-MD5sum: ed26918793b9e48c861e93699ced20fd
-SHA1: 58289f46d2e309b287c75f971b486612452050c5
-SHA256: e132893caae11c172e98dbc56c315d6b28e7adabdd61c60ea43acce15ae27261
-SHA512: 81d30fb0b74f25e6cf126a22ba086a799789afe0d391208a978ff50ecd7b15f695e27b2f900fa42f53b3df9b61304364b132b08be66bd1497eeb65f703167dc2
-Description: Make TikTok Better!
-Name: VibeTok (Roothide)
-Author: DeNsor
-SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
-Depiction: http://jtisvn.github.io/depiction/VibeTok.html
-Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
-
-Package: com.jtis.vibett
-Architecture: iphoneos-arm64
-Version: 1.4-1+debug
-Section: Tweaks
-Maintainer: DeNsor
-Installed-Size: 808
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.vibett_1.4-1+debug_iphoneos-arm64.deb
-Size: 126480
-MD5sum: d40b1a7a5d0b0bd602622287e3678848
-SHA1: 0a7aea9f5e889a17b95b2072ca3ed6f6ccddd779
-SHA256: ea7b2da339ed4a6d1408433c4d038ae3f21e35bd035c0c881212efb8d928e08e
-SHA512: abc80d84bfe04b876d1f2dd9ff1467effa60a243b30474bda636be1a0ad3a5303361ed549844e6646635bc557a4f4b8a96c7d255fbaa99347f5049616f7e7d30
-Description: Make TikTok Better!
-Name: VibeTok (Rootless)
-Author: DeNsor
-SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
-Depiction: http://jtisvn.github.io/depiction/VibeTok.html
-Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
-
-Package: com.jtis.vibett
-Architecture: iphoneos-arm64e
-Version: 1.4-1+debug
-Section: Tweaks
-Maintainer: DeNsor
-Installed-Size: 808
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.vibett_1.4-1+debug_iphoneos-arm64e.deb
-Size: 123328
-MD5sum: f471fc123ca0818dbfd6afcee2e11555
-SHA1: a754505d1e4db24035e799ee63d445409d8aff87
-SHA256: e202e47cd1f507c5f2813d39e0933b941586c8719a630863a0a8de382a171614
-SHA512: 7694d2dff1014352dcf4986690ffe528d456b4552113713f7a06e29e1d29b041d0905f5aea8b99a5eaa7628a817aece8f821684b6c7ae0454dca4c1c24338511
-Description: Make TikTok Better!
-Name: VibeTok (Roothjde)
 Author: DeNsor
 SileoDepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
 Depiction: http://jtisvn.github.io/depiction/VibeTok.html
