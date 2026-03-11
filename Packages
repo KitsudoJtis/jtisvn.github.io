@@ -17795,20 +17795,20 @@ Architecture: iphoneos-arm64e
 Version: 2.0
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 1420
+Installed-Size: 1468
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
 Filename: ./debs/com.jtisvn.nexusboard_2.0_iphoneos-arm64e.deb
-Size: 357216
-MD5sum: 60ac563139a5e606e5b989bfdb8662b2
-SHA1: 300b77f3a85027bcdc861cba7ed1bae956167681
-SHA256: 8f13ff71ba70e2b85229ccf669527891c6e2fe39a4f42ab6e42ed9cda91c05d4
-SHA512: 36231859d64da2d88b43f4bac4b450473c55ca26fae7f5f201a624f9794a784323da40a0d7f0ec90231c499e89b43d9fc92f35a5a8c56dcbc4b0b62e4d8891ea
+Size: 391644
+MD5sum: e1b292bc6e77743fdf9c40af57a0faed
+SHA1: e68b9d9af611456d0596b940e9ea737047253560
+SHA256: 92a7bcacc7fa0aa5c0d0cb523fb2d50f64bafc31e5a0ac09120c3160b3e85857
+SHA512: fb00dd9308b7380693007698be15d1977dc096c24fa7906c9de2d0d048c4c7cd28559ae7302bc0497fd6d8132a7bd2402c6fcf4f17efdc23431000af99aa5021
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
-Name: NexéuBoard (Roothide)
+Name: NexusBoard (Roothide)
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/NexusBoard.json
 Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
