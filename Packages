@@ -15356,6 +15356,28 @@ Depiction: http://jtisvn.github.io/depiction/EeveeSpotify.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
 Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
 
+Package: com.jtis.spotify
+Architecture: iphoneos-arm64e
+Version: 6.6.2
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 16432
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Conflicts: com.jtis.protobuf.swiftprotobuf, org.swift.protobuf.swiftprotobuf, xyz.cypwn.swiftprotobuf
+Filename: ./debs/com.jtis.spotify_6.6.2_iphoneos-arm64e.deb
+Size: 2013984
+MD5sum: 7162b44e8b182eb8c30bd57be1a37279
+SHA1: 7933085bbfb11dd8b0edd98778b7eaaf9b3b253a
+SHA256: d4402f2db0dd8933ea62d8244c301a78a4bc7e1874f172b692459206493d180d
+SHA512: c087eed8bb4045633aa68a1d012157fcf5184f0897fedd3a4e1a6f04e0d55ae771753987c3c6e0d33d04603a4b65f638a16b3c53b9294ddad538b36d66642d8c
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify (Roothide)
+Author: Eevee
+Depiction: http://jtisvn.github.io/depiction/EeveeSpotify.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/EeveeSpotify.json
+Icon: https://jtisvn.github.io/sectionIcons/EeveeSpotify.png
+
 Package: com.jtis.starfalltheme
 Architecture: iphoneos-arm64
 Version: 1.0

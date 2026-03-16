@@ -167,7 +167,6 @@
 },
 {
 "tabname":"Liên hệ Hỗ trợ",
-"tintColor":"#9900FF",
 "views":[
 {
 "class":"DepictionTableButtonView",
