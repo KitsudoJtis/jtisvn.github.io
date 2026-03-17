@@ -7,6 +7,12 @@
 "tabname":"Giới thiệu",
 "views":[
 {
+"text":"Nhóm chat Telegram",
+"action":"https://t.me/jtisvietnamrepo",
+"openExternal": 1,
+"class": "DepictionButtonView"
+},
+{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
@@ -178,7 +184,7 @@
 },
 {
 "class": "DepictionImageView",
-"url": "https://jtisvn.github.io/CydiaIcon.png",
+"URL": "https://jtisvn.github.io/CydiaIcon.png",
 "width": 50,
 "height": 50,
 "alignment": 1,
@@ -235,8 +241,8 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Nhóm Telegram",
-"action": "https://t.me/jailbreaktrolliossupport"
+"title": "Kênh Telegram",
+"action": "https://t.me/jtisvn"
 },
 {
 "class":"DepictionTableButtonView",
