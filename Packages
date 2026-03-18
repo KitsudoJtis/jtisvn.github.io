@@ -17305,6 +17305,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/YouTubeLegacy.json
 Depiction: http://jtisvn.github.io/depiction/YouTubeLegacy.html
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.ytmusicultimate
+Architecture: iphoneos-arm64
+Version: 2.4
+Section: Tweaks
+Maintainer: dayanch96 & ginsu
+Installed-Size: 17916
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.ytmusicultimate_2.4_iphoneos-arm64.deb
+Size: 6574048
+MD5sum: 3f5740e4cd900cdd823931b446c939ae
+SHA1: 948f3bcad9ab9b296ce55099bbc20f08d3c0bb3c
+SHA256: a59148e9b7663952686eebec58f333096b212b42fbff76a202582b14232487ac
+SHA512: 23330c147f65cfd26b7f2a3bb36aece4d4767441ffdfe51f34e84101ea16566e117469bd9e891692e1bf5514a2c51107efa9a3193be7ecc10b6be0bc9d234e80
+Homepage: https://jtisvn.github.io/
+Description: YouTube Music Premium
+Name: YTMusicUltimate (Rootless)
+Author: dayanch96 & ginsu
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YTMusicUltimate.json
+Depiction: http://jtisvn.github.io/depiction/YTMusicUltimate.html
+Icon: https://jtisvn.github.io/sectionIcons/YTMusicUltimate.png
+
 Package: com.jtis.ytx
 Architecture: iphoneos-arm64
 Version: 1.7.14

@@ -34,7 +34,7 @@
 "itemSize":"{160,275}"
 },
 {
-"markdown":"### YTMusicUltimate\n\n- Tinh chỉnh \"đỉnh\" nhất dành cho ứng dụng YouTube Music trên iOS.\n\n- **Các tính năng nổi bật:**\n\n+ **Tải xuống:** Hỗ trợ tải nhạc (Audio) và tải ảnh bìa bài hát chất lượng cao.\n\n+ **Trải nghiệm Premium:** Xóa toàn bộ quảng cáo và hỗ trợ phát nhạc dưới nền ngay cả khi tắt màn hình.\n\n+ **Tùy biến giao diện:** Ẩn các thanh Tab hoặc các thành phần không cần thiết để làm sạch giao diện, hỗ trợ bật chế độ nền đen sâu (OLED mode) giúp tiết kiệm pin.\n\n+ **Cài đặt trình phát:** Tùy chỉnh các nút bấm trên giao diện phát nhạc, thiết lập chế độ phát mặc định (Luôn phát Video hoặc chỉ Audio).\n\n+ **SponsorBlock:** Tích hợp sẵn tính năng bỏ qua các đoạn quảng cáo tài trợ chèn bên trong bài hát/video.\n\n+ Và còn rất nhiều tùy chọn khác...\n\n*Lưu ý: Bạn có thể tìm thấy các tùy chọn của YTMusicUltimate nằm ngay bên trong mục Cài đặt của ứng dụng YouTube Music.*",
+"markdown":"### YTMusicUltimate\n\n- Tinh chỉnh \"đỉnh\" nhất dành cho ứng dụng YouTube Music trên iOS.\n\n- **Các tính năng nổi bật:**\n\n- **Tải xuống:** Hỗ trợ tải nhạc (Audio) và tải ảnh bìa bài hát chất lượng cao.\n\n- **Trải nghiệm Premium:** Xóa toàn bộ quảng cáo và hỗ trợ phát nhạc dưới nền ngay cả khi tắt màn hình.\n\n- **Tùy biến giao diện:** Ẩn các thanh Tab hoặc các thành phần không cần thiết để làm sạch giao diện, hỗ trợ bật chế độ nền đen sâu (OLED mode) giúp tiết kiệm pin.\n\n- **Cài đặt trình phát:** Tùy chỉnh các nút bấm trên giao diện phát nhạc, thiết lập chế độ phát mặc định (Luôn phát Video hoặc chỉ Audio).\n\n- **SponsorBlock:** Tích hợp sẵn tính năng bỏ qua các đoạn quảng cáo tài trợ chèn bên trong bài hát/video.\n\n- Và còn rất nhiều tùy chọn khác...\n\n*Lưu ý: Bạn có thể tìm thấy các tùy chọn của YTMusicUltimate nằm ngay bên trong mục Cài đặt của ứng dụng YouTube Music.*",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -149,26 +149,14 @@
 ]
 },
 {
-"spacing": 20,
-"class": "DepictionSpacerView"
-},
-{
-"class": "DepictionImageView",
-"URL": "https://jtisvn.github.io/CydiaIcon.png",
-"width": 50,
-"height": 50,
-"alignment": 1,
-"cornerRadius": 12
-},
-{
-"spacing": 10,
+"spacing": 25,
 "class": "DepictionSpacerView"
 },
 {
 "class":"DepictionLabelView",
 "text":"Copyright © 2025 - 2030 by JTISVN",
 "textColor":"#999999",
-"fontSize":"11.0",
+"fontSize":"10.0",
 "alignment":1
 }
 ],
