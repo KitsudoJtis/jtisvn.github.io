@@ -17326,6 +17326,28 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/YTMusicUltimate.json
 Depiction: http://jtisvn.github.io/depiction/YTMusicUltimate.html
 Icon: https://jtisvn.github.io/sectionIcons/YTMusicUltimate.png
 
+Package: com.jtis.ytmusicultimate
+Architecture: iphoneos-arm64e
+Version: 2.4
+Section: Tweaks
+Maintainer: dayanch96 & ginsu
+Installed-Size: 17916
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.ytmusicultimate_2.4_iphoneos-arm64e.deb
+Size: 6487912
+MD5sum: 9a033848c3e1aa3758f8023164c28f34
+SHA1: eff8a15288b2067b9bda0afa0344566e4630764d
+SHA256: aa185ade2cd9b5a7c2589d50f0a9d19e1f84ab2d97d7ce92121d3456fc6403cc
+SHA512: 26766b04dad08972b52753968d2b96b489af097e4f0dad65881c1f0cc8c537f42240978539f31334e86750126539b86931007618fcfdb19fdb74da5018a60622
+Homepage: https://jtisvn.github.io/
+Description: YouTube Music Premium
+Name: YTMusicUltimate (Roothide)
+Author: dayanch96 & ginsu
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YTMusicUltimate.json
+Depiction: http://jtisvn.github.io/depiction/YTMusicUltimate.html
+Icon: https://jtisvn.github.io/sectionIcons/YTMusicUltimate.png
+
 Package: com.jtis.ytx
 Architecture: iphoneos-arm64
 Version: 1.7.14
