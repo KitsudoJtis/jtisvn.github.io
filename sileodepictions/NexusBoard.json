@@ -154,14 +154,14 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1,3 MB",
+"text": "1,4 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
 },
 {
 "class": "DepictionLabelView",
-"text": "Tương thích iOS/iPadOS",
+"text": "Tương thích iOS",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },

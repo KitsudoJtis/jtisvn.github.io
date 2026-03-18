@@ -13,9 +13,6 @@
             --separator-color: #e5e5ea;
             --radius: 12px;
             --text-on-tint: #9F9BFF;
-            /* Màu check iOS */
-            --success-color: #34c759;
-            --error-color: #ff3b30;
         }
 
         @media (prefers-color-scheme: dark) {
@@ -44,16 +41,25 @@
             display: block;
         }
 
+        /* ----- CSS SỬA LỖI TAB DI CHUYỂN ----- */
         .tab-nav {
             display: flex;
             justify-content: space-around;
             border-bottom: 1px solid var(--separator-color);
             background-color: var(--bg-color); 
             padding: 10px 0;
+            /* Thiết lập để nó 'dính' */
             position: sticky;
-            top: 0;
-            z-index: 100;
+            top: -1px; /* Đặt là 0 hoặc -1px để bù cho border */
+            z-index: 100; /* Đảm bảo nó nằm trên các nội dung khác */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Thêm bóng mờ nhẹ để tách biệt khi cuộn */
         }
+        @media (prefers-color-scheme: dark) {
+            .tab-nav {
+                box-shadow: 0 2px 5px rgba(255,255,255,0.05);
+            }
+        }
+        /* -------------------------------------- */
 
         .tab-btn {
             background: none;
@@ -116,8 +122,9 @@
         }
 
         .screenshot-img {
-            width: 160px;
+            /* width: 160px; -- Bỏ width cố định */
             height: auto;
+            max-height: 350px; /* Thêm max-height để ảnh ko quá to */
             border-radius: var(--radius);
             border: 1px solid var(--separator-color); 
             cursor: pointer;
@@ -214,14 +221,6 @@
             margin-bottom: 10px;
         }
 
-        .footer-icon {
-            display: block;
-            margin: 30px auto 10px auto;
-            width: 50px;
-            height: 50px;
-            border-radius: 12px;
-        }
-
         .footer-text {
             text-align: center;
             color: #999;
@@ -234,21 +233,9 @@
             background-color: var(--separator-color);
             margin: 20px 0;
         }
-
-        #pt {
-            text-align: center;
-            font-weight: bold;
-            margin-bottom: 15px;
-            padding: 10px;
-            border-radius: var(--radius);
-            font-size: 14px;
-            display: none; 
-        }
     </style>
 </head>
 <body>
-
-    <div id="prerequisite" data-min-ios="14.0" data-max-ios="17.0" style="display:none;"></div>
 
     <img src="https://jtisvn.github.io/coverimage/NexusBoard.png" alt="NexusBoard Banner" class="banner">
 
@@ -262,8 +249,6 @@
         
         <div id="info" class="tab-content active">
             
-            <div id="pt"></div>
-
             <div class="screenshots-scroll">
                 <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/1.png" class="screenshot-img" onclick="openImage(this)">
                 <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/2.png" class="screenshot-img" onclick="openImage(this)">
@@ -274,6 +259,9 @@
                 <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/7.png" class="screenshot-img" onclick="openImage(this)">
                 <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/8.png" class="screenshot-img" onclick="openImage(this)">
                 <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/9.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/10.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/11.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/12.png" class="screenshot-img" onclick="openImage(this)">
             </div>
 
             <div>
@@ -307,13 +295,13 @@
                     </div>
                     <div class="info-item">
                         <span class="info-label">Ngày cập nhật</span>
-                        <span class="info-value">10/3/2026</span>
+                        <span class="info-value">18/3/2026</span>
                     </div>
                 </div>
                 <div class="info-column">
                     <div class="info-item">
                         <span class="info-label">Phiên bản</span>
-                        <span class="info-value">2.0</span>
+                        <span class="info-value">2.2</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Kích thước</span>
@@ -326,12 +314,26 @@
                 </div>
             </div>
 
-            <img src="https://jtisvn.github.io/CydiaIcon.png" class="footer-icon" alt="Cydia Icon">
-            <div class="footer-text">Created with by JTISVN Repo </div>
+            <div class="footer-text" style="margin-top: 40px;">Created with by JTISVN Repo </div>
         </div>
 
         <div id="changelog" class="tab-content">
-            <h3 style="margin-top: 10px;">Phiên bản 2.0</h3>
+            <h3 style="margin-top: 10px;">Phiên bản 2.2</h3>
+            <ul>
+                <li>Thêm tốc độ mạng trên thanh trạng thái.</li>
+                <li>Thêm đổi biểu tượng dữ liệu.</li>
+                <li>Thêm đổi tên nhà mạng.</li>
+            </ul>
+
+            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 2.1</h3>
+            <ul>
+                <li>Thêm nút từ chối cuộc gọi đến trên màn hình khoá.</li>
+                <li>Thêm hiện biểu tượng tắt tiếng trên thanh trạng thái.</li>
+                <li>Thêm ẩn số seri trong mục Giới thiệu.</li>
+                <li>Thêm ẩn mục thông báo tiếp xúc.</li>
+            </ul>
+
+            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 2.0</h3>
             <ul>
                 <li>Thêm nút bấm đóng tất cả ứng dụng trong Đa nhiệm.</li>
                 <li>Thêm ẩn mục tab trong Điện thoại.</li>
@@ -342,7 +344,7 @@
 
             <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 1.9</h3>
             <ul>
-                <li>Thêm gỡ bỏ RSSI Wifi & hiện địa chỉ MAC.</li>
+                <li>Thêm gỡ bỏ GSSI Wifi & hiện địa chỉ MAC.</li>
                 <li>Thêm tắt làm mờ nền trong Đa nhiệm.</li>
                 <li>Thêm ẩn biểu tượng & tên thẻ trong Đa nhiệm.</li>
                 <li>Thêm chạm 2 lần để lật Camera.</li>
@@ -378,10 +380,10 @@
                     Paypal <span>&#8594;</span>
                 </a>
                 <a href="https://jtisvn.github.io/homepage/donate/donate.html" class="action-btn" target="_blank">
-                    Ủng hộ tôi một ly cà phê <span>&#8594;</span>
+                    Ủng hộ tôi <span>&#8594;</span>
                 </a>
-                <a href="https://t.me/jailbreaktrolliossupport" class="action-btn" target="_blank">
-                    Nhóm Telegram <span>&#8594;</span>
+                <a href="https://t.me/jtisvn" class="action-btn" target="_blank">
+                    Kênh Telegram <span>&#8594;</span>
                 </a>
                 <a href="https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP" class="action-btn" target="_blank">
                     Nhóm Facebook <span>&#8594;</span>
@@ -399,7 +401,7 @@
 
     <script>
         function openTab(evt, tabName) {
-            var i, tabcontent, tablinks;
+            var i, tabcontent, tablinks, tabNav;
             tabcontent = document.getElementsByClassName("tab-content");
             for (i = 0; i < tabcontent.length; i++) {
                 tabcontent[i].style.display = "none";
@@ -410,6 +412,19 @@
                 tablinks[i].className = tablinks[i].className.replace(" active", "");
             }
             document.getElementById(tabName).style.display = "block";
+            
+            // ----- JS SỬA LỖI TAB DI CHUYỂN -----
+            // Tự động cuộn lên đầu tab khi chuyển tab
+            tabNav = document.getElementsByClassName("tab-nav")[0];
+            if(tabNav) {
+                // Cuộn body để tab-nav chạm top (hoặc gần top)
+                window.scrollTo({
+                    top: tabNav.offsetTop - 1, 
+                    behavior: 'smooth' // Cuộn mượt mà
+                });
+            }
+            // --------------------------------------
+
             setTimeout(() => { document.getElementById(tabName).classList.add("active"); }, 10);
             evt.currentTarget.className += " active";
         }
@@ -422,55 +437,6 @@
         }
 
         function closeImage() { document.getElementById("myImageModal").style.display = "none"; }
-    </script>
-
-    <script>
-        const VERSION_CHECK_SUPPORTED = "✅ Phiên bản iOS của bạn được hỗ trợ! &#x1f60a;";
-        const VERSION_CHECK_UNCONFIRMED = "❌ Rất tiếc, phiên bản iOS hiện tại không hỗ trợ! %s &#x1f61e;"; 
-
-        (function (document) {
-            "use strict";
-            function setMessage(m, isSupported) {
-                var pt = document.getElementById("pt");
-                pt.style.display = "block"; pt.innerHTML = m;
-                if (isSupported) {
-                    pt.style.backgroundColor = "rgba(52, 199, 89, 0.15)";
-                    pt.style.color = "#34c759"; pt.style.border = "1px solid rgba(52, 199, 89, 0.3)";
-                } else {
-                    pt.style.backgroundColor = "rgba(255, 59, 48, 0.15)";
-                    pt.style.color = "#ff3b30"; pt.style.border = "1px solid rgba(255, 59, 48, 0.3)";
-                }
-            }
-            function toNum(bits) { return (10000 * parseInt(bits[0])) + parseInt((100 * (bits[1] ? bits[1] : 0))) + parseInt(bits[2] ? bits[2] : 0); }
-            function parseVersionString(version) { var bits = version.split("."); return toNum(bits); }
-            function compareVersions(one, two) { var two_ = toNum(two); return one != two_ ? (one > two_ ? 1 : -1) : 0; }
-
-            var prerequisite = document.getElementById("prerequisite");
-            var version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i);
-            if (!prerequisite) return;
-            if (!version && navigator.maxTouchPoints > 0 && navigator.appVersion.indexOf("(Macintosh; Intel Mac OS X 10_15") !== -1) {
-                version = navigator.appVersion.match(/(Version)\/(\d+)\.(\d+)(\.(\d+))?/i);
-            }
-            var minString = prerequisite.dataset.minIos;
-            var maxString = prerequisite.dataset.maxIos;
-            var minVersion = parseVersionString(minString);
-            var maxVersion = maxString ? parseVersionString(maxString) : null;
-            var message = null; var isSupported = false;
-
-            if (version) {
-                var osVersion = [version[2], version[3], version[4] ? version[5] : 0];
-                var osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : "");
-                message = VERSION_CHECK_SUPPORTED; isSupported = true;
-                if (compareVersions(minVersion, osVersion) == 1) {
-                    message = VERSION_CHECK_UNCONFIRMED.replace("%s", "(Quá thấp: " + osString + ")");
-                    isSupported = false;
-                } else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
-                    message = VERSION_CHECK_UNCONFIRMED.replace("%s", "(Quá cao: " + osString + ")");
-                    isSupported = false;
-                }
-                if (message) setMessage(message, isSupported);
-            }
-        })(document);
     </script>
 </body>
 </html>
