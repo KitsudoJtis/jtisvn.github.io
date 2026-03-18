@@ -17812,18 +17812,18 @@ Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
 Package: com.jtisvn.nexusboard
 Architecture: iphoneos-arm64
-Version: 2.1
+Version: 2.2
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 1544
+Installed-Size: 1572
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
-Filename: ./debs/com.jtisvn.nexusboard_2.1_iphoneos-arm64.deb
-Size: 413676
-MD5sum: c5ff2211ec60d0204aea773c5d4277b7
-SHA1: 50b169f8a6046c06c77c893a4f1996abf8c6962d
-SHA256: e05164412aa61f8be221ce11d9d1de359071c8e7405d20ab17928bfa6b377280
-SHA512: 5f38571de78054ad2f93befa0ff46d6df8132597d6ef799a66c26ea099acc1074c58010290dda8b8a886d493e4566481ce1952f54e83d9697a496c1a386a31ca
+Filename: ./debs/com.jtisvn.nexusboard_2.2_iphoneos-arm64.deb
+Size: 423676
+MD5sum: fa1b61f05be4a620c1e453afdcd0d474
+SHA1: c7991f5187acdafada6adaec68da3700d993f726
+SHA256: c45cb51f62d535d36adecd1485f8a8d2841bb2b54bf1cb397ec0e99f2afe5728
+SHA512: 2c4096826f127160985c38002eae88b6824ddec846e9fbcce83f32429e13cd3dc37d8db0df4695430e0bacd39f54a9a15ac973f4823c6c05ba73352e978f8d8f
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
@@ -17835,19 +17835,19 @@ Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
 Package: com.jtisvn.nexusboard
 Architecture: iphoneos-arm64e
-Version: 2.1
+Version: 2.2
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 1544
+Installed-Size: 1572
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtis.lunartimepro, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
-Filename: ./debs/com.jtisvn.nexusboard_2.1_iphoneos-arm64e.deb
-Size: 413280
-MD5sum: c67d359f351e15c7c04208828bac4a1c
-SHA1: 8c34707c649bee03aff4791146d01bf005fc8153
-SHA256: 184ea187ae0947cce1f26f3fc3918673e1144d192d6bdd216cb176f16c55a504
-SHA512: ae9f4d2c851f328e53110a8c1521555f670b20bac06c16dbd6bf3dc3705c326d6d03af7e5380765711fc3265de3fc9dca89d91c06e5ecd6c5bc7f46d694bbb6f
+Filename: ./debs/com.jtisvn.nexusboard_2.2_iphoneos-arm64e.deb
+Size: 423692
+MD5sum: a74fc93f4632e277856b1b073d8a8657
+SHA1: df28ea9c426896bb152f882ef8077e4fc8a7a47d
+SHA256: 0903923eec15ffcfef9fadeefd02d48588aa4ca91b0f02247b94e4a5af576a65
+SHA512: fc3804d0cb67e5898b304712acf5512798a4f347d8aee209c441dd3380ac650ff8023072068ff6e5eaf1e354f64d5442f1b3ec6ab42c47c370fff056dce375de
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
