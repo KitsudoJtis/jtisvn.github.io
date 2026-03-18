@@ -55,7 +55,7 @@
 }
 ],
 "itemCornerRadius":0,
-"itemSize":"{160, 346}"
+"itemSize":"{185,400}"
 },
 {
 "markdown":"### NexusBoard\n\n- Tinh chỉnh \"All-in-One\" giúp tùy biến giao diện SpringBoard với hàng loạt tính năng hữu ích.\n\n- Các tính năng nổi bật:\n\n+ **Màn hình chính:** Ẩn tên ứng dụng/thư mục, ẩn thanh Home Bar, ẩn dấu chấm trang, ẩn Thư viện ứng dụng, ẩn nền Dock, ẩn nút quay lại ứng dụng, xoay mọi hướng biểu tượng, xóa cảnh báo pin yếu, hiển thị chi tiết pin...\n\n+ **Màn hình khóa:** Tự động mở khóa, Nhấn 2 lần để tắt màn hình, Hiển thị ngày Âm/Dương, Ẩn nút Camera/Đèn pin, Trong suốt thông báo.\n\n+ **Thanh Dock:** Hỗ trợ Dock iPad (Floating Dock), ẩn phân cách & tắt cử chỉ Dock, Dock 5 biểu tượng, hiển thị tên ứng dụng dưới Dock.\n\n+ **Bảo mật & Tiện ích:** Khóa ứng dụng bằng FaceID/Mật khẩu, Hiệu ứng sạc MagSafe, Dự báo thời gian sạc đầy pin và hơn thế nữa.\n\n+ **Trung tâm điều khiển:** Hiển thị số % thanh trượt Độ sáng & Âm lượng, trong suốt nền, tắt hoàn toàn WiFi & Bluetooth, bo tròn các Mô-đun...\n\n+ **Ảnh & Camera:** Xóa vĩnh viễn, phóng to vô hạn, ẩn thanh trượt, luôn bật tiếng video, tắt âm thanh chụp ảnh, tắt bản xem trước ảnh chụp màn hình...\n\n+ **Ứng dụng cài đặt:** Bo tròn biểu tượng và các ô mục trong cài đặt, Ẩn linh kiện không xác định...\n\n- Và còn nhiều hơn thế nữa...",
@@ -219,52 +219,33 @@
 "tabname":"Liên Hệ Hỗ Trợ",
 "views":[
 {
-"text":"Mô tả tinh chỉnh",
-"action":"https://jtisvn.github.io/depictions/NexusBoard.html",
-"class":"DepictionButtonView"
+"class": "DepictionTableButtonView",
+"title": "Mô tả tinh chỉnh",
+"action": "https://jtisvn.github.io/depictions/NexusBoard.html"
 },
 {
-"text":"Nguồn JTISVN ",
-"action":"https://jtisvn.github.io/",
-"tintColor":"#339999",
-"class":"DepictionButtonView"
-},
-{
-"text":"Nhóm chat Telegram",
-"action":"https://t.me/jtisvietnamrepo",
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
 "openExternal":true,
-"tintColor":"#24A1DE",
-"class":"DepictionButtonView"
 },
 {
-"text":"Nhóm Facebook",
-"action":"https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP",
+"class": "DepictionTableButtonView",
+"title": "Ủng hộ tôi",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
 "openExternal":true,
-"tintColor":"#1877F2",
-"class":"DepictionButtonView"
 },
 {
-"class": "DepictionStackView",
-"orientation": "landscape",
-"views": [
-{
-"text":"PayPal",
-"action":"https://paypal.me/HiuKitsudo",
+"class": "DepictionTableButtonView",
+"title": "Kênh Telegram",
+"action": "https://t.me/jtisvn"
 "openExternal":true,
-"tintColor":"#F58220",
-"class":"DepictionButtonView"
 },
 {
-"text":"Ủng hộ tôi",
-"action":"https://jtisvn.github.io/homepage/donate/donate.html",
+"class": "DepictionTableButtonView",
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 "openExternal":true,
-"tintColor":"#F58220",
-"class":"DepictionButtonView"
-}
-]
-},
-{
-"class":"DepictionSeparatorView"
 },
 {
 "class":"DepictionLabelView",
