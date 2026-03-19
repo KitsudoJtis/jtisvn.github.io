@@ -1,5 +1,5 @@
 {
-"minVersion":"0.4",
+"minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/Speedy.png",
 "tintColor":"#5777B8",
 "tabs":[
@@ -33,6 +33,12 @@
 "action":"https://jtisvn.github.io/homepage/donate/donate.html",
 "openExternal":true,
 "class":"DepictionButtonView"
+}
+]
+},
+{
+"spacing": 10,
+"class": "DepictionSpacerView"
 },
 {
 "class":"DepictionScreenshotsView",
@@ -50,11 +56,11 @@
 "accessibilityText":"Screenshot"
 }
 ],
-"itemCornerRadius":0,
+"itemCornerRadius":8,
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Speedy\n\n- Tuỳ chỉnh hiệu ứng tốc độ hoạt ảnh cho IPhone của bạn\n\n- Thay đổi hiệu ứng tốc độ SpringBoard \n\n- Thay đối hiệu ứng tốc độ của ứng dụng.",
+"markdown":"### Speedy\n\n- Tùy chỉnh hiệu ứng tốc độ hoạt ảnh cho iPhone của bạn.\n\n- Thay đổi hiệu ứng tốc độ SpringBoard.\n\n- Thay đổi hiệu ứng tốc độ của ứng dụng.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
