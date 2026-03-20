@@ -18104,13 +18104,13 @@ Maintainer: Kitsudo
 Installed-Size: 172
 Depends: mobilesubstrate, firmware (>= 15.0)
 Filename: ./debs/com.kitsudo.ccmusicviethoa_1.0.0_iphoneos-arm64.deb
-Size: 7680
-MD5sum: cab18aad1b6ecdcfb2daee032fcc483b
-SHA1: 2702c4f00a00eeacaf0f8176bf455493ba85587c
-SHA256: 33aa7e88922c59416cfdde9c23565577e812f0999534e4d466df9f7ce242b8c4
-SHA512: af3af7e0be36c1581788b5d3d8967c1fd923c655c104d4ddd22a7724f67cb57b6504f5aafb80721e163dafeb94bebba372f4e3d1ee9f96b0b8e3ac3f7daae65f
+Size: 7668
+MD5sum: fcf0cede5a16364f9e06d2c4639d55eb
+SHA1: bb269ed851e6963005aad9394068db0c20f5adfe
+SHA256: 543636358184741217de5913cf585aa959a589db2f16978f9553eadb707f117d
+SHA512: c33fad5fb7576cc9c4562c4e3cfd3b011de8110c97265d1f6a183744e7be21f517eb75a8980d94cf5627629199cd9b9b9f515867fc445888d0f4566148566b66
 Description: Thêm nguôn ngữ Tiếng Việt cho cài đặt tweak CCMusic
-Name: CCMusic gói Việt Hóa (Rootless)
+Name: CC Music gói Việt Hóa (Rootless)
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCMusicVH.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
@@ -18124,13 +18124,13 @@ Installed-Size: 172
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 15.0)
 Filename: ./debs/com.kitsudo.ccmusicviethoa_1.0.0_iphoneos-arm64e.deb
-Size: 7864
-MD5sum: 4e850ac28638ee844849f6fd55c98586
-SHA1: 69a7d7c25ebef5971af05af7a624b2953de3966a
-SHA256: 4a0278a076be5d77e9782f9215cd60268b3ca0ce4fc77049cb3c7fc88c7629a1
-SHA512: a38d05f285e88a238f3303bc7b78563e381408db63b1d6a6e677ef49300aed2349a6765be8650c538dcd2025f17c0c2c70de434e3f3936d750016607c65b5c7a
+Size: 7804
+MD5sum: 336be0f90c54cdb9bdc40f4b213ef909
+SHA1: eb98d489d341061c4511f2f61dc0769ca794ffc6
+SHA256: cb299c919a4b4bd4955b600092ac57bc031a473228349319a3b7be9bc0c16ad7
+SHA512: b1ef6fecf08714cc4ee732b21f3dbe1422e45fe230780c8e34c0dd20fb25d5a4211f112533eb248623b61ed66668fea9eae398721acbce3b4eb61cdb4fa328b4
 Description: Thêm nguôn ngữ Tiếng Việt cho cài đặt tweak CCMusic
-Name: CCMusic gói Việt Hóa (Roothide)
+Name: CC Music gói Việt Hóa (Roothide)
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CCMusicVH.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
