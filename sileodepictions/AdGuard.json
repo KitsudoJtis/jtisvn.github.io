@@ -91,7 +91,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Tương thích iOS/iPadOS",
+"text": "Tương thích iOS",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
@@ -134,8 +134,8 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Nhóm Telegram",
-"action": "https://t.me/jailbreaktrolliossupport"
+"title": "Kênh Telegram",
+"action": "https://t.me/jtisvn"
 },
 {
 "class":"DepictionTableButtonView",
