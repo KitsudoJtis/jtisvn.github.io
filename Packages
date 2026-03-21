@@ -12917,6 +12917,27 @@ Name: NotiSound (Roothide)
 Author: EliasSfeir
 Icon: https://jtisvn.github.io/sectionIcons/NotiSound.png
 
+Package: com.jtis.nougat
+Architecture: iphoneos-arm
+Version: 1.3.2
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 5756
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16), com.a3tweaks.flipswitch (>= 1.0.16)
+Filename: ./debs/com.jtis.nougat_1.3.2_iphoneos-arm.deb
+Size: 1096768
+MD5sum: 8dc61f736e71634f5d9f2787fe9b81dd
+SHA1: e816b4ed69984a5a3d18065ea17a1fa78382ea2f
+SHA256: 1681333ed93ea8ccf026b7378f325a29eec93d3a14a99eead011cb3d51c89889
+SHA512: 4674682304e8a8c7624236cea0bc05858208a0b23c55cb847ea4c1567face82fc83678d3ca99108b3a16ff967f42a37bde72febd122b17f97fc5f236fe3cd24b
+Homepage: https://jtisvn.github.io/
+Description: Thay đổi trung tâm thông báo kiểu Android
+Name: Nougat
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Icon: https://chariz.com/cdn/icon/nougat/icon@3x.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Nougat.json
+Depiction: http://jtisvn.github.io/depiction/Nougat.html
+
 Package: com.jtis.nowidgetlabels
 Architecture: iphoneos-arm64
 Version: 1.0
