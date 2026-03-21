@@ -1,3 +1,3 @@
 👋 Hi, i'm Kitsudo
 
-I come from VietNam
+I come from VietNam🇻🇳
