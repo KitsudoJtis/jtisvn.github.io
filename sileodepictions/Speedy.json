@@ -13,7 +13,7 @@
 "class": "DepictionButtonView"
 },
 {
-"text":"Tham gia nhóm chat Facebook",
+"text":"Tham gia nhóm Facebook",
 "action":"https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP",
 "openExternal":true,
 "class": "DepictionButtonView"
@@ -189,7 +189,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 0.0.3.3\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 0.3\n- Thêm ngôn ngữ Tiếng Việt\n- Hỗ trợ Rootless & Roothide Jailbreak."
 },
 {
 "class":"DepictionLabelView",

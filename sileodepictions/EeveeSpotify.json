@@ -126,7 +126,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Tương thích iOS/iPadOS",
+"text": "Tương thích iOS",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
@@ -175,13 +175,13 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Ủng hộ tôi một ly cà phê",
+"title": "Ủng hộ tôi",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Nhóm Telegram",
-"action": "https://t.me/jtisvietnamrepo"
+"title": "Kênh Telegram",
+"action": "https://t.me/jtisvn"
 },
 {
 "class":"DepictionTableButtonView",
