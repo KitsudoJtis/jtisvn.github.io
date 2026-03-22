@@ -161,16 +161,6 @@
 "views":[
 {
 "class":"DepictionTableButtonView",
-"title": "Paypal",
-"action": "https://paypal.me/HiuKitsudo"
-},
-{
-"class":"DepictionTableButtonView",
-"title": "Ủng hộ tôi",
-"action": "https://jtisvn.github.io/homepage/donate/donate.html"
-},
-{
-"class":"DepictionTableButtonView",
 "openExternal": 1,
 "title": "Kênh Telegram",
 "action": "https://t.me/jtisvn"
@@ -180,6 +170,16 @@
 "openExternal": 1,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Paypal",
+"action": "https://paypal.me/HiuKitsudo"
+},
+{
+"class":"DepictionTableButtonView",
+"title": "Ủng hộ tôi",
+"action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
 "class":"DepictionLabelView",
