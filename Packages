@@ -4433,47 +4433,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollColor.json
 Depiction: https://jtisvn.github.io/depictions/TrollColor.html
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 
-Package: com.jtis.VibrateOnCall
-Architecture: iphoneos-arm64
-Version: 1.0.1+debug
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 172
-Depends: mobilesubstrate, oldabi|oldabi-stub
-Conflicts: com.BIENVANNHAT.callconnected
-Filename: ./debs/com.jtis.VibrateOnCall_1.0.1+debug_iphoneos-arm64.deb
-Size: 5760
-MD5sum: 4f656d57d2dabd824880413b9153f379
-SHA1: 432f77dad00be00cfe6b2798f0289006755103ca
-SHA256: 710581e061f7a2ce723f3cd311a25834c82d981d91a5aa75fdb3eb949727a548
-SHA512: 3539a2e4a4cd352218e6dcd7fe52ba9e38580e1f17e3048061b5f0f4788dd32030ea6852de4e59ba4eeceba2f200db6b6cd1884c6bfca22672750ef18af71082
-Description: Rung 2 lần khi ngắt cuộc gọi và rung 1 lần khi nhận cuộc gọi đến.
-Name: VibrateOnCall (Rootless)
-Author: BVN
-SileoDepiction: https://jtisvn.github.io/sileodepictions/VibrateOnCall.json
-Icon: https://jtisvn.github.io/sectionIcons/VibrateOnCall.png
-
-Package: com.jtis.VibrateOnCall
-Architecture: iphoneos-arm64e
-Version: 1.0.1+debug
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 172
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, oldabi|oldabi-stub
-Conflicts: com.BIENVANNHAT.callconnected
-Filename: ./debs/com.jtis.VibrateOnCall_1.0.1+debug_iphoneos-arm64e.deb
-Size: 5780
-MD5sum: a4c0b7a8bc70bd869120581e8920b30b
-SHA1: 084b0a42618e752b13324d2da0b65a090f537108
-SHA256: a42d783d3b9fac7343d386d42f3291a6997b050443f5042d6a602ff5f86b1c6f
-SHA512: 4ee1b818827a00f49698c52edc5c3c289618b5fff61bda7e7e4f6adee4eedd5e4df5c73c6c4975da6e80c71ecafe188b2432631d0ffca3302d2fbf1327f4ee76
-Description: Rung 2 lần khi ngắt cuộc gọi và rung 1 lần khi nhận cuộc gọi đến.
-Name: VibrateOnCall (Roothide)
-Author: BVN
-SileoDepiction: https://jtisvn.github.io/sileodepictions/VibrateOnCall.json
-Icon: https://jtisvn.github.io/sectionIcons/VibrateOnCall.png
-
 Package: com.jtis.Widgy
 Architecture: iphoneos-arm64
 Version: 1.0
