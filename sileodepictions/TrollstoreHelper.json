@@ -9,12 +9,11 @@
 {
 "text":"Mô tả gói tinh chỉnh Trillstotr Helper",
 "action": "",
-"tintColor": "#15C377",
 "class": "DepictionButtonView"
 },
 {
 "text":"Tham gia nhóm chat Telegram",
-"action":"https://t.me/jailbreaktrolliossupport",
+"action":"https://t.me/jtisvietnamrepo",
 "openExternal": 1,
 "class": "DepictionButtonView"
 },
@@ -71,13 +70,8 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Liên hệ Hỗ trợ",
+"title":"Ủng hộ tôi",
 "action":"https://jtisvn.github.io/homepage/donate/donate.html"
-},
-{
-"class":"DepictionTableButtonView",
-"title": "Nhóm Telegram",
-"action": "https://t.me/jailbreaktrolliossupport"
 },
 {
 "class":"DepictionTableButtonView",
