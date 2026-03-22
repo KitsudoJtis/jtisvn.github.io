@@ -17810,47 +17810,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Laetus.json
 Icon: https://jtisvn.github.io/sectionIcons/Laetus.png
 Author: Spark
 
-Package: com.jtisvn.netspeedbar
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Section: Tweaks
-Maintainer: Kitsudo (JTISVN)
-Installed-Size: 356
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debs/com.jtisvn.netspeedbar_1.0.0_iphoneos-arm64.deb
-Size: 10292
-MD5sum: 1915bcc843582fc2d7bf147df7060d92
-SHA1: adbaaf799984ef3900588df17fdc5f16982c88ff
-SHA256: 63af58ae4b9293ee518c10560cb77a963d3cddb3710b874b59acbefa766f5e3d
-SHA512: 5630c5c8717978009901d256831e82bd45512afdacb511d5dc7eda8ae2a5f435931b21d83f4bc6a2404b98fa988cdd17bc1d40560b6b3ed1db6805c5b6014a09
-Description: Hiển thị tốc độ mạng tải lên & tải xuống trực tiếp trên thanh trạng thái.
-Name: NetSpeedBar (Rootless)
-SileoDepiction: https://jtisvn.github.io/sileodepictions/NetSpeedBar.json
-Depiction: https://jtisvn.github.io/depictions/NetSpeedBar.html
-Icon: https://jtisvn.github.io/sectionIcons/NetSpeedBar.png
-Author: Kitsudo
-
-Package: com.jtisvn.netspeedbar
-Architecture: iphoneos-arm64e
-Version: 1.0.0
-Section: Tweaks
-Maintainer: Kitsudo (JTISVN)
-Installed-Size: 356
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debs/com.jtisvn.netspeedbar_1.0.0_iphoneos-arm64e.deb
-Size: 10436
-MD5sum: 2eab45831b7d20cda542e9c6e0349e1e
-SHA1: 96c2c15efece5d641cc95f8ffdfdb855442bd0cb
-SHA256: 13d5f96cff8e5cc47eeba8c1cce3a8aa47aa0b334d471b7915d90b65bba95e55
-SHA512: 53ab9e7a88795165caf3c9bc313fa4d95f8dcf0e0d3c6b1b3b52fcf78a0e5c94f94c40802cbc1507aa8f295397e94edeafe581dc2b45a696af55f722e2702a99
-Description: Hiển thị tốc độ mạng tải lên & tải xuống trực tiếp trên thanh trạng thái.
-Name: NetSpeedBar (Roothide)
-SileoDepiction: https://jtisvn.github.io/sileodepictions/NetSpeedBar.json
-Depiction: https://jtisvn.github.io/depictions/NetSpeedBar.html
-Icon: https://jtisvn.github.io/sectionIcons/NetSpeedBar.png
-Author: Kitsudo
-
 Package: com.jtisvn.nexusboard
 Architecture: iphoneos-arm
 Version: 2.1
