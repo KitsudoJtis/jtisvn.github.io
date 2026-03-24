@@ -17869,11 +17869,11 @@ Installed-Size: 172
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.jtisvn.scribblefix_1.0.0_iphoneos-arm64e.deb
-Size: 8312
-MD5sum: 2e01565b76fde4b8598ee02bc9c2fef0
-SHA1: cbd4284eed648ad2b680e8e8cd5143082ba8bb1f
-SHA256: bdd41d025c109cbd1c664ed916e5b3b1d560f9bac8ecb3f3bf3ac8b6baa1319f
-SHA512: 2e4410659687273d5cefd64ab5c5e0463aa5b905641d3a30f2391b7759a273064bbaee7ede06daa84c0bbf93ab99552c9129a4e23df1e960a6c577d40a2e5617
+Size: 7972
+MD5sum: cda94a90de6a6f25e83eb97056b65d41
+SHA1: cd2e9bd66d8f7449dfe81f0eb648d4701776a3ac
+SHA256: abd9f89471f6d14fdd684019cefa5f2aeee165a267fdb520f70f1da2c5a28615
+SHA512: a76439a4a144c2d44d6391f9971a5e4fa9ed923e404638c946c69c3b768479bf7eda7402133c4570dfd3f94df777e0c4b60b2f1994aabb8129591244f34a60f1
 Homepage: https://jtisvn.github.io/
 Description: Sửa lỗi crash và Việt Hoá cho Tweak Scribble (Hỗ trợ Roothide).
 Name: ScribbleFix (Roothide)
