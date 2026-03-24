@@ -878,19 +878,20 @@ Package: com.boo.libscribble
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: System
-Maintainer: Boo
+Maintainer: JTISVN Repo
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: ./debs/com.boo.libscribble_1.0.0_iphoneos-arm64e.deb
-Size: 13892
-MD5sum: 7d11006df2016ac42455046fe0bf883e
-SHA1: 3052d9284f90fce4a0cafdb369984f91b951b63b
-SHA256: a6d0dbf0b3db8dff83a4216e9a4ca37c357749a6c815eeecec4fe8929d10eec1
-SHA512: dfe95af42f026cb2e4eee1cd449ffb0062941e54c53781e6ca31e8849f1e7feb7ce3ee3e12a93fae0127f44d8a8f3009712a8186fc8b5dc3b4364a93d30d687d
+Size: 10872
+MD5sum: 7bc212fe86da0614470369d262593910
+SHA1: 401cb80c95100db26bb8678959dbaa819741bc8f
+SHA256: f9346143b060f2e0273aa49305c534bbb92814f6746b0ea59f6e966ef30885d3
+SHA512: 79afd69f02c9d0b23dd51a3f4b36426ca1c439ed5d317edd1bfa4bbc3725a6b64d2b37d4fac800b129d8f96541498e04eaad2c6a5e40279f4dc6f28697c95b1c
 Description: Scribble gesture library
 Tag: role::developer
 Name: libScribble
 Author: Boo
+Icon: file:///var/jb/Library/IconRepo/hethongg1.png
 
 Package: com.jtis.YangJiiiLineat
 Architecture: iphoneos-arm64
@@ -14101,6 +14102,26 @@ Icon: https://jtisvn.github.io/sectionIcons/Scribble.png
 Name: Scribble (Rootless)
 Author: Boo
 
+Package: com.jtis.scribble
+Architecture: iphoneos-arm64e
+Version: 2.1k
+Section: Tweaks
+Maintainer: Boo
+Installed-Size: 444
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.2), com.boo.libscribble, com.spark.libsparkcolourpicker, xyz.cypwn.cephei-compat, com.jtisvn.scribblefix, oldabi
+Filename: ./debs/com.jtis.scribble_2.1k_iphoneos-arm64e.deb
+Size: 42616
+MD5sum: bed4d9756d235e147d64a3222998d099
+SHA1: d6ae77d337464a8f9dfe3ffaaea0ad4e6ee31520
+SHA256: 0795829b3f38543c4d296a9e0089b3ba2512631c34dacb6f0b1b1fa85038502a
+SHA512: 890c2b0e60b72704a875a350d288e75267d42a64f4ea99ed6a7a0f6bbd37b479d02de45c5326fbbc3f00f4c1da8df7ffc089c71202f41aca59f0eac77fa7a885
+Description: Mở khoá bằng cách sử dụng hình vẽ lên màn hình.
+Name: Scribble (Roothide)
+Author: Boo
+Depiction: http://jtisvn.github.io/depiction/Scribble.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Scribble.json
+Icon: https://jtisvn.github.io/sectionIcons/Scribble.png
+
 Package: com.jtis.sentinel
 Architecture: iphoneos-arm64
 Version: 1.3.2
@@ -17839,6 +17860,28 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/NexusBoard.json
 Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
 Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
+Package: com.jtisvn.scribblefix
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtisvn.scribblefix_1.0.0_iphoneos-arm64e.deb
+Size: 8312
+MD5sum: 2e01565b76fde4b8598ee02bc9c2fef0
+SHA1: cbd4284eed648ad2b680e8e8cd5143082ba8bb1f
+SHA256: bdd41d025c109cbd1c664ed916e5b3b1d560f9bac8ecb3f3bf3ac8b6baa1319f
+SHA512: 2e4410659687273d5cefd64ab5c5e0463aa5b905641d3a30f2391b7759a273064bbaee7ede06daa84c0bbf93ab99552c9129a4e23df1e960a6c577d40a2e5617
+Homepage: https://jtisvn.github.io/
+Description: Sửa lỗi crash và Việt Hoá cho Tweak Scribble (Hỗ trợ Roothide).
+Name: ScribbleFix (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ScribbleFix.json
+Depiction: http://jtisvn.github.io/depiction/ScribbleFix.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
 Package: com.jtisvn.settingsrevamp
 Architecture: iphoneos-arm64e
 Version: 3.0.1
@@ -19060,25 +19103,6 @@ MD5sum: 3d26e09a8add704110f763ef32233249
 SHA1: 0e0a58d011ca77a9e5c1478fdc8d9a15b41fd31e
 SHA256: 915096580d0001e28aed9271cc9a662cc1443d74230aab81d0cd96a29bee674c
 SHA512: 8666614d9755746f82ae57d4a2369bad28b18048a7bd2b5c8c6dd817a512d12cc74104266b07b6f80755a9765fd947c13b8b9c130cc302adf25db3fe0b9e7145
-Description: Fixes an incompatibility with new versions of Cephei that certain patched tweaks have. Adds back the old `translucentNavigationBar` property from earlier versions of Cephei in order to prevent a `didNotRecognizeSelector:` exception being thrown. Tested with Shortmoji 2.
-Name: Cephei-compat
-Author: Nightwind
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
-Package: com.nightwind.cephei-compat
-Architecture: iphoneos-arm64e
-Version: 0.0.1
-Section: Tweaks
-Maintainer: Nightwind
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 2.0)
-Filename: ./debs/com.nightwind.cephei-compat_0.0.1_iphoneos-arm64e.deb
-Size: 4840
-MD5sum: e9569436f406efc93b117d0ccd16ccca
-SHA1: 168c459cd9b5af990b1cb3a2441a6693159bd3ee
-SHA256: e81fb6432011f57cf413157c23ad82843d3b72d6c4cb60be4e111a23a4033af0
-SHA512: e1e54f96fe0418bc11150b6fb5c2c9e6ef2b3e55cb0d06072205882c3e579c6525278c40b37feda6432549bd530ae94b087ab0ac1e95be1e43c193f438d17e6f
 Description: Fixes an incompatibility with new versions of Cephei that certain patched tweaks have. Adds back the old `translucentNavigationBar` property from earlier versions of Cephei in order to prevent a `didNotRecognizeSelector:` exception being thrown. Tested with Shortmoji 2.
 Name: Cephei-compat
 Author: Nightwind
@@ -23236,6 +23260,25 @@ Name: NewTerm 3 Beta
 Support: https://hashbang.productions/support/
 Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
 Depiction: https://chariz.com/get/newterm-beta
+
+Package: xyz.cypwn.cephei-compat
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Nightwind
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 2.0)
+Filename: ./debs/xyz.cypwn.cephei-compat_0.0.1_iphoneos-arm64e.deb
+Size: 4852
+MD5sum: 7fe1a5d94f2f3cb2ad66a15aa840af66
+SHA1: 271740278c99b60ea6bf6cc1a1dc63f6413302d5
+SHA256: 0a578d8f810dcf121d7aa07a8060aecdc8620446bee4140ea4f5b39ac0102731
+SHA512: 796f8891bd7450fe24dffd7d5fe3642c8ffb845efe2b863d6ec349f72254b1e3210dfd2e77414db5aef326c451b99a928b33f53c2c29e1f437cd62e56470afb3
+Description: Fixes an incompatibility with new versions of Cephei that certain patched tweaks have. Adds back the old `translucentNavigationBar` property from earlier versions of Cephei in order to prevent a `didNotRecognizeSelector:` exception being thrown. Tested with Shortmoji 2.
+Name: Cephei-compat
+Author: Nightwind
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: xyz.cypwn.doodle
 Architecture: iphoneos-arm64
