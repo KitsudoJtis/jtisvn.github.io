@@ -19074,11 +19074,11 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 2.0)
 Filename: ./debs/com.nightwind.cephei-compat_0.0.1_iphoneos-arm64e.deb
-Size: 5260
-MD5sum: 590426b0b6b8bf678510d4f20b9f679c
-SHA1: fa492bfd0ab65bc9b21b9ece2f834ad1749e3e8b
-SHA256: a5ada4e41769585510035c3806c93bf574ed2daf273f5fbb52682f48bc34130a
-SHA512: 96cd8807c05b504c0bd1ca4386a4470badf072c6647e2db6f764bc2ce12de3c7adc47428d52158a943ee6a7c39e6bdf26d18dd7e1639141a19d8dc4eba4acc3a
+Size: 4840
+MD5sum: e9569436f406efc93b117d0ccd16ccca
+SHA1: 168c459cd9b5af990b1cb3a2441a6693159bd3ee
+SHA256: e81fb6432011f57cf413157c23ad82843d3b72d6c4cb60be4e111a23a4033af0
+SHA512: e1e54f96fe0418bc11150b6fb5c2c9e6ef2b3e55cb0d06072205882c3e579c6525278c40b37feda6432549bd530ae94b087ab0ac1e95be1e43c193f438d17e6f
 Description: Fixes an incompatibility with new versions of Cephei that certain patched tweaks have. Adds back the old `translucentNavigationBar` property from earlier versions of Cephei in order to prevent a `didNotRecognizeSelector:` exception being thrown. Tested with Shortmoji 2.
 Name: Cephei-compat
 Author: Nightwind
