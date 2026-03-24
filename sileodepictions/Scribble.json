@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
+"tintColor":"#FFCCFF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Scribble\n\n- Mở khóa thiết bị độc đáo bằng cách vẽ hình lên màn hình.\n\n- **Tính năng:**\n\n+ Tương tự như tweak Doodle, cho phép mô phỏng hình vẽ để mở khóa.\n\n+ Thay vì nhập mật khẩu hoặc dùng Touch ID/Face ID, bạn có thể tự tạo hình vẽ theo phong cách riêng.\n\n+ Tùy chỉnh màu sắc đường vẽ, mang đến trải nghiệm mở khoá màn hình hiện đại và thú vị.",
+"markdown":"## Scribble\n\n- Mở khóa thiết bị độc đáo bằng cách vẽ hình lên màn hình.\n\n- **Tính năng:**\n\n+ Tương tự như tweak Doodle, cho phép mô phỏng hình vẽ để mở khóa.\n\n+ Thay vì nhập mật khẩu hoặc dùng Touch ID/Face ID, bạn có thể tự tạo hình vẽ theo phong cách riêng.\n\n+ Tùy chỉnh màu sắc đường vẽ, mang đến trải nghiệm mở khoá màn hình hiện đại và thú vị.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -151,7 +151,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.1\n\n- Thêm hỗ trợ iOS 15 - 16.\n\n- Thêm ngôn ngữ Tiếng Việt.\n\n- Hỗ trợ Rootless Jailbreak."
+"markdown":"### Phiên bản 2.1\n\n- Thêm hỗ trợ iOS 15 - 16.\n\n- Thêm ngôn ngữ Tiếng Việt.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
