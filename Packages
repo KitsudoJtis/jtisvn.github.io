@@ -5854,13 +5854,13 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
 Conflicts: love.litten.batterybuddy
 Filename: ./debs/com.jtis.batterybuddy_1.3.5_iphoneos-arm64e.deb
-Size: 31824
-MD5sum: 1a3ad676db82506654dce8ccbd829884
-SHA1: c62660ac5dc1689c4002555e1404181807938c82
-SHA256: c16f9ade2b14d9c2fa0a5770824d6cc3ad1322abddcc64b972060d3575392c80
-SHA512: 9e1ce218229111e65b7a9ed8d0e85bffe384df1b5bcb23fea8f61617fdb2a14da3386842d016d696afc0015c5d50f8c573801d07b2a47fbf7ed29acc2accf1df
+Size: 31816
+MD5sum: 61985d4893fbfdfe0988aa2448caeabe
+SHA1: 771b76da6c7a47aadac8619de8d8e6138bd23140
+SHA256: 37dffb740af6253237c7f1d69dc5b6b384a2e6fc024f2314829b704637feeee3
+SHA512: 617637b255a2a27501ba0217f84873f20250ef85ea90fbd92292bad4f693d4ab56e03340e60d3595676c58e180e7e8ccfa3fc73f210fea081c335d5787d0d599
 Description: Battery indicator, but cute
-Name: BatteryBuddy (Rootless)
+Name: BatteryBuddy (Roothide)
 Author: Traurige & neilsardesai <hello@traurige.dev>
 SileoDepiction: https://jtisvn.github.io/sileodepictions/BatteryBuddy.json
 Depiction: https://jtisvn.github.io/depictions/BatteryBuddy.html
