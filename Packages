@@ -12016,47 +12016,6 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimePlus.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Author: nqt1195
 
-Package: com.jtis.lunartimepro
-Architecture: iphoneos-arm64
-Version: 1.0.3-1+debug
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 176
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.lunartimepro_1.0.3-1+debug_iphoneos-arm64.deb
-Size: 15972
-MD5sum: 71a973ce4ec6ffabfcc99648d886fa53
-SHA1: eaf38b2cb16390b90202dbd872eb7167dd68826f
-SHA256: 1f9cdcf68ed74d3d6dc3e7a769edebdd2326c7b29af71a59d72f037a85700a7e
-SHA512: f600aa872f61151fc42b4d63355593f249b0ec1c8313892a2ece505472157d101e99584c55540a67e042c6e9eb6191ea045beeaceac0b0572c66809dc65a3730
-Description: Hiển thị Thứ, dương/ âm lịch" ở dưới đồng hồ trên thanh trạng thái hỗ trợ iOS 15+
-Name: Lunartime Pro (Rootless)
-Author: BVN
-Depiction: http://jtisvn.github.io/depiction/LunartimePro.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimePro.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
-Package: com.jtis.lunartimepro
-Architecture: iphoneos-arm64e
-Version: 1.0.3-1+debug
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 176
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.lunartimepro_1.0.3-1+debug_iphoneos-arm64e.deb
-Size: 16032
-MD5sum: 43cefb123f1733f8fc840dba5de2a6a5
-SHA1: 66a56e72efe68a3435980589648dc0a9d23e142a
-SHA256: 16bbf232af3fe995064e827fbed6ae8e8aa187831b2940b65fc408331a4d79af
-SHA512: e57cf8871bdab57f1f8713fa3ce5b249f438b0319f081d3fd8d614e434d66027d60b889d15b389c780ee08e708c10df7f643a6c9ab76a70b45666b429bbe1be9
-Description: Hiển thị Thứ, dương/ âm lịch ở dưới đồng hồ trên thanh trạng thái hỗ trợ iOS 15+
-Name: Lunartime Pro (Roothide)
-Author: BVN
-Depiction: http://jtisvn.github.io/depiction/LunartimePro.html
-SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimePro.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-
 Package: com.jtis.macosnotifications
 Architecture: iphoneos-arm
 Version: 1.1.0
