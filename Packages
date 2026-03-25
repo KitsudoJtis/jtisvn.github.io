@@ -17749,6 +17749,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Laetus.json
 Icon: https://jtisvn.github.io/sectionIcons/Laetus.png
 Author: Spark
 
+Package: com.jtisvn.lunartimebar
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 356
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), oldabi-stub
+Filename: ./debs/com.jtisvn.lunartimebar_1.2_iphoneos-arm64.deb
+Size: 20188
+MD5sum: dda1be756651e67cd1d01488fc556c54
+SHA1: be17eb4b376cd45451b02f3fa8b39808269b546b
+SHA256: 05832d6eb649c7c8dd71cd3a0cde6f48fa56020eadb4ebfe828f9a31bea8a7da
+SHA512: f58e3fdc8428769084a312ee9786bf1d05b2d31b17bcdb88c75f2509840eb74d2c50c19249508523be5be0cb959ba31993b32cc3f675d4d9d8a5795c8c2b1ad0
+Description: Hiển thị ngày âm dương trên thanh trạng thái.
+Name: Lunartime Bar (Rootless)
+Author: Kitsudo
+Depiction: http://jtisvn.github.io/depiction/LunartimeBar.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimeBar.json
+Icon: https://jtisvn.github.io/sectionIcons/LunartimeBar.png
+
+Package: com.jtisvn.lunartimebar
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 356
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), oldabi
+Filename: ./debs/com.jtisvn.lunartimebar_1.2_iphoneos-arm64e.deb
+Size: 20268
+MD5sum: 94ba1159d0d0e39afb85d2547410ee80
+SHA1: c12c97634a9743f5efdfb60205f292cfc414c388
+SHA256: b12e92d293b08162b169c3ba7b694d45a1ba29070ffbd2bc8d2f16c6de01b594
+SHA512: e1b24f147e1b65e5ec8865a7a7c029b4777d81e34a5069b90294b70def5d95ac19466a6b7746a551c2a02df0145b28d6b2573d95827caac972a3b4adbcaf1c27
+Description: Hiển thị ngày âm dương trên thanh trạng thái.
+Name: Lunartime Bar (Roothide)
+Author: Kitsudo
+Depiction: http://jtisvn.github.io/depiction/LunartimeBar.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LunartimeBar.json
+Icon: https://jtisvn.github.io/sectionIcons/LunartimeBar.png
+
 Package: com.jtisvn.nexusboard
 Architecture: iphoneos-arm
 Version: 2.1
