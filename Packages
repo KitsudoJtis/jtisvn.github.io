@@ -2664,6 +2664,52 @@ SileoDepiction: https://cydia.ichitaso.com/depiction/iconorder.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 dev: ichitaso
 
+Package: com.ichitaso.locationservicecc
+Architecture: iphoneos-arm64
+Version: 0.1-6
+Section: Tweaks
+Maintainer: ichitaso
+Installed-Size: 248
+Pre-Depends: firmware (>= 11.0)
+Depends: com.opa334.ccsupport (>= 1.2)
+Filename: ./debs/com.ichitaso.locationservicecc_0.1-6_iphoneos-arm64.deb
+Size: 34348
+MD5sum: 454b8b2a70c273734f429919dd43032c
+SHA1: b69d878cef58fdd2d2f3d8e461e74712b24fd549
+SHA256: bbe19f9c235563e772da819475e1a3b2050004ae93b4f02203797f4ce9835848
+SHA512: 745cd5b7d833520395475715f73f1052b7e26a791d60be839f337a4d071c6c34f93f59c5410c979c552a4e96fbaa6950c85b381248d1998e6491163f3db3c7e2
+Description: Bật/tắt Vị trí trên trung tâm điều khiển.
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios16.5
+Author: ichitaso
+Name: LocationService (CCSupport)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LocationService.json
+Depiction: https://jtisvn.github.io/depictions/LocationService.html
+Icon: https://jtisvn.github.io/sectionIcons/CCModules.png
+dev: ichitaso
+
+Package: com.ichitaso.locationservicecc
+Architecture: iphoneos-arm64e
+Version: 0.1-7
+Section: Tweaks
+Maintainer: ichitaso
+Installed-Size: 248
+Pre-Depends: firmware (>= 11.0)
+Depends: com.opa334.ccsupport (>= 1.2)
+Filename: ./debs/com.ichitaso.locationservicecc_0.1-7_iphoneos-arm64e.deb
+Size: 33540
+MD5sum: 1c31f2079f754a69b6e181c2e757efee
+SHA1: 04e2399880ba07837c9c0834aeddb028732af755
+SHA256: 4f1800f72e313bd95bb351258c6c3d976fbcbae7772462aebfc32b73a3511c5c
+SHA512: 44b61083f2f11bee2cf97db46a0b2bdc4546552cc855163e23e3eb316ec89e3f5bacd00fee0a90d1ed072da327355c2b2d87aee5118b24bd9642016124e92990
+Description: Bật/tắt Vị trí trên trung tâm điều khiển.
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios16.5
+Author: ichitaso
+Name: LocationService (CCSupport)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LocationService.json
+Depiction: https://jtisvn.github.io/depictions/LocationService.html
+Icon: https://jtisvn.github.io/sectionIcons/CCModules.png
+dev: ichitaso
+
 Package: com.ichitaso.otadisabler
 Architecture: iphoneos-arm64
 Version: 0.6
