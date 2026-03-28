@@ -17333,6 +17333,46 @@ Depiction: http://jtisvn.github.io/depiction/YouTubeLegacy.html
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.ytlegacy
+Architecture: iphoneos-arm
+Version: 1.9.1~b3
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 2364
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.ps.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
+Filename: ./debs/com.jtis.ytlegacy_1.9.1~b3_iphoneos-arm.deb
+Size: 226076
+MD5sum: 351220a0508930f03da0624bc78d27b8
+SHA1: b56811dae64ba5adac5b2d4b494af0af50739298
+SHA256: aadc30d8ea4372045454c252e5c503bdea4623ce9226f3adb6184c620ea2314e
+SHA512: b1fcab99128400f48c5e3482e84fb0911f0ec01db09cdaa388f640973a35e261f704eb26317afa2f2c8c5f151ea1d9f4d1c7d67d6c9242e083abc0552cd946af
+Description: Hỗ trợ cho các phiên bản cũ YouTube của bạn hoạt động trở lại.
+Name: YouTube Legacy
+Author: PoomSmart
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YouTubeLegacy.json
+Depiction: http://jtisvn.github.io/depiction/YouTubeLegacy.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.ytlegacy
+Architecture: iphoneos-arm64
+Version: 1.9.1~b3
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 2380
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.ps.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
+Filename: ./debs/com.jtis.ytlegacy_1.9.1~b3_iphoneos-arm64.deb
+Size: 225652
+MD5sum: 5e1b465d2e945551bb6157dd1fb1837a
+SHA1: 77b5c00ff767036eca510f49c05cbb30decf33c7
+SHA256: 835495b92b37ea184bba87613aef9c2fd9949bd005ebd66c7f4eae032fe2ec70
+SHA512: f64afecad856e090fb16adb5a7d95387a06e9fb20fc9079db96f03af25261eed3b66549cbefd394f95b988c2f050e22275f201b06020e5a1c902742b15f60eac
+Description: Hỗ trợ cho các phiên bản cũ YouTube của bạn hoạt động trở lại.
+Name: YouTube Legacy (Rootless)
+Author: PoomSmart
+SileoDepiction: https://jtisvn.github.io/sileodepictions/YouTubeLegacy.json
+Depiction: http://jtisvn.github.io/depiction/YouTubeLegacy.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.ytlegacy
 Architecture: iphoneos-arm64e
 Version: 1.9.1~b3
 Section: Tweaks
@@ -17341,13 +17381,13 @@ Installed-Size: 2380
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.ps.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
 Filename: ./debs/com.jtis.ytlegacy_1.9.1~b3_iphoneos-arm64e.deb
-Size: 225664
-MD5sum: 79f3aba80724a6f2f7b52a160e50e3e9
-SHA1: 5fbbfaa0c04b0b9b72fb6223ad85f05019e95da1
-SHA256: 3834a710592627630b16cd81348e04f15bca99db88c564e0d0c6c3d7d9b752ae
-SHA512: e8d2c164072e8e1b3892f5d5ae2489e46c832aab7603423ccc02f6295cc3775eacf0539a24f9b44df62b7f164973309eedae845aeb47d6cca9104d4bdbce48e1
+Size: 225728
+MD5sum: c1e829fa37f57acf28949f412558a3ba
+SHA1: 522206d0adddcc31140029d6f4a50da30b722346
+SHA256: 1f74f4b4a72c82564607dcfb3416d01b91ab40b155ca234cd5a4de55419e9d75
+SHA512: 7f986f008b207ff6db31f861790b792345705092af66caeb0eed08eb6e448b66cc8939134d076be24ee9c54d355487d9d1fa474c2952b58aad060836f4a0c1f4
 Description: Hỗ trợ cho các phiên bản cũ YouTube của bạn hoạt động trở lại.
-Name: YouTube Legacy
+Name: YouTube Legacy (Roothide)
 Author: PoomSmart
 SileoDepiction: https://jtisvn.github.io/sileodepictions/YouTubeLegacy.json
 Depiction: http://jtisvn.github.io/depiction/YouTubeLegacy.html
