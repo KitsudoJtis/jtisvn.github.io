@@ -18321,14 +18321,15 @@ Maintainer: JTISVN Repo
 Installed-Size: 172
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.kitsudo.powerselectorvh_1.0.0_iphoneos-arm64.deb
-Size: 10244
-MD5sum: 1f9128627f892a74e62dbeba544f0fab
-SHA1: 7f08ce45dc8e6f3aa6e7ddef1180f9a50d2ccdde
-SHA256: 4019140d2b9a77a54f820bd93c4d101078d5682e71b18384b78430fa1c7dce5e
-SHA512: 0ce27c65248aaf308e87049b932c2042b4e4c4147a4ff4f5bf73bb78a40e31a93efd350b4f66db53b9948b1fd484378b41cdd981dd7aaff6fd7a6f05e9d32e00
-Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PoơerSelector
-Name: PoơerSelector gói Việt Hoá (Rootless)
-Author: KÃitsudo
+Size: 10276
+MD5sum: 30c5ee6932eed35c9c1cb4a42776ce04
+SHA1: 4abb7f0adc0b8a86937a4e52afddf3a06e13d388
+SHA256: 63b7bd48c933ea23623f25fa1a66e82f2dcdef2ced2fc8a5b278ab786e7651f2
+SHA512: 2ee52a8cf5967f844f142eb99c7fd6226537c6a28aed8e4d979c446310a382c07031256380e8d7766c95818e68bfc48c64ab6a30937a00179278fdfad702da7f
+Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PowerSelector
+Name: PowerSelector gói Việt Hoá (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.powerselectorvh
@@ -18340,14 +18341,15 @@ Installed-Size: 172
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.kitsudo.powerselectorvh_1.0.0_iphoneos-arm64e.deb
-Size: 10460
-MD5sum: 0b6a2b96ad30785b2b57f905381b65dd
-SHA1: 7d115223dc9ec405e036c19c54788c4f6dbe8629
-SHA256: cc3d4fda1d9950a7424722958ca4a3b45d066919d6c146dd623573ca7dbf3c08
-SHA512: d21fb8a2bcfcdefec7ad7ae840187940aad4633fcc54570cabdf10c33973c1a03c584d718f562dba8a8e16f77f8afbb17bd0fc3142c68683997007340cf9e10f
-Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PoơerSelector
-Name: PoơerSelector gói Việt Hoá (Roothide)
-Author: KÃitsudo
+Size: 10504
+MD5sum: 8bf15ad51f2a129429101c9f2760a168
+SHA1: dc700ecacfb4223baa696e7a5e531cae50002df5
+SHA256: 36ce86f65ba14f31992a1d96d4da82b689e9f7ba0edc5a8f9ca1ea61240f46d3
+SHA512: 43391df93688b2de5493e3ea3288196172b15569c58ef9c16de24adf1a5d4d836ab50184500a6535534477bd52616a30b66f3130fbc83e6e5806dc5c46b027d5
+Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PowerSelector
+Name: PowerSelector gói Việt Hoá (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/PowerSelector.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.pulloverpro
