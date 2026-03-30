@@ -5436,6 +5436,28 @@ Author: Luki
 Icon: https://jtisvn.github.io/sectionIcons/April.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/April.json
 
+Package: com.jtis.aquaboardx-rootless
+Architecture: iphoneos-arm64
+Version: 2.0-3
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 768
+Depends: mobilesubstrate, preferenceloader
+Conflicts: net.limneos.aquaboard, net.limneos.aquaboard8, com.fuyuchi.unlockize, com.jtis.limneos-crack
+Filename: ./debs/com.jtis.aquaboardx-rootless_2.0-3_iphoneos-arm64.deb
+Size: 95236
+MD5sum: 5c64b1951e0c3f5f94bcd0b45b2127c8
+SHA1: 48145b4cf74eed03015843b8f477ab8208ec9c96
+SHA256: e48e7ec95734aac8b38a39a77d36008a2bfbf951109a591d92b28ad96e39cfce
+SHA512: 7fc73a04848852d60b76249a8181495a99489b9dc70af6c071e9737a607521f61dd6c094944acd1f6cd421ccddea90cdc71ff3fe4af1a3438bbe25c7478da195
+Description: Hiệu ứng nước tuyệt vời trên SpringBoard.
+Name: AquaBoard XS (Rootless)(iOS 11 to 16)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AquaBoardXS.json
+Icon: https://jtisvn.github.io/sectionIcons/AquaBoardXS.png
+Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.aquaboardx
+Author: Elias Limneos <limneoselias@gmail.com>
+MainLibMD5: 50d1adbd223be7e6e59494e2e3e8fca2
+
 Package: com.jtis.artworkspinners
 Architecture: iphoneos-arm64
 Version: 1.6
@@ -15535,6 +15557,26 @@ Name: SugarCane 13/14/15/16 (Roothide)
 Author: iOS Creatix, kasiimh1, p2kdev
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SugarCare.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.jtis.sushi
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Skitty
+Installed-Size: 704
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/com.jtis.sushi_1.0.1_iphoneos-arm64.deb
+Size: 119448
+MD5sum: 4bce63456a2fc6c3c4d6567d93971b5f
+SHA1: bd2375001bc997c106ac4fac2da1f4ccccd67757
+SHA256: 5afe9c6991b3f0ad31a9c3c84ac87f82d80301ef84b959f6e577d9538b11e192
+SHA512: 1eecb2c230759796736a573837882e5d179ce1178b287a1a2d1c2fed3494aa1c00ec536a02a44690c5c8b259f400bd37b2024cf9043aaffd909f52a75a808418
+Description: Tích hợp đang phát biểu ngữ với các điều khiển phương tiện!
+Name: Sushi (Rootless)
+Author: Skitty
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.sushi.png
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.sushi/
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Sushi.json
 
 Package: com.jtis.swiftgramcrack
 Architecture: iphoneos-arm64
