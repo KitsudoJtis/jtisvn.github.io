@@ -12006,6 +12006,45 @@ Name: LS Space Quest
 SileoDepiction: https://jtisvn.github.io/sileodepictions/LSSpaceQuest.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
 
+Package: com.jtis.lstimeseconds16
+Architecture: iphoneos-arm64
+Version: 0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 432
+Filename: ./debs/com.jtis.lstimeseconds16_0.3_iphoneos-arm64.deb
+Size: 38572
+MD5sum: 7256392044ab77bb4fcee52ccfe699fa
+SHA1: 3b98396ac9a2483ec702ac155777e1a597acd8b3
+SHA256: 02be7cacc4076fa287ecdf0a02edb1111a5fb2b17911644cb8f653fba821dda3
+SHA512: d093511b5118bf219cdeff6e882d1c938b2119fbcf4f65279636b106a076e72fbf99b3f68b100852f345d9c2c461efbacb8656f1d52e7e865f3e1bdcc35345de
+Description: Thêm giây vào đồng hồ thời gian trên màn hình khoá.
+Name: LSTimeSeconds (Rootless)
+Author: b4db1r3
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSTimeSeconds.json
+Depiction: https://jtisvn.github.io/depictions/LSTimeSeconds.html
+Icon: https://jtisvn.github.io/sectionIcons/LSTimeSeconds.png
+
+Package: com.jtis.lstimeseconds16
+Architecture: iphoneos-arm64e
+Version: 0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 432
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.lstimeseconds16_0.3_iphoneos-arm64e.deb
+Size: 37644
+MD5sum: 27d5951810f5a230412ab4e91d5bfdf0
+SHA1: 8618577925bf38fcc91c1d8ed99ca9cc845bd54a
+SHA256: 1630822cff7c0473e6cf3f30ce83e7c1df3a3ccd5fa46a94f822e6566b3d8bc0
+SHA512: 7a05b20461310c0f7c924e60dabe3323f952f098474ba4d4eef7157c5ad501d6b3bf607b5147464c775ca06f70a5651ccd0c94ccaf14a7df1b008f4847ecafbb
+Description: Thêm giây vào đồng hồ thời gian trên màn hình khoá.
+Name: LSTimeSeconds (Roothide)
+Author: b4db1r3
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSTimeSeconds.json
+Depiction: https://jtisvn.github.io/depictions/LSTimeSeconds.html
+Icon: https://jtisvn.github.io/sectionIcons/LSTimeSeconds.png
+
 Package: com.jtis.lunartimeX
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -22645,6 +22684,26 @@ Icon: https://jtisvn.github.io/sectionIcons/VoiceChangerXS.png
 Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.voicechangerx
 Author: Elias Limneos <limneoselias@gmail.com>
 MainLibMD5: 8131809d9825837c841f8f54015f50b4
+
+Package: netskao.ccpower-rootless
+Architecture: iphoneos-arm64
+Version: 1.9-4
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2424
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport (>= 1.3)
+Filename: ./debs/netskao.ccpower-rootless_1.9-4_iphoneos-arm64.deb
+Size: 966332
+MD5sum: ffc2cf0b7af5945cdd2e20027ec877c3
+SHA1: 40846134f5c7b1216d587228e40a1f6951a9694c
+SHA256: 9b4ed4d866c4653e6d3437010857cfcd4722516e1b6490309c2ce2547bfdc710
+SHA512: 130a16aca58dea43fdf38d69b13a9a67d6ad047a5863826de536b04b4375fe6c0b9e853a82d726ec0ca18336dadb584d652aa71db3159470ba6b45065f5598c3
+Description: Control Center Quick Power Tool, Supports iOS11-iOS15
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CCPower.json
+Depiction: https://jtisvn.github.io/depictions/CCPower.html
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ccpower.png
+Name: CCPower (Rootless)
+Author: Netskao
 
 Package: oldabi-stub
 Architecture: iphoneos-arm64
