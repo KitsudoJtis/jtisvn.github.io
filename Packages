@@ -10868,6 +10868,23 @@ Author: Paisseon
 SileoDepiction: https://jtisvn.github.io/sileodepictions/IconRotation.json
 Icon: https://jtisvn.github.io/sectionIcons/IconRotation.png
 
+Package: com.jtis.igg
+Architecture: iphoneos-arm64
+Version: 0.4.4
+Section: Utilities
+Maintainer: iGameGod
+Installed-Size: 203320
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.igg_0.4.4_iphoneos-arm64.deb
+Size: 52043072
+MD5sum: bd559da557c7981288ea9ec31b77cb4a
+SHA1: a3975e0086ac44c2443fc018a2791b78d9a007d4
+SHA256: 8e18687d31615f888df4a3383621b1da49a17f9c9b81ed39ce47a268431e358f
+SHA512: 823c548acb425d6713e64f7a55ac815d4cda89efc74c5402dff3a52a204747a529f67467a776dd838ba2006e7a79379eb27edfbc173a725c25be41a11acda6bd
+Description: Be the god of your games!
+Name: iGameGod Rootless
+Author: iGameGod
+
 Package: com.jtis.immortalizer
 Architecture: iphoneos-arm64
 Version: 2.0.0-1
@@ -15566,11 +15583,11 @@ Maintainer: Skitty
 Installed-Size: 704
 Depends: mobilesubstrate, firmware (>= 13.0)
 Filename: ./debs/com.jtis.sushi_1.0.1_iphoneos-arm64.deb
-Size: 119448
-MD5sum: 4bce63456a2fc6c3c4d6567d93971b5f
-SHA1: bd2375001bc997c106ac4fac2da1f4ccccd67757
-SHA256: 5afe9c6991b3f0ad31a9c3c84ac87f82d80301ef84b959f6e577d9538b11e192
-SHA512: 1eecb2c230759796736a573837882e5d179ce1178b287a1a2d1c2fed3494aa1c00ec536a02a44690c5c8b259f400bd37b2024cf9043aaffd909f52a75a808418
+Size: 120172
+MD5sum: ee28611fc519880bf4eefba5f7d1fd3c
+SHA1: 74e0698f5204525d56f28f8dbb380e00ad0724ac
+SHA256: 7e225a807f60710fd651edcbfd8c8cc06a66c6c04e0e67c4b0e3b9369b5430da
+SHA512: f7ed92a309ef79b08860834431a131a4ed74e6f221d5f09741b2a3c3705a0eef5fb0d215517d0713fc6077ca77aca7a7f1b730b97dc297514b7394436cf76d43
 Description: Tích hợp đang phát biểu ngữ với các điều khiển phương tiện!
 Name: Sushi (Rootless)
 Author: Skitty
