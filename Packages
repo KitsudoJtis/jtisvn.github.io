@@ -10868,23 +10868,6 @@ Author: Paisseon
 SileoDepiction: https://jtisvn.github.io/sileodepictions/IconRotation.json
 Icon: https://jtisvn.github.io/sectionIcons/IconRotation.png
 
-Package: com.jtis.igg
-Architecture: iphoneos-arm64
-Version: 0.4.4
-Section: Utilities
-Maintainer: iGameGod
-Installed-Size: 203320
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.igg_0.4.4_iphoneos-arm64.deb
-Size: 52043072
-MD5sum: bd559da557c7981288ea9ec31b77cb4a
-SHA1: a3975e0086ac44c2443fc018a2791b78d9a007d4
-SHA256: 8e18687d31615f888df4a3383621b1da49a17f9c9b81ed39ce47a268431e358f
-SHA512: 823c548acb425d6713e64f7a55ac815d4cda89efc74c5402dff3a52a204747a529f67467a776dd838ba2006e7a79379eb27edfbc173a725c25be41a11acda6bd
-Description: Be the god of your games!
-Name: iGameGod Rootless
-Author: iGameGod
-
 Package: com.jtis.immortalizer
 Architecture: iphoneos-arm64
 Version: 2.0.0-1
