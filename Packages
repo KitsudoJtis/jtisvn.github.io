@@ -19705,6 +19705,27 @@ Author: opa334
 SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollstoreHelper.json
 Icon: https://jtisvn.github.io/sectionIcons/TrollstoreHelper.png
 
+Package: com.opa334.trollstorelite
+Architecture: iphoneos-arm64e
+Version: 2.1
+Section: Applications
+Maintainer: opa334
+Installed-Size: 608
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: ldid
+Filename: ./debs/com.opa334.trollstorelite_2.1_iphoneos-arm64e.deb
+Size: 214928
+MD5sum: df5773e4de008a3b89eb5703332fd6ad
+SHA1: 3ff9ec1461cfc89e62039ab669f9dbe735ec97b9
+SHA256: 8109b469274c8189a2668c8e2f8503c346e857b65f5755d02eb86468c6d65f7d
+SHA512: 82f730be78ac160fe876b6b137c278229db681ef0b701f35b5783fd77808e66185811de69810e20394b7e47516d43335a7b5201bac39b5e8b2bbf21cebdadfda
+Description: TrollStore for jailbroken iOS
+Name: TrollStore Lite (Roothide)
+Author: opa334
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TrollStoreLite.json
+Depiction: https://jtisvn.github.io/depictions/TrollStoreLite.html
+Icon: https://media.havoc.app/66d4ecc6e95a6f1dee4b898c
+
 Package: com.p2kdev.quitall
 Architecture: iphoneos-arm64
 Version: 1.3-1debug
