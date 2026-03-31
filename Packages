@@ -12025,6 +12025,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/LSTimeSeconds.json
 Depiction: https://jtisvn.github.io/depictions/LSTimeSeconds.html
 Icon: https://jtisvn.github.io/sectionIcons/LSTimeSeconds.png
 
+Package: com.jtis.lstimeseconds16
+Architecture: iphoneos-arm64e
+Version: 0.3
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 432
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.jtis.lstimeseconds16_0.3_iphoneos-arm64e.deb
+Size: 37644
+MD5sum: 27d5951810f5a230412ab4e91d5bfdf0
+SHA1: 8618577925bf38fcc91c1d8ed99ca9cc845bd54a
+SHA256: 1630822cff7c0473e6cf3f30ce83e7c1df3a3ccd5fa46a94f822e6566b3d8bc0
+SHA512: 7a05b20461310c0f7c924e60dabe3323f952f098474ba4d4eef7157c5ad501d6b3bf607b5147464c775ca06f70a5651ccd0c94ccaf14a7df1b008f4847ecafbb
+Description: Thêm giây vào đồng hồ thời gian trên màn hình khoá.
+Name: LSTimeSeconds (Roothide)
+Author: b4db1r3
+SileoDepiction: https://jtisvn.github.io/sileodepictions/LSTimeSeconds.json
+Depiction: https://jtisvn.github.io/depictions/LSTimeSeconds.html
+Icon: https://jtisvn.github.io/sectionIcons/LSTimeSeconds.png
+
 Package: com.jtis.lunartimeX
 Architecture: iphoneos-arm64
 Version: 1.0.1
