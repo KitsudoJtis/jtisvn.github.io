@@ -18,7 +18,7 @@
 "itemSize":"{160,346}"
 },
 {
-"markdown":"### CCPower\n- Thêm mô đun đa phím tắt lên Trung tâm điều khiển\n\n- Chức năng chinh:\n\n- Rắt nguồn\n\n- Khởi động lại thiết bị\n\n- Chế độ an toàn\n\n- Làm mới bộ đệm icon\n\n- Respring & Ldrestart\n\n- Khởi động lại không gian người dùng\n\n- Hiển thị thông số thiết bị.",
+"markdown":"### CCPower\n- Thêm mô đun đa phím tắt lên Trung tâm điều khiển\n\n- Chức năng chinh:\n\n- Tắt nguồn thiết bị\n\n- Khởi động lại thiết bị\n\n- Chế độ an toàn\n\n- Làm mới bộ đệm biểu tượng\n\n- Respring & Ldrestart thiết bị\n\n- Khởi động lại không gian người dùng\n\n- Hiển thị thông số thiết bị.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -53,7 +53,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Neskao",
+"text": "Netskao",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -110,7 +110,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "400 KB",
+"text": "2,7 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
