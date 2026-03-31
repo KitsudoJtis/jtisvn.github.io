@@ -10885,6 +10885,23 @@ Description: Be the god of your games!
 Name: iGameGod Rootless
 Author: iGameGod
 
+Package: com.jtis.igg
+Architecture: iphoneos-arm64e
+Version: 0.4.5
+Section: Utilities
+Maintainer: iGameGod
+Installed-Size: 100412
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.igg_0.4.5_iphoneos-arm64e.deb
+Size: 21939824
+MD5sum: e3974b0960167f26ad59a9cc40e9c415
+SHA1: f0851d377ad74e1cace57d5a0ca6e2d0f1ddcd5a
+SHA256: ee09fe9c8b255595d359b1470cad5d2e97da27bf34d6103be0f9b6ba4145b29d
+SHA512: e8944ec45737e151a1a8b6366d6039f073a6eff580fd6a24c22df7f7bd08789ebbf0a0f8b7b096fe346c043c000ccac456082a73b9b1d517e91695c38f1aa79f
+Description: Be the god of your games!
+Name: iGameGod Roothide
+Author: iGameGod
+
 Package: com.jtis.immortalizer
 Architecture: iphoneos-arm64
 Version: 2.0.0-1
