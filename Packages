@@ -17642,6 +17642,27 @@ Depiction: https://jtisvn.github.io/depictions/Zetsu.html
 Icon: https://jtisvn.github.io/sectionIcons/Zetsu.png
 
 Package: com.jtisvn.animfx
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2948
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.17)
+Filename: ./debs/com.jtisvn.animfx_1.0.0_iphoneos-arm.deb
+Size: 2188600
+MD5sum: ee3c8eb55dfa3da45753870dd38dd51a
+SHA1: 85a08e8e2bebd8090e9b5ed1b1cd3c34f275bb06
+SHA256: bc6eb3cf34b8f3a071067d1988cba187a1797498d6c97fac11a078850a5338ab
+SHA512: 46236900b8f0ceb187dc5f69b1c48a785e781745f7aa94fb8df7ddc246c36d2ddab1392b2deb144c0cabc8c37bbc18c031299623676f45b712927805534a5ce5
+Homepage: https://jtisvn.github.io/
+Description: Hiệu ứng hoạt ảnh biểu tượng ứng dụng
+Name: AmimFX
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AnimFX.json
+Depiction: https://jtisvn.github.io/depictions/AmimFX.html
+Icon: https://jtisvn.github.io/sectionIcons/AnimFX.png
+
+Package: com.jtisvn.animfx
 Architecture: iphoneos-arm64
 Version: 1.0.0
 Section: Tweaks
