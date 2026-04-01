@@ -17662,6 +17662,28 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AnimFX.json
 Depiction: https://jtisvn.github.io/depictions/AmimFX.html
 Icon: https://jtisvn.github.io/sectionIcons/AnimFX.png
 
+Package: com.jtisvn.animfx
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2948
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.17)
+Filename: ./debs/com.jtisvn.animfx_1.0.0_iphoneos-arm64e.deb
+Size: 2188544
+MD5sum: c7ae52062b65f2e36ef840992d1d8c3e
+SHA1: 9f215dfbf81b432f81e45041a0dfdc53634bf2be
+SHA256: b21e601c11d8a02267286f39fa9aa229ff3a86302ecfaf8290bf5f83491c187e
+SHA512: e6110379c27364b12d3e7e247d825f3220306c8937312f7a7effa32f2ce165cc2e9db5b637c6115059bec8537f7030a662f9055e03c7343078fc3ba1a5d3b19d
+Homepage: https://jtisvn.github.io/
+Description: Hiệu ứng hoạt ảnh biểu tượng ứng dụng
+Name: AmimFX (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AnimFX.json
+Depiction: https://jtisvn.github.io/depictions/AmimFX.html
+Icon: https://jtisvn.github.io/sectionIcons/AnimFX.png
+
 Package: com.jtisvn.backgroundcaller
 Architecture: iphoneos-arm64
 Version: 1.0.0
