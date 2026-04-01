@@ -26,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"TGExtra\n\n- Tinh chỉnh bổ sung các tiện ích nâng cao cho ứng dụng Telegram, Swiftgram và Turrit.\n\n- **Các tính năng nổi bật:**\n\n+ Tắt Quảng Cáo.\n\n+ Chế độ Ẩn danh (Ghost Mode).\n\n+ Tắt thông báo đã đọc tin nhắn và xem story.\n\n+ Tải xuống, chụp ảnh màn hình trong các kênh/nhóm bị hạn chế\n\n+ Và nhiều chức năng hữu ích khác.\n\n- **Cách sử dụng:** Nhấn 5 lần vào tab **Chats** (Trò chuyện) để mở menu cài đặt.\b\n- **Cách 2: phiên bản 1.7.1**\n\n- Trong cài đặt Telegram và Swifgram, nhấn và giữ dòng thứ ba từ dưới lên\n\n- Trong cài đặt Turrit, nhấn và giữ mục Về Turrit",
+"markdown":"TGExtra\n\n- Tinh chỉnh bổ sung các tiện ích nâng cao cho ứng dụng Telegram, Swiftgram và Turrit.\n\n- **Các tính năng nổi bật:**\n\n+ Tắt Quảng Cáo.\n\n+ Chế độ Ẩn danh (Ghost Mode).\n\n+ Tắt thông báo đã đọc tin nhắn và xem story.\n\n+ Tải xuống, chụp ảnh màn hình trong các kênh/nhóm bị hạn chế\n\n+ Và nhiều chức năng hữu ích khác.\n\n- **Cách sử dụng:** Nhấn 5 lần vào tab **Chats** (Trò chuyện) để mở menu cài đặt.\b\n- **Cách 2: đối với phiên bản 1.7.1 trở lên**\n\n- Trong cài đặt Telegram và Swifgram, nhấn và giữ dòng thứ ba từ dưới lên\n\n- Trong cài đặt Turrit, nhấn và giữ mục Về Turrit",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

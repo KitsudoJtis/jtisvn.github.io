@@ -16023,6 +16023,25 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
 Depiction: https://jtisvn.github.io/depictions/TGExtra.html
 Icon: https://jtisvn.github.io/sectionIcons/TeleSF.png
 
+Package: com.jtis.tgextra
+Architecture: iphoneos-arm64e
+Version: 1.7.3
+Section: Tweaks
+Maintainer: choco
+Installed-Size: 3220
+Filename: ./debs/com.jtis.tgextra_1.7.3_iphoneos-arm64e.deb
+Size: 614244
+MD5sum: ae8389ae52a2b5a0e5bdf3666ed37d1d
+SHA1: 7fc73e3cf13309d3359c97c4a6e5d2a166f5b13a
+SHA256: 2438fa2c6527619b847b88044e7a09f681a868b67b646d4cf7e4858ccf888f2e
+SHA512: a9fa75e69a981c9f8b4ce9c94d6467e7d14bda065af5bd76b165febf89b90437fa0c7fb7776f558f1fd34065e03e4d952180838fb2eaa41e91a070ee95b34808
+Description: An simple Tweak For Telegram iOS
+Name: TGExtra (Roothide)
+Author: choco
+SileoDepiction: https://jtisvn.github.io/sileodepictions/TGExtra.json
+Depiction: https://jtisvn.github.io/depictions/TGExtra.html
+Icon: https://jtisvn.github.io/sectionIcons/TeleSF.png
+
 Package: com.jtis.tiktokgod
 Architecture: iphoneos-arm64
 Version: 4.0.0
