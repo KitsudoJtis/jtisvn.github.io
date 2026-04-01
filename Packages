@@ -17649,11 +17649,11 @@ Maintainer: JTISVN Repo
 Installed-Size: 2948
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.17)
 Filename: ./debs/com.jtisvn.animfx_1.0.0_iphoneos-arm.deb
-Size: 2188672
-MD5sum: 74fe776ebe8dd84a4e76088151b52762
-SHA1: ec2a1654a5d6b65ab63a8f22a8a76cec0793821e
-SHA256: dce5744953a102809daebb9d6b81ab7878a074a6efcd2b3f791ef4f38a836788
-SHA512: 65ab8e2ce9cc248f5a9d3a8dcd9aea94c1a4cc791543dd779f7f655b6b8b1d196ec10c00f5143bec2393002d6525a4dbaeec8210677247fd00b2fc9de282a804
+Size: 2188316
+MD5sum: 01ef94ee2e2ccb3011330cfb29f1b722
+SHA1: 8a1cf32ecfe022c231afaeb50a59e3c467cd51c2
+SHA256: f626a9f86dfaed405a3ebeafabcc8977edaf9789e0416df2043bcee6987ed709
+SHA512: c89182f625662400ac4cd054a2d91befa674ae5279edbd5cf20168c127c3914f74e453f59cf03846f94bf6a737e0738819328b2dffb57d52d650eeb6a947f721
 Homepage: https://jtisvn.github.io/
 Description: Hiệu ứng hoạt ảnh biểu tượng ứng dụng
 Name: AmimFX
