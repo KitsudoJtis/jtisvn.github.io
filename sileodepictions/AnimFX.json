@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/AnimFX.png",
-"tintColor":"#3399FF",
+"tintColor":"#007AFF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -10,23 +10,19 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/TGExtra/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/AnimFX/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/TGExtra/Screenshots/2.png",
-"accessibilityText":"Screenshot"
-},
-{
-"url":"https://jtisvn.github.io/infodeb/TGExtra/Screenshots/3.png",
+"url":"https://jtisvn.github.io/infodeb/AnimFX/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 }
 ],
 "itemCornerRadius":8,
-"itemSize":"{185,400}"
+"itemSize":"{160,346}"
 },
 {
-"markdown":"TGExtra\n\n- Tinh chỉnh bổ sung các tiện ích nâng cao cho ứng dụng Telegram, Swiftgram và Turrit.\n\n- **Các tính năng nổi bật:**\n\n+ Tắt Quảng Cáo.\n\n+ Chế độ Ẩn danh (Ghost Mode).\n\n+ Tắt thông báo đã đọc tin nhắn và xem story.\n\n+ Tải xuống, chụp ảnh màn hình trong các kênh/nhóm bị hạn chế\n\n+ Và nhiều chức năng hữu ích khác.\n\n- **Cách sử dụng:** Nhấn 5 lần vào tab **Chats** (Trò chuyện) để mở menu cài đặt.\b\n- **Cách 2: đối với phiên bản 1.7.1 trở lên**\n\n- Trong cài đặt Telegram và Swifgram, nhấn và giữ dòng thứ ba từ dưới lên\n\n- Trong cài đặt Turrit, nhấn và giữ mục Về Turrit",
+"markdown":"### AnimFX\n- Tuỳ chọn nhiều hiệu ứng chuyển cảnh khi mở ứng dụng trên màn hình chính.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -61,7 +57,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "choco",
+"text": "Kitsudo",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -81,13 +77,13 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày tải lên",
+"text": "Ngày cập nhật",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "1/4/2026",
+"text": "1/4/2025",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.7.3",
+"text": "1.0.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -118,7 +114,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1,6 MB",
+"text": "400 KB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -131,7 +127,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15.0 - 16.6.1",
+"text": "15.0 - 16.7.x",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -152,14 +148,21 @@
 "alignment":1
 }
 ],
-"class":"DepictionStackView"
+"class": "DepictionStackView"
 },
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.7.3\n\n- Sửa lỗi.\n\n- Thêm ngôn ngữ Tiếng Việt.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.0.0\n\n- Phát hành lần đầu."
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
 }
 ],
 "class":"DepictionStackView"
