@@ -19042,6 +19042,25 @@ Tags: compatible_min::ios13.0, compatible_max::ios16.4
 Author: ETHN <ethanwhited2208@gmail.com>
 SomeOtherEntryToControl: True
 
+Package: com.nan.disablethermalmonitord
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: plutil
+Filename: ./debs/com.nan.disablethermalmonitord_0.1.0_iphoneos-arm64e.deb
+Size: 2024
+MD5sum: 8ef064d97ad48442b1b467f04112d955
+SHA1: 7bf01568d801cf6dc1081612f27505a185ee649b
+SHA256: 50f348a381d26e3be1bd7205ed44e1670dda3b4e8573297058ad07d6040bf14b
+SHA512: 944fb70dfad6f51b4048a1ef6e2c9123d6e6f10f3690bac6b534e7fd485e954d85398fe5db97d2c1044299dc735992f73f7f7e05bb6abd5ce191884afd1086a1
+Description: Tắt trình giám sát nhiệt độ để ngăn máy tự bóp hiệu năng và giảm sáng màn hình khi nóng.
+Name: Disable Thermalmonitord
+Author: zhaonan
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Thermalmonitord.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
 Package: com.nathan.tiktokphotocomments
 Architecture: iphoneos-arm
 Version: 0.0.1
