@@ -87,7 +87,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "12/1/2026",
+"text": "1/4/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.4.0",
+"text": "1.7.3",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -118,7 +118,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1,5 MB",
+"text": "1,6 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.4.0\n\n- Sửa lỗi.\n\n- Thêm ngôn ngữ Tiếng Việt.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+"markdown":"### Phiên bản 1.7.3\n\n- Sửa lỗi.\n\n- Thêm ngôn ngữ Tiếng Việt.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
 }
 ],
 "class":"DepictionStackView"
