@@ -1,6 +1,6 @@
 {
 "minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/AnimFX.png",
+"headerImage":"https://jtisvn.github.io/coverimage/AmimFX.png",
 "tintColor":"#CC99FF",
 "tabs":[
 {
@@ -10,11 +10,11 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/AnimFX/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/AmimFX/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/AnimFX/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/AmimFX/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -22,7 +22,7 @@
 "itemSize":"{160,346}"
 },
 {
-"markdown":"### AnimFX\n- Tuỳ chọn nhiều hiệu ứng chuyển cảnh khi mở ứng dụng trên màn hình chính.",
+"markdown":"### AmimFX\n- Tuỳ chọn nhiều hiệu ứng chuyển cảnh khi mở ứng dụng trên màn hình chính.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
