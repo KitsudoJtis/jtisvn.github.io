@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/AnimFX.png",
-"tintColor":"#007AFF",
+"tintColor":"#CC99FF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -114,7 +114,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "400 KB",
+"text": "2,17 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -127,7 +127,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "15.0 - 16.7.x",
+"text": "15.x - 16.7.x",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
