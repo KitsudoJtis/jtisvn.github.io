@@ -101,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.0",
+"text": "1.0.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
