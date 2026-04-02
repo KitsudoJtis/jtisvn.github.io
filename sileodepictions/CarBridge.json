@@ -169,7 +169,6 @@
 {
 
 "tabname":"Nhật ký thay đổi",
-"tintColor":"#5777B8",
 "views":[
 {
 "class":"DepictionMarkdownView",
@@ -180,7 +179,6 @@
 },
 {
 "tabname":"Liên hệ Hỗ trợ",
-"tintColor":"#5777B8",
 "views":[
 {
 "class":"DepictionTableButtonView",
