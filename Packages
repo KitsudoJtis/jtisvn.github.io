@@ -18839,6 +18839,27 @@ Icon: https://jtisvn.github.io/sectionIcons/CarBridge.png
 Depiction: https://jtisvn.github.io/depictions/CarBridge.html
 SileoDepiction: https://jtisvn.github.io/sileodepictions/CarBridge.json
 
+Package: com.leftyfl1p.carbridge13
+Architecture: iphoneos-arm64
+Version: 2.0.15k
+Section: Tweaks
+Maintainer: leftyfl1p
+Installed-Size: 7344
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Filename: ./debs/com.leftyfl1p.carbridge13_2.0.15k_iphoneos-arm64.deb
+Size: 435848
+MD5sum: 4d8449365e6f4480d113f37e42b19ffb
+SHA1: 9a6b555387c8f2ace5571cba5e73346ca63433c8
+SHA256: 05707bdcfac6ec323c7c42cb13ff7355b288a1faa036e0b59e9fb39cb6fd9adf
+SHA512: 3df4e706529273895e2af6a8dfc6fcdf644f1ecca5153f046c06ec9db33b7ec4c5c32c702b09d02dcd9b6784d3fb8b05c1b9fd4328ab2781756474ddd968e3ab
+Description: Mở bất kỳ ứng dụng nào trong CarPlay!
+Name: CarBridge (Rootless)
+Author: leftyfl1p <carbridge@havoc.app>
+Icon: https://jtisvn.github.io/sectionIcons/CarBridge.png
+Depiction: https://jtisvn.github.io/depictions/CarBridge.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CarBridge.json
+
 Package: com.matchstic.xenhtml
 Architecture: iphoneos-arm
 Version: 3.63~release
@@ -20579,6 +20600,24 @@ SHA256: b7a675cdd33ab0e4e13ba95780435da19b78041f09ed8ca58ef18065874c80ec
 SHA512: 9a7717b164d69598cdf85107afe29d1c043c29735595a54826347d176cd9f8c5f656fa42833a824512db7212ca964ad389fe6095631f51c5fb3dcdbd1a8b070a
 Description: Support library allowing tweaks to communicate with sandboxed processes
 Name: RocketBootstrap (Rootless)
+Author: Ryan Petrich
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm64e
+Version: 1.1.1~rootless
+Section: Tweaks
+Maintainer: JTISVN
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.rpetrich.rocketbootstrap_1.1.1~rootless_iphoneos-arm64e.deb
+Size: 22272
+MD5sum: 907bb327b1ecc3175a5322362ec7e180
+SHA1: fd95b553fa78557ee67b94e02b94233cb55e76e0
+SHA256: fe6047620e3c57d4d333f2eb474e1b703c1e431cbda038f6b739ceaf3a590af1
+SHA512: 42f39069c8a88899dcd0092e6f74edb8c83870b823b261b1fa39460c83a49c01e1e64bef08d4fb571aac3b595419b75e73352bffdffa6c1191600019a379622a
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Name: RocketBootstrap (Roothide)
 Author: Ryan Petrich
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
