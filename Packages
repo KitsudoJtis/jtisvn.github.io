@@ -18848,13 +18848,35 @@ Installed-Size: 7344
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
 Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
 Filename: ./debs/com.leftyfl1p.carbridge13_2.0.15k_iphoneos-arm64.deb
-Size: 435848
-MD5sum: 4d8449365e6f4480d113f37e42b19ffb
-SHA1: 9a6b555387c8f2ace5571cba5e73346ca63433c8
-SHA256: 05707bdcfac6ec323c7c42cb13ff7355b288a1faa036e0b59e9fb39cb6fd9adf
-SHA512: 3df4e706529273895e2af6a8dfc6fcdf644f1ecca5153f046c06ec9db33b7ec4c5c32c702b09d02dcd9b6784d3fb8b05c1b9fd4328ab2781756474ddd968e3ab
+Size: 435844
+MD5sum: 8a7399498ffb1382199d77306f0440df
+SHA1: 171f5a75d122edbfbfa68d9b027e1f2ed69d0073
+SHA256: 9284f0a367363f24f0fa1afb36c5399d44180724421145ba62f254ff4445ef62
+SHA512: e4a002da525f41d62ab2d956f06e11fdaa3efbf6a1aa144657363d51144ff7890340c36aecf214da7c7e2dc5edf76b87a70266b4627f088b59f4547ed880d813
 Description: Mở bất kỳ ứng dụng nào trong CarPlay!
 Name: CarBridge (Rootless)
+Author: leftyfl1p <carbridge@havoc.app>
+Icon: https://jtisvn.github.io/sectionIcons/CarBridge.png
+Depiction: https://jtisvn.github.io/depictions/CarBridge.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CarBridge.json
+
+Package: com.leftyfl1p.carbridge13
+Architecture: iphoneos-arm64e
+Version: 2.0.15k
+Section: Tweaks
+Maintainer: leftyfl1p
+Installed-Size: 7344
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Filename: ./debs/com.leftyfl1p.carbridge13_2.0.15k_iphoneos-arm64e.deb
+Size: 432292
+MD5sum: e6050a7df2e747f443ab6cbb9242be0c
+SHA1: cd90f458add9f0838925cf272a7352ed68bb9bba
+SHA256: b371da47d4b5426b71a840c132ef3bf4101d9d476ce99ba8fd52832ccef3fdae
+SHA512: 3a0018bcb53f01f8ee317db88b1b86a5efe2cd361b196ff18fea6d788ccb788238a3d9f877b157fd429453ec0865d4c49f4134f17b449651c97bdb19d5a28717
+Description: Mở bất kỳ ứng dụng nào trong CarPlay!
+Name: CarBridge (Roothide)
 Author: leftyfl1p <carbridge@havoc.app>
 Icon: https://jtisvn.github.io/sectionIcons/CarBridge.png
 Depiction: https://jtisvn.github.io/depictions/CarBridge.html
