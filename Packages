@@ -18756,6 +18756,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/HidePullOverPro.json
 
 Package: com.leftyfl1p.carbridge13
 Architecture: iphoneos-arm
+Version: 1.0.9.5
+Section: Tweaks
+Maintainer: BVN Reo
+Installed-Size: 5252
+Depends: firmware (>= 10.0), mobilesubstrate, applist, com.rpetrich.rocketbootstrap, preferenceloader, ws.hbang.common
+Conflicts: com.eason.carplay, com.eason.carplay.ios11, ch.ringwald.hidsupport, com.leftyfl1p.carbridge13
+Filename: ./debs/com.leftyfl1p.carbridge13_1.0.9.5_iphoneos-arm.deb
+Size: 3186036
+MD5sum: a7c76d0d57e6b35c4ea7a6d6eac961b5
+SHA1: ba9f8f882b3177f6681a555724abf575c7fde68a
+SHA256: 6dbcca993ecf441bc0739d08ba1ce45b5a82ac7ed8c58a55816d68a9aa24fb25
+SHA512: 905dfd22f7bdd4c4d294c4159a8afa468e335a06afde59b46a22b13809bedc6dfe2c78a16802193543fcafcb3c73f36b95c35d5a6cc3bc94b4e413ae294f48fb
+Description: Bổ sung các tính năng Hữu ích cho Carplay.
+Icon: https://jtisvn.github.io/sectionIcons/CarBridge.png
+Depiction: https://jtisvn.github.io/depictions/CarBridge.html
+SileoDepiction: https://jtisvn.github.io/sileodepictions/CarBridge.json
+Name: CarBridge (iOS 10-12)
+Author: leftyfl1p
+
+Package: com.leftyfl1p.carbridge13
+Architecture: iphoneos-arm
 Version: 2.0.15
 Section: Tweaks
 Maintainer: leftyfl1p <carbridge@havoc.app>
@@ -19482,6 +19503,25 @@ SileoDepiction: https://nathanwhit.github.io/repo/depiction/native/com.nwhit.spr
 ModernDepiction: https://nathanwhit.github.io/repo/depiction/native/com.nwhit.springfinity.json
 Icon: https://nathanwhit.github.io/repo/assets/com.nwhit.springfinity/icon.png
 Author: Nathan Whitaker <nathan.whitaker01@gmail.com>
+
+Package: com.opa334.altlist
+Architecture: iphoneos-arm
+Version: 1.0.11
+Section: System
+Maintainer: opa334
+Installed-Size: 388
+Depends: firmware (>=7.0)
+Filename: ./debs/com.opa334.altlist_1.0.11_iphoneos-arm.deb
+Size: 47100
+MD5sum: e3ed39c53a748c154fc1151ae181bb52
+SHA1: 103f6988e7a8ab9f1e83408ed7a78573f36cabef
+SHA256: c2299f0ee65bfb25c4549ec3f24594b035a7cdab364dbfffbf632d67e723b75f
+SHA512: b953af979389aea260731d4e8afc07ce180855937d24eef8ea166cc29f37c72d85edafcef90140e218273c3c08a74d0938dae151d50dc0304d121381ae41105a
+Description: A modern AppList alternative
+Tag: role::developer
+Name: AltList
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Author: opa334
 
 Package: com.opa334.altlist
 Architecture: iphoneos-arm64
