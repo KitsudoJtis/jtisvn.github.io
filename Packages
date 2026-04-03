@@ -18115,20 +18115,20 @@ Architecture: iphoneos-arm64e
 Version: 2.2k
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 1616
+Installed-Size: 1708
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
 Filename: ./debs/com.jtisvn.nexusboard_2.2k_iphoneos-arm64e.deb
-Size: 433412
-MD5sum: 125234c481fee4b7ee872af30ec20262
-SHA1: e110990f7d2443db8173f777fb4c8beca99d1f78
-SHA256: 9b702419ff69d9d746df998b36cbb6e62c4be54ecee8a538ba6127db0557adfd
-SHA512: 0313f96a316360b5966f91785dbda72230f05d29517ae295b18d25a5ce2a4a6dd7d31a18f5f96277d1f3f50daa8ad6cd8aecc54d9508b9e679623a716a11f650
+Size: 450892
+MD5sum: 4ec0dfbe1fa1fce71bcd2a9dae48360c
+SHA1: d970e43d0097538336c2f145ca0ef95c78217943
+SHA256: 1b486d8b6aaab68d71f7fbeeaf65d7bce9aa227d0a77d0ea9d23635637e57b09
+SHA512: 711a8e469055b6cce5739123611cd63ee286667617f2cad426356faf2082439f5a80bec75051c512a36a8c1331588d843050e241f6bcc93c6b312304188c18e4
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
-Name: NexusBoard (Roothide)
+Name: NexéuBoard(Roothide)
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/NexusBoard.json
 Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
@@ -19058,6 +19058,25 @@ Tag: role::developer
 Name: libimagepicker
 Author: Muirey03
 Icon: file:///Applications/Cydia.app/Sections/hethongg1.png
+
+Package: com.muirey03.libmryipc
+Architecture: iphoneos-arm64
+Version: 2.0.1
+Section: System
+Maintainer: Muirey03
+Installed-Size: 308
+Depends: mobilesubstrate
+Conflicts: ws.hbang.stopcrashingpls (=1.0)
+Filename: ./debs/com.muirey03.libmryipc.deb
+Size: 18606
+MD5sum: e279f94d966892e4aef687d99afc81de
+SHA1: 279770b41cf64c9256a3260a28b749a90f65bccf
+SHA256: a535dfa8d9f66f8bdcfa556551465107deb64f15b41889ab2ab98dec6529279e
+SHA512: 5b8e8a43289e21f31a74fe4f4939f485bf37aedc8181158552ae6b81b65d50c41c55d4fdd6b5068bfabdbe9e54e491c3eb2f7ceda9f30a031f9da72e7c307c44
+Description: Easy-to-use, RocketBootstrap-less iOS IPC
+Tag: role::developer
+Name: libMRYIPC
+Author: Muirey03
 
 Package: com.nahtedetihw.reachplayer-rootless
 Architecture: iphoneos-arm64
@@ -20701,6 +20720,24 @@ Name: A-Font (Roothide)
 Author: Baw Appie <pp121324@gmail.com>
 Icon: https://jtisvn.github.io/sectionIcons/A-Font.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/A-Font.json
+
+Package: com.rpgfarm.libaptoast
+Architecture: iphoneos-arm
+Version: 1.1
+Section: System
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 132
+Filename: ./debs/com.rpgfarm.libaptoast_1.1_iphoneos-arm.deb
+Size: 7220
+MD5sum: c9932073c6111441edba782ee4c0297c
+SHA1: 8d7d1e961e7465d6f950caa72acde0e3c3c4c721
+SHA256: ba8e7cbc092a6b2fc3615c93732a304437b4073ee0a0123bec5c663da793b1b7
+SHA512: f5f0475e659c05d177410f4661cf597baf1abc72ce63af7fb7e61443b1661fd3448ba62949e754bbcc0ae1bacab3f5e2210317ba7bd584662695197828a399e7
+Description: Baw Appie's Toast Library
+Tag: role::developer
+Name: libAPToast
+Author: Baw Appie <pp121324@gmail.com>
+Icon: file:///Applications/Cydia.app/Sections/hethongg1.png
 
 Package: com.rullinoiz.ipa2deb
 Architecture: iphoneos-arm64
