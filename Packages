@@ -3354,6 +3354,30 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/3DBadgeClear.json
 Depiction: https://jtisvn.github.io/depictions/3DBadgeClear.html
 Icon: https://jtisvn.github.io/sectionIcons/3DBadgeClear.png
 
+Package: com.jtis.3dbadgeclear
+Architecture: iphoneos-arm64e
+Version: 1.6.8
+Section: Tweaks
+Maintainer: isklikas
+Installed-Size: 192
+Provides: com.isklikas.3dbadgeclear
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: com.isklikas.3dbadgeclear
+Replaces: com.isklikas.3dbadgeclear
+Filename: ./debs/com.jtis.3dbadgeclear_1.6.8_iphoneos-arm64e.deb
+Size: 17736
+MD5sum: 92fe6d3edcd9a96d1223d2f8c13877d2
+SHA1: cacdd06db250b18723026d99335976d68feafcc2
+SHA256: 93bd171378cba72bb481fd1bed275698568a247b9a91961b99a87a6363c9877a
+SHA512: 56e99649a9bc2550ecdd2ceea94f564d23f9be257e6f996db8230ef6f4caddebaae1588e9a644c97c2ebfbff3aa24a0a34314f7782a5b81fda660b9968b9546d
+Description: Xóa huy hiệu của bạn khỏi Menu Force Touch / 3D Touch! Chỉ xuất hiện trên các ứng dụng có huy hiệu.
+Name: 3DBadgeClear(Roothide)
+Author: isklikas
+SileoDepiction: https://jtisvn.github.io/sileodepictions/3DBadgeClear.json
+Depiction: https://jtisvn.github.io/depictions/3DBadgeClear.html
+Icon: https://jtisvn.github.io/sectionIcons/3DBadgeClear.png
+
 Package: com.jtis.82flexcrack
 Architecture: iphoneos-arm64
 Version: 0.0.2

@@ -6,7 +6,6 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -164,7 +163,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.0.8\n- Đã sửa lỗi khiến các thao tác (actions) không chạy được trên môi trường jailbreak Rootless."
 }
 ],
 "class":"DepictionStackView"

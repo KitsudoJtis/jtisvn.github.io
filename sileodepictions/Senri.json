@@ -6,7 +6,6 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionLabelView",
 "text":"Senri",
@@ -39,7 +38,7 @@
 },
 {
 "itemCornerRadius": 8,
-"itemSize": "{185, 400}",
+"itemSize": "{285,500}",
 "screenshots": [
 {
 "accessibilityText": "Screenshot",

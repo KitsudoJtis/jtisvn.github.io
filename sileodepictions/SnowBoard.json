@@ -6,7 +6,6 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -31,7 +30,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"SnowBoard\n\n- Tweak này đúng để thay đổi chủ đề các ứng dụng trên IPhone được xem là sự kế thừa của Winterboard huyền thoại, hỗ trợ các định dạng thay đổi nhiều chủ đề phổ biến nhanh chóng, hoàn toàn miễn phí\n\n- Bạn đã nhàm chán với những biểu tượng mặc định? Và đây là tweak giúp bạn thay đổi những biểu tượng đó. Va nó có thêm nhiều tính năng tuyệt vời khác\n\n- Cho phép bạn thêm các chủ đề vào Màn hình chính. Có khả năng thay phông chữ, thay thế hình ảnh Respring, thay đổi thanh Dock, chuyển dấu chấm trang, đổi các biểu tượng trong cài đặt, chèn thanh trạng thái, v.v...\n\n- Vui lòng tải đầy dủ các gói tiện ịch trong mục SnowBoard Extensions nếu bạn cài bản cấu hình Roothide.\n\n- Các tính năng trong phần Cài đặt\n\n- Bo tròn góc biểu tượng: Các góc sẽ được bo lại tròn hơn hoặc vuông hơn\n\n- Kích thước biểu tượng: Thay đổi độ phóng to hoặc thu nhỏ cho các ứng dụng trên màn hình chính\n\n- Ẩn hiện những thành phần: Tên ứng dụng, dấu chấm trang, lớp phủ màu đen mờ khi cảm ứng lên ứng dụng",
+"markdown":"### SnowBoard\n\n- Tweak này đúng để thay đổi chủ đề các ứng dụng trên IPhone được xem là sự kế thừa của Winterboard huyền thoại, hỗ trợ các định dạng thay đổi nhiều chủ đề phổ biến nhanh chóng, hoàn toàn miễn phí\n\n- Bạn đã nhàm chán với những biểu tượng mặc định? Và đây là tweak giúp bạn thay đổi những biểu tượng đó. Va nó có thêm nhiều tính năng tuyệt vời khác\n\n- Cho phép bạn thêm các chủ đề vào Màn hình chính. Có khả năng thay phông chữ, thay thế hình ảnh Respring, thay đổi thanh Dock, chuyển dấu chấm trang, đổi các biểu tượng trong cài đặt, chèn thanh trạng thái, v.v...\n\n- Vui lòng tải đầy dủ các gói tiện ịch trong mục SnowBoard Extensions nếu bạn cài bản cấu hình Roothide.\n\n- Các tính năng trong phần Cài đặt\n\n- Bo tròn góc biểu tượng: Các góc sẽ được bo lại tròn hơn hoặc vuông hơn\n\n- Kích thước biểu tượng: Thay đổi độ phóng to hoặc thu nhỏ cho các ứng dụng trên màn hình chính\n\n- Ẩn hiện những thành phần: Tên ứng dụng, dấu chấm trang, lớp phủ màu đen mờ khi cảm ứng lên ứng dụng",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
