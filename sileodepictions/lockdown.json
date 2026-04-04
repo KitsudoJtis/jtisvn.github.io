@@ -1,0 +1,40 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Giới thiệu",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<p><b>Tinh chỉnh giúp bảo vệ thiết bị của bạn khỏi các cuộc tấn công của DarkSword/Coruna..</b></p><br/> <p>⚠️ Khuyến nghị người dùng jailbreak nên cài đặt gói này!</p>",
+          "useSpacing": true,
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "useMargins": true,
+          "title": "Tương thích đối với iOS 15.0 - 17.0"
+        }
+      ],
+      "xPadding": 10
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Nhật ký thay đổi",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Phiên bản 1.0.1"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Hỗ trợ Roothide Jailbreak."
+        }
+      ]
+    }
+  ],
+  "tintColor": "red",
+  "headerImage": "https://jtisvn.github.io/coverimage/jtisvnrepo2.png"
+}
