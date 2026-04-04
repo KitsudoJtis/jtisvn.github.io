@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"CalculatorHistory\n\n- Thêm tiện ích lưu lịch sử tính toán cho ứng dụng Máy tính (Calculator) trên các thiết bị iOS thấp hơn (giống tính năng trên iOS 18).",
+"markdown":"### CalculatorHistory\n\n- Thêm tiện ích lưu lịch sử tính toán cho ứng dụng Máy tính (Calculator) trên các thiết bị iOS thấp hơn (giống tính năng trên iOS 18).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -156,6 +156,13 @@
 {
 "class":"DepictionMarkdownView",
 "markdown":"### Phiên bản 1.2\n\n- Sửa lỗi trên iOS 14.\n\n- Hỗ trợ Rootless & Roothide Jailbreak."
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
 }
 ],
 "class":"DepictionStackView"

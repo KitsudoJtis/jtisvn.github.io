@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Cask 3\n\n- Mang hiệu ứng cuộn danh sách (scrolling animations) động và mượt mà đến toàn bộ hệ thống iOS (hỗ trợ iOS 14 trở lên).\n\n- Đối với các phiên bản iOS thấp hơn, hãy thử dùng Cask gốc của Ryan Petrich hoặc Cask 2.",
+"markdown":"### Cask 3\n\n- Mang hiệu ứng cuộn danh sách (scrolling animations) động và mượt mà đến toàn bộ hệ thống iOS (hỗ trợ iOS 14 trở lên).\n\n- Đối với các phiên bản iOS thấp hơn, hãy thử dùng Cask gốc của Ryan Petrich hoặc Cask 2.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"BetterCCXI\n\n- Một tinh chỉnh mạnh mẽ, cho phép bạn tùy chỉnh nâng cao và sắp xếp lại bố cục của các mô-đun trong Trung tâm điều khiển (Control Center).\n\n- Có thể thay đổi kích thước 4x2, 3x2, 2x2 cho mô-đun Kết nối, Nhạc (Media) và Thời tiết theo ý muốn của bạn.",
+"markdown":"### BetterCCXI\n\n- Một tinh chỉnh mạnh mẽ, cho phép bạn tùy chỉnh nâng cao và sắp xếp lại bố cục của các mô-đun trong Trung tâm điều khiển (Control Center).\n\n- Có thể thay đổi kích thước 4x2, 3x2, 2x2 cho mô-đun Kết nối, Nhạc (Media) và Thời tiết theo ý muốn của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

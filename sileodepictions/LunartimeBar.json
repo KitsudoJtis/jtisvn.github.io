@@ -18,7 +18,7 @@
 "itemSize":"{285,500}"
 },
 {
-"markdown":"LunarTime Bar\n\n- Thêm hiển thị thứ, ngày Dương/Âm lịch lên góc trái Thanh trạng thái cho các thiết bị tai thỏ (Notch).\n\n- **Lưu ý quan trọng:** Đối với iPhone XS trở lên, vui lòng tải gói **Legacy arm64e Support** trước khi cài đặt tweak này.",
+"markdown":"### LunarTime Bar\n\n- Thêm hiển thị thứ, ngày Dương/Âm lịch lên góc trái Thanh trạng thái cho các thiết bị tai thỏ (Notch).\n\n- **Lưu ý quan trọng:** Đối với iPhone XS trở lên, vui lòng tải gói **Legacy arm64e Support** trước khi cài đặt tweak này.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
