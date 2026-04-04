@@ -18151,6 +18151,30 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/NexusBoard.json
 Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
 Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
+Package: com.jtisvn.nexusboard
+Architecture: iphoneos-arm64e
+Version: 2.3k
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 1752
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
+Filename: ./debs/com.jtisvn.nexusboard_2.3k_iphoneos-arm64e.deb
+Size: 459804
+MD5sum: 2924c13dd2e505f843eb93aec5d8ce6b
+SHA1: c89acfc68fcc3bb22eb40e33e5a511665d8fc7cd
+SHA256: 49eb569b57ac50683e1754b3dd766508303d9dfef6f5c6b3edafb21ea0acce96
+SHA512: 9ff7012649c3d5ed75549b27615a6b9bb6074acaf05afe15d361b01dd0813f9b5ef1842f001d36b89fd8bef4c673a4d9c258eb748c5c3410a27292813531e42f
+Homepage: https://jtisvn.github.io/
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: NexusBoard (Roothide)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NexusBoard.json
+Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
+
 Package: com.jtisvn.scribblefix
 Architecture: iphoneos-arm64e
 Version: 1.0.0
