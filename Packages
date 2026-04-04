@@ -20608,6 +20608,25 @@ SileoDepiction: https://havoc.app/package/reo/depiction.json
 Icon: https://media.havoc.app/6683a5d2b31c69deb54d4705
 
 Package: com.roothide.lockdown
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: roothide
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.roothide.lockdown_1.0.1_iphoneos-arm64.deb
+Size: 4132
+MD5sum: db95fd38b3de97e9d780afcb8b347418
+SHA1: f0f49fdffef08c3c501179754fa50b6acfadf918
+SHA256: e2e6fd8b6c010a71be9a41155cc0ad082da3ed4f6348d84e442e2a05eac0203f
+SHA512: b00ab07acd79a93eb905d117298f624b4c2423e9338f5e29a89f6d93904ff3f49db604601337af6a90d426244c66467b0fca4807631631c5a20281604ec1f9cd
+Description: Bảo vệ thiết bị của bạn khỏi các cuộc tấn công của DarkSword/Coruna..
+Name: lockdown (Rootless)
+Author: roothide
+Icon: https://jtisvn.github.io/sectionIcons/lockdown.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/lockdown.json
+
+Package: com.roothide.lockdown
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Section: Tweaks
