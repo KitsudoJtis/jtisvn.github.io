@@ -614,6 +614,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/SafariX.json
 Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
 Author: 0xkuj
 
+Package: com.0xkuj.speedads2k26
+Architecture: iphoneos-arm64e
+Version: 1.1.2k
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 440
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.altlist, preferenceloader, ellekit
+Filename: ./debs/com.0xkuj.speedads2k26_1.1.2k_iphoneos-arm64e.deb
+Size: 67412
+MD5sum: f69b0ea56c2f14d90aafbb2f37b9fc0b
+SHA1: b1d53470bfc28a10e9adb70782eda7a22d48eceb
+SHA256: b4367d593647c7cf7ed72d35fcb9d1748e80694d25c364d2a30ac706d49782cf
+SHA512: a03d65dc439bb8f6d2a2916354a31ad5e5c84875ff0531b47e55064c57515f1fff9ae044637d1d57b6e02cad429f7a67338dac87a60aaed72ff420e93c13df57
+Description: A properly made tweak to speed up any modern ad.
+Name: SpeedAds2k26 (Roothide)
+Author: 0xkuj
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SpeedAds2k26.json
+Depiction: https://jtisvn.github.io/depictions/SpeedAds2k26.html
+Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.speedads2k26.png
+
 Package: com.34306.messedd
 Architecture: iphoneos-arm
 Version: 3.2
