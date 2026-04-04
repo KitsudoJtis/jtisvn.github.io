@@ -18,7 +18,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"CCbonder\n\n- Xoá bỏ nền mô-đun và thêm một đường viền trên Trung tâm điều khiển, mang phong cách giống tweak CoolCC.",
+"markdown":"### CCbonder\n\n- Xoá bỏ nền mô-đun và thêm một đường viền trên Trung tâm điều khiển, mang phong cách giống tweak CoolCC.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

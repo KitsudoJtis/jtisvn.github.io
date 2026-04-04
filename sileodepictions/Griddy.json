@@ -6,7 +6,6 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -23,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Griddy\n\n- Sắp xếp biểu tượng và widget ở bất kỳ vị trí trên Màn hình chính, Dock và thư mục chỉ bằng cách kéo và thả theo ý muốn của bạn.",
+"markdown":"### Griddy\n\n- Sắp xếp biểu tượng và widget ở bất kỳ vị trí nào trên Màn hình chính, Dock và thư mục chỉ bằng cách kéo và thả theo ý muốn của bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
