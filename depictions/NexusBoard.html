@@ -41,25 +41,21 @@
             display: block;
         }
 
-        /* ----- CSS SỬA LỖI TAB DI CHUYỂN ----- */
         .tab-nav {
             display: flex;
             justify-content: space-around;
             border-bottom: 1px solid var(--separator-color);
             background-color: var(--bg-color); 
             padding: 10px 0;
-            /* Thiết lập để nó 'dính' */
             position: sticky;
-            top: -1px; /* Đặt là 0 hoặc -1px để bù cho border */
-            z-index: 100; /* Đảm bảo nó nằm trên các nội dung khác */
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Thêm bóng mờ nhẹ để tách biệt khi cuộn */
+            top: -1px;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
         }
+
         @media (prefers-color-scheme: dark) {
-            .tab-nav {
-                box-shadow: 0 2px 5px rgba(255,255,255,0.05);
-            }
+            .tab-nav { box-shadow: 0 2px 5px rgba(255,255,255,0.05); }
         }
-        /* -------------------------------------- */
 
         .tab-btn {
             background: none;
@@ -122,10 +118,9 @@
         }
 
         .screenshot-img {
-            /* width: 160px; -- Bỏ width cố định */
+            width: 160px;
             height: auto;
-            max-height: 350px; /* Thêm max-height để ảnh ko quá to */
-            border-radius: var(--radius);
+            border-radius: 0px; /* Cập nhật itemCornerRadius: 0 từ JSON */
             border: 1px solid var(--separator-color); 
             cursor: pointer;
         }
@@ -262,11 +257,12 @@
                 <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/10.png" class="screenshot-img" onclick="openImage(this)">
                 <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/11.png" class="screenshot-img" onclick="openImage(this)">
                 <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/12.png" class="screenshot-img" onclick="openImage(this)">
+                <img src="https://jtisvn.github.io/infodeb/NexusBoard/Screenshots/13.png" class="screenshot-img" onclick="openImage(this)">
             </div>
 
             <div>
                 <h3>NexusBoard</h3>
-                <p>Tinh chỉnh "All-in-One" giúp tùy biến giao diện SpringBoard với hàng loạt tính năng hữu ích.</p>
+                <p>Tinh chỉnh "All-in-One" giúp bạn trải nghiệm tùy biến giao diện SpringBoard với hàng loạt tính năng hữu ích cho iOS.</p>
                 <p><strong>Các tính năng nổi bật:</strong></p>
                 <ul>
                     <li><strong>Màn hình chính:</strong> Ẩn tên ứng dụng/thư mục, ẩn thanh Home Bar, ẩn dấu chấm trang, ẩn Thư viện ứng dụng, ẩn nền Dock, ẩn nút quay lại ứng dụng, xoay mọi hướng biểu tượng, xóa cảnh báo pin yếu, hiển thị chi tiết pin...</li>
@@ -295,13 +291,13 @@
                     </div>
                     <div class="info-item">
                         <span class="info-label">Ngày cập nhật</span>
-                        <span class="info-value">18/3/2026</span>
+                        <span class="info-value">4/4/2026</span>
                     </div>
                 </div>
                 <div class="info-column">
                     <div class="info-item">
                         <span class="info-label">Phiên bản</span>
-                        <span class="info-value">2.2</span>
+                        <span class="info-value">2.3</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Kích thước</span>
@@ -318,7 +314,16 @@
         </div>
 
         <div id="changelog" class="tab-content">
-            <h3 style="margin-top: 10px;">Phiên bản 2.2</h3>
+            <h3 style="margin-top: 10px;">Phiên bản 2.3</h3>
+            <ul>
+                <li>Thêm tuỳ chỉnh màu công tắc.</li>
+                <li>Thêm ẩn ứng dụng khỏi màn hình chính.</li>
+                <li>Thêm hiển thị 1 ứng dụng trên thư mục.</li>
+                <li>Thêm tắt nhấn giữ sửa nền Màn hình khoá.</li>
+                <li>Thêm tắt cử chỉ vuốt xuống Spotlight.</li>
+            </ul>
+
+            <h3 style="margin-top: 15px; border-top: 1px solid var(--separator-color); padding-top: 10px;">Phiên bản 2.2</h3>
             <ul>
                 <li>Thêm tốc độ mạng trên thanh trạng thái.</li>
                 <li>Thêm đổi biểu tượng dữ liệu.</li>
@@ -376,17 +381,17 @@
                 <a href="https://jtisvn.github.io/depictions/NexusBoard.html" class="action-btn" target="_blank">
                     Mô tả tinh chỉnh <span>&#8594;</span>
                 </a>
-                <a href="https://paypal.me/HiuKitsudo" class="action-btn" target="_blank">
-                    Paypal <span>&#8594;</span>
-                </a>
-                <a href="https://jtisvn.github.io/homepage/donate/donate.html" class="action-btn" target="_blank">
-                    Ủng hộ tôi <span>&#8594;</span>
-                </a>
                 <a href="https://t.me/jtisvn" class="action-btn" target="_blank">
                     Kênh Telegram <span>&#8594;</span>
                 </a>
                 <a href="https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP" class="action-btn" target="_blank">
                     Nhóm Facebook <span>&#8594;</span>
+                </a>
+                <a href="https://paypal.me/HiuKitsudo" class="action-btn" target="_blank">
+                    Paypal <span>&#8594;</span>
+                </a>
+                <a href="https://jtisvn.github.io/homepage/donate/donate.html" class="action-btn" target="_blank">
+                    Ủng hộ tôi <span>&#8594;</span>
                 </a>
             </div>
             <div class="footer-text">Copyright © 2025 - 2030 by JTISVN</div>
@@ -413,17 +418,13 @@
             }
             document.getElementById(tabName).style.display = "block";
             
-            // ----- JS SỬA LỖI TAB DI CHUYỂN -----
-            // Tự động cuộn lên đầu tab khi chuyển tab
             tabNav = document.getElementsByClassName("tab-nav")[0];
             if(tabNav) {
-                // Cuộn body để tab-nav chạm top (hoặc gần top)
                 window.scrollTo({
                     top: tabNav.offsetTop - 1, 
-                    behavior: 'smooth' // Cuộn mượt mà
+                    behavior: 'smooth'
                 });
             }
-            // --------------------------------------
 
             setTimeout(() => { document.getElementById(tabName).classList.add("active"); }, 10);
             evt.currentTarget.className += " active";
