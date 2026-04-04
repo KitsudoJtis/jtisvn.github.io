@@ -15,10 +15,10 @@
 }
 ],
 "itemCornerRadius":8,
-"itemSize":"{127,275}"
+"itemSize":"{285,500}"
 },
 {
-"markdown":"### SpeedAds2k26\n\n- Tinh chỉnh thế hệ mới giúp tăng tốc độ phát quảng cáo trong ứng dụng mà **không làm mất phần thưởng** của bạn.\n\n- **Các tính năng nổi bật:**\n\n- **Nhận đủ phần thưởng:** Quảng cáo chạy nhanh hơn chớp mắt, nhưng hệ thống vẫn ghi nhận bạn đã xem xong để nhận thưởng bình thường.\n\n- **Tự động đóng (Tùy chọn):** Một số quảng cáo có thể tự động đóng chỉ trong ~2 giây sau khi hiện lên mà vẫn nhận được quà (Mặc định tắt, bạn có thể bật trong Cài đặt).\n\n- **Chế độ thử nghiệm:** Hỗ trợ ép tăng tốc cho nhiều loại quảng cáo cứng đầu hơn (Sử dụng rủi ro tự chịu).\n\n- **Tùy chọn từng ứng dụng:** Bạn có thể chọn chỉ bật tinh chỉnh này cho những ứng dụng cụ thể.\n\n*Lưu ý: Nếu bạn cần phiên bản cho thiết bị chưa Jailbreak (Jailed version), hãy liên hệ tác giả qua X/Twitter: @0xkuj.*",
+"markdown":"### SpeedAds2k26\n\n- Tinh chỉnh thế hệ mới giúp tăng tốc độ phát quảng cáo trong ứng dụng mà **không làm mất phần thưởng** của bạn.\n\n- **Các tính năng nổi bật:**\n\n- **Nhận đủ phần thưởng:** Quảng cáo chạy nhanh hơn chớp mắt, nhưng hệ thống vẫn ghi nhận bạn đã xem xong để nhận thưởng bình thường.\n\n- **Tự động đóng:** Một số quảng cáo có thể tự động đóng chỉ trong ~2 giây sau khi hiện lên mà vẫn nhận được quà (Mặc định tắt, bạn có thể bật trong Cài đặt).\n\n- **Chế độ thử nghiệm:** Hỗ trợ ép tăng tốc cho nhiều loại quảng cáo cứng đầu hơn (Sử dụng rủi ro tự chịu).\n\n- **Tùy chọn từng ứng dụng:** Bạn có thể chọn chỉ bật tinh chỉnh này cho những ứng dụng cụ thể.\n\n*Lưu ý: Nếu bạn cần phiên bản cho thiết bị chưa Jailbreak (Jailed version), hãy liên hệ tác giả qua X/Twitter: @0xkuj.*",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

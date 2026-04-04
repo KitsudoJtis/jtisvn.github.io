@@ -615,19 +615,39 @@ Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
 Author: 0xkuj
 
 Package: com.0xkuj.speedads2k26
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 440
+Depends: com.opa334.altlist, preferenceloader, ellekit
+Filename: ./debs/com.0xkuj.speedads2k26_1.1.2_iphoneos-arm64.deb
+Size: 68368
+MD5sum: a7f068f2407acb4c9b5f26d280d3bd9e
+SHA1: 8ec7ca531430a24b5907ab121bf16b899b40ab73
+SHA256: 474b5279e1c5a40c3fba469d35f9a1e9c8af97f75faa360ac17eff9dc5538901
+SHA512: 3f6c4631783c2038cbd0b6a84d382118d5718bbb5fe2f7c1824df892d230a2814649606a983cb2e53e9fb189d9b7848f6fed923877f849b79b6e73603e9df1b6
+Description: A properly made tweak to speed up any modern ad.
+Name: SpeedAds2k26 (Rootless)
+Author: 0xkuj
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SpeedAds2k26.json
+Depiction: https://jtisvn.github.io/depictions/SpeedAds2k26.html
+Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.speedads2k26.png
+
+Package: com.0xkuj.speedads2k26
 Architecture: iphoneos-arm64e
-Version: 1.1.2k
+Version: 1.1.2
 Section: Tweaks
 Maintainer: 0xkuj
 Installed-Size: 440
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: com.opa334.altlist, preferenceloader, ellekit
-Filename: ./debs/com.0xkuj.speedads2k26_1.1.2k_iphoneos-arm64e.deb
-Size: 67412
-MD5sum: f69b0ea56c2f14d90aafbb2f37b9fc0b
-SHA1: b1d53470bfc28a10e9adb70782eda7a22d48eceb
-SHA256: b4367d593647c7cf7ed72d35fcb9d1748e80694d25c364d2a30ac706d49782cf
-SHA512: a03d65dc439bb8f6d2a2916354a31ad5e5c84875ff0531b47e55064c57515f1fff9ae044637d1d57b6e02cad429f7a67338dac87a60aaed72ff420e93c13df57
+Filename: ./debs/com.0xkuj.speedads2k26_1.1.2_iphoneos-arm64e.deb
+Size: 67396
+MD5sum: 9a11ce2b18cada0820bbaf1214c7626b
+SHA1: dbd15ab4d15ac6e8aa5609c28629a6f20e4c9c6e
+SHA256: 12136a65f1857c4b7a0793302670348b07ca9c38479291e6ed8aa381a2b29ec0
+SHA512: 84fd5923fbdaee62176f9452ee01a6d028b3e4bdff2f712857c6d5f0aed7177eaff81de7811fe82af234cb12c050367ff8e5156e9a3c0f7b76f6eb0f6e809d85
 Description: A properly made tweak to speed up any modern ad.
 Name: SpeedAds2k26 (Roothide)
 Author: 0xkuj
