@@ -15,7 +15,7 @@
 }
 ],
 "itemCornerRadius":8,
-"itemSize":"{185,400}"
+"itemSize":"{285,500}"
 },
 {
 "markdown":"LocationService\n\n- Thêm nút mô đun bật tắt vị trí trên Trung tâm điều khiển.",

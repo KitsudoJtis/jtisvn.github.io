@@ -15,7 +15,7 @@
 }
 ],
 "itemCornerRadius":8,
-"itemSize":"{160,346}"
+"itemSize":"{285,500}"
 },
 {
 "markdown":"### CCPower\n- Thêm mô đun đa phím tắt lên Trung tâm điều khiển\n\n- Chức năng chinh:\n\n- Tắt nguồn thiết bị\n\n- Khởi động lại thiết bị\n\n- Chế độ an toàn\n\n- Làm mới bộ đệm biểu tượng\n\n- Respring & Ldrestart thiết bị\n\n- Khởi động lại không gian người dùng\n\n- Hiển thị thông số thiết bị.",

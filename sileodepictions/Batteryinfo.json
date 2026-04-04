@@ -19,7 +19,7 @@
 }
 ],
 "itemCornerRadius":8,
-"itemSize":"{160,346}"
+"itemSize":"{185,400}"
 },
 {
 "markdown":"### Batteryinfo\n\n- Tiện ích giúp hiển thị các thông tin chi tiết và chuyên sâu về pin trên thiết bị của bạn.\n\n- **Tính năng chính:** Xem nhanh số chu kỳ sạc (Cycle Count), dung lượng pin thiết kế, dung lượng pin thực tế, nhiệt độ, dòng điện và nhiều thông số kỹ thuật khác một cách trực quan và chính xác nhất.",
