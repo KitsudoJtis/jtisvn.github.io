@@ -20615,15 +20615,15 @@ Maintainer: roothide
 Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.roothide.lockdown_1.0.1_iphoneos-arm64e.deb
-Size: 3936
-MD5sum: e17afe6e62315ef9d4f0113f5b93f9b3
-SHA1: b71134db99358c50a26dd2211b05fad741291a01
-SHA256: 0a0e62e83ddb18915bf0ebcc12d979223102f209110232ee7ceb9ba31ea06a61
-SHA512: 040b7e7b0ba00792b6c7d0f5dea1e15a126f309ddba6c5d9e34aae276f029a4d36f937f861efd3431d56f2224220380abdb69fdec46f1358bcee1892c1c11cbd
+Size: 3932
+MD5sum: d2c5620da82658a5604fba5a00fe308b
+SHA1: 326f9bd0d8b3f38f6c48bc8ff82033f196d05353
+SHA256: 3a4617ee975e973e593b3f537e3177695cdac4acc3217af782f89d15674b2a2d
+SHA512: 7af65eba673d1ab7927d536007efad27d7c97e736e440160c9cc719dcbe3d5fea11982f85fdd6dd41d618aaa87535ee88ca4a367d6bfe4b759c5748e5a9d68b3
 Description: Bảo vệ thiết bị của bạn khỏi các cuộc tấn công của DarkSword/Coruna.
 Name: lockdown (Roothide)
 Author: roothide
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Icon: https://jtisvn.github.io/sectionIcons/lockdown.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/lockdown.json
 
 Package: com.roothide.manager
