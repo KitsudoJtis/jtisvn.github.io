@@ -15,7 +15,7 @@
 }
 ],
 "itemCornerRadius":8,
-"itemSize":"{185,400}"
+"itemSize":"{285,500}"
 },
 {
 "markdown":"3DAppVersionSpoofer\n\n- Giả mạo phiên bản ứng dụng ngay từ menu 3D Touch/Haptic Touch.\n\n- **Cơ chế:** Tinh chỉnh này hoạt động bằng cách \"hook\" (can thiệp) vào quy trình kiểm tra phiên bản chứ không thay đổi bất kỳ file gốc nào của ứng dụng, đảm bảo an toàn.\n\n- **Cách sử dụng:**\n\n1. Nhấn giữ vào biểu tượng ứng dụng để mở menu 3D.\n\n2. Chọn mục \"Spoof App Version\".\n\n3. Nhập số phiên bản bạn muốn giả lập.\n\n4. Mở ứng dụng và tận hưởng.",
