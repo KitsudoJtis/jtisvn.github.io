@@ -121,7 +121,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Tương thích iOS/iPadOS",
+"text": "Tương thích iOS",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },

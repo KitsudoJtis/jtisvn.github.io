@@ -58,7 +58,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Designer\n\n- là một tinh chỉnh cho phép bạn tuỳ chỉnh bó cuc, tạo, chỉnh sửa và áp dụng các chủ đề cho Màn hình khóa và Màn hình chính\n\n- Tính năng nổi bật:\n\n- Hỗ trợ Widget HTML: Tương thích mạnh mẽ với các chủ đề widget\n\n- Tùy biến Bố cục: Thay đổi số cột, kích thước, vị trí biểu tượng.\n\n- Ẩn các thành phần: Ẩn đi thanh Dock, tên ứng dụng, thanh trạng thái, dấu chấm trang...\n\n- Hiệu ứng sống động: Thêm hiệu ứng thời tiết và hiệu ứng sạc pin độc đáo.\n\n- Tạo và Chỉnh sửa: Tự tạo ra những chủ đề mới lạ của riêng bạn.",
+"markdown":"### Designer\n\n- là một tinh chỉnh cho phép bạn tuỳ chỉnh bó cuc, tạo, chỉnh sửa và áp dụng các chủ đề cho Màn hình khóa và Màn hình chính\n\n- Tính năng nổi bật:\n\n- Hỗ trợ Widget HTML: Tương thích mạnh mẽ với các chủ đề widget\n\n- Tùy biến Bố cục: Thay đổi số cột, kích thước, vị trí biểu tượng.\n\n- Ẩn các thành phần: Ẩn đi thanh Dock, tên ứng dụng, thanh trạng thái, dấu chấm trang...\n\n- Hiệu ứng sống động: Thêm hiệu ứng thời tiết và hiệu ứng sạc pin độc đáo.\n\n- Tạo và Chỉnh sửa: Tự tạo ra những chủ đề mới lạ của riêng bạn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

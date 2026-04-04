@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/Crane.png",
-"tintColor":"#5777B8",
+"tintColor":"#FFCC66",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -30,7 +30,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Crane\n\n- Là giải pháp quản lý mạnh mẽ, cho phép bạn tạo và sử dụng nhiều hồ sơ dữ liệu (nhiều tài khoản) riêng biệt cho cùng một ứng dụng.\n\n- Tính năng nổi bật:\n Chuyển đổi tài khoản nhanh: Dễ dàng chuyển đổi qua lại giữa các container (ví dụ: nick chính, nick phụ) ngay lập tức. Hỗ trợ hầu hết các ứng dụng\n\n- Dữ liệu độc lập (Sandboxing): Crane chuyển hướng dữ liệu sang các đường dẫn khác nhau. Dữ liệu của container này sẽ không dính dáng đến container kia.\n\n- Keychain riêng biệt: Mỗi container sở hữu một nhóm keychain (chuỗi khóa bảo mật) riêng, đảm bảo thông tin đăng nhập không bị xung đột.\n\n- Tích hợp Haptic Touch: Chuyển nhanh container ngay từ màn hình chính bằng cách nhấn giữ biểu tượng ứng dụng (Menu Haptic Touch)\n\n- Hỗ trợ Thông báo: Nhận thông báo đẩy từ tất cả các container cùng lúc.\n\n- Hiển thị rõ thông báo đến từ container nào.\n\n- Badge (số thông báo trên icon) là tổng của các container cộng lại.\n\n- Sao lưu & Khôi phục: Tích hợp trình quản lý sao lưu dữ liệu container vào ứng dụng Tệp (Files), cho phép lưu trữ và khôi phục dễ dàng.\n\n- Hỗ trợ Game Center & ID Apple: Tùy chọn tách biệt tài khoản Game Center và Apple ID riêng cho từng container (cực hữu ích cho game thủ cày nhiều acc).",
+"markdown":"### Crane\n\n- Là giải pháp quản lý mạnh mẽ, cho phép bạn tạo và sử dụng nhiều hồ sơ dữ liệu (nhiều tài khoản) riêng biệt cho cùng một ứng dụng.\n\n- Tính năng nổi bật:\n Chuyển đổi tài khoản nhanh: Dễ dàng chuyển đổi qua lại giữa các container (ví dụ: nick chính, nick phụ) ngay lập tức. Hỗ trợ hầu hết các ứng dụng\n\n- Dữ liệu độc lập (Sandboxing): Crane chuyển hướng dữ liệu sang các đường dẫn khác nhau. Dữ liệu của container này sẽ không dính dáng đến container kia.\n\n- Keychain riêng biệt: Mỗi container sở hữu một nhóm keychain (chuỗi khóa bảo mật) riêng, đảm bảo thông tin đăng nhập không bị xung đột.\n\n- Tích hợp Haptic Touch: Chuyển nhanh container ngay từ màn hình chính bằng cách nhấn giữ biểu tượng ứng dụng (Menu Haptic Touch)\n\n- Hỗ trợ Thông báo: Nhận thông báo đẩy từ tất cả các container cùng lúc.\n\n- Hiển thị rõ thông báo đến từ container nào.\n\n- Badge (số thông báo trên icon) là tổng của các container cộng lại.\n\n- Sao lưu & Khôi phục: Tích hợp trình quản lý sao lưu dữ liệu container vào ứng dụng Tệp (Files), cho phép lưu trữ và khôi phục dễ dàng.\n\n- Hỗ trợ Game Center & ID Apple: Tùy chọn tách biệt tài khoản Game Center và Apple ID riêng cho từng container (cực hữu ích cho game thủ cày nhiều acc).",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

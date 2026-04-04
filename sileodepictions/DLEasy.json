@@ -1,6 +1,6 @@
 {
 "minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"headerImage":"https://media.havoc.app/6209ec535f40df2a411f445e",
 "tintColor":"#006666",
 "tabs":[
 {
@@ -10,11 +10,51 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/DLEasy/Screenshots/1.png",
+"url":"https://media.havoc.app/62040a16cc1cde4bfe9aba47",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/DLEasy/Screenshots/2.png",
+"url":"https://media.havoc.app/62040a17cc1cde4bfe9aba49",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://media.havoc.app/62040a17cc1cde4bfe9aba4b",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://media.havoc.app/62040a18cc1cde4bfe9aba4d",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://media.havoc.app/62040a19cc1cde4bfe9aba4f",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://media.havoc.app/62040a1acc1cde4bfe9aba51",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://media.havoc.app/62040a1bcc1cde4bfe9aba53",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://media.havoc.app/62040a1ccc1cde4bfe9aba55",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://media.havoc.app/62040a1ccc1cde4bfe9aba57",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://media.havoc.app/62040a1dcc1cde4bfe9aba59",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://media.havoc.app/62040a1ecc1cde4bfe9aba5b",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://media.havoc.app/62040a1fcc1cde4bfe9aba5d",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -22,7 +62,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"DLEasy\n\n- Cho phép tải xuống hình ảnh và video từ các nền tảng mạng xã hội phổ biến một cách dễ dàng (chỉ cần nhấn giữ vào nội dung).\n\n- **Hỗ trợ các ứng dụng:** Facebook, Instagram, Messenger, Reddit, TikTok, Tumblr, Tweetbot, Twitter (X), VK, WhatsApp, YouTube.\n\n- **Tính năng nổi bật:**\n\n+ Tải xuống video và hình ảnh chất lượng cao.\n\n+ Nhập video và âm thanh từ YouTube trực tiếp vào ứng dụng Nhạc (Music.app).\n\n+ Tự động lưu phương tiện vào album riêng \"DLEasy\" trong thư viện ảnh.\n\n+ Hỗ trợ tải xuống trong nền và thu nhỏ giao diện tải.",
+"markdown":"### DLEasy\n\n- Cho phép tải xuống hình ảnh và video từ các nền tảng mạng xã hội phổ biến một cách dễ dàng (chỉ cần nhấn giữ vào nội dung).\n\n- **Hỗ trợ các ứng dụng:** Facebook, Instagram, Messenger, Reddit, TikTok, Tumblr, Tweetbot, Twitter (X), VK, WhatsApp, YouTube.\n\n- **Tính năng nổi bật:**\n\n+ Tải xuống video và hình ảnh chất lượng cao.\n\n+ Nhập video và âm thanh từ YouTube trực tiếp vào ứng dụng Nhạc (Music.app).\n\n+ Tự động lưu phương tiện vào album riêng \"DLEasy\" trong thư viện ảnh.\n\n+ Hỗ trợ tải xuống trong nền và thu nhỏ giao diện tải.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
