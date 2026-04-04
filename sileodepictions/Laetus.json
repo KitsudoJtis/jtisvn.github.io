@@ -1,12 +1,11 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
+"tintColor":"#999999",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -31,7 +30,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":" Laetus\n\n- Bạn cảm thấy không thích bàn phím mặc dịnh của Apple, bạn muốn có giao điện kiểu Dark Mode thì đây là một tinh chỉnh bạn cần, cho phép tuỳ biến bàn phím trên IOS với nhiều tùy chọn đa dạng hơn.\n\n- Laetus hỗ trợ nhiều kiểu giao điện chủ đề khác nhau\n\n- Màu sắc: Thay đổi màu nền, màu chữ và các màu sắc khác trên bàn phím.\n\n- Hình ảnh: Tuỳ chọn bất kỳ hình ảnh nào từ thư viện ảnh để làm nền cho bàn phím.\n\n- Chủ đề ảnh: Chủ đề được tạo sắn bằng hình ảnh và thiết lập tối ưu cho kích thước màn hình khác nhau, mang tính trải nghiệm chủ đề bàn phím đẹp và hoàn chỉnh.\n\n- Chủ đề HTML: Chủ đề được xây dựng bằng HTML/Javascript/CSS, tạo ra những hiệu ứng tương tác hoặc hoạt ảnh (animation) độc đáo.\n\n- Chủ đề Widget Chủ đề được xây dựng bằng Obiective-c do các lập trình viên iOS viết, mang lại trải nghiệm tuỳ biến đầy đủ.\n\n- Ngoài ra, Laetus còn cho phép tuỳ chỉnh nhiều chi tiết khác trên bàn phím như:\n\n- Ẩn bóng phím: Tắt hiệu ứng đổ bóng dưới các phím.\n\n- Ẩn chữ trên phím: Ẩn các ký tự, chữ cái trên các phím.\n\n- Thay đổi màu hiệu ứng khi gõ: Tuỳ chỉnh gradient (màu chuyển) của bong bóng nổi lên khi bạn nhấn phím.\n\n- Và còn nhiều hơn thế nữa!.",
+"markdown":"### Laetus\n\n- Bạn cảm thấy không thích bàn phím mặc dịnh của Apple, bạn muốn có giao điện kiểu Dark Mode thì đây là một tinh chỉnh bạn cần, cho phép tuỳ biến bàn phím trên IOS với nhiều tùy chọn đa dạng hơn.\n\n- Laetus hỗ trợ nhiều kiểu giao điện chủ đề khác nhau\n\n- Màu sắc: Thay đổi màu nền, màu chữ và các màu sắc khác trên bàn phím.\n\n- Hình ảnh: Tuỳ chọn bất kỳ hình ảnh nào từ thư viện ảnh để làm nền cho bàn phím.\n\n- Chủ đề ảnh: Chủ đề được tạo sắn bằng hình ảnh và thiết lập tối ưu cho kích thước màn hình khác nhau, mang tính trải nghiệm chủ đề bàn phím đẹp và hoàn chỉnh.\n\n- Chủ đề HTML: Chủ đề được xây dựng bằng HTML/Javascript/CSS, tạo ra những hiệu ứng tương tác hoặc hoạt ảnh (animation) độc đáo.\n\n- Chủ đề Widget Chủ đề được xây dựng bằng Obiective-c do các lập trình viên iOS viết, mang lại trải nghiệm tuỳ biến đầy đủ.\n\n- Ngoài ra, Laetus còn cho phép tuỳ chỉnh nhiều chi tiết khác trên bàn phím như:\n\n- Ẩn bóng phím: Tắt hiệu ứng đổ bóng dưới các phím.\n\n- Ẩn chữ trên phím: Ẩn các ký tự, chữ cái trên các phím.\n\n- Thay đổi màu hiệu ứng khi gõ: Tuỳ chỉnh gradient (màu chuyển) của bong bóng nổi lên khi bạn nhấn phím.\n\n- Và còn nhiều hơn thế nữa!.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#99CCFF",
+"tintColor":"#FFCCFF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -15,7 +15,7 @@
 }
 ],
 "itemCornerRadius":8,
-"itemSize":"{185,400}"
+"itemSize":"{285,500}"
 },
 {
 "markdown":"LockTouchX\n\n- Thêm tính năng xác thực bảo mật bằng Touch ID hoặc Face ID cho từng ứng dụng riêng biệt, mang lại trải nghiệm tương tự như tính năng bảo mật trên iOS 18.\n\n- **Cách dùng:** Nhấn giữ vào biểu tượng ứng dụng ngoài màn hình chính -> Chọn Enable Face ID/Touch ID để khóa.",
