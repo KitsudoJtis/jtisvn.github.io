@@ -26,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"\n\n- Ẩn các thông báo bảo trì, liên quan sửa chữa phần cứng trong mục Cài đặt chung > Giới thiệu\n\n- Ẩn thông náo linh kiện không xác định\n\n- Ẩn thồng báo thay pin không chính hãng và hiển thị lại % của pin\n\n- Ẩn cảnh báo cập nhật OTA phiên ban phần mềm iOS trong cái đặt.",
+"markdown":"No Apple MobileRepair\n\n- Ẩn các thông báo bảo trì, liên quan sửa chữa phần cứng trong mục Cài đặt chung > Giới thiệu\n\n- Ẩn thông náo linh kiện không xác định\n\n- Ẩn thồng báo thay pin không chính hãng và hiển thị lại % của pin\n\n- Ẩn cảnh báo cập nhật OTA phiên ban phần mềm iOS trong cái đặt.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

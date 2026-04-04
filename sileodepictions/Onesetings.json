@@ -4,9 +4,8 @@
 "tintColor":"#5777B8",
 "tabs":[
 {
-"tabname":"Chi tiết",
+"tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -43,7 +42,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":" OneSettings\n\n- là một tweak dành cho ứng dụng Cài đặt, mang phong cách giao diện Cài đặt từ OneUI của Samsung lên hệ điều hành iOS.\n\n- cung cấp rất nhiều tính năng và khả năng tùy biến, bao gồm thêm phụ đề cho các ô trong bảng, tùy chỉnh hình nền, căn lề và bo góc, giả mạo dung lượng lưu trữ, và nhiều hơn nữa..Hỗ trợ tương thích IOS14 trở lên không hỗ trợ đổi với IPAdOS\n\n- Các chức năng chính bao gồm:\n\n- Tùy biến Giao diện: Cho phép thay đổi toàn bộ màu sắc của các thành phần như nền, chữ, thanh điều hướng, công tắc, v.v., cũng như đặt ảnh nền tùy chỉnh.\n\n- Sắp xếp Bố cục: Cho phép bạn sắp xếp, nhóm, ẩn, hoặc thêm hoặc xóa các mục trong menu Cài đặt. Bạn cũng có thể tùy chỉnh vị trí các nút và kiểu dáng của tiêu đề.\n\n- Tuỳ chỉnh Chi tiết: Điều chỉnh các yếu tố nhỏ như bo góc, chiều cao các ô, kiểu biểu tượng và khoảng cách giữa các mục.\n\n- Tính năng Đặc biệt: Cung cấp khả năng giả mạo thông tin dung lượng lưu trữ của thiết bị.",
+"markdown":"### OneSettings\n\n- là một tweak dành cho ứng dụng Cài đặt, mang phong cách giao diện Cài đặt từ OneUI của Samsung lên hệ điều hành iOS.\n\n- cung cấp rất nhiều tính năng và khả năng tùy biến, bao gồm thêm phụ đề cho các ô trong bảng, tùy chỉnh hình nền, căn lề và bo góc, giả mạo dung lượng lưu trữ, và nhiều hơn nữa..Hỗ trợ tương thích IOS14 trở lên không hỗ trợ đổi với IPAdOS\n\n- Các chức năng chính bao gồm:\n\n- Tùy biến Giao diện: Cho phép thay đổi toàn bộ màu sắc của các thành phần như nền, chữ, thanh điều hướng, công tắc, v.v., cũng như đặt ảnh nền tùy chỉnh.\n\n- Sắp xếp Bố cục: Cho phép bạn sắp xếp, nhóm, ẩn, hoặc thêm hoặc xóa các mục trong menu Cài đặt. Bạn cũng có thể tùy chỉnh vị trí các nút và kiểu dáng của tiêu đề.\n\n- Tuỳ chỉnh Chi tiết: Điều chỉnh các yếu tố nhỏ như bo góc, chiều cao các ô, kiểu biểu tượng và khoảng cách giữa các mục.\n\n- Tính năng Đặc biệt: Cung cấp khả năng giả mạo thông tin dung lượng lưu trữ của thiết bị.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#5777B8",
+"tintColor":"#FF3333",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -11,6 +11,10 @@
 "screenshots":[
 {
 "url":"https://jtisvn.github.io/infodeb/Recorddot/Screenshots/1.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/Recorddot/Screenshots/2.png",
 "accessibilityText":"Screenshot"
 }
 ],
