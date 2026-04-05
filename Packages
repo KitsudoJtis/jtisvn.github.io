@@ -21262,6 +21262,40 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/AutoUnlockX.json
 Icon: https://jtisvn.github.io/sectionIcons/AutoUnlockX.png
 
 Package: com.spark.libsparkapplist
+Architecture: iphoneos-arm
+Version: 1.0.10
+Section: System
+Maintainer: Spark
+Installed-Size: 404
+Filename: ./debs/com.spark.libsparkapplist_1.0.10_iphoneos-arm.deb
+Size: 27408
+MD5sum: 38def0437738699938b299e6e7cc2738
+SHA1: f344235c6f5e633dc9c28e720fa2c0bb849334d0
+SHA256: 2b2a670a0711a15257a16bfdb60f51fa34fbe1f290834bfa3efe7d60d1fda94c
+SHA512: 62f19ae754f04b094f26a56672b8153561747598ffd5f85574b69793461298349ebf029ea80364d1357fa597a6f60dea2aae9f63b8770739fb9a05d69eee3ba1
+Description: AppList alternative
+Tag: role::developer
+Name: libSparkAppList
+Author: Spark
+
+Package: com.spark.libsparkapplist
+Architecture: iphoneos-arm64
+Version: 1.1.0~rootless
+Section: System
+Maintainer: Spark
+Installed-Size: 408
+Filename: ./debs/com.spark.libsparkapplist_1.1.0~rootless_iphoneos-arm64.deb
+Size: 24864
+MD5sum: f605e5d89a28df2be362d5b8da6f717f
+SHA1: f65c2a25648ae221d21f91864e2dfeec05f6d42f
+SHA256: 99c55324af0d33832c296b0aafe8949dde62d778f8620b46373a0be40a7514d5
+SHA512: 079e287c89143356fb18559cfff375de4eeb7519aa7200bb3c3702e02e7349cdccbe7a53d12442a74e5552d3b4e66e9588273a3796b2edb04ba44597dbcfab0d
+Description: AppList alternative
+Tag: role::developer
+Name: libSparkAppList
+Author: Spark
+
+Package: com.spark.libsparkapplist
 Architecture: iphoneos-arm64e
 Version: 1.1.0~rootless
 Section: System
@@ -23426,12 +23460,12 @@ Section: System
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 386
 Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: ./debs/preferenceloader_2.2.deb
+Filename: ./debs/preferenceloader_2.2.7_iphoneos-arm64.deb
 Size: 17648
-MD5sum: f3ca1ac93006fca0ecb05fc4450779ea
-SHA1: 1c1effc3fbc3e9775c5e439c0f1f69f97d0efed1
-SHA256: 0d39907a7af2fc01cb6db8271ad052e3157106f1ae09bb85729569de68dc22c9
-SHA512: ef8c80c5f371e6b01be218cb1cec539689e2c474d5333e0950fdad03f0c1410dafc134da525d2783c078118ed36f60687d6cd6184a44711b96529935378348db
+MD5sum: aea57683cc4a8dabdcb1bfd6795cd3e7
+SHA1: 12d9cba2552e23a39fc2c9595e97495b5c8dc541
+SHA256: fd8548b1a042e2956198bb2f2da11ad7d78afdc0b29e5012dc4f78109da38998
+SHA512: de55ec25e30047f5ed56932bed650c5b9d5fbd14ce3e9aafdb2829aa645030a61fe6d1689b6a9501cfa17166ff964957be7132234d49c73f1c6f1960c3d920d3
 Description: load preferences in style
  .
 Tag: role::hacker, purpose::library
