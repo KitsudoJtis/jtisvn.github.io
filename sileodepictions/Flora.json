@@ -26,7 +26,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Flora\n\n- Tinh chỉnh thay đổi màu sắc hệ thống hiện đại, được xây dựng để thay thế các tweak cũ như Kaleidoscope hay Spectrum.\n\n- Chế độ Đơn giản (Simple): Chỉ cần chọn 2 màu để thay đổi giao diện toàn bộ iOS một cách nhanh chóng.\n\n- Chế độ Nâng cao (Advanced): Cho phép tùy chỉnh thủ công từng màu sắc theo ý muốn.\n\n- **Tính năng nổi bật:**\n\n+ Hỗ trợ Xuất/Nhập (Export/Import) các bộ màu.\n\n+ Thay đổi màu sắc bên trong các Ứng dụng (nhờ libSandy).\n\n+ Hỗ trợ đầy đủ cho Rootless Jailbreak.",
+"markdown":"### Flora\n\n- Tinh chỉnh thay đổi màu sắc hệ thống hiện đại, được xây dựng để thay thế các tweak cũ như Kaleidoscope hay Spectrum.\n\n- Chế độ Đơn giản (Simple): Chỉ cần chọn 2 màu để thay đổi giao diện toàn bộ iOS một cách nhanh chóng.\n\n- Chế độ Nâng cao (Advanced): Cho phép tùy chỉnh thủ công từng màu sắc theo ý muốn.\n\n- **Tính năng nổi bật:**\n\n+ Hỗ trợ Xuất/Nhập (Export/Import) các bộ màu.\n\n+ Thay đổi màu sắc bên trong các Ứng dụng (nhờ libSandy).\n\n+ Hỗ trợ đầy đủ cho Rootless Jailbreak.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },

@@ -19185,6 +19185,27 @@ Author: Muirey03
 Icon: file:///Applications/Cydia.app/Sections/hethongg1.png
 
 Package: com.muirey03.libmryipc
+Architecture: iphoneos-arm
+Version: 2.0.1
+Section: Development
+Maintainer: Muirey03
+Installed-Size: 464
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Conflicts: ws.hbang.stopcrashingpls (=1.0)
+Filename: ./debs/com.muirey03.libmryipc_2.0.1_iphoneos-arm.deb
+Size: 28344
+MD5sum: 846c200f7dab1ded290a281119f2b7d3
+SHA1: 08c10ac94cd96547fd9f0ca83f727586fb932ce7
+SHA256: f160949371ef1b4ea24f25ff0006c06ef90aa5bb22a3dc5fb404bcffa56f7af6
+SHA512: e24babaa737a181bd4875845722f9738b06883f36695649e8b465ad14e0c62180f299d144958f05223e32f87f5ddb21ac315afd1e442c92566f1a01c24e329e8
+Description: Easy-to-use, RocketBootstrap-less iOS IPC
+Tag: role::developer, purpose::library, cydia::obsolete
+Name: libMRYIPC
+Author: Muirey03 <tommy.muir@btinternet.com>
+dev: muirey03
+Icon: file:///Applications/Cydia.app/Sections/phattrienn1.png
+
+Package: com.muirey03.libmryipc
 Architecture: iphoneos-arm64
 Version: 2.0.1
 Section: System
@@ -19192,12 +19213,12 @@ Maintainer: Muirey03
 Installed-Size: 308
 Depends: mobilesubstrate
 Conflicts: ws.hbang.stopcrashingpls (=1.0)
-Filename: ./debs/com.muirey03.libmryipc.deb
-Size: 18606
-MD5sum: e279f94d966892e4aef687d99afc81de
-SHA1: 279770b41cf64c9256a3260a28b749a90f65bccf
-SHA256: a535dfa8d9f66f8bdcfa556551465107deb64f15b41889ab2ab98dec6529279e
-SHA512: 5b8e8a43289e21f31a74fe4f4939f485bf37aedc8181158552ae6b81b65d50c41c55d4fdd6b5068bfabdbe9e54e491c3eb2f7ceda9f30a031f9da72e7c307c44
+Filename: ./debs/com.muirey03.libmryipc_2.0.1_iphoneos-arm64.deb
+Size: 18668
+MD5sum: ebd8f504a7cf7362006f2717d796b12e
+SHA1: 32d1279c065192507e72f159922bc905f3798dcf
+SHA256: 2384d3424088f7cd4230fb1597a4353bc6937a761eaa4cfe7d2202dd81c01ede
+SHA512: f724f5d5787dd423fa6b119f0b95f8e71f9841ba97e9a6028931deb4ecdc4a95aae4dd8b77096bfada936a5d1088bbd48bdecaf9619d7bda6cb51525f1e9c799
 Description: Easy-to-use, RocketBootstrap-less iOS IPC
 Tag: role::developer
 Name: libMRYIPC

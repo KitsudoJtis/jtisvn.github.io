@@ -30,7 +30,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"Lidell\n\n- Thu nhỏ và tinh chỉnh kích thước biểu ngữ thông báo hiển thị trên thanh trạng thái, giúp giao diện thông báo gọn gàng và thẩm mỹ hơn.",
+"markdown":"### Liddell\n\n- Thu nhỏ và tinh chỉnh kích thước biểu ngữ thông báo hiển thị trên thanh trạng thái, giúp giao diện thông báo gọn gàng và thẩm mỹ hơn.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -167,7 +167,7 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title":"Liên hệ Hỗ trợ",
+"title":"Ủng hộ tôi",
 "action":"https://jtisvn.github.io/homepage/donate/donate.html"
 },
 {
