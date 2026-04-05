@@ -245,6 +245,25 @@ Icon: https://repo.igerman.cc/assets/cc.igerman.taptapslumber/icon.png
 Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
 Author: iGerman <igerman@igerman.cc>
 
+Package: cc.jtisvn.lightshield
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Taj C (forcequit)
+Installed-Size: 200
+Depends: preferenceloader, com.opa334.libsandy, firmware (>= 15.0)
+Filename: ./debs/cc.jtisvn.lightshield_1.0.0_iphoneos-arm64.deb
+Size: 21368
+MD5sum: 5fc39be2230293619a39754f8ab247a1
+SHA1: 7f1a504e8ee025985c4feb666432bd8156636703
+SHA256: 36c7d29f9861cdd9cd5ef492887027dffdde2bafe3900a2f823137f793a6c083
+SHA512: 9719ec6f708d9804f767eb35146cac185214b059162d62874aab2fdcfa786ae9ea3813ce5a73d274b9da582ac95b00d772f7b576bda021de8a5222bbad311b8a
+Description: Chế độ khóa nhẹ thay thế cho WebKit.
+Name: Lightshield (Rootless)
+Author: Taj C (forcequit)
+Icon: https://raw.githubusercontent.com/forcequitOS/Lightshield/main/icon_medium.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Lightshield.json
+
 Package: chaoge.ChargeLimiter
 Architecture: iphoneos-arm64e
 Version: 1.6

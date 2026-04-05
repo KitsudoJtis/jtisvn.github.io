@@ -8,7 +8,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "<p><b>Tinh chỉnh giúp bảo vệ thiết bị của bạn khỏi các cuộc tấn công của DarkSword/Coruna..</b></p><br/> <p>⚠️ Khuyến nghị người dùng jailbreak nên cài đặt gói này!</p>",
+          "markdown": "<p><b>Một tweak giúp giảm thiểu rủi ro từ các lỗ hổng tấn công Coruna và DarkSword. Đây là một công cụ bảo mật nhẹ dành cho các thiết bị iOS đã jailbreak (từ iOS 15 trở lên), được thiết kế để thay thế cho Chế độ phong tỏa (Lockdown Mode) mặc định của hệ thống.</b></p><br/> <p>Tweak này giúp hạn chế nguy cơ bị khai thác (exploit) (như Coruna và DarkSword) bằng cách vô hiệu hoá tính năng biên dịch JavaScript JIT của WebKit, từ đó tăng cường độ bảo mật tổng thể cho các trình duyệt và ứng dụng.</p>",
           "useSpacing": true,
           "useRawFormat": true
         },
