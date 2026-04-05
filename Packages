@@ -8774,11 +8774,11 @@ Maintainer: JTISVN Repo
 Installed-Size: 348
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.dynamicnotlands_1.2.4_iphoneos-arm64.deb
-Size: 12392
-MD5sum: cd15b68e23e4bc3ac5430e6ab829f5a9
-SHA1: 201c1808c9ab285c318f83ad0e410fb2454c03e3
-SHA256: a06db58dc54a5d4d1fe318301df1b0ffe48220507dcd17eb9459192a7b57e8ee
-SHA512: 6946c54aad92ea59c0cb2cf2db6e2f83e2caf333b08740d03f2b41b25314ad01e7415eba3a5528a4172297ae888db3262aece1b6813ff76e6e9a3af825792413
+Size: 12388
+MD5sum: f300f9d826a32b4ff50c327a3b8037b1
+SHA1: 4f2604c54154f797a3f6874d2ec459ec93a968fa
+SHA256: b2fd99a81738167d8957d9d105a8aa930c39c153b5344c34412cb13324defd09
+SHA512: 6f284ab33ad90b719ca8f73739a156560b4d7c26d2064a33af7addad5b62e846668a3fb3c101ef1c746d529e2d74ffb95c461d74e9c044a93bb2211ad51926e5
 Description: Một tinh chỉnh để ẩn đảo động thông minh trên dòng 14 Pro khi không sử dụng!
 Name: DynamicNotLand (Rootless)
 Author: Nathan
@@ -8795,11 +8795,11 @@ Installed-Size: 348
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.jtis.dynamicnotlands_1.2.4_iphoneos-arm64e.deb
-Size: 12492
-MD5sum: 90fd0ad003dbe715b791d69d4f4f0505
-SHA1: ba0acbffeda66fd440b67c2334326d0d98128846
-SHA256: 41e8fca9379f2564eadc9627982f14325b93413e6351fb32c116711696392b90
-SHA512: 86a1b39ffb569165dc2359875370293ef0f010181b68a7bed2fafdf8967bf18f6de91b868d036041c6fd112857b2f426159cebc27222650defdcaa5c57968fba
+Size: 12500
+MD5sum: 62db4ba42a97409b75aef6572d883f52
+SHA1: 9869e3554fae55d9c0e6c4fe93f2e119df3d7f45
+SHA256: 2099e3649066eba76c1da93943395ee80687114d6c6c198c6660cfc20abcd307
+SHA512: 97fe9af96ac2f9fa8395f562e3abaa8dddaf4709fffacd01d6b7507691158d5d6aca501c1c8966c7bd3abf12a232c5d9f32ab1242770709963682f3f7c3ec07d
 Description: Một tinh chỉnh để ẩn đảo động thông minh trên dòng 14 Pro khi không sử dụng!
 Name: DynamicNotLand (Roothide)
 Author: Nathan
