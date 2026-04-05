@@ -6,7 +6,6 @@
 {
 "tabname":"Giớ thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[

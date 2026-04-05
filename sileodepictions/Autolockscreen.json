@@ -6,7 +6,6 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{ "class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionLabelView",
 "text":"Auto Lockscreen",

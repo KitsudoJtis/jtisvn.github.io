@@ -6,7 +6,6 @@
 {
 "tabname":"Giới thiệu",
 "views":[
-{"class":"DepictionHeaderView", "title":"" },
 {
 "class":"DepictionLabelView",
 "text":"Barmoji",
@@ -57,7 +56,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Thông tin chi tiết",
+"text": "Thông tin",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": true,
