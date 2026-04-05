@@ -347,6 +347,55 @@ Depiction: http://jtisvn.github.io/depiction/HideNotiPlayer.html
 Icon: https://jtisvn.github.io/sectionIcons/HideNotiPlayer.png
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HideNotiPlayer.json
 
+Package: cn.zqbb.disupdateapp
+Architecture: iphoneos-arm64
+Version: 2.0.0-6
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 684
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/cn.zqbb.disupdateapp_2.0.0-6_iphoneos-arm64.deb
+Size: 130328
+MD5sum: 14d8e0ec959bc98bf94be95b4bdc4051
+SHA1: c216010cae0d0801205c57b1007995f03a59d5c1
+SHA256: 06151f68140df1049266531cb7b2dba2d97bec0ae7771e71c2e835a8b5bbc56b
+SHA512: eba29d364f9c8368f0d9078d6be22731189c70ffd9cd32f66839c8cab2020f663d7d761dbcee87fc590b065dde6db2410e2039b2ed4c7dfa15cc1cd97043cc1b
+Description: Chặn cập nhật ứng dụng từ App Store!
+Tag: purpose::extension
+Name: Hello App (Rootless)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/HelloApp.json
+Depiction: https://jtisvn.github.io/depictions/HelloApp.html
+Icon: https://jtisvn.github.io/sectionIcons/HelloApp.pngt
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: zqbb <w2599z@gmail.com>
+dev: zqbb
+
+Package: cn.zqbb.disupdateapp
+Architecture: iphoneos-arm64e
+Version: 2.0.0-6
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 684
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/cn.zqbb.disupdateapp_2.0.0-6_iphoneos-arm64e.deb
+Size: 130004
+MD5sum: dab0a9293cdbde6e03dc03e07d694006
+SHA1: 846fcc4eca6aa42867f1880d3fa31027641d61d0
+SHA256: f3c96df190089bd6f648ced88dbf68c5346fb72f1194630d7dd383b47b447ada
+SHA512: 26ae72db8949c7990090c4d37866e4ff4b3b9078343662f1f30fe69f40cacfb1ab20a43f25197c4a3d2f8cacfbe648348d61618b695e8e325e6b8a9148b21ece
+Description: Chặn cập nhật ứng dụng từ App Store!
+Tag: purpose::extension
+Name: Hello App (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/HelloApp.json
+Depiction: https://jtisvn.github.io/depictions/HelloApp.html
+Icon: https://jtisvn.github.io/sectionIcons/HelloApp.png
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: zqbb <w2599z@gmail.com>
+dev: zqbb
+
 Package: com..jtis.githubweblegacycompat
 Architecture: iphoneos-arm64e
 Version: 1.0.4
