@@ -245,25 +245,6 @@ Icon: https://repo.igerman.cc/assets/cc.igerman.taptapslumber/icon.png
 Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
 Author: iGerman <igerman@igerman.cc>
 
-Package: cc.jtisvn.lightshield
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Section: Tweaks
-Maintainer: Taj C (forcequit)
-Installed-Size: 200
-Depends: preferenceloader, com.opa334.libsandy, firmware (>= 15.0)
-Filename: ./debs/cc.jtisvn.lightshield_1.0.0_iphoneos-arm64.deb
-Size: 21368
-MD5sum: 5fc39be2230293619a39754f8ab247a1
-SHA1: 7f1a504e8ee025985c4feb666432bd8156636703
-SHA256: 36c7d29f9861cdd9cd5ef492887027dffdde2bafe3900a2f823137f793a6c083
-SHA512: 9719ec6f708d9804f767eb35146cac185214b059162d62874aab2fdcfa786ae9ea3813ce5a73d274b9da582ac95b00d772f7b576bda021de8a5222bbad311b8a
-Description: Chế độ khóa nhẹ thay thế cho WebKit.
-Name: Lightshield (Rootless)
-Author: Taj C (forcequit)
-Icon: https://raw.githubusercontent.com/forcequitOS/Lightshield/main/icon_medium.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Lightshield.json
-
 Package: chaoge.ChargeLimiter
 Architecture: iphoneos-arm64e
 Version: 1.6
@@ -18106,6 +18087,45 @@ Name: Laetus (Roothide)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Laetus.json
 Icon: https://jtisvn.github.io/sectionIcons/Laetus.png
 Author: Spark
+
+Package: com.jtisvn.lightshield
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Taj C (forcequit)
+Installed-Size: 200
+Depends: preferenceloader, com.opa334.libsandy, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.lightshield_1.0.0_iphoneos-arm64.deb
+Size: 21364
+MD5sum: 6fc488984c9de875176ee807bd4b74ac
+SHA1: 41df0641db9c13fdd54929b2db4017a93eac0abb
+SHA256: 5128cbde6c97dd9f94b7fc1ca9fe0d55f794457dff6a8b4c963e6de7e165a6a1
+SHA512: 651c5288aacf92ad3b60579190d9085fb116e960af037c5cdeaadb50d6b8c930d41081ef8774b407fd0df5a38921d402d837f26804f82ea02b5fa94e55db710d
+Description: Chế độ khóa nhẹ thay thế cho WebKit.
+Name: Lightshield (Rootless)
+Author: Taj C (forcequit)
+Icon: https://raw.githubusercontent.com/forcequitOS/Lightshield/main/icon_medium.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Lightshield.json
+
+Package: com.jtisvn.lightshield
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Taj C (forcequit)
+Installed-Size: 200
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: preferenceloader, com.opa334.libsandy, firmware (>= 15.0)
+Filename: ./debs/com.jtisvn.lightshield_1.0.0_iphoneos-arm64e.deb
+Size: 21168
+MD5sum: 2e628487fa35925e69c8ac35acb4e2c5
+SHA1: 70ea48c0423623451a370ae5326573b88c550cc6
+SHA256: 1c9e518670f5e594ecd8082dc4194499bb88b7a14f077ae2e71e613677967770
+SHA512: 835eaedc5f1c1d6c0865d7af6cda06b853095c7ff9d5bfca1f83ccc33dcd15092386efef702fc188ee46f187a49f1f87fc375f969d9d79557fd10767b00f6fec
+Description: Chế độ khóa nhẹ thay thế cho WebKit.
+Name: Lightshield (Roothide)
+Author: Taj C (forcequit)
+Icon: https://raw.githubusercontent.com/forcequitOS/Lightshield/main/icon_medium.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Lightshield.json
 
 Package: com.jtisvn.lunartimebar
 Architecture: iphoneos-arm64
