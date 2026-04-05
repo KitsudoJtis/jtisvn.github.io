@@ -161,6 +161,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Ultrasound.json
 Icon: https://jtisvn.github.io/sectionIcons/Ultrasound.png
 
 Package: applist
+Architecture: iphoneos-arm
+Version: 1.5.16-palera1n1
+Section: System
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: ./debs/applist_1.5.16-palera1n1_iphoneos-arm.deb
+Size: 105304
+MD5sum: 9202536254b06f362da123436a37a0d5
+SHA1: 06f5d55ef2a987c160f487c449a75ee960e4f3df
+SHA256: 1b3b324b66ad5818f1d6b5f35dcc087ca3b9ca1c04fce609a45aabff83b4ad36
+SHA512: 1212432fe49f5a89880992bacd23c69d5925366f0266bff4e3dd25267d3d95ab39dfb220e33773570f3cec27a41d2fbb5ab3436df396d935f105cf757ae48ab7
+Description: Allow extensions to read the list of installed apps
+Name: AppList
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+
+Package: applist
 Architecture: iphoneos-arm64
 Version: 1.5.16
 Section: System
