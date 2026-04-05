@@ -7,10 +7,6 @@
 "tabname": "Giới thiệu",
 "views": [
 {
-"class": "DepictionHeaderView",
-"title": ""
-},
-{
 "class": "DepictionLabelView",
 "text": "AutoScroll",
 "fontWeight": "semibold",

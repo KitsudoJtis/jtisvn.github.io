@@ -18,7 +18,7 @@
 "itemSize":"{285,500}"
 },
 {
-"markdown":"CC26\n\n- Mang phong cách Trung tâm điều khiển (Control Center) theo kiểu thiết kế tương lai (concept iOS 26) lên các thiết bị iOS thấp hơn.\n\n- **Lưu ý:** Đối với thiết bị iPhone XS trở lên, vui lòng tải thêm gói **Legacy arm64e Support** nếu gặp lỗi Safe Mode.",
+"markdown":"### CC26\n\n- Mang phong cách Trung tâm điều khiển (Control Center) theo kiểu thiết kế giống (concept iOS 26) lên các thiết bị iOS đời thấp.\n\n- **Lưu ý:** Đối với thiết bị iPhone XS trở lên, vui lòng tải thêm gói **Legacy arm64e Support** nếu gặp lỗi Safe Mode.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
