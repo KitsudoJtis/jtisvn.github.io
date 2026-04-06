@@ -7,6 +7,11 @@
 "tabname":"Giới thiệu",
 "views":[
 {
+"class": "DepictionButtonView",
+"text": "Nhóm chat Telegram",
+"action": "https://t.me/jtisvietnamrepo"
+},
+{
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
@@ -155,8 +160,8 @@
 },
 {
 "class":"DepictionTableButtonView",
-"title": "Nhóm Telegram",
-"action": "https://t.me/jailbreaktrolliossupport"
+"title": "Kênh thông báo",
+"action": "https://t.me/jtisvn"
 },
 {
 "class":"DepictionTableButtonView",

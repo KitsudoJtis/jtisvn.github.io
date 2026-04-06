@@ -356,17 +356,17 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 684
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
 Filename: ./debs/cn.zqbb.disupdateapp_2.0.0-6_iphoneos-arm64.deb
-Size: 130328
-MD5sum: 14d8e0ec959bc98bf94be95b4bdc4051
-SHA1: c216010cae0d0801205c57b1007995f03a59d5c1
-SHA256: 06151f68140df1049266531cb7b2dba2d97bec0ae7771e71c2e835a8b5bbc56b
-SHA512: eba29d364f9c8368f0d9078d6be22731189c70ffd9cd32f66839c8cab2020f663d7d761dbcee87fc590b065dde6db2410e2039b2ed4c7dfa15cc1cd97043cc1b
+Size: 130248
+MD5sum: d78503795e56e53a4c78f131ed59db01
+SHA1: 844b62693ba09619743386482c7f6d82ea2c4ad0
+SHA256: 33c518b42a993aba58e5b67825187389c6a972e630e472793e8ba9847297140b
+SHA512: ece56d8714588ffa5a0d2fd3fa1b2df9512c71c3270e3b492a0c5f52a86a7b5fdf04c86b1002a2af8ab2f4e2c2c235c5f80151ba78ba689c1f71d93c36e93956
 Description: Chặn cập nhật ứng dụng từ App Store!
 Tag: purpose::extension
 Name: Hello App (Rootless)
 SileoDepiction: https://jtisvn.github.io/sileodepictions/HelloApp.json
 Depiction: https://jtisvn.github.io/depictions/HelloApp.html
-Icon: https://jtisvn.github.io/sectionIcons/HelloApp.pngt
+Icon: https://jtisvn.github.io/sectionIcons/HelloApp.png
 Sponsor: thebigboss.org <http://thebigboss.org>
 Author: zqbb <w2599z@gmail.com>
 dev: zqbb
@@ -18263,46 +18263,22 @@ Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
 Package: com.jtisvn.nexusboard
 Architecture: iphoneos-arm64
-Version: 2.3k
+Version: 2.4
 Section: Tweaks
 Maintainer: JTISVN Repo
-Installed-Size: 1752
+Installed-Size: 1760
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
-Filename: ./debs/com.jtisvn.nexusboard_2.3k_iphoneos-arm64.deb
-Size: 459408
-MD5sum: 732d7dbc0ec562f360d818af00cc129f
-SHA1: b8d4040beddc7211a4157a18bbf42b330bbf2119
-SHA256: 2e26053bb9c8445c9e1753eb94183c55e1475d1152553c67d763b5017391cb34
-SHA512: 3298beab2f57ef325d3446d04ccf9f808532894828a8230c5d4b81c4d32402709623679453a20fface9da308f97c3fabed02b60dccb1a251684c1ed78ed84385
+Filename: ./debs/com.jtisvn.nexusboard_2.4_iphoneos-arm64.deb
+Size: 460476
+MD5sum: 6daa3d565c6816ea6d4f7181bff4d664
+SHA1: e3de9397dc3997c3e31711285f30cf8591564abb
+SHA256: 077ad0e328f27b77b7cbbd3d4477c496d6dae5c07f383f3552a97ad20d7a3b80
+SHA512: cdd0dc30c1e7927535c88964d4ba8d1f6043ead0b0ee729cc977ffc70b9ce172b1dfc4031db44d2cde37d33c9f89b62c1ba1a5d8458c1276d7c1680658838b16
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
 Name: NexusBoard (Rootless)
-Author: Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/NexusBoard.json
-Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
-Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
-
-Package: com.jtisvn.nexusboard
-Architecture: iphoneos-arm64e
-Version: 2.3k
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 1752
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
-Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
-Filename: ./debs/com.jtisvn.nexusboard_2.3k_iphoneos-arm64e.deb
-Size: 459804
-MD5sum: 2924c13dd2e505f843eb93aec5d8ce6b
-SHA1: c89acfc68fcc3bb22eb40e33e5a511665d8fc7cd
-SHA256: 49eb569b57ac50683e1754b3dd766508303d9dfef6f5c6b3edafb21ea0acce96
-SHA512: 9ff7012649c3d5ed75549b27615a6b9bb6074acaf05afe15d361b01dd0813f9b5ef1842f001d36b89fd8bef4c673a4d9c258eb748c5c3410a27292813531e42f
-Homepage: https://jtisvn.github.io/
-Description: Customize SpringBoard with many useful features for iOS.
-  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
-Name: NexusBoard (Roothide)
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/NexusBoard.json
 Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
