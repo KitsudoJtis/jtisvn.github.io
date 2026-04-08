@@ -11297,6 +11297,28 @@ Author: AnthoPak
 Name: LastLook (Roothide)
 
 Package: com.jtis.latchkey
+Architecture: iphoneos-arm64e
+Version: 2.3.4
+Section: Tweaks
+Maintainer: Maxwell Dausch <max.dausch@gmail.com>
+Installed-Size: 13440
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, ws.hbang.alderis
+Replaces: com.lclrc.mdaus.latchkey
+Filename: ./debs/com.jtis.latchkey_2.3.4_iphoneos-arm64e.deb
+Size: 21571316
+MD5sum: 32961c6234c752fbf626945895a142b0
+SHA1: de6396360fa9a4aac837394a318ed84f9e56c24a
+SHA256: 9ce647f2e6e044059a11e95bea5832601f1674b5480daae4a67ed4e39fe06b81
+SHA512: 9f1246bdc46a15edef770be4952458cd18d3af5da8e7b03e661e1297a808db7425abc69f63022f16fb930f3a5f0b77808cc896e641b38ab2d98cc9d2fdf0987b
+Description: Tùy chỉnh biểu tượng, vị trí và thêm chủ đề cho biểu tượng khóa Face-ID
+Name: LatchKey (Roothide)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Latchkey.json
+Depiction: https://jtisvn.github.io/depictions/Latchkey.html
+Icon: https://jtisvn.github.io/sectionIcons/Latchkey.png
+Author: Maxwell Dausch <max.dausch@gmail.com>
+
+Package: com.jtis.latchkey
 Architecture: iphoneos-arm64
 Version: 2.3
 Section: Tweaks

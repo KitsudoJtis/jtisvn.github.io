@@ -1,6 +1,6 @@
 {
 "minVersion":"0.1",
-"headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
+"headerImage":"https://jtisvn.github.io/coverimage/Latchkey.png",
 "tintColor":"#99CCFF",
 "tabs":[
 {
@@ -101,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.3",
+"text": "2.3.4",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
