@@ -6006,6 +6006,28 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
 Depiction: https://jtisvn.github.io/depictions/Axon.html
 Icon: https://jtisvn.github.io/sectionIcons/Axon.png
 
+Package: com.jtis.axon
+Architecture: iphoneos-arm64e
+Version: 1.6
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 652
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/com.jtis.axon_1.6_iphoneos-arm64e.deb
+Size: 151520
+MD5sum: dab59089a51ae8ba4529c4cd7458bd45
+SHA1: 2096cfa372b55bcaeaa8c3cf1fc7afb47b75301b
+SHA256: d59bd6e2b29ffac4a42f40e36bb4158be4acda38615c03878581048ff882d5d7
+SHA512: f947cc524e7bc893bfef6b49170f560650768a6837e833e5bee6896846bc481f12d6509de6b91508aee9fa4990d2ba405ca7ab85fa89302132c4c5a4b7f8622b
+Description: Gom nhóm và quản lý thông báo gọn gàng trên màn hình khóa cho iOS.
+Name: Axon (Roothide)
+Author: Nepeta & Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
+Depiction: https://jtisvn.github.io/depictions/Axon.html
+Icon: https://jtisvn.github.io/sectionIcons/Axon.png
+
 Package: com.jtis.b612patch
 Architecture: iphoneos-arm64
 Version: 0.0.1
