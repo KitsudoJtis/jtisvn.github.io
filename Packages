@@ -5985,6 +5985,27 @@ Author: Nepeta & Baw Appie
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
 Icon: https://jtisvn.github.io/sectionIcons/Axon.png
 
+Package: com.jtis.axon
+Architecture: iphoneos-arm64
+Version: 1.6
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 652
+Depends: mobilesubstrate, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/com.jtis.axon_1.6_iphoneos-arm64.deb
+Size: 151434
+MD5sum: d04e93eeb2a974a83ae85f37e3a9817c
+SHA1: e1a69c3f2043d2e030839d7ad6702fa730ac60a2
+SHA256: d418d4087e44bb40fa86aae3aa9971dc226ae57a06a1033c76390612772c1c7c
+SHA512: b087c9121dcff2bb1e1b85f93855a6ffbbf5b241745fe284ea5f250702dd86460a66dba6268ea9b755c787bdf6d294b232362bd9e3f36992f4f5d7b11fc8a889
+Description: Gom nhóm và quản lý thông báo gọn gàng trên màn hình khóa cho iOS.
+Name: Axon (Rootless)
+Author: Nepeta & Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Axon.json
+Depiction: https://jtisvn.github.io/depictions/Axon.html
+Icon: https://jtisvn.github.io/sectionIcons/Axon.png
+
 Package: com.jtis.b612patch
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -17678,44 +17699,65 @@ Depiction: http://jtisvn.github.io/depiction/YTMusicUltimate.html
 Icon: https://jtisvn.github.io/sectionIcons/YTMusicUltimate.png
 
 Package: com.jtis.ytx
-Architecture: iphoneos-arm64
-Version: 1.7.14
+Architecture: iphoneos-arm
+Version: 1.7.18
 Section: Tweaks
 Maintainer: PoomSmart
-Installed-Size: 72
+Installed-Size: 56
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
-Filename: ./debs/com.jtis.ytx_1.7.14_iphoneos-arm64.deb
-Size: 6032
-MD5sum: a53e010054b9a0b130c060c75f7e2b96
-SHA1: 477cb63be50eb8350ed19ff4d405f6b8deddb150
-SHA256: db49ac3ad3e3e08b87bd70d454f3ceece5f38683cb3460a56870f3970e41702b
-SHA512: e7562993ba0b578bb72b6cc6beb8dcafbc25e109b0c7364e6055636ed671966901c6def4cec5271c3b77e1c82857c849b9d2c10baf4486a7f4d9c57185817d79
+Filename: ./debs/com.jtis.ytx_1.7.18_iphoneos-arm.deb
+Size: 5848
+MD5sum: 031a1ddebab49e72487eb8c9258b0d47
+SHA1: a6ad7c281166b67f251d46324f7f4b2ce5a5ce75
+SHA256: 88657683bbb7f3b76ed4e39b6443ac6e05d587d5c9d55bd4fffb410144d3506d
+SHA512: 080bddae836d9a883cf8931aed2a2c7332c61351e88d60448f057a3a92d3d97e94aa83a13845dc849b2c4b6ce0c7d03f64d8fcf10ab4e07004fff34e23814e01
 Description: A YouTube improvement tweak.
-Name: YouTube X (Rootless)
+Name: YouTube X
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
 Icon: https://jtisvn.github.io/sectionIcons/Youtube.png
 
 Package: com.jtis.ytx
-Architecture: iphoneos-arm
-Version: 1.7.17
+Architecture: iphoneos-arm64
+Version: 1.7.18
 Section: Tweaks
 Maintainer: PoomSmart
-Installed-Size: 56
+Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
-Filename: ./debs/com.jtis.ytx_1.7.17_iphoneos-arm.deb
-Size: 5932
-MD5sum: 665351aa9ab14830466c96805adf3160
-SHA1: b728ad23f61afe3ec3a476d983a15f6e5a6abed1
-SHA256: de921b35cbe092280b4698c482f4b46de5df19f51a67c1c5f7dd05abe0599beb
-SHA512: 4f9d95a7c4e4376ab5ba2890215c0843dccb0170c6168950874fabb5182878752933276a04d9bef4047fd4ec31a2534d610c63888972e677c2665efa3b3d7ff5
+Filename: ./debs/com.jtis.ytx_1.7.18_iphoneos-arm64.deb
+Size: 7112
+MD5sum: d144f71de3b490462c97b5fbabdf8a2f
+SHA1: 66285bebc8dcdf775b327c533c012b8a1dd2dc53
+SHA256: 999f869088c4000878a909a11b750c305dad45ea22150ae472557c1058f9a7b6
+SHA512: 54faccef303e51e4d7b17242f7ddacd79215003ce0b25ccc6fb07065a0c32ee11057b46994cb2b83c3bf21972ef7847fdba67eb7ba7501e4ae743571cfc42a54
 Description: A YouTube improvement tweak.
-Name: YouTube X
+Name: YouTube X (Rootless)
 Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
-SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+SileoDepiction: https://jtisvn.github.io/sileodepictions/youtubex.json
+Depiction: https://jtisvn.github.io/depictions/youtubex.html
+Icon: https://jtisvn.github.io/sectionIcons/Youtube.png
+
+Package: com.jtis.ytx
+Architecture: iphoneos-arm64e
+Version: 1.7.18
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 72
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
+Filename: ./debs/com.jtis.ytx_1.7.18_iphoneos-arm64e.deb
+Size: 7064
+MD5sum: e1f82f790607d4835ba012c103f97c80
+SHA1: 7812e7212df847efe53021ddda7a7eb63fd624c8
+SHA256: 7bf34d0c3e3ebd4beaf711d0fdd6d9fddfcfcb98537c061ee6374a2b92dd8bc6
+SHA512: e5ba0166b95e62530e7b5f22b18079b8d10eb4736d11e0b0c9aa4363fb5961920218182b12893d0d19da833fc54f729905bb0916956e7ed667e2081c216c68f9
+Description: A YouTube improvement tweak.
+Name: YouTube X (Roothide)
+Author: PoomSmart
+SileoDepiction: https://jtisvn.github.io/sileodepictions/youtubex.json
+Depiction: https://jtisvn.github.io/depictions/youtubex.html
+Icon: https://jtisvn.github.io/sectionIcons/Youtube.png
 
 Package: com.jtis.zaire
 Architecture: iphoneos-arm64

@@ -61,7 +61,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Nepeta & Baw Appie",
+"text": "Nepeta & Kitsudo",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.5.5",
+"text": "1.6",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.5.5\n\n- Sửa lỗi và tối ưu hoá thông báo\n\n- Thêm ngôn ngữ Tiếng Việt\n\n- Hỗ trợ Rootfull, Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.6\n\n- Thêm chuyển đổi Respring ngay lập tức khi chọn kiểu\n\n- Sửa lỗi và tối ưu hoá thông báo\n\n- Thêm ngôn ngữ Tiếng Việt."
 }
 ],
 "class":"DepictionStackView"
