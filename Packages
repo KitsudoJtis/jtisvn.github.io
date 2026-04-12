@@ -685,26 +685,6 @@ Icon: https://Jtisvn.github.io/sectionIcons/Safarix.png
 Author: 0xkuj
 
 Package: com.0xkuj.speedads2k26
-Architecture: iphoneos-arm64
-Version: 1.1.2
-Section: Tweaks
-Maintainer: 0xkuj
-Installed-Size: 440
-Depends: com.opa334.altlist, preferenceloader, ellekit
-Filename: ./debs/com.0xkuj.speedads2k26_1.1.2_iphoneos-arm64.deb
-Size: 68368
-MD5sum: a7f068f2407acb4c9b5f26d280d3bd9e
-SHA1: 8ec7ca531430a24b5907ab121bf16b899b40ab73
-SHA256: 474b5279e1c5a40c3fba469d35f9a1e9c8af97f75faa360ac17eff9dc5538901
-SHA512: 3f6c4631783c2038cbd0b6a84d382118d5718bbb5fe2f7c1824df892d230a2814649606a983cb2e53e9fb189d9b7848f6fed923877f849b79b6e73603e9df1b6
-Description: A properly made tweak to speed up any modern ad.
-Name: SpeedAds2k26 (Rootless)
-Author: 0xkuj
-SileoDepiction: https://jtisvn.github.io/sileodepictions/SpeedAds2k26.json
-Depiction: https://jtisvn.github.io/depictions/SpeedAds2k26.html
-Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.speedads2k26.png
-
-Package: com.0xkuj.speedads2k26
 Architecture: iphoneos-arm64e
 Version: 1.1.2
 Section: Tweaks
@@ -719,6 +699,47 @@ SHA1: dbd15ab4d15ac6e8aa5609c28629a6f20e4c9c6e
 SHA256: 12136a65f1857c4b7a0793302670348b07ca9c38479291e6ed8aa381a2b29ec0
 SHA512: 84fd5923fbdaee62176f9452ee01a6d028b3e4bdff2f712857c6d5f0aed7177eaff81de7811fe82af234cb12c050367ff8e5156e9a3c0f7b76f6eb0f6e809d85
 Description: A properly made tweak to speed up any modern ad.
+Name: SpeedAds2k26 (Roothide)
+Author: 0xkuj
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SpeedAds2k26.json
+Depiction: https://jtisvn.github.io/depictions/SpeedAds2k26.html
+Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.speedads2k26.png
+
+Package: com.0xkuj.speedads2k26
+Architecture: iphoneos-arm64
+Version: 1.1.5
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 440
+Depends: com.opa334.altlist, preferenceloader, oldabi
+Filename: ./debs/com.0xkuj.speedads2k26_1.1.5_iphoneos-arm64.deb
+Size: 68144
+MD5sum: b64cb2b29e8b846fea16c4273f480899
+SHA1: ed63c3937340ca8ce7e973a2213b92d612241345
+SHA256: 02f522fbd12b192c57101d140179dc64434975445ea64eef2708bb51e0a0158a
+SHA512: edc452d4af863f2cdbe422041bfedf9a3f68ae56df02b5345782ae75f62363348e9e4215efef232041f60b7250e01430f5f62c94b5149f66ac47b99635220b78
+Description: A properly made tweak to speed up any modern ad
+Name: SpeedAds2k26 (Rootless)
+Author: 0xkuj
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SpeedAds2k26.json
+Depiction: https://jtisvn.github.io/depictions/SpeedAds2k26.html
+Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.speedads2k26.png
+
+Package: com.0xkuj.speedads2k26
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 440
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.altlist, preferenceloader, oldabi
+Filename: ./debs/com.0xkuj.speedads2k26_1.1.5_iphoneos-arm64e.deb
+Size: 67172
+MD5sum: 8a3da0b68279c7d4b216bdfad4983c53
+SHA1: 01f5b2e341df26c4b718f7bd770904f0ca19be89
+SHA256: 727cc497eee25a63adf0c45d1867e0f96281378a7df7e12a520dce6e913df4a3
+SHA512: 0695e92a079f1eae1544cedecebcec4f37f717e42501f508f6a15dd6c5cce5563232188a7e9a244ed76deb41a0298ca34f58b23707a077aefdb3ab77072c3839
+Description: A properly made tweak to speed up any modern ad
 Name: SpeedAds2k26 (Roothide)
 Author: 0xkuj
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SpeedAds2k26.json
@@ -17451,25 +17472,6 @@ Name: YangJiii_Lineat
 Author: YangJiii
 SileoDepiction: https://jtisvn.github.io/sileodepictions/YangJiiiLineat.json
 Icon: https://jtisvn.github.io/sectionIcons/LS.png
-
-Package: com.jtis.youspeed
-Architecture: iphoneos-arm64
-Version: 1.6.2
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 108
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
-Conflicts: com.lyvendia.ytspeed
-Filename: ./debs/com.jtis.youspeed_1.6.2_iphoneos-arm64.deb
-Size: 12080
-MD5sum: f96802d36ad4c13cb0daacfbd3f21323
-SHA1: fa932d24efeca2f5db751bc00e1ed30e65a0e9d0
-SHA256: cc09f22f3343632c617312ad41d3ea143d3f17e2c43b8f420fd72a3405412413
-SHA512: 6663f5cfea5abc19a014c8e5cb0bc6f5d3f1cfb4dfeb05f9b1c4a518e4d5b3ad1c1c4a37d0870049c14e43b243929b18b474fe268eb93e823d47e338d011fbea
-Description: Lượt xem/thay đổi tốc độ video trong ứng dụng iOS trên YouTube nhanh hơn và thêm nhiều tùy chọn tốc độ.
-Name: YouSpeed (Rootless)
-Author: PoomSmart
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.jtis.youspeed
 Architecture: iphoneos-arm64e
