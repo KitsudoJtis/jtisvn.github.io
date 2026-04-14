@@ -19361,6 +19361,26 @@ Tag: role::developer
 Name: libMRYIPC
 Author: Muirey03
 
+Package: com.nahtedetihw.artfull
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: Ethan Whited
+Installed-Size: 268
+Pre-Depends: rootless-compat(>= 0.1)
+Depends:
+Filename: ./debs/com.nahtedetihw.artfull_1.2_iphoneos-arm64e.deb
+Size: 31236
+MD5sum: 3fada7982954bdb1abee2906b1e71a3b
+SHA1: da9feb9fb4e7e51a59c706cb1aa3bd728c260fb9
+SHA256: 60dd54138ca0980b722d98d7244e1c9ee8a22322da3c6bc7eb58b7c10b165205
+SHA512: 2779d1e5d8411f869b0109fee8e9d180e4c0b97370162761f379883708cd7ce64e32ffafc5a6cd300868f9015e1d4cc17823525b23501ce956f91621b2d52641
+Description: Make the Apple Music app look like iOS 17!
+Name: ArtFull
+Author: Ethan Whited
+SileoDepiction: https://jtisvn.github.io/sileodepictions/ArtFull.json
+Icon: https://media.havoc.app/649f7a731cd0975ac1cfa159
+
 Package: com.nahtedetihw.reachplayer-rootless
 Architecture: iphoneos-arm64
 Version: 2.6
