@@ -11643,6 +11643,26 @@ Name: Limneos Crack All
 Author: Netskao
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
+Package: com.jtis.lingdongdao
+Architecture: iphoneos-arm64e
+Version: 1.0.0.2-235
+Section: Tweaks
+Maintainer: MrShi
+Installed-Size: 2352
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, oldabi
+Filename: ./debs/com.jtis.lingdongdao_1.0.0.2-235_iphoneos-arm64e.deb
+Size: 551640
+MD5sum: fb2067c188adb26da0b215446dc3df3d
+SHA1: 8930152dedbc581b24f5b58cdda49a3a2a97500a
+SHA256: ac95057c1e45300f05beaa6080f1563f844b6d06f9341309367217d366613f1a
+SHA512: 7201c48856cef70207cc8f4e57aa2ec2ffc5da49e774aa6825b1b6a6e088e4f1de45b9b2e2a14d7857bc3b3db59e922a750a72cb35aaa8737529017422a77d8b
+Description: Thêm màu tùy chỉnh viền bên ngoài và bên trong của Đảo động, màu nền thông báo, v.v.
+Name: Dynamic Island Customization
+Author: MrShi
+SileoDepiction: https://jtisvn.github.io/sileodepictions/MrShi.json
+Icon: https://axs66.github.io/pro/icon/lingdongdao.png
+
 Package: com.jtis.liquidglass
 Architecture: all
 Version: 2.0
@@ -18351,18 +18371,18 @@ Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
 Package: com.jtisvn.nexusboard
 Architecture: iphoneos-arm64
-Version: 2.6
+Version: 2.7
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 2096
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
-Filename: ./debs/com.jtisvn.nexusboard_2.6_iphoneos-arm64.deb
-Size: 513896
-MD5sum: ee06f069b67079084d1a1c344b5dd593
-SHA1: 52319cef39cbd25b8ce8ea68270e7444052e43c8
-SHA256: f0adfc8ed3b2325d6e787f745a27bb6898ad2140c8e7dfbeecb23ae6c4173a83
-SHA512: 199f9cf66ad4689ff37553996b132bfe9f5519a736c353902f747c261c7db6a0c6948840e0897b5ee66d05fd561b12dcb098b3ea8ef292f6ae3afaf9dc5b421a
+Filename: ./debs/com.jtisvn.nexusboard_2.7_iphoneos-arm64.deb
+Size: 514488
+MD5sum: 3f56ca27a8b600ad957d0da4d0a07c86
+SHA1: 52d3dd19e5118b40929d7912219726335942299f
+SHA256: a1b52304907c689a0f71de3f3043393d560afc6561f3e979c8605690366219bf
+SHA512: a497022226d0753594bf44585c22724f78062b3abdb958c502a87b522a2d63014a642c6df6f7273d3b3536749d026035c05ba9c03961d0b49c9e8f36fdb01502
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
@@ -18374,19 +18394,19 @@ Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
 Package: com.jtisvn.nexusboard
 Architecture: iphoneos-arm64e
-Version: 2.6
+Version: 2.7
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 2096
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
-Filename: ./debs/com.jtisvn.nexusboard_2.6_iphoneos-arm64e.deb
-Size: 514564
-MD5sum: 358b5439d458fbc37d2be76c0eb22b0f
-SHA1: 42aefcffcd5fa7e0ad283de94360973b2b1db2a6
-SHA256: 7b9f1635e2c958a7c18949f80cba142a17b6cc6f5e3311df137aec20b412c5e2
-SHA512: b199562bbb7a256d12b89164a12a7d9ea7b2e5945cf9d9f3a031b8ecc53f6493233eff8404b9bca9f88bae7a5a2fa7ff51d09c0f56a8416441805201613f357d
+Filename: ./debs/com.jtisvn.nexusboard_2.7_iphoneos-arm64e.deb
+Size: 514152
+MD5sum: 79128bdc0c1d634b6ff9b0165284e45c
+SHA1: 918d80eaa760fa54862f86f4226fd64fb9848646
+SHA256: 288b8f0a676b931db5f0dadf0e277170e9c5674f804e2fa68b5995ea153f2ebb
+SHA512: 2e1f3d6eb528c8e07249be238e854440a4702bc8bf9fa8c3f84b177f122fb705ade58563cc183486bf9329f3d2418a3d8230c61be8dabd6ffc3e319cc5b4539a
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
