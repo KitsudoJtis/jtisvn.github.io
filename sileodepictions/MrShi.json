@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"### Dynamic Island Customization\n\n- Tinh chỉnh giúp bạn tùy biến giao diện Dynamic Island, Thông báo và Trình phát nhạc trên thiết bị của mình.\n\n- **Các tính năng nổi bật:**\n\n- **Tùy chỉnh Dynamic Island:** Tự do thay đổi màu sắc và độ dày của viền ngoài, viền trong.\n- **Tùy chỉnh Thông báo:** Điều chỉnh độ rộng, màu viền, độ dày viền, màu nền và hiệu ứng đổ bóng (màu sắc, độ tỏa bóng) của thông báo trên màn hình khóa.\n- **Trình phát nhạc:** Thêm hiệu ứng xoay ảnh album (có thể chỉnh tốc độ xoay) và làm tròn ảnh album trong Trung tâm điều khiển.",
+"markdown":"### Dynamic Island Customization\n\n- Tinh chỉnh giúp bạn tùy biến giao diện Dynamic Island khi có Thông báo và phát nhạc\n\n- **Các tính năng nổi bật:**\n\n- **Tùy chỉnh Dynamic Island:** Tự do thay đổi màu sắc và độ dày của viền ngoài, viền trong.\n- **Tùy chỉnh Thông báo:** Điều chỉnh độ rộng, màu viền, độ dày viền, màu nền và hiệu ứng đổ bóng (màu sắc, độ tỏa bóng) của thông báo trên màn hình khóa.\n- **Trình phát nhạc:** Thêm hiệu ứng xoay ảnh album (có thể chỉnh tốc độ xoay) và làm tròn ảnh album trong Trung tâm điều khiển.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -114,7 +114,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Không xác định",
+"text": "2 MB",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
