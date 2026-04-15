@@ -19370,13 +19370,13 @@ Installed-Size: 268
 Pre-Depends: rootless-compat(>= 0.1)
 Depends:
 Filename: ./debs/com.nahtedetihw.artfull_1.2_iphoneos-arm64e.deb
-Size: 31236
-MD5sum: 3fada7982954bdb1abee2906b1e71a3b
-SHA1: da9feb9fb4e7e51a59c706cb1aa3bd728c260fb9
-SHA256: 60dd54138ca0980b722d98d7244e1c9ee8a22322da3c6bc7eb58b7c10b165205
-SHA512: 2779d1e5d8411f869b0109fee8e9d180e4c0b97370162761f379883708cd7ce64e32ffafc5a6cd300868f9015e1d4cc17823525b23501ce956f91621b2d52641
+Size: 30984
+MD5sum: a41bc84ceba84be978e5c2962cf69563
+SHA1: 79438e5b725ae2e09613e32f7786270a92dc35a6
+SHA256: 430b87a6de42433f7521f5893188859d7590d39032608fb0064cf9bd4f546f6d
+SHA512: 5ee7b39dc8e657b649cc7ee24efbd7ecf73809f96b2e37c6ecc88ab73b3f7a97773aef349a96d1b2b292e32889133ffdac0e30d46d2908b27e2096da75bdc9f9
 Description: Make the Apple Music app look like iOS 17!
-Name: ArtFull
+Name: ArtFull (Roothide)
 Author: Ethan Whited
 SileoDepiction: https://jtisvn.github.io/sileodepictions/ArtFull.json
 Icon: https://media.havoc.app/649f7a731cd0975ac1cfa159

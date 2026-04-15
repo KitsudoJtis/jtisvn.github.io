@@ -8,13 +8,13 @@
             "package": "com.jtisvn.amimfx",
             "url": "https://jtisvn.github.io/coverimage/AmimFX.png"},
 {
-           "title": "NexusBoard",
-            "package": "com.jtisvn.nexusboard",
-            "url": "https://jtisvn.github.io/coverimage/NexusBoard.png"},
-{
            "title": "CarBridge",
             "package": "com.leftyfl1p.carbridge13",
             "url": "https://jtisvn.github.io/coverimage/CarBridge2.png"},
+{
+           "title": "Liquid Glass",
+            "package": "com.jtis.LiquidglAss",
+            "url": "https://jtisvn.github.io/coverimage/LiquidGlass.png"},
 {
            "title": "Capcut Pro",
             "package": "com.jtisvn.capcutcrack",
@@ -31,10 +31,6 @@
            "title": "Gravitation",
             "package": "com.jtis.gravitation",
             "url": "https://jtisvn.github.io/coverimage/Gravitation.png"},
-{
-           "title": "Liquid Glass",
-            "package": "com.jtis.LiquidglAss",
-            "url": "https://jtisvn.github.io/coverimage/LiquidGlass.png"},
 {
            "title": "GifIsland",
             "package": "com.jtis.Gifisland",
