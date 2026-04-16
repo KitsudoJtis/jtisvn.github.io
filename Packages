@@ -6951,20 +6951,20 @@ Author: MTAC • ETHN
 
 Package: com.jtis.byehomebottombarx
 Architecture: iphoneos-arm64
-Version: 1.3.7
+Version: 1.3.8
 Priority: optional
 Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 674
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 675
 Depends: mobilesubstrate, firmware (>= 11.0), org.thebigboss.libcolorpicker
-Filename: ./debs/com.jtis.byehomebottombarx_1.3.7_iphoneos-arm64.deb
-Size: 81336
-MD5sum: d488faa81cb326c600f01ec41969a697
-SHA1: a756ac64e9494805f6a55467a1ba02a26d8f5179
-SHA256: 43bf6f1b6c831bf5df4a6ad01520e3b479609f41f3628694a2612f810faae437
-SHA512: 7416018017b421a8b3b2d0320314af3feff4d759dc4d20859c5f7965ec7698ae60048d02c1b00ef9a9df6b37b94a5df45ed11419eed80a32a5b47fa2b5f9e0ee
-Homepage: https://jtisvn.github.io/
-Description: Ẩn hoặc làm mờ thanh điều hướng (Home Bar) dưới cùng trên iPhone X!
+Filename: ./debs/com.jtis.byehomebottombarx_1.3.8_iphoneos-arm64.deb
+Size: 65636
+MD5sum: 73fe5cb4a052f8e8186f374df53518ef
+SHA1: 85e2485425d1f8c440f03d5a8bef04a61be578e6
+SHA256: 47d1f60e694fadd20efc1ff7165c9987187106c7998504d232f4b89b8e45b599
+SHA512: f875f9a6f322cfe8805f66b51090298167b265cca5cdf1a189b2942a63f33070b0442dd90ed494814a06be1a62975034bf322cc1210b19aa88f10f597863786b
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=byehomebottombarxDp
+Description: Ẩn hoặc làm mờ thanh Home Bar dưới cùng trên iPhone X!
 Tag: purpose::extension
 Name: ByeHomeBottomBarX (Rootless)
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=byehomebottombarxDp
@@ -6976,21 +6976,21 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/ByeHomeBottomBarX.json
 
 Package: com.jtis.byehomebottombarx
 Architecture: iphoneos-arm64e
-Version: 1.3.7
+Version: 1.3.8
 Priority: optional
 Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 674
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 675
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 11.0), org.thebigboss.libcolorpicker
-Filename: ./debs/com.jtis.byehomebottombarx_1.3.7_iphoneos-arm64e.deb
-Size: 79704
-MD5sum: ae396bbc5286055e0d35e28ab95adb8c
-SHA1: 710f15e423c89c0f1854a40d661c001cfde1cdb0
-SHA256: e6f3443fa24f7ce04fb7bd6354b3d193bdc0426497571bb3a42a0738c6044e69
-SHA512: 65ba679ecc008274a7880fdc15846f60c9d8baf9995d4e7c118e496c240ac0ba96f7c8ee09f99948aed99049623491913dc2a2eb3e07efcba161473050dbbe26
-Homepage: https://jtisvn.github.io/
-Description: Ẩn hoặc làm mờ thanh điều hướng (Home Bar) dưới cùng trên iPhone X!
+Filename: ./debs/com.jtis.byehomebottombarx_1.3.8_iphoneos-arm64e.deb
+Size: 64572
+MD5sum: 2737388538f8d0609a87acd3b9c458f9
+SHA1: 9dde274cd79cce3eb587e10a773d72b120eff6ef
+SHA256: 63db70927d25bbe87a2f6cfc13b06da82195eeecf62c6f666a7d3b10b9e1af2f
+SHA512: 3fb694bee1b31d5d81fe31642734b053b659c77478081f4f07e6f0d39889d9ff26d6a97cfbf396f4295d33fd3f24dd1381df40b14253226f400f4db723b65b91
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=byehomebottombarxDp
+Description: Ẩn hoặc làm mờ thanh Home Bar dưới cùng trên iPhone X!
 Tag: purpose::extension
 Name: ByeHomeBottomBarX (Roothide)
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=byehomebottombarxDp
@@ -18746,6 +18746,25 @@ Description: Thêm ngôn ngữ Tiếng Việt cho tweak Dock X
 Name: Dock X gói Việt Hoá (Roothide)
 Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.fixstatusbarrdar
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.fixstatusbarrdar_1.0.0_iphoneos-arm64.deb
+Size: 4076
+MD5sum: 0e4cee36f2d684c79c4ad5ed5805a091
+SHA1: 133068689ab9599b0dd60b46747b25e1ea1462a8
+SHA256: 53ac2e3c8cb39d4e01a7ba0e1310333f9333099174986b98a018a3e1545880b0
+SHA512: 6741b3fa17ddbed0defe64d40f90f85b084fa5ec6c792bb14e144f21f90fc31ede152cdbb7190d3f76203915556537cde7851021fb3612d6a114d2b740f9c2d1
+Description: Fixes the red rdar status bar issue on older devices.
+Name: FixStatusBarRdar
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FixStatusBarRdar.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.kitsudo.hidesnviethoa
 Architecture: iphoneos-arm64
