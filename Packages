@@ -15838,27 +15838,6 @@ Author: iOS Creatix, kasiimh1, p2kdev
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SugarCare.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
-Package: com.jtis.superrecorder
-Architecture: iphoneos-arm
-Version: 3.25-5k
-Section: Tweaks
-Maintainer: @tqmmos
-Installed-Size: 92544
-Depends: firmware (>= 12.0), mobilesubstrate, org.hacx.hacxdaemon (>= 3.6)
-Conflicts: org.hacx.callrecorder, org.hacx.callrecorder.ios9, org.hacx.superrecorder, org.hacx.callrecorderxplus, org.hacx.superrecorder.ios9
-Replaces: org.hacx.superrecorderxplus.beta
-Filename: ./debs/com.jtis.superrecorder_3.25-5k_iphoneos-arm.deb
-Size: 19958412
-MD5sum: 7120bbdcd66a7a4297e23c7c50e849c7
-SHA1: f3def38fde6bd76a966296a92485122208794543
-SHA256: 5cb8b3b700a5539f4a20829a30b7ed2f2f0da649884c850776d7604c47661acc
-SHA512: be7f40a23014cdedbbbd3e2a19fce059641c0f1bdabe38d0957ffe22c5083a64292a2979a6499088957914252982533240372bf2b230675f8e88cefc00f0dc5a
-Description: Ghi âm cuộc gọi & thay đổi giọng nói
-Name: Super Recorder X+
-Author: hAcx
-Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Superrecorder.json
-
 Package: com.jtis.sushi
 Architecture: iphoneos-arm64
 Version: 1.0.1
