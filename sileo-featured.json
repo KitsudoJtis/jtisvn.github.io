@@ -4,9 +4,9 @@
     "itemCornerRadius": 10,
     "banners": [
         {
-            "title": "AmimFX",
-            "package": "com.jtisvn.amimfx",
-            "url": "https://jtisvn.github.io/coverimage/AmimFX.png"},
+            "title": "NexusBoard",
+            "package": "com.jtisvn.nexusboard",
+            "url": "https://jtisvn.github.io/coverimage/NexusBoard.png"},
 {
            "title": "CarBridge",
             "package": "com.leftyfl1p.carbridge13",

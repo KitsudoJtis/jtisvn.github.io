@@ -18748,6 +18748,25 @@ Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.fixstatusbarrdar
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Kitsudo
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.kitsudo.fixstatusbarrdar_1.0.0_iphoneos-arm.deb
+Size: 3992
+MD5sum: e2f595bcaf76dc0bdf973e2f3008e14f
+SHA1: c7f3f47ceac417140a8e4ff9291c214282e1121b
+SHA256: b1e68274ddbb45ceed5546429106d48607e3e7220cb59d72f874f112708ae064
+SHA512: 87b18f75c1c9926b7a6bec1577701bfc4c86ccb9186c75cd1a3797f56e0eae97cac95233f87bc58fd4c827fe63611dd47b04d7e001acb72bfef8f0b03c7e9007
+Description: Fixes the red rdar status bar issue on older devices.
+Name: FixStatusBarRdar
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/FixStatusBarRdar.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+
+Package: com.kitsudo.fixstatusbarrdar
 Architecture: iphoneos-arm64
 Version: 1.0.0
 Section: Tweaks
@@ -18755,13 +18774,13 @@ Maintainer: Kitsudo
 Installed-Size: 168
 Depends: mobilesubstrate
 Filename: ./debs/com.kitsudo.fixstatusbarrdar_1.0.0_iphoneos-arm64.deb
-Size: 4076
-MD5sum: 0e4cee36f2d684c79c4ad5ed5805a091
-SHA1: 133068689ab9599b0dd60b46747b25e1ea1462a8
-SHA256: 53ac2e3c8cb39d4e01a7ba0e1310333f9333099174986b98a018a3e1545880b0
-SHA512: 6741b3fa17ddbed0defe64d40f90f85b084fa5ec6c792bb14e144f21f90fc31ede152cdbb7190d3f76203915556537cde7851021fb3612d6a114d2b740f9c2d1
+Size: 4096
+MD5sum: 4e4613e2f3ced9def42d71cc70b0e6e3
+SHA1: 3b2839f0c9ae7938273efa861c418ccb4ce6f531
+SHA256: c56c64f9fd4434f4eb0c9bba26f35b73450c6b68a0c4e575a236bcd4ca561013
+SHA512: de4ba3412316816e6e68e94a8ba38d876e4cd87b6a2f7e29671c190226e85e7e3520722f324374c3993b26cdc1c36c54b1c5dec52f883a96f4bf845e4c9d4de6
 Description: Fixes the red rdar status bar issue on older devices.
-Name: FixStatusBarRdar
+Name: FixStatusBarRdar (Rootless)
 Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/FixStatusBarRdar.json
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
