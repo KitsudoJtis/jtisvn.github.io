@@ -11664,6 +11664,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/MrShi.json
 Icon: https://axs66.github.io/pro/icon/lingdongdao.png
 
 Package: com.jtis.liquidglass26
+Architecture: iphoneos-arm
+Version: 7.alpha
+Section: Tweaks
+Maintainer: dylv
+Installed-Size: 1184
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.jtis.liquidglass26_7.alpha_iphoneos-arm.deb
+Size: 215500
+MD5sum: d9c691064a11f83557f6ff842a627279
+SHA1: b7c62febb850356b0d66fdc34b3c43531c84f7c0
+SHA256: ced0afcd3d157c2fc65e13c67947e528a07b43578dec96b9e2fc74e0a7556a4d
+SHA512: 245f20083ad51abaee05bd05c29f5200fff596117929cab4caff4ddcec9f05b6ae8ccddea5f0ff4a848fc6e663981f39b84b8759c886fc54520d4acf00ed2556
+Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
+Name: liquidass
+Author: dylv
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
+
+Package: com.jtis.liquidglass26
 Architecture: iphoneos-arm64e
 Version: 7.alpha
 Section: Tweaks
