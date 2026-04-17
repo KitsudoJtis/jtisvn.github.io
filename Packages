@@ -11666,20 +11666,20 @@ Icon: https://axs66.github.io/pro/icon/lingdongdao.png
 Package: com.jtis.liquidglass26
 Architecture: iphoneos-arm64e
 Version: 7.alpha
-Section: iOS26
+Section: Tweaks
 Maintainer: dylv
 Installed-Size: 1092
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
 Conflicts: dylv.liquidass
 Filename: ./debs/com.jtis.liquidglass26_7.alpha_iphoneos-arm64e.deb
 Size: 220620
-MD5sum: f8df773052ad8fed6e04dec7e20666b5
-SHA1: 4d7c7bfe48c36dfe7b6300b484ed8f4f279c9bfb
-SHA256: 29d0661fcf6bdcb4b1f5e1786674ab71263f12dced316032189afd73b7cbba3b
-SHA512: 5d708fcbec352cc69d80dafa998e8edeb7f37ba3b5b66df280f8328cc98d428b6849052002f8c11902927ca611d29e41e8cd41901b3a71ab5f5e45a6f2a46f95
+MD5sum: ec6dc717fa6012e5714515cd9122d251
+SHA1: 69ab52c252f17f7dbbeb13a90d0d48690535931f
+SHA256: 3dc48fff626839a5b540b17cabcf3c0057ffc04f30af2ed72994122a80fbfa3a
+SHA512: 3550eb20b95c3ae9ee88348fbb6a6d19d638bb9fb0e462778f9dae8fb8de04e9b16f3281363fa34a75618c9b6c396d91e6ab0acd777e0dd66e53a802ef981364
 Homepage: https://jtisvn.github.io/
 Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
-Name: Liquid(Gl)ass iOS 26 (Roothide)
+Name: Liquid(Gl)ass 26 (Roothide)
 Author: dylv
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
 Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
