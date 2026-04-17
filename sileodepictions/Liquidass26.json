@@ -10,11 +10,23 @@
 "class":"DepictionScreenshotsView",
 "screenshots":[
 {
-"url":"https://jtisvn.github.io/infodeb/Liquidass26/Screenshots/1.png",
+"url":"https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/1.png",
 "accessibilityText":"Screenshot"
 },
 {
-"url":"https://jtisvn.github.io/infodeb/Liquidass26/Screenshots/2.png",
+"url":"https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/2.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/3.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/4.png",
+"accessibilityText":"Screenshot"
+},
+{
+"url":"https://jtisvn.github.io/infodeb/LiquidGlass26/Screenshots/5.png",
 "accessibilityText":"Screenshot"
 }
 ],
@@ -22,7 +34,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"### Liquidass26\n\n- Mang đến trải nghiệm hiệu ứng kính LiquidGlass lên thiết bị cũ iOS thấp.\n\n+ 610 biểu tượng\n\n- Chức năng chính:\n\n+ Tuỳ chỉnh hiệu ứng màn hình khoá\n\n+ Tuỳ chỉnh hiệu ứng màn hình chính\n\n+ Tuỳ chỉnh hiệu ứng thư viện ứng dụng\n\n+ Tuỳ chỉnh hiệu ứng thư mục\n\n+ Tuỳ chỉnh hiệu ứng menu 3D\n\n+ Tuỳ chỉnh biệu ứng thông báo\n\n+ Tuỳ chỉnh hiệu ứng công tắc\n\n- Tuy chỉnh hiệu ứng thanh tim kiếm.",
+"markdown":"### Liquid(Gl)ass 26\n\n- Mang đến trải nghiệm hiệu ứng kính LiquidGlass tuyệt đẹp lên các thiết bị iOS đời thấp.\n\n- **Các chức năng chính:**\n\n- Tùy chỉnh hiệu ứng màn hình khóa.\n- Tùy chỉnh hiệu ứng màn hình chính.\n- Tùy chỉnh hiệu ứng thư viện ứng dụng.\n- Tùy chỉnh hiệu ứng thư mục.\n- Tùy chỉnh hiệu ứng menu 3D.\n- Tùy chỉnh hiệu ứng thông báo.\n- Tùy chỉnh hiệu ứng công tắc.\n- Tùy chỉnh hiệu ứng thanh tìm kiếm.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -77,13 +89,13 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "Ngày tải lên",
+"text": "Ngày cập nhật",
 "textColor": "#777",
 "margins": "{16,0,8,0}"
 },
 {
 "class": "DepictionLabelView",
-"text": "17/4/2026",
+"text": "17/04/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -155,7 +167,14 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 7.alpha\n\n- **Có gì mới?**\n\n- Đồng hồ kính (Thử nghiệm): Thêm hiệu ứng kính với màu sắc ngẫu nhiên.\n\n- Thông báo: Banner hỗ trợ hiển thị thời gian thực; fix lỗi chữ bị đen khó đọc trên màn hình khóa.\n\n- Thanh tìm kiếm: Thêm hiệu ứng kính (cho iOS 16+); fix xung đột với Thư viện ứng dụng.\n\n- Dock: Ẩn các vết mờ/răng cưa ở góc bo tròn của Dock (iOS 16+).\n\n- **Sửa lỗi & Hệ thống**\n\n- Menu ngữ cảnh: Sửa hàng loạt lỗi về đường kẻ, góc bo tròn và phông nền trong menu.\n\n- Tối ưu hiệu năng: Tách riêng bộ xử lý đồ họa (Metal) giúp tweak chạy mượt và nhẹ máy hơn.\n\n- Ổn định hơn: Fix các lỗi về bộ nhớ, xung đột luồng và tối ưu lại bộ mã (Makefile).\n\n- Đã thêm ngôn ngữ Tiếng Việt chính thức."
+"markdown":"### Phiên bản 7.alpha\n\n- **Có gì mới?**\n- Đồng hồ kính (Thử nghiệm): Thêm hiệu ứng kính với màu sắc ngẫu nhiên.\n- Thông báo: Banner hỗ trợ hiển thị thời gian thực; sửa lỗi chữ bị đen khó đọc trên màn hình khóa.\n- Thanh tìm kiếm: Thêm hiệu ứng kính (cho iOS 16+); sửa xung đột với Thư viện ứng dụng.\n- Dock: Ẩn các vết mờ/răng cưa ở góc bo tròn của Dock (iOS 16+).\n\n- **Sửa lỗi & Hệ thống**\n- Menu ngữ cảnh: Sửa hàng loạt lỗi về đường kẻ, góc bo tròn và phông nền trong menu.\n- Tối ưu hiệu năng: Tách riêng bộ xử lý đồ họa (Metal) giúp tweak chạy mượt và nhẹ máy hơn.\n- Ổn định hơn: Sửa các lỗi về bộ nhớ, xung đột luồng và tối ưu lại bộ mã (Makefile).\n- Đã thêm ngôn ngữ Tiếng Việt."
+},
+{
+"class":"DepictionLabelView",
+"text":"Copyright © 2025 - 2030 by JTISVN",
+"textColor":"#999999",
+"fontSize":"10.0",
+"alignment":1
 }
 ],
 "class":"DepictionStackView"
@@ -177,11 +196,13 @@
 },
 {
 "class":"DepictionTableButtonView",
+"openExternal": 1,
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
 {
 "class":"DepictionTableButtonView",
+"openExternal": 1,
 "title": "Ủng hộ tôi",
 "action": "https://jtisvn.github.io/homepage/donate/donate.html"
 },
