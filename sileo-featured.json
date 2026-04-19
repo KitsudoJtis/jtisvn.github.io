@@ -5,7 +5,7 @@
     "banners": [
         {
             "title": "NexusBoard",
-            "package": "com.jtisvn.nexusboard",
+            "package": "com.kitsudo.nexusboard",
             "url": "https://jtisvn.github.io/coverimage/NexusBoard.png"},
 {
            "title": "CarBridge",

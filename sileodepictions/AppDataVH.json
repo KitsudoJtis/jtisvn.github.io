@@ -22,7 +22,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"AppData Việt Hóa\n\n- Gói ngôn ngữ Tiếng Việt hiển thị đầy đủ cho menu cài đặt của tinh chỉnh **AppData** .\n\n- Yêu cầu: Cần cài đặt gói **Legacy arm64e Support**.",
+"markdown":"### AppData Việt Hóa\n\n- Gói ngôn ngữ Tiếng Việt hiển thị đầy đủ cho menu cài đặt của tinh chỉnh **AppData** .\n\n- Yêu cầu: Cần cài đặt gói **Legacy arm64e Support**.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
