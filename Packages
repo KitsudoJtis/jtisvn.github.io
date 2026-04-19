@@ -18672,19 +18672,19 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
 Package: com.kitsudo.appdataviethoa
 Architecture: iphoneos-arm64e
-Version: 1.0.1-3+debug
+Version: 1.0.0
 Section: Tweaks
 Maintainer: JTISVN Repo
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: com.bvn.appdatavn
-Filename: ./debs/com.kitsudo.appdataviethoa_1.0.1-3+debug_iphoneos-arm64e.deb
-Size: 8040
-MD5sum: d3ed2c0ae9528cbbbd7c0734ab21536c
-SHA1: 56ef75dfe6bd8d54d87184fd571e2b8161b7c833
-SHA256: 688b3a1625d7632053b41b1394f8dc32c4e117c645d8dc8b9973d3be50a770a1
-SHA512: 201d333b0fd3024907ec4a4ebf24ddcf40ce7ca4d2db0055c1f675d4c1ca1d457a9a98c6e40cb3538a0ace2e86682147aecf70589cedfae5837004255ae3b522
+Filename: ./debs/com.kitsudo.appdataviethoa_1.0.0_iphoneos-arm64e.deb
+Size: 8048
+MD5sum: fef9b32ad333fe97280f7d3244ee7360
+SHA1: 5d13383429fb965b08fdd560f985f976bcbb2295
+SHA256: 79d2d1d0b1bb8aa3dc42f26dd624b44955b0653da575de4257cd02d75b31e589
+SHA512: 4a48f87a91d1ba4248e3f8b3f463f3330b123d0cd8e0ae953d908234a6fe8064feb2dccef6343b59208b9cb920ccfa6cdce74d6631723a6a1aa372d9a51b2ac5
 Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
 Name: AppData gói Việt Hóa (Roothide)
 Author: Kitsudo
