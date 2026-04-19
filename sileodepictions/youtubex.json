@@ -43,11 +43,11 @@
 "views": [
 {
 "class": "DepictionSubheaderView",
-"title": "Phiên bản 1.7.18"
+"title": "Phiên bản 1.7.19"
 },
 {
 "class": "DepictionMarkdownView",
-"markdown": "- Thử nghiệm: Loại bỏ các liên kết không cần thiết liên quan đến quảng cáo."
+"markdown": "- Chặn thêm các loại quảng cáo video mới trên các phiên bản YouTube gần đây."
 }
 ]
 }

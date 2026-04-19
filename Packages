@@ -17884,6 +17884,47 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/youtubex.json
 Depiction: https://jtisvn.github.io/depictions/youtubex.html
 Icon: https://jtisvn.github.io/sectionIcons/Youtube.png
 
+Package: com.jtis.ytx
+Architecture: iphoneos-arm64
+Version: 1.7.19
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
+Filename: ./debs/com.jtis.ytx_1.7.19_iphoneos-arm64.deb
+Size: 5820
+MD5sum: 39ff0268135fa8ba03460a4d4e063bba
+SHA1: f1ecfeb14a11d01370ecbcf20849818b285629ec
+SHA256: c33f55c660b60e55999d6d43282f9fea66c3ea69852d3434d72fd0336ea14037
+SHA512: 83d54f3676837fec09a86ee0538c607e08b99ef139dca03a2fc47ef788241018f78f21994f0815ec161f82991e6c9a1bd7228badd8bb1eba1377731eb6c0e3f1
+Description: A YouTube improvement tweak.
+Name: YouTube X (Rootless)
+Author: PoomSmart
+SileoDepiction: https://jtisvn.github.io/sileodepictions/youtubex.json
+Depiction: https://jtisvn.github.io/depictions/youtubex.html
+Icon: https://jtisvn.github.io/sectionIcons/Youtube.png
+
+Package: com.jtis.ytx
+Architecture: iphoneos-arm64e
+Version: 1.7.19
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 72
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
+Filename: ./debs/com.jtis.ytx_1.7.19_iphoneos-arm64e.deb
+Size: 5796
+MD5sum: 0334d10a2409b1b619788bc7cac0f0de
+SHA1: 6ad19d784fa1094ded601012f10ccd0e87ba255d
+SHA256: 5e79f5d5b0d87cd48f97b2270c2bc918a252c9a45376bc1d1bd087f3a743e6fd
+SHA512: 77fc4ac60f92e1af112a485b3410fc99d543a5fac779b6938c60266d636f108bc8fca28302561adde1bff971dc17e717a88e77714eec84ec311b849e7bf5fea7
+Description: A YouTube improvement tweak.
+Name: YouTube X (Roothide)
+Author: PoomSmart
+SileoDepiction: https://jtisvn.github.io/sileodepictions/youtubex.json
+Depiction: https://jtisvn.github.io/depictions/youtubex.html
+Icon: https://jtisvn.github.io/sectionIcons/Youtube.png
+
 Package: com.jtis.zaire
 Architecture: iphoneos-arm64
 Version: 0.9.0
@@ -20872,6 +20913,27 @@ Name: YouPiP (Rootless)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.ytabgoodies
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.ps.youremembercaption, com.ps.ytsystemappearance, com.ps.youarethere
+Filename: ./debs/com.ps.ytabgoodies_1.0.6_iphoneos-arm64.deb
+Size: 2848
+MD5sum: 6037049211d42cd5fcb043f3f4be2308
+SHA1: 41cb397f008b49623bfeda6031527d35d48a2c24
+SHA256: d433fe4c38a9f7cf94e59a0bd8759fd1cf45c4b86fbb913f5633ecda01443846
+SHA512: a5efa841de7d347bf3302b78f33db27917b5926f3abeb5f31dc19e821a15e42e4acf835dc56e07bf5cecbf3d989063ff2b1d22172a2eb14fb57dedb76e91c4d7
+Description: Enforce useful YouTube features that are otherwise 50/50 available to you.
+Name: YTABGoodies
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 
 Package: com.ps.ytabgoodies
 Architecture: iphoneos-arm64e
