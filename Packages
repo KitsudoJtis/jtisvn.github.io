@@ -11664,6 +11664,27 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/MrShi.json
 Icon: https://axs66.github.io/pro/icon/lingdongdao.png
 
 Package: com.jtis.liquidglass26
+Architecture: iphoneos-arm64
+Version: 7.2.alpha
+Section: Tweaks
+Maintainer: dylv
+Installed-Size: 1340
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Conflicts: dylv.liquidass
+Filename: ./debs/com.jtis.liquidglass26_7.2.alpha_iphoneos-arm64.deb
+Size: 274692
+MD5sum: 71753812c402592132b9b41523dc3056
+SHA1: b184498e9cec4a10941918c41706b62793fae2bf
+SHA256: ee3c9007d81b6c511ae7681f50f470c862c198a03d3e8c7b393938785f8ff36b
+SHA512: 544056f6231c4cf59eb6adca62ce08b9fa82328f56fa6d0a91dcdadf29c9d8a4a8e3cff5641b00eca0b254eeadb366ddb7cc7fd6099b3a0ab6561c2cf9dbacfc
+Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
+Name: Liquid(Gl)ass 26 (Rootless)
+Author: dylv
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
+
+Package: com.jtis.liquidglass26
 Architecture: iphoneos-arm
 Version: 7.alpha
 Section: Tweaks
@@ -11678,28 +11699,6 @@ SHA256: ced0afcd3d157c2fc65e13c67947e528a07b43578dec96b9e2fc74e0a7556a4d
 SHA512: 245f20083ad51abaee05bd05c29f5200fff596117929cab4caff4ddcec9f05b6ae8ccddea5f0ff4a848fc6e663981f39b84b8759c886fc54520d4acf00ed2556
 Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
 Name: liquidass
-Author: dylv
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
-Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
-Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
-
-Package: com.jtis.liquidglass26
-Architecture: iphoneos-arm64e
-Version: 7.alpha
-Section: Tweaks
-Maintainer: dylv
-Installed-Size: 1092
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
-Conflicts: dylv.liquidass
-Filename: ./debs/com.jtis.liquidglass26_7.alpha_iphoneos-arm64e.deb
-Size: 220620
-MD5sum: ec6dc717fa6012e5714515cd9122d251
-SHA1: 69ab52c252f17f7dbbeb13a90d0d48690535931f
-SHA256: 3dc48fff626839a5b540b17cabcf3c0057ffc04f30af2ed72994122a80fbfa3a
-SHA512: 3550eb20b95c3ae9ee88348fbb6a6d19d638bb9fb0e462778f9dae8fb8de04e9b16f3281363fa34a75618c9b6c396d91e6ab0acd777e0dd66e53a802ef981364
-Homepage: https://jtisvn.github.io/
-Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
-Name: Liquid(Gl)ass 26 (Roothide)
 Author: dylv
 SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
 Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
@@ -18676,6 +18675,26 @@ Author: Kitsudo
 SileoDepiction: https://jtisvn.github.io/sileodepictions/AerialVietHoa.json
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 
+Package: com.kitsudo.appdataviethoa
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.bvn.appdatavn
+Filename: ./debs/com.kitsudo.appdataviethoa_1.0.0_iphoneos-arm64.deb
+Size: 7872
+MD5sum: dd709bbc5f184a49459ce4a454fab952
+SHA1: 79efc4f7cdca037e31072895e838bb96bd257c99
+SHA256: 517088d6a85cc7ee706122e6a099145008209d33ab0a95859703fe83467cb655
+SHA512: fc9af0aefbb935234aa9a069fbe2676aa1d227d6f4103aec61c841f34eee42c24b8970d3ffa25cdd4cfacf21ecd3a89f2fca8a2d31fad9232cc3a54b5a0a9491
+Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
+Name: AppData gói Việt Hóa (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppDataVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
 Package: com.kitsudo.ccmusicviethoa
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -18863,6 +18882,29 @@ Description: Thêm đầy đủ ngôn ngữ Tiếng Viet cho tweak HideSerialNum
 Name: HideSerialNumber gói Việt Hóa
 Author: Kitsudo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+
+Package: com.kitsudo.nexusboard
+Architecture: iphoneos-arm64
+Version: 3.0
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 2200
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.jtisvn.nexusboard, com.bvn.infobattery-r2
+Filename: ./debs/com.kitsudo.nexusboard_3.0_iphoneos-arm64.deb
+Size: 532748
+MD5sum: cad998b05135016b9d93c086ad888bcd
+SHA1: 38cc5bdb38384f4b28e3b4b42abd3319df741f6e
+SHA256: 8b28b85f0fb674bb3c171c99e89595c2e75610f16d8d4ef5d7e07a6f4c8952b2
+SHA512: 8f7d21fc1c688851c77376dc3401bb53c2162ce1f3318a315981867d2d0f44668a7910f6a4672767e6de9d12a347e8647b48063f44b1a621f5ee57f5cd4abc8b
+Homepage: https://jtisvn.github.io/
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Name: NexusBoard (Rootless)
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/NexusBoard.json
+Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 
 Package: com.kitsudo.picturemodulevh
 Architecture: iphoneos-arm64

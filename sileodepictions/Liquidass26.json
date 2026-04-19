@@ -34,7 +34,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"### Liquid(Gl)ass 26\n\n- Mang đến trải nghiệm hiệu ứng kính LiquidGlass tuyệt đẹp lên các thiết bị iOS đời thấp.\n\n- **Các chức năng chính:**\n\n- Tùy chỉnh hiệu ứng màn hình khóa.\n- Tùy chỉnh hiệu ứng màn hình chính.\n- Tùy chỉnh hiệu ứng thư viện ứng dụng.\n- Tùy chỉnh hiệu ứng thư mục.\n- Tùy chỉnh hiệu ứng menu 3D.\n- Tùy chỉnh hiệu ứng thông báo.\n- Tùy chỉnh hiệu ứng công tắc.\n- Tùy chỉnh hiệu ứng thanh tìm kiếm.",
+"markdown":"### LiquidGlass 26\n\n- Mang đến trải nghiệm hiệu ứng kính LiquidGlass tuyệt đẹp lên các thiết bị iOS đời thấp.\n\n- **Các chức năng chính:**\n\n- Tùy chỉnh hiệu ứng màn hình khóa.\n- Tùy chỉnh hiệu ứng màn hình chính.\n- Tùy chỉnh hiệu ứng thư viện ứng dụng.\n- Tùy chỉnh hiệu ứng thư mục.\n- Tùy chỉnh hiệu ứng menu 3D.\n- Tùy chỉnh hiệu ứng thông báo.\n- Tùy chỉnh hiệu ứng công tắc.\n- Tùy chỉnh hiệu ứng thanh tìm kiếm.",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -95,7 +95,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "17/04/2026",
+"text": "19/04/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -113,7 +113,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "7.alpha",
+"text": "7.3.alpha",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -167,7 +167,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 7.alpha\n\n- **Có gì mới?**\n- Đồng hồ kính (Thử nghiệm): Thêm hiệu ứng kính với màu sắc ngẫu nhiên.\n- Thông báo: Banner hỗ trợ hiển thị thời gian thực; sửa lỗi chữ bị đen khó đọc trên màn hình khóa.\n- Thanh tìm kiếm: Thêm hiệu ứng kính (cho iOS 16+); sửa xung đột với Thư viện ứng dụng.\n- Dock: Ẩn các vết mờ/răng cưa ở góc bo tròn của Dock (iOS 16+).\n\n- **Sửa lỗi & Hệ thống**\n- Menu ngữ cảnh: Sửa hàng loạt lỗi về đường kẻ, góc bo tròn và phông nền trong menu.\n- Tối ưu hiệu năng: Tách riêng bộ xử lý đồ họa (Metal) giúp tweak chạy mượt và nhẹ máy hơn.\n- Ổn định hơn: Sửa các lỗi về bộ nhớ, xung đột luồng và tối ưu lại bộ mã (Makefile).\n- Đã thêm ngôn ngữ Tiếng Việt."
+"markdown":"### Phiên bản 7.3.alpha\n\n- **Giao diện & Tính năng**\n- Cho phép ép buộc dùng màu Tối/Sáng (Dark-Light mode) độc lập với hệ thống.\n- Chuyển sang trang cài đặt Màn hình khóa; hỗ trợ thêm cho iOS 15.\n- Tổ chức lại trang \"Tùy chọn khác\" gọn gàng hơn.\n- Cập nhật biểu tượng mới cho tweak.\n- **Sửa lỗi & Hệ thống**\n- Sửa lỗi bo tròn ô menu và lỗi bị tối màu ngẫu nhiên.\n- Sửa lỗi banner quá sáng và lỗi hiển thị hình ảnh mặc định.\n- Thêm tùy chọn ghi nhật ký (log) để theo dõi lỗi."
 },
 {
 "class":"DepictionLabelView",
