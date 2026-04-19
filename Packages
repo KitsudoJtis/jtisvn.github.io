@@ -11664,6 +11664,26 @@ SileoDepiction: https://jtisvn.github.io/sileodepictions/MrShi.json
 Icon: https://axs66.github.io/pro/icon/lingdongdao.png
 
 Package: com.jtis.liquidglass26
+Architecture: iphoneos-arm
+Version: 7.2.alpha
+Section: Tweaks
+Maintainer: dylv
+Installed-Size: 1340
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.jtis.liquidglass26_7.2.alpha_iphoneos-arm.deb
+Size: 274156
+MD5sum: 85906e392018753c3497ccf128ae6ed2
+SHA1: 3156128887c5da8123efc09ec208d2537e6716ba
+SHA256: ce4c9d9fe320d5d2d0380cd39b44ca877d2ccbb55f5196527e18fa7dfc3f2771
+SHA512: bcea3df7f8f545f8e51e6f1e5cf6806b8e0a7051c0f44b8f8040390a2641ed53cabce201ba79fb6d64f93a6f34e44ae1cbb111a08ecd3d79256faa2737f25c1c
+Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
+Name: Liquid(Gl)ass 26
+Author: dylv
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
+
+Package: com.jtis.liquidglass26
 Architecture: iphoneos-arm64
 Version: 7.2.alpha
 Section: Tweaks
@@ -18910,13 +18930,13 @@ Maintainer: JTISVN Repo
 Installed-Size: 2200
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
-Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.jtisvn.nexusboard, com.bvn.infobattery, com.bvn.infobattery-r2
 Filename: ./debs/com.kitsudo.nexusboard_3.0_iphoneos-arm64e.deb
-Size: 532676
-MD5sum: 4f6a3f2131520de6378bfe0478697cf6
-SHA1: 133b91673ce70fcc2bde1cdd3ec414ab49fdfde8
-SHA256: 8418e1398e60feb8aabdf2831d136fdc239270a6023d5fecdce1d40116f0cded
-SHA512: 6a7620587f6bb7ca82ee4727709a67d5409295573c2462a74bcbc9c6631a4daccee053b00d2676450c8efc2b75ad0d36f998f437ad3b5b615b39f99c63fb643d
+Size: 532768
+MD5sum: ac88d13ce78f4b81bc461713922864f9
+SHA1: 2caf522b3241fdc35f70fa15d51a941004f709c9
+SHA256: 579f5e94687d9b58b987973d5cd3d7b74efaeb92d878f086a99fa6f8b7c0e79a
+SHA512: 5aff4179e57a4dfa22203d8007818c60159de8d78c518445b003a3359937743723dc3bcc9df249eeaa6a7247787376eab9638c321b42c8ee17bd464e86054f20
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
