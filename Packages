@@ -23164,30 +23164,6 @@ Name: RootBridge Framework
 Author: jjolano
 
 Package: me.lightmann.sortingswipe
-Architecture: Sắp xếp các biểu tượng màn hình chính của bạn bằng cách vuốt lên!
-Version: 1.0.5
-Priority: optional
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 222
-Depends: mobilesubstrate, firmware (>= 11.0)
-Filename: ./debs/me.lightmann.sortingswipe_1.0.5_Sắp xếp các biểu tượng màn hình chính của bạn bằng cách vuốt lên!.deb
-Size: 27528
-MD5sum: 5284eba5bd11504f70cec84e4b56444d
-SHA1: 324ed6b58549b72fbc7aa8b140f5c3c6edee7c66
-SHA256: 6cd0a9db9b6a44eb397cde66cd14d803ae9410af8173232b0e8f54fdc05a1191
-SHA512: db7e1566ed386fbace46092fd2ff5b6205cf0bb2314fd6e4a3ceaa465e264b1de1a163a936c1d1fce15c116fc30c0910f74b66092e712532072ceff42ad339bc
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sortingswipeDp
-Tag: purpose::extension
-Name: SortingSwipe (Roothkde)
-SileoDepiction: https://jtisvn.github.io/sileodepictions/SortingSwipe.json
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sortingswipeDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: Lightmann <lightmanns11@gmail.com>
-dev: lightmann
-Icon: https://raw.githubusercontent.com/L1ghtmann/SortingSwipe/main/icon.png
-
-Package: me.lightmann.sortingswipe
 Architecture: iphoneos-arm
 Version: 1.0.5
 Priority: optional
@@ -23205,6 +23181,31 @@ Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sortingswip
 Description: Sắp xếp các biểu tượng màn hình chính của bạn bằng cách vuốt lên!
 Tag: purpose::extension
 Name: SortingSwipe
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sortingswipeDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: Lightmann <lightmanns11@gmail.com>
+dev: lightmann
+Icon: https://raw.githubusercontent.com/L1ghtmann/SortingSwipe/main/icon.png
+
+Package: me.lightmann.sortingswipe
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 222
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/me.lightmann.sortingswipe_1.0.5_iphoneos-arm64e.deb
+Size: 27580
+MD5sum: 1e94c07cabb70eaf465fb966873f1792
+SHA1: 28a16c94d7cdd60049ee0779bb152f0cca5f6775
+SHA256: f6ca984f08b0b8ff1c01ad73fa638931fe221855f4573829ec4c409e29fcdd73
+SHA512: 06caae93e80f1418c0e0f9caa62e6b3506213df374d91ac408efa0f3718247fdc406e3d1318881ba4f5b3ab713273c24e2ca2da742343d9bda4c52d9b1f7de92
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sortingswipeDp
+Description: Sắp xếp các biểu tượng màn hình chính của bạn bằng cách vuốt lên!
+Tag: purpose::extension
+Name: SortingSwipe (Roothkde)
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SortingSwipe.json
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sortingswipeDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 Author: Lightmann <lightmanns11@gmail.com>

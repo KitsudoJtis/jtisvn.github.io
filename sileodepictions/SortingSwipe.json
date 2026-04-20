@@ -1,11 +1,39 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#3399FF",
+"tintColor":"#B5B5B5",
 "tabs":[
 {
 "tabname":"Giới thiệu",
 "views":[
+{
+"text":"Tham gia nhóm chat Telegram",
+"action":"https://t.me/jtisvietnamrepo",
+"openExternal":true,
+"class": "DepictionButtonView"
+},
+{
+"text":"Kênh thông báo",
+"action":"https://t.me/jtisvn",
+"openExternal":true,
+"class": "DepictionButtonView"
+},
+{
+"text":"Tham gia nhóm Facebook",
+"action":"https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP",
+"openExternal":true,
+"class": "DepictionButtonView"
+},
+{
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title":"Liên hệ Admin",
+"action":"https://t.me/Kitsudo"
+},
+{
+"spacing": 10,
+"class": "DepictionSpacerView"
+},
 {
 "class":"DepictionScreenshotsView",
 "screenshots":[
@@ -157,16 +185,6 @@
 "class":"DepictionTableButtonView",
 "title":"Ủng hộ tôi",
 "action":"https://jtisvn.github.io/homepage/donate/donate.html"
-},
-{
-"class":"DepictionTableButtonView",
-"title": "Kênh Telegram",
-"action": "https://t.me/jtisvn"
-},
-{
-"class":"DepictionTableButtonView",
-"title": "Nhóm Facebook",
-"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
 "class":"DepictionLabelView",
