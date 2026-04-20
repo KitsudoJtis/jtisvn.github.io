@@ -1,7 +1,7 @@
 {
 "minVersion":"0.1",
 "headerImage":"https://jtisvn.github.io/coverimage/jtisvnrepo.png",
-"tintColor":"#B5B5B5",
+"tintColor":"#3399FF",
 "tabs":[
 {
 "tabname":"Giới thiệu",
@@ -13,16 +13,16 @@
 "class": "DepictionButtonView"
 },
 {
-"text":"Kênh thông báo",
-"action":"https://t.me/jtisvn",
-"openExternal":true,
-"class": "DepictionButtonView"
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Kênh Telegram",
+"action": "https://t.me/jtisvn"
 },
 {
-"text":"Tham gia nhóm Facebook",
-"action":"https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP",
-"openExternal":true,
-"class": "DepictionButtonView"
+"class":"DepictionTableButtonView",
+"openExternal": 1,
+"title": "Nhóm Facebook",
+"action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
 },
 {
 "class":"DepictionTableButtonView",
@@ -46,7 +46,7 @@
 "itemSize":"{185,400}"
 },
 {
-"markdown":"### SortingSwipe\n\n- Sắp xếp các biểu tượng ứng dụng trên màn hình chính bằng cách vuốt lên\n\n- **Các tính năng gồm:**\n\n- Sắp xếp theo bảng chữ cái\n\n- Sắp xếp theo số huy hiệu\n- Sắp xếp theo tông mầu\n\n- Sắp xếp ngẫu nhiên\n\n- Sắp xếp theo dung lượng ứng dụng\n\n- Lưu bố cục hiện tại\n\n- Tải bố cục đã lưu\n\n- Dự kiến sẽ bổ sung thêm trong bản cập nhật tới.",
+"markdown":"### SortingSwipe\n\n- Sắp xếp các biểu tượng ứng dụng trên màn hình chính bằng cách vuốt lên để hiện bảng memu tuỳ chọn:\n\n- Sắp xếp theo bảng chữ cái\n\n- Sắp xếp theo số huy hiệu\n- Sắp xếp theo tông mầu\n\n- Sắp xếp ngẫu nhiên\n\n- Sắp xếp theo dung lượng ứng dụng\n\n- Lưu bố cục hiện tại\n\n- Tải bố cục đã lưu\n\n- Dự kiến sẽ bổ sung thêm trong bản cập nhật tới.\n\n- **Lưu ý:**\n\n- Bạn phải lưu sẵn bố cục ứng dụng trước khi chọn sắp xếp nếu muốn về lại mặc định ban đầu",
 "useSpacing": false,
 "class": "DepictionMarkdownView"
 },
@@ -107,7 +107,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "17/4/2026",
+"text": "20/4/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -178,6 +178,11 @@
 },
 {
 "class":"DepictionTableButtonView",
+"title":"Mô tả tinh chỉnh",
+"action":"http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sortingswipeDp"
+},
+{
+"class":"DepictionTableButtonView",
 "title": "Paypal",
 "action": "https://paypal.me/HiuKitsudo"
 },
@@ -201,7 +206,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.0\n\n- Thêm ngôn ngữ Tiếng Việt."
+"markdown":"### Phiên bản 1.0.6\n\n- Thêm ngôn ngữ Tiếng Việt."
 },
 {
 "class":"DepictionLabelView",

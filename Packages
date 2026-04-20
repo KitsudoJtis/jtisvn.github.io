@@ -18557,6 +18557,47 @@ Author: SOPPPra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsRevamp.json
 Icon: https://jtisvn.github.io/sectionIcons/SettingsRevamp.png
 
+Package: com.jtisvn.sortingswipe
+Architecture: iphoneos-arm64
+Version: 1.0.6-1+debug
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/com.jtisvn.sortingswipe_1.0.6-1+debug_iphoneos-arm64.deb
+Size: 17404
+MD5sum: 494a3027dfc614502fac3a10100cdb82
+SHA1: 377fc37a316c399fa5915056c575874d2403db36
+SHA256: 2f8cb362ca0def5ed0437c56246d3d37e3b956bc0551aff6575099b0a3b24bf2
+SHA512: 1ff122ab3ce80e8c650a7628187a907859813a530d8d1c83d05011c774d2699bad301545829e78f63b37513e8a5150903a6eb639f54f69b2be0a2e1ae7a6b24b
+Description: Sort your homescreen icons with a swipe!
+Name: SortingSwipe (Rootless)
+Author: Lightmann & Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SortingSwipe.json
+Depiction: https://jtisvn.github.io/depictions/SortingSwipe.html
+Icon: https://raw.githubusercontent.com/L1ghtmann/SortingSwipe/main/icon.png
+
+Package: com.jtisvn.sortingswipe
+Architecture: iphoneos-arm64e
+Version: 1.0.6-1+debug
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/com.jtisvn.sortingswipe_1.0.6-1+debug_iphoneos-arm64e.deb
+Size: 17492
+MD5sum: 1cea469f816991f86f34907f9a467b2a
+SHA1: bb6bad0c7207cd790fac3be449e2b4e3f8a2fa99
+SHA256: ecee568804d256aba62fcdb8b8a4035e0237b015a6a55b5dd7a342c5d0e209dd
+SHA512: db27d81598be66daf6a5516a2b563d3f26d76a113981486e3c17c436c958cf1e8d3c7259332df5ed706460c352278aa303f5f8c2e4b5eca842c2700711de09f1
+Description: Sort your homescreen icons with a swipe!
+Name: SortingSwipe (Roothide)
+Author: Lightmann & Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SortingSwipe.json
+Depiction: https://jtisvn.github.io/depictions/SortingSwipe.html
+Icon: https://raw.githubusercontent.com/L1ghtmann/SortingSwipe/main/icon.png
+
 Package: com.julioverne.appellancy11
 Architecture: iphoneos-arm
 Version: 1.1-20b
