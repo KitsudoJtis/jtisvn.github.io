@@ -125,7 +125,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.0.5",
+"text": "1.0.7",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -151,7 +151,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "14.0 - 17.0",
+"text": "14.0 - 16.7.x",
 "fontWeight": "semibold",
 "fontSize": 17,
 "usePadding": false
@@ -206,7 +206,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.0.6\n\n- Thêm ngôn ngữ Tiếng Việt."
+"markdown":"### Phiên bản 1.0.7\n\n- Sửa lỗi mất icon Dock khi chọn kiểu sắp xếp\n\n ### Phiên bản 1.0.6\n\n- Thêm ngôn ngữ Tiếng Việt."
 },
 {
 "class":"DepictionLabelView",

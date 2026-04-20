@@ -18557,47 +18557,6 @@ Author: SOPPPra
 SileoDepiction: https://jtisvn.github.io/sileodepictions/SettingsRevamp.json
 Icon: https://jtisvn.github.io/sectionIcons/SettingsRevamp.png
 
-Package: com.jtisvn.sortingswipe
-Architecture: iphoneos-arm64
-Version: 1.0.6-1+debug
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 204
-Depends: mobilesubstrate, firmware (>= 11.0)
-Filename: ./debs/com.jtisvn.sortingswipe_1.0.6-1+debug_iphoneos-arm64.deb
-Size: 17404
-MD5sum: 494a3027dfc614502fac3a10100cdb82
-SHA1: 377fc37a316c399fa5915056c575874d2403db36
-SHA256: 2f8cb362ca0def5ed0437c56246d3d37e3b956bc0551aff6575099b0a3b24bf2
-SHA512: 1ff122ab3ce80e8c650a7628187a907859813a530d8d1c83d05011c774d2699bad301545829e78f63b37513e8a5150903a6eb639f54f69b2be0a2e1ae7a6b24b
-Description: Sort your homescreen icons with a swipe!
-Name: SortingSwipe (Rootless)
-Author: Lightmann & Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/SortingSwipe.json
-Depiction: https://jtisvn.github.io/depictions/SortingSwipe.html
-Icon: https://raw.githubusercontent.com/L1ghtmann/SortingSwipe/main/icon.png
-
-Package: com.jtisvn.sortingswipe
-Architecture: iphoneos-arm64e
-Version: 1.0.6-1+debug
-Section: Tweaks
-Maintainer: JTISVN Repo
-Installed-Size: 204
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 11.0)
-Filename: ./debs/com.jtisvn.sortingswipe_1.0.6-1+debug_iphoneos-arm64e.deb
-Size: 17492
-MD5sum: 1cea469f816991f86f34907f9a467b2a
-SHA1: bb6bad0c7207cd790fac3be449e2b4e3f8a2fa99
-SHA256: ecee568804d256aba62fcdb8b8a4035e0237b015a6a55b5dd7a342c5d0e209dd
-SHA512: db27d81598be66daf6a5516a2b563d3f26d76a113981486e3c17c436c958cf1e8d3c7259332df5ed706460c352278aa303f5f8c2e4b5eca842c2700711de09f1
-Description: Sort your homescreen icons with a swipe!
-Name: SortingSwipe (Roothide)
-Author: Lightmann & Kitsudo
-SileoDepiction: https://jtisvn.github.io/sileodepictions/SortingSwipe.json
-Depiction: https://jtisvn.github.io/depictions/SortingSwipe.html
-Icon: https://raw.githubusercontent.com/L1ghtmann/SortingSwipe/main/icon.png
-
 Package: com.julioverne.appellancy11
 Architecture: iphoneos-arm
 Version: 1.1-20b
@@ -23204,6 +23163,45 @@ Tag: role::developer
 Name: RootBridge Framework
 Author: jjolano
 
+Package: me.jtisvn.sortingswipe
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/me.jtisvn.sortingswipe_1.0.7_iphoneos-arm64.deb
+Size: 16204
+MD5sum: 8f8cba09e4e4ccb7ccb2ae9048e73fa9
+SHA1: 0f2711436afc006d9f867b0bd56143551a91e6a1
+SHA256: 95c7b72de0424caa735053e8ee6372b942197b464a078dcb562497217c4f2948
+SHA512: d2142562adbdb824c65c15048faf1040cb92c891af4e6527be00e72775d04fb7bcd1072d9c83aa6559dc3bb1d9f4e8a804ccd13100f473e1ca6bd36025f1d765
+Description: Sort your homescreen icons with a swipe!
+Name: SortingSwipe (Rootless)
+Author: Lightmann & Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SortingSwipe.json
+Icon: https://raw.githubusercontent.com/L1ghtmann/SortingSwipe/main/icon.png
+
+Package: me.jtisvn.sortingswipe
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: Tweaks
+Maintainer: JTISVN Repo
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/me.jtisvn.sortingswipe_1.0.7_iphoneos-arm64e.deb
+Size: 16392
+MD5sum: d292ec4f677d238d7830338d2238b0ef
+SHA1: 582c04bbff2bf9e8ddc3ed8589dc7a48e7ce2491
+SHA256: f5762091b3d945d3a681c8fc3ecb285a2d447bf90e6db94220a34fae255b5f7c
+SHA512: 67718e5183a20971ffec030f4a10ddbf4ba0c6456cae4e2a335294e9c070fae1e6698238d586498713dbdb8ce7a15c5a052512ec5abacfea2d12416db50235e8
+Description: Sort your homescreen icons with a swipe!
+Name: SortingSwipe (Roothide)
+Author: Lightmann & Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/SortingSwipe.json
+Icon: https://raw.githubusercontent.com/L1ghtmann/SortingSwipe/main/icon.png
+
 Package: me.lightmann.sortingswipe
 Architecture: iphoneos-arm
 Version: 1.0.5
@@ -23237,16 +23235,15 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 222
 Depends: mobilesubstrate, firmware (>= 11.0)
 Filename: ./debs/me.lightmann.sortingswipe_1.0.5_iphoneos-arm64e.deb
-Size: 27580
-MD5sum: 1e94c07cabb70eaf465fb966873f1792
-SHA1: 28a16c94d7cdd60049ee0779bb152f0cca5f6775
-SHA256: f6ca984f08b0b8ff1c01ad73fa638931fe221855f4573829ec4c409e29fcdd73
-SHA512: 06caae93e80f1418c0e0f9caa62e6b3506213df374d91ac408efa0f3718247fdc406e3d1318881ba4f5b3ab713273c24e2ca2da742343d9bda4c52d9b1f7de92
+Size: 27628
+MD5sum: 9c2d1318b9b5d3c801dda798cf7addc3
+SHA1: c67f3730338a0bb9471172b6f9cacfde783b39f2
+SHA256: febf6f2188c94813edaae0bcce6cc9f6ef623012811b9481bc08ca197e11c2bc
+SHA512: 3cb8b91b3799c1df251f8f6ee0fd6eda9fad1b25e50a1f1e46fc70f433568cc9c8c5e5248a1063760de9abfbc7dd4dcc69943f759a545fdef0463e44d3477091
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sortingswipeDp
 Description: Sắp xếp các biểu tượng màn hình chính của bạn bằng cách vuốt lên!
 Tag: purpose::extension
 Name: SortingSwipe (Roothkde)
-SileoDepiction: https://jtisvn.github.io/sileodepictions/SortingSwipe.json
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sortingswipeDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 Author: Lightmann <lightmanns11@gmail.com>
