@@ -23784,6 +23784,24 @@ Author: MTAC
 depiction: https://havoc.app/depiction/lynx
 Icon: https://media.havoc.app/61f896e61630a63286dc41c3
 
+Package: org.haxi0.derootifier
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Applications
+Maintainer: haxi0
+Depends: mobilesubstrate, odcctools, fakeroot, ldid, oldabi, file
+Filename: ./debs/org.haxi0.derootifier_1.3_iphoneos-arm64.deb
+Size: 529352
+MD5sum: 0646531546fa237f851b0611f21444f4
+SHA1: 834ecb6aa9b81be128d73ce40ff94f36378908db
+SHA256: aea70c5752c4c0c2f260275960505c00e06b3c07c04e4399c06174558de1a4c4
+SHA512: b5de308303a255edb5ea88444f4320cd3b3cd81905dbda839ba09de5dac09dcd9c6c146d5f183055e52728b3bd61b69123aa203427882c2c10daabc0dd7ad16d
+Description: rootful to rootless
+Author: haxi0
+Name: Derootifier (Rootless)
+Icon: https://i.imgur.com/P97SEPg.jpeg
+SileoDepiction: https://jtisvn.github.io/sileodepictions/Derootifier.json
+
 Package: org.swift.protobuf.swiftprotobuf
 Architecture: iphoneos-arm64
 Version: 1.29.0
