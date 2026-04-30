@@ -4803,6 +4803,32 @@ Icon: https://jtisvn.github.io/sectionIcons/Aemulo.png
 Name: Aemulo (Rootless)
 Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
 
+Package: com.jtis.afhook.app
+Version: 3.7.0
+Architecture: iphoneos-arm64e
+Maintainer: JTISVN Repo
+Installed-Size: 1015
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/com.jtis.afhook.app_3.7.0_iphoneos-arm64e.deb
+Size: 163492
+MD5sum: d163a1be3b0553aca10e966c6f9c8c6e
+SHA1: 6a9a4a3023333be63734352fb7f1e1bd7aadce74
+SHA256: 664ab51798a8e47c4eb41e5168421c635481b6ec09c2651e365aa9be04a53e49
+Section: Tweaks
+Description: Thay đổi tên, biểu tượng, model, logo, số phiên bản của ứng dụng, v.v.
+ -Thay đổi tên các ứng dụng hệ thống và ứng dụng bên thứ ba theo ý muốn
+ -Chọn bất kỳ hình ảnh nào trong album hệ thống và cắt thành biểu tượng ứng dụng
+ -Chọn thủ công model được tích hợp trong phần mềm và tùy chỉnh model theo yêu cầu
+ - Chỉ cần một cú nhấp chuột để xóa dấu góc và nó sẽ có hiệu lực vĩnh viễn.
+Author: 小哥哥 <zhulongfei28@gmail.com>
+Depiction: https://jtisvn.github.io/depictions/AfhookApp.html
+Dev: zhulongfei28
+Icon: https://jtisvn.github.io/sectionIcons/AfhookApp.png
+Name: AfhookApp (Roothide)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/AfhookApp.json
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.jtis.aim
 Version: 1.2.9
 Architecture: iphoneos-arm
