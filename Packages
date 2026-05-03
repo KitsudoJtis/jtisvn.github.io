@@ -17991,6 +17991,29 @@ Name: HideSerialNumber gói Việt Hóa
 
 Package: com.kitsudo.nexusboard
 Version: 3.8
+Architecture: iphoneos-arm64e
+Maintainer: JTISVN Repo
+Installed-Size: 2608
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0),oldabi
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
+Filename: ./debs/com.kitsudo.nexusboard_3.8_iphoneos-arm64e.deb
+Size: 596956
+MD5sum: 5bc7654a27d32d173c9ed779df38e3f3
+SHA1: ed08be4300df090181a47acaf36f8eed1e55b2bf
+SHA256: 03968965621924fcc7cb93f3ac69a6d9bf5cfe5a42a0f1575471e7eaa330feb5
+Section: Tweaks
+Homepage: https://jtisvn.github.io/
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Author: Kitsudo
+Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
+Name: NexéuBoard (Roothide)
+Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
+
+Package: com.kitsudo.nexusboard
+Version: 3.8
 Architecture: iphoneos-arm64
 Maintainer: JTISVN Repo
 Installed-Size: 2608
