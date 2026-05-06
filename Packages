@@ -1209,6 +1209,45 @@ Name: Glow for Facebook
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
 
 Package: com.dvntm.ytlite
+Version: 5.2.1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 20764
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.dvntm.ytlite_5.2.1_iphoneos-arm64e.deb
+Size: 14758856
+MD5sum: 4bdcfcbbd7e9c78308da8165fcee7ca6
+SHA1: de56d6df35c8b930136967e59f83fe3ed611ee5c
+SHA256: bd9e69b2f6b07704e75a425ac077c9b3bea05dae017243a289e791f174b97ec2
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Depiction: https://jtisvn.github.io/depictions/YTLite.html
+Icon: https://jtisvn.github.io/sectionIcons/YTLite.png
+Name: YTLite (Roothide)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/YTLite.json
+
+Package: com.dvntm.ytlite
+Version: 5.2.1
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 20764
+Depends: mobilesubstrate
+Filename: ./debs/com.dvntm.ytlite_5.2.1_iphoneos-arm64.deb
+Size: 7432872
+MD5sum: 91f11878e44810ec977d70945d9b1a4a
+SHA1: 7efc08fe9eb0bbf78a76dbf86d0ffa7d3dcdb3b2
+SHA256: 6042e0a785c0ef70151d789eeaacba40a4f67d620a0e2108c3fd30964031f401
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Depiction: https://jtisvn.github.io/depictions/YTLite.html
+Icon: https://jtisvn.github.io/sectionIcons/YTLite.png
+Name: YTLite (Rootless)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/YTLite.json
+
+Package: com.dvntm.ytlite
 Version: 5.2b3
 Architecture: iphoneos-arm64e
 Maintainer: JTISVN Repo
