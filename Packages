@@ -5364,46 +5364,42 @@ Name: AppData Plus (Roothide)
 Sileodepiction: https://jtisvn.github.io/sileodepictions/Appdataplus.json
 
 Package: com.jtis.appdataplus
-Version: 1.4.6
-Architecture: iphoneos-arm64
+Version: 1.4.7
+Architecture: iphoneos-arm64e
 Maintainer: Nets
-Installed-Size: 5140
+Installed-Size: 5156
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.jtis.appdataplus_1.4.6_iphoneos-arm64.deb
-Size: 1488988
-MD5sum: 9516fb62c157f0353ca2ae9c2a8c1590
-SHA1: dcff1847eefa2bf4e0df97c0e7d485561b98bf19
-SHA256: 0f6afa71f8bc88c5e1bf99332095bd546140da2539f58e33d588c57418d12bb2
+Filename: ./debs/com.jtis.appdataplus_1.4.7_iphoneos-arm64e.deb
+Size: 1498872
+MD5sum: 54c1e3bcc3aca39017ff75d1c39976d4
+SHA1: 29f3c06a70a320a0a70650d63b344153bfbc5ece
+SHA256: 3644e95c4981116b52bf2f4f1d68b83e7cf0b958f93ed3c6fe143d92ad8b62b5
 Section: Tweaks
-Homepage: https://jtisvn.github.io/
 Description: View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb
 Depiction: https://jtisvn.github.io/depictions/Appdataplus.html
 Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
-Markdowndescription: View & Manage Applications Data from your Home Screen<br><br>• v1.4.6: Fix iOS15 crash issues<br><br>• v1.4.5: Modify the API interface for obtaining the downgraded version number of an application
-Name: AppData (Rootless)
+Name: AppData (Roothide)
 Sileodepiction: https://jtisvn.github.io/sileodepictions/Appdataplus.json
 
 Package: com.jtis.appdataplus
-Version: 1.4.6
-Architecture: iphoneos-arm64e
+Version: 1.4.7
+Architecture: iphoneos-arm64
 Maintainer: Nets
-Installed-Size: 5140
-Pre-Depends: rootless-compat(>= 0.9)
+Installed-Size: 5156
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.jtis.appdataplus_1.4.6_iphoneos-arm64e.deb
-Size: 1489188
-MD5sum: 6afd6e1b91c4cac5b50a41781352c615
-SHA1: 4870938b9b4a46036b9d463b4caa53dedb25223d
-SHA256: 1c8ef79c342ec7942dedbd19910e03a99a9cbbd5824dba29b9725d412556d4a9
+Filename: ./debs/com.jtis.appdataplus_1.4.7_iphoneos-arm64.deb
+Size: 1499832
+MD5sum: 06ef7faa892d8a244efb968d3b6062b0
+SHA1: 421e42cf845652fa25df7d973f3b6dfdc518e599
+SHA256: 04e9aa9a11e0eff5de14a20d6c8f46f008244bc3151594ed72c77a54eafb1963
 Section: Tweaks
-Homepage: https://jtisvn.github.io/
 Description: View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb
 Depiction: https://jtisvn.github.io/depictions/Appdataplus.html
 Icon: https://jtisvn.github.io/sectionIcons/Appdataplus.png
-Markdowndescription: View & Manage Applications Data from your Home Screen<br><br>• v1.4.6: Fix iOS15 crash issues<br><br>• v1.4.5: Modify the API interface for obtaining the downgraded version number of an application
-Name: AppData (Roothide)
+Name: AppData (Rootless)
 Sileodepiction: https://jtisvn.github.io/sileodepictions/Appdataplus.json
 
 Package: com.jtis.applecard
@@ -18055,18 +18051,18 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 Name: HideSerialNumber gói Việt Hóa
 
 Package: com.kitsudo.nexusboard
-Version: 4.0
+Version: 4.1
 Architecture: iphoneos-arm64e
 Maintainer: JTISVN Repo
-Installed-Size: 2804
+Installed-Size: 2948
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_4.0_iphoneos-arm64e.deb
-Size: 641976
-MD5sum: 1da8a772c0132796386742907d363df9
-SHA1: fb5f5da7bf419a34967618c6b62030610bfaf5cc
-SHA256: e189772db84166c7a565620b4678e88ec09801b20a94b0ebf4be622e0499b791
+Filename: ./debs/com.kitsudo.nexusboard_4.1_iphoneos-arm64e.deb
+Size: 660796
+MD5sum: ac5eb591f4ce36f02708e67c7d70a70c
+SHA1: e223a23ba38a34fee54a07735f115e3cb6babdf2
+SHA256: abfd38773f049f62c36264af5fefe5eea0c47811acae24d412c19909c85b58f3
 Section: Tweaks
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
@@ -18078,17 +18074,17 @@ Name: NexusBoard (Roothide)
 Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
 
 Package: com.kitsudo.nexusboard
-Version: 4.0
+Version: 4.1
 Architecture: iphoneos-arm64
 Maintainer: JTISVN Repo
-Installed-Size: 2804
+Installed-Size: 2948
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_4.0_iphoneos-arm64.deb
-Size: 641824
-MD5sum: 910b9175da7cee5de2764f8cb3e63e34
-SHA1: 6cd1a21332dd2f15d714ca0d299782cbf72f30f8
-SHA256: 09bade637d36f565f354a30329782853649bd6657e322ba3aa2af5a04d4ee1fa
+Filename: ./debs/com.kitsudo.nexusboard_4.1_iphoneos-arm64.deb
+Size: 661300
+MD5sum: d943dc42592c972de87a166feb81ca6f
+SHA1: a4140b02e3a39c213df8fd202d739d9e63ba76db
+SHA256: 16bbaaf35e0bd705a76b26721b8937a1bfba95cbd98f5a421073f374c5a4f8a1
 Section: Tweaks
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.

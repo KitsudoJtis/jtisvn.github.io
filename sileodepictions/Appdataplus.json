@@ -83,7 +83,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "7/7/2025",
+"text": "7/5/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -101,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.4.5",
+"text": "1.4.7",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -155,7 +155,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.4.5\n\n- Si(a đổi giao dièn API để lấy số phiên bản hạ cấp ứng dụng\n\n ### Phiên bản 1.4.0\n\n- Sửa lỗi\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 1.4.7\n\n- Sửa lỗi không thể hạ cấp được ứng dụng."
 }
 ],
 "class":"DepictionStackView"
