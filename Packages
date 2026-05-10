@@ -16266,6 +16266,45 @@ Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
 Name: VibeTok (Rootless)
 Sileodepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
 
+Package: com.jtis.vibett
+Version: 1.73
+Architecture: iphoneos-arm64
+Maintainer: DeNsor
+Installed-Size: 1032
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.vibett_1.73_iphoneos-arm64.deb
+Size: 169108
+MD5sum: a47e752f6c2c41f4789c2d14ce8e7ece
+SHA1: eee456f85e27ba28ba9006e740e45c14a8a8eed9
+SHA256: 56028dd7100b513b7dc3f6711c185244e6f66b2eee10f015070ad4a3dbaa5aeb
+Section: Tweaks
+Description: Make TikTok Better!
+Author: DeNsor
+Depiction: http://jtisvn.github.io/depiction/VibeTok.html
+Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
+Name: VibeTok (Rootless)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
+
+Package: com.jtis.vibett
+Version: 1.73
+Architecture: iphoneos-arm64e
+Maintainer: DeNsor
+Installed-Size: 1032
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.vibett_1.73_iphoneos-arm64e.deb
+Size: 162600
+MD5sum: 32f5a2c3f63e0e6f7dd1eaa59cea1b85
+SHA1: c616179aa5990729b1bf9328651c587cd2ce81dd
+SHA256: e1226c4c15db3c9e4275b0e02387d68f5fe2d9704316efdf6242a7f6ee29ac5d
+Section: Tweaks
+Description: Make TikTok Better!
+Author: DeNsor
+Depiction: http://jtisvn.github.io/depiction/VibeTok.html
+Icon: https://jtisvn.github.io/sectionIcons/VibeTok.png
+Name: VibeTok (Roothide)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/VibeTok.json
+
 Package: com.jtis.videosunmute
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -21341,6 +21380,45 @@ Description: Pasteboard shortcuts on your keyboard dock!
 Author: udevs
 Icon: https://jtisvn.github.io/sectionIcons/Dockx.png
 Name: DockX (Roothide)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
+Package: com.udevs.dockx
+Version: 2.6.3
+Architecture: iphoneos-arm64e
+Maintainer: udevs
+Installed-Size: 2036
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/com.udevs.dockx_2.6.3_iphoneos-arm64e.deb
+Size: 424368
+MD5sum: 188c59d1919aa71335258966df955949
+SHA1: 2ca0932ead1d920729e9910b69181a11db7e9b02
+SHA256: 676b9d9d063fa9bbfdbf13925eb7bf5bbae2dd55efdd64b7db5b600c19c5e1b9
+Section: Tweaks
+Description: Pasteboard shortcuts on your keyboard dock!
+Author: udevs
+Icon: https://jtisvn.github.io/sectionIcons/Dockx.png
+Name: DockX (Roothide)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
+Package: com.udevs.dockx
+Version: 2.6.3
+Architecture: iphoneos-arm64
+Maintainer: udevs
+Installed-Size: 2036
+Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/com.udevs.dockx_2.6.3_iphoneos-arm64.deb
+Size: 419440
+MD5sum: a6b37b5440f3966d28588182044340b4
+SHA1: d124b7878818a857ce9421eb22eee4b5ca9da89b
+SHA256: 76d195a9f2d7caf0d78078922b7eb9cbb7d1b4ade814bceb35e5a9da5282aadc
+Section: Tweaks
+Description: Pasteboard shortcuts on your keyboard dock!
+Author: udevs
+Icon: https://jtisvn.github.io/sectionIcons/Dockx.png
+Name: DockX (Rootless)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
 
 Package: com.vitataf.homegesture

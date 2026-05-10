@@ -87,7 +87,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "7/3/2026",
+"text": "10/5/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -105,7 +105,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "1.72",
+"text": "1.73",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -159,7 +159,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 1.4\n\n- Thêm dăng xuất nhanh bỏ qua xác nhận\n\n- Thêm Khoá cuộc trò chuyện\n\n- Thêm màu đường viền cho Story\n\n- Thêm ngôn ngữ Tiếng Việt."
+"markdown":"### Phiên bản 1.73\n\n- Thêm hoàn tác khi bạn xóa một tin nhắn từ mình\n- Thêm giữ các tin nhắn đã xóa trong trò chuyện\n\n- Hiển thị xác nhận trước khi xóa các tin nhắn."
 },
 {
 "class":"DepictionLabelView",
