@@ -8745,6 +8745,43 @@ Icon: https://bid3v.github.io/repo/icons/Electrode.png
 Name: Electrode
 Sileodepiction: https://bid3v.github.io/repo/depictions/sileo/electrode.json
 
+Package: com.jtis.enableccmutemodule
+Version: 0.2.0
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>> 11.0)
+Filename: ./debs/com.jtis.enableccmutemodule_0.2.0_iphoneos-arm64e.deb
+Size: 2200
+MD5sum: 8c984c8cfceeeac3bb51ee7be4b557a2
+SHA1: a373debfbf172f737a70ff90b6877596848bf388
+SHA256: c193ca10c6eb040c7ea8de70dbae5b9b774b3d325e83370ee17e82f4659008d5
+Section: System
+Description: Kích hoạt mô-đun tắt tiếng trên Trung tâm điều khiển
+Author: zhaonan <invalidunit@icloud.com>
+Depiction: https://jtisvn.github.io/depictions/CCMuteModule.html
+Icon: https://jtisvn.github.io/sectionIcons/CCMuteModule.png
+Name: Enable CC MuteModule
+Sileodepiction: https://jtisvn.github.io/sileodepictions/CCMuteModule.json
+
+Package: com.jtis.enableccmutemodule
+Version: 0.2.0
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: firmware (>> 11.0)
+Filename: ./debs/com.jtis.enableccmutemodule_0.2.0_iphoneos-arm64.deb
+Size: 1264
+MD5sum: 2ed022b2ccc5adf6499a6e757a4829ce
+SHA1: 955148e0a66f6b6e335dc01c0fce38aa51880fe1
+SHA256: 0cfbdcaeed97a8428cd7a3f1eb7702ac368e4c0e5458aef517d59b58c43208cb
+Section: System
+Description: Kích hoạt mô-đun tắt tiếng trên Trung tâm điều khiển
+Author: zhaonan <invalidunit@icloud.com>
+Depiction: https://jtisvn.github.io/depictions/CCMuteModule.html
+Icon: https://jtisvn.github.io/sectionIcons/CCMuteModule.png
+Name: Enable CC MuteModule
+Sileodepiction: https://jtisvn.github.io/sileodepictions/CCMuteModule.json
+
 Package: com.jtis.eneko
 Version: 1.4.2
 Architecture: iphoneos-arm64
@@ -11307,6 +11344,45 @@ Author: Nguyên Tokuda & Hoàng MD
 Icon: https://jtisvn.github.io/sectionIcons/Themes.png
 Name: Liquid Glass Theme
 Sileodepiction: https://jtisvn.github.io/sileodepictions/LiquidglAss.json
+
+Package: com.jtis.liquidglass26
+Version: 0.0.9a
+Architecture: iphoneos-arm64e
+Maintainer: dylv
+Installed-Size: 3756
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.jtis.liquidglass26_0.0.9a_iphoneos-arm64e.deb
+Size: 1357292
+MD5sum: 6148300352b8191d751d22a726ce5fee
+SHA1: 47350167c56e1b24d4253691e1d95e894473f47e
+SHA256: 742fc118067802a74e8ac06c2c58e8e47c20ec47fa38478759415778360edfbe
+Section: Tweaks
+Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
+Author: dylv
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
+Name: Liquid(Gl)ass 26 (Roothide)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
+
+Package: com.jtis.liquidglass26
+Version: 0.0.9a
+Architecture: iphoneos-arm64
+Maintainer: dylv
+Installed-Size: 3756
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.jtis.liquidglass26_0.0.9a_iphoneos-arm64.deb
+Size: 1370064
+MD5sum: 72fbabf61082ba710df3894e36041cce
+SHA1: 270ea60bde24b2075c0a6ba476ac508e15f3732d
+SHA256: e7666df1e88a26948f076a0d36bc28591f2caf6772972409612ff11bb5e15416
+Section: Tweaks
+Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
+Author: dylv
+Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
+Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
+Name: Liquid(Gl)ass 26 (Rootless)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
 
 Package: com.jtis.liquidglass26
 Version: 7.2.alpha
@@ -17983,41 +18059,6 @@ Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 Name: Choicy gói Việt Hoá (Rootless)
 
-Package: com.kitsudo.dockx
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: JTISVN Repo
-Installed-Size: 36568
-Depends: mobilesubstrate
-Filename: ./debs/com.kitsudo.dockx_1.0_iphoneos-arm64.deb
-Size: 8724
-MD5sum: 04c457982447aac82ccb7ece490c500f
-SHA1: f86b6434f77dfc9b209bb0384faf4bbfa5f752b4
-SHA256: 23cd64bf2bdf76764df29bddf7c4885d056bc838e918f2680e7e6074f1ff6a97
-Section: Tweaks
-Description: Patch Tiếng Việt cho tweak Dock X
-Author: JTISVN Repo
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-Name: Dock X gói Việt Hoá (Rootless)
-
-Package: com.kitsudo.dockx
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: JTISVN Repo
-Installed-Size: 36568
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/com.kitsudo.dockx_1.0_iphoneos-arm64e.deb
-Size: 8796
-MD5sum: 33c96d7a11aa059b2d4be191bdc21ca5
-SHA1: c8116c4531add525f39b9a2f7ef3ab1cca2b2249
-SHA256: 89239006b179255080c15ed70b9af5299beae63bc9d0112cdb25ed35d1d16810
-Section: Tweaks
-Description: Thêm ngôn ngữ Tiếng Việt cho tweak Dock X
-Author: JTISVN Repo
-Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
-Name: Dock X gói Việt Hoá (Roothide)
-
 Package: com.kitsudo.fixstatusbarrdar
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -18090,18 +18131,18 @@ Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 Name: HideSerialNumber gói Việt Hóa
 
 Package: com.kitsudo.nexusboard
-Version: 4.6
+Version: 4.7
 Architecture: iphoneos-arm64e
 Maintainer: JTISVN Repo
-Installed-Size: 3208
+Installed-Size: 3244
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_4.6_iphoneos-arm64e.deb
-Size: 765016
-MD5sum: 364fb6f979a6983ebbabce5289b677c0
-SHA1: ea24b2213581d653b9d0cfcf7b334d5ce794c633
-SHA256: 9feae76d1aa350a751c0ca61ee8f215468d877216cfcac90e9441b4ba961ef83
+Filename: ./debs/com.kitsudo.nexusboard_4.7_iphoneos-arm64e.deb
+Size: 769612
+MD5sum: d5b85f4cf07821c7bda1c5d335f923d5
+SHA1: a2b940c7f0412cfaea8e1c25834f4c764052e873
+SHA256: e52b8903850211e29ef5a9bc4ad904850c3cfca5762995b969021b22b5469d28
 Section: Tweaks
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
@@ -18113,17 +18154,17 @@ Name: NexusBoard (Roothide)
 Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
 
 Package: com.kitsudo.nexusboard
-Version: 4.6
+Version: 4.7
 Architecture: iphoneos-arm64
 Maintainer: JTISVN Repo
-Installed-Size: 3208
+Installed-Size: 3244
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_4.6_iphoneos-arm64.deb
-Size: 766740
-MD5sum: 2abcd9390bb8141ed6913dbde319ef3f
-SHA1: cf44a65a0e366a91ba51f22f3455c6e8d6415c5f
-SHA256: b1bd73ab932449c74468998d95a562f1a7aec0f9c07d9fc355ea6c6943277005
+Filename: ./debs/com.kitsudo.nexusboard_4.7_iphoneos-arm64.deb
+Size: 769144
+MD5sum: 3a9fac91a06a09de5c5adcdf30cc9758
+SHA1: 815028d9a748890b98158c1506986441000e9650
+SHA256: a1b077084db23b6dfc5b4d30d3f7629bd6a6f2ed489c2aa16a97d2e41e44a88e
 Section: Tweaks
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
@@ -18242,6 +18283,45 @@ Description: Patch Tiếng Việt cho tweak FullOver Pro
 Author: JTISVN Repo
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 Name: FullOver Pro gói Việt Hoá (Rootless)
+
+Package: com.kitsudo.tiktokautoswipe
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Kitsudo
+Installed-Size: 76
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate | libhooker | substitute
+Filename: ./debs/com.kitsudo.tiktokautoswipe_1.0.0_iphoneos-arm64e.deb
+Size: 5488
+MD5sum: 198dce6598561ad34c8c426cb916a43a
+SHA1: 134612a540db0322349afd5988f119e4995b1399
+SHA256: 27ca83d45fb5708375ecdcf5f5e0312d37c79d80d61ef97b62661dd426827990
+Section: Tweaks
+Description: Auto swipe to next TikTok video when current video ends
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/TikTokAutoSwipe.html
+Icon: https://k37ios.pages.dev/assets/TikTokAutoSwipe.png
+Name: TikTok AutoSwipe
+Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/TikTokAutoSwipe.json
+
+Package: com.kitsudo.tiktokautoswipe
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Kitsudo
+Installed-Size: 76
+Depends: mobilesubstrate | libhooker | substitute
+Filename: ./debs/com.kitsudo.tiktokautoswipe_1.0.0_iphoneos-arm64.deb
+Size: 5344
+MD5sum: 502fc8a9d73bdbc17385f4302ed73240
+SHA1: 329acc101f9dac55ef9addd4f4a224dfd81b5655
+SHA256: 2f079c9bbd448733d743dcee67c6dafda834a7fb804e6564a839dfcb2582e159
+Section: Tweaks
+Description: Auto swipe to next TikTok video when current video ends
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/TikTokAutoSwipe.html
+Icon: https://k37ios.pages.dev/assets/TikTokAutoSwipe.png
+Name: TikTok AutoSwipe
+Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/TikTokAutoSwipe.json
 
 Package: com.kitsudo.trollstoreviethoa
 Version: 1.0.1
@@ -21343,44 +21423,6 @@ Author: udevs
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.autotouchunlock
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.autotouchunlock/icon/icon.png
 Name: AutoTouchUnlock
-
-Package: com.udevs.dockx
-Version: 2.6.2
-Architecture: iphoneos-arm64
-Maintainer: udevs
-Installed-Size: 2036
-Depends: mobilesubstrate, preferenceloader, com.kitsudo.dockx, firmware(>=14.0)
-Conflicts: com.restiveconch.actionbar
-Filename: ./debs/com.udevs.dockx_2.6.2_iphoneos-arm64.deb
-Size: 415612
-MD5sum: 7a0a3d179285ec591aa600e4b8fb1ae7
-SHA1: d91448d626caf5cdc195240da298aa75be402b11
-SHA256: 8624db53ee66c4fef3386fc6898d1196ea5c28a64dd939412a5fd74b1ffafb6e
-Section: Tweaks
-Description: Pasteboard shortcuts on your keyboard dock!
-Author: udevs
-Icon: https://jtisvn.github.io/sectionIcons/Dockx.png
-Name: DockX (Rootless)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
-
-Package: com.udevs.dockx
-Version: 2.6.2
-Architecture: iphoneos-arm64e
-Maintainer: udevs
-Installed-Size: 2036
-Depends: mobilesubstrate, preferenceloader, com.kitsudo.dockx, firmware(>=14.0)
-Conflicts: com.restiveconch.actionbar
-Filename: ./debs/com.udevs.dockx_2.6.2_iphoneos-arm64e.deb
-Size: 414444
-MD5sum: e772c320902c15f654cbe61cc00d126c
-SHA1: 7db9ee0178f1913fdf679ac84a5bf3c660defa24
-SHA256: 667c52f2a26080cddfb65f258f9efbb54d82b9ad07bc617b11603c59cc80f53d
-Section: Tweaks
-Description: Pasteboard shortcuts on your keyboard dock!
-Author: udevs
-Icon: https://jtisvn.github.io/sectionIcons/Dockx.png
-Name: DockX (Roothide)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
 
 Package: com.udevs.dockx
 Version: 2.6.3
