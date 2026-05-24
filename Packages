@@ -11855,49 +11855,6 @@ Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
 Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
 
 Package: com.jtis.liquidglass26
-Architecture: iphoneos-arm64
-Version: 7.2.alpha
-Section: Tweaks
-Maintainer: dylv
-Installed-Size: 1340
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
-Conflicts: dylv.liquidass
-Filename: ./debs/com.jtis.liquidglass26_7.2.alpha_iphoneos-arm64.deb
-Size: 274692
-MD5sum: 71753812c402592132b9b41523dc3056
-SHA1: b184498e9cec4a10941918c41706b62793fae2bf
-SHA256: ee3c9007d81b6c511ae7681f50f470c862c198a03d3e8c7b393938785f8ff36b
-SHA512: 544056f6231c4cf59eb6adca62ce08b9fa82328f56fa6d0a91dcdadf29c9d8a4a8e3cff5641b00eca0b254eeadb366ddb7cc7fd6099b3a0ab6561c2cf9dbacfc
-Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
-Name: Liquid(Gl)ass 26 (Rootless)
-Author: dylv
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
-Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
-Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
-
-Package: com.jtis.liquidglass26
-Architecture: iphoneos-arm64e
-Version: 7.2.alpha
-Section: Tweaks
-Maintainer: dylv
-Installed-Size: 1340
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
-Conflicts: dylv.liquidass
-Filename: ./debs/com.jtis.liquidglass26_7.2.alpha_iphoneos-arm64e.deb
-Size: 269760
-MD5sum: b096aebae125b6506197b6ba8f893382
-SHA1: d429a1c3cd918b54110b9c840d41d1391169adf7
-SHA256: 6a92006195a14fc9559e21eac9a63087d885c0cf3ee0b20a57b53d5c1ff8eb2d
-SHA512: 153b2831e8e29ee9bd40dbe6076bf8e36574df1252cae74e8689081eeb25450dc01a099ad115e56816881c1de54d8578fdf88c54fd46d07b93be1f3384a9dd52
-Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
-Name: Liquid(Gl)ass 26 (Roothide)
-Author: dylv
-SileoDepiction: https://jtisvn.github.io/sileodepictions/Liquidass26.json
-Depiction: https://jtisvn.github.io/depictions/Liquidass26.html
-Icon: https://jtisvn.github.io/sectionIcons/Liquidass26.png
-
-Package: com.jtis.liquidglass26
 Architecture: iphoneos-arm
 Version: 7.alpha
 Section: Tweaks
