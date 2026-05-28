@@ -103,7 +103,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "5/11/2025",
+"text": "22/5/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -121,7 +121,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "5.2b.4",
+"text": "5.2.2",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -175,7 +175,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 5.2b.4\n\n- Sửa lỗi\n\n- Hỗ trợ Rootless & Roothide Jailbreak"
+"markdown":"### Phiên bản 5.2.2\n- Sửa lỗi\n- Hỗ trợ YouTube phiên bản mới nhất."
 }
 ],
 "class":"DepictionStackView"
