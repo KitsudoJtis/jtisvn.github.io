@@ -3195,6 +3195,45 @@ Author: Michael Melita
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Name: 11Cam14
 
+Package: com.jtis.11cam15
+Version: 0.0.17
+Architecture: iphoneos-arm64
+Maintainer: Michael Melita
+Installed-Size: 88
+Depends: mobilesubstrate, firmware (>>15.0)
+Filename: ./debs/com.jtis.11cam15_0.0.17_iphoneos-arm64.deb
+Size: 3232
+MD5sum: b333f924a20909f4af21f460d9e1b62c
+SHA1: 1c6802adc9bebeb11ea802fe8917f89ed8b40eb2
+SHA256: 03952ba5354a84289cb659e87841a664f6a7025b00a997cd4fe71d51d47a468e
+Section: Tweaks
+Description: New Camera app for iOS 15 & 16
+Author: Michael Melita, Flylarb & Ezekiel1998
+Depiction: https://jtisvn.github.io/depictions/11Cam15.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Name: 11Cam15 (Rootless)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/11Cam15.json
+
+Package: com.jtis.11cam15
+Version: 0.0.17
+Architecture: iphoneos-arm64e
+Maintainer: Michael Melita
+Installed-Size: 88
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>>15.0)
+Filename: ./debs/com.jtis.11cam15_0.0.17_iphoneos-arm64e.deb
+Size: 3240
+MD5sum: f2cd4292723b968cb28dfd9d2c9fa400
+SHA1: 439b99c5c6295522614665887e7e57e6ad089e9d
+SHA256: 61cb0fb9ba814b9ac0dc5c486f0945e13feef1e1cbb1cb43994cfd5455fc1084
+Section: Tweaks
+Description: New Camera app for iOS 15 & 16
+Author: Michael Melita, Flylarb & Ezekiel1998
+Depiction: https://jtisvn.github.io/depictions/11Cam15.html
+Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
+Name: 11Cam15 (Roothide)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/11Cam15.json
+
 Package: com.jtis.2dockx
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -3491,39 +3530,6 @@ Author: fiore & p2kdev & 妖刀
 Icon: https://jtisvn.github.io/sectionIcons/CCbonder16.png
 Name: CCBorder16 (Rootless)
 Sileodepiction: https://jtisvn.github.io/sileodepictions/CCbonder16.json
-
-Package: com.jtis.Cartoo
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.Cartoo_1.0_iphoneos-arm64.deb
-Size: 371856
-MD5sum: 98b3c4e62b5db597b1a29518ed0bd01b
-SHA1: 5b351ec96d06d18f6b8223c1adfc79e035f205e2
-SHA256: 04a48b2272a9a229ef444c93832369203bd610ffbb5f16d244080e657779d459
-Section: Chủ đề
-Description: Cài đặt chủ đề cho trình quay số & mặt khẩu màn hình khoá.
-Author: Yangji
-Icon: https://jtisvn.github.io/sectionIcons/Themes.png
-Name: Cartoo Passcode
-Sileodepiction: https://jtisvn.github.io/sileodepictions/Cartoo.json
-
-Package: com.jtis.Cartoo
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: JTIS Repo
-Filename: ./debs/com.jtis.cartoo_1.0_iphoneos-arm64e.deb
-Size: 369622
-MD5sum: c32daf8a1a42186ed18ea13bdf422c47
-SHA1: c75359b8c23b848f22a866dfed8fbfc14d2d6e03
-SHA256: 1338befb504e5e33800ccd8da1b9fde3d9b7ff11adbe367bb24e2255f3a7cb41
-Section: Chủ đề
-Description: Cài đặt chủ đề cho trình quay số & mặt khẩu màn hình khoá.
-Author: Yangji
-Icon: https://jtisvn.github.io/sectionIcons/Themes.png
- Pre-Depends: rootless-compat(>= 0.9)
-Name: Cartoo Passcode
-Sileodepiction: https://jtisvn.github.io/sileodepictions/Cartoo.json
 
 Package: com.jtis.ChromaSettings
 Version: 1.1
@@ -7169,6 +7175,39 @@ Depiction: http://jtisvn.github.io/depiction/Tinhchinh.html
 Dev: moshehri83
 Icon: https://jtisvn.github.io/sectionIcons/Caidat.png
 Name: CameraMobile
+
+Package: com.jtis.cartoo
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.cartoo_1.1_iphoneos-arm64.deb
+Size: 371868
+MD5sum: 136d48305b35fcda726e0d275e2d94d2
+SHA1: 426b8c96cc7369e0f14148c1612ae878b545d01f
+SHA256: 46f03346a932afcec99cd5564e30a89646d6c030b97c91fa70840acd1d516fd9
+Section: Chủ đề
+Description: Cài đặt chủ đề cho trình quay số & mặt khẩu màn hình khoá.
+Author: Yangon
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+Name: Cartoo Dialer Passcode
+Sileodepiction: https://jtisvn.github.io/sileodepictions/Cartoo.json
+
+Package: com.jtis.cartoo
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: JTISVN Repo
+Filename: ./debs/com.jtis.cartoo_1.1_iphoneos-arm64e.deb
+Size: 369640
+MD5sum: 098f253b77ab5b468e289542f639e07a
+SHA1: 54b8254754fc4f187cfaafc19d73c3443703e744
+SHA256: 262c2f974a5f7370f90bd4348085619ad24a2cd761eb37279ce27b6bf390c42b
+Section: Chủ đề
+Description: Cài đặt chủ đề cho trình quay số & mặt khẩu màn hình khoá.
+Author: Yangon
+Icon: https://jtisvn.github.io/sectionIcons/Themes.png
+ Pre-Depends: rootless-compat(>= 0.9)
+Name: Cartoo Dialer Passcode
+Sileodepiction: https://jtisvn.github.io/sileodepictions/Cartoo.json
 
 Package: com.jtis.cask2
 Version: 1.2.0
@@ -18192,6 +18231,51 @@ Author: Kitsudo
 Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
 Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 Name: NexusBoard (Rootless)
+Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
+
+Package: com.kitsudo.nexusboard
+Version: 4.8
+Architecture: iphoneos-arm64
+Maintainer: JTISVN Repo
+Installed-Size: 3252
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
+Filename: ./debs/com.kitsudo.nexusboard_4.8_iphoneos-arm64.deb
+Size: 772744
+MD5sum: 6475846164880a3a2c97ab362e6d59a7
+SHA1: 4dc7df92f85d5412424c9fe17b06cc51fb3525b3
+SHA256: 31742ba95ec0168b8fce0411f7dd8fca452e3d2742f42ec92451ed013c28a28e
+Section: Tweaks
+Homepage: https://jtisvn.github.io/
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Author: Kitsudo
+Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
+Name: NexusBoard (Rootless)
+Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
+
+Package: com.kitsudo.nexusboard
+Version: 4.8
+Architecture: iphoneos-arm64e
+Maintainer: JTISVN Repo
+Installed-Size: 3252
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
+Filename: ./debs/com.kitsudo.nexusboard_4.8_iphoneos-arm64e.deb
+Size: 772876
+MD5sum: debfdfc8561d934abe27549a39ea9b46
+SHA1: 8c02af16198cd2b66f497187226cde2af0505748
+SHA256: 8179b2cb37b7f01466ebcd088f90e1a0248b2fd3cf374947b1b2f2d9541fb609
+Section: Tweaks
+Homepage: https://jtisvn.github.io/
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Author: Kitsudo
+Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
+Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
+Name: NexusBoard (Roothide)
 Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
 
 Package: com.kitsudo.picturemodulevh
