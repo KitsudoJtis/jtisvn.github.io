@@ -101,7 +101,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "2.1.0",
+"text": "2.2.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -155,7 +155,7 @@
 "views":[
 {
 "class":"DepictionMarkdownView",
-"markdown":"### Phiên bản 2.1.0\n\n- Cập nhật ngôn ngữ Tiếng Việt.\n- Sửa lỗi và cải thiện một số tính năng."
+"markdown":"### Phiên bản 2.2.0\n\n- Cập nhật ngôn ngữ Tiếng Việt.\n- Thêm một số tính năng."
 },
 {
 "class":"DepictionLabelView",

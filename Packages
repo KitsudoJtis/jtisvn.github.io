@@ -10938,16 +10938,16 @@ Name: IconRotation (Rootless)
 Sileodepiction: https://jtisvn.github.io/sileodepictions/IconRotation.json
 
 Package: com.jtis.igformat
-Version: 2.1.0-1+debug
+Version: 2.2.0
 Architecture: iphoneos-arm64
 Maintainer: MrDeNsor
 Installed-Size: 2564
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.igformat_2.1.0-1+debug_iphoneos-arm64.deb
-Size: 396824
-MD5sum: 96b02a5d89a3a476b9533cc8e354c828
-SHA1: 7454fd6526365e62c7760c654db5918649f88c5a
-SHA256: 5194aaf4f62423e47decfee36b566f7a5de88a6390276a5989f28c90aa564211
+Filename: ./debs/com.jtis.igformat_2.2.0_iphoneos-arm64.deb
+Size: 397672
+MD5sum: 0cadd432b0ca209978c6d23cc25b16a6
+SHA1: e189e16fb42351bff19b14807033470a747a3a52
+SHA256: bf010a45d41b560f23b65ca1a2b0c12fc558bacb920fb96c84237f780c1e71e9
 Section: Tweaks
 Description: Powerful Instagram Tweak
 Author: MrDeNsor
@@ -10957,17 +10957,17 @@ Name: IGFormat (Rootless)
 Sileodepiction: https://jtisvn.github.io/sileodepictions/IGFormat.json
 
 Package: com.jtis.igformat
-Version: 2.1.0-1+debug
+Version: 2.2.0
 Architecture: iphoneos-arm64e
 Maintainer: MrDeNsor
 Installed-Size: 2564
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jtis.igformat_2.1.0-1+debug_iphoneos-arm64e.deb
-Size: 383092
-MD5sum: cf4f9acd907b40a058ba6254b70b31fa
-SHA1: c6c378d191b079ad8f7f88d39c499b0bb9ecf0df
-SHA256: 191e8307b5b46b909f6495311aa28f5902d899c0ec05144c1cf4789334594ca4
+Filename: ./debs/com.jtis.igformat_2.2.0_iphoneos-arm64e.deb
+Size: 396240
+MD5sum: f57c53d3a3ca4f0e9a3a688625cb0269
+SHA1: bbe6724a5a77bae6009d5a89ef63008ac5b47409
+SHA256: 54cc9de27df7e3636a8cd883964c3abe05182e3cbef0d5853c3560445641a3df
 Section: Tweaks
 Description: Powerful Instagram Tweak
 Author: MrDeNsor
@@ -15553,6 +15553,25 @@ Author: Netskao
 Icon: https://jtisvn.github.io/sectionIcons/Swiftgramcrack.png
 Name: Swiftgram Crack
 Sileodepiction: https://jtisvn.github.io/sileodepictions/Swiftgramcrack.json
+
+Package: com.jtis.switchicon
+Version: 5.2.0-131
+Architecture: iphoneos-arm64e
+Maintainer: Axs
+Installed-Size: 836
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.jtis.switchicon_5.2.0-131_iphoneos-arm64e.deb
+Size: 120256
+MD5sum: 33c41ff04e38168e9a2b49360dd4fb79
+SHA1: bc1fe85f0ed3a755dab6d6e5db6e168a4cc1ca20
+SHA256: 363164088a70862fef5e3eb8c5cdd8f2e6d44c90733b932e3ee3cd5c5e40cd5e
+Section: Tweaks
+Description: Tùy biến toàn bộ công tắc hệ thống (UISwitch), mang lại giao diện cá tính và độc đáo hơn cho các nút bật/tắt nguyên bản;
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/switchicon.png
+Name: Switch Icon (Roothide)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/SwitchIcon.json
 
 Package: com.jtis.switchtheme
 Version: 1.0.0
