@@ -7025,6 +7025,43 @@ Icon: https://jtisvn.github.io/sectionIcons/CalculatorHistory.png
 Name: CalculatorHistory (Rootless)
 Sileodepiction: https://jtisvn.github.io/sileodepictions/CalculatorHistory.json
 
+Package: com.jtis.calculatorhistory
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: fiore
+Installed-Size: 436
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.calculatorhistory_1.3_iphoneos-arm64e.deb
+Size: 44668
+MD5sum: 183e28e0a2e305aad0722c28740fb069
+SHA1: 0a057f4a0e940b1b4323071cce02a155e7501d6b
+SHA256: c2b0019e33f058197a3b406a0626c97176bff2293b321d92a6b64c505443033a
+Section: Tweaks
+Description: Calculator gains history!
+Author: fiore
+Icon: https://jtisvn.github.io/sectionIcons/CalculatorHistory.png
+Name: CalculatorHistory (Roothide)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/CalculatorHistory.json
+
+Package: com.jtis.calculatorhistory
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: fiore
+Installed-Size: 436
+Depends: mobilesubstrate
+Filename: ./debs/com.jtis.calculatorhistory_1.3_iphoneos-arm64.deb
+Size: 45684
+MD5sum: cd2c84986b6623fdd16e05ef50f76c33
+SHA1: 7cc0838b83f81b7e564e83a5295a775598ecda0e
+SHA256: 8c93eeab057fd425385ddda1b00b4629b907089aa1535a0f1965ff54780ad872
+Section: Tweaks
+Description: Calculator gains history!
+Author: fiore
+Icon: https://jtisvn.github.io/sectionIcons/CalculatorHistory.png
+Name: CalculatorHistory (Rootless)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/CalculatorHistory.json
+
 Package: com.jtis.callassist15
 Version: 2.1.7
 Architecture: iphoneos-arm64e
@@ -10899,6 +10936,45 @@ Author: Paisseon
 Icon: https://jtisvn.github.io/sectionIcons/IconRotation.png
 Name: IconRotation (Rootless)
 Sileodepiction: https://jtisvn.github.io/sileodepictions/IconRotation.json
+
+Package: com.jtis.igformat
+Version: 2.1.0-1+debug
+Architecture: iphoneos-arm64
+Maintainer: MrDeNsor
+Installed-Size: 2564
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.igformat_2.1.0-1+debug_iphoneos-arm64.deb
+Size: 396824
+MD5sum: 96b02a5d89a3a476b9533cc8e354c828
+SHA1: 7454fd6526365e62c7760c654db5918649f88c5a
+SHA256: 5194aaf4f62423e47decfee36b566f7a5de88a6390276a5989f28c90aa564211
+Section: Tweaks
+Description: Powerful Instagram Tweak
+Author: MrDeNsor
+Depiction: https://jtisvn.github.io/depictions/IGFormat.html
+Icon: https://jtisvn.github.io/sectionIcons/IGFormat.png
+Name: IGFormat (Rootless)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/IGFormat.json
+
+Package: com.jtis.igformat
+Version: 2.1.0-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: MrDeNsor
+Installed-Size: 2564
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jtis.igformat_2.1.0-1+debug_iphoneos-arm64e.deb
+Size: 383092
+MD5sum: cf4f9acd907b40a058ba6254b70b31fa
+SHA1: c6c378d191b079ad8f7f88d39c499b0bb9ecf0df
+SHA256: 191e8307b5b46b909f6495311aa28f5902d899c0ec05144c1cf4789334594ca4
+Section: Tweaks
+Description: Powerful Instagram Tweak
+Author: MrDeNsor
+Depiction: https://jtisvn.github.io/depictions/IGFormat.html
+Icon: https://jtisvn.github.io/sectionIcons/IGFormat.png
+Name: IGFormat (Roothide)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/IGFormat.json
 
 Package: com.jtis.immortalizer
 Version: 2.0.0-1
